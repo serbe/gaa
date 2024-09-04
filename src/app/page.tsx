@@ -5,10 +5,10 @@ export default function Page() {
       <div></div>
       <div className="">
         <p className="pb-5 text-2xl font-bold">Get your RaceLad</p>
-        <button className="rounded-full bg-slate-900 px-5 py-2 text-white">Connect Wallet</button>
+        <button className="rounded-full bg-slate-900 px-5 py-2 text-white">
+          Connect Wallet
+        </button>
       </div>
     </div>
   );
 }
-
-
