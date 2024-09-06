@@ -1,15 +1,19 @@
 import Link from "next/link";
 
 const menuItems = [
-  { name: "Home", url: "/" },
-  { name: "About", url: "/about" },
-  { name: "Roadmap", url: "/roadmap" },
-  { name: "Socials", url: "/socials" },
-  { name: "Events", url: "/events" },
-  { name: "Collections", url: "/collections" },
-  { name: "Merch", url: "/merch" },
-  { name: "Mint now", url: "/mint" },
-  { name: "Partners", url: "/partners" },
+  { name: "Домой", url: "/" },
+  { name: "О нас", url: "/ruabout" },
+  { name: "Дорожная карта", url: "/ruroadmap" },
+  { name: "События", url: "/rusocials" },
+  { name: "Создай NFT", url: "/rumint" },
+  { name: "Racepoint", url: "/ruracepoint" },
+  { name: "Партнеры", url: "/rupartners" },
+  { name: "Социальные сети", url: "rusocials" },
+  { name: "Авторизация", url: "/ruautorization" },
+  { name: "Подключить кошелек", url: "/ruconnectwallet" },
+  { name: "En", url: "/en" },
+  { name: "Ru", url: "/ru" },
+
 ];
 
 const Nav = () => {
