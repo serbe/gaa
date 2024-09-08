@@ -13,7 +13,6 @@ const menuItems = [
   { name: "Подключить кошелек", url: "/ruconnectwallet" },
   { name: "En", url: "/en" },
   { name: "Ru", url: "/ru" },
-
 ];
 
 const Nav = () => {

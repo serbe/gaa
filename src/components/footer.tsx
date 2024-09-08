@@ -80,50 +80,26 @@ const Footer = () => {
             <a href="https://x.com/RaceLads" title="Twitter">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                x="0px"
-                y="0px"
+                id="Capa_1"
+                data-name="Capa 1"
+                viewBox="0 0 24 24"
                 width="30"
                 height="30"
-                viewBox="0,0,256,256"
+                version="1.1"
               >
-                <g
-                  fill="none"
-                  fill-rule="none"
-                  stroke="none"
-                  stroke-width="1"
-                  stroke-linecap="butt"
-                  stroke-linejoin="miter"
-                  stroke-miterlimit="10"
-                  stroke-dasharray=""
-                  stroke-dashoffset="0"
-                  font-family="none"
-                  font-weight="none"
-                  font-size="none"
-                  text-anchor="none"
-                  className="mix-blend-normal"
-                >
-                  <g transform="scale(5.33333,5.33333)">
-                    <path
-                      d="M38,42h-28c-2.209,0 -4,-1.791 -4,-4v-28c0,-2.209 1.791,-4 4,-4h28c2.209,0 4,1.791 4,4v28c0,2.209 -1.791,4 -4,4z"
-                      fill="#1798d2"
-                      fill-rule="evenodd"
-                    ></path>
-                    <path
-                      d="M34.257,34h-6.437l-13.991,-20h6.437zM28.587,32.304h2.563l-11.651,-16.608h-2.563z"
-                      fill="#ffffff"
-                      fill-rule="nonzero"
-                    ></path>
-                    <path
-                      d="M15.866,34l7.203,-8.344l-0.942,-1.249l-8.304,9.593z"
-                      fill="#ffffff"
-                      fill-rule="nonzero"
-                    ></path>
-                    <path
-                      d="M24.45,21.721l0.905,1.289l7.781,-9.01h-2z"
-                      fill="#ffffff"
-                      fill-rule="nonzero"
-                    ></path>
-                  </g>
+                <g transform="matrix(1,0,0,1,0,0)">
+                  <polygon
+                    points="6.861 6.159 15.737 17.764 17.097 17.764 8.322 6.159 6.861 6.159"
+                    fill="#00cbffff"
+                    data-original-color="#000000ff"
+                    stroke="none"
+                  />
+                  <path
+                    d="m12,0C5.373,0,0,5.373,0,12s5.373,12,12,12,12-5.373,12-12S18.627,0,12,0Zm3.063,19.232l-3.87-5.055-4.422,5.055h-2.458l5.733-6.554-6.046-7.91h5.062l3.494,4.621,4.043-4.621h2.455l-5.361,6.126,6.307,8.337h-4.937Z"
+                    fill="#00cbffff"
+                    data-original-color="#000000ff"
+                    stroke="none"
+                  />
                 </g>
               </svg>
             </a>
