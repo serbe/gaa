@@ -8,11 +8,7 @@ const menuItems = [
   { name: "Создай NFT", url: "/rumint" },
   { name: "Racepoint", url: "/ruracepoint" },
   { name: "Партнеры", url: "/rupartners" },
-  { name: "Социальные сети", url: "rusocials" },
-  { name: "Авторизация", url: "/ruautorization" },
-  { name: "Подключить кошелек", url: "/ruconnectwallet" },
-  { name: "En", url: "/en" },
-  { name: "Ru", url: "/ru" },
+  { name: "Социальные сети", url: "/rusocials" },
 ];
 
 const Nav = () => {

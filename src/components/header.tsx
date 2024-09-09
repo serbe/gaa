@@ -1,14 +1,28 @@
+import Link from "next/link";
+import Image from "next/image";
+
 const Header = () => {
   return (
-    <header className="bg-white">
-      <div className="row flex px-12">
-        <div className="px-6">
-          <p className="text-6xl text-slate-800">GAA</p>
+    <header className="bg-sky-50">
+      <div className="flex">
+        <div className="w-1/2 px-8 pt-2">
+          <Image src={`/logo/logo_cr.png`} alt="GAA" width="200" height="90" />
         </div>
-        <div className="pt-1 text-xs tracking-[0.4em] text-slate-800">
-          <p>Global</p>
-          <p>Automotive</p>
-          <p>Association</p>
+        <div className="w-1/2">
+          <div className="flex justify-end p-8">
+            <div className="mx-2">
+              <Link href="/ruautorization">Авторизация</Link>
+            </div>
+            <div className="mx-2">
+              <Link href="/ruconnectwallet">Подключить кошелек</Link>
+            </div>
+            <div className="mx-2">
+              <Link href="/en">En</Link>
+            </div>
+            <div className="mx-2">
+              <Link href="/ru">Ru</Link>
+            </div>
+          </div>
         </div>
       </div>
     </header>

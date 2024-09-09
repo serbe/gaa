@@ -1,11 +1,15 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Roboto } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/header";
 import Nav from "@/components/nav";
 import Footer from "@/components/footer";
 
-const inter = Inter({ subsets: ["latin"] });
+const inter = Roboto({
+  weight: ["100", "300", "400", "500", "700", "900"],
+  style: ["normal", "italic"],
+  subsets: ["latin", "cyrillic"],
+});
 
 export const metadata: Metadata = {
   title: "GAA",
@@ -23,7 +27,7 @@ export default function RootLayout({
         <div className={inter.className}>
           <Header />
           <Nav />
-          <main className="h-screen">{children}</main>
+          <main className="bg-sky-50">{children}</main>
           <Footer />
         </div>
       </body>
