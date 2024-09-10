@@ -27,7 +27,7 @@ export default function RootLayout({
         <div className={inter.className}>
           <Header />
           <Nav />
-          <main className="bg-sky-50">{children}</main>
+          <main className="min-h-screen bg-sky-50">{children}</main>
           <Footer />
         </div>
       </body>
