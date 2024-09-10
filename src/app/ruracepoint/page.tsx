@@ -1,166 +1,216 @@
 export default function Page() {
   return (
     <div>
-      Racepoint
-      
-      Racepoint - наша внутренняя система накопления "очков" на
-      аккаунт. В будущем возможно преобразовать в коин, пока что просто "число"
-      на сайте. Как зарабатывать: 1. Заходить на сайт и решать квизы, которые
-      обновляются раз в неделю, 1 аккаунт = один квиз в неделю. 2. Купить нашу
-      NFT и получать поинты по нажатию кнопки на сайте раз в неделю (нужно
-      коннектить кошелек). Больше NFT = больше поинтов в неделю можно получать.
-      3. Приглашать друзей пройти квиз (реферральная ссылка) и получать за это поинты.
-      5. Можно придумать еще много механик заработка поинтов (например участие в онлайн гонках в автосимуляторах под нашей эгидой и тд).
-
-      Можно добавить систему рейтинга / лицензий по аналогии с автоспортом и вывести доску почета на сайт (больше поинтов = выше твое место в общем зачете).
-
-
-      Приветственный бонус:
-
-      За регистрацию на сайте
-      получите 100 приветственных бонусов
-
-      Мы ценим конфиденциальность:
-      в качестве регистрации достаточно
-      MetaMask или E-mail
-
-      Ежедневная награда
-
-      за ежедневный вход на сайт
-      мы благодарим посетителей предоставлением Racepoints
-
-      Реферальная программа
-
-      пригласи друга по реферальной ссылке - получи Racepoints
+<div className="pb-5 text-center font-bold  text-orange-400 text-6xl">Racepoint
+    </div>
+    <div className="pb-5 text-center font-bold text-orange-400 text-4xl">by Global Automotive Association
+    </div>
+        <div className="my-5 rounded-3xl border-4  border-orange-400  p-6">
+        <div className="pb-5 text-center ">
+        Racepoint - наша внутренняя система накопления "очков" на аккаунт. В будущем возможно преобразовать в коин, пока что просто "число" на сайте.
+        </div>
+        <div className="pb-5 text-center ">
+        Как зарабатывать:
+        </div>
+       <div className="pb-5 text-center ">
+       1. Заходить на сайт и решать квизы, которые обновляются раз в неделю, 1 аккаунт = один квиз в неделю.
+        </div>
+        <div className="pb-5 text-center ">
+        2. Купить нашу NFT и получать поинты по нажатию кнопки на сайте раз в неделю (нужно коннектить кошелек). Больше NFT = больше поинтов в неделю можно получать.
+        </div>
+        <div className="pb-5 text-center ">
+        3. Приглашать друзей пройти квиз (реферральная ссылка) и получать за это поинты.
+        </div>
+        <div className="pb-5 text-center ">
+        4. Создание прогрессивной механик получения поинтов (например участие в онлайн гонках в автосимуляторах на приз GAA и тд).
+        </div>
+       <div className="pb-5 text-center ">
+       Страница создания NFT    
+       </div>
+       </div>
 
 
-      Участвуй
-      в опросах и викторинах
+       <div className="pb-5 text-center font-bold  text-orange-400 text-4xl">Racepoint
+    </div>
+        <div className="my-5 rounded-3xl border-4  border-orange-400  p-6">
+        <div className="pb-5 text-center ">
+        Приветственный бонус:
+        </div>
+        <div className="pb-5 text-center ">
+        За регистрацию на сайте получите 100 приветственных бонусов      
+          </div>
+       </div>
+       <div className="my-5 rounded-3xl border-4  border-orange-400  p-6">
+        <div className="pb-5 text-center ">
+        Мы ценим конфиденциальность:      
+          </div>
+        <div className="pb-5 text-center ">
+        в качестве регистрации достаточно MetaMask или E-mail
+                  </div>
+       </div>
+       <div className="my-5 rounded-3xl border-4  border-orange-400  p-6">
+        <div className="pb-5 text-center ">
+        Ежедневная награда
+        </div>
+        <div className="pb-5 text-center ">
+        за ежедневный вход на сайт мы благодарим посетителей предоставлением Racepoints
+        </div>
+       </div>
+       <div className="my-5 rounded-3xl border-4  border-orange-400  p-6">
+        <div className="pb-5 text-center ">
+        Реферальная программа
+        </div>
+        <div className="pb-5 text-center ">
+        пригласи друга по реферальной ссылке - получи Racepoints
+        </div>
+       </div>
 
-      Участвуй в опросах и викторинах
-      за пройденый опрос получи Racepoints
+       <div className="pb-5 text-center font-bold  text-orange-400 text-4xl">Участвуй
+    </div>
+    <div className="pb-5 text-center font-bold  text-orange-400 text-4xl">в опросах и викторинах
+    </div>
+        <div className="my-5 rounded-3xl border-4  border-orange-400  p-6"> 
+        <div className="pb-5 text-center ">
+        Участвуй в опросах и викторинах за пройденый опрос получи Racepoints       
+         </div>
+    
+       </div>
+       <div className="my-5 rounded-3xl border-4  border-orange-400  p-6"> 
+       <div className="pb-5 text-center ">
+                Квиз   </div>
+       </div>
+       <div className="my-5 rounded-3xl border-4  border-orange-400  p-6"> 
+        <div className="pb-5 text-center ">
+        Отвечай на вопросы, связанные с миром автоспорта и автокультуры за правильный ответ получи Racepoints         </div>
+    
+       </div>
+       <div className="my-5 rounded-3xl border-4  border-orange-400  p-6"> 
+       <div className="pb-5 text-center ">
+                Квиз   </div>
+       </div>
 
-      -----------------------------
-      Автоспорт, автокультура
-      Какое направления автоспорта, автокультуры Вам больше всего нравится?
-      Drift
-      Touring Car Racing (TCR)
-      Open Wheels
-      Dragracing
-      Stance
-      Rally
-      Auto Sound
-      Oldtimer
-      Simracing
-      Другое
-      ----------------------------------
+       <div className="my-5 rounded-3xl border-4  border-orange-400  p-6"> 
+       <div className="pb-5 text-center ">
+       Бонусы начисляются:   
+       </div>
+       <ul className="list-disc px-5">
+          <li>
+          за правильные ответ викторины
+          </li>
+          <li>
+          за пройденные опросы
+          </li>
+          <li>
+          по реферальной программе
+          </li>
+    
+          <div className="pb-5"></div>
+        </ul>
+        <div className="pb-5 text-center ">
+        зарегистрированные пользователи смогут получить    
+       </div>
+       <div className="pb-5 text-center ">
+       от 10 до 100 Racepoints
+              </div>
+       </div>
 
-      Автоспорт, автокультура
-      Автоспорт, автокультура
-      Какое отношение Вы имеете к автоспорту, автокультуре?
-      Я зритель, автоспорт смотрю по телевизору, интернету
-      Я Пилот автоспортивной команды
-      Я участник автоспортивной команды
-      Я организатор автоспортивных и автокультурных мероприятий
-      У меня арендный бизнес спортивных автомобилей
-      Я спонсор автоспортивных и автокультурных мероприятий
-      Я коллекционирую автомобили, участник авто мероприятий
-      Мои дети занимаются автоспортом
-      Я коллекционирую NFT
+       <div className="pb-5 text-center font-bold  text-orange-400 text-4xl">WhiteList
+       </div>
+       <div className="my-5 rounded-3xl border-4  border-orange-400  p-6"> 
+        <div className="pb-5 text-center ">
+        Level - 1    PreMint 10% off
+       </div>
+       </div>
 
-      ------------------------------------
+       <div className="my-5 rounded-3xl border-4  border-orange-400  p-6"> 
+        <div className="pb-5 text-center ">
+        Level - 2    PreMint 30% off
+       </div>
+       </div>
 
-      NFT
-      Какое у вас отношение к NFT?
-      У меня есть NFT
-      У меня есть криптокошелек, слышал(а) про NFT, но NFT нет.
-      Я слышал про NFT, но как приобрести, как создать NFT я не знаю.
-      Я не знаю, что такое NFT
-      Мне NFT не нужны и знать про NFT ничего не хочу
+       <div className="my-5 rounded-3xl border-4  border-orange-400  p-6"> 
+        <div className="pb-5 text-center ">
+        Level - 3    PreMint 30% off
+       </div>
+       </div>
 
-      --------------------------------------------
+       <div className="my-5 rounded-3xl border-4  border-orange-400  p-6"> 
+       <div className="pb-5 text-center ">
+       Вашу активность мы оцениваем бонусами Racepoints
+          </div>
+          <div className="pb-5 text-center ">
+          Ваши Racepoints - Ваши преимущества
+          </div>
+          <div className="pb-5 text-center ">
+          Самые активные получат доступ в White List и эксклюзивный доступ к Pre Mint NFT
+          </div>
+       </div>
 
-      NFT
-      Какие из сервисов Web3, блокчейн, NFT Вы бы хотели увидеть в автоспорте и автокультуре в первую очередь?
-      NFT награды для победителей, участников и членов команд
-      Коллекцию NFT Пилотов
-      Коллекцию NFT членов команд
-      Коллекцию NFT раритетных, спортивных автомобилей
-      Коллекция NFT с эксклюзивными условиями для держателей
-
-      ----------------------------------------------
-
-
-      Отвечай на вопросы, связанные с миром автоспорта и автокультуры
-      за правильный ответ получи Racepoints
-
-      квиз
-
-
-      Бонусы начисляются:
-      за правильные ответ викторины
-      за пройденные опросы
-      по реферальной программе
-
-      зарегистрированные пользователи смогут получить
-      от 10 до 100 Racepoints
-
-
-      WhiteList
-
-      Level - PreMint 10% off
-      Leve2 - PreMint 20% off
-      Leve3 - PreMint 30% off
-
-      Вашу активность
-      мы оцениваем бонусами Racepoints
-
-      Ваши Racepoints - Ваши преимущества
-
-      Самые активные получат доступ в White List и эксклюзивный доступ к Pre Mint NFT
-
-      Розыгрыш NFT
-
-      После минта коллекции RaceLads проведем розыгрыш NFT из коллекции:
-
-      среди 10% самых активных пользователей зарегистрированных на сайте
-
-      среди всех зарегистрированных на сайте
-
-      среди активных пользователей, продвигающих Проект
-
-      среди пилотов и членов команд автоспортивного и автокультурного сообщества
-
-      среди промоутеров автоспортивных и автокультурных мероприятий
-
-      среди партнеров
-
-      Шансы повышаются от активной позиции в развитии Global Automotive Association (DAO)
-
-
-
-
-      Преференции
-
-      Держатели NFT из коллекции RaceLads смогут
-
-      участвовать в развитии
-      Global Automotive Association (DAO)
-
-      провести минт NFT
-      будующих коллекций от
-      Global Automotive Association (DAO)
-      с дисконтом
-
-      приять участие в
-      розыгрышах NFT и AirDrop от
-      Global Automotive Association (DAO)
-
-      воспользоваться новыми возможностями личностного развития и роста вместе с
-      Global Automotive Association (DAO)
+       <div className="pb-5 text-center font-bold  text-orange-400 text-4xl">Розыгрыш NFT
+       </div>
+       <div className="my-5 rounded-3xl border-4  border-orange-400  p-6"> 
+        <div className="pb-5 text-center ">
+        После минта коллекции RaceLads проведем розыгрыш NFT из коллекции:
+       </div>
+       <ul className="list-disc px-5">
+          <li>
+          среди 10% самых активных пользователей зарегистрированных на сайте
+                    </li>
+          <li>
+          среди всех зарегистрированных на сайте
+          </li>
+          <li>
+          среди активных пользователей, продвигающих Проект
+          </li>
+          <li>
+          среди пилотов и членов команд автоспортивного и автокультурного сообщества
+          </li>
+          <li>
+          среди промоутеров автоспортивных и автокультурных мероприятий
+          </li>
+          <li>
+          среди партнеров
+          </li>
+          <div className="pb-5"></div>
+        </ul>
+        <div className="pb-5 text-center ">
+        Шансы повышаются от активной позиции в развитии Global Automotive Association (DAO)
+        </div>
+       </div>
+    
+       <div className="pb-5 text-center font-bold  text-orange-400 text-4xl">Преференции
+       </div>
+       <div className="pb-5 text-center font-bold  text-orange-400 text-2xl">Держатели NFT из коллекции RaceLads смогут
+       </div>
+       <div className="my-5 rounded-3xl border-4  border-orange-400  p-6"> 
+        <div className="pb-5 text-center ">
+        участвовать в развитии Global Automotive Association (DAO)
+        </div>
+        </div>
+        <div className="my-5 rounded-3xl border-4  border-orange-400  p-6"> 
+        <div className="pb-5 text-center ">
+        провести минт NFT будующих коллекций от Global Automotive Association (DAO) с дисконтом
+        </div>
+        </div>
+        <div className="my-5 rounded-3xl border-4  border-orange-400  p-6"> 
+        <div className="pb-5 text-center ">
+        провести минт NFT из коллекции CustomLads 
+        </div>
+        </div>
+        <div className="my-5 rounded-3xl border-4  border-orange-400  p-6"> 
+        <div className="pb-5 text-center ">
+        приять участие в розыгрышах NFT и AirDrop от Global Automotive Association (DAO)
+        </div>
+        </div>
+        <div className="my-5 rounded-3xl border-4  border-orange-400  p-6"> 
+        <div className="pb-5 text-center ">
+        воспользоваться новыми возможностями личностного развития и роста вместе с Global Automotive Association (DAO)      
+          </div>
+         
+       </div>
 
 
-
+     
     </div>
   );
 }
