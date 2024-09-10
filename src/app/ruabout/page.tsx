@@ -1,6 +1,6 @@
 export default function Page() {
   return (
-    <div className="mx-auto max-w-[1200px] px-10 py-2 text-xl">
+    <div className="px-10 py-2 text-xl">
       <div className="">
         Global Automotive Association (GAA) – это революционный блокчейн-проект,
         который объединяет всех любителей автоспорта и автомобилей в сильное и
