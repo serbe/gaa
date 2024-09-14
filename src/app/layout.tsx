@@ -5,7 +5,7 @@ import Header from "@/components/header";
 import Nav from "@/components/nav";
 import Footer from "@/components/footer";
 
-const inter = Roboto({
+const inter = Roboto ({
   weight: ["100", "300", "400", "500", "700", "900"],
   style: ["normal", "italic"],
   subsets: ["latin", "cyrillic"],

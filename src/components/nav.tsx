@@ -4,7 +4,7 @@ const menuItems = [
   { name: "Домой", url: "/" },
   { name: "О нас", url: "/ruabout" },
   { name: "Дорожная карта", url: "/ruroadmap" },
-  { name: "События", url: "/rusocials" },
+  { name: "События", url: "/ruevents" },
   { name: "Создай NFT", url: "/rumint" },
   { name: "Racepoint", url: "/ruracepoint" },
   { name: "Партнеры", url: "/rupartners" },
