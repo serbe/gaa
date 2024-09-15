@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
-import { Roboto } from "next/font/google";
+import { Roboto_Serif } from "next/font/google";
 import "./globals.css";
 import Header from "@/components/header";
 import Nav from "@/components/nav";
 import Footer from "@/components/footer";
 
-const inter = Roboto ({
+const inter = Roboto_Serif({
   weight: ["100", "300", "400", "500", "700", "900"],
   style: ["normal", "italic"],
   subsets: ["latin", "cyrillic"],
