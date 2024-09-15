@@ -946,12 +946,12 @@ export default function Page() {
       </div>
 ////////////////////////////////////// 
 
-      <div class="max-w-prose mx-auto p-8">
-  <details class="open:bg-sky-50 dark:open:bg-slate-900 open:ring-1 open:ring-black/5 dark:open:ring-white/10 open:shadow-lg p-6 rounded-lg" open>
-    <summary class="text-lm leading-6 text-slate-900 dark:text-white font-semibold select-none">
+      <div className="max-w-prose mx-auto p-8">
+  <details className="open:bg-sky-50 dark:open:bg-slate-900 open:ring-1 open:ring-black/5 dark:open:ring-white/10 open:shadow-lg p-6 rounded-lg" open>
+    <summary className="text-lm leading-6 text-slate-900 dark:text-white font-semibold select-none">
     Что такое Web3?
     </summary>
-    <div class="mt-3 text-xl leading-6 text-slate-600 dark:text-slate-400">
+    <div className="mt-3 text-xl leading-6 text-slate-600 dark:text-slate-400">
       <p>Web3 (или Web 3.0) — это концепция следующего поколения интернета,
           которая ориентирована на децентрализацию и использование
           блокчейн-технологий для создания более открытой и защищенной сети. В
@@ -1009,14 +1009,14 @@ export default function Page() {
 
 
 
-<div class="flex ...">
-  <div class="w-2/5 font-semibold">w-2/5
+<div className="flex ...">
+  <div className="w-2/5 font-semibold">w-2/5
   Генеративная коллекция
   RaceLads NFT
   Что такое Web3?
 Web3 (или Web 3.0) — это концепция следующего поколения интернета, которая ориентирована на децентрализацию и использование блокчейн-технологий для создания более открытой и защищенной сети. В отличие от Web 2.0, который характеризуется централизованными платформами и сервисами, Web3 предполагает использование децентрализованных приложений (dApps), умных контрактов и криптовалют для выполнения различных функций в интернете.
   </div>
-  <div class="w-3/5 ...">w-3/5 Сервис
+  <div className="w-3/5 ...">w-3/5 Сервис
   создания NFT наград на сайте Что такое Web3?
   Web3 (или Web 3.0) — это концепция следующего поколения интернета, которая ориентирована на децентрализацию и использование блокчейн-технологий для создания более открытой и защищенной сети. В отличие от Web 2.0, который характеризуется централизованными платформами и сервисами, Web3 предполагает использование децентрализованных приложений (dApps), умных контрактов и криптовалют для выполнения различных функций в интернете.</div>
 </div>
