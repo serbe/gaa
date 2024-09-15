@@ -16,6 +16,8 @@ export default function Page() {
           <button className="rounded-full bg-slate-900 px-5 py-2 text-white">
             Connect Wallet
           </button>
+
+          
         </div>
       </div>
 
