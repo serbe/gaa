@@ -1,232 +1,477 @@
+import Image from "next/image";
+
 export default function Page() {
   return (
-    <div className="px-10 py-2 text-xl">
-      <div className="">
-        Global Automotive Association (GAA) – это революционный блокчейн-проект,
-        который объединяет всех любителей автоспорта и автомобилей в сильное и
-        активное сообщество, нацеленное на популяризацию автомобильной культуры.
-      </div>
-      <div className="my-5 rounded-3xl border-4 border-gray-500 p-6 text-center">
-        <div className="pb-5">Наши амбициозные цели:</div>
-        <div className="pb-3">Создание активного сообщества:</div>
-        <div className="pb-3">
-          Объединяем фанатов автоспорта и автомобильной культуры в соцсетях и
-          мессенджерах (Telegram, Discord, X) для общения, новых знакомств и
-          обмена опытом.
-        </div>
-        <div className="pb-3">Партнерские отношения:</div>
-        <div className="pb-3">
-          Устанавливаем связи с организаторами и участниками крупнейших
-          автоспортивных событий (дрифт, кольцевые гонки, драг рейсинг,
-          симрейсинг, автовыставки) для совместных проектов и акций.
-        </div>
-      </div>
-      <div className="my-5 max-w-[300px] rounded-3xl border-4 border-gray-500 p-6 text-center">
-        10,000 уникальных NFTs в коллекции RaceLads
-      </div>
-      <div className="my-5 max-w-[400px] rounded-3xl border-4 border-gray-500 p-6 text-center">
-        первая коллекция Глобальной Автомобильной Ассоциации{" "}
-      </div>
-      <div className="text-center text-6xl font-bold">RaceLads</div>
-      <div className="my-5 rounded-3xl border-4 border-gray-500 p-6">
-        <div className="pb-3 text-center font-bold">
-          NFT коллекция «RaceLads»
-        </div>
-        <div className="pb-5">
-          Выпускаем первую NFT коллекцию, состоящую из 10.000 эксклюзивных и
-          уникальных цифровых художественных работ, вдохновленных самыми
-          захватывающими дисциплинами автогонок.
-        </div>
-        <div className="pb-5">
-          Каждый «RaceLad» в нашей коллекции – это не просто цифровое
-          изображение, а уникальный персонаж, обладающий различными
-          особенностями и запечатленный в блокчейне.
-        </div>
-        <div>
-          Владение NFT из нашей коллекции в будущем откроет вам доступ в
-          уникальный мир:
-        </div>
-        <ul className="list-disc px-5">
-          <li>
-            участвуйте в виртуальных гонках и других захватывающих
-            онлайн-событиях.
-          </li>
-          <li>
-            принимайте участие в ключевых голосованиях, влияющих на развитие
-            нашего сообщества.
-          </li>
-        </ul>
-      </div>
-      <div className="text-center text-6xl font-bold">Мы планируем</div>
-      <div className="text-center text-6xl font-bold">наше будущее</div>
-      <div className="my-5 rounded-3xl border-4 border-gray-500 p-6">
-        <div className="pb-3 text-center font-bold">
-          В наших планах также выпуск и других уникальных коллекций для:
-        </div>
-        <ul className="list-disc px-5">
-          <li>пилотов</li>
-          <li>
-            направлений автоспорта (дрифт, кольцевые гонки, драг рейсинг и т.д.)
-          </li>
-          <li>
-            коллекционеров редких автомобилей с возможностью цифровизации своего
-            автопарка и создания NFT в единой глобальной коллекции
-          </li>
-          <li>награждения победителей и призеров (кубки, медали)</li>
-          <li>выдачи цифровых лицензий</li>
-        </ul>
-        <div className="pb-3 text-center font-bold">
-          Уникальность коллекций заключается в
-        </div>
-        <ul className="list-disc px-5">
-          <li>ограниченном тираже уникальных объектов цифрового искусства</li>
-          <li>
-            принадлежности коллекции к Проекту автоспортивного и автокультурного
-            сообщества
-          </li>
-          <li>ограниченным перечнем коллекций цифрового исскусства</li>
-        </ul>
-      </div>
-      <div className="text-center text-6xl font-bold">NFT</div>
-      <div className="text-center text-6xl font-bold">Сервисы и Награды</div>
-      <div className="my-5 rounded-3xl border-4 border-gray-500 p-6">
-        <div className="pb-3 text-center font-bold">NFT Сервисы</div>
-        <div className="pb-5">
-          Создание сервиса цифровизации физических объектов в NFT и объединение
-          NFT в единые коллекции цифрового исскусства
-        </div>
-        <div className="pb-5">
-          создавайте, дарите, продавайте NFT по направлениям:
-        </div>
+    <div>
 
-        <ul className="list-disc px-5">
-          <li>Пилоты</li>
-          <li>Участники команд (дрифт, драг рейсинг и т.д.)</li>
-          <li>Коллекционеры редких автомобилей</li>
-          <li>Раритетные, спортивные и кастомизированные автомобили</li>
-          <div className="pb-5"></div>
-        </ul>
-        <div className="pb-5">
-          Единая глобальная коллекция автоспортивного и автокультурного
-          сообщества создаваемая самим сообществом
-        </div>
+<div className="flex flex-row p-2">
+      <div className="basis-1/6 text-center">01</div>
+      <div className="basis-1/6 text-center"> 02 </div>
+      <div className="basis-1/6 text-center">03</div>
+      <div className="basis-1/6 text-center">04</div>
+      <div className="basis-1/6 text-center">05</div>
+      <div className="basis-1/6 text-center">06</div>
+    </div>
+
+    <div className="flex flex-row p-2">
+      <div className="basis-1/5">01</div>
+      <div className="basis-3/5">
+        02
+        <div className="p-2 text-center text-6xl font-bold text-p1-darkgreen">
+        О Нас  </div>
       </div>
-      <div className="my-5 rounded-3xl border-4 border-gray-500 p-6">
-        <div className="pb-3 text-center font-bold">NFT Награды</div>
-        <div className="pb-5">
-          Формирование единой коллекции NFT наград - NFT Rewards
+      <div className="basis-1/5">03</div>
+    </div>
+
+    <div className="flex flex-row p-2">
+        <div className="basis-1/6">01</div>
+        <div className="basis-4/6 text-p1-darkgreen">
+        02
+          <div className="my-5 space-y-6 rounded-3xl p-2">
+            <div className="p-2 text-xl text-p1-darkgreen">
+            Global Automotive Association (GAA) – это революционный блокчейн-проект, который объединяет всех любителей автоспорта и автомобилей в сильное и активное сообщество, нацеленное на популяризацию автомобильной культуры.       
+            </div>
+          </div>
         </div>
-        <div className="pb-5">
-          На сайте мы предоставляем организаторам мероприятий возможность
-          создать уникальные NFT награды для победителей и участников
-          мероприятий и выход на новый уровень организации проведения
-          мероприятий{" "}
-        </div>
-        <div className="pb-5">
-          Все награды будут в единой коллекции автоспортивного и автокультурного
-          сообщества NFT Rewards
-        </div>
-        <div className="pb-5">
-          Для развития Проекта предоставляем лидерам направлений цифровые NFT
-          лицензии, расширяющие возможности и предоставляющие дополнительные
-          полномочия использования сайта.{" "}
-        </div>
+        <div className="basis-1/6">03</div>
       </div>
-      <div className="text-center text-6xl font-bold"> выгода владельцу </div>
-      <div className="text-center text-6xl font-bold">NFT RaceLad</div>
-      <div className="my-5 rounded-3xl border-4 border-gray-500 p-6">
-        <div className="pb-3 text-center font-bold">Уникальные привилегии</div>
-        <div className="pb-5">
-          Предоставляем нашим членам эксклюзивные бонусы:
+      
+      <div className="flex flex-row p-2">
+        <div className="basis-1/6">01</div>
+        <div className="basis-4/6 text-p1-darkgreen">
+        02
+          <div className="my-5 space-y-6 rounded-3xl p-2">
+            <div className="my-5 space-y-2 rounded-3xl border-4 border-p1-darkgreen p-6 text-center text-xl text-p1-darkgreen">
+            <p className="text-2xl font-bold">
+            Наши амбициозные цели:
+            </p>
+            <p>
+            Создание активного сообщества:
+            </p>
+            <p>
+            Объединяем фанатов автоспорта и автомобильной культуры в соцсетях и мессенджерах (Telegram, Discord, X) для общения, новых знакомств и обмена опытом.
+            </p>
+            <p className="text-2xl font-bold">
+            Партнерские отношения:
+            </p>
+            <p>
+            Устанавливаем связи с организаторами и участниками крупнейших автоспортивных событий (дрифт, кольцевые гонки, драг рейсинг, симрейсинг, автовыставки) для совместных проектов и акций.
+            </p>
+
+            </div>
+          </div>
         </div>
-        <ul className="list-disc px-5">
-          <li>билеты на мероприятия</li>
-          <li>участие в автограф и фото сессиях</li>
-          <li>участие в лекциях и экскурсиях</li>
-          <li>розыгрыши NFT</li>
-          <li>многое другое</li>
-          <div className="pb-5"></div>
-        </ul>
+        <div className="basis-1/6">03</div>
       </div>
-      <div className="my-5 rounded-3xl border-4 border-gray-500 p-6">
-        <div className="pb-3 text-center font-bold">
-          Собственные мероприятия
+
+      <div className="flex flex-row p-2">
+        <div className="basis-1/6">01</div>
+        <div className="basis-2/6 text-p1-darkgreen">
+        02
+          <div className="my-5 space-y-6 rounded-3xl p-2">
+            <div className="my-5 space-y-2 rounded-3xl border-4 border-p1-darkgreen p-6 text-center text-xl text-p1-darkgreen">
+            <p className="text-2xl font-bold">
+            10,000
+            </p>
+            <p>
+            уникальных NFT
+            </p>
+            <p>
+            в коллекции
+            </p>
+            <p className="text-2xl font-bold">
+            RaceLads
+            </p>
+            </div>
+          </div>
         </div>
-        <div className="pb-5">
-          Организуем такие мероприятия, как дрифт, гонки, автовыставки и
-          вечеринки под брендом GAA с участием спортсменов и лидеров мнений
-          (блогеров) с различными наградами (в том числе цифровыми).
+        <div className="basis-2/6 text-p1-darkgreen">
+        03
+         
         </div>
-        <div className="pb-5">
-          Члены нашего сообщества смогут подавать заявки и принимать участие в
-          голосованиях по выбору формата мероприятий, судей, участников и прочим
-          вопросам.
-        </div>
+        <div className="basis-1/6">04</div>
       </div>
-      <div className="my-5 rounded-3xl border-4 border-gray-500 p-6">
-        <div className="pb-3 text-center font-bold">
-          Децентрализованный портал
+
+
+
+      <div className="flex flex-row p-2">
+        <div className="basis-1/6">01</div>
+        <div className="basis-2/6 text-p1-darkgreen">
+        02
+          <div className="my-5 space-y-6 rounded-3xl p-2">
+          
+          </div>
         </div>
-        <div className="pb-5">
-          Разрабатываем сайт, который будет являться уникальным порталом, где
-          каждый сможет:
+        <div className="basis-2/6 text-p1-darkgreen">
+        03
+          <div className="my-5 space-y-6 rounded-3xl p-2">
+            <div className="my-5 space-y-2 rounded-3xl border-4 border-p1-darkgreen p-6 text-center text-xl text-p1-darkgreen">
+            <p>
+            первая коллекция
+            </p>
+            <p className="text-2xl font-bold">
+            Глобальной Автомобильной Ассоциации
+            </p>
+            </div>
+          </div>
         </div>
-        <ul className="list-disc px-5">
-          <li>быть в курсе последних новостей</li>
-          <li>ознакамливаться с результатами мероприятий</li>
-          <li>принимать участие в голосованиях</li>
-          <li>приобретать NFT из наших коллекций</li>
-          <li>приобретать NFT из наших коллекций</li>
-          <li>наслаждаться фото и видео материалами</li>
-          <li>загружать свой контент</li>
-          <li>реализовывать свои возможности</li>
-          <li>многое другое</li>
-          <div className="pb-5"></div>
-        </ul>
+        <div className="basis-1/6">04</div>
       </div>
-      <div className="my-5 rounded-3xl border-4 border-gray-500 p-6">
-        <div className="pb-3 text-center font-bold">
-          Выход на международный уровень
-        </div>
-        <div className="pb-5">
-          Расширяем наше присутствие на международной арене, чтобы объединить
-          автолюбителей по всему миру, стирая границы и расстояния.{" "}
-        </div>
-        <div className="pb-5">
-          Создание ежегодной круглогодичной международной серии и стандарта
-          мероприятий для автоспортивного и автокультурного сообщества.{" "}
-        </div>
+
+
+
+
+      <div className="flex flex-row p-2">
+      <div className="basis-1/5">01</div>
+      <div className="basis-3/5">
+        02
+        <div className="p-2 text-center text-6xl font-bold text-p1-darkgreen">
+        RaceLads  </div>
       </div>
-      <div className="text-center text-6xl font-bold"> WEB-3 </div>
-      <div className="my-5 rounded-3xl border-4 border-gray-500 p-6">
-        <div className="pb-3 text-center font-bold">Почему WEB-3?</div>
-        <div className="pb-5">
-          Реализация глобальной идеи Web3 на сегодняшний день до сих пор
-          находится на ранней стадии и еще не получила должного внимания в
-          обществе.
+      <div className="basis-1/5">03</div>
+    </div>
+
+
+    <div className="flex flex-row p-2">
+        <div className="basis-1/6">01</div>
+        <div className="basis-4/6 text-p1-darkgreen">
+        02
+          <div className="my-5 space-y-6 rounded-3xl p-2">
+            <div className="my-5 space-y-2 rounded-3xl border-4 border-p1-darkgreen p-6 text-center text-xl text-p1-darkgreen">
+            <p className="text-center text-2xl text-xl font-bold text-p1-darkgreen">
+            NFT коллекция «RaceLads»
+            </p>
+            <p className="text-left text-xl text-p1-darkgreen">
+            Выпускаем первую NFT коллекцию, состоящую из 10.000 эксклюзивных и уникальных цифровых художественных работ, вдохновленных самыми захватывающими дисциплинами автогонок.
+            </p>
+            <p className="text-left text-xl text-p1-darkgreen">
+            Каждый «RaceLad» в нашей коллекции – это не просто цифровое изображение, а уникальный персонаж, обладающий различными особенностями и запечатленный в блокчейне.
+            </p>
+            <p className="text-left text-xl text-p1-darkgreen">
+            Владение NFT из нашей коллекции в будущем откроет вам доступ в уникальный мир драйва на Web3:
+            </p>
+            <ul className="list-disc space-y-3 px-5 text-p1-darkgreen">
+              <li className="text-justify text-xl text-p1-darkgreen">
+              участвуйте в виртуальных гонках и других захватывающих онлайн-событиях.
+              
+              </li>
+              <li className="text-left text-xl text-p1-darkgreen">принимайте участие в ключевых голосованиях, влияющих на развитие нашего сообщества.
+              </li>
+              
+            </ul>
+            </div>
+          </div>
         </div>
-        <div className="pb-5">
-          Мы в свою очередь видим перспективу реализации социально значимого
-          проекта, позволяющего объединить людей по общим интересам, используя
-          технологии Blockchain и NFT.
-        </div>
-        <div className="pb-5">
-          Именно технология Blockchain способна обеспечить децентрализованное
-          сообщество, управляемое самими людьми.
-        </div>
-        <div className="pb-5">
-          Blockchain и NFT - технологии свободы, которые открывают безграничные
-          возможности и позволяют вернуть власть людям, стирая границы между
-          городами и странами и объединяя единомышленников.
-        </div>
+        <div className="basis-1/6">03</div>
       </div>
-      <div className="my-5 rounded-3xl border-4 border-gray-500 p-6">
-        <div className="pb-5 text-center">
-          Присоединяйся к GAA и стань частью глобального движения, которое
-          создает новые правила справедливой игры в мире автоспорта и
-          автокультуры!
-        </div>
+
+
+      <div className="flex flex-row p-2">
+      <div className="basis-1/5">01</div>
+      <div className="basis-3/5">
+        02
+        <div className="p-2 text-center text-6xl font-bold text-p1-darkgreen">
+        Мы планируем
+  </div>
+  <div className="p-2 text-center text-6xl font-bold text-p1-darkgreen">
+  наше будущее
+  </div>
       </div>
+      <div className="basis-1/5">03</div>
+    </div>
+
+      <div className="flex flex-row p-2">
+        <div className="basis-1/6">01</div>
+        <div className="basis-4/6 text-p1-darkgreen">
+        02
+          <div className="my-5 space-y-6 rounded-3xl p-2">
+            <div className="my-5 space-y-2 rounded-3xl border-4 border-p1-darkgreen p-6 text-center text-xl text-p1-darkgreen">
+            <p className="text-center text-2xl text-xl font-bold text-p1-darkgreen">
+            В наших планах также выпуск и других уникальных коллекций для:
+            </p>
+            <ul className="list-disc space-y-3 px-5 text-p1-darkgreen">
+              <li className="text-justify text-xl text-p1-darkgreen">
+              пилотов              
+              </li>
+              <li className="text-left text-xl text-p1-darkgreen">
+              направлений автоспорта (дрифт, кольцевые гонки, драг рейсинг и т.д.)
+              </li>
+              <li className="text-left text-xl text-p1-darkgreen">
+              коллекционеров редких автомобилей с возможностью цифровизации своего автопарка и создания NFT в единой глобальной коллекции
+              </li>
+              <li className="text-left text-xl text-p1-darkgreen">
+              награждения победителей и призеров (кубки, медали)
+              </li>
+              <li className="text-left text-xl text-p1-darkgreen">
+              выдачи цифровых лицензий
+              </li>
+            </ul>
+            <p className="text-center text-2xl text-xl font-bold text-p1-darkgreen">
+            Уникальность коллекций заключается в
+            </p>
+            <ul className="list-disc space-y-3 px-5 text-p1-darkgreen">
+              <li className="text-justify text-xl text-p1-darkgreen">
+              ограниченном тираже уникальных объектов цифрового искусства
+              </li>
+              <li className="text-left text-xl text-p1-darkgreen">
+              принадлежности коллекции к Проекту автоспортивного и автокультурного сообщества
+              </li>
+              <li className="text-left text-xl text-p1-darkgreen">
+              ограниченным перечнем коллекций цифрового исскусства
+              </li>
+            </ul>
+            </div>
+          </div>
+        </div>
+        <div className="basis-1/6">03</div>
+      </div>
+
+      <div className="flex flex-row p-2">
+      <div className="basis-1/5">01</div>
+      <div className="basis-3/5">
+        02
+        <div className="p-2 text-center text-6xl font-bold text-p1-darkgreen">
+        NFT
+  </div>
+  <div className="p-2 text-center text-6xl font-bold text-p1-darkgreen">
+  Сервисы и Награды
+
+  </div>
+      </div>
+      <div className="basis-1/5">03</div>
+    </div>
+
+      <div className="flex flex-row p-2">
+        <div className="basis-1/6">01</div>
+        <div className="basis-4/6 text-p1-darkgreen">
+        02
+          <div className="my-5 space-y-6 rounded-3xl p-2">
+            <div className="my-5 space-y-2 rounded-3xl border-4 border-p1-darkgreen p-6 text-center text-xl text-p1-darkgreen">
+            <p className="text-center text-2xl text-xl font-bold text-p1-darkgreen">
+            NFT Сервисы
+            </p>
+            <p className="text-left">
+            Создание сервиса цифровизации физических объектов в NFT и объединение NFT в единые коллекции цифрового исскусства
+            </p>
+            <p className="text-left">
+            создавайте, дарите, продавайте NFT по направлениям:
+            </p>
+            <ul className="list-disc space-y-3 px-5 text-p1-darkgreen">
+              <li className="text-justify text-xl text-p1-darkgreen">
+              Пилоты              
+              </li>
+              <li className="text-left text-xl text-p1-darkgreen">
+              Участники команд (дрифт, драг рейсинг и т.д.)
+              </li>
+              <li className="text-left text-xl text-p1-darkgreen">
+              Коллекционеры редких автомобилей
+              </li>
+              <li className="text-left text-xl text-p1-darkgreen">
+              Раритетные, спортивные и кастомизированные автомобили
+              </li>
+             
+            </ul>
+            <p className="text-left">
+            Единая глобальная коллекция автоспортивного и автокультурного сообщества создаваемая самим сообществом
+            </p>
+           
+            </div>
+
+            <div className="my-5 space-y-2 rounded-3xl border-4 border-p1-darkgreen p-6 text-center text-xl text-p1-darkgreen">
+            <p className="text-center text-2xl text-xl font-bold text-p1-darkgreen">
+            NFT Награды
+            </p>
+            <p className="text-left">
+            На сайте мы предоставляем организаторам мероприятий возможность создать уникальные NFT награды для победителей и участников мероприятий и выход на новый уровень организации проведения мероприятий
+            </p>
+            <p className="text-left">
+            Все награды будут в единой коллекции автоспортивного и автокультурного сообщества NFT Rewards
+            </p>
+            <p className="text-left">
+            Для развития Проекта предоставляем лидерам направлений цифровые NFT лицензии, расширяющие возможности и предоставляющие дополнительные полномочия использования сайта.
+            </p>
+           
+            </div>
+
+          </div>
+        </div>
+        <div className="basis-1/6">03</div>
+      </div>
+
+
+
+      <div className="flex flex-row p-2">
+      <div className="basis-1/5">01</div>
+      <div className="basis-3/5">
+        02
+        <div className="p-2 text-center text-6xl font-bold text-p1-darkgreen">
+        выгода владельцу
+
+  </div>
+  <div className="p-2 text-center text-6xl font-bold text-p1-darkgreen">
+  NFT RaceLad
+
+  </div>
+      </div>
+      <div className="basis-1/5">03</div>
+    </div>
+
+      <div className="flex flex-row p-2">
+        <div className="basis-1/6">01</div>
+        <div className="basis-4/6 text-p1-darkgreen">
+        02
+          <div className="my-5 space-y-6 rounded-3xl p-2">
+            <div className="my-5 space-y-2 rounded-3xl border-4 border-p1-darkgreen p-6 text-center text-xl text-p1-darkgreen">
+            <p className="text-center text-2xl text-xl font-bold text-p1-darkgreen">
+            Уникальные привилегии
+            </p>
+            <p className="text-left">
+            Предоставляем нашим членам эксклюзивные бонусы:
+            </p>
+            <ul className="list-disc space-y-3 px-5 text-p1-darkgreen">
+              <li className="text-justify text-xl text-p1-darkgreen">
+              билеты на мероприятия
+              </li>
+              <li className="text-left text-xl text-p1-darkgreen">
+              участие в автограф и фото сессиях
+              </li>
+              <li className="text-left text-xl text-p1-darkgreen">
+              участие в лекциях и экскурсиях
+              </li>
+              <li className="text-left text-xl text-p1-darkgreen">
+              розыгрыши NFT
+              </li>
+              <li className="text-left text-xl text-p1-darkgreen">
+              многое другое
+             </li>
+            </ul>
+            </div>
+
+            <div className="my-5 space-y-2 rounded-3xl border-4 border-p1-darkgreen p-6 text-center text-xl text-p1-darkgreen">
+            <p className="text-center text-2xl text-xl font-bold text-p1-darkgreen">
+            Собственные мероприятия
+
+            </p>
+            <p className="text-left">
+            Организуем такие мероприятия, как дрифт, гонки, автовыставки и вечеринки под брендом GAA с участием спортсменов и лидеров мнений (блогеров) с различными наградами (в том числе цифровыми).
+            </p>
+            <p className="text-left">
+            Члены нашего сообщества смогут подавать заявки и принимать участие в голосованиях по выбору формата мероприятий, судей, участников и прочим вопросам.
+            </p>
+            </div>
+
+            <div className="my-5 space-y-2 rounded-3xl border-4 border-p1-darkgreen p-6 text-center text-xl text-p1-darkgreen">
+            <p className="text-center text-2xl text-xl font-bold text-p1-darkgreen">
+            Децентрализованный портал
+            </p>
+            <p className="text-left">
+            Разрабатываем сайт, который будет являться уникальным порталом, где каждый сможет:
+            </p>
+            <ul className="list-disc space-y-3 px-5 text-p1-darkgreen">
+              <li className="text-justify text-xl text-p1-darkgreen">
+              быть в курсе последних новостей
+              </li>
+              <li className="text-left text-xl text-p1-darkgreen">
+              ознакамливаться с результатами мероприятий
+              </li>
+              <li className="text-left text-xl text-p1-darkgreen">
+              принимать участие в голосованиях
+              </li>
+              <li className="text-left text-xl text-p1-darkgreen">
+              приобретать NFT из наших коллекций
+              </li>
+              <li className="text-left text-xl text-p1-darkgreen">
+              наслаждаться фото и видео материалами
+              </li>
+             <li className="text-left text-xl text-p1-darkgreen">
+             загружать свой контент
+             </li>
+             <li className="text-left text-xl text-p1-darkgreen">
+             реализовывать свои возможности
+             </li>
+             <li className="text-left text-xl text-p1-darkgreen">
+              многое другое
+             </li>
+            </ul>
+            </div>
+
+
+            <div className="my-5 space-y-2 rounded-3xl border-4 border-p1-darkgreen p-6 text-center text-xl text-p1-darkgreen">
+            <p className="text-center text-2xl text-xl font-bold text-p1-darkgreen">
+            Выход на международный уровень
+
+
+            </p>
+            <p className="text-left">
+            Расширяем наше присутствие на международной арене, чтобы объединить автолюбителей по всему миру, стирая границы и расстояния.
+            </p>
+            <p className="text-left">
+            Создание ежегодной круглогодичной международной серии и стандарта мероприятий для автоспортивного и автокультурного сообщества.
+            </p>
+            </div>
+
+
+          </div>
+        </div>
+        <div className="basis-1/6">03</div>
+      </div>
+
+
+    <div className="p-10 text-xl">
+
+     
+       
+    <div className="flex flex-row p-2">
+      <div className="basis-1/5">01</div>
+      <div className="basis-3/5">
+        02
+        <div className="p-2 text-center text-6xl font-bold text-p1-darkgreen">
+       Web 3
+
+  </div>
+      </div>
+      <div className="basis-1/5">03</div>
+    </div>
+
+    <div className="flex flex-row p-2">
+        <div className="basis-1/6">01</div>
+        <div className="basis-4/6 text-p1-darkgreen">
+        02
+          <div className="my-5 space-y-6 rounded-3xl p-2">
+            <div className="my-5 space-y-2 rounded-3xl border-4 border-p1-darkgreen p-6 text-center text-xl text-p1-darkgreen">
+            <p className="text-center text-2xl text-xl font-bold text-p1-darkgreen">
+            Почему Web 3?
+            </p>
+            <p className="text-left">
+            Реализация глобальной идеи Web3 на сегодняшний день до сих пор находится на ранней стадии и еще не получила должного внимания в обществе.
+            </p>
+            <p className="text-left">
+            Мы в свою очередь видим перспективу реализации социально значимого проекта, позволяющего объединить людей по общим интересам, используя технологии Blockchain и NFT.
+            </p>
+            <p className="text-left">
+            Именно технология Blockchain способна обеспечить децентрализованное сообщество, управляемое самими людьми.
+            </p>
+            <p className="text-left">
+            Blockchain и NFT - технологии свободы, которые открывают безграничные возможности и позволяют вернуть власть людям, стирая границы между городами и странами и объединяя единомышленников.
+            </p>
+       
+            </div>
+
+            <div className="my-5 space-y-2 rounded-3xl border-4 border-p1-darkgreen p-6 text-center text-xl text-p1-darkgreen">
+           
+            <p className="text-center">
+            Присоединяйся к GAA и стань частью глобального движения, которое создает новые правила справедливой игры в мире автоспорта и автокультуры!
+            </p>
+            </div>
+
+          </div>
+        </div>
+        <div className="basis-1/6">03</div>
+      </div>    
+      
+     
+     
+      
       <div className="text-center text-6xl font-bold"> Выгода участника</div>
       <div className="my-5 rounded-3xl border-4 border-gray-500 p-6">
         <div className="pb-3 text-center font-bold">Уникальные привилегии:</div>
@@ -933,43 +1178,32 @@ export default function Page() {
           Automotive Association
         </div>
       </div>
-      <div className="text-center text-p1-darkgreen text-6xl font-bold"> Изучи Web3 </div>
-      <div className="my-5 rounded-3xl border-4 text-p1-darkgreen border-gray-500 p-6">
-        <div className="pb-5">
-          Собранная информация содержит ключевые основы направления развития
-          мирового сообщества в цифровой индустрии.
-        </div>
-        <div className="pb-5">
-          Для кого то эта информация не нова, а для кого то станет открытием и
-          появится понимание как это устроено.
-        </div>
-      </div>
+      
 ////////////////////////////////////// 
 
-<div className="pb-5 flex flex-row">
+<div className="flex flex-row pb-5">
         <div className="basis-1/5">01</div>
-        <div className="basis-3/5 text-center  text-p1-darkgreen">
+        <div className="basis-3/5 text-center text-p1-darkgreen">
         02
 
-          <div className="my-5  p-6">
-            <div className=" text-center font-bold text-6xl text-p1-darkgreen ">
-Изучи Web 3            </div>
+          <div className="my-5 p-2">
+            <div className="text-center text-6xl font-bold text-p1-darkgreen">Изучи Web 3</div>
            
           </div>
         </div>
         <div className="basis-1/5">03</div>
       </div>
 
-<div className="pb-5 flex flex-row">
+<div className="flex flex-row p-2">
         <div className="basis-1/10">01</div>
-        <div className="basis-8/10  text-p1-darkgreen">
+        <div className="basis-8/10 text-p1-darkgreen">
         02
 
-          <div className="my-5 rounded-3xl  space-y-6 p-6">
-            <div className=" text-p1-darkgreen ">
+          <div className="my-5 space-y-6 rounded-3xl p-2">
+            <div className="text-p1-darkgreen">
             Собранная информация содержит ключевые основы направления развития мирового сообщества в цифровой индустрии.
             </div>
-            <div className=" text-p1-darkgreen ">
+            <div className="text-p1-darkgreen">
             Для кого то эта информация не нова, а для кого то станет открытием и появится понимание как это устроено.
 
             </div>
@@ -978,12 +1212,12 @@ export default function Page() {
         <div className="basis-1/10">03</div>
       </div>
 
-      <div className="pb-5 flex flex-row max-w-full mx-auto p-8 space-y-2">
-  <details className="open:bg-sky-50 dark:open:bg-slate-900 open:ring-1 open:ring-black/5 dark:open:ring-white/10 open:shadow-lg p-6 rounded-lg" open>
-    <summary className="text-lm leading-6 space-y-4 text-p1-darkgreen dark:text-white font-semibold select-none">
+      <div className="mx-auto flex max-w-full flex-row space-y-2 p-2">
+  <details className="rounded-lg p-2 open:bg-p1-white open:shadow-lg open:ring-1 open:ring-black/5 dark:open:bg-slate-900 dark:open:ring-white/10" open>
+    <summary className="text-lm select-none space-y-4 font-semibold leading-6 text-p1-darkgreen dark:text-white">
     Что такое Web 3?
     </summary>
-    <div className="mt-3 text-xl leading-6 text-p1-darkgreen dark:text-slate-400 ">
+    <div className="mt-3 text-xl leading-6 text-p1-darkgreen dark:text-slate-400">
       <p>Web 3 (или Web 3.0) — это концепция следующего поколения интернета,
           которая ориентирована на децентрализацию и использование
           блокчейн-технологий для создания более открытой и защищенной сети. В
@@ -991,9 +1225,9 @@ export default function Page() {
           платформами и сервисами, Web3 предполагает использование
           децентрализованных приложений (dApps), умных контрактов и криптовалют
           для выполнения различных функций в интернете.</p>
-          <div className="pb-5 space-y-4"></div>
+          <div className="space-y-4 pb-5"></div>
           <div className="pb-5">Основные характеристики Web3:</div>
-          <ul className="list-disc px-5 space-y-4">
+          <ul className="list-disc space-y-4 px-5">
           <li>
             Децентрализация: Управление и данные хранятся на распределенных
             сетях, а не на серверах, принадлежащих одной компании.
@@ -1021,16 +1255,16 @@ export default function Page() {
 
 
 
-<div className="pb-5 flex flex-row max-w-full mx-auto p-8 space-y-2">
-  <details className="open:bg-sky-50 dark:open:bg-slate-900 open:ring-1 open:ring-black/5 dark:open:ring-white/10 open:shadow-lg p-6 rounded-lg" close>
-    <summary className="text-lm leading-6 space-y-4 text-p1-darkgreen dark:text-white font-semibold select-none">
+<div className="mx-auto flex max-w-full flex-row space-y-2 p-2">
+  <details className="rounded-lg p-2 open:bg-p1-white open:shadow-lg open:ring-1 open:ring-black/5 dark:open:bg-slate-900 dark:open:ring-white/10" close>
+    <summary className="text-lm select-none space-y-4 font-semibold leading-6 text-p1-darkgreen dark:text-white">
     Для того чтобы лучше понять, что такое Web3 надо знать, что такое Web 1 и Web 2
     </summary>
-    <div className="mt-3 text-xl leading-6 text-p1-darkgreen dark:text-slate-400 ">
+    <div className="mt-3 text-xl leading-6 text-p1-darkgreen dark:text-slate-400">
       <p>Web-1</p>
-          <div className="pb-5 space-y-4"></div>
+          <div className="space-y-4 pb-5"></div>
           <div className="pb-5">Web 1 (или Web 1.0) — это первая эпоха развития интернета, охватывающая период примерно с 1990 по начало 2000-х годов. В этот период интернет представлял собой в основном статические веб-страницы, которые пользователи могли просматривать, но не взаимодействовать с ними так, как это возможно в более поздних версиях интернета. Основные характеристики Web1 включают:</div>
-          <ul className="list-disc px-5 space-y-4">
+          <ul className="list-disc space-y-4 px-5">
           <li>
           Статический контент: Большинство веб-сайтов состояли из статических HTML-страниц, которые редко обновлялись. Контент создавался и публиковался веб-мастерами и не позволял пользователям взаимодействовать с ним или вносить изменения.
 
@@ -1056,7 +1290,7 @@ export default function Page() {
     <div className="pb-5"> </div>
 
     <div className="pb-5"> Примеры типичных сайтов Web1:</div>
-      <ul className="list-disc px-5 space-y-2">
+      <ul className="list-disc space-y-2 px-5">
       <li> Информационные порталы: Yahoo!, AOL.
       </li>
       <li>
@@ -1079,19 +1313,19 @@ export default function Page() {
 
 
 
-<div className="pb-5 flex flex-row max-w-full mx-auto p-8 space-y-2">
-  <details className="open:bg-sky-50 dark:open:bg-slate-900 open:ring-1 open:ring-black/5 dark:open:ring-white/10 open:shadow-lg p-6 rounded-lg" close>
-    <summary className="text-lm leading-6 space-y-4 text-p1-darkgreen dark:text-white font-semibold select-none">
+<div className="mx-auto flex max-w-full flex-row space-y-2 p-2">
+  <details className="rounded-lg p-2 open:bg-p1-white open:shadow-lg open:ring-1 open:ring-black/5 dark:open:bg-slate-900 dark:open:ring-white/10" close>
+    <summary className="text-lm select-none space-y-4 font-semibold leading-6 text-p1-darkgreen dark:text-white">
     Web 2
     </summary>
-    <div className="mt-3 text-xl leading-6 text-p1-darkgreen dark:text-slate-400 ">
+    <div className="mt-3 text-xl leading-6 text-p1-darkgreen dark:text-slate-400">
       <p>Web 2 (или Web 2.0) — это вторая эпоха развития интернета, начавшаяся в начале 2000-х годов. Web2 представляет собой переход от статических веб-страниц и однонаправленного взаимодействия (характерных для Web1) к более динамичным и интерактивным веб-приложениям.
 
       </p>
-          <div className="pb-5 space-y-4"></div>
+          <div className="space-y-4 pb-5"></div>
           <div className="pb-5">Основные характеристики Web2 включают:
 </div>
-          <ul className="list-disc px-5 space-y-4">
+          <ul className="list-disc space-y-4 px-5">
           <li>
           Динамический контент и интерактивность: В отличие от статических страниц Web1, сайты Web2 содержат динамический контент, который может изменяться в реальном времени. Пользователи могут взаимодействовать с сайтами и друг с другом через комментарии, лайки, форумы и другие механизмы.
           </li>
@@ -1120,7 +1354,7 @@ export default function Page() {
     <div className="pb-5"> </div>
 
     <div className="pb-5"> Примеры типичных сайтов и приложений Web2:</div>
-      <ul className="list-disc px-5 space-y-2">
+      <ul className="list-disc space-y-2 px-5">
       <li>Социальные сети: Facebook, Twitter, LinkedIn, Instagram.
       </li>
       <li>
@@ -1145,19 +1379,19 @@ export default function Page() {
   </details>
 </div>
 
-<div className="pb-5 flex flex-row max-w-full mx-auto p-8 space-y-2">
-  <details className="open:bg-sky-50 dark:open:bg-slate-900 open:ring-1 open:ring-black/5 dark:open:ring-white/10 open:shadow-lg p-6 rounded-lg" close>
-    <summary className="text-lm leading-6 space-y-4 text-p1-darkgreen dark:text-white font-semibold select-none">
+<div className="mx-auto flex max-w-full flex-row space-y-2 p-2">
+  <details className="rounded-lg p-2 open:bg-p1-white open:shadow-lg open:ring-1 open:ring-black/5 dark:open:bg-slate-900 dark:open:ring-white/10" close>
+    <summary className="text-lm select-none space-y-4 font-semibold leading-6 text-p1-darkgreen dark:text-white">
     Децентрализация
     </summary>
-    <div className="mt-3 text-xl leading-6 text-p1-darkgreen dark:text-slate-400 ">
+    <div className="mt-3 text-xl leading-6 text-p1-darkgreen dark:text-slate-400">
       <p>Децентрализация — это процесс распределения власти, управления и принятия решений от центрального органа или единой точки контроля к более распределенной системе или сети. В контексте информационных технологий и блокчейн-технологий децентрализация имеет несколько ключевых аспектов:
 
 
       </p>
-          <div className="pb-5 space-y-4"></div>
+          <div className="space-y-4 pb-5"></div>
          
-          <ul className="list-disc px-5 space-y-4">
+          <ul className="list-disc space-y-4 px-5">
           <li>
           Технологическая децентрализация: В этой модели данные и вычислительные ресурсы распределяются по множеству узлов или серверов, а не хранятся и обрабатываются на одном центральном сервере. Примером является блокчейн, где информация распределяется по сети узлов, каждый из которых хранит копию всей цепочки блоков.
           </li>
@@ -1175,7 +1409,7 @@ export default function Page() {
 
     <div className="pb-5 text-p1-darkgreen"> Преимущества децентрализации:
     </div>
-      <ul className="list-disc text-p1-darkgreen px-5 space-y-2">
+      <ul className="list-disc space-y-2 px-5 text-p1-darkgreen">
       <li>Повышенная безопасность: Распределение данных и процессов снижает риск взлома или отказа системы, так как нет единой точки отказа.
 
       </li>
@@ -1190,21 +1424,21 @@ export default function Page() {
 </div>
 
 
-<div className="pb-5 flex flex-row max-w-full mx-auto p-8 space-y-2">
-  <details className="open:bg-sky-50 dark:open:bg-slate-900 open:ring-1 open:ring-black/5 dark:open:ring-white/10 open:shadow-lg p-6 rounded-lg" close>
-    <summary className="text-lm leading-6 space-y-4 text-p1-darkgreen dark:text-white font-semibold select-none">
+<div className="mx-auto flex max-w-full flex-row space-y-2 p-2">
+  <details className="rounded-lg p-2 open:bg-p1-white open:shadow-lg open:ring-1 open:ring-black/5 dark:open:bg-slate-900 dark:open:ring-white/10" close>
+    <summary className="text-lm select-none space-y-4 font-semibold leading-6 text-p1-darkgreen dark:text-white">
     Что такое блокчейн?
     </summary>
-    <div className="mt-3 text-xl leading-6 text-p1-darkgreen dark:text-slate-400 ">
+    <div className="mt-3 text-xl leading-6 text-p1-darkgreen dark:text-slate-400">
       <p>Блокчейн (blockchain) — это распределенная и защищенная технология хранения данных, представляющая собой цепочку блоков, каждый из которых содержит информацию. Эта информация может включать данные о транзакциях, смарт-контрактах или любых других событиях, которые должны быть зафиксированы и защищены от изменений. Основные особенности блокчейна включают децентрализацию, неизменяемость и безопасность.
 
       </p>
-          <div className="pb-5 space-y-4"></div>
+          <div className="space-y-4 pb-5"></div>
           <p>Основные характеристики блокчейна:
 </p>
     <div className="pb-5"></div>
 
-          <ul className="list-disc px-5 space-y-4">
+          <ul className="list-disc space-y-4 px-5">
           <li>
           Децентрализация: Данные в блокчейне хранятся на множестве узлов (компьютеров), которые образуют сеть. Все узлы имеют копию всей цепочки блоков, что исключает необходимость в центральном органе контроля и повышает устойчивость системы.
           </li>
@@ -1227,7 +1461,7 @@ export default function Page() {
     <div className="pb-5 text-p1-darkgreen"> Как работает блокчейн:
 
     </div>
-      <ul className="list-disc text-p1-darkgreen px-5 space-y-2">
+      <ul className="list-disc space-y-2 px-5 text-p1-darkgreen">
       <li>Создание транзакции: Пользователь создает транзакцию, которая включает информацию, такую как перевод криптовалюты, данные смарт-контракта или любое другое событие.
 
 
@@ -1249,7 +1483,7 @@ export default function Page() {
 
     <div className="pb-5 text-p1-darkgreen"> Примеры использования блокчейна:
 </div>
-  <ul className="list-disc text-p1-darkgreen px-5 space-y-2">
+  <ul className="list-disc space-y-2 px-5 text-p1-darkgreen">
   <li>
   Криптовалюты: Самым известным применением блокчейна являются криптовалюты, такие как Bitcoin и Ethereum. Они используют блокчейн для децентрализованного и безопасного учета транзакций.
   </li>
@@ -1271,7 +1505,7 @@ export default function Page() {
 <div className="pb-5 text-p1-darkgreen"> Преимущества блокчейна:
 
 </div>
-  <ul className="list-disc text-p1-darkgreen px-5 space-y-2">
+  <ul className="list-disc space-y-2 px-5 text-p1-darkgreen">
   <li>
   Устойчивость к взломам: Децентрализованная природа блокчейна делает его устойчивым к атакам, так как нет единой точки отказа.
   </li>
@@ -1297,23 +1531,23 @@ export default function Page() {
 
 
 
-<div className="pb-5 flex flex-row max-w-full mx-auto p-8 space-y-2">
-  <details className="open:bg-sky-50 dark:open:bg-slate-900 open:ring-1 open:ring-black/5 dark:open:ring-white/10 open:shadow-lg p-6 rounded-lg" close>
-    <summary className="text-lm leading-6 space-y-4 text-p1-darkgreen dark:text-white font-semibold select-none">
+<div className="mx-auto flex max-w-full flex-row space-y-2 p-2">
+  <details className="rounded-lg p-2 open:bg-p1-white open:shadow-lg open:ring-1 open:ring-black/5 dark:open:bg-slate-900 dark:open:ring-white/10" close>
+    <summary className="text-lm select-none space-y-4 font-semibold leading-6 text-p1-darkgreen dark:text-white">
     Смарт-контракты
     </summary>
-    <div className="mt-3 text-xl leading-6 text-p1-darkgreen dark:text-slate-400 ">
+    <div className="mt-3 text-xl leading-6 text-p1-darkgreen dark:text-slate-400">
       <p>
       Смарт-контракты (англ. smart contracts) — это самоисполняющиеся контракты с условиями соглашения между покупателем и продавцом, написанными непосредственно в строках кода. Эти контракты существуют на блокчейне и автоматически выполняются, когда определенные условия соблюдаются. Смарт-контракты обеспечивают прозрачность, безопасность и автоматизацию процессов, устраняя необходимость в посредниках.
 
       </p>
-          <div className="pb-5 space-y-4"></div>
+          <div className="space-y-4 pb-5"></div>
           <p>Основные характеристики смарт-контрактов:
 
 </p>
     <div className="pb-5"></div>
 
-          <ul className="list-disc px-5 space-y-4">
+          <ul className="list-disc space-y-4 px-5">
           <li>
           Автономность: Смарт-контракты исполняются автоматически без необходимости вмешательства человека, как только выполнены заранее определенные условия.
           </li>
@@ -1342,7 +1576,7 @@ export default function Page() {
     :
 
     </div>
-      <ul className="list-disc text-p1-darkgreen px-5 space-y-2">
+      <ul className="list-disc space-y-2 px-5 text-p1-darkgreen">
       <li>
       Создание и развертывание: Смарт-контракт создается разработчиком с использованием языка программирования, такого как Solidity для Ethereum. Затем он развертывается на блокчейне.
 
@@ -1361,7 +1595,7 @@ export default function Page() {
     <div className="pb-5 text-p1-darkgreen"> Примеры использования смарт-контрактов:
     
 </div>
-  <ul className="list-disc text-p1-darkgreen px-5 space-y-2">
+  <ul className="list-disc space-y-2 px-5 text-p1-darkgreen">
   <li>
   Финансовые услуги: Смарт-контракты могут автоматизировать процессы, такие как кредитование, страхование и торговля активами. Например, DeFi (децентрализованные финансы) используют смарт-контракты для создания финансовых продуктов без необходимости в традиционных финансовых учреждениях.
   </li>
@@ -1384,7 +1618,7 @@ export default function Page() {
 
 
 </div>
-  <ul className="list-disc text-p1-darkgreen px-5 space-y-2">
+  <ul className="list-disc space-y-2 px-5 text-p1-darkgreen">
   <li>
   Ethereum: Самая известная и широко используемая платформа для создания смарт-контрактов. Использует язык программирования Solidity.
   </li>
@@ -1404,25 +1638,23 @@ export default function Page() {
 
 
 
-
-
-<div className="pb-5 flex flex-row max-w-full mx-auto p-8 space-y-2">
-  <details className="open:bg-sky-50 dark:open:bg-slate-900 open:ring-1 open:ring-black/5 dark:open:ring-white/10 open:shadow-lg p-6 rounded-lg" close>
-    <summary className="text-lm leading-6 space-y-4 text-p1-darkgreen dark:text-white font-semibold select-none">
+<div className="mx-auto flex max-w-full flex-row space-y-2 p-2">
+  <details className="rounded-lg p-2 open:bg-p1-white open:shadow-lg open:ring-1 open:ring-black/5 dark:open:bg-slate-900 dark:open:ring-white/10" close>
+    <summary className="text-lm select-none space-y-4 font-semibold leading-6 text-p1-darkgreen dark:text-white">
     ДАО (Децентрализованная автономная организация)
     </summary>
-    <div className="mt-3 text-xl leading-6 text-p1-darkgreen dark:text-slate-400 ">
+    <div className="mt-3 text-xl leading-6 text-p1-darkgreen dark:text-slate-400">
       <p>
       ДАО (Децентрализованная автономная организация) — это организация, управляемая с помощью блокчейн-технологий и смарт-контрактов, которая функционирует без центрального управления. В DAO решения принимаются коллективно участниками организации, часто посредством голосования с использованием токенов.
 
       </p>
-          <div className="pb-5 space-y-4"></div>
+          <div className="space-y-4 pb-5"></div>
           <p>
           Основные характеристики и принципы DAO включают:
 </p>
     <div className="pb-5"></div>
 
-          <ul className="list-disc px-5 space-y-4">
+          <ul className="list-disc space-y-4 px-5">
           <li>
           Децентрализованное управление: В DAO нет единого управляющего органа или централизованного управления. Вся деятельность организации контролируется и управляется коллективно участниками через смарт-контракты.
           </li>
@@ -1450,7 +1682,7 @@ export default function Page() {
     <div className="pb-5 text-p1-darkgreen"> Примеры использования DAO:
 
     </div>
-      <ul className="list-disc text-p1-darkgreen px-5 space-y-2">
+      <ul className="list-disc space-y-2 px-5 text-p1-darkgreen">
       <li>
       Финансовые проекты: DAO могут управлять фондами и инвестициями, распределяя средства по проектам на основе коллективного голосования.
 
@@ -1470,7 +1702,7 @@ export default function Page() {
 
     
 </div>
-  <ul className="list-disc text-p1-darkgreen px-5 space-y-2">
+  <ul className="list-disc space-y-2 px-5 text-p1-darkgreen">
   <li>
   The DAO: Один из первых и самых известных примеров DAO, созданный в 2016 году на платформе Ethereum. Он собрал значительные средства через краудфандинг, но вскоре столкнулся с уязвимостью, которая привела к хакерской атаке и значительным потерям.
   </li>
@@ -1493,23 +1725,23 @@ export default function Page() {
 </div>
 
 
-<div className="pb-5 flex flex-row max-w-full mx-auto p-8 space-y-2">
-  <details className="open:bg-sky-50 dark:open:bg-slate-900 open:ring-1 open:ring-black/5 dark:open:ring-white/10 open:shadow-lg p-6 rounded-lg" close>
-    <summary className="text-lm leading-6 space-y-4 text-p1-darkgreen dark:text-white font-semibold select-none">
+<div className="mx-auto flex max-w-full flex-row space-y-2 p-2">
+  <details className="rounded-lg p-2 open:bg-p1-white open:shadow-lg open:ring-1 open:ring-black/5 dark:open:bg-slate-900 dark:open:ring-white/10" close>
+    <summary className="text-lm select-none space-y-4 font-semibold leading-6 text-p1-darkgreen dark:text-white">
     Организация хранения данных в децентрализованной сети по техологии IPFS
     </summary>
-    <div className="mt-3 text-xl leading-6 text-p1-darkgreen dark:text-slate-400 ">
+    <div className="mt-3 text-xl leading-6 text-p1-darkgreen dark:text-slate-400">
       <p>
       IPFS (InterPlanetary File System, Межпланетная файловая система) — это децентрализованная система хранения и обмена файлами, разработанная для создания более устойчивого и доступного интернета. IPFS использует P2P (peer-to-peer) технологию для распределенного хранения данных, что обеспечивает надежность, скорость и устойчивость к цензуре.
 
       </p>
-          <div className="pb-5 space-y-4"></div>
+          <div className="space-y-4 pb-5"></div>
           <p>
           Основные особенности и принципы IPFS включают:
           </p>
     <div className="pb-5"></div>
 
-          <ul className="list-disc px-5 space-y-4">
+          <ul className="list-disc space-y-4 px-5">
           <li>
           Децентрализованное хранилище: В отличие от традиционных централизованных серверов, IPFS использует распределенную сеть узлов, где каждый узел может хранить и передавать данные. Это делает систему более устойчивой к сбоям и атакам.
           </li>
@@ -1538,7 +1770,7 @@ export default function Page() {
 
 
     </div>
-      <ul className="list-disc text-p1-darkgreen px-5 space-y-2">
+      <ul className="list-disc space-y-2 px-5 text-p1-darkgreen">
       <li>
       Устойчивость к сбоям: Данные дублируются и распределяются по множеству узлов, что делает систему устойчивой к отказам и потерям данных.
 
@@ -1561,7 +1793,7 @@ export default function Page() {
 
     
 </div>
-  <ul className="list-disc text-p1-darkgreen px-5 space-y-2">
+  <ul className="list-disc space-y-2 px-5 text-p1-darkgreen">
   <li>
   Децентрализованные приложения (dApps): Многие блокчейн-приложения используют IPFS для хранения данных, таких как смарт-контракты, метаданные и пользовательский контент.
   </li>
@@ -1585,12 +1817,12 @@ IPFS представляет собой мощный инструмент дл�
 </div>
 
 
-<div className="pb-5 flex flex-row max-w-full mx-auto p-8 space-y-2">
-  <details className="open:bg-sky-50 dark:open:bg-slate-900 open:ring-1 open:ring-black/5 dark:open:ring-white/10 open:shadow-lg p-6 rounded-lg" close>
-    <summary className="text-lm leading-6 space-y-4 text-p1-darkgreen dark:text-white font-semibold select-none">
+<div className="mx-auto flex max-w-full flex-row space-y-2 p-2">
+  <details className="rounded-lg p-2 open:bg-p1-white open:shadow-lg open:ring-1 open:ring-black/5 dark:open:bg-slate-900 dark:open:ring-white/10" close>
+    <summary className="text-lm select-none space-y-4 font-semibold leading-6 text-p1-darkgreen dark:text-white">
     Организация хранения данных в децентрализованной сети по техологии Blockweave
     </summary>
-    <div className="mt-3 text-xl leading-6 text-p1-darkgreen dark:text-slate-400 ">
+    <div className="mt-3 text-xl leading-6 text-p1-darkgreen dark:text-slate-400">
       <p>
       Blockweave — это уникальная структура хранения данных, используемая в сети Arweave. Она отличается от традиционных блокчейнов тем, что каждый блок в сети не только ссылается на предыдущий блок, но и на случайные более старые блоки. Это переплетение (weaving) блоков обеспечивает более эффективное и долговременное хранение данных. Такой подход позволяет снизить требования к хранению для узлов сети и обеспечивает устойчивость к потерям данных, делая сеть более надежной и масштабируемой.
       </p>
@@ -1598,19 +1830,17 @@ IPFS представляет собой мощный инструмент дл�
   </details>
 </div>
 
-
-
-<div className="pb-5 flex flex-row max-w-full mx-auto p-8 space-y-2">
-  <details className="open:bg-sky-50 dark:open:bg-slate-900 open:ring-1 open:ring-black/5 dark:open:ring-white/10 open:shadow-lg p-6 rounded-lg" close>
-    <summary className="text-lm leading-6 space-y-4 text-p1-darkgreen dark:text-white font-semibold select-none">
+<div className="mx-auto flex max-w-full flex-row space-y-2 p-2">
+  <details className="rounded-lg p-2 open:bg-p1-white open:shadow-lg open:ring-1 open:ring-black/5 dark:open:bg-slate-900 dark:open:ring-white/10" close>
+    <summary className="text-lm select-none space-y-4 font-semibold leading-6 text-p1-darkgreen dark:text-white">
     Что такое токен?
     </summary>
-    <div className="mt-3 text-xl leading-6 text-p1-darkgreen dark:text-slate-400 ">
+    <div className="mt-3 text-xl leading-6 text-p1-darkgreen dark:text-slate-400">
       <p>
       Токен — это цифровой актив, представляющий собой единицу стоимости или права, созданный и управляемый с использованием блокчейн-технологий. Токены могут иметь различные функции и применения, от финансовых инструментов до представления прав на активы или доступа к услугам.
 
       </p>
-          <div className="pb-5 space-y-4"></div>
+          <div className="space-y-4 pb-5"></div>
           <p>
           Основные виды токенов:
           </p>
@@ -1630,7 +1860,7 @@ IPFS представляет собой мощный инструмент дл�
           как USDT (Tether), USDC, DAI, обеспечивающие стабильность цен.
         </div>
 
-          <ul className="list-disc px-5 space-y-4">
+          <ul className="list-disc space-y-4 px-5">
           <li>
           Невзаимозаменяемые токены (Non-Fungible Tokens, NFT): Коллекционные предметы и цифровое искусство: Каждый токен уникален и не может быть заменен другим на равных условиях. Примеры включают цифровые произведения искусства, виртуальные игровые предметы и коллекционные карточки.
           </li>
@@ -1651,7 +1881,7 @@ IPFS представляет собой мощный инструмент дл�
     <div className="pb-5 text-p1-darkgreen"> Примеры использования токенов:
 
     </div>
-      <ul className="list-disc text-p1-darkgreen px-5 space-y-2">
+      <ul className="list-disc space-y-2 px-5 text-p1-darkgreen">
       <li>
       Финансовые транзакции: Криптовалюты используются для быстрых и дешевых транзакций по всему миру без необходимости в банках или посредниках.
       </li>
@@ -1673,7 +1903,7 @@ IPFS представляет собой мощный инструмент дл�
     <div className="pb-5 text-p1-darkgreen"> Преимущества токенов:
 
 </div>
-  <ul className="list-disc text-p1-darkgreen px-5 space-y-2">
+  <ul className="list-disc space-y-2 px-5 text-p1-darkgreen">
   <li>
   Быстрые и дешевые транзакции: Токены позволяют проводить транзакции быстро и с низкими издержками по сравнению с традиционными финансовыми системами.
   </li>
@@ -1696,23 +1926,23 @@ IPFS представляет собой мощный инструмент дл�
   </details>
 </div>
 
-<div className="pb-5 flex flex-row max-w-full mx-auto p-8 space-y-2">
-  <details className="open:bg-sky-50 dark:open:bg-slate-900 open:ring-1 open:ring-black/5 dark:open:ring-white/10 open:shadow-lg p-6 rounded-lg" close>
-    <summary className="text-lm leading-6 space-y-4 text-p1-darkgreen dark:text-white font-semibold select-none">
+<div className="mx-auto flex max-w-full flex-row space-y-2 p-2">
+  <details className="rounded-lg p-2 open:bg-p1-white open:shadow-lg open:ring-1 open:ring-black/5 dark:open:bg-slate-900 dark:open:ring-white/10" close>
+    <summary className="text-lm select-none space-y-4 font-semibold leading-6 text-p1-darkgreen dark:text-white">
     Что такое NFT?
     </summary>
-    <div className="mt-3 text-xl leading-6 text-p1-darkgreen dark:text-slate-400 ">
+    <div className="mt-3 text-xl leading-6 text-p1-darkgreen dark:text-slate-400">
       <p>
       NFT (Non-Fungible Token, невзаимозаменяемый токен) — это уникальный цифровой актив, который представляет собой право собственности или доступ к определенному уникальному объекту или контенту. В отличие от взаимозаменяемых токенов, таких как биткоины или эфир, каждый NFT имеет уникальный идентификатор и не может быть обменен на другой NFT на равных условиях.
 
       </p>
-          <div className="pb-5 space-y-4"></div>
+          <div className="space-y-4 pb-5"></div>
           <p>
           Основные характеристики NFT:
           </p>
     <div className="pb-5"></div>
 
-    <ul className="list-disc px-5 text-p1-darkgreen space-y-4">
+    <ul className="list-disc space-y-4 px-5 text-p1-darkgreen">
           <li>
           Уникальность: Каждый NFT имеет уникальный идентификатор и метаданные, которые отличают его от других токенов. Эти метаданные могут включать информацию о создателе, владельце, истории продаж и других атрибутах.
 
@@ -1730,13 +1960,13 @@ IPFS представляет собой мощный инструмент дл�
 
         </ul>
         <div className="pb-5"></div>
-        <div className="pb-5  text-p1-darkgreen space-y-4">
+        <div className="space-y-4 pb-5 text-p1-darkgreen">
         Примеры использования NFT:
 
         </div>
        
 
-          <ul className="list-disc px-5 text-p1-darkgreen space-y-4">
+          <ul className="list-disc space-y-4 px-5 text-p1-darkgreen">
           <li>
           Цифровое искусство: Художники создают и продают свои произведения в виде NFT, предоставляя покупателям уникальные и проверяемые права на цифровое искусство.
           </li>
@@ -1766,7 +1996,7 @@ IPFS представляет собой мощный инструмент дл�
 
 
     </div>
-      <ul className="list-disc text-p1-darkgreen px-5 space-y-2">
+      <ul className="list-disc space-y-2 px-5 text-p1-darkgreen">
       <li>
       Подлинность и право собственности: NFT позволяют легко проверять подлинность и право собственности на цифровые активы.
       </li>
@@ -1784,7 +2014,7 @@ IPFS представляет собой мощный инструмент дл�
 
 
 </div>
-  <ul className="list-disc text-p1-darkgreen px-5 space-y-2">
+  <ul className="list-disc space-y-2 px-5 text-p1-darkgreen">
   <li>
   Ethereum: Самая популярная платформа для создания и торговли NFT благодаря стандарту ERC-721 и ERC-1155, который поддерживает уникальные и взаимозаменяемые токены.
   </li>
@@ -1803,23 +2033,23 @@ NFT открывают новые возможности для цифровог
   </details>
 </div>
 
-<div className="pb-5 flex flex-row max-w-full mx-auto p-8 space-y-2">
-  <details className="open:bg-sky-50 dark:open:bg-slate-900 open:ring-1 open:ring-black/5 dark:open:ring-white/10 open:shadow-lg p-6 rounded-lg" close>
-    <summary className="text-lm leading-6 space-y-4 text-p1-darkgreen dark:text-white font-semibold select-none">
+<div className="mx-auto flex max-w-full flex-row space-y-2 p-2">
+  <details className="rounded-lg p-2 open:bg-p1-white open:shadow-lg open:ring-1 open:ring-black/5 dark:open:bg-slate-900 dark:open:ring-white/10" close>
+    <summary className="text-lm select-none space-y-4 font-semibold leading-6 text-p1-darkgreen dark:text-white">
     Каким образом хранится NFT и сведения о том, что я собственник?
     </summary>
-    <div className="mt-3 text-xl leading-6 text-p1-darkgreen dark:text-slate-400 ">
+    <div className="mt-3 text-xl leading-6 text-p1-darkgreen dark:text-slate-400">
       <p>
       NFT (невзаимозаменяемые токены) представляют собой уникальные цифровые активы, которые хранятся на блокчейне. Однако, в отличие от криптовалют, таких как биткоин или эфир, NFT обычно не содержат саму цифровую картину, видео или другой контент, с которым они связаны. Вместо этого они содержат ссылки и метаданные, которые указывают на местоположение этого контента, а также информацию о собственности и другие данные.
 
       </p>
-          <div className="pb-5 space-y-4"></div>
+          <div className="space-y-4 pb-5"></div>
           <p>
           Как хранится NFT:
           </p>
     <div className="pb-5"></div>
 
-    <ul className="list-disc px-5 text-p1-darkgreen space-y-4">
+    <ul className="list-disc space-y-4 px-5 text-p1-darkgreen">
           <li>
           Хранение на блокчейне:NFT состоит из записи на блокчейне, содержащей уникальный идентификатор токена, метаданные и ссылку на цифровой актив. Метаданные могут включать информацию о создателе, дате создания, описании, характеристиках и ссылке на сам контент.
 
@@ -1830,13 +2060,13 @@ NFT открывают новые возможности для цифровог
 
         </ul>
         <div className="pb-5"></div>
-        <div className="pb-5  text-p1-darkgreen space-y-4">
+        <div className="space-y-4 pb-5 text-p1-darkgreen">
         Сведения о собственности:
 
         </div>
        
 
-          <ul className="list-disc px-5 text-p1-darkgreen space-y-4">
+          <ul className="list-disc space-y-4 px-5 text-p1-darkgreen">
           <li>
           Запись о собственности:Владелец NFT записан в блокчейн, что обеспечивает неизменяемость и проверяемость записи о собственности. Приобретение NFT осуществляется через транзакцию на блокчейне, которая регистрирует смену владельца токена.
           </li>
@@ -1852,7 +2082,7 @@ NFT открывают новые возможности для цифровог
 
     <div className="pb-5 text-p1-darkgreen"> Пример процесса:
     </div>
-      <ul className="list-disc text-p1-darkgreen px-5 space-y-2">
+      <ul className="list-disc space-y-2 px-5 text-p1-darkgreen">
       <li>
       Создание NFT: Художник или создатель контента создает цифровое произведение искусства. Он загружает контент в децентрализованное хранилище, такое как IPFS, и получает уникальный хэш (идентификатор) файла. Затем он создает NFT на платформе, такой как OpenSea или Rarible, и включает в метаданные токена ссылку на IPFS-хэш и другую необходимую информацию.
       </li>
@@ -1865,14 +2095,14 @@ NFT открывают новые возможности для цифровог
     <div className="pb-5"> </div>
     <div className="pb-5 text-p1-darkgreen"> Безопасность и долговечность: 
 </div>
-<ul className="list-disc text-p1-darkgreen px-5 space-y-2">
+<ul className="list-disc space-y-2 px-5 text-p1-darkgreen">
       <li>
       Информация о собственности и транзакции надежно защищены и неизменяемы благодаря криптографическим механизмам      </li>
     </ul>
     <div className="pb-5"> </div>
     <div className="pb-5 text-p1-darkgreen"> Проблемы с хранением вне блокчейна:
 </div>
-  <ul className="list-disc text-p1-darkgreen px-5 space-y-2">
+  <ul className="list-disc space-y-2 px-5 text-p1-darkgreen">
   <li>
   Хранение контента вне блокчейна может создавать риски, если центральный сервер выйдет из строя или если ссылки на контент перестанут работать.
   </li>
@@ -1889,15 +2119,12 @@ NFT и блокчейн обеспечивают надежный способ �
   </details>
 </div>
 
-
-
-
-<div className="pb-5 flex flex-row max-w-full mx-auto p-8 space-y-2">
-  <details className="open:bg-sky-50 dark:open:bg-slate-900 open:ring-1 open:ring-black/5 dark:open:ring-white/10 open:shadow-lg p-6 rounded-lg" close>
-    <summary className="text-lm leading-6 space-y-4 text-p1-darkgreen dark:text-white font-semibold select-none">
+<div className="mx-auto flex max-w-full flex-row space-y-2 p-2">
+  <details className="rounded-lg p-2 open:bg-p1-white open:shadow-lg open:ring-1 open:ring-black/5 dark:open:bg-slate-900 dark:open:ring-white/10" close>
+    <summary className="text-lm select-none space-y-4 font-semibold leading-6 text-p1-darkgreen dark:text-white">
     Что такое метаданные?
     </summary>
-    <div className="mt-3 text-xl leading-6 text-p1-darkgreen dark:text-slate-400 ">
+    <div className="mt-3 text-xl leading-6 text-p1-darkgreen dark:text-slate-400">
       <p>
       Метаданные — это данные, которые описывают и предоставляют информацию о других данных. В контексте цифровых активов, таких как NFT, метаданные играют важную роль, предоставляя подробности о самом активе, такие как название, описание, автор, дата создания, и ссылки на связанный контент (например, изображения, видео, аудио).
 
@@ -1906,13 +2133,13 @@ NFT и блокчейн обеспечивают надежный способ �
       Метаданные в контексте NFT:
 
       </p>
-          <div className="pb-5 space-y-4"></div>
+          <div className="space-y-4 pb-5"></div>
           <p>
           Для NFT метаданные часто хранятся в формате JSON и могут включать следующие элементы:
           </p>
     <div className="pb-5"></div>
 
-    <ul className="list-disc px-5 text-p1-darkgreen space-y-4">
+    <ul className="list-disc space-y-4 px-5 text-p1-darkgreen">
           <li>
           Название (name):Название цифрового актива или произведения искусства.
 
@@ -1935,15 +2162,15 @@ NFT и блокчейн обеспечивают надежный способ �
      
         </ul>
         <div className="pb-5"></div>
-        <div className="pb-5  text-p1-darkgreen space-y-4">
+        <div className="space-y-4 pb-5 text-p1-darkgreen">
         Хранение метаданных:
         </div>
-        <div className="pb-5  text-p1-darkgreen space-y-4">
+        <div className="space-y-4 pb-5 text-p1-darkgreen">
         Метаданные для NFT могут храниться как на блокчейне, так и вне его, в зависимости от платформы и требований:
 
         </div>
 
-          <ul className="list-disc px-5 text-p1-darkgreen space-y-4">
+          <ul className="list-disc space-y-4 px-5 text-p1-darkgreen">
           <li>
           На блокчейне:Включение метаданных прямо в смарт-контракт может быть дорогостоящим из-за ограничений на размер данных и высоких транзакционных издержек.
           </li>
@@ -1960,7 +2187,7 @@ NFT и блокчейн обеспечивают надежный способ �
     <div className="pb-5 text-p1-darkgreen"> Использование метаданных:
 
     </div>
-      <ul className="list-disc text-p1-darkgreen px-5 space-y-2">
+      <ul className="list-disc space-y-2 px-5 text-p1-darkgreen">
       <li>
       Метаданные используются для отображения информации о NFT на различных платформах и в кошельках. При просмотре NFT платформа или приложение запрашивает метаданные по URI и отображает информацию и связанный контент пользователю.
       </li>
@@ -1969,7 +2196,7 @@ NFT и блокчейн обеспечивают надежный способ �
     <div className="pb-5 text-p1-darkgreen"> Преимущества использования метаданных:
 
 </div>
-<ul className="list-disc text-p1-darkgreen px-5 space-y-2">
+<ul className="list-disc space-y-2 px-5 text-p1-darkgreen">
       <li>
       Дополнительная информация:Метаданные предоставляют подробную информацию о цифровом активе, что делает его более понятным и привлекательным для потенциальных покупателей и коллекционеров.
       </li>
@@ -1993,12 +2220,12 @@ NFT и блокчейн обеспечивают надежный способ �
 </div>
 
 
-<div className="pb-5 flex flex-row max-w-full mx-auto p-8 space-y-2">
-  <details className="open:bg-sky-50 dark:open:bg-slate-900 open:ring-1 open:ring-black/5 dark:open:ring-white/10 open:shadow-lg p-6 rounded-lg" close>
-    <summary className="text-lm leading-6 space-y-4 text-p1-darkgreen dark:text-white font-semibold select-none">
+<div className="mx-auto flex max-w-full flex-row space-y-2 p-2">
+  <details className="rounded-lg p-2 open:bg-p1-white open:shadow-lg open:ring-1 open:ring-black/5 dark:open:bg-slate-900 dark:open:ring-white/10" close>
+    <summary className="text-lm select-none space-y-4 font-semibold leading-6 text-p1-darkgreen dark:text-white">
     Что такое MetaMask?
         </summary>
-    <div className="mt-3 text-xl leading-6 text-p1-darkgreen dark:text-slate-400 ">
+    <div className="mt-3 text-xl leading-6 text-p1-darkgreen dark:text-slate-400">
       <p>
       MetaMask — это популярный криптовалютный кошелек и инструмент для взаимодействия с блокчейном Ethereum, который позволяет пользователям управлять своими эфирами (ETH) и токенами, а также взаимодействовать с децентрализованными приложениями (dApps). MetaMask доступен как расширение для браузера (например, Chrome, Firefox, Brave) и как мобильное приложение (для iOS и Android).
 
@@ -2007,11 +2234,11 @@ NFT и блокчейн обеспечивают надежный способ �
       Основные функции MetaMask:
 
       </p>
-          <div className="pb-5 space-y-4"></div>
+          <div className="space-y-4 pb-5"></div>
          
     <div className="pb-5"></div>
 
-    <ul className="list-disc px-5 text-p1-darkgreen space-y-4">
+    <ul className="list-disc space-y-4 px-5 text-p1-darkgreen">
           <li>
           Управление криптовалютами: Хранение и управление Ethereum (ETH) и токенами стандарта ERC-20 и ERC-721. Отправка и получение криптовалюты. Поддержка нескольких адресов (аккаунтов).
 
@@ -2028,15 +2255,15 @@ NFT и блокчейн обеспечивают надежный способ �
      
         </ul>
         <div className="pb-5"></div>
-        <div className="pb-5  text-p1-darkgreen space-y-4">
+        <div className="space-y-4 pb-5 text-p1-darkgreen">
         Мультибраузерная и мобильная поддержка:Расширения для популярных браузеров, что делает использование MetaMask удобным на настольных устройствах. Мобильное приложение для управления криптовалютами и взаимодействия с dApps на ходу.
         </div>
-        <div className="pb-5  text-p1-darkgreen space-y-4">
+        <div className="space-y-4 pb-5 text-p1-darkgreen">
         Как использовать MetaMask:
 
         </div>
 
-          <ul className="list-disc px-5 text-p1-darkgreen space-y-4">
+          <ul className="list-disc space-y-4 px-5 text-p1-darkgreen">
           <li>
           Установка и настройка:Скачать и установить расширение для браузера или мобильное приложение MetaMask. Создать новый кошелек, следуя инструкциям, и сохранить сид-фразу в безопасном месте. Установить пароль для защиты кошелька.
           </li>
@@ -2065,18 +2292,18 @@ NFT и блокчейн обеспечивают надежный способ �
 </div>
 
 
-<section className =  "px-2 flex space-x-2">
-  <a className ="w-1/3 bg-violet-300 h-96 mb-4 relative rounded inline-block overflow-hidden" href="#">
+<section className =  "flex space-x-2 px-2">
+  <a className ="relative mb-4 inline-block h-96 w-1/3 overflow-hidden rounded bg-violet-300" href="#">
   <div>
-    <h2 className ="p-4 absolute bottom-0 text-gray-100 liading-tight"> 
+    <h2 className ="liading-tight absolute bottom-0 p-4 text-gray-100"> 
 123456778890-
 
     </h2>
   </div>
   </a>
-  <a className ="w-2/3 bg-violet-100 h-96 mb-4 relative rounded inline-block overflow-hidden" href="#">
+  <a className ="relative mb-4 inline-block h-96 w-2/3 overflow-hidden rounded bg-violet-100" href="#">
   <div>
-    <h2 className ="p-4 absolute bottom-0 text-gray-100 liading-tight"> 
+    <h2 className ="liading-tight absolute bottom-0 p-4 text-gray-100"> 
 123456778890-
 
     </h2>
@@ -2094,18 +2321,18 @@ NFT и блокчейн обеспечивают надежный способ �
 ////////--2--////
 
       
-<section className =  "px-2 flex space-x-2">
-  <a className ="w-1/3 bg-violet-300 h-96 mb-4 relative rounded inline-block overflow-hidden" href="#">
+<section className =  "flex space-x-2 px-2">
+  <a className ="relative mb-4 inline-block h-96 w-1/3 overflow-hidden rounded bg-violet-300" href="#">
   <div>
-    <h2 className ="p-4 absolute bottom-0 text-gray-100 liading-tight"> 
+    <h2 className ="liading-tight absolute bottom-0 p-4 text-gray-100"> 
 123456778890-
 
     </h2>
   </div>
   </a>
-  <a className ="w-2/3 bg-violet-100 h-96 mb-4 relative rounded inline-block overflow-hidden" href="#">
+  <a className ="relative mb-4 inline-block h-96 w-2/3 overflow-hidden rounded bg-violet-100" href="#">
   <div>
-    <h2 className ="p-4 absolute bottom-0 text-gray-100 liading-tight"> 
+    <h2 className ="liading-tight absolute bottom-0 p-4 text-gray-100"> 
 123456778890-
 
     </h2>
@@ -2114,21 +2341,27 @@ NFT и блокчейн обеспечивают надежный способ �
 </section>
 
 
-<div className="pb-5 flex flex-row">
+<div className="flex flex-row pb-5">
         <div className="basis-1/5">01</div>
-        <div className="basis-3/5 text-center text-p1-darkgreen text-6xl font-bold">Наша команда</div>
+        <div className="basis-3/5 text-center text-6xl font-bold text-p1-darkgreen">Наша команда</div>
         <div className="basis-1/5">
           03
         </div>
       </div>
 
-      <div className="pb-5 flex flex-row space-x-8">
-        <div className="basis-1/3 text-center  text-p1-darkgreen ">
-        Михаил Стародуб
-        <p>
-      Founder & President 
-      </p>
-        <div className="mt-3 text-xl leading-6 text-justify text-p1-darkgreen dark:text-slate-400 space-y-4">
+      <div className="flex flex-row space-x-8 pb-5">
+        <div className="basis-1/3 text-center text-p1-darkgreen">
+          <Image
+            width={500}
+            height={500}
+            src="/Team/Mike Starodub.png"
+            alt="Mike Starodub"
+          />
+
+          <p className="pt-5 font-bold">Михаил Стародуб</p>
+          <p>Founder & President</p>
+        
+        <div className="mt-3 space-y-4 text-justify text-xl leading-6 text-p1-darkgreen dark:text-slate-400">
     
       <p>
       Михаил основал нашу компанию. Он отец наших главных целей и ценностей. Он нашел ключевых членов нашей команды и помог им проявить свои уникальные таланты в рабочем процессе. Он сделал первые шаги, которые были действительно важны. Орагнизовал старт Проекта, тактику и стратегию развития компании на ближайшие 5 лет. Имеет международный опыт организации и проведения официальных спортивных международных соревнований таких как Formula-1, WTCR, национальных RDS GP, РСКГ, REC, SDC, а также иных автоспортивных и автокультурных мероприятий на Sochi Autodrom и Igora Drive
@@ -2137,12 +2370,17 @@ NFT и блокчейн обеспечивают надежный способ �
           </div>
        
         </div>
-        <div className="basis-1/3 text-center text-p1-darkgreen ">
-        Андрей Лаус
-        <p>
-        Founder & Vice President
-        </p>
-        <div className="mt-3 text-xl leading-6 text-justify text-p1-darkgreen dark:text-slate-400 space-y-4">
+        <div className="basis-1/3 text-center text-p1-darkgreen">
+        <Image
+            width={500}
+            height={500}
+            src="/Team/Andrey_Laus.png"
+            alt="Andrey_Laus"
+          />
+          <p className="pt-5 font-bold">Андрей Лаус</p>
+          <p>Founder & Vice President</p>
+        
+        <div className="mt-3 space-y-4 text-justify text-xl leading-6 text-p1-darkgreen dark:text-slate-400">
     
       <p>
       Стратегическое планирование и рост компании. Специализируется на анализе рынка, разработке бизнес-стратегий и привлечении партнеров. Имеет международный опыт организации и проведения официальных спортивных международных соревнований таких как Formula-1, WTCR, национальных RDS GP, РСКГ, REC, SDC, а также иных автоспортивных и автокультурных мероприятий на Sochi Autodrom и Igora Drive
@@ -2150,12 +2388,17 @@ NFT и блокчейн обеспечивают надежный способ �
       </p>
         </div>
         </div>
-        <div className="basis-1/3 text-center text-p1-darkgreen ">
-        Давид Агаджанян
-        <p>
-        Founder & Director of public and international relations
-        </p>
-        <div className="mt-3 text-xl leading-6 text-justify text-p1-darkgreen dark:text-slate-400 space-y-4">
+        <div className="basis-1/3 text-center text-p1-darkgreen">
+        <Image
+            width={500}
+            height={500}
+            src="/Team/David Agadjanian.png"
+            alt="David Agadjanian."
+          />
+          <p className="pt-5 font-bold">Давид Агаджанян</p>
+          <p>Founder & Director of public and international relations</p>
+        
+        <div className="mt-3 space-y-4 text-justify text-xl leading-6 text-p1-darkgreen dark:text-slate-400">
     
       <p>
       Специализируется на установлении и поддержании международных деловых отношений, управлении корпоративной репутацией, разработке и реализации PR-стратегий на глобальном уровне. Обладает навыками кризисного менеджмента и организации международных мероприятий. Опыт работы включает успешные проекты по продвижению бренда и укреплению партнерских отношений.
@@ -2166,13 +2409,19 @@ NFT и блокчейн обеспечивают надежный способ �
         </div>
 
 
-        <div className="pb-5 flex flex-row space-x-8">
-        <div className="basis-1/3 text-center  text-p1-darkgreen ">
-        Валерий Костиков
-        <p>
-        Founder & Software developer
-        </p>
-        <div className="mt-3 text-xl leading-6 text-justify text-p1-darkgreen dark:text-slate-400 space-y-4">
+        <div className="flex flex-row space-x-8 pb-5">
+        <div className="basis-1/3 text-center text-p1-darkgreen">
+        <Image
+            width={500}
+            height={500}
+            src="/Team/Valerii_Kostikov.png"
+            alt="Valerii Kostikov"
+          />
+          <p className="pt-5 font-bold">Валерий Костиков</p>
+          <p>Founder & Software developer</p>
+        
+        
+        <div className="mt-3 space-y-4 text-justify text-xl leading-6 text-p1-darkgreen dark:text-slate-400">
     
       <p>
       Разработчик программного обеспечения, специализирующийся на frontend (React, Vue.js), backend (Node.js, Django), Web3 и блокчейн (Solidity, Ethereum). Руководит разработкой и стратегией развития автоматизации сервисов. Имеет опыт создания и развертывания смарт-контрактов, а также интеграцией блокчейн-сетей.
@@ -2181,12 +2430,17 @@ NFT и блокчейн обеспечивают надежный способ �
           </div>
        
         </div>
-        <div className="basis-1/3 text-center text-p1-darkgreen ">
-        Лада Леман
-        <p>
-        Artist
-                </p>
-        <div className="mt-3 text-xl leading-6 text-justify text-p1-darkgreen dark:text-slate-400 space-y-4">
+        <div className="basis-1/3 text-center text-p1-darkgreen">
+        <Image
+            width={500}
+            height={500}
+            src="/Team/Lada.png"
+            alt="Lada Leman"
+          />
+          <p className="pt-5 font-bold"> Лада Леман</p>
+          <p>Artist</p>
+      
+        <div className="mt-3 space-y-4 text-justify text-xl leading-6 text-p1-darkgreen dark:text-slate-400">
     
       <p>
       Лада обладает креативным подходом к выполнению задач и обширным опытом в создании и управлении визуальными концепциями. Специализируется на разработке бренд-стратегий, внедрении инновационных решений в проекты. Успешно реализовала множество проектов в области графического дизайна, анимации. Обеспечивает высокие стандарты креативности и функциональности. Обладает глубокими знаниями в области пользовательского опыта и современного графического дизайна и анимации.
@@ -2194,12 +2448,17 @@ NFT и блокчейн обеспечивают надежный способ �
       </p>
         </div>
         </div>
-        <div className="basis-1/3 text-center text-p1-darkgreen ">
-        Герман Беньковский
-        <p>
-        Founder & Marketing Director
-        </p>
-        <div className="mt-3 text-xl leading-6 text-justify text-p1-darkgreen dark:text-slate-400 space-y-4">
+        <div className="basis-1/3 text-center text-p1-darkgreen">
+        <Image
+            width={500}
+            height={500}
+            src="/Team/GermanBenkovsky.png"
+            alt="German Benkovsky"
+          />
+          <p className="pt-5 font-bold"> Герман Беньковский</p>
+          <p>Founder & Marketing Director</p>
+        
+        <div className="mt-3 space-y-4 text-justify text-xl leading-6 text-p1-darkgreen dark:text-slate-400">
     
       <p>
       Герман - на сегодняшний день самый молодой участник нашей команды. Он студент МГИМО. За плечами Германа опыт по созданию успешных социальнозначимых медиа продуктов в сферах Web2 и Web3. В команде Global Automotive Association Герман ответственен стратегию продвижения продукта и сотрудничество с отечественными и зарубежными партнерами.
@@ -2215,100 +2474,21 @@ NFT и блокчейн обеспечивают надежный способ �
     
 
 
-      <div className="pb-5 flex flex-row">
-        <div className="basis-1/5 text-center text-p1-darkgreen ">
+      <div className="flex flex-row pb-5">
+        <div className="basis-1/5 text-center text-p1-darkgreen">
         01
         </div>
-        <div className="basis-3/5 text-center text-p1-darkgreen ">
-        Наша команда
-        </div>
-        <div className="basis-1/5 text-center text-p1-darkgreen ">
+        <div className="basis-3/5 text-center text-p1-darkgreen">
+02        </div>
+        <div className="basis-1/5 text-center text-p1-darkgreen">
           03
         </div>
       </div>
-      <div className="text-center text-6xl font-bold"> Наша команда </div>
-      <div className="my-5 rounded-3xl border-0 border-gray-500 p-6">
-        <div className="pb-3 text-center font-bold">Михаил Стародуб</div>
-        <div className="pb-5 text-center">Founder & President</div>
-        <div className="pb-5">
-          Михаил основал нашу компанию. Он отец наших главных целей и ценностей.
-          Он нашел ключевых членов нашей команды и помог им проявить свои
-          уникальные таланты в рабочем процессе. Он сделал первые шаги, которые
-          были действительно важны. Орагнизовал старт Проекта, тактику и
-          стратегию развития компании на ближайшие 5 лет. Имеет международный
-          опыт организации и проведения официальных спортивных международных
-          соревнований таких как Formula-1, WTCR, национальных RDS GP, РСКГ,
-          REC, SDC, а также иных автоспортивных и автокультурных мероприятий на
-          Sochi Autodrom и Igora Drive
-        </div>
-      </div>
 
-      <div className="my-5 rounded-3xl border-0 border-gray-500 p-6">
-        <div className="pb-3 text-center font-bold">Андрей Лаус</div>
-        <div className="pb-5 text-center">Founder & Vice President</div>
-        <div className="pb-5">
-          Стратегическое планирование и рост компании. Специализируется на
-          анализе рынка, разработке бизнес-стратегий и привлечении партнеров.
-          Имеет международный опыт организации и проведения официальных
-          спортивных международных соревнований таких как Formula-1, WTCR,
-          национальных RDS GP, РСКГ, REC, SDC, а также иных автоспортивных и
-          автокультурных мероприятий на Sochi Autodrom и Igora Drive
-        </div>
-      </div>
+---------------------
 
-      <div className="my-5 rounded-3xl border-0 border-gray-500 p-6">
-        <div className="pb-3 text-center font-bold">Давид Агаджанян</div>
-        <div className="pb-5 text-center">
-          Founder & Director of public and international relations
-        </div>
-        <div className="pb-5">
-          Специализируется на установлении и поддержании международных деловых
-          отношений, управлении корпоративной репутацией, разработке и
-          реализации PR-стратегий на глобальном уровне. Обладает навыками
-          кризисного менеджмента и организации международных мероприятий. Опыт
-          работы включает успешные проекты по продвижению бренда и укреплению
-          партнерских отношений.
-        </div>
-      </div>
 
-      <div className="my-5 rounded-3xl border-0 border-gray-500 p-6">
-        <div className="pb-3 text-center font-bold">Валерий Костиков</div>
-        <div className="pb-5 text-center">Founder & Software developer</div>
-        <div className="pb-5">
-          Разработчик программного обеспечения, специализирующийся на frontend
-          (React, Vue.js), backend (Node.js, Django), Web3 и блокчейн (Solidity,
-          Ethereum). Руководит разработкой и стратегией развития автоматизации
-          сервисов. Имеет опыт создания и развертывания смарт-контрактов, а
-          также интеграции с блокчейн-сетями.
-        </div>
-      </div>
-
-      <div className="my-5 rounded-3xl border-0 border-gray-500 p-6">
-        <div className="pb-3 text-center font-bold">Лада Леман</div>
-        <div className="pb-5 text-center">Artist</div>
-        <div className="pb-5">
-          Лада обладает креативным подходом к выполнению задач и обширным опытом
-          в создании и управлении визуальными концепциями. Специализируется на
-          разработке бренд-стратегий, внедрении инновационных решений в проекты.
-          Успешно реализовала множество проектов в области графического дизайна,
-          анимации. Обеспечивает высокие стандарты креативности и
-          функциональности. Обладает глубокими знаниями в области
-          пользовательского опыта и современного графического дизайна и
-          анимации.
-        </div>
-      </div>
-
-      <div className="my-5 rounded-3xl border-0 border-gray-500 p-6">
-        <div className="pb-3 text-center font-bold">Герман Беньковский</div>
-        <div className="pb-5 text-center">Founder & Marketing Director</div>
-        <div className="pb-5">
-          Герман - самый молодой участник нашей команды. Он студент МГИМО. За
-          плечами Германа опыт по созданию успешных прибыльных медиа продуктов в
-          сферах IT и криптовалют. В команде Global Automotive Association
-          Герман ответственен за сотрудничество с отечественными партнерами, а
-          также за продвижение проекта на международной арене.
-        </div>
-      </div>
+    
 
       <div className="text-center text-6xl font-bold"> Наши Контакты </div>
       <div className="text-center"> Смело пишите и звоните нам.</div>
@@ -2335,5 +2515,8 @@ NFT и блокчейн обеспечивают надежный способ �
         <div className="pb-5">Наш e-mail: info@gaa.zone</div>
       </div>
     </div>
+    </div>
   );
+  
 }
+

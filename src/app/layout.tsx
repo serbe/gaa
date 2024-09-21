@@ -27,7 +27,7 @@ export default function RootLayout({
         <div className={inter.className}>
           <Header />
           <Nav />
-          <main className="mx-auto min-h-screen max-w-[1200px] bg-sky-50">
+          <main className="mx-auto min-h-screen max-w-[1200px] bg-p1-white">
             {children}
           </main>
           <Footer />
