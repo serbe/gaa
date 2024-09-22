@@ -33,10 +33,10 @@ export default function Page() {
                 </p>
               <p className="pb-2 text-2xl text-p1-darkgreen">
               Кто твой персонаж - решать тебе!              </p>
-          <button className="rounded-l-lg border-2 border-p1-darkgreen bg-p1-white px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p1-darkgreen hover:text-p1-white">
+          <button className="rounded-l-3xl border-2 border-p1-darkgreen bg-p1-white px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p1-darkgreen hover:text-p1-white">
         Исследуй NFT
           </button>
-          <button className="rounded-r-lg border-2 border-p1-darkgreen bg-p1-white px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
+          <button className="rounded-r-3xl border-2 border-p1-darkgreen bg-p1-white px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
         Страница создания NFT
           </button>
           <div className="pb-8"></div>
@@ -85,8 +85,6 @@ export default function Page() {
   <p className="p-2 text-xl text-p1-darkgreen">
   NFT коллекция RaceLads даст новый виток развития автокультурного сообщества и интеграции с Web3 и Blockchain.
   </p>
-      
-      
                 </div>
               </div>
 
@@ -98,73 +96,53 @@ export default function Page() {
             <div>
               <div className="flex flex-row">
                 <div className="place-content-center space-y-2 p-2 text-center">
-                
-          
+
         <Image className="relative inline-block w-max overflow-hidden rounded rounded-3xl border-2 border-p2-orange shadow-lg"
             width={1000}
             height={1000}
             src="/HeroNFT/RaceLads/RaceLads1.png"
             alt="RaceLads1"
           />
-      
-                
-                
-          
+
         <Image className="relative inline-block w-max overflow-hidden rounded rounded-3xl border-2 border-p2-orange shadow-lg"
             width={1000}
             height={1000}
             src="/HeroNFT/RaceLads/RaceLads2.png"
             alt="RaceLads2"
           />
-      
                 </div>
               </div>
-
-            
             </div>
           </a>
-
           <a className="w-1/8 relative inline-block overflow-hidden rounded rounded-3xl">
             <div>
               <div className="flex flex-row">
                 <div className="place-content-center space-y-2 p-2 text-center">
-                
-          
+
         <Image className="relative inline-block w-max overflow-hidden rounded rounded-3xl border-2 border-p2-orange shadow-lg"
             width={1000}
             height={1000}
             src="/HeroNFT/RaceLads/RaceLads3.png"
             alt="RaceLads3"
           />
-      
-                
-                
-          
+
         <Image className="relative inline-block w-max overflow-hidden rounded rounded-3xl border-2 border-p2-orange shadow-lg"
             width={1000}
             height={1000}
             src="/HeroNFT/RaceLads/RaceLads4.png"
             alt="RaceLads4"
           />
-      
                 </div>
               </div>
 
-              <div class="p-5">   <button className="rounded-lg border-2 border-p1-darkgreen bg-p1-white px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
+              <div class="p-5">   <button className="rounded-3xl border-2 border-p1-darkgreen bg-p1-white px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
         Страница создания NFT
           </button>
-
-</div>  
+</div>
             </div>
           </a>
           </div>
-
-
-     div>
-          
            <div className="pb-8"></div>
-  
-    
   </div>
 
 
@@ -175,34 +153,288 @@ export default function Page() {
              
  
       
-      <div className="pb-5 text-center text-4xl font-bold">
+      <div className="pb-5 text-center text-4xl font-bold text-p1-darkgreen">
         Способы получения RaceLads NFT
       </div>
-      <div className="my-5 rounded-3xl border-4 border-gray-500 p-6">
-        <div className="pb-5 text-center">
+      <div className="my-5 rounded-3xl border-4 border-p1-darkgreen p-6">
+        <div className="pb-5 text-center text-xl text-p1-darkgreen">
           Любой желающий может получить своего персонажа (RaceLad) в период
           публичного минта или приобрести на вторичном рынке позднее.
         </div>
+        <Image className="relative inline-block w-max overflow-hidden rounded rounded-3xl"
+            width={1000}
+            height={1000}
+            src="/scheme GAA/scheme RaceLads.png"
+            alt="scheme RaceLads"
+          />
       </div>
-      <div className="pb-5 text-center text-4xl font-bold">RaceLads NFT</div>
-      <div className="pb-5 text-center text-4xl font-bold">
-        Страница создания NFT
+
+
+
+      <div class="flex grid grid-cols-6 gap-4">
+        <div className="start col-span-3 col-start-1 w-full text-2xl text-4xl font-bold text-p2-orange"> RaceLads NFT
+        </div>
+        <div className="start col-span-3 col-end-7 w-full text-end text-2xl text-4xl font-bold text-p2-orange"> Страница создания NFT
+        </div>
+        
+  <div class="col-span-4 col-start-2 w-full rounded-3xl border-4 border-p2-orange text-center text-p1-darkgreen shadow-lg">
+  
+  <div>
+  <p className="p-2 text-2xl text-p1-darkgreen">
+Присоединяйтесь к нам!              </p>
+              <h2 className="pb-2 text-2xl text-p1-darkgreen">
+               Получи своего геороя RaceLad
+              </h2>
+              <Image className="relative mb-4 inline-block w-max overflow-hidden rounded rounded-3xl border-2 border-p2-orange shadow-lg"
+            width={1000}
+            height={1000}
+            src="/HeroNFT/RaceLads/RaceLads1.png"
+            alt="RaceLads1"
+          />
+            <p className="pt-2 text-xl text-p1-darkgreen">
+            Первая коллекция GAA из 10,000 уникальных героев RaceLads                </p>
+              <p className="pb-2 text-xl text-p1-darkgreen">
+              Максимальное количество: 10 RaceLads за транзакцию
+             </p>
+             <p className="pb-2 text-xl text-p2-red">
+              надо добавить полоску выбора количества NFT и рсчет цены за минта
+             </p>
+         
+          <button className="rounded-3xl border-2 border-p1-darkgreen bg-p1-white px-40 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
+        Создай NFT
+          </button>
+          <div className="pb-8"></div>
       </div>
-      <div className="my-5 rounded-3xl border-4 border-orange-400 p-6">
-        <div className="text-center font-bold">Присоединяйтесь к нам</div>
-        <div className="pb-5 text-center font-bold">
-          Получите своего героя RaceLad{" "}
-        </div>
-        <div className="pb-5 text-center">
-          Первая коллекция GAA из 10,000 уникальных героев RaceLads
-        </div>
-        <div className="pb-5 text-center">
-          Максимальное количество: 10 RaceLads за транзакцию
-        </div>
-        <div className="pb-5 text-center font-bold">Создай NFT </div>
-        <div className="pb-5 text-center font-bold"></div>
-      </div>
+  </div>
+  </div>
+ 
+
+    
+
       {/* //Лидеры движений */}
+
+     
+      <div className="pt-5 text-center text-6xl font-bold text-p1-darkgreen">Лидеры движений
+      </div>
+      <div className="pb-5 text-center text-4xl font-bold text-p1-darkgreen">
+      знаковые персоны
+      </div>
+<div className="з-5 m-5 rounded-3xl border-4 border-p1-darkgreen" >
+<div class="flex grid grid-cols-8 gap-4">
+  <div class="col-span-2 col-start-1 w-full rounded-3xl border-4 p-2 text-center text-p1-darkgreen">
+  <Image className="relative mb-4 inline-block w-max overflow-hidden rounded rounded-3xl border-2 border-p2-orange shadow-lg"
+            width={1000}
+            height={1000}
+            src="/HeroNFT/RaceLads/RaceLads1.png"
+            alt="RaceLads1"
+          />
+            <button className="rounded-l-xl border-2 border-p1-darkgreen bg-p1-white p-2 text-xs text-p1-darkgreen shadow-lg hover:bg-p1-darkgreen hover:text-p1-white">
+        Исследуй NFT
+          </button>
+          <button className="rounded-r-xl border-2 border-p1-darkgreen bg-p1-white p-2 text-xs text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
+        Cоздание NFT
+          </button>
+    </div>
+
+    <div class="col-span-2 col-start-3 w-full rounded-3xl p-2 text-center text-p1-darkgreen shadow-lg">
+    <Image className="relative mb-4 inline-block w-max overflow-hidden rounded rounded-3xl border-2 border-p2-orange shadow-lg"
+            width={1000}
+            height={1000}
+            src="/HeroNFT/RaceLads/RaceLads1.png"
+            alt="RaceLads1"
+          />
+</div>
+
+<div class="col-span-2 col-start-5 w-full rounded-3xl p-2 text-center text-p1-darkgreen shadow-lg">
+<Image className="relative mb-4 inline-block w-max overflow-hidden rounded rounded-3xl border-2 border-p2-orange shadow-lg"
+            width={1000}
+            height={1000}
+            src="/HeroNFT/RaceLads/RaceLads1.png"
+            alt="RaceLads1"
+          />
+</div>
+
+<div class="col-span-2 col-start-7 w-full rounded-3xl p-2 text-center text-p1-darkgreen shadow-lg">
+<Image className="relative mb-4 inline-block w-max overflow-hidden rounded rounded-3xl border-2 border-p2-orange shadow-lg"
+            width={1000}
+            height={1000}
+            src="/HeroNFT/RaceLads/RaceLads1.png"
+            alt="RaceLads1"
+          />
+</div>
+</div>
+
+ 
+
+</div>
+
+
+<div className="pt-5 text-center text-6xl font-bold text-p1-darkgreen">        Страница исследователя
+</div>
+      <div className="pb-5 text-center text-4xl font-bold text-p1-darkgreen">
+      RaceLads NFT
+      </div>
+<div className="m-5 flex rounded-3xl border-4 border-p1-darkgreen"> 
+<div className="flex items-start"> 
+<a className="w-5/8 relative mb-4 inline-block overflow-hidden rounded rounded-3xl">
+            <div>
+              <div className="flex flex-row">
+                <div className="place-content-center p-8 text-left">
+                
+                <p className="p-2 text-xl text-p1-darkgreen">
+                Невзаимозаменяемый токен, представляющий коллекцию из 10.000 уникальных цифровых героев, вдохновленных любовью к автомобилям и запечатленных в Blockchain.
+
+</p>          
+<p className="p-2 text-xl text-p1-darkgreen">
+                Кто твой персонаж - решать тебе!
+
+</p>
+  <p className="p-2 text-xl text-p1-darkgreen">
+  Коллекция, призванная внести свой вклад в развитие и популяризацию автокультуры и автоспорта.
+  </p>
+                
+      
+  <p className="p-2 text-xl text-p1-darkgreen">
+  Приобретая героя из коллекции ты становишься членом большого дружного сообщества!
+  </p>
+ <ul className="list-disc space-y-5 px-5 text-xl text-p1-darkgreen">
+  <li>посещай автоспортивные мероприятия, выставки, лекции, вечеринки
+  </li>
+  <li>участвуй в виртуальных гонках и других захватывающих онлайн событиях
+  </li>
+  <li>принимай участие в ключевых голосованиях, определяющих развитие сообщества
+  </li>
+ </ul>
+  <p className="p-2 text-xl text-p1-darkgreen">
+  NFT коллекция RaceLads даст новый виток развития автокультурного сообщества и интеграции с Web3 и Blockchain.
+  </p>
+                </div>
+              </div>
+
+            
+            </div>
+          </a>
+
+          <a className="w-1/8 relative mb-1 inline-block overflow-hidden rounded rounded-3xl">
+            <div>
+              <div className="flex flex-row">
+                <div className="place-content-center space-y-2 p-2 text-center">
+
+        <Image className="relative inline-block w-max overflow-hidden rounded rounded-3xl border-2 border-p2-orange shadow-lg"
+            width={1000}
+            height={1000}
+            src="/HeroNFT/RaceLads/RaceLads1.png"
+            alt="RaceLads1"
+          />
+
+        <Image className="relative inline-block w-max overflow-hidden rounded rounded-3xl border-2 border-p2-orange shadow-lg"
+            width={1000}
+            height={1000}
+            src="/HeroNFT/RaceLads/RaceLads2.png"
+            alt="RaceLads2"
+          />
+                </div>
+              </div>
+            </div>
+          </a>
+          <a className="w-1/8 relative inline-block overflow-hidden rounded rounded-3xl">
+            <div>
+              <div className="flex flex-row">
+                <div className="place-content-center space-y-2 p-2 text-center">
+
+        <Image className="relative inline-block w-max overflow-hidden rounded rounded-3xl border-2 border-p2-orange shadow-lg"
+            width={1000}
+            height={1000}
+            src="/HeroNFT/RaceLads/RaceLads3.png"
+            alt="RaceLads3"
+          />
+
+        <Image className="relative inline-block w-max overflow-hidden rounded rounded-3xl border-2 border-p2-orange shadow-lg"
+            width={1000}
+            height={1000}
+            src="/HeroNFT/RaceLads/RaceLads4.png"
+            alt="RaceLads4"
+          />
+                </div>
+              </div>
+
+              <div class="p-5">   <button className="rounded-3xl border-2 border-p1-darkgreen bg-p1-white px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
+        Страница создания NFT
+          </button>
+</div>
+            </div>
+          </a>
+          </div>
+           <div className="pb-8"></div>
+  </div>
+
+
+       
+
+ 
+      
+             
+ 
+      
+      <div className="pb-5 text-center text-4xl font-bold text-p1-darkgreen">
+        Способы получения RaceLads NFT
+      </div>
+      <div className="my-5 rounded-3xl border-4 border-p1-darkgreen p-6">
+        <div className="pb-5 text-center text-xl text-p1-darkgreen">
+          Любой желающий может получить своего персонажа (RaceLad) в период
+          публичного минта или приобрести на вторичном рынке позднее.
+        </div>
+        <Image className="relative inline-block w-max overflow-hidden rounded rounded-3xl"
+            width={1000}
+            height={1000}
+            src="/scheme GAA/scheme RaceLads.png"
+            alt="scheme RaceLads"
+          />
+      </div>
+
+
+
+      <div class="flex grid grid-cols-6 gap-4">
+        <div className="start col-span-3 col-start-1 w-full text-2xl text-4xl font-bold text-p2-orange"> RaceLads NFT
+        </div>
+        <div className="start col-span-3 col-end-7 w-full text-end text-2xl text-4xl font-bold text-p2-orange"> Страница создания NFT
+        </div>
+        
+  <div class="col-span-4 col-start-2 w-full rounded-3xl border-4 border-p2-orange text-center text-p1-darkgreen shadow-lg">
+  
+  <div>
+  <p className="p-2 text-2xl text-p1-darkgreen">
+Присоединяйтесь к нам!              </p>
+              <h2 className="pb-2 text-2xl text-p1-darkgreen">
+               Получи своего геороя RaceLad
+              </h2>
+              <Image className="relative mb-4 inline-block w-max overflow-hidden rounded rounded-3xl border-2 border-p2-orange shadow-lg"
+            width={1000}
+            height={1000}
+            src="/HeroNFT/RaceLads/RaceLads1.png"
+            alt="RaceLads1"
+          />
+            <p className="pt-2 text-xl text-p1-darkgreen">
+            Первая коллекция GAA из 10,000 уникальных героев RaceLads                </p>
+              <p className="pb-2 text-xl text-p1-darkgreen">
+              Максимальное количество: 10 RaceLads за транзакцию
+             </p>
+             <p className="pb-2 text-xl text-p2-red">
+              надо добавить полоску выбора количества NFT и рсчет цены за минта
+             </p>
+         
+          <button className="rounded-3xl border-2 border-p1-darkgreen bg-p1-white px-40 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
+        Создай NFT
+          </button>
+          <div className="pb-8"></div>
+      </div>
+  </div>
+  </div>
+ 
+
+  
+///////////////////
+
       <div className="pb-5 text-center text-6xl font-bold">Лидеры движений</div>
       <div className="pb-5 text-center text-6xl font-bold">
         знаковые персоны
