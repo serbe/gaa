@@ -5,58 +5,58 @@ export default function Page() {
     <div>
       <div className="flex flex-row p-2">
         <div className="basis-1/6 text-center">
-        <Image
-                    className="relative mb-4 inline-block w-max overflow-hidden rounded-3xl"
-                    width={1000}
-                    height={1000}
-                    src="/AboutHero/Benefit.png"
-                    alt="Benefit"
-                  />
-        </div>
-        <div className="basis-1/6 text-center"> 
-        <Image
-                    className="relative mb-4 inline-block w-max overflow-hidden rounded-3xl"
-                    width={1000}
-                    height={1000}
-                    src="/AboutHero/Terms.png"
-                    alt="Terms"
-                  />
+          <Image
+            className="relative mb-4 inline-block w-max overflow-hidden rounded-3xl"
+            width={1000}
+            height={1000}
+            src="/AboutHero/Benefit.png"
+            alt="Benefit"
+          />
         </div>
         <div className="basis-1/6 text-center">
-        <Image
-                    className="relative mb-4 inline-block w-max overflow-hidden rounded-3xl"
-                    width={1000}
-                    height={1000}
-                    src="/AboutHero/Policy.png"
-                    alt="Policy"
-                  />
+          <Image
+            className="relative mb-4 inline-block w-max overflow-hidden rounded-3xl"
+            width={1000}
+            height={1000}
+            src="/AboutHero/Terms.png"
+            alt="Terms"
+          />
         </div>
         <div className="basis-1/6 text-center">
-        <Image
-                    className="relative mb-4 inline-block w-max overflow-hidden rounded-3xl"
-                    width={1000}
-                    height={1000}
-                    src="/AboutHero/Web3.png"
-                    alt="Web3"
-                  />
+          <Image
+            className="relative mb-4 inline-block w-max overflow-hidden rounded-3xl"
+            width={1000}
+            height={1000}
+            src="/AboutHero/Policy.png"
+            alt="Policy"
+          />
         </div>
         <div className="basis-1/6 text-center">
-        <Image
-                    className="relative mb-4 inline-block w-max overflow-hidden rounded-3xl"
-                    width={1000}
-                    height={1000}
-                    src="/AboutHero/Team.png"
-                    alt="Team"
-                  />
+          <Image
+            className="relative mb-4 inline-block w-max overflow-hidden rounded-3xl"
+            width={1000}
+            height={1000}
+            src="/AboutHero/Web3.png"
+            alt="Web3"
+          />
         </div>
         <div className="basis-1/6 text-center">
-        <Image
-                    className="relative mb-4 inline-block w-max overflow-hidden rounded-3xl"
-                    width={1000}
-                    height={1000}
-                    src="/AboutHero/Contacts.png"
-                    alt="Contacts"
-                  />
+          <Image
+            className="relative mb-4 inline-block w-max overflow-hidden rounded-3xl"
+            width={1000}
+            height={1000}
+            src="/AboutHero/Team.png"
+            alt="Team"
+          />
+        </div>
+        <div className="basis-1/6 text-center">
+          <Image
+            className="relative mb-4 inline-block w-max overflow-hidden rounded-3xl"
+            width={1000}
+            height={1000}
+            src="/AboutHero/Contacts.png"
+            alt="Contacts"
+          />
         </div>
       </div>
 
@@ -110,13 +110,13 @@ export default function Page() {
           </div>
         </div>
         <div className="basis-1/6">
-        <Image
-                    className="relative mb-4 inline-block w-max overflow-hidden rounded-3xl"
-                    width={1000}
-                    height={1000}
-                    src="/Hero/4.png"
-                    alt="4"
-                  />
+          <Image
+            className="relative mb-4 inline-block w-max overflow-hidden rounded-3xl"
+            width={1000}
+            height={1000}
+            src="/Hero/4.png"
+            alt="4"
+          />
         </div>
       </div>
 
@@ -205,13 +205,13 @@ export default function Page() {
           </div>
         </div>
         <div className="basis-1/6">
-        <Image
-                    className="relative mb-4 inline-block w-max overflow-hidden rounded-3xl"
-                    width={1000}
-                    height={1000}
-                    src="/Hero/2.png"
-                    alt="2"
-                  />
+          <Image
+            className="relative mb-4 inline-block w-max overflow-hidden rounded-3xl"
+            width={1000}
+            height={1000}
+            src="/Hero/2.png"
+            alt="2"
+          />
         </div>
       </div>
 
@@ -294,13 +294,13 @@ export default function Page() {
 
       <div className="flex flex-row p-2">
         <div className="basis-1/6">
-        <Image
-                    className="relative mb-4 inline-block w-max overflow-hidden rounded-3xl"
-                    width={1000}
-                    height={1000}
-                    src="/Hero/2place.png"
-                    alt="2place"
-                  />
+          <Image
+            className="relative mb-4 inline-block w-max overflow-hidden rounded-3xl"
+            width={1000}
+            height={1000}
+            src="/Hero/2place.png"
+            alt="2place"
+          />
         </div>
         <div className="basis-4/6 text-p1-darkgreen">
           02
@@ -359,13 +359,13 @@ export default function Page() {
           </div>
         </div>
         <div className="basis-1/6">
-        <Image
-                    className="relative mb-4 inline-block w-max overflow-hidden rounded-3xl"
-                    width={1000}
-                    height={1000}
-                    src="/Hero/1place.png"
-                    alt="1place"
-                  />
+          <Image
+            className="relative mb-4 inline-block w-max overflow-hidden rounded-3xl"
+            width={1000}
+            height={1000}
+            src="/Hero/1place.png"
+            alt="1place"
+          />
         </div>
       </div>
 
@@ -385,13 +385,13 @@ export default function Page() {
 
       <div className="flex flex-row p-2">
         <div className="basis-1/6">
-        <Image
-                    className="relative mb-4 inline-block w-max overflow-hidden rounded-3xl"
-                    width={1000}
-                    height={1000}
-                    src="/Hero/11.png"
-                    alt="11"
-                  />
+          <Image
+            className="relative mb-4 inline-block w-max overflow-hidden rounded-3xl"
+            width={1000}
+            height={1000}
+            src="/Hero/11.png"
+            alt="11"
+          />
         </div>
         <div className="basis-4/6 text-p1-darkgreen">
           02
@@ -493,13 +493,13 @@ export default function Page() {
           </div>
         </div>
         <div className="basis-1/6">
-        <Image
-                    className="relative mb-4 inline-block w-max overflow-hidden rounded-3xl"
-                    width={1000}
-                    height={1000}
-                    src="/Hero/12.png"
-                    alt="12"
-                  />
+          <Image
+            className="relative mb-4 inline-block w-max overflow-hidden rounded-3xl"
+            width={1000}
+            height={1000}
+            src="/Hero/12.png"
+            alt="12"
+          />
         </div>
       </div>
 
@@ -553,19 +553,19 @@ export default function Page() {
                 </p>
               </div>
               <Image
-                    className="relative mb-4 inline-block w-max overflow-hidden"
-                    width={250}
-                    height={250}
-                    src="/Hero/cups.png"
-                    alt="cups"
-                  />
+                className="relative mb-4 inline-block w-max overflow-hidden"
+                width={250}
+                height={250}
+                src="/Hero/cups.png"
+                alt="cups"
+              />
               <Image
-                    className="relative mb-4 inline-block w-max overflow-hidden"
-                    width={500}
-                    height={500}
-                    src="/Hero/hero1.png"
-                    alt="hero1"
-                  />
+                className="relative mb-4 inline-block w-max overflow-hidden"
+                width={500}
+                height={500}
+                src="/Hero/hero1.png"
+                alt="hero1"
+              />
             </div>
           </div>
           <div className="basis-1/6">03</div>

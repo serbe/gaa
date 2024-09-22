@@ -1,8 +1,10 @@
+"use client";
 import Image from "next/image";
-<body>
-  <div className="max-w-screen-xl"></div>
-</body>;
+import { useState } from "react";
+
 export default function Page() {
+  const [value, setValue] = useState("0");
+
   return (
     <div className="w-full">
       <div className="w-full">
@@ -25,23 +27,38 @@ export default function Page() {
                     src="/HeroNFT/RaceLads/RaceLads1.png"
                     alt="RaceLads1"
                   />
-                  <button className="rounded-xl border-2 border-p2-orange bg-p1-white px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
-                    Создай NFT
-                  </button>
-
                   <div>
                     <label
                       htmlFor="default-range"
                       className="block mb-2 text-sm font-medium text-gray-900 dark:text-white"
                     >
-                      Default range
+                      {value}
                     </label>
                     <input
                       id="default-range"
                       type="range"
-                      value="50"
+                      min="0"
+                      max="10000"
+                      value={value}
+                      onChange={(e) => setValue(e.target.value)}
                       className="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer dark:bg-gray-700"
                     />
+                  </div>
+                  <button className="rounded-xl border-2 border-p2-orange bg-p1-white px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
+                    Создай NFT
+                  </button>
+                  <div>
+                    <label className="inline-flex items-center cursor-pointer">
+                      <input
+                        type="checkbox"
+                        value=""
+                        className="sr-only peer"
+                      />
+                      <div className="relative w-11 h-6 bg-gray-200 peer-focus:outline-none peer-focus:ring-4 peer-focus:ring-blue-300 dark:peer-focus:ring-blue-800 rounded-full peer dark:bg-gray-700 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-blue-600"></div>
+                      <span className="ms-3 text-sm font-medium text-gray-900 dark:text-gray-300">
+                        Toggle me
+                      </span>
+                    </label>
                   </div>
                 </div>
               </div>
