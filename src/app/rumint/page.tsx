@@ -4,177 +4,154 @@ import Image from "next/image";
 </body>;
 export default function Page() {
   return (
-    
-
-
     <div>
-      <div className="pt-5 text-center text-6xl font-bold text-p1-darkgreen">RaceLads</div>
+      <div className="pt-5 text-center text-6xl font-bold text-p1-darkgreen">
+        RaceLads
+      </div>
       <div className="pb-5 text-center text-4xl font-bold text-p1-darkgreen">
-        by Global Automotive Association</div>
-
-<div class="flex grid grid-cols-6 gap-4">
-  <div class="col-span-4 col-start-2 w-full rounded-3xl border-4 border-p1-darkgreen text-center text-p1-darkgreen shadow-lg">
-  
-  <div>
-  <p className="p-2 text-2xl text-p1-darkgreen">
-                Генеративная коллекция
-              </p>
-              <h2 className="pb-2 text-2xl text-p1-darkgreen">
-                RaceLads NFT
-              </h2>
-              <Image className="relative mb-4 inline-block w-max overflow-hidden rounded rounded-3xl border-2 border-p2-orange shadow-lg"
-            width={1000}
-            height={1000}
-            src="/HeroNFT/RaceLads/RaceLads1.png"
-            alt="RaceLads1"
-          />
+        by Global Automotive Association
+      </div>
+      <div className="flex grid grid-cols-6 gap-4">
+        <div className="col-span-4 col-start-2 w-full rounded-3xl border-4 border-p1-darkgreen text-center text-p1-darkgreen shadow-lg">
+          <div>
+            <p className="p-2 text-2xl text-p1-darkgreen">
+              Генеративная коллекция
+            </p>
+            <h2 className="pb-2 text-2xl text-p1-darkgreen">RaceLads NFT</h2>
+            <Image
+              className="relative mb-4 inline-block w-max overflow-hidden rounded-3xl border-2 border-p2-orange shadow-lg"
+              width={1000}
+              height={1000}
+              src="/HeroNFT/RaceLads/RaceLads1.png"
+              alt="RaceLads1"
+            />
             <p className="pt-2 text-2xl text-p1-darkgreen">
-                10.000 уникальных героев.
-                </p>
-              <p className="pb-2 text-2xl text-p1-darkgreen">
-              Кто твой персонаж - решать тебе!              </p>
-          <button className="rounded-l-lg border-2 border-p1-darkgreen bg-p1-white px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p1-darkgreen hover:text-p1-white">
-        Исследуй NFT
-          </button>
-          <button className="rounded-r-lg border-2 border-p1-darkgreen bg-p1-white px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
-        Страница создания NFT
-          </button>
-          <div className="pb-8"></div>
+              10.000 уникальных героев.
+            </p>
+            <p className="pb-2 text-2xl text-p1-darkgreen">
+              Кто твой персонаж - решать тебе!{" "}
+            </p>
+            <button className="rounded-l-lg border-2 border-p1-darkgreen bg-p1-white px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p1-darkgreen hover:text-p1-white">
+              Исследуй NFT
+            </button>
+            <button className="rounded-r-lg border-2 border-p1-darkgreen bg-p1-white px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
+              Страница создания NFT
+            </button>
+            <div className="pb-8"></div>
+          </div>
+        </div>
       </div>
-  </div>
-
-</div>
-
-
-<div className="pt-5 text-center text-6xl font-bold text-p1-darkgreen">        Страница исследователя
-</div>
+      <div className="pt-5 text-center text-6xl font-bold text-p1-darkgreen">
+        {" "}
+        Страница исследователя
+      </div>
       <div className="pb-5 text-center text-4xl font-bold text-p1-darkgreen">
-      RaceLads NFT
+        RaceLads NFT
       </div>
-<div className="m-5 flex rounded-3xl border-4 border-p1-darkgreen"> 
-<div className="flex items-start"> 
-<a className="w-5/8 relative mb-4 inline-block overflow-hidden rounded rounded-3xl">
+      <div className="m-5 flex rounded-3xl border-4 border-p1-darkgreen">
+        <div className="flex items-start">
+          <a className="w-5/8 relative mb-4 inline-block overflow-hidden rounded-3xl">
             <div>
               <div className="flex flex-row">
                 <div className="place-content-center p-8 text-left">
-                
-                <p className="p-2 text-xl text-p1-darkgreen">
-                Невзаимозаменяемый токен, представляющий коллекцию из 10.000 уникальных цифровых героев, вдохновленных любовью к автомобилям и запечатленных в Blockchain.
+                  <p className="p-2 text-xl text-p1-darkgreen">
+                    Невзаимозаменяемый токен, представляющий коллекцию из 10.000
+                    уникальных цифровых героев, вдохновленных любовью к
+                    автомобилям и запечатленных в Blockchain.
+                  </p>
+                  <p className="p-2 text-xl text-p1-darkgreen">
+                    Кто твой персонаж - решать тебе!
+                  </p>
+                  <p className="p-2 text-xl text-p1-darkgreen">
+                    Коллекция, призванная внести свой вклад в развитие и
+                    популяризацию автокультуры и автоспорта.
+                  </p>
 
-</p>          
-<p className="p-2 text-xl text-p1-darkgreen">
-                Кто твой персонаж - решать тебе!
-
-</p>
-  <p className="p-2 text-xl text-p1-darkgreen">
-  Коллекция, призванная внести свой вклад в развитие и популяризацию автокультуры и автоспорта.
-  </p>
-                
-      
-  <p className="p-2 text-xl text-p1-darkgreen">
-  Приобретая героя из коллекции ты становишься членом большого дружного сообщества!
-  </p>
- <ul className="list-disc space-y-5 px-5 text-xl text-p1-darkgreen">
-  <li>посещай автоспортивные мероприятия, выставки, лекции, вечеринки
-  </li>
-  <li>участвуй в виртуальных гонках и других захватывающих онлайн событиях
-  </li>
-  <li>принимай участие в ключевых голосованиях, определяющих развитие сообщества
-  </li>
- </ul>
-  <p className="p-2 text-xl text-p1-darkgreen">
-  NFT коллекция RaceLads даст новый виток развития автокультурного сообщества и интеграции с Web3 и Blockchain.
-  </p>
-      
-      
+                  <p className="p-2 text-xl text-p1-darkgreen">
+                    Приобретая героя из коллекции ты становишься членом большого
+                    дружного сообщества!
+                  </p>
+                  <ul className="list-disc space-y-5 px-5 text-xl text-p1-darkgreen">
+                    <li>
+                      посещай автоспортивные мероприятия, выставки, лекции,
+                      вечеринки
+                    </li>
+                    <li>
+                      участвуй в виртуальных гонках и других захватывающих
+                      онлайн событиях
+                    </li>
+                    <li>
+                      принимай участие в ключевых голосованиях, определяющих
+                      развитие сообщества
+                    </li>
+                  </ul>
+                  <p className="p-2 text-xl text-p1-darkgreen">
+                    NFT коллекция RaceLads даст новый виток развития
+                    автокультурного сообщества и интеграции с Web3 и Blockchain.
+                  </p>
                 </div>
               </div>
-
-            
             </div>
           </a>
 
-          <a className="w-1/8 relative mb-1 inline-block overflow-hidden rounded rounded-3xl">
+          <a className="w-1/8 relative mb-1 inline-block overflow-hidden rounded-3xl">
             <div>
               <div className="flex flex-row">
                 <div className="place-content-center space-y-2 p-2 text-center">
-                
-          
-        <Image className="relative inline-block w-max overflow-hidden rounded rounded-3xl border-2 border-p2-orange shadow-lg"
-            width={1000}
-            height={1000}
-            src="/HeroNFT/RaceLads/RaceLads1.png"
-            alt="RaceLads1"
-          />
-      
-                
-                
-          
-        <Image className="relative inline-block w-max overflow-hidden rounded rounded-3xl border-2 border-p2-orange shadow-lg"
-            width={1000}
-            height={1000}
-            src="/HeroNFT/RaceLads/RaceLads2.png"
-            alt="RaceLads2"
-          />
-      
+                  <Image
+                    className="relative inline-block w-max overflow-hidden rounded-3xl border-2 border-p2-orange shadow-lg"
+                    width={1000}
+                    height={1000}
+                    src="/HeroNFT/RaceLads/RaceLads1.png"
+                    alt="RaceLads1"
+                  />
+
+                  <Image
+                    className="relative inline-block w-max overflow-hidden rounded-3xl border-2 border-p2-orange shadow-lg"
+                    width={1000}
+                    height={1000}
+                    src="/HeroNFT/RaceLads/RaceLads2.png"
+                    alt="RaceLads2"
+                  />
                 </div>
               </div>
-
-            
             </div>
           </a>
 
-          <a className="w-1/8 relative inline-block overflow-hidden rounded rounded-3xl">
+          <a className="w-1/8 relative inline-block overflow-hidden rounded-3xl">
             <div>
               <div className="flex flex-row">
                 <div className="place-content-center space-y-2 p-2 text-center">
-                
-          
-        <Image className="relative inline-block w-max overflow-hidden rounded rounded-3xl border-2 border-p2-orange shadow-lg"
-            width={1000}
-            height={1000}
-            src="/HeroNFT/RaceLads/RaceLads3.png"
-            alt="RaceLads3"
-          />
-      
-                
-                
-          
-        <Image className="relative inline-block w-max overflow-hidden rounded rounded-3xl border-2 border-p2-orange shadow-lg"
-            width={1000}
-            height={1000}
-            src="/HeroNFT/RaceLads/RaceLads4.png"
-            alt="RaceLads4"
-          />
-      
+                  <Image
+                    className="relative inline-block w-max overflow-hidden rounded-3xl border-2 border-p2-orange shadow-lg"
+                    width={1000}
+                    height={1000}
+                    src="/HeroNFT/RaceLads/RaceLads3.png"
+                    alt="RaceLads3"
+                  />
+
+                  <Image
+                    className="relative inline-block w-max overflow-hidden rounded-3xl border-2 border-p2-orange shadow-lg"
+                    width={1000}
+                    height={1000}
+                    src="/HeroNFT/RaceLads/RaceLads4.png"
+                    alt="RaceLads4"
+                  />
                 </div>
               </div>
 
-              <div class="p-5">   <button className="rounded-lg border-2 border-p1-darkgreen bg-p1-white px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
-        Страница создания NFT
-          </button>
-
-</div>  
+              <div className="p-5">
+                {" "}
+                <button className="rounded-lg border-2 border-p1-darkgreen bg-p1-white px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
+                  Страница создания NFT
+                </button>
+              </div>
             </div>
           </a>
-          </div>
+        </div>
 
-
-     div>
-          
-           <div className="pb-8"></div>
-  
-    
-  </div>
-
-
-       
-
- 
-      
-             
- 
-      
+        <div className="pb-8"></div>
+      </div>
       <div className="pb-5 text-center text-4xl font-bold">
         Способы получения RaceLads NFT
       </div>
@@ -191,7 +168,7 @@ export default function Page() {
       <div className="my-5 rounded-3xl border-4 border-orange-400 p-6">
         <div className="text-center font-bold">Присоединяйтесь к нам</div>
         <div className="pb-5 text-center font-bold">
-          Получите своего героя RaceLad{" "}
+          Получите своего героя RaceLad
         </div>
         <div className="pb-5 text-center">
           Первая коллекция GAA из 10,000 уникальных героев RaceLads
@@ -242,7 +219,7 @@ export default function Page() {
         <div className="pb-5">
           Предполагается, что первоначальным владельцем NFT будет сам пилот.
           Позже по желанию владельца токен может быть передан/продан любому
-          человеку.{" "}
+          человеку.
         </div>
       </div>
       <div className="pb-5 text-center text-4xl font-bold">
@@ -270,7 +247,7 @@ export default function Page() {
         <div className="text-center font-bold">Присоединяйтесь к нам</div>
         <div className="pb-5 text-center font-bold">Создай NFT Пилота</div>
         <div className="pb-5 text-center">
-          Созданные вами NFT автоматически попадут в глобальную коллекцию GAA{" "}
+          Созданные вами NFT автоматически попадут в глобальную коллекцию GAA
         </div>
         <div className="pb-5 text-center">
           это единый сборник мирового сообщества
@@ -302,9 +279,9 @@ export default function Page() {
       </div>
       {/* //Team's Members */}
       <div className="my-5 rounded-3xl border-4 border-gray-500 p-6">
-        <div className="pb-5 text-center">Team's Members</div>
+        <div className="pb-5 text-center">Team&apos;s Members</div>
         <div className="pb-5 text-center">
-          Участники команд, присоединившиеся к Web3{" "}
+          Участники команд, присоединившиеся к Web3
         </div>
         <div className="pb-5 text-center">Исследовать </div>
         <div className="pb-5 text-center">Страница создания NFT</div>
@@ -312,7 +289,9 @@ export default function Page() {
       <div className="pb-5 text-center text-4xl font-bold">
         Страница исследователя
       </div>
-      <div className="pb-5 text-center text-4xl font-bold">Team's Members</div>
+      <div className="pb-5 text-center text-4xl font-bold">
+        Team&apos;s Members
+      </div>
       <div className="my-5 rounded-3xl border-4 border-gray-500 p-6">
         <div className="pb-5 text-center">
           Невзаимозаменяемый токен, отражающий члена автоспортивной команды.
@@ -332,7 +311,7 @@ export default function Page() {
         </div>
       </div>
       <div className="pb-5 text-center text-4xl font-bold">
-        Способы получения Team's members NFT
+        Способы получения Team&apos;s members NFT
       </div>
       <div className="my-5 rounded-3xl border-4 border-gray-500 p-6">
         <div className="pb-5 text-center">
@@ -342,14 +321,14 @@ export default function Page() {
         </div>
         <div className="pb-5 text-center">
           Только верифицированные пользователи смогут получить NFT из коллекции
-          Team's members!
+          Team&apos;s members!
         </div>
         <div className="pb-5 text-center">
           Так мы планируем обеспечить прозрачность процесса.
         </div>
       </div>
       <div className="pb-5 text-center text-4xl font-bold">
-        Team's members NFT
+        Team&apos;s members NFT
       </div>
       <div className="pb-5 text-center text-4xl font-bold">
         Страница создания NFT
@@ -357,10 +336,10 @@ export default function Page() {
       <div className="my-5 rounded-3xl border-4 border-orange-400 p-6">
         <div className="text-center font-bold">Присоединяйтесь к нам</div>
         <div className="pb-5 text-center font-bold">
-          Создай NFT Team's member
+          Создай NFT Team&apos;s member
         </div>
         <div className="pb-5 text-center">
-          Созданные вами NFT автоматически попадут в глобальную коллекцию GAA{" "}
+          Созданные вами NFT автоматически попадут в глобальную коллекцию GAA
         </div>
         <div className="pb-5 text-center">
           это единый сборник мирового сообщества
@@ -390,7 +369,7 @@ export default function Page() {
         <div className="pb-5 text-center font-bold">Создай NFT </div>
         <div className="pb-5 text-center font-bold"></div>
       </div>
-      //Collectors
+      {/* //Collectors */}
       <div className="my-5 rounded-3xl border-4 border-gray-500 p-6">
         <div className="pb-5 text-center">Collectors</div>
         <div className="pb-5 text-center">
@@ -440,7 +419,6 @@ export default function Page() {
         </div>
       </div>
       <div className="pb-5 text-center text-4xl font-bold">
-        {" "}
         NFT Коллекционера
       </div>
       <div className="pb-5 text-center text-4xl font-bold">
@@ -452,7 +430,7 @@ export default function Page() {
           Создай NFT Коллекционера
         </div>
         <div className="pb-5 text-center">
-          Созданные вами NFT автоматически попадут в глобальную коллекцию GAA{" "}
+          Созданные вами NFT автоматически попадут в глобальную коллекцию GAA
         </div>
         <div className="pb-5 text-center">
           это единый сборник мирового сообщества
@@ -484,7 +462,7 @@ export default function Page() {
       <div className="my-5 rounded-3xl border-4 border-gray-500 p-6">
         <div className="pb-5 text-center">Cars</div>
         <div className="pb-5 text-center">
-          Раритетные, уникальные и спортивные автомобили из частных коллекций{" "}
+          Раритетные, уникальные и спортивные автомобили из частных коллекций
         </div>
         <div className="pb-5 text-center">Исследовать </div>
         <div className="pb-5 text-center">Страница создания NFT</div>
@@ -517,7 +495,7 @@ export default function Page() {
       <div className="my-5 rounded-3xl border-4 border-gray-500 p-6">
         <div className="pb-5 text-center">
           Только владельцы следующих NFT коллекций смогут оцифровать свои
-          автомобили: Drivers, Team's members, Collectors
+          автомобили: Drivers, Team&apos;s members, Collectors
         </div>
       </div>
       <div className="pb-5 text-center text-4xl font-bold">
@@ -532,7 +510,7 @@ export default function Page() {
           Создай NFT Rarity / Sport Car
         </div>
         <div className="pb-5 text-center">
-          Созданные вами NFT автоматически попадут в глобальную коллекцию GAA{" "}
+          Созданные вами NFT автоматически попадут в глобальную коллекцию GAA
         </div>
         <div className="pb-5 text-center">
           это единый сборник мирового сообщества
@@ -577,7 +555,7 @@ export default function Page() {
         <div className="pb-5 text-center font-bold">Создай NFT </div>
         <div className="pb-5 text-center font-bold"></div>
       </div>
-      // CustomLads
+      {/* // CustomLads */}
       <div className="pb-5 text-center text-6xl font-bold">CustomLads</div>
       <div className="pb-5 text-center text-4xl font-bold">
         by Global Automotive Association
@@ -602,9 +580,7 @@ export default function Page() {
           элементов первой генеративной коллекции RaceLads, который собран его
           владельцем.
         </div>
-        <div className="pb-5 text-center">
-          Кто твой персонаж - решать тебе!
-        </div>
+        <div className="pb-5 text-center">Кто твой персонаж - решать тебе!</div>
         <div className="pb-5">
           Мы очень ценим вклад каждого неравнодушного к проекту и готовы
           предоставить возможность формирования героя по своим предпочтениям.
@@ -648,14 +624,12 @@ export default function Page() {
       <div className="my-5 rounded-3xl border-4 border-orange-400 p-6">
         <div className="text-center font-bold">Присоединяйтесь к нам</div>
         <div className="pb-5 text-center font-bold">
-          Создай своего героя CustomLad{" "}
+          Создай своего героя CustomLad
         </div>
         <div className="pb-5 text-center">
           Собери своего героя в коллекции GAA
         </div>
-        <div className="pb-5 text-center">
-          более 1,000 уникальных элементов
-        </div>
+        <div className="pb-5 text-center">более 1,000 уникальных элементов</div>
         <div className="pb-5 text-center">добавить слайдеры для элементов</div>
         <div className="pb-5 text-center">
           Максимальное количество: 1 CustomLad за транзакцию
@@ -663,13 +637,13 @@ export default function Page() {
         <div className="pb-5 text-center font-bold">Создай NFT </div>
         <div className="pb-5 text-center font-bold"></div>
       </div>
-      //Награды
+      {/* //Награды */}
       <div className="pb-5 text-center text-6xl font-bold">Награды</div>
       <div className="pb-5 text-center text-4xl font-bold">Кубки и медали</div>
       <div className="my-5 rounded-3xl border-4 border-gray-500 p-6">
         <div className="pb-5 text-center">
           NFT награды, содержащие метаданные о мероприятии, награжденном
-          спортсмене, а также медиаконтент.{" "}
+          спортсмене, а также медиаконтент.
         </div>
         <div className="pb-5 text-center">
           Когда присоединиться к блокчейн технологиям - решать тебе!
@@ -693,7 +667,7 @@ export default function Page() {
         </div>
         <div className="pb-5">
           Каждый NFT включен в единую коллекцию Rewards GAA, что является
-          уникальным для всех наград GAA{" "}
+          уникальным для всех наград GAA
         </div>
         <div className="pb-5">
           Токен содержит ссылки на официальные документы:
@@ -715,13 +689,13 @@ export default function Page() {
         <div className="pb-5">
           Данный токен может быть уничтожен владельцем смарт-контракта
           (Burnebal), то есть собственник контракта может уничтожить любой токен
-          из коллекции, эта мера необходима для формирования чистоты коллекции.{" "}
+          из коллекции, эта мера необходима для формирования чистоты коллекции.
         </div>
         <div className="pb-5">
           То есть категорически запрещено присоединять к NFT медиаконтент
           политического содержания, экстремистской направленности, а также любой
           иной медиаконтент не отвечающий вектору развития Проекта. Также
-          запрещено присоединять данные не соответствующие действительности.{" "}
+          запрещено присоединять данные не соответствующие действительности.
         </div>
       </div>
       <div className="pb-5 text-center text-4xl font-bold">
@@ -736,8 +710,8 @@ export default function Page() {
           License
         </div>
         <div className="pb-5 text-center">
-          Награды могут получать: Drivers, Team's members, Collectors, Cars и
-          т.п. даже если нет соответствующей NFT
+          Награды могут получать: Drivers, Team&apos;s members, Collectors, Cars
+          и т.п. даже если нет соответствующей NFT
         </div>
       </div>
       <div className="pb-5 text-center text-4xl font-bold">NFT Награды</div>
@@ -802,12 +776,12 @@ export default function Page() {
         <div className="pb-5 text-center font-bold">Создать NFT Награду</div>
         <div className="pb-5 text-center font-bold"></div>
       </div>
-      //Лицензии
+      {/* //Лицензии */}
       <div className="pb-5 text-center text-6xl font-bold">Лицензии</div>
       <div className="pb-5 text-center text-6xl font-bold">
         NFT, дающие преференции своим держателям
       </div>
-      //Promoter License
+      {/* //Promoter License */}
       <div className="my-5 rounded-3xl border-4 border-gray-500 p-6">
         <div className="pb-5 text-center">Promoter License</div>
         <div className="pb-5 text-center">
@@ -914,7 +888,7 @@ export default function Page() {
         </div>
         <div className="pb-5 text-center font-bold"></div>
       </div>
-      //National License
+      {/* //National License */}
       <div className="my-5 rounded-3xl border-4 border-gray-500 p-6">
         <div className="pb-5 text-center">National License</div>
         <div className="pb-5 text-center">
@@ -968,7 +942,7 @@ export default function Page() {
           Держатель National License NFT принимает решения о векторе развития
           сообщества локального уровня, организует проведение голосований, а
           также сам принимает участие в голосовании по вопросам развития
-          сообщества на локальной территории национального уровна{" "}
+          сообщества на локальной территории национального уровна
         </div>
 
         <div className="pb-5">
@@ -1022,7 +996,7 @@ export default function Page() {
           Получите NFT Национальную лицензию
         </div>
         <div className="pb-5 text-center">
-          Созданные вами NFT автоматически попадут в глобальную коллекцию GAA{" "}
+          Созданные вами NFT автоматически попадут в глобальную коллекцию GAA
         </div>
         <div className="pb-5 text-center">
           это единый сборник мирового сообщества
@@ -1047,7 +1021,7 @@ export default function Page() {
         </div>
         <div className="pb-5 text-center font-bold"></div>
       </div>
-      //Global License
+      {/* //Global License */}
       <div className="my-5 rounded-3xl border-4 border-gray-500 p-6">
         <div className="pb-5 text-center">Global License</div>
         <div className="pb-5 text-center">
@@ -1151,7 +1125,7 @@ export default function Page() {
           Получите NFT Глобальную лицензию
         </div>
         <div className="pb-5 text-center">
-          Созданные вами NFT автоматически попадут в глобальную коллекцию GAA{" "}
+          Созданные вами NFT автоматически попадут в глобальную коллекцию GAA
         </div>
         <div className="pb-5 text-center">
           это единый сборник мирового сообщества

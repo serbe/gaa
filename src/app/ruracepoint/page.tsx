@@ -5,7 +5,6 @@ export default function Page() {
       <div className="flex flex-row pb-5">
         <div className="basis-1/5"></div>
         <div className="basis-3/5">
-          
           <div className="pt-5 text-center text-6xl font-bold text-p2-orange">
             Racepoint
           </div>
@@ -18,15 +17,9 @@ export default function Page() {
 
       <div className="flex flex-row pb-5">
         <div className="basis-1/5 p-5">
-        <Image
-            width={500}
-            height={600}
-            src="/Hero/6.png" 
-            alt="Hero6"
-          />
+          <Image width={500} height={600} src="/Hero/6.png" alt="Hero6" />
         </div>
         <div className="basis-3/5">
-          
           <div className="my-5 space-y-6 rounded-3xl border-4 border-p2-orange p-6">
             <div className="pb-5 text-center text-2xl text-p1-darkgreen">
               Racepoint - наша внутренняя система накопления &quot;очков&quot;
@@ -68,19 +61,16 @@ export default function Page() {
       <div className="flex flex-row pb-5">
         <div className="basis-1/5"></div>
         <div className="basis-3/5">
-          
           <div className="pb-5 text-center text-4xl font-bold text-p2-orange">
             Racepoint
           </div>
         </div>
-        <div className="basis-1/5">     
-       </div>
+        <div className="basis-1/5"></div>
       </div>
 
       <div className="flex flex-row pb-5">
         <div className="basis-1/5"></div>
         <div className="basis-3/5">
-          
           <div className="my-5 space-y-6 rounded-3xl border-4 border-p2-orange p-6">
             <div className="text-center text-2xl text-p1-darkgreen">
               Приветственный бонус:
@@ -90,15 +80,12 @@ export default function Page() {
             </div>
           </div>
         </div>
-        <div className="basis-1/5">
-   
-          </div>
+        <div className="basis-1/5"></div>
       </div>
 
       <div className="flex flex-row pb-5">
         <div className="basis-1/5"></div>
         <div className="basis-3/5">
-          
           <div className="my-5 space-y-6 rounded-3xl border-4 border-p2-orange p-6">
             <div className="text-center text-2xl text-p1-darkgreen">
               Мы ценим конфиденциальность:
@@ -114,7 +101,6 @@ export default function Page() {
       <div className="flex flex-row pb-5">
         <div className="basis-1/5"></div>
         <div className="basis-3/5">
-          
           <div className="my-5 space-y-6 rounded-3xl border-4 border-p2-orange p-6">
             <div className="text-center text-2xl text-p1-darkgreen">
               Ежедневная награда
@@ -129,11 +115,8 @@ export default function Page() {
       </div>
 
       <div className="flex flex-row pb-5">
-        <div className="basis-1/5">
-    
-        </div>
+        <div className="basis-1/5"></div>
         <div className="basis-3/5">
-          
           <div className="my-5 space-y-6 rounded-3xl border-4 border-p2-orange p-6">
             <div className="text-center text-2xl text-p1-darkgreen">
               Реферальная программа
@@ -149,7 +132,6 @@ export default function Page() {
       <div className="flex flex-row pb-5">
         <div className="basis-1/5"></div>
         <div className="basis-3/5">
-          
           <div className="pb-5 text-center text-4xl font-bold text-p2-orange">
             Участвуй
           </div>
@@ -163,7 +145,6 @@ export default function Page() {
       <div className="flex flex-row pb-5">
         <div className="basis-1/5"></div>
         <div className="basis-3/5">
-          
           <div className="my-5 space-y-6 rounded-3xl border-4 border-p2-orange p-6">
             <div className="text-center text-p1-darkgreen">
               Участвуй в опросах и викторинах за пройденый опрос получи
@@ -176,9 +157,8 @@ export default function Page() {
       <div className="flex flex-row pb-5">
         <div className="basis-2/5"></div>
         <div className="basis-1/5">
-          
           <button className="rounded-xl border-2 border-p2-orange bg-p1-white px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
-        Квиз
+            Квиз
           </button>
         </div>
         <div className="basis-2/5"></div>
@@ -187,7 +167,6 @@ export default function Page() {
       <div className="flex flex-row pb-5">
         <div className="basis-1/5"></div>
         <div className="basis-3/5">
-          
           <div className="my-5 space-y-6 rounded-3xl border-4 border-p2-orange p-6">
             <div className="text-center text-p1-darkgreen">
               Отвечай на вопросы, связанные с миром автоспорта и автокультуры за
@@ -201,9 +180,8 @@ export default function Page() {
       <div className="flex flex-row pb-5">
         <div className="basis-2/5"></div>
         <div className="basis-1/5">
-          
-        <button className="rounded-xl border-2 border-p2-orange bg-p1-white px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
-        Квиз
+          <button className="rounded-xl border-2 border-p2-orange bg-p1-white px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
+            Квиз
           </button>
         </div>
         <div className="basis-2/5"></div>
@@ -212,7 +190,6 @@ export default function Page() {
       <div className="flex flex-row pb-5">
         <div className="basis-1/5"></div>
         <div className="basis-3/5">
-          
           <div className="my-5 space-y-3 rounded-3xl border-4 border-p2-orange p-6">
             <div className="text-center text-2xl text-p1-darkgreen">
               Бонусы начисляются
@@ -236,7 +213,6 @@ export default function Page() {
       <div className="flex flex-row pb-5">
         <div className="basis-1/5"></div>
         <div className="basis-3/5">
-          
           <div className="pb-5 text-center text-6xl font-bold text-p2-orange">
             WhiteList
           </div>
@@ -246,25 +222,19 @@ export default function Page() {
 
       <div className="flex flex-row pb-5">
         <div className="5-5 basis-1/5">
-        <Image
-            width={150}
-            height={150}
-            src="/Hero/3.png" 
-            alt="Hero"
-          /> 
+          <Image width={150} height={150} src="/Hero/3.png" alt="Hero" />
         </div>
         <div className="basis-3/5">
-          
           <div className="my-5 space-y-6 rounded-3xl border-4 border-p2-orange p-6">
             <div className="text-center text-p1-darkgreen">
-              Вашу активность мы оцениваем бонусами Racepoints{" "}
+              Вашу активность мы оцениваем бонусами Racepoints
             </div>
             <div className="text-center text-2xl text-p1-darkgreen">
               Ваши Racepoints - Ваши преимущества
             </div>
             <div className="text-center text-p1-darkgreen">
               Самые активные получат доступ в White List и эксклюзивный доступ к
-              Pre Mint NFT{" "}
+              Pre Mint NFT
             </div>
 
             <ol className="list space-y-4 p-4 pb-5 text-center text-2xl text-p1-darkgreen">
@@ -280,7 +250,6 @@ export default function Page() {
       <div className="flex flex-row pb-5">
         <div className="basis-1/5"></div>
         <div className="basis-3/5">
-          
           <div className="pb-5 text-center text-6xl font-bold text-p2-orange">
             Розыгрыш NFT
           </div>
@@ -291,10 +260,9 @@ export default function Page() {
       <div className="flex flex-row pb-5">
         <div className="basis-1/5"></div>
         <div className="basis-3/5">
-          
           <div className="my-5 space-y-6 rounded-3xl border-4 border-p2-orange p-6">
             <div className="text-center text-2xl text-p1-darkgreen">
-              После минта коллекции RaceLads проведем розыгрыш NFT из коллекции:{" "}
+              После минта коллекции RaceLads проведем розыгрыш NFT из коллекции:
             </div>
 
             <ul className="list-disc space-y-3 px-5 text-p1-darkgreen">
@@ -326,7 +294,6 @@ export default function Page() {
       <div className="flex flex-row pb-5">
         <div className="basis-1/5"></div>
         <div className="basis-3/5">
-          
           <div className="pb-5 text-center text-6xl font-bold text-p2-orange">
             Преференции
           </div>
@@ -338,11 +305,8 @@ export default function Page() {
       </div>
 
       <div className="flex flex-row pb-5">
-        <div className="basis-1/5">
-     
-        </div>
+        <div className="basis-1/5"></div>
         <div className="basis-3/5">
-          
           <div className="my-5 space-y-6 rounded-3xl border-4 border-p2-orange p-6">
             <ul className="list-disc space-y-3 px-5 text-p1-darkgreen">
               <li>
@@ -365,12 +329,8 @@ export default function Page() {
           </div>
         </div>
         <div className="basis-1/5 p-5">
-         <Image
-            width={150}
-            height={150}
-            src="/Hero/12.png" 
-            alt="Hero12"
-          /> </div>
+          <Image width={150} height={150} src="/Hero/12.png" alt="Hero12" />{" "}
+        </div>
       </div>
     </div>
   );
