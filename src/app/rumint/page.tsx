@@ -86,36 +86,42 @@ export default function Page() {
                   </button> 
                   </div>
                   <div className="m-1 p-5">
-                  <Image
+                  <div className="grid grid-cols-2 gap-4">
+                    <div>   <Image
                       className="relative inline-block w-max overflow-hidden rounded-3xl border-2 border-p2-orange shadow-lg"
                       width={130}
                       height={130}
                       src="/HeroNFT/RaceLads/RaceLads1.png"
                       alt="RaceLads1"
-                    />
-  
-                    <Image
+                    /></div>
+                    <div>  <Image
                       className="relative inline-block w-max overflow-hidden rounded-3xl border-2 border-p2-orange shadow-lg"
                       width={130}
                       height={130}
                        src="/HeroNFT/RaceLads/RaceLads2.png"
                       alt="RaceLads2"
-                    />
-                     <Image
+                    /></div>
+                    <div><Image
                       className="relative inline-block w-max overflow-hidden rounded-3xl border-2 border-p2-orange shadow-lg"
                       width={130}
                       height={130}
                         src="/HeroNFT/RaceLads/RaceLads3.png"
                       alt="RaceLads3"
-                    />
-  
-                    <Image
+                    /></div>
+                    <div> <Image
                       className="relative inline-block w-max overflow-hidden rounded-3xl border-2 border-p2-orange shadow-lg"
                       width={150}
                       height={150}
                       src="/HeroNFT/RaceLads/RaceLads4.png"
                       alt="RaceLads4"
-                    />
+                    /></div>
+                  </div>
+               
+  
+                  
+                     
+  
+                   
                   
                   </div>
                  
@@ -147,7 +153,7 @@ export default function Page() {
           Страница создания NFT
           </div>
       </div>
-      <div className="flex grid grid-cols-6 gap-4">
+      <div className="grid grid-cols-6 gap-4">
         <div className="col-span-4 col-start-2 w-full rounded-3xl border-4 border-p2-orange text-center text-p1-darkgreen shadow-lg">
           <div>
             <p className="text-2xl text-p1-darkgreen">
@@ -219,12 +225,7 @@ export default function Page() {
             <p className="text-xm pb-2 text-p1-darkgreen">
             Пилоты гоночных автомобилей и болидов, присоединившиеся к Web3
             </p>
-              <button className="rounded-l-lg border-2 border-p1-darkgreen bg-p1-white p-2 text-p1-darkgreen shadow-lg hover:bg-p1-darkgreen hover:text-p1-white">
-              Исследуй NFT
-            </button>
-            <button className="rounded-r-lg border-2 border-p1-darkgreen bg-p1-white p-2 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
-              Создай NFT
-            </button>
+              
             </div>
             <div>
              <Image
@@ -241,12 +242,7 @@ export default function Page() {
             Участники команд, присоединившиеся к Web3
                         </p>
                        
-              <button className="rounded-l-lg border-2 border-p1-darkgreen bg-p1-white p-2 text-p1-darkgreen shadow-lg hover:bg-p1-darkgreen hover:text-p1-white">
-              Исследуй NFT
-            </button>
-            <button className="rounded-r-lg border-2 border-p1-darkgreen bg-p1-white p-2 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
-              Создай NFT
-            </button>
+          
           
             </div>
 
@@ -264,12 +260,7 @@ export default function Page() {
             <p className="text-xm pb-2 text-p1-darkgreen">
             Владельцы редких, спортивных и уникальных автомобилей, присоединившиеся к Web3
                                     </p>
-                        <button className="rounded-l-lg border-2 border-p1-darkgreen bg-p1-white p-2 text-p1-darkgreen shadow-lg hover:bg-p1-darkgreen hover:text-p1-white">
-              Исследуй NFT
-            </button>
-            <button className="rounded-r-lg border-2 border-p1-darkgreen bg-p1-white p-2 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
-              Создай NFT
-            </button>
+            
                         
             </div>
             <div> 
@@ -285,13 +276,32 @@ export default function Page() {
                           </p>
             <p className="text-xm pb-2 text-p1-darkgreen">
             Раритетные, уникальные и спортивные автомобили из частных коллекций                        </p>
-                        <button className="rounded-l-lg border-2 border-p1-darkgreen bg-p1-white p-2 text-p1-darkgreen shadow-lg hover:bg-p1-darkgreen hover:text-p1-white">
+       
+     </div>
+     <div>      <button className="rounded-l-lg border-2 border-p1-darkgreen bg-p1-white p-2 text-p1-darkgreen shadow-lg hover:bg-p1-darkgreen hover:text-p1-white">
               Исследуй NFT
             </button>
             <button className="rounded-r-lg border-2 border-p1-darkgreen bg-p1-white p-2 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
               Создай NFT
+            </button></div>
+     <div>      <button className="rounded-l-lg border-2 border-p1-darkgreen bg-p1-white p-2 text-p1-darkgreen shadow-lg hover:bg-p1-darkgreen hover:text-p1-white">
+              Исследуй NFT
             </button>
-     </div>
+            <button className="rounded-r-lg border-2 border-p1-darkgreen bg-p1-white p-2 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
+              Создай NFT
+            </button></div>
+     <div>      <button className="rounded-l-lg border-2 border-p1-darkgreen bg-p1-white p-2 text-p1-darkgreen shadow-lg hover:bg-p1-darkgreen hover:text-p1-white">
+              Исследуй NFT
+            </button>
+            <button className="rounded-r-lg border-2 border-p1-darkgreen bg-p1-white p-2 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
+              Создай NFT
+            </button></div>
+     <div>      <button className="rounded-l-lg border-2 border-p1-darkgreen bg-p1-white p-2 text-p1-darkgreen shadow-lg hover:bg-p1-darkgreen hover:text-p1-white">
+              Исследуй NFT
+            </button>
+            <button className="rounded-r-lg border-2 border-p1-darkgreen bg-p1-white p-2 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
+              Создай NFT
+            </button></div>
       </div>
 
 
@@ -332,36 +342,43 @@ export default function Page() {
                 </button> 
                 </div>
                 <div className="m-1 p-5">
-                <Image
+                <div className="grid grid-cols-2 gap-4">
+                    <div>   <Image
                     className="relative inline-block w-max overflow-hidden rounded-3xl border-2 border-p2-orange shadow-lg"
                     width={130}
                     height={130}
                     src="/HeroNFT/Drivers/Driver4.png"
                     alt="Driver4"
-                  />
-
-                  <Image
+                  /></div>
+                    <div> <Image
                     className="relative inline-block w-max overflow-hidden rounded-3xl border-2 border-p2-orange shadow-lg"
                     width={130}
                     height={130}
                      src="/HeroNFT/Drivers/Driver3.png"
                     alt="Driver3"
-                  />
-                   <Image
+                  /></div>
+                    <div>  <Image
                     className="relative inline-block w-max overflow-hidden rounded-3xl border-2 border-p2-orange shadow-lg"
                     width={130}
                     height={130}
                      src="/HeroNFT/Drivers/Driver2.png"
                     alt="Driver2"
-                  />
-
-                  <Image
+                  /></div>
+                    <div><Image
                     className="relative inline-block w-max overflow-hidden rounded-3xl border-2 border-p2-orange shadow-lg"
                     width={150}
                     height={150}
                    src="/HeroNFT/Drivers/Driver1.png"
                     alt="Driver1"
-                  />
+                  /></div>
+                  </div>
+               
+             
+
+                 
+                 
+
+                  
                 
                 </div>
                
@@ -406,22 +423,41 @@ Promoter License        </div>
       </div>
       <div className="m-5 rounded-3xl border-4 border-p2-orange text-center text-p1-darkgreen shadow-lg"> 
       <div className="grid grid-cols-2 gap-4">
-          <div className="space-x-5 p-2 text-2xl font-semibold text-p2-orange">
-         Drivers NFT  +  Реальное Фото         
-            <Image
+      
+                 
+                    <div className="space-x-5 p-2 text-2xl font-semibold text-p2-orange">
+                    Drivers NFT   <Image
               className="relative mb-4 inline-block w-max overflow-hidden rounded-3xl border-2 border-p2-orange shadow-lg"
-              width={200}
-              height={200}
+              width={1000}
+              height={1000}
               src="/HeroNFT/Drivers/Driver4.png"
               alt="Driver4"
-            />
-                  <Image
-              className="relative mb-4 inline-block w-max overflow-hidden rounded-3xl border-2 border-p2-orange shadow-lg"
-              width={200}
-              height={200}
-              src="/HeroNFT/Drivers/Driver4.png"
-              alt="Driver4"
-            />
+            /></div>
+                    <div className="space-x-5 p-2 text-2xl font-semibold text-p2-orange">
+                    Реальное Фото    
+                    
+                    <div class="flex w-full items-center justify-center p-5">
+    <label for="dropzone-file" class="flex h-96 w-full cursor-pointer flex-col items-center justify-center rounded-lg border-2 border-dashed border-gray-300 bg-gray-50 hover:bg-gray-100 dark:border-gray-600 dark:bg-gray-700 dark:hover:border-gray-500 dark:hover:bg-gray-600 dark:hover:bg-gray-800">
+        <div class="flex flex-col items-center justify-center pb-6 pt-5">
+            <svg class="mb-4 h-8 w-8 text-gray-500 dark:text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 16">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 13h3a3 3 0 0 0 0-6h-.025A5.56 5.56 0 0 0 16 6.5 5.5 5.5 0 0 0 5.207 5.021C5.137 5.017 5.071 5 5 5a4 4 0 0 0 0 8h2.167M10 15V6m0 0L8 8m2-2 2 2"/>
+            </svg>
+            <p class="mb-2 text-sm text-gray-500 dark:text-gray-400"><span class="font-semibold">Фото Гонщика</span></p>
+           
+            <p class="mb-2 text-sm text-gray-500 dark:text-gray-400"><span class="font-semibold">Click to upload</span> or drag and drop</p>
+            <p class="text-xs text-gray-500 dark:text-gray-400">SVG, PNG, JPG or GIF (MAX. 800x400px)</p>
+        </div>
+        <input id="dropzone-file" type="file" class="hidden" />
+    </label>
+</div> 
+                    </div>
+                   
+                  
+                  
+          <div>
+        
+           
+               
            
             <button className="rounded-3xl border-2 border-p1-darkgreen bg-p1-white px-8 py-8 text-xl font-normal text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
               Сгенерировать изображение NFT
@@ -465,15 +501,14 @@ Promoter License        </div>
             </p>
           </div>
             <div className="p-2 text-4xl text-p2-orange">
+         
          <p className="text-left text-2xl font-semibold text-p1-darkgreen">
          Присоединяйтесь к нам
          </p>
          <p className="pb-5 text-left text-2xl font-semibold text-p1-darkgreen">
          Создай NFT Гонщика
          </p>
-          <button className="rounded-3xl border-2 border-p1-darkgreen bg-p1-white px-8 py-8 text-xl text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
-              Загрузить фото Гонщика
-            </button>
+        
             <p className="pt-5 text-left text-2xl text-p1-darkgreen">
             Заполни все поля - эти метаданные будут храниться в блокчейне
             </p>
@@ -636,37 +671,37 @@ Promoter License        </div>
                   </button> 
                   </div>
                   <div className="m-1 p-5">
-                  <Image
+                  <div className="grid grid-cols-2 gap-4">
+                    <div>   <Image
                       className="relative inline-block w-max overflow-hidden rounded-3xl border-2 border-p2-orange shadow-lg"
                       width={130}
                       height={130}
                       src="/HeroNFT/Team's members/TeamMember1.png"
                       alt="TeamMember1"
-                    />
-  
-                    <Image
+                    /></div>
+                    <div><Image
                       className="relative inline-block w-max overflow-hidden rounded-3xl border-2 border-p2-orange shadow-lg"
                       width={130}
                       height={130}
                          src="/HeroNFT/Team's members/TeamMember2.png"
                       alt="TeamMember2"
-                    />
-                     <Image
+                    /></div>
+                    <div><Image
                       className="relative inline-block w-max overflow-hidden rounded-3xl border-2 border-p2-orange shadow-lg"
                       width={130}
                       height={130}
                          src="/HeroNFT/Team's members/TeamMember3.png"
                       alt="TeamMember3"
-                    />
-  
-                    <Image
+                    /></div>
+                    <div> <Image
                       className="relative inline-block w-max overflow-hidden rounded-3xl border-2 border-p2-orange shadow-lg"
                       width={150}
                       height={150}
                        src="/HeroNFT/Team's members/TeamMember4.png"
                       alt="TeamMember4"
-                    />
-                  
+                    /></div>
+                  </div>
+
                   </div>
                  
         </div>
@@ -708,22 +743,42 @@ Promoter License        </div>
       </div>
       <div className="m-5 rounded-3xl border-4 border-p2-orange text-center text-p1-darkgreen shadow-lg"> 
       <div className="grid grid-cols-2 gap-4">
+
+      
+      
+                 
+      <div className="space-x-5 p-2 text-2xl font-semibold text-p2-orange">
+      Team's member NFT   <Image
+className="relative mb-4 inline-block w-max overflow-hidden rounded-3xl border-2 border-p2-orange shadow-lg"
+width={1000}
+height={1000}
+  src="/HeroNFT/Team's members/TeamMember1.png"
+              alt="TeamMember1"
+/>
+</div>
+
+      <div className="space-x-5 p-2 text-2xl font-semibold text-p2-orange">
+      Реальное Фото    
+      
+      <div class="flex w-full items-center justify-center p-5">
+<label for="dropzone-file" class="flex h-96 w-full cursor-pointer flex-col items-center justify-center rounded-lg border-2 border-dashed border-gray-300 bg-gray-50 hover:bg-gray-100 dark:border-gray-600 dark:bg-gray-700 dark:hover:border-gray-500 dark:hover:bg-gray-600 dark:hover:bg-gray-800">
+<div class="flex flex-col items-center justify-center pb-6 pt-5">
+<svg class="mb-4 h-8 w-8 text-gray-500 dark:text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 16">
+  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 13h3a3 3 0 0 0 0-6h-.025A5.56 5.56 0 0 0 16 6.5 5.5 5.5 0 0 0 5.207 5.021C5.137 5.017 5.071 5 5 5a4 4 0 0 0 0 8h2.167M10 15V6m0 0L8 8m2-2 2 2"/>
+</svg>
+<p class="mb-2 text-sm text-gray-500 dark:text-gray-400"><span class="font-semibold">Фото Гонщика</span></p>
+
+<p class="mb-2 text-sm text-gray-500 dark:text-gray-400"><span class="font-semibold">Click to upload</span> or drag and drop</p>
+<p class="text-xs text-gray-500 dark:text-gray-400">SVG, PNG, JPG or GIF (MAX. 800x400px)</p>
+</div>
+<input id="dropzone-file" type="file" class="hidden" />
+</label>
+</div> 
+</div> 
+
+
           <div className="space-x-5 p-2 text-2xl font-semibold text-p2-orange">
-          Team's members NFT  +  Реальное Фото         
-            <Image
-              className="relative mb-4 inline-block w-max overflow-hidden rounded-3xl border-2 border-p2-orange shadow-lg"
-              width={200}
-              height={200}
-              src="/HeroNFT/Team's members/TeamMember1.png"
-              alt="TeamMember1"
-            />
-                  <Image
-              className="relative mb-4 inline-block w-max overflow-hidden rounded-3xl border-2 border-p2-orange shadow-lg"
-              width={200}
-              height={200}
-              src="/HeroNFT/Team's members/TeamMember1.png"
-              alt="TeamMember1"
-            />
+         
            
             <button className="rounded-3xl border-2 border-p1-darkgreen bg-p1-white px-8 py-8 text-xl font-normal text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
               Сгенерировать изображение NFT
@@ -773,9 +828,7 @@ Promoter License        </div>
          <p className="pb-5 text-left text-2xl font-semibold text-p1-darkgreen">
          Создай NFT Участника команды
          </p>
-          <button className="rounded-3xl border-2 border-p1-darkgreen bg-p1-white px-8 py-8 text-xl text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
-              Загрузить фото Участника команды
-            </button>
+          
             <p className="pt-5 text-left text-2xl text-p1-darkgreen">
             Заполни все поля - эти метаданные будут храниться в блокчейне
             </p>
@@ -936,36 +989,42 @@ Promoter License        </div>
                   </button> 
                   </div>
                   <div className="m-1 p-5">
-                  <Image
+                  <div className="grid grid-cols-2 gap-4">
+                    <div>    <Image
                       className="relative inline-block w-max overflow-hidden rounded-3xl border-2 border-p2-orange shadow-lg"
                       width={130}
                       height={130}
                       src="/HeroNFT/Collectors/Collector1.png"
                       alt="Collector1"
-                    />
-  
-                    <Image
+                    /></div>
+                    <div><Image
                       className="relative inline-block w-max overflow-hidden rounded-3xl border-2 border-p2-orange shadow-lg"
                       width={130}
                       height={130}
                         src="/HeroNFT/Collectors/Collector2.png"
                       alt="Collector2"
-                    />
-                     <Image
+                    /></div>
+                    <div><Image
                       className="relative inline-block w-max overflow-hidden rounded-3xl border-2 border-p2-orange shadow-lg"
                       width={130}
                       height={130}
                        src="/HeroNFT/Collectors/Collector3.png"
                       alt="Collector3"
-                    />
-  
-                    <Image
+                    /></div>
+                    <div><Image
                       className="relative inline-block w-max overflow-hidden rounded-3xl border-2 border-p2-orange shadow-lg"
                       width={150}
                       height={150}
                        src="/HeroNFT/Collectors/Collector4.png"
                       alt="Collector4"
-                    />
+                    /></div>
+                  </div>
+              
+  
+                    
+                     
+  
+                    
                   
                   </div>
                  
@@ -1012,18 +1071,12 @@ Promoter License        </div>
           Collectors NFT  +  Реальное Фото         
             <Image
               className="relative mb-4 inline-block w-max overflow-hidden rounded-3xl border-2 border-p2-orange shadow-lg"
-              width={200}
-              height={200}
+              width={1000}
+              height={1000}
              src="/HeroNFT/Collectors/Collector1.png"
               alt="Collector1"
             />
-                  <Image
-              className="relative mb-4 inline-block w-max overflow-hidden rounded-3xl border-2 border-p2-orange shadow-lg"
-              width={200}
-              height={200}
-              src="/HeroNFT/Collectors/Collector1.png"
-              alt="Collector1"
-            />
+      
            
             <button className="rounded-3xl border-2 border-p1-darkgreen bg-p1-white px-8 py-8 text-xl font-normal text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
               Сгенерировать изображение NFT
@@ -1073,9 +1126,21 @@ Promoter License        </div>
          <p className="pb-5 text-left text-2xl font-semibold text-p1-darkgreen">
          Создай NFT Коллекционера
          </p>
-          <button className="rounded-3xl border-2 border-p1-darkgreen bg-p1-white px-8 py-8 text-xl text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
-              Загрузить фото Коллекционера
-            </button>
+         <div class="flex w-full items-center justify-center p-5">
+    <label for="dropzone-file" class="flex h-64 w-full cursor-pointer flex-col items-center justify-center rounded-lg border-2 border-dashed border-gray-300 bg-gray-50 hover:bg-gray-100 dark:border-gray-600 dark:bg-gray-700 dark:hover:border-gray-500 dark:hover:bg-gray-600 dark:hover:bg-gray-800">
+        <div class="flex flex-col items-center justify-center pb-6 pt-5">
+            <svg class="mb-4 h-8 w-8 text-gray-500 dark:text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 16">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 13h3a3 3 0 0 0 0-6h-.025A5.56 5.56 0 0 0 16 6.5 5.5 5.5 0 0 0 5.207 5.021C5.137 5.017 5.071 5 5 5a4 4 0 0 0 0 8h2.167M10 15V6m0 0L8 8m2-2 2 2"/>
+            </svg>
+            <p class="mb-2 text-sm text-gray-500 dark:text-gray-400"><span class="font-semibold">Фото Коллекционера</span></p>
+           
+            <p class="mb-2 text-sm text-gray-500 dark:text-gray-400"><span class="font-semibold">Click to upload</span> or drag and drop</p>
+            <p class="text-xs text-gray-500 dark:text-gray-400">SVG, PNG, JPG or GIF (MAX. 800x400px)</p>
+        </div>
+        <input id="dropzone-file" type="file" class="hidden" />
+    </label>
+</div> 
+
             <p className="pt-5 text-left text-2xl text-p1-darkgreen">
             Заполни все поля - эти метаданные будут храниться в блокчейне
             </p>
@@ -1254,23 +1319,14 @@ Promoter License        </div>
           Car NFT  +  Реальное Фото
             <Image
               className="relative mb-4 inline-block w-max overflow-hidden rounded-3xl border-2 border-p2-orange shadow-lg"
-              width={200}
-              height={200}
+              width={1000}
+              height={1000}
               src="/Cars/Car.png"
               alt="Car"
             />
-                  <Image
-              className="relative mb-4 inline-block w-max overflow-hidden rounded-3xl border-2 border-p2-orange shadow-lg"
-              width={200}
-              height={200}
-              src="/Cars/Car.png"
-              alt="Car"
-            />
-
-            <button className="rounded-3xl border-2 border-p1-darkgreen bg-p1-white px-8 py-8 text-xl font-normal text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
+              <button className="rounded-3xl border-2 border-p1-darkgreen bg-p1-white px-8 py-8 text-xl font-normal text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
               Сгенерировать изображение NFT
             </button>
-
             <div>
                     <label
                       htmlFor="default-range"
@@ -1288,7 +1344,6 @@ Promoter License        </div>
                       className="h-2 w-3/5 cursor-pointer appearance-none rounded-lg bg-gray-200 dark:bg-gray-700"
                     />
                   </div>
-
 
 
             <p className="p2 pt-8 text-2xl font-normal text-p1-darkgreen">
@@ -1315,9 +1370,20 @@ Promoter License        </div>
          <p className="pb-5 text-left text-2xl font-semibold text-p1-darkgreen">
          Создай NFT спортивного/раритетного автомобиля
          </p>
-          <button className="rounded-3xl border-2 border-p1-darkgreen bg-p1-white px-8 py-8 text-xl text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
-              Загрузить фото Авто
-            </button>
+         <div class="flex w-full items-center justify-center p-5">
+    <label for="dropzone-file" class="flex h-64 w-full cursor-pointer flex-col items-center justify-center rounded-lg border-2 border-dashed border-gray-300 bg-gray-50 hover:bg-gray-100 dark:border-gray-600 dark:bg-gray-700 dark:hover:border-gray-500 dark:hover:bg-gray-600 dark:hover:bg-gray-800">
+        <div class="flex flex-col items-center justify-center pb-6 pt-5">
+            <svg class="mb-4 h-8 w-8 text-gray-500 dark:text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 16">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 13h3a3 3 0 0 0 0-6h-.025A5.56 5.56 0 0 0 16 6.5 5.5 5.5 0 0 0 5.207 5.021C5.137 5.017 5.071 5 5 5a4 4 0 0 0 0 8h2.167M10 15V6m0 0L8 8m2-2 2 2"/>
+            </svg>
+            <p class="mb-2 text-sm text-gray-500 dark:text-gray-400"><span class="font-semibold">Фото Автомобиля</span></p>
+           
+            <p class="mb-2 text-sm text-gray-500 dark:text-gray-400"><span class="font-semibold">Click to upload</span> or drag and drop</p>
+            <p class="text-xs text-gray-500 dark:text-gray-400">SVG, PNG, JPG or GIF (MAX. 800x400px)</p>
+        </div>
+        <input id="dropzone-file" type="file" class="hidden" />
+    </label>
+</div> 
             <p className="pt-5 text-left text-2xl text-p1-darkgreen">
             Заполни все поля - эти метаданные будут храниться в блокчейне
             </p>
@@ -1505,6 +1571,9 @@ Promoter License        </div>
               </label>
             </div>
           <div className="pb-5"></div>
+           
+   
+
             <button className="rounded-3xl border-2 border-p1-darkgreen bg-p1-white px-20 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
               Создать NFT Автомобиля
             </button>
@@ -1592,36 +1661,42 @@ Promoter License        </div>
                   </button> 
                   </div>
                   <div className="m-1 p-5">
-                  <Image
+                  <div className="grid grid-cols-2 gap-4">
+                    <div><Image
                       className="relative inline-block w-max overflow-hidden rounded-3xl border-2 border-p2-orange shadow-lg"
                       width={130}
                       height={130}
                       src="/HeroNFT/CustomLads/CustomLads1.png"
                       alt="CustomLads1"
-                    />
-  
-                    <Image
+                    /></div>
+                    <div><Image
                       className="relative inline-block w-max overflow-hidden rounded-3xl border-2 border-p2-orange shadow-lg"
                       width={130}
                       height={130}
                         src="/HeroNFT/CustomLads/CustomLads2.png"
                       alt="CustomLads2"
-                    />
-                     <Image
+                    /></div>
+                    <div>  <Image
                       className="relative inline-block w-max overflow-hidden rounded-3xl border-2 border-p2-orange shadow-lg"
                       width={130}
                       height={130}
                         src="/HeroNFT/CustomLads/CustomLads3.png"
                       alt="CustomLads3"
-                    />
-  
-                    <Image
+                    /></div>
+                    <div>   <Image
                       className="relative inline-block w-max overflow-hidden rounded-3xl border-2 border-p2-orange shadow-lg"
                       width={150}
                       height={150}
                        src="/HeroNFT/CustomLads/CustomLads4.png"
                       alt="CustomLads4"
-                    />
+                    /></div>
+                  </div>
+                 
+  
+                   
+                 
+  
+                
                   
                   </div>
                  
@@ -1652,7 +1727,7 @@ Promoter License        </div>
           Страница создания NFT
           </div>
       </div>
-      <div className="flex grid grid-cols-6 gap-4">
+      <div className="grid grid-cols-6 gap-4">
         <div className="col-span-4 col-start-2 w-full rounded-3xl border-4 border-p2-orange text-center text-p1-darkgreen shadow-lg">
           <div>
             <p className="text-2xl text-p1-darkgreen">
@@ -1668,6 +1743,823 @@ Promoter License        </div>
               src="/HeroNFT/CustomLads/CustomLads1.png"
               alt="CustomLads1"
             />
+
+                  <div>
+                    <label
+                      htmlFor="default-range"
+                      className="mb-2 block text-sm font-medium text-gray-900 dark:text-white"
+                    >
+                      {value}
+                    </label>
+                    <input
+                      id="default-range"
+                      type="range"
+                      min="1"
+                      max="10"
+                      value={value}
+                      onChange={(e) => setValue(e.target.value)}
+                      className="h-2 w-3/5 cursor-pointer appearance-none rounded-lg bg-gray-200 dark:bg-gray-700"
+                    />
+                  </div>
+
+
+
+            <p className="pb-8 pt-8 text-2xl text-p1-darkgreen">
+            Максимальное количество: 10 CustomLads за транзакцию
+            </p>
+            <p className="pb-8 pt-8 text-2xl text-p1-darkgreen">
+Добавить Стрелки с выбором слоев            </p>
+          
+            <button className="rounded-3xl border-2 border-p1-darkgreen bg-p1-white px-5 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
+              Случайное изображения NFT
+            </button>
+            <div className="pb-5"></div>
+            <button className="rounded-3xl border-2 border-p1-darkgreen bg-p1-white px-48 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
+              Создать NFT
+            </button>
+            <div className="pb-8"></div>
+          </div>
+          </div>
+        </div>
+        
+
+
+
+      {/* //Награды */}
+
+
+
+
+      <div className="pt-5 text-center text-6xl font-bold text-p1-darkgreen">
+      Награды
+      </div>
+      <div className="pb-5 text-center text-4xl font-bold text-p1-darkgreen">
+      Кубки и Медали
+      </div>
+      <div className="grid grid-cols-6 gap-4">
+        <div className="col-span-4 col-start-2 w-full rounded-3xl border-4 border-p1-darkgreen text-center text-p1-darkgreen shadow-lg">
+          <div>
+           
+            <Image
+              className="relative m-4 inline-block w-max overflow-hidden rounded-3xl border-2 border-p2-orange shadow-lg"
+              width={1000}
+              height={1000}
+              src="/Hero/Rewards.png"
+              alt="Rewards"
+            />
+            <p className="p-2 text-2xl text-p1-darkgreen">
+            NFT награды, содержащие метаданные о мероприятии, награжденном спортсмене, а также медиаконтент
+                        </p>
+            <p className="p-4 text-2xl text-p1-darkgreen">
+              Когда присоединиться - решать тебе!{" "}
+            </p>
+            <button className="rounded-l-lg border-2 border-p1-darkgreen bg-p1-white px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p1-darkgreen hover:text-p1-white">
+              Исследуй NFT
+            </button>
+            <button className="rounded-r-lg border-2 border-p1-darkgreen bg-p1-white px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
+              Страница создания NFT
+            </button>
+            <div className="pb-8"></div>
+          </div>
+        </div>
+      </div>
+
+
+      <div className="grid grid-cols-2 gap-4">
+          <div className="p-2 text-4xl font-semibold text-p1-darkgreen">
+          Rewards NFT          </div>
+            <div className="p-2 text-end text-4xl font-semibold text-p1-darkgreen">
+            Страница исследователя
+            </div>
+      </div>
+      <div className="m-5 flex rounded-3xl border-4 border-p1-darkgreen shadow-lg">
+        
+     
+        <div className="grid grid-cols-2 gap-4">
+          <div className="place-content-center p-4 text-left">
+                    <p className="p-2 text-xl text-p1-darkgreen">
+                    Невзаимозаменяемый токен (NFT награда), вручаемая Промоутером (Организатором) в рамках мероприятия (соревнования).
+                    </p>
+                    <p className="p-2 text-xl text-p1-darkgreen">
+                    Rewards NFT можно коллекционировать, продавать, передавать.
+                    </p>
+                    <p className="p-2 text-xl text-p1-darkgreen">
+                    Каждый NFT включен в единую коллекцию Rewards GAA, что является уникальным для всех наград GAA
+                    </p>
+                    <p className="p-2 text-xl text-p1-darkgreen">
+                    Токен содержит ссылки на официальные документы: Итоговый протокол конкурса, соревнования Фото награждения Видео победы                    </p>
+                    <p className="p-2 text-xl text-p1-darkgreen">
+                    Все данные хранятся в IPFS сети и защищены от несанкционированного уничтожения.                    </p>
+                    <p className="p-2 text-xl text-p1-darkgreen">
+                    Доступ к минту токена у держателей NFT Promoter license, National license, Global license, Management
+                    </p>
+                    <p className="p-2 text-xl text-p1-darkgreen">
+                    Данный токен Burnebal, то есть собственник контракта может уничтожить любой токен из коллекции, эта мера необходима для формирования чистоты коллекции.
+                    </p>
+                    <p className="p-2 text-xl text-p1-darkgreen">
+                    То есть категорически запрещено присоединять к NFT медиаконтент политического содержания, экстремистской направленности, а также любой иной медиаконтент не отвечающий вектору развития Проекта. Также запрещено присоединять данные не соответствующие действительности.                    </p>
+                  
+                    <button className="w-full rounded-3xl border-2 border-p1-darkgreen bg-p1-white px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
+                    Страница создания NFT
+                  </button> 
+                  </div>
+                  <div className="m-1 p-5">
+                  <Image
+                      className="relative inline-block w-max overflow-hidden rounded-3xl border-2 border-p2-orange shadow-lg"
+                      width={1000}
+                      height={1000}
+                      src="/Hero/Rewards.png"
+                      alt="Rewards"
+                    />
+                  </div>
+        </div>
+
+        <div className="pb-8"></div>
+      </div>
+      <div className="pb-5 text-center text-4xl font-bold text-p1-darkgreen">
+        Способы получения Rewards NFT
+      </div>
+      <div className="m-5 rounded-3xl border-4 border-p1-darkgreen p-6 shadow-lg">
+        <div className="pb-5 text-center text-xl">
+        Награды могут создавать и вручать держатели NFT Promoter license, National license, Global license, Management GAA
+
+        </div>
+        <Image
+                    className="relative inline-block w-max overflow-hidden"
+                    width={1000}
+                    height={1000}
+                    src="/scheme GAA/scheme Rewards.png"
+                    alt="scheme Rewards"
+                  />
+      
+      <div className="p-5 text-center text-xl">
+      Награды могут получать Drivers, Team's members, Collectors, Cars и т.п. даже если нет соответствующей NFT
+
+        </div>
+</div>
+
+      <div className="grid grid-cols-2 gap-4">
+          <div className="p-2 text-4xl font-semibold text-p2-orange">
+          Rewards NFT          </div>
+            <div className="p-2 text-end text-4xl font-semibold text-p2-orange">
+          Страница создания NFT
+          </div>
+      </div>
+
+      <div className="m-5 rounded-3xl border-4 border-p2-orange text-center text-p1-darkgreen shadow-lg"> 
+      <div className="grid grid-cols-2 gap-4">
+          <div className="space-x-5 p-5 text-2xl font-semibold text-p2-orange">
+          
+          <div className="grid grid-cols-2 gap-4">
+            <div> <Image
+              className="relative mb-4 inline-block w-max overflow-hidden rounded-3xl border-2 border-p2-orange shadow-lg"
+              width={1000}
+              height={1000}
+              src="/Hero/Rewards.png"
+              alt="Rewards"
+            /></div>
+            <div>
+              <div class="flex w-full items-center justify-center">
+    <label for="dropzone-file" class="flex h-full w-full cursor-pointer flex-col items-center justify-center rounded-lg border-2 border-dashed border-gray-300 bg-gray-50 hover:bg-gray-100 dark:border-gray-600 dark:bg-gray-700 dark:hover:border-gray-500 dark:hover:bg-gray-600 dark:hover:bg-gray-800">
+        <div class="flex flex-col items-center justify-center pb-6 pt-5">
+            <svg class="mb-4 h-8 w-8 text-gray-500 dark:text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 16">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 13h3a3 3 0 0 0 0-6h-.025A5.56 5.56 0 0 0 16 6.5 5.5 5.5 0 0 0 5.207 5.021C5.137 5.017 5.071 5 5 5a4 4 0 0 0 0 8h2.167M10 15V6m0 0L8 8m2-2 2 2"/>
+            </svg>
+            <p class="mb-2 text-sm text-gray-500 dark:text-gray-400"><span class="font-semibold">Добавь медиаконтент момента победы</span></p>
+           
+            <p class="mb-2 text-sm text-gray-500 dark:text-gray-400"><span class="font-semibold">Click to upload</span> or drag and drop</p>
+            <p class="text-xs text-gray-500 dark:text-gray-400">SVG, PNG, JPG or GIF (MAX. 800x400px)</p>
+        </div>
+        <input id="dropzone-file" type="file" class="hidden" />
+    </label>
+</div> </div>
+            <div><div class="flex w-full items-center justify-center">
+    <label for="dropzone-file" class="flex h-full w-full cursor-pointer flex-col items-center justify-center rounded-lg border-2 border-dashed border-gray-300 bg-gray-50 hover:bg-gray-100 dark:border-gray-600 dark:bg-gray-700 dark:hover:border-gray-500 dark:hover:bg-gray-600 dark:hover:bg-gray-800">
+        <div class="flex flex-col items-center justify-center pb-6 pt-5">
+            <svg class="mb-4 h-8 w-8 text-gray-500 dark:text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 16">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 13h3a3 3 0 0 0 0-6h-.025A5.56 5.56 0 0 0 16 6.5 5.5 5.5 0 0 0 5.207 5.021C5.137 5.017 5.071 5 5 5a4 4 0 0 0 0 8h2.167M10 15V6m0 0L8 8m2-2 2 2"/>
+            </svg>
+            <p class="mb-2 text-sm text-gray-500 dark:text-gray-400"><span class="font-semibold">Добавь медиаконтент Победитель на подиуме награждения с наградой</span></p>
+           
+            <p class="mb-2 text-sm text-gray-500 dark:text-gray-400"><span class="font-semibold">Click to upload</span> or drag and drop</p>
+            <p class="text-xs text-gray-500 dark:text-gray-400">SVG, PNG, JPG or GIF (MAX. 800x400px)</p>
+        </div>
+        <input id="dropzone-file" type="file" class="hidden" />
+    </label>
+</div> </div>
+            <div><div class="flex w-full items-center justify-center">
+    <label for="dropzone-file" class="flex h-full w-full cursor-pointer flex-col items-center justify-center rounded-lg border-2 border-dashed border-gray-300 bg-gray-50 hover:bg-gray-100 dark:border-gray-600 dark:bg-gray-700 dark:hover:border-gray-500 dark:hover:bg-gray-600 dark:hover:bg-gray-800">
+        <div class="flex flex-col items-center justify-center pb-6 pt-5">
+            <svg class="mb-4 h-8 w-8 text-gray-500 dark:text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 20 16">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 13h3a3 3 0 0 0 0-6h-.025A5.56 5.56 0 0 0 16 6.5 5.5 5.5 0 0 0 5.207 5.021C5.137 5.017 5.071 5 5 5a4 4 0 0 0 0 8h2.167M10 15V6m0 0L8 8m2-2 2 2"/>
+            </svg>
+            <p class="mb-2 text-sm text-gray-500 dark:text-gray-400"><span class="font-semibold">Добавь файл финального отчета / Протокол соревнования</span></p>
+           
+            <p class="mb-2 text-sm text-gray-500 dark:text-gray-400"><span class="font-semibold">Click to upload</span> or drag and drop</p>
+            <p class="text-xs text-gray-500 dark:text-gray-400">SVG, PNG, JPG or GIF (MAX. 800x400px)</p>
+        </div>
+        <input id="dropzone-file" type="file" class="hidden" />
+    </label>
+</div> </div>
+          </div>
+            <p className="p-2 text-2xl font-semibold text-p1-darkgreen">
+            Созданные вами NFT автоматически попадут в глобальную коллекцию GAA
+            </p>
+            <p className="p-2 text-2xl font-normal font-semibold text-p1-darkgreen">
+            это единый сборник мирового сообщества
+            </p>
+            <p className="p-5 text-2xl font-normal font-semibold text-p1-darkgreen">
+            Доступно для держателей NFT Promoter license, National license, Global license, Management GAA           
+            </p>
+            <p className="p-5 text-2xl font-semibold text-p2-red">
+            Добавить вывод изображения в зависимости от выбранных и заполненных полей
+            </p>
+            <p className="pt-5 text-left text-xl text-p1-darkgreen">
+            Добавь медиаконтент о победителе:            </p>
+
+          </div>
+            <div className="p-2 text-4xl text-p2-orange">
+         <p className="text-left text-2xl font-semibold text-p1-darkgreen">
+         Присоединяйтесь к нам
+         </p>
+         <p className="pb-5 text-left text-2xl font-semibold text-p1-darkgreen">
+         Создай NFT награду
+         </p>
+
+            <p className="pt-5 text-left text-2xl text-p1-darkgreen">
+            Заполни все поля - эти метаданные будут храниться в блокчейне
+            </p>
+ 
+            <div className="relative px-5 py-2">
+              <input
+                type="text"
+                id="Country"
+                className="peer block w-full appearance-none rounded-lg border-2 border-gray-300 bg-transparent px-2.5 pb-2.5 pt-4 text-sm text-p1-darkgreen focus:border-p2-orange focus:outline-none focus:ring-0 dark:border-gray-600 dark:text-white dark:focus:border-p2-orange"
+                placeholder=" "
+              />
+              <label
+                htmlFor="floating_outlined"
+                className="z-8 absolute start-1 top-2 origin-[0] -translate-y-4 scale-75 transform bg-p1-white px-8 text-sm text-gray-500 duration-300 peer-placeholder-shown:top-1/2 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:scale-100 peer-focus:top-2 peer-focus:-translate-y-4 peer-focus:scale-75 peer-focus:px-2 peer-focus:text-p1-darkgreen rtl:peer-focus:left-auto rtl:peer-focus:translate-x-1/4 dark:bg-gray-900 dark:text-gray-400 peer-focus:dark:text-p1-cyan"
+              >
+            Страна
+            </label>
+            </div>
+            <div className="relative px-5 py-2">
+              <input
+                type="text"
+                id="City"
+                className="peer block w-full appearance-none rounded-lg border-2 border-gray-300 bg-transparent px-2.5 pb-2.5 pt-4 text-sm text-p1-darkgreen focus:border-p2-orange focus:outline-none focus:ring-0 dark:border-gray-600 dark:text-white dark:focus:border-p2-orange"
+                placeholder=" "
+              />
+              <label
+                htmlFor="floating_outlined"
+                className="z-8 absolute start-1 top-2 origin-[0] -translate-y-4 scale-75 transform bg-p1-white px-8 text-sm text-gray-500 duration-300 peer-placeholder-shown:top-1/2 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:scale-100 peer-focus:top-2 peer-focus:-translate-y-4 peer-focus:scale-75 peer-focus:px-2 peer-focus:text-p1-darkgreen rtl:peer-focus:left-auto rtl:peer-focus:translate-x-1/4 dark:bg-gray-900 dark:text-gray-400 peer-focus:dark:text-p1-cyan"
+              >
+            Город
+            </label>
+            </div>
+            <div className="relative px-5 py-2">
+              <input
+                type="text"
+                id="Event"
+                className="peer block w-full appearance-none rounded-lg border-2 border-gray-300 bg-transparent px-2.5 pb-2.5 pt-4 text-sm text-p1-darkgreen focus:border-p2-orange focus:outline-none focus:ring-0 dark:border-gray-600 dark:text-white dark:focus:border-p2-orange"
+                placeholder=" "
+              />
+              <label
+                htmlFor="floating_outlined"
+                className="z-8 absolute start-1 top-2 origin-[0] -translate-y-4 scale-75 transform bg-p1-white px-8 text-sm text-gray-500 duration-300 peer-placeholder-shown:top-1/2 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:scale-100 peer-focus:top-2 peer-focus:-translate-y-4 peer-focus:scale-75 peer-focus:px-2 peer-focus:text-p1-darkgreen rtl:peer-focus:left-auto rtl:peer-focus:translate-x-1/4 dark:bg-gray-900 dark:text-gray-400 peer-focus:dark:text-p1-cyan"
+              >
+                Официальное название соревнования/конкурса
+              </label>
+            </div>
+            <div className="relative px-5 py-2">
+              <input
+                type="text"
+                id="Category_Event"
+                className="peer block w-full appearance-none rounded-lg border-2 border-gray-300 bg-transparent px-2.5 pb-2.5 pt-4 text-sm text-p1-darkgreen focus:border-p2-orange focus:outline-none focus:ring-0 dark:border-gray-600 dark:text-white dark:focus:border-p2-orange"
+                placeholder=" "
+              />
+              <label
+                htmlFor="floating_outlined"
+                className="z-8 absolute start-1 top-2 origin-[0] -translate-y-4 scale-75 transform bg-p1-white px-8 text-sm text-gray-500 duration-300 peer-placeholder-shown:top-1/2 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:scale-100 peer-focus:top-2 peer-focus:-translate-y-4 peer-focus:scale-75 peer-focus:px-2 peer-focus:text-p1-darkgreen rtl:peer-focus:left-auto rtl:peer-focus:translate-x-1/4 dark:bg-gray-900 dark:text-gray-400 peer-focus:dark:text-p1-cyan"
+              >
+                Категория мероприятия соревнование/конкурс
+              </label>
+            </div>
+            <div className="relative px-5 py-2">
+              <input
+                type="text"
+                id="PlaceInCompetition"
+                className="peer block w-full appearance-none rounded-lg border-2 border-gray-300 bg-transparent px-2.5 pb-2.5 pt-4 text-sm text-p1-darkgreen focus:border-p2-orange focus:outline-none focus:ring-0 dark:border-gray-600 dark:text-white dark:focus:border-p2-orange"
+                placeholder=" "
+              />
+              <label
+                htmlFor="floating_outlined"
+                className="z-8 absolute start-1 top-2 origin-[0] -translate-y-4 scale-75 transform bg-p1-white px-8 text-sm text-gray-500 duration-300 peer-placeholder-shown:top-1/2 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:scale-100 peer-focus:top-2 peer-focus:-translate-y-4 peer-focus:scale-75 peer-focus:px-2 peer-focus:text-p1-darkgreen rtl:peer-focus:left-auto rtl:peer-focus:translate-x-1/4 dark:bg-gray-900 dark:text-gray-400 peer-focus:dark:text-p1-cyan"
+              >
+                Занятое место
+              </label>
+            </div>
+            <div className="relative px-5 py-2">
+              <input
+                type="text"
+                id="Nomination"
+                className="peer block w-full appearance-none rounded-lg border-2 border-gray-300 bg-transparent px-2.5 pb-2.5 pt-4 text-sm text-p1-darkgreen focus:border-p2-orange focus:outline-none focus:ring-0 dark:border-gray-600 dark:text-white dark:focus:border-p2-orange"
+                placeholder=" "
+              />
+              <label
+                htmlFor="floating_outlined"
+                className="z-8 absolute start-1 top-2 origin-[0] -translate-y-4 scale-75 transform bg-p1-white px-8 text-sm text-gray-500 duration-300 peer-placeholder-shown:top-1/2 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:scale-100 peer-focus:top-2 peer-focus:-translate-y-4 peer-focus:scale-75 peer-focus:px-2 peer-focus:text-p1-darkgreen rtl:peer-focus:left-auto rtl:peer-focus:translate-x-1/4 dark:bg-gray-900 dark:text-gray-400 peer-focus:dark:text-p1-cyan"
+              >
+                Номинация
+              </label>
+            </div>
+            <div className="relative px-5 py-2">
+              <input
+                type="text"
+                id="EventCategory"
+                className="peer block w-full appearance-none rounded-lg border-2 border-gray-300 bg-transparent px-2.5 pb-2.5 pt-4 text-sm text-p1-darkgreen focus:border-p2-orange focus:outline-none focus:ring-0 dark:border-gray-600 dark:text-white dark:focus:border-p2-orange"
+                placeholder=" "
+              />
+              <label
+                htmlFor="floating_outlined"
+                className="z-8 absolute start-1 top-2 origin-[0] -translate-y-4 scale-75 transform bg-p1-white px-8 text-sm text-gray-500 duration-300 peer-placeholder-shown:top-1/2 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:scale-100 peer-focus:top-2 peer-focus:-translate-y-4 peer-focus:scale-75 peer-focus:px-2 peer-focus:text-p1-darkgreen rtl:peer-focus:left-auto rtl:peer-focus:translate-x-1/4 dark:bg-gray-900 dark:text-gray-400 peer-focus:dark:text-p1-cyan"
+              >
+                Категория награды
+              </label>
+            </div>
+            <div className="relative px-5 py-2">
+              <input
+                type="text"
+                id="DateOfVictory"
+                className="peer block w-full appearance-none rounded-lg border-2 border-gray-300 bg-transparent px-2.5 pb-2.5 pt-4 text-sm text-p1-darkgreen focus:border-p2-orange focus:outline-none focus:ring-0 dark:border-gray-600 dark:text-white dark:focus:border-p2-orange"
+                placeholder=" "
+              />
+              <label
+                htmlFor="floating_outlined"
+                className="z-8 absolute start-1 top-2 origin-[0] -translate-y-4 scale-75 transform bg-p1-white px-8 text-sm text-gray-500 duration-300 peer-placeholder-shown:top-1/2 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:scale-100 peer-focus:top-2 peer-focus:-translate-y-4 peer-focus:scale-75 peer-focus:px-2 peer-focus:text-p1-darkgreen rtl:peer-focus:left-auto rtl:peer-focus:translate-x-1/4 dark:bg-gray-900 dark:text-gray-400 peer-focus:dark:text-p1-cyan"
+              >
+                Дата Победы
+              </label>
+            </div>
+            <p className="pt-5 text-left text-xl text-p1-darkgreen">
+            Сведения о победителе:
+            </p>
+
+            <div className="relative px-5 py-2">
+              <input
+                type="text"
+                id="FullName"
+                className="peer block w-full appearance-none rounded-lg border-2 border-gray-300 bg-transparent px-2.5 pb-2.5 pt-4 text-sm text-p1-darkgreen focus:border-p2-orange focus:outline-none focus:ring-0 dark:border-gray-600 dark:text-white dark:focus:border-p2-orange"
+                placeholder=" "
+              />
+              <label
+                htmlFor="floating_outlined"
+                className="z-8 absolute start-1 top-2 origin-[0] -translate-y-4 scale-75 transform bg-p1-white px-8 text-sm text-gray-500 duration-300 peer-placeholder-shown:top-1/2 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:scale-100 peer-focus:top-2 peer-focus:-translate-y-4 peer-focus:scale-75 peer-focus:px-2 peer-focus:text-p1-darkgreen rtl:peer-focus:left-auto rtl:peer-focus:translate-x-1/4 dark:bg-gray-900 dark:text-gray-400 peer-focus:dark:text-p1-cyan"
+              >
+                Полное имя
+              </label>
+            </div>
+            <div className="relative px-5 py-2">
+              <input
+                type="text"
+                id="Nic-Name"
+                className="peer block w-full appearance-none rounded-lg border-2 border-gray-300 bg-transparent px-2.5 pb-2.5 pt-4 text-sm text-p1-darkgreen focus:border-p2-orange focus:outline-none focus:ring-0 dark:border-gray-600 dark:text-white dark:focus:border-p2-orange"
+                placeholder=" "
+              />
+              <label
+                htmlFor="floating_outlined"
+                className="z-8 absolute start-1 top-2 origin-[0] -translate-y-4 scale-75 transform bg-p1-white px-8 text-sm text-gray-500 duration-300 peer-placeholder-shown:top-1/2 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:scale-100 peer-focus:top-2 peer-focus:-translate-y-4 peer-focus:scale-75 peer-focus:px-2 peer-focus:text-p1-darkgreen rtl:peer-focus:left-auto rtl:peer-focus:translate-x-1/4 dark:bg-gray-900 dark:text-gray-400 peer-focus:dark:text-p1-cyan"
+              >
+               Ник-Имя
+              </label>
+            </div>
+            <div className="relative px-5 py-2">
+              <input
+                type="text"
+                id="Birthday"
+                className="peer block w-full appearance-none rounded-lg border-2 border-gray-300 bg-transparent px-2.5 pb-2.5 pt-4 text-sm text-p1-darkgreen focus:border-p2-orange focus:outline-none focus:ring-0 dark:border-gray-600 dark:text-white dark:focus:border-p2-orange"
+                placeholder=" "
+              />
+              <label
+                htmlFor="floating_outlined"
+                className="z-8 absolute start-1 top-2 origin-[0] -translate-y-4 scale-75 transform bg-p1-white px-8 text-sm text-gray-500 duration-300 peer-placeholder-shown:top-1/2 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:scale-100 peer-focus:top-2 peer-focus:-translate-y-4 peer-focus:scale-75 peer-focus:px-2 peer-focus:text-p1-darkgreen rtl:peer-focus:left-auto rtl:peer-focus:translate-x-1/4 dark:bg-gray-900 dark:text-gray-400 peer-focus:dark:text-p1-cyan"
+              >
+                Дата рождения
+              </label>
+            </div>
+            <div className="relative px-5 py-2">
+              <input
+                type="text"
+                id="Team"
+                className="peer block w-full appearance-none rounded-lg border-2 border-gray-300 bg-transparent px-2.5 pb-2.5 pt-4 text-sm text-p1-darkgreen focus:border-p2-orange focus:outline-none focus:ring-0 dark:border-gray-600 dark:text-white dark:focus:border-p2-orange"
+                placeholder=" "
+              />
+              <label
+                htmlFor="floating_outlined"
+                className="z-8 absolute start-1 top-2 origin-[0] -translate-y-4 scale-75 transform bg-p1-white px-8 text-sm text-gray-500 duration-300 peer-placeholder-shown:top-1/2 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:scale-100 peer-focus:top-2 peer-focus:-translate-y-4 peer-focus:scale-75 peer-focus:px-2 peer-focus:text-p1-darkgreen rtl:peer-focus:left-auto rtl:peer-focus:translate-x-1/4 dark:bg-gray-900 dark:text-gray-400 peer-focus:dark:text-p1-cyan"
+              >
+                Название команды
+              </label>
+            </div>
+            <div className="relative px-5 py-2">
+              <input
+                type="text"
+                id="tag"
+                className="peer block w-full appearance-none rounded-lg border-2 border-gray-300 bg-transparent px-2.5 pb-2.5 pt-4 text-sm text-p1-darkgreen focus:border-p2-orange focus:outline-none focus:ring-0 dark:border-gray-600 dark:text-white dark:focus:border-p2-orange"
+                placeholder=" "
+              />
+              <label
+                htmlFor="floating_outlined"
+                className="z-8 absolute start-1 top-2 origin-[0] -translate-y-4 scale-75 transform bg-p1-white px-8 text-sm text-gray-500 duration-300 peer-placeholder-shown:top-1/2 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:scale-100 peer-focus:top-2 peer-focus:-translate-y-4 peer-focus:scale-75 peer-focus:px-2 peer-focus:text-p1-darkgreen rtl:peer-focus:left-auto rtl:peer-focus:translate-x-1/4 dark:bg-gray-900 dark:text-gray-400 peer-focus:dark:text-p1-cyan"
+              >
+                Хэш-Тэг
+              </label>
+            </div>
+            <div className="relative px-5 py-2">
+              <input
+                type="text"
+                id="EventGeolocation"
+                className="peer block w-full appearance-none rounded-lg border-2 border-gray-300 bg-transparent px-2.5 pb-2.5 pt-4 text-sm text-p1-darkgreen focus:border-p2-orange focus:outline-none focus:ring-0 dark:border-gray-600 dark:text-white dark:focus:border-p2-orange"
+                placeholder=" "
+              />
+              <label
+                htmlFor="floating_outlined"
+                className="z-8 absolute start-1 top-2 origin-[0] -translate-y-4 scale-75 transform bg-p1-white px-8 text-sm text-gray-500 duration-300 peer-placeholder-shown:top-1/2 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:scale-100 peer-focus:top-2 peer-focus:-translate-y-4 peer-focus:scale-75 peer-focus:px-2 peer-focus:text-p1-darkgreen rtl:peer-focus:left-auto rtl:peer-focus:translate-x-1/4 dark:bg-gray-900 dark:text-gray-400 peer-focus:dark:text-p1-cyan"
+              >
+                Геолокация мероприятия
+              </label>
+            </div>
+            <div className="relative px-5 py-2">
+              <input
+                type="text"
+                id="description"
+                className="peer block w-full appearance-none rounded-lg border-2 border-gray-300 bg-transparent px-2.5 pb-2.5 pt-4 text-sm text-p1-darkgreen focus:border-p2-orange focus:outline-none focus:ring-0 dark:border-gray-600 dark:text-white dark:focus:border-p2-orange"
+                placeholder=" "
+              />
+              <label
+                htmlFor="floating_outlined"
+                className="z-8 absolute start-1 top-2 origin-[0] -translate-y-4 scale-75 transform bg-p1-white px-8 text-sm text-gray-500 duration-300 peer-placeholder-shown:top-1/2 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:scale-100 peer-focus:top-2 peer-focus:-translate-y-4 peer-focus:scale-75 peer-focus:px-2 peer-focus:text-p1-darkgreen rtl:peer-focus:left-auto rtl:peer-focus:translate-x-1/4 dark:bg-gray-900 dark:text-gray-400 peer-focus:dark:text-p1-cyan"
+              >
+                Описание
+              </label>
+            </div>
+          <div className="pb-5"></div>
+          
+          
+  <button className="rounded-3xl border-2 border-p1-darkgreen bg-p1-white px-20 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
+              Создать NFT Награды
+            </button>
+            <div className="pb-8"></div>
+          </div>
+      </div>
+      </div>
+      {/* //Лицензии */}
+        <div className="pt-5 text-center text-6xl font-bold text-p1-darkgreen">
+          Лицензии      
+        </div>
+          <div className="pb-5 text-center text-4xl font-bold text-p1-darkgreen">
+          NFT, дающие преференции своим держателям      </div>
+      <div className="m-5 grid grid-cols-3 gap-4 rounded-3xl border-4 border-p1-darkgreen p-5 text-center text-p1-darkgreen shadow-lg">
+      <div> 
+      <Image
+              className="relative mb-4 inline-block w-max overflow-hidden rounded-3xl border-2 border-p2-orange shadow-lg"
+              width={1000}
+              height={1000}
+              src="/Licenses/Promoter Lic.png"
+              alt="PromoterLic"
+            />
+             <p className="text-2xl text-p1-darkgreen">
+             Лицензия Промоутера
+             </p>
+            <p className="text-xm pb-2 text-p1-darkgreen">
+            Предоставляет доступ на страницу создания NFT наград
+            </p>
+              
+            </div>
+            <div>
+             <Image
+              className="relative mb-4 inline-block w-max overflow-hidden rounded-3xl border-2 border-p2-orange shadow-lg"
+              width={1000}
+              height={1000}
+               src="/Licenses/National Lic.png"
+              alt="NationalLic"
+            />
+    <p className="text-2xl text-p1-darkgreen">
+    Национальная лицензия
+             </p>
+            <p className="text-xm pb-2 text-p1-darkgreen">
+            Предоставляет право голоса по развитию GAA на национальном и локальном уровнях                        </p>
+                       
+          
+          
+            </div>
+
+<div> 
+             <Image
+              className="relative mb-4 inline-block w-max overflow-hidden rounded-3xl border-2 border-p2-orange shadow-lg"
+              width={1000}
+              height={1000}
+              src="/Licenses/Global Lic.png"
+              alt="GlobalLic"
+            />
+             <p className="text-2xl text-p1-darkgreen">
+             Глобальная лицензия
+                          </p>
+            <p className="text-xm pb-2 text-p1-darkgreen">
+            Предоставляет право голоса по развитию GAA на международном уровне                                    </p>
+            
+                        
+            </div>
+      
+     <div>      <button className="rounded-l-lg border-2 border-p1-darkgreen bg-p1-white p-2 text-p1-darkgreen shadow-lg hover:bg-p1-darkgreen hover:text-p1-white">
+              Исследуй NFT
+            </button>
+            <button className="rounded-r-lg border-2 border-p1-darkgreen bg-p1-white p-2 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
+              Создай NFT
+            </button></div>
+     <div>      <button className="rounded-l-lg border-2 border-p1-darkgreen bg-p1-white p-2 text-p1-darkgreen shadow-lg hover:bg-p1-darkgreen hover:text-p1-white">
+              Исследуй NFT
+            </button>
+            <button className="rounded-r-lg border-2 border-p1-darkgreen bg-p1-white p-2 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
+              Создай NFT
+            </button></div>
+     <div>      <button className="rounded-l-lg border-2 border-p1-darkgreen bg-p1-white p-2 text-p1-darkgreen shadow-lg hover:bg-p1-darkgreen hover:text-p1-white">
+              Исследуй NFT
+            </button>
+            <button className="rounded-r-lg border-2 border-p1-darkgreen bg-p1-white p-2 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
+              Создай NFT
+            </button></div>
+     
+      </div>
+      {/* //Promoter License */}
+      <div className="grid grid-cols-2 gap-4">
+          <div className="p-2 text-4xl font-semibold text-p1-darkgreen">
+        Promoter License NFT          </div>
+            <div className="p-2 text-end text-4xl font-semibold text-p1-darkgreen">
+            Страница исследователя
+            </div>
+      </div>
+      <div className="m-5 flex rounded-3xl border-4 border-p1-darkgreen shadow-lg">
+        
+     
+        <div className="grid grid-cols-2 gap-4">
+          <div className="place-content-center p-4 text-left">
+                    <p className="p-2 text-xl text-p1-darkgreen">
+                    Promoter License NFT невзаимозаменяемый токен,
+                    предоставляется Промоутеру (Организатору) мероприятия.                    </p>
+                    <p className="p-2 text-xl text-p1-darkgreen">
+                    Promouter License NFT предоставляет доступ к странице сайта для минта Reward NFT (NFT Наград)
+                    </p>
+                    <p className="p-2 text-xl text-p1-darkgreen">
+                    Для получения NFT Promouter License NFT Промоутер (Организатор) заполняет регистрационную форму на странице регистрации и направляет заявку на предоставление доступа к созданию NFT.
+                    </p>
+                    <button className="w-full rounded-3xl border-2 border-p1-darkgreen bg-p1-white px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
+                    Регистрационная форма заявки
+                  </button> 
+
+                    <p className="p-2 text-xl text-p1-darkgreen">
+                    При положительном решении Промоутеру (Организатору) предоставляется возможность минта Promouter License NFT.
+                                       </p>
+                    <p className="p-2 text-xl text-p1-darkgreen">
+                    Данный токен Burnebal, то есть собственник смарт-контракта может уничтожить любой токен из коллекции, эта мера необходима для формирования чистоты коллекции.
+                                        </p>
+                    <p className="p-2 text-xl text-p1-darkgreen">
+                    То есть собственник смарт-контракта вправе уничтожить NFT в случае нарушения держателем Promouter License NFT правил, создания NFT не соответствующих целям Проекта.
+
+                    </p>
+                   
+                    <button className="w-full rounded-3xl border-2 border-p1-darkgreen bg-p1-white px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
+                    Страница создания NFT
+                  </button> 
+                  </div>
+                  <div className="m-1 p-5">
+                  <Image
+                      className="relative inline-block w-max overflow-hidden rounded-3xl border-2 border-p2-orange shadow-lg"
+                      width={1000}
+                      height={1000}
+                      src="/Licenses/Promoter Lic.png"
+                      alt="PromoterLic"
+                    />
+                  </div>
+        </div>
+        <div className="pb-8"></div>
+      </div>
+
+    {/* //National License */}
+    <div className="grid grid-cols-2 gap-4">
+          <div className="p-2 text-4xl font-semibold text-p1-darkgreen">
+        National License NFT          </div>
+            <div className="p-2 text-end text-4xl font-semibold text-p1-darkgreen">
+            Страница исследователя
+            </div>
+      </div>
+      <div className="m-5 flex rounded-3xl border-4 border-p1-darkgreen shadow-lg">
+        
+     
+        <div className="grid grid-cols-2 gap-4">
+          <div className="place-content-center p-4 text-left">
+                    <p className="p-2 text-xl text-p1-darkgreen">
+                    National License NFT невзаимозаменяемый токен, предоставляется лидерам направлений                   </p>
+                    <p className="p-2 text-xl text-p1-darkgreen">
+                    Держателю National License NFT будет доступна страница минта Promouter NFT и Rewards NFT для минта и передачи организаторам и участникам мероприятия.
+                    </p>
+                    <p className="p-2 text-xl text-p1-darkgreen">
+                    То еcть держатель National License NFT решает вопросы связанные с организацией и проведением награждения конкурсантов и спортсменов мероприятий, а именно решает кто будет создавать NFT и кто будет награждать конкурсантов и спортсменов.
+                    </p>
+                    <p className="p-2 text-xl text-p1-darkgreen">
+                    Мы благодарны активным участникам сообщества стремящихся идти в ногу со временем и популяризирующие новые технологии и их продвижение, делающие мир лучше.
+                    </p>
+                    <p className="p-2 text-xl text-p1-darkgreen">
+                    Для получения NFT необходимо зарегистрироваться и заполнить заявку для рассмотрения
+                    </p>
+                    <button className="w-full rounded-3xl border-2 border-p1-darkgreen bg-p1-white px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
+                    Регистрационная форма заявки
+                  </button> 
+
+                    <p className="p-2 text-xl text-p1-darkgreen">
+                    При положительном решении лидеру направления предоставляется возможность создания National License NFT.
+                    </p>
+                    <p className="p-2 text-xl text-p1-darkgreen">
+                    Держатель National License NFT принимает решения о векторе развития сообщества локального уровня, организует проведение голосований, а также сам принимает участие в голосовании по вопросам развития сообщества на локальной территории национального уровна.
+                    </p>
+                    <p className="p-2 text-xl text-p1-darkgreen">
+                    Данный токен Burnebal, то есть собственник смарт-контракта может уничтожить любой токен из коллекции, эта мера необходима для формирования чистоты коллекции.
+                                        </p>
+                    <p className="p-2 text-xl text-p1-darkgreen">
+                    То есть собственник смарт-контракта вправе уничтожить NFT в случае нарушения держателем National License NFT правил, создания NFT не соответствующих целям Проекта.
+
+                    </p>
+                    <button className="w-full rounded-3xl border-2 border-p1-darkgreen bg-p1-white px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
+                    Страница создания NFT
+                  </button> 
+                  </div>
+                  <div className="m-1 p-5">
+                  <Image
+                      className="relative inline-block w-max overflow-hidden rounded-3xl border-2 border-p2-orange shadow-lg"
+                      width={1000}
+                      height={1000}
+                      src="/Licenses/National Lic.png"
+                      alt="NationalLic"
+                    />
+                  </div>
+        </div>
+        <div className="pb-8"></div>
+      </div>
+ {/* //Global License */}
+ <div className="grid grid-cols-2 gap-4">
+          <div className="p-2 text-4xl font-semibold text-p1-darkgreen">
+        Global License NFT          </div>
+            <div className="p-2 text-end text-4xl font-semibold text-p1-darkgreen">
+            Страница исследователя
+            </div>
+      </div>
+      <div className="m-5 flex rounded-3xl border-4 border-p1-darkgreen shadow-lg">
+        
+     
+        <div className="grid grid-cols-2 gap-4">
+          <div className="place-content-center p-4 text-left">
+                    <p className="p-2 text-xl text-p1-darkgreen">
+                    Global License NFT невзаимозаменяемый токен, предоставляется лидерам направлений                   </p>
+                    <p className="p-2 text-xl text-p1-darkgreen">
+                    Держателю Global License NFT будет доступна страница минта Promouter NFT и Rewards NFT для минта и передачи организаторам и участникам мероприятия.
+                    </p>
+                    <p className="p-2 text-xl text-p1-darkgreen">
+                    Держатель Global License NFT принимает решения о векторе развития сообщества и организации проведения голосований, а также сам принимает участие в голосовании по вопросам развития сообщества.
+                    </p>
+                    <p className="p-2 text-xl text-p1-darkgreen">
+                    Мы благодарны активным участникам сообщества стремящихся идти в ногу со временем и популяризирующие новые технологии и их продвижение, делающие мир лучше.
+                    </p>
+                    <p className="p-2 text-xl text-p1-darkgreen">
+                    Для получения NFT необходимо зарегистрироваться и заполнить заявку для рассмотрения
+                    </p>
+                    <button className="w-full rounded-3xl border-2 border-p1-darkgreen bg-p1-white px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
+                    Регистрационная форма заявки
+                  </button> 
+
+                    <p className="p-2 text-xl text-p1-darkgreen">
+                    При положительном решении лидеру направления предоставляется возможность создания Global License NFT.
+                    </p>
+                    <p className="p-2 text-xl text-p1-darkgreen">
+                    Держатель Global License NFT принимает решения о векторе развития сообщества на международном уровне, организует проведение голосований, а также сам принимает участие в голосовании по вопросам развития сообщества на Глобальном уровне,  может решать вопросы, связанные с организацией и проведением награждения конкурсантов и спортсменов мероприятий, а именно решает кто будет создавать NFT и кто будет награждать конкурсантов и спортсменов.
+                    </p>
+                    <p className="p-2 text-xl text-p1-darkgreen">
+                    Данный токен Burnebal, то есть собственник смарт-контракта может уничтожить любой токен из коллекции, эта мера необходима для формирования чистоты коллекции.
+                                        </p>
+                    <p className="p-2 text-xl text-p1-darkgreen">
+                    То есть собственник смарт-контракта вправе уничтожить NFT в случае нарушения держателем National License NFT правил, создания NFT не соответствующих целям Проекта.
+
+                    </p>
+                    <button className="w-full rounded-3xl border-2 border-p1-darkgreen bg-p1-white px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
+                    Страница создания NFT
+                  </button> 
+                  </div>
+                  <div className="m-1 p-5">
+                  <Image
+                      className="relative inline-block w-max overflow-hidden rounded-3xl border-2 border-p2-orange shadow-lg"
+                      width={1000}
+                      height={1000}
+                      src="/Licenses/Global Lic.png"
+                      alt="GlobalLic"
+                    />
+                  </div>
+        </div>
+        <div className="pb-8"></div>
+      </div>
+
+
+      <div className="pt-5 text-center text-4xl font-bold text-p1-darkgreen">
+        Способы получения
+      </div>
+      <div className="pb-5 text-center text-4xl font-bold text-p1-darkgreen">
+        Promoter, National, Global Licenses NFT
+      </div>
+      <div className="m-5 rounded-3xl border-4 border-p1-darkgreen p-6 shadow-lg">
+        <div className="pb-5 text-center text-xl">
+        Management GAA и Global License организует обшее развитие и управление GAA
+        </div>
+        <div className="pb-5 text-center text-xl">
+        Верификацию и удостоверение статуса National License, Promouter License Global License могут осуществить Management GAA
+        </div>
+        <Image
+                    className="relative inline-block w-max overflow-hidden"
+                    width={1000}
+                    height={1000}
+                    src="/scheme GAA/scheme License.png"
+                    alt="scheme License"
+                  />
+      
+      <div className="p-5 text-center text-xl">
+      Вектор развития направления решает Management GAA, Global License, National License
+        </div>
+        <div className="p-5 text-center text-xl">
+        Promoter License организует локальное мероприятие, может включать разные направления
+        </div>
+        <div className="p-5 text-center text-xl">
+        National License организует развитие направлений на национальном внутреннем уровне
+        </div>
+</div>
+
+<div className="grid grid-cols-2 gap-4">
+          <div className="p-2 text-4xl font-semibold text-p2-orange">
+          Promoter License NFT          </div>
+            <div className="p-2 text-end text-4xl font-semibold text-p2-orange">
+          Страница создания NFT
+          </div>
+      </div>
+      <div className="grid grid-cols-6 gap-4">
+        <div className="col-span-4 col-start-2 w-full rounded-3xl border-4 border-p2-orange text-center text-p1-darkgreen shadow-lg">
+          <div>
+            <p className="text-2xl text-p1-darkgreen">
+            Присоединяйтесь к нам
+            </p>
+            <p className="pb-5 text-2xl text-p1-darkgreen">
+            Получите NFT лицензию Промоутера
+            </p>
+            <div className="grid grid-cols-4 gap-4">
+              <div className="pt-5">
+              Созданные вами NFT автоматически попадут в глобальную коллекцию GAA
+              <p className="pt-5">
+              это объединенная коллекция мирового сообщества
+              </p>
+              </div>
+              <div className="col-span-2 col-start-2 w-full rounded-3xl text-center"><Image
+              className="relative mb-4 inline-block w-max overflow-hidden rounded-3xl border-2 border-p2-orange shadow-lg"
+              width={1000}
+              height={1000}
+              src="/Licenses/Promoter Lic.png"
+              alt="PromoterLic"
+            /></div>
+              
+              
+              <div>
+              <p className="pt-5">
+              Доступно для
+              </p>
+              <p>
+              Nacional Licence NFT 
+              </p>
+              <p>
+              Global Licence NFT 
+              </p>
+              <p>
+              Management GAA
+              </p>
+              <p className="pt-5">
+              Подключите
+              </p>
+              <p>
+              свой кошелек,
+              </p>
+              <p>
+              чтобы подтвердить
+              </p>
+              <p>
+              лицензию NFT
+              </p>
+              </div>
+            
+            </div>
 
 <div>
                     <label
@@ -1686,13 +2578,9 @@ Promoter License        </div>
                       className="h-2 w-3/5 cursor-pointer appearance-none rounded-lg bg-gray-200 dark:bg-gray-700"
                     />
                   </div>
-
-
-
             <p className="pb-8 pt-8 text-2xl text-p1-darkgreen">
-            Максимальное количество: 10 CustomLads за транзакцию
+            Максимум: 10 Promoter License NFT за транзакцию
             </p>
-          
             <button className="rounded-3xl border-2 border-p1-darkgreen bg-p1-white px-48 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
               Создать NFT
             </button>
@@ -1702,519 +2590,138 @@ Promoter License        </div>
         </div>
 
 
+        <div className="grid grid-cols-2 gap-4">
+          <div className="p-2 text-4xl font-semibold text-p2-orange">
+          National License NFT          </div>
+            <div className="p-2 text-end text-4xl font-semibold text-p2-orange">
+          Страница создания NFT
+          </div>
+      </div>
+      <div className="grid grid-cols-6 gap-4">
+        <div className="col-span-4 col-start-2 w-full rounded-3xl border-4 border-p2-orange text-center text-p1-darkgreen shadow-lg">
+          <div>
+            <p className="text-2xl text-p1-darkgreen">
+            Присоединяйтесь к нам
+            </p>
+            <p className="pb-5 text-2xl text-p1-darkgreen">
+            Получите NFT Национальную лицензию
+            </p>
+            <div className="grid grid-cols-4 gap-4">
+              <div className="pt-5">
+              Созданные вами NFT автоматически попадут в глобальную коллекцию GAA
+              <p className="pt-5">
+              это объединенная коллекция мирового сообщества
+              </p>
+              </div>
+              <div className="col-span-2 col-start-2 w-full rounded-3xl text-center"><Image
+              className="relative mb-4 inline-block w-max overflow-hidden rounded-3xl border-2 border-p2-orange shadow-lg"
+              width={1000}
+              height={1000}
+              src="/Licenses/National Lic.png"
+              alt="NationalLic"
+            /></div>
 
-      {/* //Награды */}
-      <div className="pb-5 text-center text-6xl font-bold">Награды</div>
-      <div className="pb-5 text-center text-4xl font-bold">Кубки и медали</div>
-      <div className="my-5 rounded-3xl border-4 border-gray-500 p-6">
-        <div className="pb-5 text-center">
-          NFT награды, содержащие метаданные о мероприятии, награжденном
-          спортсмене, а также медиаконтент.
+              <div>
+              <p className="pt-5">
+              Доступно для
+              </p>
+              <p>
+              Global Licence NFT 
+              </p>
+              <p>
+              Management GAA
+              </p>
+              <p className="pt-5">
+              Подключите
+              </p>
+              <p>
+              свой кошелек,
+              </p>
+              <p>
+              чтобы подтвердить
+              </p>
+              <p>
+              лицензию NFT
+              </p>
+              </div>
+            </div>
+
+            <p className="pb-8 pt-8 text-2xl text-p1-darkgreen">
+            Максимум: 1 National License NFT за транзакцию
+            </p>
+            <button className="rounded-3xl border-2 border-p1-darkgreen bg-p1-white px-48 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
+              Создать NFT
+            </button>
+            <div className="pb-8"></div>
+          </div>
         </div>
-        <div className="pb-5 text-center">
-          Когда присоединиться к блокчейн технологиям - решать тебе!
-        </div>
-        <div className="pb-5 text-center">Исследовать </div>
-        <div className="pb-5 text-center">Страница создания NFT</div>
-      </div>
-      <div className="pb-5 text-center text-4xl font-bold">
-        Страница исследователя Награды победителей NFT
-      </div>
-      <div className="pb-5 text-center text-4xl font-bold">
-        by Global Automotive Association
-      </div>
-      <div className="my-5 rounded-3xl border-4 border-gray-500 p-6">
-        <div className="pb-5 text-center">
-          Невзаимозаменяемый токен (NFT награда), вручаемая Промоутером
-          (Организатором) в рамках мероприятия (соревнования).
-        </div>
-        <div className="pb-5 text-center">
-          Rewards NFT можно коллекционировать, продавать, передавать.
-        </div>
-        <div className="pb-5">
-          Каждый NFT включен в единую коллекцию Rewards GAA, что является
-          уникальным для всех наград GAA
-        </div>
-        <div className="pb-5">
-          Токен содержит ссылки на официальные документы:
-        </div>
-        <ul className="list-disc px-5">
-          <li>Итоговый протокол конкурса, соревнования</li>
-          <li>Фото награждения</li>
-          <li>Видео победы</li>
-          <div className="pb-5"></div>
-        </ul>
-        <div className="pb-5">
-          Все данные хранятся в IPFS сети и защищены от несанкционированного
-          уничтожения.
-        </div>
-        <div className="pb-5">
-          Доступ к минту токена у организатора мероприятия, держателя Promoter
-          License NFT, National License NFT, Management GAA NFT.
-        </div>
-        <div className="pb-5">
-          Данный токен может быть уничтожен владельцем смарт-контракта
-          (Burnebal), то есть собственник контракта может уничтожить любой токен
-          из коллекции, эта мера необходима для формирования чистоты коллекции.
-        </div>
-        <div className="pb-5">
-          То есть категорически запрещено присоединять к NFT медиаконтент
-          политического содержания, экстремистской направленности, а также любой
-          иной медиаконтент не отвечающий вектору развития Проекта. Также
-          запрещено присоединять данные не соответствующие действительности.
-        </div>
-      </div>
-      <div className="pb-5 text-center text-4xl font-bold">
-        Способы получения NFT Награды
-      </div>
-      <div className="pb-5 text-center text-4xl font-bold">
-        Схема взаимодействия сообщества GAA
-      </div>
-      <div className="my-5 rounded-3xl border-4 border-gray-500 p-6">
-        <div className="pb-5 text-center">
-          Награды могут вручать Management GAA, National License, Promoter
-          License
-        </div>
-        <div className="pb-5 text-center">
-          Награды могут получать: Drivers, Team&apos;s members, Collectors, Cars
-          и т.п. даже если нет соответствующей NFT
-        </div>
-      </div>
-      <div className="pb-5 text-center text-4xl font-bold">NFT Награды</div>
-      <div className="pb-5 text-center text-4xl font-bold">
-        Страница создания NFT
-      </div>
-      <div className="my-5 rounded-3xl border-4 border-orange-400 p-6">
-        <div className="text-center font-bold">Присоединяйтесь к нам</div>
-        <div className="pb-5 text-center font-bold">
-          Созданные вами NFT автоматически попадут в глобальную коллекцию GAA
-        </div>
-        <div className="pb-5 text-center">
-          Первая коллекция GAA из NFT Наград
-        </div>
-        <div className="pb-5 text-center">
-          это единый сборник мирового сообщества
-        </div>
-        <div className="pb-5 text-center">
-          Доступен только Management GAA, National License, Promoter License NFT
-        </div>
-        <div className="pb-5 text-center">
-          Подключите свой кошелек, чтобы подтвердить лицензию NFT
-        </div>
-        <div className="pb-5 text-center">
-          Добавить вывод картинки награды в зависимости от выбранных полей
-        </div>
-        <div className="pb-5 text-center">Создай NFT награду</div>
-        <div className="pb-5 text-center">
-          Заполните метаданные в поля, чтобы создать Reward NFT
-        </div>
-        <div className="pb-5 text-center">Страна</div>
-        <div className="pb-5 text-center">Город</div>
-        <div className="pb-5 text-center">Мероприятие</div>
-        <div className="pb-5 text-center">Категория</div>
-        <div className="pb-5 text-center">
-          Официальное название соревнование/конкурса
-        </div>
-        <div className="pb-5 text-center">Вид мероприятия</div>
-        <div className="pb-5 text-center">место в соревновании</div>
-        <div className="pb-5 text-center">Номинация</div>
-        <div className="pb-5 text-center">Вид награды</div>
-        <div className="pb-5 text-center">Дата Победы</div>
-        <div className="pb-5 text-center">ФИО Победителя</div>
-        <div className="pb-5 text-center">Ник Имя</div>
-        <div className="pb-5 text-center">Дата рождения</div>
-        <div className="pb-5 text-center">Название Команды</div>
-        <div className="pb-5 text-center">Хэштэг</div>
-        <div className="pb-5 text-center">Геолокация мероприятия</div>
-        <div className="pb-5 text-center">Описание</div>
-        <div className="pb-5 text-center">
-          Загрузите медиаконтент момента Победы
-        </div>
-        <div className="pb-5 text-center">
-          Загрузите фото Победителя с наградой
-        </div>
-        <div className="pb-5 text-center">
-          Загрузите итоговый отчет о соревновании
-        </div>
-        <div className="pb-5 text-center">
-          Я согласен на обработку персональных данных
-        </div>
-        <div className="pb-5 text-center font-bold">Создать NFT Награду</div>
-        <div className="pb-5 text-center font-bold"></div>
-      </div>
-      {/* //Лицензии */}
-      <div className="pb-5 text-center text-6xl font-bold">Лицензии</div>
-      <div className="pb-5 text-center text-6xl font-bold">
-        NFT, дающие преференции своим держателям
-      </div>
-      {/* //Promoter License */}
-      <div className="my-5 rounded-3xl border-4 border-gray-500 p-6">
-        <div className="pb-5 text-center">Promoter License</div>
-        <div className="pb-5 text-center">
-          Предоставляет доступ на страницу создания NFT наград
-        </div>
-        <div className="pb-5 text-center">Исследовать </div>
-        <div className="pb-5 text-center">Страница создания NFT</div>
-      </div>
-      <div className="pb-5 text-center text-4xl font-bold">
-        Страница исследователя
-      </div>
-      <div className="pb-5 text-center text-4xl font-bold">
-        Promoter License
-      </div>
-      <div className="my-5 rounded-3xl border-4 border-gray-500 p-6">
-        <div className="pb-5 text-center">
-          Promoter License NFT невзаимозаменяемый токен,
-        </div>
-        <div className="pb-5 text-center">
-          предоставляется Промоутеру (Организатору) мероприятия.
-        </div>
-        <div className="pb-5 text-center">
-          Promouter License NFT предоставляет доступ к странице сайта для минта
-          Reward NFT (NFT Наград)
-        </div>
-        <div className="pb-5">
-          При положительном решении Промоутеру (Организатору) предоставляется
-          возможность минта Promoter License NFT.
-        </div>
-        <div className="pb-5">
-          Данный токен Burnebal, то есть собственник смарт-контракта может
-          уничтожить любой токен из коллекции, эта мера необходима для
-          формирования чистоты коллекции.
-        </div>
-        <div className="pb-5">
-          То есть собственник смарт-контракта вправе уничтожить NFT в случае
-          нарушения держателем Promouter License NFT правил, создания NFT не
-          соответствующих целям Проекта.
-        </div>
-      </div>
-      <div className="pb-5 text-center text-4xl font-bold">
-        Способы получения Promoter License NFT
-      </div>
-      <div className="pb-5 text-center text-4xl font-bold">
-        Схема взаимодействия сообщества GAA
-      </div>
-      <div className="my-5 rounded-3xl border-4 border-gray-500 p-6">
-        <div className="pb-5 text-center">
-          Верификацию и удостоверение статуса National License, Promoter
-          License, Global License могут осуществить Management GAA,
-        </div>
-        <div className="pb-5 text-center">
-          Management GAA и Global License организует обшее развитие и управление
-          GAA
-        </div>
-        <div className="pb-5 text-center">
-          Promoter License организует локальное мероприятие, может включать
-          разные направления
-        </div>
-        <div className="pb-5 text-center">
-          National License организует развитие направленинаправлений на
-          национальном внутреннем уровне
-        </div>
-        <div className="pb-5 text-center">
-          Вектор развития направления решает Management GAA, Global License,
-          National License
-        </div>
-      </div>
-      <div className="pb-5 text-center text-4xl font-bold">
-        NFT Лицензия промоутера
-      </div>
-      <div className="pb-5 text-center text-4xl font-bold">
-        Страница создания NFT
-      </div>
-      <div className="my-5 rounded-3xl border-4 border-orange-400 p-6">
-        <div className="text-center font-bold">Присоединяйтесь к нам</div>
-        <div className="pb-5 text-center font-bold">
-          Получите NFT лицензию Промоутера
-        </div>
-        <div className="pb-5 text-center">
-          Созданные вами NFT автоматически попадут в глобальную коллекцию GAA{" "}
-        </div>
-        <div className="pb-5 text-center">
-          это единый сборник мирового сообщества
-        </div>
-        <div className="pb-5 text-center">Доступно для</div>
-        <div className="pb-5 text-center">Nacional Licence NFT</div>
-        <div className="pb-5 text-center">Global Licence NFT</div>
-        <div className="pb-5 text-center">Management GAA</div>
-        <div className="pb-5 text-center">
-          Подключите свой кошелек, чтобы подтвердить лицензию NFT
         </div>
 
-        <div className="pb-5 text-center">
-          Я согласен на обработку персональных данных
-        </div>
-        <div className="pb-5 text-center">
-          Количество NFT, которое можно создать сейчас за одну транзакцию
-        </div>
-        <div className="pb-5 text-center">Цена создания NFT</div>
-        <div className="pb-5 text-center">Цена всего:</div>
-        <div className="pb-5 text-center font-bold">
-          Создай NFT лицензию промоутера
-        </div>
-        <div className="pb-5 text-center font-bold"></div>
+        
+        <div className="grid grid-cols-2 gap-4">
+          <div className="p-2 text-4xl font-semibold text-p2-orange">
+          Global License NFT          </div>
+            <div className="p-2 text-end text-4xl font-semibold text-p2-orange">
+          Страница создания NFT
+          </div>
       </div>
-      {/* //National License */}
-      <div className="my-5 rounded-3xl border-4 border-gray-500 p-6">
-        <div className="pb-5 text-center">National License</div>
-        <div className="pb-5 text-center">
-          Предоставляет доступ на страницу создания NFT наград
+      <div className="grid grid-cols-6 gap-4">
+        <div className="col-span-4 col-start-2 w-full rounded-3xl border-4 border-p2-orange text-center text-p1-darkgreen shadow-lg">
+          <div>
+            <p className="text-2xl text-p1-darkgreen">
+            Присоединяйтесь к нам
+            </p>
+            <p className="pb-5 text-2xl text-p1-darkgreen">
+            Получите NFT Глобальную лицензию
+            </p>
+            <div className="grid grid-cols-4 gap-4">
+              <div className="pt-5">
+              Созданные вами NFT автоматически попадут в глобальную коллекцию GAA
+              <p className="pt-5">
+              это объединенная коллекция мирового сообщества
+              </p>
+              </div>
+              <div className="col-span-2 col-start-2 w-full rounded-3xl text-center"><Image
+              className="relative mb-4 inline-block w-max overflow-hidden rounded-3xl border-2 border-p2-orange shadow-lg"
+              width={1000}
+              height={1000}
+              src="/Licenses/Global Lic.png"
+              alt="GlobalLic"
+            /></div>
+
+              <div>
+              <p className="pt-5">
+              Доступно для
+              </p>
+              <p>
+              Management GAA
+              </p>
+              <p className="pt-5">
+              Подключите
+              </p>
+              <p>
+              свой кошелек,
+              </p>
+              <p>
+              чтобы подтвердить
+              </p>
+              <p>
+              лицензию NFT
+              </p>
+              </div>
+            </div>
+
+            <p className="pb-8 pt-8 text-2xl text-p1-darkgreen">
+            Максимум: 1 Global License NFT за транзакцию
+            </p>
+            <button className="rounded-3xl border-2 border-p1-darkgreen bg-p1-white px-48 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
+              Создать NFT
+            </button>
+            <div className="pb-8"></div>
+          </div>
         </div>
-        <div className="pb-5 text-center">
-          Предоставляет право голоса по развитию GAA на национальном и локальном
-          уровнях
-        </div>
-        <div className="pb-5 text-center">Исследовать </div>
-        <div className="pb-5 text-center">Страница создания NFT</div>
-      </div>
-      <div className="pb-5 text-center text-4xl font-bold">
-        Страница исследователя
-      </div>
-      <div className="pb-5 text-center text-4xl font-bold">
-        National License
-      </div>
-      <div className="my-5 rounded-3xl border-4 border-gray-500 p-6">
-        <div className="pb-5 text-center">
-          National License NFT невзаимозаменяемый токен,
-        </div>
-        <div className="pb-5 text-center">
-          предоставляется лидерам направлений
-        </div>
-        <div className="pb-5 text-center">
-          Держателю National License NFT будет доступна страница минта Promouter
-          NFT и Rewards NFT для минта и передачи организаторам и участникам
-          мероприятия
-        </div>
-        <div className="pb-5">
-          То еcть держатель National License NFT решает вопросы связанные с
-          организацией и проведением награждения конкурсантов и спортсменов
-          мероприятий, а именно решает кто будет создавать NFT и кто будет
-          награждать конкурсантов и спортсменов
-        </div>
-        <div className="pb-5">
-          Мы благодарны активным участникам сообщества стремящихся идти в ногу
-          со временем и популяризирующие новые технологии и их продвижение,
-          делающие мир лучше.
-        </div>
-        <div className="pb-5">
-          Для получения NFT необходимо зарегистрироваться и заполнить заявку для
-          рассмотрения
-        </div>
-        <div className="pb-5">
-          При положительном решении соискателю станет доступен минт National
-          License NFT
-        </div>
-        <div className="pb-5">
-          Держатель National License NFT принимает решения о векторе развития
-          сообщества локального уровня, организует проведение голосований, а
-          также сам принимает участие в голосовании по вопросам развития
-          сообщества на локальной территории национального уровна
         </div>
 
-        <div className="pb-5">
-          Данный токен Burnebal, то есть собственник смарт-контракта может
-          уничтожить любой токен из коллекции, эта мера необходима для
-          формирования чистоты коллекции.
-        </div>
-        <div className="pb-5">
-          То есть собственник смарт-контракта вправе уничтожить NFT в случае
-          нарушения держателем National License NFT правил, создания NFT не
-          соответствующих целям Проекта.
-        </div>
-      </div>
-      <div className="pb-5 text-center text-4xl font-bold">
-        Способы получения National license NFT
-      </div>
-      <div className="pb-5 text-center text-4xl font-bold">
-        Схема взаимодействия сообщества GAA
-      </div>
-      <div className="my-5 rounded-3xl border-4 border-gray-500 p-6">
-        <div className="pb-5 text-center">
-          Верификацию и удостоверение статуса National License, Promoter
-          License, Global License могут осуществить Management GAA,
-        </div>
-        <div className="pb-5 text-center">
-          Management GAA и Global License организует обшее развитие и управление
-          GAA
-        </div>
-        <div className="pb-5 text-center">
-          Promoter License организует локальное мероприятие, может включать
-          разные направления
-        </div>
-        <div className="pb-5 text-center">
-          National License организует развитие направленинаправлений на
-          национальном внутреннем уровне
-        </div>
-        <div className="pb-5 text-center">
-          Вектор развития направления решает Management GAA, Global License,
-          National License
-        </div>
-      </div>
-      <div className="pb-5 text-center text-4xl font-bold">
-        NFT Национальная Лицензия
-      </div>
-      <div className="pb-5 text-center text-4xl font-bold">
-        Страница создания NFT
-      </div>
-      <div className="my-5 rounded-3xl border-4 border-orange-400 p-6">
-        <div className="text-center font-bold">Присоединяйтесь к нам</div>
-        <div className="pb-5 text-center font-bold">
-          Получите NFT Национальную лицензию
-        </div>
-        <div className="pb-5 text-center">
-          Созданные вами NFT автоматически попадут в глобальную коллекцию GAA
-        </div>
-        <div className="pb-5 text-center">
-          это единый сборник мирового сообщества
-        </div>
-        <div className="pb-5 text-center">Доступно для</div>
-        <div className="pb-5 text-center">Global Licence NFT</div>
-        <div className="pb-5 text-center">Management GAA</div>
-        <div className="pb-5 text-center">
-          Подключите свой кошелек, чтобы подтвердить лицензию NFT
-        </div>
-
-        <div className="pb-5 text-center">
-          Я согласен на обработку персональных данных
-        </div>
-        <div className="pb-5 text-center">
-          Количество NFT, которое можно создать сейчас за одну транзакцию
-        </div>
-        <div className="pb-5 text-center">Цена создания NFT</div>
-        <div className="pb-5 text-center">Цена всего:</div>
-        <div className="pb-5 text-center font-bold">
-          Создай NFT Национальную лицензию
-        </div>
-        <div className="pb-5 text-center font-bold"></div>
-      </div>
-      {/* //Global License */}
-      <div className="my-5 rounded-3xl border-4 border-gray-500 p-6">
-        <div className="pb-5 text-center">Global License</div>
-        <div className="pb-5 text-center">
-          Предоставляет доступ на страницу создания NFT наград
-        </div>
-        <div className="pb-5 text-center">
-          Предоставляет право голоса по развитию GAA на международном уровне
-        </div>
-        <div className="pb-5 text-center">Исследовать </div>
-        <div className="pb-5 text-center">Страница создания NFT</div>
-      </div>
-      <div className="pb-5 text-center text-4xl font-bold">
-        Страница исследователя
-      </div>
-      <div className="pb-5 text-center text-4xl font-bold">Global License</div>
-      <div className="my-5 rounded-3xl border-4 border-gray-500 p-6">
-        <div className="pb-5 text-center">
-          Global License NFT невзаимозаменяемый токен,
-        </div>
-        <div className="pb-5 text-center">
-          предоставляется лидерам направлений
-        </div>
-        <div className="pb-5 text-center">
-          Держателю Global License NFT доступна страница минта Promouter NFT и
-          Rewards NFT для минта и передачи организаторам и участникам
-          мероприятия
-        </div>
-        <div className="pb-5">
-          Держатель Global License NFT принимает решения о векторе развития
-          сообщества и организации проведения голосований, а также сам принимает
-          участие в голосовании по вопросам развития сообщества
-        </div>
-        <div className="pb-5">
-          Мы благодарны активным участникам сообщества стремящихся идти в ногу
-          со временем и популяризирующие новые технологии и их продвижение,
-          делающие мир лучше.
-        </div>
-        <div className="pb-5">
-          Для получения NFT необходимо зарегистрироваться и заполнить заявку для
-          рассмотрения
-        </div>
-        <div className="pb-5">
-          При положительном решении соискателю станет доступен минт Global
-          License NFT
-        </div>
-        <div className="pb-5">
-          Держатель Global License NFT решает вопросы связанные с организацией и
-          проведением награждения конкурсантов и спортсменов мероприятий, а
-          именно решает кто будет создавать NFT и кто будет награждать
-          конкурсантов и спортсменов
-        </div>
-
-        <div className="pb-5">
-          Данный токен Burnebal, то есть собственник смарт-контракта может
-          уничтожить любой токен из коллекции, эта мера необходима для
-          формирования чистоты коллекции.
-        </div>
-        <div className="pb-5">
-          То есть собственник смарт-контракта вправе уничтожить NFT в случае
-          нарушения держателем National License NFT правил, создания NFT не
-          соответствующих целям Проекта.
-        </div>
-      </div>
-      <div className="pb-5 text-center text-4xl font-bold">
-        Способы получения Global license NFT
-      </div>
-      <div className="pb-5 text-center text-4xl font-bold">
-        Схема взаимодействия сообщества GAA
-      </div>
-      <div className="my-5 rounded-3xl border-4 border-gray-500 p-6">
-        <div className="pb-5 text-center">
-          Верификацию и удостоверение статуса National License, Promoter
-          License, Global License могут осуществить Management GAA,
-        </div>
-        <div className="pb-5 text-center">
-          Management GAA и Global License организует обшее развитие и управление
-          GAA
-        </div>
-        <div className="pb-5 text-center">
-          Promoter License организует локальное мероприятие, может включать
-          разные направления
-        </div>
-        <div className="pb-5 text-center">
-          National License организует развитие направленинаправлений на
-          национальном внутреннем уровне
-        </div>
-        <div className="pb-5 text-center">
-          Вектор развития направления решает Management GAA, Global License,
-          National License
-        </div>
-      </div>
-      <div className="pb-5 text-center text-4xl font-bold">
-        NFT Глобальная Лицензия
-      </div>
-      <div className="pb-5 text-center text-4xl font-bold">
-        Страница создания NFT
-      </div>
-      <div className="my-5 rounded-3xl border-4 border-orange-400 p-6">
-        <div className="text-center font-bold">Присоединяйтесь к нам</div>
-        <div className="pb-5 text-center font-bold">
-          Получите NFT Глобальную лицензию
-        </div>
-        <div className="pb-5 text-center">
-          Созданные вами NFT автоматически попадут в глобальную коллекцию GAA
-        </div>
-        <div className="pb-5 text-center">
-          это единый сборник мирового сообщества
-        </div>
-        <div className="pb-5 text-center">Доступно для</div>
-        <div className="pb-5 text-center">Management GAA</div>
-        <div className="pb-5 text-center">
-          Подключите свой кошелек, чтобы подтвердить лицензию NFT
-        </div>
-
-        <div className="pb-5 text-center">
-          Я согласен на обработку персональных данных
-        </div>
-        <div className="pb-5 text-center">
-          Количество NFT, которое можно создать сейчас за одну транзакцию
-        </div>
-        <div className="pb-5 text-center">Цена создания NFT</div>
-        <div className="pb-5 text-center">Цена всего:</div>
-        <div className="pb-5 text-center font-bold">
-          Создай NFT Глобальную лицензию
-        </div>
-        <div className="pb-5 text-center font-bold"></div>
-      </div>
     </div>
   );
 }
