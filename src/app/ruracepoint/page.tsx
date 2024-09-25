@@ -329,7 +329,7 @@ export default function Page() {
           </div>
         </div>
         <div className="basis-1/5 p-5">
-          <Image width={150} height={150} src="/Hero/12.png" alt="Hero12" />{" "}
+          <Image width={150} height={150} src="/Hero/12.png" alt="Hero12" />
         </div>
       </div>
     </div>
