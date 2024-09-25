@@ -9,7 +9,7 @@ export default function Page() {
       <div className="pb-5 text-center text-4xl font-bold text-p1-darkgreen">
         by Global Automotive Association
       </div>
-      <div className="flex grid grid-cols-6 gap-4">
+      <div className="grid grid-cols-6 gap-4">
         <div className="col-span-4 col-start-2 w-full rounded-3xl border-4 border-p1-darkgreen text-center text-p1-darkgreen shadow-lg">
           <div className="pt-5">
             <Image
@@ -102,25 +102,23 @@ export default function Page() {
             </p>
             <p className="px-5 text-left text-xl text-p1-darkgreen">Дрифт </p>
             <p className="px-5 text-left text-xl text-p1-darkgreen">
-              Кузовные гонки серийных автомобилей (TCR){" "}
+              Кузовные гонки серийных автомобилей (TCR)
             </p>
             <p className="px-5 text-left text-xl text-p1-darkgreen">Ралли </p>
             <p className="px-5 text-left text-xl text-p1-darkgreen">
-              Олдтаймер{" "}
+              Олдтаймер
             </p>
             <p className="px-5 text-left text-xl text-p1-darkgreen">Стэнс </p>
             <p className="px-5 text-left text-xl text-p1-darkgreen">
-              Спортивные автомобили{" "}
+              Спортивные автомобили
             </p>
             <p className="px-5 text-left text-xl text-p1-darkgreen">
-              Раритетные автомобили{" "}
+              Раритетные автомобили
             </p>
-            <p className="px-5 text-left text-xl text-p1-darkgreen">
-              Автозвук{" "}
-            </p>
+            <p className="px-5 text-left text-xl text-p1-darkgreen">Автозвук</p>
             <p className="px-5 text-left text-xl text-p1-darkgreen">Картинг </p>
             <p className="px-5 text-left text-xl text-p1-darkgreen">
-              Симрэйсинг{" "}
+              Симрэйсинг
             </p>
 
             <div className="relative px-5 py-2">
@@ -142,10 +140,10 @@ export default function Page() {
               Чем Вы занимаетесь?
             </p>
             <p className="px-5 text-left text-xl text-p1-darkgreen">
-              Я смотрю гонки по телевизору, в Интернете{" "}
+              Я смотрю гонки по телевизору, в Интернете
             </p>
             <p className="px-5 text-left text-xl text-p1-darkgreen">
-              Я участник команды{" "}
+              Я участник команды
             </p>
             <p className="px-5 text-left text-xl text-p1-darkgreen">
               Я водитель, пилот
@@ -346,7 +344,7 @@ export default function Page() {
               10.000 уникальных героев.
             </p>
             <p className="pb-2 text-2xl text-p1-darkgreen">
-              Кто твой персонаж - решать тебе!{" "}
+              Кто твой персонаж - решать тебе!
             </p>
             <button className="rounded-l-lg border-2 border-p1-darkgreen bg-p1-white px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p1-darkgreen hover:text-p1-white">
               Исследуй NFT
