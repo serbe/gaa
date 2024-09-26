@@ -61,20 +61,20 @@ export default function Page() {
       </div>
 
       <div className="flex flex-row p-2">
-        <div className="basis-1/5">01</div>
+        <div className="basis-1/5"></div>
         <div className="basis-3/5">
-          02
+          
           <div className="p-2 text-center text-6xl font-bold text-p1-darkgreen">
             О Нас
           </div>
         </div>
-        <div className="basis-1/5">03</div>
+        <div className="basis-1/5"></div>
       </div>
 
       <div className="flex flex-row p-2">
-        <div className="basis-1/6">01</div>
+        <div className="basis-1/6"></div>
         <div className="basis-4/6 text-p1-darkgreen">
-          02
+          
           <div className="my-5 space-y-6 rounded-3xl p-2">
             <div className="p-2 text-xl text-p1-darkgreen">
               Global Automotive Association (GAA) – это революционный
@@ -84,13 +84,13 @@ export default function Page() {
             </div>
           </div>
         </div>
-        <div className="basis-1/6">03</div>
+        <div className="basis-1/6"></div>
       </div>
 
       <div className="flex flex-row p-2">
-        <div className="basis-1/6">01</div>
+        <div className="basis-1/6"></div>
         <div className="basis-4/6 text-p1-darkgreen">
-          02
+          
           <div className="my-5 space-y-6 rounded-3xl p-2">
             <div className="my-5 space-y-2 rounded-3xl border-4 border-p1-darkgreen p-6 text-center text-xl text-p1-darkgreen">
               <p className="text-2xl font-bold">Наши амбициозные цели:</p>
@@ -121,9 +121,9 @@ export default function Page() {
       </div>
 
       <div className="flex flex-row p-2">
-        <div className="basis-1/6">01</div>
+        <div className="basis-1/6"></div>
         <div className="basis-2/6 text-p1-darkgreen">
-          02
+          
           <div className="my-5 space-y-6 rounded-3xl p-2">
             <div className="my-5 space-y-2 rounded-3xl border-4 border-p1-darkgreen p-6 text-center text-xl text-p1-darkgreen">
               <p className="text-2xl font-bold">10,000</p>
@@ -133,18 +133,18 @@ export default function Page() {
             </div>
           </div>
         </div>
-        <div className="basis-2/6 text-p1-darkgreen">03</div>
-        <div className="basis-1/6">04</div>
+        <div className="basis-2/6 text-p1-darkgreen"></div>
+        <div className="basis-1/6"></div>
       </div>
 
       <div className="flex flex-row p-2">
-        <div className="basis-1/6">01</div>
+        <div className="basis-1/6"></div>
         <div className="basis-2/6 text-p1-darkgreen">
-          02
+          
           <div className="my-5 space-y-6 rounded-3xl p-2"></div>
         </div>
         <div className="basis-2/6 text-p1-darkgreen">
-          03
+          
           <div className="my-5 space-y-6 rounded-3xl p-2">
             <div className="my-5 space-y-2 rounded-3xl border-4 border-p1-darkgreen p-6 text-center text-xl text-p1-darkgreen">
               <p>первая коллекция</p>
@@ -154,24 +154,24 @@ export default function Page() {
             </div>
           </div>
         </div>
-        <div className="basis-1/6">04</div>
+        <div className="basis-1/6"></div>
       </div>
 
       <div className="flex flex-row p-2">
-        <div className="basis-1/5">01</div>
+        <div className="basis-1/5"></div>
         <div className="basis-3/5">
-          02
+          
           <div className="p-2 text-center text-6xl font-bold text-p1-darkgreen">
             RaceLads
           </div>
         </div>
-        <div className="basis-1/5">03</div>
+        <div className="basis-1/5"></div>
       </div>
 
       <div className="flex flex-row p-2">
-        <div className="basis-1/6">01</div>
+        <div className="basis-1/6"></div>
         <div className="basis-4/6 text-p1-darkgreen">
-          02
+          
           <div className="my-5 space-y-6 rounded-3xl p-2">
             <div className="my-5 space-y-2 rounded-3xl border-4 border-p1-darkgreen p-6 text-center text-xl text-p1-darkgreen">
               <p className="text-center text-2xl font-bold text-p1-darkgreen">
@@ -216,9 +216,9 @@ export default function Page() {
       </div>
 
       <div className="flex flex-row p-2">
-        <div className="basis-1/5">01</div>
+        <div className="basis-1/5"></div>
         <div className="basis-3/5">
-          02
+          
           <div className="p-2 text-center text-6xl font-bold text-p1-darkgreen">
             Мы планируем
           </div>
@@ -226,13 +226,13 @@ export default function Page() {
             наше будущее
           </div>
         </div>
-        <div className="basis-1/5">03</div>
+        <div className="basis-1/5"></div>
       </div>
 
       <div className="flex flex-row p-2">
-        <div className="basis-1/6">01</div>
+        <div className="basis-1/6"></div>
         <div className="basis-4/6 text-p1-darkgreen">
-          02
+          
           <div className="my-5 space-y-6 rounded-3xl p-2">
             <div className="my-5 space-y-2 rounded-3xl border-4 border-p1-darkgreen p-6 text-center text-xl text-p1-darkgreen">
               <p className="text-center text-2xl font-bold text-p1-darkgreen">
@@ -275,13 +275,13 @@ export default function Page() {
             </div>
           </div>
         </div>
-        <div className="basis-1/6">03</div>
+        <div className="basis-1/6"></div>
       </div>
 
       <div className="flex flex-row p-2">
-        <div className="basis-1/5">01</div>
+        <div className="basis-1/5"></div>
         <div className="basis-3/5">
-          02
+          
           <div className="p-2 text-center text-6xl font-bold text-p1-darkgreen">
             NFT
           </div>
@@ -289,7 +289,7 @@ export default function Page() {
             Сервисы и Награды
           </div>
         </div>
-        <div className="basis-1/5">03</div>
+        <div className="basis-1/5"></div>
       </div>
 
       <div className="flex flex-row p-2">
@@ -303,7 +303,7 @@ export default function Page() {
           />
         </div>
         <div className="basis-4/6 text-p1-darkgreen">
-          02
+          
           <div className="my-5 space-y-6 rounded-3xl p-2">
             <div className="my-5 space-y-2 rounded-3xl border-4 border-p1-darkgreen p-6 text-center text-xl text-p1-darkgreen">
               <p className="text-center text-2xl font-bold text-p1-darkgreen">
@@ -370,9 +370,9 @@ export default function Page() {
       </div>
 
       <div className="flex flex-row p-2">
-        <div className="basis-1/5">01</div>
+        <div className="basis-1/5"></div>
         <div className="basis-3/5">
-          02
+          
           <div className="p-2 text-center text-6xl font-bold text-p1-darkgreen">
             выгода владельцу
           </div>
@@ -380,7 +380,7 @@ export default function Page() {
             NFT RaceLad
           </div>
         </div>
-        <div className="basis-1/5">03</div>
+        <div className="basis-1/5"></div>
       </div>
 
       <div className="flex flex-row p-2">
@@ -394,7 +394,7 @@ export default function Page() {
           />
         </div>
         <div className="basis-4/6 text-p1-darkgreen">
-          02
+          
           <div className="my-5 space-y-6 rounded-3xl p-2">
             <div className="my-5 space-y-2 rounded-3xl border-4 border-p1-darkgreen p-6 text-center text-xl text-p1-darkgreen">
               <p className="text-center text-2xl font-bold text-p1-darkgreen">
@@ -505,19 +505,17 @@ export default function Page() {
 
       <div className="p-10 text-xl">
         <div className="flex flex-row p-2">
-          <div className="basis-1/5">01</div>
+          <div className="basis-1/5"></div>
           <div className="basis-3/5">
-            02
             <div className="p-2 text-center text-6xl font-bold text-p1-darkgreen">
               Web 3
             </div>
           </div>
-          <div className="basis-1/5">03</div>
+          <div className="basis-1/5"></div>
         </div>
         <div className="flex flex-row p-2">
-          <div className="basis-1/6">01</div>
+          <div className="basis-1/6"></div>
           <div className="basis-4/6 text-p1-darkgreen">
-            02
             <div className="my-5 space-y-6 rounded-3xl p-2">
               <div className="my-5 space-y-2 rounded-3xl border-4 border-p1-darkgreen p-6 text-center text-xl text-p1-darkgreen">
                 <p className="text-center text-2xl font-bold text-p1-darkgreen">
@@ -568,7 +566,7 @@ export default function Page() {
               />
             </div>
           </div>
-          <div className="basis-1/6">03</div>
+          <div className="basis-1/6"></div>
         </div>
         <div className="text-center text-6xl font-bold"> Выгода участника</div>
         <div className="my-5 rounded-3xl border-4 border-gray-500 p-6">
@@ -1294,21 +1292,19 @@ export default function Page() {
           </div>
         </div>
         <div className="flex flex-row pb-5">
-          <div className="basis-1/5">01</div>
+          <div className="basis-1/5"></div>
           <div className="basis-3/5 text-center text-p1-darkgreen">
-            02
             <div className="my-5 p-2">
               <div className="text-center text-6xl font-bold text-p1-darkgreen">
                 Изучи Web 3
               </div>
             </div>
           </div>
-          <div className="basis-1/5">03</div>
+          <div className="basis-1/5"></div>
         </div>
         <div className="flex flex-row p-2">
-          <div className="basis-1/10">01</div>
+          <div className="basis-1/10"></div>
           <div className="basis-8/10 text-p1-darkgreen">
-            02
             <div className="my-5 space-y-6 rounded-3xl p-2">
               <div className="text-p1-darkgreen">
                 Собранная информация содержит ключевые основы направления
@@ -1320,7 +1316,7 @@ export default function Page() {
               </div>
             </div>
           </div>
-          <div className="basis-1/10">03</div>
+          <div className="basis-1/10"></div>
         </div>
         <div className="mx-auto flex max-w-full flex-row space-y-2 p-2">
           <details
@@ -2674,56 +2670,12 @@ export default function Page() {
             </div>
           </details>
         </div>
-        <section className="flex space-x-2 px-2">
-          <a
-            className="relative mb-4 inline-block h-96 w-1/3 overflow-hidden rounded bg-violet-300"
-            href="#"
-          >
-            <div>
-              <h2 className="liading-tight absolute bottom-0 p-4 text-gray-100">
-                123456778890-
-              </h2>
-            </div>
-          </a>
-          <a
-            className="relative mb-4 inline-block h-96 w-2/3 overflow-hidden rounded bg-violet-100"
-            href="#"
-          >
-            <div>
-              <h2 className="liading-tight absolute bottom-0 p-4 text-gray-100">
-                123456778890-
-              </h2>
-            </div>
-          </a>
-        </section>
-        <section className="flex space-x-2 px-2">
-          <a
-            className="relative mb-4 inline-block h-96 w-1/3 overflow-hidden rounded bg-violet-300"
-            href="#"
-          >
-            <div>
-              <h2 className="liading-tight absolute bottom-0 p-4 text-gray-100">
-                123456778890-
-              </h2>
-            </div>
-          </a>
-          <a
-            className="relative mb-4 inline-block h-96 w-2/3 overflow-hidden rounded bg-violet-100"
-            href="#"
-          >
-            <div>
-              <h2 className="liading-tight absolute bottom-0 p-4 text-gray-100">
-                123456778890-
-              </h2>
-            </div>
-          </a>
-        </section>
         <div className="flex flex-row pb-5">
-          <div className="basis-1/5">01</div>
+          <div className="basis-1/5"></div>
           <div className="basis-3/5 text-center text-6xl font-bold text-p1-darkgreen">
             Наша команда
           </div>
-          <div className="basis-1/5">03</div>
+          <div className="basis-1/5"></div>
         </div>
         <div className="flex flex-row space-x-8 pb-5">
           <div className="basis-1/3 text-center text-p1-darkgreen">
@@ -2863,28 +2815,31 @@ export default function Page() {
             </div>
           </div>
         </div>
-        <div className="flex flex-row pb-5">
-          <div className="basis-1/5 text-center text-p1-darkgreen">01</div>
-          <div className="basis-3/5 text-center text-p1-darkgreen">02 </div>
-          <div className="basis-1/5 text-center text-p1-darkgreen">03</div>
-        </div>
-        ---------------------
-        <div className="text-center text-6xl font-bold"> Наши Контакты </div>
-        <div className="text-center"> Смело пишите и звоните нам.</div>
-        <div className="text-center">
+        <div className="text-center text-6xl font-bold text-p1-darkgreen"> Наши Контакты </div>
+        <div className="text-center text-p1-darkgreen"> Смело пишите и звоните нам.</div>
+        <div className="text-center text-p1-darkgreen">
           Мы очень любим общаться с нашими партнерами.
         </div>
         <div className="my-5 rounded-3xl border-4 border-gray-500 p-6">
-          <div className="pb-3 text-center font-bold">
+          <div className="pb-3 text-center font-bold text-p1-darkgreen">
             Если вы хотите продвигать свое мероприятие с помощью Web3, создавать
             награды NFT или быть представителем GAA в вашем регионе, заполните
             форму заявки, и мы свяжемся с вами. Нажмите кнопку ниже
           </div>
+          <button className="rounded-xl border-2 border-p1-darkgreen bg-p1-white px-10 py-8 text-xl text-p1-darkgreen shadow-lg hover:bg-p1-darkgreen hover:text-p1-white">
+                    Форма подачи заявки
+                  </button>
+                  <div className="grid grid-cols-2 gap-4">
+                    <div></div>
           <div className="pb-5">Ваша электронная почта</div>
+          <div></div>
           <div className="pb-5">ФИО</div>
+          <div></div>
           <div className="pb-5">Название организации</div>
+          <div></div>
           <div className="pb-5">
             Ваши вопросы, комментарии, предложения и т.п.
+          </div>
           </div>
           <div className="pb-5">
             Я соглашаюсь с Политикой приватности и на обработку персональных
