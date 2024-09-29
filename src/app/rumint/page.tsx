@@ -522,117 +522,138 @@ export default function Page() {
             <p className="pt-5 text-left text-2xl text-p1-darkgreen">
               Заполни все поля - эти метаданные будут храниться в блокчейне
             </p>
-            <div className="relative px-5 py-2">
-              <input
-                type="text"
-                id="discipline"
-                className="peer block w-full appearance-none rounded-lg border-2 border-gray-300 bg-transparent px-2.5 pb-2.5 pt-4 text-sm text-p1-darkgreen focus:border-p1-cyan focus:outline-none focus:ring-0 dark:border-gray-600 dark:text-white dark:focus:border-p1-cyan"
-                placeholder=" "
-              />
+            <div className="pb-5"></div>
+            <div>
               <label
-                htmlFor="floating_outlined"
-                className="z-8 absolute start-1 top-2 origin-[0] -translate-y-4 scale-75 transform bg-p1-white px-8 text-sm text-gray-500 duration-300 peer-placeholder-shown:top-1/2 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:scale-100 peer-focus:top-2 peer-focus:-translate-y-4 peer-focus:scale-75 peer-focus:px-2 peer-focus:text-p1-darkgreen rtl:peer-focus:left-auto rtl:peer-focus:translate-x-1/4 dark:bg-gray-900 dark:text-gray-400 peer-focus:dark:text-p1-cyan"
+                for="discipline"
+                className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
               >
                 Дисциплина
               </label>
-            </div>
-            <div className="relative px-5 py-2">
               <input
                 type="text"
-                id="organization"
-                className="peer block w-full appearance-none rounded-lg border-2 border-gray-300 bg-transparent px-2.5 pb-2.5 pt-4 text-sm text-p1-darkgreen focus:border-p1-cyan focus:outline-none focus:ring-0 dark:border-gray-600 dark:text-white dark:focus:border-p1-cyan"
-                placeholder=" "
+                id="discipline"
+                className="block w-full rounded-lg border border-gray-300 bg-p1-white p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                placeholder="Дисциплина"
+                required
               />
+            </div>
+            <div className="pb-2"></div>
+            <div>
               <label
-                htmlFor="Team"
-                className="z-8 absolute start-1 top-2 origin-[0] -translate-y-4 scale-75 transform bg-p1-white px-8 text-sm text-gray-500 duration-300 peer-placeholder-shown:top-1/2 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:scale-100 peer-focus:top-2 peer-focus:-translate-y-4 peer-focus:scale-75 peer-focus:px-2 peer-focus:text-p1-darkgreen rtl:peer-focus:left-auto rtl:peer-focus:translate-x-1/4 dark:bg-gray-900 dark:text-gray-400 peer-focus:dark:text-p1-cyan"
+                for="team"
+                className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
               >
                 Название команды
               </label>
-            </div>
-            <div className="relative px-5 py-2">
               <input
                 type="text"
-                id="full-name"
-                className="peer block w-full appearance-none rounded-lg border-2 border-gray-300 bg-transparent px-2.5 pb-2.5 pt-4 text-sm text-p1-darkgreen focus:border-p1-cyan focus:outline-none focus:ring-0 dark:border-gray-600 dark:text-white dark:focus:border-p1-cyan"
-                placeholder=" "
+                id="team"
+                className="block w-full rounded-lg border border-gray-300 bg-p1-white p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                placeholder="Название команды"
+                required
               />
+            </div>
+            <div className="pb-2"></div>
+            <div>
               <label
-                htmlFor="floating_outlined"
-                className="z-8 absolute start-1 top-2 origin-[0] -translate-y-4 scale-75 transform bg-p1-white px-8 text-sm text-gray-500 duration-300 peer-placeholder-shown:top-1/2 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:scale-100 peer-focus:top-2 peer-focus:-translate-y-4 peer-focus:scale-75 peer-focus:px-2 peer-focus:text-p1-darkgreen rtl:peer-focus:left-auto rtl:peer-focus:translate-x-1/4 dark:bg-gray-900 dark:text-gray-400 peer-focus:dark:text-p1-cyan"
+                for="full_name"
+                className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
               >
-                Полное Имя
+                Полное имя
               </label>
-            </div>
-            <div className="relative px-5 py-2">
               <input
                 type="text"
-                id="nic-name"
-                className="peer block w-full appearance-none rounded-lg border-2 border-gray-300 bg-transparent px-2.5 pb-2.5 pt-4 text-sm text-p1-darkgreen focus:border-p1-cyan focus:outline-none focus:ring-0 dark:border-gray-600 dark:text-white dark:focus:border-p1-cyan"
-                placeholder=" "
+                id="full_name"
+                className="block w-full rounded-lg border border-gray-300 bg-p1-white p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                placeholder="Иванов Иван Иванович"
+                required
               />
+            </div>
+            <div className="pb-2"></div>
+
+            <div>
               <label
-                htmlFor="floating_outlined"
-                className="z-8 absolute start-1 top-2 origin-[0] -translate-y-4 scale-75 transform bg-p1-white px-8 text-sm text-gray-500 duration-300 peer-placeholder-shown:top-1/2 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:scale-100 peer-focus:top-2 peer-focus:-translate-y-4 peer-focus:scale-75 peer-focus:px-2 peer-focus:text-p1-darkgreen rtl:peer-focus:left-auto rtl:peer-focus:translate-x-1/4 dark:bg-gray-900 dark:text-gray-400 peer-focus:dark:text-p1-cyan"
+                for="nic_name"
+                className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
               >
                 Ник-Имя
               </label>
-            </div>
-            <div className="relative px-5 py-2">
               <input
                 type="text"
-                id="birthday"
-                className="peer block w-full appearance-none rounded-lg border-2 border-gray-300 bg-transparent px-2.5 pb-2.5 pt-4 text-sm text-p1-darkgreen focus:border-p1-cyan focus:outline-none focus:ring-0 dark:border-gray-600 dark:text-white dark:focus:border-p1-cyan"
-                placeholder=" "
+                id="nic_name"
+                className="block w-full rounded-lg border border-gray-300 bg-p1-white p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                placeholder="Ник-Имя"
+                required
               />
+            </div>
+            <div className="pb-2"></div>
+
+            <div>
               <label
-                htmlFor="floating_outlined"
-                className="z-8 absolute start-1 top-2 origin-[0] -translate-y-4 scale-75 transform bg-p1-white px-8 text-sm text-gray-500 duration-300 peer-placeholder-shown:top-1/2 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:scale-100 peer-focus:top-2 peer-focus:-translate-y-4 peer-focus:scale-75 peer-focus:px-2 peer-focus:text-p1-darkgreen rtl:peer-focus:left-auto rtl:peer-focus:translate-x-1/4 dark:bg-gray-900 dark:text-gray-400 peer-focus:dark:text-p1-cyan"
+                for="birthday"
+                className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
               >
                 Дата рождения
               </label>
-            </div>
-            <div className="relative px-5 py-2">
               <input
-                type="text"
-                id="Country"
-                className="peer block w-full appearance-none rounded-lg border-2 border-gray-300 bg-transparent px-2.5 pb-2.5 pt-4 text-sm text-p1-darkgreen focus:border-p1-cyan focus:outline-none focus:ring-0 dark:border-gray-600 dark:text-white dark:focus:border-p1-cyan"
-                placeholder=" "
+                type="date"
+                id="birthday"
+                className="block w-full rounded-lg border border-gray-300 bg-p1-white p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                placeholder="Дата рождения"
+                required
               />
+            </div>
+            <div className="pb-2"></div>
+
+            <div>
               <label
-                htmlFor="floating_outlined"
-                className="z-8 absolute start-1 top-2 origin-[0] -translate-y-4 scale-75 transform bg-p1-white px-8 text-sm text-gray-500 duration-300 peer-placeholder-shown:top-1/2 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:scale-100 peer-focus:top-2 peer-focus:-translate-y-4 peer-focus:scale-75 peer-focus:px-2 peer-focus:text-p1-darkgreen rtl:peer-focus:left-auto rtl:peer-focus:translate-x-1/4 dark:bg-gray-900 dark:text-gray-400 peer-focus:dark:text-p1-cyan"
+                for="contry"
+                className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
               >
                 Страна
               </label>
-            </div>
-            <div className="relative px-5 py-2">
               <input
                 type="text"
-                id="city"
-                className="peer block w-full appearance-none rounded-lg border-2 border-gray-300 bg-transparent px-2.5 pb-2.5 pt-4 text-sm text-p1-darkgreen focus:border-p1-cyan focus:outline-none focus:ring-0 dark:border-gray-600 dark:text-white dark:focus:border-p1-cyan"
-                placeholder=" "
+                id="contry"
+                className="block w-full rounded-lg border border-gray-300 bg-p1-white p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                placeholder="Страна"
+                required
               />
+            </div>
+            <div className="pb-2"></div>
+
+            <div>
               <label
-                htmlFor="floating_outlined"
-                className="z-8 absolute start-1 top-2 origin-[0] -translate-y-4 scale-75 transform bg-p1-white px-8 text-sm text-gray-500 duration-300 peer-placeholder-shown:top-1/2 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:scale-100 peer-focus:top-2 peer-focus:-translate-y-4 peer-focus:scale-75 peer-focus:px-2 peer-focus:text-p1-darkgreen rtl:peer-focus:left-auto rtl:peer-focus:translate-x-1/4 dark:bg-gray-900 dark:text-gray-400 peer-focus:dark:text-p1-cyan"
+                for="city"
+                className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
               >
                 Город
               </label>
-            </div>
-            <div className="relative px-5 py-2">
               <input
                 type="text"
-                id="description"
-                className="peer block w-full appearance-none rounded-lg border-2 border-gray-300 bg-transparent px-2.5 pb-2.5 pt-4 text-sm text-p1-darkgreen focus:border-p1-cyan focus:outline-none focus:ring-0 dark:border-gray-600 dark:text-white dark:focus:border-p1-cyan"
-                placeholder=" "
+                id="city"
+                className="block w-full rounded-lg border border-gray-300 bg-p1-white p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                placeholder="Город"
+                required
               />
+            </div>
+            <div className="pb-2"></div>
+
+            <div className="pb-2"></div>
+            <div>
               <label
-                htmlFor="floating_outlined"
-                className="z-8 absolute start-1 top-2 origin-[0] -translate-y-4 scale-75 transform bg-p1-white px-8 text-sm text-gray-500 duration-300 peer-placeholder-shown:top-1/2 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:scale-100 peer-focus:top-2 peer-focus:-translate-y-4 peer-focus:scale-75 peer-focus:px-2 peer-focus:text-p1-darkgreen rtl:peer-focus:left-auto rtl:peer-focus:translate-x-1/4 dark:bg-gray-900 dark:text-gray-400 peer-focus:dark:text-p1-cyan"
+                for="message"
+                class="mb-2 block text-left text-sm font-medium text-p1-darkgreen dark:text-white"
               >
-                Описание
+                Описание{" "}
               </label>
+              <textarea
+                id="message"
+                rows="4"
+                class="block w-full rounded-lg border-2 border-gray-300 bg-p1-white p-2.5 text-sm text-p1-darkgreen focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
+                placeholder="Описание"
+              ></textarea>
             </div>
             <div className="pb-5"></div>
             <button className="rounded-3xl border-2 border-p1-darkgreen bg-p1-white px-20 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
@@ -865,118 +886,140 @@ export default function Page() {
             <p className="pt-5 text-left text-2xl text-p1-darkgreen">
               Заполни все поля - эти метаданные будут храниться в блокчейне
             </p>
-            <div className="relative px-5 py-2">
-              <input
-                type="text"
-                id="discipline"
-                className="peer block w-full appearance-none rounded-lg border-2 border-gray-300 bg-transparent px-2.5 pb-2.5 pt-4 text-sm text-p1-darkgreen focus:border-p1-cyan focus:outline-none focus:ring-0 dark:border-gray-600 dark:text-white dark:focus:border-p1-cyan"
-                placeholder=" "
-              />
+            <div className="pb-5"></div>
+            <div>
               <label
-                htmlFor="floating_outlined"
-                className="z-8 absolute start-1 top-2 origin-[0] -translate-y-4 scale-75 transform bg-p1-white px-8 text-sm text-gray-500 duration-300 peer-placeholder-shown:top-1/2 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:scale-100 peer-focus:top-2 peer-focus:-translate-y-4 peer-focus:scale-75 peer-focus:px-2 peer-focus:text-p1-darkgreen rtl:peer-focus:left-auto rtl:peer-focus:translate-x-1/4 dark:bg-gray-900 dark:text-gray-400 peer-focus:dark:text-p1-cyan"
+                for="discipline"
+                className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
               >
                 Дисциплина
               </label>
-            </div>
-            <div className="relative px-5 py-2">
               <input
                 type="text"
-                id="organization"
-                className="peer block w-full appearance-none rounded-lg border-2 border-gray-300 bg-transparent px-2.5 pb-2.5 pt-4 text-sm text-p1-darkgreen focus:border-p1-cyan focus:outline-none focus:ring-0 dark:border-gray-600 dark:text-white dark:focus:border-p1-cyan"
-                placeholder=" "
+                id="discipline"
+                className="block w-full rounded-lg border border-gray-300 bg-p1-white p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                placeholder="Дисциплина"
+                required
               />
+            </div>
+            <div className="pb-2"></div>
+            <div>
               <label
-                htmlFor="Team"
-                className="z-8 absolute start-1 top-2 origin-[0] -translate-y-4 scale-75 transform bg-p1-white px-8 text-sm text-gray-500 duration-300 peer-placeholder-shown:top-1/2 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:scale-100 peer-focus:top-2 peer-focus:-translate-y-4 peer-focus:scale-75 peer-focus:px-2 peer-focus:text-p1-darkgreen rtl:peer-focus:left-auto rtl:peer-focus:translate-x-1/4 dark:bg-gray-900 dark:text-gray-400 peer-focus:dark:text-p1-cyan"
+                for="team"
+                className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
               >
                 Название команды
               </label>
-            </div>
-            <div className="relative px-5 py-2">
               <input
                 type="text"
-                id="full-name"
-                className="peer block w-full appearance-none rounded-lg border-2 border-gray-300 bg-transparent px-2.5 pb-2.5 pt-4 text-sm text-p1-darkgreen focus:border-p1-cyan focus:outline-none focus:ring-0 dark:border-gray-600 dark:text-white dark:focus:border-p1-cyan"
-                placeholder=" "
+                id="team"
+                className="block w-full rounded-lg border border-gray-300 bg-p1-white p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                placeholder="Название команды"
+                required
               />
+            </div>
+            <div className="pb-2"></div>
+            <div>
               <label
-                htmlFor="floating_outlined"
-                className="z-8 absolute start-1 top-2 origin-[0] -translate-y-4 scale-75 transform bg-p1-white px-8 text-sm text-gray-500 duration-300 peer-placeholder-shown:top-1/2 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:scale-100 peer-focus:top-2 peer-focus:-translate-y-4 peer-focus:scale-75 peer-focus:px-2 peer-focus:text-p1-darkgreen rtl:peer-focus:left-auto rtl:peer-focus:translate-x-1/4 dark:bg-gray-900 dark:text-gray-400 peer-focus:dark:text-p1-cyan"
+                for="full_name"
+                className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
               >
-                Полное Имя
+                Полное имя
               </label>
-            </div>
-            <div className="relative px-5 py-2">
               <input
                 type="text"
-                id="nic-name"
-                className="peer block w-full appearance-none rounded-lg border-2 border-gray-300 bg-transparent px-2.5 pb-2.5 pt-4 text-sm text-p1-darkgreen focus:border-p1-cyan focus:outline-none focus:ring-0 dark:border-gray-600 dark:text-white dark:focus:border-p1-cyan"
-                placeholder=" "
+                id="full_name"
+                className="block w-full rounded-lg border border-gray-300 bg-p1-white p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                placeholder="Иванов Иван Иванович"
+                required
               />
+            </div>
+            <div className="pb-2"></div>
+
+            <div>
               <label
-                htmlFor="floating_outlined"
-                className="z-8 absolute start-1 top-2 origin-[0] -translate-y-4 scale-75 transform bg-p1-white px-8 text-sm text-gray-500 duration-300 peer-placeholder-shown:top-1/2 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:scale-100 peer-focus:top-2 peer-focus:-translate-y-4 peer-focus:scale-75 peer-focus:px-2 peer-focus:text-p1-darkgreen rtl:peer-focus:left-auto rtl:peer-focus:translate-x-1/4 dark:bg-gray-900 dark:text-gray-400 peer-focus:dark:text-p1-cyan"
+                for="nic_name"
+                className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
               >
                 Ник-Имя
               </label>
-            </div>
-            <div className="relative px-5 py-2">
               <input
                 type="text"
-                id="birthday"
-                className="peer block w-full appearance-none rounded-lg border-2 border-gray-300 bg-transparent px-2.5 pb-2.5 pt-4 text-sm text-p1-darkgreen focus:border-p1-cyan focus:outline-none focus:ring-0 dark:border-gray-600 dark:text-white dark:focus:border-p1-cyan"
-                placeholder=" "
+                id="nic_name"
+                className="block w-full rounded-lg border border-gray-300 bg-p1-white p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                placeholder="Ник-Имя"
+                required
               />
+            </div>
+            <div className="pb-2"></div>
+
+            <div>
               <label
-                htmlFor="floating_outlined"
-                className="z-8 absolute start-1 top-2 origin-[0] -translate-y-4 scale-75 transform bg-p1-white px-8 text-sm text-gray-500 duration-300 peer-placeholder-shown:top-1/2 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:scale-100 peer-focus:top-2 peer-focus:-translate-y-4 peer-focus:scale-75 peer-focus:px-2 peer-focus:text-p1-darkgreen rtl:peer-focus:left-auto rtl:peer-focus:translate-x-1/4 dark:bg-gray-900 dark:text-gray-400 peer-focus:dark:text-p1-cyan"
+                for="birthday"
+                className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
               >
                 Дата рождения
               </label>
-            </div>
-            <div className="relative px-5 py-2">
               <input
-                type="text"
-                id="Country"
-                className="peer block w-full appearance-none rounded-lg border-2 border-gray-300 bg-transparent px-2.5 pb-2.5 pt-4 text-sm text-p1-darkgreen focus:border-p1-cyan focus:outline-none focus:ring-0 dark:border-gray-600 dark:text-white dark:focus:border-p1-cyan"
-                placeholder=" "
+                type="date"
+                id="birthday"
+                className="block w-full rounded-lg border border-gray-300 bg-p1-white p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                placeholder="Дата рождения"
+                required
               />
+            </div>
+            <div className="pb-2"></div>
+
+            <div>
               <label
-                htmlFor="floating_outlined"
-                className="z-8 absolute start-1 top-2 origin-[0] -translate-y-4 scale-75 transform bg-p1-white px-8 text-sm text-gray-500 duration-300 peer-placeholder-shown:top-1/2 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:scale-100 peer-focus:top-2 peer-focus:-translate-y-4 peer-focus:scale-75 peer-focus:px-2 peer-focus:text-p1-darkgreen rtl:peer-focus:left-auto rtl:peer-focus:translate-x-1/4 dark:bg-gray-900 dark:text-gray-400 peer-focus:dark:text-p1-cyan"
+                for="contry"
+                className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
               >
                 Страна
               </label>
-            </div>
-            <div className="relative px-5 py-2">
               <input
                 type="text"
-                id="city"
-                className="peer block w-full appearance-none rounded-lg border-2 border-gray-300 bg-transparent px-2.5 pb-2.5 pt-4 text-sm text-p1-darkgreen focus:border-p1-cyan focus:outline-none focus:ring-0 dark:border-gray-600 dark:text-white dark:focus:border-p1-cyan"
-                placeholder=" "
+                id="contry"
+                className="block w-full rounded-lg border border-gray-300 bg-p1-white p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                placeholder="Страна"
+                required
               />
+            </div>
+            <div className="pb-2"></div>
+
+            <div>
               <label
-                htmlFor="floating_outlined"
-                className="z-8 absolute start-1 top-2 origin-[0] -translate-y-4 scale-75 transform bg-p1-white px-8 text-sm text-gray-500 duration-300 peer-placeholder-shown:top-1/2 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:scale-100 peer-focus:top-2 peer-focus:-translate-y-4 peer-focus:scale-75 peer-focus:px-2 peer-focus:text-p1-darkgreen rtl:peer-focus:left-auto rtl:peer-focus:translate-x-1/4 dark:bg-gray-900 dark:text-gray-400 peer-focus:dark:text-p1-cyan"
+                for="city"
+                className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
               >
                 Город
               </label>
-            </div>
-            <div className="relative px-5 py-2">
               <input
                 type="text"
-                id="description"
-                className="peer block w-full appearance-none rounded-lg border-2 border-gray-300 bg-transparent px-2.5 pb-2.5 pt-4 text-sm text-p1-darkgreen focus:border-p1-cyan focus:outline-none focus:ring-0 dark:border-gray-600 dark:text-white dark:focus:border-p1-cyan"
-                placeholder=" "
+                id="city"
+                className="block w-full rounded-lg border border-gray-300 bg-p1-white p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                placeholder="Город"
+                required
               />
-              <label
-                htmlFor="floating_outlined"
-                className="z-8 absolute start-1 top-2 origin-[0] -translate-y-4 scale-75 transform bg-p1-white px-8 text-sm text-gray-500 duration-300 peer-placeholder-shown:top-1/2 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:scale-100 peer-focus:top-2 peer-focus:-translate-y-4 peer-focus:scale-75 peer-focus:px-2 peer-focus:text-p1-darkgreen rtl:peer-focus:left-auto rtl:peer-focus:translate-x-1/4 dark:bg-gray-900 dark:text-gray-400 peer-focus:dark:text-p1-cyan"
-              >
-                Описание
-              </label>
             </div>
+            <div className="pb-2"></div>
+
+            <div className="pb-2"></div>
+            <div>
+              <label
+                for="message"
+                class="mb-2 block text-left text-sm font-medium text-p1-darkgreen dark:text-white"
+              >
+                Описание{" "}
+              </label>
+              <textarea
+                id="message"
+                rows="4"
+                class="block w-full rounded-lg border-2 border-gray-300 bg-p1-white p-2.5 text-sm text-p1-darkgreen focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
+                placeholder="Описание"
+              ></textarea>
+            </div>
+
             <div className="pb-5"></div>
             <button className="rounded-3xl border-2 border-p1-darkgreen bg-p1-white px-20 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
               Создать NFT Участника команды
@@ -1139,10 +1182,10 @@ export default function Page() {
               Созданные вами NFT автоматически попадут в глобальную коллекцию
               GAA
             </p>
-            <p className="p-2 text-2xl font-normal font-semibold text-p1-darkgreen">
+            <p className="p-2 text-2xl font-semibold text-p1-darkgreen">
               это единый сборник мирового сообщества
             </p>
-            <p className="p-5 text-2xl font-normal font-semibold text-p1-darkgreen">
+            <p className="p-5 text-2xl font-semibold text-p1-darkgreen">
               Если вы планируете раздать или продать свои NFT, вы можете сделать
               несколько NFT одновременно
             </p>
@@ -1194,96 +1237,113 @@ export default function Page() {
               </label>
             </div>
 
-            <p className="pt-5 text-left text-2xl text-p1-darkgreen">
+            <p className="p-5 text-left text-2xl text-p1-darkgreen">
               Заполни все поля - эти метаданные будут храниться в блокчейне
             </p>
 
-            <div className="relative px-5 py-2">
-              <input
-                type="text"
-                id="full-name"
-                className="peer block w-full appearance-none rounded-lg border-2 border-gray-300 bg-transparent px-2.5 pb-2.5 pt-4 text-sm text-p1-darkgreen focus:border-p1-cyan focus:outline-none focus:ring-0 dark:border-gray-600 dark:text-white dark:focus:border-p1-cyan"
-                placeholder=" "
-              />
+            <div>
               <label
-                htmlFor="floating_outlined"
-                className="z-8 absolute start-1 top-2 origin-[0] -translate-y-4 scale-75 transform bg-p1-white px-8 text-sm text-gray-500 duration-300 peer-placeholder-shown:top-1/2 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:scale-100 peer-focus:top-2 peer-focus:-translate-y-4 peer-focus:scale-75 peer-focus:px-2 peer-focus:text-p1-darkgreen rtl:peer-focus:left-auto rtl:peer-focus:translate-x-1/4 dark:bg-gray-900 dark:text-gray-400 peer-focus:dark:text-p1-cyan"
+                for="full_name"
+                className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
               >
-                Полное Имя
+                Полное имя
               </label>
-            </div>
-            <div className="relative px-5 py-2">
               <input
                 type="text"
-                id="nic-name"
-                className="peer block w-full appearance-none rounded-lg border-2 border-gray-300 bg-transparent px-2.5 pb-2.5 pt-4 text-sm text-p1-darkgreen focus:border-p1-cyan focus:outline-none focus:ring-0 dark:border-gray-600 dark:text-white dark:focus:border-p1-cyan"
-                placeholder=" "
+                id="full_name"
+                className="block w-full rounded-lg border border-gray-300 bg-p1-white p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                placeholder="Иванов Иван Иванович"
+                required
               />
+            </div>
+            <div className="pb-2"></div>
+
+            <div>
               <label
-                htmlFor="floating_outlined"
-                className="z-8 absolute start-1 top-2 origin-[0] -translate-y-4 scale-75 transform bg-p1-white px-8 text-sm text-gray-500 duration-300 peer-placeholder-shown:top-1/2 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:scale-100 peer-focus:top-2 peer-focus:-translate-y-4 peer-focus:scale-75 peer-focus:px-2 peer-focus:text-p1-darkgreen rtl:peer-focus:left-auto rtl:peer-focus:translate-x-1/4 dark:bg-gray-900 dark:text-gray-400 peer-focus:dark:text-p1-cyan"
+                for="nic_name"
+                className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
               >
                 Ник-Имя
               </label>
-            </div>
-            <div className="relative px-5 py-2">
               <input
                 type="text"
-                id="birthday"
-                className="peer block w-full appearance-none rounded-lg border-2 border-gray-300 bg-transparent px-2.5 pb-2.5 pt-4 text-sm text-p1-darkgreen focus:border-p1-cyan focus:outline-none focus:ring-0 dark:border-gray-600 dark:text-white dark:focus:border-p1-cyan"
-                placeholder=" "
+                id="nic_name"
+                className="block w-full rounded-lg border border-gray-300 bg-p1-white p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                placeholder="Ник-Имя"
+                required
               />
+            </div>
+            <div className="pb-2"></div>
+
+            <div>
               <label
-                htmlFor="floating_outlined"
-                className="z-8 absolute start-1 top-2 origin-[0] -translate-y-4 scale-75 transform bg-p1-white px-8 text-sm text-gray-500 duration-300 peer-placeholder-shown:top-1/2 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:scale-100 peer-focus:top-2 peer-focus:-translate-y-4 peer-focus:scale-75 peer-focus:px-2 peer-focus:text-p1-darkgreen rtl:peer-focus:left-auto rtl:peer-focus:translate-x-1/4 dark:bg-gray-900 dark:text-gray-400 peer-focus:dark:text-p1-cyan"
+                for="birthday"
+                className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
               >
                 Дата рождения
               </label>
-            </div>
-            <div className="relative px-5 py-2">
               <input
-                type="text"
-                id="Country"
-                className="peer block w-full appearance-none rounded-lg border-2 border-gray-300 bg-transparent px-2.5 pb-2.5 pt-4 text-sm text-p1-darkgreen focus:border-p1-cyan focus:outline-none focus:ring-0 dark:border-gray-600 dark:text-white dark:focus:border-p1-cyan"
-                placeholder=" "
+                type="date"
+                id="birthday"
+                className="block w-full rounded-lg border border-gray-300 bg-p1-white p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                placeholder="Дата рождения"
+                required
               />
+            </div>
+            <div className="pb-2"></div>
+
+            <div>
               <label
-                htmlFor="floating_outlined"
-                className="z-8 absolute start-1 top-2 origin-[0] -translate-y-4 scale-75 transform bg-p1-white px-8 text-sm text-gray-500 duration-300 peer-placeholder-shown:top-1/2 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:scale-100 peer-focus:top-2 peer-focus:-translate-y-4 peer-focus:scale-75 peer-focus:px-2 peer-focus:text-p1-darkgreen rtl:peer-focus:left-auto rtl:peer-focus:translate-x-1/4 dark:bg-gray-900 dark:text-gray-400 peer-focus:dark:text-p1-cyan"
+                for="contry"
+                className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
               >
                 Страна
               </label>
-            </div>
-            <div className="relative px-5 py-2">
               <input
                 type="text"
-                id="city"
-                className="peer block w-full appearance-none rounded-lg border-2 border-gray-300 bg-transparent px-2.5 pb-2.5 pt-4 text-sm text-p1-darkgreen focus:border-p1-cyan focus:outline-none focus:ring-0 dark:border-gray-600 dark:text-white dark:focus:border-p1-cyan"
-                placeholder=" "
+                id="contry"
+                className="block w-full rounded-lg border border-gray-300 bg-p1-white p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                placeholder="Страна"
+                required
               />
+            </div>
+            <div className="pb-2"></div>
+
+            <div>
               <label
-                htmlFor="floating_outlined"
-                className="z-8 absolute start-1 top-2 origin-[0] -translate-y-4 scale-75 transform bg-p1-white px-8 text-sm text-gray-500 duration-300 peer-placeholder-shown:top-1/2 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:scale-100 peer-focus:top-2 peer-focus:-translate-y-4 peer-focus:scale-75 peer-focus:px-2 peer-focus:text-p1-darkgreen rtl:peer-focus:left-auto rtl:peer-focus:translate-x-1/4 dark:bg-gray-900 dark:text-gray-400 peer-focus:dark:text-p1-cyan"
+                for="city"
+                className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
               >
                 Город
               </label>
-            </div>
-            <div className="relative px-5 py-2">
               <input
                 type="text"
-                id="description"
-                className="peer block w-full appearance-none rounded-lg border-2 border-gray-300 bg-transparent px-2.5 pb-2.5 pt-4 text-sm text-p1-darkgreen focus:border-p1-cyan focus:outline-none focus:ring-0 dark:border-gray-600 dark:text-white dark:focus:border-p1-cyan"
-                placeholder=" "
+                id="city"
+                className="block w-full rounded-lg border border-gray-300 bg-p1-white p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                placeholder="Город"
+                required
               />
-              <label
-                htmlFor="floating_outlined"
-                className="z-8 absolute start-1 top-2 origin-[0] -translate-y-4 scale-75 transform bg-p1-white px-8 text-sm text-gray-500 duration-300 peer-placeholder-shown:top-1/2 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:scale-100 peer-focus:top-2 peer-focus:-translate-y-4 peer-focus:scale-75 peer-focus:px-2 peer-focus:text-p1-darkgreen rtl:peer-focus:left-auto rtl:peer-focus:translate-x-1/4 dark:bg-gray-900 dark:text-gray-400 peer-focus:dark:text-p1-cyan"
-              >
-                Описание
-              </label>
             </div>
+            <div className="pb-2"></div>
+
+            <div className="pb-2"></div>
+            <div>
+              <label
+                for="message"
+                class="mb-2 block text-left text-sm font-medium text-p1-darkgreen dark:text-white"
+              >
+                Описание{" "}
+              </label>
+              <textarea
+                id="message"
+                rows="4"
+                class="block w-full rounded-lg border-2 border-gray-300 bg-p1-white p-2.5 text-sm text-p1-darkgreen focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
+                placeholder="Описание"
+              ></textarea>
+            </div>
+
             <div className="pb-5"></div>
-            <button className="rounded-3xl border-2 border-p1-darkgreen bg-p1-white px-20 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
+            <button className="rounded-3xl border-2 border-p1-darkgreen bg-p1-white px-6 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
               Создать NFT Коллекционера
             </button>
             <div className="pb-8"></div>
@@ -1302,7 +1362,16 @@ export default function Page() {
         </div>
       </div>
       <div className="m-5 flex rounded-3xl border-4 border-p1-darkgreen">
-        <div className="grid grid-cols-2 gap-4">
+        <div>
+          <div className="float-right m-1 p-5">
+            <Image
+              className="relative inline-block w-max overflow-hidden rounded-3xl border-2 border-p2-orange shadow-lg"
+              width={1000}
+              height={1000}
+              src="/Cars/Car.png"
+              alt="Car"
+            />
+          </div>
           <div className="place-content-center p-4 text-left">
             <p className="p-2 text-xl text-p1-darkgreen">
               Невзаимозаменяемый токен, отражающий реальный коллекционный
@@ -1324,15 +1393,6 @@ export default function Page() {
             <button className="w-full rounded-3xl border-2 border-p1-darkgreen bg-p1-white px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
               Страница создания NFT
             </button>
-          </div>
-          <div className="m-1 p-5">
-            <Image
-              className="relative inline-block w-max overflow-hidden rounded-3xl border-2 border-p2-orange shadow-lg"
-              width={1000}
-              height={1000}
-              src="/Cars/Car.png"
-              alt="Car"
-            />
           </div>
         </div>
 
@@ -1462,189 +1522,221 @@ export default function Page() {
             <p className="pt-5 text-left text-2xl text-p1-darkgreen">
               Заполни все поля - эти метаданные будут храниться в блокчейне
             </p>
+            <div className="pb-5"></div>
 
-            <div className="relative px-5 py-2">
-              <input
-                type="text"
-                id="CarCategory"
-                className="peer block w-full appearance-none rounded-lg border-2 border-gray-300 bg-transparent px-2.5 pb-2.5 pt-4 text-sm text-p1-darkgreen focus:border-p1-cyan focus:outline-none focus:ring-0 dark:border-gray-600 dark:text-white dark:focus:border-p1-cyan"
-                placeholder=" "
-              />
+            <div>
               <label
-                htmlFor="floating_outlined"
-                className="z-8 absolute start-1 top-2 origin-[0] -translate-y-4 scale-75 transform bg-p1-white px-8 text-sm text-gray-500 duration-300 peer-placeholder-shown:top-1/2 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:scale-100 peer-focus:top-2 peer-focus:-translate-y-4 peer-focus:scale-75 peer-focus:px-2 peer-focus:text-p1-darkgreen rtl:peer-focus:left-auto rtl:peer-focus:translate-x-1/4 dark:bg-gray-900 dark:text-gray-400 peer-focus:dark:text-p1-cyan"
+                for="car_category"
+                className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
               >
-                Авто Категория
+                Категория Авто
               </label>
-            </div>
-            <div className="relative px-5 py-2">
               <input
                 type="text"
-                id="Custom_Original"
-                className="peer block w-full appearance-none rounded-lg border-2 border-gray-300 bg-transparent px-2.5 pb-2.5 pt-4 text-sm text-p1-darkgreen focus:border-p1-cyan focus:outline-none focus:ring-0 dark:border-gray-600 dark:text-white dark:focus:border-p1-cyan"
-                placeholder=" "
+                id="car_category"
+                className="block w-full rounded-lg border border-gray-300 bg-p1-white p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                placeholder="Дрифт/Dragster/Oldtimer/Stance/Sport/Rarity"
+                required
               />
+            </div>
+            <div className="pb-2"></div>
+            <div>
               <label
-                htmlFor="floating_outlined"
-                className="z-8 absolute start-1 top-2 origin-[0] -translate-y-4 scale-75 transform bg-p1-white px-8 text-sm text-gray-500 duration-300 peer-placeholder-shown:top-1/2 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:scale-100 peer-focus:top-2 peer-focus:-translate-y-4 peer-focus:scale-75 peer-focus:px-2 peer-focus:text-p1-darkgreen rtl:peer-focus:left-auto rtl:peer-focus:translate-x-1/4 dark:bg-gray-900 dark:text-gray-400 peer-focus:dark:text-p1-cyan"
+                for="first_name"
+                className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
               >
                 Самодельный или Оригональный
               </label>
-            </div>
-            <div className="relative px-5 py-2">
               <input
                 type="text"
-                id="full-name"
-                className="peer block w-full appearance-none rounded-lg border-2 border-gray-300 bg-transparent px-2.5 pb-2.5 pt-4 text-sm text-p1-darkgreen focus:border-p1-cyan focus:outline-none focus:ring-0 dark:border-gray-600 dark:text-white dark:focus:border-p1-cyan"
-                placeholder=" "
+                id="custom_orig"
+                className="block w-full rounded-lg border border-gray-300 bg-p1-white p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                placeholder="Самодельный или Оригональный"
+                required
               />
+            </div>
+            <div className="pb-2"></div>
+            <div>
               <label
-                htmlFor="floating_outlined"
-                className="z-8 absolute start-1 top-2 origin-[0] -translate-y-4 scale-75 transform bg-p1-white px-8 text-sm text-gray-500 duration-300 peer-placeholder-shown:top-1/2 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:scale-100 peer-focus:top-2 peer-focus:-translate-y-4 peer-focus:scale-75 peer-focus:px-2 peer-focus:text-p1-darkgreen rtl:peer-focus:left-auto rtl:peer-focus:translate-x-1/4 dark:bg-gray-900 dark:text-gray-400 peer-focus:dark:text-p1-cyan"
+                for="full_name"
+                className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
               >
-                Полное Имя создателя/владельца
+                Полное имя
               </label>
-            </div>
-            <div className="relative px-5 py-2">
               <input
                 type="text"
-                id="nic-name"
-                className="peer block w-full appearance-none rounded-lg border-2 border-gray-300 bg-transparent px-2.5 pb-2.5 pt-4 text-sm text-p1-darkgreen focus:border-p1-cyan focus:outline-none focus:ring-0 dark:border-gray-600 dark:text-white dark:focus:border-p1-cyan"
-                placeholder=" "
+                id="full_name"
+                className="block w-full rounded-lg border border-gray-300 bg-p1-white p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                placeholder="Полное имя создателя/владельца"
+                required
               />
+            </div>
+            <div className="pb-2"></div>
+
+            <div>
               <label
-                htmlFor="floating_outlined"
-                className="z-8 absolute start-1 top-2 origin-[0] -translate-y-4 scale-75 transform bg-p1-white px-8 text-sm text-gray-500 duration-300 peer-placeholder-shown:top-1/2 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:scale-100 peer-focus:top-2 peer-focus:-translate-y-4 peer-focus:scale-75 peer-focus:px-2 peer-focus:text-p1-darkgreen rtl:peer-focus:left-auto rtl:peer-focus:translate-x-1/4 dark:bg-gray-900 dark:text-gray-400 peer-focus:dark:text-p1-cyan"
+                for="nic_name"
+                className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
               >
                 Ник-Имя
               </label>
-            </div>
-            <div className="relative px-5 py-2">
               <input
                 type="text"
-                id="Birthday"
-                className="peer block w-full appearance-none rounded-lg border-2 border-gray-300 bg-transparent px-2.5 pb-2.5 pt-4 text-sm text-p1-darkgreen focus:border-p1-cyan focus:outline-none focus:ring-0 dark:border-gray-600 dark:text-white dark:focus:border-p1-cyan"
-                placeholder=" "
+                id="nic_name"
+                className="block w-full rounded-lg border border-gray-300 bg-p1-white p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                placeholder="Ник-Имя"
+                required
               />
+            </div>
+            <div className="pb-2"></div>
+
+            <div>
               <label
-                htmlFor="floating_outlined"
-                className="z-8 absolute start-1 top-2 origin-[0] -translate-y-4 scale-75 transform bg-p1-white px-8 text-sm text-gray-500 duration-300 peer-placeholder-shown:top-1/2 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:scale-100 peer-focus:top-2 peer-focus:-translate-y-4 peer-focus:scale-75 peer-focus:px-2 peer-focus:text-p1-darkgreen rtl:peer-focus:left-auto rtl:peer-focus:translate-x-1/4 dark:bg-gray-900 dark:text-gray-400 peer-focus:dark:text-p1-cyan"
+                for="birthday"
+                className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
               >
                 Дата рождения
               </label>
-            </div>
-            <div className="relative px-5 py-2">
               <input
-                type="text"
-                id="Brand"
-                className="peer block w-full appearance-none rounded-lg border-2 border-gray-300 bg-transparent px-2.5 pb-2.5 pt-4 text-sm text-p1-darkgreen focus:border-p1-cyan focus:outline-none focus:ring-0 dark:border-gray-600 dark:text-white dark:focus:border-p1-cyan"
-                placeholder=" "
+                type="date"
+                id="birthday"
+                className="block w-full rounded-lg border border-gray-300 bg-p1-white p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                placeholder="Дата рождения"
+                required
               />
+            </div>
+            <div className="pb-2"></div>
+
+            <div>
               <label
-                htmlFor="floating_outlined"
-                className="z-8 absolute start-1 top-2 origin-[0] -translate-y-4 scale-75 transform bg-p1-white px-8 text-sm text-gray-500 duration-300 peer-placeholder-shown:top-1/2 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:scale-100 peer-focus:top-2 peer-focus:-translate-y-4 peer-focus:scale-75 peer-focus:px-2 peer-focus:text-p1-darkgreen rtl:peer-focus:left-auto rtl:peer-focus:translate-x-1/4 dark:bg-gray-900 dark:text-gray-400 peer-focus:dark:text-p1-cyan"
+                for="brand"
+                className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
               >
                 Марка авто
               </label>
-            </div>
-            <div className="relative px-5 py-2">
               <input
                 type="text"
-                id="Model"
-                className="peer block w-full appearance-none rounded-lg border-2 border-gray-300 bg-transparent px-2.5 pb-2.5 pt-4 text-sm text-p1-darkgreen focus:border-p1-cyan focus:outline-none focus:ring-0 dark:border-gray-600 dark:text-white dark:focus:border-p1-cyan"
-                placeholder=" "
+                id="Brand"
+                className="block w-full rounded-lg border border-gray-300 bg-p1-white p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                placeholder="Марка авто"
+                required
               />
+            </div>
+            <div className="pb-2"></div>
+            <div>
               <label
-                htmlFor="floating_outlined"
-                className="z-8 absolute start-1 top-2 origin-[0] -translate-y-4 scale-75 transform bg-p1-white px-8 text-sm text-gray-500 duration-300 peer-placeholder-shown:top-1/2 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:scale-100 peer-focus:top-2 peer-focus:-translate-y-4 peer-focus:scale-75 peer-focus:px-2 peer-focus:text-p1-darkgreen rtl:peer-focus:left-auto rtl:peer-focus:translate-x-1/4 dark:bg-gray-900 dark:text-gray-400 peer-focus:dark:text-p1-cyan"
+                for="model"
+                className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
               >
                 Модель авто
               </label>
-            </div>
-            <div className="relative px-5 py-2">
               <input
                 type="text"
-                id="Year_Made"
-                className="peer block w-full appearance-none rounded-lg border-2 border-gray-300 bg-transparent px-2.5 pb-2.5 pt-4 text-sm text-p1-darkgreen focus:border-p1-cyan focus:outline-none focus:ring-0 dark:border-gray-600 dark:text-white dark:focus:border-p1-cyan"
-                placeholder=" "
+                id="model"
+                className="block w-full rounded-lg border border-gray-300 bg-p1-white p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                placeholder="Модель авто"
+                required
               />
+            </div>
+            <div className="pb-2"></div>
+            <div>
               <label
-                htmlFor="floating_outlined"
-                className="z-8 absolute start-1 top-2 origin-[0] -translate-y-4 scale-75 transform bg-p1-white px-8 text-sm text-gray-500 duration-300 peer-placeholder-shown:top-1/2 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:scale-100 peer-focus:top-2 peer-focus:-translate-y-4 peer-focus:scale-75 peer-focus:px-2 peer-focus:text-p1-darkgreen rtl:peer-focus:left-auto rtl:peer-focus:translate-x-1/4 dark:bg-gray-900 dark:text-gray-400 peer-focus:dark:text-p1-cyan"
+                for="year_made"
+                className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
               >
                 Год создания
               </label>
-            </div>
-            <div className="relative px-5 py-2">
               <input
                 type="text"
-                id="Engine"
-                className="peer block w-full appearance-none rounded-lg border-2 border-gray-300 bg-transparent px-2.5 pb-2.5 pt-4 text-sm text-p1-darkgreen focus:border-p1-cyan focus:outline-none focus:ring-0 dark:border-gray-600 dark:text-white dark:focus:border-p1-cyan"
-                placeholder=" "
+                id="contry"
+                className="block w-full rounded-lg border border-gray-300 bg-p1-white p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                placeholder="Год создания"
+                required
               />
+            </div>
+            <div className="pb-2"></div>
+            <div>
               <label
-                htmlFor="floating_outlined"
-                className="z-8 absolute start-1 top-2 origin-[0] -translate-y-4 scale-75 transform bg-p1-white px-8 text-sm text-gray-500 duration-300 peer-placeholder-shown:top-1/2 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:scale-100 peer-focus:top-2 peer-focus:-translate-y-4 peer-focus:scale-75 peer-focus:px-2 peer-focus:text-p1-darkgreen rtl:peer-focus:left-auto rtl:peer-focus:translate-x-1/4 dark:bg-gray-900 dark:text-gray-400 peer-focus:dark:text-p1-cyan"
+                for="engine"
+                className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
               >
                 Двигатель
               </label>
-            </div>
-            <div className="relative px-5 py-2">
               <input
                 type="text"
-                id="horse_power"
-                className="peer block w-full appearance-none rounded-lg border-2 border-gray-300 bg-transparent px-2.5 pb-2.5 pt-4 text-sm text-p1-darkgreen focus:border-p1-cyan focus:outline-none focus:ring-0 dark:border-gray-600 dark:text-white dark:focus:border-p1-cyan"
-                placeholder=" "
+                id="engine"
+                className="block w-full rounded-lg border border-gray-300 bg-p1-white p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                placeholder="Двигатель"
+                required
               />
+            </div>
+            <div className="pb-2"></div>
+            <div>
               <label
-                htmlFor="floating_outlined"
-                className="z-8 absolute start-1 top-2 origin-[0] -translate-y-4 scale-75 transform bg-p1-white px-8 text-sm text-gray-500 duration-300 peer-placeholder-shown:top-1/2 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:scale-100 peer-focus:top-2 peer-focus:-translate-y-4 peer-focus:scale-75 peer-focus:px-2 peer-focus:text-p1-darkgreen rtl:peer-focus:left-auto rtl:peer-focus:translate-x-1/4 dark:bg-gray-900 dark:text-gray-400 peer-focus:dark:text-p1-cyan"
+                for="hp"
+                className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
               >
                 Лошадиных сил
               </label>
-            </div>
-            <div className="relative px-5 py-2">
               <input
                 type="text"
-                id="Country"
-                className="peer block w-full appearance-none rounded-lg border-2 border-gray-300 bg-transparent px-2.5 pb-2.5 pt-4 text-sm text-p1-darkgreen focus:border-p1-cyan focus:outline-none focus:ring-0 dark:border-gray-600 dark:text-white dark:focus:border-p1-cyan"
-                placeholder=" "
+                id="contry"
+                className="block w-full rounded-lg border border-gray-300 bg-p1-white p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                placeholder="Лошадиных сил"
+                required
               />
+            </div>
+            <div className="pb-2"></div>
+
+            <div>
               <label
-                htmlFor="floating_outlined"
-                className="z-8 absolute start-1 top-2 origin-[0] -translate-y-4 scale-75 transform bg-p1-white px-8 text-sm text-gray-500 duration-300 peer-placeholder-shown:top-1/2 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:scale-100 peer-focus:top-2 peer-focus:-translate-y-4 peer-focus:scale-75 peer-focus:px-2 peer-focus:text-p1-darkgreen rtl:peer-focus:left-auto rtl:peer-focus:translate-x-1/4 dark:bg-gray-900 dark:text-gray-400 peer-focus:dark:text-p1-cyan"
+                for="contry"
+                className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
               >
                 Страна
               </label>
-            </div>
-            <div className="relative px-5 py-2">
               <input
                 type="text"
-                id="City"
-                className="peer block w-full appearance-none rounded-lg border-2 border-gray-300 bg-transparent px-2.5 pb-2.5 pt-4 text-sm text-p1-darkgreen focus:border-p1-cyan focus:outline-none focus:ring-0 dark:border-gray-600 dark:text-white dark:focus:border-p1-cyan"
-                placeholder=" "
+                id="contry"
+                className="block w-full rounded-lg border border-gray-300 bg-p1-white p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                placeholder="Страна"
+                required
               />
+            </div>
+            <div className="pb-2"></div>
+            <div>
               <label
-                htmlFor="floating_outlined"
-                className="z-8 absolute start-1 top-2 origin-[0] -translate-y-4 scale-75 transform bg-p1-white px-8 text-sm text-gray-500 duration-300 peer-placeholder-shown:top-1/2 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:scale-100 peer-focus:top-2 peer-focus:-translate-y-4 peer-focus:scale-75 peer-focus:px-2 peer-focus:text-p1-darkgreen rtl:peer-focus:left-auto rtl:peer-focus:translate-x-1/4 dark:bg-gray-900 dark:text-gray-400 peer-focus:dark:text-p1-cyan"
+                for="first_name"
+                className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
               >
                 Город
               </label>
-            </div>
-            <div className="relative px-5 py-2">
               <input
                 type="text"
-                id="description"
-                className="peer block w-full appearance-none rounded-lg border-2 border-gray-300 bg-transparent px-2.5 pb-2.5 pt-4 text-sm text-p1-darkgreen focus:border-p1-cyan focus:outline-none focus:ring-0 dark:border-gray-600 dark:text-white dark:focus:border-p1-cyan"
-                placeholder=" "
+                id="city"
+                className="block w-full rounded-lg border border-gray-300 bg-p1-white p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                placeholder="Город"
+                required
               />
-              <label
-                htmlFor="floating_outlined"
-                className="z-8 absolute start-1 top-2 origin-[0] -translate-y-4 scale-75 transform bg-p1-white px-8 text-sm text-gray-500 duration-300 peer-placeholder-shown:top-1/2 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:scale-100 peer-focus:top-2 peer-focus:-translate-y-4 peer-focus:scale-75 peer-focus:px-2 peer-focus:text-p1-darkgreen rtl:peer-focus:left-auto rtl:peer-focus:translate-x-1/4 dark:bg-gray-900 dark:text-gray-400 peer-focus:dark:text-p1-cyan"
-              >
-                Описание
-              </label>
             </div>
+            <div className="pb-2"></div>
+
+            <div className="pb-2"></div>
+            <div>
+              <label
+                for="message"
+                class="mb-2 block text-left text-sm font-medium text-p1-darkgreen dark:text-white"
+              >
+                Описание{" "}
+              </label>
+              <textarea
+                id="message"
+                rows="4"
+                class="block w-full rounded-lg border-2 border-gray-300 bg-p1-white p-2.5 text-sm text-p1-darkgreen focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
+                placeholder="Описание"
+              ></textarea>
+            </div>
+
             <div className="pb-5"></div>
 
             <button className="rounded-3xl border-2 border-p1-darkgreen bg-p1-white px-20 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
@@ -1813,14 +1905,345 @@ export default function Page() {
             <p className="text-2xl text-p1-darkgreen">
               Получите своего героя CustomLad
             </p>
-            <Image
-              className="relative mb-4 inline-block w-max overflow-hidden rounded-3xl border-2 border-p2-orange shadow-lg"
-              width={1000}
-              height={1000}
-              src="/HeroNFT/CustomLads/CustomLads1.png"
-              alt="CustomLads1"
-            />
+            <div className="grid grid-cols-3 gap-4">
+              <div>
+                <div class="inline-flex rounded-md shadow-sm" role="group">
+                  <button
+                    type="button"
+                    class="rounded-s-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                  >
+                    {"<"}
+                  </button>
+                  <button
+                    type="button"
+                    class="w-36 border-b border-t border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                  >
+                    фон
+                  </button>
+                  <button
+                    type="button"
+                    class="rounded-e-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                  >
+                    {">"}
+                  </button>
+                </div>
+                <div>
+                  <div class="inline-flex rounded-md shadow-sm" role="group">
+                    <button
+                      type="button"
+                      class="rounded-s-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                    >
+                      {"<"}
+                    </button>
+                    <button
+                      type="button"
+                      class="w-36 border-b border-t border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                    >
+                      тело
+                    </button>
+                    <button
+                      type="button"
+                      class="rounded-e-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                    >
+                      {">"}
+                    </button>
+                  </div>
+                  <div class="inline-flex rounded-md shadow-sm" role="group">
+                    <button
+                      type="button"
+                      class="rounded-s-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                    >
+                      {"<"}
+                    </button>
+                    <button
+                      type="button"
+                      class="w-36 border-b border-t border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                    >
+                      глаза
+                    </button>
+                    <button
+                      type="button"
+                      class="rounded-e-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                    >
+                      {">"}
+                    </button>
+                  </div>
+                  <div class="inline-flex rounded-md shadow-sm" role="group">
+                    <button
+                      type="button"
+                      class="rounded-s-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                    >
+                      {"<"}
+                    </button>
+                    <button
+                      type="button"
+                      class="w-36 border-b border-t border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                    >
+                      рот
+                    </button>
+                    <button
+                      type="button"
+                      class="rounded-e-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                    >
+                      {">"}
+                    </button>
+                  </div>
+                  <div class="inline-flex rounded-md shadow-sm" role="group">
+                    <button
+                      type="button"
+                      class="rounded-s-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                    >
+                      {"<"}
+                    </button>
+                    <button
+                      type="button"
+                      class="w-36 border-b border-t border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                    >
+                      нос
+                    </button>
+                    <button
+                      type="button"
+                      class="rounded-e-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                    >
+                      {">"}
+                    </button>
+                  </div>
+                  <div class="inline-flex rounded-md shadow-sm" role="group">
+                    <button
+                      type="button"
+                      class="rounded-s-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                    >
+                      {"<"}
+                    </button>
+                    <button
+                      type="button"
+                      class="w-36 border-b border-t border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                    >
+                      усы, борода
+                    </button>
+                    <button
+                      type="button"
+                      class="rounded-e-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                    >
+                      {">"}
+                    </button>
+                  </div>
+                  <div class="inline-flex rounded-md shadow-sm" role="group">
+                    <button
+                      type="button"
+                      class="rounded-s-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                    >
+                      {"<"}
+                    </button>
+                    <button
+                      type="button"
+                      class="w-36 border-b border-t border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                    >
+                      серьга в ухо
+                    </button>
+                    <button
+                      type="button"
+                      class="rounded-e-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                    >
+                      {">"}
+                    </button>
+                  </div>
+                  <div class="inline-flex rounded-md shadow-sm" role="group">
+                    <button
+                      type="button"
+                      class="rounded-s-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                    >
+                      {"<"}
+                    </button>
+                    <button
+                      type="button"
+                      class="w-36 border-b border-t border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                    >
+                      монеты на глаза
+                    </button>
+                    <button
+                      type="button"
+                      class="rounded-e-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                    >
+                      {">"}
+                    </button>
+                  </div>
+                  <div class="inline-flex rounded-md shadow-sm" role="group">
+                    <button
+                      type="button"
+                      class="rounded-s-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                    >
+                      {"<"}
+                    </button>
+                    <button
+                      type="button"
+                      class="w-36 border-b border-t border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                    >
+                      балаклава, маски, очки ...
+                    </button>
+                    <button
+                      type="button"
+                      class="rounded-e-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                    >
+                      {">"}
+                    </button>
+                  </div>
+                  <div class="inline-flex rounded-md shadow-sm" role="group">
+                    <button
+                      type="button"
+                      class="rounded-s-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                    >
+                      {"<"}
+                    </button>
+                    <button
+                      type="button"
+                      class="w-36 border-b border-t border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                    >
+                      бронежилет
+                    </button>
+                    <button
+                      type="button"
+                      class="rounded-e-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                    >
+                      {">"}
+                    </button>
+                  </div>
+                  
+                </div>
+              </div>
+              <div>
+                <Image
+                  className="relative mb-4 inline-block w-max overflow-hidden rounded-3xl border-2 border-p2-orange shadow-lg"
+                  width={1000}
+                  height={1000}
+                  src="/HeroNFT/CustomLads/CustomLads1.png"
+                  alt="CustomLads1"
+                />
+              </div>
+              <div>
 
+              <div class="inline-flex rounded-md shadow-sm" role="group">
+                    <button
+                      type="button"
+                      class="rounded-s-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                    >
+                      {"<"}
+                    </button>
+                    <button
+                      type="button"
+                      class="w-36 border-b border-t border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                    >
+                      верхняя одежда
+                    </button>
+                    <button
+                      type="button"
+                      class="rounded-e-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                    >
+                      {">"}
+                    </button>
+                  </div>
+                  <div class="inline-flex rounded-md shadow-sm" role="group">
+                    <button
+                      type="button"
+                      class="rounded-s-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                    >
+                      {"<"}
+                    </button>
+                    <button
+                      type="button"
+                      class="w-36 border-b border-t border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                    >
+                      прическа, головной убор
+                    </button>
+                    <button
+                      type="button"
+                      class="rounded-e-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                    >
+                      {">"}
+                    </button>
+                  </div>
+                  <div class="inline-flex rounded-md shadow-sm" role="group">
+                    <button
+                      type="button"
+                      class="rounded-s-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                    >
+                      {"<"}
+                    </button>
+                    <button
+                      type="button"
+                      class="w-36 border-b border-t border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                    >
+                      нимб и альбатрос
+                    </button>
+                    <button
+                      type="button"
+                      class="rounded-e-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                    >
+                      {">"}
+                    </button>
+                  </div>
+                  <div class="inline-flex rounded-md shadow-sm" role="group">
+                    <button
+                      type="button"
+                      class="rounded-s-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                    >
+                      {"<"}
+                    </button>
+                    <button
+                      type="button"
+                      class="w-36 border-b border-t border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                    >
+                      попугай
+                    </button>
+                    <button
+                      type="button"
+                      class="rounded-e-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                    >
+                      {">"}
+                    </button>
+                  </div>
+                  <div class="inline-flex rounded-md shadow-sm" role="group">
+                    <button
+                      type="button"
+                      class="rounded-s-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                    >
+                      {"<"}
+                    </button>
+                    <button
+                      type="button"
+                      class="w-36 border-b border-t border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                    >
+                      стрела с сердцем
+                    </button>
+                    <button
+                      type="button"
+                      class="rounded-e-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                    >
+                      {">"}
+                    </button>
+                  </div>
+                  <div class="inline-flex rounded-md shadow-sm" role="group">
+                    <button
+                      type="button"
+                      class="rounded-s-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                    >
+                      {"<"}
+                    </button>
+                    <button
+                      type="button"
+                      class="w-36 border-b border-t border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                    >
+                      надписи
+                    </button>
+                    <button
+                      type="button"
+                      class="rounded-e-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                    >
+                      {">"}
+                    </button>
+                  </div>
+              </div>
+            </div>
             <div>
               <label
                 htmlFor="default-range"
@@ -1992,8 +2415,7 @@ export default function Page() {
       <div className="m-5 rounded-3xl border-4 border-p2-orange text-center text-p1-darkgreen shadow-lg">
         <div className="grid grid-cols-2 gap-4">
           <div className="space-x-5 p-5 text-2xl font-semibold text-p2-orange">
-            <div className="grid grid-cols-2 gap-4">
-              <div>
+            <div>
                 <Image
                   className="relative mb-4 inline-block w-max overflow-hidden rounded-3xl border-2 border-p2-orange shadow-lg"
                   width={1000}
@@ -2002,8 +2424,10 @@ export default function Page() {
                   alt="Rewards"
                 />
               </div>
-              <div>
-                <div className="flex w-full items-center justify-center">
+              
+            <div className="grid grid-cols-2 gap-4">
+              
+              <div className="flex w-full items-center justify-center">
                   <label
                     htmlFor="dropzone-file"
                     className="flex h-full w-full cursor-pointer flex-col items-center justify-center rounded-lg border-2 border-dashed border-gray-300 bg-gray-50 hover:bg-gray-100 dark:border-gray-600 dark:bg-gray-700 dark:hover:border-gray-500 dark:hover:bg-gray-600 dark:hover:bg-gray-800"
@@ -2041,6 +2465,8 @@ export default function Page() {
                     <input id="dropzone-file" type="file" className="hidden" />
                   </label>
                 </div>
+              <div>
+                
               </div>
               <div>
                 <div className="flex w-full items-center justify-center">
@@ -2124,23 +2550,23 @@ export default function Page() {
                 </div>
               </div>
             </div>
+            <p className="text-centre p-5 text-2xl text-p1-darkgreen">
+              Добавьте медиаконтент о победителе
+            </p>
             <p className="p-2 text-2xl font-semibold text-p1-darkgreen">
               Созданные вами NFT автоматически попадут в глобальную коллекцию
               GAA
             </p>
-            <p className="p-2 text-2xl font-normal font-semibold text-p1-darkgreen">
+            <p className="p-2 text-2xl font-semibold text-p1-darkgreen">
               это единый сборник мирового сообщества
             </p>
-            <p className="p-5 text-2xl font-normal font-semibold text-p1-darkgreen">
+            <p className="p-5 text-2xl font-semibold text-p1-darkgreen">
               Доступно для держателей NFT Promoter license, National license,
               Global license, Management GAA
             </p>
             <p className="p-5 text-2xl font-semibold text-p2-red">
               Добавить вывод изображения в зависимости от выбранных и
               заполненных полей
-            </p>
-            <p className="pt-5 text-left text-xl text-p1-darkgreen">
-              Добавь медиаконтент о победителе:
             </p>
           </div>
           <div className="p-2 text-4xl text-p2-orange">
@@ -2155,221 +2581,283 @@ export default function Page() {
               Заполни все поля - эти метаданные будут храниться в блокчейне
             </p>
 
-            <div className="relative px-5 py-2">
-              <input
-                type="text"
-                id="Country"
-                className="peer block w-full appearance-none rounded-lg border-2 border-gray-300 bg-transparent px-2.5 pb-2.5 pt-4 text-sm text-p1-darkgreen focus:border-p2-orange focus:outline-none focus:ring-0 dark:border-gray-600 dark:text-white dark:focus:border-p2-orange"
-                placeholder=" "
-              />
-              <label
-                htmlFor="floating_outlined"
-                className="z-8 absolute start-1 top-2 origin-[0] -translate-y-4 scale-75 transform bg-p1-white px-8 text-sm text-gray-500 duration-300 peer-placeholder-shown:top-1/2 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:scale-100 peer-focus:top-2 peer-focus:-translate-y-4 peer-focus:scale-75 peer-focus:px-2 peer-focus:text-p1-darkgreen rtl:peer-focus:left-auto rtl:peer-focus:translate-x-1/4 dark:bg-gray-900 dark:text-gray-400 peer-focus:dark:text-p1-cyan"
-              >
-                Страна
-              </label>
+            <div className="pb-5"></div>
+            <div>
+              <div>
+                <label
+                  for="contry"
+                  className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
+                >
+                  Страна
+                </label>
+                <input
+                  type="text"
+                  id="contry"
+                  className="block w-full rounded-lg border border-gray-300 bg-p1-white p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                  placeholder="Страна"
+                  required
+                />
+              </div>
+              <div className="pb-2"></div>
+
+              <div>
+                <label
+                  for="city"
+                  className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
+                >
+                  Город
+                </label>
+                <input
+                  type="text"
+                  id="city"
+                  className="block w-full rounded-lg border border-gray-300 bg-p1-white p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                  placeholder="Город"
+                  required
+                />
+              </div>
+              <div className="pb-2"></div>
+              <div>
+                <label
+                  for="event"
+                  className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
+                >
+                  Официаллное название мероприятия
+                </label>
+                <input
+                  type="text"
+                  id="event"
+                  className="block w-full rounded-lg border border-gray-300 bg-p1-white p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                  placeholder="Официальное название мероприятия"
+                  required
+                />
+              </div>
+              <div className="pb-2"></div>
+              <div>
+                <label
+                  for="event_category"
+                  className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
+                >
+                  Официальное название соревнования/конкурса
+                </label>
+                <input
+                  type="text"
+                  id="competition"
+                  className="block w-full rounded-lg border border-gray-300 bg-p1-white p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                  placeholder="Официальное название соревнования/конкурса"
+                  required
+                />
+              </div>
+              <div className="pb-2"></div>
+
+              <form className="mx-auto max-w-2xl">
+                <label
+                  htmlFor="license"
+                  className="block w-full text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
+                >
+                  Категория: Соревнование/Конкурс
+                </label>
+                <select
+                  id="license"
+                  className="block w-full rounded-lg border-2 border-gray-300 bg-p1-white p-2.5 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                >
+                  <option selected>Выберите категорию</option>
+                  <option value="Competition">Соревнование</option>
+                  <option value="Contest">Конкурс</option>
+                </select>
+              </form>
             </div>
-            <div className="relative px-5 py-2">
-              <input
-                type="text"
-                id="City"
-                className="peer block w-full appearance-none rounded-lg border-2 border-gray-300 bg-transparent px-2.5 pb-2.5 pt-4 text-sm text-p1-darkgreen focus:border-p2-orange focus:outline-none focus:ring-0 dark:border-gray-600 dark:text-white dark:focus:border-p2-orange"
-                placeholder=" "
-              />
+            <div className="pb-2"></div>
+            <div>
               <label
-                htmlFor="floating_outlined"
-                className="z-8 absolute start-1 top-2 origin-[0] -translate-y-4 scale-75 transform bg-p1-white px-8 text-sm text-gray-500 duration-300 peer-placeholder-shown:top-1/2 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:scale-100 peer-focus:top-2 peer-focus:-translate-y-4 peer-focus:scale-75 peer-focus:px-2 peer-focus:text-p1-darkgreen rtl:peer-focus:left-auto rtl:peer-focus:translate-x-1/4 dark:bg-gray-900 dark:text-gray-400 peer-focus:dark:text-p1-cyan"
-              >
-                Город
-              </label>
-            </div>
-            <div className="relative px-5 py-2">
-              <input
-                type="text"
-                id="Event"
-                className="peer block w-full appearance-none rounded-lg border-2 border-gray-300 bg-transparent px-2.5 pb-2.5 pt-4 text-sm text-p1-darkgreen focus:border-p2-orange focus:outline-none focus:ring-0 dark:border-gray-600 dark:text-white dark:focus:border-p2-orange"
-                placeholder=" "
-              />
-              <label
-                htmlFor="floating_outlined"
-                className="z-8 absolute start-1 top-2 origin-[0] -translate-y-4 scale-75 transform bg-p1-white px-8 text-sm text-gray-500 duration-300 peer-placeholder-shown:top-1/2 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:scale-100 peer-focus:top-2 peer-focus:-translate-y-4 peer-focus:scale-75 peer-focus:px-2 peer-focus:text-p1-darkgreen rtl:peer-focus:left-auto rtl:peer-focus:translate-x-1/4 dark:bg-gray-900 dark:text-gray-400 peer-focus:dark:text-p1-cyan"
-              >
-                Официальное название соревнования/конкурса
-              </label>
-            </div>
-            <div className="relative px-5 py-2">
-              <input
-                type="text"
-                id="Category_Event"
-                className="peer block w-full appearance-none rounded-lg border-2 border-gray-300 bg-transparent px-2.5 pb-2.5 pt-4 text-sm text-p1-darkgreen focus:border-p2-orange focus:outline-none focus:ring-0 dark:border-gray-600 dark:text-white dark:focus:border-p2-orange"
-                placeholder=" "
-              />
-              <label
-                htmlFor="floating_outlined"
-                className="z-8 absolute start-1 top-2 origin-[0] -translate-y-4 scale-75 transform bg-p1-white px-8 text-sm text-gray-500 duration-300 peer-placeholder-shown:top-1/2 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:scale-100 peer-focus:top-2 peer-focus:-translate-y-4 peer-focus:scale-75 peer-focus:px-2 peer-focus:text-p1-darkgreen rtl:peer-focus:left-auto rtl:peer-focus:translate-x-1/4 dark:bg-gray-900 dark:text-gray-400 peer-focus:dark:text-p1-cyan"
-              >
-                Категория мероприятия соревнование/конкурс
-              </label>
-            </div>
-            <div className="relative px-5 py-2">
-              <input
-                type="text"
-                id="PlaceInCompetition"
-                className="peer block w-full appearance-none rounded-lg border-2 border-gray-300 bg-transparent px-2.5 pb-2.5 pt-4 text-sm text-p1-darkgreen focus:border-p2-orange focus:outline-none focus:ring-0 dark:border-gray-600 dark:text-white dark:focus:border-p2-orange"
-                placeholder=" "
-              />
-              <label
-                htmlFor="floating_outlined"
-                className="z-8 absolute start-1 top-2 origin-[0] -translate-y-4 scale-75 transform bg-p1-white px-8 text-sm text-gray-500 duration-300 peer-placeholder-shown:top-1/2 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:scale-100 peer-focus:top-2 peer-focus:-translate-y-4 peer-focus:scale-75 peer-focus:px-2 peer-focus:text-p1-darkgreen rtl:peer-focus:left-auto rtl:peer-focus:translate-x-1/4 dark:bg-gray-900 dark:text-gray-400 peer-focus:dark:text-p1-cyan"
-              >
-                Занятое место
-              </label>
-            </div>
-            <div className="relative px-5 py-2">
-              <input
-                type="text"
-                id="Nomination"
-                className="peer block w-full appearance-none rounded-lg border-2 border-gray-300 bg-transparent px-2.5 pb-2.5 pt-4 text-sm text-p1-darkgreen focus:border-p2-orange focus:outline-none focus:ring-0 dark:border-gray-600 dark:text-white dark:focus:border-p2-orange"
-                placeholder=" "
-              />
-              <label
-                htmlFor="floating_outlined"
-                className="z-8 absolute start-1 top-2 origin-[0] -translate-y-4 scale-75 transform bg-p1-white px-8 text-sm text-gray-500 duration-300 peer-placeholder-shown:top-1/2 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:scale-100 peer-focus:top-2 peer-focus:-translate-y-4 peer-focus:scale-75 peer-focus:px-2 peer-focus:text-p1-darkgreen rtl:peer-focus:left-auto rtl:peer-focus:translate-x-1/4 dark:bg-gray-900 dark:text-gray-400 peer-focus:dark:text-p1-cyan"
+                for="nomination"
+                className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
               >
                 Номинация
               </label>
-            </div>
-            <div className="relative px-5 py-2">
               <input
                 type="text"
-                id="EventCategory"
-                className="peer block w-full appearance-none rounded-lg border-2 border-gray-300 bg-transparent px-2.5 pb-2.5 pt-4 text-sm text-p1-darkgreen focus:border-p2-orange focus:outline-none focus:ring-0 dark:border-gray-600 dark:text-white dark:focus:border-p2-orange"
-                placeholder=" "
+                id="nomination"
+                className="block w-full rounded-lg border border-gray-300 bg-p1-white p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                placeholder="Номинация"
+                required
               />
+            </div>
+            <div className="pb-2"></div>
+            <form className="mx-auto max-w-2xl">
               <label
-                htmlFor="floating_outlined"
-                className="z-8 absolute start-1 top-2 origin-[0] -translate-y-4 scale-75 transform bg-p1-white px-8 text-sm text-gray-500 duration-300 peer-placeholder-shown:top-1/2 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:scale-100 peer-focus:top-2 peer-focus:-translate-y-4 peer-focus:scale-75 peer-focus:px-2 peer-focus:text-p1-darkgreen rtl:peer-focus:left-auto rtl:peer-focus:translate-x-1/4 dark:bg-gray-900 dark:text-gray-400 peer-focus:dark:text-p1-cyan"
+                htmlFor="Reward_Category"
+                className="block w-full text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
               >
                 Категория награды
               </label>
-            </div>
-            <div className="relative px-5 py-2">
-              <input
-                type="text"
-                id="DateOfVictory"
-                className="peer block w-full appearance-none rounded-lg border-2 border-gray-300 bg-transparent px-2.5 pb-2.5 pt-4 text-sm text-p1-darkgreen focus:border-p2-orange focus:outline-none focus:ring-0 dark:border-gray-600 dark:text-white dark:focus:border-p2-orange"
-                placeholder=" "
-              />
-              <label
-                htmlFor="floating_outlined"
-                className="z-8 absolute start-1 top-2 origin-[0] -translate-y-4 scale-75 transform bg-p1-white px-8 text-sm text-gray-500 duration-300 peer-placeholder-shown:top-1/2 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:scale-100 peer-focus:top-2 peer-focus:-translate-y-4 peer-focus:scale-75 peer-focus:px-2 peer-focus:text-p1-darkgreen rtl:peer-focus:left-auto rtl:peer-focus:translate-x-1/4 dark:bg-gray-900 dark:text-gray-400 peer-focus:dark:text-p1-cyan"
+              <select
+                id="Reward"
+                className="block w-full rounded-lg border-2 border-gray-300 bg-p1-white p-2.5 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
               >
-                Дата Победы
+                <option selected>Выберите категорию награды</option>
+                <option value="Cup">Кубок</option>
+                <option value="Medal">Медаль</option>
+                <option value="Diploma">Грамота участника</option>
+              </select>
+            </form>
+
+            <div className="pb-2"></div>
+            <form className="mx-auto max-w-2xl">
+              <label
+                htmlFor="license"
+                className="block w-full text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
+              >
+                Занятое место
               </label>
+              <select
+                id="Place_Victory"
+                className="block w-full rounded-lg border-2 border-gray-300 bg-p1-white p-2.5 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+              >
+                <option selected>Выберите занятое место</option>
+                <option value="First_Place">1 место</option>
+                <option value="Second_Place">2 место</option>
+                <option value="Third_Place">3 место</option>
+                <option value="Member">Участник</option>
+              </select>
+            </form>
+
+            <div className="pb-2"></div>
+            <div>
+              <label
+                for="Victory_day"
+                className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
+              >
+                День Победы
+              </label>
+              <input
+                type="date"
+                id="victory_day"
+                className="block w-full rounded-lg border border-gray-300 bg-p1-white p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                placeholder="День Победы"
+                required
+              />
             </div>
+            <div className="pb-2"></div>
+
             <p className="pt-5 text-left text-xl text-p1-darkgreen">
               Сведения о победителе:
             </p>
 
-            <div className="relative px-5 py-2">
-              <input
-                type="text"
-                id="FullName"
-                className="peer block w-full appearance-none rounded-lg border-2 border-gray-300 bg-transparent px-2.5 pb-2.5 pt-4 text-sm text-p1-darkgreen focus:border-p2-orange focus:outline-none focus:ring-0 dark:border-gray-600 dark:text-white dark:focus:border-p2-orange"
-                placeholder=" "
-              />
+            <div>
               <label
-                htmlFor="floating_outlined"
-                className="z-8 absolute start-1 top-2 origin-[0] -translate-y-4 scale-75 transform bg-p1-white px-8 text-sm text-gray-500 duration-300 peer-placeholder-shown:top-1/2 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:scale-100 peer-focus:top-2 peer-focus:-translate-y-4 peer-focus:scale-75 peer-focus:px-2 peer-focus:text-p1-darkgreen rtl:peer-focus:left-auto rtl:peer-focus:translate-x-1/4 dark:bg-gray-900 dark:text-gray-400 peer-focus:dark:text-p1-cyan"
+                for="full_name"
+                className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
               >
                 Полное имя
               </label>
-            </div>
-            <div className="relative px-5 py-2">
               <input
                 type="text"
-                id="Nic-Name"
-                className="peer block w-full appearance-none rounded-lg border-2 border-gray-300 bg-transparent px-2.5 pb-2.5 pt-4 text-sm text-p1-darkgreen focus:border-p2-orange focus:outline-none focus:ring-0 dark:border-gray-600 dark:text-white dark:focus:border-p2-orange"
-                placeholder=" "
+                id="full_name"
+                className="block w-full rounded-lg border border-gray-300 bg-p1-white p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                placeholder="Иванов Иван Иванович"
+                required
               />
+            </div>
+            <div className="pb-2"></div>
+
+            <div>
               <label
-                htmlFor="floating_outlined"
-                className="z-8 absolute start-1 top-2 origin-[0] -translate-y-4 scale-75 transform bg-p1-white px-8 text-sm text-gray-500 duration-300 peer-placeholder-shown:top-1/2 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:scale-100 peer-focus:top-2 peer-focus:-translate-y-4 peer-focus:scale-75 peer-focus:px-2 peer-focus:text-p1-darkgreen rtl:peer-focus:left-auto rtl:peer-focus:translate-x-1/4 dark:bg-gray-900 dark:text-gray-400 peer-focus:dark:text-p1-cyan"
+                for="nic_name"
+                className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
               >
                 Ник-Имя
               </label>
-            </div>
-            <div className="relative px-5 py-2">
               <input
                 type="text"
-                id="Birthday"
-                className="peer block w-full appearance-none rounded-lg border-2 border-gray-300 bg-transparent px-2.5 pb-2.5 pt-4 text-sm text-p1-darkgreen focus:border-p2-orange focus:outline-none focus:ring-0 dark:border-gray-600 dark:text-white dark:focus:border-p2-orange"
-                placeholder=" "
+                id="nic_name"
+                className="block w-full rounded-lg border border-gray-300 bg-p1-white p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                placeholder="Ник-Имя"
+                required
               />
+            </div>
+            <div className="pb-2"></div>
+
+            <div>
               <label
-                htmlFor="floating_outlined"
-                className="z-8 absolute start-1 top-2 origin-[0] -translate-y-4 scale-75 transform bg-p1-white px-8 text-sm text-gray-500 duration-300 peer-placeholder-shown:top-1/2 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:scale-100 peer-focus:top-2 peer-focus:-translate-y-4 peer-focus:scale-75 peer-focus:px-2 peer-focus:text-p1-darkgreen rtl:peer-focus:left-auto rtl:peer-focus:translate-x-1/4 dark:bg-gray-900 dark:text-gray-400 peer-focus:dark:text-p1-cyan"
+                for="birthday"
+                className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
               >
                 Дата рождения
               </label>
-            </div>
-            <div className="relative px-5 py-2">
               <input
-                type="text"
-                id="Team"
-                className="peer block w-full appearance-none rounded-lg border-2 border-gray-300 bg-transparent px-2.5 pb-2.5 pt-4 text-sm text-p1-darkgreen focus:border-p2-orange focus:outline-none focus:ring-0 dark:border-gray-600 dark:text-white dark:focus:border-p2-orange"
-                placeholder=" "
+                type="date"
+                id="birthday"
+                className="block w-full rounded-lg border border-gray-300 bg-p1-white p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                placeholder="Дата рождения"
+                required
               />
+            </div>
+            <div className="pb-2"></div>
+            <div>
               <label
-                htmlFor="floating_outlined"
-                className="z-8 absolute start-1 top-2 origin-[0] -translate-y-4 scale-75 transform bg-p1-white px-8 text-sm text-gray-500 duration-300 peer-placeholder-shown:top-1/2 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:scale-100 peer-focus:top-2 peer-focus:-translate-y-4 peer-focus:scale-75 peer-focus:px-2 peer-focus:text-p1-darkgreen rtl:peer-focus:left-auto rtl:peer-focus:translate-x-1/4 dark:bg-gray-900 dark:text-gray-400 peer-focus:dark:text-p1-cyan"
+                for="team"
+                className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
               >
                 Название команды
               </label>
-            </div>
-            <div className="relative px-5 py-2">
               <input
                 type="text"
-                id="tag"
-                className="peer block w-full appearance-none rounded-lg border-2 border-gray-300 bg-transparent px-2.5 pb-2.5 pt-4 text-sm text-p1-darkgreen focus:border-p2-orange focus:outline-none focus:ring-0 dark:border-gray-600 dark:text-white dark:focus:border-p2-orange"
-                placeholder=" "
+                id="team"
+                className="block w-full rounded-lg border border-gray-300 bg-p1-white p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                placeholder="Название команды"
+                required
               />
+            </div>
+            <div className="pb-2"></div>
+            <div>
               <label
-                htmlFor="floating_outlined"
-                className="z-8 absolute start-1 top-2 origin-[0] -translate-y-4 scale-75 transform bg-p1-white px-8 text-sm text-gray-500 duration-300 peer-placeholder-shown:top-1/2 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:scale-100 peer-focus:top-2 peer-focus:-translate-y-4 peer-focus:scale-75 peer-focus:px-2 peer-focus:text-p1-darkgreen rtl:peer-focus:left-auto rtl:peer-focus:translate-x-1/4 dark:bg-gray-900 dark:text-gray-400 peer-focus:dark:text-p1-cyan"
+                for="tag"
+                className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
               >
                 Хэш-Тэг
               </label>
-            </div>
-            <div className="relative px-5 py-2">
               <input
                 type="text"
-                id="EventGeolocation"
-                className="peer block w-full appearance-none rounded-lg border-2 border-gray-300 bg-transparent px-2.5 pb-2.5 pt-4 text-sm text-p1-darkgreen focus:border-p2-orange focus:outline-none focus:ring-0 dark:border-gray-600 dark:text-white dark:focus:border-p2-orange"
-                placeholder=" "
+                id="tag"
+                className="block w-full rounded-lg border border-gray-300 bg-p1-white p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                placeholder="Хэш-Тэг"
+                required
               />
-              <label
-                htmlFor="floating_outlined"
-                className="z-8 absolute start-1 top-2 origin-[0] -translate-y-4 scale-75 transform bg-p1-white px-8 text-sm text-gray-500 duration-300 peer-placeholder-shown:top-1/2 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:scale-100 peer-focus:top-2 peer-focus:-translate-y-4 peer-focus:scale-75 peer-focus:px-2 peer-focus:text-p1-darkgreen rtl:peer-focus:left-auto rtl:peer-focus:translate-x-1/4 dark:bg-gray-900 dark:text-gray-400 peer-focus:dark:text-p1-cyan"
-              >
-                Геолокация мероприятия
-              </label>
             </div>
-            <div className="relative px-5 py-2">
+            <div className="pb-2"></div>
+            <div>
+              <label
+                for="geolocation"
+                className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
+              >
+                Геолокация
+              </label>
               <input
                 type="text"
-                id="description"
-                className="peer block w-full appearance-none rounded-lg border-2 border-gray-300 bg-transparent px-2.5 pb-2.5 pt-4 text-sm text-p1-darkgreen focus:border-p2-orange focus:outline-none focus:ring-0 dark:border-gray-600 dark:text-white dark:focus:border-p2-orange"
-                placeholder=" "
+                id="geolocation"
+                className="block w-full rounded-lg border border-gray-300 bg-p1-white p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                placeholder="Геолокация"
+                required
               />
-              <label
-                htmlFor="floating_outlined"
-                className="z-8 absolute start-1 top-2 origin-[0] -translate-y-4 scale-75 transform bg-p1-white px-8 text-sm text-gray-500 duration-300 peer-placeholder-shown:top-1/2 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:scale-100 peer-focus:top-2 peer-focus:-translate-y-4 peer-focus:scale-75 peer-focus:px-2 peer-focus:text-p1-darkgreen rtl:peer-focus:left-auto rtl:peer-focus:translate-x-1/4 dark:bg-gray-900 dark:text-gray-400 peer-focus:dark:text-p1-cyan"
-              >
-                Описание
-              </label>
             </div>
-            <div className="pb-5"></div>
+            <div className="pb-2"></div>
+
+            <div className="pb-2"></div>
+            <div>
+              <label
+                for="message"
+                class="mb-2 block text-left text-sm font-medium text-p1-darkgreen dark:text-white"
+              >
+                Описание{" "}
+              </label>
+              <textarea
+                id="message"
+                rows="4"
+                class="block w-full rounded-lg border-2 border-gray-300 bg-p1-white p-2.5 text-sm text-p1-darkgreen focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
+                placeholder="Описание"
+              ></textarea>
+            </div>
+            <div className="pb-2"></div>
 
             <button className="rounded-3xl border-2 border-p1-darkgreen bg-p1-white px-20 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
               Создать NFT Награды
@@ -2685,6 +3173,79 @@ export default function Page() {
           Верификацию и удостоверение статуса National License, Promouter
           License Global License могут осуществить Management GAA
         </div>
+
+        <div className="grid grid-cols-7 gap-4">
+
+        
+          <div>1</div>
+          <div>1</div>
+          <div><button className="rounded-3xl border-2 border-p1-darkgreen bg-p1-white p-2 text-xl text-p1-darkgreen shadow-lg shadow-p1-cyan hover:bg-p1-darkgreen hover:text-p1-white">
+                Форма подачи заявки
+              </button></div>
+          
+       
+          <div>1</div>
+          <div>1</div><div class="col-span-1 col-start-1 row-span-2">  <Image
+          className="relative inline-block w-max overflow-hidden"
+          width={1000}
+          height={1000}
+          src="/Hero/13.png"
+          alt="13" 
+          /></div>
+          <div class="col-span-3 col-start-2 row-span-2">  <Image
+          className="relative inline-block w-max overflow-hidden"
+          width={1000}
+          height={1000}
+          src="/scheme GAA/Schem_Licenses-1.png"
+          alt="schem Licenses"
+        /></div>
+         
+             <div><Image
+          className="relative inline-block w-max overflow-hidden"
+          width={1000}
+          height={1000}
+          src="/Licenses/Management.png"
+          alt="Management" 
+          /></div>
+        
+          <div>11</div>
+          <div>12</div>
+          
+          <div><Image
+          className="relative inline-block w-max overflow-hidden"
+          width={1000}
+          height={1000}
+          src="/Licenses/Promoter.png"
+          alt="Promoter" 
+          /></div>
+          <div><Image
+          className="relative inline-block w-max overflow-hidden"
+          width={1000}
+          height={1000}
+          src="/Licenses/National.png"
+          alt="national" 
+          /></div>
+          <div><Image
+          className="relative inline-block w-max overflow-hidden"
+          width={1000}
+          height={1000}
+          src="/Licenses/Global.png"
+          alt="Global" 
+          /></div>
+          <div>111</div>
+          <div>112</div>
+          <div><Image
+          className="relative inline-block w-max overflow-hidden"
+          width={1000}
+          height={1000}
+          src="/Logo/MetaMask.png"
+          alt="Metamask" 
+          /></div>
+          <div>114</div>
+        </div>
+
+
+
         <Image
           className="relative inline-block w-max overflow-hidden"
           width={1000}
@@ -2738,6 +3299,26 @@ export default function Page() {
                   src="/Licenses/Promoter Lic.png"
                   alt="PromoterLic"
                 />
+                <div class="inline-flex rounded-md shadow-sm" role="group">
+                    <button
+                      type="button"
+                      class="w-full rounded-l-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-p2-orange focus:text-p1-white focus:ring-2 focus:ring-p2-orange dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange"
+                    >
+                      Promoter License
+                    </button>
+                    <button
+                      type="button"
+                      class="w-full border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-p2-orange focus:text-p1-white focus:ring-2 focus:ring-p2-orange dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange"
+                    >
+                      National License
+                    </button>
+                    <button
+                      type="button"
+                      class="w-full rounded-r-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-p2-orange focus:text-p1-white focus:ring-2 focus:ring-p2-orange dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange"
+                    >
+                     Global License
+                    </button>
+                  </div> 
               </div>
 
               <div>
@@ -2811,6 +3392,26 @@ export default function Page() {
                   src="/Licenses/National Lic.png"
                   alt="NationalLic"
                 />
+                <div class="inline-flex rounded-md shadow-sm" role="group">
+                <button
+                      type="button"
+                      class="w-full rounded-l-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-p2-orange focus:text-p1-white focus:ring-2 focus:ring-p2-orange dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange"
+                    >
+                      Promoter License
+                    </button>
+                    <button
+                      type="button"
+                      class="w-full border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-p2-orange focus:text-p1-white focus:ring-2 focus:ring-p2-orange dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange"
+                    >
+                      National License
+                    </button>
+                    <button
+                      type="button"
+                      class="w-full rounded-r-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-p2-orange focus:text-p1-white focus:ring-2 focus:ring-p2-orange dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange"
+                    >
+                     Global License
+                    </button>
+                  </div> 
               </div>
 
               <div>
@@ -2866,6 +3467,27 @@ export default function Page() {
                   src="/Licenses/Global Lic.png"
                   alt="GlobalLic"
                 />
+
+<div class="inline-flex rounded-md shadow-sm" role="group">
+<button
+                      type="button"
+                      class="w-full rounded-l-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-p2-orange focus:text-p1-white focus:ring-2 focus:ring-p2-orange dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange"
+                    >
+                      Promoter License
+                    </button>
+                    <button
+                      type="button"
+                      class="w-full border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-p2-orange focus:text-p1-white focus:ring-2 focus:ring-p2-orange dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange"
+                    >
+                      National License
+                    </button>
+                    <button
+                      type="button"
+                      class="w-full rounded-r-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-p2-orange focus:text-p1-white focus:ring-2 focus:ring-p2-orange dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange"
+                    >
+                     Global License
+                    </button>
+                  </div> 
               </div>
 
               <div>
@@ -2885,8 +3507,18 @@ export default function Page() {
               Создать NFT
             </button>
             <div className="pb-8"></div>
+
+            
           </div>
+         
         </div>
+        <div></div>
+        <div></div>
+         <div>
+          
+                   <div className="pb-8"></div>
+                  </div>
+                
       </div>
     </div>
   );

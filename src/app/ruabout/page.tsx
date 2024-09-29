@@ -63,7 +63,6 @@ export default function Page() {
       <div className="flex flex-row p-2">
         <div className="basis-1/5"></div>
         <div className="basis-3/5">
-          
           <div className="p-2 text-center text-6xl font-bold text-p1-darkgreen">
             О Нас
           </div>
@@ -74,7 +73,6 @@ export default function Page() {
       <div className="flex flex-row p-2">
         <div className="basis-1/6"></div>
         <div className="basis-4/6 text-p1-darkgreen">
-          
           <div className="my-5 space-y-6 rounded-3xl p-2">
             <div className="p-2 text-xl text-p1-darkgreen">
               Global Automotive Association (GAA) – это революционный
@@ -90,9 +88,8 @@ export default function Page() {
       <div className="flex flex-row p-2">
         <div className="basis-1/6"></div>
         <div className="basis-4/6 text-p1-darkgreen">
-          
           <div className="my-5 space-y-6 rounded-3xl p-2">
-            <div className="my-5 space-y-2 rounded-3xl border-4 border-p1-darkgreen p-6 text-center text-xl text-p1-darkgreen">
+            <div className="my-5 space-y-2 rounded-3xl border-4 border-p1-darkgreen p-6 text-center text-xl text-p1-darkgreen hover:border-p2-orange hover:shadow-xl">
               <p className="text-2xl font-bold">Наши амбициозные цели:</p>
               <p>Создание активного сообщества:</p>
               <p>
@@ -122,10 +119,9 @@ export default function Page() {
 
       <div className="flex flex-row p-2">
         <div className="basis-1/6"></div>
-        <div className="basis-2/6 text-p1-darkgreen">
-          
-          <div className="my-5 space-y-6 rounded-3xl p-2">
-            <div className="my-5 space-y-2 rounded-3xl border-4 border-p1-darkgreen p-6 text-center text-xl text-p1-darkgreen">
+        <div className="basis-2/6">
+          <div>
+            <div className="rounded-3xl border-4 border-p1-darkgreen p-6 text-center text-xl text-p1-darkgreen hover:border-p2-orange hover:shadow-xl">
               <p className="text-2xl font-bold">10,000</p>
               <p>уникальных NFT</p>
               <p>в коллекции</p>
@@ -133,20 +129,15 @@ export default function Page() {
             </div>
           </div>
         </div>
-        <div className="basis-2/6 text-p1-darkgreen"></div>
         <div className="basis-1/6"></div>
       </div>
 
       <div className="flex flex-row p-2">
         <div className="basis-1/6"></div>
+        <div className="basis-2/6"></div>
         <div className="basis-2/6 text-p1-darkgreen">
-          
-          <div className="my-5 space-y-6 rounded-3xl p-2"></div>
-        </div>
-        <div className="basis-2/6 text-p1-darkgreen">
-          
-          <div className="my-5 space-y-6 rounded-3xl p-2">
-            <div className="my-5 space-y-2 rounded-3xl border-4 border-p1-darkgreen p-6 text-center text-xl text-p1-darkgreen">
+          <div>
+            <div className="rounded-3xl border-4 border-p1-darkgreen p-6 text-center text-xl text-p1-darkgreen hover:border-p2-orange hover:shadow-xl">
               <p>первая коллекция</p>
               <p className="text-2xl font-bold">
                 Глобальной Автомобильной Ассоциации
@@ -160,8 +151,7 @@ export default function Page() {
       <div className="flex flex-row p-2">
         <div className="basis-1/5"></div>
         <div className="basis-3/5">
-          
-          <div className="p-2 text-center text-6xl font-bold text-p1-darkgreen">
+          <div className="pt-5 text-center text-6xl font-bold text-p1-darkgreen">
             RaceLads
           </div>
         </div>
@@ -171,9 +161,8 @@ export default function Page() {
       <div className="flex flex-row p-2">
         <div className="basis-1/6"></div>
         <div className="basis-4/6 text-p1-darkgreen">
-          
-          <div className="my-5 space-y-6 rounded-3xl p-2">
-            <div className="my-5 space-y-2 rounded-3xl border-4 border-p1-darkgreen p-6 text-center text-xl text-p1-darkgreen">
+          <div>
+            <div className="my-5 space-y-2 rounded-3xl border-4 border-p1-darkgreen p-6 text-center text-xl text-p1-darkgreen hover:border-p2-orange hover:shadow-xl">
               <p className="text-center text-2xl font-bold text-p1-darkgreen">
                 NFT коллекция «RaceLads»
               </p>
@@ -218,7 +207,6 @@ export default function Page() {
       <div className="flex flex-row p-2">
         <div className="basis-1/5"></div>
         <div className="basis-3/5">
-          
           <div className="p-2 text-center text-6xl font-bold text-p1-darkgreen">
             Мы планируем
           </div>
@@ -232,9 +220,8 @@ export default function Page() {
       <div className="flex flex-row p-2">
         <div className="basis-1/6"></div>
         <div className="basis-4/6 text-p1-darkgreen">
-          
-          <div className="my-5 space-y-6 rounded-3xl p-2">
-            <div className="my-5 space-y-2 rounded-3xl border-4 border-p1-darkgreen p-6 text-center text-xl text-p1-darkgreen">
+          <div>
+            <div className="my-5 space-y-2 rounded-3xl border-4 border-p1-darkgreen p-6 text-center text-xl text-p1-darkgreen hover:border-p2-orange hover:shadow-xl">
               <p className="text-center text-2xl font-bold text-p1-darkgreen">
                 В наших планах также выпуск и других уникальных коллекций для:
               </p>
@@ -281,7 +268,6 @@ export default function Page() {
       <div className="flex flex-row p-2">
         <div className="basis-1/5"></div>
         <div className="basis-3/5">
-          
           <div className="p-2 text-center text-6xl font-bold text-p1-darkgreen">
             NFT
           </div>
@@ -303,9 +289,8 @@ export default function Page() {
           />
         </div>
         <div className="basis-4/6 text-p1-darkgreen">
-          
-          <div className="my-5 space-y-6 rounded-3xl p-2">
-            <div className="my-5 space-y-2 rounded-3xl border-4 border-p1-darkgreen p-6 text-center text-xl text-p1-darkgreen">
+          <div>
+            <div className="my-5 space-y-2 rounded-3xl border-4 border-p1-darkgreen p-6 text-center text-xl text-p1-darkgreen hover:border-p2-orange hover:shadow-xl">
               <p className="text-center text-2xl font-bold text-p1-darkgreen">
                 NFT Сервисы
               </p>
@@ -336,7 +321,7 @@ export default function Page() {
               </p>
             </div>
 
-            <div className="my-5 space-y-2 rounded-3xl border-4 border-p1-darkgreen p-6 text-center text-xl text-p1-darkgreen">
+            <div className="my-5 space-y-2 rounded-3xl border-4 border-p1-darkgreen p-6 text-center text-xl text-p1-darkgreen hover:border-p2-orange hover:shadow-xl">
               <p className="text-center text-2xl font-bold text-p1-darkgreen">
                 NFT Награды
               </p>
@@ -372,7 +357,6 @@ export default function Page() {
       <div className="flex flex-row p-2">
         <div className="basis-1/5"></div>
         <div className="basis-3/5">
-          
           <div className="p-2 text-center text-6xl font-bold text-p1-darkgreen">
             выгода владельцу
           </div>
@@ -394,9 +378,8 @@ export default function Page() {
           />
         </div>
         <div className="basis-4/6 text-p1-darkgreen">
-          
-          <div className="my-5 space-y-6 rounded-3xl p-2">
-            <div className="my-5 space-y-2 rounded-3xl border-4 border-p1-darkgreen p-6 text-center text-xl text-p1-darkgreen">
+          <div>
+            <div className="my-5 space-y-2 rounded-3xl border-4 border-p1-darkgreen p-6 text-center text-xl text-p1-darkgreen hover:border-p2-orange hover:shadow-xl">
               <p className="text-center text-2xl font-bold text-p1-darkgreen">
                 Уникальные привилегии
               </p>
@@ -422,7 +405,7 @@ export default function Page() {
               </ul>
             </div>
 
-            <div className="my-5 space-y-2 rounded-3xl border-4 border-p1-darkgreen p-6 text-center text-xl text-p1-darkgreen">
+            <div className="my-5 space-y-2 rounded-3xl border-4 border-p1-darkgreen p-6 text-center text-xl text-p1-darkgreen hover:border-p2-orange hover:shadow-xl">
               <p className="text-center text-2xl font-bold text-p1-darkgreen">
                 Собственные мероприятия
               </p>
@@ -439,7 +422,7 @@ export default function Page() {
               </p>
             </div>
 
-            <div className="my-5 space-y-2 rounded-3xl border-4 border-p1-darkgreen p-6 text-center text-xl text-p1-darkgreen">
+            <div className="my-5 space-y-2 rounded-3xl border-4 border-p1-darkgreen p-6 text-center text-xl text-p1-darkgreen hover:border-p2-orange hover:shadow-xl">
               <p className="text-center text-2xl font-bold text-p1-darkgreen">
                 Децентрализованный портал
               </p>
@@ -475,7 +458,7 @@ export default function Page() {
               </ul>
             </div>
 
-            <div className="my-5 space-y-2 rounded-3xl border-4 border-p1-darkgreen p-6 text-center text-xl text-p1-darkgreen">
+            <div className="my-5 space-y-2 rounded-3xl border-4 border-p1-darkgreen p-6 text-center text-xl text-p1-darkgreen hover:border-p2-orange hover:shadow-xl">
               <p className="text-center text-2xl font-bold text-p1-darkgreen">
                 Выход на международный уровень
               </p>
@@ -516,8 +499,8 @@ export default function Page() {
         <div className="flex flex-row p-2">
           <div className="basis-1/6"></div>
           <div className="basis-4/6 text-p1-darkgreen">
-            <div className="my-5 space-y-6 rounded-3xl p-2">
-              <div className="my-5 space-y-2 rounded-3xl border-4 border-p1-darkgreen p-6 text-center text-xl text-p1-darkgreen">
+            <div>
+              <div className="my-5 space-y-2 rounded-3xl border-4 border-p1-darkgreen p-6 text-center text-xl text-p1-darkgreen hover:border-p2-orange hover:shadow-xl">
                 <p className="text-center text-2xl font-bold text-p1-darkgreen">
                   Почему Web 3?
                 </p>
@@ -543,254 +526,283 @@ export default function Page() {
                 </p>
               </div>
 
-              <div className="my-5 space-y-2 rounded-3xl border-4 border-p1-darkgreen p-6 text-center text-xl text-p1-darkgreen">
+              <div className="my-5 space-y-2 rounded-3xl border-4 border-p1-darkgreen p-6 text-center text-xl text-p1-darkgreen hover:border-p2-orange hover:shadow-xl">
                 <p className="text-center">
                   Присоединяйся к GAA и стань частью глобального движения,
                   которое создает новые правила справедливой игры в мире
                   автоспорта и автокультуры!
                 </p>
               </div>
-              <Image
-                className="relative mb-4 inline-block w-max overflow-hidden"
-                width={250}
-                height={250}
-                src="/Hero/cups.png"
-                alt="cups"
-              />
-              <Image
-                className="relative mb-4 inline-block w-max overflow-hidden"
-                width={500}
-                height={500}
-                src="/Hero/hero1.png"
-                alt="hero1"
-              />
+              <div className="grid h-4/5 grid-cols-3 place-content-center gap-4">
+                <div></div>
+                <Image
+                  className="relative mb-4 inline-block w-max overflow-hidden"
+                  width={250}
+                  height={250}
+                  src="/Hero/cups.png"
+                  alt="cups"
+                />
+              </div>
+              <div className="grid h-4/5 grid-cols-2 place-content-center gap-4">
+                <div></div>
+                <Image
+                  className="relative mb-4 inline-block w-max items-end overflow-hidden"
+                  width={500}
+                  height={500}
+                  src="/Hero/hero1.png"
+                  alt="hero1"
+                />
+              </div>
             </div>
           </div>
           <div className="basis-1/6"></div>
         </div>
-        <div className="text-center text-6xl font-bold"> Выгода участника</div>
-        <div className="my-5 rounded-3xl border-4 border-gray-500 p-6">
-          <div className="pb-3 text-center font-bold">
-            Уникальные привилегии:
+
+        <div className="text-center text-6xl font-bold text-p1-darkgreen">
+          {" "}
+          Выгода участника
+        </div>
+        <div className="grid h-4/5 grid-cols-3 place-content-center gap-4 text-p1-darkgreen">
+          <div>
+            <div className="my-5 rounded-3xl border-4 border-p1-darkgreen p-6 hover:border-p2-orange hover:shadow-xl">
+              <p className="pb-3 text-center font-bold">
+                Уникальные привилегии:
+              </p>
+              <p className="pb-5">
+                Мероприятия: Участие в мероприятиях, концертах, выставках.
+              </p>
+              <p className="pb-5">Доступ в Priority Club</p>
+              <p className="pb-5">
+                Предоставляем нашим членам эксклюзивные бонусы – билеты на
+                мероприятия, автограф-сессии, фотосессии, лекции, экскурсии,
+                розыгрыши NFT и многое другое.
+              </p>
+            </div>
+            <div className="my-5 rounded-3xl border-4 border-p1-darkgreen p-6 hover:border-p2-orange hover:shadow-xl">
+              <p className="pb-3 text-center font-bold">
+                Социальные привилегии:
+              </p>
+              <p className="pb-5">
+                Сообщества: Доступ к эксклюзивным чатам, форумам или группам в
+                социальных сетях.
+              </p>
+              <p className="pb-5">
+                Сетевые мероприятия: Участие в приватных сетевых событиях и
+                встречах.
+              </p>
+            </div>
+            <div className="my-5 rounded-3xl border-4 border-p1-darkgreen p-6 hover:border-p2-orange hover:shadow-xl">
+              <p className="pb-3 text-center font-bold">Персонализация:</p>
+              <p className="pb-5">
+                Услуги на заказ: Возможность заказать уникальные произведения
+                искусства или персонализированные товары.
+              </p>
+              <p className="pb-5">
+                Аватары и идентификация: Персонализированные аватары или
+                идентификационные знаки в онлайн-пространствах.
+              </p>
+            </div>
           </div>
-          <div className="pb-5">
-            Мероприятия: Участие в мероприятиях, концертах, выставках. Доступ в
-            Priority Club
+
+          <div>
+            <div className="my-5 rounded-3xl border-4 border-p1-darkgreen p-6 hover:border-p2-orange hover:shadow-xl">
+              <p className="pb-3 text-center font-bold">
+                Скидки и предложения:
+              </p>
+              <p className="pb-5">
+                Покупки: Скидки на товары и услуги, предлагаемые проектом или
+                его партнерами.
+              </p>
+              <div className="pb-5">
+                VIP-услуги: Доступ к премиальным услугам и сервисам.
+              </div>
+            </div>
+            <div className="my-5 rounded-3xl border-4 border-p1-darkgreen p-6 hover:border-p2-orange hover:shadow-xl">
+              <p className="pb-3 text-center font-bold">
+                Вознаграждения и бонусы:
+              </p>
+              <p className="pb-5">
+                Airdrop: Бесплатное получение дополнительных токенов или NFT.
+              </p>
+            </div>
+            <div className="my-5 rounded-3xl border-4 border-p1-darkgreen p-6 hover:border-p2-orange hover:shadow-xl">
+              <p className="pb-3 text-center font-bold">Физические товары:</p>
+              <p className="pb-5">
+                Коллекционные предметы: Получение физической версии произведения
+                искусства или коллекционного предмета.
+              </p>
+              <p className="pb-5">
+                Мерчандайзинг: Одежда, аксессуары и другие брендированные
+                товары.
+              </p>
+            </div>
+            <div className="my-5 rounded-3xl border-4 border-p1-darkgreen p-6 hover:border-p2-orange hover:shadow-xl">
+              <p className="pb-3 text-center font-bold">
+                Образовательные ресурсы:
+              </p>
+              <p className="pb-5">
+                Курсы и семинары: Доступ к обучающим материалам, вебинарам и
+                мастер-классам.
+              </p>
+              <div className="pb-5">Мастер-классы с ведущими пилотами.</div>
+            </div>
           </div>
-          <div className="pb-5">
-            Предоставляем нашим членам эксклюзивные бонусы – билеты на
-            мероприятия, автограф-сессии, фотосессии, лекции, экскурсии,
-            розыгрыши NFT и многое другое.
+
+          <div>
+            <div className="my-5 rounded-3xl border-4 border-p1-darkgreen p-6 hover:border-p2-orange hover:shadow-xl">
+              <p className="pb-3 text-center font-bold">Права голоса:</p>
+              <p className="pb-5">
+                DAO (децентрализованные автономные организации):
+              </p>
+              <p className="pb-5">
+                Члены нашего сообщества смогут подавать заявки и принимать
+                участие в голосованиях по выбору формата мероприятий, судей,
+                участников и прочим вопросам
+              </p>
+            </div>
+            <div className="my-5 rounded-3xl border-4 border-p1-darkgreen p-6 hover:border-p2-orange hover:shadow-xl">
+              <p className="pb-3 text-center font-bold">
+                Децентрализованный портал:
+              </p>
+              <p className="pb-5">
+                Запускаем платформу с актуальными новостями автоспорта, фото и
+                видео отчетами, статистикой, зафиксированной в блокчейн, а также
+                анонсами и голосованиями для членов сообщества.
+              </p>
+              <p className="pb-5">Выход на международный портал.</p>
+              <p className="pb-5">
+                Расширяем наше присутствие на международной арене, чтобы
+                объединить автолюбителей по всему миру, стирая границы и
+                расстояния.
+              </p>
+            </div>
+            <div className="my-5 rounded-3xl border-4 border-p1-darkgreen p-6 hover:border-p2-orange hover:shadow-xl">
+              <p className="pb-3 text-center font-bold">
+                Инвестиционные возможности:
+              </p>
+              <p className="pb-5">
+                Доступ к ранним инвестициям: Возможность вкладывать в проекты на
+                ранних стадиях или участвовать в закрытых раундах
+                финансирования.
+              </p>
+            </div>
           </div>
         </div>
-        <div className="my-5 rounded-3xl border-4 border-gray-500 p-6">
-          <div className="pb-3 text-center font-bold">
-            Скидки и предложения:
-          </div>
-          <div className="pb-5">
-            Покупки: Скидки на товары и услуги, предлагаемые проектом или его
-            партнерами.
-          </div>
-          <div className="pb-5">
-            VIP-услуги: Доступ к премиальным услугам и сервисам.
-          </div>
-        </div>
-        <div className="my-5 rounded-3xl border-4 border-gray-500 p-6">
-          <div className="pb-3 text-center font-bold">Права голоса:</div>
-          <div className="pb-5">
-            DAO (децентрализованные автономные организации):
-          </div>
-          <div className="pb-5">
-            Члены нашего сообщества смогут подавать заявки и принимать участие в
-            голосованиях по выбору формата мероприятий, судей, участников и
-            прочим вопросам
-          </div>
-        </div>
-        <div className="my-5 rounded-3xl border-4 border-gray-500 p-6">
-          <div className="pb-3 text-center font-bold">
-            Децентрализованный портал:
-          </div>
-          <div className="pb-5">
-            Запускаем платформу с актуальными новостями автоспорта, фото и видео
-            отчетами, статистикой, зафиксированной в блокчейн, а также анонсами
-            и голосованиями для членов сообщества.
-          </div>
-          <div className="pb-5">Выход на международный портал.</div>
-          <div className="pb-5">
-            Расширяем наше присутствие на международной арене, чтобы объединить
-            автолюбителей по всему миру, стирая границы и расстояния.
-          </div>
-        </div>
-        <div className="my-5 rounded-3xl border-4 border-gray-500 p-6">
-          <div className="pb-3 text-center font-bold">
-            Вознаграждения и бонусы:
-          </div>
-          <div className="pb-5">
-            Airdrop: Бесплатное получение дополнительных токенов или NFT.
-          </div>
-        </div>
-        <div className="my-5 rounded-3xl border-4 border-gray-500 p-6">
-          <div className="pb-3 text-center font-bold">
-            Социальные привилегии:
-          </div>
-          <div className="pb-5">
-            Сообщества: Доступ к эксклюзивным чатам, форумам или группам в
-            социальных сетях.
-          </div>
-          <div className="pb-5">
-            Сетевые мероприятия: Участие в приватных сетевых событиях и
-            встречах.
-          </div>
-        </div>
-        <div className="my-5 rounded-3xl border-4 border-gray-500 p-6">
-          <div className="pb-3 text-center font-bold">Персонализация:</div>
-          <div className="pb-5">
-            Услуги на заказ: Возможность заказать уникальные произведения
-            искусства или персонализированные товары.
-          </div>
-          <div className="pb-5">
-            Аватары и идентификация: Персонализированные аватары или
-            идентификационные знаки в онлайн-пространствах.
-          </div>
-        </div>
-        <div className="my-5 rounded-3xl border-4 border-gray-500 p-6">
-          <div className="pb-3 text-center font-bold">Физические товары:</div>
-          <div className="pb-5">
-            Коллекционные предметы: Получение физической версии произведения
-            искусства или коллекционного предмета.
-          </div>
-          <div className="pb-5">
-            Мерчандайзинг: Одежда, аксессуары и другие брендированные товары.
-          </div>
-        </div>
-        <div className="my-5 rounded-3xl border-4 border-gray-500 p-6">
-          <div className="pb-3 text-center font-bold">
-            Образовательные ресурсы:
-          </div>
-          <div className="pb-5">
-            Курсы и семинары: Доступ к обучающим материалам, вебинарам и
-            мастер-классам.
-          </div>
-          <div className="pb-5">Мастер-классы с ведущими пилотами.</div>
-        </div>
-        <div className="my-5 rounded-3xl border-4 border-gray-500 p-6">
-          <div className="pb-3 text-center font-bold">
-            Инвестиционные возможности:
-          </div>
-          <div className="pb-5">
-            Доступ к ранним инвестициям: Возможность вкладывать в проекты на
-            ранних стадиях или участвовать в закрытых раундах финансирования.
-          </div>
-        </div>
-        <div className="text-center text-6xl font-bold">
+
+        <div className="text-center text-6xl font-bold text-p1-darkgreen">
           Термины и определения
         </div>
-        <div className="my-5 rounded-3xl border-4 border-gray-500 p-6">
-          <div className="pb-3 text-center font-bold">
-            Заголовок внутри блока
+        <div className="my-5 rounded-3xl border-4 border-p1-darkgreen p-6 text-p1-darkgreen hover:border-p2-orange hover:shadow-xl">
+          <div className="pb-5">
+            <span className="font-semibold">NFT</span>, также известные как
+            Non-Fungible Token (невзаимозаменяемый токен), лучше всего понимать
+            как цифровые активы, существующие в блокчейн. Как только этот актив
+            попадает в блокчейн, его уже нельзя удалить, и вы можете видеть
+            каждого человека, который когда-либо владел этим NFT, поскольку все
+            сделки хранятся в блокчейн. NFT могут быть представлены в виде
+            цифрового искусства, музыки, виртуальной недвижимости, вплоть до
+            коллекционных предметов и игровых активов! Любой цифровой актив
+            может быть заминчен (отчеканен) или токенизирован и превращен в NFT.
+            После минтинга (чеканки) или токенизации эти активы можно покупать,
+            продавать и торговать ими с помощью криптовалюты.
           </div>
           <div className="pb-5">
-            NFT, также известные как Non-Fungible Token (невзаимозаменяемый
-            токен), лучше всего понимать как цифровые активы, существующие в
-            блокчейн. Как только этот актив попадает в блокчейн, его уже нельзя
-            удалить, и вы можете видеть каждого человека, который когда-либо
-            владел этим NFT, поскольку все сделки хранятся в блокчейн. NFT могут
-            быть представлены в виде цифрового искусства, музыки, виртуальной
-            недвижимости, вплоть до коллекционных предметов и игровых активов!
-            Любой цифровой актив может быть заминчен (отчеканен) или
-            токенизирован и превращен в NFT. После минтинга (чеканки) или
-            токенизации эти активы можно покупать, продавать и торговать ими с
-            помощью криптовалюты.
+            <span className="font-semibold">Assets</span> (активы) - термин,
+            используемый для обозначения цифровых коллекционных предметов. Это
+            может быть произведение искусства, музыка, твит или что-либо еще,
+            что можно купить в качестве NFT.
           </div>
           <div className="pb-5">
-            Assets (активы) - термин, используемый для обозначения цифровых
-            коллекционных предметов. Это может быть произведение искусства,
-            музыка, твит или что-либо еще, что можно купить в качестве NFT.
+            <span className="font-semibold">Блокчейн</span> – основа всех
+            криптовалют и NFT. Блокчейн был придуман Сатоши Накамото в 2008 году
+            как децентрализованная (то есть не контролируемая одним человеком,
+            компанией или организацией) система учета транзакций. Это способ
+            отслеживания всех транзакций, которые происходят в самом блокчейн, а
+            также протоколы, созданные для подтверждения этих транзакций. Таким
+            образом, вы можете быть уверены в подлинности того, что покупаете,
+            отправляете или получаете. В блокчейн ничего нельзя изменить!
           </div>
           <div className="pb-5">
-            Блокчейн – основа всех криптовалют и NFT. Блокчейн был придуман
-            Сатоши Накамото в 2008 году как децентрализованная (то есть не
-            контролируемая одним человеком, компанией или организацией) система
-            учета транзакций. Это способ отслеживания всех транзакций, которые
-            происходят в самом блокчейн, а также протоколы, созданные для
-            подтверждения этих транзакций. Таким образом, вы можете быть уверены
-            в подлинности того, что покупаете, отправляете или получаете. В
-            блокчейн ничего нельзя изменить!
+            <span className="font-semibold">Минт</span> (чеканка) – процесс
+            первого добавления NFT в блокчейн. Это важная составляющая NFT и то,
+            что делает их такими ценными, потому что, когда предмет или актив
+            отчеканен (заминчен), этот факт является доказательством его
+            подлинности.
           </div>
           <div className="pb-5">
-            Минт (чеканка) – процесс первого добавления NFT в блокчейн. Это
-            важная составляющая NFT и то, что делает их такими ценными, потому
-            что, когда предмет или актив отчеканен (заминчен), этот факт
-            является доказательством его подлинности.
+            <span className="font-semibold">
+              DAO (Decentralized Autonomous Organization)
+            </span>{" "}
+            - расшифровывается как Децентрализованная Автономная Организация и
+            представляет собой организацию, которая установила свои собственные
+            правила на основе смарт-контрактов в блокчейн.
           </div>
           <div className="pb-5">
-            DAO (Decentralized Autonomous Organization) - расшифровывается как
-            Децентрализованная Автономная Организация и представляет собой
-            организацию, которая установила свои собственные правила на основе
-            смарт-контрактов в блокчейн.
+            <span className="font-semibold">DeFi (Decentralised Finance)</span>{" "}
+            - децентрализованные финансы, что является общим термином для любого
+            вида финансовой деятельности, использующей криптовалюту и принципы
+            блокчейн. Вероятно, вы не часто будете сталкиваться с этим термином,
+            но его полезно знать, поскольку эта область развивается и будет все
+            чаще появляться в повседневных обсуждениях.
           </div>
           <div className="pb-5">
-            DeFi (Decentralised Finance) - децентрализованные финансы, что
-            является общим термином для любого вида финансовой деятельности,
-            использующей криптовалюту и принципы блокчейн. Вероятно, вы не часто
-            будете сталкиваться с этим термином, но его полезно знать, поскольку
-            эта область развивается и будет все чаще появляться в повседневных
-            обсуждениях.
+            <span className="font-semibold">Floor</span> (Флор) -
+            &quot;минимальная цена&quot; проекта. Это самая низкая цена, по
+            которой вы можете купить NFT из данного проекта на вторичном рынке.
           </div>
           <div className="pb-5">
-            Floor (Флор) - &quot;минимальная цена&quot; проекта. Это самая
-            низкая цена, по которой вы можете купить NFT из данного проекта на
-            вторичном рынке.
+            <span className="font-semibold">Газ</span> – это
+            &quot;комиссия&quot;, которую нужно оплатить, чтобы совершить сделку
+            (или любые другие транзакции) в блокчейн. Цена газа может расти и
+            падать в зависимости от спроса и предложения (нагрузки на сеть).
           </div>
           <div className="pb-5">
-            Газ – это &quot;комиссия&quot;, которую нужно оплатить, чтобы
-            совершить сделку (или любые другие транзакции) в блокчейн. Цена газа
-            может расти и падать в зависимости от спроса и предложения (нагрузки
-            на сеть).
+            <span className="font-semibold">Генеративная коллекция</span> - у
+            всех NFT в каждой коллекции есть общие черты: одежда, цвет кожи,
+            головной убор, фон и т. д. Можно смешивать и сочетать эти
+            особенности, чтобы создать коллекцию NFT, которая будет уникальной.
+            Хотя исходные черты создаются вручную, каждый NFT автоматически
+            создается компьютером со случайной комбинацией всех доступных черт.
           </div>
           <div className="pb-5">
-            Генеративная коллекция - у всех NFT в каждой коллекции есть общие
-            черты: одежда, цвет кожи, головной убор, фон и т. д. Можно смешивать
-            и сочетать эти особенности, чтобы создать коллекцию NFT, которая
-            будет уникальной. Хотя исходные черты создаются вручную, каждый NFT
-            автоматически создается компьютером со случайной комбинацией всех
-            доступных черт.
+            <span className="font-semibold">Metadata</span> (метаданные) - все
+            необходимые и уникальные данные (свойства), делающие конкретный NFT
+            именно тем, чем он является. Простыми словами, метаданные
+            определяют, как выглядит предмет коллекционирования.
           </div>
           <div className="pb-5">
-            Metadata (метаданные) - все необходимые и уникальные данные
-            (свойства), делающие конкретный NFT именно тем, чем он является.
-            Простыми словами, метаданные определяют, как выглядит предмет
-            коллекционирования.
+            <span className="font-semibold">Metamask</span> (метамаск) - самый
+            популярный криптокошелек в экосистеме Ethereum.
           </div>
           <div className="pb-5">
-            Metamask (метамаск) - самый популярный криптокошелек в экосистеме
-            Ethereum.
+            <span className="font-semibold">OpenSea</span> - самый популярный
+            маркетплейс для покупки / продажи NFT.
           </div>
           <div className="pb-5">
-            OpenSea - самый популярный маркетплейс для покупки / продажи NFT.
+            <span className="font-semibold">PFP (Profile Picture) </span> -
+            простыми словами ваш &quot;аватар&quot;, в качестве которого может
+            выступать например NFT.
           </div>
           <div className="pb-5">
-            PFP (Profile Picture) - простыми словами ваш &quot;аватар&quot;, в
-            качестве которого может выступать например NFT.
+            <span className="font-semibold">Rarity </span> (рарити/ редкость) –
+            этот термин определяет, насколько редким (ценным) является
+            конкретный NFT в рамках коллекции, исходя из уникальности его
+            метаданных.
           </div>
           <div className="pb-5">
-            Rarity (рарити/ редкость) – этот термин определяет, насколько редким
-            (ценным) является конкретный NFT в рамках коллекции, исходя из
-            уникальности его метаданных.
-          </div>
-          <div className="pb-5">
-            Ревил - как правило в генеративных коллекциях сразу после минта ваш
-            NFT попадает в криптокошелек в &quot;закрытом виде&quot;. Таким
-            образом все NFT данной коллекции будут иметь одинаковый внешний вид.
-            Через какое-то время (определяется создателем коллекции) с
-            обновлением метаданных происходит открытие (ревил) NFT в следствие
-            чего токен становится уникальным.
+            <span className="font-semibold">Ревил</span> - как правило в
+            генеративных коллекциях сразу после минта ваш NFT попадает в
+            криптокошелек в &quot;закрытом виде&quot;. Таким образом все NFT
+            данной коллекции будут иметь одинаковый внешний вид. Через какое-то
+            время (определяется создателем коллекции) с обновлением метаданных
+            происходит открытие (ревил) NFT в следствие чего токен становится
+            уникальным.
           </div>
         </div>
-        <div className="text-center text-6xl font-bold">
+        <div className="text-center text-6xl font-bold text-p1-darkgreen">
           Политика приватности
         </div>
-        <div className="my-5 rounded-3xl border-4 border-gray-500 p-6">
+        <div className="my-5 rounded-3xl border-4 border-p1-darkgreen p-6 text-p1-darkgreen hover:border-p2-orange hover:shadow-xl">
           <div className="pb-3 text-center font-bold">
             Политика в отношении обработки персональных данных
           </div>
@@ -1226,11 +1238,13 @@ export default function Page() {
             Automotive Association
           </div>
         </div>
-        <div className="text-center text-6xl font-bold">
+        <div className="text-center text-6xl font-bold text-p1-darkgreen">
           Политика конфиденциальности
         </div>
-        <div className="text-center text-6xl font-bold">Cookie </div>
-        <div className="my-5 rounded-3xl border-4 border-gray-500 p-6">
+        <div className="text-center text-6xl font-bold text-p1-darkgreen">
+          Cookie{" "}
+        </div>
+        <div className="my-5 rounded-3xl border-4 border-p1-darkgreen p-6 text-p1-darkgreen hover:border-p2-orange hover:shadow-xl">
           <div className="pb-3 text-center font-bold">
             Уведомление об использовании Cookie
           </div>
@@ -1320,7 +1334,7 @@ export default function Page() {
         </div>
         <div className="mx-auto flex max-w-full flex-row space-y-2 p-2">
           <details
-            className="rounded-lg p-2 open:bg-p1-white open:shadow-lg open:ring-1 open:ring-black/5 dark:open:bg-slate-900 dark:open:ring-white/10"
+            className="rounded-3xl border-p1-darkgreen p-2 open:border-4 open:bg-p1-white open:shadow-lg open:ring-1 open:ring-black/5 hover:border-p2-orange dark:open:bg-slate-900 dark:open:ring-white/10"
             open
           >
             <summary className="text-lm select-none space-y-4 font-semibold leading-6 text-p1-darkgreen dark:text-white">
@@ -1366,7 +1380,7 @@ export default function Page() {
           </details>
         </div>
         <div className="mx-auto flex max-w-full flex-row space-y-2 p-2">
-          <details className="rounded-lg p-2 open:bg-p1-white open:shadow-lg open:ring-1 open:ring-black/5 dark:open:bg-slate-900 dark:open:ring-white/10">
+          <details className="rounded-3xl border-p1-darkgreen p-2 open:border-4 open:bg-p1-white open:shadow-lg open:ring-1 open:ring-black/5 hover:border-p2-orange dark:open:bg-slate-900 dark:open:ring-white/10">
             <summary className="text-lm select-none space-y-4 font-semibold leading-6 text-p1-darkgreen dark:text-white">
               Для того чтобы лучше понять, что такое Web3 надо знать, что такое
               Web 1 и Web 2
@@ -1438,7 +1452,7 @@ export default function Page() {
           </details>
         </div>
         <div className="mx-auto flex max-w-full flex-row space-y-2 p-2">
-          <details className="rounded-lg p-2 open:bg-p1-white open:shadow-lg open:ring-1 open:ring-black/5 dark:open:bg-slate-900 dark:open:ring-white/10">
+          <details className="rounded-3xl border-p1-darkgreen p-2 open:border-4 open:bg-p1-white open:shadow-lg open:ring-1 open:ring-black/5 hover:border-p2-orange dark:open:bg-slate-900 dark:open:ring-white/10">
             <summary className="text-lm select-none space-y-4 font-semibold leading-6 text-p1-darkgreen dark:text-white">
               Web 2
             </summary>
@@ -1519,7 +1533,7 @@ export default function Page() {
           </details>
         </div>
         <div className="mx-auto flex max-w-full flex-row space-y-2 p-2">
-          <details className="rounded-lg p-2 open:bg-p1-white open:shadow-lg open:ring-1 open:ring-black/5 dark:open:bg-slate-900 dark:open:ring-white/10">
+          <details className="rounded-3xl border-p1-darkgreen p-2 open:border-4 open:bg-p1-white open:shadow-lg open:ring-1 open:ring-black/5 hover:border-p2-orange dark:open:bg-slate-900 dark:open:ring-white/10">
             <summary className="text-lm select-none space-y-4 font-semibold leading-6 text-p1-darkgreen dark:text-white">
               Децентрализация
             </summary>
@@ -1580,7 +1594,7 @@ export default function Page() {
           </details>
         </div>
         <div className="mx-auto flex max-w-full flex-row space-y-2 p-2">
-          <details className="rounded-lg p-2 open:bg-p1-white open:shadow-lg open:ring-1 open:ring-black/5 dark:open:bg-slate-900 dark:open:ring-white/10">
+          <details className="rounded-3xl border-p1-darkgreen p-2 open:border-4 open:bg-p1-white open:shadow-lg open:ring-1 open:ring-black/5 hover:border-p2-orange dark:open:bg-slate-900 dark:open:ring-white/10">
             <summary className="text-lm select-none space-y-4 font-semibold leading-6 text-p1-darkgreen dark:text-white">
               Что такое блокчейн?
             </summary>
@@ -1721,7 +1735,7 @@ export default function Page() {
           </details>
         </div>
         <div className="mx-auto flex max-w-full flex-row space-y-2 p-2">
-          <details className="rounded-lg p-2 open:bg-p1-white open:shadow-lg open:ring-1 open:ring-black/5 dark:open:bg-slate-900 dark:open:ring-white/10">
+          <details className="rounded-3xl border-p1-darkgreen p-2 open:border-4 open:bg-p1-white open:shadow-lg open:ring-1 open:ring-black/5 hover:border-p2-orange dark:open:bg-slate-900 dark:open:ring-white/10">
             <summary className="text-lm select-none space-y-4 font-semibold leading-6 text-p1-darkgreen dark:text-white">
               Смарт-контракты
             </summary>
@@ -1856,7 +1870,7 @@ export default function Page() {
           </details>
         </div>
         <div className="mx-auto flex max-w-full flex-row space-y-2 p-2">
-          <details className="rounded-lg p-2 open:bg-p1-white open:shadow-lg open:ring-1 open:ring-black/5 dark:open:bg-slate-900 dark:open:ring-white/10">
+          <details className="rounded-3xl border-p1-darkgreen p-2 open:border-4 open:bg-p1-white open:shadow-lg open:ring-1 open:ring-black/5 hover:border-p2-orange dark:open:bg-slate-900 dark:open:ring-white/10">
             <summary className="text-lm select-none space-y-4 font-semibold leading-6 text-p1-darkgreen dark:text-white">
               ДАО (Децентрализованная автономная организация)
             </summary>
@@ -1962,7 +1976,7 @@ export default function Page() {
           </details>
         </div>
         <div className="mx-auto flex max-w-full flex-row space-y-2 p-2">
-          <details className="rounded-lg p-2 open:bg-p1-white open:shadow-lg open:ring-1 open:ring-black/5 dark:open:bg-slate-900 dark:open:ring-white/10">
+          <details className="rounded-3xl border-p1-darkgreen p-2 open:border-4 open:bg-p1-white open:shadow-lg open:ring-1 open:ring-black/5 hover:border-p2-orange dark:open:bg-slate-900 dark:open:ring-white/10">
             <summary className="text-lm select-none space-y-4 font-semibold leading-6 text-p1-darkgreen dark:text-white">
               Организация хранения данных в децентрализованной сети по техологии
               IPFS
@@ -2073,7 +2087,7 @@ export default function Page() {
           </details>
         </div>
         <div className="mx-auto flex max-w-full flex-row space-y-2 p-2">
-          <details className="rounded-lg p-2 open:bg-p1-white open:shadow-lg open:ring-1 open:ring-black/5 dark:open:bg-slate-900 dark:open:ring-white/10">
+          <details className="rounded-3xl border-p1-darkgreen p-2 open:border-4 open:bg-p1-white open:shadow-lg open:ring-1 open:ring-black/5 hover:border-p2-orange dark:open:bg-slate-900 dark:open:ring-white/10">
             <summary className="text-lm select-none space-y-4 font-semibold leading-6 text-p1-darkgreen dark:text-white">
               Организация хранения данных в децентрализованной сети по техологии
               Blockweave
@@ -2093,7 +2107,7 @@ export default function Page() {
           </details>
         </div>
         <div className="mx-auto flex max-w-full flex-row space-y-2 p-2">
-          <details className="rounded-lg p-2 open:bg-p1-white open:shadow-lg open:ring-1 open:ring-black/5 dark:open:bg-slate-900 dark:open:ring-white/10">
+          <details className="rounded-3xl border-p1-darkgreen p-2 open:border-4 open:bg-p1-white open:shadow-lg open:ring-1 open:ring-black/5 hover:border-p2-orange dark:open:bg-slate-900 dark:open:ring-white/10">
             <summary className="text-lm select-none space-y-4 font-semibold leading-6 text-p1-darkgreen dark:text-white">
               Что такое токен?
             </summary>
@@ -2216,7 +2230,7 @@ export default function Page() {
           </details>
         </div>
         <div className="mx-auto flex max-w-full flex-row space-y-2 p-2">
-          <details className="rounded-lg p-2 open:bg-p1-white open:shadow-lg open:ring-1 open:ring-black/5 dark:open:bg-slate-900 dark:open:ring-white/10">
+          <details className="rounded-3xl border-p1-darkgreen p-2 open:border-4 open:bg-p1-white open:shadow-lg open:ring-1 open:ring-black/5 hover:border-p2-orange dark:open:bg-slate-900 dark:open:ring-white/10">
             <summary className="text-lm select-none space-y-4 font-semibold leading-6 text-p1-darkgreen dark:text-white">
               Что такое NFT?
             </summary>
@@ -2342,7 +2356,7 @@ export default function Page() {
           </details>
         </div>
         <div className="mx-auto flex max-w-full flex-row space-y-2 p-2">
-          <details className="rounded-lg p-2 open:bg-p1-white open:shadow-lg open:ring-1 open:ring-black/5 dark:open:bg-slate-900 dark:open:ring-white/10">
+          <details className="rounded-3xl border-p1-darkgreen p-2 open:border-4 open:bg-p1-white open:shadow-lg open:ring-1 open:ring-black/5 hover:border-p2-orange dark:open:bg-slate-900 dark:open:ring-white/10">
             <summary className="text-lm select-none space-y-4 font-semibold leading-6 text-p1-darkgreen dark:text-white">
               Каким образом хранится NFT и сведения о том, что я собственник?
             </summary>
@@ -2458,7 +2472,7 @@ export default function Page() {
           </details>
         </div>
         <div className="mx-auto flex max-w-full flex-row space-y-2 p-2">
-          <details className="rounded-lg p-2 open:bg-p1-white open:shadow-lg open:ring-1 open:ring-black/5 dark:open:bg-slate-900 dark:open:ring-white/10">
+          <details className="rounded-3xl border-p1-darkgreen p-2 open:border-4 open:bg-p1-white open:shadow-lg open:ring-1 open:ring-black/5 hover:border-p2-orange dark:open:bg-slate-900 dark:open:ring-white/10">
             <summary className="text-lm select-none space-y-4 font-semibold leading-6 text-p1-darkgreen dark:text-white">
               Что такое метаданные?
             </summary>
@@ -2576,7 +2590,7 @@ export default function Page() {
           </details>
         </div>
         <div className="mx-auto flex max-w-full flex-row space-y-2 p-2">
-          <details className="rounded-lg p-2 open:bg-p1-white open:shadow-lg open:ring-1 open:ring-black/5 dark:open:bg-slate-900 dark:open:ring-white/10">
+          <details className="rounded-3xl border-p1-darkgreen p-2 open:border-4 open:bg-p1-white open:shadow-lg open:ring-1 open:ring-black/5 hover:border-p2-orange dark:open:bg-slate-900 dark:open:ring-white/10">
             <summary className="text-lm select-none space-y-4 font-semibold leading-6 text-p1-darkgreen dark:text-white">
               Что такое MetaMask?
             </summary>
@@ -2680,6 +2694,7 @@ export default function Page() {
         <div className="flex flex-row space-x-8 pb-5">
           <div className="basis-1/3 text-center text-p1-darkgreen">
             <Image
+              className="rounded-full"
               width={500}
               height={500}
               src="/Team/Mike Starodub.png"
@@ -2706,6 +2721,7 @@ export default function Page() {
           </div>
           <div className="basis-1/3 text-center text-p1-darkgreen">
             <Image
+              className="rounded-full"
               width={500}
               height={500}
               src="/Team/Andrey_Laus.png"
@@ -2728,6 +2744,7 @@ export default function Page() {
           </div>
           <div className="basis-1/3 text-center text-p1-darkgreen">
             <Image
+              className="rounded-full"
               width={500}
               height={500}
               src="/Team/David Agadjanian.png"
@@ -2751,6 +2768,7 @@ export default function Page() {
         <div className="flex flex-row space-x-8 pb-5">
           <div className="basis-1/3 text-center text-p1-darkgreen">
             <Image
+              className="rounded-full"
               width={500}
               height={500}
               src="/Team/Valerii_Kostikov.png"
@@ -2772,6 +2790,7 @@ export default function Page() {
           </div>
           <div className="basis-1/3 text-center text-p1-darkgreen">
             <Image
+              className="rounded-full"
               width={500}
               height={500}
               src="/Team/Lada.png"
@@ -2795,6 +2814,7 @@ export default function Page() {
           </div>
           <div className="basis-1/3 text-center text-p1-darkgreen">
             <Image
+              className="rounded-full"
               width={500}
               height={500}
               src="/Team/GermanBenkovsky.png"
@@ -2815,37 +2835,178 @@ export default function Page() {
             </div>
           </div>
         </div>
-        <div className="text-center text-6xl font-bold text-p1-darkgreen"> Наши Контакты </div>
-        <div className="text-center text-p1-darkgreen"> Смело пишите и звоните нам.</div>
+
+        <div className="text-center text-6xl font-bold text-p1-darkgreen">
+          {" "}
+          Наши Контакты{" "}
+        </div>
+        <div className="text-center text-p1-darkgreen">
+          {" "}
+          Смело пишите и звоните нам.
+        </div>
         <div className="text-center text-p1-darkgreen">
           Мы очень любим общаться с нашими партнерами.
         </div>
-        <div className="my-5 rounded-3xl border-4 border-gray-500 p-6">
-          <div className="pb-3 text-center font-bold text-p1-darkgreen">
-            Если вы хотите продвигать свое мероприятие с помощью Web3, создавать
-            награды NFT или быть представителем GAA в вашем регионе, заполните
-            форму заявки, и мы свяжемся с вами. Нажмите кнопку ниже
-          </div>
-          <button className="rounded-xl border-2 border-p1-darkgreen bg-p1-white px-10 py-8 text-xl text-p1-darkgreen shadow-lg hover:bg-p1-darkgreen hover:text-p1-white">
-                    Форма подачи заявки
-                  </button>
-                  <div className="grid grid-cols-2 gap-4">
-                    <div></div>
-          <div className="pb-5">Ваша электронная почта</div>
-          <div></div>
-          <div className="pb-5">ФИО</div>
-          <div></div>
-          <div className="pb-5">Название организации</div>
-          <div></div>
-          <div className="pb-5">
-            Ваши вопросы, комментарии, предложения и т.п.
-          </div>
-          </div>
-          <div className="pb-5">
+        <div className="my-5 rounded-3xl border-4 border-p1-darkgreen p-6 hover:border-p2-orange hover:shadow-xl">
+          <div className="grid grid-cols-2 gap-4">
+            <div>
+              <p className="pb-3 text-center font-semibold text-p1-darkgreen">
+                Если вы хотите продвигать свое мероприятие с помощью Web3,
+                создавать награды NFT или быть представителем GAA в вашем
+                регионе, заполните форму заявки, и мы свяжемся с вами.
+                <p className="pb-3 pt-5 text-center font-semibold text-p1-darkgreen">Нажмите кнопку ниже</p>
+              </p>
+              <button className="rounded-3xl border-2 border-p1-darkgreen bg-p1-white px-10 py-8 text-xl text-p1-darkgreen shadow-lg shadow-p1-cyan hover:bg-p1-darkgreen hover:text-p1-white">
+                Форма подачи заявки
+              </button>
+            </div>
+            <div>
+            <div>
+              <label
+                for="full_name"
+                className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
+              >
+                Полное имя
+              </label>
+              <input
+                type="text"
+                id="full_name"
+                className="block w-full rounded-lg border border-gray-300 bg-p1-white p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                placeholder="Иванов Иван Иванович"
+                required
+              />
+            </div>
+            <div className="pb-2"></div>
+
+            <div>
+              <label
+                for="nic_name"
+                className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
+              >
+                Ник-Имя
+              </label>
+              <input
+                type="text"
+                id="nic_name"
+                className="block w-full rounded-lg border border-gray-300 bg-p1-white p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                placeholder="Ник-Имя"
+                required
+              />
+            </div>
+            <div className="pb-2"></div>
+            <div>
+              <label
+                for="organization"
+                className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
+              >
+                Название организации/команды
+              </label>
+              <input
+                type="text"
+                id="organization"
+                className="block w-full rounded-lg border border-gray-300 bg-p1-white p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                placeholder="Название организации/команды"
+                required
+              />
+            </div>
+            <div className="pb-2"></div>
+
+            <div>
+              <label
+                for="email"
+                className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
+              >
+                Электронная почта
+              </label>
+              <input
+                type="email"
+                id="email"
+                className="block w-full rounded-lg border border-gray-300 bg-p1-white p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                placeholder="Электронная почта"
+                required
+              />
+            </div>
+            <div className="pb-2"></div>
+             
+              <div>
+                <label
+                  for="message"
+                  class="mb-2 block text-sm font-medium text-p1-darkgreen dark:text-white"
+                >
+                  {"Ваши вопросы, комментарии, предложения ..."}
+                </label>
+                <textarea
+                  id="message"
+                  rows="4"
+                  class="block w-full rounded-lg border-2 border-gray-300 bg-p1-white p-2.5 text-sm text-p1-darkgreen focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
+                  placeholder="Ваши вопросы, комментарии, предложения ..."
+                ></textarea>
+              </div>
+              <div className="pb-2"></div>
+              <div class="inline-flex items-center">
+              <label
+                class="relative flex cursor-pointer items-center"
+                for="check-with-link"
+              >
+                <input
+                  type="checkbox"
+                  checked
+                  class="peer h-5 w-5 cursor-pointer appearance-none rounded border border-slate-300 shadow transition-all checked:border-slate-800 checked:bg-slate-800 hover:shadow-md"
+                  id="check-with-link"
+                />
+                <span class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 transform text-white opacity-0 peer-checked:opacity-100">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="h-3.5 w-3.5"
+                    viewBox="0 0 20 20"
+                    fill="currentColor"
+                    stroke="currentColor"
+                    stroke-width="1"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                      clip-rule="evenodd"
+                    ></path>
+                  </svg>
+                </span>
+              </label>
+              <label
+                class="ml-2 cursor-pointer text-sm text-slate-600"
+                for="check-with-link"
+              >
+                <p>
+                  I agree with the
+                  <a
+                    href="#"
+                    class="font-medium underline hover:text-slate-800"
+                  >
+                    terms and conditions
+                  </a>
+                  .
+                </p>
+              </label>
+            </div>
             Я соглашаюсь с Политикой приватности и на обработку персональных
             данных.
+            <div className="pb-2"></div>
+
+                 <button className="rounded-3xl border-2 border-p1-darkgreen bg-p1-white px-10 py-8 text-xl text-p1-darkgreen shadow-lg shadow-p1-cyan hover:bg-p1-darkgreen hover:text-p1-white">
+                Отправить в GAA
+              </button>
           </div>
-          <div className="pb-5">Наш e-mail: info@gaa.zone</div>
+         
+ <div className="pb-5">Наш e-mail: info@gaa.zone</div>
+            </div>
+            <div></div>
+
+            <div></div>
+
+            <div></div>
+          </div>
+          <div className="pb-5">
+            
+         
         </div>
       </div>
     </div>

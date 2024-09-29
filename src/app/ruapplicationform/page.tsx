@@ -37,6 +37,23 @@ export default function Page() {
             <p className="p-2 text-2xl font-semibold text-p1-darkgreen">
               Выберите лицензии, которые вы хотите получить
             </p>
+            <form className="mx-auto max-w-2xl">
+        <label
+          htmlFor="license"
+          className="mb-2 block w-full text-sm font-medium text-p1-darkgreen dark:text-p1-white"
+        >
+          Select an option
+        </label>
+        <select
+          id="license"
+          className="block w-full rounded-lg border-2 border-gray-300 bg-gray-50 p-2.5 text-sm text-p1-darkgreen focus:border-p1-cyan focus:ring-p1-cyan dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p1-cyan dark:focus:ring-p1-cyan"
+        >
+          <option selected>Выберите лицензию</option>
+          <option value="Promoter">Лицензия Промоутер</option>
+          <option value="National">Национальная лицензия</option>
+          <option value="Global">Глобальная лицензия</option>
+        </select>
+      </form>
             <p className="px-5 text-left text-xl text-p1-darkgreen">
               Лицензия Промоутера
             </p>
