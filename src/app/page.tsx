@@ -81,7 +81,6 @@ export default function Page() {
                   </button>
 
                   <div className="place-items-centre mt-5 grid grid-cols-3 gap-2 p-4">
-                    
                     <Image
                       width={1000}
                       height={1200}
@@ -102,7 +101,7 @@ export default function Page() {
                       src="/Licenses/Global.png"
                       alt="Global"
                     />
-                   
+
                     <h2 className="pt-2 text-center text-xl text-p1-darkgreen">
                       Все награды в единой коллекции
                     </h2>

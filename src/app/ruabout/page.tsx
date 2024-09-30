@@ -2854,160 +2854,155 @@ export default function Page() {
                 Если вы хотите продвигать свое мероприятие с помощью Web3,
                 создавать награды NFT или быть представителем GAA в вашем
                 регионе, заполните форму заявки, и мы свяжемся с вами.
-                <p className="pb-3 pt-5 text-center font-semibold text-p1-darkgreen">Нажмите кнопку ниже</p>
+                <p className="pb-3 pt-5 text-center font-semibold text-p1-darkgreen">
+                  Нажмите кнопку ниже
+                </p>
               </p>
               <button className="rounded-3xl border-2 border-p1-darkgreen bg-p1-white px-10 py-8 text-xl text-p1-darkgreen shadow-lg shadow-p1-cyan hover:bg-p1-darkgreen hover:text-p1-white">
                 Форма подачи заявки
               </button>
             </div>
             <div>
-            <div>
-              <label
-                for="full_name"
-                className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
-              >
-                Полное имя
-              </label>
-              <input
-                type="text"
-                id="full_name"
-                className="block w-full rounded-lg border border-gray-300 bg-p1-white p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
-                placeholder="Иванов Иван Иванович"
-                required
-              />
-            </div>
-            <div className="pb-2"></div>
-
-            <div>
-              <label
-                for="nic_name"
-                className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
-              >
-                Ник-Имя
-              </label>
-              <input
-                type="text"
-                id="nic_name"
-                className="block w-full rounded-lg border border-gray-300 bg-p1-white p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
-                placeholder="Ник-Имя"
-                required
-              />
-            </div>
-            <div className="pb-2"></div>
-            <div>
-              <label
-                for="organization"
-                className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
-              >
-                Название организации/команды
-              </label>
-              <input
-                type="text"
-                id="organization"
-                className="block w-full rounded-lg border border-gray-300 bg-p1-white p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
-                placeholder="Название организации/команды"
-                required
-              />
-            </div>
-            <div className="pb-2"></div>
-
-            <div>
-              <label
-                for="email"
-                className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
-              >
-                Электронная почта
-              </label>
-              <input
-                type="email"
-                id="email"
-                className="block w-full rounded-lg border border-gray-300 bg-p1-white p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
-                placeholder="Электронная почта"
-                required
-              />
-            </div>
-            <div className="pb-2"></div>
-             
               <div>
                 <label
-                  for="message"
-                  class="mb-2 block text-sm font-medium text-p1-darkgreen dark:text-white"
+                  htmlFor="full_name"
+                  className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
+                >
+                  Полное имя
+                </label>
+                <input
+                  type="text"
+                  id="full_name"
+                  className="block w-full rounded-lg border border-gray-300 bg-p1-white p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                  placeholder="Иванов Иван Иванович"
+                  required
+                />
+              </div>
+              <div className="pb-2"></div>
+              <div>
+                <label
+                  htmlFor="nic_name"
+                  className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
+                >
+                  Ник-Имя
+                </label>
+                <input
+                  type="text"
+                  id="nic_name"
+                  className="block w-full rounded-lg border border-gray-300 bg-p1-white p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                  placeholder="Ник-Имя"
+                  required
+                />
+              </div>
+              <div className="pb-2"></div>
+              <div>
+                <label
+                  htmlFor="organization"
+                  className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
+                >
+                  Название организации/команды
+                </label>
+                <input
+                  type="text"
+                  id="organization"
+                  className="block w-full rounded-lg border border-gray-300 bg-p1-white p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                  placeholder="Название организации/команды"
+                  required
+                />
+              </div>
+              <div className="pb-2"></div>
+              <div>
+                <label
+                  htmlFor="email"
+                  className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
+                >
+                  Электронная почта
+                </label>
+                <input
+                  type="email"
+                  id="email"
+                  className="block w-full rounded-lg border border-gray-300 bg-p1-white p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                  placeholder="Электронная почта"
+                  required
+                />
+              </div>
+              <div className="pb-2"></div>
+              <div>
+                <label
+                  htmlFor="message"
+                  className="mb-2 block text-sm font-medium text-p1-darkgreen dark:text-white"
                 >
                   {"Ваши вопросы, комментарии, предложения ..."}
                 </label>
                 <textarea
                   id="message"
-                  rows="4"
-                  class="block w-full rounded-lg border-2 border-gray-300 bg-p1-white p-2.5 text-sm text-p1-darkgreen focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
+                  rows={4}
+                  className="block w-full rounded-lg border-2 border-gray-300 bg-p1-white p-2.5 text-sm text-p1-darkgreen focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
                   placeholder="Ваши вопросы, комментарии, предложения ..."
                 ></textarea>
               </div>
               <div className="pb-2"></div>
-              <div class="inline-flex items-center">
-              <label
-                class="relative flex cursor-pointer items-center"
-                for="check-with-link"
-              >
-                <input
-                  type="checkbox"
-                  checked
-                  class="peer h-5 w-5 cursor-pointer appearance-none rounded border border-slate-300 shadow transition-all checked:border-slate-800 checked:bg-slate-800 hover:shadow-md"
-                  id="check-with-link"
-                />
-                <span class="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 transform text-white opacity-0 peer-checked:opacity-100">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    class="h-3.5 w-3.5"
-                    viewBox="0 0 20 20"
-                    fill="currentColor"
-                    stroke="currentColor"
-                    stroke-width="1"
-                  >
-                    <path
-                      fill-rule="evenodd"
-                      d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                      clip-rule="evenodd"
-                    ></path>
-                  </svg>
-                </span>
-              </label>
-              <label
-                class="ml-2 cursor-pointer text-sm text-slate-600"
-                for="check-with-link"
-              >
-                <p>
-                  I agree with the
-                  <a
-                    href="#"
-                    class="font-medium underline hover:text-slate-800"
-                  >
-                    terms and conditions
-                  </a>
-                  .
-                </p>
-              </label>
-            </div>
-            Я соглашаюсь с Политикой приватности и на обработку персональных
-            данных.
-            <div className="pb-2"></div>
-
-                 <button className="rounded-3xl border-2 border-p1-darkgreen bg-p1-white px-10 py-8 text-xl text-p1-darkgreen shadow-lg shadow-p1-cyan hover:bg-p1-darkgreen hover:text-p1-white">
+              <div className="inline-flex items-center">
+                <label
+                  className="relative flex cursor-pointer items-center"
+                  htmlFor="check-with-link"
+                >
+                  <input
+                    type="checkbox"
+                    checked
+                    className="peer h-5 w-5 cursor-pointer appearance-none rounded border border-slate-300 shadow transition-all checked:border-slate-800 checked:bg-slate-800 hover:shadow-md"
+                    id="check-with-link"
+                  />
+                  <span className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 transform text-white opacity-0 peer-checked:opacity-100">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="h-3.5 w-3.5"
+                      viewBox="0 0 20 20"
+                      fill="currentColor"
+                      stroke="currentColor"
+                      strokeWidth="1"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                        clip-rule="evenodd"
+                      ></path>
+                    </svg>
+                  </span>
+                </label>
+                <label
+                  className="ml-2 cursor-pointer text-sm text-slate-600"
+                  htmlFor="check-with-link"
+                >
+                  <p>
+                    I agree with the
+                    <a
+                      href="#"
+                      className="font-medium underline hover:text-slate-800"
+                    >
+                      terms and conditions
+                    </a>
+                    .
+                  </p>
+                </label>
+              </div>
+              Я соглашаюсь с Политикой приватности и на обработку персональных
+              данных.
+              <div className="pb-2"></div>
+              <button className="rounded-3xl border-2 border-p1-darkgreen bg-p1-white px-10 py-8 text-xl text-p1-darkgreen shadow-lg shadow-p1-cyan hover:bg-p1-darkgreen hover:text-p1-white">
                 Отправить в GAA
               </button>
-          </div>
-         
- <div className="pb-5">Наш e-mail: info@gaa.zone</div>
             </div>
-            <div></div>
 
-            <div></div>
-
-            <div></div>
+            <div className="pb-5">Наш e-mail: info@gaa.zone</div>
           </div>
-          <div className="pb-5">
-            
-         
+          <div></div>
+
+          <div></div>
+
+          <div></div>
         </div>
+        <div className="pb-5"></div>
       </div>
     </div>
   );

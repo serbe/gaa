@@ -434,7 +434,7 @@ export default function Page() {
             <div className="flex w-full items-center justify-center p-5">
               <label
                 htmlFor="dropzone-file"
-                className="flex h-96 w-full cursor-pointer flex-col items-center justify-center rounded-lg border-2 border-dashed border-gray-300 bg-gray-50 hover:bg-gray-100 dark:border-gray-600 dark:bg-gray-700 dark:hover:border-gray-500 dark:hover:bg-gray-600 dark:hover:bg-gray-800"
+                className="flex h-96 w-full cursor-pointer flex-col items-center justify-center rounded-lg border-2 border-dashed border-gray-300 bg-gray-50 hover:bg-gray-100 dark:border-gray-600 dark:bg-gray-700 dark:hover:border-gray-500 dark:hover:bg-gray-800"
               >
                 <div className="flex flex-col items-center justify-center pb-6 pt-5">
                   <svg
@@ -446,9 +446,9 @@ export default function Page() {
                   >
                     <path
                       stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
                       d="M13 13h3a3 3 0 0 0 0-6h-.025A5.56 5.56 0 0 0 16 6.5 5.5 5.5 0 0 0 5.207 5.021C5.137 5.017 5.071 5 5 5a4 4 0 0 0 0 8h2.167M10 15V6m0 0L8 8m2-2 2 2"
                     />
                   </svg>
@@ -500,10 +500,10 @@ export default function Page() {
               Созданные вами NFT автоматически попадут в глобальную коллекцию
               GAA
             </p>
-            <p className="p-2 text-2xl font-normal font-semibold text-p1-darkgreen">
+            <p className="p-2 text-2xl font-semibold text-p1-darkgreen">
               это единый сборник мирового сообщества
             </p>
-            <p className="p-5 text-2xl font-normal font-semibold text-p1-darkgreen">
+            <p className="p-5 text-2xl font-semibold text-p1-darkgreen">
               Если вы планируете раздать или продать свои NFT, вы можете сделать
               несколько NFT одновременно
             </p>
@@ -525,7 +525,7 @@ export default function Page() {
             <div className="pb-5"></div>
             <div>
               <label
-                for="discipline"
+                htmlFor="discipline"
                 className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
               >
                 Дисциплина
@@ -541,7 +541,7 @@ export default function Page() {
             <div className="pb-2"></div>
             <div>
               <label
-                for="team"
+                htmlFor="team"
                 className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
               >
                 Название команды
@@ -557,7 +557,7 @@ export default function Page() {
             <div className="pb-2"></div>
             <div>
               <label
-                for="full_name"
+                htmlFor="full_name"
                 className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
               >
                 Полное имя
@@ -574,7 +574,7 @@ export default function Page() {
 
             <div>
               <label
-                for="nic_name"
+                htmlFor="nic_name"
                 className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
               >
                 Ник-Имя
@@ -591,7 +591,7 @@ export default function Page() {
 
             <div>
               <label
-                for="birthday"
+                htmlFor="birthday"
                 className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
               >
                 Дата рождения
@@ -608,7 +608,7 @@ export default function Page() {
 
             <div>
               <label
-                for="contry"
+                htmlFor="contry"
                 className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
               >
                 Страна
@@ -625,7 +625,7 @@ export default function Page() {
 
             <div>
               <label
-                for="city"
+                htmlFor="city"
                 className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
               >
                 Город
@@ -643,15 +643,15 @@ export default function Page() {
             <div className="pb-2"></div>
             <div>
               <label
-                for="message"
-                class="mb-2 block text-left text-sm font-medium text-p1-darkgreen dark:text-white"
+                htmlFor="message"
+                className="mb-2 block text-left text-sm font-medium text-p1-darkgreen dark:text-white"
               >
                 Описание{" "}
               </label>
               <textarea
                 id="message"
-                rows="4"
-                class="block w-full rounded-lg border-2 border-gray-300 bg-p1-white p-2.5 text-sm text-p1-darkgreen focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
+                rows={4}
+                className="block w-full rounded-lg border-2 border-gray-300 bg-p1-white p-2.5 text-sm text-p1-darkgreen focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
                 placeholder="Описание"
               ></textarea>
             </div>
@@ -798,7 +798,7 @@ export default function Page() {
             <div className="flex w-full items-center justify-center p-5">
               <label
                 htmlFor="dropzone-file"
-                className="flex h-96 w-full cursor-pointer flex-col items-center justify-center rounded-lg border-2 border-dashed border-gray-300 bg-gray-50 hover:bg-gray-100 dark:border-gray-600 dark:bg-gray-700 dark:hover:border-gray-500 dark:hover:bg-gray-600 dark:hover:bg-gray-800"
+                className="flex h-96 w-full cursor-pointer flex-col items-center justify-center rounded-lg border-2 border-dashed border-gray-300 bg-gray-50 hover:bg-gray-100 dark:border-gray-600 dark:bg-gray-700 dark:hover:border-gray-500 dark:hover:bg-gray-800"
               >
                 <div className="flex flex-col items-center justify-center pb-6 pt-5">
                   <svg
@@ -810,9 +810,9 @@ export default function Page() {
                   >
                     <path
                       stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
                       d="M13 13h3a3 3 0 0 0 0-6h-.025A5.56 5.56 0 0 0 16 6.5 5.5 5.5 0 0 0 5.207 5.021C5.137 5.017 5.071 5 5 5a4 4 0 0 0 0 8h2.167M10 15V6m0 0L8 8m2-2 2 2"
                     />
                   </svg>
@@ -864,10 +864,10 @@ export default function Page() {
               Созданные вами NFT автоматически попадут в глобальную коллекцию
               GAA
             </p>
-            <p className="p-2 text-2xl font-normal font-semibold text-p1-darkgreen">
+            <p className="p-2 text-2xl font-semibold text-p1-darkgreen">
               это единый сборник мирового сообщества
             </p>
-            <p className="p-5 text-2xl font-normal font-semibold text-p1-darkgreen">
+            <p className="p-5 text-2xl font-semibold text-p1-darkgreen">
               Если вы планируете раздать или продать свои NFT, вы можете сделать
               несколько NFT одновременно
             </p>
@@ -889,7 +889,7 @@ export default function Page() {
             <div className="pb-5"></div>
             <div>
               <label
-                for="discipline"
+                htmlFor="discipline"
                 className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
               >
                 Дисциплина
@@ -905,7 +905,7 @@ export default function Page() {
             <div className="pb-2"></div>
             <div>
               <label
-                for="team"
+                htmlFor="team"
                 className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
               >
                 Название команды
@@ -921,7 +921,7 @@ export default function Page() {
             <div className="pb-2"></div>
             <div>
               <label
-                for="full_name"
+                htmlFor="full_name"
                 className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
               >
                 Полное имя
@@ -938,7 +938,7 @@ export default function Page() {
 
             <div>
               <label
-                for="nic_name"
+                htmlFor="nic_name"
                 className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
               >
                 Ник-Имя
@@ -955,7 +955,7 @@ export default function Page() {
 
             <div>
               <label
-                for="birthday"
+                htmlFor="birthday"
                 className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
               >
                 Дата рождения
@@ -972,7 +972,7 @@ export default function Page() {
 
             <div>
               <label
-                for="contry"
+                htmlFor="contry"
                 className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
               >
                 Страна
@@ -989,7 +989,7 @@ export default function Page() {
 
             <div>
               <label
-                for="city"
+                htmlFor="city"
                 className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
               >
                 Город
@@ -1007,15 +1007,15 @@ export default function Page() {
             <div className="pb-2"></div>
             <div>
               <label
-                for="message"
-                class="mb-2 block text-left text-sm font-medium text-p1-darkgreen dark:text-white"
+                htmlFor="message"
+                className="mb-2 block text-left text-sm font-medium text-p1-darkgreen dark:text-white"
               >
                 Описание{" "}
               </label>
               <textarea
                 id="message"
-                rows="4"
-                class="block w-full rounded-lg border-2 border-gray-300 bg-p1-white p-2.5 text-sm text-p1-darkgreen focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
+                rows={4}
+                className="block w-full rounded-lg border-2 border-gray-300 bg-p1-white p-2.5 text-sm text-p1-darkgreen focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
                 placeholder="Описание"
               ></textarea>
             </div>
@@ -1203,7 +1203,7 @@ export default function Page() {
             <div className="flex w-full items-center justify-center p-5">
               <label
                 htmlFor="dropzone-file"
-                className="flex h-64 w-full cursor-pointer flex-col items-center justify-center rounded-lg border-2 border-dashed border-gray-300 bg-gray-50 hover:bg-gray-100 dark:border-gray-600 dark:bg-gray-700 dark:hover:border-gray-500 dark:hover:bg-gray-600 dark:hover:bg-gray-800"
+                className="flex h-64 w-full cursor-pointer flex-col items-center justify-center rounded-lg border-2 border-dashed border-gray-300 bg-gray-50 hover:bg-gray-100 dark:border-gray-600 dark:bg-gray-700 dark:hover:border-gray-500 dark:hover:bg-gray-800"
               >
                 <div className="flex flex-col items-center justify-center pb-6 pt-5">
                   <svg
@@ -1215,9 +1215,9 @@ export default function Page() {
                   >
                     <path
                       stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
                       d="M13 13h3a3 3 0 0 0 0-6h-.025A5.56 5.56 0 0 0 16 6.5 5.5 5.5 0 0 0 5.207 5.021C5.137 5.017 5.071 5 5 5a4 4 0 0 0 0 8h2.167M10 15V6m0 0L8 8m2-2 2 2"
                     />
                   </svg>
@@ -1243,7 +1243,7 @@ export default function Page() {
 
             <div>
               <label
-                for="full_name"
+                htmlFor="full_name"
                 className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
               >
                 Полное имя
@@ -1260,7 +1260,7 @@ export default function Page() {
 
             <div>
               <label
-                for="nic_name"
+                htmlFor="nic_name"
                 className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
               >
                 Ник-Имя
@@ -1277,7 +1277,7 @@ export default function Page() {
 
             <div>
               <label
-                for="birthday"
+                htmlFor="birthday"
                 className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
               >
                 Дата рождения
@@ -1294,7 +1294,7 @@ export default function Page() {
 
             <div>
               <label
-                for="contry"
+                htmlFor="contry"
                 className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
               >
                 Страна
@@ -1311,7 +1311,7 @@ export default function Page() {
 
             <div>
               <label
-                for="city"
+                htmlFor="city"
                 className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
               >
                 Город
@@ -1329,15 +1329,15 @@ export default function Page() {
             <div className="pb-2"></div>
             <div>
               <label
-                for="message"
-                class="mb-2 block text-left text-sm font-medium text-p1-darkgreen dark:text-white"
+                htmlFor="message"
+                className="mb-2 block text-left text-sm font-medium text-p1-darkgreen dark:text-white"
               >
                 Описание{" "}
               </label>
               <textarea
                 id="message"
-                rows="4"
-                class="block w-full rounded-lg border-2 border-gray-300 bg-p1-white p-2.5 text-sm text-p1-darkgreen focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
+                rows={4}
+                className="block w-full rounded-lg border-2 border-gray-300 bg-p1-white p-2.5 text-sm text-p1-darkgreen focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
                 placeholder="Описание"
               ></textarea>
             </div>
@@ -1465,10 +1465,10 @@ export default function Page() {
               Созданные вами NFT автоматически попадут в глобальную коллекцию
               GAA
             </p>
-            <p className="p-2 text-2xl font-normal font-semibold text-p1-darkgreen">
+            <p className="p-2 text-2xl font-semibold text-p1-darkgreen">
               это единый сборник мирового сообщества
             </p>
-            <p className="p-5 text-2xl font-normal font-semibold text-p1-darkgreen">
+            <p className="p-5 text-2xl font-semibold text-p1-darkgreen">
               Если вы планируете раздать или продать свои NFT, вы можете сделать
               несколько NFT одновременно
             </p>
@@ -1486,7 +1486,7 @@ export default function Page() {
             <div className="flex w-full items-center justify-center p-5">
               <label
                 htmlFor="dropzone-file"
-                className="flex h-64 w-full cursor-pointer flex-col items-center justify-center rounded-lg border-2 border-dashed border-gray-300 bg-gray-50 hover:bg-gray-100 dark:border-gray-600 dark:bg-gray-700 dark:hover:border-gray-500 dark:hover:bg-gray-600 dark:hover:bg-gray-800"
+                className="flex h-64 w-full cursor-pointer flex-col items-center justify-center rounded-lg border-2 border-dashed border-gray-300 bg-gray-50 hover:bg-gray-100 dark:border-gray-600 dark:bg-gray-700 dark:hover:border-gray-500 dark:hover:bg-gray-800"
               >
                 <div className="flex flex-col items-center justify-center pb-6 pt-5">
                   <svg
@@ -1498,9 +1498,9 @@ export default function Page() {
                   >
                     <path
                       stroke="currentColor"
-                      stroke-linecap="round"
-                      stroke-linejoin="round"
-                      stroke-width="2"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      strokeWidth="2"
                       d="M13 13h3a3 3 0 0 0 0-6h-.025A5.56 5.56 0 0 0 16 6.5 5.5 5.5 0 0 0 5.207 5.021C5.137 5.017 5.071 5 5 5a4 4 0 0 0 0 8h2.167M10 15V6m0 0L8 8m2-2 2 2"
                     />
                   </svg>
@@ -1526,7 +1526,7 @@ export default function Page() {
 
             <div>
               <label
-                for="car_category"
+                htmlFor="car_category"
                 className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
               >
                 Категория Авто
@@ -1542,7 +1542,7 @@ export default function Page() {
             <div className="pb-2"></div>
             <div>
               <label
-                for="first_name"
+                htmlFor="first_name"
                 className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
               >
                 Самодельный или Оригональный
@@ -1558,7 +1558,7 @@ export default function Page() {
             <div className="pb-2"></div>
             <div>
               <label
-                for="full_name"
+                htmlFor="full_name"
                 className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
               >
                 Полное имя
@@ -1575,7 +1575,7 @@ export default function Page() {
 
             <div>
               <label
-                for="nic_name"
+                htmlFor="nic_name"
                 className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
               >
                 Ник-Имя
@@ -1592,7 +1592,7 @@ export default function Page() {
 
             <div>
               <label
-                for="birthday"
+                htmlFor="birthday"
                 className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
               >
                 Дата рождения
@@ -1609,7 +1609,7 @@ export default function Page() {
 
             <div>
               <label
-                for="brand"
+                htmlFor="brand"
                 className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
               >
                 Марка авто
@@ -1625,7 +1625,7 @@ export default function Page() {
             <div className="pb-2"></div>
             <div>
               <label
-                for="model"
+                htmlFor="model"
                 className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
               >
                 Модель авто
@@ -1641,7 +1641,7 @@ export default function Page() {
             <div className="pb-2"></div>
             <div>
               <label
-                for="year_made"
+                htmlFor="year_made"
                 className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
               >
                 Год создания
@@ -1657,7 +1657,7 @@ export default function Page() {
             <div className="pb-2"></div>
             <div>
               <label
-                for="engine"
+                htmlFor="engine"
                 className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
               >
                 Двигатель
@@ -1673,7 +1673,7 @@ export default function Page() {
             <div className="pb-2"></div>
             <div>
               <label
-                for="hp"
+                htmlFor="hp"
                 className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
               >
                 Лошадиных сил
@@ -1690,7 +1690,7 @@ export default function Page() {
 
             <div>
               <label
-                for="contry"
+                htmlFor="contry"
                 className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
               >
                 Страна
@@ -1706,7 +1706,7 @@ export default function Page() {
             <div className="pb-2"></div>
             <div>
               <label
-                for="first_name"
+                htmlFor="first_name"
                 className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
               >
                 Город
@@ -1724,15 +1724,15 @@ export default function Page() {
             <div className="pb-2"></div>
             <div>
               <label
-                for="message"
-                class="mb-2 block text-left text-sm font-medium text-p1-darkgreen dark:text-white"
+                htmlFor="message"
+                className="mb-2 block text-left text-sm font-medium text-p1-darkgreen dark:text-white"
               >
                 Описание{" "}
               </label>
               <textarea
                 id="message"
-                rows="4"
-                class="block w-full rounded-lg border-2 border-gray-300 bg-p1-white p-2.5 text-sm text-p1-darkgreen focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
+                rows={4}
+                className="block w-full rounded-lg border-2 border-gray-300 bg-p1-white p-2.5 text-sm text-p1-darkgreen focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
                 placeholder="Описание"
               ></textarea>
             </div>
@@ -1907,208 +1907,234 @@ export default function Page() {
             </p>
             <div className="grid grid-cols-3 gap-4">
               <div>
-                <div class="inline-flex rounded-md shadow-sm" role="group">
+                <div className="inline-flex rounded-md shadow-sm" role="group">
                   <button
                     type="button"
-                    class="rounded-s-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                    className="rounded-s-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
                   >
                     {"<"}
                   </button>
                   <button
                     type="button"
-                    class="w-36 border-b border-t border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                    className="w-36 border-b border-t border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
                   >
                     фон
                   </button>
                   <button
                     type="button"
-                    class="rounded-e-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                    className="rounded-e-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
                   >
                     {">"}
                   </button>
                 </div>
                 <div>
-                  <div class="inline-flex rounded-md shadow-sm" role="group">
+                  <div
+                    className="inline-flex rounded-md shadow-sm"
+                    role="group"
+                  >
                     <button
                       type="button"
-                      class="rounded-s-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                      className="rounded-s-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
                     >
                       {"<"}
                     </button>
                     <button
                       type="button"
-                      class="w-36 border-b border-t border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                      className="w-36 border-b border-t border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
                     >
                       тело
                     </button>
                     <button
                       type="button"
-                      class="rounded-e-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                      className="rounded-e-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
                     >
                       {">"}
                     </button>
                   </div>
-                  <div class="inline-flex rounded-md shadow-sm" role="group">
+                  <div
+                    className="inline-flex rounded-md shadow-sm"
+                    role="group"
+                  >
                     <button
                       type="button"
-                      class="rounded-s-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                      className="rounded-s-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
                     >
                       {"<"}
                     </button>
                     <button
                       type="button"
-                      class="w-36 border-b border-t border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                      className="w-36 border-b border-t border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
                     >
                       глаза
                     </button>
                     <button
                       type="button"
-                      class="rounded-e-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                      className="rounded-e-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
                     >
                       {">"}
                     </button>
                   </div>
-                  <div class="inline-flex rounded-md shadow-sm" role="group">
+                  <div
+                    className="inline-flex rounded-md shadow-sm"
+                    role="group"
+                  >
                     <button
                       type="button"
-                      class="rounded-s-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                      className="rounded-s-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
                     >
                       {"<"}
                     </button>
                     <button
                       type="button"
-                      class="w-36 border-b border-t border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                      className="w-36 border-b border-t border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
                     >
                       рот
                     </button>
                     <button
                       type="button"
-                      class="rounded-e-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                      className="rounded-e-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
                     >
                       {">"}
                     </button>
                   </div>
-                  <div class="inline-flex rounded-md shadow-sm" role="group">
+                  <div
+                    className="inline-flex rounded-md shadow-sm"
+                    role="group"
+                  >
                     <button
                       type="button"
-                      class="rounded-s-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                      className="rounded-s-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
                     >
                       {"<"}
                     </button>
                     <button
                       type="button"
-                      class="w-36 border-b border-t border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                      className="w-36 border-b border-t border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
                     >
                       нос
                     </button>
                     <button
                       type="button"
-                      class="rounded-e-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                      className="rounded-e-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
                     >
                       {">"}
                     </button>
                   </div>
-                  <div class="inline-flex rounded-md shadow-sm" role="group">
+                  <div
+                    className="inline-flex rounded-md shadow-sm"
+                    role="group"
+                  >
                     <button
                       type="button"
-                      class="rounded-s-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                      className="rounded-s-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
                     >
                       {"<"}
                     </button>
                     <button
                       type="button"
-                      class="w-36 border-b border-t border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                      className="w-36 border-b border-t border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
                     >
                       усы, борода
                     </button>
                     <button
                       type="button"
-                      class="rounded-e-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                      className="rounded-e-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
                     >
                       {">"}
                     </button>
                   </div>
-                  <div class="inline-flex rounded-md shadow-sm" role="group">
+                  <div
+                    className="inline-flex rounded-md shadow-sm"
+                    role="group"
+                  >
                     <button
                       type="button"
-                      class="rounded-s-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                      className="rounded-s-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
                     >
                       {"<"}
                     </button>
                     <button
                       type="button"
-                      class="w-36 border-b border-t border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                      className="w-36 border-b border-t border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
                     >
                       серьга в ухо
                     </button>
                     <button
                       type="button"
-                      class="rounded-e-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                      className="rounded-e-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
                     >
                       {">"}
                     </button>
                   </div>
-                  <div class="inline-flex rounded-md shadow-sm" role="group">
+                  <div
+                    className="inline-flex rounded-md shadow-sm"
+                    role="group"
+                  >
                     <button
                       type="button"
-                      class="rounded-s-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                      className="rounded-s-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
                     >
                       {"<"}
                     </button>
                     <button
                       type="button"
-                      class="w-36 border-b border-t border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                      className="w-36 border-b border-t border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
                     >
                       монеты на глаза
                     </button>
                     <button
                       type="button"
-                      class="rounded-e-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                      className="rounded-e-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
                     >
                       {">"}
                     </button>
                   </div>
-                  <div class="inline-flex rounded-md shadow-sm" role="group">
+                  <div
+                    className="inline-flex rounded-md shadow-sm"
+                    role="group"
+                  >
                     <button
                       type="button"
-                      class="rounded-s-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                      className="rounded-s-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
                     >
                       {"<"}
                     </button>
                     <button
                       type="button"
-                      class="w-36 border-b border-t border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                      className="w-36 border-b border-t border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
                     >
                       балаклава, маски, очки ...
                     </button>
                     <button
                       type="button"
-                      class="rounded-e-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                      className="rounded-e-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
                     >
                       {">"}
                     </button>
                   </div>
-                  <div class="inline-flex rounded-md shadow-sm" role="group">
+                  <div
+                    className="inline-flex rounded-md shadow-sm"
+                    role="group"
+                  >
                     <button
                       type="button"
-                      class="rounded-s-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                      className="rounded-s-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
                     >
                       {"<"}
                     </button>
                     <button
                       type="button"
-                      class="w-36 border-b border-t border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                      className="w-36 border-b border-t border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
                     >
                       бронежилет
                     </button>
                     <button
                       type="button"
-                      class="rounded-e-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                      className="rounded-e-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
                     >
                       {">"}
                     </button>
                   </div>
-                  
                 </div>
               </div>
               <div>
@@ -2121,127 +2147,126 @@ export default function Page() {
                 />
               </div>
               <div>
-
-              <div class="inline-flex rounded-md shadow-sm" role="group">
-                    <button
-                      type="button"
-                      class="rounded-s-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
-                    >
-                      {"<"}
-                    </button>
-                    <button
-                      type="button"
-                      class="w-36 border-b border-t border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
-                    >
-                      верхняя одежда
-                    </button>
-                    <button
-                      type="button"
-                      class="rounded-e-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
-                    >
-                      {">"}
-                    </button>
-                  </div>
-                  <div class="inline-flex rounded-md shadow-sm" role="group">
-                    <button
-                      type="button"
-                      class="rounded-s-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
-                    >
-                      {"<"}
-                    </button>
-                    <button
-                      type="button"
-                      class="w-36 border-b border-t border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
-                    >
-                      прическа, головной убор
-                    </button>
-                    <button
-                      type="button"
-                      class="rounded-e-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
-                    >
-                      {">"}
-                    </button>
-                  </div>
-                  <div class="inline-flex rounded-md shadow-sm" role="group">
-                    <button
-                      type="button"
-                      class="rounded-s-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
-                    >
-                      {"<"}
-                    </button>
-                    <button
-                      type="button"
-                      class="w-36 border-b border-t border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
-                    >
-                      нимб и альбатрос
-                    </button>
-                    <button
-                      type="button"
-                      class="rounded-e-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
-                    >
-                      {">"}
-                    </button>
-                  </div>
-                  <div class="inline-flex rounded-md shadow-sm" role="group">
-                    <button
-                      type="button"
-                      class="rounded-s-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
-                    >
-                      {"<"}
-                    </button>
-                    <button
-                      type="button"
-                      class="w-36 border-b border-t border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
-                    >
-                      попугай
-                    </button>
-                    <button
-                      type="button"
-                      class="rounded-e-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
-                    >
-                      {">"}
-                    </button>
-                  </div>
-                  <div class="inline-flex rounded-md shadow-sm" role="group">
-                    <button
-                      type="button"
-                      class="rounded-s-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
-                    >
-                      {"<"}
-                    </button>
-                    <button
-                      type="button"
-                      class="w-36 border-b border-t border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
-                    >
-                      стрела с сердцем
-                    </button>
-                    <button
-                      type="button"
-                      class="rounded-e-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
-                    >
-                      {">"}
-                    </button>
-                  </div>
-                  <div class="inline-flex rounded-md shadow-sm" role="group">
-                    <button
-                      type="button"
-                      class="rounded-s-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
-                    >
-                      {"<"}
-                    </button>
-                    <button
-                      type="button"
-                      class="w-36 border-b border-t border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
-                    >
-                      надписи
-                    </button>
-                    <button
-                      type="button"
-                      class="rounded-e-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
-                    >
-                      {">"}
-                    </button>
-                  </div>
+                <div className="inline-flex rounded-md shadow-sm" role="group">
+                  <button
+                    type="button"
+                    className="rounded-s-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                  >
+                    {"<"}
+                  </button>
+                  <button
+                    type="button"
+                    className="w-36 border-b border-t border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                  >
+                    верхняя одежда
+                  </button>
+                  <button
+                    type="button"
+                    className="rounded-e-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                  >
+                    {">"}
+                  </button>
+                </div>
+                <div className="inline-flex rounded-md shadow-sm" role="group">
+                  <button
+                    type="button"
+                    className="rounded-s-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                  >
+                    {"<"}
+                  </button>
+                  <button
+                    type="button"
+                    className="w-36 border-b border-t border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                  >
+                    прическа, головной убор
+                  </button>
+                  <button
+                    type="button"
+                    className="rounded-e-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                  >
+                    {">"}
+                  </button>
+                </div>
+                <div className="inline-flex rounded-md shadow-sm" role="group">
+                  <button
+                    type="button"
+                    className="rounded-s-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                  >
+                    {"<"}
+                  </button>
+                  <button
+                    type="button"
+                    className="w-36 border-b border-t border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                  >
+                    нимб и альбатрос
+                  </button>
+                  <button
+                    type="button"
+                    className="rounded-e-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                  >
+                    {">"}
+                  </button>
+                </div>
+                <div className="inline-flex rounded-md shadow-sm" role="group">
+                  <button
+                    type="button"
+                    className="rounded-s-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                  >
+                    {"<"}
+                  </button>
+                  <button
+                    type="button"
+                    className="w-36 border-b border-t border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                  >
+                    попугай
+                  </button>
+                  <button
+                    type="button"
+                    className="rounded-e-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                  >
+                    {">"}
+                  </button>
+                </div>
+                <div className="inline-flex rounded-md shadow-sm" role="group">
+                  <button
+                    type="button"
+                    className="rounded-s-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                  >
+                    {"<"}
+                  </button>
+                  <button
+                    type="button"
+                    className="w-36 border-b border-t border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                  >
+                    стрела с сердцем
+                  </button>
+                  <button
+                    type="button"
+                    className="rounded-e-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                  >
+                    {">"}
+                  </button>
+                </div>
+                <div className="inline-flex rounded-md shadow-sm" role="group">
+                  <button
+                    type="button"
+                    className="rounded-s-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                  >
+                    {"<"}
+                  </button>
+                  <button
+                    type="button"
+                    className="w-36 border-b border-t border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                  >
+                    надписи
+                  </button>
+                  <button
+                    type="button"
+                    className="rounded-e-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                  >
+                    {">"}
+                  </button>
+                </div>
               </div>
             </div>
             <div>
@@ -2416,63 +2441,60 @@ export default function Page() {
         <div className="grid grid-cols-2 gap-4">
           <div className="space-x-5 p-5 text-2xl font-semibold text-p2-orange">
             <div>
-                <Image
-                  className="relative mb-4 inline-block w-max overflow-hidden rounded-3xl border-2 border-p2-orange shadow-lg"
-                  width={1000}
-                  height={1000}
-                  src="/Hero/Rewards.png"
-                  alt="Rewards"
-                />
-              </div>
-              
-            <div className="grid grid-cols-2 gap-4">
-              
-              <div className="flex w-full items-center justify-center">
-                  <label
-                    htmlFor="dropzone-file"
-                    className="flex h-full w-full cursor-pointer flex-col items-center justify-center rounded-lg border-2 border-dashed border-gray-300 bg-gray-50 hover:bg-gray-100 dark:border-gray-600 dark:bg-gray-700 dark:hover:border-gray-500 dark:hover:bg-gray-600 dark:hover:bg-gray-800"
-                  >
-                    <div className="flex flex-col items-center justify-center pb-6 pt-5">
-                      <svg
-                        className="mb-4 h-8 w-8 text-gray-500 dark:text-gray-400"
-                        aria-hidden="true"
-                        xmlns="http://www.w3.org/2000/svg"
-                        fill="none"
-                        viewBox="0 0 20 16"
-                      >
-                        <path
-                          stroke="currentColor"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2"
-                          d="M13 13h3a3 3 0 0 0 0-6h-.025A5.56 5.56 0 0 0 16 6.5 5.5 5.5 0 0 0 5.207 5.021C5.137 5.017 5.071 5 5 5a4 4 0 0 0 0 8h2.167M10 15V6m0 0L8 8m2-2 2 2"
-                        />
-                      </svg>
-                      <p className="mb-2 text-sm text-gray-500 dark:text-gray-400">
-                        <span className="font-semibold">
-                          Добавь медиаконтент момента победы
-                        </span>
-                      </p>
+              <Image
+                className="relative mb-4 inline-block w-max overflow-hidden rounded-3xl border-2 border-p2-orange shadow-lg"
+                width={1000}
+                height={1000}
+                src="/Hero/Rewards.png"
+                alt="Rewards"
+              />
+            </div>
 
-                      <p className="mb-2 text-sm text-gray-500 dark:text-gray-400">
-                        <span className="font-semibold">Click to upload</span>{" "}
-                        or drag and drop
-                      </p>
-                      <p className="text-xs text-gray-500 dark:text-gray-400">
-                        SVG, PNG, JPG or GIF (MAX. 800x400px)
-                      </p>
-                    </div>
-                    <input id="dropzone-file" type="file" className="hidden" />
-                  </label>
-                </div>
-              <div>
-                
+            <div className="grid grid-cols-2 gap-4">
+              <div className="flex w-full items-center justify-center">
+                <label
+                  htmlFor="dropzone-file"
+                  className="flex h-full w-full cursor-pointer flex-col items-center justify-center rounded-lg border-2 border-dashed border-gray-300 bg-gray-50 hover:bg-gray-100 dark:border-gray-600 dark:bg-gray-700 dark:hover:border-gray-500 dark:hover:bg-gray-800"
+                >
+                  <div className="flex flex-col items-center justify-center pb-6 pt-5">
+                    <svg
+                      className="mb-4 h-8 w-8 text-gray-500 dark:text-gray-400"
+                      aria-hidden="true"
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 20 16"
+                    >
+                      <path
+                        stroke="currentColor"
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
+                        d="M13 13h3a3 3 0 0 0 0-6h-.025A5.56 5.56 0 0 0 16 6.5 5.5 5.5 0 0 0 5.207 5.021C5.137 5.017 5.071 5 5 5a4 4 0 0 0 0 8h2.167M10 15V6m0 0L8 8m2-2 2 2"
+                      />
+                    </svg>
+                    <p className="mb-2 text-sm text-gray-500 dark:text-gray-400">
+                      <span className="font-semibold">
+                        Добавь медиаконтент момента победы
+                      </span>
+                    </p>
+
+                    <p className="mb-2 text-sm text-gray-500 dark:text-gray-400">
+                      <span className="font-semibold">Click to upload</span> or
+                      drag and drop
+                    </p>
+                    <p className="text-xs text-gray-500 dark:text-gray-400">
+                      SVG, PNG, JPG or GIF (MAX. 800x400px)
+                    </p>
+                  </div>
+                  <input id="dropzone-file" type="file" className="hidden" />
+                </label>
               </div>
+              <div></div>
               <div>
                 <div className="flex w-full items-center justify-center">
                   <label
                     htmlFor="dropzone-file"
-                    className="flex h-full w-full cursor-pointer flex-col items-center justify-center rounded-lg border-2 border-dashed border-gray-300 bg-gray-50 hover:bg-gray-100 dark:border-gray-600 dark:bg-gray-700 dark:hover:border-gray-500 dark:hover:bg-gray-600 dark:hover:bg-gray-800"
+                    className="flex h-full w-full cursor-pointer flex-col items-center justify-center rounded-lg border-2 border-dashed border-gray-300 bg-gray-50 hover:bg-gray-100 dark:border-gray-600 dark:bg-gray-700 dark:hover:border-gray-500 dark:hover:bg-gray-800"
                   >
                     <div className="flex flex-col items-center justify-center pb-6 pt-5">
                       <svg
@@ -2484,9 +2506,9 @@ export default function Page() {
                       >
                         <path
                           stroke="currentColor"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
                           d="M13 13h3a3 3 0 0 0 0-6h-.025A5.56 5.56 0 0 0 16 6.5 5.5 5.5 0 0 0 5.207 5.021C5.137 5.017 5.071 5 5 5a4 4 0 0 0 0 8h2.167M10 15V6m0 0L8 8m2-2 2 2"
                         />
                       </svg>
@@ -2513,7 +2535,7 @@ export default function Page() {
                 <div className="flex w-full items-center justify-center">
                   <label
                     htmlFor="dropzone-file"
-                    className="flex h-full w-full cursor-pointer flex-col items-center justify-center rounded-lg border-2 border-dashed border-gray-300 bg-gray-50 hover:bg-gray-100 dark:border-gray-600 dark:bg-gray-700 dark:hover:border-gray-500 dark:hover:bg-gray-600 dark:hover:bg-gray-800"
+                    className="flex h-full w-full cursor-pointer flex-col items-center justify-center rounded-lg border-2 border-dashed border-gray-300 bg-gray-50 hover:bg-gray-100 dark:border-gray-600 dark:bg-gray-700 dark:hover:border-gray-500 dark:hover:bg-gray-800"
                   >
                     <div className="flex flex-col items-center justify-center pb-6 pt-5">
                       <svg
@@ -2525,9 +2547,9 @@ export default function Page() {
                       >
                         <path
                           stroke="currentColor"
-                          stroke-linecap="round"
-                          stroke-linejoin="round"
-                          stroke-width="2"
+                          strokeLinecap="round"
+                          strokeLinejoin="round"
+                          strokeWidth="2"
                           d="M13 13h3a3 3 0 0 0 0-6h-.025A5.56 5.56 0 0 0 16 6.5 5.5 5.5 0 0 0 5.207 5.021C5.137 5.017 5.071 5 5 5a4 4 0 0 0 0 8h2.167M10 15V6m0 0L8 8m2-2 2 2"
                         />
                       </svg>
@@ -2585,7 +2607,7 @@ export default function Page() {
             <div>
               <div>
                 <label
-                  for="contry"
+                  htmlFor="contry"
                   className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
                 >
                   Страна
@@ -2602,7 +2624,7 @@ export default function Page() {
 
               <div>
                 <label
-                  for="city"
+                  htmlFor="city"
                   className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
                 >
                   Город
@@ -2618,7 +2640,7 @@ export default function Page() {
               <div className="pb-2"></div>
               <div>
                 <label
-                  for="event"
+                  htmlFor="event"
                   className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
                 >
                   Официаллное название мероприятия
@@ -2634,7 +2656,7 @@ export default function Page() {
               <div className="pb-2"></div>
               <div>
                 <label
-                  for="event_category"
+                  htmlFor="event_category"
                   className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
                 >
                   Официальное название соревнования/конкурса
@@ -2659,8 +2681,11 @@ export default function Page() {
                 <select
                   id="license"
                   className="block w-full rounded-lg border-2 border-gray-300 bg-p1-white p-2.5 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                  defaultValue={"DEFAULT"}
                 >
-                  <option selected>Выберите категорию</option>
+                  <option value="DEFAULT" disabled>
+                    Выберите категорию
+                  </option>
                   <option value="Competition">Соревнование</option>
                   <option value="Contest">Конкурс</option>
                 </select>
@@ -2669,7 +2694,7 @@ export default function Page() {
             <div className="pb-2"></div>
             <div>
               <label
-                for="nomination"
+                htmlFor="nomination"
                 className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
               >
                 Номинация
@@ -2693,8 +2718,11 @@ export default function Page() {
               <select
                 id="Reward"
                 className="block w-full rounded-lg border-2 border-gray-300 bg-p1-white p-2.5 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                defaultValue={"DEFAULT"}
               >
-                <option selected>Выберите категорию награды</option>
+                <option value="DEFAULT" disabled>
+                  Выберите категорию награды
+                </option>
                 <option value="Cup">Кубок</option>
                 <option value="Medal">Медаль</option>
                 <option value="Diploma">Грамота участника</option>
@@ -2712,8 +2740,11 @@ export default function Page() {
               <select
                 id="Place_Victory"
                 className="block w-full rounded-lg border-2 border-gray-300 bg-p1-white p-2.5 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                defaultValue={"DEFAULT"}
               >
-                <option selected>Выберите занятое место</option>
+                <option value="DEFAULT" disabled>
+                  Выберите занятое место
+                </option>
                 <option value="First_Place">1 место</option>
                 <option value="Second_Place">2 место</option>
                 <option value="Third_Place">3 место</option>
@@ -2724,7 +2755,7 @@ export default function Page() {
             <div className="pb-2"></div>
             <div>
               <label
-                for="Victory_day"
+                htmlFor="Victory_day"
                 className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
               >
                 День Победы
@@ -2745,7 +2776,7 @@ export default function Page() {
 
             <div>
               <label
-                for="full_name"
+                htmlFor="full_name"
                 className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
               >
                 Полное имя
@@ -2762,7 +2793,7 @@ export default function Page() {
 
             <div>
               <label
-                for="nic_name"
+                htmlFor="nic_name"
                 className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
               >
                 Ник-Имя
@@ -2779,7 +2810,7 @@ export default function Page() {
 
             <div>
               <label
-                for="birthday"
+                htmlFor="birthday"
                 className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
               >
                 Дата рождения
@@ -2795,7 +2826,7 @@ export default function Page() {
             <div className="pb-2"></div>
             <div>
               <label
-                for="team"
+                htmlFor="team"
                 className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
               >
                 Название команды
@@ -2811,7 +2842,7 @@ export default function Page() {
             <div className="pb-2"></div>
             <div>
               <label
-                for="tag"
+                htmlFor="tag"
                 className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
               >
                 Хэш-Тэг
@@ -2827,7 +2858,7 @@ export default function Page() {
             <div className="pb-2"></div>
             <div>
               <label
-                for="geolocation"
+                htmlFor="geolocation"
                 className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
               >
                 Геолокация
@@ -2845,15 +2876,15 @@ export default function Page() {
             <div className="pb-2"></div>
             <div>
               <label
-                for="message"
-                class="mb-2 block text-left text-sm font-medium text-p1-darkgreen dark:text-white"
+                htmlFor="message"
+                className="mb-2 block text-left text-sm font-medium text-p1-darkgreen dark:text-white"
               >
                 Описание{" "}
               </label>
               <textarea
                 id="message"
-                rows="4"
-                class="block w-full rounded-lg border-2 border-gray-300 bg-p1-white p-2.5 text-sm text-p1-darkgreen focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
+                rows={4}
+                className="block w-full rounded-lg border-2 border-gray-300 bg-p1-white p-2.5 text-sm text-p1-darkgreen focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
                 placeholder="Описание"
               ></textarea>
             </div>
@@ -3175,76 +3206,90 @@ export default function Page() {
         </div>
 
         <div className="grid grid-cols-7 gap-4">
+          <div>1</div>
+          <div>1</div>
+          <div>
+            <button className="rounded-3xl border-2 border-p1-darkgreen bg-p1-white p-2 text-xl text-p1-darkgreen shadow-lg shadow-p1-cyan hover:bg-p1-darkgreen hover:text-p1-white">
+              Форма подачи заявки
+            </button>
+          </div>
 
-        
           <div>1</div>
           <div>1</div>
-          <div><button className="rounded-3xl border-2 border-p1-darkgreen bg-p1-white p-2 text-xl text-p1-darkgreen shadow-lg shadow-p1-cyan hover:bg-p1-darkgreen hover:text-p1-white">
-                Форма подачи заявки
-              </button></div>
-          
-       
-          <div>1</div>
-          <div>1</div><div class="col-span-1 col-start-1 row-span-2">  <Image
-          className="relative inline-block w-max overflow-hidden"
-          width={1000}
-          height={1000}
-          src="/Hero/13.png"
-          alt="13" 
-          /></div>
-          <div class="col-span-3 col-start-2 row-span-2">  <Image
-          className="relative inline-block w-max overflow-hidden"
-          width={1000}
-          height={1000}
-          src="/scheme GAA/Schem_Licenses-1.png"
-          alt="schem Licenses"
-        /></div>
-         
-             <div><Image
-          className="relative inline-block w-max overflow-hidden"
-          width={1000}
-          height={1000}
-          src="/Licenses/Management.png"
-          alt="Management" 
-          /></div>
-        
+          <div className="col-span-1 col-start-1 row-span-2">
+            {" "}
+            <Image
+              className="relative inline-block w-max overflow-hidden"
+              width={1000}
+              height={1000}
+              src="/Hero/13.png"
+              alt="13"
+            />
+          </div>
+          <div className="col-span-3 col-start-2 row-span-2">
+            {" "}
+            <Image
+              className="relative inline-block w-max overflow-hidden"
+              width={1000}
+              height={1000}
+              src="/scheme GAA/Schem_Licenses-1.png"
+              alt="schem Licenses"
+            />
+          </div>
+
+          <div>
+            <Image
+              className="relative inline-block w-max overflow-hidden"
+              width={1000}
+              height={1000}
+              src="/Licenses/Management.png"
+              alt="Management"
+            />
+          </div>
+
           <div>11</div>
           <div>12</div>
-          
-          <div><Image
-          className="relative inline-block w-max overflow-hidden"
-          width={1000}
-          height={1000}
-          src="/Licenses/Promoter.png"
-          alt="Promoter" 
-          /></div>
-          <div><Image
-          className="relative inline-block w-max overflow-hidden"
-          width={1000}
-          height={1000}
-          src="/Licenses/National.png"
-          alt="national" 
-          /></div>
-          <div><Image
-          className="relative inline-block w-max overflow-hidden"
-          width={1000}
-          height={1000}
-          src="/Licenses/Global.png"
-          alt="Global" 
-          /></div>
+
+          <div>
+            <Image
+              className="relative inline-block w-max overflow-hidden"
+              width={1000}
+              height={1000}
+              src="/Licenses/Promoter.png"
+              alt="Promoter"
+            />
+          </div>
+          <div>
+            <Image
+              className="relative inline-block w-max overflow-hidden"
+              width={1000}
+              height={1000}
+              src="/Licenses/National.png"
+              alt="national"
+            />
+          </div>
+          <div>
+            <Image
+              className="relative inline-block w-max overflow-hidden"
+              width={1000}
+              height={1000}
+              src="/Licenses/Global.png"
+              alt="Global"
+            />
+          </div>
           <div>111</div>
           <div>112</div>
-          <div><Image
-          className="relative inline-block w-max overflow-hidden"
-          width={1000}
-          height={1000}
-          src="/Logo/MetaMask.png"
-          alt="Metamask" 
-          /></div>
+          <div>
+            <Image
+              className="relative inline-block w-max overflow-hidden"
+              width={1000}
+              height={1000}
+              src="/Logo/MetaMask.png"
+              alt="Metamask"
+            />
+          </div>
           <div>114</div>
         </div>
-
-
 
         <Image
           className="relative inline-block w-max overflow-hidden"
@@ -3299,26 +3344,26 @@ export default function Page() {
                   src="/Licenses/Promoter Lic.png"
                   alt="PromoterLic"
                 />
-                <div class="inline-flex rounded-md shadow-sm" role="group">
-                    <button
-                      type="button"
-                      class="w-full rounded-l-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-p2-orange focus:text-p1-white focus:ring-2 focus:ring-p2-orange dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange"
-                    >
-                      Promoter License
-                    </button>
-                    <button
-                      type="button"
-                      class="w-full border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-p2-orange focus:text-p1-white focus:ring-2 focus:ring-p2-orange dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange"
-                    >
-                      National License
-                    </button>
-                    <button
-                      type="button"
-                      class="w-full rounded-r-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-p2-orange focus:text-p1-white focus:ring-2 focus:ring-p2-orange dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange"
-                    >
-                     Global License
-                    </button>
-                  </div> 
+                <div className="inline-flex rounded-md shadow-sm" role="group">
+                  <a
+                    href={"/promouterlicense"}
+                    className="w-full rounded-l-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-p2-orange focus:text-p1-white focus:ring-2 focus:ring-p2-orange dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange"
+                  >
+                    Promoter License
+                  </a>
+                  <a
+                    href={"/nationallicense"}
+                    className="w-full border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-p2-orange focus:text-p1-white focus:ring-2 focus:ring-p2-orange dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange"
+                  >
+                    National License
+                  </a>
+                  <a
+                    href={"/globallicense"}
+                    className="w-full rounded-r-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-p2-orange focus:text-p1-white focus:ring-2 focus:ring-p2-orange dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange"
+                  >
+                    Global License
+                  </a>
+                </div>
               </div>
 
               <div>
@@ -3392,26 +3437,26 @@ export default function Page() {
                   src="/Licenses/National Lic.png"
                   alt="NationalLic"
                 />
-                <div class="inline-flex rounded-md shadow-sm" role="group">
-                <button
-                      type="button"
-                      class="w-full rounded-l-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-p2-orange focus:text-p1-white focus:ring-2 focus:ring-p2-orange dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange"
-                    >
-                      Promoter License
-                    </button>
-                    <button
-                      type="button"
-                      class="w-full border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-p2-orange focus:text-p1-white focus:ring-2 focus:ring-p2-orange dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange"
-                    >
-                      National License
-                    </button>
-                    <button
-                      type="button"
-                      class="w-full rounded-r-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-p2-orange focus:text-p1-white focus:ring-2 focus:ring-p2-orange dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange"
-                    >
-                     Global License
-                    </button>
-                  </div> 
+                <div className="inline-flex rounded-md shadow-sm" role="group">
+                  <a
+                    href={"/promouterlicense"}
+                    className="w-full rounded-l-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-p2-orange focus:text-p1-white focus:ring-2 focus:ring-p2-orange dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange"
+                  >
+                    Promoter License
+                  </a>
+                  <a
+                    href={"/nationallicense"}
+                    className="w-full border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-p2-orange focus:text-p1-white focus:ring-2 focus:ring-p2-orange dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange"
+                  >
+                    National License
+                  </a>
+                  <a
+                    href={"/globallicense"}
+                    className="w-full rounded-r-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-p2-orange focus:text-p1-white focus:ring-2 focus:ring-p2-orange dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange"
+                  >
+                    Global License
+                  </a>
+                </div>
               </div>
 
               <div>
@@ -3468,26 +3513,26 @@ export default function Page() {
                   alt="GlobalLic"
                 />
 
-<div class="inline-flex rounded-md shadow-sm" role="group">
-<button
-                      type="button"
-                      class="w-full rounded-l-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-p2-orange focus:text-p1-white focus:ring-2 focus:ring-p2-orange dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange"
-                    >
-                      Promoter License
-                    </button>
-                    <button
-                      type="button"
-                      class="w-full border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-p2-orange focus:text-p1-white focus:ring-2 focus:ring-p2-orange dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange"
-                    >
-                      National License
-                    </button>
-                    <button
-                      type="button"
-                      class="w-full rounded-r-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-p2-orange focus:text-p1-white focus:ring-2 focus:ring-p2-orange dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange"
-                    >
-                     Global License
-                    </button>
-                  </div> 
+                <div className="inline-flex rounded-md shadow-sm" role="group">
+                  <a
+                    href={"/promouterlicense"}
+                    className="w-full rounded-l-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-p2-orange focus:text-p1-white focus:ring-2 focus:ring-p2-orange dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange"
+                  >
+                    Promoter License
+                  </a>
+                  <a
+                    href={"/nationallicense"}
+                    className="w-full border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-p2-orange focus:text-p1-white focus:ring-2 focus:ring-p2-orange dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange"
+                  >
+                    National License
+                  </a>
+                  <a
+                    href={"/globallicense"}
+                    className="w-full rounded-r-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-p2-orange focus:text-p1-white focus:ring-2 focus:ring-p2-orange dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange"
+                  >
+                    Global License
+                  </a>
+                </div>
               </div>
 
               <div>
@@ -3507,18 +3552,13 @@ export default function Page() {
               Создать NFT
             </button>
             <div className="pb-8"></div>
-
-            
           </div>
-         
         </div>
         <div></div>
         <div></div>
-         <div>
-          
-                   <div className="pb-8"></div>
-                  </div>
-                
+        <div>
+          <div className="pb-8"></div>
+        </div>
       </div>
     </div>
   );
