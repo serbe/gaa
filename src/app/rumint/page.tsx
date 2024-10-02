@@ -1,6 +1,7 @@
 "use client";
 import Image from "next/image";
 import { useState } from "react";
+import Link from "next/link";
 
 export default function Page() {
   const [value, setValue] = useState("0");
@@ -3345,24 +3346,33 @@ export default function Page() {
                   alt="PromoterLic"
                 />
                 <div className="inline-flex rounded-md shadow-sm" role="group">
-                  <a
-                    href={"/promouterlicense"}
+                  <Link
+                    href={{
+                      pathname: "/rulicense",
+                      query: { license: "promouter" },
+                    }}
                     className="w-full rounded-l-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-p2-orange focus:text-p1-white focus:ring-2 focus:ring-p2-orange dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange"
                   >
-                    Promoter License
-                  </a>
-                  <a
-                    href={"/nationallicense"}
+                    Promouter License
+                  </Link>
+                  <Link
+                    href={{
+                      pathname: "/rulicense",
+                      query: { license: "national" },
+                    }}
                     className="w-full border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-p2-orange focus:text-p1-white focus:ring-2 focus:ring-p2-orange dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange"
                   >
                     National License
-                  </a>
-                  <a
-                    href={"/globallicense"}
+                  </Link>
+                  <Link
+                    href={{
+                      pathname: "/rulicense",
+                      query: { license: "global" },
+                    }}
                     className="w-full rounded-r-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-p2-orange focus:text-p1-white focus:ring-2 focus:ring-p2-orange dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange"
                   >
                     Global License
-                  </a>
+                  </Link>
                 </div>
               </div>
 
@@ -3438,24 +3448,33 @@ export default function Page() {
                   alt="NationalLic"
                 />
                 <div className="inline-flex rounded-md shadow-sm" role="group">
-                  <a
-                    href={"/promouterlicense"}
+                  <Link
+                    href={{
+                      pathname: "/rulicense",
+                      query: { license: "promouter" },
+                    }}
                     className="w-full rounded-l-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-p2-orange focus:text-p1-white focus:ring-2 focus:ring-p2-orange dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange"
                   >
-                    Promoter License
-                  </a>
-                  <a
-                    href={"/nationallicense"}
+                    Promouter License
+                  </Link>
+                  <Link
+                    href={{
+                      pathname: "/rulicense",
+                      query: { license: "national" },
+                    }}
                     className="w-full border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-p2-orange focus:text-p1-white focus:ring-2 focus:ring-p2-orange dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange"
                   >
                     National License
-                  </a>
-                  <a
-                    href={"/globallicense"}
+                  </Link>
+                  <Link
+                    href={{
+                      pathname: "/rulicense",
+                      query: { license: "global" },
+                    }}
                     className="w-full rounded-r-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-p2-orange focus:text-p1-white focus:ring-2 focus:ring-p2-orange dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange"
                   >
                     Global License
-                  </a>
+                  </Link>
                 </div>
               </div>
 
@@ -3514,24 +3533,33 @@ export default function Page() {
                 />
 
                 <div className="inline-flex rounded-md shadow-sm" role="group">
-                  <a
-                    href={"/promouterlicense"}
+                  <Link
+                    href={{
+                      pathname: "/rulicense",
+                      query: { license: "promouter" },
+                    }}
                     className="w-full rounded-l-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-p2-orange focus:text-p1-white focus:ring-2 focus:ring-p2-orange dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange"
                   >
-                    Promoter License
-                  </a>
-                  <a
-                    href={"/nationallicense"}
+                    Promouter License
+                  </Link>
+                  <Link
+                    href={{
+                      pathname: "/rulicense",
+                      query: { license: "national" },
+                    }}
                     className="w-full border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-p2-orange focus:text-p1-white focus:ring-2 focus:ring-p2-orange dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange"
                   >
                     National License
-                  </a>
-                  <a
-                    href={"/globallicense"}
+                  </Link>
+                  <Link
+                    href={{
+                      pathname: "/rulicense",
+                      query: { license: "global" },
+                    }}
                     className="w-full rounded-r-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-p2-orange focus:text-p1-white focus:ring-2 focus:ring-p2-orange dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange"
                   >
                     Global License
-                  </a>
+                  </Link>
                 </div>
               </div>
 
@@ -3554,11 +3582,7 @@ export default function Page() {
             <div className="pb-8"></div>
           </div>
         </div>
-        <div></div>
-        <div></div>
-        <div>
-          <div className="pb-8"></div>
-        </div>
+        <div className="pb-8"></div>
       </div>
     </div>
   );

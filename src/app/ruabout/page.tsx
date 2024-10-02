@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Page() {
   return (
@@ -2854,9 +2855,9 @@ export default function Page() {
                 Если вы хотите продвигать свое мероприятие с помощью Web3,
                 создавать награды NFT или быть представителем GAA в вашем
                 регионе, заполните форму заявки, и мы свяжемся с вами.
-                <p className="pb-3 pt-5 text-center font-semibold text-p1-darkgreen">
-                  Нажмите кнопку ниже
-                </p>
+              </p>
+              <p className="pb-3 pt-5 text-center font-semibold text-p1-darkgreen">
+                Нажмите кнопку ниже
               </p>
               <button className="rounded-3xl border-2 border-p1-darkgreen bg-p1-white px-10 py-8 text-xl text-p1-darkgreen shadow-lg shadow-p1-cyan hover:bg-p1-darkgreen hover:text-p1-white">
                 Форма подачи заявки
@@ -2974,16 +2975,16 @@ export default function Page() {
                   className="ml-2 cursor-pointer text-sm text-slate-600"
                   htmlFor="check-with-link"
                 >
-                  <p>
+                  <div>
                     I agree with the
-                    <a
+                    <Link
                       href="#"
                       className="font-medium underline hover:text-slate-800"
                     >
                       terms and conditions
-                    </a>
+                    </Link>
                     .
-                  </p>
+                  </div>
                 </label>
               </div>
               Я соглашаюсь с Политикой приватности и на обработку персональных

@@ -1,5 +1,6 @@
 "use client";
 import Image from "next/image";
+import Link from "next/link";
 import { useState } from "react";
 
 export default function Page() {
@@ -7,7 +8,7 @@ export default function Page() {
 
   return (
     <div>
-<div className="grid grid-cols-2 gap-4">
+      <div className="grid grid-cols-2 gap-4">
         <div className="p-2 text-4xl font-semibold text-p2-orange">
           Promoter License NFT
         </div>
@@ -39,24 +40,24 @@ export default function Page() {
                   alt="PromoterLic"
                 />
                 <div className="inline-flex rounded-md shadow-sm" role="group">
-                  <a
+                  <Link
                     href={"/promouterlicense"}
                     className="w-full rounded-l-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-p2-orange focus:text-p1-white focus:ring-2 focus:ring-p2-orange dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange"
                   >
                     Promoter License
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     href={"/nationallicense"}
                     className="w-full border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-p2-orange focus:text-p1-white focus:ring-2 focus:ring-p2-orange dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange"
                   >
                     National License
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     href={"/globallicense"}
                     className="w-full rounded-r-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-p2-orange focus:text-p1-white focus:ring-2 focus:ring-p2-orange dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange"
                   >
                     Global License
-                  </a>
+                  </Link>
                 </div>
               </div>
 
@@ -99,6 +100,6 @@ export default function Page() {
           </div>
         </div>
       </div>
-  </div>
-);
+    </div>
+  );
 }
