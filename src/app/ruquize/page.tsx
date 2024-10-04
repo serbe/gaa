@@ -19,16 +19,11 @@ export default function Page() {
             QUIZE
           </div>
           <div className="p-2 text-center text-4xl font-bold text-p2-orange">
-          Автоспорт, автокультура
-
+            Автоспорт, автокультура
           </div>
         </div>
         <div className="basis-1/5"></div>
       </div>
-
- 
-
-
 
       <div className="flex flex-row pb-5">
         <div className="basis-1/5 p-5">
@@ -36,10 +31,8 @@ export default function Page() {
         </div>
         <div className="basis-3/5">
           <div className="my-5 space-y-6 rounded-3xl border-4 border-p2-orange p-6">
-           
             <div className="pb-2 text-center text-2xl text-p1-darkgreen">
-            Какое отношение Вы имеете к автоспорту, автокультуре?
-
+              Какое отношение Вы имеете к автоспорту, автокультуре?
             </div>
             <div className="pb-5"></div>
             <div className="flex items-center">
@@ -201,19 +194,15 @@ export default function Page() {
               >
                 Другое{" "}
               </label>
-             
             </div>
-             <button className="rounded-xl border-2 border-p2-orange bg-p1-white px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
-                  Проголосовать
-                </button>
+            <button className="rounded-xl border-2 border-p2-orange bg-p1-white px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
+              Проголосовать
+            </button>
             <div className="pb-5"></div>
-
           </div>
         </div>
         <div className="basis-1/5"></div>
       </div>
-
-
 
       <div className="flex flex-row pb-5">
         <div className="basis-1/5 p-5">
@@ -221,7 +210,6 @@ export default function Page() {
         </div>
         <div className="basis-3/5">
           <div className="my-5 space-y-6 rounded-3xl border-4 border-p2-orange p-6">
-            
             <div className="pb-2 text-center text-2xl text-p1-darkgreen">
               Какое направления автоспорта, автокультуры Вам больше всего
               нравится?
@@ -241,7 +229,6 @@ export default function Page() {
                 className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-gray-300"
               >
                 Я зритель, автоспорт смотрю по телевизору, интернету
-
               </label>
             </div>
             <div className="flex items-center">
@@ -257,8 +244,8 @@ export default function Page() {
                 htmlFor="checkbox"
                 className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-gray-300"
               >
-Я Пилот автоспортивной команды
-</label>
+                Я Пилот автоспортивной команды
+              </label>
             </div>
             <div className="flex items-center">
               <input
@@ -273,8 +260,8 @@ export default function Page() {
                 htmlFor="checkbox"
                 className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-gray-300"
               >
-Я участник автоспортивной команды
-</label>
+                Я участник автоспортивной команды
+              </label>
             </div>
             <div className="flex items-center">
               <input
@@ -289,8 +276,8 @@ export default function Page() {
                 htmlFor="checkbox"
                 className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-gray-300"
               >
-Я организатор автоспортивных и автокультурных мероприятий
-</label>
+                Я организатор автоспортивных и автокультурных мероприятий
+              </label>
             </div>
             <div className="flex items-center">
               <input
@@ -305,8 +292,8 @@ export default function Page() {
                 htmlFor="checkbox"
                 className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-gray-300"
               >
-У меня арендный бизнес спортивных автомобилей
-</label>
+                У меня арендный бизнес спортивных автомобилей
+              </label>
             </div>
             <div className="flex items-center">
               <input
@@ -321,8 +308,8 @@ export default function Page() {
                 htmlFor="checkbox"
                 className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-gray-300"
               >
-Я спонсор автоспортивных и автокультурных мероприятий
-</label>
+                Я спонсор автоспортивных и автокультурных мероприятий
+              </label>
             </div>
             <div className="flex items-center">
               <input
@@ -337,8 +324,8 @@ export default function Page() {
                 htmlFor="checkbox"
                 className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-gray-300"
               >
-Я коллекционирую автомобили, участник авто мероприятий
-</label>
+                Я коллекционирую автомобили, участник авто мероприятий
+              </label>
             </div>
             <div className="flex items-center">
               <input
@@ -353,8 +340,8 @@ export default function Page() {
                 htmlFor="checkbox"
                 className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-gray-300"
               >
-Мои дети занимаются автоспортом
-</label>
+                Мои дети занимаются автоспортом
+              </label>
             </div>
             <div className="flex items-center">
               <input
@@ -369,8 +356,8 @@ export default function Page() {
                 htmlFor="checkbox"
                 className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-gray-300"
               >
-Я коллекционирую NFT
-</label>
+                Я коллекционирую NFT
+              </label>
             </div>
             <div className="flex items-center">
               <input
@@ -387,13 +374,11 @@ export default function Page() {
               >
                 Другое{" "}
               </label>
-             
             </div>
-             <button className="rounded-xl border-2 border-p2-orange bg-p1-white px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
-                  Проголосовать
-                </button>
+            <button className="rounded-xl border-2 border-p2-orange bg-p1-white px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
+              Проголосовать
+            </button>
             <div className="pb-5"></div>
-
           </div>
         </div>
         <div className="basis-1/5"></div>
@@ -405,13 +390,9 @@ export default function Page() {
         </div>
         <div className="basis-3/5">
           <div className="my-5 space-y-6 rounded-3xl border-4 border-p2-orange p-6">
-            
-            <div className="text-center text-2xl text-p1-darkgreen">
-            NFT
-            </div>
+            <div className="text-center text-2xl text-p1-darkgreen">NFT</div>
             <div className="pb-2 text-center text-2xl text-p1-darkgreen">
-            Какое у вас отношение к NFT?
-
+              Какое у вас отношение к NFT?
             </div>
             <div className="pb-5"></div>
             <div className="flex items-center">
@@ -427,8 +408,7 @@ export default function Page() {
                 htmlFor="checkbox"
                 className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-gray-300"
               >
-У меня есть NFT
-
+                У меня есть NFT
               </label>
             </div>
             <div className="flex items-center">
@@ -444,8 +424,7 @@ export default function Page() {
                 htmlFor="checkbox"
                 className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-gray-300"
               >
-У меня есть криптокошелек, слышал(а) про NFT, но NFT нет.
-
+                У меня есть криптокошелек, слышал(а) про NFT, но NFT нет.
               </label>
             </div>
             <div className="flex items-center">
@@ -461,8 +440,8 @@ export default function Page() {
                 htmlFor="checkbox"
                 className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-gray-300"
               >
-Я слышал про NFT, но как приобрести, как создать NFT я не знаю.
-</label>
+                Я слышал про NFT, но как приобрести, как создать NFT я не знаю.
+              </label>
             </div>
             <div className="flex items-center">
               <input
@@ -477,8 +456,8 @@ export default function Page() {
                 htmlFor="checkbox"
                 className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-gray-300"
               >
-Я не знаю, что такое NFT
-</label>
+                Я не знаю, что такое NFT
+              </label>
             </div>
             <div className="flex items-center">
               <input
@@ -493,20 +472,18 @@ export default function Page() {
                 htmlFor="checkbox"
                 className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-gray-300"
               >
-Мне NFT не нужны и знать про NFT ничего не хочу
-</label>
+                Мне NFT не нужны и знать про NFT ничего не хочу
+              </label>
             </div>
-           
-             <button className="rounded-xl border-2 border-p2-orange bg-p1-white px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
-                  Проголосовать
-                </button>
+
+            <button className="rounded-xl border-2 border-p2-orange bg-p1-white px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
+              Проголосовать
+            </button>
             <div className="pb-5"></div>
-
           </div>
         </div>
         <div className="basis-1/5"></div>
       </div>
-
 
       <div className="flex flex-row pb-5">
         <div className="basis-1/5 p-5">
@@ -514,13 +491,10 @@ export default function Page() {
         </div>
         <div className="basis-3/5">
           <div className="my-5 space-y-6 rounded-3xl border-4 border-p2-orange p-6">
-            
-            <div className="text-center text-2xl text-p1-darkgreen">
-            NFT
-            </div>
+            <div className="text-center text-2xl text-p1-darkgreen">NFT</div>
             <div className="pb-2 text-center text-2xl text-p1-darkgreen">
-            Какие из сервисов Web3, блокчейн, NFT Вы бы хотели увидеть в автоспорте и автокультуре в первую очередь?
-
+              Какие из сервисов Web3, блокчейн, NFT Вы бы хотели увидеть в
+              автоспорте и автокультуре в первую очередь?
             </div>
             <div className="pb-5"></div>
             <div className="flex items-center">
@@ -536,8 +510,7 @@ export default function Page() {
                 htmlFor="checkbox"
                 className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-gray-300"
               >
-NFT награды для победителей, участников и членов команд
-
+                NFT награды для победителей, участников и членов команд
               </label>
             </div>
             <div className="flex items-center">
@@ -553,8 +526,7 @@ NFT награды для победителей, участников и чле
                 htmlFor="checkbox"
                 className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-gray-300"
               >
-Коллекцию NFT Пилотов
-
+                Коллекцию NFT Пилотов
               </label>
             </div>
             <div className="flex items-center">
@@ -570,8 +542,8 @@ NFT награды для победителей, участников и чле
                 htmlFor="checkbox"
                 className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-gray-300"
               >
-Коллекцию NFT членов команд
-</label>
+                Коллекцию NFT членов команд
+              </label>
             </div>
             <div className="flex items-center">
               <input
@@ -586,8 +558,8 @@ NFT награды для победителей, участников и чле
                 htmlFor="checkbox"
                 className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-gray-300"
               >
-Коллекцию NFT раритетных, спортивных автомобилей
-</label>
+                Коллекцию NFT раритетных, спортивных автомобилей
+              </label>
             </div>
             <div className="flex items-center">
               <input
@@ -602,22 +574,18 @@ NFT награды для победителей, участников и чле
                 htmlFor="checkbox"
                 className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-gray-300"
               >
-Коллекция NFT с эксклюзивными условиями для держателей
-</label>
+                Коллекция NFT с эксклюзивными условиями для держателей
+              </label>
             </div>
-           
-             <button className="rounded-xl border-2 border-p2-orange bg-p1-white px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
-                  Проголосовать
-                </button>
+
+            <button className="rounded-xl border-2 border-p2-orange bg-p1-white px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
+              Проголосовать
+            </button>
             <div className="pb-5"></div>
-
           </div>
         </div>
         <div className="basis-1/5"></div>
       </div>
-
-      
     </div>
-    
   );
 }
