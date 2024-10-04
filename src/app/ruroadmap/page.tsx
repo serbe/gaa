@@ -1,6 +1,7 @@
 export default function Page() {
   return (
     <div>
+      <hr className="w-2 h-full relative border-2 bg-red-500 z-100" />
       <div className="pb-5 text-center text-6xl font-bold">Дорожная карта</div>
       <div className="pb-5 text-center text-2xl">
         1. Зарождение и обсуждение идеи объединения людей в сообщество
