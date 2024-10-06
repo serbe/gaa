@@ -1,6 +1,11 @@
+"use client";
 import Image from "next/image";
+import { useState } from "react";
 
 export default function Page() {
+  const [value, setValue] = useState("0");
+  const [check, setCheck] = useState(false);
+
   return (
     <div>
       <div className="pt-5 text-center text-6xl font-bold text-p1-darkgreen">
@@ -37,324 +42,732 @@ export default function Page() {
             <p className="p-2 text-2xl font-semibold text-p1-darkgreen">
               Выберите лицензии, которые вы хотите получить
             </p>
-            <form className="mx-auto max-w-2xl">
-              <label
-                htmlFor="license"
-                className="mb-2 block w-full text-sm font-medium text-p1-darkgreen dark:text-p1-white"
-              >
-                Select an option
-              </label>
-              <select
-                id="license"
-                className="block w-full rounded-lg border-2 border-gray-300 bg-gray-50 p-2.5 text-sm text-p1-darkgreen focus:border-p1-cyan focus:ring-p1-cyan dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p1-cyan dark:focus:ring-p1-cyan"
-                defaultValue={"DEFAULT"}
-              >
-                <option value="DEFAULT" disabled>
-                  Выберите лицензию
-                </option>
-                <option value="Promoter">Лицензия Промоутер</option>
-                <option value="National">Национальная лицензия</option>
-                <option value="Global">Глобальная лицензия</option>
-              </select>
-            </form>
-            <p className="px-5 text-left text-xl text-p1-darkgreen">
-              Лицензия Промоутера
-            </p>
-            <p className="px-5 text-left text-xl text-p1-darkgreen">
-              Национальная Лицензия
-            </p>
 
-            <p className="px-5 text-left text-xl text-p1-darkgreen">
-              Глобальная Лицензия
-            </p>
+            <div className="pb-3"></div>
 
-            <div className="relative px-5 py-2">
+            <div className="flex items-center">
               <input
-                type="text"
-                id="сountry"
-                className="peer block w-full appearance-none rounded-lg border-2 border-gray-300 bg-transparent px-2.5 pb-2.5 pt-2 text-sm text-gray-900 focus:border-blue-600 focus:outline-none focus:ring-0 dark:border-gray-600 dark:text-white dark:focus:border-blue-500"
-                placeholder=" "
+                checked={check}
+                id="checkbox"
+                onChange={() => setCheck(!check)}
+                type="checkbox"
+                value=""
+                className="mx-5 h-5 w-5 rounded border-gray-300 bg-gray-100 text-blue-600 focus:ring-2 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-blue-600"
               />
               <label
-                htmlFor="floating_outlined"
-                className="z-8 absolute start-1 top-2 origin-[0] -translate-y-4 scale-75 transform bg-p1-white px-8 text-sm text-gray-500 duration-300 peer-placeholder-shown:top-1/2 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:scale-100 peer-focus:top-2 peer-focus:-translate-y-4 peer-focus:scale-75 peer-focus:px-2 peer-focus:text-blue-600 rtl:peer-focus:left-auto rtl:peer-focus:translate-x-1/4 dark:bg-gray-900 dark:text-gray-400 peer-focus:dark:text-blue-500"
+                htmlFor="checkbox"
+                className="ms-2 text-xl font-medium text-p1-darkgreen dark:text-gray-300"
+              >
+                Лицензия Промоутера
+              </label>
+            </div>
+            <div className="pb-3"></div>
+
+            <div className="flex items-center">
+              <input
+                checked={check}
+                id="checkbox"
+                onChange={() => setCheck(!check)}
+                type="checkbox"
+                value=""
+                className="mx-5 h-5 w-5 rounded border-gray-300 bg-gray-100 text-blue-600 focus:ring-2 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-blue-600"
+              />
+              <label
+                htmlFor="checkbox"
+                className="ms-2 text-xl font-medium text-p1-darkgreen dark:text-gray-300"
+              >
+                Национальная Лицензия
+              </label>
+            </div>
+            <div className="pb-3"></div>
+
+            <div className="flex items-center">
+              <input
+                checked={check}
+                id="checkbox"
+                onChange={() => setCheck(!check)}
+                type="checkbox"
+                value=""
+                className="mx-5 h-5 w-5 rounded border-gray-300 bg-gray-100 text-blue-600 focus:ring-2 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-blue-600"
+              />
+              <label
+                htmlFor="checkbox"
+                className="ms-2 text-xl font-medium text-p1-darkgreen dark:text-gray-300"
+              >
+                Глобальная лицензия
+              </label>
+            </div>
+
+            <div className="pb-3"></div>
+
+            <div>
+              <label
+                htmlFor="teamcountry"
+                className="block px-5 text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
               >
                 Страна
               </label>
-            </div>
-            <div className="relative px-5 py-2">
               <input
                 type="text"
-                id="city"
-                className="peer block w-full appearance-none rounded-lg border-2 border-gray-300 bg-transparent px-2.5 pb-2.5 pt-4 text-sm text-gray-900 focus:border-blue-600 focus:outline-none focus:ring-0 dark:border-gray-600 dark:text-white dark:focus:border-blue-500"
-                placeholder=" "
+                id="country"
+                className="mx-5 block w-11/12 rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                placeholder="Страна"
+                required
               />
+            </div>
+            <div className="pb-3"></div>
+
+            <div>
               <label
-                htmlFor="floating_outlined"
-                className="z-8 absolute start-1 top-2 origin-[0] -translate-y-4 scale-75 transform bg-p1-white px-8 text-sm text-gray-500 duration-300 peer-placeholder-shown:top-1/2 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:scale-100 peer-focus:top-2 peer-focus:-translate-y-4 peer-focus:scale-75 peer-focus:px-2 peer-focus:text-blue-600 rtl:peer-focus:left-auto rtl:peer-focus:translate-x-1/4 dark:bg-gray-900 dark:text-gray-400 peer-focus:dark:text-blue-500"
+                htmlFor="city"
+                className="block px-5 text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
               >
                 Город
               </label>
-            </div>
-            <div className="relative px-5 py-2">
               <input
                 type="text"
-                id="organization"
-                className="peer block w-full appearance-none rounded-lg border-2 border-gray-300 bg-transparent px-2.5 pb-2.5 pt-4 text-sm text-gray-900 focus:border-blue-600 focus:outline-none focus:ring-0 dark:border-gray-600 dark:text-white dark:focus:border-blue-500"
-                placeholder=" "
+                id="city"
+                className="mx-5 block w-11/12 rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                placeholder="Город"
+                required
               />
+            </div>
+
+            <div className="pb-3"></div>
+            <div>
               <label
-                htmlFor="floating_outlined"
-                className="z-8 absolute start-1 top-2 origin-[0] -translate-y-4 scale-75 transform bg-p1-white px-8 text-sm text-gray-500 duration-300 peer-placeholder-shown:top-1/2 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:scale-100 peer-focus:top-2 peer-focus:-translate-y-4 peer-focus:scale-75 peer-focus:px-2 peer-focus:text-blue-600 rtl:peer-focus:left-auto rtl:peer-focus:translate-x-1/4 dark:bg-gray-900 dark:text-gray-400 peer-focus:dark:text-blue-500"
+                htmlFor="organization"
+                className="block px-5 text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
               >
                 Организация
               </label>
+              <input
+                type="text"
+                id="organization"
+                className="mx-5 block w-11/12 rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                placeholder="Организация"
+                required
+              />
             </div>
+            <div className="pb-3"></div>
 
             <p className="px-5 text-left text-xl font-semibold text-p1-darkgreen">
               Категория продвижения:
             </p>
-            <p className="px-5 text-left text-xl text-p1-darkgreen">
-              Открытые колеса
-            </p>
-            <p className="px-5 text-left text-xl text-p1-darkgreen">
-              Драгрэйсинг
-            </p>
-            <p className="px-5 text-left text-xl text-p1-darkgreen">Дрифт </p>
-            <p className="px-5 text-left text-xl text-p1-darkgreen">
-              Кузовные гонки серийных автомобилей (TCR)
-            </p>
-            <p className="px-5 text-left text-xl text-p1-darkgreen">Ралли </p>
-            <p className="px-5 text-left text-xl text-p1-darkgreen">
-              Олдтаймер
-            </p>
-            <p className="px-5 text-left text-xl text-p1-darkgreen">Стэнс </p>
-            <p className="px-5 text-left text-xl text-p1-darkgreen">
-              Спортивные автомобили
-            </p>
-            <p className="px-5 text-left text-xl text-p1-darkgreen">
-              Раритетные автомобили
-            </p>
-            <p className="px-5 text-left text-xl text-p1-darkgreen">Автозвук</p>
-            <p className="px-5 text-left text-xl text-p1-darkgreen">Картинг </p>
-            <p className="px-5 text-left text-xl text-p1-darkgreen">
-              Симрэйсинг
-            </p>
 
-            <div className="relative px-5 py-2">
+            <div className="pb-3"></div>
+
+            <div className="flex items-center">
               <input
-                type="text"
-                id="WhatPromoteAnswer"
-                className="peer block w-full appearance-none rounded-lg border-2 border-gray-300 bg-transparent px-2.5 pb-2.5 pt-4 text-sm text-gray-900 focus:border-blue-600 focus:outline-none focus:ring-0 dark:border-gray-600 dark:text-white dark:focus:border-blue-500"
-                placeholder=" "
+                checked={check}
+                id="checkbox"
+                onChange={() => setCheck(!check)}
+                type="checkbox"
+                value=""
+                className="mx-5 h-5 w-5 rounded border-gray-300 bg-gray-100 text-blue-600 focus:ring-2 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-blue-600"
               />
               <label
-                htmlFor="floating_outlined"
-                className="z-8 absolute start-1 top-2 origin-[0] -translate-y-4 scale-75 transform bg-p1-white px-8 text-sm text-gray-500 duration-300 peer-placeholder-shown:top-1/2 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:scale-100 peer-focus:top-2 peer-focus:-translate-y-4 peer-focus:scale-75 peer-focus:px-2 peer-focus:text-blue-600 rtl:peer-focus:left-auto rtl:peer-focus:translate-x-1/4 dark:bg-gray-900 dark:text-gray-400 peer-focus:dark:text-blue-500"
+                htmlFor="checkbox"
+                className="ms-2 text-xl font-medium text-p1-darkgreen dark:text-gray-300"
               >
-                Ваш ответ:
+                Открытые колеса
               </label>
             </div>
+
+            <div className="pb-3"></div>
+
+            <div className="flex items-center">
+              <input
+                checked={check}
+                id="checkbox"
+                onChange={() => setCheck(!check)}
+                type="checkbox"
+                value=""
+                className="mx-5 h-5 w-5 rounded border-gray-300 bg-gray-100 text-blue-600 focus:ring-2 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-blue-600"
+              />
+              <label
+                htmlFor="checkbox"
+                className="ms-2 text-xl font-medium text-p1-darkgreen dark:text-gray-300"
+              >
+                Драгрэйсинг
+              </label>
+            </div>
+            <div className="pb-3"></div>
+
+            <div className="flex items-center">
+              <input
+                checked={check}
+                id="checkbox"
+                onChange={() => setCheck(!check)}
+                type="checkbox"
+                value=""
+                className="mx-5 h-5 w-5 rounded border-gray-300 bg-gray-100 text-blue-600 focus:ring-2 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-blue-600"
+              />
+              <label
+                htmlFor="checkbox"
+                className="ms-2 text-xl font-medium text-p1-darkgreen dark:text-gray-300"
+              >
+                Дрифт
+              </label>
+            </div>
+            <div className="pb-3"></div>
+
+            <div className="flex items-center">
+              <input
+                checked={check}
+                id="checkbox"
+                onChange={() => setCheck(!check)}
+                type="checkbox"
+                value=""
+                className="mx-5 h-5 w-5 rounded border-gray-300 bg-gray-100 text-blue-600 focus:ring-2 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-blue-600"
+              />
+              <label
+                htmlFor="checkbox"
+                className="ms-2 text-xl font-medium text-p1-darkgreen dark:text-gray-300"
+              >
+                Кузовные гонки серийных автомобилей (TCR)
+              </label>
+            </div>
+            <div className="pb-3"></div>
+
+            <div className="flex items-center">
+              <input
+                checked={check}
+                id="checkbox"
+                onChange={() => setCheck(!check)}
+                type="checkbox"
+                value=""
+                className="mx-5 h-5 w-5 rounded border-gray-300 bg-gray-100 text-blue-600 focus:ring-2 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-blue-600"
+              />
+              <label
+                htmlFor="checkbox"
+                className="ms-2 text-xl font-medium text-p1-darkgreen dark:text-gray-300"
+              >
+                Ралли
+              </label>
+            </div>
+            <div className="pb-3"></div>
+
+            <div className="flex items-center">
+              <input
+                checked={check}
+                id="checkbox"
+                onChange={() => setCheck(!check)}
+                type="checkbox"
+                value=""
+                className="mx-5 h-5 w-5 rounded border-gray-300 bg-gray-100 text-blue-600 focus:ring-2 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-blue-600"
+              />
+              <label
+                htmlFor="checkbox"
+                className="ms-2 text-xl font-medium text-p1-darkgreen dark:text-gray-300"
+              >
+                Олдтаймер
+              </label>
+            </div>
+            <div className="pb-3"></div>
+
+            <div className="flex items-center">
+              <input
+                checked={check}
+                id="checkbox"
+                onChange={() => setCheck(!check)}
+                type="checkbox"
+                value=""
+                className="mx-5 h-5 w-5 rounded border-gray-300 bg-gray-100 text-blue-600 focus:ring-2 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-blue-600"
+              />
+              <label
+                htmlFor="checkbox"
+                className="ms-2 text-xl font-medium text-p1-darkgreen dark:text-gray-300"
+              >
+                Стэнс
+              </label>
+            </div>
+            <div className="pb-3"></div>
+
+            <div className="flex items-center">
+              <input
+                checked={check}
+                id="checkbox"
+                onChange={() => setCheck(!check)}
+                type="checkbox"
+                value=""
+                className="mx-5 h-5 w-5 rounded border-gray-300 bg-gray-100 text-blue-600 focus:ring-2 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-blue-600"
+              />
+              <label
+                htmlFor="checkbox"
+                className="ms-2 text-xl font-medium text-p1-darkgreen dark:text-gray-300"
+              >
+                Спортивные автомобили
+              </label>
+            </div>
+            <div className="pb-3"></div>
+
+            <div className="flex items-center">
+              <input
+                checked={check}
+                id="checkbox"
+                onChange={() => setCheck(!check)}
+                type="checkbox"
+                value=""
+                className="mx-5 h-5 w-5 rounded border-gray-300 bg-gray-100 text-blue-600 focus:ring-2 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-blue-600"
+              />
+              <label
+                htmlFor="checkbox"
+                className="ms-2 text-xl font-medium text-p1-darkgreen dark:text-gray-300"
+              >
+                Раритетные автомобили
+              </label>
+            </div>
+            <div className="pb-3"></div>
+
+            <div className="flex items-center">
+              <input
+                checked={check}
+                id="checkbox"
+                onChange={() => setCheck(!check)}
+                type="checkbox"
+                value=""
+                className="mx-5 h-5 w-5 rounded border-gray-300 bg-gray-100 text-blue-600 focus:ring-2 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-blue-600"
+              />
+              <label
+                htmlFor="checkbox"
+                className="ms-2 text-xl font-medium text-p1-darkgreen dark:text-gray-300"
+              >
+                Автозвук
+              </label>
+            </div>
+            <div className="pb-3"></div>
+
+            <div className="flex items-center">
+              <input
+                checked={check}
+                id="checkbox"
+                onChange={() => setCheck(!check)}
+                type="checkbox"
+                value=""
+                className="mx-5 h-5 w-5 rounded border-gray-300 bg-gray-100 text-blue-600 focus:ring-2 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-blue-600"
+              />
+              <label
+                htmlFor="checkbox"
+                className="ms-2 text-xl font-medium text-p1-darkgreen dark:text-gray-300"
+              >
+                Картинг
+              </label>
+            </div>
+            <div className="pb-3"></div>
+
+            <div className="flex items-center">
+              <input
+                checked={check}
+                id="checkbox"
+                onChange={() => setCheck(!check)}
+                type="checkbox"
+                value=""
+                className="mx-5 h-5 w-5 rounded border-gray-300 bg-gray-100 text-blue-600 focus:ring-2 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-blue-600"
+              />
+              <label
+                htmlFor="checkbox"
+                className="ms-2 text-xl font-medium text-p1-darkgreen dark:text-gray-300"
+              >
+                Симрэйсинг
+              </label>
+            </div>
+
+            <div className="pb-3"></div>
+            <div>
+              <label
+                htmlFor="answerCategoryPromote"
+                className="block px-5 text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
+              >
+                Ваш ответ
+              </label>
+              <input
+                type="text"
+                id="organization"
+                className="mx-5 block w-11/12 rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                placeholder="Ваш ответ"
+                required
+              />
+            </div>
+
+            <div className="pb-3"></div>
 
             <p className="px-5 text-left text-xl font-semibold text-p1-darkgreen">
               Чем Вы занимаетесь?
             </p>
-            <p className="px-5 text-left text-xl text-p1-darkgreen">
-              Я смотрю гонки по телевизору, в Интернете
-            </p>
-            <p className="px-5 text-left text-xl text-p1-darkgreen">
-              Я участник команды
-            </p>
-            <p className="px-5 text-left text-xl text-p1-darkgreen">
-              Я водитель, пилот
-            </p>
-            <p className="px-5 text-left text-xl text-p1-darkgreen">
-              Я промоутер
-            </p>
-            <p className="px-5 text-left text-xl text-p1-darkgreen">
-              Я коллекционер автомобилей
-            </p>
-            <p className="px-5 text-left text-xl text-p1-darkgreen">
-              Я коллекционер NFT
-            </p>
-            <p className="px-5 text-left text-xl text-p1-darkgreen">
-              Мои дети в автоспортивной команде
-            </p>
-            <p className="px-5 text-left text-xl text-p1-darkgreen">
-              Я спонсор
-            </p>
-            <p className="px-5 text-left text-xl text-p1-darkgreen">
-              У меня есть бизнес по аренде автомобилей
-            </p>
-            <div className="relative px-5 py-2">
+            <div className="pb-3"></div>
+
+            <div className="flex items-center">
               <input
-                type="text"
-                id="WhatDoYouDoAnswer"
-                className="peer block w-full appearance-none rounded-lg border-2 border-gray-300 bg-transparent px-2.5 pb-2.5 pt-4 text-sm text-gray-900 focus:border-blue-600 focus:outline-none focus:ring-0 dark:border-gray-600 dark:text-white dark:focus:border-blue-500"
-                placeholder=" "
+                checked={check}
+                id="checkbox"
+                onChange={() => setCheck(!check)}
+                type="checkbox"
+                value=""
+                className="mx-5 h-5 w-5 rounded border-gray-300 bg-gray-100 text-blue-600 focus:ring-2 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-blue-600"
               />
               <label
-                htmlFor="floating_outlined"
-                className="z-8 absolute start-1 top-2 origin-[0] -translate-y-4 scale-75 transform bg-p1-white px-8 text-sm text-gray-500 duration-300 peer-placeholder-shown:top-1/2 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:scale-100 peer-focus:top-2 peer-focus:-translate-y-4 peer-focus:scale-75 peer-focus:px-2 peer-focus:text-blue-600 rtl:peer-focus:left-auto rtl:peer-focus:translate-x-1/4 dark:bg-gray-900 dark:text-gray-400 peer-focus:dark:text-blue-500"
+                htmlFor="checkbox"
+                className="ms-2 text-xl font-medium text-p1-darkgreen dark:text-gray-300"
               >
-                Ваш ответ:
+                Я смотрю гонки по телевизору, в Интернете
               </label>
             </div>
 
-            <div className="relative px-5 py-2">
+            <div className="pb-3"></div>
+
+            <div className="flex items-center">
               <input
-                type="text"
-                id="FIO"
-                className="peer block w-full appearance-none rounded-lg border-2 border-gray-300 bg-transparent px-2.5 pb-2.5 pt-4 text-sm text-gray-900 focus:border-blue-600 focus:outline-none focus:ring-0 dark:border-gray-600 dark:text-white dark:focus:border-blue-500"
-                placeholder=" "
+                checked={check}
+                id="checkbox"
+                onChange={() => setCheck(!check)}
+                type="checkbox"
+                value=""
+                className="mx-5 h-5 w-5 rounded border-gray-300 bg-gray-100 text-blue-600 focus:ring-2 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-blue-600"
               />
               <label
-                htmlFor="floating_outlined"
-                className="z-8 absolute start-1 top-2 origin-[0] -translate-y-4 scale-75 transform bg-p1-white px-8 text-sm text-gray-500 duration-300 peer-placeholder-shown:top-1/2 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:scale-100 peer-focus:top-2 peer-focus:-translate-y-4 peer-focus:scale-75 peer-focus:px-2 peer-focus:text-blue-600 rtl:peer-focus:left-auto rtl:peer-focus:translate-x-1/4 dark:bg-gray-900 dark:text-gray-400 peer-focus:dark:text-blue-500"
+                htmlFor="checkbox"
+                className="ms-2 text-xl font-medium text-p1-darkgreen dark:text-gray-300"
+              >
+                Я участник команды
+              </label>
+            </div>
+
+            <div className="pb-3"></div>
+
+            <div className="flex items-center">
+              <input
+                checked={check}
+                id="checkbox"
+                onChange={() => setCheck(!check)}
+                type="checkbox"
+                value=""
+                className="mx-5 h-5 w-5 rounded border-gray-300 bg-gray-100 text-blue-600 focus:ring-2 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-blue-600"
+              />
+              <label
+                htmlFor="checkbox"
+                className="ms-2 text-xl font-medium text-p1-darkgreen dark:text-gray-300"
+              >
+                Я водитель, пилот
+              </label>
+            </div>
+
+            <div className="pb-3"></div>
+
+            <div className="flex items-center">
+              <input
+                checked={check}
+                id="checkbox"
+                onChange={() => setCheck(!check)}
+                type="checkbox"
+                value=""
+                className="mx-5 h-5 w-5 rounded border-gray-300 bg-gray-100 text-blue-600 focus:ring-2 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-blue-600"
+              />
+              <label
+                htmlFor="checkbox"
+                className="ms-2 text-xl font-medium text-p1-darkgreen dark:text-gray-300"
+              >
+                Я промоутер
+              </label>
+            </div>
+
+            <div className="pb-3"></div>
+            <div className="flex items-center">
+              <input
+                checked={check}
+                id="checkbox"
+                onChange={() => setCheck(!check)}
+                type="checkbox"
+                value=""
+                className="mx-5 h-5 w-5 rounded border-gray-300 bg-gray-100 text-blue-600 focus:ring-2 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-blue-600"
+              />
+              <label
+                htmlFor="checkbox"
+                className="ms-2 text-xl font-medium text-p1-darkgreen dark:text-gray-300"
+              >
+                Я коллекционер автомобилей
+              </label>
+            </div>
+
+            <div className="pb-3"></div>
+
+            <div className="flex items-center">
+              <input
+                checked={check}
+                id="checkbox"
+                onChange={() => setCheck(!check)}
+                type="checkbox"
+                value=""
+                className="mx-5 h-5 w-5 rounded border-gray-300 bg-gray-100 text-blue-600 focus:ring-2 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-blue-600"
+              />
+              <label
+                htmlFor="checkbox"
+                className="ms-2 text-xl font-medium text-p1-darkgreen dark:text-gray-300"
+              >
+                Я коллекционер NFT
+              </label>
+            </div>
+
+            <div className="pb-3"></div>
+
+            <div className="flex items-center">
+              <input
+                checked={check}
+                id="checkbox"
+                onChange={() => setCheck(!check)}
+                type="checkbox"
+                value=""
+                className="mx-5 h-5 w-5 rounded border-gray-300 bg-gray-100 text-blue-600 focus:ring-2 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-blue-600"
+              />
+              <label
+                htmlFor="checkbox"
+                className="ms-2 text-xl font-medium text-p1-darkgreen dark:text-gray-300"
+              >
+                Мои дети в автоспортивной команде
+              </label>
+            </div>
+            <div className="pb-3"></div>
+
+            <div className="flex items-center">
+              <input
+                checked={check}
+                id="checkbox"
+                onChange={() => setCheck(!check)}
+                type="checkbox"
+                value=""
+                className="mx-5 h-5 w-5 rounded border-gray-300 bg-gray-100 text-blue-600 focus:ring-2 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-blue-600"
+              />
+              <label
+                htmlFor="checkbox"
+                className="ms-2 text-xl font-medium text-p1-darkgreen dark:text-gray-300"
+              >
+                Я спонсор
+              </label>
+            </div>
+            <div className="pb-3"></div>
+
+            <div className="flex items-center">
+              <input
+                checked={check}
+                id="checkbox"
+                onChange={() => setCheck(!check)}
+                type="checkbox"
+                value=""
+                className="mx-5 h-5 w-5 rounded border-gray-300 bg-gray-100 text-blue-600 focus:ring-2 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-blue-600"
+              />
+              <label
+                htmlFor="checkbox"
+                className="ms-2 text-xl font-medium text-p1-darkgreen dark:text-gray-300"
+              >
+                У меня есть бизнес по аренде автомобилей
+              </label>
+            </div>
+
+            <div className="pb-3"></div>
+
+            <div className="pb-3"></div>
+            <div>
+              <label
+                htmlFor="answerwhattodo"
+                className="block px-5 text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
+              >
+                Ваш ответ
+              </label>
+              <input
+                type="text"
+                id="answerwhattodo"
+                className="mx-5 block w-11/12 rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                placeholder="Ваш ответ"
+                required
+              />
+            </div>
+
+            <div className="pb-3"></div>
+            <div>
+              <label
+                htmlFor="fullname"
+                className="block px-5 text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
               >
                 ФИО
               </label>
-            </div>
-            <div className="relative px-5 py-2">
               <input
                 type="text"
-                id="NicName"
-                className="peer block w-full appearance-none rounded-lg border-2 border-gray-300 bg-transparent px-2.5 pb-2.5 pt-4 text-sm text-gray-900 focus:border-blue-600 focus:outline-none focus:ring-0 dark:border-gray-600 dark:text-white dark:focus:border-blue-500"
-                placeholder=" "
+                id="organization"
+                className="mx-5 block w-11/12 rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                placeholder="Иванов Иван Иванович"
+                required
               />
+            </div>
+
+            <div className="pb-3"></div>
+            <div>
               <label
-                htmlFor="floating_outlined"
-                className="z-8 absolute start-1 top-2 origin-[0] -translate-y-4 scale-75 transform bg-p1-white px-8 text-sm text-gray-500 duration-300 peer-placeholder-shown:top-1/2 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:scale-100 peer-focus:top-2 peer-focus:-translate-y-4 peer-focus:scale-75 peer-focus:px-2 peer-focus:text-blue-600 rtl:peer-focus:left-auto rtl:peer-focus:translate-x-1/4 dark:bg-gray-900 dark:text-gray-400 peer-focus:dark:text-blue-500"
+                htmlFor="nicname"
+                className="block px-5 text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
               >
                 Ник-Имя
               </label>
-            </div>
-            <div className="relative px-5 py-2">
               <input
                 type="text"
-                id="Birthday"
-                className="peer block w-full appearance-none rounded-lg border-2 border-gray-300 bg-transparent px-2.5 pb-2.5 pt-4 text-sm text-gray-900 focus:border-blue-600 focus:outline-none focus:ring-0 dark:border-gray-600 dark:text-white dark:focus:border-blue-500"
-                placeholder=" "
+                id="nicname"
+                className="mx-5 block w-11/12 rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                placeholder="Ник-Имя"
+                required
               />
+            </div>
+
+            <div className="pb-3"></div>
+            <div>
               <label
-                htmlFor="floating_outlined"
-                className="z-8 absolute start-1 top-2 origin-[0] -translate-y-4 scale-75 transform bg-p1-white px-8 text-sm text-gray-500 duration-300 peer-placeholder-shown:top-1/2 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:scale-100 peer-focus:top-2 peer-focus:-translate-y-4 peer-focus:scale-75 peer-focus:px-2 peer-focus:text-blue-600 rtl:peer-focus:left-auto rtl:peer-focus:translate-x-1/4 dark:bg-gray-900 dark:text-gray-400 peer-focus:dark:text-blue-500"
+                htmlFor="birthday"
+                className="block px-5 text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
               >
                 Дата рождения
               </label>
-            </div>
-            <div className="relative px-5 py-2">
               <input
-                type="text"
-                id="Tag"
-                className="peer block w-full appearance-none rounded-lg border-2 border-gray-300 bg-transparent px-2.5 pb-2.5 pt-4 text-sm text-gray-900 focus:border-blue-600 focus:outline-none focus:ring-0 dark:border-gray-600 dark:text-white dark:focus:border-blue-500"
-                placeholder=" "
+                type="date"
+                id="birthday"
+                className="mx-5 block w-11/12 rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                placeholder="Дата рождения"
+                required
               />
+            </div>
+
+            <div className="pb-3"></div>
+            <div>
               <label
-                htmlFor="floating_outlined"
-                className="z-8 absolute start-1 top-2 origin-[0] -translate-y-4 scale-75 transform bg-p1-white px-8 text-sm text-gray-500 duration-300 peer-placeholder-shown:top-1/2 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:scale-100 peer-focus:top-2 peer-focus:-translate-y-4 peer-focus:scale-75 peer-focus:px-2 peer-focus:text-blue-600 rtl:peer-focus:left-auto rtl:peer-focus:translate-x-1/4 dark:bg-gray-900 dark:text-gray-400 peer-focus:dark:text-blue-500"
+                htmlFor="tag"
+                className="block px-5 text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
               >
                 Хэш-Тэг
               </label>
-            </div>
-            <div className="relative px-5 py-2">
               <input
                 type="text"
-                id="Skils"
-                className="peer block w-full appearance-none rounded-lg border-2 border-gray-300 bg-transparent px-2.5 pb-2.5 pt-4 text-sm text-gray-900 focus:border-blue-600 focus:outline-none focus:ring-0 dark:border-gray-600 dark:text-white dark:focus:border-blue-500"
-                placeholder=" "
+                id="tag"
+                className="mx-5 block w-11/12 rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                placeholder="Хэш-Тэг"
+                required
               />
+            </div>
+
+            <div className="pb-3"></div>
+            <div>
               <label
-                htmlFor="floating_outlined"
-                className="z-8 absolute start-1 top-2 origin-[0] -translate-y-4 scale-75 transform bg-p1-white px-8 text-sm text-gray-500 duration-300 peer-placeholder-shown:top-1/2 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:scale-100 peer-focus:top-2 peer-focus:-translate-y-4 peer-focus:scale-75 peer-focus:px-2 peer-focus:text-blue-600 rtl:peer-focus:left-auto rtl:peer-focus:translate-x-1/4 dark:bg-gray-900 dark:text-gray-400 peer-focus:dark:text-blue-500"
+                htmlFor="skils"
+                className="block px-5 text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
               >
                 Навыки/Умения
               </label>
-            </div>
-            <div className="relative px-5 py-2">
               <input
                 type="text"
-                id="Telefphone number"
-                className="peer block w-full appearance-none rounded-lg border-2 border-gray-300 bg-transparent px-2.5 pb-2.5 pt-4 text-sm text-gray-900 focus:border-blue-600 focus:outline-none focus:ring-0 dark:border-gray-600 dark:text-white dark:focus:border-blue-500"
-                placeholder=" "
+                id="skils"
+                className="mx-5 block w-11/12 rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                placeholder="Навыки/Умения"
+                required
               />
+            </div>
+
+            <div className="pb-3"></div>
+            <div>
               <label
-                htmlFor="floating_outlined"
-                className="z-8 absolute start-1 top-2 origin-[0] -translate-y-4 scale-75 transform bg-p1-white px-8 text-sm text-gray-500 duration-300 peer-placeholder-shown:top-1/2 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:scale-100 peer-focus:top-2 peer-focus:-translate-y-4 peer-focus:scale-75 peer-focus:px-2 peer-focus:text-blue-600 rtl:peer-focus:left-auto rtl:peer-focus:translate-x-1/4 dark:bg-gray-900 dark:text-gray-400 peer-focus:dark:text-blue-500"
+                htmlFor="phone"
+                className="block px-5 text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
               >
                 Номер телефона
               </label>
-            </div>
-            <div className="relative px-5 py-2">
               <input
                 type="text"
-                id="email"
-                className="peer block w-full appearance-none rounded-lg border-2 border-gray-300 bg-transparent px-2.5 pb-2.5 pt-4 text-sm text-gray-900 focus:border-blue-600 focus:outline-none focus:ring-0 dark:border-gray-600 dark:text-white dark:focus:border-blue-500"
-                placeholder=" "
+                id="phone"
+                className="mx-5 block w-11/12 rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                placeholder="Номер телефона"
+                required
               />
+            </div>
+
+            <div className="pb-3"></div>
+            <div>
               <label
-                htmlFor="floating_outlined"
-                className="z-8 absolute start-1 top-2 origin-[0] -translate-y-4 scale-75 transform bg-p1-white px-8 text-sm text-gray-500 duration-300 peer-placeholder-shown:top-1/2 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:scale-100 peer-focus:top-2 peer-focus:-translate-y-4 peer-focus:scale-75 peer-focus:px-2 peer-focus:text-blue-600 rtl:peer-focus:left-auto rtl:peer-focus:translate-x-1/4 dark:bg-gray-900 dark:text-gray-400 peer-focus:dark:text-blue-500"
+                htmlFor="email"
+                className="block px-5 text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
               >
                 Адрес электронной почты
               </label>
-            </div>
-            <div className="relative px-5 py-2">
               <input
                 type="text"
-                id="Reasons"
-                className="peer block w-full appearance-none rounded-lg border-2 border-gray-300 bg-transparent px-2.5 pb-2.5 pt-4 text-sm text-gray-900 focus:border-blue-600 focus:outline-none focus:ring-0 dark:border-gray-600 dark:text-white dark:focus:border-blue-500"
-                placeholder=" "
+                id="email"
+                className="mx-5 block w-11/12 rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                placeholder="e-mail"
+                required
               />
+            </div>
+
+            <div>
               <label
-                htmlFor="floating_outlined"
-                className="z-8 absolute start-1 top-2 origin-[0] -translate-y-4 scale-75 transform bg-p1-white px-8 text-sm text-gray-500 duration-300 peer-placeholder-shown:top-1/2 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:scale-100 peer-focus:top-2 peer-focus:-translate-y-4 peer-focus:scale-75 peer-focus:px-2 peer-focus:text-blue-600 rtl:peer-focus:left-auto rtl:peer-focus:translate-x-1/4 dark:bg-gray-900 dark:text-gray-400 peer-focus:dark:text-blue-500"
+                htmlFor="message"
+                className="mx-5 mb-2 block text-left text-sm font-medium text-p1-darkgreen dark:text-white"
               >
-                Описание причин по которым Вы хотите присоединиться к GAA
+                Описание причин по которым Вы хотите присоединиться к GAA{" "}
               </label>
+              <textarea
+                id="message"
+                rows={4}
+                className="mx-5 block w-11/12 rounded-lg border-2 border-gray-300 bg-p2-white2 p-2.5 text-sm text-p1-darkgreen focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
+                placeholder="Описание причин по которым Вы хотите присоединиться к GAA"
+              ></textarea>
             </div>
-            <div className="relative px-5 py-2">
-              <input
-                type="text"
-                id="Site"
-                className="peer block w-full appearance-none rounded-lg border-2 border-gray-300 bg-transparent px-2.5 pb-2.5 pt-4 text-sm text-gray-900 focus:border-blue-600 focus:outline-none focus:ring-0 dark:border-gray-600 dark:text-white dark:focus:border-blue-500"
-                placeholder=" "
-              />
+            <div className="pb-5"></div>
+
+            <div className="pb-3"></div>
+            <div>
               <label
-                htmlFor="floating_outlined"
-                className="z-8 absolute start-1 top-2 origin-[0] -translate-y-4 scale-75 transform bg-p1-white px-8 text-sm text-gray-500 duration-300 peer-placeholder-shown:top-1/2 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:scale-100 peer-focus:top-2 peer-focus:-translate-y-4 peer-focus:scale-75 peer-focus:px-2 peer-focus:text-blue-600 rtl:peer-focus:left-auto rtl:peer-focus:translate-x-1/4 dark:bg-gray-900 dark:text-gray-400 peer-focus:dark:text-blue-500"
+                htmlFor="site"
+                className="block px-5 text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
               >
                 Интернет сайт
               </label>
-            </div>
-            <div className="relative px-5 py-2">
               <input
                 type="text"
-                id="Telegram"
-                className="peer block w-full appearance-none rounded-lg border-2 border-gray-300 bg-transparent px-2.5 pb-2.5 pt-4 text-sm text-gray-900 focus:border-blue-600 focus:outline-none focus:ring-0 dark:border-gray-600 dark:text-white dark:focus:border-blue-500"
-                placeholder=" "
+                id="site"
+                className="mx-5 block w-11/12 rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                placeholder="Интернет сайт www://"
+                required
               />
+            </div>
+
+            <div className="pb-3"></div>
+            <div>
               <label
-                htmlFor="floating_outlined"
-                className="z-8 absolute start-1 top-2 origin-[0] -translate-y-4 scale-75 transform bg-p1-white px-8 text-sm text-gray-500 duration-300 peer-placeholder-shown:top-1/2 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:scale-100 peer-focus:top-2 peer-focus:-translate-y-4 peer-focus:scale-75 peer-focus:px-2 peer-focus:text-blue-600 rtl:peer-focus:left-auto rtl:peer-focus:translate-x-1/4 dark:bg-gray-900 dark:text-gray-400 peer-focus:dark:text-blue-500"
+                htmlFor="Telegram"
+                className="block px-5 text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
               >
                 Telegram
               </label>
+              <input
+                type="text"
+                id="Telegram"
+                className="mx-5 block w-11/12 rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                placeholder="Telegram"
+                required
+              />
             </div>
-            <div className="relative px-5 py-2">
+
+            <div className="pb-3"></div>
+            <div>
+              <label
+                htmlFor="YouTube"
+                className="block px-5 text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
+              >
+                YouTube / RuTube
+              </label>
               <input
                 type="text"
                 id="YouTube"
-                className="peer block w-full appearance-none rounded-lg border-2 border-gray-300 bg-transparent px-2.5 pb-2.5 pt-4 text-sm text-gray-900 focus:border-blue-600 focus:outline-none focus:ring-0 dark:border-gray-600 dark:text-white dark:focus:border-blue-500"
-                placeholder=" "
+                className="mx-5 block w-11/12 rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                placeholder="YouTube"
+                required
               />
-              <label
-                htmlFor="floating_outlined"
-                className="z-8 absolute start-1 top-2 origin-[0] -translate-y-4 scale-75 transform bg-p1-white px-8 text-sm text-gray-500 duration-300 peer-placeholder-shown:top-1/2 peer-placeholder-shown:-translate-y-1/2 peer-placeholder-shown:scale-100 peer-focus:top-2 peer-focus:-translate-y-4 peer-focus:scale-75 peer-focus:px-2 peer-focus:text-blue-600 rtl:peer-focus:left-auto rtl:peer-focus:translate-x-1/4 dark:bg-gray-900 dark:text-gray-400 peer-focus:dark:text-blue-500"
-              >
-                YouTube
-              </label>
             </div>
+
             <p className="p-2 text-2xl text-p1-darkgreen">
               Генеративная коллекция
             </p>
@@ -366,50 +779,16 @@ export default function Page() {
             <p className="pb-2 text-2xl text-p1-darkgreen">
               Кто твой персонаж - решать тебе!
             </p>
-            <button className="rounded-l-lg border-2 border-p1-darkgreen bg-p1-white px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p1-darkgreen hover:text-p1-white">
+            <button className="rounded-l-3xl border-2 border-p1-darkgreen bg-p2-white2 px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p1-darkgreen hover:text-p1-white">
               Исследуй NFT
             </button>
-            <button className="rounded-r-lg border-2 border-p1-darkgreen bg-p1-white px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
+            <button className="rounded-r-3xl border-2 border-p1-darkgreen bg-p2-white2 px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
               Страница создания NFT
             </button>
             <div className="pb-8"></div>
           </div>
         </div>
       </div>
-      <form className="mx-auto max-w-sm">
-        <label
-          htmlFor="countries"
-          className="mb-2 block text-sm font-medium text-gray-900 dark:text-white"
-        >
-          Select an option
-        </label>
-        <select
-          id="countries"
-          className="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
-        >
-          <option selected>Choose a country</option>
-          <option value="US">United States</option>
-          <option value="CA">Canada</option>
-          <option value="FR">France</option>
-          <option value="DE">Germany</option>
-        </select>
-      </form>
-      Форма заявки Выберите лицензии, которые вы хотите получить Promouter
-      License NFT National License NFT Global License NFT Страна Город
-      Организация Категория продвижения Open Wheels Dragracing Drift TCR Touring
-      Car Racing Rally Oldtimer Stance car Sport car Rarity car Auto Sound Car
-      Carting Simracing Your answer Обязательное поле Чем Вы занимаетесь? Я
-      смотрю гонки по телевизору, в Интернете. Я участник команды Я водитель,
-      пилот Я промоутер Я коллекционер автомобилей Я коллекционер NFT Мои дети в
-      автоспортивной команде Я спонсор У меня есть бизнес по аренде автомобилей
-      Your answer Обязательное поле ФИО Иванов Иван Иванович NicName Ваше Ник
-      Имя Дата рождения Дата рождения Tag Tag Навыки/Умения Навыки/Умения Номер
-      телефона Адрес электронной почты email@site.com Описание причин, по
-      которым вы хотите присоединиться к GAA Описание причин, по которым вы
-      хотите присоединиться к GAA Дополнительная информация и ваши медиаресурсы
-      по желанию Media resourses Website Url:// Telegram @ YouTube URL:// Я
-      соглашаюсь с Политикой приватности и на обработку персональных данных.
-      Обязательное поле Upload your foto Загрузить файл Отправить в GAA
     </div>
   );
 }

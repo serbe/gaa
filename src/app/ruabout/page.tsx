@@ -1,7 +1,12 @@
+"use client";
 import Image from "next/image";
+import { useState } from "react";
 import Link from "next/link";
 
 export default function Page() {
+  const [value, setValue] = useState("0");
+  const [check, setCheck] = useState(false);
+
   return (
     <div>
       <div className="flex flex-row p-2">
@@ -2848,7 +2853,7 @@ export default function Page() {
         <div className="text-center text-p1-darkgreen">
           Мы очень любим общаться с нашими партнерами.
         </div>
-        <div className="my-5 rounded-3xl border-4 border-p1-darkgreen p-6 hover:border-p2-orange hover:shadow-xl">
+        <div className="my-5 rounded-3xl border-4 border-p1-darkgreen p-6 hover:border-p1-green hover:shadow-xl">
           <div className="grid grid-cols-2 gap-4">
             <div>
               <p className="pb-3 text-center font-semibold text-p1-darkgreen">
@@ -2874,7 +2879,7 @@ export default function Page() {
                 <input
                   type="text"
                   id="full_name"
-                  className="block w-full rounded-lg border border-gray-300 bg-p1-white p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                  className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
                   placeholder="Иванов Иван Иванович"
                   required
                 />
@@ -2890,7 +2895,7 @@ export default function Page() {
                 <input
                   type="text"
                   id="nic_name"
-                  className="block w-full rounded-lg border border-gray-300 bg-p1-white p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                  className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
                   placeholder="Ник-Имя"
                   required
                 />
@@ -2906,7 +2911,7 @@ export default function Page() {
                 <input
                   type="text"
                   id="organization"
-                  className="block w-full rounded-lg border border-gray-300 bg-p1-white p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                  className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
                   placeholder="Название организации/команды"
                   required
                 />
@@ -2922,7 +2927,7 @@ export default function Page() {
                 <input
                   type="email"
                   id="email"
-                  className="block w-full rounded-lg border border-gray-300 bg-p1-white p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                  className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
                   placeholder="Электронная почта"
                   required
                 />
@@ -2938,57 +2943,29 @@ export default function Page() {
                 <textarea
                   id="message"
                   rows={4}
-                  className="block w-full rounded-lg border-2 border-gray-300 bg-p1-white p-2.5 text-sm text-p1-darkgreen focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
+                  className="block w-full rounded-lg border-2 border-gray-300 bg-p2-white2 p-2.5 text-sm text-p1-darkgreen focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
                   placeholder="Ваши вопросы, комментарии, предложения ..."
                 ></textarea>
               </div>
               <div className="pb-2"></div>
-              <div className="inline-flex items-center">
-                <label
-                  className="relative flex cursor-pointer items-center"
-                  htmlFor="check-with-link"
-                >
-                  <input
-                    type="checkbox"
-                    checked
-                    className="peer h-5 w-5 cursor-pointer appearance-none rounded border border-slate-300 shadow transition-all checked:border-slate-800 checked:bg-slate-800 hover:shadow-md"
-                    id="check-with-link"
-                  />
-                  <span className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 transform text-white opacity-0 peer-checked:opacity-100">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      className="h-3.5 w-3.5"
-                      viewBox="0 0 20 20"
-                      fill="currentColor"
-                      stroke="currentColor"
-                      strokeWidth="1"
-                    >
-                      <path
-                        fill-rule="evenodd"
-                        d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
-                        clip-rule="evenodd"
-                      ></path>
-                    </svg>
-                  </span>
-                </label>
-                <label
-                  className="ml-2 cursor-pointer text-sm text-slate-600"
-                  htmlFor="check-with-link"
-                >
-                  <div>
-                    I agree with the
-                    <Link
-                      href="#"
-                      className="font-medium underline hover:text-slate-800"
-                    >
-                      terms and conditions
-                    </Link>
-                    .
-                  </div>
-                </label>
-              </div>
-              Я соглашаюсь с Политикой приватности и на обработку персональных
+              <div className="flex items-center">
+              <input
+                checked={check}
+                id="checkbox"
+                onChange={() => setCheck(!check)}
+                type="checkbox"
+                value=""
+                className="focus:ring-p1-cian h-4 w-4 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+              />
+              <label
+                htmlFor="checkbox"
+                className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-gray-300"
+              >
+                Соглашаюсь на обработку персональных данных
               данных.
+              </label>
+            </div>
+              
               <div className="pb-2"></div>
               <button className="rounded-3xl border-2 border-p1-darkgreen bg-p1-white px-10 py-8 text-xl text-p1-darkgreen shadow-lg shadow-p1-cyan hover:bg-p1-darkgreen hover:text-p1-white">
                 Отправить в GAA

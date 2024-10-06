@@ -35,10 +35,10 @@ export default function Page() {
             <p className="pb-2 text-2xl text-p1-darkgreen">
               Кто твой персонаж - решать тебе!
             </p>
-            <button className="rounded-l-lg border-2 border-p1-darkgreen bg-p1-white px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p1-darkgreen hover:text-p1-white">
+            <button className="rounded-l-3xl border-2 border-p1-darkgreen bg-p2-white2 px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p1-darkgreen hover:text-p1-white">
               Исследуй NFT
             </button>
-            <button className="rounded-r-lg border-2 border-p1-darkgreen bg-p1-white px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
+            <button className="rounded-r-3xl border-2 border-p1-darkgreen bg-p2-white2 px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
               Страница создания NFT
             </button>
             <div className="pb-8"></div>
@@ -88,7 +88,7 @@ export default function Page() {
               сообщества и интеграции с Web3 и Blockchain.
             </p>
 
-            <button className="w-full rounded-3xl border-2 border-p1-darkgreen bg-p1-white px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
+            <button className="w-full rounded-3xl border-2 border-p1-darkgreen bg-p2-white2 px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
               Страница создания NFT
             </button>
           </div>
@@ -198,7 +198,7 @@ export default function Page() {
               Максимальное количество: 10 RaceLads за транзакцию
             </p>
 
-            <button className="rounded-3xl border-2 border-p1-darkgreen bg-p1-white px-48 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
+            <button className="rounded-3xl border-2 border-p1-darkgreen bg-p2-white2 px-48 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
               Создать NFT
             </button>
             <div className="pb-8"></div>
@@ -269,34 +269,34 @@ export default function Page() {
           </p>
         </div>
         <div>
-          <button className="rounded-l-lg border-2 border-p1-darkgreen bg-p1-white p-2 text-p1-darkgreen shadow-lg hover:bg-p1-darkgreen hover:text-p1-white">
+          <button className="rounded-l-lg border-2 border-p1-darkgreen bg-p2-white2 p-2 text-p1-darkgreen shadow-lg hover:bg-p1-darkgreen hover:text-p1-white">
             Исследуй NFT
           </button>
-          <button className="rounded-r-lg border-2 border-p1-darkgreen bg-p1-white p-2 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
+          <button className="rounded-r-lg border-2 border-p1-darkgreen bg-p2-white2 p-2 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
             Создай NFT
           </button>
         </div>
         <div>
-          <button className="rounded-l-lg border-2 border-p1-darkgreen bg-p1-white p-2 text-p1-darkgreen shadow-lg hover:bg-p1-darkgreen hover:text-p1-white">
+          <button className="rounded-l-lg border-2 border-p1-darkgreen bg-p2-white2 p-2 text-p1-darkgreen shadow-lg hover:bg-p1-darkgreen hover:text-p1-white">
             Исследуй NFT
           </button>
-          <button className="rounded-r-lg border-2 border-p1-darkgreen bg-p1-white p-2 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
+          <button className="rounded-r-lg border-2 border-p1-darkgreen bg-p2-white2 p-2 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
             Создай NFT
           </button>
         </div>
         <div>
-          <button className="rounded-l-lg border-2 border-p1-darkgreen bg-p1-white p-2 text-p1-darkgreen shadow-lg hover:bg-p1-darkgreen hover:text-p1-white">
+          <button className="rounded-l-lg border-2 border-p1-darkgreen bg-p2-white2 p-2 text-p1-darkgreen shadow-lg hover:bg-p1-darkgreen hover:text-p1-white">
             Исследуй NFT
           </button>
-          <button className="rounded-r-lg border-2 border-p1-darkgreen bg-p1-white p-2 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
+          <button className="rounded-r-lg border-2 border-p1-darkgreen bg-p2-white2 p-2 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
             Создай NFT
           </button>
         </div>
         <div>
-          <button className="rounded-l-lg border-2 border-p1-darkgreen bg-p1-white p-2 text-p1-darkgreen shadow-lg hover:bg-p1-darkgreen hover:text-p1-white">
+          <button className="rounded-l-lg border-2 border-p1-darkgreen bg-p2-white2 p-2 text-p1-darkgreen shadow-lg hover:bg-p1-darkgreen hover:text-p1-white">
             Исследуй NFT
           </button>
-          <button className="rounded-r-lg border-2 border-p1-darkgreen bg-p1-white p-2 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
+          <button className="rounded-r-lg border-2 border-p1-darkgreen bg-p2-white2 p-2 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
             Создай NFT
           </button>
         </div>
@@ -337,7 +337,7 @@ export default function Page() {
               человеку.
             </p>
 
-            <button className="w-full rounded-3xl border-2 border-p1-darkgreen bg-p1-white px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
+            <button className="w-full rounded-3xl border-2 border-p1-darkgreen bg-p2-white2 px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
               Страница создания NFT
             </button>
           </div>
@@ -472,7 +472,7 @@ export default function Page() {
           </div>
 
           <div>
-            <button className="rounded-3xl border-2 border-p1-darkgreen bg-p1-white px-8 py-8 text-xl font-normal text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
+            <button className="rounded-3xl border-2 border-p1-darkgreen bg-p2-white2 px-8 py-8 text-xl font-normal text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
               Сгенерировать изображение NFT
             </button>
 
@@ -535,7 +535,7 @@ export default function Page() {
               <input
                 type="text"
                 id="discipline"
-                className="block w-full rounded-lg border border-gray-300 bg-p1-white p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
                 placeholder="Дисциплина"
                 required
               />
@@ -551,7 +551,7 @@ export default function Page() {
               <input
                 type="text"
                 id="team"
-                className="block w-full rounded-lg border border-gray-300 bg-p1-white p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
                 placeholder="Название команды"
                 required
               />
@@ -567,7 +567,7 @@ export default function Page() {
               <input
                 type="text"
                 id="full_name"
-                className="block w-full rounded-lg border border-gray-300 bg-p1-white p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
                 placeholder="Иванов Иван Иванович"
                 required
               />
@@ -584,7 +584,7 @@ export default function Page() {
               <input
                 type="text"
                 id="nic_name"
-                className="block w-full rounded-lg border border-gray-300 bg-p1-white p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
                 placeholder="Ник-Имя"
                 required
               />
@@ -601,7 +601,7 @@ export default function Page() {
               <input
                 type="date"
                 id="birthday"
-                className="block w-full rounded-lg border border-gray-300 bg-p1-white p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
                 placeholder="Дата рождения"
                 required
               />
@@ -618,7 +618,7 @@ export default function Page() {
               <input
                 type="text"
                 id="contry"
-                className="block w-full rounded-lg border border-gray-300 bg-p1-white p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
                 placeholder="Страна"
                 required
               />
@@ -635,7 +635,7 @@ export default function Page() {
               <input
                 type="text"
                 id="city"
-                className="block w-full rounded-lg border border-gray-300 bg-p1-white p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
                 placeholder="Город"
                 required
               />
@@ -653,7 +653,7 @@ export default function Page() {
               <textarea
                 id="message"
                 rows={4}
-                className="block w-full rounded-lg border-2 border-gray-300 bg-p1-white p-2.5 text-sm text-p1-darkgreen focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
+                className="block w-full rounded-lg border-2 border-gray-300 bg-p2-white2 p-2.5 text-sm text-p1-darkgreen focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
                 placeholder="Описание"
               ></textarea>
             </div>
@@ -676,7 +676,7 @@ export default function Page() {
             </div>
             <div className="pb-8"></div>
 
-            <button className="rounded-3xl border-2 border-p1-darkgreen bg-p1-white px-20 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
+            <button className="rounded-3xl border-2 border-p1-darkgreen bg-p2-white2 px-20 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
               Создать NFT Гонщика
             </button>
             <div className="pb-8"></div>
@@ -718,7 +718,7 @@ export default function Page() {
               команды. Позже по желанию владельца токен может быть
               передан/продан любому человеку.
             </p>
-            <button className="w-full rounded-3xl border-2 border-p1-darkgreen bg-p1-white px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
+            <button className="w-full rounded-3xl border-2 border-p1-darkgreen bg-p2-white2 px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
               Страница создания NFT
             </button>
           </div>
@@ -854,10 +854,10 @@ export default function Page() {
           </div>
 
           <div className="space-x-5 p-2 text-2xl font-semibold text-p2-orange">
-            <button className="rounded-3xl border-2 border-p1-darkgreen bg-p1-white px-8 py-8 text-xl font-normal text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
+            <button className="rounded-3xl border-2 border-p1-darkgreen bg-p2-white2 px-8 py-8 text-xl font-normal text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
               Сгенерировать изображение NFT
             </button>
-
+            <div className="pb-5"></div>
             <div>
               <label
                 htmlFor="default-range"
@@ -917,7 +917,7 @@ export default function Page() {
               <input
                 type="text"
                 id="discipline"
-                className="block w-full rounded-lg border border-gray-300 bg-p1-white p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
                 placeholder="Дисциплина"
                 required
               />
@@ -933,7 +933,7 @@ export default function Page() {
               <input
                 type="text"
                 id="team"
-                className="block w-full rounded-lg border border-gray-300 bg-p1-white p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
                 placeholder="Название команды"
                 required
               />
@@ -949,7 +949,7 @@ export default function Page() {
               <input
                 type="text"
                 id="full_name"
-                className="block w-full rounded-lg border border-gray-300 bg-p1-white p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
                 placeholder="Иванов Иван Иванович"
                 required
               />
@@ -966,7 +966,7 @@ export default function Page() {
               <input
                 type="text"
                 id="nic_name"
-                className="block w-full rounded-lg border border-gray-300 bg-p1-white p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
                 placeholder="Ник-Имя"
                 required
               />
@@ -983,7 +983,7 @@ export default function Page() {
               <input
                 type="date"
                 id="birthday"
-                className="block w-full rounded-lg border border-gray-300 bg-p1-white p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
                 placeholder="Дата рождения"
                 required
               />
@@ -1000,7 +1000,7 @@ export default function Page() {
               <input
                 type="text"
                 id="contry"
-                className="block w-full rounded-lg border border-gray-300 bg-p1-white p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
                 placeholder="Страна"
                 required
               />
@@ -1017,7 +1017,7 @@ export default function Page() {
               <input
                 type="text"
                 id="city"
-                className="block w-full rounded-lg border border-gray-300 bg-p1-white p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
                 placeholder="Город"
                 required
               />
@@ -1035,7 +1035,7 @@ export default function Page() {
               <textarea
                 id="message"
                 rows={4}
-                className="block w-full rounded-lg border-2 border-gray-300 bg-p1-white p-2.5 text-sm text-p1-darkgreen focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
+                className="block w-full rounded-lg border-2 border-gray-300 bg-p2-white2 p-2.5 text-sm text-p1-darkgreen focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
                 placeholder="Описание"
               ></textarea>
             </div>
@@ -1059,7 +1059,7 @@ export default function Page() {
             </div>
             <div className="pb-8"></div>
 
-            <button className="rounded-3xl border-2 border-p1-darkgreen bg-p1-white px-20 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
+            <button className="rounded-3xl border-2 border-p1-darkgreen bg-p2-white2 px-20 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
               Создать NFT Участника команды
             </button>
             <div className="pb-8"></div>
@@ -1100,7 +1100,7 @@ export default function Page() {
               передан/продан любому человеку.
             </p>
 
-            <button className="w-full rounded-3xl border-2 border-p1-darkgreen bg-p1-white px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
+            <button className="w-full rounded-3xl border-2 border-p1-darkgreen bg-p2-white2 px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
               Страница создания NFT
             </button>
           </div>
@@ -1193,7 +1193,7 @@ export default function Page() {
               src="/HeroNFT/Collectors/Collector1.png"
               alt="Collector1"
             />
-            <button className="rounded-3xl border-2 border-p1-darkgreen bg-p1-white px-8 py-8 text-xl font-normal text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
+            <button className="rounded-3xl border-2 border-p1-darkgreen bg-p2-white2 px-8 py-8 text-xl font-normal text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
               Сгенерировать изображение NFT
             </button>
             <div>
@@ -1289,7 +1289,7 @@ export default function Page() {
               <input
                 type="text"
                 id="full_name"
-                className="block w-full rounded-lg border border-gray-300 bg-p1-white p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
                 placeholder="Иванов Иван Иванович"
                 required
               />
@@ -1306,7 +1306,7 @@ export default function Page() {
               <input
                 type="text"
                 id="nic_name"
-                className="block w-full rounded-lg border border-gray-300 bg-p1-white p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
                 placeholder="Ник-Имя"
                 required
               />
@@ -1323,7 +1323,7 @@ export default function Page() {
               <input
                 type="date"
                 id="birthday"
-                className="block w-full rounded-lg border border-gray-300 bg-p1-white p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
                 placeholder="Дата рождения"
                 required
               />
@@ -1340,7 +1340,7 @@ export default function Page() {
               <input
                 type="text"
                 id="contry"
-                className="block w-full rounded-lg border border-gray-300 bg-p1-white p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
                 placeholder="Страна"
                 required
               />
@@ -1357,7 +1357,7 @@ export default function Page() {
               <input
                 type="text"
                 id="city"
-                className="block w-full rounded-lg border border-gray-300 bg-p1-white p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
                 placeholder="Город"
                 required
               />
@@ -1375,7 +1375,7 @@ export default function Page() {
               <textarea
                 id="message"
                 rows={4}
-                className="block w-full rounded-lg border-2 border-gray-300 bg-p1-white p-2.5 text-sm text-p1-darkgreen focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
+                className="block w-full rounded-lg border-2 border-gray-300 bg-p2-white2 p-2.5 text-sm text-p1-darkgreen focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
                 placeholder="Описание"
               ></textarea>
             </div>
@@ -1398,7 +1398,7 @@ export default function Page() {
               </label>
             </div>
             <div className="pb-8"></div>
-            <button className="rounded-3xl border-2 border-p1-darkgreen bg-p1-white px-6 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
+            <button className="rounded-3xl border-2 border-p1-darkgreen bg-p2-white2 px-6 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
               Создать NFT Коллекционера
             </button>
             <div className="pb-8"></div>
@@ -1445,7 +1445,7 @@ export default function Page() {
               Позже по желанию владельца токен может быть передан/продан любому
               человеку. Например новому владельцу автомобиля.
             </p>
-            <button className="w-full rounded-3xl border-2 border-p1-darkgreen bg-p1-white px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
+            <button className="w-full rounded-3xl border-2 border-p1-darkgreen bg-p2-white2 px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
               Страница создания NFT
             </button>
           </div>
@@ -1493,9 +1493,10 @@ export default function Page() {
               src="/Cars/Car.png"
               alt="Car"
             />
-            <button className="rounded-3xl border-2 border-p1-darkgreen bg-p1-white px-8 py-8 text-xl font-normal text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
+            <button className="rounded-3xl border-2 border-p1-darkgreen bg-p2-white2 px-8 py-8 text-xl font-normal text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
               Сгенерировать изображение NFT
             </button>
+            <div className="pb-5"></div>
             <div>
               <label
                 htmlFor="default-range"
@@ -1589,7 +1590,7 @@ export default function Page() {
               <input
                 type="text"
                 id="car_category"
-                className="block w-full rounded-lg border border-gray-300 bg-p1-white p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
                 placeholder="Дрифт/Dragster/Oldtimer/Stance/Sport/Rarity"
                 required
               />
@@ -1605,7 +1606,7 @@ export default function Page() {
               <input
                 type="text"
                 id="custom_orig"
-                className="block w-full rounded-lg border border-gray-300 bg-p1-white p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
                 placeholder="Самодельный или Оригональный"
                 required
               />
@@ -1621,7 +1622,7 @@ export default function Page() {
               <input
                 type="text"
                 id="full_name"
-                className="block w-full rounded-lg border border-gray-300 bg-p1-white p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
                 placeholder="Полное имя создателя/владельца"
                 required
               />
@@ -1638,7 +1639,7 @@ export default function Page() {
               <input
                 type="text"
                 id="nic_name"
-                className="block w-full rounded-lg border border-gray-300 bg-p1-white p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
                 placeholder="Ник-Имя"
                 required
               />
@@ -1655,7 +1656,7 @@ export default function Page() {
               <input
                 type="date"
                 id="birthday"
-                className="block w-full rounded-lg border border-gray-300 bg-p1-white p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
                 placeholder="Дата рождения"
                 required
               />
@@ -1672,7 +1673,7 @@ export default function Page() {
               <input
                 type="text"
                 id="Brand"
-                className="block w-full rounded-lg border border-gray-300 bg-p1-white p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
                 placeholder="Марка авто"
                 required
               />
@@ -1688,7 +1689,7 @@ export default function Page() {
               <input
                 type="text"
                 id="model"
-                className="block w-full rounded-lg border border-gray-300 bg-p1-white p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
                 placeholder="Модель авто"
                 required
               />
@@ -1704,7 +1705,7 @@ export default function Page() {
               <input
                 type="text"
                 id="contry"
-                className="block w-full rounded-lg border border-gray-300 bg-p1-white p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
                 placeholder="Год создания"
                 required
               />
@@ -1720,7 +1721,7 @@ export default function Page() {
               <input
                 type="text"
                 id="engine"
-                className="block w-full rounded-lg border border-gray-300 bg-p1-white p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
                 placeholder="Двигатель"
                 required
               />
@@ -1736,7 +1737,7 @@ export default function Page() {
               <input
                 type="text"
                 id="contry"
-                className="block w-full rounded-lg border border-gray-300 bg-p1-white p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
                 placeholder="Лошадиных сил"
                 required
               />
@@ -1753,7 +1754,7 @@ export default function Page() {
               <input
                 type="text"
                 id="contry"
-                className="block w-full rounded-lg border border-gray-300 bg-p1-white p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
                 placeholder="Страна"
                 required
               />
@@ -1769,7 +1770,7 @@ export default function Page() {
               <input
                 type="text"
                 id="city"
-                className="block w-full rounded-lg border border-gray-300 bg-p1-white p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
                 placeholder="Город"
                 required
               />
@@ -1787,7 +1788,7 @@ export default function Page() {
               <textarea
                 id="message"
                 rows={4}
-                className="block w-full rounded-lg border-2 border-gray-300 bg-p1-white p-2.5 text-sm text-p1-darkgreen focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
+                className="block w-full rounded-lg border-2 border-gray-300 bg-p2-white2 p-2.5 text-sm text-p1-darkgreen focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
                 placeholder="Описание"
               ></textarea>
             </div>
@@ -1810,7 +1811,7 @@ export default function Page() {
               </label>
             </div>
             <div className="pb-8"></div>
-            <button className="rounded-3xl border-2 border-p1-darkgreen bg-p1-white px-20 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
+            <button className="rounded-3xl border-2 border-p1-darkgreen bg-p2-white2 px-20 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
               Создать NFT Автомобиля
             </button>
             <div className="pb-8"></div>
@@ -1846,10 +1847,10 @@ export default function Page() {
             <p className="pb-2 text-2xl text-p1-darkgreen">
               Кто твой персонаж - решать тебе!
             </p>
-            <button className="rounded-l-lg border-2 border-p1-darkgreen bg-p1-white px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p1-darkgreen hover:text-p1-white">
+            <button className="rounded-l-3xl border-2 border-p1-darkgreen bg-p2-white2 px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p1-darkgreen hover:text-p1-white">
               Исследуй NFT
             </button>
-            <button className="rounded-r-lg border-2 border-p1-darkgreen bg-p1-white px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
+            <button className="rounded-r-3xl border-2 border-p1-darkgreen bg-p2-white2 px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
               Страница создания NFT
             </button>
             <div className="pb-8"></div>
@@ -1896,7 +1897,7 @@ export default function Page() {
               любому участнику сообщества.
             </p>
 
-            <button className="w-full rounded-3xl border-2 border-p1-darkgreen bg-p1-white px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
+            <button className="w-full rounded-3xl border-2 border-p1-darkgreen bg-p2-white2 px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
               Страница создания NFT
             </button>
           </div>
@@ -1972,8 +1973,10 @@ export default function Page() {
       <div className="grid grid-cols-6 gap-4">
         <div className="col-span-4 col-start-2 w-full rounded-3xl border-4 border-p2-orange text-center text-p1-darkgreen shadow-lg">
           <div>
-            <p className="text-2xl text-p1-darkgreen">Присоединяйтесь к нам</p>
-            <p className="text-2xl text-p1-darkgreen">
+            <p className="pt-5 text-2xl text-p1-darkgreen">
+              Присоединяйтесь к нам
+            </p>
+            <p className="pb-5 text-2xl text-p1-darkgreen">
               Получите своего героя CustomLad
             </p>
             <div className="grid grid-cols-3 gap-4">
@@ -2286,11 +2289,11 @@ export default function Page() {
                   src="/HeroNFT/CustomLads/CustomLads1.png"
                   alt="CustomLads1"
                 />
-                <button className="w-full rounded-3xl border-2 border-p1-darkgreen bg-p1-white px-5 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
+                <button className="w-full rounded-3xl border-2 border-p1-darkgreen bg-p2-white2 px-5 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
                   Случайное изображения NFT
                 </button>
                 <div className="pb-5"></div>
-                <button className="w-full rounded-3xl border-2 border-p1-darkgreen bg-p1-white px-5 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
+                <button className="w-full rounded-3xl border-2 border-p1-darkgreen bg-p2-white2 px-5 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
                   Сброс
                 </button>
               </div>
@@ -2490,7 +2493,7 @@ export default function Page() {
             </p>
 
             <div className="pb-5"></div>
-            <button className="rounded-3xl border-2 border-p1-darkgreen bg-p1-white px-48 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
+            <button className="rounded-3xl border-2 border-p1-darkgreen bg-p2-white2 px-48 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
               Создать NFT
             </button>
             <div className="pb-8"></div>
@@ -2523,10 +2526,10 @@ export default function Page() {
             <p className="p-4 text-2xl text-p1-darkgreen">
               Когда присоединиться - решать тебе!
             </p>
-            <button className="rounded-l-lg border-2 border-p1-darkgreen bg-p1-white px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p1-darkgreen hover:text-p1-white">
+            <button className="rounded-l-3xl border-2 border-p1-darkgreen bg-p2-white2 px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p1-darkgreen hover:text-p1-white">
               Исследуй NFT
             </button>
-            <button className="rounded-r-lg border-2 border-p1-darkgreen bg-p1-white px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
+            <button className="rounded-r-3xl border-2 border-p1-darkgreen bg-p2-white2 px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
               Страница создания NFT
             </button>
             <div className="pb-8"></div>
@@ -2535,10 +2538,10 @@ export default function Page() {
       </div>
 
       <div className="grid grid-cols-2 gap-4">
-        <div className="p-2 text-4xl font-semibold text-p1-darkgreen">
+        <div className="p-5 text-4xl font-semibold text-p1-darkgreen">
           Rewards NFT
         </div>
-        <div className="p-2 text-end text-4xl font-semibold text-p1-darkgreen">
+        <div className="p-5 text-end text-4xl font-semibold text-p1-darkgreen">
           Страница исследователя
         </div>
       </div>
@@ -2581,7 +2584,7 @@ export default function Page() {
               действительности.
             </p>
 
-            <button className="w-full rounded-3xl border-2 border-p1-darkgreen bg-p1-white px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
+            <button className="w-full rounded-3xl border-2 border-p1-darkgreen bg-p2-white2 px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
               Страница создания NFT
             </button>
           </div>
@@ -2807,7 +2810,7 @@ export default function Page() {
                 <input
                   type="text"
                   id="contry"
-                  className="block w-full rounded-lg border border-gray-300 bg-p1-white p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                  className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
                   placeholder="Страна"
                   required
                 />
@@ -2824,7 +2827,7 @@ export default function Page() {
                 <input
                   type="text"
                   id="city"
-                  className="block w-full rounded-lg border border-gray-300 bg-p1-white p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                  className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
                   placeholder="Город"
                   required
                 />
@@ -2840,7 +2843,7 @@ export default function Page() {
                 <input
                   type="text"
                   id="event"
-                  className="block w-full rounded-lg border border-gray-300 bg-p1-white p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                  className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
                   placeholder="Официальное название мероприятия"
                   required
                 />
@@ -2856,7 +2859,7 @@ export default function Page() {
                 <input
                   type="text"
                   id="competition"
-                  className="block w-full rounded-lg border border-gray-300 bg-p1-white p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                  className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
                   placeholder="Официальное название соревнования/конкурса"
                   required
                 />
@@ -2872,7 +2875,7 @@ export default function Page() {
                 </label>
                 <select
                   id="license"
-                  className="block w-full rounded-lg border-2 border-gray-300 bg-p1-white p-2.5 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                  className="block w-full rounded-lg border-2 border-gray-300 bg-p2-white2 p-2.5 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
                   defaultValue={"DEFAULT"}
                 >
                   <option value="DEFAULT" disabled>
@@ -2894,7 +2897,7 @@ export default function Page() {
               <input
                 type="text"
                 id="nomination"
-                className="block w-full rounded-lg border border-gray-300 bg-p1-white p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
                 placeholder="Номинация"
                 required
               />
@@ -2909,7 +2912,7 @@ export default function Page() {
               </label>
               <select
                 id="Reward"
-                className="block w-full rounded-lg border-2 border-gray-300 bg-p1-white p-2.5 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                className="block w-full rounded-lg border-2 border-gray-300 bg-p2-white2 p-2.5 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
                 defaultValue={"DEFAULT"}
               >
                 <option value="DEFAULT" disabled>
@@ -2931,7 +2934,7 @@ export default function Page() {
               </label>
               <select
                 id="Place_Victory"
-                className="block w-full rounded-lg border-2 border-gray-300 bg-p1-white p-2.5 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                className="block w-full rounded-lg border-2 border-gray-300 bg-p2-white2 p-2.5 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
                 defaultValue={"DEFAULT"}
               >
                 <option value="DEFAULT" disabled>
@@ -2955,7 +2958,7 @@ export default function Page() {
               <input
                 type="date"
                 id="victory_day"
-                className="block w-full rounded-lg border border-gray-300 bg-p1-white p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
                 placeholder="День Победы"
                 required
               />
@@ -2976,7 +2979,7 @@ export default function Page() {
               <input
                 type="text"
                 id="full_name"
-                className="block w-full rounded-lg border border-gray-300 bg-p1-white p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
                 placeholder="Иванов Иван Иванович"
                 required
               />
@@ -2993,7 +2996,7 @@ export default function Page() {
               <input
                 type="text"
                 id="nic_name"
-                className="block w-full rounded-lg border border-gray-300 bg-p1-white p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
                 placeholder="Ник-Имя"
                 required
               />
@@ -3010,7 +3013,7 @@ export default function Page() {
               <input
                 type="date"
                 id="birthday"
-                className="block w-full rounded-lg border border-gray-300 bg-p1-white p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
                 placeholder="Дата рождения"
                 required
               />
@@ -3026,7 +3029,7 @@ export default function Page() {
               <input
                 type="text"
                 id="team"
-                className="block w-full rounded-lg border border-gray-300 bg-p1-white p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
                 placeholder="Название команды"
                 required
               />
@@ -3042,7 +3045,7 @@ export default function Page() {
               <input
                 type="text"
                 id="tag"
-                className="block w-full rounded-lg border border-gray-300 bg-p1-white p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
                 placeholder="Хэш-Тэг"
                 required
               />
@@ -3058,7 +3061,7 @@ export default function Page() {
               <input
                 type="text"
                 id="geolocation"
-                className="block w-full rounded-lg border border-gray-300 bg-p1-white p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
                 placeholder="Геолокация"
                 required
               />
@@ -3076,7 +3079,7 @@ export default function Page() {
               <textarea
                 id="message"
                 rows={4}
-                className="block w-full rounded-lg border-2 border-gray-300 bg-p1-white p-2.5 text-sm text-p1-darkgreen focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
+                className="block w-full rounded-lg border-2 border-gray-300 bg-p2-white2 p-2.5 text-sm text-p1-darkgreen focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
                 placeholder="Описание"
               ></textarea>
             </div>
@@ -3099,7 +3102,7 @@ export default function Page() {
             </div>
             <div className="pb-8"></div>
 
-            <button className="rounded-3xl border-2 border-p1-darkgreen bg-p1-white px-20 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
+            <button className="rounded-3xl border-2 border-p1-darkgreen bg-p2-white2 px-20 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
               Создать NFT Награды
             </button>
             <div className="pb-8"></div>
@@ -3157,26 +3160,26 @@ export default function Page() {
         </div>
 
         <div>
-          <button className="rounded-l-lg border-2 border-p1-darkgreen bg-p1-white p-2 text-p1-darkgreen shadow-lg hover:bg-p1-darkgreen hover:text-p1-white">
+          <button className="rounded-l-lg border-2 border-p1-darkgreen bg-p2-white2 p-2 text-p1-darkgreen shadow-lg hover:bg-p1-darkgreen hover:text-p1-white">
             Исследуй NFT
           </button>
-          <button className="rounded-r-lg border-2 border-p1-darkgreen bg-p1-white p-2 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
+          <button className="rounded-r-lg border-2 border-p1-darkgreen bg-p2-white2 p-2 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
             Создай NFT
           </button>
         </div>
         <div>
-          <button className="rounded-l-lg border-2 border-p1-darkgreen bg-p1-white p-2 text-p1-darkgreen shadow-lg hover:bg-p1-darkgreen hover:text-p1-white">
+          <button className="rounded-l-lg border-2 border-p1-darkgreen bg-p2-white2 p-2 text-p1-darkgreen shadow-lg hover:bg-p1-darkgreen hover:text-p1-white">
             Исследуй NFT
           </button>
-          <button className="rounded-r-lg border-2 border-p1-darkgreen bg-p1-white p-2 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
+          <button className="rounded-r-lg border-2 border-p1-darkgreen bg-p2-white2 p-2 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
             Создай NFT
           </button>
         </div>
         <div>
-          <button className="rounded-l-lg border-2 border-p1-darkgreen bg-p1-white p-2 text-p1-darkgreen shadow-lg hover:bg-p1-darkgreen hover:text-p1-white">
+          <button className="rounded-l-lg border-2 border-p1-darkgreen bg-p2-white2 p-2 text-p1-darkgreen shadow-lg hover:bg-p1-darkgreen hover:text-p1-white">
             Исследуй NFT
           </button>
-          <button className="rounded-r-lg border-2 border-p1-darkgreen bg-p1-white p-2 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
+          <button className="rounded-r-lg border-2 border-p1-darkgreen bg-p2-white2 p-2 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
             Создай NFT
           </button>
         </div>
@@ -3206,7 +3209,7 @@ export default function Page() {
               заполняет регистрационную форму на странице регистрации и
               направляет заявку на предоставление доступа к созданию NFT.
             </p>
-            <button className="w-full rounded-3xl border-2 border-p1-darkgreen bg-p1-white px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
+            <button className="w-full rounded-3xl border-2 border-p1-darkgreen bg-p2-white2 px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
               Регистрационная форма заявки
             </button>
 
@@ -3225,7 +3228,7 @@ export default function Page() {
               соответствующих целям Проекта.
             </p>
 
-            <button className="w-full rounded-3xl border-2 border-p1-darkgreen bg-p1-white px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
+            <button className="w-full rounded-3xl border-2 border-p1-darkgreen bg-p2-white2 px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
               Страница создания NFT
             </button>
           </div>
@@ -3278,7 +3281,7 @@ export default function Page() {
               Для получения NFT необходимо зарегистрироваться и заполнить заявку
               для рассмотрения
             </p>
-            <button className="w-full rounded-3xl border-2 border-p1-darkgreen bg-p1-white px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
+            <button className="w-full rounded-3xl border-2 border-p1-darkgreen bg-p2-white2 px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
               Регистрационная форма заявки
             </button>
 
@@ -3303,7 +3306,7 @@ export default function Page() {
               нарушения держателем National License NFT правил, создания NFT не
               соответствующих целям Проекта.
             </p>
-            <button className="w-full rounded-3xl border-2 border-p1-darkgreen bg-p1-white px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
+            <button className="w-full rounded-3xl border-2 border-p1-darkgreen bg-p2-white2 px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
               Страница создания NFT
             </button>
           </div>
@@ -3354,7 +3357,7 @@ export default function Page() {
               Для получения NFT необходимо зарегистрироваться и заполнить заявку
               для рассмотрения
             </p>
-            <button className="w-full rounded-3xl border-2 border-p1-darkgreen bg-p1-white px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
+            <button className="w-full rounded-3xl border-2 border-p1-darkgreen bg-p2-white2 px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
               Регистрационная форма заявки
             </button>
 
@@ -3381,7 +3384,7 @@ export default function Page() {
               нарушения держателем National License NFT правил, создания NFT не
               соответствующих целям Проекта.
             </p>
-            <button className="w-full rounded-3xl border-2 border-p1-darkgreen bg-p1-white px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
+            <button className="w-full rounded-3xl border-2 border-p1-darkgreen bg-p2-white2 px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
               Страница создания NFT
             </button>
           </div>
@@ -3606,7 +3609,7 @@ export default function Page() {
               <input
                 id="default-range"
                 type="range"
-                min="0"
+                min="1"
                 max="10"
                 value={value}
                 onChange={(e) => setValue(e.target.value)}
@@ -3616,7 +3619,7 @@ export default function Page() {
             <p className="pb-8 pt-8 text-2xl text-p1-darkgreen">
               Максимум: 10 Promoter License NFT за транзакцию
             </p>
-            <button className="rounded-3xl border-2 border-p1-darkgreen bg-p1-white px-48 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
+            <button className="rounded-3xl border-2 border-p1-darkgreen bg-p2-white2 px-48 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
               Создать NFT
             </button>
             <div className="pb-8"></div>
@@ -3700,7 +3703,7 @@ export default function Page() {
             <p className="pb-8 pt-8 text-2xl text-p1-darkgreen">
               Максимум: 1 National License NFT за транзакцию
             </p>
-            <button className="rounded-3xl border-2 border-p1-darkgreen bg-p1-white px-48 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
+            <button className="rounded-3xl border-2 border-p1-darkgreen bg-p2-white2 px-48 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
               Создать NFT
             </button>
             <div className="pb-8"></div>
@@ -3784,7 +3787,7 @@ export default function Page() {
             <p className="pb-8 pt-8 text-2xl text-p1-darkgreen">
               Максимум: 1 Global License NFT за транзакцию
             </p>
-            <button className="rounded-3xl border-2 border-p1-darkgreen bg-p1-white px-48 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
+            <button className="rounded-3xl border-2 border-p1-darkgreen bg-p2-white2 px-48 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
               Создать NFT
             </button>
             <div className="pb-8"></div>
