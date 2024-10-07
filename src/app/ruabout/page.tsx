@@ -2864,9 +2864,11 @@ export default function Page() {
               <p className="pb-3 pt-5 text-center font-semibold text-p1-darkgreen">
                 Нажмите кнопку ниже
               </p>
-              <button className="rounded-3xl border-2 border-p1-darkgreen bg-p1-white px-10 py-8 text-xl text-p1-darkgreen shadow-lg shadow-p1-cyan hover:bg-p1-darkgreen hover:text-p1-white">
-                Форма подачи заявки
-              </button>
+              <div className="grid">
+                <button className="mx-auto justify-center rounded-3xl border-2 border-p1-darkgreen bg-p1-white px-10 py-8 text-xl text-p1-darkgreen shadow-lg shadow-p1-cyan hover:bg-p1-darkgreen hover:text-p1-white">
+                  Форма подачи заявки
+                </button>
+              </div>
             </div>
             <div>
               <div>
@@ -2949,27 +2951,28 @@ export default function Page() {
               </div>
               <div className="pb-2"></div>
               <div className="flex items-center">
-              <input
-                checked={check}
-                id="checkbox"
-                onChange={() => setCheck(!check)}
-                type="checkbox"
-                value=""
-                className="focus:ring-p1-cian h-4 w-4 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-p1-green"
-              />
-              <label
-                htmlFor="checkbox"
-                className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-gray-300"
-              >
-                Соглашаюсь на обработку персональных данных
-              данных.
-              </label>
-            </div>
-              
+                <input
+                  checked={check}
+                  id="checkbox"
+                  onChange={() => setCheck(!check)}
+                  type="checkbox"
+                  value=""
+                  className="focus:ring-p1-cian h-4 w-4 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                />
+                <label
+                  htmlFor="checkbox"
+                  className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-gray-300"
+                >
+                  Соглашаюсь на обработку персональных данных данных.
+                </label>
+              </div>
+
               <div className="pb-2"></div>
-              <button className="rounded-3xl border-2 border-p1-darkgreen bg-p1-white px-10 py-8 text-xl text-p1-darkgreen shadow-lg shadow-p1-cyan hover:bg-p1-darkgreen hover:text-p1-white">
-                Отправить в GAA
-              </button>
+              <div className="grid">
+                <button className="mx-auto justify-center rounded-3xl border-2 border-p1-darkgreen bg-p1-white px-10 py-8 text-xl text-p1-darkgreen shadow-lg shadow-p1-cyan hover:bg-p1-darkgreen hover:text-p1-white">
+                  Отправить в GAA
+                </button>
+              </div>
             </div>
 
             <div className="pb-5">Наш e-mail: info@gaa.zone</div>
