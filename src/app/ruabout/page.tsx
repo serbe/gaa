@@ -11,58 +11,70 @@ export default function Page() {
     <div>
       <div className="flex flex-row p-2">
         <div className="basis-1/6 text-center">
-          <Image
-            className="relative mb-4 inline-block w-max overflow-hidden rounded-3xl"
-            width={1000}
-            height={1000}
-            src="/AboutHero/Benefit.png"
-            alt="Benefit"
-          />
+          <button className="mx-auto justify-center rounded-3xl drop-shadow-2xl hover:drop-shadow-none">
+            <Image
+              className="relative mb-4 inline-block w-max overflow-hidden rounded-3xl"
+              width={1000}
+              height={1000}
+              src="/AboutHero/Benefit.png"
+              alt="Benefit"
+            />
+          </button>
         </div>
         <div className="basis-1/6 text-center">
-          <Image
-            className="relative mb-4 inline-block w-max overflow-hidden rounded-3xl"
-            width={1000}
-            height={1000}
-            src="/AboutHero/Terms.png"
-            alt="Terms"
-          />
+          <button className="mx-auto justify-center rounded-3xl drop-shadow-2xl hover:drop-shadow-none">
+            <Image
+              className="relative mb-4 inline-block w-max overflow-hidden rounded-3xl"
+              width={1000}
+              height={1000}
+              src="/AboutHero/Terms.png"
+              alt="Terms"
+            />
+          </button>
         </div>
         <div className="basis-1/6 text-center">
-          <Image
-            className="relative mb-4 inline-block w-max overflow-hidden rounded-3xl"
-            width={1000}
-            height={1000}
-            src="/AboutHero/Policy.png"
-            alt="Policy"
-          />
+          <button className="mx-auto justify-center rounded-3xl drop-shadow-2xl hover:drop-shadow-none">
+            <Image
+              className="relative mb-4 inline-block w-max overflow-hidden rounded-3xl"
+              width={1000}
+              height={1000}
+              src="/AboutHero/Policy.png"
+              alt="Policy"
+            />
+          </button>
         </div>
         <div className="basis-1/6 text-center">
-          <Image
-            className="relative mb-4 inline-block w-max overflow-hidden rounded-3xl"
-            width={1000}
-            height={1000}
-            src="/AboutHero/Web3.png"
-            alt="Web3"
-          />
+          <button className="mx-auto justify-center rounded-3xl drop-shadow-2xl hover:drop-shadow-none">
+            <Image
+              className="relative mb-4 inline-block w-max overflow-hidden rounded-3xl"
+              width={1000}
+              height={1000}
+              src="/AboutHero/Web3.png"
+              alt="Web3"
+            />
+          </button>
         </div>
         <div className="basis-1/6 text-center">
-          <Image
-            className="relative mb-4 inline-block w-max overflow-hidden rounded-3xl"
-            width={1000}
-            height={1000}
-            src="/AboutHero/Team.png"
-            alt="Team"
-          />
+          <button className="mx-auto justify-center rounded-3xl drop-shadow-2xl hover:drop-shadow-none">
+            <Image
+              className="relative mb-4 inline-block w-max overflow-hidden rounded-3xl"
+              width={1000}
+              height={1000}
+              src="/AboutHero/Team.png"
+              alt="Team"
+            />
+          </button>
         </div>
         <div className="basis-1/6 text-center">
-          <Image
-            className="relative mb-4 inline-block w-max overflow-hidden rounded-3xl"
-            width={1000}
-            height={1000}
-            src="/AboutHero/Contacts.png"
-            alt="Contacts"
-          />
+          <button className="mx-auto justify-center rounded-3xl drop-shadow-2xl hover:drop-shadow-none">
+            <Image
+              className="relative mb-4 inline-block w-max overflow-hidden rounded-3xl"
+              width={1000}
+              height={1000}
+              src="/AboutHero/Contacts.png"
+              alt="Contacts"
+            />
+          </button>
         </div>
       </div>
 
@@ -2865,7 +2877,7 @@ export default function Page() {
                 Нажмите кнопку ниже
               </p>
               <div className="grid">
-                <button className="mx-auto justify-center rounded-3xl border-2 border-p1-darkgreen bg-p1-white px-10 py-8 text-xl text-p1-darkgreen shadow-lg shadow-p1-cyan hover:bg-p1-darkgreen hover:text-p1-white">
+                <button className="mx-auto w-full justify-center rounded-3xl border-2 border-p1-darkgreen bg-p1-white px-10 py-8 text-xl text-p1-darkgreen shadow-sm shadow-p1-cyan hover:bg-p1-green hover:text-p1-white">
                   Форма подачи заявки
                 </button>
               </div>
@@ -2969,7 +2981,7 @@ export default function Page() {
 
               <div className="pb-2"></div>
               <div className="grid">
-                <button className="mx-auto justify-center rounded-3xl border-2 border-p1-darkgreen bg-p1-white px-10 py-8 text-xl text-p1-darkgreen shadow-lg shadow-p1-cyan hover:bg-p1-darkgreen hover:text-p1-white">
+                <button className="mx-auto w-full justify-center rounded-3xl border-2 border-p1-darkgreen bg-p1-white px-10 py-8 text-xl text-p1-darkgreen shadow-sm shadow-p1-cyan hover:bg-p1-green hover:text-p1-white">
                   Отправить в GAA
                 </button>
               </div>

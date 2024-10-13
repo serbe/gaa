@@ -8,7 +8,7 @@ export default function Page() {
   const [check, setCheck] = useState(false);
 
   return (
-    <div>
+    <div className="font-serif">
       <div className="flex flex-row pb-5">
         <div className="basis-1/5"></div>
         <div className="basis-3/5">
@@ -32,21 +32,27 @@ export default function Page() {
             <div className="pb-5 text-center text-2xl text-p1-darkgreen">
               <div className="place-content-center pt-8">
                 {" "}
-                <Image
-                  width={200}
-                  height={600}
-                  src="/logo/letter.png"
-                  alt="letter"
-                />
-              </div>
-              <div className="pt-2">
-                {" "}
-                <Image
-                  width={1000}
-                  height={600}
-                  src="/Cars/OpenWheels.png"
-                  alt="OpenWheels"
-                />
+                <div className="grid">
+                  <button className="mx-auto justify-center rounded-3xl hover:bg-p2-white2 hover:drop-shadow-2xl">
+                    <Image
+                      width={200}
+                      height={600}
+                      src="/logo/letter.png"
+                      alt="letter"
+                    />
+                  </button>
+                </div>
+                <div className="pt-28">
+                  {" "}
+                  <div className="mx-auto justify-center rounded-3xl drop-shadow-2xl">
+                    <Image
+                      width={1000}
+                      height={600}
+                      src="/Cars/OpenWheels.png"
+                      alt="OpenWheels"
+                    />
+                  </div>
+                </div>
               </div>
             </div>
           </div>
@@ -79,7 +85,7 @@ export default function Page() {
             <p className="pb-3 pt-5 text-center font-semibold text-p1-darkgreen">
               Нажмите кнопку ниже
             </p>
-            <button className="w-full rounded-3xl border-2 border-p1-darkgreen bg-p1-white px-10 py-8 text-xl text-p1-darkgreen shadow-sm shadow-p1-cyan hover:bg-p1-darkgreen hover:text-p1-white">
+            <button className="w-full rounded-3xl border-2 border-p1-darkgreen bg-p1-white px-10 py-8 text-xl text-p1-darkgreen shadow-sm shadow-p1-cyan hover:bg-p1-green hover:text-p1-white">
               Форма подачи заявки
             </button>
           </div>
@@ -181,7 +187,7 @@ export default function Page() {
             </div>
 
             <div className="pb-2"></div>
-            <button className="w-full rounded-3xl border-2 border-p1-darkgreen bg-p1-white px-10 py-8 text-xl text-p1-darkgreen shadow-sm shadow-p1-cyan hover:bg-p1-darkgreen hover:text-p1-white">
+            <button className="w-full rounded-3xl border-2 border-p1-darkgreen bg-p1-white px-10 py-8 text-xl text-p1-darkgreen shadow-sm shadow-p1-cyan hover:bg-p1-green hover:text-p1-white">
               Отправить в GAA
             </button>
           </div>

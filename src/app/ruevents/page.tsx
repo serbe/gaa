@@ -1,11 +1,62 @@
 "use client";
+import Image from "next/image";
 import { useState } from "react";
+import Link from "next/link";
 
 export default function Page() {
+  const [value, setValue] = useState("0");
   const [check, setCheck] = useState(false);
 
   return (
     <div>
+      <div className="flex flex-row p-2">
+        <div className="basis-1/6 text-center"></div>
+        <div className="basis-1/6 text-center">
+          <button className="mx-auto justify-center rounded-3xl drop-shadow-2xl hover:drop-shadow-none">
+            <Image
+              className="relative mb-4 inline-block w-max overflow-hidden rounded-3xl"
+              width={1000}
+              height={1000}
+              src="/EventHero/runews.png"
+              alt="runews"
+            />
+          </button>
+        </div>
+        <div className="basis-1/6 text-center">
+          <button className="mx-auto justify-center rounded-3xl drop-shadow-2xl hover:drop-shadow-none">
+            <Image
+              className="relative mb-4 inline-block w-max overflow-hidden rounded-3xl"
+              width={1000}
+              height={1000}
+              src="/EventHero/ruSchedule.png"
+              alt="ruSchedule"
+            />
+          </button>
+        </div>
+        <div className="basis-1/6 text-center">
+          <button className="mx-auto justify-center rounded-3xl drop-shadow-2xl hover:drop-shadow-none">
+            <Image
+              className="relative mb-4 inline-block w-max overflow-hidden rounded-3xl"
+              width={1000}
+              height={1000}
+              src="/EventHero/ruresults.png"
+              alt="ruresults"
+            />
+          </button>
+        </div>
+        <div className="basis-1/6 text-center">
+          <button className="mx-auto justify-center rounded-3xl drop-shadow-2xl hover:drop-shadow-none">
+            <Image
+              className="relative mb-4 inline-block w-max overflow-hidden rounded-3xl"
+              width={1000}
+              height={1000}
+              src="/EventHero/ruform.png"
+              alt="ruform"
+            />
+          </button>
+        </div>
+        <div className="basis-1/6 text-center"></div>
+      </div>
       <div>новости</div>
       <div>Календарь</div>
       <div>Результаты</div>
