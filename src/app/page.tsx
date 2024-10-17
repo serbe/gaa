@@ -7,9 +7,9 @@ export default function Page() {
   const [check, setCheck] = useState(false);
 
   return (
-    <div className="w-full">
-      <section className="flex flex-wrap md:flex-nowrap h-4/5 space-x-2 object-center px-2 pt-5">
-        <div className="mb-4 w-full md:w-2/5 overflow-hidden rounded-3xl border-4 border-p2-orange bg-p1-white shadow-lg">
+    <div className="w-full font-serif">
+      <section className="flex h-4/5 flex-wrap space-x-2 object-center px-2 pt-5 md:flex-nowrap">
+        <div className="mb-4 w-full overflow-hidden rounded-3xl border-4 border-p2-orange bg-p1-white shadow-lg md:w-2/5">
           <div className="flex flex-row">
             <div className="mx-auto p-8 text-center md:text-xl lg:text-2xl">
               <div className="pt-2 text-p1-darkgreen">
@@ -19,8 +19,8 @@ export default function Page() {
 
               <Image
                 className="object-centre relative mb-4 inline-block w-max overflow-hidden rounded-3xl border-2 border-p2-orange shadow-lg"
-                width={1000}
-                height={1000}
+                width={700}
+                height={700}
                 src="/HeroNFT/RaceLads/RaceLads1.png"
                 alt="RaceLads1"
               />
@@ -34,8 +34,8 @@ export default function Page() {
                 <input
                   id="default-range"
                   type="range"
-                  min="0"
-                  max="10000"
+                  min="1"
+                  max="10"
                   value={value}
                   onChange={(e) => setValue(e.target.value)}
                   className="h-2 w-full cursor-pointer appearance-none rounded-lg bg-gray-200 dark:bg-gray-700"
@@ -62,7 +62,7 @@ export default function Page() {
                   onChange={() => setCheck(!check)}
                   type="checkbox"
                   value=""
-                  className="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 rounded focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
+                  className="h-4 w-4 rounded border-gray-300 bg-gray-100 text-blue-600 focus:ring-2 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-blue-600"
                 />
                 <label
                   htmlFor="checkbox"
@@ -75,13 +75,13 @@ export default function Page() {
           </div>
         </div>
 
-        <div className="mb-4 md:w-3/5 overflow-hidden rounded-3xl border-4 border-p1-darkgreen bg-p1-white shadow-lg">
+        <div className="mb-4 overflow-hidden rounded-3xl border-4 border-p1-darkgreen bg-p1-white shadow-lg md:w-3/5">
           <div className="text-centre flex flex-row">
-            <div className="place-content-center p-8 text-center md:text-xl lg:text-2xl text-p1-darkgreen">
+            <div className="place-content-center p-8 text-center text-p1-darkgreen md:text-xl lg:text-2xl">
               <div className="pt-2">Сервис</div>
               <div className="pb-5">создания NFT наград на сайте</div>
 
-              <button className="rounded-xl border-2 border-p1-darkgreen bg-p1-white px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p1-darkgreen hover:text-p1-white">
+              <button className="rounded-xl border-2 border-p1-darkgreen bg-p1-white px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p1-green hover:text-p1-white">
                 Форма подачи заявки
               </button>
 
@@ -107,10 +107,10 @@ export default function Page() {
                   alt="Global"
                 />
 
-                <div className="pt-2 text-center text-sm lg:text-xl text-p1-darkgreen">
+                <div className="pt-2 text-center text-sm text-p1-darkgreen lg:text-xl">
                   Все награды в единой коллекции
                 </div>
-                <div className="pt-2 text-center text-sm lg:text-xl text-p1-darkgreen">
+                <div className="pt-2 text-center text-sm text-p1-darkgreen lg:text-xl">
                   Безопасное хранение медиаконтента в IPFS сети
                 </div>
                 <Image

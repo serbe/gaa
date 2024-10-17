@@ -8,7 +8,7 @@ export default function Page() {
   const [check, setCheck] = useState(false);
 
   return (
-    <div>
+    <div className="font-serif">
       <div className="flex flex-row pb-5">
         <div className="basis-1/5"></div>
         <div className="basis-3/5">
@@ -463,22 +463,21 @@ export default function Page() {
             <div className="pb-5"></div>
           </div>
 
-
           <div className="flex flex-row pb-5">
-        <div className="basis-1/5"></div>
-        <div className="basis-3/5">
-          <div className="pt-5 text-center text-6xl font-bold text-p2-orange">
-            Racepoint
+            <div className="basis-1/5"></div>
+            <div className="basis-3/5">
+              <div className="pt-5 text-center text-6xl font-bold text-p2-orange">
+                Racepoint
+              </div>
+              <div className="p-2 text-center text-6xl font-bold text-p2-orange">
+                QUIZE
+              </div>
+              <div className="p-2 text-center text-4xl font-bold text-p2-orange">
+                NFT{" "}
+              </div>
+            </div>
+            <div className="basis-1/5"></div>
           </div>
-          <div className="p-2 text-center text-6xl font-bold text-p2-orange">
-            QUIZE
-          </div>
-          <div className="p-2 text-center text-4xl font-bold text-p2-orange">
-NFT          </div>
-        </div>
-        <div className="basis-1/5"></div>
-      </div>
-
         </div>
         <div className="basis-1/5"></div>
       </div>
@@ -593,20 +592,20 @@ NFT          </div>
           </div>
 
           <div className="flex flex-row pb-5">
-        <div className="basis-1/5"></div>
-        <div className="basis-3/5">
-          <div className="pt-5 text-center text-6xl font-bold text-p2-orange">
-            Racepoint
+            <div className="basis-1/5"></div>
+            <div className="basis-3/5">
+              <div className="pt-5 text-center text-6xl font-bold text-p2-orange">
+                Racepoint
+              </div>
+              <div className="p-2 text-center text-6xl font-bold text-p2-orange">
+                QUIZE
+              </div>
+              <div className="p-2 text-center text-4xl font-bold text-p2-orange">
+                NFT
+              </div>
+            </div>
+            <div className="basis-1/5"></div>
           </div>
-          <div className="p-2 text-center text-6xl font-bold text-p2-orange">
-            QUIZE
-          </div>
-          <div className="p-2 text-center text-4xl font-bold text-p2-orange">
-            NFT
-          </div>
-        </div>
-        <div className="basis-1/5"></div>
-      </div>
         </div>
         <div className="basis-1/5"></div>
       </div>
@@ -617,13 +616,11 @@ NFT          </div>
         </div>
         <div className="basis-3/5">
           <div className="my-5 space-y-6 rounded-3xl border-4 border-p2-orange p-6">
-           
             <div className="pb-2 text-center text-2xl text-p1-darkgreen">
               Какие из сервисов Web3, блокчейн, NFT Вы бы хотели увидеть в
               автоспорте и автокультуре в первую очередь?
             </div>
             <div className="pb-5"></div>
-
             <ul className="w-full rounded-lg border border-gray-200 bg-p1-white text-sm font-medium text-gray-900 dark:border-gray-600 dark:bg-gray-700 dark:text-white">
               <li className="w-full rounded-t-lg border-b border-gray-200 dark:border-gray-600">
                 <div className="flex items-center ps-3">

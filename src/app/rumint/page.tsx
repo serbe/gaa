@@ -8,7 +8,7 @@ export default function Page() {
   const [check, setCheck] = useState(false);
 
   return (
-    <div>
+    <div className="font-serif">
       <div className="pt-5 text-center text-6xl font-bold text-p1-darkgreen">
         RaceLads
       </div>

@@ -7,7 +7,7 @@ export default function Page() {
   const [check, setCheck] = useState(false);
 
   return (
-    <div>
+    <div className="font-serif">
       <div className="pt-5 text-center text-6xl font-bold text-p1-darkgreen">
         Форма заявки
       </div>
@@ -15,7 +15,7 @@ export default function Page() {
         by Global Automotive Association
       </div>
       <div className="grid grid-cols-6 gap-4">
-        <div className="col-span-4 col-start-2 w-full rounded-3xl border-4 border-p1-darkgreen text-center text-p1-darkgreen shadow-lg">
+        <div className="col-span-4 col-start-2 w-full rounded-3xl border-4 border-p1-darkgreen text-center text-p1-darkgreen shadow-lg hover:border-p2-orange">
           <div className="pt-5">
             <Image
               className="relative mb-4 inline-block w-max overflow-hidden p-2"
@@ -766,29 +766,68 @@ export default function Page() {
                 placeholder="YouTube"
                 required
               />
+              <div className="pb-2"></div>
+
+              <div>
+                <div className="flex">
+                  <div className="mx-5 block w-full items-center justify-center">
+                    <label
+                      htmlFor="dropzone-file"
+                      className="flex h-full w-full cursor-pointer flex-col items-center justify-center rounded-lg border-2 border-dashed border-gray-300 bg-gray-50 hover:bg-gray-100 dark:border-gray-600 dark:bg-gray-700 dark:hover:border-gray-500 dark:hover:bg-gray-800"
+                    >
+                      <div className="flex flex-col items-center justify-center pb-6 pt-5">
+                        <svg
+                          className="mb-4 h-8 w-8 text-gray-500 dark:text-gray-400"
+                          aria-hidden="true"
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="none"
+                          viewBox="0 0 20 16"
+                        >
+                          <path
+                            stroke="currentColor"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth="2"
+                            d="M13 13h3a3 3 0 0 0 0-6h-.025A5.56 5.56 0 0 0 16 6.5 5.5 5.5 0 0 0 5.207 5.021C5.137 5.017 5.071 5 5 5a4 4 0 0 0 0 8h2.167M10 15V6m0 0L8 8m2-2 2 2"
+                          />
+                        </svg>
+                        <p className="mb-2 text-sm text-gray-500 dark:text-gray-400">
+                          <span className="font-semibold">
+                            Добавь свое фото
+                          </span>
+                        </p>
+                        <div className="pb-2"></div>
+
+                        <p className="mb-2 text-sm text-gray-500 dark:text-gray-400">
+                          <span className="font-semibold">Click to upload</span>{" "}
+                          or drag and drop
+                        </p>
+                        <p className="text-xs text-gray-500 dark:text-gray-400">
+                          SVG, PNG, JPG or GIF (MAX. 800x400px)
+                        </p>
+                      </div>
+                      <input
+                        id="dropzone-file"
+                        type="file"
+                        className="hidden"
+                      />
+                    </label>
+                  </div>
+                </div>
+              </div>
+              <div className="pb-2"></div>
+
+              <div className="grid">
+                <button className="mx-auto w-11/12 justify-center rounded-3xl border-2 border-p1-darkgreen bg-p1-white px-10 py-8 text-xl text-p1-darkgreen shadow-sm shadow-p1-cyan hover:border-p2-orange hover:bg-p2-orange hover:text-p1-white">
+                  Отправить в GAA
+                </button>
+              </div>
             </div>
-
-            <p className="p-2 text-2xl text-p1-darkgreen">
-              Генеративная коллекция
-            </p>
-            <h2 className="pb-2 text-2xl text-p1-darkgreen">RaceLads NFT</h2>
-
-            <p className="pt-2 text-2xl text-p1-darkgreen">
-              10.000 уникальных героев.
-            </p>
-            <p className="pb-2 text-2xl text-p1-darkgreen">
-              Кто твой персонаж - решать тебе!
-            </p>
-            <button className="rounded-l-3xl border-2 border-p1-darkgreen bg-p2-white2 px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p1-darkgreen hover:text-p1-white">
-              Исследуй NFT
-            </button>
-            <button className="rounded-r-3xl border-2 border-p1-darkgreen bg-p2-white2 px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
-              Страница создания NFT
-            </button>
-            <div className="pb-8"></div>
+            <div className="p-2"></div>
           </div>
         </div>
       </div>
+      <div className="pb-8"></div>
     </div>
   );
 }

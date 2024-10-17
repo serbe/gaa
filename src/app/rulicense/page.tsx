@@ -21,7 +21,7 @@ const Buttons = ({
   setter: Dispatch<SetStateAction<number>>;
 }) => {
   return (
-    <div className="inline-flex rounded-md shadow-sm" role="group">
+    <div className="inline-flex rounded-md font-serif shadow-sm" role="group">
       <button
         className={
           "w-full rounded-l-lg border border-gray-200 " +
@@ -76,7 +76,7 @@ export default function Page() {
   }, [searchParams]);
 
   return (
-    <div>
+    <div className="font-serif">
       <div id="promouter" className={license == 0 ? "" : "hidden"}>
         <div className="grid grid-cols-2 gap-4">
           <div className="p-2 text-4xl font-semibold text-p2-orange">
@@ -146,7 +146,7 @@ export default function Page() {
               <p className="pb-8 pt-8 text-2xl text-p1-darkgreen">
                 Максимум: 10 Promoter License NFT за транзакцию
               </p>
-              <button className="rounded-3xl border-2 border-p1-darkgreen bg-p2-white2 px-48 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
+              <button className="rounded-3xl border-2 border-p1-darkgreen bg-p2-white2 px-48 py-8 text-p1-darkgreen shadow-lg hover:border-p2-orange hover:bg-p2-orange hover:text-p1-white">
                 Создать NFT
               </button>
               <div className="pb-8"></div>
@@ -205,7 +205,7 @@ export default function Page() {
               <p className="pb-8 pt-8 text-2xl text-p1-darkgreen">
                 Максимум: 1 National License NFT за транзакцию
               </p>
-              <button className="rounded-3xl border-2 border-p1-darkgreen bg-p2-white2 px-48 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
+              <button className="rounded-3xl border-2 border-p1-darkgreen bg-p2-white2 px-48 py-8 text-p1-darkgreen shadow-lg hover:border-p2-orange hover:bg-p2-orange hover:text-p1-white">
                 Создать NFT
               </button>
               <div className="pb-8"></div>
@@ -264,7 +264,7 @@ export default function Page() {
               <p className="pb-8 pt-8 text-2xl text-p1-darkgreen">
                 Максимум: 1 Global License NFT за транзакцию
               </p>
-              <button className="rounded-3xl border-2 border-p1-darkgreen bg-p2-white2 px-48 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
+              <button className="rounded-3xl border-2 border-p1-darkgreen bg-p2-white2 px-48 py-8 text-p1-darkgreen shadow-lg hover:border-p2-orange hover:bg-p2-orange hover:text-p1-white">
                 Создать NFT
               </button>
             </div>

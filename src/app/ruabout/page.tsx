@@ -8,7 +8,7 @@ export default function Page() {
   const [check, setCheck] = useState(false);
 
   return (
-    <div>
+    <div className="font-serif">
       <div className="flex flex-row p-2">
         <div className="basis-1/6 text-center">
           <button className="mx-auto justify-center rounded-3xl drop-shadow-2xl hover:drop-shadow-none">
