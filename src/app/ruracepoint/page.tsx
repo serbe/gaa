@@ -1,5 +1,12 @@
+"use client";
 import Image from "next/image";
+import { useState } from "react";
+import Link from "next/link";
+
 export default function Page() {
+  const [value, setValue] = useState("0");
+  const [check, setCheck] = useState(false);
+
   return (
     <div className="font-serif">
       <div className="flex flex-row pb-5">
@@ -157,9 +164,15 @@ export default function Page() {
       <div className="flex flex-row pb-5">
         <div className="basis-2/5"></div>
         <div className="basis-1/5">
-          <button className="w-full rounded-xl border-2 border-p2-orange bg-p1-white px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
+          <Link
+            href={{
+              pathname: "/ruquize",
+              query: { ruquize: "ruquize" },
+            }}
+            className="w-full rounded-xl border-2 border-p2-orange bg-p1-white px-20 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white"
+          >
             Квиз
-          </button>
+          </Link>
         </div>
         <div className="basis-2/5"></div>
       </div>
