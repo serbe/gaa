@@ -1,7 +1,11 @@
 "use client";
 import Image from "next/image";
 import { useState } from "react";
-import Link from "next/link";
+
+import { Navigation, Scrollbar } from "swiper/modules";
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/css";
+import "swiper/css/navigation";
 
 export default function Page() {
   const [value, setValue] = useState("0");
@@ -9,6 +13,51 @@ export default function Page() {
 
   return (
     <div>
+      <Swiper
+        modules={[Navigation, Scrollbar]}
+        spaceBetween={50}
+        slidesPerView={2}
+        navigation
+        scrollbar={{ draggable: true }}
+      >
+        <SwiperSlide>
+          <Image
+            className="relative mb-4 inline-block w-max overflow-hidden rounded-3xl"
+            width={1000}
+            height={1000}
+            src="/EventHero/ruNews.png"
+            alt="runews"
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <Image
+            className="relative mb-4 inline-block w-max overflow-hidden rounded-3xl"
+            width={1000}
+            height={1000}
+            src="/EventHero/ruSchedule.png"
+            alt="ruSchedule"
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <Image
+            className="relative mb-4 inline-block w-max overflow-hidden rounded-3xl"
+            width={1000}
+            height={1000}
+            src="/EventHero/ruResults.png"
+            alt="ruresults"
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <Image
+            className="relative mb-4 inline-block w-max overflow-hidden rounded-3xl"
+            width={1000}
+            height={1000}
+            src="/EventHero/ruForm.png"
+            alt="ruform"
+          />
+        </SwiperSlide>
+      </Swiper>
+
       <div className="flex flex-row p-2">
         <div className="basis-1/6 text-center"></div>
         <div className="basis-1/6 text-center">
@@ -17,7 +66,7 @@ export default function Page() {
               className="relative mb-4 inline-block w-max overflow-hidden rounded-3xl"
               width={1000}
               height={1000}
-              src="/EventHero/runews.png"
+              src="/EventHero/ruNews.png"
               alt="runews"
             />
           </button>
@@ -39,7 +88,7 @@ export default function Page() {
               className="relative mb-4 inline-block w-max overflow-hidden rounded-3xl"
               width={1000}
               height={1000}
-              src="/EventHero/ruresults.png"
+              src="/EventHero/ruResults.png"
               alt="ruresults"
             />
           </button>
@@ -50,7 +99,7 @@ export default function Page() {
               className="relative mb-4 inline-block w-max overflow-hidden rounded-3xl"
               width={1000}
               height={1000}
-              src="/EventHero/ruform.png"
+              src="/EventHero/ruForm.png"
               alt="ruform"
             />
           </button>
