@@ -6,25 +6,32 @@
     "dev": "next dev -p 3050",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "update": "npm update"
   },
   "dependencies": {
-    "next": "14.2.13",
-    "react": "^18",
-    "react-dom": "^18"
+    "next": "15.0.1",
+    "react": "19.0.0-rc-69d4b800-20241021",
+    "react-dom": "19.0.0-rc-69d4b800-20241021"
   },
   "devDependencies": {
-    "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
-    "eslint": "^8",
-    "eslint-config-next": "14.2.14",
+    "@eslint/eslintrc": "^3",
+    "@eslint/js": "^9",
+    "@types/node": "^22",
+    "@types/react": "npm:types-react@19.0.0-rc.1",
+    "@types/react-dom": "npm:types-react-dom@19.0.0-rc.1",
+    "eslint": "^9",
+    "eslint-config-next": "15.0.1",
     "eslint-config-prettier": "^9",
     "eslint-plugin-prettier": "^5",
     "postcss": "^8",
     "prettier": "^3",
-    "swiper": "^11.1.14",
+    "swiper": "^11",
     "tailwindcss": "^3",
     "typescript": "^5"
+  },
+  "overrides": {
+    "@types/react": "npm:types-react@19.0.0-rc.1",
+    "@types/react-dom": "npm:types-react-dom@19.0.0-rc.1"
   }
 }

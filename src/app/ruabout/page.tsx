@@ -86,7 +86,6 @@ export default function Page() {
             }}
             className="mx-auto justify-center rounded-3xl drop-shadow-2xl hover:drop-shadow-none"
           >
-            {" "}
             <Image
               className="relative mb-4 inline-block w-max overflow-hidden rounded-3xl"
               width={1000}
@@ -104,7 +103,6 @@ export default function Page() {
             }}
             className="mx-auto justify-center rounded-3xl drop-shadow-2xl hover:drop-shadow-none"
           >
-            {" "}
             <Image
               className="relative mb-4 inline-block w-max overflow-hidden rounded-3xl"
               width={1000}

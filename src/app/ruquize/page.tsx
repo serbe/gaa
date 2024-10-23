@@ -473,7 +473,7 @@ export default function Page() {
                 QUIZE
               </div>
               <div className="p-2 text-center text-4xl font-bold text-p2-orange">
-                NFT{" "}
+                NFT
               </div>
             </div>
             <div className="basis-1/5"></div>

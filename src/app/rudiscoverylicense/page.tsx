@@ -87,7 +87,7 @@ export default function Page() {
                 >
                   Global License
                 </Link>
-              </div>{" "}
+              </div>
               <div className="m-1 p-5">
                 <div className="justify-self-center">
                   <button className="w-full rounded-3xl border-2 border-p1-darkgreen bg-p2-white2 px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
@@ -138,7 +138,6 @@ export default function Page() {
                   <li>к странице создания NFT Наград</li>
                   <li> к странице создания Promoter License NFT</li>
                   <li>
-                    {" "}
                     к голосованию по вопросам развития сообщества на локальном
                     уровне
                   </li>
@@ -151,7 +150,7 @@ export default function Page() {
                 а именно решает кто будет создавать NFT и кто будет награждать
                 конкурсантов и спортсменов, подтверждает статус организатора,
                 лидера направления, пилота, участника команды в своей
-                компетенции.{" "}
+                компетенции.
               </p>
 
               <p className="my-2 rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-cyan hover:shadow-2xl">
@@ -208,7 +207,7 @@ export default function Page() {
                 >
                   Global License
                 </Link>
-              </div>{" "}
+              </div>
               <div className="m-1 p-5">
                 <div className="justify-self-center">
                   <button className="w-full rounded-3xl border-2 border-p1-darkgreen bg-p2-white2 px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
@@ -261,12 +260,10 @@ export default function Page() {
                   <li> к странице создания Promoter License NFT</li>
                   <li> к странице создания National License NFT</li>
                   <li>
-                    {" "}
                     к голосованию по вопросам развития сообщества на локальном
                     уровне
                   </li>
                   <li>
-                    {" "}
                     к голосованию по вопросам развития сообщества на
                     международном уровне
                   </li>
@@ -279,7 +276,7 @@ export default function Page() {
                 определяет кто будет развивать направления, а именно решает кто
                 будет создавать NFT и кто будет награждать конкурсантов и
                 спортсменов, подтверждает статус организатора, лидера
-                направления, пилота, участника команды в своей компетенции.{" "}
+                направления, пилота, участника команды в своей компетенции.
               </p>
 
               <p className="my-2 rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-cyan hover:shadow-2xl">
@@ -336,7 +333,7 @@ export default function Page() {
                 >
                   Global License
                 </Link>
-              </div>{" "}
+              </div>
               <div className="m-1 p-5">
                 <div className="justify-self-center">
                   <button className="w-full rounded-3xl border-2 border-p1-darkgreen bg-p2-white2 px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
@@ -383,7 +380,6 @@ export default function Page() {
 
         <div className="grid grid-cols-7 gap-1">
           <div className="col-span-1 col-start-1 row-span-4 place-self-center">
-            {" "}
             <Image
               className="relative inline-block w-max overflow-hidden"
               width={1000}
@@ -449,7 +445,6 @@ export default function Page() {
           <div></div>
 
           <div>
-            {" "}
             <Image
               className="relative inline-block w-max overflow-hidden"
               width={1000}
@@ -470,7 +465,6 @@ export default function Page() {
             </button>
           </div>
           <div>
-            {" "}
             <Image
               className="relative inline-block w-max overflow-hidden"
               width={1000}
@@ -480,7 +474,6 @@ export default function Page() {
             />
           </div>
           <div>
-            {" "}
             <Image
               className="relative inline-block w-max overflow-hidden"
               width={1000}
@@ -490,7 +483,6 @@ export default function Page() {
             />
           </div>
           <div>
-            {" "}
             <Image
               className="relative inline-block w-max overflow-hidden"
               width={1000}
@@ -500,7 +492,6 @@ export default function Page() {
             />
           </div>
           <div>
-            {" "}
             <Image
               className="relative inline-block w-max overflow-hidden"
               width={1000}

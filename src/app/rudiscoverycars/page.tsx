@@ -87,7 +87,7 @@ export default function Page() {
                 >
                   Cars
                 </Link>
-              </div>{" "}
+              </div>
               <div className="m-1 p-5">
                 <div className="justify-self-center">
                   <button className="w-full rounded-3xl border-2 border-p1-darkgreen bg-p2-white2 px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
@@ -129,7 +129,6 @@ export default function Page() {
 
         <div className="grid grid-cols-5 gap-1">
           <div className="col-span-1 col-start-1 row-span-3 place-self-start">
-            {" "}
             <Image
               className="relative inline-block w-max overflow-hidden"
               width={1000}
@@ -183,7 +182,6 @@ export default function Page() {
           <div></div>
           <div></div>
           <div>
-            {" "}
             <Image
               className="relative inline-block w-max overflow-hidden rounded-3xl border-2 border-p2-orange shadow-lg"
               width={1000}
@@ -193,7 +191,6 @@ export default function Page() {
             />
           </div>
           <div>
-            {" "}
             <Image
               className="relative inline-block w-max overflow-hidden rounded-3xl border-2 border-p2-orange shadow-lg"
               width={1000}
@@ -203,7 +200,6 @@ export default function Page() {
             />
           </div>
           <div>
-            {" "}
             <Image
               className="relative inline-block w-max overflow-hidden rounded-3xl border-2 border-p2-orange shadow-lg"
               width={1000}

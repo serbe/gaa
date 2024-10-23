@@ -706,7 +706,7 @@ export default function Page() {
                 htmlFor="message"
                 className="mx-5 mb-2 block text-left text-sm font-medium text-p1-darkgreen dark:text-white"
               >
-                Описание причин по которым Вы хотите присоединиться к GAA{" "}
+                Описание причин по которым Вы хотите присоединиться к GAA
               </label>
               <textarea
                 id="message"
@@ -799,7 +799,7 @@ export default function Page() {
                         <div className="pb-2"></div>
 
                         <p className="mb-2 text-sm text-gray-500 dark:text-gray-400">
-                          <span className="font-semibold">Click to upload</span>{" "}
+                          <span className="font-semibold">Click to upload</span>
                           or drag and drop
                         </p>
                         <p className="text-xs text-gray-500 dark:text-gray-400">

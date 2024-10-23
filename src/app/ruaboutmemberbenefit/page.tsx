@@ -11,7 +11,6 @@ export default function Page() {
     <div className="font-serif">
       <div className="p-10 text-xl">
         <div className="text-center text-6xl font-bold text-p1-darkgreen drop-shadow-2xl">
-          {" "}
           Выгода участника
         </div>
         <div className="grid h-4/5 grid-cols-3 place-content-center gap-4 text-p1-darkgreen">

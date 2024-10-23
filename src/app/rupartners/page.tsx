@@ -17,7 +17,7 @@ export default function Page() {
           </div>
           <div className="text-center text-2xl text-p1-darkgreen">
             Если Вы заинтересованы в том, чтобы стать партнером или спонсором,
-            пожалуйста, свяжитесь с нами.{" "}
+            пожалуйста, свяжитесь с нами.
           </div>
         </div>
         <div className="basis-1/5"></div>
@@ -31,7 +31,6 @@ export default function Page() {
           <div className="rounded-3xlp-6 my-5 space-y-6">
             <div className="pb-5 text-center text-2xl text-p1-darkgreen">
               <div className="place-content-center pt-8">
-                {" "}
                 <div className="grid">
                   <button className="mx-auto justify-center rounded-3xl hover:bg-p2-white2 hover:drop-shadow-2xl">
                     <Image
@@ -43,7 +42,6 @@ export default function Page() {
                   </button>
                 </div>
                 <div className="pt-28">
-                  {" "}
                   <div className="mx-auto justify-center rounded-3xl drop-shadow-2xl">
                     <Image
                       width={1000}
@@ -63,11 +61,9 @@ export default function Page() {
       </div>
 
       <div className="p-8 text-center text-6xl font-bold text-p1-darkgreen">
-        {" "}
-        Наши Контакты{" "}
+        Наши Контакты
       </div>
       <div className="text-center text-2xl text-p1-darkgreen">
-        {" "}
         Смело пишите и звоните нам.
       </div>
       <div className="text-center text-2xl text-p1-darkgreen">

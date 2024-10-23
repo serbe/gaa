@@ -205,7 +205,7 @@ export default function Page() {
                 htmlFor="message"
                 className="mb-2 block text-left text-sm font-medium text-p1-darkgreen dark:text-white"
               >
-                Описание{" "}
+                Описание
               </label>
               <textarea
                 id="message"

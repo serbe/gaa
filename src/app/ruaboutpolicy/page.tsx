@@ -453,7 +453,7 @@ export default function Page() {
           Политика конфиденциальности
         </div>
         <div className="text-center text-6xl font-bold text-p1-darkgreen drop-shadow-2xl">
-          Cookie{" "}
+          Cookie
         </div>
         <div className="my-5 rounded-3xl border-4 border-p1-darkgreen p-6 text-p1-darkgreen hover:border-p2-orange hover:shadow-xl">
           <div className="pb-3 text-center font-bold">

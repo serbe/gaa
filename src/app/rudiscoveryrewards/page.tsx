@@ -42,7 +42,7 @@ export default function Page() {
               </p>
               <p className="my-2 rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-cyan hover:shadow-2xl">
                 Доступ к минту токена у держателей NFT Promoter license,
-                National license, Global license, Management GAA{" "}
+                National license, Global license, Management GAA
               </p>
 
               <p className="rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-cyan hover:shadow-2xl">
@@ -100,7 +100,7 @@ export default function Page() {
                 >
                   2 место
                 </Link>
-              </div>{" "}
+              </div>
               <div
                 className="grid w-full grid-cols-3 gap-1 justify-self-center rounded-md pt-5 shadow-sm"
                 role="group"
@@ -191,7 +191,7 @@ export default function Page() {
                 >
                   Авто Звук
                 </Link>
-              </div>{" "}
+              </div>
               <div className="m-1 p-5">
                 <div className="justify-self-center">
                   <button className="w-full rounded-3xl border-2 border-p1-darkgreen bg-p2-white2 px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
@@ -224,7 +224,6 @@ export default function Page() {
 
         <div className="grid grid-cols-9 gap-1">
           <div className="col-span-1 col-start-1 row-span-2 place-self-start">
-            {" "}
             <Image
               className="relative inline-block w-max overflow-hidden"
               width={1000}
@@ -301,7 +300,6 @@ export default function Page() {
             />
           </div>
           <div className="col-span-1 col-start-9 row-span-2 place-self-start">
-            {" "}
             <Image
               className="relative inline-block w-max overflow-hidden"
               width={1000}
@@ -362,7 +360,6 @@ export default function Page() {
           </div>
           <div></div>
           <div>
-            {" "}
             <Image
               className="relative inline-block w-max overflow-hidden rounded-3xl border-2 border-p2-orange shadow-lg"
               width={1000}
@@ -372,7 +369,6 @@ export default function Page() {
             />
           </div>
           <div>
-            {" "}
             <Image
               className="relative inline-block w-max overflow-hidden rounded-3xl border-2 border-p2-orange shadow-lg"
               width={1000}
@@ -382,7 +378,6 @@ export default function Page() {
             />
           </div>
           <div>
-            {" "}
             <Image
               className="relative inline-block w-max overflow-hidden rounded-3xl border-2 border-p2-orange shadow-lg"
               width={1000}

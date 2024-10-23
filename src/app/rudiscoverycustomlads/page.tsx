@@ -115,7 +115,6 @@ export default function Page() {
 
         <div className="grid grid-cols-6 gap-1">
           <div className="col-span-1 col-start-1 row-span-3 place-self-start">
-            {" "}
             <Image
               className="relative inline-block w-max overflow-hidden"
               width={1000}
@@ -172,7 +171,6 @@ export default function Page() {
           <div></div>
           <div></div>
           <div>
-            {" "}
             <Image
               className="relative inline-block w-max overflow-hidden rounded-3xl border-2 border-p2-orange shadow-lg"
               width={1000}
@@ -184,7 +182,6 @@ export default function Page() {
           <div></div>
           <div></div>
           <div>
-            {" "}
             <Image
               className="relative -mt-40 inline-block w-max overflow-hidden rounded-3xl border-2 border-p2-orange shadow-lg"
               width={1000}
@@ -199,7 +196,7 @@ export default function Page() {
 
         <div className="pt-5 text-center text-xl">
           Страница создания CustomLads NFT станет доступна через некоторое время
-          после официального выпуска коллекции RaceLads{" "}
+          после официального выпуска коллекции RaceLads
         </div>
         <div className="text-center text-xl">
           Так мы планируем избежать чрезмерного падения цены в первые часы

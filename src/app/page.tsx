@@ -1,5 +1,6 @@
 "use client";
 import Image from "next/image";
+import Link from "next/link";
 import { useState } from "react";
 
 export default function Page() {
@@ -8,6 +9,7 @@ export default function Page() {
 
   return (
     <div className="w-full font-serif">
+      <Link href="/parallax">Пример параллакса из видео</Link>
       <section className="flex h-4/5 flex-wrap space-x-2 object-center px-2 pt-5 md:flex-nowrap">
         <div className="mb-4 w-full overflow-hidden rounded-3xl border-4 border-p2-orange bg-p1-white shadow-lg md:w-2/5">
           <div className="flex flex-row">

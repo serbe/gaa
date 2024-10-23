@@ -117,7 +117,6 @@ export default function Page() {
           </div>
         </div>
         <div className="basis-1/5 p-5">
-          {" "}
           <Image
             width={100}
             height={600}
@@ -198,7 +197,6 @@ export default function Page() {
           </div>
         </div>
         <div className="basis-1/5 p-5">
-          {" "}
           <Image width={200} height={600} src="/Hero/2.png" alt="Hero2" />
         </div>
       </div>
@@ -356,7 +354,6 @@ export default function Page() {
 
       <div className="flex flex-row pb-5">
         <div className="basis-1/5">
-          {" "}
           <Image width={150} height={600} src="/Hero/10.png" alt="Hero10" />
         </div>
         <div className="basis-3/5">

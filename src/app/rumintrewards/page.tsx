@@ -100,7 +100,7 @@ export default function Page() {
                       </p>
 
                       <p className="mb-2 text-sm text-gray-500 dark:text-gray-400">
-                        <span className="font-semibold">Click to upload</span>{" "}
+                        <span className="font-semibold">Click to upload</span>
                         or drag and drop
                       </p>
                       <p className="text-xs text-gray-500 dark:text-gray-400">
@@ -140,7 +140,7 @@ export default function Page() {
                       </p>
 
                       <p className="mb-2 text-sm text-gray-500 dark:text-gray-400">
-                        <span className="font-semibold">Click to upload</span>{" "}
+                        <span className="font-semibold">Click to upload</span>
                         or drag and drop
                       </p>
                       <p className="text-xs text-gray-500 dark:text-gray-400">
@@ -459,7 +459,7 @@ export default function Page() {
                 htmlFor="message"
                 className="mb-2 block text-left text-sm font-medium text-p1-darkgreen dark:text-white"
               >
-                Описание{" "}
+                Описание
               </label>
               <textarea
                 id="message"

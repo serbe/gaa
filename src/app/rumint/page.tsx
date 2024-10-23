@@ -37,25 +37,26 @@ export default function Page() {
             </p>
             <div className="pb-8"></div>
 
-            <Link
-              href={{
-                pathname: "/rudiscoveryracelads",
-                query: { racelad: "discovery" },
-              }}
-              className="rounded-l-3xl border-2 border-p1-darkgreen bg-p2-white2 px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p1-darkgreen hover:text-p1-white focus:z-10 focus:bg-p2-orange focus:text-p1-white focus:ring-2 focus:ring-p2-orange dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange"
-            >
-              Исследуй NFT
-            </Link>
-            <Link
-              href={{
-                pathname: "/rumintracelads",
-                query: { racelad: "rumintracelads" },
-              }}
-              className="rounded-r-3xl border-2 border-p1-darkgreen bg-p2-white2 px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white focus:z-10 focus:bg-p2-orange focus:text-p1-white focus:ring-2 focus:ring-p2-orange dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange"
-            >
-              Страница создания NFT
-            </Link>
-
+            <div className="flex flex-wrap px-10">
+              <Link
+                href={{
+                  pathname: "/rudiscoveryracelads",
+                  query: { racelad: "discovery" },
+                }}
+                className="mx-auto w-full rounded-3xl border-2 border-p1-darkgreen bg-p2-white2 px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p1-darkgreen hover:text-p1-white focus:z-10 focus:bg-p2-orange focus:text-p1-white focus:ring-2 focus:ring-p2-orange md:w-1/2 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange"
+              >
+                Исследуй NFT
+              </Link>
+              <Link
+                href={{
+                  pathname: "/rumintracelads",
+                  query: { racelad: "rumintracelads" },
+                }}
+                className="mx-auto w-full rounded-3xl border-2 border-p1-darkgreen bg-p2-white2 px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white focus:z-10 focus:bg-p2-orange focus:text-p1-white focus:ring-2 focus:ring-p2-orange md:w-1/2 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange"
+              >
+                Страница создания NFT
+              </Link>
+            </div>
             <div className="pb-8 pt-8"></div>
           </div>
         </div>
@@ -68,7 +69,7 @@ export default function Page() {
       <div className="pb-5 text-center text-4xl font-bold text-p1-darkgreen">
         знаковые персоны
       </div>
-      <div className="m-5 grid grid-cols-4 gap-4 rounded-3xl border-4 border-p1-darkgreen p-5 text-center text-p1-darkgreen shadow-lg">
+      <div className="m-5 grid grid-cols-1 gap-4 rounded-3xl border-4 border-p1-darkgreen p-5 text-center text-p1-darkgreen shadow-lg md:grid-cols-2 2xl:grid-cols-4">
         <div>
           <Image
             className="relative mb-4 inline-block w-max overflow-hidden rounded-3xl border-2 border-p2-orange shadow-lg"
@@ -81,6 +82,26 @@ export default function Page() {
           <p className="text-xm pb-2 text-p1-darkgreen">
             Пилоты гоночных автомобилей и болидов, присоединившиеся к Web3
           </p>
+          <div className="py-5">
+            <Link
+              href={{
+                pathname: "/rudiscoveryliders",
+                query: { drivers: "discovery" },
+              }}
+              className="rounded-l-xl border-2 border-p1-darkgreen bg-p2-white2 p-3 text-p1-darkgreen shadow-lg hover:bg-p1-darkgreen hover:text-p1-white focus:z-10 focus:bg-p2-orange focus:text-p1-white focus:ring-2 focus:ring-p2-orange dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange"
+            >
+              Исследуй NFT
+            </Link>
+            <Link
+              href={{
+                pathname: "/rumintdrivers",
+                query: { drivers: "rumintdrivers" },
+              }}
+              className="rounded-r-xl border-2 border-p1-darkgreen bg-p2-white2 p-3 text-p1-darkgreen shadow-lg hover:bg-p1-darkgreen hover:text-p1-white focus:z-10 focus:bg-p2-orange focus:text-p1-white focus:ring-2 focus:ring-p2-orange dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange"
+            >
+              Cоздай NFT
+            </Link>
+          </div>
         </div>
         <div>
           <Image
@@ -94,8 +115,27 @@ export default function Page() {
           <p className="text-xm pb-2 text-p1-darkgreen">
             Участники команд, присоединившиеся к Web3
           </p>
+          <div className="py-5">
+            <Link
+              href={{
+                pathname: "/rudiscoveryliders",
+                query: { teammembers: "discovery" },
+              }}
+              className="rounded-l-xl border-2 border-p1-darkgreen bg-p2-white2 p-3 text-p1-darkgreen shadow-lg hover:bg-p1-darkgreen hover:text-p1-white focus:z-10 focus:bg-p2-orange focus:text-p1-white focus:ring-2 focus:ring-p2-orange dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange"
+            >
+              Исследуй NFT
+            </Link>
+            <Link
+              href={{
+                pathname: "/rumintteammembers",
+                query: { teammembers: "rumintteammembers" },
+              }}
+              className="rounded-r-xl border-2 border-p1-darkgreen bg-p2-white2 p-3 text-p1-darkgreen shadow-lg hover:bg-p1-darkgreen hover:text-p1-white focus:z-10 focus:bg-p2-orange focus:text-p1-white focus:ring-2 focus:ring-p2-orange dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange"
+            >
+              Cоздай NFT
+            </Link>
+          </div>
         </div>
-
         <div>
           <Image
             className="relative mb-4 inline-block w-max overflow-hidden rounded-3xl border-2 border-p2-orange shadow-lg"
@@ -109,6 +149,26 @@ export default function Page() {
             Владельцы редких, спортивных и уникальных автомобилей,
             присоединившиеся к Web3
           </p>
+          <div className="py-5">
+            <Link
+              href={{
+                pathname: "/rudiscoveryliders",
+                query: { collectors: "discovery" },
+              }}
+              className="rounded-l-xl border-2 border-p1-darkgreen bg-p2-white2 p-3 text-p1-darkgreen shadow-lg hover:bg-p1-darkgreen hover:text-p1-white focus:z-10 focus:bg-p2-orange focus:text-p1-white focus:ring-2 focus:ring-p2-orange dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange"
+            >
+              Исследуй NFT
+            </Link>
+            <Link
+              href={{
+                pathname: "/rumintcollectors",
+                query: { collectors: "rumintcollectors" },
+              }}
+              className="rounded-r-xl border-2 border-p1-darkgreen bg-p2-white2 p-3 text-p1-darkgreen shadow-lg hover:bg-p1-darkgreen hover:text-p1-white focus:z-10 focus:bg-p2-orange focus:text-p1-white focus:ring-2 focus:ring-p2-orange dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange"
+            >
+              Cоздай NFT
+            </Link>
+          </div>
         </div>
         <div>
           <Image
@@ -122,86 +182,26 @@ export default function Page() {
           <p className="text-xm pb-2 text-p1-darkgreen">
             Раритетные, уникальные и спортивные автомобили из частных коллекций
           </p>
-        </div>
-        <div>
-          <Link
-            href={{
-              pathname: "/rudiscoveryliders",
-              query: { drivers: "discovery" },
-            }}
-            className="rounded-l-xl border-2 border-p1-darkgreen bg-p2-white2 p-3 text-p1-darkgreen shadow-lg hover:bg-p1-darkgreen hover:text-p1-white focus:z-10 focus:bg-p2-orange focus:text-p1-white focus:ring-2 focus:ring-p2-orange dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange"
-          >
-            Исследуй NFT
-          </Link>
-          <Link
-            href={{
-              pathname: "/rumintdrivers",
-              query: { drivers: "rumintdrivers" },
-            }}
-            className="rounded-r-xl border-2 border-p1-darkgreen bg-p2-white2 p-3 text-p1-darkgreen shadow-lg hover:bg-p1-darkgreen hover:text-p1-white focus:z-10 focus:bg-p2-orange focus:text-p1-white focus:ring-2 focus:ring-p2-orange dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange"
-          >
-            Cоздай NFT
-          </Link>
-        </div>
-        <div>
-          <Link
-            href={{
-              pathname: "/rudiscoveryliders",
-              query: { teammembers: "discovery" },
-            }}
-            className="rounded-l-xl border-2 border-p1-darkgreen bg-p2-white2 p-3 text-p1-darkgreen shadow-lg hover:bg-p1-darkgreen hover:text-p1-white focus:z-10 focus:bg-p2-orange focus:text-p1-white focus:ring-2 focus:ring-p2-orange dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange"
-          >
-            Исследуй NFT
-          </Link>
-          <Link
-            href={{
-              pathname: "/rumintteammembers",
-              query: { teammembers: "rumintteammembers" },
-            }}
-            className="rounded-r-xl border-2 border-p1-darkgreen bg-p2-white2 p-3 text-p1-darkgreen shadow-lg hover:bg-p1-darkgreen hover:text-p1-white focus:z-10 focus:bg-p2-orange focus:text-p1-white focus:ring-2 focus:ring-p2-orange dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange"
-          >
-            Cоздай NFT
-          </Link>
-        </div>
-        <div>
-          <Link
-            href={{
-              pathname: "/rudiscoveryliders",
-              query: { collectors: "discovery" },
-            }}
-            className="rounded-l-xl border-2 border-p1-darkgreen bg-p2-white2 p-3 text-p1-darkgreen shadow-lg hover:bg-p1-darkgreen hover:text-p1-white focus:z-10 focus:bg-p2-orange focus:text-p1-white focus:ring-2 focus:ring-p2-orange dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange"
-          >
-            Исследуй NFT
-          </Link>
-          <Link
-            href={{
-              pathname: "/rumintcollectors",
-              query: { collectors: "rumintcollectors" },
-            }}
-            className="rounded-r-xl border-2 border-p1-darkgreen bg-p2-white2 p-3 text-p1-darkgreen shadow-lg hover:bg-p1-darkgreen hover:text-p1-white focus:z-10 focus:bg-p2-orange focus:text-p1-white focus:ring-2 focus:ring-p2-orange dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange"
-          >
-            Cоздай NFT
-          </Link>
-        </div>
-        <div>
-          <Link
-            href={{
-              pathname: "/rudiscoverycars",
-              query: { cars: "discovery" },
-            }}
-            className="rounded-l-xl border-2 border-p1-darkgreen bg-p2-white2 p-3 text-p1-darkgreen shadow-lg hover:bg-p1-darkgreen hover:text-p1-white focus:z-10 focus:bg-p2-orange focus:text-p1-white focus:ring-2 focus:ring-p2-orange dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange"
-          >
-            Исследуй NFT
-          </Link>
-          <Link
-            href={{
-              pathname: "/rumintcars",
-              query: { cars: "rumintcars" },
-            }}
-            className="rounded-r-xl border-2 border-p1-darkgreen bg-p2-white2 p-3 text-p1-darkgreen shadow-lg hover:bg-p1-darkgreen hover:text-p1-white focus:z-10 focus:bg-p2-orange focus:text-p1-white focus:ring-2 focus:ring-p2-orange dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange"
-          >
-            Cоздай NFT
-          </Link>
+          <div className="py-5">
+            <Link
+              href={{
+                pathname: "/rudiscoverycars",
+                query: { cars: "discovery" },
+              }}
+              className="rounded-l-xl border-2 border-p1-darkgreen bg-p2-white2 p-3 text-p1-darkgreen shadow-lg hover:bg-p1-darkgreen hover:text-p1-white focus:z-10 focus:bg-p2-orange focus:text-p1-white focus:ring-2 focus:ring-p2-orange dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange"
+            >
+              Исследуй NFT
+            </Link>
+            <Link
+              href={{
+                pathname: "/rumintcars",
+                query: { cars: "rumintcars" },
+              }}
+              className="rounded-r-xl border-2 border-p1-darkgreen bg-p2-white2 p-3 text-p1-darkgreen shadow-lg hover:bg-p1-darkgreen hover:text-p1-white focus:z-10 focus:bg-p2-orange focus:text-p1-white focus:ring-2 focus:ring-p2-orange dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange"
+            >
+              Cоздай NFT
+            </Link>
+          </div>
         </div>
       </div>
 
