@@ -2,10 +2,10 @@
 
 import React, { useEffect } from "react";
 
-import layerBase from "../../../public/Dungeon/layer-base.png";
-import layerMiddle from "../../../public/Dungeon/layer-middle.png";
-import layerFront from "../../../public/Dungeon/layer-front.png";
-import dungeon from "../../../public/Dungeon/dungeon.jpg";
+import layerBase from "../../../public/Paralax/Partners/partners_letter.png";
+import layerMiddle from "../../../public/Paralax/Partners/partners_second.png";
+import layerFront from "../../../public/Paralax/Partners/partners_front.png";
+import dungeon from "../../../public/Paralax/Partners/partners_front.png";
 
 import "./style.css";
 
@@ -28,8 +28,11 @@ export default function Page() {
         <header className="main-header">
           <div className="layers">
             <div className="layer__header">
-              <div className="layers__caption">Welcome to Parallax</div>
-              <div className="layers__title">Fairy Forest</div>
+              <div className="layers__caption">Партнеры</div>
+              <div className="layers__title">
+                Если Вы заинтересованы в том, чтобы стать партнером или
+                спонсором, пожалуйста, свяжитесь с нами
+              </div>
             </div>
             <div
               className="layer layers__base"
