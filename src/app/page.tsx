@@ -10,8 +10,9 @@ export default function Page() {
   return (
     <div className="w-full font-serif">
       <Link href="/parallax">Пример параллакса из видео</Link>
-      <section className="flex h-4/5 flex-wrap space-x-2 object-center px-2 pt-5 md:flex-nowrap">
-        <div className="mb-4 w-full overflow-hidden rounded-3xl border-4 border-p2-orange bg-p1-white shadow-lg md:w-2/5">
+      <section className="flex h-3/5 flex-wrap space-x-2 object-center px-2 pt-5 md:flex-nowrap">
+        <div className="md:w-1/7 mb-4 w-full overflow-hidden"> </div>
+        <div className="md:w-2/7 mb-4 w-full overflow-hidden rounded-3xl border-4 border-p2-orange bg-p1-white shadow-lg">
           <div className="flex flex-row">
             <div className="mx-auto p-8 text-center md:text-xl lg:text-2xl">
               <div className="pt-2 text-p1-darkgreen">
@@ -77,7 +78,7 @@ export default function Page() {
           </div>
         </div>
 
-        <div className="mb-4 overflow-hidden rounded-3xl border-4 border-p1-darkgreen bg-p1-white shadow-lg md:w-3/5">
+        <div className="md:w-3/7 mb-4 overflow-hidden rounded-3xl border-4 border-p1-darkgreen bg-p1-white shadow-lg">
           <div className="text-centre flex flex-row">
             <div className="place-content-center p-8 text-center text-p1-darkgreen md:text-xl lg:text-2xl">
               <div className="pt-2">Сервис</div>
@@ -125,6 +126,7 @@ export default function Page() {
             </div>
           </div>
         </div>
+        <div className="md:w-1/7 mb-4 w-full overflow-hidden"></div>
       </section>
     </div>
   );
