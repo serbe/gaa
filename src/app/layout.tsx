@@ -23,13 +23,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>
+      <body className="scroll-smooth">
         <div className={inter.className}>
           <Header />
           <Nav />
-          <main className="mx-auto min-h-screen max-w-[1200px] bg-p1-white">
-            {children}
-          </main>
+          <main className="mx-auto min-h-screen bg-p1-white">{children}</main>
           <Footer />
         </div>
       </body>

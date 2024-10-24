@@ -23,7 +23,7 @@ export default function Page() {
   }, []);
 
   return (
-    <div className="wrapper max-w-full">
+    <div className="wrapper">
       <div className="content">
         <header className="main-header">
           <div className="layers">

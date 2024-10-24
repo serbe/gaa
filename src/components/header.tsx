@@ -5,9 +5,9 @@ const Header = () => {
   return (
     <header className="bg-sky-50">
       <div className="flex">
-        <div className="w-1/2 px-8 pt-2">
+        <Link className="w-1/2 px-8 pt-2" href="/">
           <Image src={`/Logo/logo_cr.png`} alt="GAA" width="200" height="90" />
-        </div>
+        </Link>
         <div className="w-1/2">
           <div className="flex justify-end p-8">
             <div className="mx-2">
