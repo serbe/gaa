@@ -23,7 +23,7 @@ export default function Page() {
       </div>
 
       <div className="flex flex-row pb-5">
-        <div className="basis-1/5 p-5">
+        <div className="basis-1/5 p-14">
           <Image width={500} height={600} src="/Hero/6.png" alt="Hero6" />
         </div>
         <div className="basis-3/5">

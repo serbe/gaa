@@ -9,7 +9,7 @@ export default function Page() {
 
   return (
     <div className="font-serif">
-      <div className="flex flex-row p-2">
+      <div className="flex flex-row p-10">
         <div className="basis-1/6 text-center grayscale duration-500 hover:z-20 hover:scale-125 hover:grayscale-0">
           <Link
             href={{
@@ -162,7 +162,7 @@ export default function Page() {
         </div>
         <div className="basis-1/6">
           <Image
-            className="relative mb-4 inline-block w-max overflow-hidden rounded-3xl"
+            className="relative mb-4 inline-block w-max overflow-hidden rounded-3xl p-14"
             width={1000}
             height={1000}
             src="/Hero/4.png"
@@ -249,7 +249,7 @@ export default function Page() {
         </div>
         <div className="basis-1/6">
           <Image
-            className="relative mb-4 inline-block w-max overflow-hidden rounded-3xl"
+            className="relative mb-4 inline-block w-max overflow-hidden rounded-3xl p-14"
             width={1000}
             height={1000}
             src="/Hero/2.png"
@@ -424,7 +424,7 @@ export default function Page() {
       <div className="flex flex-row p-2">
         <div className="basis-1/6">
           <Image
-            className="relative mb-4 inline-block w-max overflow-hidden rounded-3xl"
+            className="relative mb-4 inline-block w-max overflow-hidden rounded-3xl p-14"
             width={1000}
             height={1000}
             src="/Hero/11.png"
@@ -531,7 +531,7 @@ export default function Page() {
         </div>
         <div className="basis-1/6">
           <Image
-            className="relative mb-4 inline-block w-max overflow-hidden rounded-3xl"
+            className="relative mb-4 inline-block w-max overflow-hidden rounded-3xl p-14"
             width={1000}
             height={1000}
             src="/Hero/12.png"
