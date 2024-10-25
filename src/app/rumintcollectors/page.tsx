@@ -19,7 +19,7 @@ export default function Page() {
           <div className="space-x-5 p-2 text-2xl font-semibold text-p2-orange">
             Collectors NFT + Реальное Фото
             <Image
-              className="relative mb-4 inline-block w-max overflow-hidden rounded-3xl border-2 border-p2-orange shadow-lg"
+              className="relative mb-4 inline-block w-max rounded-3xl border-2 border-p2-orange shadow-lg"
               width={1000}
               height={1000}
               src="/HeroNFT/Collectors/Collector1.png"

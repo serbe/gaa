@@ -110,7 +110,7 @@ export default function Page(props: { children: React.ReactNode; params: Promise
               </div>
               <div className="justify-self-end">
                 <Image
-                  className="relative inline-block w-max overflow-hidden rounded-3xl border-2 border-p2-orange shadow-lg"
+                  className="relative inline-block w-max rounded-3xl border-2 border-p2-orange shadow-lg"
                   width={4000}
                   height={4000}
                   src="/Licenses/Promoter Lic.png"
@@ -192,7 +192,7 @@ export default function Page(props: { children: React.ReactNode; params: Promise
               </div>
               <div className="justify-self-end">
                 <Image
-                  className="relative inline-block w-max overflow-hidden rounded-3xl border-2 border-p2-orange shadow-lg"
+                  className="relative inline-block w-max rounded-3xl border-2 border-p2-orange shadow-lg"
                   width={4000}
                   height={4000}
                   src="/Licenses/National Lic.png"
@@ -277,7 +277,7 @@ export default function Page(props: { children: React.ReactNode; params: Promise
               </div>
               <div className="justify-self-end">
                 <Image
-                  className="relative inline-block w-max overflow-hidden rounded-3xl border-2 border-p2-orange shadow-lg"
+                  className="relative inline-block w-max rounded-3xl border-2 border-p2-orange shadow-lg"
                   width={4000}
                   height={4000}
                   src="/Licenses/Global Lic.png"
@@ -328,7 +328,7 @@ export default function Page(props: { children: React.ReactNode; params: Promise
         <div className="grid grid-cols-7 gap-1">
           <div className="col-span-1 col-start-1 row-span-4 place-self-center">
             <Image
-              className="relative inline-block w-max overflow-hidden"
+              className="relative inline-block w-max"
               width={1000}
               height={1000}
               src="/Hero/13.png"
@@ -340,7 +340,7 @@ export default function Page(props: { children: React.ReactNode; params: Promise
           <div></div>
           <div className="col-span-1 col-start-5 row-span-3 place-self-center">
             <Image
-              className="relative inline-block w-max overflow-hidden"
+              className="relative inline-block w-max"
               width={1000}
               height={1000}
               src="/Licenses/Management.png"
@@ -351,7 +351,7 @@ export default function Page(props: { children: React.ReactNode; params: Promise
           <div></div>
           <div className="place-self-end">
             <Image
-              className="relative inline-block w-max overflow-hidden"
+              className="relative inline-block w-max"
               width={1000}
               height={1000}
               src="/arrows/11.png"
@@ -369,7 +369,7 @@ export default function Page(props: { children: React.ReactNode; params: Promise
 
           <div className="place-self-center">
             <Image
-              className="relative inline-block w-max overflow-hidden"
+              className="relative inline-block w-max"
               width={1000}
               height={1000}
               src="/arrows/2.png"
@@ -381,7 +381,7 @@ export default function Page(props: { children: React.ReactNode; params: Promise
 
           <div className="col-start-14 col-span-3 row-span-1">
             <Image
-              className="relative inline-block w-max overflow-hidden"
+              className="relative inline-block w-max"
               width={1000}
               height={1000}
               src="/arrows/3.png"
@@ -393,7 +393,7 @@ export default function Page(props: { children: React.ReactNode; params: Promise
 
           <div>
             <Image
-              className="relative inline-block w-max overflow-hidden"
+              className="relative inline-block w-max"
               width={1000}
               height={1000}
               src="/arrows/4.png"
@@ -403,7 +403,7 @@ export default function Page(props: { children: React.ReactNode; params: Promise
           <div>
             <button className="hover:drop-shadow-2xl">
               <Image
-                className="relative inline-block w-max overflow-hidden"
+                className="relative inline-block w-max"
                 width={1000}
                 height={1000}
                 src="/Logo/MetaMask.png"
@@ -413,7 +413,7 @@ export default function Page(props: { children: React.ReactNode; params: Promise
           </div>
           <div>
             <Image
-              className="relative inline-block w-max overflow-hidden"
+              className="relative inline-block w-max"
               width={1000}
               height={1000}
               src="/arrows/5.png"
@@ -422,7 +422,7 @@ export default function Page(props: { children: React.ReactNode; params: Promise
           </div>
           <div>
             <Image
-              className="relative inline-block w-max overflow-hidden"
+              className="relative inline-block w-max"
               width={1000}
               height={1000}
               src="/Licenses/Promoter.png"
@@ -431,7 +431,7 @@ export default function Page(props: { children: React.ReactNode; params: Promise
           </div>
           <div>
             <Image
-              className="relative inline-block w-max overflow-hidden"
+              className="relative inline-block w-max"
               width={1000}
               height={1000}
               src="/Licenses/National.png"
@@ -440,7 +440,7 @@ export default function Page(props: { children: React.ReactNode; params: Promise
           </div>
           <div>
             <Image
-              className="relative inline-block w-max overflow-hidden"
+              className="relative inline-block w-max"
               width={1000}
               height={1000}
               src="/Licenses/Global.png"

@@ -15,21 +15,21 @@ export default function Page() {
         <div className="col-span-4 col-start-2 w-full rounded-3xl border-4 border-p1-darkgreen text-center text-p1-darkgreen shadow-lg hover:border-p2-orange">
           <div className="pt-5">
             <Image
-              className="relative mb-4 inline-block w-max overflow-hidden p-2"
+              className="relative mb-4 inline-block w-max p-2"
               width={100}
               height={150}
               src="/Licenses/Promoter.png"
               alt="Promoter"
             />
             <Image
-              className="relative mb-4 inline-block w-max overflow-hidden p-2"
+              className="relative mb-4 inline-block w-max p-2"
               width={100}
               height={150}
               src="/Licenses/National.png"
               alt="National"
             />
             <Image
-              className="relative mb-4 inline-block w-max overflow-hidden p-2"
+              className="relative mb-4 inline-block w-max p-2"
               width={100}
               height={150}
               src="/Licenses/Global.png"

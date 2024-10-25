@@ -14,7 +14,7 @@ export default function Page() {
             className="mx-auto justify-center rounded-3xl drop-shadow-2xl hover:drop-shadow-none"
           >
             <Image
-              className="relative mb-4 inline-block w-max overflow-hidden rounded-3xl"
+              className="relative mb-4 inline-block w-max rounded-3xl"
               width={1000}
               height={1000}
               src="/AboutHero/Benefit.png"
@@ -31,7 +31,7 @@ export default function Page() {
             className="mx-auto justify-center rounded-3xl drop-shadow-2xl hover:drop-shadow-none"
           >
             <Image
-              className="relative mb-4 inline-block w-max overflow-hidden rounded-3xl"
+              className="relative mb-4 inline-block w-max rounded-3xl"
               width={1000}
               height={1000}
               src="/AboutHero/Terms.png"
@@ -48,7 +48,7 @@ export default function Page() {
             className="mx-auto justify-center rounded-3xl drop-shadow-2xl hover:drop-shadow-none"
           >
             <Image
-              className="relative mb-4 inline-block w-max overflow-hidden rounded-3xl"
+              className="relative mb-4 inline-block w-max rounded-3xl"
               width={1000}
               height={1000}
               src="/AboutHero/Policy.png"
@@ -65,7 +65,7 @@ export default function Page() {
             className="mx-auto justify-center rounded-3xl drop-shadow-2xl hover:drop-shadow-none"
           >
             <Image
-              className="relative mb-4 inline-block w-max overflow-hidden rounded-3xl"
+              className="relative mb-4 inline-block w-max rounded-3xl"
               width={1000}
               height={1000}
               src="/AboutHero/Web3.png"
@@ -82,7 +82,7 @@ export default function Page() {
             className="mx-auto justify-center rounded-3xl drop-shadow-2xl hover:drop-shadow-none"
           >
             <Image
-              className="relative mb-4 inline-block w-max overflow-hidden rounded-3xl"
+              className="relative mb-4 inline-block w-max rounded-3xl"
               width={1000}
               height={1000}
               src="/AboutHero/Team.png"
@@ -99,7 +99,7 @@ export default function Page() {
             className="mx-auto justify-center rounded-3xl drop-shadow-2xl hover:drop-shadow-none"
           >
             <Image
-              className="relative mb-4 inline-block w-max overflow-hidden rounded-3xl"
+              className="relative mb-4 inline-block w-max rounded-3xl"
               width={1000}
               height={1000}
               src="/AboutHero/Contacts.png"
@@ -155,7 +155,7 @@ export default function Page() {
         </div>
         <div className="basis-1/6">
           <Image
-            className="relative mb-4 inline-block w-max overflow-hidden rounded-3xl p-14"
+            className="relative mb-4 inline-block w-max rounded-3xl p-14"
             width={1000}
             height={1000}
             src="/Hero/4.png"
@@ -239,7 +239,7 @@ export default function Page() {
         </div>
         <div className="basis-1/6">
           <Image
-            className="relative mb-4 inline-block w-max overflow-hidden rounded-3xl p-14"
+            className="relative mb-4 inline-block w-max rounded-3xl p-14"
             width={1000}
             height={1000}
             src="/Hero/2.png"
@@ -319,7 +319,7 @@ export default function Page() {
       <div className="flex flex-row p-2">
         <div className="basis-1/6">
           <Image
-            className="relative mb-4 inline-block w-max overflow-hidden rounded-3xl"
+            className="relative mb-4 inline-block w-max rounded-3xl"
             width={1000}
             height={1000}
             src="/Hero/2place.png"
@@ -374,7 +374,7 @@ export default function Page() {
         </div>
         <div className="basis-1/6">
           <Image
-            className="relative mb-4 inline-block w-max overflow-hidden rounded-3xl"
+            className="relative mb-4 inline-block w-max rounded-3xl"
             width={1000}
             height={1000}
             src="/Hero/1place.png"
@@ -399,7 +399,7 @@ export default function Page() {
       <div className="flex flex-row p-2">
         <div className="basis-1/6">
           <Image
-            className="relative mb-4 inline-block w-max overflow-hidden rounded-3xl p-14"
+            className="relative mb-4 inline-block w-max rounded-3xl p-14"
             width={1000}
             height={1000}
             src="/Hero/11.png"
@@ -489,7 +489,7 @@ export default function Page() {
         </div>
         <div className="basis-1/6">
           <Image
-            className="relative mb-4 inline-block w-max overflow-hidden rounded-3xl p-14"
+            className="relative mb-4 inline-block w-max rounded-3xl p-14"
             width={1000}
             height={1000}
             src="/Hero/12.png"
@@ -543,7 +543,7 @@ export default function Page() {
               <div className="grid h-4/5 grid-cols-3 place-content-center gap-4">
                 <div></div>
                 <Image
-                  className="relative mb-4 inline-block w-max overflow-hidden"
+                  className="relative mb-4 inline-block w-max"
                   width={250}
                   height={250}
                   src="/Hero/cups.png"
@@ -553,7 +553,7 @@ export default function Page() {
               <div className="grid h-4/5 grid-cols-2 place-content-center gap-4">
                 <div></div>
                 <Image
-                  className="relative mb-4 inline-block w-max items-end overflow-hidden"
+                  className="relative mb-4 inline-block w-max items-end"
                   width={500}
                   height={500}
                   src="/Hero/hero1.png"

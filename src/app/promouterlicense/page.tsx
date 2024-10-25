@@ -26,7 +26,7 @@ export default function Page() {
               </div>
               <div className="col-span-2 col-start-2 w-full rounded-3xl text-center">
                 <Image
-                  className="relative mb-4 inline-block w-max overflow-hidden rounded-3xl border-2 border-p2-orange shadow-lg"
+                  className="relative mb-4 inline-block w-max rounded-3xl border-2 border-p2-orange shadow-lg"
                   width={1000}
                   height={1000}
                   src="/Licenses/Promoter Lic.png"

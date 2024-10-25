@@ -14,7 +14,7 @@ export default function Page() {
             <p className="p-2 text-2xl text-p1-darkgreen">Генеративная коллекция</p>
             <h2 className="pb-2 text-2xl text-p1-darkgreen">RaceLads NFT</h2>
             <Image
-              className="relative mb-4 inline-block w-max overflow-hidden rounded-3xl border-2 border-p2-orange shadow-lg"
+              className="relative mb-4 inline-block w-max rounded-3xl border-2 border-p2-orange shadow-lg"
               width={1000}
               height={1000}
               src="/HeroNFT/RaceLads/RaceLads1.png"
@@ -55,7 +55,7 @@ export default function Page() {
       <div className="m-5 grid grid-cols-1 gap-4 rounded-3xl border-4 border-p1-darkgreen p-5 text-center text-p1-darkgreen shadow-lg md:grid-cols-2 2xl:grid-cols-4">
         <div>
           <Image
-            className="relative mb-4 inline-block w-max overflow-hidden rounded-3xl border-2 border-p2-orange shadow-lg"
+            className="relative mb-4 inline-block w-max rounded-3xl border-2 border-p2-orange shadow-lg"
             width={1000}
             height={1000}
             src="/HeroNFT/Drivers/Driver4.png"
@@ -88,7 +88,7 @@ export default function Page() {
         </div>
         <div>
           <Image
-            className="relative mb-4 inline-block w-max overflow-hidden rounded-3xl border-2 border-p2-orange shadow-lg"
+            className="relative mb-4 inline-block w-max rounded-3xl border-2 border-p2-orange shadow-lg"
             width={1000}
             height={1000}
             src="/HeroNFT/Team's members/TeamMember1.png"
@@ -121,7 +121,7 @@ export default function Page() {
         </div>
         <div>
           <Image
-            className="relative mb-4 inline-block w-max overflow-hidden rounded-3xl border-2 border-p2-orange shadow-lg"
+            className="relative mb-4 inline-block w-max rounded-3xl border-2 border-p2-orange shadow-lg"
             width={1000}
             height={1000}
             src="/HeroNFT/Collectors/Collector1.png"
@@ -154,7 +154,7 @@ export default function Page() {
         </div>
         <div>
           <Image
-            className="relative mb-4 inline-block w-max overflow-hidden rounded-3xl border-2 border-p2-orange shadow-lg"
+            className="relative mb-4 inline-block w-max rounded-3xl border-2 border-p2-orange shadow-lg"
             width={1000}
             height={1000}
             src="/Cars/Car.png"
@@ -201,7 +201,7 @@ export default function Page() {
             </p>
             <h2 className="pb-2 text-2xl text-p1-darkgreen">RaceLads </h2>
             <Image
-              className="relative mb-4 inline-block w-max overflow-hidden rounded-3xl border-2 border-p2-orange shadow-lg"
+              className="relative mb-4 inline-block w-max rounded-3xl border-2 border-p2-orange shadow-lg"
               width={1000}
               height={1000}
               src="/HeroNFT/CustomLads/CustomLads1.png"
@@ -245,7 +245,7 @@ export default function Page() {
         <div className="col-span-4 col-start-2 w-full rounded-3xl border-4 border-p1-darkgreen text-center text-p1-darkgreen shadow-lg">
           <div>
             <Image
-              className="relative m-4 inline-block w-max overflow-hidden rounded-3xl border-2 border-p2-orange shadow-lg"
+              className="relative m-4 inline-block w-max rounded-3xl border-2 border-p2-orange shadow-lg"
               width={1000}
               height={1000}
               src="/Hero/Rewards.png"
@@ -290,7 +290,7 @@ export default function Page() {
       <div className="m-5 grid grid-cols-3 gap-4 rounded-3xl border-4 border-p1-darkgreen p-5 text-center text-p1-darkgreen shadow-lg">
         <div>
           <Image
-            className="relative mb-4 inline-block w-max overflow-hidden rounded-3xl border-2 border-p2-orange shadow-lg"
+            className="relative mb-4 inline-block w-max rounded-3xl border-2 border-p2-orange shadow-lg"
             width={1000}
             height={1000}
             src="/Licenses/Promoter Lic.png"
@@ -303,7 +303,7 @@ export default function Page() {
         </div>
         <div>
           <Image
-            className="relative mb-4 inline-block w-max overflow-hidden rounded-3xl border-2 border-p2-orange shadow-lg"
+            className="relative mb-4 inline-block w-max rounded-3xl border-2 border-p2-orange shadow-lg"
             width={1000}
             height={1000}
             src="/Licenses/National Lic.png"
@@ -317,7 +317,7 @@ export default function Page() {
 
         <div>
           <Image
-            className="relative mb-4 inline-block w-max overflow-hidden rounded-3xl border-2 border-p2-orange shadow-lg"
+            className="relative mb-4 inline-block w-max rounded-3xl border-2 border-p2-orange shadow-lg"
             width={1000}
             height={1000}
             src="/Licenses/Global Lic.png"

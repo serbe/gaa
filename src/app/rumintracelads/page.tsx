@@ -19,7 +19,7 @@ export default function Page() {
             <p className="text-2xl text-p1-darkgreen">Присоединяйтесь к нам</p>
             <p className="text-2xl text-p1-darkgreen">Получите своего героя RaceLad</p>
             <Image
-              className="relative mb-4 inline-block w-max overflow-hidden rounded-3xl border-2 border-p2-orange shadow-lg"
+              className="relative mb-4 inline-block w-max rounded-3xl border-2 border-p2-orange shadow-lg"
               width={1000}
               height={1000}
               src="/HeroNFT/RaceLads/RaceLads1.png"

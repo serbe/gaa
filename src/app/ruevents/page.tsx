@@ -12,7 +12,7 @@ export default function Page() {
         <div className="basis-1/6 text-center">
           <button className="mx-auto justify-center rounded-3xl drop-shadow-2xl hover:drop-shadow-none">
             <Image
-              className="relative mb-4 inline-block w-max overflow-hidden rounded-3xl"
+              className="relative mb-4 inline-block w-max rounded-3xl"
               width={1000}
               height={1000}
               src="/EventHero/ruNews.png"
@@ -23,7 +23,7 @@ export default function Page() {
         <div className="basis-1/6 text-center">
           <button className="mx-auto justify-center rounded-3xl drop-shadow-2xl hover:drop-shadow-none">
             <Image
-              className="relative mb-4 inline-block w-max overflow-hidden rounded-3xl"
+              className="relative mb-4 inline-block w-max rounded-3xl"
               width={1000}
               height={1000}
               src="/EventHero/ruSchedule.png"
@@ -34,7 +34,7 @@ export default function Page() {
         <div className="basis-1/6 text-center">
           <button className="mx-auto justify-center rounded-3xl drop-shadow-2xl hover:drop-shadow-none">
             <Image
-              className="relative mb-4 inline-block w-max overflow-hidden rounded-3xl"
+              className="relative mb-4 inline-block w-max rounded-3xl"
               width={1000}
               height={1000}
               src="/EventHero/ruResults.png"
@@ -45,7 +45,7 @@ export default function Page() {
         <div className="basis-1/6 text-center">
           <button className="mx-auto justify-center rounded-3xl drop-shadow-2xl hover:drop-shadow-none">
             <Image
-              className="relative mb-4 inline-block w-max overflow-hidden rounded-3xl"
+              className="relative mb-4 inline-block w-max rounded-3xl"
               width={1000}
               height={1000}
               src="/EventHero/ruForm.png"

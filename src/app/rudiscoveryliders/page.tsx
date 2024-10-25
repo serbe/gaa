@@ -44,7 +44,7 @@ export default function Page() {
               <div className="grid grid-cols-2 gap-4">
                 <div>
                   <Image
-                    className="relative inline-block w-max overflow-hidden rounded-3xl border-2 border-p2-orange shadow-lg"
+                    className="relative inline-block w-max rounded-3xl border-2 border-p2-orange shadow-lg"
                     width={130}
                     height={130}
                     src="/HeroNFT/Drivers/Driver4.png"
@@ -53,7 +53,7 @@ export default function Page() {
                 </div>
                 <div>
                   <Image
-                    className="relative inline-block w-max overflow-hidden rounded-3xl border-2 border-p2-orange shadow-lg"
+                    className="relative inline-block w-max rounded-3xl border-2 border-p2-orange shadow-lg"
                     width={130}
                     height={130}
                     src="/HeroNFT/Drivers/Driver3.png"
@@ -62,7 +62,7 @@ export default function Page() {
                 </div>
                 <div>
                   <Image
-                    className="relative inline-block w-max overflow-hidden rounded-3xl border-2 border-p2-orange shadow-lg"
+                    className="relative inline-block w-max rounded-3xl border-2 border-p2-orange shadow-lg"
                     width={130}
                     height={130}
                     src="/HeroNFT/Drivers/Driver2.png"
@@ -71,7 +71,7 @@ export default function Page() {
                 </div>
                 <div>
                   <Image
-                    className="relative inline-block w-max overflow-hidden rounded-3xl border-2 border-p2-orange shadow-lg"
+                    className="relative inline-block w-max rounded-3xl border-2 border-p2-orange shadow-lg"
                     width={150}
                     height={150}
                     src="/HeroNFT/Drivers/Driver1.png"
@@ -171,7 +171,7 @@ export default function Page() {
               <div className="grid grid-cols-2 gap-4">
                 <div>
                   <Image
-                    className="relative inline-block w-max overflow-hidden rounded-3xl border-2 border-p2-orange shadow-lg"
+                    className="relative inline-block w-max rounded-3xl border-2 border-p2-orange shadow-lg"
                     width={130}
                     height={130}
                     src="/HeroNFT/Team's members/TeamMember1.png"
@@ -180,7 +180,7 @@ export default function Page() {
                 </div>
                 <div>
                   <Image
-                    className="relative inline-block w-max overflow-hidden rounded-3xl border-2 border-p2-orange shadow-lg"
+                    className="relative inline-block w-max rounded-3xl border-2 border-p2-orange shadow-lg"
                     width={130}
                     height={130}
                     src="/HeroNFT/Team's members/TeamMember2.png"
@@ -189,7 +189,7 @@ export default function Page() {
                 </div>
                 <div>
                   <Image
-                    className="relative inline-block w-max overflow-hidden rounded-3xl border-2 border-p2-orange shadow-lg"
+                    className="relative inline-block w-max rounded-3xl border-2 border-p2-orange shadow-lg"
                     width={130}
                     height={130}
                     src="/HeroNFT/Team's members/TeamMember3.png"
@@ -198,7 +198,7 @@ export default function Page() {
                 </div>
                 <div>
                   <Image
-                    className="relative inline-block w-max overflow-hidden rounded-3xl border-2 border-p2-orange shadow-lg"
+                    className="relative inline-block w-max rounded-3xl border-2 border-p2-orange shadow-lg"
                     width={150}
                     height={150}
                     src="/HeroNFT/Team's members/TeamMember4.png"
@@ -300,7 +300,7 @@ export default function Page() {
               <div className="grid grid-cols-2 gap-4">
                 <div>
                   <Image
-                    className="relative inline-block w-max overflow-hidden rounded-3xl border-2 border-p2-orange shadow-lg"
+                    className="relative inline-block w-max rounded-3xl border-2 border-p2-orange shadow-lg"
                     width={130}
                     height={130}
                     src="/HeroNFT/Collectors/Collector1.png"
@@ -309,7 +309,7 @@ export default function Page() {
                 </div>
                 <div>
                   <Image
-                    className="relative inline-block w-max overflow-hidden rounded-3xl border-2 border-p2-orange shadow-lg"
+                    className="relative inline-block w-max rounded-3xl border-2 border-p2-orange shadow-lg"
                     width={130}
                     height={130}
                     src="/HeroNFT/Collectors/Collector2.png"
@@ -318,7 +318,7 @@ export default function Page() {
                 </div>
                 <div>
                   <Image
-                    className="relative inline-block w-max overflow-hidden rounded-3xl border-2 border-p2-orange shadow-lg"
+                    className="relative inline-block w-max rounded-3xl border-2 border-p2-orange shadow-lg"
                     width={130}
                     height={130}
                     src="/HeroNFT/Collectors/Collector3.png"
@@ -327,7 +327,7 @@ export default function Page() {
                 </div>
                 <div>
                   <Image
-                    className="relative inline-block w-max overflow-hidden rounded-3xl border-2 border-p2-orange shadow-lg"
+                    className="relative inline-block w-max rounded-3xl border-2 border-p2-orange shadow-lg"
                     width={150}
                     height={150}
                     src="/HeroNFT/Collectors/Collector4.png"
@@ -409,7 +409,7 @@ export default function Page() {
         <div className="grid grid-cols-8 gap-1">
           <div className="col-span-1 col-start-1 row-span-4 place-self-center">
             <Image
-              className="relative inline-block w-max overflow-hidden"
+              className="relative inline-block w-max"
               width={1000}
               height={1000}
               src="/Hero/13.png"
@@ -422,7 +422,7 @@ export default function Page() {
 
           <div className="col-span-1 col-start-5 row-span-3 place-self-center">
             <Image
-              className="relative inline-block w-max overflow-hidden"
+              className="relative inline-block w-max"
               width={1000}
               height={1000}
               src="/Licenses/Promoter.png"
@@ -431,7 +431,7 @@ export default function Page() {
           </div>
           <div className="col-span-1 col-start-6 row-span-3 place-self-center">
             <Image
-              className="relative inline-block w-max overflow-hidden"
+              className="relative inline-block w-max"
               width={1000}
               height={1000}
               src="/Licenses/National.png"
@@ -440,7 +440,7 @@ export default function Page() {
           </div>
           <div className="col-span-1 col-start-7 row-span-3 place-self-center">
             <Image
-              className="relative inline-block w-max overflow-hidden"
+              className="relative inline-block w-max"
               width={1000}
               height={1000}
               src="/Licenses/Global.png"
@@ -449,7 +449,7 @@ export default function Page() {
           </div>
           <div className="col-span-1 col-start-8 row-span-3 place-self-center">
             <Image
-              className="relative inline-block w-max overflow-hidden"
+              className="relative inline-block w-max"
               width={1000}
               height={1000}
               src="/Licenses/Management.png"
@@ -458,7 +458,7 @@ export default function Page() {
           </div>
           <div className="place-self-end">
             <Image
-              className="relative inline-block w-max overflow-hidden"
+              className="relative inline-block w-max"
               width={1000}
               height={1000}
               src="/arrows/11.png"
@@ -474,7 +474,7 @@ export default function Page() {
           </div>
           <div className="place-self-center">
             <Image
-              className="relative inline-block w-max overflow-hidden"
+              className="relative inline-block w-max"
               width={1000}
               height={1000}
               src="/arrows/2.png"
@@ -484,7 +484,7 @@ export default function Page() {
 
           <div className="col-start-15 col-span-3 row-span-1">
             <Image
-              className="relative inline-block w-max overflow-hidden"
+              className="relative inline-block w-max"
               width={1000}
               height={1000}
               src="/arrows/3.png"
@@ -493,7 +493,7 @@ export default function Page() {
           </div>
           <div className="place-self-center">
             <Image
-              className="relative inline-block w-max overflow-hidden"
+              className="relative inline-block w-max"
               width={1000}
               height={1000}
               src="/arrows/4.png"
@@ -503,7 +503,7 @@ export default function Page() {
           <div>
             <button className="hover:drop-shadow-2xl">
               <Image
-                className="relative inline-block w-max overflow-hidden"
+                className="relative inline-block w-max"
                 width={1000}
                 height={1000}
                 src="/Logo/MetaMask.png"
@@ -513,7 +513,7 @@ export default function Page() {
           </div>
           <div className="place-self-center">
             <Image
-              className="relative inline-block w-max overflow-hidden"
+              className="relative inline-block w-max"
               width={1000}
               height={1000}
               src="/arrows/5.png"
@@ -522,7 +522,7 @@ export default function Page() {
           </div>
           <div>
             <Image
-              className="relative inline-block w-max overflow-hidden rounded-3xl border-2 border-p2-orange shadow-lg"
+              className="relative inline-block w-max rounded-3xl border-2 border-p2-orange shadow-lg"
               width={1000}
               height={1000}
               src="/HeroNFT/Drivers/Driver4.png"
@@ -531,7 +531,7 @@ export default function Page() {
           </div>
           <div>
             <Image
-              className="relative inline-block w-max overflow-hidden rounded-3xl border-2 border-p2-orange shadow-lg"
+              className="relative inline-block w-max rounded-3xl border-2 border-p2-orange shadow-lg"
               width={1000}
               height={1000}
               src="/HeroNFT/Team's members/TeamMember1.png"
@@ -540,7 +540,7 @@ export default function Page() {
           </div>
           <div>
             <Image
-              className="relative inline-block w-max overflow-hidden rounded-3xl border-2 border-p2-orange shadow-lg"
+              className="relative inline-block w-max rounded-3xl border-2 border-p2-orange shadow-lg"
               width={1000}
               height={1000}
               src="/HeroNFT/Collectors/Collector1.png"
