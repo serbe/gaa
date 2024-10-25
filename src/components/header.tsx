@@ -1,12 +1,13 @@
 import Link from 'next/link';
 import Image from 'next/image';
+import logoCr from '../../public/Logo/logo_cr.png';
 
 const Header = () => {
   return (
     <header className="bg-sky-50">
       <div className="flex">
         <Link className="w-1/2 px-8 pt-2" href="/">
-          <Image src={`/Logo/logo_cr.png`} alt="GAA" width="200" height="90" />
+          <Image src={logoCr} alt="GAA" width="200" height="90" />
         </Link>
         <div className="w-1/2">
           <div className="flex justify-end p-8">

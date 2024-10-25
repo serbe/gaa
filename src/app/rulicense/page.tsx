@@ -67,7 +67,7 @@ type SearchParams = {
   license?: string;
 };
 
-type Props = {
+type PageProps = {
   searchParams: SearchParams;
 };
 
@@ -75,7 +75,7 @@ const getLicenseParam = ({ license }: SearchParams) => {
   return license || '0';
 };
 
-export default function Page({ searchParams }: Props) {
+export default function Page({ searchParams }: PageProps) {
   const [license, setLicense] = useState(0);
   const [value, setValue] = useState('0');
 

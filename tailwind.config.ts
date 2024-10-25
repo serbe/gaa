@@ -29,6 +29,8 @@ const config: Config = {
         'p3-black': '#12142D',
         'p3-violet': '#1B2B5A',
         'p3-blue': '#6674A3',
+        background: 'var(--background)',
+        foreground: 'var(--foreground)',
       },
     },
   },
