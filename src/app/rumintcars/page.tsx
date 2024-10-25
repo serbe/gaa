@@ -1,18 +1,15 @@
-"use client";
-import Image from "next/image";
-import { useState } from "react";
-import Link from "next/link";
+'use client';
+import Image from 'next/image';
+import { useState } from 'react';
 
 export default function Page() {
-  const [value, setValue] = useState("0");
+  const [value, setValue] = useState('0');
   const [check, setCheck] = useState(false);
 
   return (
     <div className="font-serif">
       <div className="grid grid-cols-2 gap-4">
-        <div className="p-2 text-4xl font-semibold text-p2-orange">
-          Cars NFT
-        </div>
+        <div className="p-2 text-4xl font-semibold text-p2-orange">Cars NFT</div>
         <div className="p-2 text-end text-4xl font-semibold text-p2-orange">
           Страница создания NFT
         </div>
@@ -53,15 +50,14 @@ export default function Page() {
               Максимальное количество: 100 Cars NFT за транзакцию
             </p>
             <p className="p-2 text-2xl font-semibold text-p1-darkgreen">
-              Созданные вами NFT автоматически попадут в глобальную коллекцию
-              GAA
+              Созданные вами NFT автоматически попадут в глобальную коллекцию GAA
             </p>
             <p className="p-2 text-2xl font-semibold text-p1-darkgreen">
               это единый сборник мирового сообщества
             </p>
             <p className="p-5 text-2xl font-semibold text-p1-darkgreen">
-              Если вы планируете раздать или продать свои NFT, вы можете сделать
-              несколько NFT одновременно
+              Если вы планируете раздать или продать свои NFT, вы можете сделать несколько NFT
+              одновременно
             </p>
             <p className="p-5 text-2xl font-semibold text-p1-darkgreen">
               Это Ваш способ привлечения инвестиций
@@ -100,8 +96,7 @@ export default function Page() {
                   </p>
 
                   <p className="mb-2 text-sm text-gray-500 dark:text-gray-400">
-                    <span className="font-semibold">Click to upload</span> or
-                    drag and drop
+                    <span className="font-semibold">Click to upload</span> or drag and drop
                   </p>
                   <p className="text-xs text-gray-500 dark:text-gray-400">
                     SVG, PNG, JPG or GIF (MAX. 800x400px)

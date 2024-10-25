@@ -1,20 +1,15 @@
-"use client";
-import Image from "next/image";
-import { useState } from "react";
-import Link from "next/link";
+import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Page() {
-  const [value, setValue] = useState("0");
-  const [check, setCheck] = useState(false);
-
   return (
     <div className="font-serif">
       <div className="flex flex-row p-10">
         <div className="basis-1/6 text-center grayscale duration-500 hover:z-20 hover:scale-125 hover:grayscale-0">
           <Link
             href={{
-              pathname: "/ruaboutmemberbenefit",
-              query: { ruabout: "ruaboutmemberbenefit" },
+              pathname: '/ruaboutmemberbenefit',
+              query: { ruabout: 'ruaboutmemberbenefit' },
             }}
             className="mx-auto justify-center rounded-3xl drop-shadow-2xl hover:drop-shadow-none"
           >
@@ -30,8 +25,8 @@ export default function Page() {
         <div className="basis-1/6 text-center grayscale duration-500 hover:z-20 hover:scale-125 hover:grayscale-0">
           <Link
             href={{
-              pathname: "/ruaboutterms",
-              query: { ruabout: "ruaboutterms" },
+              pathname: '/ruaboutterms',
+              query: { ruabout: 'ruaboutterms' },
             }}
             className="mx-auto justify-center rounded-3xl drop-shadow-2xl hover:drop-shadow-none"
           >
@@ -47,8 +42,8 @@ export default function Page() {
         <div className="basis-1/6 text-center grayscale duration-500 hover:z-20 hover:scale-125 hover:grayscale-0">
           <Link
             href={{
-              pathname: "/ruaboutpolicy",
-              query: { ruabout: "ruaboutpolicy" },
+              pathname: '/ruaboutpolicy',
+              query: { ruabout: 'ruaboutpolicy' },
             }}
             className="mx-auto justify-center rounded-3xl drop-shadow-2xl hover:drop-shadow-none"
           >
@@ -64,8 +59,8 @@ export default function Page() {
         <div className="basis-1/6 text-center grayscale duration-500 hover:z-20 hover:scale-125 hover:grayscale-0">
           <Link
             href={{
-              pathname: "/ruaboutweb3",
-              query: { ruabout: "ruaboutweb3" },
+              pathname: '/ruaboutweb3',
+              query: { ruabout: 'ruaboutweb3' },
             }}
             className="mx-auto justify-center rounded-3xl drop-shadow-2xl hover:drop-shadow-none"
           >
@@ -81,8 +76,8 @@ export default function Page() {
         <div className="basis-1/6 text-center grayscale duration-500 hover:z-20 hover:scale-125 hover:grayscale-0">
           <Link
             href={{
-              pathname: "/ruteam",
-              query: { ruabout: "ruteam" },
+              pathname: '/ruteam',
+              query: { ruabout: 'ruteam' },
             }}
             className="mx-auto justify-center rounded-3xl drop-shadow-2xl hover:drop-shadow-none"
           >
@@ -98,8 +93,8 @@ export default function Page() {
         <div className="basis-1/6 text-center grayscale duration-500 hover:z-20 hover:scale-125 hover:grayscale-0">
           <Link
             href={{
-              pathname: "/rucontacts",
-              query: { ruabout: "rucontacts" },
+              pathname: '/rucontacts',
+              query: { ruabout: 'rucontacts' },
             }}
             className="mx-auto justify-center rounded-3xl drop-shadow-2xl hover:drop-shadow-none"
           >
@@ -129,10 +124,9 @@ export default function Page() {
         <div className="basis-4/6 text-p1-darkgreen">
           <div className="my-5 space-y-6 rounded-3xl p-2">
             <div className="p-2 text-xl text-p1-darkgreen">
-              Global Automotive Association (GAA) – это революционный
-              блокчейн-проект, который объединяет всех любителей автоспорта и
-              автомобилей в сильное и активное сообщество, нацеленное на
-              популяризацию автомобильной культуры.
+              Global Automotive Association (GAA) – это революционный блокчейн-проект, который
+              объединяет всех любителей автоспорта и автомобилей в сильное и активное сообщество,
+              нацеленное на популяризацию автомобильной культуры.
             </div>
           </div>
         </div>
@@ -147,15 +141,14 @@ export default function Page() {
               <p className="text-2xl font-bold">Наши амбициозные цели:</p>
               <p>Создание активного сообщества:</p>
               <p>
-                Объединяем фанатов автоспорта и автомобильной культуры в
-                соцсетях и мессенджерах (Telegram, Discord, X) для общения,
-                новых знакомств и обмена опытом.
+                Объединяем фанатов автоспорта и автомобильной культуры в соцсетях и мессенджерах
+                (Telegram, Discord, X) для общения, новых знакомств и обмена опытом.
               </p>
               <p className="text-2xl font-bold">Партнерские отношения:</p>
               <p>
-                Устанавливаем связи с организаторами и участниками крупнейших
-                автоспортивных событий (дрифт, кольцевые гонки, драг рейсинг,
-                симрейсинг, автовыставки) для совместных проектов и акций.
+                Устанавливаем связи с организаторами и участниками крупнейших автоспортивных событий
+                (дрифт, кольцевые гонки, драг рейсинг, симрейсинг, автовыставки) для совместных
+                проектов и акций.
               </p>
             </div>
           </div>
@@ -193,9 +186,7 @@ export default function Page() {
           <div>
             <div className="rounded-3xl border-4 border-p1-darkgreen p-6 text-center text-xl text-p1-darkgreen hover:border-p2-orange hover:shadow-xl">
               <p>первая коллекция</p>
-              <p className="text-2xl font-bold">
-                Глобальной Автомобильной Ассоциации
-              </p>
+              <p className="text-2xl font-bold">Глобальной Автомобильной Ассоциации</p>
             </div>
           </div>
         </div>
@@ -221,27 +212,26 @@ export default function Page() {
                 NFT коллекция «RaceLads»
               </p>
               <p className="text-left text-xl text-p1-darkgreen">
-                Выпускаем первую NFT коллекцию, состоящую из 10.000 эксклюзивных
-                и уникальных цифровых художественных работ, вдохновленных самыми
-                захватывающими дисциплинами автогонок.
+                Выпускаем первую NFT коллекцию, состоящую из 10.000 эксклюзивных и уникальных
+                цифровых художественных работ, вдохновленных самыми захватывающими дисциплинами
+                автогонок.
               </p>
               <p className="text-left text-xl text-p1-darkgreen">
-                Каждый «RaceLad» в нашей коллекции – это не просто цифровое
-                изображение, а уникальный персонаж, обладающий различными
-                особенностями и запечатленный в блокчейне.
+                Каждый «RaceLad» в нашей коллекции – это не просто цифровое изображение, а
+                уникальный персонаж, обладающий различными особенностями и запечатленный в
+                блокчейне.
               </p>
               <p className="text-left text-xl text-p1-darkgreen">
-                Владение NFT из нашей коллекции в будущем откроет вам доступ в
-                уникальный мир драйва на Web3:
+                Владение NFT из нашей коллекции в будущем откроет вам доступ в уникальный мир драйва
+                на Web3:
               </p>
               <ul className="list-disc space-y-3 px-5 text-p1-darkgreen">
                 <li className="text-justify text-xl text-p1-darkgreen">
-                  участвуйте в виртуальных гонках и других захватывающих
-                  онлайн-событиях.
+                  участвуйте в виртуальных гонках и других захватывающих онлайн-событиях.
                 </li>
                 <li className="text-left text-xl text-p1-darkgreen">
-                  принимайте участие в ключевых голосованиях, влияющих на
-                  развитие нашего сообщества.
+                  принимайте участие в ключевых голосованиях, влияющих на развитие нашего
+                  сообщества.
                 </li>
               </ul>
             </div>
@@ -280,23 +270,18 @@ export default function Page() {
                 В наших планах также выпуск и других уникальных коллекций для:
               </p>
               <ul className="list-disc space-y-3 px-5 text-p1-darkgreen">
-                <li className="text-justify text-xl text-p1-darkgreen">
-                  пилотов
+                <li className="text-justify text-xl text-p1-darkgreen">пилотов</li>
+                <li className="text-left text-xl text-p1-darkgreen">
+                  направлений автоспорта (дрифт, кольцевые гонки, драг рейсинг и т.д.)
                 </li>
                 <li className="text-left text-xl text-p1-darkgreen">
-                  направлений автоспорта (дрифт, кольцевые гонки, драг рейсинг и
-                  т.д.)
-                </li>
-                <li className="text-left text-xl text-p1-darkgreen">
-                  коллекционеров редких автомобилей с возможностью цифровизации
-                  своего автопарка и создания NFT в единой глобальной коллекции
+                  коллекционеров редких автомобилей с возможностью цифровизации своего автопарка и
+                  создания NFT в единой глобальной коллекции
                 </li>
                 <li className="text-left text-xl text-p1-darkgreen">
                   награждения победителей и призеров (кубки, медали)
                 </li>
-                <li className="text-left text-xl text-p1-darkgreen">
-                  выдачи цифровых лицензий
-                </li>
+                <li className="text-left text-xl text-p1-darkgreen">выдачи цифровых лицензий</li>
               </ul>
               <p className="text-center text-2xl font-bold text-p1-darkgreen">
                 Уникальность коллекций заключается в
@@ -306,8 +291,7 @@ export default function Page() {
                   ограниченном тираже уникальных объектов цифрового искусства
                 </li>
                 <li className="text-left text-xl text-p1-darkgreen">
-                  принадлежности коллекции к Проекту автоспортивного и
-                  автокультурного сообщества
+                  принадлежности коллекции к Проекту автоспортивного и автокультурного сообщества
                 </li>
                 <li className="text-left text-xl text-p1-darkgreen">
                   ограниченным перечнем коллекций цифрового исскусства
@@ -345,20 +329,14 @@ export default function Page() {
         <div className="basis-4/6 text-p1-darkgreen">
           <div>
             <div className="my-5 space-y-2 rounded-3xl border-4 border-p1-darkgreen p-6 text-center text-xl text-p1-darkgreen hover:border-p2-orange hover:shadow-xl">
-              <p className="text-center text-2xl font-bold text-p1-darkgreen">
-                NFT Сервисы
-              </p>
+              <p className="text-center text-2xl font-bold text-p1-darkgreen">NFT Сервисы</p>
               <p className="text-left">
-                Создание сервиса цифровизации физических объектов в NFT и
-                объединение NFT в единые коллекции цифрового исскусства
+                Создание сервиса цифровизации физических объектов в NFT и объединение NFT в единые
+                коллекции цифрового исскусства
               </p>
-              <p className="text-left">
-                создавайте, дарите, продавайте NFT по направлениям:
-              </p>
+              <p className="text-left">создавайте, дарите, продавайте NFT по направлениям:</p>
               <ul className="list-disc space-y-3 px-5 text-p1-darkgreen">
-                <li className="text-justify text-xl text-p1-darkgreen">
-                  Пилоты
-                </li>
+                <li className="text-justify text-xl text-p1-darkgreen">Пилоты</li>
                 <li className="text-left text-xl text-p1-darkgreen">
                   Участники команд (дрифт, драг рейсинг и т.д.)
                 </li>
@@ -370,29 +348,26 @@ export default function Page() {
                 </li>
               </ul>
               <p className="text-left">
-                Единая глобальная коллекция автоспортивного и автокультурного
-                сообщества создаваемая самим сообществом
+                Единая глобальная коллекция автоспортивного и автокультурного сообщества создаваемая
+                самим сообществом
               </p>
             </div>
 
             <div className="my-5 space-y-2 rounded-3xl border-4 border-p1-darkgreen p-6 text-center text-xl text-p1-darkgreen hover:border-p2-orange hover:shadow-xl">
-              <p className="text-center text-2xl font-bold text-p1-darkgreen">
-                NFT Награды
+              <p className="text-center text-2xl font-bold text-p1-darkgreen">NFT Награды</p>
+              <p className="text-left">
+                На сайте мы предоставляем организаторам мероприятий возможность создать уникальные
+                NFT награды для победителей и участников мероприятий и выход на новый уровень
+                организации проведения мероприятий
               </p>
               <p className="text-left">
-                На сайте мы предоставляем организаторам мероприятий возможность
-                создать уникальные NFT награды для победителей и участников
-                мероприятий и выход на новый уровень организации проведения
-                мероприятий
+                Все награды будут в единой коллекции автоспортивного и автокультурного сообщества
+                NFT Rewards
               </p>
               <p className="text-left">
-                Все награды будут в единой коллекции автоспортивного и
-                автокультурного сообщества NFT Rewards
-              </p>
-              <p className="text-left">
-                Для развития Проекта предоставляем лидерам направлений цифровые
-                NFT лицензии, расширяющие возможности и предоставляющие
-                дополнительные полномочия использования сайта.
+                Для развития Проекта предоставляем лидерам направлений цифровые NFT лицензии,
+                расширяющие возможности и предоставляющие дополнительные полномочия использования
+                сайта.
               </p>
             </div>
           </div>
@@ -437,25 +412,17 @@ export default function Page() {
               <p className="text-center text-2xl font-bold text-p1-darkgreen">
                 Уникальные привилегии
               </p>
-              <p className="text-left">
-                Предоставляем нашим членам эксклюзивные бонусы:
-              </p>
+              <p className="text-left">Предоставляем нашим членам эксклюзивные бонусы:</p>
               <ul className="list-disc space-y-3 px-5 text-p1-darkgreen">
-                <li className="text-justify text-xl text-p1-darkgreen">
-                  билеты на мероприятия
-                </li>
+                <li className="text-justify text-xl text-p1-darkgreen">билеты на мероприятия</li>
                 <li className="text-left text-xl text-p1-darkgreen">
                   участие в автограф и фото сессиях
                 </li>
                 <li className="text-left text-xl text-p1-darkgreen">
                   участие в лекциях и экскурсиях
                 </li>
-                <li className="text-left text-xl text-p1-darkgreen">
-                  розыгрыши NFT
-                </li>
-                <li className="text-left text-xl text-p1-darkgreen">
-                  многое другое
-                </li>
+                <li className="text-left text-xl text-p1-darkgreen">розыгрыши NFT</li>
+                <li className="text-left text-xl text-p1-darkgreen">многое другое</li>
               </ul>
             </div>
 
@@ -464,15 +431,13 @@ export default function Page() {
                 Собственные мероприятия
               </p>
               <p className="text-left">
-                Организуем такие мероприятия, как дрифт, гонки, автовыставки и
-                вечеринки под брендом GAA с участием спортсменов и лидеров
-                мнений (блогеров) с различными наградами (в том числе
-                цифровыми).
+                Организуем такие мероприятия, как дрифт, гонки, автовыставки и вечеринки под брендом
+                GAA с участием спортсменов и лидеров мнений (блогеров) с различными наградами (в том
+                числе цифровыми).
               </p>
               <p className="text-left">
-                Члены нашего сообщества смогут подавать заявки и принимать
-                участие в голосованиях по выбору формата мероприятий, судей,
-                участников и прочим вопросам.
+                Члены нашего сообщества смогут подавать заявки и принимать участие в голосованиях по
+                выбору формата мероприятий, судей, участников и прочим вопросам.
               </p>
             </div>
 
@@ -481,8 +446,7 @@ export default function Page() {
                 Децентрализованный портал
               </p>
               <p className="text-left">
-                Разрабатываем сайт, который будет являться уникальным порталом,
-                где каждый сможет:
+                Разрабатываем сайт, который будет являться уникальным порталом, где каждый сможет:
               </p>
               <ul className="list-disc space-y-3 px-5 text-p1-darkgreen">
                 <li className="text-justify text-xl text-p1-darkgreen">
@@ -500,15 +464,11 @@ export default function Page() {
                 <li className="text-left text-xl text-p1-darkgreen">
                   наслаждаться фото и видео материалами
                 </li>
-                <li className="text-left text-xl text-p1-darkgreen">
-                  загружать свой контент
-                </li>
+                <li className="text-left text-xl text-p1-darkgreen">загружать свой контент</li>
                 <li className="text-left text-xl text-p1-darkgreen">
                   реализовывать свои возможности
                 </li>
-                <li className="text-left text-xl text-p1-darkgreen">
-                  многое другое
-                </li>
+                <li className="text-left text-xl text-p1-darkgreen">многое другое</li>
               </ul>
             </div>
 
@@ -517,14 +477,12 @@ export default function Page() {
                 Выход на международный уровень
               </p>
               <p className="text-left">
-                Расширяем наше присутствие на международной арене, чтобы
-                объединить автолюбителей по всему миру, стирая границы и
-                расстояния.
+                Расширяем наше присутствие на международной арене, чтобы объединить автолюбителей по
+                всему миру, стирая границы и расстояния.
               </p>
               <p className="text-left">
-                Создание ежегодной круглогодичной международной серии и
-                стандарта мероприятий для автоспортивного и автокультурного
-                сообщества.
+                Создание ежегодной круглогодичной международной серии и стандарта мероприятий для
+                автоспортивного и автокультурного сообщества.
               </p>
             </div>
           </div>
@@ -555,36 +513,31 @@ export default function Page() {
           <div className="basis-4/6 text-p1-darkgreen">
             <div>
               <div className="my-5 space-y-2 rounded-3xl border-4 border-p1-darkgreen p-6 text-center text-xl text-p1-darkgreen hover:border-p2-orange hover:shadow-xl">
-                <p className="text-center text-2xl font-bold text-p1-darkgreen">
-                  Почему Web 3?
+                <p className="text-center text-2xl font-bold text-p1-darkgreen">Почему Web 3?</p>
+                <p className="text-left">
+                  Реализация глобальной идеи Web3 на сегодняшний день до сих пор находится на ранней
+                  стадии и еще не получила должного внимания в обществе.
                 </p>
                 <p className="text-left">
-                  Реализация глобальной идеи Web3 на сегодняшний день до сих пор
-                  находится на ранней стадии и еще не получила должного внимания
-                  в обществе.
+                  Мы в свою очередь видим перспективу реализации социально значимого проекта,
+                  позволяющего объединить людей по общим интересам, используя технологии Blockchain
+                  и NFT.
                 </p>
                 <p className="text-left">
-                  Мы в свою очередь видим перспективу реализации социально
-                  значимого проекта, позволяющего объединить людей по общим
-                  интересам, используя технологии Blockchain и NFT.
+                  Именно технология Blockchain способна обеспечить децентрализованное сообщество,
+                  управляемое самими людьми.
                 </p>
                 <p className="text-left">
-                  Именно технология Blockchain способна обеспечить
-                  децентрализованное сообщество, управляемое самими людьми.
-                </p>
-                <p className="text-left">
-                  Blockchain и NFT - технологии свободы, которые открывают
-                  безграничные возможности и позволяют вернуть власть людям,
-                  стирая границы между городами и странами и объединяя
-                  единомышленников.
+                  Blockchain и NFT - технологии свободы, которые открывают безграничные возможности
+                  и позволяют вернуть власть людям, стирая границы между городами и странами и
+                  объединяя единомышленников.
                 </p>
               </div>
 
               <div className="my-5 space-y-2 rounded-3xl border-4 border-p1-darkgreen p-6 text-center text-xl text-p1-darkgreen hover:border-p2-orange hover:shadow-xl">
                 <p className="text-center">
-                  Присоединяйся к GAA и стань частью глобального движения,
-                  которое создает новые правила справедливой игры в мире
-                  автоспорта и автокультуры!
+                  Присоединяйся к GAA и стань частью глобального движения, которое создает новые
+                  правила справедливой игры в мире автоспорта и автокультуры!
                 </p>
               </div>
               <div className="grid h-4/5 grid-cols-3 place-content-center gap-4">

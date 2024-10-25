@@ -1,17 +1,15 @@
-"use client";
-import Image from "next/image";
-import Link from "next/link";
-import { useState } from "react";
+'use client';
+import Image from 'next/image';
+import Link from 'next/link';
+import { useState } from 'react';
 
 export default function Page() {
-  const [value, setValue] = useState("0");
+  const [value, setValue] = useState('0');
 
   return (
     <div>
       <div className="grid grid-cols-2 gap-4">
-        <div className="p-2 text-4xl font-semibold text-p2-orange">
-          Promoter License NFT
-        </div>
+        <div className="p-2 text-4xl font-semibold text-p2-orange">Promoter License NFT</div>
         <div className="p-2 text-end text-4xl font-semibold text-p2-orange">
           Страница создания NFT
         </div>
@@ -20,16 +18,11 @@ export default function Page() {
         <div className="col-span-4 col-start-2 w-full rounded-3xl border-4 border-p2-orange text-center text-p1-darkgreen shadow-lg">
           <div>
             <p className="text-2xl text-p1-darkgreen">Присоединяйтесь к нам</p>
-            <p className="pb-5 text-2xl text-p1-darkgreen">
-              Получите NFT лицензию Промоутера
-            </p>
+            <p className="pb-5 text-2xl text-p1-darkgreen">Получите NFT лицензию Промоутера</p>
             <div className="grid grid-cols-4 gap-4">
               <div className="pt-5">
-                Созданные вами NFT автоматически попадут в глобальную коллекцию
-                GAA
-                <p className="pt-5">
-                  это объединенная коллекция мирового сообщества
-                </p>
+                Созданные вами NFT автоматически попадут в глобальную коллекцию GAA
+                <p className="pt-5">это объединенная коллекция мирового сообщества</p>
               </div>
               <div className="col-span-2 col-start-2 w-full rounded-3xl text-center">
                 <Image
@@ -41,19 +34,19 @@ export default function Page() {
                 />
                 <div className="inline-flex rounded-md shadow-sm" role="group">
                   <Link
-                    href={"/promouterlicense"}
+                    href={'/promouterlicense'}
                     className="w-full rounded-l-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-p2-orange focus:text-p1-white focus:ring-2 focus:ring-p2-orange dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange"
                   >
                     Promoter License
                   </Link>
                   <Link
-                    href={"/nationallicense"}
+                    href={'/nationallicense'}
                     className="w-full border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-p2-orange focus:text-p1-white focus:ring-2 focus:ring-p2-orange dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange"
                   >
                     National License
                   </Link>
                   <Link
-                    href={"/globallicense"}
+                    href={'/globallicense'}
                     className="w-full rounded-r-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-p2-orange focus:text-p1-white focus:ring-2 focus:ring-p2-orange dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange"
                   >
                     Global License

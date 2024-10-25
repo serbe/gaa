@@ -1,10 +1,8 @@
-"use client";
-import Image from "next/image";
-import { useState } from "react";
-import Link from "next/link";
+'use client';
+import Image from 'next/image';
+import { useState } from 'react';
 
 export default function Page() {
-  const [value, setValue] = useState("0");
   const [check, setCheck] = useState(false);
 
   return (
@@ -12,12 +10,10 @@ export default function Page() {
       <div className="flex flex-row pb-5">
         <div className="basis-1/5"></div>
         <div className="basis-3/5">
-          <div className="p-5 text-center text-6xl font-bold text-p1-darkgreen">
-            Партнеры
-          </div>
+          <div className="p-5 text-center text-6xl font-bold text-p1-darkgreen">Партнеры</div>
           <div className="text-center text-2xl text-p1-darkgreen">
-            Если Вы заинтересованы в том, чтобы стать партнером или спонсором,
-            пожалуйста, свяжитесь с нами.
+            Если Вы заинтересованы в том, чтобы стать партнером или спонсором, пожалуйста, свяжитесь
+            с нами.
           </div>
         </div>
         <div className="basis-1/5"></div>
@@ -33,22 +29,12 @@ export default function Page() {
               <div className="place-content-center pt-8">
                 <div className="grid">
                   <button className="mx-auto justify-center rounded-3xl hover:bg-p2-white2 hover:drop-shadow-2xl">
-                    <Image
-                      width={200}
-                      height={600}
-                      src="/logo/letter.png"
-                      alt="letter"
-                    />
+                    <Image width={200} height={600} src="/logo/letter.png" alt="letter" />
                   </button>
                 </div>
                 <div className="pt-28">
                   <div className="mx-auto justify-center rounded-3xl drop-shadow-2xl">
-                    <Image
-                      width={1000}
-                      height={600}
-                      src="/Cars/OpenWheels.png"
-                      alt="OpenWheels"
-                    />
+                    <Image width={1000} height={600} src="/Cars/OpenWheels.png" alt="OpenWheels" />
                   </div>
                 </div>
               </div>
@@ -60,12 +46,8 @@ export default function Page() {
         </div>
       </div>
 
-      <div className="p-8 text-center text-6xl font-bold text-p1-darkgreen">
-        Наши Контакты
-      </div>
-      <div className="text-center text-2xl text-p1-darkgreen">
-        Смело пишите и звоните нам.
-      </div>
+      <div className="p-8 text-center text-6xl font-bold text-p1-darkgreen">Наши Контакты</div>
+      <div className="text-center text-2xl text-p1-darkgreen">Смело пишите и звоните нам.</div>
       <div className="text-center text-2xl text-p1-darkgreen">
         Мы очень любим общаться с нашими партнерами.
       </div>
@@ -74,9 +56,8 @@ export default function Page() {
         <div className="grid grid-cols-2 gap-4">
           <div>
             <p className="pb-3 text-center text-p1-darkgreen">
-              Если вы хотите продвигать свое мероприятие с помощью Web3,
-              создавать награды NFT или быть представителем GAA в вашем регионе,
-              заполните форму заявки, и мы свяжемся с вами.
+              Если вы хотите продвигать свое мероприятие с помощью Web3, создавать награды NFT или
+              быть представителем GAA в вашем регионе, заполните форму заявки, и мы свяжемся с вами.
             </p>
             <p className="pb-3 pt-5 text-center font-semibold text-p1-darkgreen">
               Нажмите кнопку ниже
@@ -155,7 +136,7 @@ export default function Page() {
                 htmlFor="message"
                 className="mb-2 block text-sm font-medium text-p1-darkgreen dark:text-white"
               >
-                {"Ваши вопросы, комментарии, предложения ..."}
+                {'Ваши вопросы, комментарии, предложения ...'}
               </label>
               <textarea
                 id="message"

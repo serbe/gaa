@@ -1,24 +1,18 @@
-"use client";
-import Link from "next/link";
-import { Dispatch, SetStateAction, useState } from "react";
+'use client';
+import Link from 'next/link';
+import { Dispatch, SetStateAction, useState } from 'react';
 
 const menuItems = [
-  { name: "О нас", url: "/ruabout" },
-  { name: "Дорожная карта", url: "/ruroadmap" },
-  { name: "События", url: "/ruevents" },
-  { name: "Создай NFT", url: "/rumint" },
-  { name: "Racepoint", url: "/ruracepoint" },
-  { name: "Партнеры", url: "/rupartners" },
-  { name: "Социальные сети", url: "/rusocials" },
+  { name: 'О нас', url: '/ruabout' },
+  { name: 'Дорожная карта', url: '/ruroadmap' },
+  { name: 'События', url: '/ruevents' },
+  { name: 'Создай NFT', url: '/rumint' },
+  { name: 'Racepoint', url: '/ruracepoint' },
+  { name: 'Партнеры', url: '/rupartners' },
+  { name: 'Социальные сети', url: '/rusocials' },
 ];
 
-const Navbar = ({
-  open,
-  setter,
-}: {
-  open: boolean;
-  setter: Dispatch<SetStateAction<boolean>>;
-}) => (
+const Navbar = ({ open, setter }: { open: boolean; setter: Dispatch<SetStateAction<boolean>> }) => (
   <nav className="sticky top-0 z-10 bg-white shadow-blue-600 drop-shadow">
     <div className="mx-auto flex max-w-screen-xl flex-wrap items-center justify-between p-4">
       <Link href="/" className="items-center space-x-3 md:hidden">
@@ -52,9 +46,7 @@ const Navbar = ({
         </svg>
       </button>
       <div
-        className={
-          "mx-auto " + (open ? "" : "hidden") + " w-full md:block md:w-auto"
-        }
+        className={'mx-auto' + (open ? '' : 'hidden') + ' w-full md:block md:w-auto'}
         id="navbar-default"
       >
         <ul className="mt-4 flex flex-col rounded-lg border border-gray-100 bg-gray-50 p-4 font-medium md:mt-0 md:flex-row md:space-x-8 md:border-0 md:bg-white md:p-0 rtl:space-x-reverse dark:border-gray-700 dark:bg-gray-800 md:dark:bg-gray-900">

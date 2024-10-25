@@ -1,19 +1,12 @@
-"use client";
-import Image from "next/image";
-import { useState } from "react";
-import Link from "next/link";
+import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Page() {
-  const [value, setValue] = useState("0");
-  const [check, setCheck] = useState(false);
-
   return (
     <div className="font-serif">
       {/* //Cars*/}
       <div className="grid grid-cols-2 gap-4">
-        <div className="p-2 text-4xl font-semibold text-p1-darkgreen">
-          Cars NFT
-        </div>
+        <div className="p-2 text-4xl font-semibold text-p1-darkgreen">Cars NFT</div>
         <div className="p-2 text-end text-4xl font-semibold text-p1-darkgreen">
           Страница исследователя
         </div>
@@ -23,20 +16,20 @@ export default function Page() {
           <div className="grid grid-cols-2 place-items-start justify-center gap-4 p-5">
             <div className="grid">
               <p className="my-2 rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-cyan hover:shadow-2xl">
-                Невзаимозаменяемый токен, отражающий реальный коллекционный,
-                спортивный, кастомизированный или раритетный автомобиль из
-                национальной, корпоративной или частной коллекции
+                Невзаимозаменяемый токен, отражающий реальный коллекционный, спортивный,
+                кастомизированный или раритетный автомобиль из национальной, корпоративной или
+                частной коллекции
               </p>
               <p className="my-2 rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-cyan hover:shadow-2xl">
-                Каждый NFT содержит метаданные, хранящие информацию о
-                коллекционном экземпляре, его описание и характеристики
+                Каждый NFT содержит метаданные, хранящие информацию о коллекционном экземпляре, его
+                описание и характеристики
               </p>
               <p className="my-2 rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-cyan hover:shadow-2xl">
                 При создании NFT есть возможность добавить медиаконтент.
               </p>
               <p className="my-2 rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-cyan hover:shadow-2xl">
-                Для получения Car NFT необходимо владеть хотябы одной NFT из
-                коллекций Drivers, Team&apos;s Members, Collectors NFT
+                Для получения Car NFT необходимо владеть хотябы одной NFT из коллекций Drivers,
+                Team&apos;s Members, Collectors NFT
               </p>
             </div>
             <div className="justify-self-end">
@@ -53,8 +46,8 @@ export default function Page() {
               >
                 <Link
                   href={{
-                    pathname: "/rudiscoveryliders",
-                    query: { liders: "drivers" },
+                    pathname: '/rudiscoveryliders',
+                    query: { liders: 'drivers' },
                   }}
                   className="w-full rounded-l-2xl border border-gray-200 bg-white p-5 text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-red-500 focus:text-p1-white focus:ring-2 focus:ring-red-500 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p1-green"
                 >
@@ -62,8 +55,8 @@ export default function Page() {
                 </Link>
                 <Link
                   href={{
-                    pathname: "/rudiscoveryliders",
-                    query: { liders: "Team&apos;s Members" },
+                    pathname: '/rudiscoveryliders',
+                    query: { liders: 'Team&apos;s Members' },
                   }}
                   className="w-full border border-gray-200 bg-white p-5 text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-sky-600 focus:text-p1-white focus:ring-2 focus:ring-sky-600 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-stone-500"
                 >
@@ -71,8 +64,8 @@ export default function Page() {
                 </Link>
                 <Link
                   href={{
-                    pathname: "/rudiscoveryliders",
-                    query: { liders: "collectors" },
+                    pathname: '/rudiscoveryliders',
+                    query: { liders: 'collectors' },
                   }}
                   className="w-full border border-gray-200 bg-white p-5 text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-stone-500 focus:text-p1-white focus:ring-2 focus:ring-stone-500 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-stone-500"
                 >
@@ -80,8 +73,8 @@ export default function Page() {
                 </Link>
                 <Link
                   href={{
-                    pathname: "/rudiscoverycars",
-                    query: { liders: "cars" },
+                    pathname: '/rudiscoverycars',
+                    query: { liders: 'cars' },
                   }}
                   className="w-full rounded-r-2xl border border-gray-200 bg-white p-5 text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-p2-orange focus:text-p1-white focus:ring-2 focus:ring-p2-orange dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange"
                 >
@@ -98,17 +91,15 @@ export default function Page() {
             </div>
             <div>
               <p className="rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-cyan hover:shadow-2xl">
-                Данный токен Burnebal, то есть собственник смарт-контракта может
-                уничтожить любой токен из коллекции, эта мера необходима для
-                формирования чистоты коллекции.
+                Данный токен Burnebal, то есть собственник смарт-контракта может уничтожить любой
+                токен из коллекции, эта мера необходима для формирования чистоты коллекции.
               </p>
             </div>
             <div>
               <p className="rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-cyan hover:shadow-2xl">
-                То есть собственник смарт-контракта вправе уничтожить NFT в
-                случае нарушения держателем Drivers, Team&apos;s Members,
-                Collectors NFT правил создания NFT не соответствующих целям
-                Проекта.
+                То есть собственник смарт-контракта вправе уничтожить NFT в случае нарушения
+                держателем Drivers, Team&apos;s Members, Collectors NFT правил создания NFT не
+                соответствующих целям Проекта.
               </p>
             </div>
           </div>
@@ -123,8 +114,8 @@ export default function Page() {
 
       <div className="m-5 rounded-3xl border-4 border-p1-darkgreen p-6 shadow-lg">
         <div className="pb-5 text-center text-2xl text-p1-darkgreen">
-          Только владельцы NFT коллекций Drivers, Team&apos;s members,
-          Collectors смогут оцифровать свои автомобили и создать Car NFT
+          Только владельцы NFT коллекций Drivers, Team&apos;s members, Collectors смогут оцифровать
+          свои автомобили и создать Car NFT
         </div>
 
         <div className="grid grid-cols-5 gap-1">

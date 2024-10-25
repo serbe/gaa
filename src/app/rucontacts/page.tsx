@@ -1,10 +1,7 @@
-"use client";
-import Image from "next/image";
-import { useState } from "react";
-import Link from "next/link";
+'use client';
+import { useState } from 'react';
 
 export default function Page() {
-  const [value, setValue] = useState("0");
   const [check, setCheck] = useState(false);
 
   return (
@@ -13,9 +10,7 @@ export default function Page() {
         <div className="text-center text-6xl font-bold text-p1-darkgreen drop-shadow-2xl">
           Наши Контакты
         </div>
-        <div className="text-center text-p1-darkgreen">
-          Смело пишите и звоните нам.
-        </div>
+        <div className="text-center text-p1-darkgreen">Смело пишите и звоните нам.</div>
         <div className="text-center text-p1-darkgreen">
           Мы очень любим общаться с нашими партнерами.
         </div>
@@ -23,9 +18,9 @@ export default function Page() {
           <div className="grid grid-cols-2 gap-4">
             <div>
               <p className="pb-3 text-center font-semibold text-p1-darkgreen">
-                Если вы хотите продвигать свое мероприятие с помощью Web3,
-                создавать награды NFT или быть представителем GAA в вашем
-                регионе, заполните форму заявки, и мы свяжемся с вами.
+                Если вы хотите продвигать свое мероприятие с помощью Web3, создавать награды NFT или
+                быть представителем GAA в вашем регионе, заполните форму заявки, и мы свяжемся с
+                вами.
               </p>
               <p className="pb-3 pt-5 text-center font-semibold text-p1-darkgreen">
                 Нажмите кнопку ниже
@@ -106,7 +101,7 @@ export default function Page() {
                   htmlFor="message"
                   className="mb-2 block text-sm font-medium text-p1-darkgreen dark:text-white"
                 >
-                  {"Ваши вопросы, комментарии, предложения ..."}
+                  {'Ваши вопросы, комментарии, предложения ...'}
                 </label>
                 <textarea
                   id="message"

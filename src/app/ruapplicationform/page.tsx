@@ -1,16 +1,13 @@
-"use client";
-import Image from "next/image";
-import { useState } from "react";
+'use client';
+import Image from 'next/image';
+import { useState } from 'react';
 
 export default function Page() {
-  const [value, setValue] = useState("0");
   const [check, setCheck] = useState(false);
 
   return (
     <div className="font-serif">
-      <div className="pt-5 text-center text-6xl font-bold text-p1-darkgreen">
-        Форма заявки
-      </div>
+      <div className="pt-5 text-center text-6xl font-bold text-p1-darkgreen">Форма заявки</div>
       <div className="pb-5 text-center text-4xl font-bold text-p1-darkgreen">
         by Global Automotive Association
       </div>
@@ -792,9 +789,7 @@ export default function Page() {
                           />
                         </svg>
                         <p className="mb-2 text-sm text-gray-500 dark:text-gray-400">
-                          <span className="font-semibold">
-                            Добавь свое фото
-                          </span>
+                          <span className="font-semibold">Добавь свое фото</span>
                         </p>
                         <div className="pb-2"></div>
 
@@ -806,11 +801,7 @@ export default function Page() {
                           SVG, PNG, JPG or GIF (MAX. 800x400px)
                         </p>
                       </div>
-                      <input
-                        id="dropzone-file"
-                        type="file"
-                        className="hidden"
-                      />
+                      <input id="dropzone-file" type="file" className="hidden" />
                     </label>
                   </div>
                 </div>

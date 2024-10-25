@@ -1,18 +1,14 @@
-"use client";
-import Image from "next/image";
-import { useState } from "react";
-import Link from "next/link";
+'use client';
+import Image from 'next/image';
+import { useState } from 'react';
 
 export default function Page() {
-  const [value, setValue] = useState("0");
-  const [check, setCheck] = useState(false);
+  const [value, setValue] = useState('0');
 
   return (
     <div className="font-serif">
       <div className="grid grid-cols-2 gap-4">
-        <div className="p-2 text-4xl font-semibold text-p2-orange">
-          RaceLads NFT
-        </div>
+        <div className="p-2 text-4xl font-semibold text-p2-orange">RaceLads NFT</div>
         <div className="p-2 text-end text-4xl font-semibold text-p2-orange">
           Страница создания NFT
         </div>
@@ -21,9 +17,7 @@ export default function Page() {
         <div className="col-span-4 col-start-2 w-full rounded-3xl border-4 border-p2-orange text-center text-p1-darkgreen shadow-lg">
           <div>
             <p className="text-2xl text-p1-darkgreen">Присоединяйтесь к нам</p>
-            <p className="text-2xl text-p1-darkgreen">
-              Получите своего героя RaceLad
-            </p>
+            <p className="text-2xl text-p1-darkgreen">Получите своего героя RaceLad</p>
             <Image
               className="relative mb-4 inline-block w-max overflow-hidden rounded-3xl border-2 border-p2-orange shadow-lg"
               width={1000}

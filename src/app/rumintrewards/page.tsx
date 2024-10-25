@@ -1,18 +1,14 @@
-"use client";
-import Image from "next/image";
-import { useState } from "react";
-import Link from "next/link";
+'use client';
+import Image from 'next/image';
+import { useState } from 'react';
 
 export default function Page() {
-  const [value, setValue] = useState("0");
   const [check, setCheck] = useState(false);
 
   return (
     <div className="font-serif">
       <div className="grid grid-cols-2 gap-4">
-        <div className="p-2 text-4xl font-semibold text-p2-orange">
-          Rewards NFT
-        </div>
+        <div className="p-2 text-4xl font-semibold text-p2-orange">Rewards NFT</div>
         <div className="p-2 text-end text-4xl font-semibold text-p2-orange">
           Страница создания NFT
         </div>
@@ -53,14 +49,11 @@ export default function Page() {
                       />
                     </svg>
                     <p className="mb-2 text-sm text-gray-500 dark:text-gray-400">
-                      <span className="font-semibold">
-                        Добавь медиаконтент момента победы
-                      </span>
+                      <span className="font-semibold">Добавь медиаконтент момента победы</span>
                     </p>
 
                     <p className="mb-2 text-sm text-gray-500 dark:text-gray-400">
-                      <span className="font-semibold">Click to upload</span> or
-                      drag and drop
+                      <span className="font-semibold">Click to upload</span> or drag and drop
                     </p>
                     <p className="text-xs text-gray-500 dark:text-gray-400">
                       SVG, PNG, JPG or GIF (MAX. 800x400px)
@@ -94,8 +87,7 @@ export default function Page() {
                       </svg>
                       <p className="mb-2 text-sm text-gray-500 dark:text-gray-400">
                         <span className="font-semibold">
-                          Добавь медиаконтент Победитель на подиуме награждения
-                          с наградой
+                          Добавь медиаконтент Победитель на подиуме награждения с наградой
                         </span>
                       </p>
 
@@ -156,19 +148,17 @@ export default function Page() {
               Добавьте медиаконтент о победителе
             </p>
             <p className="p-2 text-2xl font-semibold text-p1-darkgreen">
-              Созданные вами NFT автоматически попадут в глобальную коллекцию
-              GAA
+              Созданные вами NFT автоматически попадут в глобальную коллекцию GAA
             </p>
             <p className="p-2 text-2xl font-semibold text-p1-darkgreen">
               это единый сборник мирового сообщества
             </p>
             <p className="p-5 text-2xl font-semibold text-p1-darkgreen">
-              Доступно для держателей NFT Promoter license, National license,
-              Global license, Management GAA
+              Доступно для держателей NFT Promoter license, National license, Global license,
+              Management GAA
             </p>
             <p className="p-5 text-2xl font-semibold text-p2-red">
-              Добавить вывод изображения в зависимости от выбранных и
-              заполненных полей
+              Добавить вывод изображения в зависимости от выбранных и заполненных полей
             </p>
           </div>
           <div className="p-2 text-4xl text-p2-orange">
@@ -261,7 +251,7 @@ export default function Page() {
                 <select
                   id="license"
                   className="block w-full rounded-lg border-2 border-gray-300 bg-p2-white2 p-2.5 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
-                  defaultValue={"DEFAULT"}
+                  defaultValue={'DEFAULT'}
                 >
                   <option value="DEFAULT" disabled>
                     Выберите категорию
@@ -298,7 +288,7 @@ export default function Page() {
               <select
                 id="Reward"
                 className="block w-full rounded-lg border-2 border-gray-300 bg-p2-white2 p-2.5 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
-                defaultValue={"DEFAULT"}
+                defaultValue={'DEFAULT'}
               >
                 <option value="DEFAULT" disabled>
                   Выберите категорию награды
@@ -320,7 +310,7 @@ export default function Page() {
               <select
                 id="Place_Victory"
                 className="block w-full rounded-lg border-2 border-gray-300 bg-p2-white2 p-2.5 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
-                defaultValue={"DEFAULT"}
+                defaultValue={'DEFAULT'}
               >
                 <option value="DEFAULT" disabled>
                   Выберите занятое место
@@ -350,9 +340,7 @@ export default function Page() {
             </div>
             <div className="pb-2"></div>
 
-            <p className="pt-5 text-left text-xl text-p1-darkgreen">
-              Сведения о победителе:
-            </p>
+            <p className="pt-5 text-left text-xl text-p1-darkgreen">Сведения о победителе:</p>
 
             <div>
               <label

@@ -1,23 +1,21 @@
-"use client";
-import Image from "next/image";
-import Link from "next/link";
-import { useState } from "react";
+'use client';
+import Image from 'next/image';
+import Link from 'next/link';
+import { useState } from 'react';
 
 export default function Page() {
-  const [value, setValue] = useState("0");
+  const [value, setValue] = useState('0');
   const [check, setCheck] = useState(false);
 
   return (
     <div className="w-full font-serif">
       <Link href="/parallax">Пример параллакса из видео</Link>
-      <section className="flex h-3/5 flex-wrap space-x-2 object-center px-2 pt-5 md:flex-nowrap">
-        <div className="md:w-1/7 mb-4 w-full overflow-hidden"> </div>
-        <div className="md:w-2/7 mb-4 w-full overflow-hidden rounded-3xl border-4 border-p2-orange bg-p1-white shadow-lg">
+      <section className="sd:flex-wrap flex h-3/5 flex-nowrap space-x-2 object-center px-2 pt-5">
+        <div className="sd:w-1/7 mb-4 w-full overflow-hidden"> </div>
+        <div className="sd:w-2/7 mb-4 w-full overflow-hidden rounded-3xl border-4 border-p2-orange bg-p1-white shadow-lg">
           <div className="flex flex-row">
             <div className="mx-auto p-8 text-center md:text-xl lg:text-2xl">
-              <div className="pt-2 text-p1-darkgreen">
-                Генеративная коллекция
-              </div>
+              <div className="pt-2 text-p1-darkgreen">Генеративная коллекция</div>
               <div className="pb-2 text-p1-darkgreen">RaceLads NFT</div>
 
               <Image
@@ -89,26 +87,11 @@ export default function Page() {
               </button>
 
               <div className="place-items-centre mt-5 grid grid-cols-3 gap-2 p-4">
-                <Image
-                  width={1000}
-                  height={1200}
-                  src="/Licenses/Promoter.png"
-                  alt="Promoter"
-                />
+                <Image width={1000} height={1200} src="/Licenses/Promoter.png" alt="Promoter" />
 
-                <Image
-                  width={1000}
-                  height={1200}
-                  src="/Licenses/National.png"
-                  alt="National"
-                />
+                <Image width={1000} height={1200} src="/Licenses/National.png" alt="National" />
 
-                <Image
-                  width={1000}
-                  height={1200}
-                  src="/Licenses/Global.png"
-                  alt="Global"
-                />
+                <Image width={1000} height={1200} src="/Licenses/Global.png" alt="Global" />
 
                 <div className="pt-2 text-center text-sm text-p1-darkgreen lg:text-xl">
                   Все награды в единой коллекции

@@ -1,9 +1,8 @@
-"use client";
-import Image from "next/image";
-import { useState } from "react";
+'use client';
+import Image from 'next/image';
+import { useState } from 'react';
 
 export default function Page() {
-  const [value, setValue] = useState("0");
   const [check, setCheck] = useState(false);
 
   return (
@@ -92,9 +91,7 @@ export default function Page() {
         </label>
       </div>
       <div>
-        <h3 className="mb-4 font-semibold text-gray-900 dark:text-white">
-          Несколько кнопок
-        </h3>
+        <h3 className="mb-4 font-semibold text-gray-900 dark:text-white">Несколько кнопок</h3>
         <ul className="w-48 rounded-lg border border-gray-200 bg-white text-sm font-medium text-gray-900 dark:border-gray-600 dark:bg-gray-700 dark:text-white">
           <li className="w-full rounded-t-lg border-b border-gray-200 dark:border-gray-600">
             <div className="flex items-center ps-3">

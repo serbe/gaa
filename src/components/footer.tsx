@@ -1,4 +1,4 @@
-import Link from "next/link";
+import Link from 'next/link';
 
 const Footer = () => {
   return (
@@ -25,10 +25,7 @@ const Footer = () => {
                 ></path>
               </svg>
             </Link>
-            <Link
-              href="https://t.me/GlobalAutomotiveAssociation"
-              title="Channel"
-            >
+            <Link href="https://t.me/GlobalAutomotiveAssociation" title="Channel">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 x="0px"
@@ -37,10 +34,7 @@ const Footer = () => {
                 height="30"
                 viewBox="0 0 48 48"
               >
-                <path
-                  fill="#29b6f6"
-                  d="M24 4A20 20 0 1 0 24 44A20 20 0 1 0 24 4Z"
-                ></path>
+                <path fill="#29b6f6" d="M24 4A20 20 0 1 0 24 44A20 20 0 1 0 24 4Z"></path>
                 <path
                   fill="#fff"
                   d="M33.95,15l-3.746,19.126c0,0-0.161,0.874-1.245,0.874c-0.576,0-0.873-0.274-0.873-0.274l-8.114-6.733 l-3.97-2.001l-5.095-1.355c0,0-0.907-0.262-0.907-1.012c0-0.625,0.933-0.923,0.933-0.923l21.316-8.468 c-0.001-0.001,0.651-0.235,1.126-0.234C33.667,14,34,14.125,34,14.5C34,14.75,33.95,15,33.95,15z"
@@ -64,10 +58,7 @@ const Footer = () => {
                 height="30"
                 viewBox="0 0 48 48"
               >
-                <path
-                  fill="#29b6f6"
-                  d="M24 4A20 20 0 1 0 24 44A20 20 0 1 0 24 4Z"
-                ></path>
+                <path fill="#29b6f6" d="M24 4A20 20 0 1 0 24 44A20 20 0 1 0 24 4Z"></path>
                 <path
                   fill="#fff"
                   d="M33.95,15l-3.746,19.126c0,0-0.161,0.874-1.245,0.874c-0.576,0-0.873-0.274-0.873-0.274l-8.114-6.733 l-3.97-2.001l-5.095-1.355c0,0-0.907-0.262-0.907-1.012c0-0.625,0.933-0.923,0.933-0.923l21.316-8.468 c-0.001-0.001,0.651-0.235,1.126-0.234C33.667,14,34,14.125,34,14.5C34,14.75,33.95,15,33.95,15z"

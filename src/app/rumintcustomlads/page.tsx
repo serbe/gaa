@@ -1,18 +1,14 @@
-"use client";
-import Image from "next/image";
-import { useState } from "react";
-import Link from "next/link";
+'use client';
+import Image from 'next/image';
+import { useState } from 'react';
 
 export default function Page() {
-  const [value, setValue] = useState("0");
-  const [check, setCheck] = useState(false);
+  const [value, setValue] = useState('0');
 
   return (
     <div className="font-serif">
       <div className="grid grid-cols-2 gap-4">
-        <div className="p-2 text-4xl font-semibold text-p2-orange">
-          CustomLads NFT
-        </div>
+        <div className="p-2 text-4xl font-semibold text-p2-orange">CustomLads NFT</div>
         <div className="p-2 text-end text-4xl font-semibold text-p2-orange">
           Страница создания NFT
         </div>
@@ -20,12 +16,8 @@ export default function Page() {
       <div className="grid grid-cols-6 gap-4">
         <div className="col-span-4 col-start-2 w-full rounded-3xl border-4 border-p2-orange text-center text-p1-darkgreen shadow-lg">
           <div>
-            <p className="pt-5 text-2xl text-p1-darkgreen">
-              Присоединяйтесь к нам
-            </p>
-            <p className="pb-5 text-2xl text-p1-darkgreen">
-              Получите своего героя CustomLad
-            </p>
+            <p className="pt-5 text-2xl text-p1-darkgreen">Присоединяйтесь к нам</p>
+            <p className="pb-5 text-2xl text-p1-darkgreen">Получите своего героя CustomLad</p>
             <div className="grid grid-cols-3 gap-4">
               <div>
                 <div className="inline-flex rounded-md shadow-sm" role="group">
@@ -39,7 +31,7 @@ export default function Page() {
                     type="button"
                     className="rounded-s-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
                   >
-                    {"<"}
+                    {'<'}
                   </button>
                   <button
                     type="button"
@@ -52,14 +44,11 @@ export default function Page() {
                     type="button"
                     className="rounded-e-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
                   >
-                    {">"}
+                    {'>'}
                   </button>
                 </div>
                 <div>
-                  <div
-                    className="inline-flex rounded-md shadow-sm"
-                    role="group"
-                  >
+                  <div className="inline-flex rounded-md shadow-sm" role="group">
                     <button
                       type="button"
                       className="w-12 rounded-s-lg border-b border-t border-gray-200 bg-white px-4 py-2 text-sm font-medium text-p2-red hover:bg-p2-red hover:text-p1-white focus:z-10 focus:text-p2-red focus:ring-2 focus:ring-p3-red dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
@@ -70,7 +59,7 @@ export default function Page() {
                       type="button"
                       className="rounded-s-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
                     >
-                      {"<"}
+                      {'<'}
                     </button>
                     <button
                       type="button"
@@ -83,13 +72,10 @@ export default function Page() {
                       type="button"
                       className="rounded-e-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
                     >
-                      {">"}
+                      {'>'}
                     </button>
                   </div>
-                  <div
-                    className="inline-flex rounded-md shadow-sm"
-                    role="group"
-                  >
+                  <div className="inline-flex rounded-md shadow-sm" role="group">
                     <button
                       type="button"
                       className="w-12 rounded-s-lg border-b border-t border-gray-200 bg-white px-4 py-2 text-sm font-medium text-p2-red hover:bg-p2-red hover:text-p1-white focus:z-10 focus:text-p2-red focus:ring-2 focus:ring-p3-red dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
@@ -100,7 +86,7 @@ export default function Page() {
                       type="button"
                       className="rounded-s-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
                     >
-                      {"<"}
+                      {'<'}
                     </button>
                     <button
                       type="button"
@@ -113,13 +99,10 @@ export default function Page() {
                       type="button"
                       className="rounded-e-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
                     >
-                      {">"}
+                      {'>'}
                     </button>
                   </div>
-                  <div
-                    className="inline-flex rounded-md shadow-sm"
-                    role="group"
-                  >
+                  <div className="inline-flex rounded-md shadow-sm" role="group">
                     <button
                       type="button"
                       className="w-12 rounded-s-lg border-b border-t border-gray-200 bg-white px-4 py-2 text-sm font-medium text-p2-red hover:bg-p2-red hover:text-p1-white focus:z-10 focus:text-p2-red focus:ring-2 focus:ring-p3-red dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
@@ -130,7 +113,7 @@ export default function Page() {
                       type="button"
                       className="rounded-s-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
                     >
-                      {"<"}
+                      {'<'}
                     </button>
                     <button
                       type="button"
@@ -143,13 +126,10 @@ export default function Page() {
                       type="button"
                       className="rounded-e-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
                     >
-                      {">"}
+                      {'>'}
                     </button>
                   </div>
-                  <div
-                    className="inline-flex rounded-md shadow-sm"
-                    role="group"
-                  >
+                  <div className="inline-flex rounded-md shadow-sm" role="group">
                     <button
                       type="button"
                       className="w-12 rounded-s-lg border-b border-t border-gray-200 bg-white px-4 py-2 text-sm font-medium text-p2-red hover:bg-p2-red hover:text-p1-white focus:z-10 focus:text-p2-red focus:ring-2 focus:ring-p3-red dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
@@ -160,7 +140,7 @@ export default function Page() {
                       type="button"
                       className="rounded-s-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
                     >
-                      {"<"}
+                      {'<'}
                     </button>
                     <button
                       type="button"
@@ -173,13 +153,10 @@ export default function Page() {
                       type="button"
                       className="rounded-e-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
                     >
-                      {">"}
+                      {'>'}
                     </button>
                   </div>
-                  <div
-                    className="inline-flex rounded-md shadow-sm"
-                    role="group"
-                  >
+                  <div className="inline-flex rounded-md shadow-sm" role="group">
                     <button
                       type="button"
                       className="w-12 rounded-s-lg border-b border-t border-gray-200 bg-white px-4 py-2 text-sm font-medium text-p2-red hover:bg-p2-red hover:text-p1-white focus:z-10 focus:text-p2-red focus:ring-2 focus:ring-p3-red dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
@@ -190,7 +167,7 @@ export default function Page() {
                       type="button"
                       className="rounded-s-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
                     >
-                      {"<"}
+                      {'<'}
                     </button>
                     <button
                       type="button"
@@ -203,13 +180,10 @@ export default function Page() {
                       type="button"
                       className="rounded-e-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
                     >
-                      {">"}
+                      {'>'}
                     </button>
                   </div>
-                  <div
-                    className="inline-flex rounded-md shadow-sm"
-                    role="group"
-                  >
+                  <div className="inline-flex rounded-md shadow-sm" role="group">
                     <button
                       type="button"
                       className="w-12 rounded-s-lg border-b border-t border-gray-200 bg-white px-4 py-2 text-sm font-medium text-p2-red hover:bg-p2-red hover:text-p1-white focus:z-10 focus:text-p2-red focus:ring-2 focus:ring-p3-red dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
@@ -220,7 +194,7 @@ export default function Page() {
                       type="button"
                       className="rounded-s-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
                     >
-                      {"<"}
+                      {'<'}
                     </button>
                     <button
                       type="button"
@@ -233,13 +207,10 @@ export default function Page() {
                       type="button"
                       className="rounded-e-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
                     >
-                      {">"}
+                      {'>'}
                     </button>
                   </div>
-                  <div
-                    className="inline-flex rounded-md shadow-sm"
-                    role="group"
-                  >
+                  <div className="inline-flex rounded-md shadow-sm" role="group">
                     <button
                       type="button"
                       className="w-12 rounded-s-lg border-b border-t border-gray-200 bg-white px-4 py-2 text-sm font-medium text-p2-red hover:bg-p2-red hover:text-p1-white focus:z-10 focus:text-p2-red focus:ring-2 focus:ring-p3-red dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
@@ -250,7 +221,7 @@ export default function Page() {
                       type="button"
                       className="rounded-s-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
                     >
-                      {"<"}
+                      {'<'}
                     </button>
                     <button
                       type="button"
@@ -263,13 +234,10 @@ export default function Page() {
                       type="button"
                       className="rounded-e-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
                     >
-                      {">"}
+                      {'>'}
                     </button>
                   </div>
-                  <div
-                    className="inline-flex rounded-md shadow-sm"
-                    role="group"
-                  >
+                  <div className="inline-flex rounded-md shadow-sm" role="group">
                     <button
                       type="button"
                       className="w-12 rounded-s-lg border-b border-t border-gray-200 bg-white px-4 py-2 text-sm font-medium text-p2-red hover:bg-p2-red hover:text-p1-white focus:z-10 focus:text-p2-red focus:ring-2 focus:ring-p3-red dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
@@ -280,7 +248,7 @@ export default function Page() {
                       type="button"
                       className="rounded-s-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
                     >
-                      {"<"}
+                      {'<'}
                     </button>
                     <button
                       type="button"
@@ -293,13 +261,10 @@ export default function Page() {
                       type="button"
                       className="rounded-e-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
                     >
-                      {">"}
+                      {'>'}
                     </button>
                   </div>
-                  <div
-                    className="inline-flex rounded-md shadow-sm"
-                    role="group"
-                  >
+                  <div className="inline-flex rounded-md shadow-sm" role="group">
                     <button
                       type="button"
                       className="w-12 rounded-s-lg border-b border-t border-gray-200 bg-white px-4 py-2 text-sm font-medium text-p2-red hover:bg-p2-red hover:text-p1-white focus:z-10 focus:text-p2-red focus:ring-2 focus:ring-p3-red dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
@@ -310,7 +275,7 @@ export default function Page() {
                       type="button"
                       className="rounded-s-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
                     >
-                      {"<"}
+                      {'<'}
                     </button>
                     <button
                       type="button"
@@ -323,7 +288,7 @@ export default function Page() {
                       type="button"
                       className="rounded-e-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
                     >
-                      {">"}
+                      {'>'}
                     </button>
                   </div>
                 </div>
@@ -351,7 +316,7 @@ export default function Page() {
                     type="button"
                     className="rounded-s-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
                   >
-                    {"<"}
+                    {'<'}
                   </button>
                   <button
                     type="button"
@@ -364,7 +329,7 @@ export default function Page() {
                     type="button"
                     className="rounded-e-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
                   >
-                    {">"}
+                    {'>'}
                   </button>
                   <button
                     type="button"
@@ -378,7 +343,7 @@ export default function Page() {
                     type="button"
                     className="rounded-s-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
                   >
-                    {"<"}
+                    {'<'}
                   </button>
                   <button
                     type="button"
@@ -391,7 +356,7 @@ export default function Page() {
                     type="button"
                     className="rounded-e-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
                   >
-                    {">"}
+                    {'>'}
                   </button>
                   <button
                     type="button"
@@ -405,7 +370,7 @@ export default function Page() {
                     type="button"
                     className="rounded-s-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
                   >
-                    {"<"}
+                    {'<'}
                   </button>
                   <button
                     type="button"
@@ -418,7 +383,7 @@ export default function Page() {
                     type="button"
                     className="rounded-e-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
                   >
-                    {">"}
+                    {'>'}
                   </button>
                   <button
                     type="button"
@@ -432,7 +397,7 @@ export default function Page() {
                     type="button"
                     className="rounded-s-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
                   >
-                    {"<"}
+                    {'<'}
                   </button>
                   <button
                     type="button"
@@ -445,7 +410,7 @@ export default function Page() {
                     type="button"
                     className="rounded-e-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
                   >
-                    {">"}
+                    {'>'}
                   </button>
                   <button
                     type="button"
@@ -459,7 +424,7 @@ export default function Page() {
                     type="button"
                     className="rounded-s-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
                   >
-                    {"<"}
+                    {'<'}
                   </button>
                   <button
                     type="button"
@@ -472,7 +437,7 @@ export default function Page() {
                     type="button"
                     className="rounded-e-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
                   >
-                    {">"}
+                    {'>'}
                   </button>
                   <button
                     type="button"
@@ -486,7 +451,7 @@ export default function Page() {
                     type="button"
                     className="rounded-s-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
                   >
-                    {"<"}
+                    {'<'}
                   </button>
                   <button
                     type="button"
@@ -499,7 +464,7 @@ export default function Page() {
                     type="button"
                     className="rounded-e-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
                   >
-                    {">"}
+                    {'>'}
                   </button>
                   <button
                     type="button"
@@ -532,11 +497,10 @@ export default function Page() {
               Максимальное количество: 10 CustomLads за транзакцию
             </p>
             <p className="pb-8 pt-8 text-2xl text-p1-darkgreen">
-              стрелки - перебор доступных элементов, Х-фиксация пустого слоя, по
-              центру нажатие названия элемента - фиксация выбранного элемента,
-              сброс - сброс всех настроек, случайное изображение - рандомайзер
-              из доступных элементов, на странице должна быть проверка
-              количества NFT в кошельке и открытие доступных элементов
+              стрелки - перебор доступных элементов, Х-фиксация пустого слоя, по центру нажатие
+              названия элемента - фиксация выбранного элемента, сброс - сброс всех настроек,
+              случайное изображение - рандомайзер из доступных элементов, на странице должна быть
+              проверка количества NFT в кошельке и открытие доступных элементов
             </p>
 
             <div className="pb-5"></div>

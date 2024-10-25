@@ -1,8 +1,7 @@
-"use client";
-import { useState } from "react";
+'use client';
+import { useState } from 'react';
 
 export default function Page() {
-  const [value, setValue] = useState("0");
   const [check, setCheck] = useState(false);
 
   return (
@@ -111,9 +110,7 @@ export default function Page() {
         </label>
       </div>
       <div>
-        <h3 className="mb-4 font-semibold text-gray-900 dark:text-white">
-          Несколько кнопок
-        </h3>
+        <h3 className="mb-4 font-semibold text-gray-900 dark:text-white">Несколько кнопок</h3>
         <ul className="w-48 rounded-lg border border-gray-200 bg-white text-sm font-medium text-gray-900 dark:border-gray-600 dark:bg-gray-700 dark:text-white">
           <li className="w-full rounded-t-lg border-b border-gray-200 dark:border-gray-600">
             <div className="flex items-center ps-3">
@@ -188,9 +185,7 @@ export default function Page() {
 
       <div className="flex flex-col p-4">
         Социальные сети
-        <button className="rounded-full bg-slate-900 px-5 py-2 text-white">
-          Connect Wallet
-        </button>
+        <button className="rounded-full bg-slate-900 px-5 py-2 text-white">Connect Wallet</button>
         <button
           type="button"
           className="mb-2 me-2 inline-flex items-center rounded-lg bg-[#3b5998] px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-[#3b5998]/90 focus:outline-none focus:ring-4 focus:ring-[#3b5998]/50 dark:focus:ring-[#3b5998]/55"

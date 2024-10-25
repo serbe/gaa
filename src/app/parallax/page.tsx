@@ -1,25 +1,22 @@
-"use client";
+'use client';
 
-import React, { useEffect } from "react";
+import React, { useEffect } from 'react';
 
-import layerBase from "../../../public/Dungeon/layer-base.png";
-import layerMiddle from "../../../public/Dungeon/layer-middle.png";
-import layerFront from "../../../public/Dungeon/layer-front.png";
-import dungeon from "../../../public/Dungeon/dungeon.jpg";
+import layerBase from '../../../public/Dungeon/layer-base.png';
+import layerMiddle from '../../../public/Dungeon/layer-middle.png';
+import layerFront from '../../../public/Dungeon/layer-front.png';
+import dungeon from '../../../public/Dungeon/dungeon.jpg';
 
-import "./style.css";
+import './style.css';
 
 export default function Page() {
   useEffect(() => {
     const onScroll = () =>
-      document.documentElement.style.setProperty(
-        "--scrollTop",
-        `${window.scrollY}px`,
-      );
+      document.documentElement.style.setProperty('--scrollTop', `${window.scrollY}px`);
     // clean up code
-    window.removeEventListener("scroll", onScroll);
-    window.addEventListener("scroll", onScroll, { passive: true });
-    return () => window.removeEventListener("scroll", onScroll);
+    window.removeEventListener('scroll', onScroll);
+    window.addEventListener('scroll', onScroll, { passive: true });
+    return () => window.removeEventListener('scroll', onScroll);
   }, []);
 
   return (
@@ -46,17 +43,13 @@ export default function Page() {
           </div>
         </header>
 
-        <article
-          className="main-article"
-          style={{ backgroundImage: `url(${dungeon.src})` }}
-        >
+        <article className="main-article" style={{ backgroundImage: `url(${dungeon.src})` }}>
           <div className="main-article__content">
             <h2 className="main-article__header">To be continued</h2>
             <p className="main-article__paragraph">
-              Lorem ipsum dolor sit, amet consectetur adipisicing error error
-              provident dignissimos facere. Repellendus tempore autem qui! Quia
-              magnam tempora esse id necessitatibus corrupti mollitia expedita
-              sapiente cum rerum, ut dicta laboriosam!
+              Lorem ipsum dolor sit, amet consectetur adipisicing error error provident dignissimos
+              facere. Repellendus tempore autem qui! Quia magnam tempora esse id necessitatibus
+              corrupti mollitia expedita sapiente cum rerum, ut dicta laboriosam!
             </p>
           </div>
           <div className="copy">© WebDesign Master</div>

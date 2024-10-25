@@ -1,14 +1,14 @@
-"use client";
+'use client';
 
-import Image from "next/image";
-import { useSearchParams } from "next/navigation";
-import { Dispatch, SetStateAction, useEffect, useState, Suspense } from "react";
+import Image from 'next/image';
+// import { useSearchParams } from "next/navigation";
+import { Dispatch, SetStateAction, useEffect, useState, Suspense } from 'react';
 
-const num_license = (value: String | null) => {
+const num_license = (value: string | null) => {
   let num = 0;
-  if (value == "national") {
+  if (value == 'national') {
     num = 1;
-  } else if (value == "global") {
+  } else if (value == 'global') {
     num = 2;
   }
   return num;
@@ -25,13 +25,11 @@ const Buttons = ({
     <div className="inline-flex rounded-md font-serif shadow-sm" role="group">
       <button
         className={
-          "w-full rounded-l-lg border border-gray-200 " +
-          (license == 0 ? "bg-p2-orange" : "bg-white") +
-          " px-4 py-2 text-sm font-medium " +
-          (license == 0
-            ? "z-10 text-p1-white ring-2 ring-p2-orange"
-            : "text-p1-darkgreen") +
-          " hover:bg-gray-100 hover:text-p1-darkgreen dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange"
+          'w-full rounded-l-lg border border-gray-200 ' +
+          (license == 0 ? 'bg-p2-orange' : 'bg-white') +
+          ' px-4 py-2 text-sm font-medium' +
+          (license == 0 ? 'z-10 text-p1-white ring-2 ring-p2-orange' : 'text-p1-darkgreen') +
+          ' hover:bg-gray-100 hover:text-p1-darkgreen dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange'
         }
         onClick={() => setter(0)}
       >
@@ -39,11 +37,11 @@ const Buttons = ({
       </button>
       <button
         className={
-          "w-full border border-gray-200 " +
-          (license == 1 ? "bg-p2-orange" : "bg-white") +
-          " px-4 py-2 text-sm font-medium " +
-          (license == 1 ? "z-10 text-p1-white ring-2" : "text-p1-darkgreen") +
-          " hover:bg-gray-100 hover:text-p1-darkgreen dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange"
+          'w-full border border-gray-200 ' +
+          (license == 1 ? 'bg-p2-orange' : 'bg-white') +
+          ' px-4 py-2 text-sm font-medium' +
+          (license == 1 ? 'z-10 text-p1-white ring-2' : 'text-p1-darkgreen') +
+          ' hover:bg-gray-100 hover:text-p1-darkgreen dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange'
         }
         onClick={() => setter(1)}
       >
@@ -51,13 +49,11 @@ const Buttons = ({
       </button>
       <button
         className={
-          "w-full rounded-r-lg border border-gray-200 " +
-          (license == 2 ? "bg-p2-orange" : "bg-white") +
-          " px-4 py-2 text-sm font-medium " +
-          (license == 2
-            ? "z-10 text-p1-white ring-2 ring-p2-orange"
-            : "text-p1-darkgreen") +
-          " text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange"
+          'w-full rounded-r-lg border border-gray-200 ' +
+          (license == 2 ? 'bg-p2-orange' : 'bg-white') +
+          ' px-4 py-2 text-sm font-medium' +
+          (license == 2 ? 'z-10 text-p1-white ring-2 ring-p2-orange' : 'text-p1-darkgreen') +
+          ' text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange'
         }
         onClick={() => setter(2)}
       >
@@ -76,12 +72,12 @@ type Props = {
 };
 
 const getLicenseParam = ({ license }: SearchParams) => {
-  return license || "0";
+  return license || '0';
 };
 
 export default function Page({ searchParams }: Props) {
   const [license, setLicense] = useState(0);
-  const [value, setValue] = useState("0");
+  const [value, setValue] = useState('0');
 
   const licenseParam = getLicenseParam(searchParams);
 
@@ -92,11 +88,9 @@ export default function Page({ searchParams }: Props) {
   return (
     <Suspense>
       <div className="font-serif">
-        <div id="promouter" className={license == 0 ? "" : "hidden"}>
+        <div id="promouter" className={license == 0 ? '' : 'hidden'}>
           <div className="grid grid-cols-2 gap-4">
-            <div className="p-2 text-4xl font-semibold text-p2-orange">
-              Promoter License NFT
-            </div>
+            <div className="p-2 text-4xl font-semibold text-p2-orange">Promoter License NFT</div>
             <div className="p-2 text-end text-4xl font-semibold text-p2-orange">
               Страница создания NFT
             </div>
@@ -104,19 +98,12 @@ export default function Page({ searchParams }: Props) {
           <div className="grid grid-cols-6 gap-4">
             <div className="col-span-4 col-start-2 w-full rounded-3xl border-4 border-p2-orange text-center text-p1-darkgreen shadow-lg">
               <div>
-                <p className="text-2xl text-p1-darkgreen">
-                  Присоединяйтесь к нам
-                </p>
-                <p className="pb-5 text-2xl text-p1-darkgreen">
-                  Получите NFT лицензию Промоутера
-                </p>
+                <p className="text-2xl text-p1-darkgreen">Присоединяйтесь к нам</p>
+                <p className="pb-5 text-2xl text-p1-darkgreen">Получите NFT лицензию Промоутера</p>
                 <div className="grid grid-cols-4 gap-4">
                   <div className="pt-5">
-                    Созданные вами NFT автоматически попадут в глобальную
-                    коллекцию GAA
-                    <p className="pt-5">
-                      это объединенная коллекция мирового сообщества
-                    </p>
+                    Созданные вами NFT автоматически попадут в глобальную коллекцию GAA
+                    <p className="pt-5">это объединенная коллекция мирового сообщества</p>
                   </div>
                   <div className="col-span-2 col-start-2 w-full rounded-3xl text-center">
                     <Image
@@ -169,11 +156,9 @@ export default function Page({ searchParams }: Props) {
             </div>
           </div>
         </div>
-        <div id="national" className={license == 1 ? "" : "hidden"}>
+        <div id="national" className={license == 1 ? '' : 'hidden'}>
           <div className="grid grid-cols-2 gap-4">
-            <div className="p-2 text-4xl font-semibold text-p2-orange">
-              National License NFT
-            </div>
+            <div className="p-2 text-4xl font-semibold text-p2-orange">National License NFT</div>
             <div className="p-2 text-end text-4xl font-semibold text-p2-orange">
               Страница создания NFT
             </div>
@@ -181,19 +166,14 @@ export default function Page({ searchParams }: Props) {
           <div className="grid grid-cols-6 gap-4">
             <div className="col-span-4 col-start-2 w-full rounded-3xl border-4 border-p2-orange text-center text-p1-darkgreen shadow-lg">
               <div>
-                <p className="text-2xl text-p1-darkgreen">
-                  Присоединяйтесь к нам
-                </p>
+                <p className="text-2xl text-p1-darkgreen">Присоединяйтесь к нам</p>
                 <p className="pb-5 text-2xl text-p1-darkgreen">
                   Получите NFT Национальную лицензию
                 </p>
                 <div className="grid grid-cols-4 gap-4">
                   <div className="pt-5">
-                    Созданные вами NFT автоматически попадут в глобальную
-                    коллекцию GAA
-                    <p className="pt-5">
-                      это объединенная коллекция мирового сообщества
-                    </p>
+                    Созданные вами NFT автоматически попадут в глобальную коллекцию GAA
+                    <p className="pt-5">это объединенная коллекция мирового сообщества</p>
                   </div>
                   <div className="col-span-2 col-start-2 w-full rounded-3xl text-center">
                     <Image
@@ -228,11 +208,9 @@ export default function Page({ searchParams }: Props) {
             </div>
           </div>
         </div>
-        <div id="global" className={license == 2 ? "" : "hidden"}>
+        <div id="global" className={license == 2 ? '' : 'hidden'}>
           <div className="grid grid-cols-2 gap-4">
-            <div className="p-2 text-4xl font-semibold text-p2-orange">
-              Global License NFT
-            </div>
+            <div className="p-2 text-4xl font-semibold text-p2-orange">Global License NFT</div>
             <div className="p-2 text-end text-4xl font-semibold text-p2-orange">
               Страница создания NFT
             </div>
@@ -240,19 +218,12 @@ export default function Page({ searchParams }: Props) {
           <div className="grid grid-cols-6 gap-4">
             <div className="col-span-4 col-start-2 w-full rounded-3xl border-4 border-p2-orange text-center text-p1-darkgreen shadow-lg">
               <div className="pb-8">
-                <p className="text-2xl text-p1-darkgreen">
-                  Присоединяйтесь к нам
-                </p>
-                <p className="pb-5 text-2xl text-p1-darkgreen">
-                  Получите NFT Глобальную лицензию
-                </p>
+                <p className="text-2xl text-p1-darkgreen">Присоединяйтесь к нам</p>
+                <p className="pb-5 text-2xl text-p1-darkgreen">Получите NFT Глобальную лицензию</p>
                 <div className="grid grid-cols-4 gap-4">
                   <div className="pt-5">
-                    Созданные вами NFT автоматически попадут в глобальную
-                    коллекцию GAA
-                    <p className="pt-5">
-                      это объединенная коллекция мирового сообщества
-                    </p>
+                    Созданные вами NFT автоматически попадут в глобальную коллекцию GAA
+                    <p className="pt-5">это объединенная коллекция мирового сообщества</p>
                   </div>
                   <div className="col-span-2 col-start-2 w-full rounded-3xl text-center">
                     <Image

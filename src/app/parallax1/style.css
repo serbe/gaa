@@ -1,13 +1,13 @@
 :root {
-	--index: calc(1vw + 1vh);
-	--text: #004146;
-	--transition: transform .75s cubic-bezier(.075, .5, 0, 1);
+  --index: calc(1vw + 1vh);
+  --text: #004146;
+  --transition: transform 0.75s cubic-bezier(0.075, 0.5, 0, 1);
 }
 .main-header {
   position: relative;
 }
 .main-header::after {
-  content: "";
+  content: '';
   position: absolute;
   z-index: 100;
   width: 100%;

@@ -1,19 +1,12 @@
-"use client";
-import Image from "next/image";
-import { useState } from "react";
-import Link from "next/link";
+import Image from 'next/image';
+import Link from 'next/link';
 
 export default function Page() {
-  const [value, setValue] = useState("0");
-  const [check, setCheck] = useState(false);
-
   return (
     <div className="font-serif">
       {/* //Rewards*/}
       <div className="grid grid-cols-2 gap-4">
-        <div className="p-2 text-4xl font-semibold text-p1-darkgreen">
-          Rewards NFT
-        </div>
+        <div className="p-2 text-4xl font-semibold text-p1-darkgreen">Rewards NFT</div>
         <div className="p-2 text-end text-4xl font-semibold text-p1-darkgreen">
           Страница исследователя
         </div>
@@ -23,8 +16,8 @@ export default function Page() {
           <div className="grid grid-cols-2 place-items-start justify-center gap-4 p-5">
             <div className="grid">
               <p className="my-2 rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-cyan hover:shadow-2xl">
-                Невзаимозаменяемый токен (NFT награда), вручаемая Промоутером
-                (Организатором) в рамках мероприятия (соревнования)
+                Невзаимозаменяемый токен (NFT награда), вручаемая Промоутером (Организатором) в
+                рамках мероприятия (соревнования)
               </p>
               <p className="my-2 rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-cyan hover:shadow-2xl">
                 Rewards NFT можно коллекционировать, продавать, передавать
@@ -33,31 +26,27 @@ export default function Page() {
                 При создании NFT прикрепляется медиаконтент
               </p>
               <p className="my-2 rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-cyan hover:shadow-2xl">
-                Токен содержит ссылки на официальные документы: Итоговый
-                протокол конкурса, соревнования Фото награждения Видео победы
+                Токен содержит ссылки на официальные документы: Итоговый протокол конкурса,
+                соревнования Фото награждения Видео победы
               </p>
               <p className="my-2 rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-cyan hover:shadow-2xl">
-                Все данные хранятся в IPFS сети и защищены от
-                несанкционированного уничтожения.
+                Все данные хранятся в IPFS сети и защищены от несанкционированного уничтожения.
               </p>
               <p className="my-2 rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-cyan hover:shadow-2xl">
-                Доступ к минту токена у держателей NFT Promoter license,
-                National license, Global license, Management GAA
+                Доступ к минту токена у держателей NFT Promoter license, National license, Global
+                license, Management GAA
               </p>
 
               <p className="rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-cyan hover:shadow-2xl">
-                Данный токен Burnebal, то есть собственник смарт-контракта может
-                уничтожить любой токен из коллекции, эта мера необходима для
-                формирования чистоты коллекции.
+                Данный токен Burnebal, то есть собственник смарт-контракта может уничтожить любой
+                токен из коллекции, эта мера необходима для формирования чистоты коллекции.
               </p>
               <p className="rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-cyan hover:shadow-2xl">
-                То есть собственник смарт-контракта вправе уничтожить NFT в
-                случае нарушения правил создания NFT не соответствующих целям
-                Проекта. То есть категорически запрещено присоединять к NFT
-                медиаконтент политического содержания, экстремистской
-                направленности, а также любой иной медиаконтент не отвечающий
-                вектору развития Проекта. Также запрещено присоединять данные не
-                соответствующие действительности
+                То есть собственник смарт-контракта вправе уничтожить NFT в случае нарушения правил
+                создания NFT не соответствующих целям Проекта. То есть категорически запрещено
+                присоединять к NFT медиаконтент политического содержания, экстремистской
+                направленности, а также любой иной медиаконтент не отвечающий вектору развития
+                Проекта. Также запрещено присоединять данные не соответствующие действительности
               </p>
             </div>
             <div className="justify-self-end">
@@ -74,8 +63,8 @@ export default function Page() {
               >
                 <Link
                   href={{
-                    pathname: "/rudiscoveryrewards",
-                    query: { rewarddiscover: "3place" },
+                    pathname: '/rudiscoveryrewards',
+                    query: { rewarddiscover: '3place' },
                   }}
                   className="w-full rounded-l-2xl border border-gray-200 bg-white p-5 text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-yellow-800 focus:text-p1-white focus:ring-2 focus:ring-yellow-800 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange"
                 >
@@ -83,8 +72,8 @@ export default function Page() {
                 </Link>
                 <Link
                   href={{
-                    pathname: "/rudiscoveryrewards",
-                    query: { rewarddiscover: "1place" },
+                    pathname: '/rudiscoveryrewards',
+                    query: { rewarddiscover: '1place' },
                   }}
                   className="w-full border border-gray-200 bg-white p-5 text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-p2-orange focus:text-p1-white focus:ring-2 focus:ring-p2-orange dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-stone-500"
                 >
@@ -93,8 +82,8 @@ export default function Page() {
 
                 <Link
                   href={{
-                    pathname: "/rudiscoveryrewards",
-                    query: { rewarddiscover: "2place" },
+                    pathname: '/rudiscoveryrewards',
+                    query: { rewarddiscover: '2place' },
                   }}
                   className="w-full rounded-r-2xl border border-gray-200 bg-white p-5 text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-p1-gray focus:text-p1-white focus:ring-2 focus:ring-p1-gray dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p1-green"
                 >
@@ -107,8 +96,8 @@ export default function Page() {
               >
                 <Link
                   href={{
-                    pathname: "/rudiscoveryrewards",
-                    query: { rewarddiscover: "drift" },
+                    pathname: '/rudiscoveryrewards',
+                    query: { rewarddiscover: 'drift' },
                   }}
                   className="w-full rounded-tl-2xl border border-gray-200 bg-white p-5 text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-p1-gray focus:text-p1-white focus:ring-2 focus:ring-p1-gray dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange"
                 >
@@ -116,8 +105,8 @@ export default function Page() {
                 </Link>
                 <Link
                   href={{
-                    pathname: "/rudiscoveryrewards",
-                    query: { rewarddiscover: "rally" },
+                    pathname: '/rudiscoveryrewards',
+                    query: { rewarddiscover: 'rally' },
                   }}
                   className="w-full border border-gray-200 bg-white p-5 text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-p1-gray focus:text-p1-white focus:ring-2 focus:ring-p1-gray dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-stone-500"
                 >
@@ -126,8 +115,8 @@ export default function Page() {
 
                 <Link
                   href={{
-                    pathname: "/rudiscoveryrewards",
-                    query: { rewarddiscover: "tcr" },
+                    pathname: '/rudiscoveryrewards',
+                    query: { rewarddiscover: 'tcr' },
                   }}
                   className="w-full rounded-tr-2xl border border-gray-200 bg-white p-5 text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-p1-gray focus:text-p1-white focus:ring-2 focus:ring-p1-gray dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p1-green"
                 >
@@ -136,8 +125,8 @@ export default function Page() {
 
                 <Link
                   href={{
-                    pathname: "/rudiscoveryrewards",
-                    query: { rewarddiscover: "dragracing" },
+                    pathname: '/rudiscoveryrewards',
+                    query: { rewarddiscover: 'dragracing' },
                   }}
                   className="2xl w-full border border-gray-200 bg-white p-5 text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-p1-gray focus:text-p1-white focus:ring-2 focus:ring-p1-gray dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange"
                 >
@@ -145,8 +134,8 @@ export default function Page() {
                 </Link>
                 <Link
                   href={{
-                    pathname: "/rudiscoveryrewards",
-                    query: { rewarddiscover: "openwheels" },
+                    pathname: '/rudiscoveryrewards',
+                    query: { rewarddiscover: 'openwheels' },
                   }}
                   className="w-full border border-gray-200 bg-white p-5 text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-p1-gray focus:text-p1-white focus:ring-2 focus:ring-p1-gray dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-stone-500"
                 >
@@ -155,8 +144,8 @@ export default function Page() {
 
                 <Link
                   href={{
-                    pathname: "/rudiscoveryrewards",
-                    query: { rewarddiscover: "stance" },
+                    pathname: '/rudiscoveryrewards',
+                    query: { rewarddiscover: 'stance' },
                   }}
                   className="w-full border border-gray-200 bg-white p-5 text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-p1-gray focus:text-p1-white focus:ring-2 focus:ring-p1-gray dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p1-green"
                 >
@@ -165,8 +154,8 @@ export default function Page() {
 
                 <Link
                   href={{
-                    pathname: "/rudiscoveryrewards",
-                    query: { rewarddiscover: "oldtimer" },
+                    pathname: '/rudiscoveryrewards',
+                    query: { rewarddiscover: 'oldtimer' },
                   }}
                   className="w-full rounded-bl-2xl border border-gray-200 bg-white p-5 text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-p1-gray focus:text-p1-white focus:ring-2 focus:ring-p1-gray dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange"
                 >
@@ -174,8 +163,8 @@ export default function Page() {
                 </Link>
                 <Link
                   href={{
-                    pathname: "/rudiscoveryrewards",
-                    query: { rewarddiscover: "simracing" },
+                    pathname: '/rudiscoveryrewards',
+                    query: { rewarddiscover: 'simracing' },
                   }}
                   className="w-full border border-gray-200 bg-white p-5 text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-p1-gray focus:text-p1-white focus:ring-2 focus:ring-p1-gray dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-stone-500"
                 >
@@ -184,8 +173,8 @@ export default function Page() {
 
                 <Link
                   href={{
-                    pathname: "/rudiscoveryrewards",
-                    query: { rewarddiscover: "sound cars" },
+                    pathname: '/rudiscoveryrewards',
+                    query: { rewarddiscover: 'sound cars' },
                   }}
                   className="w-full rounded-br-2xl border border-gray-200 bg-white p-5 text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-p1-gray focus:text-p1-white focus:ring-2 focus:ring-p1-gray dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p1-green"
                 >
@@ -399,9 +388,7 @@ export default function Page() {
         <div className="pt-5 text-center text-xl">
           Награды могут получать Drivers, Team&apos;s Members, Collectors, Cars
         </div>
-        <div className="pb-5 text-center text-xl">
-          даже если нет соответствующей NFT
-        </div>
+        <div className="pb-5 text-center text-xl">даже если нет соответствующей NFT</div>
       </div>
     </div>
   );

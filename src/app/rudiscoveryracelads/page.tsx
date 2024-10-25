@@ -1,19 +1,11 @@
-"use client";
-import Image from "next/image";
-import { useState } from "react";
-import Link from "next/link";
+import Image from 'next/image';
 
 export default function Page() {
-  const [value, setValue] = useState("0");
-  const [check, setCheck] = useState(false);
-
   return (
     <div className="font-serif">
       {/* //Cars*/}
       <div className="grid grid-cols-2 gap-4">
-        <div className="p-2 text-4xl font-semibold text-p1-darkgreen">
-          RaceLads NFT
-        </div>
+        <div className="p-2 text-4xl font-semibold text-p1-darkgreen">RaceLads NFT</div>
         <div className="p-2 text-end text-4xl font-semibold text-p1-darkgreen">
           Страница исследователя
         </div>
@@ -23,43 +15,37 @@ export default function Page() {
           <div className="grid grid-cols-2 place-items-start justify-center gap-4 p-5">
             <div className="grid">
               <p className="my-2 rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-cyan hover:shadow-2xl">
-                Невзаимозаменяемый токен, представляющий коллекцию из 10.000
-                уникальных цифровых героев, вдохновленных любовью к автомобилям
-                и запечатленных в Blockchain.
+                Невзаимозаменяемый токен, представляющий коллекцию из 10.000 уникальных цифровых
+                героев, вдохновленных любовью к автомобилям и запечатленных в Blockchain.
               </p>
               <p className="my-2 rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-cyan hover:shadow-2xl">
-                Коллекция, призванная внести свой вклад в развитие и
-                популяризацию автокультуры и автоспорта.
+                Коллекция, призванная внести свой вклад в развитие и популяризацию автокультуры и
+                автоспорта.
               </p>
               <div className="my-2 rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-cyan hover:shadow-2xl">
-                Приобретая героя из коллекции ты становишься членом большого
-                дружного сообщества!
+                Приобретая героя из коллекции ты становишься членом большого дружного сообщества!
                 <ul className="list-disc p-5 text-xl text-p1-darkgreen">
                   <li className="pb-2">
-                    посещай автоспортивные мероприятия, выставки, лекции,
-                    вечеринки
+                    посещай автоспортивные мероприятия, выставки, лекции, вечеринки
                   </li>
                   <li className="pb-2">
-                    участвуй в виртуальных гонках и других захватывающих онлайн
-                    событиях
+                    участвуй в виртуальных гонках и других захватывающих онлайн событиях
                   </li>
                   <li className="pb-2">
-                    принимай участие в ключевых голосованиях, определяющих
-                    развитие сообщества
+                    принимай участие в ключевых голосованиях, определяющих развитие сообщества
                   </li>
                 </ul>
               </div>
               <p className="my-2 rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-cyan hover:shadow-2xl">
-                Данная коллекция будет доступна только для держателей NFT из
-                коллекции RaceLads.
+                Данная коллекция будет доступна только для держателей NFT из коллекции RaceLads.
               </p>
               <p className="my-2 rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-cyan hover:shadow-2xl">
-                10 уровней доступа к редким элементам определяется наличием
-                соответствующего количества NFT из коллекции RaceLads
+                10 уровней доступа к редким элементам определяется наличием соответствующего
+                количества NFT из коллекции RaceLads
               </p>
               <p className="my-2 rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-cyan hover:shadow-2xl">
-                Любой CustomLad по желанию держателя может быть передан/продан
-                любому участнику сообщества.
+                Любой CustomLad по желанию держателя может быть передан/продан любому участнику
+                сообщества.
               </p>
             </div>
 
@@ -121,8 +107,8 @@ export default function Page() {
 
       <div className="m-5 rounded-3xl border-4 border-p1-darkgreen p-6 shadow-lg">
         <div className="pb-5 text-center text-2xl text-p1-darkgreen">
-          Любой желающий может получить своего персонажа (RaceLad) в период
-          публичного минта или приобрести на вторичном рынке позднее
+          Любой желающий может получить своего персонажа (RaceLad) в период публичного минта или
+          приобрести на вторичном рынке позднее
         </div>
 
         <div className="grid grid-cols-6 gap-1">

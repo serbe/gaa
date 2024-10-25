@@ -1,23 +1,13 @@
-"use client";
-import Image from "next/image";
-import { useState } from "react";
-import Link from "next/link";
+import Image from 'next/image';
 
 export default function Page() {
-  const [value, setValue] = useState("0");
-  const [check, setCheck] = useState(false);
-
   return (
     <div className="font-serif">
       <div className="flex flex-row pb-5">
         <div className="basis-1/5"></div>
         <div className="basis-3/5">
-          <div className="pt-5 text-center text-6xl font-bold text-p2-orange">
-            Racepoint
-          </div>
-          <div className="p-2 text-center text-6xl font-bold text-p2-orange">
-            QUIZE
-          </div>
+          <div className="pt-5 text-center text-6xl font-bold text-p2-orange">Racepoint</div>
+          <div className="p-2 text-center text-6xl font-bold text-p2-orange">QUIZE</div>
           <div className="p-2 text-center text-4xl font-bold text-p2-orange">
             Автоспорт, автокультура
           </div>
@@ -241,12 +231,8 @@ export default function Page() {
       <div className="flex flex-row pb-5">
         <div className="basis-1/5"></div>
         <div className="basis-3/5">
-          <div className="pt-5 text-center text-6xl font-bold text-p2-orange">
-            Racepoint
-          </div>
-          <div className="p-2 text-center text-6xl font-bold text-p2-orange">
-            QUIZE
-          </div>
+          <div className="pt-5 text-center text-6xl font-bold text-p2-orange">Racepoint</div>
+          <div className="p-2 text-center text-6xl font-bold text-p2-orange">QUIZE</div>
           <div className="p-2 text-center text-4xl font-bold text-p2-orange">
             Автоспорт, автокультура
           </div>
@@ -466,15 +452,9 @@ export default function Page() {
           <div className="flex flex-row pb-5">
             <div className="basis-1/5"></div>
             <div className="basis-3/5">
-              <div className="pt-5 text-center text-6xl font-bold text-p2-orange">
-                Racepoint
-              </div>
-              <div className="p-2 text-center text-6xl font-bold text-p2-orange">
-                QUIZE
-              </div>
-              <div className="p-2 text-center text-4xl font-bold text-p2-orange">
-                NFT
-              </div>
+              <div className="pt-5 text-center text-6xl font-bold text-p2-orange">Racepoint</div>
+              <div className="p-2 text-center text-6xl font-bold text-p2-orange">QUIZE</div>
+              <div className="p-2 text-center text-4xl font-bold text-p2-orange">NFT</div>
             </div>
             <div className="basis-1/5"></div>
           </div>
@@ -541,8 +521,7 @@ export default function Page() {
                     htmlFor="list-radio-thirteen"
                     className="ms-2 w-full py-3 font-serif text-lg text-p1-darkgreen dark:text-gray-300"
                   >
-                    Я слышал про NFT, но как приобрести, как создать NFT я не
-                    знаю.
+                    Я слышал про NFT, но как приобрести, как создать NFT я не знаю.
                   </label>
                 </div>
               </li>
@@ -594,15 +573,9 @@ export default function Page() {
           <div className="flex flex-row pb-5">
             <div className="basis-1/5"></div>
             <div className="basis-3/5">
-              <div className="pt-5 text-center text-6xl font-bold text-p2-orange">
-                Racepoint
-              </div>
-              <div className="p-2 text-center text-6xl font-bold text-p2-orange">
-                QUIZE
-              </div>
-              <div className="p-2 text-center text-4xl font-bold text-p2-orange">
-                NFT
-              </div>
+              <div className="pt-5 text-center text-6xl font-bold text-p2-orange">Racepoint</div>
+              <div className="p-2 text-center text-6xl font-bold text-p2-orange">QUIZE</div>
+              <div className="p-2 text-center text-4xl font-bold text-p2-orange">NFT</div>
             </div>
             <div className="basis-1/5"></div>
           </div>
@@ -617,8 +590,8 @@ export default function Page() {
         <div className="basis-3/5">
           <div className="my-5 space-y-6 rounded-3xl border-4 border-p2-orange p-6">
             <div className="pb-2 text-center text-2xl text-p1-darkgreen">
-              Какие из сервисов Web3, блокчейн, NFT Вы бы хотели увидеть в
-              автоспорте и автокультуре в первую очередь?
+              Какие из сервисов Web3, блокчейн, NFT Вы бы хотели увидеть в автоспорте и автокультуре
+              в первую очередь?
             </div>
             <div className="pb-5"></div>
             <ul className="w-full rounded-lg border border-gray-200 bg-p1-white text-sm font-medium text-gray-900 dark:border-gray-600 dark:bg-gray-700 dark:text-white">
