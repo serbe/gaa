@@ -1,8 +1,7 @@
 'use client';
 
 import Image from 'next/image';
-// import { useSearchParams } from "next/navigation";
-import { Dispatch, SetStateAction, useEffect, useState, Suspense } from 'react';
+import { Dispatch, SetStateAction, Suspense, useEffect, useState } from 'react';
 
 const num_license = (value: string | null) => {
   let num = 0;
@@ -63,27 +62,19 @@ const Buttons = ({
   );
 };
 
-type SearchParams = {
-  license?: string;
-};
+type Params = Promise<{ license: string }>;
 
-type PageProps = {
-  searchParams: SearchParams;
-};
-
-const getLicenseParam = ({ license }: SearchParams) => {
-  return license || '0';
-};
-
-export default function Page({ searchParams }: PageProps) {
+export default function Page(props: { children: React.ReactNode; params: Promise<Params> }) {
   const [license, setLicense] = useState(0);
   const [value, setValue] = useState('0');
 
-  const licenseParam = getLicenseParam(searchParams);
-
   useEffect(() => {
-    setLicense(num_license(licenseParam));
-  }, [licenseParam]);
+    async function getProps() {
+      const { license } = await props.params;
+      setLicense(num_license(license || 'promouter'));
+    }
+    getProps();
+  }, [props.params]);
 
   return (
     <Suspense>
@@ -156,6 +147,7 @@ export default function Page({ searchParams }: PageProps) {
             </div>
           </div>
         </div>
+
         <div id="national" className={license == 1 ? '' : 'hidden'}>
           <div className="grid grid-cols-2 gap-4">
             <div className="p-2 text-4xl font-semibold text-p2-orange">National License NFT</div>

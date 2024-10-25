@@ -1,330 +1,310 @@
-import Image from 'next/image';
-import Link from 'next/link';
+'use client';
 
-export default function Page() {
+import Image from 'next/image';
+import { useState, useEffect, Dispatch, SetStateAction } from 'react';
+
+const num_license = (value: string | null) => {
+  let num = 0;
+  if (value == 'national') {
+    num = 1;
+  } else if (value == 'global') {
+    num = 2;
+  }
+  return num;
+};
+
+type Params = Promise<{ license: string }>;
+
+const Buttons = ({
+  license,
+  setter,
+}: {
+  license: number;
+  setter: Dispatch<SetStateAction<number>>;
+}) => {
+  return (
+    <div className="inline-flex w-full justify-self-center rounded-md pt-5 shadow-sm" role="group">
+      <button
+        className={
+          'w-full rounded-l-2xl border border-gray-200 ' +
+          (license == 0 ? 'bg-white' : ' bg-p2-orange') +
+          'p-5 text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-yellow-800 focus:text-p1-white focus:ring-2 focus:ring-yellow-800 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p1-green'
+        }
+        onClick={() => setter(0)}
+      >
+        Promoter License
+      </button>
+      <button
+        className={
+          'w-full border border-gray-200 ' +
+          (license == 1 ? 'bg-white' : ' bg-p2-orange') +
+          'p-5 text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-stone-500 focus:text-p1-white focus:ring-2 focus:ring-stone-500 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-stone-500'
+        }
+        onClick={() => setter(1)}
+      >
+        National License
+      </button>
+      <button
+        className={
+          'w-full rounded-r-2xl border border-gray-200 ' +
+          (license == 2 ? 'bg-white' : ' bg-p2-orange') +
+          'bg-white p-5 text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-p2-orange focus:text-p1-white focus:ring-2 focus:ring-p2-orange dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange'
+        }
+        onClick={() => setter(2)}
+      >
+        Global License
+      </button>
+    </div>
+  );
+};
+
+export default function Page(props: { children: React.ReactNode; params: Promise<Params> }) {
+  const [license, setLicense] = useState(0);
+
+  useEffect(() => {
+    async function getProps() {
+      const { license } = await props.params;
+      setLicense(num_license(license || 'promouter'));
+    }
+    getProps();
+  }, [props.params]);
+
   return (
     <div className="font-serif">
       {/* //Promoter License */}
-      <div className="grid grid-cols-2 gap-4">
-        <div className="p-2 text-4xl font-semibold text-p1-darkgreen">Promoter License NFT</div>
-        <div className="p-2 text-end text-4xl font-semibold text-p1-darkgreen">
-          Страница исследователя
+      <div id="promouter" className={license == 0 ? '' : 'hidden'}>
+        <div className="grid grid-cols-2 gap-4">
+          <div className="p-2 text-4xl font-semibold text-p1-darkgreen">Promoter License NFT</div>
+          <div className="p-2 text-end text-4xl font-semibold text-p1-darkgreen">
+            Страница исследователя
+          </div>
         </div>
-      </div>
-      <div className="flex">
-        <div className="m-5 rounded-3xl border-4 border-p1-darkgreen shadow-lg hover:border-p1-green">
-          <div className="grid grid-cols-2 place-items-start justify-center gap-4 p-5">
-            <div className="grid">
-              <p className="my-2 rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-cyan hover:shadow-2xl">
-                Promoter License NFT невзаимозаменяемый токен, предоставляется Промоутеру
-                (Организатору) мероприятия.
-              </p>
-              <p className="my-2 rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-cyan hover:shadow-2xl">
-                Promoter License NFT предоставляет доступ к странице создания NFT Наград
-              </p>
-              <p className="my-2 rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-cyan hover:shadow-2xl">
-                Промоутер создает и вручает NFT награды победителям
-              </p>
-              <p className="my-2 rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-cyan hover:shadow-2xl">
-                Для получения Promoter License NFT необходимо зарегистрироваться и заполнить заявку
-                для рассмотрения
-              </p>
+        <div className="flex">
+          <div className="m-5 rounded-3xl border-4 border-p1-darkgreen shadow-lg hover:border-p1-green">
+            <div className="grid grid-cols-2 place-items-start justify-center gap-4 p-5">
+              <div className="grid">
+                <p className="my-2 rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-cyan hover:shadow-2xl">
+                  Promoter License NFT невзаимозаменяемый токен, предоставляется Промоутеру
+                  (Организатору) мероприятия.
+                </p>
+                <p className="my-2 rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-cyan hover:shadow-2xl">
+                  Promoter License NFT предоставляет доступ к странице создания NFT Наград
+                </p>
+                <p className="my-2 rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-cyan hover:shadow-2xl">
+                  Промоутер создает и вручает NFT награды победителям
+                </p>
+                <p className="my-2 rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-cyan hover:shadow-2xl">
+                  Для получения Promoter License NFT необходимо зарегистрироваться и заполнить
+                  заявку для рассмотрения
+                </p>
 
-              <div className="my-2 justify-self-center">
-                <button className="w-full rounded-3xl border-2 border-p1-darkgreen bg-p2-white2 px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p1-green hover:text-p1-white">
-                  Регистрационная форма заявки
-                </button>
-              </div>
-              <p className="my-2 rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-cyan hover:shadow-2xl">
-                При положительном решении Промоутеру (Организатору) предоставляется возможность
-                создания Promoter License NFT.
-              </p>
-            </div>
-            <div className="justify-self-end">
-              <Image
-                className="relative inline-block w-max overflow-hidden rounded-3xl border-2 border-p2-orange shadow-lg"
-                width={4000}
-                height={4000}
-                src="/Licenses/Promoter Lic.png"
-                alt="PromoterLic"
-              />
-              <div
-                className="inline-flex w-full justify-self-center rounded-md pt-5 shadow-sm"
-                role="group"
-              >
-                <Link
-                  href={{
-                    pathname: '/rudiscoverylicense',
-                    query: { license: 'promouter' },
-                  }}
-                  className="w-full rounded-l-2xl border border-gray-200 bg-white p-5 text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-yellow-800 focus:text-p1-white focus:ring-2 focus:ring-yellow-800 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p1-green"
-                >
-                  Promouter License
-                </Link>
-                <Link
-                  href={{
-                    pathname: '/rudiscoverylicense',
-                    query: { license: 'national' },
-                  }}
-                  className="w-full border border-gray-200 bg-white p-5 text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-stone-500 focus:text-p1-white focus:ring-2 focus:ring-stone-500 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-stone-500"
-                >
-                  National License
-                </Link>
-                <Link
-                  href={{
-                    pathname: '/rudiscoverylicense',
-                    query: { license: 'global' },
-                  }}
-                  className="w-full rounded-r-2xl border border-gray-200 bg-white p-5 text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-p2-orange focus:text-p1-white focus:ring-2 focus:ring-p2-orange dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange"
-                >
-                  Global License
-                </Link>
-              </div>
-              <div className="m-1 p-5">
-                <div className="justify-self-center">
-                  <button className="w-full rounded-3xl border-2 border-p1-darkgreen bg-p2-white2 px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
-                    Страница создания NFT
+                <div className="my-2 justify-self-center">
+                  <button className="w-full rounded-3xl border-2 border-p1-darkgreen bg-p2-white2 px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p1-green hover:text-p1-white">
+                    Регистрационная форма заявки
                   </button>
                 </div>
+                <p className="my-2 rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-cyan hover:shadow-2xl">
+                  При положительном решении Промоутеру (Организатору) предоставляется возможность
+                  создания Promoter License NFT.
+                </p>
               </div>
-            </div>
-            <div>
-              <p className="rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-cyan hover:shadow-2xl">
-                Данный токен Burnebal, то есть собственник смарт-контракта может уничтожить любой
-                токен из коллекции, эта мера необходима для формирования чистоты коллекции.
-              </p>
-            </div>
-            <div>
-              <p className="rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-cyan hover:shadow-2xl">
-                То есть собственник смарт-контракта вправе уничтожить NFT в случае нарушения
-                держателем Promoter License NFT правил создания NFT не соответствующих целям
-                Проекта.
-              </p>
+              <div className="justify-self-end">
+                <Image
+                  className="relative inline-block w-max overflow-hidden rounded-3xl border-2 border-p2-orange shadow-lg"
+                  width={4000}
+                  height={4000}
+                  src="/Licenses/Promoter Lic.png"
+                  alt="PromoterLic"
+                />
+                <Buttons license={license} setter={setLicense} />
+                <div className="m-1 p-5">
+                  <div className="justify-self-center">
+                    <button className="w-full rounded-3xl border-2 border-p1-darkgreen bg-p2-white2 px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
+                      Страница создания NFT
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <p className="rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-cyan hover:shadow-2xl">
+                  Данный токен Burnebal, то есть собственник смарт-контракта может уничтожить любой
+                  токен из коллекции, эта мера необходима для формирования чистоты коллекции.
+                </p>
+              </div>
+              <div>
+                <p className="rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-cyan hover:shadow-2xl">
+                  То есть собственник смарт-контракта вправе уничтожить NFT в случае нарушения
+                  держателем Promoter License NFT правил создания NFT не соответствующих целям
+                  Проекта.
+                </p>
+              </div>
             </div>
           </div>
         </div>
       </div>
 
       {/* //National License */}
-
-      <div className="grid grid-cols-2 gap-4">
-        <div className="p-2 text-4xl font-semibold text-p1-darkgreen">National License NFT</div>
-        <div className="p-2 text-end text-4xl font-semibold text-p1-darkgreen">
-          Страница исследователя
+      <div id="national" className={license == 1 ? '' : 'hidden'}>
+        <div className="grid grid-cols-2 gap-4">
+          <div className="p-2 text-4xl font-semibold text-p1-darkgreen">National License NFT</div>
+          <div className="p-2 text-end text-4xl font-semibold text-p1-darkgreen">
+            Страница исследователя
+          </div>
         </div>
-      </div>
-      <div className="flex">
-        <div className="m-5 rounded-3xl border-4 border-p1-darkgreen shadow-lg hover:border-p1-green">
-          <div className="grid grid-cols-2 place-items-start justify-center gap-4 p-5">
-            <div className="grid">
-              <p className="my-2 rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-cyan hover:shadow-2xl">
-                National License NFT невзаимозаменяемый токен, предоставляется лидерам направлений
-              </p>
-              <div className="my-2 rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-cyan hover:shadow-2xl">
-                National License NFT предоставляет доступ
-                <ul className="list-disc px-5">
-                  <li>к странице создания NFT Наград</li>
-                  <li> к странице создания Promoter License NFT</li>
-                  <li>к голосованию по вопросам развития сообщества на локальном уровне</li>
-                </ul>
-              </div>
+        <div className="flex">
+          <div className="m-5 rounded-3xl border-4 border-p1-darkgreen shadow-lg hover:border-p1-green">
+            <div className="grid grid-cols-2 place-items-start justify-center gap-4 p-5">
+              <div className="grid">
+                <p className="my-2 rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-cyan hover:shadow-2xl">
+                  National License NFT невзаимозаменяемый токен, предоставляется лидерам направлений
+                </p>
+                <div className="my-2 rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-cyan hover:shadow-2xl">
+                  National License NFT предоставляет доступ
+                  <ul className="list-disc px-5">
+                    <li>к странице создания NFT Наград</li>
+                    <li> к странице создания Promoter License NFT</li>
+                    <li>к голосованию по вопросам развития сообщества на локальном уровне</li>
+                  </ul>
+                </div>
 
-              <p className="my-2 rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-cyan hover:shadow-2xl">
-                National License NFT решает вопросы связанные с организацией и проведением
-                награждения конкурсантов и спортсменов мероприятий, а именно решает кто будет
-                создавать NFT и кто будет награждать конкурсантов и спортсменов, подтверждает статус
-                организатора, лидера направления, пилота, участника команды в своей компетенции.
-              </p>
+                <p className="my-2 rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-cyan hover:shadow-2xl">
+                  National License NFT решает вопросы связанные с организацией и проведением
+                  награждения конкурсантов и спортсменов мероприятий, а именно решает кто будет
+                  создавать NFT и кто будет награждать конкурсантов и спортсменов, подтверждает
+                  статус организатора, лидера направления, пилота, участника команды в своей
+                  компетенции.
+                </p>
 
-              <p className="my-2 rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-cyan hover:shadow-2xl">
-                Для получения National License NFT необходимо зарегистрироваться и заполнить заявку
-                для рассмотрения
-              </p>
+                <p className="my-2 rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-cyan hover:shadow-2xl">
+                  Для получения National License NFT необходимо зарегистрироваться и заполнить
+                  заявку для рассмотрения
+                </p>
 
-              <div className="my-2 justify-self-center">
-                <button className="w-full rounded-3xl border-2 border-p1-darkgreen bg-p2-white2 px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p1-green hover:text-p1-white">
-                  Регистрационная форма заявки
-                </button>
-              </div>
-              <p className="my-2 rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-cyan hover:shadow-2xl">
-                При положительном решении лидеру направления предоставляется возможность создания
-                National License NFT.
-              </p>
-            </div>
-            <div className="justify-self-end">
-              <Image
-                className="relative inline-block w-max overflow-hidden rounded-3xl border-2 border-p2-orange shadow-lg"
-                width={4000}
-                height={4000}
-                src="/Licenses/National Lic.png"
-                alt="NationalLic"
-              />
-              <div
-                className="inline-flex w-full justify-self-center rounded-md pt-5 shadow-sm"
-                role="group"
-              >
-                <Link
-                  href={{
-                    pathname: '/rudiscoverylicense',
-                    query: { license: 'promouter' },
-                  }}
-                  className="w-full rounded-l-2xl border border-gray-200 bg-white p-5 text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-yellow-800 focus:text-p1-white focus:ring-2 focus:ring-yellow-800 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p1-green"
-                >
-                  Promouter License
-                </Link>
-                <Link
-                  href={{
-                    pathname: '/rudiscoverylicense',
-                    query: { license: 'national' },
-                  }}
-                  className="w-full border border-gray-200 bg-white p-5 text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-stone-500 focus:text-p1-white focus:ring-2 focus:ring-stone-500 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-stone-500"
-                >
-                  National License
-                </Link>
-                <Link
-                  href={{
-                    pathname: '/rudiscoverylicense',
-                    query: { license: 'global' },
-                  }}
-                  className="w-full rounded-r-2xl border border-gray-200 bg-white p-5 text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-p2-orange focus:text-p1-white focus:ring-2 focus:ring-p2-orange dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange"
-                >
-                  Global License
-                </Link>
-              </div>
-              <div className="m-1 p-5">
-                <div className="justify-self-center">
-                  <button className="w-full rounded-3xl border-2 border-p1-darkgreen bg-p2-white2 px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
-                    Страница создания NFT
+                <div className="my-2 justify-self-center">
+                  <button className="w-full rounded-3xl border-2 border-p1-darkgreen bg-p2-white2 px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p1-green hover:text-p1-white">
+                    Регистрационная форма заявки
                   </button>
                 </div>
+                <p className="my-2 rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-cyan hover:shadow-2xl">
+                  При положительном решении лидеру направления предоставляется возможность создания
+                  National License NFT.
+                </p>
               </div>
-            </div>
-            <div>
-              <p className="rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-cyan hover:shadow-2xl">
-                Данный токен Burnebal, то есть собственник смарт-контракта может уничтожить любой
-                токен из коллекции, эта мера необходима для формирования чистоты коллекции.
-              </p>
-            </div>
-            <div>
-              <p className="rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-cyan hover:shadow-2xl">
-                То есть собственник смарт-контракта вправе уничтожить NFT в случае нарушения
-                держателем National License NFT правил создания NFT не соответствующих целям
-                Проекта.
-              </p>
+              <div className="justify-self-end">
+                <Image
+                  className="relative inline-block w-max overflow-hidden rounded-3xl border-2 border-p2-orange shadow-lg"
+                  width={4000}
+                  height={4000}
+                  src="/Licenses/National Lic.png"
+                  alt="NationalLic"
+                />
+                <Buttons license={license} setter={setLicense} />
+                <div className="m-1 p-5">
+                  <div className="justify-self-center">
+                    <button className="w-full rounded-3xl border-2 border-p1-darkgreen bg-p2-white2 px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
+                      Страница создания NFT
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <p className="rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-cyan hover:shadow-2xl">
+                  Данный токен Burnebal, то есть собственник смарт-контракта может уничтожить любой
+                  токен из коллекции, эта мера необходима для формирования чистоты коллекции.
+                </p>
+              </div>
+              <div>
+                <p className="rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-cyan hover:shadow-2xl">
+                  То есть собственник смарт-контракта вправе уничтожить NFT в случае нарушения
+                  держателем National License NFT правил создания NFT не соответствующих целям
+                  Проекта.
+                </p>
+              </div>
             </div>
           </div>
         </div>
       </div>
 
       {/* //Global License */}
-
-      <div className="grid grid-cols-2 gap-4">
-        <div className="p-2 text-4xl font-semibold text-p1-darkgreen">Global License NFT</div>
-        <div className="p-2 text-end text-4xl font-semibold text-p1-darkgreen">
-          Страница исследователя
+      <div id="global" className={license == 2 ? '' : 'hidden'}>
+        <div className="grid grid-cols-2 gap-4">
+          <div className="p-2 text-4xl font-semibold text-p1-darkgreen">Global License NFT</div>
+          <div className="p-2 text-end text-4xl font-semibold text-p1-darkgreen">
+            Страница исследователя
+          </div>
         </div>
-      </div>
-      <div className="flex">
-        <div className="m-5 rounded-3xl border-4 border-p1-darkgreen shadow-lg hover:border-p1-green">
-          <div className="grid grid-cols-2 place-items-start justify-center gap-4 p-5">
-            <div className="grid">
-              <p className="my-2 rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-cyan hover:shadow-2xl">
-                Global License NFT невзаимозаменяемый токен, предоставляется лидерам направлений и
-                организаторам мероприятий международного уровня
-              </p>
-              <div className="my-2 rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-cyan hover:shadow-2xl">
-                Global License NFT предоставляет доступ:
-                <ul className="list-disc px-5">
-                  <li>к странице создания NFT Наград</li>
-                  <li> к странице создания Promoter License NFT</li>
-                  <li> к странице создания National License NFT</li>
-                  <li>к голосованию по вопросам развития сообщества на локальном уровне</li>
-                  <li>к голосованию по вопросам развития сообщества на международном уровне</li>
-                </ul>
-              </div>
+        <div className="flex">
+          <div className="m-5 rounded-3xl border-4 border-p1-darkgreen shadow-lg hover:border-p1-green">
+            <div className="grid grid-cols-2 place-items-start justify-center gap-4 p-5">
+              <div className="grid">
+                <p className="my-2 rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-cyan hover:shadow-2xl">
+                  Global License NFT невзаимозаменяемый токен, предоставляется лидерам направлений и
+                  организаторам мероприятий международного уровня
+                </p>
+                <div className="my-2 rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-cyan hover:shadow-2xl">
+                  Global License NFT предоставляет доступ:
+                  <ul className="list-disc px-5">
+                    <li>к странице создания NFT Наград</li>
+                    <li> к странице создания Promoter License NFT</li>
+                    <li> к странице создания National License NFT</li>
+                    <li>к голосованию по вопросам развития сообщества на локальном уровне</li>
+                    <li>к голосованию по вопросам развития сообщества на международном уровне</li>
+                  </ul>
+                </div>
 
-              <p className="my-2 rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-cyan hover:shadow-2xl">
-                Global License NFT решает вопросы связанные с организацией и проведением награждения
-                конкурсантов и спортсменов мероприятий, определяет кто будет развивать направления,
-                а именно решает кто будет создавать NFT и кто будет награждать конкурсантов и
-                спортсменов, подтверждает статус организатора, лидера направления, пилота, участника
-                команды в своей компетенции.
-              </p>
+                <p className="my-2 rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-cyan hover:shadow-2xl">
+                  Global License NFT решает вопросы связанные с организацией и проведением
+                  награждения конкурсантов и спортсменов мероприятий, определяет кто будет развивать
+                  направления, а именно решает кто будет создавать NFT и кто будет награждать
+                  конкурсантов и спортсменов, подтверждает статус организатора, лидера направления,
+                  пилота, участника команды в своей компетенции.
+                </p>
 
-              <p className="my-2 rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-cyan hover:shadow-2xl">
-                Для получения Global License NFT необходимо зарегистрироваться и заполнить заявку
-                для рассмотрения
-              </p>
+                <p className="my-2 rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-cyan hover:shadow-2xl">
+                  Для получения Global License NFT необходимо зарегистрироваться и заполнить заявку
+                  для рассмотрения
+                </p>
 
-              <div className="my-2 justify-self-center">
-                <button className="w-full rounded-3xl border-2 border-p1-darkgreen bg-p2-white2 px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p1-green hover:text-p1-white">
-                  Регистрационная форма заявки
-                </button>
-              </div>
-              <p className="my-2 rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-cyan hover:shadow-2xl">
-                При положительном решении лидеру направления предоставляется возможность создания
-                Global License NFT.
-              </p>
-            </div>
-            <div className="justify-self-end">
-              <Image
-                className="relative inline-block w-max overflow-hidden rounded-3xl border-2 border-p2-orange shadow-lg"
-                width={4000}
-                height={4000}
-                src="/Licenses/Global Lic.png"
-                alt="GlobalLic"
-              />
-              <div
-                className="inline-flex w-full justify-self-center rounded-md pt-5 shadow-sm"
-                role="group"
-              >
-                <Link
-                  href={{
-                    pathname: '/rudiscoverylicense',
-                    query: { license: 'promouter' },
-                  }}
-                  className="w-full rounded-l-2xl border border-gray-200 bg-white p-5 text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-yellow-800 focus:text-p1-white focus:ring-2 focus:ring-yellow-800 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p1-green"
-                >
-                  Promouter License
-                </Link>
-                <Link
-                  href={{
-                    pathname: '/rudiscoverylicense',
-                    query: { license: 'national' },
-                  }}
-                  className="w-full border border-gray-200 bg-white p-5 text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-stone-500 focus:text-p1-white focus:ring-2 focus:ring-stone-500 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-stone-500"
-                >
-                  National License
-                </Link>
-                <Link
-                  href={{
-                    pathname: '/rudiscoverylicense',
-                    query: { license: 'global' },
-                  }}
-                  className="w-full rounded-r-2xl border border-gray-200 bg-white p-5 text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-p2-orange focus:text-p1-white focus:ring-2 focus:ring-p2-orange dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange"
-                >
-                  Global License
-                </Link>
-              </div>
-              <div className="m-1 p-5">
-                <div className="justify-self-center">
-                  <button className="w-full rounded-3xl border-2 border-p1-darkgreen bg-p2-white2 px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
-                    Страница создания NFT
+                <div className="my-2 justify-self-center">
+                  <button className="w-full rounded-3xl border-2 border-p1-darkgreen bg-p2-white2 px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p1-green hover:text-p1-white">
+                    Регистрационная форма заявки
                   </button>
                 </div>
+                <p className="my-2 rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-cyan hover:shadow-2xl">
+                  При положительном решении лидеру направления предоставляется возможность создания
+                  Global License NFT.
+                </p>
               </div>
-            </div>
-            <div>
-              <p className="rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-cyan hover:shadow-2xl">
-                Данный токен Burnebal, то есть собственник смарт-контракта может уничтожить любой
-                токен из коллекции, эта мера необходима для формирования чистоты коллекции.
-              </p>
-            </div>
-            <div>
-              <p className="rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-cyan hover:shadow-2xl">
-                То есть собственник смарт-контракта вправе уничтожить NFT в случае нарушения
-                держателем Global License NFT правил создания NFT не соответствующих целям Проекта.
-              </p>
+              <div className="justify-self-end">
+                <Image
+                  className="relative inline-block w-max overflow-hidden rounded-3xl border-2 border-p2-orange shadow-lg"
+                  width={4000}
+                  height={4000}
+                  src="/Licenses/Global Lic.png"
+                  alt="GlobalLic"
+                />
+                <Buttons license={license} setter={setLicense} />
+                <div className="m-1 p-5">
+                  <div className="justify-self-center">
+                    <button className="w-full rounded-3xl border-2 border-p1-darkgreen bg-p2-white2 px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
+                      Страница создания NFT
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <p className="rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-cyan hover:shadow-2xl">
+                  Данный токен Burnebal, то есть собственник смарт-контракта может уничтожить любой
+                  токен из коллекции, эта мера необходима для формирования чистоты коллекции.
+                </p>
+              </div>
+              <div>
+                <p className="rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-cyan hover:shadow-2xl">
+                  То есть собственник смарт-контракта вправе уничтожить NFT в случае нарушения
+                  держателем Global License NFT правил создания NFT не соответствующих целям
+                  Проекта.
+                </p>
+              </div>
             </div>
           </div>
         </div>
