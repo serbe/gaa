@@ -3,7 +3,7 @@ import Link from 'next/link';
 
 export default function Page() {
   return (
-    <div className="font-serif">
+    <div className="mx-auto max-w-7xl font-serif">
       <div className="flex flex-row p-10">
         <div className="basis-1/6 text-center grayscale duration-500 hover:z-20 hover:scale-125 hover:grayscale-0">
           <Link
@@ -155,7 +155,7 @@ export default function Page() {
         </div>
         <div className="basis-1/6">
           <Image
-            className="relative mb-4 inline-block w-max rounded-3xl p-14"
+            className="relative mb-4 inline-block w-max rounded-3xl p-5"
             width={1000}
             height={1000}
             src="/Hero/4.png"
@@ -239,7 +239,7 @@ export default function Page() {
         </div>
         <div className="basis-1/6">
           <Image
-            className="relative mb-4 inline-block w-max rounded-3xl p-14"
+            className="relative mb-4 inline-block w-max rounded-3xl p-2"
             width={1000}
             height={1000}
             src="/Hero/2.png"
@@ -399,7 +399,7 @@ export default function Page() {
       <div className="flex flex-row p-2">
         <div className="basis-1/6">
           <Image
-            className="relative mb-4 inline-block w-max rounded-3xl p-14"
+            className="relative mb-4 inline-block w-max rounded-3xl p-5"
             width={1000}
             height={1000}
             src="/Hero/11.png"
@@ -489,7 +489,7 @@ export default function Page() {
         </div>
         <div className="basis-1/6">
           <Image
-            className="relative mb-4 inline-block w-max rounded-3xl p-14"
+            className="relative mb-4 inline-block w-max rounded-3xl p-5"
             width={1000}
             height={1000}
             src="/Hero/12.png"
@@ -550,12 +550,12 @@ export default function Page() {
                   alt="cups"
                 />
               </div>
-              <div className="grid h-4/5 grid-cols-2 place-content-center gap-4">
+              <div className="grid h-4/5 grid-cols-2 place-content-center gap-1">
                 <div></div>
                 <Image
-                  className="relative mb-4 inline-block w-max items-end"
-                  width={500}
-                  height={500}
+                  className="relative inline-block w-max items-end"
+                  width={1000}
+                  height={1000}
                   src="/Hero/hero1.png"
                   alt="hero1"
                 />
