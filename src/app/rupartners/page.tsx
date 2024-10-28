@@ -6,7 +6,7 @@ export default function Page() {
   const [check, setCheck] = useState(false);
 
   return (
-    <div className="font-serif">
+    <div className="mx-auto max-w-7xl font-serif">
       <div className="flex flex-row pb-5">
         <div className="basis-1/5"></div>
         <div className="basis-3/5">

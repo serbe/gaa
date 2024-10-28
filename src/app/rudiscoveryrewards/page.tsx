@@ -3,57 +3,55 @@ import Link from 'next/link';
 
 export default function Page() {
   return (
-    <div className="font-serif">
+    <div className="mx-auto max-w-7xl font-serif">
       {/* //Rewards*/}
-      <div className="grid grid-cols-2 gap-4">
+      <div className="flex flex-wrap justify-between space-x-2 object-center px-2 pt-5 md:flex-nowrap">
         <div className="p-2 text-4xl font-semibold text-p1-darkgreen">Rewards NFT</div>
-        <div className="p-2 text-end text-4xl font-semibold text-p1-darkgreen">
-          Страница исследователя
-        </div>
+        <div className="p-2 text-4xl font-semibold text-p1-darkgreen">Страница исследователя</div>
       </div>
-      <div className="flex">
-        <div className="m-5 rounded-3xl border-4 border-p1-darkgreen shadow-lg hover:border-p1-green">
-          <div className="grid grid-cols-2 place-items-start justify-center gap-4 p-5">
-            <div className="grid">
-              <p className="my-2 rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-cyan hover:shadow-2xl">
-                Невзаимозаменяемый токен (NFT награда), вручаемая Промоутером (Организатором) в
-                рамках мероприятия (соревнования)
-              </p>
-              <p className="my-2 rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-cyan hover:shadow-2xl">
-                Rewards NFT можно коллекционировать, продавать, передавать
-              </p>
-              <p className="my-2 rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-cyan hover:shadow-2xl">
-                При создании NFT прикрепляется медиаконтент
-              </p>
-              <p className="my-2 rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-cyan hover:shadow-2xl">
-                Токен содержит ссылки на официальные документы: Итоговый протокол конкурса,
-                соревнования Фото награждения Видео победы
-              </p>
-              <p className="my-2 rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-cyan hover:shadow-2xl">
-                Все данные хранятся в IPFS сети и защищены от несанкционированного уничтожения.
-              </p>
-              <p className="my-2 rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-cyan hover:shadow-2xl">
-                Доступ к минту токена у держателей NFT Promoter license, National license, Global
-                license, Management GAA
-              </p>
+      <div className="m-5 rounded-3xl border-4 border-p1-darkgreen hover:border-p2-orange hover:shadow-lg">
+        <div className="flex flex-wrap justify-center space-x-2 px-2 pt-5 md:flex-nowrap">
+          <div>
+            <p className="my-2 rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-cyan hover:shadow-2xl">
+              Невзаимозаменяемый токен (NFT награда), вручаемая Промоутером (Организатором) в рамках
+              мероприятия (соревнования)
+            </p>
+            <p className="my-2 rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-cyan hover:shadow-2xl">
+              Rewards NFT можно коллекционировать, продавать, передавать
+            </p>
+            <p className="my-2 rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-cyan hover:shadow-2xl">
+              При создании NFT прикрепляется медиаконтент
+            </p>
+            <p className="my-2 rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-cyan hover:shadow-2xl">
+              Токен содержит ссылки на официальные документы: Итоговый протокол конкурса,
+              соревнования Фото награждения Видео победы
+            </p>
+            <p className="my-2 rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-cyan hover:shadow-2xl">
+              Все данные хранятся в IPFS сети и защищены от несанкционированного уничтожения.
+            </p>
+            <p className="my-2 rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-cyan hover:shadow-2xl">
+              Доступ к минту токена у держателей NFT Promoter license, National license, Global
+              license, Management GAA
+            </p>
 
-              <p className="rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-cyan hover:shadow-2xl">
-                Данный токен Burnebal, то есть собственник смарт-контракта может уничтожить любой
-                токен из коллекции, эта мера необходима для формирования чистоты коллекции.
-              </p>
-              <p className="rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-cyan hover:shadow-2xl">
-                То есть собственник смарт-контракта вправе уничтожить NFT в случае нарушения правил
-                создания NFT не соответствующих целям Проекта. То есть категорически запрещено
-                присоединять к NFT медиаконтент политического содержания, экстремистской
-                направленности, а также любой иной медиаконтент не отвечающий вектору развития
-                Проекта. Также запрещено присоединять данные не соответствующие действительности
-              </p>
-            </div>
-            <div className="justify-self-end">
+            <p className="rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-cyan hover:shadow-2xl">
+              Данный токен Burnebal, то есть собственник смарт-контракта может уничтожить любой
+              токен из коллекции, эта мера необходима для формирования чистоты коллекции.
+            </p>
+            <p className="rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-cyan hover:shadow-2xl">
+              То есть собственник смарт-контракта вправе уничтожить NFT в случае нарушения правил
+              создания NFT не соответствующих целям Проекта. То есть категорически запрещено
+              присоединять к NFT медиаконтент политического содержания, экстремистской
+              направленности, а также любой иной медиаконтент не отвечающий вектору развития
+              Проекта. Также запрещено присоединять данные не соответствующие действительности
+            </p>
+          </div>
+          <div className="m-1 place-items-center p-2">
+            <div>
               <Image
-                className="relative inline-block w-max rounded-3xl border-2 border-p2-orange shadow-lg"
-                width={4000}
-                height={4000}
+                className="relative inline-block rounded-3xl border-2 border-p2-orange shadow-lg"
+                width={2000}
+                height={2000}
                 src="/Hero/Rewards.png"
                 alt="Rewards"
               />
@@ -189,9 +187,9 @@ export default function Page() {
                 </div>
               </div>
             </div>
-            <div></div>
-            <div></div>
           </div>
+          <div></div>
+          <div></div>
         </div>
       </div>
 

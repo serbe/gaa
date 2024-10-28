@@ -2,46 +2,44 @@ import Image from 'next/image';
 
 export default function Page() {
   return (
-    <div className="font-serif">
-      {/* //Cars*/}
-      <div className="grid grid-cols-2 gap-4">
+    <div className="mx-auto max-w-7xl font-serif">
+      {/* //CustomLads discovery*/}
+      <div className="flex flex-wrap justify-between space-x-2 object-center px-2 pt-5 md:flex-nowrap">
         <div className="p-2 text-4xl font-semibold text-p1-darkgreen">CustomLads NFT</div>
-        <div className="p-2 text-end text-4xl font-semibold text-p1-darkgreen">
-          Страница исследователя
-        </div>
+        <div className="p-2 text-4xl font-semibold text-p1-darkgreen">Страница исследователя</div>
       </div>
-      <div className="flex">
-        <div className="m-5 rounded-3xl border-4 border-p1-darkgreen shadow-lg hover:border-p1-green">
-          <div className="grid grid-cols-2 place-items-start justify-center gap-4 p-5">
-            <div className="grid">
-              <p className="my-2 rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-cyan hover:shadow-2xl">
-                Невзаимозаменяемый токен, представляющий кастомизированного героя из элементов
-                первой генеративной коллекции RaceLads, который собран его владельцем.
-              </p>
-              <p className="my-2 rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-cyan hover:shadow-2xl">
-                Мы очень ценим вклад каждого неравнодушного к проекту и готовы предоставить
-                возможность формирования героя по своим предпочтениям.
-              </p>
-              <p className="my-2 rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-cyan hover:shadow-2xl">
-                Мы стали свидетелями дублирования (воровства) существующих коллекций и выступаем
-                против подобных деяний, поэтому хотим дать каждому возможность собрать своего героя
-                легальным способом
-              </p>
-              <p className="my-2 rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-cyan hover:shadow-2xl">
-                Данная коллекция будет доступна только для держателей NFT из коллекции RaceLads.
-              </p>
-              <p className="my-2 rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-cyan hover:shadow-2xl">
-                10 уровней доступа к редким элементам определяется наличием соответствующего
-                количества NFT из коллекции RaceLads
-              </p>
-              <p className="my-2 rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-cyan hover:shadow-2xl">
-                Любой CustomLad по желанию держателя может быть передан/продан любому участнику
-                сообщества.
-              </p>
-            </div>
+      <div className="m-5 rounded-3xl border-4 border-p1-darkgreen shadow-lg hover:border-p1-green">
+        <div className="flex flex-wrap justify-center space-x-2 px-2 pt-5 md:flex-nowrap">
+          <div>
+            <p className="my-2 rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-cyan hover:shadow-2xl">
+              Невзаимозаменяемый токен, представляющий кастомизированного героя из элементов первой
+              генеративной коллекции RaceLads, который собран его владельцем.
+            </p>
+            <p className="my-2 rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-cyan hover:shadow-2xl">
+              Мы очень ценим вклад каждого неравнодушного к проекту и готовы предоставить
+              возможность формирования героя по своим предпочтениям.
+            </p>
+            <p className="my-2 rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-cyan hover:shadow-2xl">
+              Мы стали свидетелями дублирования (воровства) существующих коллекций и выступаем
+              против подобных деяний, поэтому хотим дать каждому возможность собрать своего героя
+              легальным способом
+            </p>
+            <p className="my-2 rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-cyan hover:shadow-2xl">
+              Данная коллекция будет доступна только для держателей NFT из коллекции RaceLads.
+            </p>
+            <p className="my-2 rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-cyan hover:shadow-2xl">
+              10 уровней доступа к редким элементам определяется наличием соответствующего
+              количества NFT из коллекции RaceLads
+            </p>
+            <p className="my-2 rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-cyan hover:shadow-2xl">
+              Любой CustomLad по желанию держателя может быть передан/продан любому участнику
+              сообщества.
+            </p>
+          </div>
 
-            <div className="grid grid-cols-2 place-items-start justify-center gap-4 p-5">
-              <div className="justify-self-end">
+          <div className="m-1 place-items-center p-2">
+            <div className="grid grid-cols-2 gap-2">
+              <div>
                 <Image
                   className="relative inline-block w-max rounded-3xl border-2 border-p2-orange shadow-lg"
                   width={4000}
@@ -77,14 +75,12 @@ export default function Page() {
                   alt="CustomLads4"
                 />
               </div>
+            </div>
 
-              <div className="col-span-2 col-start-1 row-span-1 m-1 place-self-center p-5">
-                <div className="">
-                  <button className="w-full rounded-3xl border-2 border-p1-darkgreen bg-p2-white2 px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
-                    Страница создания NFT
-                  </button>
-                </div>
-              </div>
+            <div className="m-1 justify-self-center p-5">
+              <button className="w-full rounded-3xl border-2 border-p1-darkgreen bg-p2-white2 px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
+                Страница создания NFT
+              </button>
             </div>
           </div>
         </div>
@@ -187,10 +183,11 @@ export default function Page() {
           выпуска коллекции RaceLads
         </div>
         <div className="text-center text-xl">
-          Так мы планируем избежать чрезмерного падения цены в первые часы открытия коллекции
+          Так мы планируем создать инвестиционную привлекательность и стабильность коллекцию
           RaceLads
         </div>
       </div>
+      <div className="pb-8"></div>
     </div>
   );
 }

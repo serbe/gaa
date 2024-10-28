@@ -6,14 +6,14 @@ export default function Page() {
   const [check, setCheck] = useState(false);
 
   return (
-    <div className="font-serif">
+    <div className="mx-auto max-w-7xl font-serif">
       <div className="pt-5 text-center text-6xl font-bold text-p1-darkgreen">Форма заявки</div>
       <div className="pb-5 text-center text-4xl font-bold text-p1-darkgreen">
         by Global Automotive Association
       </div>
-      <div className="grid grid-cols-6 gap-4">
-        <div className="col-span-4 col-start-2 w-full rounded-3xl border-4 border-p1-darkgreen text-center text-p1-darkgreen shadow-lg hover:border-p2-orange">
-          <div className="pt-5">
+      <div className="flex flex-wrap space-x-2 object-center px-2 pt-5 md:flex-nowrap">
+        <div className="mb-4 w-full min-w-96 rounded-3xl border-4 border-p2-orange bg-p1-white shadow-lg">
+          <div className="place-self-center pt-5">
             <Image
               className="relative mb-4 inline-block w-max p-2"
               width={100}

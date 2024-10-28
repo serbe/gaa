@@ -21,11 +21,11 @@ const Buttons = ({
   setter: Dispatch<SetStateAction<number>>;
 }) => {
   return (
-    <div className="inline-flex rounded-md font-serif shadow-sm" role="group">
+    <div className="inline-flex space-x-0 rounded-md font-serif shadow-sm" role="group">
       <button
         className={
           'w-full rounded-l-lg border border-gray-200 ' +
-          (license == 0 ? 'bg-p2-orange' : 'bg-white') +
+          (license == 0 ? 'bg-amber-600' : 'bg-white') +
           ' px-4 py-2 text-sm font-medium' +
           (license == 0 ? 'z-10 text-p1-white ring-2 ring-p2-orange' : 'text-p1-darkgreen') +
           ' hover:bg-gray-100 hover:text-p1-darkgreen dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange'
@@ -37,9 +37,9 @@ const Buttons = ({
       <button
         className={
           'w-full border border-gray-200 ' +
-          (license == 1 ? 'bg-p2-orange' : 'bg-white') +
+          (license == 1 ? 'bg-p1-gray' : 'bg-white') +
           ' px-4 py-2 text-sm font-medium' +
-          (license == 1 ? 'z-10 text-p1-white ring-2' : 'text-p1-darkgreen') +
+          (license == 1 ? 'z-10 text-p1-white ring-2 ring-p1-gray' : 'text-p1-darkgreen') +
           ' hover:bg-gray-100 hover:text-p1-darkgreen dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange'
         }
         onClick={() => setter(1)}
@@ -78,173 +78,227 @@ export default function Page(props: { children: React.ReactNode; params: Promise
 
   return (
     <Suspense>
-      <div className="font-serif">
+      <div className="mx-auto max-w-7xl font-serif">
         <div id="promouter" className={license == 0 ? '' : 'hidden'}>
-          <div className="grid grid-cols-2 gap-4">
-            <div className="p-2 text-4xl font-semibold text-p2-orange">Promoter License NFT</div>
-            <div className="p-2 text-end text-4xl font-semibold text-p2-orange">
+          <div className="flex flex-wrap justify-between space-x-2 object-center px-2 pt-5 md:flex-nowrap">
+            <div className="p-2 text-center text-4xl font-semibold text-amber-600">
+              Promoter License NFT
+            </div>
+            <div className="p-2 text-center text-4xl font-semibold text-amber-600">
               Страница создания NFT
             </div>
           </div>
-          <div className="grid grid-cols-6 gap-4">
-            <div className="col-span-4 col-start-2 w-full rounded-3xl border-4 border-p2-orange text-center text-p1-darkgreen shadow-lg">
-              <div>
-                <p className="text-2xl text-p1-darkgreen">Присоединяйтесь к нам</p>
-                <p className="pb-5 text-2xl text-p1-darkgreen">Получите NFT лицензию Промоутера</p>
-                <div className="grid grid-cols-4 gap-4">
-                  <div className="pt-5">
-                    Созданные вами NFT автоматически попадут в глобальную коллекцию GAA
-                    <p className="pt-5">это объединенная коллекция мирового сообщества</p>
-                  </div>
-                  <div className="col-span-2 col-start-2 w-full rounded-3xl text-center">
-                    <Image
-                      className="relative mb-4 inline-block w-max rounded-3xl border-2 border-p2-orange shadow-lg"
-                      width={1000}
-                      height={1000}
-                      src="/Licenses/Promoter Lic.png"
-                      alt="PromoterLic"
-                    />
-                    <Buttons license={license} setter={setLicense} />
-                  </div>
+          <div className="flex flex-wrap justify-center space-x-2 px-2 pt-5 md:flex-nowrap">
+            <div className="rounded-3xl border-4 border-amber-600 hover:shadow-lg">
+              <div className="flex flex-row">
+                <div className="mx-auto text-center md:text-xl lg:text-2xl">
+                  <div className="flex flex-wrap justify-center md:flex-nowrap">
+                    <div>
+                      <div className="mb-5 text-center text-2xl font-semibold text-p1-darkgreen">
+                        <p>Присоединяйтесь к нам</p>
+                        <p>Получите NFT лицензию Промоутера</p>
+                      </div>
 
+                      <div className="flex flex-wrap justify-center md:flex-nowrap">
+                        <div className="w-1/3">
+                          <div className="place-self-center pb-5 pt-5">
+                            Созданные вами NFT автоматически попадут в глобальную коллекцию GAA
+                          </div>
+                          <div>
+                            <p>это объединенная коллекция мирового сообщества</p>
+                          </div>
+                        </div>
+                        <div>
+                          <div className="rounded-3xl text-center">
+                            <Image
+                              className="relative mb-4 inline-block w-4/5 rounded-3xl border-2 border-amber-600 shadow-lg"
+                              width={2000}
+                              height={2000}
+                              src="/Licenses/Promoter Lic.png"
+                              alt="PromoterLic"
+                            />
+                          </div>
+                          <Buttons license={license} setter={setLicense} />
+                        </div>
+                        <div className="w-1/3">
+                          <p className="pt-5">Доступно для:</p>
+                          <p>Nacional Licence NFT</p>
+                          <p>Global Licence NFT</p>
+                          <p>Management GAA</p>
+                          <p className="pt-5">
+                            Подключите свой кошелек,чтобы подтвердить лицензию NFT
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                   <div>
-                    <p className="pt-5">Доступно для</p>
-                    <p>Nacional Licence NFT</p>
-                    <p>Global Licence NFT</p>
-                    <p>Management GAA</p>
-                    <p className="pt-5">Подключите</p>
-                    <p>свой кошелек,</p>
-                    <p>чтобы подтвердить</p>
-                    <p>лицензию NFT</p>
+                    <div>
+                      <label
+                        htmlFor="default-range"
+                        className="mb-2 block pt-5 text-2xl font-medium text-gray-900 dark:text-white"
+                      >
+                        {value}
+                      </label>
+                      <input
+                        id="default-range"
+                        type="range"
+                        min="1"
+                        max="10"
+                        value={value}
+                        onChange={(e) => setValue(e.target.value)}
+                        className="h-2 w-3/5 cursor-pointer appearance-none rounded-lg bg-gray-200 dark:bg-gray-700"
+                      />
+                    </div>
+                    <p className="pb-8 pt-8 text-2xl text-p1-darkgreen">
+                      Максимум: 10 Promoter License NFT за транзакцию
+                    </p>
+                    <div className="place-self-center">
+                      <button className="rounded-3xl border-2 border-p1-darkgreen bg-p2-white2 px-20 py-8 text-p1-darkgreen shadow-lg hover:bg-amber-600 hover:text-p1-white">
+                        Создать NFT
+                      </button>
+                    </div>
                   </div>
+                  <div className="pb-8"></div>
                 </div>
-
-                <div>
-                  <label
-                    htmlFor="default-range"
-                    className="mb-2 block text-sm font-medium text-gray-900 dark:text-white"
-                  >
-                    {value}
-                  </label>
-                  <input
-                    id="default-range"
-                    type="range"
-                    min="0"
-                    max="10"
-                    value={value}
-                    onChange={(e) => setValue(e.target.value)}
-                    className="h-2 w-3/5 cursor-pointer appearance-none rounded-lg bg-gray-200 dark:bg-gray-700"
-                  />
-                </div>
-                <p className="pb-8 pt-8 text-2xl text-p1-darkgreen">
-                  Максимум: 10 Promoter License NFT за транзакцию
-                </p>
-                <button className="rounded-3xl border-2 border-p1-darkgreen bg-p2-white2 px-48 py-8 text-p1-darkgreen shadow-lg hover:border-p2-orange hover:bg-p2-orange hover:text-p1-white">
-                  Создать NFT
-                </button>
-                <div className="pb-8"></div>
               </div>
             </div>
           </div>
         </div>
 
         <div id="national" className={license == 1 ? '' : 'hidden'}>
-          <div className="grid grid-cols-2 gap-4">
-            <div className="p-2 text-4xl font-semibold text-p2-orange">National License NFT</div>
-            <div className="p-2 text-end text-4xl font-semibold text-p2-orange">
+          <div className="flex flex-wrap justify-between space-x-2 object-center px-2 pt-5 md:flex-nowrap">
+            <div className="p-2 text-center text-4xl font-semibold text-p1-gray">
+              National License NFT
+            </div>
+            <div className="p-2 text-center text-4xl font-semibold text-p1-gray">
               Страница создания NFT
             </div>
           </div>
-          <div className="grid grid-cols-6 gap-4">
-            <div className="col-span-4 col-start-2 w-full rounded-3xl border-4 border-p2-orange text-center text-p1-darkgreen shadow-lg">
-              <div>
-                <p className="text-2xl text-p1-darkgreen">Присоединяйтесь к нам</p>
-                <p className="pb-5 text-2xl text-p1-darkgreen">
-                  Получите NFT Национальную лицензию
-                </p>
-                <div className="grid grid-cols-4 gap-4">
-                  <div className="pt-5">
-                    Созданные вами NFT автоматически попадут в глобальную коллекцию GAA
-                    <p className="pt-5">это объединенная коллекция мирового сообщества</p>
-                  </div>
-                  <div className="col-span-2 col-start-2 w-full rounded-3xl text-center">
-                    <Image
-                      className="relative mb-4 inline-block w-max rounded-3xl border-2 border-p2-orange shadow-lg"
-                      width={1000}
-                      height={1000}
-                      src="/Licenses/National Lic.png"
-                      alt="NationalLic"
-                    />
-                    <Buttons license={license} setter={setLicense} />
-                  </div>
+          <div className="flex flex-wrap justify-center space-x-2 px-2 pt-5 md:flex-nowrap">
+            <div className="rounded-3xl border-4 border-p1-gray hover:shadow-lg">
+              <div className="flex flex-row">
+                <div className="mx-auto text-center md:text-xl lg:text-2xl">
+                  <div className="flex flex-wrap justify-center md:flex-nowrap">
+                    <div>
+                      <div className="mb-5 text-center text-2xl font-semibold text-p1-darkgreen">
+                        <p>Присоединяйтесь к нам</p>
+                        <p>Получите NFT Национальную лицензию</p>
+                      </div>
 
+                      <div className="flex flex-wrap justify-center md:flex-nowrap">
+                        <div className="w-1/3">
+                          <div className="place-self-center pb-5 pt-5">
+                            Созданные вами NFT автоматически попадут в глобальную коллекцию GAA
+                          </div>
+                          <div>
+                            <p>это объединенная коллекция мирового сообщества</p>
+                          </div>
+                        </div>
+                        <div>
+                          <div className="rounded-3xl text-center">
+                            <Image
+                              className="relative mb-4 inline-block w-4/5 rounded-3xl border-2 border-p1-gray shadow-lg"
+                              width={2000}
+                              height={2000}
+                              src="/Licenses/National Lic.png"
+                              alt="NationalLic"
+                            />
+                          </div>
+                          <Buttons license={license} setter={setLicense} />
+                        </div>
+                        <div className="w-1/3">
+                          <p className="pt-5">Доступно для:</p>
+                          <p>Global Licence NFT</p>
+                          <p>Management GAA</p>
+                          <p className="pt-5">
+                            Подключите свой кошелек,чтобы подтвердить лицензию NFT
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                   <div>
-                    <p className="pt-5">Доступно для</p>
-                    <p>Global Licence NFT</p>
-                    <p>Management GAA</p>
-                    <p className="pt-5">Подключите</p>
-                    <p>свой кошелек,</p>
-                    <p>чтобы подтвердить</p>
-                    <p>лицензию NFT</p>
+                    <p className="pb-8 pt-8 text-2xl text-p1-darkgreen">
+                      Максимум: 1 National License NFT за транзакцию
+                    </p>
+                    <div className="place-self-center">
+                      <button className="rounded-3xl border-2 border-p1-darkgreen bg-p2-white2 px-20 py-8 text-p1-darkgreen shadow-lg hover:bg-p1-gray hover:text-p1-white">
+                        Создать NFT
+                      </button>
+                    </div>
                   </div>
+                  <div className="pb-8"></div>
                 </div>
-
-                <p className="pb-8 pt-8 text-2xl text-p1-darkgreen">
-                  Максимум: 1 National License NFT за транзакцию
-                </p>
-                <button className="rounded-3xl border-2 border-p1-darkgreen bg-p2-white2 px-48 py-8 text-p1-darkgreen shadow-lg hover:border-p2-orange hover:bg-p2-orange hover:text-p1-white">
-                  Создать NFT
-                </button>
-                <div className="pb-8"></div>
               </div>
             </div>
           </div>
         </div>
+
         <div id="global" className={license == 2 ? '' : 'hidden'}>
-          <div className="grid grid-cols-2 gap-4">
-            <div className="p-2 text-4xl font-semibold text-p2-orange">Global License NFT</div>
-            <div className="p-2 text-end text-4xl font-semibold text-p2-orange">
+          <div className="flex flex-wrap justify-between space-x-2 object-center px-2 pt-5 md:flex-nowrap">
+            <div className="p-2 text-center text-4xl font-semibold text-p2-orange">
+              Global License NFT
+            </div>
+            <div className="p-2 text-center text-4xl font-semibold text-p2-orange">
               Страница создания NFT
             </div>
           </div>
-          <div className="grid grid-cols-6 gap-4">
-            <div className="col-span-4 col-start-2 w-full rounded-3xl border-4 border-p2-orange text-center text-p1-darkgreen shadow-lg">
-              <div className="pb-8">
-                <p className="text-2xl text-p1-darkgreen">Присоединяйтесь к нам</p>
-                <p className="pb-5 text-2xl text-p1-darkgreen">Получите NFT Глобальную лицензию</p>
-                <div className="grid grid-cols-4 gap-4">
-                  <div className="pt-5">
-                    Созданные вами NFT автоматически попадут в глобальную коллекцию GAA
-                    <p className="pt-5">это объединенная коллекция мирового сообщества</p>
-                  </div>
-                  <div className="col-span-2 col-start-2 w-full rounded-3xl text-center">
-                    <Image
-                      className="relative mb-4 inline-block w-max rounded-3xl border-2 border-p2-orange shadow-lg"
-                      width={1000}
-                      height={1000}
-                      src="/Licenses/Global Lic.png"
-                      alt="GlobalLic"
-                    />
+          <div className="flex flex-wrap justify-center space-x-2 px-2 pt-5 md:flex-nowrap">
+            <div className="rounded-3xl border-4 border-p2-orange hover:shadow-lg">
+              <div className="flex flex-row">
+                <div className="mx-auto text-center md:text-xl lg:text-2xl">
+                  <div className="flex flex-wrap justify-center md:flex-nowrap">
+                    <div>
+                      <div className="mb-5 text-center text-2xl font-semibold text-p1-darkgreen">
+                        <p>Присоединяйтесь к нам</p>
+                        <p>Получите NFT Глобальную лицензию</p>
+                      </div>
 
-                    <Buttons license={license} setter={setLicense} />
-                  </div>
+                      <div className="flex flex-wrap justify-center md:flex-nowrap">
+                        <div className="w-1/3">
+                          <div className="place-self-center pb-5 pt-5">
+                            Созданные вами NFT автоматически попадут в глобальную коллекцию GAA
+                          </div>
+                          <div>
+                            <p>это объединенная коллекция мирового сообщества</p>
+                          </div>
+                        </div>
+                        <div>
+                          <div className="rounded-3xl text-center">
+                            <Image
+                              className="relative mb-4 inline-block w-4/5 rounded-3xl border-2 border-p1-gray shadow-lg"
+                              width={2000}
+                              height={2000}
+                              src="/Licenses/Global Lic.png"
+                              alt="GloballLic"
+                            />
+                          </div>
+                          <Buttons license={license} setter={setLicense} />
+                        </div>
+                        <div className="w-1/3">
+                          <p className="pt-5">Доступно для:</p>
 
+                          <p>Management GAA</p>
+                          <p className="pt-5">
+                            Подключите свой кошелек,чтобы подтвердить лицензию NFT
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                   <div>
-                    <p className="pt-5">Доступно для</p>
-                    <p>Management GAA</p>
-                    <p className="pt-5">Подключите</p>
-                    <p>свой кошелек,</p>
-                    <p>чтобы подтвердить</p>
-                    <p>лицензию NFT</p>
+                    <p className="pb-8 pt-8 text-2xl text-p1-darkgreen">
+                      Максимум: 1 Global License NFT за транзакцию
+                    </p>
+                    <div className="place-self-center">
+                      <button className="rounded-3xl border-2 border-p1-darkgreen bg-p2-white2 px-20 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
+                        Создать NFT
+                      </button>
+                    </div>
                   </div>
+                  <div className="pb-8"></div>
                 </div>
-
-                <p className="pb-8 pt-8 text-2xl text-p1-darkgreen">
-                  Максимум: 1 Global License NFT за транзакцию
-                </p>
-                <button className="rounded-3xl border-2 border-p1-darkgreen bg-p2-white2 px-48 py-8 text-p1-darkgreen shadow-lg hover:border-p2-orange hover:bg-p2-orange hover:text-p1-white">
-                  Создать NFT
-                </button>
               </div>
             </div>
           </div>

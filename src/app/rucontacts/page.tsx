@@ -5,7 +5,7 @@ export default function Page() {
   const [check, setCheck] = useState(false);
 
   return (
-    <div className="font-serif">
+    <div className="mx-auto max-w-7xl font-serif">
       <div className="p-10 text-xl">
         <div className="text-center text-6xl font-bold text-p1-darkgreen drop-shadow-2xl">
           Наши Контакты

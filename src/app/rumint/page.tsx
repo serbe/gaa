@@ -8,46 +8,44 @@ export default function Page() {
       <div className="pb-5 text-center text-4xl font-bold text-p1-darkgreen">
         by Global Automotive Association
       </div>
-        <div className="w-4/5 place-self-center rounded-3xl border-4 border-p1-darkgreen text-center text-p1-darkgreen shadow-lg">
-          <div>
-            <p className="p-2 text-2xl text-p1-darkgreen">Генеративная коллекция</p>
-            <h2 className="pb-2 text-2xl text-p1-darkgreen">RaceLads NFT</h2>
-            <Image
-              className="relative mb-4 inline-block rounded-3xl border-2 border-p2-orange shadow-lg sm:w-3/5"
-              width={1000}
-              height={1000}
-              src="/HeroNFT/RaceLads/RaceLads1.png"
-              alt="RaceLads1"
-            />
-            <p className="pt-2 text-2xl text-p1-darkgreen">10.000 уникальных героев.</p>
-            <p className="pb-2 text-2xl text-p1-darkgreen">Кто твой персонаж - решать тебе!</p>
-            <div className="pb-8"></div>
+      <div className="w-4/5 place-self-center rounded-3xl border-4 border-p1-darkgreen text-center text-p1-darkgreen shadow-lg">
+        <div>
+          <p className="p-2 text-2xl text-p1-darkgreen">Генеративная коллекция</p>
+          <h2 className="pb-2 text-2xl text-p1-darkgreen">RaceLads NFT</h2>
+          <Image
+            className="relative mb-4 inline-block rounded-3xl border-2 border-p2-orange shadow-lg sm:w-3/5"
+            width={1000}
+            height={1000}
+            src="/HeroNFT/RaceLads/RaceLads1.png"
+            alt="RaceLads1"
+          />
+          <p className="pt-2 text-2xl text-p1-darkgreen">10.000 уникальных героев.</p>
+          <p className="pb-2 text-2xl text-p1-darkgreen">Кто твой персонаж - решать тебе!</p>
+          <div className="pb-8"></div>
 
-            <div className="inline-flex rounded-md pt-5 shadow-sm md:place-self-center">
-              <Link
-                href={{
-                  pathname: '/rudiscoveryracelads',
-                  query: { racelad: 'discovery' },
-                }}
-                className="rounded-l-3xl border-2 border-p1-darkgreen bg-p2-white2 px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p1-darkgreen hover:text-p1-white focus:z-10 focus:bg-p2-orange focus:text-p1-white focus:ring-2 focus:ring-p2-orange dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange"
-              >
-                Исследуй NFT
-              </Link>
-              <Link
-                href={{
-                  pathname: '/rumintracelads',
-                  query: { racelad: 'rumintracelads' },
-                }}
-                className="rounded-r-3xl border-2 border-p1-darkgreen bg-p2-white2 px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white focus:z-10 focus:bg-p2-orange focus:text-p1-white focus:ring-2 focus:ring-p2-orange dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange"
-              >
-                Страница создания NFT
-              </Link>
-           
-            </div>
-            <div className="pb-8 pt-8"></div>
+          <div className="inline-flex rounded-md pt-5 shadow-sm md:place-self-center">
+            <Link
+              href={{
+                pathname: '/rudiscoveryracelads',
+                query: { racelad: 'discovery' },
+              }}
+              className="rounded-l-3xl border-2 border-p1-darkgreen bg-p2-white2 px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p1-darkgreen hover:text-p1-white focus:z-10 focus:bg-p2-orange focus:text-p1-white focus:ring-2 focus:ring-p2-orange dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange"
+            >
+              Исследуй NFT
+            </Link>
+            <Link
+              href={{
+                pathname: '/rumintracelads',
+                query: { racelad: 'rumintracelads' },
+              }}
+              className="rounded-r-3xl border-2 border-p1-darkgreen bg-p2-white2 px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white focus:z-10 focus:bg-p2-orange focus:text-p1-white focus:ring-2 focus:ring-p2-orange dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange"
+            >
+              Страница создания NFT
+            </Link>
           </div>
+          <div className="pb-8 pt-8"></div>
         </div>
-     
+      </div>
 
       {/* //Лидеры движений */}
       <div className="pt-5 text-center text-6xl font-bold text-p1-darkgreen">Лидеры движений</div>
@@ -193,25 +191,25 @@ export default function Page() {
       <div className="pb-5 text-center text-4xl font-bold text-p1-darkgreen">
         Собери своего героя!
       </div>
-        <div className="w-4/5 place-self-center rounded-3xl border-4 border-p1-darkgreen text-center text-p1-darkgreen shadow-lg">
-          <div>
-            <p className="p-2 text-2xl text-p1-darkgreen">
-              Собери своего героя из готовых элементов коллекции
-            </p>
-            <h2 className="pb-2 text-2xl text-p1-darkgreen">RaceLads </h2>
-            <Image
-              className="relative mb-4 inline-block rounded-3xl border-2 border-p2-orange shadow-lg sm:w-3/5"
-              width={1000}
-              height={1000}
-              src="/HeroNFT/CustomLads/CustomLads1.png"
-              alt="CustomLads1"
-            />
-            <p className="pt-2 text-2xl text-p1-darkgreen">
-              Только для держателей NFT коллекции RaceLads
-            </p>
-            <p className="pb-2 text-2xl text-p1-darkgreen">Кто твой персонаж - решать тебе!</p>
-            <div className="pb-8"></div>
-            <div className="inline-flex rounded-md pt-5 shadow-sm md:place-self-center">
+      <div className="w-4/5 place-self-center rounded-3xl border-4 border-p1-darkgreen text-center text-p1-darkgreen shadow-lg">
+        <div>
+          <p className="p-2 text-2xl text-p1-darkgreen">
+            Собери своего героя из готовых элементов коллекции
+          </p>
+          <h2 className="pb-2 text-2xl text-p1-darkgreen">RaceLads </h2>
+          <Image
+            className="relative mb-4 inline-block rounded-3xl border-2 border-p2-orange shadow-lg sm:w-3/5"
+            width={1000}
+            height={1000}
+            src="/HeroNFT/CustomLads/CustomLads1.png"
+            alt="CustomLads1"
+          />
+          <p className="pt-2 text-2xl text-p1-darkgreen">
+            Только для держателей NFT коллекции RaceLads
+          </p>
+          <p className="pb-2 text-2xl text-p1-darkgreen">Кто твой персонаж - решать тебе!</p>
+          <div className="pb-8"></div>
+          <div className="inline-flex rounded-md pt-5 shadow-sm md:place-self-center">
             <Link
               href={{
                 pathname: '/rudiscoverycustomlads',
@@ -230,32 +228,34 @@ export default function Page() {
             >
               Страница создания NFT
             </Link>
-</div>
-            <div className="pb-8 pt-8"></div>
           </div>
-      
+          <div className="pb-8 pt-8"></div>
+        </div>
       </div>
 
       {/* //Награды */}
 
       <div className="pt-5 text-center text-6xl font-bold text-p1-darkgreen">Награды</div>
       <div className="pb-5 text-center text-4xl font-bold text-p1-darkgreen">Кубки и Медали</div>
-        <div className="w-4/5 place-self-center rounded-3xl border-4 border-p1-darkgreen text-center text-p1-darkgreen shadow-lg">
-          <div>
-            <Image
-              className="relative m-4 inline-block w-max rounded-3xl border-2 border-p2-orange shadow-lg"
-              width={1000}
-              height={1000}
-              src="/Hero/Rewards.png"
-              alt="Rewards"
-            />
-            <p className="p-2 text-2xl text-p1-darkgreen">
-              NFT награды, содержащие метаданные о мероприятии, награжденном спортсмене, а также
-              медиаконтент
-            </p>
-            <p className="p-4 text-2xl text-p1-darkgreen">Когда присоединиться - решать тебе!</p>
-            <div className="pb-8"></div>
-            <div className="inline-flex rounded-md pt-5 shadow-sm md:place-self-center">
+      <div className="w-4/5 place-self-center rounded-3xl border-4 border-p1-darkgreen text-center text-p1-darkgreen shadow-lg">
+        <p className="w-3/5 place-self-center p-2 text-2xl text-p1-darkgreen">
+          Вручай награды победителям
+        </p>
+        <h2 className="pb-2 text-2xl text-p1-darkgreen"> NFT Rewards </h2>
+        <div>
+          <Image
+            className="relative mb-4 inline-block rounded-3xl border-2 border-p2-orange shadow-lg sm:w-3/5"
+            width={1000}
+            height={1000}
+            src="/Hero/Rewards.png"
+            alt="Rewards"
+          />
+          <p className="p-2 text-2xl text-p1-darkgreen">
+            NFT награды содержат метаданные о мероприятии, спортсмене и медиаконтент
+          </p>
+          <p className="p-4 text-2xl text-p1-darkgreen">Когда присоединиться - решать тебе!</p>
+          <div className="pb-8"></div>
+          <div className="inline-flex rounded-md pt-5 shadow-sm md:place-self-center">
             <Link
               href={{
                 pathname: '/rudiscoveryrewards',
@@ -274,9 +274,8 @@ export default function Page() {
             >
               Страница создания NFT
             </Link>
-</div>
-            <div className="pb-8 pt-8"></div>
-          
+          </div>
+          <div className="pb-8 pt-8"></div>
         </div>
       </div>
 
@@ -286,9 +285,9 @@ export default function Page() {
         NFT, дающие преференции своим держателям
       </div>
       <div className="m-5 grid grid-cols-1 gap-4 rounded-3xl border-4 border-p1-darkgreen p-5 text-center text-p1-darkgreen shadow-lg md:grid-cols-3 2xl:grid-cols-3">
-        <div className='pb-5'>
+        <div className="pb-5">
           <Image
-            className="relative mb-4 inline-block w-max rounded-3xl border-2 border-p2-orange shadow-lg"
+            className="relative mb-4 inline-block rounded-3xl border-2 border-p2-orange shadow-lg"
             width={1000}
             height={1000}
             src="/Licenses/Promoter Lic.png"
@@ -317,9 +316,9 @@ export default function Page() {
             Cоздай NFT
           </Link>
         </div>
-        <div className='pb-5'>
+        <div className="pb-5">
           <Image
-            className="relative mb-4 inline-block w-max rounded-3xl border-2 border-p2-orange shadow-lg"
+            className="relative mb-4 inline-block rounded-3xl border-2 border-p2-orange shadow-lg"
             width={1000}
             height={1000}
             src="/Licenses/National Lic.png"
@@ -349,14 +348,15 @@ export default function Page() {
           </Link>
         </div>
 
-        <div className='pb-5'>
+        <div className="pb-5">
           <Image
-            className="relative mb-4 inline-block w-max rounded-3xl border-2 border-p2-orange shadow-lg"
+            className="relative mb-4 inline-block rounded-3xl border-2 border-p2-orange shadow-lg"
             width={1000}
             height={1000}
             src="/Licenses/Global Lic.png"
             alt="GlobalLic"
           />
+
           <p className="text-2xl text-p1-darkgreen">Глобальная лицензия</p>
           <p className="text-xm pb-5 text-p1-darkgreen">
             Предоставляет право голоса по развитию GAA на международном уровне
@@ -379,13 +379,10 @@ export default function Page() {
           >
             Cоздай NFT
           </Link>
-          <div className='pb-5'></div>
+          <div className="pb-5"></div>
         </div>
-
-       
-       
       </div>
-      <div className='pb-24'></div>
+      <div className="pb-24"></div>
     </div>
   );
 }

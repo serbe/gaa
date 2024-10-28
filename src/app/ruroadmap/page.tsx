@@ -385,7 +385,6 @@ export default function Page() {
         <div className="basis-5/5">
           <Image width={1900} height={200} src="/Hero/Compose1.png" alt="Compose1" />
         </div>
-
       </div>
 
       <div className="flex flex-row pb-5">

@@ -1,11 +1,11 @@
 export default function Page() {
   return (
-    <div className="font-serif">
-      <div className="p-10 text-xl">
-        <div className="text-center text-6xl font-bold text-p1-darkgreen drop-shadow-2xl">
-          Выгода участника
-        </div>
-        <div className="grid h-4/5 grid-cols-3 place-content-center gap-4 text-p1-darkgreen">
+    <div className="mx-auto max-w-7xl font-serif">
+      <div className="pt-2 text-center text-6xl font-bold text-p1-darkgreen">
+        Выгода участника
+      </div>
+      <div className="flex flex-wrap space-x-2 object-center px-2 pt-5 md:flex-nowrap">
+        <div className="mb-2 flex w-full min-w-96 flex-wrap space-x-2 object-center p-2 md:flex-nowrap">
           <div>
             <div className="my-5 rounded-3xl border-4 border-p1-darkgreen p-6 hover:border-p2-orange hover:shadow-xl">
               <p className="pb-3 text-center font-bold">Уникальные привилегии:</p>

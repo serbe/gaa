@@ -58,7 +58,7 @@ export default function Page() {
                           </svg>
                           <p className="mb-2 text-sm text-gray-500 dark:text-gray-400">
                             <span className="font-semibold">
-                              Добавь медиаконтент: момент победы
+                              Добавь медиаконтент момента победы
                             </span>
                           </p>
 
@@ -491,7 +491,7 @@ export default function Page() {
                 </div>
                 <div className="pb-8"></div>
 
-                <button className="rounded-3xl border-2 border-p1-darkgreen bg-p2-white2 px-20 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
+                <button className="rounded-3xl border-2 border-p1-darkgreen bg-p2-white2 px-20 py-8 text-p1-darkgreen shadow-lg hover:bg-stone-600 hover:text-p1-white">
                   Создать NFT Награды
                 </button>
                 <div className="pb-8"></div>

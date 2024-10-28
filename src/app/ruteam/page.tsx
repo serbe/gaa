@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function Page() {
   return (
-    <div className="font-serif">
+    <div className="mx-auto max-w-7xl font-serif">
       <div className="p-10 text-xl">
         <div className="flex flex-row pb-5">
           <div className="basis-1/5"></div>
