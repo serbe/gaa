@@ -74,7 +74,6 @@ export default function Page(props: { children: React.ReactNode; params: Promise
       {/* //Promoter License */}
       <div id="promouter" className={license == 0 ? '' : 'hidden'}>
         <div className="flex flex-wrap justify-between space-x-2 object-center px-2 pt-5 md:flex-nowrap">
-          {' '}
           <div className="p-2 text-4xl font-semibold text-amber-600">Promoter License NFT</div>
           <div className="p-2 text-4xl font-semibold text-amber-600">Страница исследователя</div>
         </div>
@@ -143,7 +142,6 @@ export default function Page(props: { children: React.ReactNode; params: Promise
       {/* //National License */}
       <div id="national" className={license == 1 ? '' : 'hidden'}>
         <div className="flex flex-wrap justify-between space-x-2 object-center px-2 pt-5 md:flex-nowrap">
-          {' '}
           <div className="p-2 text-4xl font-semibold text-p1-gray">National License NFT</div>
           <div className="p-2 text-4xl font-semibold text-p1-gray">Страница исследователя</div>
         </div>

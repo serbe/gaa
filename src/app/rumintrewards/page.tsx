@@ -3,7 +3,6 @@ import Image from 'next/image';
 import { useState } from 'react';
 
 export default function Page() {
-  const [value, setValue] = useState('0');
   const [check, setCheck] = useState(false);
 
   return (
@@ -173,7 +172,7 @@ export default function Page() {
                   Это Ваш способ привлечения инвестиций
                 </p>
               </div>
-            </div>{' '}
+            </div>
           </div>
         </div>
 

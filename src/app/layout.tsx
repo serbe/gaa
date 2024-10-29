@@ -11,16 +11,17 @@ const inter = Roboto_Serif({
   subsets: ['latin', 'cyrillic'],
 });
 
+type Props = {
+  params: { locale: string };
+  children: React.ReactNode;
+};
+
 export const metadata: Metadata = {
   title: 'GAA',
   description: 'Global Automotive Association',
 };
 
-export default function RootLayout({
-  children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+export default function RootLayout({ children }: Readonly<Props>) {
   return (
     <html lang="en">
       <body className="scroll-smooth">

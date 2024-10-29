@@ -32,7 +32,7 @@ export default function Page() {
                         width={1000}
                         height={1000}
                         src="/Cars/Car.png"
-              alt="Car"
+                        alt="Car"
                       />
                     </div>
                     <div className="m-1 place-items-center p-2">
@@ -57,7 +57,9 @@ export default function Page() {
                             />
                           </svg>
                           <p className="mb-2 text-sm text-gray-500 dark:text-gray-400">
-                            <span className="font-semibold">Изображение реального авто в картинке</span>
+                            <span className="font-semibold">
+                              Изображение реального авто в картинке
+                            </span>
                           </p>
 
                           <p className="mb-2 text-sm text-gray-500 dark:text-gray-400">
@@ -150,7 +152,7 @@ export default function Page() {
                   Это Ваш способ привлечения инвестиций
                 </p>
               </div>
-            </div>{' '}
+            </div>
           </div>
         </div>
 
@@ -165,217 +167,217 @@ export default function Page() {
                 </div>
                 <div className="pb-5"></div>
                 <div>
-              <label
-                htmlFor="car_category"
-                className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
-              >
-                Категория Авто
-              </label>
-              <input
-                type="text"
-                id="car_category"
-                className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
-                placeholder="Дрифт/Dragster/Oldtimer/Stance/Sport/Rarity"
-                required
-              />
-            </div>
-            <div className="pb-2"></div>
-            <div>
-              <label
-                htmlFor="first_name"
-                className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
-              >
-                Самодельный или Оригональный
-              </label>
-              <input
-                type="text"
-                id="custom_orig"
-                className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
-                placeholder="Самодельный или Оригональный"
-                required
-              />
-            </div>
-            <div className="pb-2"></div>
-            <div>
-              <label
-                htmlFor="full_name"
-                className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
-              >
-                Полное имя
-              </label>
-              <input
-                type="text"
-                id="full_name"
-                className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
-                placeholder="Полное имя создателя/владельца"
-                required
-              />
-            </div>
-            <div className="pb-2"></div>
+                  <label
+                    htmlFor="car_category"
+                    className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
+                  >
+                    Категория Авто
+                  </label>
+                  <input
+                    type="text"
+                    id="car_category"
+                    className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                    placeholder="Дрифт/Dragster/Oldtimer/Stance/Sport/Rarity"
+                    required
+                  />
+                </div>
+                <div className="pb-2"></div>
+                <div>
+                  <label
+                    htmlFor="first_name"
+                    className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
+                  >
+                    Самодельный или Оригональный
+                  </label>
+                  <input
+                    type="text"
+                    id="custom_orig"
+                    className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                    placeholder="Самодельный или Оригональный"
+                    required
+                  />
+                </div>
+                <div className="pb-2"></div>
+                <div>
+                  <label
+                    htmlFor="full_name"
+                    className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
+                  >
+                    Полное имя
+                  </label>
+                  <input
+                    type="text"
+                    id="full_name"
+                    className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                    placeholder="Полное имя создателя/владельца"
+                    required
+                  />
+                </div>
+                <div className="pb-2"></div>
 
-            <div>
-              <label
-                htmlFor="nic_name"
-                className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
-              >
-                Ник-Имя
-              </label>
-              <input
-                type="text"
-                id="nic_name"
-                className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
-                placeholder="Ник-Имя"
-                required
-              />
-            </div>
-            <div className="pb-2"></div>
+                <div>
+                  <label
+                    htmlFor="nic_name"
+                    className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
+                  >
+                    Ник-Имя
+                  </label>
+                  <input
+                    type="text"
+                    id="nic_name"
+                    className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                    placeholder="Ник-Имя"
+                    required
+                  />
+                </div>
+                <div className="pb-2"></div>
 
-            <div>
-              <label
-                htmlFor="birthday"
-                className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
-              >
-                Дата рождения
-              </label>
-              <input
-                type="date"
-                id="birthday"
-                className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
-                placeholder="Дата рождения"
-                required
-              />
-            </div>
-            <div className="pb-2"></div>
+                <div>
+                  <label
+                    htmlFor="birthday"
+                    className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
+                  >
+                    Дата рождения
+                  </label>
+                  <input
+                    type="date"
+                    id="birthday"
+                    className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                    placeholder="Дата рождения"
+                    required
+                  />
+                </div>
+                <div className="pb-2"></div>
 
-            <div>
-              <label
-                htmlFor="brand"
-                className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
-              >
-                Марка авто
-              </label>
-              <input
-                type="text"
-                id="Brand"
-                className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
-                placeholder="Марка авто"
-                required
-              />
-            </div>
-            <div className="pb-2"></div>
-            <div>
-              <label
-                htmlFor="model"
-                className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
-              >
-                Модель авто
-              </label>
-              <input
-                type="text"
-                id="model"
-                className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
-                placeholder="Модель авто"
-                required
-              />
-            </div>
-            <div className="pb-2"></div>
-            <div>
-              <label
-                htmlFor="year_made"
-                className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
-              >
-                Год создания
-              </label>
-              <input
-                type="text"
-                id="contry"
-                className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
-                placeholder="Год создания"
-                required
-              />
-            </div>
-            <div className="pb-2"></div>
-            <div>
-              <label
-                htmlFor="engine"
-                className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
-              >
-                Двигатель
-              </label>
-              <input
-                type="text"
-                id="engine"
-                className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
-                placeholder="Двигатель"
-                required
-              />
-            </div>
-            <div className="pb-2"></div>
-            <div>
-              <label
-                htmlFor="hp"
-                className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
-              >
-                Лошадиных сил
-              </label>
-              <input
-                type="text"
-                id="contry"
-                className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
-                placeholder="Лошадиных сил"
-                required
-              />
-            </div>
-            <div className="pb-2"></div>
+                <div>
+                  <label
+                    htmlFor="brand"
+                    className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
+                  >
+                    Марка авто
+                  </label>
+                  <input
+                    type="text"
+                    id="Brand"
+                    className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                    placeholder="Марка авто"
+                    required
+                  />
+                </div>
+                <div className="pb-2"></div>
+                <div>
+                  <label
+                    htmlFor="model"
+                    className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
+                  >
+                    Модель авто
+                  </label>
+                  <input
+                    type="text"
+                    id="model"
+                    className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                    placeholder="Модель авто"
+                    required
+                  />
+                </div>
+                <div className="pb-2"></div>
+                <div>
+                  <label
+                    htmlFor="year_made"
+                    className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
+                  >
+                    Год создания
+                  </label>
+                  <input
+                    type="text"
+                    id="contry"
+                    className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                    placeholder="Год создания"
+                    required
+                  />
+                </div>
+                <div className="pb-2"></div>
+                <div>
+                  <label
+                    htmlFor="engine"
+                    className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
+                  >
+                    Двигатель
+                  </label>
+                  <input
+                    type="text"
+                    id="engine"
+                    className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                    placeholder="Двигатель"
+                    required
+                  />
+                </div>
+                <div className="pb-2"></div>
+                <div>
+                  <label
+                    htmlFor="hp"
+                    className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
+                  >
+                    Лошадиных сил
+                  </label>
+                  <input
+                    type="text"
+                    id="contry"
+                    className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                    placeholder="Лошадиных сил"
+                    required
+                  />
+                </div>
+                <div className="pb-2"></div>
 
-            <div>
-              <label
-                htmlFor="contry"
-                className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
-              >
-                Страна
-              </label>
-              <input
-                type="text"
-                id="contry"
-                className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
-                placeholder="Страна"
-                required
-              />
-            </div>
-            <div className="pb-2"></div>
-            <div>
-              <label
-                htmlFor="first_name"
-                className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
-              >
-                Город
-              </label>
-              <input
-                type="text"
-                id="city"
-                className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
-                placeholder="Город"
-                required
-              />
-            </div>
-            <div className="pb-2"></div>
+                <div>
+                  <label
+                    htmlFor="contry"
+                    className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
+                  >
+                    Страна
+                  </label>
+                  <input
+                    type="text"
+                    id="contry"
+                    className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                    placeholder="Страна"
+                    required
+                  />
+                </div>
+                <div className="pb-2"></div>
+                <div>
+                  <label
+                    htmlFor="first_name"
+                    className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
+                  >
+                    Город
+                  </label>
+                  <input
+                    type="text"
+                    id="city"
+                    className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                    placeholder="Город"
+                    required
+                  />
+                </div>
+                <div className="pb-2"></div>
 
-            <div className="pb-2"></div>
-            <div>
-              <label
-                htmlFor="message"
-                className="mb-2 block text-left text-sm font-medium text-p1-darkgreen dark:text-white"
-              >
-                Описание
-              </label>
-              <textarea
-                id="message"
-                rows={4}
-                className="block w-full rounded-lg border-2 border-gray-300 bg-p2-white2 p-2.5 text-sm text-p1-darkgreen focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
-                placeholder="Описание"
-              ></textarea>
-            </div>
+                <div className="pb-2"></div>
+                <div>
+                  <label
+                    htmlFor="message"
+                    className="mb-2 block text-left text-sm font-medium text-p1-darkgreen dark:text-white"
+                  >
+                    Описание
+                  </label>
+                  <textarea
+                    id="message"
+                    rows={4}
+                    className="block w-full rounded-lg border-2 border-gray-300 bg-p2-white2 p-2.5 text-sm text-p1-darkgreen focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
+                    placeholder="Описание"
+                  ></textarea>
+                </div>
                 <div className="pb-5"></div>
                 <div className="flex items-center">
                   <input

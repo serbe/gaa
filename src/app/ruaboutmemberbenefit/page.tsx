@@ -1,9 +1,7 @@
 export default function Page() {
   return (
     <div className="mx-auto max-w-7xl font-serif">
-      <div className="pt-2 text-center text-6xl font-bold text-p1-darkgreen">
-        Выгода участника
-      </div>
+      <div className="pt-2 text-center text-6xl font-bold text-p1-darkgreen">Выгода участника</div>
       <div className="flex flex-wrap space-x-2 object-center px-2 pt-5 md:flex-nowrap">
         <div className="mb-2 flex w-full min-w-96 flex-wrap space-x-2 object-center p-2 md:flex-nowrap">
           <div>

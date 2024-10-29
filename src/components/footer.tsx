@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 const Footer = () => {
   return (
-    <header className="sticky bottom-0 bg-teal-900 text-slate-300">
+    <header className="sticky bottom-0 z-10 bg-teal-900 text-slate-300">
       <div className="mx-auto flex max-w-5xl py-2 text-sm">
         <Link href="#" className="w-1/3">
           Privacy policy

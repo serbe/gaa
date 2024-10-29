@@ -152,7 +152,7 @@ export default function Page() {
                   Это Ваш способ привлечения инвестиций
                 </p>
               </div>
-            </div>{' '}
+            </div>
           </div>
         </div>
 
