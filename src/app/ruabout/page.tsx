@@ -5,7 +5,7 @@ export default function Page() {
   return (
     <div className="mx-auto max-w-7xl font-serif">
       <div className="flex flex-row p-10">
-        <div className="basis-1/6 text-center grayscale duration-500 hover:scale-125 hover:grayscale-0">
+        <div className="basis-1/6 text-center grayscale duration-500 hover:scale-105 hover:grayscale-0">
           <Link
             href={{
               pathname: '/ruaboutmemberbenefit',
@@ -22,7 +22,7 @@ export default function Page() {
             />
           </Link>
         </div>
-        <div className="basis-1/6 text-center grayscale duration-500 hover:scale-125 hover:grayscale-0">
+        <div className="basis-1/6 text-center grayscale duration-500 hover:scale-105 hover:grayscale-0">
           <Link
             href={{
               pathname: '/ruaboutterms',
@@ -39,7 +39,7 @@ export default function Page() {
             />
           </Link>
         </div>
-        <div className="basis-1/6 text-center grayscale duration-500 hover:scale-125 hover:grayscale-0">
+        <div className="basis-1/6 text-center grayscale duration-500 hover:scale-105 hover:grayscale-0">
           <Link
             href={{
               pathname: '/ruaboutpolicy',
@@ -56,7 +56,7 @@ export default function Page() {
             />
           </Link>
         </div>
-        <div className="basis-1/6 text-center grayscale duration-500 hover:scale-125 hover:grayscale-0">
+        <div className="basis-1/6 text-center grayscale duration-500 hover:scale-105 hover:grayscale-0">
           <Link
             href={{
               pathname: '/ruaboutweb3',
@@ -73,7 +73,7 @@ export default function Page() {
             />
           </Link>
         </div>
-        <div className="basis-1/6 text-center grayscale duration-500 hover:scale-125 hover:grayscale-0">
+        <div className="basis-1/6 text-center grayscale duration-500 hover:scale-105 hover:grayscale-0">
           <Link
             href={{
               pathname: '/ruteam',
@@ -90,7 +90,7 @@ export default function Page() {
             />
           </Link>
         </div>
-        <div className="basis-1/6 text-center grayscale duration-500 hover:scale-125 hover:grayscale-0">
+        <div className="basis-1/6 text-center grayscale duration-500 hover:scale-105 hover:grayscale-0">
           <Link
             href={{
               pathname: '/rucontacts',

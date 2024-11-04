@@ -9,36 +9,36 @@ export default function Page() {
         <div className="p-2 text-4xl font-semibold text-p1-darkgreen">Rewards NFT</div>
         <div className="p-2 text-4xl font-semibold text-p1-darkgreen">Страница исследователя</div>
       </div>
-      <div className="m-5 rounded-3xl border-4 border-p1-darkgreen hover:border-p2-orange hover:shadow-lg">
+      <div className="m-5 rounded-3xl border-4 border-p1-darkgreen hover:border-p1-gray hover:shadow-lg">
         <div className="flex flex-wrap justify-center space-x-2 px-2 pt-5 md:flex-nowrap">
           <div>
-            <p className="my-2 rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-cyan hover:shadow-2xl">
+            <p className="my-2 rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-gray hover:shadow-2xl">
               Невзаимозаменяемый токен (NFT награда), вручаемая Промоутером (Организатором) в рамках
               мероприятия (соревнования)
             </p>
-            <p className="my-2 rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-cyan hover:shadow-2xl">
+            <p className="my-2 rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-gray hover:shadow-2xl">
               Rewards NFT можно коллекционировать, продавать, передавать
             </p>
-            <p className="my-2 rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-cyan hover:shadow-2xl">
+            <p className="my-2 rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-gray hover:shadow-2xl">
               При создании NFT прикрепляется медиаконтент
             </p>
-            <p className="my-2 rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-cyan hover:shadow-2xl">
+            <p className="my-2 rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-gray hover:shadow-2xl">
               Токен содержит ссылки на официальные документы: Итоговый протокол конкурса,
               соревнования Фото награждения Видео победы
             </p>
-            <p className="my-2 rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-cyan hover:shadow-2xl">
+            <p className="my-2 rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-gray hover:shadow-2xl">
               Все данные хранятся в IPFS сети и защищены от несанкционированного уничтожения.
             </p>
-            <p className="my-2 rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-cyan hover:shadow-2xl">
+            <p className="my-2 rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-gray hover:shadow-2xl">
               Доступ к минту токена у держателей NFT Promoter license, National license, Global
               license, Management GAA
             </p>
 
-            <p className="rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-cyan hover:shadow-2xl">
+            <p className="rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-gray hover:shadow-2xl">
               Данный токен Burnebal, то есть собственник смарт-контракта может уничтожить любой
               токен из коллекции, эта мера необходима для формирования чистоты коллекции.
             </p>
-            <p className="rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-cyan hover:shadow-2xl">
+            <p className="rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-gray hover:shadow-2xl">
               То есть собственник смарт-контракта вправе уничтожить NFT в случае нарушения правил
               создания NFT не соответствующих целям Проекта. То есть категорически запрещено
               присоединять к NFT медиаконтент политического содержания, экстремистской
@@ -181,9 +181,12 @@ export default function Page() {
               </div>
               <div className="m-1 p-5">
                 <div className="justify-self-center">
-                  <button className="w-full rounded-3xl border-2 border-p1-darkgreen bg-p2-white2 px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
+                  <a
+                    href="/rumintrewards"
+                    className="inline-block w-full place-content-center rounded-3xl border-2 border-p2-orange bg-p2-white2 px-10 py-8 text-center text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white"
+                  >
                     Страница создания NFT
-                  </button>
+                  </a>
                 </div>
               </div>
             </div>

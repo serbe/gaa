@@ -124,75 +124,185 @@ export default function Page() {
       </div>
 
       <div className="flex flex-row pb-5">
-        <div className="basis-1/5"></div>
-        <div className="basis-3/5">
+        <div className="basis-5/5">
           <div className="my-5 space-y-6 rounded-3xl border-4 border-p2-orange p-6">
-            <div className="text-center text-p1-darkgreen">
+            <div className="text-center text-sm font-semibold text-p1-darkgreen md:text-2xl">
               Участвуй в опросах и викторинах за пройденый опрос получи Racepoints
+            </div>
+
+            <div className="basis-1/12"></div>
+
+            <div className="flex flex-row pb-5">
+              <div className="basis-1/12"></div>
+              <div className="basis-4/6 scale-95 duration-500 hover:scale-100">
+                <Link
+                  href={{
+                    pathname: '/ruquize',
+                    query: { ruabout: 'ruquize' },
+                  }}
+                  className="mx-auto justify-center hover:drop-shadow-2xl"
+                >
+                  <Image
+                    className="relative mb-4 inline-block w-max"
+                    width={1000}
+                    height={1000}
+                    src="/Quizbuttons/QuizeButton1.png"
+                    alt="Quizbutton1"
+                  />
+                </Link>
+              </div>
+
+              <div className="basis-3/5 scale-95 duration-500 hover:scale-100">
+                <Link
+                  href={{
+                    pathname: '/ruquize',
+                    query: { ruabout: 'ruquize' },
+                  }}
+                  className="mx-auto justify-center hover:drop-shadow-2xl"
+                >
+                  <Image
+                    className="relative mb-4 inline-block w-max"
+                    width={1000}
+                    height={1000}
+                    src="/Quizbuttons/QuizeButton2.png"
+                    alt="Quizbutton2"
+                  />
+                </Link>
+              </div>
+              <div className="basis-3/5 scale-95 duration-500 hover:scale-100">
+                <Link
+                  href={{
+                    pathname: '/ruquize',
+                    query: { ruabout: 'ruquize' },
+                  }}
+                  className="mx-auto justify-center hover:drop-shadow-2xl"
+                >
+                  <Image
+                    className="relative mb-4 inline-block w-max"
+                    width={1000}
+                    height={1000}
+                    src="/Quizbuttons/QuizeButton3.png"
+                    alt="Quizbutton3"
+                  />
+                </Link>
+              </div>
+              <div className="basis-3/5 scale-95 duration-500 hover:scale-100">
+                <Link
+                  href={{
+                    pathname: '/ruquize',
+                    query: { ruabout: 'ruquize' },
+                  }}
+                  className="mx-auto justify-center hover:drop-shadow-2xl"
+                >
+                  <Image
+                    className="relative mb-4 inline-block w-max"
+                    width={1000}
+                    height={1000}
+                    src="/Quizbuttons/QuizeButton4.png"
+                    alt="Quizbutton4"
+                  />
+                </Link>
+              </div>
+              <div className="basis-1/12"></div>
             </div>
           </div>
         </div>
-        <div className="basis-1/5"></div>
       </div>
       <div className="flex flex-row pb-5">
-        <div className="basis-2/5"></div>
-        <div className="basis-1/5">
-          <Link
-            href={{
-              pathname: '/ruquize',
-              query: { ruquize: 'ruquize' },
-            }}
-            className="w-full rounded-xl border-2 border-p2-orange bg-p1-white px-20 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white"
-          >
-            Квиз
-          </Link>
-        </div>
-        <div className="basis-2/5"></div>
-      </div>
-
-      <div className="flex flex-row pb-5">
-        <div className="basis-1/5"></div>
-        <div className="basis-3/5">
+        <div className="basis-5/5">
           <div className="my-5 space-y-6 rounded-3xl border-4 border-p2-orange p-6">
-            <div className="text-center text-p1-darkgreen">
+            <div className="text-center text-sm font-semibold text-p1-darkgreen md:text-2xl">
               Отвечай на вопросы, связанные с миром автоспорта и автокультуры за правильный ответ
               получи Racepoints
             </div>
-          </div>
-        </div>
-        <div className="basis-1/5"></div>
-      </div>
 
-      <div className="flex flex-row pb-5">
-        <div className="basis-2/5"></div>
-        <div className="basis-1/5">
-          <button className="w-full rounded-xl border-2 border-p2-orange bg-p1-white px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
-            Авто Вопросы
-          </button>
-        </div>
-        <div className="basis-2/5"></div>
-      </div>
+            <div className="basis-1/5"></div>
 
-      <div className="flex flex-row pb-5">
-        <div className="basis-1/5"></div>
-        <div className="basis-3/5">
-          <div className="my-5 space-y-6 rounded-3xl border-4 border-p2-orange p-6">
-            <div className="text-center text-p1-darkgreen">
-              Получай тематические карточки и получи Racepoints
+            <div className="flex flex-row pb-5">
+              <div className="basis-3/5 scale-95 duration-500 hover:scale-100">
+                <Link
+                  href={{
+                    pathname: '/ruautoquestion1',
+                    query: { ruabout: 'ruautoquestion1' },
+                  }}
+                  className="mx-auto justify-center hover:drop-shadow-2xl"
+                >
+                  <Image
+                    className="relative mb-4 inline-block w-max"
+                    width={1000}
+                    height={1000}
+                    src="/Autoquestionbuttons/ruautoquestion1.png"
+                    alt="ruautoquestion1"
+                  />
+                </Link>
+              </div>
+
+              <div className="basis-3/5 scale-95 duration-500 hover:scale-100">
+                <Link
+                  href={{
+                    pathname: '/ruautoquestion2',
+                    query: { ruabout: 'ruautoquestion2' },
+                  }}
+                  className="mx-auto justify-center hover:drop-shadow-2xl"
+                >
+                  <Image
+                    className="relative mb-4 inline-block w-max"
+                    width={1000}
+                    height={1000}
+                    src="/Autoquestionbuttons/ruautoquestion2.png"
+                    alt="ruautoquestion2"
+                  />
+                </Link>
+              </div>
+              <div className="basis-3/5 scale-95 duration-500 hover:scale-100">
+                <Link
+                  href={{
+                    pathname: '/ruautoquestion3',
+                    query: { ruabout: 'ruautoquestion3' },
+                  }}
+                  className="mx-auto justify-center hover:drop-shadow-2xl"
+                >
+                  <Image
+                    className="relative mb-4 inline-block w-max"
+                    width={1000}
+                    height={1000}
+                    src="/Autoquestionbuttons/ruautoquestion3.png"
+                    alt="ruautoquestion3"
+                  />
+                </Link>
+              </div>
             </div>
           </div>
         </div>
-        <div className="basis-1/5"></div>
       </div>
+      <div className="flex flex-row place-self-center pb-5">
+        <div className="basis-5/5">
+          <div className="my-5 space-y-6 rounded-3xl border-4 border-p2-orange p-6">
+            <div className="text-center text-sm font-semibold text-p1-darkgreen md:text-2xl">
+              Получай тематические карточки и получи Racepoints
+            </div>
 
-      <div className="flex flex-row pb-5">
-        <div className="basis-2/5"></div>
-        <div className="basis-1/5">
-          <button className="w-full rounded-xl border-2 border-p2-orange bg-p1-white px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
-            Карточки
-          </button>
+            <div className="flex flex-row place-content-center pb-5">
+              <div className="basis-3/5 scale-100 duration-500 hover:scale-125 hover:pt-8">
+                <Link
+                  href={{
+                    pathname: '/ruracepointcards',
+                    query: { ruabout: 'ruracepointcards' },
+                  }}
+                  className="mx-auto hover:drop-shadow-2xl"
+                >
+                  <Image
+                    className="relative mb-4 inline-block w-max"
+                    width={1000}
+                    height={1000}
+                    src="/Quizbuttons/CardsRacepoints.png"
+                    alt="CardsRacepoints"
+                  />
+                </Link>
+              </div>
+            </div>
+          </div>
         </div>
-        <div className="basis-2/5"></div>
       </div>
 
       <div className="flex flex-row pb-5">

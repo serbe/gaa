@@ -9,12 +9,12 @@ export default function Page() {
   return (
     <div className="mx-auto max-w-7xl font-serif">
       <div className="flex flex-wrap justify-between space-x-2 object-center px-2 pt-5 md:flex-nowrap">
-        <div className="p-2 text-center text-4xl font-semibold text-p1-gray">Collectors NFT</div>
-        <div className="p-2 text-center text-4xl font-semibold text-p1-gray">
+        <div className="p-2 text-center text-4xl font-semibold text-stone-500">Collectors NFT</div>
+        <div className="p-2 text-center text-4xl font-semibold text-stone-500">
           Страница создания NFT
         </div>
       </div>
-      <section className="mb-2 flex w-full min-w-96 flex-wrap space-x-2 rounded-3xl border-4 border-p1-gray bg-p1-white object-center p-2 shadow-lg md:flex-nowrap">
+      <section className="mb-2 flex w-full min-w-96 flex-wrap space-x-2 rounded-3xl border-4 border-stone-500 bg-p1-white object-center p-2 shadow-lg md:flex-nowrap">
         <div className="mb-4 w-full min-w-96 bg-p1-white">
           <div className="flex flex-row">
             <div className="mx-auto text-center md:text-xl lg:text-2xl">
@@ -28,7 +28,7 @@ export default function Page() {
                   <div className="grid grid-cols-3 gap-2">
                     <div className="m-1 place-items-center p-2">
                       <Image
-                        className="relative mb-4 inline-block w-max rounded-3xl border-2 border-p1-gray shadow-lg"
+                        className="relative mb-4 inline-block w-max rounded-3xl border-2 border-stone-500 shadow-lg"
                         width={1000}
                         height={1000}
                         src="/HeroNFT/Collectors/Collector1.png"
@@ -110,7 +110,7 @@ export default function Page() {
               </div>
 
               <div>
-                <button className="rounded-3xl border-2 border-p1-darkgreen bg-p2-white2 px-8 py-8 text-xl font-normal text-p1-darkgreen shadow-lg hover:bg-p1-gray hover:text-p1-white">
+                <button className="rounded-3xl border-2 border-p1-darkgreen bg-p2-white2 px-8 py-8 text-xl font-normal text-p1-darkgreen shadow-lg hover:bg-stone-500 hover:text-p1-white">
                   Сгенерировать изображение
                 </button>
 
@@ -283,7 +283,7 @@ export default function Page() {
                 </div>
                 <div className="pb-8"></div>
 
-                <button className="rounded-3xl border-2 border-p1-darkgreen bg-p2-white2 px-20 py-8 text-p1-darkgreen shadow-lg hover:bg-p1-gray hover:text-p1-white">
+                <button className="rounded-3xl border-2 border-p1-darkgreen bg-p2-white2 px-20 py-8 text-p1-darkgreen shadow-lg hover:bg-stone-500 hover:text-p1-white">
                   Создать NFT Коллекционера
                 </button>
                 <div className="pb-8"></div>

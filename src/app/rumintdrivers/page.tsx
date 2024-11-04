@@ -110,7 +110,7 @@ export default function Page() {
               </div>
 
               <div>
-                <button className="rounded-3xl border-2 border-p1-darkgreen bg-p2-white2 px-8 py-8 text-xl font-normal text-p1-darkgreen shadow-lg hover:bg-red-400 hover:text-p1-white">
+                <button className="rounded-3xl border-2 border-red-400 bg-p2-white2 px-8 py-8 text-xl font-normal text-p1-darkgreen shadow-lg hover:bg-red-400 hover:text-p1-white">
                   Сгенерировать изображение
                 </button>
 
@@ -315,7 +315,7 @@ export default function Page() {
                 </div>
                 <div className="pb-8"></div>
 
-                <button className="rounded-3xl border-2 border-p1-darkgreen bg-p2-white2 px-20 py-8 text-p1-darkgreen shadow-lg hover:bg-red-400 hover:text-p1-white">
+                <button className="rounded-3xl border-2 border-red-400 bg-p2-white2 px-20 py-8 text-p1-darkgreen shadow-lg hover:bg-red-400 hover:text-p1-white">
                   Создать NFT Гонщика
                 </button>
                 <div className="pb-8"></div>

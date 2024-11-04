@@ -53,7 +53,7 @@ export default function Page() {
       </div>
 
       <div className="m-5 rounded-3xl border-4 border-p1-darkgreen p-6 text-xl hover:border-p1-green hover:shadow-xl">
-        <div className="grid grid-cols-2 gap-4">
+        <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
           <div>
             <p className="pb-3 text-center text-p1-darkgreen">
               Если вы хотите продвигать свое мероприятие с помощью Web3, создавать награды NFT или
@@ -62,9 +62,12 @@ export default function Page() {
             <p className="pb-3 pt-5 text-center font-semibold text-p1-darkgreen">
               Нажмите кнопку ниже
             </p>
-            <button className="w-full rounded-3xl border-2 border-p1-darkgreen bg-p1-white px-10 py-8 text-xl text-p1-darkgreen shadow-sm shadow-p1-cyan hover:bg-p1-green hover:text-p1-white">
+            <a
+              href="/ruapplicationform"
+              className="inline-block w-full rounded-3xl border-2 border-p1-darkgreen bg-p1-white px-10 py-8 text-center text-p1-darkgreen shadow-lg hover:bg-p1-green hover:text-p1-white"
+            >
               Форма подачи заявки
-            </button>
+            </a>
           </div>
           <div>
             <div>

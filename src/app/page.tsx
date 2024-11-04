@@ -42,9 +42,12 @@ export default function Home() {
                 />
               </div>
               <div className="my-5">
-                <button className="rounded-xl border-2 border-p2-orange bg-p1-white px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
+                <a
+                  href="/rumint"
+                  className="inline-block rounded-xl border-2 border-p2-orange bg-p1-white px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white"
+                >
                   Создай NFT
-                </button>
+                </a>
               </div>
               <div className="my-5">
                 <label className="inline-flex cursor-pointer items-center">
@@ -80,11 +83,12 @@ export default function Home() {
             <div className="place-content-center p-8 text-center text-p1-darkgreen md:text-xl lg:text-2xl">
               <div className="pt-2">Сервис</div>
               <div className="pb-5">создания NFT наград на сайте</div>
-
-              <button className="rounded-xl border-2 border-p1-darkgreen bg-p1-white px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p1-green hover:text-p1-white">
+              <a
+                href="/ruapplicationform"
+                className="inline-block place-content-center rounded-xl border-2 border-p1-darkgreen bg-p1-white px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p1-green hover:text-p1-white"
+              >
                 Форма подачи заявки
-              </button>
-
+              </a>
               <div className="place-items-centre mt-5 grid grid-cols-3 gap-2 p-4">
                 <Image width={1000} height={1200} src="/Licenses/Promoter.png" alt="Promoter" />
 

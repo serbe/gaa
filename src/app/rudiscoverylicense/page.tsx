@@ -5,6 +5,7 @@ import { useState, useEffect, Dispatch, SetStateAction } from 'react';
 
 const num_license = (value: string | null) => {
   let num = 0;
+
   if (value == 'national') {
     num = 1;
   } else if (value == 'global') {
@@ -64,7 +65,7 @@ export default function Page(props: { children: React.ReactNode; params: Promise
   useEffect(() => {
     async function getProps() {
       const { license } = await props.params;
-      setLicense(num_license(license || 'promouter'));
+      setLicense(num_license(license || 'promoter'));
     }
     getProps();
   }, [props.params]);
@@ -72,7 +73,7 @@ export default function Page(props: { children: React.ReactNode; params: Promise
   return (
     <div className="mx-auto max-w-7xl font-serif">
       {/* //Promoter License */}
-      <div id="promouter" className={license == 0 ? '' : 'hidden'}>
+      <div id="promoter" className={license == 0 ? '' : 'hidden'}>
         <div className="flex flex-wrap justify-between space-x-2 object-center px-2 pt-5 md:flex-nowrap">
           <div className="p-2 text-4xl font-semibold text-amber-600">Promoter License NFT</div>
           <div className="p-2 text-4xl font-semibold text-amber-600">Страница исследователя</div>
@@ -96,9 +97,12 @@ export default function Page(props: { children: React.ReactNode; params: Promise
               </p>
 
               <div className="my-2 justify-self-center">
-                <button className="w-full rounded-3xl border-2 border-p1-darkgreen bg-p2-white2 px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p1-green hover:text-p1-white">
-                  Регистрационная форма заявки
-                </button>
+                <a
+                  href="/ruapplicationform"
+                  className="inline-block w-full place-content-center rounded-3xl border-2 border-yellow-800 bg-p2-white2 px-10 py-8 text-center text-p1-darkgreen shadow-lg hover:bg-yellow-800 hover:text-p1-white"
+                >
+                  Форма подачи заявки
+                </a>
               </div>
               <p className="my-2 rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-amber-600 hover:shadow-2xl">
                 При положительном решении Промоутеру (Организатору) предоставляется возможность
@@ -128,9 +132,12 @@ export default function Page(props: { children: React.ReactNode; params: Promise
                 <Buttons license={license} setter={setLicense} />
                 <div className="m-1 p-5">
                   <div className="justify-self-center">
-                    <button className="w-full rounded-3xl border-2 border-p1-darkgreen bg-p2-white2 px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
+                    <a
+                      href="/rulicense?license=promoter"
+                      className="inline-block w-full place-content-center rounded-3xl border-2 border-yellow-800 bg-p2-white2 px-10 py-8 text-center text-p1-darkgreen shadow-lg hover:bg-yellow-800 hover:text-p1-white"
+                    >
                       Страница создания NFT
-                    </button>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -173,9 +180,12 @@ export default function Page(props: { children: React.ReactNode; params: Promise
               </p>
 
               <div className="my-2 justify-self-center">
-                <button className="w-full rounded-3xl border-2 border-p1-darkgreen bg-p2-white2 px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p1-green hover:text-p1-white">
-                  Регистрационная форма заявки
-                </button>
+                <a
+                  href="/ruapplicationform"
+                  className="inline-block w-full place-content-center rounded-3xl border-2 border-p1-gray bg-p2-white2 px-10 py-8 text-center text-p1-darkgreen shadow-lg hover:bg-p1-gray hover:text-p1-white"
+                >
+                  Форма подачи заявки
+                </a>
               </div>
               <p className="my-2 rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-gray hover:shadow-2xl">
                 При положительном решении лидеру направления предоставляется возможность создания
@@ -205,9 +215,12 @@ export default function Page(props: { children: React.ReactNode; params: Promise
                 <Buttons license={license} setter={setLicense} />
                 <div className="m-1 p-5">
                   <div className="justify-self-center">
-                    <button className="w-full rounded-3xl border-2 border-p1-darkgreen bg-p2-white2 px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
+                    <a
+                      href="/rulicense?license=national"
+                      className="inline-block w-full place-content-center rounded-3xl border-2 border-p1-gray bg-p2-white2 px-10 py-8 text-center text-p1-darkgreen shadow-lg hover:bg-p1-gray hover:text-p1-white"
+                    >
                       Страница создания NFT
-                    </button>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -254,9 +267,12 @@ export default function Page(props: { children: React.ReactNode; params: Promise
               </p>
 
               <div className="my-2 justify-self-center">
-                <button className="w-full rounded-3xl border-2 border-p1-darkgreen bg-p2-white2 px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p1-green hover:text-p1-white">
-                  Регистрационная форма заявки
-                </button>
+                <a
+                  href="/ruapplicationform"
+                  className="inline-block w-full place-content-center rounded-3xl border-2 border-p2-orange bg-p2-white2 px-10 py-8 text-center text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white"
+                >
+                  Форма подачи заявки
+                </a>
               </div>
               <p className="my-2 rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p2-orange hover:shadow-2xl">
                 При положительном решении лидеру направления предоставляется возможность создания
@@ -285,9 +301,12 @@ export default function Page(props: { children: React.ReactNode; params: Promise
                 <Buttons license={license} setter={setLicense} />
                 <div className="m-1 p-5">
                   <div className="justify-self-center">
-                    <button className="w-full rounded-3xl border-2 border-p1-darkgreen bg-p2-white2 px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
+                    <a
+                      href="/rulicense?license=national"
+                      className="inline-block w-full place-content-center rounded-3xl border-2 border-p2-orange bg-p2-white2 px-10 py-8 text-center text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white"
+                    >
                       Страница создания NFT
-                    </button>
+                    </a>
                   </div>
                 </div>
               </div>
@@ -335,7 +354,7 @@ export default function Page(props: { children: React.ReactNode; params: Promise
           </div>
           <div></div>
           <div></div>
-          <div className="place-self-end">
+          <div className="z-50 place-self-end">
             <Image
               className="relative inline-block w-max"
               width={1000}
@@ -347,9 +366,12 @@ export default function Page(props: { children: React.ReactNode; params: Promise
 
           <div className="relative place-self-center">
             <div>
-              <button className="w-full rounded-3xl border-2 border-p1-darkgreen bg-p1-white px-2 py-5 text-sm text-p1-darkgreen shadow-sm shadow-p1-cyan hover:bg-p1-darkgreen hover:text-p1-white">
+              <a
+                href="/ruapplicationform"
+                className="inline-block place-content-center rounded-3xl border-2 border-p1-darkgreen bg-p2-white2 p-2 text-center text-p1-darkgreen shadow-lg hover:bg-p1-green hover:text-p1-white"
+              >
                 Форма подачи заявки
-              </button>
+              </a>
             </div>
           </div>
 

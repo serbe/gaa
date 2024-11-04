@@ -11,31 +11,32 @@ export default function Page() {
       <div className="pb-5 text-center text-4xl font-bold text-p1-darkgreen">
         by Global Automotive Association
       </div>
-      <div className="flex flex-wrap space-x-2 object-center px-2 pt-5 md:flex-nowrap">
-        <div className="mb-4 w-full min-w-96 rounded-3xl border-4 border-p2-orange bg-p1-white shadow-lg">
+      <div className="flex flex-wrap place-content-center px-2 pt-5 md:flex-nowrap">
+        <div className="w-3/5 min-w-96 rounded-3xl border-4 border-p2-orange bg-p1-white shadow-lg">
           <div className="place-self-center pt-5">
-            <Image
-              className="relative mb-4 inline-block w-max p-2"
-              width={100}
-              height={150}
-              src="/Licenses/Promoter.png"
-              alt="Promoter"
-            />
-            <Image
-              className="relative mb-4 inline-block w-max p-2"
-              width={100}
-              height={150}
-              src="/Licenses/National.png"
-              alt="National"
-            />
-            <Image
-              className="relative mb-4 inline-block w-max p-2"
-              width={100}
-              height={150}
-              src="/Licenses/Global.png"
-              alt="National"
-            />
-
+            <div className="place-self-center">
+              <Image
+                className="relative mb-4 inline-block w-max p-2"
+                width={100}
+                height={150}
+                src="/Licenses/Promoter.png"
+                alt="Promoter"
+              />
+              <Image
+                className="relative mb-4 inline-block w-max p-2"
+                width={100}
+                height={150}
+                src="/Licenses/National.png"
+                alt="National"
+              />
+              <Image
+                className="relative mb-4 inline-block w-max p-2"
+                width={100}
+                height={150}
+                src="/Licenses/Global.png"
+                alt="National"
+              />
+            </div>
             <p className="p-2 text-2xl font-semibold text-p1-darkgreen">
               Выберите лицензии, которые вы хотите получить
             </p>
@@ -809,7 +810,7 @@ export default function Page() {
               <div className="pb-2"></div>
 
               <div className="grid">
-                <button className="mx-auto w-11/12 justify-center rounded-3xl border-2 border-p1-darkgreen bg-p1-white px-10 py-8 text-xl text-p1-darkgreen shadow-sm shadow-p1-cyan hover:border-p2-orange hover:bg-p2-orange hover:text-p1-white">
+                <button className="mx-auto w-11/12 justify-center rounded-3xl border-2 border-p1-darkgreen bg-p1-white py-8 text-xl text-p1-darkgreen shadow-sm shadow-p1-cyan hover:border-p2-orange hover:bg-p2-orange hover:text-p1-white">
                   Отправить в GAA
                 </button>
               </div>
