@@ -1,7 +1,10 @@
+import { useGaaStore } from '@/providers/store-provider';
 import Image from 'next/image';
 import Link from 'next/link';
 
 export default function Page() {
+  const [{ setLicense }] = useGaaStore((state) => state);
+
   return (
     <div className="mx-auto max-w-7xl font-serif">
       <div className="pt-5 text-center text-6xl font-bold text-p1-darkgreen">RaceLads</div>
@@ -298,19 +301,15 @@ export default function Page() {
             Предоставляет доступ на страницу создания NFT наград
           </p>
           <Link
-            href={{
-              pathname: '/rudiscoverylicense',
-              query: { license: 'promoter' },
-            }}
+            href={'/rudiscoverylicense'}
+            onClick={() => setLicense(0)}
             className="rounded-l-xl border-2 border-p1-darkgreen bg-p2-white2 p-3 text-p1-darkgreen shadow-lg hover:bg-p1-darkgreen hover:text-p1-white focus:z-10 focus:bg-p2-orange focus:text-p1-white focus:ring-2 focus:ring-p2-orange dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange"
           >
             Исследуй NFT
           </Link>
           <Link
-            href={{
-              pathname: '/rulicense',
-              query: { license: 'promoter' },
-            }}
+            href={'/rulicense'}
+            onClick={() => setLicense(0)}
             className="rounded-r-xl border-2 border-p1-darkgreen bg-p2-white2 p-3 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white focus:z-10 focus:bg-p2-orange focus:text-p1-white focus:ring-2 focus:ring-p2-orange dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange"
           >
             Cоздай NFT
@@ -329,19 +328,15 @@ export default function Page() {
             Предоставляет право голоса по развитию GAA на национальном и локальном уровнях
           </p>
           <Link
-            href={{
-              pathname: '/rudiscoverylicense',
-              query: { license: 'national' },
-            }}
+            href={'/rudiscoverylicense'}
+            onClick={() => setLicense(1)}
             className="rounded-l-xl border-2 border-p1-darkgreen bg-p2-white2 p-3 text-p1-darkgreen shadow-lg hover:bg-p1-darkgreen hover:text-p1-white focus:z-10 focus:bg-p2-orange focus:text-p1-white focus:ring-2 focus:ring-p2-orange dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange"
           >
             Исследуй NFT
           </Link>
           <Link
-            href={{
-              pathname: '/rulicense',
-              query: { license: 'national' },
-            }}
+            href={'/rulicense'}
+            onClick={() => setLicense(1)}
             className="rounded-r-xl border-2 border-p1-darkgreen bg-p2-white2 p-3 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white focus:z-10 focus:bg-p2-orange focus:text-p1-white focus:ring-2 focus:ring-p2-orange dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange"
           >
             Cоздай NFT
@@ -362,19 +357,15 @@ export default function Page() {
             Предоставляет право голоса по развитию GAA на международном уровне
           </p>
           <Link
-            href={{
-              pathname: '/rudiscoverylicense',
-              query: { license: 'global' },
-            }}
+            href={'/rudiscoverylicense'}
+            onClick={() => setLicense(2)}
             className="rounded-l-xl border-2 border-p1-darkgreen bg-p2-white2 p-3 text-p1-darkgreen shadow-lg hover:bg-p1-darkgreen hover:text-p1-white focus:z-10 focus:bg-p2-orange focus:text-p1-white focus:ring-2 focus:ring-p2-orange dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange"
           >
             Исследуй NFT
           </Link>
           <Link
-            href={{
-              pathname: '/rulicense',
-              query: { license: 'global' },
-            }}
+            href={'/rulicense'}
+            onClick={() => setLicense(2)}
             className="rounded-r-xl border-2 border-p1-darkgreen bg-p2-white2 p-3 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white focus:z-10 focus:bg-p2-orange focus:text-p1-white focus:ring-2 focus:ring-p2-orange dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange"
           >
             Cоздай NFT

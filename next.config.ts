@@ -5,6 +5,9 @@ const nextConfig: NextConfig = {
   //   locales: ['en-US', 'ru'],
   //   defaultLocale: 'en-US',
   // },
+  // experimental: {
+  //   typedRoutes: true,
+  // },
 };
 
 export default nextConfig;

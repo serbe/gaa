@@ -4,6 +4,7 @@ import './globals.css';
 import Header from '@/components/header';
 import Nav from '@/components/nav';
 import Footer from '@/components/footer';
+import { GaaStoreProvider } from '@/providers/store-provider';
 
 const inter = Roboto_Serif({
   weight: ['100', '300', '400', '500', '700', '900'],
@@ -26,10 +27,12 @@ export default function RootLayout({ children }: Readonly<Props>) {
     <html lang="en">
       <body className="scroll-smooth">
         <div className={inter.className}>
-          <Header />
-          <Nav />
-          <main className="mx-auto min-h-screen bg-p1-white">{children}</main>
-          <Footer />
+          <GaaStoreProvider>
+            <Header />
+            <Nav />
+            <main className="mx-auto min-h-screen bg-p1-white">{children}</main>
+            <Footer />
+          </GaaStoreProvider>
         </div>
       </body>
     </html>

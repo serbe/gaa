@@ -1,27 +1,14 @@
 'use client';
 
+import { useGaaStore } from '@/providers/store-provider';
 import Image from 'next/image';
-import { useState, useEffect, Dispatch, SetStateAction } from 'react';
-
-const num_license = (value: string | null) => {
-  let num = 0;
-
-  if (value == 'national') {
-    num = 1;
-  } else if (value == 'global') {
-    num = 2;
-  }
-  return num;
-};
-
-type Params = Promise<{ license: string }>;
 
 const Buttons = ({
   license,
   setter,
 }: {
   license: number;
-  setter: Dispatch<SetStateAction<number>>;
+  setter: (licenseNumber: number) => void;
 }) => {
   return (
     <div className="inline-flex w-full justify-self-center rounded-md pt-5 shadow-sm" role="group">
@@ -59,16 +46,8 @@ const Buttons = ({
   );
 };
 
-export default function Page(props: { children: React.ReactNode; params: Promise<Params> }) {
-  const [license, setLicense] = useState(0);
-
-  useEffect(() => {
-    async function getProps() {
-      const { license } = await props.params;
-      setLicense(num_license(license || 'promoter'));
-    }
-    getProps();
-  }, [props.params]);
+export default function Page() {
+  const [{ license, setLicense }] = useGaaStore((state) => state);
 
   return (
     <div className="mx-auto max-w-7xl font-serif">

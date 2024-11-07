@@ -1,7 +1,11 @@
+'use client';
+
+import { useGaaStore } from '@/providers/store-provider';
 import Image from 'next/image';
 import Link from 'next/link';
 
 export default function Page() {
+  const [{ setLider }] = useGaaStore((state) => state);
   return (
     <div className="mx-auto max-w-7xl font-serif">
       {/* //Cars*/}
@@ -53,37 +57,29 @@ export default function Page() {
               role="group"
             >
               <Link
-                href={{
-                  pathname: '/rudiscoveryliders',
-                  query: { liders: 'drivers' },
-                }}
+                href={'/rudiscoveryliders'}
+                onClick={() => setLider(0)}
                 className="w-full rounded-l-2xl border border-gray-200 bg-white p-5 text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-red-400 focus:text-p1-white focus:ring-2 focus:ring-red-400 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p1-green"
               >
                 Drivers
               </Link>
               <Link
-                href={{
-                  pathname: '/rudiscoveryliders',
-                  query: { liders: 'Team&apos;s Members' },
-                }}
+                href={'/rudiscoveryliders'}
+                onClick={() => setLider(1)}
                 className="w-full border border-gray-200 bg-white p-5 text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-p3-blue focus:text-p1-white focus:ring-2 focus:ring-p3-blue dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-stone-500"
               >
                 Team&apos;s Members
               </Link>
               <Link
-                href={{
-                  pathname: '/rudiscoveryliders',
-                  query: { liders: 'collectors' },
-                }}
+                href={'/rudiscoveryliders'}
+                onClick={() => setLider(2)}
                 className="w-full border border-gray-200 bg-white p-5 text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-stone-500 focus:text-p1-white focus:ring-2 focus:ring-stone-500 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-stone-500"
               >
                 Collectors
               </Link>
               <Link
-                href={{
-                  pathname: '/rudiscoverycars',
-                  query: { liders: 'cars' },
-                }}
+                href={'/rudiscoverycars'}
+                onClick={() => setLider(3)}
                 className="w-full rounded-r-2xl border border-gray-200 bg-white p-5 text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-cyan-700 focus:text-p1-white focus:ring-2 focus:ring-cyan-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange"
               >
                 Cars
