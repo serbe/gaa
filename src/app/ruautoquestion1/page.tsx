@@ -1,5 +1,3 @@
-import Image from 'next/image';
-
 export default function Page() {
   return (
     <div className="mx-auto max-w-7xl font-serif">
@@ -15,26 +13,18 @@ export default function Page() {
 
       <div className="flex flex-row">
         <div className="w-1/5"></div>
-        <div className="w-3/5">
-       
-        </div>
+        <div className="w-3/5"></div>
       </div>
-
-     
 
       <div className="flex flex-row pb-5">
         <div className="w-1/5"></div>
         <div className="w-3/5">
           <div className="my-5 place-items-center rounded-3xl border-4 border-p2-orange p-6">
             <div className="text-center font-serif text-2xl font-semibold text-p1-darkgreen">
-Кто основал гонки на открытых колесах Формула-1?            </div>
+              Кто основал гонки на открытых колесах Формула-1?{' '}
+            </div>
 
             <div className="pb-5"></div>
-
-
-
-          
-
 
             <ul className="w-full rounded-lg border border-gray-200 bg-p1-white text-2xl font-medium text-gray-900 dark:border-gray-600 dark:bg-gray-700 dark:text-white">
               <li className="w-full rounded-t-lg border-b border-gray-200 dark:border-gray-600">
@@ -50,7 +40,7 @@ export default function Page() {
                     htmlFor="list-radio-eleven"
                     className="ms-4 w-full py-3 font-serif text-2xl text-p1-darkgreen dark:text-gray-300"
                   >
-Берни Экклстоун
+                    Берни Экклстоун
                   </label>
                 </div>
               </li>
@@ -67,7 +57,7 @@ export default function Page() {
                     htmlFor="list-radio-twelve"
                     className="ms-4 w-full py-3 font-serif text-2xl text-p1-darkgreen dark:text-gray-300"
                   >
-Жан-Мари Балестр и FIA 
+                    Жан-Мари Балестр и FIA
                   </label>
                 </div>
               </li>
@@ -84,7 +74,7 @@ export default function Page() {
                     htmlFor="list-radio-thirteen"
                     className="ms-4 w-full py-3 font-serif text-2xl text-p1-darkgreen dark:text-gray-300"
                   >
-                  Король Англии Георг VI
+                    Король Англии Георг VI
                   </label>
                 </div>
               </li>
@@ -101,11 +91,10 @@ export default function Page() {
                     htmlFor="list-radio-fourteen"
                     className="ms-4 w-full py-3 font-serif text-2xl text-p1-darkgreen dark:text-gray-300"
                   >
-Королева Англии Елизавета II
+                    Королева Англии Елизавета II
                   </label>
                 </div>
               </li>
-
             </ul>
             <div className="pb-5"></div>
 
@@ -118,15 +107,31 @@ export default function Page() {
         </div>
       </div>
       <div>
-       <p className="pb-5">Берни Экклстоун — хотя он не стоял у истоков, Берни Экклстоун сделал Формулу-1 глобальной и коммерчески успешной. Он фактически реформировал спорт и стал влиятельной фигурой, сделав Ф1 массовым зрелищем и организовав трансляции гонок по всему миру.</p>
-      <p className="pb-5 font-semibold">Жан-Мари Балестр и FIA — официально первые чемпионаты мира Формулы-1 были организованы Международной автомобильной федерацией (FIA) под руководством её президента Жана-Мари Балестра. Формула-1 как чемпионат мира была учреждена FIA в 1950 году.</p>
-     <p className="pb-5">Формула-1 выросла из множества национальных и международных гонок 1930-х годов, когда автомобильные клубы Европы, включая британский RAC и итальянский ACI, стали проводить гонки на открытых трассах.</p>
-      <p className="pb-5">некоторые считают, что Формула-1 образовалась благодаря владельцам команд, которые договорились о стандартизации правил и форматов гонок.</p>
-      <p className="pb-5">король Англии Георга VI,  правил с 1936 года В 1952 году, через два года после первого чемпионата Формулы-1, Георг VI умер, и его старшая дочь, принцесса Елизавета, стала королевой Елизаветой II.</p>
+        <p className="pb-5">
+          Берни Экклстоун — хотя он не стоял у истоков, Берни Экклстоун сделал Формулу-1 глобальной
+          и коммерчески успешной. Он фактически реформировал спорт и стал влиятельной фигурой,
+          сделав Ф1 массовым зрелищем и организовав трансляции гонок по всему миру.
+        </p>
+        <p className="pb-5 font-semibold">
+          Жан-Мари Балестр и FIA — официально первые чемпионаты мира Формулы-1 были организованы
+          Международной автомобильной федерацией (FIA) под руководством её президента Жана-Мари
+          Балестра. Формула-1 как чемпионат мира была учреждена FIA в 1950 году.
+        </p>
+        <p className="pb-5">
+          Формула-1 выросла из множества национальных и международных гонок 1930-х годов, когда
+          автомобильные клубы Европы, включая британский RAC и итальянский ACI, стали проводить
+          гонки на открытых трассах.
+        </p>
+        <p className="pb-5">
+          некоторые считают, что Формула-1 образовалась благодаря владельцам команд, которые
+          договорились о стандартизации правил и форматов гонок.
+        </p>
+        <p className="pb-5">
+          король Англии Георга VI, правил с 1936 года В 1952 году, через два года после первого
+          чемпионата Формулы-1, Георг VI умер, и его старшая дочь, принцесса Елизавета, стала
+          королевой Елизаветой II.
+        </p>
       </div>
-
-
     </div>
-    
   );
 }

@@ -1,5 +1,3 @@
-import Image from 'next/image';
-
 export default function Page() {
   return (
     <div className="mx-auto max-w-7xl font-serif">
