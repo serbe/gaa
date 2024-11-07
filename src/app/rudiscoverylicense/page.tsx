@@ -100,9 +100,9 @@ export default function Page() {
               <div className="pb-5"></div>
             </div>
             <div className="m-1 place-items-center p-2">
-              <div>
+              <div className="md:w-96">
                 <Image
-                  className="relative inline-block w-max rounded-3xl border-2 border-p2-orange shadow-lg"
+                  className="relative inline-block w-max rounded-3xl border-2 border-p2-orange shadow-lg md:w-full"
                   width={4000}
                   height={4000}
                   src="/Licenses/Promoter Lic.png"
@@ -183,9 +183,9 @@ export default function Page() {
               <div className="pb-5"></div>
             </div>
             <div className="m-1 place-items-center p-2">
-              <div>
+              <div className="md:w-96">
                 <Image
-                  className="relative inline-block w-max rounded-3xl border-2 border-p2-orange shadow-lg"
+                  className="relative inline-block rounded-3xl border-2 border-p2-orange shadow-lg md:w-full"
                   width={4000}
                   height={4000}
                   src="/Licenses/National Lic.png"
@@ -269,9 +269,9 @@ export default function Page() {
               <div className="pb-5"></div>
             </div>
             <div className="m-1 place-items-center p-2">
-              <div>
+              <div className="md:w-96">
                 <Image
-                  className="relative inline-block w-max rounded-3xl border-2 border-p2-orange shadow-lg"
+                  className="relative inline-block rounded-3xl border-2 border-p2-orange shadow-lg md:w-full"
                   width={2000}
                   height={2000}
                   src="/Licenses/Global Lic.png"

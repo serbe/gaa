@@ -87,9 +87,12 @@ export default function Page() {
             </div>
             <div className="col-span-2 col-start-1 row-span-1 m-1 place-self-center p-5">
               <div className="">
-                <button className="w-full rounded-3xl border-2 border-p1-darkgreen bg-p2-white2 px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
+                <a
+                  href="/rumintracelads"
+                  className="inline-block w-full rounded-3xl border-2 border-p1-darkgreen bg-p2-white2 px-10 py-8 text-center text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white"
+                >
                   Страница создания NFT
-                </button>
+                </a>
               </div>
             </div>
           </div>
