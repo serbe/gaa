@@ -135,13 +135,7 @@ export default function Page() {
             <div className="flex flex-row pb-5">
               <div className="basis-1/12"></div>
               <div className="basis-4/6 scale-95 duration-500 hover:scale-100">
-                <Link
-                  href={{
-                    pathname: '/ruquize',
-                    query: { ruabout: 'ruquize' },
-                  }}
-                  className="mx-auto justify-center hover:drop-shadow-2xl"
-                >
+                <Link href={'/ruquize'} className="mx-auto justify-center hover:drop-shadow-2xl">
                   <Image
                     className="relative mb-4 inline-block w-max"
                     width={1000}
@@ -153,13 +147,7 @@ export default function Page() {
               </div>
 
               <div className="basis-3/5 scale-95 duration-500 hover:scale-100">
-                <Link
-                  href={{
-                    pathname: '/ruquize',
-                    query: { ruabout: 'ruquize' },
-                  }}
-                  className="mx-auto justify-center hover:drop-shadow-2xl"
-                >
+                <Link href={'/ruquize'} className="mx-auto justify-center hover:drop-shadow-2xl">
                   <Image
                     className="relative mb-4 inline-block w-max"
                     width={1000}
@@ -170,13 +158,7 @@ export default function Page() {
                 </Link>
               </div>
               <div className="basis-3/5 scale-95 duration-500 hover:scale-100">
-                <Link
-                  href={{
-                    pathname: '/ruquize',
-                    query: { ruabout: 'ruquize' },
-                  }}
-                  className="mx-auto justify-center hover:drop-shadow-2xl"
-                >
+                <Link href={'/ruquize'} className="mx-auto justify-center hover:drop-shadow-2xl">
                   <Image
                     className="relative mb-4 inline-block w-max"
                     width={1000}
@@ -187,13 +169,7 @@ export default function Page() {
                 </Link>
               </div>
               <div className="basis-3/5 scale-95 duration-500 hover:scale-100">
-                <Link
-                  href={{
-                    pathname: '/ruquize',
-                    query: { ruabout: 'ruquize' },
-                  }}
-                  className="mx-auto justify-center hover:drop-shadow-2xl"
-                >
+                <Link href={'/ruquize'} className="mx-auto justify-center hover:drop-shadow-2xl">
                   <Image
                     className="relative mb-4 inline-block w-max"
                     width={1000}
@@ -221,10 +197,7 @@ export default function Page() {
             <div className="flex flex-row pb-5">
               <div className="basis-3/5 scale-95 duration-500 hover:scale-100">
                 <Link
-                  href={{
-                    pathname: '/ruautoquestion1',
-                    query: { ruabout: 'ruautoquestion1' },
-                  }}
+                  href={'/ruautoquestion1'}
                   className="mx-auto justify-center hover:drop-shadow-2xl"
                 >
                   <Image
@@ -239,10 +212,7 @@ export default function Page() {
 
               <div className="basis-3/5 scale-95 duration-500 hover:scale-100">
                 <Link
-                  href={{
-                    pathname: '/ruautoquestion2',
-                    query: { ruabout: 'ruautoquestion2' },
-                  }}
+                  href={'/ruautoquestion2'}
                   className="mx-auto justify-center hover:drop-shadow-2xl"
                 >
                   <Image
@@ -256,10 +226,7 @@ export default function Page() {
               </div>
               <div className="basis-3/5 scale-95 duration-500 hover:scale-100">
                 <Link
-                  href={{
-                    pathname: '/ruautoquestion3',
-                    query: { ruabout: 'ruautoquestion3' },
-                  }}
+                  href={'/ruautoquestion3'}
                   className="mx-auto justify-center hover:drop-shadow-2xl"
                 >
                   <Image
@@ -284,13 +251,7 @@ export default function Page() {
 
             <div className="flex flex-row place-content-center pb-5">
               <div className="basis-3/5 scale-100 duration-500 hover:scale-125 hover:pt-8">
-                <Link
-                  href={{
-                    pathname: '/ruracepointcards',
-                    query: { ruabout: 'ruracepointcards' },
-                  }}
-                  className="mx-auto hover:drop-shadow-2xl"
-                >
+                <Link href={'/ruracepointcards'} className="mx-auto hover:drop-shadow-2xl">
                   <Image
                     className="relative mb-4 inline-block w-max"
                     width={1000}
