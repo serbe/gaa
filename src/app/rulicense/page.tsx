@@ -1,24 +1,15 @@
 'use client';
 
 import Image from 'next/image';
-import { Dispatch, SetStateAction, Suspense, useEffect, useState } from 'react';
-
-const num_license = (value: string | null) => {
-  let num = 0;
-  if (value == 'national') {
-    num = 1;
-  } else if (value == 'global') {
-    num = 2;
-  }
-  return num;
-};
+import { useGaaStore } from '@/providers/store-provider';
+import { Suspense, useState } from 'react';
 
 const Buttons = ({
   license,
   setter,
 }: {
   license: number;
-  setter: Dispatch<SetStateAction<number>>;
+  setter: (licenseNumber: number) => void;
 }) => {
   return (
     <div className="inline-flex space-x-0 rounded-md font-serif shadow-sm" role="group">
@@ -62,19 +53,9 @@ const Buttons = ({
   );
 };
 
-type Params = Promise<{ license: string }>;
-
-export default function Page(props: { children: React.ReactNode; params: Promise<Params> }) {
-  const [license, setLicense] = useState(0);
+export default function Page() {
+  const [{ license, setLicense }] = useGaaStore((state) => state);
   const [value, setValue] = useState('0');
-
-  useEffect(() => {
-    async function getProps() {
-      const { license } = await props.params;
-      setLicense(num_license(license || 'promouter'));
-    }
-    getProps();
-  }, [props.params]);
 
   return (
     <Suspense>
