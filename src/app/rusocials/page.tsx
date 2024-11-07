@@ -267,7 +267,7 @@ export default function Page() {
           className="mb-2 me-2 inline-flex items-center rounded-lg bg-[#050708] px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-[#050708]/90 focus:outline-none focus:ring-4 focus:ring-[#050708]/50 dark:hover:bg-[#050708]/30 dark:focus:ring-[#050708]/50"
         >
           <svg
-            className="-ms-1 me-2 h-5 w-5"
+            className="-ms-1 me-2 h-10 w-10"
             aria-hidden="true"
             focusable="false"
             data-prefix="fab"
