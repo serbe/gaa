@@ -75,9 +75,7 @@ export default function Page() {
           <p className="pt-2 text-base text-p1-darkgreen">
             Пилоты гоночных автомобилей и болидов, присоединившиеся
           </p>
-          <p className="pb-2 text-base text-p1-darkgreen">
-             к Web3
-          </p>
+          <p className="pb-2 text-base text-p1-darkgreen">к Web3</p>
           <div className="py-5">
             <Link
               href={{
@@ -108,12 +106,8 @@ export default function Page() {
             alt="TeamMember1"
           />
           <p className="text-2xl text-p1-darkgreen">Team&apos;s Members</p>
-          <p className="pt-2 text-base text-p1-darkgreen">
-            Участники команд, присоединившиеся 
-          </p>
-          <p className="pb-2 text-base text-p1-darkgreen">
-             к Web3
-          </p>
+          <p className="pt-2 text-base text-p1-darkgreen">Участники команд, присоединившиеся</p>
+          <p className="pb-2 text-base text-p1-darkgreen">к Web3</p>
           <div className="py-5">
             <Link
               href={{
