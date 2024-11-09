@@ -82,10 +82,11 @@ export default function Page() {
 
                       <div className="flex flex-wrap justify-center md:flex-nowrap">
                         <div className="w-full md:w-1/3">
-                          <div className="place-self-center md:pb-5 md:pt-5">
-                            Созданные вами NFT автоматически попадут в глобальную коллекцию GAA
-                          </div>
-                          <div>
+                          <div className="place-self-center text-p1-darkgreen md:pb-5 md:pt-5">
+                            <p>
+                              Созданные вами NFT автоматически попадут в глобальную коллекцию GAA
+                            </p>
+
                             <p>это объединенная коллекция мирового сообщества</p>
                           </div>
                         </div>
@@ -101,8 +102,8 @@ export default function Page() {
                           </div>
                           <Buttons license={license} setter={setLicense} />
                         </div>
-                        <div className="w-full md:w-1/3">
-                          <p className="pt-5">Доступно для:</p>
+                        <div className="w-full pt-5 text-p1-darkgreen md:w-1/3">
+                          <p>Доступно для:</p>
                           <p>Nacional Licence NFT</p>
                           <p>Global Licence NFT</p>
                           <p>Management GAA</p>
@@ -169,10 +170,11 @@ export default function Page() {
 
                       <div className="flex flex-wrap justify-center md:flex-nowrap">
                         <div className="w-full md:w-1/3">
-                          <div className="place-self-center md:pb-5 md:pt-5">
-                            Созданные вами NFT автоматически попадут в глобальную коллекцию GAA
-                          </div>
-                          <div>
+                          <div className="place-self-center text-p1-darkgreen md:pb-5 md:pt-5">
+                            <p>
+                              Созданные вами NFT автоматически попадут в глобальную коллекцию GAA
+                            </p>
+
                             <p>это объединенная коллекция мирового сообщества</p>
                           </div>
                         </div>
@@ -188,8 +190,8 @@ export default function Page() {
                           </div>
                           <Buttons license={license} setter={setLicense} />
                         </div>
-                        <div className="w-full md:w-1/3">
-                          <p className="pt-5">Доступно для:</p>
+                        <div className="w-full pt-5 text-p1-darkgreen md:w-1/3">
+                          <p>Доступно для:</p>
                           <p>Global Licence NFT</p>
                           <p>Management GAA</p>
                           <p className="pt-5">
@@ -238,10 +240,11 @@ export default function Page() {
 
                       <div className="flex flex-wrap justify-center md:flex-nowrap">
                         <div className="w-full md:w-1/3">
-                          <div className="place-self-center md:pb-5 md:pt-5">
-                            Созданные вами NFT автоматически попадут в глобальную коллекцию GAA
-                          </div>
-                          <div>
+                          <div className="place-self-center text-p1-darkgreen md:pb-5 md:pt-5">
+                            <p>
+                              Созданные вами NFT автоматически попадут в глобальную коллекцию GAA
+                            </p>
+
                             <p>это объединенная коллекция мирового сообщества</p>
                           </div>
                         </div>
@@ -257,8 +260,8 @@ export default function Page() {
                           </div>
                           <Buttons license={license} setter={setLicense} />
                         </div>
-                        <div className="w-full md:w-1/3">
-                          <p className="pt-5">Доступно для:</p>
+                        <div className="w-full pt-5 text-p1-darkgreen md:w-1/3">
+                          <p>Доступно для:</p>
 
                           <p>Management GAA</p>
                           <p className="pt-5">

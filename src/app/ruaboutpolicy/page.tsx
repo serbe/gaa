@@ -1,11 +1,11 @@
 export default function Page() {
   return (
     <div className="mx-auto flex max-w-7xl font-serif">
-      <div className="p-10 text-xl">
-        <div className="text-center text-6xl font-bold text-p1-darkgreen drop-shadow-2xl">
+      <div className="p-2 text-xl md:p-10">
+        <div className="text-center text-3xl font-bold text-p1-darkgreen md:pt-2 md:text-6xl">
           Политика конфиденциальности
         </div>
-        <div className="my-5 rounded-3xl border-4 border-p1-darkgreen p-6 text-p1-darkgreen hover:border-p2-orange hover:shadow-xl">
+        <div className="rounded-3xl border-p1-darkgreen p-2 text-base text-p1-darkgreen hover:border-p1-gray hover:shadow-xl md:my-5 md:border-4 md:p-6 md:text-xl">
           <div className="pb-3 text-center font-bold">
             Политика в отношении обработки персональных данных
           </div>
@@ -375,13 +375,13 @@ export default function Page() {
             Администрация: Децентрализованная автономная организация Global Automotive Association
           </div>
         </div>
-        <div className="text-center text-6xl font-bold text-p1-darkgreen drop-shadow-2xl">
+        <div className="text-center text-3xl font-bold text-p1-darkgreen md:pt-2 md:text-6xl">
           Политика конфиденциальности
         </div>
-        <div className="text-center text-6xl font-bold text-p1-darkgreen drop-shadow-2xl">
+        <div className="text-center text-3xl font-bold text-p1-darkgreen md:pt-2 md:text-6xl">
           Cookie
         </div>
-        <div className="my-5 rounded-3xl border-4 border-p1-darkgreen p-6 text-p1-darkgreen hover:border-p2-orange hover:shadow-xl">
+        <div className="rounded-3xl border-p1-darkgreen p-2 text-base text-p1-darkgreen hover:border-p1-gray hover:shadow-xl md:my-5 md:border-4 md:p-6 md:text-xl">
           <div className="pb-3 text-center font-bold">Уведомление об использовании Cookie</div>
           <div className="pb-5">
             Настройка блока, который позволяет посетителям выбирать и управлять Cookie-файлами на
