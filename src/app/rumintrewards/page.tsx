@@ -7,19 +7,21 @@ export default function Page() {
 
   return (
     <div className="mx-auto max-w-7xl font-serif">
-      <div className="flex flex-wrap justify-between space-x-2 object-center px-2 pt-5 md:flex-nowrap">
-        <div className="p-2 text-center text-4xl font-semibold text-p2-orange">Rewards NFT</div>
-        <div className="p-2 text-center text-4xl font-semibold text-p2-orange">
+      <div className="flex flex-wrap justify-center self-center md:flex-nowrap md:justify-between">
+        <div className="px-2 text-xl font-semibold text-p2-orange md:pt-2 md:text-3xl">
+          Rewards NFT
+        </div>
+        <div className="px-2 text-xl font-semibold text-p2-orange md:pt-2 md:text-3xl">
           Страница создания NFT
         </div>
       </div>
-      <section className="mb-2 flex w-full min-w-96 flex-wrap space-x-2 rounded-3xl border-4 border-p2-orange bg-p1-white object-center p-2 shadow-lg md:flex-nowrap">
-        <div className="mb-4 w-full min-w-96 bg-p1-white">
+      <section className="mb-2 flex w-full min-w-96 flex-wrap rounded-3xl border-p2-orange bg-p1-white object-center p-2 shadow-lg md:flex-nowrap md:border-4">
+        <div className="w-full min-w-96 bg-p1-white">
           <div className="flex flex-row">
             <div className="mx-auto text-center md:text-xl lg:text-2xl">
-              <div className="flex flex-wrap justify-center space-x-2 px-2 pt-5 md:flex-nowrap">
+              <div className="flex flex-wrap justify-center px-2 md:flex-nowrap">
                 <div>
-                  <div className="text-center text-2xl font-semibold text-p1-darkgreen">
+                  <div className="text-center text-base font-semibold text-p1-darkgreen md:text-xl">
                     <p>Присоединяйтесь к нам</p>
                     <p>Создай NFT Награды</p>
                   </div>
@@ -150,25 +152,33 @@ export default function Page() {
               </div>
 
               <div>
-                <p className="pb-8 pt-8 text-2xl font-normal text-p1-darkgreen">
+                <p className="pb-8 pt-8 text-center text-base text-p1-darkgreen md:text-xl">
                   Добавьте медиаконтент о победителе
                 </p>
 
-                <p className="p-2 text-2xl font-semibold text-p1-darkgreen">
+                <p className="text-center text-base font-semibold text-p1-darkgreen md:text-xl">
                   Созданные Вами NFT автоматически попадут в глобальную коллекцию GAA
                 </p>
-                <p className="p-5 text-2xl font-semibold text-p1-darkgreen">
+                <p className="text-center text-base font-semibold text-p1-darkgreen md:text-xl">
                   это единый сборник мирового сообщества
                 </p>
-                <p className="pt-2 text-2xl font-semibold text-p1-darkgreen">
+                <p className="text-center text-base font-semibold text-p1-darkgreen md:text-xl">
                   Доступно для держателей NFT:
                 </p>
-                <p className="text-2xl font-semibold text-p1-darkgreen">Promoter license</p>
-                <p className="text-2xl font-semibold text-p1-darkgreen">National license</p>
-                <p className="text-2xl font-semibold text-p1-darkgreen">Global license</p>
-                <p className="text-2xl font-semibold text-p1-darkgreen">Management GAA</p>
+                <p className="px-2 text-center text-base font-semibold text-p1-darkgreen md:text-xl">
+                  Promoter license
+                </p>
+                <p className="px-2 text-center text-base font-semibold text-p1-darkgreen md:text-xl">
+                  National license
+                </p>
+                <p className="text-center text-base font-semibold text-p1-darkgreen md:text-xl">
+                  Global license
+                </p>
+                <p className="text-center text-base font-semibold text-p1-darkgreen md:text-xl">
+                  Management GAA
+                </p>
 
-                <p className="p-5 text-2xl font-semibold text-p1-darkgreen">
+                <p className="p-5 text-center text-base font-semibold text-p1-darkgreen md:text-xl">
                   Это Ваш способ привлечения инвестиций
                 </p>
               </div>
@@ -181,7 +191,7 @@ export default function Page() {
             <div>
               <div className="flex w-full flex-col place-self-center p-5">
                 <div>
-                  <p className="text-left text-2xl text-p1-darkgreen">
+                  <p className="text-left text-xl text-p1-darkgreen md:text-2xl">
                     Заполни все поля - эти метаданные будут храниться в блокчейне
                   </p>
                 </div>
@@ -490,7 +500,7 @@ export default function Page() {
                 </div>
                 <div className="pb-8"></div>
 
-                <button className="rounded-3xl border-2 border-p1-darkgreen bg-p2-white2 px-20 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
+                <button className="rounded-3xl border-2 border-p2-orange bg-p2-white2 px-20 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
                   Создать NFT Награды
                 </button>
                 <div className="pb-8"></div>

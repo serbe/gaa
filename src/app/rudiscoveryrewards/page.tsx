@@ -5,40 +5,44 @@ export default function Page() {
   return (
     <div className="mx-auto max-w-7xl font-serif">
       {/* //Rewards*/}
-      <div className="flex flex-wrap justify-between space-x-2 object-center px-2 pt-5 md:flex-nowrap">
-        <div className="p-2 text-4xl font-semibold text-p1-darkgreen">Rewards NFT</div>
-        <div className="p-2 text-4xl font-semibold text-p1-darkgreen">Страница исследователя</div>
+      <div className="flex flex-wrap justify-center self-center md:flex-nowrap md:justify-between">
+        <div className="px-2 text-xl font-semibold text-p1-darkgreen md:pt-2 md:text-3xl">
+          Rewards NFT
+        </div>
+        <div className="px-2 text-xl font-semibold text-p1-darkgreen md:pt-2 md:text-3xl">
+          Страница исследователя
+        </div>
       </div>
-      <div className="m-5 rounded-3xl border-4 border-p1-darkgreen hover:border-p1-gray hover:shadow-lg">
-        <div className="flex flex-wrap justify-center space-x-2 px-2 pt-5 md:flex-nowrap">
+      <div className="rounded-3xl border-p1-darkgreen hover:border-p1-gray md:border-4 md:shadow-lg">
+        <div className="flex flex-wrap justify-center px-2 pt-2 md:flex-nowrap">
           <div>
-            <p className="my-2 rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-gray hover:shadow-2xl">
+            <p className="p-2 text-base text-p1-darkgreen md:text-xl">
               Невзаимозаменяемый токен (NFT награда), вручаемая Промоутером (Организатором) в рамках
               мероприятия (соревнования)
             </p>
-            <p className="my-2 rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-gray hover:shadow-2xl">
+            <p className="p-2 text-base text-p1-darkgreen md:text-xl">
               Rewards NFT можно коллекционировать, продавать, передавать
             </p>
-            <p className="my-2 rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-gray hover:shadow-2xl">
+            <p className="p-2 text-base text-p1-darkgreen md:text-xl">
               При создании NFT прикрепляется медиаконтент
             </p>
-            <p className="my-2 rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-gray hover:shadow-2xl">
+            <p className="p-2 text-base text-p1-darkgreen md:text-xl">
               Токен содержит ссылки на официальные документы: Итоговый протокол конкурса,
               соревнования Фото награждения Видео победы
             </p>
-            <p className="my-2 rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-gray hover:shadow-2xl">
+            <p className="p-2 text-base text-p1-darkgreen md:text-xl">
               Все данные хранятся в IPFS сети и защищены от несанкционированного уничтожения.
             </p>
-            <p className="my-2 rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-gray hover:shadow-2xl">
+            <p className="p-2 text-base text-p1-darkgreen md:text-xl">
               Доступ к минту токена у держателей NFT Promoter license, National license, Global
               license, Management GAA
             </p>
 
-            <p className="rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-gray hover:shadow-2xl">
+            <p className="p-2 text-base text-p1-darkgreen md:text-xl">
               Данный токен Burnebal, то есть собственник смарт-контракта может уничтожить любой
               токен из коллекции, эта мера необходима для формирования чистоты коллекции.
             </p>
-            <p className="rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-gray hover:shadow-2xl">
+            <p className="p-2 text-base text-p1-darkgreen md:text-xl">
               То есть собственник смарт-контракта вправе уничтожить NFT в случае нарушения правил
               создания NFT не соответствующих целям Проекта. То есть категорически запрещено
               присоединять к NFT медиаконтент политического содержания, экстремистской
@@ -46,17 +50,17 @@ export default function Page() {
               Проекта. Также запрещено присоединять данные не соответствующие действительности
             </p>
           </div>
-          <div className="m-1 place-items-center p-2">
-            <div>
+          <div className="object-center p-2">
+            <div className="">
               <Image
-                className="relative inline-block rounded-3xl border-2 border-p2-orange shadow-lg"
+                className="relative inline-block rounded-3xl border-2 border-p2-orange object-center shadow-lg"
                 width={2000}
                 height={2000}
                 src="/Hero/Rewards.png"
                 alt="Rewards"
               />
               <div
-                className="inline-flex w-full justify-self-center rounded-md pt-5 shadow-sm"
+                className="inline-flex w-full justify-center rounded-md pt-5 shadow-sm"
                 role="group"
               >
                 <Link
@@ -64,7 +68,7 @@ export default function Page() {
                     pathname: '/rudiscoveryrewards',
                     query: { rewarddiscover: '3place' },
                   }}
-                  className="w-full rounded-l-2xl border border-gray-200 bg-white p-5 text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-yellow-800 focus:text-p1-white focus:ring-2 focus:ring-yellow-800 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange"
+                  className="w-full rounded-l-2xl border border-gray-200 bg-white p-5 text-center text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-yellow-800 focus:text-p1-white focus:ring-2 focus:ring-yellow-800 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange"
                 >
                   3 место
                 </Link>
@@ -73,7 +77,7 @@ export default function Page() {
                     pathname: '/rudiscoveryrewards',
                     query: { rewarddiscover: '1place' },
                   }}
-                  className="w-full border border-gray-200 bg-white p-5 text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-p2-orange focus:text-p1-white focus:ring-2 focus:ring-p2-orange dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-stone-500"
+                  className="w-full border border-gray-200 bg-white p-5 text-center text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-p2-orange focus:text-p1-white focus:ring-2 focus:ring-p2-orange dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-stone-500"
                 >
                   1 место
                 </Link>
@@ -83,13 +87,13 @@ export default function Page() {
                     pathname: '/rudiscoveryrewards',
                     query: { rewarddiscover: '2place' },
                   }}
-                  className="w-full rounded-r-2xl border border-gray-200 bg-white p-5 text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-p1-gray focus:text-p1-white focus:ring-2 focus:ring-p1-gray dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p1-green"
+                  className="w-full rounded-r-2xl border border-gray-200 bg-white p-5 text-center text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-p1-gray focus:text-p1-white focus:ring-2 focus:ring-p1-gray dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p1-green"
                 >
                   2 место
                 </Link>
               </div>
               <div
-                className="grid w-full grid-cols-3 gap-1 justify-self-center rounded-md pt-5 shadow-sm"
+                className="grid w-full grid-cols-3 gap-1 justify-self-center rounded-md pt-5 text-center shadow-sm"
                 role="group"
               >
                 <Link
@@ -97,7 +101,7 @@ export default function Page() {
                     pathname: '/rudiscoveryrewards',
                     query: { rewarddiscover: 'drift' },
                   }}
-                  className="w-full rounded-tl-2xl border border-gray-200 bg-white p-5 text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-p1-gray focus:text-p1-white focus:ring-2 focus:ring-p1-gray dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange"
+                  className="w-full rounded-tl-2xl border border-gray-200 bg-white p-5 text-center text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-p1-gray focus:text-p1-white focus:ring-2 focus:ring-p1-gray dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange"
                 >
                   Дрифт
                 </Link>
@@ -106,7 +110,7 @@ export default function Page() {
                     pathname: '/rudiscoveryrewards',
                     query: { rewarddiscover: 'rally' },
                   }}
-                  className="w-full border border-gray-200 bg-white p-5 text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-p1-gray focus:text-p1-white focus:ring-2 focus:ring-p1-gray dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-stone-500"
+                  className="w-full border border-gray-200 bg-white p-5 text-center text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-p1-gray focus:text-p1-white focus:ring-2 focus:ring-p1-gray dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-stone-500"
                 >
                   Ралли
                 </Link>
@@ -116,7 +120,7 @@ export default function Page() {
                     pathname: '/rudiscoveryrewards',
                     query: { rewarddiscover: 'tcr' },
                   }}
-                  className="w-full rounded-tr-2xl border border-gray-200 bg-white p-5 text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-p1-gray focus:text-p1-white focus:ring-2 focus:ring-p1-gray dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p1-green"
+                  className="w-full rounded-tr-2xl border border-gray-200 bg-white p-5 text-center text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-p1-gray focus:text-p1-white focus:ring-2 focus:ring-p1-gray dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p1-green"
                 >
                   Кузовные гонки
                 </Link>
@@ -126,7 +130,7 @@ export default function Page() {
                     pathname: '/rudiscoveryrewards',
                     query: { rewarddiscover: 'dragracing' },
                   }}
-                  className="2xl w-full border border-gray-200 bg-white p-5 text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-p1-gray focus:text-p1-white focus:ring-2 focus:ring-p1-gray dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange"
+                  className="2xl w-full border border-gray-200 bg-white p-5 text-center text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-p1-gray focus:text-p1-white focus:ring-2 focus:ring-p1-gray dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange"
                 >
                   Драгрэйсинг
                 </Link>
@@ -135,7 +139,7 @@ export default function Page() {
                     pathname: '/rudiscoveryrewards',
                     query: { rewarddiscover: 'openwheels' },
                   }}
-                  className="w-full border border-gray-200 bg-white p-5 text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-p1-gray focus:text-p1-white focus:ring-2 focus:ring-p1-gray dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-stone-500"
+                  className="w-full border border-gray-200 bg-white p-5 text-center text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-p1-gray focus:text-p1-white focus:ring-2 focus:ring-p1-gray dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-stone-500"
                 >
                   Открытые колеса
                 </Link>
@@ -145,7 +149,7 @@ export default function Page() {
                     pathname: '/rudiscoveryrewards',
                     query: { rewarddiscover: 'stance' },
                   }}
-                  className="w-full border border-gray-200 bg-white p-5 text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-p1-gray focus:text-p1-white focus:ring-2 focus:ring-p1-gray dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p1-green"
+                  className="w-full border border-gray-200 bg-white p-5 text-center text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-p1-gray focus:text-p1-white focus:ring-2 focus:ring-p1-gray dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p1-green"
                 >
                   Стэнс
                 </Link>
@@ -155,7 +159,7 @@ export default function Page() {
                     pathname: '/rudiscoveryrewards',
                     query: { rewarddiscover: 'oldtimer' },
                   }}
-                  className="w-full rounded-bl-2xl border border-gray-200 bg-white p-5 text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-p1-gray focus:text-p1-white focus:ring-2 focus:ring-p1-gray dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange"
+                  className="w-full rounded-bl-2xl border border-gray-200 bg-white p-5 text-center text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-p1-gray focus:text-p1-white focus:ring-2 focus:ring-p1-gray dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange"
                 >
                   Олдтаймер
                 </Link>
@@ -164,7 +168,7 @@ export default function Page() {
                     pathname: '/rudiscoveryrewards',
                     query: { rewarddiscover: 'simracing' },
                   }}
-                  className="w-full border border-gray-200 bg-white p-5 text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-p1-gray focus:text-p1-white focus:ring-2 focus:ring-p1-gray dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-stone-500"
+                  className="w-full border border-gray-200 bg-white p-5 text-center text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-p1-gray focus:text-p1-white focus:ring-2 focus:ring-p1-gray dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-stone-500"
                 >
                   Симрэйсинг
                 </Link>
@@ -174,7 +178,7 @@ export default function Page() {
                     pathname: '/rudiscoveryrewards',
                     query: { rewarddiscover: 'sound cars' },
                   }}
-                  className="w-full rounded-br-2xl border border-gray-200 bg-white p-5 text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-p1-gray focus:text-p1-white focus:ring-2 focus:ring-p1-gray dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p1-green"
+                  className="w-full rounded-br-2xl border border-gray-200 bg-white p-5 text-center text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-p1-gray focus:text-p1-white focus:ring-2 focus:ring-p1-gray dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p1-green"
                 >
                   Авто Звук
                 </Link>
@@ -191,8 +195,6 @@ export default function Page() {
               </div>
             </div>
           </div>
-          <div></div>
-          <div></div>
         </div>
       </div>
 
@@ -200,15 +202,15 @@ export default function Page() {
 
       {/* //Способы получения Rewards*/}
 
-      <div className="pt-5 text-center text-4xl font-bold text-p1-darkgreen">
+      <div className="px-2 text-center text-xl font-semibold text-p1-darkgreen md:pt-2 md:text-3xl">
         Способы получения Rewards NFT
       </div>
 
-      <div className="m-5 rounded-3xl border-4 border-p1-darkgreen p-6 shadow-lg">
-        <div className="pt-5 text-center text-2xl text-p1-darkgreen">
+      <div className="m-2 rounded-3xl border-p1-darkgreen p-2 md:border-4 md:shadow-lg">
+        <div className="pt-2 text-center text-base text-p1-darkgreen md:text-2xl">
           Награды могут создавать и вручать держатели NFT
         </div>
-        <div className="pb-5 text-center text-2xl text-p1-darkgreen">
+        <div className="pb-2 text-center text-base text-p1-darkgreen md:text-2xl">
           Promoter license, National license, Global license, Management GAA
         </div>
 
@@ -386,10 +388,12 @@ export default function Page() {
             />
           </div>
         </div>
-        <div className="pt-5 text-center text-xl">
+        <div className="pt-2 text-center text-base text-p1-darkgreen md:text-2xl">
           Награды могут получать Drivers, Team&apos;s Members, Collectors, Cars
         </div>
-        <div className="pb-5 text-center text-xl">даже если нет соответствующей NFT</div>
+        <div className="pb-2 text-center text-base text-p1-darkgreen md:text-2xl">
+          даже если нет соответствующей NFT
+        </div>
       </div>
     </div>
   );

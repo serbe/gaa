@@ -4,11 +4,11 @@ export default function Page() {
   return (
     <div className="mx-auto max-w-7xl font-serif">
       {/* //RaceLads discovery*/}
-      <div className="flex flex-wrap p-2 md:flex-nowrap md:justify-between">
-        <div className="text-center text-2xl font-bold text-p1-darkgreen md:pt-2 md:text-4xl">
+      <div className="flex flex-wrap justify-center self-center md:flex-nowrap md:justify-between">
+        <div className="px-2 text-xl font-semibold text-p1-darkgreen md:pt-2 md:text-3xl">
           RaceLads NFT
         </div>
-        <div className="place-self-center text-center text-2xl font-bold text-p1-darkgreen md:pt-2 md:text-4xl">
+        <div className="px-2 text-xl font-semibold text-p1-darkgreen md:pt-2 md:text-3xl">
           Страница исследователя
         </div>
       </div>
@@ -105,11 +105,11 @@ export default function Page() {
 
       <div className="pb-8"></div>
 
-      <div className="place-self-center p-2 pt-5 text-center text-2xl font-bold text-p1-darkgreen md:pt-2 md:text-4xl">
+      <div className="place-self-center pt-2 text-center text-2xl font-bold text-p1-darkgreen md:pt-2 md:text-3xl">
         Способы получения RaceLads NFT
       </div>
 
-      <div className="rounded-3xl border-p1-darkgreen p-2 md:m-5 md:border-4 md:shadow-lg">
+      <div className="rounded-3xl border-p1-darkgreen p-2 md:border-4 md:shadow-lg">
         <div className="pb-5 text-center text-base text-p1-darkgreen md:text-2xl">
           Любой желающий может получить своего персонажа (RaceLad) в период публичного минта или
           приобрести на вторичном рынке позднее

@@ -16,7 +16,7 @@ export default function Page() {
         </div>
       </div>
       <div className="flex flex-wrap justify-center md:flex-nowrap">
-        <div className="h-max rounded-3xl border-p2-orange hover:shadow-lg md:m-5 md:w-3/5 md:border-4">
+        <div className="h-max rounded-3xl border-p2-orange hover:shadow-lg md:w-3/5 md:border-4">
           <div>
             <p className="px-2 text-center text-base text-p1-darkgreen md:text-2xl">
               Присоединяйтесь к нам

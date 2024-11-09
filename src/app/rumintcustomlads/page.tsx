@@ -16,25 +16,23 @@ export default function Page() {
   return (
     <div className="mx-auto max-w-7xl font-serif">
       <div className="flex flex-wrap justify-center space-x-2 object-center px-2 pt-5 md:flex-nowrap md:justify-between">
-        <div className="text-xl font-semibold text-p2-orange md:p-2 md:text-4xl">
-          CustomLads NFT
-        </div>
-        <div className="text-end text-xl font-semibold text-p2-orange md:p-2 md:text-4xl">
+        <div className="text-xl font-semibold text-p2-orange md:text-3xl">CustomLads NFT</div>
+        <div className="text-end text-xl font-semibold text-p2-orange md:text-3xl">
           Страница создания NFT
         </div>
       </div>
 
       <div className="flex flex-wrap justify-center md:flex-nowrap">
-        <div className="rounded-3xl border-4 border-p2-orange hover:shadow-lg">
+        <div className="rounded-3xl border-p2-orange md:border-4 md:hover:shadow-lg">
           <div className="flex flex-row justify-center">
             <div className="mx-auto text-center md:text-xl lg:text-2xl">
               <div className="flex flex-row justify-center">
-                <div className="p-2 text-xl font-semibold text-p1-darkgreen md:text-2xl">
+                <div className="p-2 text-base text-p1-darkgreen md:text-2xl md:font-semibold">
                   <p>Присоединяйтесь к нам</p>
                   <p>Получите своего героя CustomLad</p>
                 </div>
               </div>
-              <div className="flex flex-wrap md:flex-nowrap">
+              <div className="flex flex-wrap place-content-center md:flex-nowrap">
                 <div className="grid grid-cols-1 gap-1 md:grid-cols-2">
                   <div className="w-full md:w-4/5 md:place-self-center">
                     <Image
@@ -45,10 +43,10 @@ export default function Page() {
                       alt="CustomLads1"
                     />
                     <div>
-                      <button className="mt-5 w-4/5 rounded-3xl border-2 border-p1-darkgreen bg-p2-white2 p-5 text-p1-darkgreen shadow-lg hover:border-p2-orange hover:bg-p2-orange hover:text-p1-white hover:drop-shadow-2xl">
+                      <button className="mt-2 w-4/5 rounded-3xl border-2 border-p1-darkgreen bg-p2-white2 p-5 text-p1-darkgreen shadow-lg hover:border-p2-orange hover:bg-p2-orange hover:text-p1-white hover:drop-shadow-2xl md:mt-5">
                         Создать NFT
                       </button>
-                      <button className="mt-5 w-4/5 rounded-3xl border-2 border-p1-darkgreen bg-p2-white2 p-5 text-p1-darkgreen shadow-lg hover:border-p2-orange hover:bg-p2-orange hover:text-p1-white hover:drop-shadow-2xl">
+                      <button className="mt-2 w-4/5 rounded-3xl border-2 border-p1-darkgreen bg-p2-white2 p-5 text-p1-darkgreen shadow-lg hover:border-p2-orange hover:bg-p2-orange hover:text-p1-white hover:drop-shadow-2xl md:mt-5">
                         Сгенерировать изображения
                       </button>
                     </div>
@@ -708,9 +706,9 @@ export default function Page() {
                         </div>
                       </SwiperSlide>
                     </Swiper>
-                    <div className="pb-5"></div>
+                    <div className="pb-2 md:pb-5"></div>
 
-                    <button className="w-4/5 rounded-3xl border-2 border-p1-darkgreen bg-p2-white2 p-5 text-p1-darkgreen shadow-lg hover:border-p2-orange hover:bg-p2-orange hover:text-p1-white hover:drop-shadow-2xl">
+                    <button className="w-4/5 rounded-3xl border-2 border-p1-darkgreen bg-p2-white2 p-5 pb-5 text-p1-darkgreen shadow-lg hover:border-p2-orange hover:bg-p2-orange hover:text-p1-white md:hover:drop-shadow-2xl">
                       Сброс
                     </button>
                   </div>
@@ -739,7 +737,7 @@ export default function Page() {
                     />
                   </div>
 
-                  <p className="p-2 text-2xl text-p1-darkgreen">
+                  <p className="p-2 text-base text-p1-darkgreen md:text-2xl">
                     Максимальное количество: 10 CustomLads за транзакцию
                   </p>
 

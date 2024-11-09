@@ -7,10 +7,10 @@ export default function Page() {
       {/* //Лидеры движений */}
       {/* //Drivers */}
       <div className="flex flex-wrap justify-center self-center md:flex-nowrap md:justify-between">
-        <div className="px-2 text-xl font-semibold text-red-400 md:pt-2 md:text-4xl">
+        <div className="px-2 text-xl font-semibold text-red-400 md:pt-2 md:text-3xl">
           Drivers NFT
         </div>
-        <div className="px-2 text-xl font-semibold text-red-400 md:pt-2 md:text-4xl">
+        <div className="px-2 text-xl font-semibold text-red-400 md:pt-2 md:text-3xl">
           Страница исследователя
         </div>
       </div>
@@ -136,15 +136,15 @@ export default function Page() {
       {/* //Участники команд */}
 
       <div className="flex flex-wrap justify-center self-center md:flex-nowrap md:justify-between">
-        <div className="px-2 text-xl font-semibold text-p3-blue md:pt-2 md:text-4xl">
+        <div className="px-2 text-xl font-semibold text-p3-blue md:pt-2 md:text-3xl">
           Team&apos;s Members NFT
         </div>
-        <div className="px-2 text-xl font-semibold text-p3-blue md:pt-2 md:text-4xl">
+        <div className="px-2 text-xl font-semibold text-p3-blue md:pt-2 md:text-3xl">
           Страница исследователя
         </div>
       </div>
-      <div className="hover:p3-blue m-5 rounded-3xl border-p3-blue hover:border-p1-gray md:border-4 md:shadow-lg">
-        <div className="md: flex flex-wrap justify-center space-x-2 px-2 pt-5 md:flex-nowrap">
+      <div className="hover:p3-blue rounded-3xl border-p3-blue hover:border-p1-gray md:border-4 md:shadow-lg">
+        <div className="md: flex flex-wrap justify-center pt-2 md:flex-nowrap">
           <div>
             <p className="p-2 text-base text-p1-darkgreen md:text-xl">
               Невзаимозаменяемый токен, отражающий члена автоспортивной команды.
@@ -170,7 +170,7 @@ export default function Page() {
             </p>
           </div>
 
-          <div className="m-1 p-5">
+          <div className="m-1 p-2">
             <div className="grid grid-cols-2 gap-4">
               <div>
                 <Image
@@ -267,14 +267,14 @@ export default function Page() {
       {/* //Коллекционеры */}
 
       <div className="flex flex-wrap justify-center self-center md:flex-nowrap md:justify-between">
-        <div className="px-2 text-xl font-semibold text-stone-500 md:pt-2 md:text-4xl">
+        <div className="px-2 text-xl font-semibold text-stone-500 md:pt-2 md:text-3xl">
           Collectors NFT
         </div>
-        <div className="px-2 text-xl font-semibold text-stone-500 md:pt-2 md:text-4xl">
+        <div className="px-2 text-xl font-semibold text-stone-500 md:pt-2 md:text-3xl">
           Страница исследователя
         </div>
       </div>
-      <div className="m-5 rounded-3xl border-stone-500 hover:border-p1-gray md:border-4 md:shadow-lg">
+      <div className="rounded-3xl border-stone-500 hover:border-p1-gray md:border-4 md:shadow-lg">
         <div className="md: flex flex-wrap justify-center space-x-2 px-2 pt-5 md:flex-nowrap">
           <div>
             <p className="p-2 text-base text-p1-darkgreen md:text-xl">
@@ -400,18 +400,18 @@ export default function Page() {
 
       <div className="pb-8"></div>
 
-      <div className="px-2 text-center text-xl font-semibold text-p1-darkgreen md:pt-2 md:text-4xl">
+      <div className="px-2 text-center text-xl font-semibold text-p1-darkgreen md:pt-2 md:text-3xl">
         Способы получения
       </div>
-      <div className="px-2 text-center text-xl font-semibold text-p1-darkgreen md:pt-2 md:text-4xl">
+      <div className="px-2 text-center text-xl font-semibold text-p1-darkgreen md:pt-2 md:text-3xl">
         Drivers, Team&apos;s Members, Collectors NFT
       </div>
-      <div className="m-5 rounded-3xl border-p1-darkgreen p-6 md:border-4 md:shadow-lg">
-        <div className="pb-5 text-center text-xl">
+      <div className="rounded-3xl border-p1-darkgreen p-2 md:border-4 md:shadow-lg">
+        <div className="pb-2 text-center text-base md:text-xl">
           Только верифицированные пользователи смогут создать NFT в коллекциях Drivers, Team&apos;s
           Members, Collectors NFT
         </div>
-        <div className="pb-5 text-center text-xl">
+        <div className="pb-5 text-center text-base md:text-xl">
           Верифицировать статус пользователя могут держатели Promoter License, National License,
           Global License, Management GAA
         </div>
@@ -562,14 +562,15 @@ export default function Page() {
           </div>
         </div>
 
-        <div className="p-5 text-center text-xl">
+        <div className="p-2 text-center text-base md:text-xl">
           Любой желающий сможет приобрести NFT из коллекций на вторичном рынке, так мы поддерживаем
           активных участников направлений и их развитие
         </div>
-        <div className="p-5 text-center text-xl">
+        <div className="p-2 text-center text-base md:text-xl">
           Это ваш способ идентификации и привлечения дополнительных инвестиций для вашего развития
         </div>
       </div>
+      <div className="pb-8"></div>
     </div>
   );
 }

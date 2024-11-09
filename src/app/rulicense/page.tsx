@@ -61,28 +61,28 @@ export default function Page() {
     <Suspense>
       <div className="mx-auto max-w-7xl font-serif">
         <div id="promouter" className={license == 0 ? '' : 'hidden'}>
-          <div className="flex flex-wrap justify-between space-x-2 object-center px-2 pt-5 md:flex-nowrap">
-            <div className="p-2 text-center text-4xl font-semibold text-amber-600">
+          <div className="flex flex-wrap justify-center self-center md:flex-nowrap md:justify-between">
+            <div className="px-2 text-xl font-semibold text-amber-600 md:pt-2 md:text-3xl">
               Promoter License NFT
             </div>
-            <div className="p-2 text-center text-4xl font-semibold text-amber-600">
+            <div className="px-2 text-xl font-semibold text-amber-600 md:pt-2 md:text-3xl">
               Страница создания NFT
             </div>
           </div>
-          <div className="flex flex-wrap justify-center space-x-2 px-2 pt-5 md:flex-nowrap">
-            <div className="rounded-3xl border-4 border-amber-600 hover:shadow-lg">
+          <div className="flex flex-wrap justify-center space-x-2 px-2 md:flex-nowrap">
+            <div className="rounded-3xl border-amber-600 md:border-4 md:shadow-lg">
               <div className="flex flex-row">
                 <div className="mx-auto text-center md:text-xl lg:text-2xl">
                   <div className="flex flex-wrap justify-center md:flex-nowrap">
                     <div>
-                      <div className="mb-5 text-center text-2xl font-semibold text-p1-darkgreen">
+                      <div className="text-center text-base font-semibold text-p1-darkgreen md:mb-5 md:text-2xl">
                         <p>Присоединяйтесь к нам</p>
                         <p>Получите NFT лицензию Промоутера</p>
                       </div>
 
                       <div className="flex flex-wrap justify-center md:flex-nowrap">
-                        <div className="w-1/3">
-                          <div className="place-self-center pb-5 pt-5">
+                        <div className="w-full md:w-1/3">
+                          <div className="place-self-center md:pb-5 md:pt-5">
                             Созданные вами NFT автоматически попадут в глобальную коллекцию GAA
                           </div>
                           <div>
@@ -101,7 +101,7 @@ export default function Page() {
                           </div>
                           <Buttons license={license} setter={setLicense} />
                         </div>
-                        <div className="w-1/3">
+                        <div className="w-full md:w-1/3">
                           <p className="pt-5">Доступно для:</p>
                           <p>Nacional Licence NFT</p>
                           <p>Global Licence NFT</p>
@@ -131,11 +131,11 @@ export default function Page() {
                         className="h-2 w-3/5 cursor-pointer appearance-none rounded-lg bg-gray-200 dark:bg-gray-700"
                       />
                     </div>
-                    <p className="pb-8 pt-8 text-2xl text-p1-darkgreen">
+                    <p className="p-2 text-center text-base text-p1-darkgreen md:pb-8 md:text-2xl">
                       Максимум: 10 Promoter License NFT за транзакцию
                     </p>
                     <div className="place-self-center">
-                      <button className="rounded-3xl border-2 border-p1-darkgreen bg-p2-white2 px-20 py-8 text-p1-darkgreen shadow-lg hover:bg-amber-600 hover:text-p1-white">
+                      <button className="rounded-3xl border-2 border-amber-600 bg-p2-white2 px-20 py-8 text-p1-darkgreen shadow-lg hover:bg-amber-600 hover:text-p1-white">
                         Создать NFT
                       </button>
                     </div>
@@ -148,28 +148,28 @@ export default function Page() {
         </div>
 
         <div id="national" className={license == 1 ? '' : 'hidden'}>
-          <div className="flex flex-wrap justify-between space-x-2 object-center px-2 pt-5 md:flex-nowrap">
-            <div className="p-2 text-center text-4xl font-semibold text-p1-gray">
+          <div className="flex flex-wrap justify-center self-center md:flex-nowrap md:justify-between">
+            <div className="px-2 text-xl font-semibold text-p1-gray md:pt-2 md:text-3xl">
               National License NFT
             </div>
-            <div className="p-2 text-center text-4xl font-semibold text-p1-gray">
+            <div className="px-2 text-xl font-semibold text-p1-gray md:pt-2 md:text-3xl">
               Страница создания NFT
             </div>
           </div>
-          <div className="flex flex-wrap justify-center space-x-2 px-2 pt-5 md:flex-nowrap">
-            <div className="rounded-3xl border-4 border-p1-gray hover:shadow-lg">
+          <div className="flex flex-wrap justify-center space-x-2 px-2 md:flex-nowrap">
+            <div className="rounded-3xl border-p1-gray hover:shadow-lg md:border-4">
               <div className="flex flex-row">
                 <div className="mx-auto text-center md:text-xl lg:text-2xl">
                   <div className="flex flex-wrap justify-center md:flex-nowrap">
                     <div>
-                      <div className="mb-5 text-center text-2xl font-semibold text-p1-darkgreen">
+                      <div className="text-center text-base font-semibold text-p1-darkgreen md:mb-5 md:text-2xl">
                         <p>Присоединяйтесь к нам</p>
                         <p>Получите NFT Национальную лицензию</p>
                       </div>
 
                       <div className="flex flex-wrap justify-center md:flex-nowrap">
-                        <div className="w-1/3">
-                          <div className="place-self-center pb-5 pt-5">
+                        <div className="w-full md:w-1/3">
+                          <div className="place-self-center md:pb-5 md:pt-5">
                             Созданные вами NFT автоматически попадут в глобальную коллекцию GAA
                           </div>
                           <div>
@@ -188,7 +188,7 @@ export default function Page() {
                           </div>
                           <Buttons license={license} setter={setLicense} />
                         </div>
-                        <div className="w-1/3">
+                        <div className="w-full md:w-1/3">
                           <p className="pt-5">Доступно для:</p>
                           <p>Global Licence NFT</p>
                           <p>Management GAA</p>
@@ -200,11 +200,11 @@ export default function Page() {
                     </div>
                   </div>
                   <div>
-                    <p className="pb-8 pt-8 text-2xl text-p1-darkgreen">
+                    <p className="p-2 text-center text-base text-p1-darkgreen md:pb-8 md:text-2xl">
                       Максимум: 1 National License NFT за транзакцию
                     </p>
                     <div className="place-self-center">
-                      <button className="rounded-3xl border-2 border-p1-darkgreen bg-p2-white2 px-20 py-8 text-p1-darkgreen shadow-lg hover:bg-p1-gray hover:text-p1-white">
+                      <button className="rounded-3xl border-2 border-p1-gray bg-p2-white2 px-20 py-8 text-p1-darkgreen shadow-lg hover:bg-p1-gray hover:text-p1-white">
                         Создать NFT
                       </button>
                     </div>
@@ -217,28 +217,28 @@ export default function Page() {
         </div>
 
         <div id="global" className={license == 2 ? '' : 'hidden'}>
-          <div className="flex flex-wrap justify-between space-x-2 object-center px-2 pt-5 md:flex-nowrap">
-            <div className="p-2 text-center text-4xl font-semibold text-p2-orange">
+          <div className="flex flex-wrap justify-center self-center md:flex-nowrap md:justify-between">
+            <div className="px-2 text-xl font-semibold text-p2-orange md:pt-2 md:text-3xl">
               Global License NFT
             </div>
-            <div className="p-2 text-center text-4xl font-semibold text-p2-orange">
+            <div className="px-2 text-xl font-semibold text-p2-orange md:pt-2 md:text-3xl">
               Страница создания NFT
             </div>
           </div>
-          <div className="flex flex-wrap justify-center space-x-2 px-2 pt-5 md:flex-nowrap">
-            <div className="rounded-3xl border-4 border-p2-orange hover:shadow-lg">
+          <div className="flex flex-wrap justify-center space-x-2 px-2 md:flex-nowrap">
+            <div className="rounded-3xl border-p2-orange md:border-4 md:shadow-lg">
               <div className="flex flex-row">
                 <div className="mx-auto text-center md:text-xl lg:text-2xl">
                   <div className="flex flex-wrap justify-center md:flex-nowrap">
                     <div>
-                      <div className="mb-5 text-center text-2xl font-semibold text-p1-darkgreen">
+                      <div className="text-center text-base font-semibold text-p1-darkgreen md:mb-5 md:text-2xl">
                         <p>Присоединяйтесь к нам</p>
                         <p>Получите NFT Глобальную лицензию</p>
                       </div>
 
                       <div className="flex flex-wrap justify-center md:flex-nowrap">
-                        <div className="w-1/3">
-                          <div className="place-self-center pb-5 pt-5">
+                        <div className="w-full md:w-1/3">
+                          <div className="place-self-center md:pb-5 md:pt-5">
                             Созданные вами NFT автоматически попадут в глобальную коллекцию GAA
                           </div>
                           <div>
@@ -248,7 +248,7 @@ export default function Page() {
                         <div>
                           <div className="rounded-3xl text-center">
                             <Image
-                              className="relative mb-4 inline-block w-4/5 rounded-3xl border-2 border-p1-gray shadow-lg"
+                              className="relative mb-4 inline-block w-4/5 rounded-3xl border-2 border-p2-orange shadow-lg"
                               width={2000}
                               height={2000}
                               src="/Licenses/Global Lic.png"
@@ -257,7 +257,7 @@ export default function Page() {
                           </div>
                           <Buttons license={license} setter={setLicense} />
                         </div>
-                        <div className="w-1/3">
+                        <div className="w-full md:w-1/3">
                           <p className="pt-5">Доступно для:</p>
 
                           <p>Management GAA</p>
@@ -269,11 +269,11 @@ export default function Page() {
                     </div>
                   </div>
                   <div>
-                    <p className="pb-8 pt-8 text-2xl text-p1-darkgreen">
+                    <p className="p-2 text-center text-base text-p1-darkgreen md:pb-8 md:text-2xl">
                       Максимум: 1 Global License NFT за транзакцию
                     </p>
                     <div className="place-self-center">
-                      <button className="rounded-3xl border-2 border-p1-darkgreen bg-p2-white2 px-20 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
+                      <button className="rounded-3xl border-2 border-p2-orange bg-p2-white2 px-20 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
                         Создать NFT
                       </button>
                     </div>
