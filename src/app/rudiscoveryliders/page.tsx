@@ -6,32 +6,36 @@ export default function Page() {
     <div className="mx-auto max-w-7xl font-serif">
       {/* //Лидеры движений */}
       {/* //Drivers */}
-      <div className="flex flex-wrap justify-between space-x-2 object-center px-2 pt-5 md:flex-nowrap">
-        <div className="p-2 text-4xl font-semibold text-red-400">Drivers NFT</div>
-        <div className="p-2 text-4xl font-semibold text-red-400">Страница исследователя</div>
+      <div className="flex flex-wrap justify-center self-center md:flex-nowrap md:justify-between">
+        <div className="px-2 text-xl font-semibold text-red-400 md:pt-2 md:text-4xl">
+          Drivers NFT
+        </div>
+        <div className="px-2 text-xl font-semibold text-red-400 md:pt-2 md:text-4xl">
+          Страница исследователя
+        </div>
       </div>
-      <div className="m-5 rounded-3xl border-4 border-red-400 shadow-lg hover:border-p1-gray">
-        <div className="flex flex-wrap justify-center space-x-2 px-2 pt-5 md:flex-nowrap">
+      <div className="rounded-3xl border-red-400 hover:border-p1-gray md:border-4 md:shadow-lg">
+        <div className="flex flex-wrap justify-center px-2 pt-5 md:flex-nowrap">
           <div>
-            <p className="my-2 rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-gray hover:shadow-2xl">
+            <p className="p-2 text-base text-p1-darkgreen md:text-xl">
               Невзаимозаменяемый токен, отражающий пилота спортивного автомобиля.
             </p>
-            <p className="my-2 rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-gray hover:shadow-2xl">
+            <p className="p-2 text-base text-p1-darkgreen md:text-xl">
               Каждый NFT содержит метаданные, хранящие информацию о гонщике
             </p>
-            <p className="my-2 rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-gray hover:shadow-2xl">
+            <p className="p-2 text-base text-p1-darkgreen md:text-xl">
               По согласованию мы можем полностью скопировать внешность персоны
             </p>
-            <p className="my-2 rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-gray hover:shadow-2xl">
+            <p className="p-2 text-base text-p1-darkgreen md:text-xl">
               Мы очень ценим вклад пилотов в развитие автоспорта и хотели бы запечатлеть каждого в
               единой коллекции, будь то представитель кольцевых гонок или дисциплины дрифта
             </p>
 
-            <p className="my-2 rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-gray hover:shadow-2xl">
+            <p className="p-2 text-base text-p1-darkgreen md:text-xl">
               Предполагается, что первоначальным владельцем NFT будет сам пилот. Позже по желанию
               владельца токен может быть передан/продан любому человеку.
             </p>
-            <p className="my-2 rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-gray hover:shadow-2xl">
+            <p className="p-2 text-base text-p1-darkgreen md:text-xl">
               Это ваш способ привлечения инвестиций, за одну транзакцию вы сможете создать до 100
               NFT, так мы планируем организовать поддержку пилотов и членов команд
             </p>
@@ -131,34 +135,36 @@ export default function Page() {
 
       {/* //Участники команд */}
 
-      <div className="flex flex-wrap justify-between space-x-2 object-center px-2 pt-5 md:flex-nowrap">
-        <div className="p-2 text-4xl font-semibold text-p3-blue">Team&apos;s Members NFT</div>
-        <div className="p-2 text-end text-4xl font-semibold text-p3-blue">
+      <div className="flex flex-wrap justify-center self-center md:flex-nowrap md:justify-between">
+        <div className="px-2 text-xl font-semibold text-p3-blue md:pt-2 md:text-4xl">
+          Team&apos;s Members NFT
+        </div>
+        <div className="px-2 text-xl font-semibold text-p3-blue md:pt-2 md:text-4xl">
           Страница исследователя
         </div>
       </div>
-      <div className="hover:p3-blue m-5 rounded-3xl border-4 border-p3-blue shadow-lg hover:border-p1-gray">
+      <div className="hover:p3-blue m-5 rounded-3xl border-p3-blue hover:border-p1-gray md:border-4 md:shadow-lg">
         <div className="md: flex flex-wrap justify-center space-x-2 px-2 pt-5 md:flex-nowrap">
           <div>
-            <p className="my-2 rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-gray hover:shadow-2xl">
+            <p className="p-2 text-base text-p1-darkgreen md:text-xl">
               Невзаимозаменяемый токен, отражающий члена автоспортивной команды.
             </p>
-            <p className="my-2 rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-gray hover:shadow-2xl">
+            <p className="p-2 text-base text-p1-darkgreen md:text-xl">
               Каждый NFT содержит метаданные, хранящие информацию о персоне
             </p>
-            <p className="my-2 rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-gray hover:shadow-2xl">
+            <p className="p-2 text-base text-p1-darkgreen md:text-xl">
               По согласованию мы можем полностью скопировать внешность персоны
             </p>
-            <p className="my-2 rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-gray hover:shadow-2xl">
+            <p className="p-2 text-base text-p1-darkgreen md:text-xl">
               Участники автоспортивных команд вносят огромный вклад в развитие автоспорта, поэтому
               мы бы хотели запечатлеть каждого из них в единой коллекции.
             </p>
 
-            <p className="my-2 rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-gray hover:shadow-2xl">
+            <p className="p-2 text-base text-p1-darkgreen md:text-xl">
               Предполагается, что первоначальным владельцем NFT будет сам член команды. Позже по
               желанию владельца токен может быть передан/продан любому человеку.
             </p>
-            <p className="my-2 rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-gray hover:shadow-2xl">
+            <p className="p-2 text-base text-p1-darkgreen md:text-xl">
               Это ваш способ привлечения инвестиций, за одну транзакцию вы сможете создать до 100
               NFT, так мы планируем организовать поддержку пилотов и членов команд
             </p>
@@ -260,33 +266,37 @@ export default function Page() {
 
       {/* //Коллекционеры */}
 
-      <div className="flex flex-wrap justify-between space-x-2 object-center px-2 pt-5 md:flex-nowrap">
-        <div className="p-2 text-4xl font-semibold text-stone-500">Collectors NFT</div>
-        <div className="p-2 text-4xl font-semibold text-stone-500">Страница исследователя</div>
+      <div className="flex flex-wrap justify-center self-center md:flex-nowrap md:justify-between">
+        <div className="px-2 text-xl font-semibold text-stone-500 md:pt-2 md:text-4xl">
+          Collectors NFT
+        </div>
+        <div className="px-2 text-xl font-semibold text-stone-500 md:pt-2 md:text-4xl">
+          Страница исследователя
+        </div>
       </div>
-      <div className="m-5 rounded-3xl border-4 border-stone-500 shadow-lg hover:border-p1-gray">
+      <div className="m-5 rounded-3xl border-stone-500 hover:border-p1-gray md:border-4 md:shadow-lg">
         <div className="md: flex flex-wrap justify-center space-x-2 px-2 pt-5 md:flex-nowrap">
           <div>
-            <p className="my-2 rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-gray hover:shadow-2xl">
+            <p className="p-2 text-base text-p1-darkgreen md:text-xl">
               Невзаимозаменяемый токен, отражающий коллекционера спортивных, раритетных и редких
               автомобилей.
             </p>
-            <p className="my-2 rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-gray hover:shadow-2xl">
+            <p className="p-2 text-base text-p1-darkgreen md:text-xl">
               Каждый NFT содержит метаданные, хранящие информацию о персоне
             </p>
-            <p className="my-2 rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-gray hover:shadow-2xl">
+            <p className="p-2 text-base text-p1-darkgreen md:text-xl">
               По согласованию мы можем полностью скопировать внешность персоны
             </p>
-            <p className="my-2 rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-gray hover:shadow-2xl">
+            <p className="p-2 text-base text-p1-darkgreen md:text-xl">
               Мы очень ценим вклад коллекционеров в историю автокультуры и автоспорта и хотели бы
               запечатлеть историю каждого в единой коллекции
             </p>
 
-            <p className="my-2 rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-gray hover:shadow-2xl">
+            <p className="p-2 text-base text-p1-darkgreen md:text-xl">
               Предполагается, что первоначальным владельцем NFT будет сам член команды. Позже по
               желанию владельца токен может быть передан/продан любому человеку.
             </p>
-            <p className="my-2 rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-gray hover:shadow-2xl">
+            <p className="p-2 text-base text-p1-darkgreen md:text-xl">
               Это ваш способ привлечения инвестиций, за одну транзакцию вы сможете создать до 100
               NFT, так мы планируем организовать поддержку коллекционеров и развитие направления
             </p>
@@ -390,11 +400,13 @@ export default function Page() {
 
       <div className="pb-8"></div>
 
-      <div className="pt-5 text-center text-4xl font-bold text-p1-darkgreen">Способы получения</div>
-      <div className="pb-5 text-center text-4xl font-bold text-p1-darkgreen">
+      <div className="px-2 text-center text-xl font-semibold text-p1-darkgreen md:pt-2 md:text-4xl">
+        Способы получения
+      </div>
+      <div className="px-2 text-center text-xl font-semibold text-p1-darkgreen md:pt-2 md:text-4xl">
         Drivers, Team&apos;s Members, Collectors NFT
       </div>
-      <div className="m-5 rounded-3xl border-4 border-p1-darkgreen p-6 shadow-lg">
+      <div className="m-5 rounded-3xl border-p1-darkgreen p-6 md:border-4 md:shadow-lg">
         <div className="pb-5 text-center text-xl">
           Только верифицированные пользователи смогут создать NFT в коллекциях Drivers, Team&apos;s
           Members, Collectors NFT

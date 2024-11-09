@@ -7,38 +7,40 @@ export default function Page() {
 
   return (
     <div className="mx-auto max-w-7xl font-serif">
-      <div className="pt-5 text-center text-6xl font-bold text-p1-darkgreen">Форма заявки</div>
-      <div className="pb-5 text-center text-4xl font-bold text-p1-darkgreen">
+      <div className="px-2 text-center text-xl font-semibold text-p1-darkgreen md:pt-2 md:text-4xl">
+        Форма заявки
+      </div>
+      <div className="px-2 text-center text-xl font-semibold text-p1-darkgreen md:pt-2 md:text-4xl">
         by Global Automotive Association
       </div>
       <div className="flex flex-wrap place-content-center px-2 pt-5 md:flex-nowrap">
-        <div className="w-3/5 min-w-96 rounded-3xl border-4 border-p2-orange bg-p1-white shadow-lg">
+        <div className="w-4/5 min-w-96 rounded-3xl border-p1-gray bg-p1-white md:border-4 md:shadow-lg">
           <div className="place-self-center pt-5">
             <div className="place-self-center">
               <Image
-                className="relative mb-4 inline-block w-max p-2"
+                className="relative mb-4 inline-block p-2 md:w-max"
                 width={100}
                 height={150}
                 src="/Licenses/Promoter.png"
                 alt="Promoter"
               />
               <Image
-                className="relative mb-4 inline-block w-max p-2"
+                className="relative mb-4 inline-block p-2 md:w-max"
                 width={100}
                 height={150}
                 src="/Licenses/National.png"
                 alt="National"
               />
               <Image
-                className="relative mb-4 inline-block w-max p-2"
+                className="relative mb-4 inline-block p-2 md:w-max"
                 width={100}
                 height={150}
                 src="/Licenses/Global.png"
                 alt="National"
               />
             </div>
-            <p className="p-2 text-2xl font-semibold text-p1-darkgreen">
-              Выберите лицензии, которые вы хотите получить
+            <p className="px-2 text-center text-xl font-semibold text-p1-darkgreen md:pt-2 md:text-4xl">
+              Выберите лицензии, которые Вы хотите получить
             </p>
 
             <div className="pb-3"></div>
@@ -54,7 +56,7 @@ export default function Page() {
               />
               <label
                 htmlFor="checkbox"
-                className="ms-2 text-xl font-medium text-p1-darkgreen dark:text-gray-300"
+                className="ms-2 text-base font-medium text-p1-darkgreen md:text-xl dark:text-gray-300"
               >
                 Лицензия Промоутера
               </label>
@@ -72,7 +74,7 @@ export default function Page() {
               />
               <label
                 htmlFor="checkbox"
-                className="ms-2 text-xl font-medium text-p1-darkgreen dark:text-gray-300"
+                className="ms-2 text-base font-medium text-p1-darkgreen md:text-xl dark:text-gray-300"
               >
                 Национальная Лицензия
               </label>
@@ -90,7 +92,7 @@ export default function Page() {
               />
               <label
                 htmlFor="checkbox"
-                className="ms-2 text-xl font-medium text-p1-darkgreen dark:text-gray-300"
+                className="ms-2 text-base font-medium text-p1-darkgreen md:text-xl dark:text-gray-300"
               >
                 Глобальная лицензия
               </label>
@@ -166,7 +168,7 @@ export default function Page() {
               />
               <label
                 htmlFor="checkbox"
-                className="ms-2 text-xl font-medium text-p1-darkgreen dark:text-gray-300"
+                className="ms-2 text-base font-medium text-p1-darkgreen md:text-xl dark:text-gray-300"
               >
                 Открытые колеса
               </label>
@@ -185,7 +187,7 @@ export default function Page() {
               />
               <label
                 htmlFor="checkbox"
-                className="ms-2 text-xl font-medium text-p1-darkgreen dark:text-gray-300"
+                className="ms-2 text-base font-medium text-p1-darkgreen md:text-xl dark:text-gray-300"
               >
                 Драгрэйсинг
               </label>
@@ -203,7 +205,7 @@ export default function Page() {
               />
               <label
                 htmlFor="checkbox"
-                className="ms-2 text-xl font-medium text-p1-darkgreen dark:text-gray-300"
+                className="ms-2 text-base font-medium text-p1-darkgreen md:text-xl dark:text-gray-300"
               >
                 Дрифт
               </label>
@@ -221,7 +223,7 @@ export default function Page() {
               />
               <label
                 htmlFor="checkbox"
-                className="ms-2 text-xl font-medium text-p1-darkgreen dark:text-gray-300"
+                className="ms-2 text-base font-medium text-p1-darkgreen md:text-xl dark:text-gray-300"
               >
                 Кузовные гонки серийных автомобилей (TCR)
               </label>
@@ -239,7 +241,7 @@ export default function Page() {
               />
               <label
                 htmlFor="checkbox"
-                className="ms-2 text-xl font-medium text-p1-darkgreen dark:text-gray-300"
+                className="ms-2 text-base font-medium text-p1-darkgreen md:text-xl dark:text-gray-300"
               >
                 Ралли
               </label>
@@ -257,7 +259,7 @@ export default function Page() {
               />
               <label
                 htmlFor="checkbox"
-                className="ms-2 text-xl font-medium text-p1-darkgreen dark:text-gray-300"
+                className="ms-2 text-base font-medium text-p1-darkgreen md:text-xl dark:text-gray-300"
               >
                 Олдтаймер
               </label>
@@ -275,7 +277,7 @@ export default function Page() {
               />
               <label
                 htmlFor="checkbox"
-                className="ms-2 text-xl font-medium text-p1-darkgreen dark:text-gray-300"
+                className="ms-2 text-base font-medium text-p1-darkgreen md:text-xl dark:text-gray-300"
               >
                 Стэнс
               </label>
@@ -293,7 +295,7 @@ export default function Page() {
               />
               <label
                 htmlFor="checkbox"
-                className="ms-2 text-xl font-medium text-p1-darkgreen dark:text-gray-300"
+                className="ms-2 text-base font-medium text-p1-darkgreen md:text-xl dark:text-gray-300"
               >
                 Спортивные автомобили
               </label>
@@ -311,7 +313,7 @@ export default function Page() {
               />
               <label
                 htmlFor="checkbox"
-                className="ms-2 text-xl font-medium text-p1-darkgreen dark:text-gray-300"
+                className="ms-2 text-base font-medium text-p1-darkgreen md:text-xl dark:text-gray-300"
               >
                 Раритетные автомобили
               </label>
@@ -329,7 +331,7 @@ export default function Page() {
               />
               <label
                 htmlFor="checkbox"
-                className="ms-2 text-xl font-medium text-p1-darkgreen dark:text-gray-300"
+                className="ms-2 text-base font-medium text-p1-darkgreen md:text-xl dark:text-gray-300"
               >
                 Автозвук
               </label>
@@ -347,7 +349,7 @@ export default function Page() {
               />
               <label
                 htmlFor="checkbox"
-                className="ms-2 text-xl font-medium text-p1-darkgreen dark:text-gray-300"
+                className="ms-2 text-base font-medium text-p1-darkgreen md:text-xl dark:text-gray-300"
               >
                 Картинг
               </label>
@@ -365,7 +367,7 @@ export default function Page() {
               />
               <label
                 htmlFor="checkbox"
-                className="ms-2 text-xl font-medium text-p1-darkgreen dark:text-gray-300"
+                className="ms-2 text-base font-medium text-p1-darkgreen md:text-xl dark:text-gray-300"
               >
                 Симрэйсинг
               </label>
@@ -406,7 +408,7 @@ export default function Page() {
               />
               <label
                 htmlFor="checkbox"
-                className="ms-2 text-xl font-medium text-p1-darkgreen dark:text-gray-300"
+                className="ms-2 text-base font-medium text-p1-darkgreen md:text-xl dark:text-gray-300"
               >
                 Я смотрю гонки по телевизору, в Интернете
               </label>
@@ -425,7 +427,7 @@ export default function Page() {
               />
               <label
                 htmlFor="checkbox"
-                className="ms-2 text-xl font-medium text-p1-darkgreen dark:text-gray-300"
+                className="ms-2 text-base font-medium text-p1-darkgreen md:text-xl dark:text-gray-300"
               >
                 Я участник команды
               </label>
@@ -444,7 +446,7 @@ export default function Page() {
               />
               <label
                 htmlFor="checkbox"
-                className="ms-2 text-xl font-medium text-p1-darkgreen dark:text-gray-300"
+                className="ms-2 text-base font-medium text-p1-darkgreen md:text-xl dark:text-gray-300"
               >
                 Я водитель, пилот
               </label>
@@ -463,7 +465,7 @@ export default function Page() {
               />
               <label
                 htmlFor="checkbox"
-                className="ms-2 text-xl font-medium text-p1-darkgreen dark:text-gray-300"
+                className="ms-2 text-base font-medium text-p1-darkgreen md:text-xl dark:text-gray-300"
               >
                 Я промоутер
               </label>
@@ -481,7 +483,7 @@ export default function Page() {
               />
               <label
                 htmlFor="checkbox"
-                className="ms-2 text-xl font-medium text-p1-darkgreen dark:text-gray-300"
+                className="ms-2 text-base font-medium text-p1-darkgreen md:text-xl dark:text-gray-300"
               >
                 Я коллекционер автомобилей
               </label>
@@ -500,7 +502,7 @@ export default function Page() {
               />
               <label
                 htmlFor="checkbox"
-                className="ms-2 text-xl font-medium text-p1-darkgreen dark:text-gray-300"
+                className="ms-2 text-base font-medium text-p1-darkgreen md:text-xl dark:text-gray-300"
               >
                 Я коллекционер NFT
               </label>
@@ -519,7 +521,7 @@ export default function Page() {
               />
               <label
                 htmlFor="checkbox"
-                className="ms-2 text-xl font-medium text-p1-darkgreen dark:text-gray-300"
+                className="ms-2 text-base font-medium text-p1-darkgreen md:text-xl dark:text-gray-300"
               >
                 Мои дети в автоспортивной команде
               </label>
@@ -537,7 +539,7 @@ export default function Page() {
               />
               <label
                 htmlFor="checkbox"
-                className="ms-2 text-xl font-medium text-p1-darkgreen dark:text-gray-300"
+                className="ms-2 text-base font-medium text-p1-darkgreen md:text-xl dark:text-gray-300"
               >
                 Я спонсор
               </label>
@@ -555,7 +557,7 @@ export default function Page() {
               />
               <label
                 htmlFor="checkbox"
-                className="ms-2 text-xl font-medium text-p1-darkgreen dark:text-gray-300"
+                className="ms-2 text-base font-medium text-p1-darkgreen md:text-xl dark:text-gray-300"
               >
                 У меня есть бизнес по аренде автомобилей
               </label>

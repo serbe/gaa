@@ -9,36 +9,40 @@ export default function Page() {
   return (
     <div className="mx-auto max-w-7xl font-serif">
       {/* //Cars*/}
-      <div className="flex flex-wrap justify-between space-x-2 object-center px-2 pt-5 md:flex-nowrap">
-        <div className="p-2 text-4xl font-semibold text-cyan-700">Cars NFT</div>
-        <div className="p-2 text-4xl font-semibold text-cyan-700">Страница исследователя</div>
+      <div className="flex flex-wrap justify-center self-center md:flex-nowrap md:justify-between">
+        <div className="px-2 text-2xl font-semibold text-cyan-700 md:pt-2 md:text-4xl">
+          Cars NFT
+        </div>
+        <div className="px-2 text-center text-2xl font-semibold text-cyan-700 md:pt-2 md:text-4xl">
+          Страница исследователя
+        </div>
       </div>
-      <div className="m-5 rounded-3xl border-4 border-cyan-700 shadow-lg hover:border-p1-gray">
+      <div className="rounded-3xl border-cyan-700 hover:border-p1-gray md:border-4 md:shadow-lg">
         <div className="flex flex-wrap justify-center space-x-2 px-2 pt-5 md:flex-nowrap">
           <div>
-            <p className="my-2 rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-gray hover:shadow-2xl">
+            <p className="p-2 text-base text-p1-darkgreen md:text-xl">
               Невзаимозаменяемый токен, отражающий реальный коллекционный, спортивный,
               кастомизированный или раритетный автомобиль из национальной, корпоративной или частной
               коллекции
             </p>
-            <p className="my-2 rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-gray hover:shadow-2xl">
+            <p className="p-2 text-base text-p1-darkgreen md:text-xl">
               Каждый NFT содержит метаданные, хранящие информацию о коллекционном экземпляре, его
               описание и характеристики
             </p>
-            <p className="my-2 rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-gray hover:shadow-2xl">
+            <p className="p-2 text-base text-p1-darkgreen md:text-xl">
               При создании NFT есть возможность добавить медиаконтент.
             </p>
-            <p className="my-2 rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-gray hover:shadow-2xl">
+            <p className="p-2 text-base text-p1-darkgreen md:text-xl">
               Для получения Car NFT необходимо владеть хотябы одной NFT из коллекций Drivers,
               Team&apos;s Members, Collectors NFT
             </p>
 
-            <p className="rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-gray hover:shadow-2xl">
+            <p className="p-2 text-base text-p1-darkgreen md:text-xl">
               Данный токен Burnebal, то есть собственник смарт-контракта может уничтожить любой
               токен из коллекции, эта мера необходима для формирования чистоты коллекции.
             </p>
 
-            <p className="rounded-3xl border-4 border-p1-white p-2 text-xl text-p1-darkgreen hover:border-p1-gray hover:shadow-2xl">
+            <p className="p-2 text-base text-p1-darkgreen md:text-xl">
               То есть собственник смарт-контракта вправе уничтожить NFT в случае нарушения
               держателем Drivers, Team&apos;s Members, Collectors NFT правил создания NFT не
               соответствующих целям Проекта.
@@ -46,7 +50,7 @@ export default function Page() {
           </div>
           <div className="m-1 place-items-center p-2">
             <Image
-              className="relative inline-block w-max rounded-3xl border-2 border-cyan-700 shadow-lg"
+              className="mb-4 flex w-4/5 place-self-center rounded-3xl border-2 border-cyan-700 shadow-lg md:w-full"
               width={4000}
               height={4000}
               src="/Cars/Car.png"
@@ -87,9 +91,14 @@ export default function Page() {
             </div>
             <div className="m-1 p-5">
               <div className="justify-self-center">
-                <button className="w-full rounded-3xl border-2 border-cyan-700 bg-p2-white2 px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-cyan-700 hover:text-p1-white">
-                  Страница создания NFT
-                </button>
+                <div className="justify-self-center">
+                  <a
+                    href="/rumintcars"
+                    className="inline-block w-full place-content-center rounded-3xl border-2 border-cyan-700 bg-p2-white2 px-10 py-8 text-center text-p1-darkgreen shadow-lg hover:bg-cyan-700 hover:text-p1-white"
+                  >
+                    Страница создания NFT
+                  </a>
+                </div>
               </div>
             </div>
           </div>
@@ -98,12 +107,12 @@ export default function Page() {
 
       <div className="pb-8"></div>
 
-      <div className="pt-5 text-center text-4xl font-bold text-p1-darkgreen">
+      <div className="px-2 text-center text-2xl font-semibold text-p1-darkgreen md:pt-2 md:text-4xl">
         Способы получения Car NFT
       </div>
 
-      <div className="m-5 rounded-3xl border-4 border-p1-darkgreen p-6 shadow-lg">
-        <div className="pb-5 text-center text-2xl text-p1-darkgreen">
+      <div className="m-5 rounded-3xl border-p1-darkgreen p-6 md:border-4 md:shadow-lg">
+        <div className="pb-5 text-center text-base text-p1-darkgreen md:text-2xl">
           Только владельцы NFT коллекций Drivers, Team&apos;s members, Collectors смогут оцифровать
           свои автомобили и создать Car NFT
         </div>
@@ -149,7 +158,7 @@ export default function Page() {
           </div>
           <div className="place-self-end">
             <Image
-              className="relative inline-block w-max rounded-3xl border-2 border-p2-orange shadow-lg"
+              className="relative inline-block w-max rounded-3xl border-2 border-cyan-700 shadow-lg"
               width={1000}
               height={1000}
               src="/Cars/car.png"
@@ -164,7 +173,7 @@ export default function Page() {
           <div></div>
           <div>
             <Image
-              className="relative inline-block w-max rounded-3xl border-2 border-p2-orange shadow-lg"
+              className="relative inline-block w-max rounded-3xl border-2 border-cyan-700 shadow-lg"
               width={1000}
               height={1000}
               src="/HeroNFT/Drivers/Driver4.png"
@@ -173,7 +182,7 @@ export default function Page() {
           </div>
           <div>
             <Image
-              className="relative inline-block w-max rounded-3xl border-2 border-p2-orange shadow-lg"
+              className="relative inline-block w-max rounded-3xl border-2 border-cyan-700 shadow-lg"
               width={1000}
               height={1000}
               src="/HeroNFT/Team's members/TeamMember1.png"
@@ -182,7 +191,7 @@ export default function Page() {
           </div>
           <div>
             <Image
-              className="relative inline-block w-max rounded-3xl border-2 border-p2-orange shadow-lg"
+              className="relative inline-block w-max rounded-3xl border-2 border-cyan-700 shadow-lg"
               width={1000}
               height={1000}
               src="/HeroNFT/Collectors/Collector1.png"
@@ -193,10 +202,12 @@ export default function Page() {
           <div></div>
         </div>
 
-        <div className="pt-5 text-center text-xl">
+        <div className="pt-5 text-center text-base text-p1-darkgreen md:text-2xl">
           Так мы планируем обеспечить прозрачность процесса.
         </div>
-        <div className="text-center text-xl">и чистоту коллекции</div>
+        <div className="text-center text-base text-p1-darkgreen md:text-2xl">
+          и чистоту коллекции
+        </div>
       </div>
     </div>
   );

@@ -65,7 +65,7 @@ export default function Page() {
       <div className="mx-5 grid grid-cols-1 gap-2 rounded-3xl border-p1-darkgreen text-center text-p1-darkgreen md:grid-cols-2 md:border-4 md:p-5 md:shadow-lg xl:grid-cols-4">
         <div>
           <Image
-            className="relative mb-4 inline-block w-3/5 rounded-3xl border-2 border-p2-orange shadow-lg md:w-full"
+            className="relative mb-4 inline-block w-3/5 rounded-3xl border-2 border-red-400 shadow-lg md:w-full"
             width={1000}
             height={1000}
             src="/HeroNFT/Drivers/Driver4.png"
@@ -91,7 +91,7 @@ export default function Page() {
                 pathname: '/rumintdrivers',
                 query: { drivers: 'rumintdrivers' },
               }}
-              className="rounded-r-xl border-2 border-p1-darkgreen bg-p2-white2 p-2 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white focus:z-10 focus:bg-p2-orange focus:text-p1-white focus:ring-2 focus:ring-p2-orange md:p-5 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange"
+              className="rounded-r-xl border-2 border-red-400 bg-p2-white2 p-2 text-p1-darkgreen shadow-lg hover:bg-red-400 hover:text-p1-white focus:z-10 focus:bg-red-400 focus:text-p1-white focus:ring-2 focus:ring-red-400 md:p-5 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-red-400"
             >
               Создай NFT
             </Link>
@@ -99,7 +99,7 @@ export default function Page() {
         </div>
         <div>
           <Image
-            className="relative mb-4 inline-block w-3/5 rounded-3xl border-2 border-p2-orange shadow-lg md:w-full"
+            className="relative mb-4 inline-block w-3/5 rounded-3xl border-2 border-p3-blue shadow-lg md:w-full"
             width={1000}
             height={1000}
             src="/HeroNFT/Team's members/TeamMember1.png"
@@ -123,7 +123,7 @@ export default function Page() {
                 pathname: '/rumintteammembers',
                 query: { teammembers: 'rumintteammembers' },
               }}
-              className="rounded-r-xl border-2 border-p1-darkgreen bg-p2-white2 p-2 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white focus:z-10 focus:bg-p2-orange focus:text-p1-white focus:ring-2 focus:ring-p2-orange md:p-5 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange"
+              className="rounded-r-xl border-2 border-p3-blue bg-p2-white2 p-2 text-p1-darkgreen shadow-lg hover:bg-p3-blue hover:text-p1-white focus:z-10 focus:bg-p3-blue focus:text-p1-white focus:ring-2 focus:ring-p3-blue md:p-5 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p3-blue"
             >
               Cоздай NFT
             </Link>
@@ -131,7 +131,7 @@ export default function Page() {
         </div>
         <div>
           <Image
-            className="relative mb-4 inline-block w-3/5 rounded-3xl border-2 border-p2-orange shadow-lg md:w-full"
+            className="relative mb-4 inline-block w-3/5 rounded-3xl border-2 border-stone-500 shadow-lg md:w-full"
             width={1000}
             height={1000}
             src="/HeroNFT/Collectors/Collector1.png"
@@ -156,7 +156,7 @@ export default function Page() {
                 pathname: '/rumintcollectors',
                 query: { collectors: 'rumintcollectors' },
               }}
-              className="rounded-r-xl border-2 border-p1-darkgreen bg-p2-white2 p-2 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white focus:z-10 focus:bg-p2-orange focus:text-p1-white focus:ring-2 focus:ring-p2-orange md:p-5 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange"
+              className="rounded-r-xl border-2 border-stone-500 bg-p2-white2 p-2 text-p1-darkgreen shadow-lg hover:bg-stone-500 hover:text-p1-white focus:z-10 focus:bg-stone-500 focus:text-p1-white focus:ring-2 focus:ring-stone-500 md:p-5 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-stone-500"
             >
               Cоздай NFT
             </Link>
@@ -164,7 +164,7 @@ export default function Page() {
         </div>
         <div>
           <Image
-            className="relative mb-4 inline-block w-3/5 rounded-3xl border-2 border-p2-orange shadow-lg md:w-full"
+            className="relative mb-4 inline-block w-3/5 rounded-3xl border-2 border-p3-blue shadow-lg md:w-full"
             width={1000}
             height={1000}
             src="/Cars/Car.png"
@@ -189,7 +189,7 @@ export default function Page() {
                 pathname: '/rumintcars',
                 query: { cars: 'rumintcars' },
               }}
-              className="rounded-r-xl border-2 border-p1-darkgreen bg-p2-white2 p-2 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white focus:z-10 focus:bg-p2-orange focus:text-p1-white focus:ring-2 focus:ring-p2-orange md:p-5 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange"
+              className="rounded-r-xl border-2 border-cyan-700 bg-p2-white2 p-2 text-p1-darkgreen shadow-lg hover:bg-cyan-700 hover:text-p1-white focus:z-10 focus:bg-cyan-700 focus:text-p1-white focus:ring-2 focus:ring-cyan-700 md:p-5 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-cyan-700"
             >
               Cоздай NFT
             </Link>
@@ -238,7 +238,7 @@ export default function Page() {
                 pathname: '/rumintcustomlads',
                 query: { customlad: 'rumintcustomlads' },
               }}
-              className="rounded-r-xl border-2 border-p1-darkgreen bg-p2-white2 p-2 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white focus:z-10 focus:bg-p2-orange focus:text-p1-white focus:ring-2 focus:ring-p2-orange md:p-5 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange"
+              className="rounded-r-xl border-2 border-p2-orange bg-p2-white2 p-2 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white focus:z-10 focus:bg-p2-orange focus:text-p1-white focus:ring-2 focus:ring-p2-orange md:p-5 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange"
             >
               Создай NFT
             </Link>
@@ -289,7 +289,7 @@ export default function Page() {
                 pathname: '/rumintrewards',
                 query: { rewards: 'rumintrewards' },
               }}
-              className="rounded-r-xl border-2 border-p1-darkgreen bg-p2-white2 p-2 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white focus:z-10 focus:bg-p2-orange focus:text-p1-white focus:ring-2 focus:ring-p2-orange md:p-5 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange"
+              className="rounded-r-xl border-2 border-p2-orange bg-p2-white2 p-2 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white focus:z-10 focus:bg-p2-orange focus:text-p1-white focus:ring-2 focus:ring-p2-orange md:p-5 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange"
             >
               Создай NFT
             </Link>
@@ -308,7 +308,7 @@ export default function Page() {
       <div className="m-5 grid grid-cols-1 gap-2 place-self-center rounded-3xl border-p1-darkgreen p-5 text-center text-p1-darkgreen md:border-4 md:shadow-lg lg:grid-cols-2 2xl:grid-cols-3">
         <div className="mb-5 mt-5">
           <Image
-            className="relative mb-4 inline-block w-4/5 rounded-3xl border-2 border-p2-orange shadow-lg"
+            className="relative mb-4 inline-block w-4/5 rounded-3xl border-2 border-amber-600 shadow-lg"
             width={1000}
             height={1000}
             src="/Licenses/Promoter Lic.png"
@@ -328,14 +328,14 @@ export default function Page() {
           <Link
             href={'/rulicense'}
             onClick={() => setLicense(0)}
-            className="rounded-r-xl border-2 border-p1-darkgreen bg-p2-white2 p-2 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white focus:z-10 focus:bg-p2-orange focus:text-p1-white focus:ring-2 focus:ring-p2-orange md:p-5 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange"
+            className="rounded-r-xl border-2 border-amber-600 bg-p2-white2 p-2 text-p1-darkgreen shadow-lg hover:bg-amber-600 hover:text-p1-white focus:z-10 focus:bg-amber-600 focus:text-p1-white focus:ring-2 focus:ring-amber-600 md:p-5 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-amber-600"
           >
             Cоздай NFT
           </Link>
         </div>
         <div className="mb-5 mt-5">
           <Image
-            className="relative mb-4 inline-block w-4/5 rounded-3xl border-2 border-p2-orange shadow-lg"
+            className="relative mb-4 inline-block w-4/5 rounded-3xl border-2 border-p1-gray shadow-lg"
             width={1000}
             height={1000}
             src="/Licenses/National Lic.png"
@@ -355,7 +355,7 @@ export default function Page() {
           <Link
             href={'/rulicense'}
             onClick={() => setLicense(1)}
-            className="rounded-r-xl border-2 border-p1-darkgreen bg-p2-white2 p-2 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white focus:z-10 focus:bg-p2-orange focus:text-p1-white focus:ring-2 focus:ring-p2-orange md:p-5 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange"
+            className="rounded-r-xl border-2 border-p1-gray bg-p2-white2 p-2 text-p1-darkgreen shadow-lg hover:bg-p1-gray hover:text-p1-white focus:z-10 focus:bg-p1-gray focus:text-p1-white focus:ring-2 focus:ring-p1-gray md:p-5 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p1-gray"
           >
             Cоздай NFT
           </Link>
@@ -384,7 +384,7 @@ export default function Page() {
           <Link
             href={'/rulicense'}
             onClick={() => setLicense(2)}
-            className="rounded-r-xl border-2 border-p1-darkgreen bg-p2-white2 p-2 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white focus:z-10 focus:bg-p2-orange focus:text-p1-white focus:ring-2 focus:ring-p2-orange md:p-5 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange"
+            className="rounded-r-xl border-2 border-p2-orange bg-p2-white2 p-2 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white focus:z-10 focus:bg-p2-orange focus:text-p1-white focus:ring-2 focus:ring-p2-orange md:p-5 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange"
           >
             Cоздай NFT
           </Link>

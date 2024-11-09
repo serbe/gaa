@@ -7,21 +7,25 @@ export default function Page() {
 
   return (
     <div className="mx-auto max-w-7xl font-serif">
-      <div className="flex flex-wrap justify-between space-x-2 object-center px-2 pt-5 md:flex-nowrap">
-        <div className="p-2 text-center text-4xl font-semibold text-p2-orange">RaceLads NFT</div>
-        <div className="p-2 text-center text-4xl font-semibold text-p2-orange">
+      <div className="flex flex-wrap justify-center self-center md:flex-nowrap md:justify-between">
+        <div className="px-5 text-xl font-bold text-p2-orange md:pt-2 md:text-4xl">
+          RaceLads NFT
+        </div>
+        <div className="px-5 text-xl font-bold text-p2-orange md:pt-2 md:text-4xl">
           Страница создания NFT
         </div>
       </div>
-      <div className="flex flex-wrap justify-center space-x-2 px-2 pt-5 md:flex-nowrap">
-        <div className="m-5 h-max rounded-3xl border-4 border-p2-orange hover:shadow-lg">
+      <div className="flex flex-wrap justify-center md:flex-nowrap">
+        <div className="h-max rounded-3xl border-p2-orange hover:shadow-lg md:m-5 md:w-3/5 md:border-4">
           <div>
-            <p className="px-2 text-center text-2xl text-p1-darkgreen">Присоединяйтесь к нам</p>
-            <p className="px-2 pb-5 text-center text-2xl text-p1-darkgreen">
+            <p className="px-2 text-center text-base text-p1-darkgreen md:text-2xl">
+              Присоединяйтесь к нам
+            </p>
+            <p className="px-2 pb-2 text-center text-base text-p1-darkgreen md:text-2xl">
               Получите своего героя RaceLad
             </p>
             <Image
-              className="mb-4 flex w-3/5 place-self-center rounded-3xl border-2 border-p2-orange shadow-lg"
+              className="mb-4 flex w-full place-self-center rounded-3xl border-2 border-p2-orange shadow-lg md:w-2/5"
               width={1000}
               height={1000}
               src="/HeroNFT/RaceLads/RaceLads1.png"
@@ -31,7 +35,7 @@ export default function Page() {
             <div className="w-full place-items-center">
               <label
                 htmlFor="default-range"
-                className="mb-2 block text-xl font-medium text-gray-900 dark:text-white"
+                className="block text-xl font-medium text-gray-900 dark:text-white"
               >
                 {value}
               </label>
@@ -46,15 +50,18 @@ export default function Page() {
               />
             </div>
 
-            <p className="p-8 text-center text-2xl text-p1-darkgreen">
-              Максимальное количество: 10 RaceLads за транзакцию
+            <p className="pt-4 text-center text-base text-p1-darkgreen md:text-2xl">
+              Максимальное количество:
+            </p>
+            <p className="pb-4 text-center text-base text-p1-darkgreen md:pb-8 md:text-2xl">
+              10 RaceLads за транзакцию
             </p>
             <div className="place-self-center">
-              <button className="rounded-3xl border-2 border-p1-darkgreen bg-p2-white2 px-20 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
+              <button className="rounded-xl border-2 border-p2-orange bg-p2-white2 px-5 py-4 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white md:rounded-3xl md:px-20 md:py-8">
                 Создать NFT
               </button>
             </div>
-            <div className="pb-8"></div>
+            <div className="pb-2 md:pb-8"></div>
           </div>
         </div>
       </div>
