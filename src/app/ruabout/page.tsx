@@ -1,5 +1,18 @@
+'use client';
+
 import Image from 'next/image';
 import Link from 'next/link';
+import { useState } from 'react';
+
+import { Mousewheel, Pagination } from 'swiper/modules';
+
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/scrollbar';
+import 'swiper/css/pagination';
 
 export default function Page() {
   return (
@@ -226,7 +239,160 @@ export default function Page() {
             </div>
           </div>
         </div>
+
         <div className="md:basis-1/6"></div>
+      </div>
+
+      <div className="md:place-self-senter rounden-3xl w-fulloverflow-x-auto snap-x pb-5 pt-5 md:h-full">
+        <Swiper
+          direction={'horizontal'}
+          spaceBetween={1}
+          slidesPerView={2.5}
+          mousewheel={true}
+          modules={[Mousewheel, Pagination]}
+          // navigation={true}
+          // scrollbar={{ draggable: true }}
+          pagination={{
+            clickable: true,
+          }}
+          loop={true}
+          className="mySwyper h-full w-full md:w-3/5"
+        >
+          <SwiperSlide>
+            <div>
+              <Image
+                className="relative inline-block w-full snap-center shadow-lg duration-500 hover:z-50 hover:scale-150"
+                width={130}
+                height={130}
+                src="/HeroNFT/Drivers/Driver4.png"
+                alt="Driver4"
+              />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div>
+              <Image
+                className="relative inline-block w-full snap-center shadow-lg duration-500 hover:z-50 hover:scale-150"
+                width={130}
+                height={130}
+                src="/HeroNFT/Drivers/Driver3.png"
+                alt="Driver3"
+              />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div>
+              <Image
+                className="relative inline-block w-full snap-center shadow-lg duration-500 hover:z-50 hover:scale-150"
+                width={130}
+                height={130}
+                src="/HeroNFT/Drivers/Driver2.png"
+                alt="Driver2"
+              />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div>
+              <Image
+                className="relative inline-block w-full snap-center shadow-lg duration-500 hover:z-50 hover:scale-150"
+                width={130}
+                height={130}
+                src="/HeroNFT/Drivers/Driver1.png"
+                alt="Driver1"
+              />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div>
+              <Image
+                className="relative inline-block w-full snap-center shadow-lg duration-500 hover:z-50 hover:scale-150"
+                width={130}
+                height={130}
+                src="/HeroNFT/CustomLads/CustomLads1.png"
+                alt="CustomLads1"
+              />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div>
+              <Image
+                className="relative inline-block w-full snap-center shadow-lg duration-500 hover:z-50 hover:scale-150"
+                width={130}
+                height={130}
+                src="/HeroNFT/CustomLads/CustomLads2.png"
+                alt="CustomLads2"
+              />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div>
+              <Image
+                className="relative inline-block w-full snap-center shadow-lg duration-500 hover:z-50 hover:scale-150"
+                width={130}
+                height={130}
+                src="/HeroNFT/CustomLads/CustomLads3.png"
+                alt="CustomLads3"
+              />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div>
+              <Image
+                className="relative inline-block w-full snap-center shadow-lg duration-500 hover:z-50 hover:scale-150"
+                width={130}
+                height={130}
+                src="/HeroNFT/CustomLads/CustomLads4.png"
+                alt="CustomLads4"
+              />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div>
+              <Image
+                className="relative inline-block w-full snap-center shadow-lg duration-500 hover:z-50 hover:scale-150"
+                width={130}
+                height={130}
+                src="/HeroNFT/Collectors/Collector1.png"
+                alt="Collector1"
+              />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div>
+              <Image
+                className="relative inline-block w-full snap-center shadow-lg duration-500 hover:z-50 hover:scale-150"
+                width={130}
+                height={130}
+                src="/HeroNFT/Collectors/Collector2.png"
+                alt="Collector2"
+              />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div>
+              <Image
+                className="relative inline-block w-full snap-center shadow-lg duration-500 hover:z-50 hover:scale-150"
+                width={130}
+                height={130}
+                src="/HeroNFT/Collectors/Collector3.png"
+                alt="Collector3"
+              />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div>
+              <Image
+                className="relative inline-block w-full snap-center shadow-lg duration-500 hover:z-50 hover:scale-150"
+                width={130}
+                height={130}
+                src="/HeroNFT/Collectors/Collector4.png"
+                alt="Collector4"
+              />
+            </div>
+          </SwiperSlide>
+        </Swiper>
+
+        <div className="pb-2 md:pb-5"></div>
       </div>
 
       <div className="flex flex-row justify-center p-2">
@@ -356,6 +522,129 @@ export default function Page() {
         <div className="md:basis-1/6"></div>
       </div>
 
+
+
+      <div className="md:place-self-senter rounden-3xl w-fulloverflow-x-auto snap-x pb-5 pt-5 md:h-full">
+     
+        <Swiper
+          direction={'horizontal'}
+          spaceBetween={1}
+          slidesPerView={2.5}
+          mousewheel={true}
+          modules={[Mousewheel, Pagination]}
+          // navigation={true}
+          // scrollbar={{ draggable: true }}
+          pagination={{
+            clickable: true,
+          }}
+          loop={true}
+          className="mySwyper h-full w-full md:w-3/5"
+        >
+          <SwiperSlide>
+            <div>
+              <Image
+                className="relative inline-block w-full scale-75 snap-center duration-500 hover:z-10 hover:scale-100"
+                width={130}
+                height={130}
+                src="/RewardsSite/DragRacingRewardSite.png"
+                alt="DragRacingRewardSite"
+              />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div>
+              <Image
+                className="relative inline-block w-full scale-75 snap-center duration-500 hover:z-10 hover:scale-100"
+                width={130}
+                height={130}
+                src="/RewardsSite/DriftRewardSite.png"
+                alt="DriftRewardSite"
+              />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div>
+              <Image
+                className="relative inline-block w-full scale-75 snap-center duration-500 hover:z-10 hover:scale-100"
+                width={130}
+                height={130}
+                src="/RewardsSite/OldtimerRewardSite.png"
+                alt="OldtimerRewardSite"
+              />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div>
+              <Image
+                className="relative inline-block w-full scale-75 snap-center duration-500 hover:z-10 hover:scale-100"
+                width={130}
+                height={130}
+                src="/RewardsSite/OpenWheelsRewardSite.png"
+                alt="OpenWheelsRewardSite"
+              />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div>
+              <Image
+                className="relative inline-block w-full scale-75 snap-center duration-500 hover:z-10 hover:scale-100"
+                width={130}
+                height={130}
+                src="/RewardsSite/RallyRewardSite.png"
+                alt="RallyRewardSite"
+              />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div>
+              <Image
+                className="relative inline-block w-full scale-75 snap-center duration-500 hover:z-10 hover:scale-100"
+                width={130}
+                height={130}
+                src="/RewardsSite/SimRacingRewardSite.png"
+                alt="SimRacingRewardSite"
+              />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div>
+              <Image
+                className="relative inline-block w-full scale-75 snap-center duration-500 hover:z-10 hover:scale-100"
+                width={130}
+                height={130}
+                src="/RewardsSite/SoundCarRewardSite.png"
+                alt="SoundCarRewardSite"
+              />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div>
+              <Image
+                className="relative inline-block w-full scale-75 snap-center duration-500 hover:z-10 hover:scale-100"
+                width={130}
+                height={130}
+                src="/RewardsSite/StanceRewardSite.png"
+                alt="StanceRewardSite"
+              />
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div>
+              <Image
+                className="relative inline-block w-full scale-75 snap-center duration-500 hover:z-10 hover:scale-100"
+                width={130}
+                height={130}
+                src="/RewardsSite/TCRRewardSite.png"
+                alt="TCRRewardSite"
+              />
+            </div>
+          </SwiperSlide>
+        </Swiper>
+
+
+
+        <div className="pb-2 md:pb-5"></div>
+      </div>
       <div className="flex flex-row justify-center p-2">
         <div className="md:basis-3/5">
           <div className="text-center text-xl font-bold text-p1-darkgreen drop-shadow-2xl md:text-3xl">
