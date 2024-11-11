@@ -141,26 +141,22 @@ export default function Page() {
         </div>
       </div>
 
-      <div className="flex flex-row justify-center p-2">
-        <div className="text-p1-darkgreen md:basis-4/6">
-          <div className="space-y-6 rounded-3xl p-2 md:my-5">
-            <div className="space-y-4 rounded-3xl border-p1-darkgreen p-2 text-left text-base text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:border-4 md:text-xl">
-              <p className="text-center text-xl font-bold md:text-2xl">Наши амбициозные цели:</p>
-              <p>Создание активного сообщества:</p>
-              <p>
-                Объединяем фанатов автоспорта и автомобильной культуры в соцсетях и мессенджерах
-                (Telegram, Discord, X) для общения, новых знакомств и обмена опытом.
-              </p>
-              <p>Организация и проведение крупных международных автоспортивных мероприятий.</p>
-              <p className="pt-2 text-center text-xl font-bold md:text-2xl">
-                Партнерские отношения:
-              </p>
-              <p>
-                Устанавливаем связи с организаторами и участниками крупнейших автоспортивных событий
-                (дрифт, кольцевые гонки, драг рейсинг, симрейсинг, автовыставки) для совместных
-                проектов и акций.
-              </p>
-            </div>
+      <div className="flex flex-row justify-center">
+        <div className="mb-5 mt-5 text-p1-darkgreen md:basis-4/6">
+          <div className="space-y-4 rounded-3xl border-p1-darkgreen p-2 p-6 text-left text-base text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:border-4 md:text-xl">
+            <p className="text-center text-xl font-bold md:text-2xl">Наши амбициозные цели:</p>
+            <p>Создание активного сообщества:</p>
+            <p>
+              Объединяем фанатов автоспорта и автомобильной культуры в соцсетях и мессенджерах
+              (Telegram, Discord, X) для общения, новых знакомств и обмена опытом.
+            </p>
+            <p>Организация и проведение крупных международных автоспортивных мероприятий.</p>
+            <p className="pt-2 text-center text-xl font-bold md:text-2xl">Партнерские отношения:</p>
+            <p>
+              Устанавливаем связи с организаторами и участниками крупнейших автоспортивных событий
+              (дрифт, кольцевые гонки, драг рейсинг, симрейсинг, автовыставки) для совместных
+              проектов и акций.
+            </p>
           </div>
         </div>
       </div>
@@ -723,7 +719,7 @@ export default function Page() {
               </ul>
             </div>
 
-            <div className="space-y-4 rounded-3xl border-p1-darkgreen text-center text-xl text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:my-5 md:border-4">
+            <div className="space-y-4 rounded-3xl border-p1-darkgreen p-6 text-center text-xl text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:my-5 md:border-4">
               <p className="text-center text-2xl font-bold text-p1-darkgreen">
                 Выход на международный уровень
               </p>

@@ -28,7 +28,7 @@ export default function Page() {
                       <p>Создай NFT спортивного/раритетного автомобиля</p>
                     </div>
 
-                    <div className="z-10 rounded-3xl border-2 bg-p3-blue py-5 md:sticky md:top-20">
+                    <div className="z-10 rounded-3xl border-2 bg-cyan-500 py-5 md:sticky md:top-16">
                       <div className="grid-1 grid flex-wrap-reverse gap-2 md:w-full md:grid-cols-3">
                         <div className="place-items-center p-2">
                           <Image
@@ -138,14 +138,13 @@ export default function Page() {
                         </div>
                       </div>
                     </div>
-
                     <div className="md:w-full">
                       <p className="p-2 pt-8 text-base font-normal text-p1-darkgreen md:text-2xl">
                         Максимальное количество: 100 Cars NFT за транзакцию
                       </p>
 
                       <p className="p-2 text-base font-semibold text-p1-darkgreen md:text-2xl">
-                        Созданные вами NFT автоматически попадут в глобальную коллекцию GAA
+                        Созданные Вами NFT автоматически попадут в глобальную коллекцию GAA
                       </p>
                       <p className="p-2 text-base font-semibold text-p1-darkgreen md:text-2xl">
                         это единый сборник мирового сообщества
@@ -154,7 +153,7 @@ export default function Page() {
                         Если вы планируете раздать или продать свои NFT, вы можете сделать несколько
                         NFT одновременно
                       </p>
-                      <p className="p-2 text-base font-semibold text-p1-darkgreen md:text-2xl">
+                      <p className="px-2 pt-2 text-base font-semibold text-p1-darkgreen md:pb-72 md:text-2xl">
                         Это Ваш способ привлечения инвестиций
                       </p>
                     </div>
@@ -167,7 +166,7 @@ export default function Page() {
           <div>
             <div className="flex flex-col object-right p-2 md:w-full">
               <div>
-                <p className="text-left text-xl text-p1-darkgreen md:text-2xl">
+                <p className="text-center text-xl text-p1-darkgreen md:text-left md:text-2xl">
                   Заполни все поля - эти метаданные будут храниться в блокчейне
                 </p>
               </div>
