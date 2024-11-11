@@ -2,7 +2,6 @@
 
 import Image from 'next/image';
 import Link from 'next/link';
-import { useState } from 'react';
 
 import { Mousewheel, Pagination } from 'swiper/modules';
 
@@ -522,10 +521,7 @@ export default function Page() {
         <div className="md:basis-1/6"></div>
       </div>
 
-
-
       <div className="md:place-self-senter rounden-3xl w-fulloverflow-x-auto snap-x pb-5 pt-5 md:h-full">
-     
         <Swiper
           direction={'horizontal'}
           spaceBetween={1}
@@ -640,8 +636,6 @@ export default function Page() {
             </div>
           </SwiperSlide>
         </Swiper>
-
-
 
         <div className="pb-2 md:pb-5"></div>
       </div>

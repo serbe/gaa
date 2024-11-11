@@ -1,24 +1,24 @@
 import Image from 'next/image';
+
 export default function Page() {
   return (
     <div className="mx-auto max-w-7xl font-serif">
       <hr className="z-100 relative h-full w-full border-2 bg-red-500" />
 
-            <div className="p-2 text-center text-xl font-bold text-p1-darkgreen drop-shadow-2xl md:text-3xl">Дорожная карта</div>
+      <div className="p-2 text-center text-xl font-bold text-p1-darkgreen drop-shadow-2xl md:text-3xl">
+        Дорожная карта
+      </div>
 
       <div className="flex flex-row justify-center pb-2">
         <div className="md:basis-1/5"></div>
         <div className="basis-5/5 md:basis-3/5">
           <div className="px-2 text-center text-base font-semibold text-p1-darkgreen md:text-xl">
-          1. Зарождение и обсуждение идеи объединения людей в сообщество посредством технологий
-          Blockchain и NFT          </div>
+            1. Зарождение и обсуждение идеи объединения людей в сообщество посредством технологий
+            Blockchain и NFT{' '}
+          </div>
         </div>
         <div className="md:basis-1/5"></div>
       </div>
-  
-  
-  
- 
 
       <div className="flex flex-row justify-center pb-2">
         <div className="basis-1/5">
@@ -51,7 +51,7 @@ export default function Page() {
         <div className="basis-5/5 md:basis-3/5">
           <div className="px-2 text-center text-base font-semibold text-p1-darkgreen md:text-xl">
             2. Старт проекта
-            <p>&quot;Global Automotive Association&quot;</p> 
+            <p>&quot;Global Automotive Association&quot;</p>
           </div>
         </div>
         <div className="md:basis-1/5"></div>
@@ -118,9 +118,7 @@ export default function Page() {
             </div>
           </div>
         </div>
-        <div className="basis-1/5 p-5">
-        
-        </div>
+        <div className="basis-1/5 p-5"></div>
       </div>
 
       <div className="flex flex-row justify-center pb-2">
@@ -134,8 +132,7 @@ export default function Page() {
       </div>
 
       <div className="flex flex-row justify-center p-5">
-        <div className="md:basis-1/5">
-        </div>
+        <div className="md:basis-1/5"></div>
         <div className="basis-4/5 md:basis-3/5">
           <div className="space-y-4 rounded-3xl border-p1-darkgreen p-2 text-left text-base text-p1-darkgreen hover:border-p2-orange md:border-4 md:text-xl md:hover:shadow-xl">
             <div className="pb-5">
@@ -153,7 +150,9 @@ export default function Page() {
       <div className="flex flex-row justify-center pb-2">
         <div className="md:basis-1/5"></div>
         <div className="basis-5/5 md:basis-3/5">
-          <div className="px-2 text-base font-semibold text-p1-darkgreen md:text-xl">5. Интернет портал</div>
+          <div className="px-2 text-base font-semibold text-p1-darkgreen md:text-xl">
+            5. Интернет портал
+          </div>
         </div>
         <div className="md:basis-1/5"></div>
       </div>
@@ -178,8 +177,7 @@ export default function Page() {
             </ul>
           </div>
         </div>
-        <div className="md:basis-1/5">
-        </div>
+        <div className="md:basis-1/5"></div>
       </div>
 
       <div className="flex flex-row justify-center pb-2">
@@ -235,7 +233,9 @@ export default function Page() {
       <div className="flex flex-row justify-center pb-2">
         <div className="basis-1/5"></div>
         <div className="basis-4/5 md:basis-3/5">
-          <div className="px-2 text-base font-semibold text-p1-darkgreen md:text-xl">7. Другие коллекции</div>
+          <div className="px-2 text-base font-semibold text-p1-darkgreen md:text-xl">
+            7. Другие коллекции
+          </div>
         </div>
         <div className="basis-1/5"></div>
       </div>
@@ -310,23 +310,19 @@ export default function Page() {
       </div>
 
       <div className="flex flex-row justify-center pb-2">
-        <div className="md:basis-1/5">
-        </div>
+        <div className="md:basis-1/5"></div>
         <div className="basis-5/5 md:basis-3/5">
           <div className="px-2 text-center text-base font-semibold text-p1-darkgreen md:text-xl">
             9. Создание децентрализованной автономной организации (DAO)
           </div>
-         
         </div>
-        <div className="md:basis-1/5">
-        </div>
+        <div className="md:basis-1/5"></div>
       </div>
       <div className="flex flex-row justify-center pb-2">
         <div className="basis-1/5">
           <Image width={150} height={600} src="/Hero/10.png" alt="Hero10" />
         </div>
         <div className="basis-4/5 md:basis-3/5">
-      
           <div className="space-y-4 rounded-3xl border-p1-darkgreen p-2 text-left text-base text-p1-darkgreen hover:border-p2-orange md:border-4 md:text-xl md:hover:shadow-xl">
             <div className="pb-5">
               Предоставляем лидерам направлений права Global Automotive Association (GAA).
@@ -401,7 +397,6 @@ export default function Page() {
           <div className="px-2 text-center text-base font-semibold text-p1-darkgreen md:text-xl">
             11. Сохранение культурных ценностей
           </div>
-       
         </div>
         <div className="md:basis-1/5"></div>
       </div>
@@ -411,8 +406,7 @@ export default function Page() {
         <div className="basis-4/5 md:basis-3/5">
           <div className="space-y-4 rounded-3xl border-p1-darkgreen p-2 text-left text-center text-base text-p1-darkgreen hover:border-p2-orange md:border-4 md:text-xl md:hover:shadow-xl">
             <div className="p-5 px-10">
-            Помогаем сохранять культурные ценности и памятники, поддерживаем музеи.
-
+              Помогаем сохранять культурные ценности и памятники, поддерживаем музеи.
             </div>
           </div>
         </div>
@@ -527,8 +521,12 @@ export default function Page() {
       <div className="flex flex-row justify-center pb-2">
         <div className="basis-1/5"></div>
         <div className="basis-4/5 md:basis-3/5">
-          <div className="px-2 text-center text-base font-semibold text-p1-darkgreen md:text-xl">У нас своя</div>
-          <div className="px-2 text-center text-base font-semibold text-p1-darkgreen md:text-xl">ОЛИМПИАДА!</div>
+          <div className="px-2 text-center text-base font-semibold text-p1-darkgreen md:text-xl">
+            У нас своя
+          </div>
+          <div className="px-2 text-center text-base font-semibold text-p1-darkgreen md:text-xl">
+            ОЛИМПИАДА!
+          </div>
         </div>
         <div className="basis-1/5"></div>
       </div>
