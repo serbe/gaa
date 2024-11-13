@@ -5,6 +5,7 @@ import Header from '@/components/header';
 import Nav from '@/components/nav';
 import Footer from '@/components/footer';
 import { GaaStoreProvider } from '@/providers/store-provider';
+import { TopButton } from '@/components/topButton';
 
 const inter = Roboto_Serif({
   weight: ['100', '300', '400', '500', '700', '900'],
@@ -24,13 +25,14 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: Readonly<Props>) {
   return (
-    <html lang="en">
-      <body className="scroll-smooth">
+    <html lang="en" className="scroll-smooth md:scroll-auto">
+      <body>
         <div className={inter.className}>
           <GaaStoreProvider>
             <Header />
             <Nav />
             <main className="mx-auto min-h-screen bg-p1-white">{children}</main>
+            <TopButton />
             <Footer />
           </GaaStoreProvider>
         </div>

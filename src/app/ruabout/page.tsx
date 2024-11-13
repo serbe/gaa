@@ -3,7 +3,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 
-import { Mousewheel, Pagination } from 'swiper/modules';
+import { Autoplay, Mousewheel, Navigation, Pagination } from 'swiper/modules';
 
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -240,13 +240,16 @@ export default function Page() {
 
       <div className="md:place-self-senter rounden-3xl w-fulloverflow-x-auto snap-x pb-5 pt-5 md:h-full">
         <Swiper
+          autoplay={{
+            delay: 2500,
+            pauseOnMouseEnter: true,
+          }}
           direction={'horizontal'}
           spaceBetween={1}
           slidesPerView={2.5}
           mousewheel={true}
-          modules={[Mousewheel, Pagination]}
-          // navigation={true}
-          // scrollbar={{ draggable: true }}
+          modules={[Autoplay, Mousewheel, Navigation, Pagination]}
+          navigation={true}
           pagination={{
             clickable: true,
           }}
@@ -519,13 +522,16 @@ export default function Page() {
 
       <div className="md:place-self-senter rounden-3xl w-fulloverflow-x-auto snap-x pb-5 pt-5 md:h-full">
         <Swiper
+          autoplay={{
+            delay: 2500,
+            pauseOnMouseEnter: true,
+          }}
           direction={'horizontal'}
           spaceBetween={1}
           slidesPerView={2.5}
           mousewheel={true}
-          modules={[Mousewheel, Pagination]}
-          // navigation={true}
-          // scrollbar={{ draggable: true }}
+          modules={[Autoplay, Mousewheel, Navigation, Pagination]}
+          navigation={true}
           pagination={{
             clickable: true,
           }}
