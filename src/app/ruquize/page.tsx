@@ -1,27 +1,26 @@
 export default function Page() {
   return (
     <div className="mx-auto max-w-7xl font-serif">
-      <div className="flex flex-row">
-        <div className="w-full text-center">
-          <div className="text-center text-6xl font-bold text-p2-orange">Racepoint</div>
-          <div className="text-center text-4xl font-bold text-p2-orange">QUIZ</div>
-          <div className="text-center text-4xl font-bold text-p2-orange">
-            Автоспорт, автокультура
-          </div>
+      <div className="flex flex-wrap justify-center self-center md:flex-nowrap md:justify-between">
+        <div className="px-2 text-xl font-semibold text-p2-orange md:pt-2 md:text-3xl">
+          Racepoint
         </div>
+        <div className="px-2 text-xl font-semibold text-p2-orange md:pt-2 md:text-3xl">QUIZ</div>
+      </div>
+      <div className="px-2 text-center text-xl font-semibold text-p2-orange md:pt-2 md:text-3xl">
+        Автоспорт, автокультура
       </div>
 
-      <div className="flex flex-row">
-        <div className="w-1/5"></div>
-        <div className="w-3/5">
-          <div className="my-5 place-items-center rounded-3xl border-4 border-p2-orange p-6">
-            <div className="text-center font-serif text-2xl font-semibold text-p1-darkgreen">
+      <div className="flex flex-row justify-center">
+        <div className="md:w-3/5">
+          <div className="place-items-center rounded-3xl border-p2-orange p-2 md:border-4">
+            <div className="text-center font-serif text-base font-semibold text-p1-darkgreen md:text-xl">
               Какое направления автоспорта, автокультуры
             </div>
-            <div className="pb-2 text-center font-serif text-2xl font-semibold text-p1-darkgreen">
+            <div className="text-center font-serif text-base font-semibold text-p1-darkgreen md:text-xl">
               Вам больше всего нравится?
             </div>
-            <div className="pb-5"></div>
+            <div className="pb-2 md:pb-5"></div>
             <ul className="w-full rounded-lg border border-gray-200 bg-p1-white font-medium text-gray-900 dark:border-gray-600 dark:bg-gray-700 dark:text-white">
               <li className="w-full rounded-t-lg border-b border-gray-200 dark:border-gray-600">
                 <div className="flex items-center ps-3">
@@ -34,7 +33,7 @@ export default function Page() {
                   />
                   <label
                     htmlFor="list-radio-one"
-                    className="ms-4 w-full py-3 font-serif text-2xl text-p1-darkgreen dark:text-gray-300"
+                    className="md:text:xl ms-4 w-full py-3 font-serif text-base text-p1-darkgreen md:text-2xl dark:text-gray-300"
                   >
                     Дрифт
                   </label>
@@ -51,7 +50,7 @@ export default function Page() {
                   />
                   <label
                     htmlFor="list-radio-two"
-                    className="ms-4 w-full py-3 font-serif text-2xl text-p1-darkgreen dark:text-gray-300"
+                    className="md:text:xl ms-4 w-full py-3 font-serif text-base text-p1-darkgreen md:text-2xl dark:text-gray-300"
                   >
                     Кузовные гонки
                   </label>
@@ -68,7 +67,7 @@ export default function Page() {
                   />
                   <label
                     htmlFor="list-radio-three"
-                    className="ms-4 w-full py-3 font-serif text-2xl text-p1-darkgreen dark:text-gray-300"
+                    className="md:text:xl ms-4 w-full py-3 font-serif text-base text-p1-darkgreen md:text-2xl dark:text-gray-300"
                   >
                     Открытые колеса
                   </label>
@@ -85,7 +84,7 @@ export default function Page() {
                   />
                   <label
                     htmlFor="list-radio-four"
-                    className="ms-4 w-full py-3 font-serif text-2xl text-p1-darkgreen dark:text-gray-300"
+                    className="md:text:xl ms-4 w-full py-3 font-serif text-base text-p1-darkgreen md:text-2xl dark:text-gray-300"
                   >
                     Драгрэйсинг
                   </label>
@@ -102,7 +101,7 @@ export default function Page() {
                   />
                   <label
                     htmlFor="list-radio-five"
-                    className="ms-4 w-full py-3 font-serif text-2xl text-p1-darkgreen dark:text-gray-300"
+                    className="md:text:xl ms-4 w-full py-3 font-serif text-base text-p1-darkgreen md:text-2xl dark:text-gray-300"
                   >
                     Стэнс
                   </label>
@@ -119,7 +118,7 @@ export default function Page() {
                   />
                   <label
                     htmlFor="list-radio-six"
-                    className="ms-4 w-full py-3 font-serif text-2xl text-p1-darkgreen dark:text-gray-300"
+                    className="md:text:xl ms-4 w-full py-3 font-serif text-base text-p1-darkgreen md:text-2xl dark:text-gray-300"
                   >
                     Ралли
                   </label>
@@ -136,7 +135,7 @@ export default function Page() {
                   />
                   <label
                     htmlFor="list-radio-seven"
-                    className="ms-4 w-full py-3 font-serif text-2xl text-p1-darkgreen dark:text-gray-300"
+                    className="md:text:xl ms-4 w-full py-3 font-serif text-base text-p1-darkgreen md:text-2xl dark:text-gray-300"
                   >
                     Авто Звук
                   </label>
@@ -153,7 +152,7 @@ export default function Page() {
                   />
                   <label
                     htmlFor="list-radio-eight"
-                    className="ms-4 w-full py-3 font-serif text-2xl text-p1-darkgreen dark:text-gray-300"
+                    className="md:text:xl ms-4 w-full py-3 font-serif text-base text-p1-darkgreen md:text-2xl dark:text-gray-300"
                   >
                     Олдтаймер
                   </label>
@@ -170,7 +169,7 @@ export default function Page() {
                   />
                   <label
                     htmlFor="list-radio-nine"
-                    className="ms-4 w-full py-3 font-serif text-2xl text-p1-darkgreen dark:text-gray-300"
+                    className="md:text:xl ms-4 w-full py-3 font-serif text-base text-p1-darkgreen md:text-2xl dark:text-gray-300"
                   >
                     Симрэйсинг
                   </label>
@@ -187,7 +186,7 @@ export default function Page() {
                   />
                   <label
                     htmlFor="list-radio-ten"
-                    className="ms-4 w-full py-3 font-serif text-2xl text-p1-darkgreen dark:text-gray-300"
+                    className="md:text:xl ms-4 w-full py-3 font-serif text-base text-p1-darkgreen md:text-2xl dark:text-gray-300"
                   >
                     Другое
                   </label>
@@ -221,25 +220,24 @@ export default function Page() {
         </div>
       </div>
 
-      <div className="flex flex-row">
-        <div className="w-full text-center">
-          <div className="text-center text-6xl font-bold text-p2-orange">Racepoint</div>
-          <div className="text-center text-4xl font-bold text-p2-orange">QUIZ</div>
-          <div className="text-center text-4xl font-bold text-p2-orange">
-            Автоспорт, автокультура
-          </div>
+      <div className="flex flex-wrap justify-center self-center md:flex-nowrap md:justify-between">
+        <div className="px-2 text-xl font-semibold text-p2-orange md:pt-2 md:text-3xl">
+          Racepoint
         </div>
+        <div className="px-2 text-xl font-semibold text-p2-orange md:pt-2 md:text-3xl">QUIZ</div>
+      </div>
+      <div className="px-2 text-center text-xl font-semibold text-p2-orange md:pt-2 md:text-3xl">
+        Автоспорт, автокультура
       </div>
 
-      <div className="flex flex-row pb-5">
-        <div className="w-1/5"></div>
-        <div className="w-3/5">
-          <div className="my-5 place-items-center rounded-3xl border-4 border-p2-orange p-6">
-            <div className="text-center font-serif text-2xl font-semibold text-p1-darkgreen">
-              Какое отношение Вы имеете к автоспорту, автокультуре?
+      <div className="flex flex-row justify-center">
+        <div className="md:w-3/5">
+          <div className="place-items-center rounded-3xl border-p2-orange p-2 md:border-4">
+            <div className="text-center font-serif text-base font-semibold text-p1-darkgreen md:text-xl">
+              Какое отношение Вы имеете к автоспорту, автокультуре?{' '}
             </div>
 
-            <div className="pb-5"></div>
+            <div className="pb-2 md:pb-5"></div>
             <ul className="w-full rounded-lg border border-gray-200 bg-p1-white text-2xl font-medium text-gray-900 dark:border-gray-600 dark:bg-gray-700 dark:text-white">
               <li className="w-full rounded-t-lg border-b border-gray-200 dark:border-gray-600">
                 <div className="flex items-center ps-3">
@@ -252,7 +250,7 @@ export default function Page() {
                   />
                   <label
                     htmlFor="list-radio-eleven"
-                    className="ms-4 w-full py-3 font-serif text-2xl text-p1-darkgreen dark:text-gray-300"
+                    className="md:text:xl ms-4 w-full py-3 font-serif text-base text-p1-darkgreen md:text-2xl md:text-base dark:text-gray-300"
                   >
                     Я зритель, автоспорт смотрю по телевизору, интернету
                   </label>
@@ -269,7 +267,7 @@ export default function Page() {
                   />
                   <label
                     htmlFor="list-radio-twelve"
-                    className="ms-4 w-full py-3 font-serif text-2xl text-p1-darkgreen dark:text-gray-300"
+                    className="md:text:xl ms-4 w-full py-3 font-serif text-base text-p1-darkgreen md:text-2xl dark:text-gray-300"
                   >
                     Я Пилот автоспортивной команды
                   </label>
@@ -286,7 +284,7 @@ export default function Page() {
                   />
                   <label
                     htmlFor="list-radio-thirteen"
-                    className="ms-4 w-full py-3 font-serif text-2xl text-p1-darkgreen dark:text-gray-300"
+                    className="md:text:xl ms-4 w-full py-3 font-serif text-base text-p1-darkgreen md:text-2xl dark:text-gray-300"
                   >
                     Я участник автоспортивной команды
                   </label>
@@ -303,7 +301,7 @@ export default function Page() {
                   />
                   <label
                     htmlFor="list-radio-fourteen"
-                    className="ms-4 w-full py-3 font-serif text-2xl text-p1-darkgreen dark:text-gray-300"
+                    className="md:text:xl ms-4 w-full py-3 font-serif text-base text-p1-darkgreen md:text-2xl dark:text-gray-300"
                   >
                     Я организатор автоспортивных и автокультурных мероприятий
                   </label>
@@ -320,7 +318,7 @@ export default function Page() {
                   />
                   <label
                     htmlFor="list-radio-fifteen"
-                    className="ms-4 w-full py-3 font-serif text-2xl text-p1-darkgreen dark:text-gray-300"
+                    className="md:text:xl ms-4 w-full py-3 font-serif text-base text-p1-darkgreen md:text-2xl dark:text-gray-300"
                   >
                     У меня арендный бизнес спортивных автомобилей
                   </label>
@@ -337,7 +335,7 @@ export default function Page() {
                   />
                   <label
                     htmlFor="list-radio-sixteen"
-                    className="ms-4 w-full py-3 font-serif text-2xl text-p1-darkgreen dark:text-gray-300"
+                    className="md:text:xl ms-4 w-full py-3 font-serif text-base text-p1-darkgreen md:text-2xl dark:text-gray-300"
                   >
                     Я спонсор автоспортивных и автокультурных мероприятий
                   </label>
@@ -354,7 +352,7 @@ export default function Page() {
                   />
                   <label
                     htmlFor="list-radio-seventeen"
-                    className="ms-4 w-full py-3 font-serif text-2xl text-p1-darkgreen dark:text-gray-300"
+                    className="md:text:xl ms-4 w-full py-3 font-serif text-base text-p1-darkgreen md:text-2xl dark:text-gray-300"
                   >
                     Я коллекционирую автомобили, участник авто мероприятий
                   </label>
@@ -371,7 +369,7 @@ export default function Page() {
                   />
                   <label
                     htmlFor="list-radio-eighteen"
-                    className="ms-4 w-full py-3 font-serif text-2xl text-p1-darkgreen dark:text-gray-300"
+                    className="md:text:xl ms-4 w-full py-3 font-serif text-base text-p1-darkgreen md:text-2xl dark:text-gray-300"
                   >
                     Мои дети занимаются автоспортом
                   </label>
@@ -388,7 +386,7 @@ export default function Page() {
                   />
                   <label
                     htmlFor="list-radio-nineteen"
-                    className="ms-4 w-full py-3 font-serif text-2xl text-p1-darkgreen dark:text-gray-300"
+                    className="md:text:xl ms-4 w-full py-3 font-serif text-base text-p1-darkgreen md:text-2xl dark:text-gray-300"
                   >
                     Я коллекционирую NFT
                   </label>
@@ -405,7 +403,7 @@ export default function Page() {
                   />
                   <label
                     htmlFor="list-radio-twenty"
-                    className="ms-4 w-full py-3 font-serif text-2xl text-p1-darkgreen dark:text-gray-300"
+                    className="md:text:xl ms-4 w-full py-3 font-serif text-base text-p1-darkgreen md:text-2xl dark:text-gray-300"
                   >
                     Другое
                   </label>
@@ -439,23 +437,24 @@ export default function Page() {
         </div>
       </div>
 
-      <div className="flex flex-row">
-        <div className="w-full text-center">
-          <div className="text-center text-6xl font-bold text-p2-orange">Racepoint</div>
-          <div className="text-center text-4xl font-bold text-p2-orange">QUIZ</div>
-          <div className="text-center text-4xl font-bold text-p2-orange">NFT</div>
+      <div className="flex flex-wrap justify-center self-center md:flex-nowrap md:justify-between">
+        <div className="px-2 text-xl font-semibold text-p2-orange md:pt-2 md:text-3xl">
+          Racepoint
         </div>
+        <div className="px-2 text-xl font-semibold text-p2-orange md:pt-2 md:text-3xl">QUIZ</div>
+      </div>
+      <div className="px-2 text-center text-xl font-semibold text-p2-orange md:pt-2 md:text-3xl">
+        QUIZ NFT
       </div>
 
-      <div className="flex flex-row pb-5">
-        <div className="w-1/5"></div>
-        <div className="w-3/5">
-          <div className="my-5 place-items-center rounded-3xl border-4 border-p2-orange p-6">
-            <div className="text-center font-serif text-2xl font-semibold text-p1-darkgreen">
-              Какое у вас отношение к NFT?{' '}
+      <div className="flex flex-row justify-center">
+        <div className="md:w-3/5">
+          <div className="place-items-center rounded-3xl border-p2-orange p-2 md:border-4">
+            <div className="text-center font-serif text-base font-semibold text-p1-darkgreen md:text-xl">
+              Какое у вас отношение к NFT?
             </div>
 
-            <div className="pb-5"></div>
+            <div className="pb-2 md:pb-5"></div>
             <ul className="w-full rounded-lg border border-gray-200 bg-p1-white text-2xl font-medium text-gray-900 dark:border-gray-600 dark:bg-gray-700 dark:text-white">
               <li className="w-full rounded-t-lg border-b border-gray-200 dark:border-gray-600">
                 <div className="flex items-center ps-3">
@@ -468,7 +467,7 @@ export default function Page() {
                   />
                   <label
                     htmlFor="list-twentyone"
-                    className="ms-4 w-full py-3 font-serif text-2xl text-p1-darkgreen dark:text-gray-300"
+                    className="md:text:xl ms-4 w-full py-3 font-serif text-base text-p1-darkgreen md:text-2xl dark:text-gray-300"
                   >
                     У меня есть NFT
                   </label>
@@ -485,7 +484,7 @@ export default function Page() {
                   />
                   <label
                     htmlFor="list-radio-twelve"
-                    className="ms-4 w-full py-3 font-serif text-2xl text-p1-darkgreen dark:text-gray-300"
+                    className="md:text:xl ms-4 w-full py-3 font-serif text-base text-p1-darkgreen md:text-2xl dark:text-gray-300"
                   >
                     У меня есть криптокошелек, слышал(а) про NFT, но NFT нет.
                   </label>
@@ -502,7 +501,7 @@ export default function Page() {
                   />
                   <label
                     htmlFor="list-radio-thirteen"
-                    className="ms-4 w-full py-3 font-serif text-2xl text-p1-darkgreen dark:text-gray-300"
+                    className="md:text:xl ms-4 w-full py-3 font-serif text-base text-p1-darkgreen md:text-2xl dark:text-gray-300"
                   >
                     Я слышал про NFT, но как приобрести, как создать NFT я не знаю.
                   </label>
@@ -519,7 +518,7 @@ export default function Page() {
                   />
                   <label
                     htmlFor="list-radio-fourteen"
-                    className="ms-4 w-full py-3 font-serif text-2xl text-p1-darkgreen dark:text-gray-300"
+                    className="md:text:xl ms-4 w-full py-3 font-serif text-base text-p1-darkgreen md:text-2xl dark:text-gray-300"
                   >
                     Я не знаю, что такое NFT
                   </label>
@@ -536,7 +535,7 @@ export default function Page() {
                   />
                   <label
                     htmlFor="list-radio-fifteen"
-                    className="ms-4 w-full py-3 font-serif text-2xl text-p1-darkgreen dark:text-gray-300"
+                    className="md:text:xl ms-4 w-full py-3 font-serif text-base text-p1-darkgreen md:text-2xl dark:text-gray-300"
                   >
                     Мне NFT не нужны и знать про NFT ничего не хочу
                   </label>
@@ -554,24 +553,25 @@ export default function Page() {
         </div>
       </div>
 
-      <div className="flex flex-row">
-        <div className="w-full text-center">
-          <div className="text-center text-6xl font-bold text-p2-orange">Racepoint</div>
-          <div className="text-center text-4xl font-bold text-p2-orange">QUIZ</div>
-          <div className="text-center text-4xl font-bold text-p2-orange">NFT</div>
+      <div className="flex flex-wrap justify-center self-center md:flex-nowrap md:justify-between">
+        <div className="px-2 text-xl font-semibold text-p2-orange md:pt-2 md:text-3xl">
+          Racepoint
         </div>
+        <div className="px-2 text-xl font-semibold text-p2-orange md:pt-2 md:text-3xl">QUIZ</div>
+      </div>
+      <div className="px-2 text-center text-xl font-semibold text-p2-orange md:pt-2 md:text-3xl">
+        QUIZ NFT
       </div>
 
-      <div className="flex flex-row pb-5">
-        <div className="w-1/5"></div>
-        <div className="w-3/5">
-          <div className="my-5 place-items-center rounded-3xl border-4 border-p2-orange p-6">
-            <div className="text-center font-serif text-2xl font-semibold text-p1-darkgreen">
+      <div className="flex flex-row justify-center">
+        <div className="md:w-3/5">
+          <div className="place-items-center rounded-3xl border-p2-orange p-2 md:border-4">
+            <div className="text-center font-serif text-base font-semibold text-p1-darkgreen md:text-xl">
               Какие из сервисов Web3, блокчейн, NFT Вы бы хотели увидеть в автоспорте и автокультуре
-              в первую очередь?{' '}
+              в первую очередь?
             </div>
 
-            <div className="pb-5"></div>
+            <div className="pb-2 md:pb-5"></div>
             <ul className="w-full rounded-lg border border-gray-200 bg-p1-white text-2xl font-medium text-gray-900 dark:border-gray-600 dark:bg-gray-700 dark:text-white">
               <li className="w-full rounded-t-lg border-b border-gray-200 dark:border-gray-600">
                 <div className="flex items-center ps-3">
@@ -584,7 +584,7 @@ export default function Page() {
                   />
                   <label
                     htmlFor="list-radio-eleven"
-                    className="ms-4 w-full py-3 font-serif text-2xl text-p1-darkgreen dark:text-gray-300"
+                    className="md:text:xl ms-4 w-full py-3 font-serif text-base text-p1-darkgreen md:text-2xl dark:text-gray-300"
                   >
                     NFT награды для победителей, участников и членов команд
                   </label>
@@ -601,7 +601,7 @@ export default function Page() {
                   />
                   <label
                     htmlFor="list-radio-twelve"
-                    className="ms-4 w-full py-3 font-serif text-2xl text-p1-darkgreen dark:text-gray-300"
+                    className="md:text:xl ms-4 w-full py-3 font-serif text-base text-p1-darkgreen md:text-2xl dark:text-gray-300"
                   >
                     Коллекцию NFT Пилотов
                   </label>
@@ -618,7 +618,7 @@ export default function Page() {
                   />
                   <label
                     htmlFor="list-radio-thirteen"
-                    className="ms-4 w-full py-3 font-serif text-2xl text-p1-darkgreen dark:text-gray-300"
+                    className="md:text:xl ms-4 w-full py-3 font-serif text-base text-p1-darkgreen md:text-2xl dark:text-gray-300"
                   >
                     Коллекцию NFT членов команд
                   </label>
@@ -635,7 +635,7 @@ export default function Page() {
                   />
                   <label
                     htmlFor="list-radio-fourteen"
-                    className="ms-4 w-full py-3 font-serif text-2xl text-p1-darkgreen dark:text-gray-300"
+                    className="md:text:xl ms-4 w-full py-3 font-serif text-base text-p1-darkgreen md:text-2xl dark:text-gray-300"
                   >
                     Коллекцию NFT раритетных, спортивных автомобилей
                   </label>
@@ -652,7 +652,7 @@ export default function Page() {
                   />
                   <label
                     htmlFor="list-radio-fifteen"
-                    className="ms-4 w-full py-3 font-serif text-2xl text-p1-darkgreen dark:text-gray-300"
+                    className="md:text:xl ms-4 w-full py-3 font-serif text-base text-p1-darkgreen md:text-2xl dark:text-gray-300"
                   >
                     Коллекция NFT с эксклюзивными условиями для держателей
                   </label>
@@ -669,6 +669,7 @@ export default function Page() {
           </div>
         </div>
       </div>
+      <div className="pb-5"></div>
     </div>
   );
 }

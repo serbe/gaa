@@ -4,12 +4,12 @@ import Image from 'next/image';
 export default function Page() {
   return (
     <div className="mx-auto max-w-7xl font-serif">
-      <div className="flex flex-wrap justify-between space-x-2 object-center px-2 pb-5 pt-5 md:flex-nowrap">
-        <div className="p-2 text-center text-4xl font-semibold text-p2-orange">RacePoints</div>
-        <div className="p-2 text-center text-4xl font-semibold text-p2-orange">Карточки</div>
+      <div className="flex flex-wrap justify-center self-center md:flex-nowrap md:justify-between">
+        <div className="px-5 text-xl font-bold text-p2-orange md:pt-2 md:text-4xl">RacePoints</div>
+        <div className="px-5 text-xl font-bold text-p2-orange md:pt-2 md:text-4xl">Карточки</div>
       </div>
 
-      <div className="flex flex-wrap rounded-3xl border-4 border-p1-gray object-center p-2 hover:border-p2-orange hover:shadow-2xl md:flex-nowrap">
+      <div className="flex flex-wrap place-self-center rounded-3xl border-p1-gray object-center p-2 hover:border-p2-orange hover:shadow-2xl md:w-4/5 md:flex-nowrap md:border-4">
         <div>
           <button className="z-0 mx-auto w-full space-x-2 p-1 grayscale duration-500 hover:z-10 hover:scale-105 hover:grayscale-0 focus:grayscale-0">
             <Image

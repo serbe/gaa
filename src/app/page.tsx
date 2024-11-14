@@ -24,7 +24,7 @@ export default function Home() {
                 src="/HeroNFT/RaceLads/RaceLads1.png"
                 alt="RaceLads1"
               />
-              <div className="my-5">
+              <div className="my-5 accent-amber-600">
                 <label
                   htmlFor="default-range"
                   className="mb-2 block text-sm font-medium text-gray-900 dark:text-white"
@@ -58,7 +58,7 @@ export default function Home() {
                   </span>
                 </label>
               </div>
-              <div className="flex items-center">
+              <div className="flex items-center accent-pink-500">
                 <input
                   checked={check}
                   id="checkbox"
@@ -85,7 +85,7 @@ export default function Home() {
               <div className="pb-5">создания NFT наград на сайте</div>
               <a
                 href="/ruapplicationform"
-                className="inline-block place-content-center rounded-xl border-2 border-p1-darkgreen bg-p1-white px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p1-green hover:text-p1-white"
+                className="inline-block place-content-center rounded-xl border-2 border-p1-green bg-p1-white px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p1-green hover:text-p1-white"
               >
                 Форма подачи заявки
               </a>
