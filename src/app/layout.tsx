@@ -5,7 +5,8 @@ import Header from '@/components/header';
 import Nav from '@/components/nav';
 import Footer from '@/components/footer';
 import { GaaStoreProvider } from '@/providers/store-provider';
-import { TopButton } from '@/components/topButton';
+// import { TopButton } from '@/components/topButton';
+import { TButton } from '@/components/tButton';
 
 const inter = Roboto_Serif({
   weight: ['100', '300', '400', '500', '700', '900'],
@@ -32,7 +33,8 @@ export default function RootLayout({ children }: Readonly<Props>) {
             <Header />
             <Nav />
             <main className="mx-auto min-h-screen bg-p1-white">{children}</main>
-            <TopButton />
+            {/* <TopButton /> */}
+            <TButton />
             <Footer />
           </GaaStoreProvider>
         </div>
