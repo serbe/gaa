@@ -10,21 +10,21 @@ export default function Home() {
   return (
     <div className="mx-auto max-w-7xl font-serif">
       <Link href="/parallax">Пример параллакса из видео</Link>
-      <section className="flex flex-wrap space-x-2 object-center px-2 pt-5 md:flex-nowrap">
-        <div className="mb-4 w-full min-w-96 rounded-3xl border-4 border-p2-orange bg-p1-white shadow-lg">
+      <section className="flex flex-wrap object-center px-2 md:flex-nowrap md:space-x-2 md:pt-5">
+        <div className="w-full rounded-3xl border-p2-orange bg-p1-white shadow-lg md:mb-4 md:min-w-96 md:border-4">
           <div className="flex flex-row">
-            <div className="mx-auto p-8 text-center md:text-xl lg:text-2xl">
+            <div className="mx-auto text-center md:p-8 md:text-xl lg:text-2xl">
               <div className="pt-2 text-p1-darkgreen">Генеративная коллекция</div>
               <div className="pb-2 text-p1-darkgreen">RaceLads NFT</div>
 
               <Image
-                className="object-centre relative mb-4 inline-block w-max rounded-3xl border-2 border-p2-orange shadow-lg"
+                className="object-centre relative mb-4 inline-block w-3/5 rounded-3xl border-2 border-p2-orange shadow-lg md:w-full"
                 width={700}
                 height={700}
                 src="/HeroNFT/RaceLads/RaceLads1.png"
                 alt="RaceLads1"
               />
-              <div className="my-5 accent-amber-600">
+              <div className="accent-amber-600 md:my-5">
                 <label
                   htmlFor="default-range"
                   className="mb-2 block text-sm font-medium text-gray-900 dark:text-white"
@@ -43,7 +43,7 @@ export default function Home() {
               </div>
               <div className="my-5">
                 <a
-                  href="/rumint"
+                  href="/"
                   className="inline-block rounded-xl border-2 border-p2-orange bg-p1-white px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white"
                 >
                   Создай NFT
@@ -58,6 +58,7 @@ export default function Home() {
                   </span>
                 </label>
               </div>
+
               <div className="flex items-center accent-pink-500">
                 <input
                   checked={check}
@@ -78,7 +79,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="mb-4 rounded-3xl border-4 border-p1-darkgreen bg-p1-white shadow-lg">
+        <div className="mb-4 rounded-3xl border-p1-darkgreen bg-p1-white shadow-lg md:border-4">
           <div className="text-centre flex flex-row">
             <div className="place-content-center p-8 text-center text-p1-darkgreen md:text-xl lg:text-2xl">
               <div className="pt-2">Сервис</div>

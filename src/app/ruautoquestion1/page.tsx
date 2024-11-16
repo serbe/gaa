@@ -23,20 +23,21 @@ const ModalWindow = ({
       data-modal-placement="center-center"
       tabIndex={-1}
       aria-hidden={viewModal}
-      className={`fixed z-50 ${viewModal ? 'hidden' : ''} h-[calc(100%-1rem)] max-h-full w-full items-center justify-center overflow-y-auto overflow-x-hidden md:inset-0`}
+      className={`fixed z-50 ${viewModal ? 'hidden' : ''} h-[calc(100%-1rem)] max-h-full w-full items-center justify-center overflow-y-auto overflow-x-hidden backdrop-blur-sm md:inset-0`}
     >
       <div className="relative mx-auto my-auto max-h-full w-full max-w-2xl p-4">
         {/* <!-- Modal content --> */}
-        <div className="relative rounded-lg bg-white shadow dark:bg-gray-700">
+        <div className="relative rounded-lg border-4 border-p2-orange bg-p1-white shadow md:rounded-3xl dark:bg-gray-700">
           {/* <!-- Modal header --> */}
           <div className="flex items-center justify-between rounded-t border-b p-4 md:p-5 dark:border-gray-600">
             <p className="text-xl font-semibold text-gray-900 dark:text-white">
-              Кто основал гонки на открытых колесах Формула-1?
+              Кто основал гонки Формула-1?
             </p>
             <button
               type="button"
               className="ms-auto inline-flex h-8 w-8 items-center justify-center rounded-lg bg-transparent text-sm text-gray-400 hover:bg-gray-200 hover:text-gray-900 dark:hover:bg-gray-600 dark:hover:text-white"
-              data-modal-hide="default-modal"
+              data-modal-hide="question-modal"
+              onClick={() => setViewModal(!viewModal)}
             >
               <svg
                 className="h-3 w-3"
@@ -64,8 +65,8 @@ const ModalWindow = ({
           <div className="space-y-4 p-4 md:p-5">
             <p className="pb-5">
               Берни Экклстоун хотя и не стоял у истоков, сделал Формулу-1 глобальной и коммерчески
-              успешной. Он фактически реформировал спорт и стал влиятельной влиятельной фигурой,
-              сделав Ф1 массовым зрелищем и организовав трансляции гонок по всему миру.
+              успешной. Он фактически реформировал спорт и стал влиятельной фигурой, сделав Ф1
+              массовым зрелищем и организовав трансляции гонок по всему миру.
             </p>
             <p className="pb-5 font-semibold">
               Жан-Мари Балестр и FIA — официально первые чемпионаты мира Формулы-1 были организованы
@@ -93,7 +94,7 @@ const ModalWindow = ({
               data-modal-hide="question-modal"
               type="button"
               onClick={() => setViewModal(!viewModal)}
-              className="rounded-lg border border-gray-200 bg-white px-5 py-2.5 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:outline-none focus:ring-4 focus:ring-gray-100 dark:border-gray-600 dark:bg-gray-800 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white dark:focus:ring-gray-700"
+              className="w-full rounded-lg border border-gray-200 bg-white px-5 py-2.5 text-sm font-medium text-gray-900 hover:bg-p2-orange hover:text-p1-white focus:z-10 focus:outline-none focus:ring-4 focus:ring-gray-100 dark:border-gray-600 dark:bg-gray-800 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white dark:focus:ring-gray-700"
             >
               Закрыть
             </button>
@@ -110,27 +111,23 @@ export default function Page() {
 
   return (
     <div className="mx-auto max-w-7xl font-serif">
-      <div className="flex flex-row">
-        <div className="w-full text-center">
-          <div className="text-center text-6xl font-bold text-p2-orange">Racepoint</div>
-          <div className="text-center text-4xl font-bold text-p2-orange">QUESTIONS</div>
-          <div className="text-center text-4xl font-bold text-p2-orange">
-            Автоспорт, автокультура
-          </div>
+      <div className="flex flex-wrap justify-center self-center md:flex-nowrap md:justify-between">
+        <div className="px-2 text-xl font-semibold text-p2-orange md:pt-2 md:text-3xl">
+          Racepoint
+        </div>
+        <div className="px-2 text-xl font-semibold text-p2-orange md:pt-2 md:text-3xl">
+          QUESTIONS
         </div>
       </div>
-
-      <div className="flex flex-row">
-        <div className="w-1/5"></div>
-        <div className="w-3/5"></div>
+      <div className="px-2 text-center text-xl font-semibold text-p2-orange md:pt-2 md:text-3xl">
+        Автоспорт, автокультура
       </div>
 
-      <div className="flex flex-row pb-5">
-        <div className="w-1/5"></div>
-        <div className="w-3/5">
-          <div className="my-5 place-items-center rounded-3xl border-4 border-p2-orange p-6">
-            <div className="text-center font-serif text-2xl font-semibold text-p1-darkgreen">
-              Кто основал гонки на открытых колесах Формула-1?
+      <div className="flex flex-row justify-center">
+        <div className="md:w-3/5">
+          <div className="place-items-center rounded-3xl border-p2-orange p-2 md:border-4">
+            <div className="text-center font-serif text-base font-semibold text-p1-darkgreen md:text-xl">
+              Кто основал гонки Формула-1?
             </div>
             <div className="pb-5"></div>
             <ul className="w-full rounded-lg border border-gray-200 bg-p1-white text-2xl font-medium text-gray-900 dark:border-gray-600 dark:bg-gray-700 dark:text-white">
@@ -141,11 +138,11 @@ export default function Page() {
                     type="radio"
                     value=""
                     name="list-radio"
-                    className="h-5 w-5 border-gray-300 bg-gray-100 text-blue-600 focus:ring-2 focus:ring-blue-500 dark:border-gray-500 dark:bg-gray-600 dark:ring-offset-gray-700 dark:focus:ring-blue-600 dark:focus:ring-offset-gray-700"
+                    className="h-5 w-5 border-gray-300 bg-gray-100 text-blue-600 accent-amber-600 focus:ring-2 focus:ring-amber-600 dark:border-gray-500 dark:bg-gray-600 dark:ring-offset-gray-700 dark:focus:ring-blue-600 dark:focus:ring-offset-gray-700"
                   />
                   <label
                     htmlFor="list-radio-eleven"
-                    className="ms-4 w-full py-3 font-serif text-2xl text-p1-darkgreen dark:text-gray-300"
+                    className="ms-4 w-full py-3 font-serif text-base text-p1-darkgreen md:text-2xl dark:text-gray-300"
                   >
                     Берни Экклстоун
                   </label>
@@ -158,11 +155,11 @@ export default function Page() {
                     type="radio"
                     value=""
                     name="list-radio"
-                    className="h-5 w-5 border-gray-300 bg-gray-100 text-blue-600 focus:ring-2 focus:ring-blue-500 dark:border-gray-500 dark:bg-gray-600 dark:ring-offset-gray-700 dark:focus:ring-blue-600 dark:focus:ring-offset-gray-700"
+                    className="h-5 w-5 border-gray-300 bg-gray-100 text-blue-600 accent-amber-600 focus:ring-2 focus:ring-amber-600 dark:border-gray-500 dark:bg-gray-600 dark:ring-offset-gray-700 dark:focus:ring-blue-600 dark:focus:ring-offset-gray-700"
                   />
                   <label
                     htmlFor="list-radio-twelve"
-                    className="ms-4 w-full py-3 font-serif text-2xl text-p1-darkgreen dark:text-gray-300"
+                    className="ms-4 w-full py-3 font-serif text-base text-p1-darkgreen md:text-2xl dark:text-gray-300"
                   >
                     Жан-Мари Балестр и FIA
                   </label>
@@ -175,11 +172,11 @@ export default function Page() {
                     type="radio"
                     value=""
                     name="list-radio"
-                    className="h-5 w-5 border-gray-300 bg-gray-100 text-blue-600 focus:ring-2 focus:ring-blue-500 dark:border-gray-500 dark:bg-gray-600 dark:ring-offset-gray-700 dark:focus:ring-blue-600 dark:focus:ring-offset-gray-700"
+                    className="h-5 w-5 border-gray-300 bg-gray-100 text-blue-600 accent-amber-600 focus:ring-2 focus:ring-amber-600 dark:border-gray-500 dark:bg-gray-600 dark:ring-offset-gray-700 dark:focus:ring-blue-600 dark:focus:ring-offset-gray-700"
                   />
                   <label
                     htmlFor="list-radio-thirteen"
-                    className="ms-4 w-full py-3 font-serif text-2xl text-p1-darkgreen dark:text-gray-300"
+                    className="ms-4 w-full py-3 font-serif text-base text-p1-darkgreen md:text-2xl dark:text-gray-300"
                   >
                     Король Англии Георг VI
                   </label>
@@ -192,11 +189,11 @@ export default function Page() {
                     type="radio"
                     value=""
                     name="list-radio"
-                    className="h-5 w-5 border-gray-300 bg-gray-100 text-blue-600 focus:ring-2 focus:ring-blue-500 dark:border-gray-500 dark:bg-gray-600 dark:ring-offset-gray-700 dark:focus:ring-blue-600 dark:focus:ring-offset-gray-700"
+                    className="h-5 w-5 border-gray-300 bg-gray-100 text-blue-600 accent-amber-600 focus:ring-2 focus:ring-amber-600 dark:border-gray-500 dark:bg-gray-600 dark:ring-offset-gray-700 dark:focus:ring-blue-600 dark:focus:ring-offset-gray-700"
                   />
                   <label
                     htmlFor="list-radio-fourteen"
-                    className="ms-4 w-full py-3 font-serif text-2xl text-p1-darkgreen dark:text-gray-300"
+                    className="ms-4 w-full py-3 font-serif text-base text-p1-darkgreen md:text-2xl dark:text-gray-300"
                   >
                     Королева Англии Елизавета II
                   </label>

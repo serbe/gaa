@@ -4,24 +4,18 @@ import Link from 'next/link';
 export default function Page() {
   return (
     <div className="mx-auto max-w-7xl font-serif">
-      <div className="flex flex-row pb-5">
-        <div className="basis-1/5"></div>
-        <div className="basis-3/5">
-          <div className="pt-5 text-center text-6xl font-bold text-p2-orange">Racepoint</div>
-          <div className="text-center text-4xl font-bold text-p2-orange">
-            by Global Automotive Association
-          </div>
-        </div>
-        <div className="basis-1/5"></div>
+      <div className="text-center text-4xl font-bold text-p2-orange md:pt-4 md:text-6xl">
+        Racepoint
       </div>
 
-      <div className="flex flex-row pb-5">
-        <div className="basis-1/5 p-14">
-          <Image width={500} height={600} src="/Hero/6.png" alt="Hero6" />
-        </div>
-        <div className="basis-3/5">
-          <div className="my-5 space-y-6 rounded-3xl border-4 border-p2-orange p-6">
-            <div className="pb-5 text-center text-2xl text-p1-darkgreen">
+      <div className="text-center text-xl font-bold text-p2-orange md:pb-4 md:text-4xl">
+        by Global Automotive Association
+      </div>
+
+      <div className="flex flex-row justify-center pb-5">
+        <div className="md:basis-3/5">
+          <div className="rounded-3xl border-p2-orange px-2 md:my-5 md:space-y-6 md:border-4 md:p-6 md:hover:shadow-2xl">
+            <div className="px-2 text-center text-xl text-p1-darkgreen md:pb-5 md:text-2xl">
               Racepoint - наша внутренняя система накопления &quot;очков&quot; на аккаунт. В будущем
               возможно преобразовать в коин, пока что просто &quot;число&quot; на сайте.
             </div>
@@ -47,97 +41,190 @@ export default function Page() {
             </ol>
           </div>
         </div>
-        <div className="basis-1/5"></div>
       </div>
 
-      <div className="flex flex-row pb-5">
-        <div className="basis-1/5"></div>
-        <div className="basis-3/5">
-          <div className="pb-5 text-center text-4xl font-bold text-p2-orange">Racepoint</div>
+      <div className="flex flex-row justify-center pb-5">
+        <div className="md:basis-3/5">
+          <div className="text-center text-xl font-bold text-p2-orange md:pb-4 md:text-4xl">
+            Racepoint
+          </div>
         </div>
-        <div className="basis-1/5"></div>
       </div>
 
-      <div className="flex flex-row pb-5">
-        <div className="basis-1/5"></div>
-        <div className="basis-3/5">
-          <div className="my-5 space-y-6 rounded-3xl border-4 border-p2-orange p-6">
-            <div className="text-center text-2xl text-p1-darkgreen">Приветственный бонус:</div>
+      <div className="flex flex-row justify-center pb-5">
+        <div className="md:basis-3/5">
+          <div className="rounded-3xl border-p2-orange p-2 md:my-5 md:space-y-6 md:border-4 md:p-6 md:hover:shadow-2xl">
+            <div className="text-center text-xl text-p1-darkgreen md:text-2xl">
+              Приветственный бонус:
+            </div>
             <div className="text-center text-p1-darkgreen">
               За регистрацию на сайте получите 100 приветственных бонусов
             </div>
           </div>
         </div>
-        <div className="basis-1/5"></div>
       </div>
 
-      <div className="flex flex-row pb-5">
-        <div className="basis-1/5"></div>
-        <div className="basis-3/5">
-          <div className="my-5 space-y-6 rounded-3xl border-4 border-p2-orange p-6">
-            <div className="text-center text-2xl text-p1-darkgreen">
+      <div className="flex flex-row justify-center pb-5">
+        <div className="md:basis-3/5">
+          <div className="rounded-3xl border-p2-orange p-2 md:my-5 md:space-y-6 md:border-4 md:p-6 md:hover:shadow-2xl">
+            <div className="text-center text-xl text-p1-darkgreen md:text-2xl">
               Мы ценим конфиденциальность:
             </div>
             <div className="text-center text-p1-darkgreen">
-              в качестве регистрации достаточно MetaMask или E-mail
+              в качестве регистрации достаточно Web3Wallet (MetaMask e.t.c.) или E-mail
+            </div>
+            <div className="flex flex-row justify-center pb-5">
+              <div className="basis-2/5 scale-95 duration-500 hover:scale-100">
+                <Link href={'/wallet'} className="mx-auto hover:drop-shadow-2xl">
+                  <Image
+                    className="relative mb-4 inline-block w-max rounded-xl border-2 border-p2-orange md:rounded-3xl"
+                    width={1000}
+                    height={1000}
+                    src="/Logo/ruWeb3Wallet.png"
+                    alt="wallet"
+                  />
+                </Link>
+              </div>
             </div>
           </div>
         </div>
-        <div className="basis-1/5"></div>
       </div>
 
-      <div className="flex flex-row pb-5">
-        <div className="basis-1/5"></div>
-        <div className="basis-3/5">
-          <div className="my-5 space-y-6 rounded-3xl border-4 border-p2-orange p-6">
-            <div className="text-center text-2xl text-p1-darkgreen">Ежедневная награда</div>
+      <div className="flex flex-row justify-center pb-5">
+        <div className="md:basis-5/5">
+          <div className="rounded-3xl border-p2-orange p-2 md:my-5 md:space-y-6 md:border-4 md:p-6 md:hover:shadow-2xl">
+            <div className="text-center text-xl text-p1-darkgreen md:text-2xl">
+              Ежедневная награда
+            </div>
             <div className="text-center text-p1-darkgreen">
               за ежедневный вход на сайт мы благодарим посетителей предоставлением Racepoints
             </div>
+            <div className="flex flex-row justify-center pb-5">
+              <div className="basis-3/5 scale-95 duration-500 hover:scale-100">
+                <Link href={'/rp50'} className="mx-auto justify-center hover:drop-shadow-2xl">
+                  <Image
+                    className="relative mb-4 inline-block w-max rounded-xl border-2 border-p2-orange md:rounded-3xl"
+                    width={1000}
+                    height={1000}
+                    src="/rpdaily/rp50.png"
+                    alt="rp50"
+                  />
+                </Link>
+              </div>
+
+              <div className="basis-3/5 scale-95 duration-500 hover:scale-100">
+                <Link href={'/rp100'} className="mx-auto justify-center hover:drop-shadow-2xl">
+                  <Image
+                    className="relative mb-4 inline-block w-max rounded-xl border-2 border-p2-orange md:rounded-3xl"
+                    width={1000}
+                    height={1000}
+                    src="/rpdaily/rp100.png"
+                    alt="rp100"
+                  />
+                </Link>
+              </div>
+              <div className="basis-3/5 scale-95 duration-500 hover:scale-100">
+                <Link href={'/rp500'} className="mx-auto justify-center hover:drop-shadow-2xl">
+                  <Image
+                    className="relative mb-4 inline-block w-max rounded-xl border-2 border-p2-orange md:rounded-3xl"
+                    width={1000}
+                    height={1000}
+                    src="/rpdaily/rp500.png"
+                    alt="rp500"
+                  />
+                </Link>
+              </div>
+              <div className="basis-3/5 scale-95 duration-500 hover:scale-100">
+                <Link href={'/rp1000'} className="mx-auto justify-center hover:drop-shadow-2xl">
+                  <Image
+                    className="relative mb-4 inline-block w-max rounded-xl border-2 border-p2-orange md:rounded-3xl"
+                    width={1000}
+                    height={1000}
+                    src="/rpdaily/rp1000.png"
+                    alt="rp1000"
+                  />
+                </Link>
+              </div>
+            </div>
           </div>
         </div>
-        <div className="basis-1/5"></div>
       </div>
 
-      <div className="flex flex-row pb-5">
-        <div className="basis-1/5"></div>
-        <div className="basis-3/5">
-          <div className="my-5 space-y-6 rounded-3xl border-4 border-p2-orange p-6">
-            <div className="text-center text-2xl text-p1-darkgreen">Реферальная программа</div>
+      <div className="flex flex-row justify-center pb-5">
+        <div className="md:basis-3/5">
+          <div className="rounded-3xl border-p2-orange p-6 md:my-5 md:space-y-6 md:border-4 md:hover:shadow-2xl">
+            <div className="text-center text-xl text-p1-darkgreen md:text-2xl">
+              Реферальная программа
+            </div>
             <div className="text-center text-p1-darkgreen">
               пригласи друга по реферальной ссылке - получи Racepoints
             </div>
+            <div className="flex flex-row justify-center pb-5">
+              <div className="basis-3/5 scale-95 duration-500 hover:scale-100">
+                <Link
+                  href={'/InviteFriend'}
+                  className="mx-auto justify-center hover:drop-shadow-2xl"
+                >
+                  <Image
+                    className="relative mb-4 inline-block w-max rounded-xl border-2 border-p2-orange md:rounded-3xl"
+                    width={1000}
+                    height={1000}
+                    src="/RacePointCards/CardInviteFriend.png"
+                    alt="InviteFriend"
+                  />
+                </Link>
+              </div>
+
+              <div className="basis-3/5 scale-95 duration-500 hover:scale-100">
+                <Link href={'/CreateTeam'} className="mx-auto justify-center hover:drop-shadow-2xl">
+                  <Image
+                    className="relative mb-4 inline-block w-max rounded-xl border-2 border-p2-orange md:rounded-3xl"
+                    width={1000}
+                    height={1000}
+                    src="/RacePointCards/CardCreateTeam.png"
+                    alt="CardCreateTeam"
+                  />
+                </Link>
+              </div>
+              <div className="basis-3/5 scale-95 duration-500 hover:scale-100">
+                <Link href={'/JoinTeam'} className="mx-auto justify-center hover:drop-shadow-2xl">
+                  <Image
+                    className="relative mb-4 inline-block w-max rounded-xl border-2 border-p2-orange md:rounded-3xl"
+                    width={1000}
+                    height={1000}
+                    src="/RacePointCards/CardJoinTeam.png"
+                    alt="CardJoinTeam"
+                  />
+                </Link>
+              </div>
+            </div>
           </div>
         </div>
-        <div className="basis-1/5"></div>
       </div>
 
-      <div className="flex flex-row pb-5">
-        <div className="basis-1/5"></div>
-        <div className="basis-3/5">
-          <div className="pb-5 text-center text-4xl font-bold text-p2-orange">Участвуй</div>
-          <div className="pb-5 text-center text-4xl font-bold text-p2-orange">
+      <div className="flex flex-row justify-center pb-5">
+        <div className="md:basis-3/5">
+          <div className="text-center text-xl font-bold text-p2-orange md:pb-4 md:text-4xl">
+            Участвуй
+          </div>
+          <div className="text-center text-xl font-bold text-p2-orange md:pb-4 md:text-4xl">
             в опросах и викторинах
           </div>
         </div>
-        <div className="basis-1/5"></div>
       </div>
 
-      <div className="flex flex-row pb-5">
+      <div className="flex flex-row justify-center pb-5">
         <div className="basis-5/5">
-          <div className="my-5 space-y-6 rounded-3xl border-4 border-p2-orange p-6">
-            <div className="text-center text-sm font-semibold text-p1-darkgreen md:text-2xl">
+          <div className="rounded-3xl border-p2-orange p-2 md:my-5 md:space-y-6 md:border-4 md:p-6 md:hover:shadow-2xl">
+            <div className="pb-2 text-center text-sm font-semibold text-p1-darkgreen md:text-2xl">
               Участвуй в опросах и викторинах за пройденый опрос получи Racepoints
             </div>
 
-            <div className="basis-1/12"></div>
-
-            <div className="flex flex-row pb-5">
-              <div className="basis-1/12"></div>
-              <div className="basis-4/6 scale-95 duration-500 hover:scale-100">
+            <div className="flex flex-row justify-center pb-5">
+              <div className="basis-3/5 scale-95 duration-500 hover:scale-100">
                 <Link href={'/ruquize'} className="mx-auto justify-center hover:drop-shadow-2xl">
                   <Image
-                    className="relative mb-4 inline-block w-max"
+                    className="relative mb-4 inline-block w-max rounded-xl border-2 border-p2-orange md:rounded-3xl"
                     width={1000}
                     height={1000}
                     src="/Quizbuttons/QuizeButton1.png"
@@ -149,7 +236,7 @@ export default function Page() {
               <div className="basis-3/5 scale-95 duration-500 hover:scale-100">
                 <Link href={'/ruquize'} className="mx-auto justify-center hover:drop-shadow-2xl">
                   <Image
-                    className="relative mb-4 inline-block w-max"
+                    className="relative mb-4 inline-block w-max rounded-xl border-2 border-p2-orange md:rounded-3xl"
                     width={1000}
                     height={1000}
                     src="/Quizbuttons/QuizeButton2.png"
@@ -160,7 +247,7 @@ export default function Page() {
               <div className="basis-3/5 scale-95 duration-500 hover:scale-100">
                 <Link href={'/ruquize'} className="mx-auto justify-center hover:drop-shadow-2xl">
                   <Image
-                    className="relative mb-4 inline-block w-max"
+                    className="relative mb-4 inline-block w-max rounded-xl border-2 border-p2-orange md:rounded-3xl"
                     width={1000}
                     height={1000}
                     src="/Quizbuttons/QuizeButton3.png"
@@ -171,7 +258,7 @@ export default function Page() {
               <div className="basis-3/5 scale-95 duration-500 hover:scale-100">
                 <Link href={'/ruquize'} className="mx-auto justify-center hover:drop-shadow-2xl">
                   <Image
-                    className="relative mb-4 inline-block w-max"
+                    className="relative mb-4 inline-block w-max rounded-xl border-2 border-p2-orange md:rounded-3xl"
                     width={1000}
                     height={1000}
                     src="/Quizbuttons/QuizeButton4.png"
@@ -179,33 +266,30 @@ export default function Page() {
                   />
                 </Link>
               </div>
-              <div className="basis-1/12"></div>
             </div>
           </div>
         </div>
       </div>
-      <div className="flex flex-row pb-5">
+      <div className="flex flex-row justify-center pb-5">
         <div className="basis-5/5">
-          <div className="my-5 space-y-6 rounded-3xl border-4 border-p2-orange p-6">
-            <div className="text-center text-sm font-semibold text-p1-darkgreen md:text-2xl">
+          <div className="rounded-3xl border-p2-orange p-2 md:my-5 md:space-y-6 md:border-4 md:p-6 md:hover:shadow-2xl">
+            <div className="pb-2 text-center text-sm font-semibold text-p1-darkgreen md:text-2xl">
               Отвечай на вопросы, связанные с миром автоспорта и автокультуры за правильный ответ
               получи Racepoints
             </div>
 
-            <div className="basis-1/5"></div>
-
-            <div className="flex flex-row pb-5">
+            <div className="flex flex-row justify-center pb-5">
               <div className="basis-3/5 scale-95 duration-500 hover:scale-100">
                 <Link
                   href={'/ruautoquestion1'}
                   className="mx-auto justify-center hover:drop-shadow-2xl"
                 >
                   <Image
-                    className="relative mb-4 inline-block w-max"
+                    className="relative mb-4 inline-block w-max rounded-xl border-2 border-p2-orange md:rounded-3xl"
                     width={1000}
                     height={1000}
-                    src="/Autoquestionbuttons/ruautoquestion1.png"
-                    alt="ruautoquestion1"
+                    src="/Autoquestionbuttons/RuQw1.png"
+                    alt="RuQw1"
                   />
                 </Link>
               </div>
@@ -216,11 +300,11 @@ export default function Page() {
                   className="mx-auto justify-center hover:drop-shadow-2xl"
                 >
                   <Image
-                    className="relative mb-4 inline-block w-max"
+                    className="relative mb-4 inline-block w-max rounded-xl border-2 border-p2-orange md:rounded-3xl"
                     width={1000}
                     height={1000}
-                    src="/Autoquestionbuttons/ruautoquestion2.png"
-                    alt="ruautoquestion2"
+                    src="/Autoquestionbuttons/RuQw2.png"
+                    alt="RuQw2"
                   />
                 </Link>
               </div>
@@ -230,11 +314,25 @@ export default function Page() {
                   className="mx-auto justify-center hover:drop-shadow-2xl"
                 >
                   <Image
-                    className="relative mb-4 inline-block w-max"
+                    className="relative mb-4 inline-block w-max rounded-xl border-2 border-p2-orange md:rounded-3xl"
                     width={1000}
                     height={1000}
-                    src="/Autoquestionbuttons/ruautoquestion3.png"
-                    alt="ruautoquestion3"
+                    src="/Autoquestionbuttons/RuQw3.png"
+                    alt="RuQw3"
+                  />
+                </Link>
+              </div>
+              <div className="basis-3/5 scale-95 duration-500 hover:scale-100">
+                <Link
+                  href={'/ruautoquestion4'}
+                  className="mx-auto justify-center hover:drop-shadow-2xl"
+                >
+                  <Image
+                    className="relative mb-4 inline-block w-max rounded-xl border-2 border-p2-orange md:rounded-3xl"
+                    width={1000}
+                    height={1000}
+                    src="/Autoquestionbuttons/RuQw4.png"
+                    alt="RuQw4"
                   />
                 </Link>
               </div>
@@ -244,13 +342,13 @@ export default function Page() {
       </div>
       <div className="flex flex-row place-self-center pb-5">
         <div className="basis-5/5">
-          <div className="my-5 space-y-6 rounded-3xl border-4 border-p2-orange p-6">
-            <div className="text-center text-sm font-semibold text-p1-darkgreen md:text-2xl">
+          <div className="rounded-3xl border-p2-orange md:my-5 md:space-y-6 md:border-4 md:p-6 md:hover:shadow-2xl">
+            <div className="pb-2 text-center text-sm font-semibold text-p1-darkgreen md:text-2xl">
               Получай тематические карточки и получи Racepoints
             </div>
 
             <div className="flex flex-row place-content-center pb-5">
-              <div className="basis-3/5 scale-100 duration-500 hover:scale-125 hover:pt-8">
+              <div className="basis-3/5 scale-95 duration-500 hover:scale-105">
                 <Link href={'/ruracepointcards'} className="mx-auto hover:drop-shadow-2xl">
                   <Image
                     className="relative mb-4 inline-block w-max"
@@ -266,39 +364,34 @@ export default function Page() {
         </div>
       </div>
 
-      <div className="flex flex-row pb-5">
-        <div className="basis-1/5"></div>
-        <div className="basis-3/5">
-          <div className="my-5 space-y-3 rounded-3xl border-4 border-p2-orange p-6">
-            <div className="text-center text-2xl text-p1-darkgreen">Бонусы начисляются</div>
-            <ul className="list-disc px-5 text-p1-darkgreen">
+      <div className="flex flex-row justify-center pb-5">
+        <div className="md:basis-3/5">
+          <div className="rounded-3xl border-p2-orange p-2 md:my-5 md:space-y-3 md:border-4 md:p-6 md:hover:shadow-2xl">
+            <div className="pb-2 text-center text-2xl text-p1-darkgreen">Бонусы начисляются</div>
+            <ul className="list-disc pb-2 text-p1-darkgreen md:px-5">
               <li> за правильные ответ викторины</li>
               <li> за пройденные опросы </li>
               <li> по реферальной программе </li>
             </ul>
-            <div className="text-center text-p1-darkgreen">
+            <div className="px-2 text-center text-p1-darkgreen">
               зарегистрированные пользователи смогут получить
             </div>
-            <div className="text-center text-p1-darkgreen">от 10 до 100 Racepoints</div>
+            <div className="px-2 text-center text-p1-darkgreen">от 10 до 100 Racepoints</div>
           </div>
         </div>
-        <div className="basis-1/5"></div>
       </div>
 
-      <div className="flex flex-row pb-5">
-        <div className="basis-1/5"></div>
-        <div className="basis-3/5">
-          <div className="pb-5 text-center text-6xl font-bold text-p2-orange">WhiteList</div>
+      <div className="flex flex-row justify-center pb-5">
+        <div className="md:basis-3/5">
+          <div className="text-center text-4xl font-bold text-p2-orange md:pt-4 md:text-6xl">
+            WhiteList
+          </div>
         </div>
-        <div className="basis-1/5"></div>
       </div>
 
-      <div className="flex flex-row pb-5">
-        <div className="5-5 basis-1/5">
-          <Image width={150} height={150} src="/Hero/3.png" alt="Hero" />
-        </div>
-        <div className="basis-3/5">
-          <div className="my-5 space-y-6 rounded-3xl border-4 border-p2-orange p-6">
+      <div className="flex flex-row justify-center pb-5">
+        <div className="md:basis-3/5">
+          <div className="rounded-3xl border-p2-orange p-6 md:my-5 md:space-y-6 md:border-4 md:hover:shadow-2xl">
             <div className="text-center text-p1-darkgreen">
               Вашу активность мы оцениваем бонусами Racepoints
             </div>
@@ -316,22 +409,20 @@ export default function Page() {
             </ol>
           </div>
         </div>
-        <div className="basis-1/5"></div>
       </div>
 
-      <div className="flex flex-row pb-5">
-        <div className="basis-1/5"></div>
-        <div className="basis-3/5">
-          <div className="pb-5 text-center text-6xl font-bold text-p2-orange">Розыгрыш NFT</div>
+      <div className="flex flex-row justify-center pb-5">
+        <div className="md:basis-3/5">
+          <div className="text-center text-4xl font-bold text-p2-orange md:pt-4 md:text-6xl">
+            Розыгрыш NFT
+          </div>
         </div>
-        <div className="basis-1/5"></div>
       </div>
 
-      <div className="flex flex-row pb-5">
-        <div className="basis-1/5"></div>
-        <div className="basis-3/5">
-          <div className="my-5 space-y-6 rounded-3xl border-4 border-p2-orange p-6">
-            <div className="text-center text-2xl text-p1-darkgreen">
+      <div className="flex flex-row justify-center pb-5">
+        <div className="md:basis-3/5">
+          <div className="rounded-3xl border-p2-orange p-6 md:my-5 md:space-y-6 md:border-4 md:hover:shadow-2xl">
+            <div className="text-center text-xl text-p1-darkgreen md:text-2xl">
               После минта коллекции RaceLads проведем розыгрыш NFT из коллекции:
             </div>
 
@@ -344,29 +435,27 @@ export default function Page() {
               <li>среди партнеров</li>
               <div className="pb-5"></div>
             </ul>
-            <div className="pb-5 text-center text-2xl text-p1-darkgreen">
+            <div className="pb-5 text-center text-xl text-p1-darkgreen md:text-2xl">
               Шансы повышаются от активной позиции в развитии Global Automotive Association (DAO)
             </div>
           </div>
         </div>
-        <div className="basis-1/5"></div>
       </div>
 
-      <div className="flex flex-row pb-5">
-        <div className="basis-1/5"></div>
-        <div className="basis-3/5">
-          <div className="pb-5 text-center text-6xl font-bold text-p2-orange">Преференции</div>
-          <div className="pb-5 text-center text-4xl font-bold text-p2-orange">
+      <div className="flex flex-row justify-center pb-5">
+        <div className="md:basis-3/5">
+          <div className="text-center text-4xl font-bold text-p2-orange md:pt-4 md:text-6xl">
+            Преференции
+          </div>
+          <div className="text-center text-2xl font-bold text-p2-orange md:pt-4 md:text-4xl">
             Держатели NFT из коллекции RaceLads смогут
           </div>
         </div>
-        <div className="basis-1/5"></div>
       </div>
 
-      <div className="flex flex-row pb-5">
-        <div className="basis-1/5"></div>
-        <div className="basis-3/5">
-          <div className="my-5 space-y-6 rounded-3xl border-4 border-p2-orange p-6">
+      <div className="flex flex-row justify-center pb-5">
+        <div className="md:basis-3/5">
+          <div className="rounded-3xl border-p2-orange md:my-5 md:space-y-6 md:border-4 md:p-6 md:hover:shadow-2xl">
             <ul className="list-disc space-y-3 px-5 text-p1-darkgreen">
               <li>участвовать в развитии Global Automotive Association (DAO)</li>
               <li>
@@ -384,9 +473,9 @@ export default function Page() {
             </ul>
           </div>
         </div>
-        <div className="basis-1/5 p-5">
-          <Image width={150} height={150} src="/Hero/12.png" alt="Hero12" />
-        </div>
+      </div>
+      <div className="basis-1/5 place-self-center">
+        <Image width={150} height={150} src="/Hero/12.png" alt="Hero12" />
       </div>
     </div>
   );

@@ -11,8 +11,8 @@ export default function Page() {
 
       <div className="flex flex-row justify-center pb-2">
         <div className="md:basis-1/5"></div>
-        <div className="basis-5/5 md:basis-3/5">
-          <div className="px-2 text-center text-base font-semibold text-p1-darkgreen md:text-xl">
+        <div className="md:basis-3/5">
+          <div className="px-2 text-center text-base font-semibold text-p1-darkgreen md:pt-6 md:text-xl">
             1. Зарождение и обсуждение идеи объединения людей в сообщество посредством технологий
             Blockchain и NFT{' '}
           </div>
@@ -25,7 +25,7 @@ export default function Page() {
           <Image width={150} height={600} src="/Hero/6.png" alt="Hero6" />
         </div>
         <div className="basis-4/5 md:basis-3/5">
-          <div className="space-y-4 rounded-3xl border-p1-darkgreen p-2 text-left text-base text-p1-darkgreen hover:border-p2-orange md:border-4 md:text-xl md:hover:shadow-xl">
+          <div className="space-y-4 rounded-3xl border-p1-darkgreen p-2 text-left text-base text-p1-darkgreen hover:border-p2-orange md:border-4 md:p-5 md:text-xl md:hover:shadow-xl">
             <div className="pb-5">
               Реализация глобальной идеи Web3 на сегодняшний день до сих пор находится на ранней
               стадии и еще не получила должного внимания в обществе.
@@ -47,70 +47,52 @@ export default function Page() {
       </div>
 
       <div className="flex flex-row justify-center pb-2">
-        <div className="md:basis-1/5"></div>
-        <div className="basis-5/5 md:basis-3/5">
+        <div className="md:basis-5/5 md:basis-3/5">
           <div className="px-2 text-center text-base font-semibold text-p1-darkgreen md:text-xl">
             2. Старт проекта
             <p>&quot;Global Automotive Association&quot;</p>
           </div>
         </div>
-        <div className="md:basis-1/5"></div>
       </div>
 
       <div className="flex flex-row justify-center pb-2">
-        <div className="p-8 md:basis-1/5"></div>
-        <div className="basis-4/5 md:basis-3/5">
-          <div className="space-y-4 rounded-3xl border-p1-darkgreen p-2 text-left text-base text-p1-darkgreen hover:border-p2-orange md:border-4 md:text-xl md:hover:shadow-xl">
-            <div className="pb-5">
-              Начало разработки блокчейн проекта, способного объединить людей, неравнодушных к
-              автоспорту и автомобильной культуре в целом.
-            </div>
+        <div className="md:basis-3/5">
+          <div className="space-y-4 rounded-3xl border-p1-darkgreen p-2 pb-4 text-left text-base text-p1-darkgreen hover:border-p2-orange md:border-4 md:p-5 md:text-xl md:hover:shadow-xl">
+            Начало разработки блокчейн проекта, способного объединить людей, неравнодушных к
+            автоспорту и автомобильной культуре в целом.
           </div>
         </div>
-        <div className="basis-1/5"></div>
       </div>
 
       <div className="flex flex-row justify-center pb-2">
-        <div className="md:basis-1/5"></div>
-        <div className="basis-5/5 md:basis-3/5">
-          <div className="px-2 text-base font-semibold text-p1-darkgreen md:text-xl">
+        <div className="md:basis-5/5 md:basis-3/5">
+          <div className="px-2 text-center text-base font-semibold text-p1-darkgreen md:pt-6 md:text-xl">
             3. Регистрация в социальных сетях
           </div>
         </div>
-        <div className="md:basis-1/5"></div>
-      </div>
-
-      <div className="flex flex-row">
-        <div className="md:basis-1/5"></div>
-        <div className="basis-4/5 md:basis-3/5">
-          <div className="pb-5 text-center text-2xl"></div>
-        </div>
-        <div className="items-end md:basis-1/5"></div>
-        <div className="md:basis-1/5"></div>
       </div>
 
       <div className="flex flex-row justify-center pb-2">
-        <div className="basis-1/5"></div>
-        <div className="basis-4/5 md:basis-3/5">
+        <div className="md:basis-3/5">
           <div className="space-y-4 rounded-3xl border-p1-darkgreen p-2 text-left text-base text-p1-darkgreen hover:border-p2-orange md:border-4 md:text-xl md:hover:shadow-xl">
             <div className="grid grid-cols-2 gap-4">
-              <div className="pb-5">
+              <div className="p-2 md:pt-5">
                 <button className="w-full rounded-3xl border-2 border-p1-darkgreen bg-p1-white px-4 py-8 text-base text-p1-darkgreen shadow-sm shadow-p1-cyan hover:bg-p1-darkgreen hover:text-p1-white md:text-xl">
                   Telegram News Channel
                 </button>
               </div>
-              <div className="pb-5">
+              <div className="p-2 md:pt-5">
                 <button className="w-full rounded-3xl border-2 border-p1-darkgreen bg-p1-white px-4 py-8 text-base text-p1-darkgreen shadow-sm shadow-p1-cyan hover:bg-p1-darkgreen hover:text-p1-white md:text-xl">
                   Telegram Community
                 </button>
               </div>
 
-              <div className="pb-5">
+              <div className="p-2 md:pb-5">
                 <button className="w-full rounded-3xl border-2 border-p1-darkgreen bg-p1-white px-4 py-8 text-base text-p1-darkgreen shadow-sm shadow-p1-cyan hover:bg-p1-darkgreen hover:text-p1-white md:text-xl">
                   Discord
                 </button>
               </div>
-              <div className="pb-5">
+              <div className="p-2 md:pb-5">
                 <button className="w-full rounded-3xl border-2 border-p1-darkgreen bg-p1-white px-4 py-8 text-base text-p1-darkgreen shadow-sm shadow-p1-cyan hover:bg-p1-darkgreen hover:text-p1-white md:text-xl">
                   X.com (Twitter)
                 </button>
@@ -118,54 +100,46 @@ export default function Page() {
             </div>
           </div>
         </div>
-        <div className="basis-1/5 p-5"></div>
       </div>
 
       <div className="flex flex-row justify-center pb-2">
-        <div className="md:basis-1/5"></div>
-        <div className="basis-5/5 md:basis-3/5">
-          <div className="px-2 text-base font-semibold text-p1-darkgreen md:text-xl">
+        <div className="md:basis-3/5">
+          <div className="px-2 text-center text-base font-semibold text-p1-darkgreen md:pt-5 md:text-xl">
             4. NFT коллекция RaceLads
           </div>
         </div>
-        <div className="md:basis-1/5"></div>
       </div>
 
       <div className="flex flex-row justify-center p-5">
-        <div className="md:basis-1/5"></div>
-        <div className="basis-4/5 md:basis-3/5">
-          <div className="space-y-4 rounded-3xl border-p1-darkgreen p-2 text-left text-base text-p1-darkgreen hover:border-p2-orange md:border-4 md:text-xl md:hover:shadow-xl">
-            <div className="pb-5">
+        <div className="md:basis-3/5">
+          <div className="space-y-4 rounded-3xl border-p1-darkgreen p-2 text-left text-base text-p1-darkgreen hover:border-p2-orange md:border-4 md:p-5 md:text-xl md:hover:shadow-xl">
+            <div className="md:px-5">
               Разработка 1-й генеративной NFT коллекции от GAA, состоящей из 10.000 цифровых героев.
             </div>
-            <div className="pb-5">
+            <div className="md:px-5">
               Каждый «RaceLad» – это не просто изображение, а уникальный персонаж, обладающий
               различными особенностями и запечатленный в блокчейне.
             </div>
           </div>
         </div>
-        <div className="md:basis-1/5"></div>
       </div>
 
       <div className="flex flex-row justify-center pb-2">
-        <div className="md:basis-1/5"></div>
         <div className="basis-5/5 md:basis-3/5">
-          <div className="px-2 text-base font-semibold text-p1-darkgreen md:text-xl">
+          <div className="px-2 text-center text-base font-semibold text-p1-darkgreen md:text-xl">
             5. Интернет портал
           </div>
         </div>
-        <div className="md:basis-1/5"></div>
       </div>
 
       <div className="flex flex-row justify-center pb-2">
-        <div className="md:basis-1/5"></div>
-        <div className="basis-4/5 md:basis-3/5">
-          <div className="space-y-4 rounded-3xl border-p1-darkgreen p-2 text-left text-base text-p1-darkgreen hover:border-p2-orange md:border-4 md:text-xl md:hover:shadow-xl">
+        <div className="md:basis-3/5">
+          <div className="space-y-4 rounded-3xl border-p1-darkgreen p-2 text-left text-base text-p1-darkgreen hover:border-p2-orange md:border-4 md:p-5 md:text-xl md:hover:shadow-xl">
             <div className="justify-center pb-5">Регистрация доменного имени gaa.zone.</div>
-            <div className="pb-5">
+            <div className="pb-2">
               Разработка сайта, который будет являться уникальным порталом, где каждый сможет:
             </div>
-            <ul className="list-disc px-5">
+            <ul className="list-disc px-2 md:px-5">
               <li>быть в курсе последних новостей</li>
               <li>ознакамливаться с результатами мероприятий, реализация через NFT</li>
               <li>принимать участие в голосованиях</li>
@@ -177,34 +151,25 @@ export default function Page() {
             </ul>
           </div>
         </div>
-        <div className="md:basis-1/5"></div>
       </div>
 
       <div className="flex flex-row justify-center pb-2">
-        <div className="basis-4/5 p-5">
-          <Image width={500} height={600} src="/Cars/TCR.png" alt="TCR" />
-        </div>
-        <div className="basis-1/5">
-          <div className="pb-5 text-center text-2xl">
-            <Image width={300} height={600} src="/RewardsSite/TCRRewardSite.png" alt="TCRReward" />
-          </div>
+        <div className="p-5">
+          <Image width={700} height={600} src="/Cars/TCR.png" alt="TCR" />
         </div>
       </div>
 
       <div className="flex flex-row justify-center pb-2">
-        <div className="md:basis-1/5"></div>
-        <div className="basis-5/5 md:basis-3/5">
-          <div className="px-2 text-base font-semibold text-p1-darkgreen md:text-xl">
+        <div className="md:basis-3/5">
+          <div className="px-2 text-center text-base font-semibold text-p1-darkgreen md:text-xl">
             6. Сервисы и cоциальная значимость
           </div>
         </div>
-        <div className="md:basis-1/5"></div>
       </div>
 
       <div className="flex flex-row justify-center pb-2">
-        <div className="basis-1/5"></div>
-        <div className="basis-4/5 md:basis-3/5">
-          <div className="space-y-4 rounded-3xl border-p1-darkgreen p-2 text-left text-base text-p1-darkgreen hover:border-p2-orange md:border-4 md:text-xl md:hover:shadow-xl">
+        <div className="md:basis-3/5">
+          <div className="space-y-4 rounded-3xl border-p1-darkgreen p-2 text-left text-base text-p1-darkgreen hover:border-p2-orange md:border-4 md:p-5 md:text-xl md:hover:shadow-xl">
             <div className="pb-5">Сервисы для участников проекта:</div>
             <ul className="list-disc px-5">
               <li>промоутеров</li>
@@ -212,8 +177,6 @@ export default function Page() {
               <li>коллекционеров</li>
               <li>судей</li>
               <li>зрителей</li>
-
-              <div className="pb-5"></div>
             </ul>
             <div className="pb-5">
               Cвобода выбора и коммуникаций, формирование NFT наград, цифровизация участников
@@ -225,25 +188,19 @@ export default function Page() {
             </div>
           </div>
         </div>
-        <div className="basis-1/5">
-          <Image width={300} height={600} src="/Hero/1place.png" alt="Hero1place" />
-        </div>
       </div>
 
       <div className="flex flex-row justify-center pb-2">
-        <div className="basis-1/5"></div>
         <div className="basis-4/5 md:basis-3/5">
-          <div className="px-2 text-base font-semibold text-p1-darkgreen md:text-xl">
+          <div className="px-2 pt-6 text-center text-base font-semibold text-p1-darkgreen md:text-xl">
             7. Другие коллекции
           </div>
         </div>
-        <div className="basis-1/5"></div>
       </div>
 
       <div className="flex flex-row justify-center pb-2">
-        <div className="basis-1/5"></div>
-        <div className="basis-4/5 md:basis-3/5">
-          <div className="space-y-4 rounded-3xl border-p1-darkgreen p-2 text-left text-base text-p1-darkgreen hover:border-p2-orange md:border-4 md:text-xl md:hover:shadow-xl">
+        <div className="md:basis-3/5">
+          <div className="space-y-4 rounded-3xl border-p1-darkgreen p-2 text-left text-base text-p1-darkgreen hover:border-p2-orange md:border-4 md:p-5 md:text-xl md:hover:shadow-xl">
             <div className="pb-5">
               Проектом предусмотрен выпуск нескольких категорий NFT коллекций:
             </div>
@@ -261,40 +218,24 @@ export default function Page() {
             </div>
           </div>
         </div>
-        <div className="basis-1/5 p-5"></div>
       </div>
-
       <div className="flex flex-row justify-center pb-2">
-        <div className="basis-4/5 md:basis-3/5">
-          <Image width={500} height={600} src="/Cars/OpenWheels.png" alt="OpenWheels" />
-        </div>
-        <div className="basis-1/5">
-          <div className="pb-5 text-center text-2xl"></div>
-        </div>
-        <div className="basis-1/5">
-          <Image
-            width={300}
-            height={600}
-            src="/RewardsSite/OpenWheelsRewardSite.png"
-            alt="OpenWhelsReward"
-          />
+        <div className="p-5 md:basis-3/5">
+          <Image width={1000} height={600} src="/Cars/Stance.png" alt="Stance" />
         </div>
       </div>
 
       <div className="flex flex-row justify-center pb-2">
-        <div className="md:basis-1/5"></div>
-        <div className="basis-5/5 md:basis-3/5">
-          <div className="px-2 text-base font-semibold text-p1-darkgreen md:text-xl">
+        <div className="md:basis-3/5">
+          <div className="px-2 text-center text-base font-semibold text-p1-darkgreen md:pt-6 md:text-xl">
             8. Выпуск взаимозаменяемых токенов
           </div>
         </div>
-        <div className="md:basis-1/5"></div>
       </div>
 
       <div className="flex flex-row justify-center pb-2">
-        <div className="basis-1/5"></div>
-        <div className="basis-4/5 md:basis-3/5">
-          <div className="space-y-4 rounded-3xl border-p1-darkgreen p-2 text-left text-base text-p1-darkgreen hover:border-p2-orange md:border-4 md:text-xl md:hover:shadow-xl">
+        <div className="md:basis-3/5">
+          <div className="space-y-4 rounded-3xl border-p1-darkgreen p-2 text-left text-base text-p1-darkgreen hover:border-p2-orange md:border-4 md:p-5 md:text-xl md:hover:shadow-xl">
             <div className="pb-5">
               По достижению первоочередных целей участниками сообщества (держатели NFT из коллекций
               GAA) решат о необходимости выпуска токена в формате ERC20.
@@ -304,26 +245,18 @@ export default function Page() {
             </div>
           </div>
         </div>
-        <div className="basis-1/5">
-          <Image width={150} height={600} src="/Hero/4.png" alt="Hero4" />
-        </div>
       </div>
 
       <div className="flex flex-row justify-center pb-2">
-        <div className="md:basis-1/5"></div>
         <div className="basis-5/5 md:basis-3/5">
-          <div className="px-2 text-center text-base font-semibold text-p1-darkgreen md:text-xl">
+          <div className="px-2 text-center text-base font-semibold text-p1-darkgreen md:pt-6 md:text-xl">
             9. Создание децентрализованной автономной организации (DAO)
           </div>
         </div>
-        <div className="md:basis-1/5"></div>
       </div>
       <div className="flex flex-row justify-center pb-2">
-        <div className="basis-1/5">
-          <Image width={150} height={600} src="/Hero/10.png" alt="Hero10" />
-        </div>
-        <div className="basis-4/5 md:basis-3/5">
-          <div className="space-y-4 rounded-3xl border-p1-darkgreen p-2 text-left text-base text-p1-darkgreen hover:border-p2-orange md:border-4 md:text-xl md:hover:shadow-xl">
+        <div className="md:basis-3/5">
+          <div className="space-y-4 rounded-3xl border-p1-darkgreen p-2 text-left text-base text-p1-darkgreen hover:border-p2-orange md:border-4 md:p-5 md:text-xl md:hover:shadow-xl">
             <div className="pb-5">
               Предоставляем лидерам направлений права Global Automotive Association (GAA).
             </div>
@@ -340,42 +273,20 @@ export default function Page() {
             </div>
           </div>
         </div>
-        <div className="basis-1/5">
-          <Image width={150} height={600} src="/Wheels etc/DiskStance.png" alt="DiskStance" />
-        </div>
       </div>
 
       <div className="flex flex-row justify-center pb-2">
-        <div className="basis-2/5">
-          <div className="text-2xl">
-            <Image width={500} height={200} src="/Cars/Drift1.png" alt="Drift1" />
-          </div>
-        </div>
-        <div className="basis-2/5"></div>
-
-        <div className="basis-1/5"></div>
-      </div>
-      <div className="flex flex-row justify-center pb-2">
-        <div className="basis-1/5"></div>
-        <div className="basis-4/5">
-          <Image width={1000} height={200} src="/Cars/Dragster.png" alt="Dragster" />
-        </div>
-      </div>
-
-      <div className="flex flex-row justify-center pb-2">
-        <div className="md:basis-1/5"></div>
-        <div className="basis-5/5 md:basis-3/5">
-          <div className="px-2 text-center text-base font-semibold text-p1-darkgreen md:text-xl">
+        <div className="md:basis-3/5">
+          <div className="px-2 text-center text-base font-semibold text-p1-darkgreen md:pt-6 md:text-xl">
             10. Содействие развитию молодых талантов
           </div>
         </div>
-        <div className="md:basis-1/5"></div>
       </div>
 
       <div className="flex flex-row justify-center pb-2">
         <div className="md:basis-1/5"></div>
         <div className="basis-4/5 md:basis-3/5">
-          <div className="space-y-4 rounded-3xl border-p1-darkgreen p-2 text-left text-base text-p1-darkgreen hover:border-p2-orange md:border-4 md:text-xl md:hover:shadow-xl">
+          <div className="space-y-4 rounded-3xl border-p1-darkgreen p-2 text-left text-base text-p1-darkgreen hover:border-p2-orange md:border-4 md:p-5 md:text-xl md:hover:shadow-xl">
             <div className="pb-5">
               Создаем комфортную социальную среду для организации содействия и поддержки молодых
               талантов.
@@ -385,57 +296,36 @@ export default function Page() {
         <div className="md:basis-1/5"></div>
       </div>
 
-      <div className="flex flex-row p-5">
-        <div className="basis-5/5">
-          <Image width={1900} height={200} src="/Hero/Compose1.png" alt="Compose1" />
-        </div>
-      </div>
-
       <div className="flex flex-row justify-center pb-2">
-        <div className="md:basis-1/5"></div>
-        <div className="basis-5/5 md:basis-3/5">
-          <div className="px-2 text-center text-base font-semibold text-p1-darkgreen md:text-xl">
+        <div className="md:basis-3/5">
+          <div className="px-2 text-center text-base font-semibold text-p1-darkgreen md:pt-5 md:text-xl">
             11. Сохранение культурных ценностей
           </div>
         </div>
-        <div className="md:basis-1/5"></div>
       </div>
 
       <div className="flex flex-row justify-center pb-2">
-        <div className="md:basis-1/5"></div>
         <div className="basis-4/5 md:basis-3/5">
-          <div className="space-y-4 rounded-3xl border-p1-darkgreen p-2 text-left text-center text-base text-p1-darkgreen hover:border-p2-orange md:border-4 md:text-xl md:hover:shadow-xl">
-            <div className="p-5 px-10">
+          <div className="space-y-4 rounded-3xl border-p1-darkgreen p-2 text-left text-center text-base text-p1-darkgreen hover:border-p2-orange md:border-4 md:p-5 md:text-xl md:hover:shadow-xl">
+            <div className="md:px-5">
               Помогаем сохранять культурные ценности и памятники, поддерживаем музеи.
             </div>
           </div>
         </div>
-        <div className="md:basis-1/5"></div>
       </div>
 
       <div className="flex flex-row justify-center pb-2">
-        <div className="basis-1/5">
-          <Image
-            width={300}
-            height={600}
-            src="/RewardsSite/OldtimerRewardSite.png"
-            alt="OldtimerReward"
-          />
-        </div>
-
-        <div className="basis-1/5"></div>
-        <div className="basis-4/5 md:basis-3/5">
+        <div className="p-5 md:basis-3/5">
           <Image width={600} height={300} src="/Cars/Oldtimer.png" alt="Oldtimer" />
         </div>
       </div>
 
       <div className="flex flex-row justify-center pb-2">
-        <div className="md:basis-1/5"></div>
-        <div className="basis-5/5 md:basis-3/5">
-          <div className="px-2 text-center text-base font-semibold text-p1-darkgreen md:text-xl">
+        <div className="md:basis-3/5">
+          <div className="px-2 text-center text-base font-semibold text-p1-darkgreen md:pt-6 md:text-xl">
             12. Организация и проведение национальных автоспортивных и автокультурных мероприятий
           </div>
-          <div className="space-y-4 rounded-3xl border-p1-darkgreen p-2 text-left text-center text-base text-p1-darkgreen hover:border-p2-orange md:border-4 md:text-xl md:hover:shadow-xl">
+          <div className="space-y-4 rounded-3xl border-p1-darkgreen p-2 text-left text-center text-base text-p1-darkgreen hover:border-p2-orange md:border-4 md:p-5 md:text-xl md:hover:shadow-xl">
             <div className="pb-5">
               Организация и проведение национальных автоспортивных и автокультурных мероприятий,
               объединяющих разные стили и направления.
@@ -445,33 +335,14 @@ export default function Page() {
             </div>
           </div>
         </div>
-        <div className="md:basis-1/5"></div>
       </div>
 
       <div className="flex flex-row justify-center pb-2">
-        <div className="basis-4/5 md:basis-3/5">
-          <Image width={500} height={600} src="/Cars/SoundCar.png" alt="SoundCar" />
-        </div>
-        <div className="basis-1/5">
-          <div className="pb-5 text-center text-2xl"></div>
-        </div>
-        <div className="basis-1/5">
-          <Image
-            width={300}
-            height={600}
-            src="/RewardsSite/SoundCarRewardSite.png"
-            alt="SoundCarReward"
-          />
-        </div>
-      </div>
-
-      <div className="flex flex-row justify-center pb-2">
-        <div className="md:basis-1/5"></div>
-        <div className="basis-5/5 md:basis-3/5">
-          <div className="px-2 text-center text-base font-semibold text-p1-darkgreen md:text-xl">
+        <div className="md:basis-3/5">
+          <div className="px-2 text-center text-base font-semibold text-p1-darkgreen md:pt-6 md:text-xl">
             13. Организация и проведение международных автоспортивных и автокультурных мероприятий
           </div>
-          <div className="space-y-4 rounded-3xl border-p1-darkgreen p-2 text-left text-center text-base text-p1-darkgreen hover:border-p2-orange md:border-4 md:text-xl md:hover:shadow-xl">
+          <div className="space-y-4 rounded-3xl border-p1-darkgreen p-2 text-left text-center text-base text-p1-darkgreen hover:border-p2-orange md:border-4 md:p-5 md:text-xl md:hover:shadow-xl">
             <div className="pb-5">
               Организация и проведение международных автоспортивных и автокультурных мероприятий
               объединяя разные стили и направления и создавая комфортную среду для каждого
@@ -479,76 +350,37 @@ export default function Page() {
             </div>
           </div>
         </div>
-        <div className="basis-1/5"></div>
       </div>
 
       <div className="flex flex-row justify-center pb-2">
-        <div className="basis-1/5">
-          <Image
-            width={300}
-            height={600}
-            src="/RewardsSite/StanceRewardSite.png"
-            alt="StanceReward"
-          />
-        </div>
-        <div className="basis-1/5">
-          <div className="pb-5 text-center text-2xl"></div>
-        </div>
-        <div className="basis-4/5 md:basis-3/5">
-          <Image width={1000} height={600} src="/Cars/Stance.png" alt="Stance" />
-        </div>
-      </div>
-
-      <div className="flex flex-row justify-center pb-2">
-        <div className="md:basis-1/5"></div>
-        <div className="basis-4/5 md:basis-3/5">
-          <div className="px-2 text-center text-base font-semibold text-p1-darkgreen md:text-xl">
+        <div className="md:basis-3/5">
+          <div className="px-2 text-center text-base font-semibold text-p1-darkgreen md:pt-6 md:text-xl">
             14. Организация и проведение регулярных международных автоспортивных и автокультурных
             мероприятий
           </div>
           <div className="space-y-4 rounded-3xl border-p1-darkgreen p-2 text-left text-center text-base text-p1-darkgreen hover:border-p2-orange md:border-4 md:text-xl md:hover:shadow-xl">
             <div className="pb-5">
               Создание регулярных ежегодных международных автоспортивных и автокультурных
-              мероприятий, создание Granprix высокого уровня организации, создание праздника в
+              мероприятий, создание GranPrix высокого уровня организации, создание праздника в
               автокультуры и автоспорта.
             </div>
             <div className="pb-5 text-center">Создание Королевских мероприятий!</div>
           </div>
         </div>
-        <div className="md:basis-1/5"></div>
       </div>
-
-      <div className="flex flex-row justify-center pb-2">
-        <div className="basis-1/5"></div>
-        <div className="basis-4/5 md:basis-3/5">
-          <div className="px-2 text-center text-base font-semibold text-p1-darkgreen md:text-xl">
-            У нас своя
-          </div>
-          <div className="px-2 text-center text-base font-semibold text-p1-darkgreen md:text-xl">
-            ОЛИМПИАДА!
-          </div>
+      <div className="flex flex-row justify-center p-2 md:pt-5">
+        <div className="p-10 md:basis-3/5">
+          <Image width={1000} height={600} src="/Cars/OpenWheels.png" alt="OpenWheels" />
         </div>
-        <div className="basis-1/5"></div>
       </div>
-
+      <div className="flex flex-row p-5">
+        <div className="basis-5/5">
+          <Image width={1900} height={200} src="/Hero/Compose1.png" alt="Compose1" />
+        </div>
+      </div>
       <div className="flex flex-row justify-center pb-2">
-        <div className="basis-1/5">
-          <Image
-            width={300}
-            height={600}
-            src="/RewardsSite/SimracingRewardSite.png"
-            alt="SimracingReward"
-          />
-        </div>
-        <div className="basis-1/5"></div>
-        <div className="basis-1/5">
-          <div className="pb-5 text-center text-2xl">
-            <Image width={400} height={600} src="/Hero/Compose2.png" alt="Compose2" />
-          </div>
-        </div>
-        <div className="basis-1/5"></div>
-        <div className="basis-1/5">
-          <Image width={150} height={600} src="/Hero/12.png" alt="Hero12" />
+        <div className="">
+          <Image width={1200} height={200} src="/Cars/Dragster.png" alt="Dragster" />
         </div>
       </div>
     </div>
