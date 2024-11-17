@@ -222,7 +222,7 @@ export default function Page() {
 
             <div className="flex flex-row justify-center pb-5">
               <div className="basis-3/5 scale-95 duration-500 hover:scale-100">
-                <Link href={'/ruquize'} className="mx-auto justify-center hover:drop-shadow-2xl">
+                <Link href={'/ruquize1'} className="mx-auto justify-center hover:drop-shadow-2xl">
                   <Image
                     className="relative mb-4 inline-block w-max rounded-xl border-2 border-p2-orange md:rounded-3xl"
                     width={1000}
@@ -234,7 +234,7 @@ export default function Page() {
               </div>
 
               <div className="basis-3/5 scale-95 duration-500 hover:scale-100">
-                <Link href={'/ruquize'} className="mx-auto justify-center hover:drop-shadow-2xl">
+                <Link href={'/ruquize2'} className="mx-auto justify-center hover:drop-shadow-2xl">
                   <Image
                     className="relative mb-4 inline-block w-max rounded-xl border-2 border-p2-orange md:rounded-3xl"
                     width={1000}
@@ -245,7 +245,7 @@ export default function Page() {
                 </Link>
               </div>
               <div className="basis-3/5 scale-95 duration-500 hover:scale-100">
-                <Link href={'/ruquize'} className="mx-auto justify-center hover:drop-shadow-2xl">
+                <Link href={'/ruquize3'} className="mx-auto justify-center hover:drop-shadow-2xl">
                   <Image
                     className="relative mb-4 inline-block w-max rounded-xl border-2 border-p2-orange md:rounded-3xl"
                     width={1000}
@@ -256,7 +256,7 @@ export default function Page() {
                 </Link>
               </div>
               <div className="basis-3/5 scale-95 duration-500 hover:scale-100">
-                <Link href={'/ruquize'} className="mx-auto justify-center hover:drop-shadow-2xl">
+                <Link href={'/ruquize4'} className="mx-auto justify-center hover:drop-shadow-2xl">
                   <Image
                     className="relative mb-4 inline-block w-max rounded-xl border-2 border-p2-orange md:rounded-3xl"
                     width={1000}
@@ -404,7 +404,7 @@ export default function Page() {
 
             <ol className="list space-y-4 p-4 pb-5 text-center text-2xl text-p1-darkgreen">
               <li>Level - 1 PreMint 10% off</li>
-              <li>Level - 2 PreMint 30% off</li>
+              <li>Level - 2 PreMint 20% off</li>
               <li>Level - 3 PreMint 30% off</li>
             </ol>
           </div>

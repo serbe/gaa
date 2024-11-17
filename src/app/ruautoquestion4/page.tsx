@@ -6,7 +6,9 @@ const CorrectAnswer = () => (
   <div className="text-3xl font-semibold text-green-600">Вы совершенно правы!</div>
 );
 
-const WrongAnswer = () => <div className="text-3xl font-semibold text-red-600">Хера с два!</div>;
+const WrongAnswer = () => (
+  <div className="text-3xl font-semibold text-red-600">Близко, но правильный ответ другой.</div>
+);
 
 const ModalWindow = ({
   viewModal,

@@ -6,9 +6,11 @@ const CorrectAnswer = () => (
   <div className="text-3xl font-semibold text-green-600">Вы совершенно правы!</div>
 );
 
-const WrongAnswer = () => <div className="text-3xl font-semibold text-red-600">Хера с два!</div>;
+const WrongAnswer = () => (
+  <div className="text-3xl font-semibold text-red-600">Близко, но правильный ответ другой.</div>
+);
 
-const ModalWindow = ({
+function ModalWindow({
   viewModal,
   setViewModal,
   answer,
@@ -16,7 +18,7 @@ const ModalWindow = ({
   viewModal: boolean;
   setViewModal: Dispatch<SetStateAction<boolean>>;
   answer: number;
-}) => {
+}) {
   return (
     <div
       id="question-modal"
@@ -103,7 +105,7 @@ const ModalWindow = ({
       </div>
     </div>
   );
-};
+}
 
 export default function Page() {
   const [viewModal, setViewModal] = useState(true);

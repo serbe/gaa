@@ -6,7 +6,7 @@ export default function Page() {
 
   return (
     <div className="mx-auto max-w-7xl font-serif">
-      <div className="p-2 text-xl md:p-10 md:text-2xl">
+      <div className="p-2 text-base md:p-10 md:text-2xl">
         <div className="text-center font-bold text-p1-darkgreen drop-shadow-2xl md:text-6xl">
           Наши Контакты
         </div>
@@ -14,7 +14,7 @@ export default function Page() {
         <div className="text-center text-p1-darkgreen">
           Мы очень любим общаться с нашими партнерами.
         </div>
-        <div className="m-5 rounded-3xl border-4 border-p1-darkgreen p-6 text-xl hover:border-p1-green hover:shadow-xl">
+        <div className="rounded-3xl border-p1-darkgreen p-2 text-xl hover:border-p1-green md:m-5 md:border-4 md:p-6 md:hover:shadow-xl">
           <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
             <div>
               <p className="pb-3 text-center text-sm font-semibold text-p1-darkgreen md:text-xl">
@@ -28,7 +28,7 @@ export default function Page() {
               <div className="grid">
                 <a
                   href="/ruapplicationform"
-                  className="inline-block w-full rounded-3xl border-2 border-p1-darkgreen bg-p1-white px-10 py-8 text-center text-p1-darkgreen shadow-lg hover:bg-p1-green hover:text-p1-white"
+                  className="inline-block w-full rounded-3xl border-2 border-p1-darkgreen bg-p1-white px-10 py-8 text-center text-p1-darkgreen shadow-lg hover:border-p1-green hover:bg-p1-green hover:text-p1-white"
                 >
                   Форма подачи заявки
                 </a>
@@ -45,7 +45,7 @@ export default function Page() {
                 <input
                   type="text"
                   id="full_name"
-                  className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                  className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p1-green focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p1-green dark:focus:ring-p1-green"
                   placeholder="Иванов Иван Иванович"
                   required
                 />
@@ -61,7 +61,7 @@ export default function Page() {
                 <input
                   type="text"
                   id="nic_name"
-                  className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                  className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p1-green focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p1-green dark:focus:ring-p1-green"
                   placeholder="Ник-Имя"
                   required
                 />
@@ -77,7 +77,7 @@ export default function Page() {
                 <input
                   type="text"
                   id="organization"
-                  className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                  className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p1-green focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p1-green dark:focus:ring-p1-green"
                   placeholder="Название организации/команды"
                   required
                 />
@@ -93,7 +93,7 @@ export default function Page() {
                 <input
                   type="email"
                   id="email"
-                  className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                  className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p1-green focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p1-green dark:focus:ring-p1-green"
                   placeholder="Электронная почта"
                   required
                 />
@@ -121,7 +121,7 @@ export default function Page() {
                   onChange={() => setCheck(!check)}
                   type="checkbox"
                   value=""
-                  className="focus:ring-p1-cian h-4 w-4 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                  className="focus:ring-p1-cian h-4 w-4 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                 />
                 <label
                   htmlFor="checkbox"
@@ -133,7 +133,7 @@ export default function Page() {
 
               <div className="pb-2"></div>
               <div className="grid">
-                <button className="mx-auto w-full justify-center rounded-3xl border-2 border-p1-darkgreen bg-p1-white px-10 py-8 text-xl text-p1-darkgreen shadow-sm shadow-p1-cyan hover:bg-p1-green hover:text-p1-white">
+                <button className="mx-auto w-full justify-center rounded-3xl border-2 border-p1-darkgreen bg-p1-white px-10 py-8 text-xl text-p1-darkgreen shadow-sm shadow-p1-cyan hover:border-p1-green hover:bg-p1-green hover:text-p1-white">
                   Отправить в GAA
                 </button>
               </div>
