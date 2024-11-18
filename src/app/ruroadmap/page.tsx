@@ -76,26 +76,50 @@ export default function Page() {
         <div className="md:basis-3/5">
           <div className="space-y-4 rounded-3xl border-p1-darkgreen p-2 text-left text-base text-p1-darkgreen hover:border-p2-orange md:border-4 md:text-xl md:hover:shadow-xl">
             <div className="grid grid-cols-2 gap-4">
-              <div className="p-2 md:pt-5">
-                <button className="w-full rounded-3xl border-2 border-p1-darkgreen bg-p1-white px-4 py-8 text-base text-p1-darkgreen shadow-sm shadow-p1-cyan hover:bg-p1-darkgreen hover:text-p1-white md:text-xl">
-                  Telegram News Channel
+              <div className="text-center">
+                <button className="mx-auto justify-center rounded-3xl duration-500 hover:scale-105">
+                  <a href="https://discord.gg/gaa">
+                    <Image width={200} height={600} src="/logo/discordlogomini.png" alt="discord" />
+                  </a>
                 </button>
-              </div>
-              <div className="p-2 md:pt-5">
-                <button className="w-full rounded-3xl border-2 border-p1-darkgreen bg-p1-white px-4 py-8 text-base text-p1-darkgreen shadow-sm shadow-p1-cyan hover:bg-p1-darkgreen hover:text-p1-white md:text-xl">
-                  Telegram Community
-                </button>
+                <p>Discord</p>
               </div>
 
-              <div className="p-2 md:pb-5">
-                <button className="w-full rounded-3xl border-2 border-p1-darkgreen bg-p1-white px-4 py-8 text-base text-p1-darkgreen shadow-sm shadow-p1-cyan hover:bg-p1-darkgreen hover:text-p1-white md:text-xl">
-                  Discord
+              <div className="text-center">
+                <button className="mx-auto justify-center rounded-3xl duration-500 hover:scale-105">
+                  <a href="https://t.me/GlobalAutomotiveAssociation">
+                    <Image
+                      width={200}
+                      height={600}
+                      src="/logo/telegramlogomini.png"
+                      alt="telegram_channel"
+                    />
+                  </a>
                 </button>
+                <p>Telegram News Channel</p>
               </div>
-              <div className="p-2 md:pb-5">
-                <button className="w-full rounded-3xl border-2 border-p1-darkgreen bg-p1-white px-4 py-8 text-base text-p1-darkgreen shadow-sm shadow-p1-cyan hover:bg-p1-darkgreen hover:text-p1-white md:text-xl">
-                  X.com (Twitter)
+
+              <div className="text-center">
+                <button className="mx-auto justify-center rounded-3xl duration-500 hover:scale-105">
+                  <a href="https://x.com/RaceLads">
+                    <Image width={200} height={600} src="/logo/twitterlogox.png" alt="twitter" />
+                  </a>
                 </button>
+                <p>X.com / Twitter</p>
+              </div>
+
+              <div className="text-center">
+                <button className="mx-auto justify-center rounded-3xl duration-500 hover:scale-105">
+                  <a href="https://t.me/GAAChat">
+                    <Image
+                      width={200}
+                      height={600}
+                      src="/logo/telegramlogomini.png"
+                      alt="telegram_chat"
+                    />
+                  </a>
+                </button>
+                <p>Telegram Community</p>
               </div>
             </div>
           </div>
