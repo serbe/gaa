@@ -143,7 +143,7 @@ export default function Page() {
 
       <div className="flex flex-row justify-center">
         <div className="mb-5 mt-5 text-p1-darkgreen md:basis-4/6">
-          <div className="space-y-4 rounded-3xl border-p1-darkgreen p-2 p-6 text-left text-base text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:border-4 md:text-xl">
+          <div className="space-y-4 rounded-3xl border-p1-darkgreen p-6 text-left text-base text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:border-4 md:text-xl">
             <p className="text-center text-xl font-bold md:text-2xl">Наши амбициозные цели:</p>
             <p>Создание активного сообщества:</p>
             <p>
