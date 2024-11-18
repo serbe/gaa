@@ -10,15 +10,13 @@ export default function Page() {
     <div className="mx-auto max-w-7xl font-serif">
       {/* //Cars*/}
       <div className="flex flex-wrap justify-center self-center md:flex-nowrap md:justify-between">
-        <div className="px-2 text-2xl font-semibold text-cyan-700 md:pt-2 md:text-4xl">
-          Cars NFT
-        </div>
-        <div className="px-2 text-center text-2xl font-semibold text-cyan-700 md:pt-2 md:text-4xl">
+        <div className="px-2 text-xl font-semibold text-cyan-700 md:pt-2 md:text-3xl">Cars NFT</div>
+        <div className="px-2 text-xl font-semibold text-cyan-700 md:pt-2 md:text-3xl">
           Страница исследователя
         </div>
       </div>
       <div className="rounded-3xl border-cyan-700 hover:border-p1-gray md:border-4 md:shadow-lg">
-        <div className="flex flex-wrap justify-center space-x-2 px-2 pt-5 md:flex-nowrap">
+        <div className="flex flex-wrap justify-center px-2 pt-2 md:flex-nowrap">
           <div>
             <p className="p-2 text-base text-p1-darkgreen md:text-xl">
               Невзаимозаменяемый токен, отражающий реальный коллекционный, спортивный,
@@ -105,19 +103,19 @@ export default function Page() {
         </div>
       </div>
 
-      <div className="pb-8"></div>
+      <div className="md:pb-8"></div>
 
-      <div className="px-2 text-center text-2xl font-semibold text-p1-darkgreen md:pt-2 md:text-4xl">
+      <div className="px-2 text-center text-xl font-semibold text-p1-darkgreen md:pt-10 md:text-3xl">
         Способы получения Car NFT
       </div>
 
-      <div className="m-5 rounded-3xl border-p1-darkgreen p-6 md:border-4 md:shadow-lg">
-        <div className="pb-5 text-center text-base text-p1-darkgreen md:text-2xl">
+      <div className="rounded-3xl border-p1-darkgreen p-2 md:border-4 md:shadow-lg">
+        <div className="text-center text-base text-p1-darkgreen md:text-2xl">
           Только владельцы NFT коллекций Drivers, Team&apos;s members, Collectors смогут оцифровать
           свои автомобили и создать Car NFT
         </div>
 
-        <div className="grid grid-cols-5 gap-1">
+        <div className="grid grid-cols-5 gap-1 md:m-5">
           <div className="col-span-1 col-start-1 row-span-3 place-self-start">
             <Image
               className="relative inline-block w-max"
@@ -209,6 +207,7 @@ export default function Page() {
           и чистоту коллекции
         </div>
       </div>
+      <div className="md:pb-8"></div>
     </div>
   );
 }

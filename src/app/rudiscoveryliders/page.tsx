@@ -17,8 +17,8 @@ const Buttons = ({
         id="button-drivers"
         className={
           'w-full rounded-l-2xl border border-gray-200 ' +
-          (license == 0 ? 'bg-p2-orange' : 'bg-white') +
-          ' p-5 text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-yellow-800 focus:text-p1-white focus:ring-2 focus:ring-yellow-800 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p1-green'
+          (license == 0 ? 'bg-red-400' : 'bg-white') +
+          ' p-5 text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-red-400 focus:text-p1-white focus:ring-2 focus:ring-red-400 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p1-green'
         }
         onClick={() => setter(0)}
       >
@@ -28,8 +28,8 @@ const Buttons = ({
         id="button-team-members"
         className={
           'w-full border border-gray-200 ' +
-          (license == 1 ? 'bg-p2-orange' : 'bg-white') +
-          ' p-5 text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-stone-500 focus:text-p1-white focus:ring-2 focus:ring-stone-500 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-stone-500'
+          (license == 1 ? 'bg-p3-blue' : 'bg-white') +
+          ' p-5 text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-p3-blue focus:text-p1-white focus:ring-2 focus:ring-p3-blue dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-stone-500'
         }
         onClick={() => setter(1)}
       >
@@ -39,7 +39,7 @@ const Buttons = ({
         id="button-collectors"
         className={
           'w-full border border-gray-200 ' +
-          (license == 2 ? 'bg-p2-orange' : 'bg-white') +
+          (license == 2 ? 'bg-stone-500' : 'bg-white') +
           ' p-5 text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-stone-500 focus:text-p1-white focus:ring-2 focus:ring-stone-500 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-stone-500'
         }
         onClick={() => setter(2)}
@@ -50,8 +50,8 @@ const Buttons = ({
         href=""
         className={
           'w-full rounded-r-2xl border border-gray-200 ' +
-          (license == 3 ? 'bg-p2-orange' : 'bg-white') +
-          ' p-5 text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-p2-orange focus:text-p1-white focus:ring-2 focus:ring-p2-orange dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange'
+          (license == 3 ? 'bg-cyan-700' : 'bg-white') +
+          ' p-5 text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-cyan-700 focus:text-p1-white focus:ring-2 focus:ring-cyan-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange'
         }
         onClick={() => setter(2)}
       >
@@ -77,7 +77,7 @@ export default function Page() {
           </div>
         </div>
         <div className="rounded-3xl border-red-400 hover:border-p1-gray md:border-4 md:shadow-lg">
-          <div className="flex flex-wrap justify-center px-2 pt-5 md:flex-nowrap">
+          <div className="flex flex-wrap justify-center px-2 pt-2 md:flex-nowrap">
             <div>
               <p className="p-2 text-base text-p1-darkgreen md:text-xl">
                 Невзаимозаменяемый токен, отражающий пилота спортивного автомобиля.
@@ -165,8 +165,8 @@ export default function Page() {
             Страница исследователя
           </div>
         </div>
-        <div className="hover:p3-blue rounded-3xl border-p3-blue hover:border-p1-gray md:border-4 md:shadow-lg">
-          <div className="md: flex flex-wrap justify-center pt-2 md:flex-nowrap">
+        <div className="rounded-3xl border-p3-blue hover:border-p1-gray md:border-4 md:shadow-lg">
+          <div className="flex flex-wrap justify-center px-2 pt-2 md:flex-nowrap">
             <div>
               <p className="p-2 text-base text-p1-darkgreen md:text-xl">
                 Невзаимозаменяемый токен, отражающий члена автоспортивной команды.
@@ -192,8 +192,8 @@ export default function Page() {
               </p>
             </div>
 
-            <div className="m-1 p-2">
-              <div className="grid grid-cols-2 gap-4">
+            <div className="m-1 place-items-center p-2">
+              <div className="grid grid-cols-2 gap-2">
                 <div>
                   <Image
                     className="relative inline-block w-max rounded-3xl border-2 border-p2-orange shadow-lg"
@@ -257,7 +257,7 @@ export default function Page() {
           </div>
         </div>
         <div className="rounded-3xl border-stone-500 hover:border-p1-gray md:border-4 md:shadow-lg">
-          <div className="md: flex flex-wrap justify-center space-x-2 px-2 pt-5 md:flex-nowrap">
+          <div className="flex flex-wrap justify-center px-2 pt-2 md:flex-nowrap">
             <div>
               <p className="p-2 text-base text-p1-darkgreen md:text-xl">
                 Невзаимозаменяемый токен, отражающий коллекционера спортивных, раритетных и редких
@@ -284,8 +284,8 @@ export default function Page() {
               </p>
             </div>
 
-            <div className="m-1 p-5">
-              <div className="grid grid-cols-2 gap-4">
+            <div className="m-1 place-items-center p-2">
+              <div className="grid grid-cols-2 gap-2">
                 <div>
                   <Image
                     className="relative inline-block w-max rounded-3xl border-2 border-p2-orange shadow-lg"
@@ -338,6 +338,7 @@ export default function Page() {
           </div>
         </div>
       </div>
+      <div className="md:pb-8"></div>
       {/* //Лидеры движений */}
       <div>
         <div className="flex flex-wrap justify-center self-center md:flex-nowrap md:justify-between">
@@ -349,11 +350,14 @@ export default function Page() {
           </div>
         </div>
         <div className="rounded-3xl border-p1-darkgreen p-2 md:border-4 md:shadow-lg">
-          <div className="pb-2 text-center text-base md:text-xl">
-            Только верифицированные пользователи смогут создать NFT в коллекциях Drivers,
-            Team&apos;s Members, Collectors NFT
+          <div className="px-2 pt-2 text-center text-base md:text-2xl">
+            Только верифицированные пользователи смогут создать NFT в коллекциях
           </div>
-          <div className="pb-5 text-center text-base md:text-xl">
+          <div className="text-center text-base md:text-2xl">
+            Drivers, Team&apos;s Members, Collectors NFT
+          </div>
+
+          <div className="pb-5 text-center text-base md:text-2xl">
             Верифицировать статус пользователя могут держатели Promoter License, National License,
             Global License, Management GAA
           </div>
@@ -504,11 +508,11 @@ export default function Page() {
             </div>
           </div>
 
-          <div className="p-2 text-center text-base md:text-xl">
+          <div className="p-2 text-center text-base md:text-2xl">
             Любой желающий сможет приобрести NFT из коллекций на вторичном рынке, так мы
             поддерживаем активных участников направлений и их развитие
           </div>
-          <div className="p-2 text-center text-base md:text-xl">
+          <div className="p-2 text-center text-base md:text-2xl">
             Это ваш способ идентификации и привлечения дополнительных инвестиций для вашего развития
           </div>
         </div>
