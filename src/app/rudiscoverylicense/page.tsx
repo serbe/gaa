@@ -15,8 +15,8 @@ const Buttons = ({
       <button
         className={
           'w-full rounded-l-2xl border border-gray-200 ' +
-          (license == 0 ? 'bg-white' : ' bg-p2-orange') +
-          'p-5 text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-yellow-800 focus:text-p1-white focus:ring-2 focus:ring-yellow-800 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p1-green'
+          (license == 0 ? 'bg-p2-orange' : 'bg-white') +
+          ' p-5 text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-yellow-800 focus:text-p1-white focus:ring-2 focus:ring-yellow-800 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p1-green'
         }
         onClick={() => setter(0)}
       >
@@ -25,8 +25,8 @@ const Buttons = ({
       <button
         className={
           'w-full border border-gray-200 ' +
-          (license == 1 ? 'bg-white' : ' bg-p2-orange') +
-          'p-5 text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-stone-500 focus:text-p1-white focus:ring-2 focus:ring-stone-500 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-stone-500'
+          (license == 1 ? 'bg-p2-orange' : 'bg-white') +
+          ' p-5 text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-stone-500 focus:text-p1-white focus:ring-2 focus:ring-stone-500 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-stone-500'
         }
         onClick={() => setter(1)}
       >
@@ -35,8 +35,8 @@ const Buttons = ({
       <button
         className={
           'w-full rounded-r-2xl border border-gray-200 ' +
-          (license == 2 ? 'bg-white' : ' bg-p2-orange') +
-          'bg-white p-5 text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-p2-orange focus:text-p1-white focus:ring-2 focus:ring-p2-orange dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange'
+          (license == 2 ? 'bg-p2-orange' : 'bg-white') +
+          'p-5 text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-p2-orange focus:text-p1-white focus:ring-2 focus:ring-p2-orange dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange'
         }
         onClick={() => setter(2)}
       >
