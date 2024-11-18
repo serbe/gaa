@@ -1,10 +1,7 @@
 'use client';
 import Image from 'next/image';
-import { useState } from 'react';
 
 export default function Page() {
-  const [check, setCheck] = useState(false);
-
   return (
     <div className="mx-auto max-w-7xl font-serif">
       <div className="pb-2 text-center text-2xl font-bold text-p1-darkgreen md:pt-4 md:text-4xl">
@@ -30,7 +27,7 @@ export default function Page() {
               </a>
             </button>
             <p>Discord</p>
-          </div>{' '}
+          </div>
         </div>
 
         <div className="text-center">
@@ -79,7 +76,7 @@ export default function Page() {
               </a>
             </button>
             <p>Instagram</p>
-          </div>{' '}
+          </div>
         </div>
 
         <div className="text-center">

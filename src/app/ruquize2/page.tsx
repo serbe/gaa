@@ -15,7 +15,7 @@ export default function Page() {
         <div className="md:w-3/5">
           <div className="place-items-center rounded-3xl border-p2-orange p-2 md:border-4">
             <div className="text-center font-serif text-base font-semibold text-p1-darkgreen md:text-xl">
-              Какое отношение Вы имеете к автоспорту, автокультуре?{' '}
+              Какое отношение Вы имеете к автоспорту, автокультуре?
             </div>
 
             <div className="pb-2 md:pb-5"></div>

@@ -14,7 +14,7 @@ export default function Page() {
         <div className="md:basis-3/5">
           <div className="px-2 text-center text-base font-semibold text-p1-darkgreen md:pt-6 md:text-xl">
             1. Зарождение и обсуждение идеи объединения людей в сообщество посредством технологий
-            Blockchain и NFT{' '}
+            Blockchain и NFT
           </div>
         </div>
         <div className="md:basis-1/5"></div>
@@ -306,7 +306,7 @@ export default function Page() {
 
       <div className="flex flex-row justify-center pb-2">
         <div className="basis-4/5 md:basis-3/5">
-          <div className="space-y-4 rounded-3xl border-p1-darkgreen p-2 text-left text-center text-base text-p1-darkgreen hover:border-p2-orange md:border-4 md:p-5 md:text-xl md:hover:shadow-xl">
+          <div className="space-y-4 rounded-3xl border-p1-darkgreen p-2 text-left text-base text-p1-darkgreen hover:border-p2-orange md:border-4 md:p-5 md:text-xl md:hover:shadow-xl">
             <div className="md:px-5">
               Помогаем сохранять культурные ценности и памятники, поддерживаем музеи.
             </div>
@@ -325,7 +325,7 @@ export default function Page() {
           <div className="px-2 text-center text-base font-semibold text-p1-darkgreen md:pt-6 md:text-xl">
             12. Организация и проведение национальных автоспортивных и автокультурных мероприятий
           </div>
-          <div className="space-y-4 rounded-3xl border-p1-darkgreen p-2 text-left text-center text-base text-p1-darkgreen hover:border-p2-orange md:border-4 md:p-5 md:text-xl md:hover:shadow-xl">
+          <div className="space-y-4 rounded-3xl border-p1-darkgreen p-2 text-left text-base text-p1-darkgreen hover:border-p2-orange md:border-4 md:p-5 md:text-xl md:hover:shadow-xl">
             <div className="pb-5">
               Организация и проведение национальных автоспортивных и автокультурных мероприятий,
               объединяющих разные стили и направления.
@@ -342,7 +342,7 @@ export default function Page() {
           <div className="px-2 text-center text-base font-semibold text-p1-darkgreen md:pt-6 md:text-xl">
             13. Организация и проведение международных автоспортивных и автокультурных мероприятий
           </div>
-          <div className="space-y-4 rounded-3xl border-p1-darkgreen p-2 text-left text-center text-base text-p1-darkgreen hover:border-p2-orange md:border-4 md:p-5 md:text-xl md:hover:shadow-xl">
+          <div className="space-y-4 rounded-3xl border-p1-darkgreen p-2 text-left text-base text-p1-darkgreen hover:border-p2-orange md:border-4 md:p-5 md:text-xl md:hover:shadow-xl">
             <div className="pb-5">
               Организация и проведение международных автоспортивных и автокультурных мероприятий
               объединяя разные стили и направления и создавая комфортную среду для каждого
@@ -358,7 +358,7 @@ export default function Page() {
             14. Организация и проведение регулярных международных автоспортивных и автокультурных
             мероприятий
           </div>
-          <div className="space-y-4 rounded-3xl border-p1-darkgreen p-2 text-left text-center text-base text-p1-darkgreen hover:border-p2-orange md:border-4 md:text-xl md:hover:shadow-xl">
+          <div className="space-y-4 rounded-3xl border-p1-darkgreen p-2 text-left text-base text-p1-darkgreen hover:border-p2-orange md:border-4 md:text-xl md:hover:shadow-xl">
             <div className="pb-5">
               Создание регулярных ежегодных международных автоспортивных и автокультурных
               мероприятий, создание GranPrix высокого уровня организации, создание праздника в

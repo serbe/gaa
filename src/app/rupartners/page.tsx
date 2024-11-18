@@ -1,10 +1,7 @@
 'use client';
 import Image from 'next/image';
-import { useState } from 'react';
 
 export default function Page() {
-  const [check, setCheck] = useState(false);
-
   return (
     <div className="mx-auto max-w-7xl font-serif">
       <div className="flex flex-row justify-center md:pb-5">

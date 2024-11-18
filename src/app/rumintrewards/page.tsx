@@ -99,7 +99,7 @@ export default function Page() {
                               </svg>
                               <p className="mb-2 text-sm text-gray-500 dark:text-gray-400">
                                 <span className="font-semibold">
-                                  Добавь медиаконтент: Победитель на подиуме награждения с наградой{' '}
+                                  Добавь медиаконтент: Победитель на подиуме награждения с наградой
                                 </span>
                               </p>
 
@@ -137,7 +137,7 @@ export default function Page() {
                               </svg>
                               <p className="mb-2 text-sm text-gray-500 dark:text-gray-400">
                                 <span className="font-semibold">
-                                  Добавь файл: Финальный отчет / Протокол соревнования{' '}
+                                  Добавь файл: Финальный отчет / Протокол соревнования
                                 </span>
                               </p>
 

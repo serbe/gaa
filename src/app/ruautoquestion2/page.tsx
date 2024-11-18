@@ -147,7 +147,7 @@ export default function Page() {
                     htmlFor="list-radio-eleven"
                     className="ms-4 w-full py-3 font-serif text-base text-p1-darkgreen md:text-2xl dark:text-gray-300"
                   >
-                    на трассе Сильверстоун в Великобритании{' '}
+                    на трассе Сильверстоун в Великобритании
                   </label>
                 </div>
               </li>
