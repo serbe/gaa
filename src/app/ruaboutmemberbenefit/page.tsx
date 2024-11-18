@@ -4,10 +4,10 @@ export default function Page() {
       <div className="text-center text-3xl font-bold text-p1-darkgreen md:pt-2 md:text-6xl">
         Выгода участника
       </div>
-      <div className="flex flex-wrap space-x-2 object-center px-2 md:flex-nowrap">
-        <div className="mb-2 flex w-full min-w-96 flex-wrap space-x-2 object-center p-2 md:flex-nowrap">
+      <div className="flex flex-wrap object-center px-2 md:flex-nowrap md:space-x-2">
+        <div className="flex w-full min-w-96 flex-wrap object-center p-2 md:mb-2 md:flex-nowrap md:space-x-2">
           <div>
-            <div className="rounded-3xl border-p1-darkgreen p-6 text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:my-2 md:border-4">
+            <div className="my-1 rounded-3xl border-2 border-p1-darkgreen p-6 text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:my-2 md:border-4">
               <p className="pb-3 text-center font-bold">Уникальные привилегии:</p>
               <p className="pb-5">Мероприятия: Участие в мероприятиях, концертах, выставках.</p>
               <p className="pb-5">Доступ в Priority Club</p>
@@ -16,7 +16,7 @@ export default function Page() {
                 автограф-сессии, фотосессии, лекции, экскурсии, розыгрыши NFT и многое другое.
               </p>
             </div>
-            <div className="rounded-3xl border-p1-darkgreen p-6 text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:my-2 md:border-4">
+            <div className="my-1 rounded-3xl border-2 border-p1-darkgreen p-6 text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:my-2 md:border-4">
               <p className="pb-3 text-center font-bold">Социальные привилегии:</p>
               <p className="pb-5">
                 Сообщества: Доступ к эксклюзивным чатам, форумам или группам в социальных сетях.
@@ -25,7 +25,7 @@ export default function Page() {
                 Сетевые мероприятия: Участие в приватных сетевых событиях и встречах.
               </p>
             </div>
-            <div className="rounded-3xl border-p1-darkgreen p-6 text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:my-2 md:border-4">
+            <div className="my-1 rounded-3xl border-2 border-p1-darkgreen p-6 text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:my-2 md:border-4">
               <p className="pb-3 text-center font-bold">Персонализация:</p>
               <p className="pb-5">
                 Услуги на заказ: Возможность заказать уникальные произведения искусства или
@@ -39,18 +39,18 @@ export default function Page() {
           </div>
 
           <div>
-            <div className="rounded-3xl border-p1-darkgreen p-6 text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:my-2 md:border-4">
+            <div className="my-1 rounded-3xl border-2 border-p1-darkgreen p-6 text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:my-2 md:border-4">
               <p className="pb-3 text-center font-bold">Скидки и предложения:</p>
               <p className="pb-5">
                 Покупки: Скидки на товары и услуги, предлагаемые проектом или его партнерами.
               </p>
-              <div className="pb-5">VIP-услуги: Доступ к премиальным услугам и сервисам.</div>
+              <p className="pb-5">VIP-услуги: Доступ к премиальным услугам и сервисам.</p>
             </div>
-            <div className="rounded-3xl border-p1-darkgreen p-6 text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:my-2 md:border-4">
+            <div className="my-1 rounded-3xl border-2 border-p1-darkgreen p-6 text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:my-2 md:border-4">
               <p className="pb-3 text-center font-bold">Вознаграждения и бонусы:</p>
               <p className="pb-5">Airdrop: Бесплатное получение дополнительных токенов или NFT.</p>
             </div>
-            <div className="rounded-3xl border-p1-darkgreen p-6 text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:my-2 md:border-4">
+            <div className="my-1 rounded-3xl border-2 border-p1-darkgreen p-6 text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:my-2 md:border-4">
               <p className="pb-3 text-center font-bold">Физические товары:</p>
               <p className="pb-5">
                 Коллекционные предметы: Получение физической версии произведения искусства или
@@ -60,17 +60,17 @@ export default function Page() {
                 Мерчандайзинг: Одежда, аксессуары и другие брендированные товары.
               </p>
             </div>
-            <div className="rounded-3xl border-p1-darkgreen p-6 text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:my-2 md:border-4">
+            <div className="my-1 rounded-3xl border-2 border-p1-darkgreen p-6 text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:my-2 md:border-4">
               <p className="pb-3 text-center font-bold">Образовательные ресурсы:</p>
               <p className="pb-5">
                 Курсы и семинары: Доступ к обучающим материалам, вебинарам и мастер-классам.
               </p>
-              <div className="pb-5">Мастер-классы с ведущими пилотами.</div>
+              <p className="pb-5">Мастер-классы с ведущими пилотами.</p>
             </div>
           </div>
 
           <div>
-            <div className="rounded-3xl border-p1-darkgreen p-6 text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:my-2 md:border-4">
+            <div className="my-1 rounded-3xl border-2 border-p1-darkgreen p-6 text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:my-2 md:border-4">
               <p className="pb-3 text-center font-bold">Права голоса:</p>
               <p className="pb-5">DAO (децентрализованные автономные организации):</p>
               <p className="pb-5">
@@ -78,7 +78,7 @@ export default function Page() {
                 выбору формата мероприятий, судей, участников и прочим вопросам
               </p>
             </div>
-            <div className="rounded-3xl border-p1-darkgreen p-6 text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:my-2 md:border-4">
+            <div className="my-1 rounded-3xl border-2 border-p1-darkgreen p-6 text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:my-2 md:border-4">
               <p className="pb-3 text-center font-bold">Децентрализованный портал:</p>
               <p className="pb-5">
                 Запускаем платформу с актуальными новостями автоспорта, фото и видео отчетами,
@@ -91,7 +91,7 @@ export default function Page() {
                 всему миру, стирая границы и расстояния.
               </p>
             </div>
-            <div className="rounded-3xl border-p1-darkgreen p-6 text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:my-2 md:border-4">
+            <div className="my-1 rounded-3xl border-2 border-p1-darkgreen p-6 text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:my-2 md:border-4">
               <p className="pb-3 text-center font-bold">Инвестиционные возможности:</p>
               <p className="pb-5">
                 Доступ к ранним инвестициям: Возможность вкладывать в проекты на ранних стадиях или
