@@ -42,12 +42,12 @@ export default function Home() {
                 />
               </div>
               <div className="my-5">
-                <a
+                <Link
                   href="/"
                   className="inline-block rounded-xl border-2 border-p2-orange bg-p1-white px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white"
                 >
                   Создай NFT
-                </a>
+                </Link>
               </div>
               <div className="my-5">
                 <label className="inline-flex cursor-pointer items-center">
