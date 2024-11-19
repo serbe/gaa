@@ -17,7 +17,7 @@ export default function Page() {
   return (
     <div className="mx-auto max-w-7xl font-serif">
       <div className="flex flex-row">
-        <div className="basis-1/6 text-center opacity-85 duration-500 hover:scale-105 hover:opacity-100">
+        <div className="basis-1/6 text-center opacity-85 duration-500 ease-in-out hover:scale-105 hover:opacity-100">
           <Link
             href={{
               pathname: '/ruaboutmemberbenefit',
@@ -238,15 +238,15 @@ export default function Page() {
         <div className="md:basis-1/6"></div>
       </div>
 
-      <div className="md:place-self-senter rounden-3xl w-fulloverflow-x-auto snap-x pb-5 pt-5 md:h-full">
+      <div className="w-full snap-x overflow-x-auto rounded-3xl border-p2-orange hover:border-p2-orange md:w-4/5 md:place-self-center md:border-4 md:hover:shadow-2xl">
         <Swiper
           autoplay={{
-            delay: 2500,
+            delay: 5500,
             pauseOnMouseEnter: true,
           }}
           direction={'horizontal'}
-          spaceBetween={1}
-          slidesPerView={2.5}
+          spaceBetween={0}
+          slidesPerView={4}
           mousewheel={true}
           modules={[Autoplay, Mousewheel, Navigation, Pagination]}
           navigation={true}
@@ -254,7 +254,7 @@ export default function Page() {
             clickable: true,
           }}
           loop={true}
-          className="mySwyper h-full w-full md:w-3/5"
+          className="mySwyper"
         >
           <SwiperSlide>
             <div>
@@ -396,7 +396,7 @@ export default function Page() {
       <div className="flex flex-row justify-center p-2">
         <div className="md:basis-1/5"></div>
         <div className="md:basis-3/5">
-          <div className="text-center text-2xl font-bold text-p1-darkgreen drop-shadow-2xl md:text-3xl">
+          <div className="text-center text-2xl font-bold text-p1-darkgreen drop-shadow-2xl md:pt-8 md:text-3xl">
             Мы планируем
           </div>
           <div className="text-center text-2xl font-bold text-p1-darkgreen drop-shadow-2xl md:text-3xl">
@@ -523,12 +523,12 @@ export default function Page() {
       <div className="md:place-self-senter rounden-3xl w-fulloverflow-x-auto snap-x pb-5 pt-5 md:h-full">
         <Swiper
           autoplay={{
-            delay: 2500,
+            delay: 5500,
             pauseOnMouseEnter: true,
           }}
           direction={'horizontal'}
-          spaceBetween={1}
-          slidesPerView={2.5}
+          spaceBetween={0}
+          slidesPerView={4}
           mousewheel={true}
           modules={[Autoplay, Mousewheel, Navigation, Pagination]}
           navigation={true}
@@ -536,7 +536,7 @@ export default function Page() {
             clickable: true,
           }}
           loop={true}
-          className="mySwyper h-full w-full md:w-3/5"
+          className="mySwyper h-full w-full md:w-4/5"
         >
           <SwiperSlide>
             <div>
