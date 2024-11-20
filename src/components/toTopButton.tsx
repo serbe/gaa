@@ -2,7 +2,7 @@
 
 import { useEffect, useState } from 'react';
 
-export const TButton = () => {
+export const ToTopButton = () => {
   const [visible, setVisible] = useState(true);
 
   useEffect(() => {

@@ -3,13 +3,19 @@
 import { useGaaStore } from '@/providers/store-provider';
 import Image from 'next/image';
 import Link from 'next/link';
+import { JumpButton } from '@/components/jumpButton';
 
 export default function Page() {
   const [{ setLicense }] = useGaaStore((state) => state);
+  const jumpPoints = ['racelads', 'movement-leaders', 'custom-lads', 'awards', 'licenses'];
 
   return (
     <div className="mx-auto max-w-7xl font-serif">
-      <div className="text-center text-4xl font-bold text-p1-darkgreen md:pt-4 md:text-6xl">
+      <JumpButton points={jumpPoints} />
+      <div
+        id="racelads"
+        className="text-center text-4xl font-bold text-p1-darkgreen md:pt-4 md:text-6xl"
+      >
         RaceLads
       </div>
       <div className="text-center text-xl font-bold text-p1-darkgreen md:pb-4 md:text-4xl">
@@ -56,7 +62,10 @@ export default function Page() {
       </div>
 
       {/* //Лидеры движений */}
-      <div className="p-2 text-center text-4xl font-bold text-p1-darkgreen md:pt-20 md:text-6xl">
+      <div
+        id="movement-leaders"
+        className="p-2 text-center text-4xl font-bold text-p1-darkgreen md:pt-20 md:text-6xl"
+      >
         Лидеры движений
       </div>
       <div className="pb-2 text-center text-xl font-bold text-p1-darkgreen md:pb-5 md:text-4xl">
@@ -199,7 +208,10 @@ export default function Page() {
 
       {/* // CustomLads */}
 
-      <div className="p-2 text-center text-4xl font-bold text-p1-darkgreen md:pt-20 md:text-6xl">
+      <div
+        id="custom-lads"
+        className="p-2 text-center text-4xl font-bold text-p1-darkgreen md:pt-20 md:text-6xl"
+      >
         CustomLads
       </div>
 
@@ -249,7 +261,10 @@ export default function Page() {
 
       {/* //Награды */}
 
-      <div className="pt-2 text-center text-4xl font-bold text-p1-darkgreen md:pt-20 md:text-6xl">
+      <div
+        id="awards"
+        className="pt-2 text-center text-4xl font-bold text-p1-darkgreen md:pt-20 md:text-6xl"
+      >
         Награды
       </div>
       <div className="text-center text-xl font-bold text-p1-darkgreen md:pb-5 md:text-4xl">
@@ -299,7 +314,10 @@ export default function Page() {
       </div>
 
       {/* //Лицензии */}
-      <div className="pt-2 text-center text-4xl font-bold text-p1-darkgreen md:pt-20 md:text-6xl">
+      <div
+        id="licenses"
+        className="pt-2 text-center text-4xl font-bold text-p1-darkgreen md:pt-20 md:text-6xl"
+      >
         Лицензии
       </div>
       <div className="pb-2 text-center text-xl font-bold text-p1-darkgreen md:pb-5 md:text-4xl">

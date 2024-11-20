@@ -1,6 +1,8 @@
 import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
+  distDir: 'build',
+  reactStrictMode: true,
   // i18n: {
   //   locales: ['en-US', 'ru'],
   //   defaultLocale: 'en-US',
