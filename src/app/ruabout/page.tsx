@@ -1,7 +1,9 @@
 'use client';
+import { useGaaStore } from '@/providers/store-provider';
 
 import Image from 'next/image';
 import Link from 'next/link';
+import { JumpButton } from '@/components/jumpButton';
 
 import { Autoplay, Mousewheel, Navigation, Pagination } from 'swiper/modules';
 
@@ -14,8 +16,28 @@ import 'swiper/css/scrollbar';
 import 'swiper/css/pagination';
 
 export default function Page() {
+  const jumpPoints = [
+    '1',
+    '2',
+    '3',
+    '4',
+    '5',
+    '6',
+    '7',
+    '8',
+    '9',
+    '10',
+    '11',
+    '12',
+    '13',
+    '14',
+    '15',
+  ];
+
   return (
     <div className="mx-auto max-w-7xl font-serif">
+      <JumpButton points={jumpPoints} />
+
       <div className="flex flex-row">
         <div className="basis-1/6 text-center opacity-85 duration-500 ease-in-out hover:scale-105 hover:opacity-100">
           <Link
@@ -123,7 +145,10 @@ export default function Page() {
 
       <div className="flex flex-row justify-center p-2">
         <div className="md:basis-5/5">
-          <div className="p-2 text-center text-xl font-bold text-p1-darkgreen drop-shadow-2xl md:text-3xl">
+          <div
+            id="1"
+            className="p-2 text-center text-xl font-bold text-p1-darkgreen drop-shadow-2xl md:text-3xl"
+          >
             О Нас
           </div>
         </div>
@@ -143,7 +168,10 @@ export default function Page() {
 
       <div className="flex flex-row justify-center">
         <div className="mb-5 mt-5 text-p1-darkgreen md:basis-4/6">
-          <div className="space-y-4 rounded-3xl border-p1-darkgreen p-6 text-left text-base text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:border-4 md:text-xl">
+          <div
+            id="2"
+            className="space-y-4 rounded-3xl border-p1-darkgreen p-6 text-left text-base text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:border-4 md:text-xl"
+          >
             <p className="text-center text-xl font-bold md:text-2xl">Наши амбициозные цели:</p>
             <p>Создание активного сообщества:</p>
             <p>
@@ -165,7 +193,10 @@ export default function Page() {
         <div className="md:basis-1/6"></div>
         <div className="md:basis-2/6">
           <div>
-            <div className="rounded-3xl border-p1-darkgreen p-6 text-center text-xl text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:border-4">
+            <div
+              id="3"
+              className="rounded-3xl border-p1-darkgreen p-6 text-center text-xl text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:border-4"
+            >
               <p className="text-2xl font-bold">10,000</p>
               <p>уникальных NFT</p>
               <p>в коллекции</p>
@@ -193,7 +224,10 @@ export default function Page() {
       <div className="flex flex-row justify-center p-2">
         <div className="md:basis-1/5"></div>
         <div className="md:basis-3/5">
-          <div className="pt-5 text-center text-6xl font-bold text-p1-darkgreen drop-shadow-2xl">
+          <div
+            id="4"
+            className="pt-5 text-center text-6xl font-bold text-p1-darkgreen drop-shadow-2xl"
+          >
             RaceLads
           </div>
         </div>
@@ -238,6 +272,7 @@ export default function Page() {
         <div className="md:basis-1/6"></div>
       </div>
 
+      <div className="md:pt-2" id="5"></div>
       <div className="w-full snap-x overflow-x-auto rounded-3xl border-p2-orange hover:border-p2-orange md:w-4/5 md:place-self-center md:border-4 md:hover:shadow-2xl">
         <Swiper
           autoplay={{
@@ -396,7 +431,10 @@ export default function Page() {
       <div className="flex flex-row justify-center p-2">
         <div className="md:basis-1/5"></div>
         <div className="md:basis-3/5">
-          <div className="text-center text-2xl font-bold text-p1-darkgreen drop-shadow-2xl md:pt-8 md:text-3xl">
+          <div
+            id="6"
+            className="text-center text-2xl font-bold text-p1-darkgreen drop-shadow-2xl md:pt-8 md:text-3xl"
+          >
             Мы планируем
           </div>
           <div className="text-center text-2xl font-bold text-p1-darkgreen drop-shadow-2xl md:text-3xl">
@@ -453,7 +491,10 @@ export default function Page() {
       <div className="flex flex-row justify-center p-2">
         <div className="md:basis-1/5"></div>
         <div className="md:basis-3/5">
-          <div className="pt-5 text-center text-3xl font-bold text-p1-darkgreen drop-shadow-2xl md:text-4xl">
+          <div
+            id="7"
+            className="pt-5 text-center text-3xl font-bold text-p1-darkgreen drop-shadow-2xl md:text-4xl"
+          >
             NFT
           </div>
           <div className="pb-5 text-center text-3xl font-bold text-p1-darkgreen drop-shadow-2xl md:text-4xl">
@@ -496,7 +537,10 @@ export default function Page() {
               </p>
             </div>
 
-            <div className="my-5 space-y-4 rounded-3xl border-p1-darkgreen p-6 text-center text-xl text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:border-4">
+            <div
+              id="8"
+              className="my-5 space-y-4 rounded-3xl border-p1-darkgreen p-6 text-center text-xl text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:border-4"
+            >
               <p className="text-center text-xl font-bold text-p1-darkgreen drop-shadow-2xl md:text-3xl">
                 NFT Награды
               </p>
@@ -519,7 +563,7 @@ export default function Page() {
         </div>
         <div className="md:basis-1/6"></div>
       </div>
-
+      <div id="9" className="md:pt-2"></div>
       <div className="md:place-self-senter rounden-3xl w-fulloverflow-x-auto snap-x pb-5 pt-5 md:h-full">
         <Swiper
           autoplay={{
@@ -643,7 +687,10 @@ export default function Page() {
       </div>
       <div className="flex flex-row justify-center p-2">
         <div className="md:basis-3/5">
-          <div className="text-center text-xl font-bold text-p1-darkgreen drop-shadow-2xl md:text-3xl">
+          <div
+            id="10"
+            className="text-center text-xl font-bold text-p1-darkgreen drop-shadow-2xl md:text-3xl"
+          >
             Выгода владельцу
           </div>
           <div className="text-center text-xl font-bold text-p1-darkgreen drop-shadow-2xl md:text-3xl">
@@ -677,7 +724,10 @@ export default function Page() {
               </ul>
             </div>
 
-            <div className="my-5 space-y-2 rounded-3xl border-p1-darkgreen p-6 text-center text-xl text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:border-4">
+            <div
+              id="11"
+              className="my-5 space-y-2 rounded-3xl border-p1-darkgreen p-6 text-center text-xl text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:border-4"
+            >
               <p className="text-center text-xl font-bold text-p1-darkgreen drop-shadow-2xl md:text-2xl">
                 Собственные мероприятия
               </p>
@@ -692,7 +742,10 @@ export default function Page() {
               </p>
             </div>
 
-            <div className="my-5 space-y-2 rounded-3xl border-p1-darkgreen p-6 text-center text-xl text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:border-4">
+            <div
+              id="12"
+              className="my-5 space-y-2 rounded-3xl border-p1-darkgreen p-6 text-center text-xl text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:border-4"
+            >
               <p className="text-center text-2xl font-bold text-p1-darkgreen">
                 Децентрализованный портал
               </p>
@@ -725,7 +778,10 @@ export default function Page() {
               </ul>
             </div>
 
-            <div className="space-y-4 rounded-3xl border-p1-darkgreen p-6 text-center text-xl text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:my-5 md:border-4">
+            <div
+              id="13"
+              className="space-y-4 rounded-3xl border-p1-darkgreen p-6 text-center text-xl text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:my-5 md:border-4"
+            >
               <p className="text-center text-2xl font-bold text-p1-darkgreen">
                 Выход на международный уровень
               </p>
@@ -745,7 +801,10 @@ export default function Page() {
       <div className="px-2 text-xl">
         <div className="flex flex-row justify-center">
           <div className="md:basis-3/5">
-            <div className="p-2 text-center text-3xl font-bold text-p1-darkgreen drop-shadow-2xl">
+            <div
+              id="14"
+              className="p-2 text-center text-3xl font-bold text-p1-darkgreen drop-shadow-2xl"
+            >
               Web 3
             </div>
           </div>
@@ -777,7 +836,10 @@ export default function Page() {
                 </p>
               </div>
 
-              <div className="my-5 space-y-2 rounded-3xl border-p1-darkgreen p-4 text-center text-xl text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:border-4">
+              <div
+                id="15"
+                className="my-5 space-y-2 rounded-3xl border-p1-darkgreen p-4 text-center text-xl text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:border-4"
+              >
                 <p className="text-center">
                   Присоединяйся к GAA и стань частью глобального движения, которое создает новые
                   правила справедливой игры в мире автоспорта и автокультуры!

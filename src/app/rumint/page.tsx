@@ -60,9 +60,9 @@ export default function Page() {
           <div className="pb-4 md:pt-4"></div>
         </div>
       </div>
-      <div className="h-screen grid-rows-[auto-1fr-auto] place-content-center bg-fixed text-center">
-        NEXT
-      </div>
+      <div className="md:h-96"> </div>
+      <div className="h-14"></div>
+
       {/* //Лидеры движений */}
       <div
         id="movement-leaders"
@@ -211,6 +211,8 @@ export default function Page() {
           </div>
         </div>
       </div>
+      <div className="md:h-96"> </div>
+      <div className="h-14"></div>
 
       {/* // CustomLads */}
 
@@ -264,7 +266,8 @@ export default function Page() {
           <div className="pb-4 pt-4"></div>
         </div>
       </div>
-
+      <div className="md:h-96"> </div>
+      <div className="h-14"></div>
       {/* //Награды */}
 
       <div
@@ -318,6 +321,8 @@ export default function Page() {
           <div className="pb-4 pt-4"></div>
         </div>
       </div>
+      <div className="md:h-96"> </div>
+      <div className="h-14"></div>
 
       {/* //Лицензии */}
       <div
@@ -331,6 +336,7 @@ export default function Page() {
       </div>
       <div className="m-5 grid grid-cols-1 gap-2 place-self-center rounded-3xl border-p1-darkgreen p-5 text-center text-p1-darkgreen md:grid-cols-3 md:border-4 md:shadow-lg">
         <div className="mb-4 mt-4">
+          <p className="pb-2 text-2xl text-p1-darkgreen">Лицензия Промоутера</p>
           <Image
             className="relative mb-4 inline-block w-3/5 rounded-3xl border-2 border-amber-600 shadow-lg md:w-4/5"
             width={1000}
@@ -338,8 +344,8 @@ export default function Page() {
             src="/Licenses/Promoter Lic.png"
             alt="PromoterLic"
           />
-          <p className="text-2xl text-p1-darkgreen">Лицензия Промоутера</p>
-          <p className="text-xm pb-5 text-p1-darkgreen">
+
+          <p className="text-xm pb-8 text-p1-darkgreen">
             Предоставляет доступ на страницу создания NFT наград
           </p>
           <Link
@@ -358,6 +364,8 @@ export default function Page() {
           </Link>
         </div>
         <div className="mb-5 mt-5">
+          <p className="pb-2 text-2xl text-p1-darkgreen">Национальная лицензия</p>
+
           <Image
             className="relative mb-4 inline-block w-3/5 rounded-3xl border-2 border-p1-gray shadow-lg md:w-4/5"
             width={1000}
@@ -365,8 +373,7 @@ export default function Page() {
             src="/Licenses/National Lic.png"
             alt="NationalLic"
           />
-          <p className="text-2xl text-p1-darkgreen">Национальная лицензия</p>
-          <p className="text-xm pb-5 text-p1-darkgreen">
+          <p className="text-xm pb-8 text-p1-darkgreen">
             Предоставляет право голоса по развитию GAA на национальном и локальном уровнях
           </p>
           <Link
@@ -386,6 +393,8 @@ export default function Page() {
         </div>
 
         <div className="mb-5 mt-5">
+          <p className="pb-2 text-2xl text-p1-darkgreen">Глобальная лицензия</p>
+
           <Image
             className="relative mb-4 inline-block w-3/5 rounded-3xl border-2 border-p2-orange shadow-lg md:w-4/5"
             width={1000}
@@ -394,8 +403,7 @@ export default function Page() {
             alt="GlobalLic"
           />
 
-          <p className="text-2xl text-p1-darkgreen">Глобальная лицензия</p>
-          <p className="text-xm pb-5 text-p1-darkgreen">
+          <p className="text-xm pb-8 text-p1-darkgreen">
             Предоставляет право голоса по развитию GAA на международном уровне
           </p>
           <Link
@@ -415,7 +423,8 @@ export default function Page() {
           <div className="pb-4"></div>
         </div>
       </div>
-      <div className="pb-5"></div>
+      <div className="md:pb-96"></div>
+      <div className="md:pb-14"></div>
     </div>
   );
 }

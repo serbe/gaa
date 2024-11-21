@@ -9,7 +9,7 @@ export default function Page() {
           <div className="text-center text-4xl font-bold text-p1-darkgreen md:pt-4 md:text-6xl">
             Партнеры
           </div>
-          <div className="px-2 text-center text-p1-darkgreen drop-shadow-2xl md:text-4xl">
+          <div className="px-2 text-center text-base text-p1-darkgreen drop-shadow-2xl md:text-4xl">
             Если Вы заинтересованы в том, чтобы стать партнером или спонсором, пожалуйста, свяжитесь
             с нами.
           </div>
@@ -18,7 +18,7 @@ export default function Page() {
 
       <div className="flex flex-row justify-center md:pb-5">
         <div className="basis-1/5 p-2">
-          <Image width={500} height={600} src="/Hero/77.png" alt="Hero77" />
+          <Image width={200} height={500} src="/Hero/77.png" alt="Hero77" />
         </div>
         <div className="basis-3/5">
           <div className="rounded-3xl p-6 md:my-5">
@@ -27,7 +27,7 @@ export default function Page() {
                 <div className="grid">
                   <button className="mx-auto justify-center rounded-3xl hover:bg-p2-white2 hover:drop-shadow-2xl">
                     <a href="/rucontacts">
-                      <Image width={200} height={600} src="/logo/letter.png" alt="letter" />
+                      <Image width={200} height={500} src="/logo/letter.png" alt="letter" />
                     </a>
                   </button>
                 </div>

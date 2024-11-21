@@ -1,9 +1,17 @@
+'use client';
+import { useGaaStore } from '@/providers/store-provider';
+
 import Image from 'next/image';
 import Link from 'next/link';
+import { JumpButton } from '@/components/jumpButton';
 
 export default function Page() {
+  const jumpPoints = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14'];
+
   return (
     <div className="mx-auto max-w-7xl font-serif">
+      <JumpButton points={jumpPoints} />
+
       <div className="text-center text-4xl font-bold text-p2-orange md:pt-4 md:text-6xl">
         Racepoint
       </div>
@@ -50,7 +58,7 @@ export default function Page() {
           </div>
         </div>
       </div>
-
+      <div id="1" className="md:pt-2"></div>
       <div className="flex flex-row justify-center pb-5">
         <div className="md:basis-3/5">
           <div className="rounded-3xl border-p2-orange p-2 md:my-5 md:space-y-6 md:border-4 md:p-6 md:hover:shadow-2xl">
@@ -63,6 +71,7 @@ export default function Page() {
           </div>
         </div>
       </div>
+      <div id="2" className="md:pt-2"></div>
 
       <div className="flex flex-row justify-center pb-5">
         <div className="md:basis-3/5">
@@ -89,6 +98,7 @@ export default function Page() {
           </div>
         </div>
       </div>
+      <div id="3" className="md:pt-2"></div>
 
       <div className="flex flex-row justify-center pb-5">
         <div className="md:basis-5/5">
@@ -149,6 +159,7 @@ export default function Page() {
           </div>
         </div>
       </div>
+      <div id="4" className="md:pt-2"></div>
 
       <div className="flex flex-row justify-center pb-5">
         <div className="md:basis-3/5">
@@ -212,6 +223,7 @@ export default function Page() {
           </div>
         </div>
       </div>
+      <div id="5" className="md:pt-2"></div>
 
       <div className="flex flex-row justify-center pb-5">
         <div className="basis-5/5">
@@ -270,6 +282,8 @@ export default function Page() {
           </div>
         </div>
       </div>
+      <div id="6" className="md:pt-2"></div>
+
       <div className="flex flex-row justify-center pb-5">
         <div className="basis-5/5">
           <div className="rounded-3xl border-p2-orange p-2 md:my-5 md:space-y-6 md:border-4 md:p-6 md:hover:shadow-2xl">
@@ -340,6 +354,8 @@ export default function Page() {
           </div>
         </div>
       </div>
+      <div id="7" className="md:pt-2"></div>
+
       <div className="flex flex-row place-self-center pb-5">
         <div className="basis-5/5">
           <div className="rounded-3xl border-p2-orange md:my-5 md:space-y-6 md:border-4 md:p-6 md:hover:shadow-2xl">
@@ -363,6 +379,7 @@ export default function Page() {
           </div>
         </div>
       </div>
+      <div id="8" className="md:pt-2"></div>
 
       <div className="flex flex-row justify-center pb-5">
         <div className="md:basis-3/5">
@@ -380,6 +397,7 @@ export default function Page() {
           </div>
         </div>
       </div>
+      <div id="9" className="md:pt-2"></div>
 
       <div className="flex flex-row justify-center pb-5">
         <div className="md:basis-3/5">
@@ -410,6 +428,7 @@ export default function Page() {
           </div>
         </div>
       </div>
+      <div id="10" className="md:pt-2"></div>
 
       <div className="flex flex-row justify-center pb-5">
         <div className="md:basis-3/5">
@@ -441,8 +460,9 @@ export default function Page() {
           </div>
         </div>
       </div>
+      <div id="11" className="md:pt-2"></div>
 
-      <div className="flex flex-row justify-center pb-5">
+      <div className="flex flex-row justify-center pb-2">
         <div className="md:basis-3/5">
           <div className="text-center text-4xl font-bold text-p2-orange md:pt-4 md:text-6xl">
             Преференции
@@ -452,8 +472,9 @@ export default function Page() {
           </div>
         </div>
       </div>
+      <div id="12" className="md:pt-0"></div>
 
-      <div className="flex flex-row justify-center pb-5">
+      <div className="flex flex-row justify-center pb-2">
         <div className="md:basis-3/5">
           <div className="rounded-3xl border-p2-orange md:my-5 md:space-y-6 md:border-4 md:p-6 md:hover:shadow-2xl">
             <ul className="list-disc space-y-3 px-5 text-p1-darkgreen">
@@ -474,6 +495,8 @@ export default function Page() {
           </div>
         </div>
       </div>
+      <div id="13" className="md:pt-2"></div>
+
       <div className="basis-1/5 place-self-center">
         <Image width={150} height={150} src="/Hero/12.png" alt="Hero12" />
       </div>
