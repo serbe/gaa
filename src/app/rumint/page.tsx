@@ -60,7 +60,9 @@ export default function Page() {
           <div className="pb-4 md:pt-4"></div>
         </div>
       </div>
-
+      <div className="h-screen grid-rows-[auto-1fr-auto] place-content-center bg-fixed text-center">
+        NEXT
+      </div>
       {/* //Лидеры движений */}
       <div
         id="movement-leaders"
@@ -73,6 +75,7 @@ export default function Page() {
       </div>
       <div className="mx-5 grid grid-cols-1 gap-2 rounded-3xl border-p1-darkgreen text-center text-p1-darkgreen md:grid-cols-2 md:border-4 md:p-5 md:shadow-lg xl:grid-cols-4">
         <div>
+          <p className="text-2xl text-p1-darkgreen">Drivers</p>
           <Image
             className="relative mb-4 inline-block w-3/5 rounded-3xl border-2 border-red-400 shadow-lg md:w-full"
             width={1000}
@@ -80,7 +83,7 @@ export default function Page() {
             src="/HeroNFT/Drivers/Driver4.png"
             alt="Driver4"
           />
-          <p className="text-2xl text-p1-darkgreen">Drivers</p>
+
           <p className="pt-2 text-base text-p1-darkgreen">
             Пилоты гоночных автомобилей и болидов, присоединившиеся
           </p>
@@ -107,6 +110,7 @@ export default function Page() {
           </div>
         </div>
         <div>
+          <p className="text-2xl text-p1-darkgreen">Team&apos;s Members</p>
           <Image
             className="relative mb-4 inline-block w-3/5 rounded-3xl border-2 border-p3-blue shadow-lg md:w-full"
             width={1000}
@@ -114,7 +118,7 @@ export default function Page() {
             src="/HeroNFT/Team's members/TeamMember1.png"
             alt="TeamMember1"
           />
-          <p className="text-2xl text-p1-darkgreen">Team&apos;s Members</p>
+
           <p className="pt-2 text-base text-p1-darkgreen">Участники команд, присоединившиеся</p>
           <p className="pb-2 text-base text-p1-darkgreen">к Web3</p>
           <div className="py-5">
@@ -139,6 +143,7 @@ export default function Page() {
           </div>
         </div>
         <div>
+          <p className="text-2xl text-p1-darkgreen">Collectors</p>
           <Image
             className="relative mb-4 inline-block w-3/5 rounded-3xl border-2 border-stone-500 shadow-lg md:w-full"
             width={1000}
@@ -146,7 +151,7 @@ export default function Page() {
             src="/HeroNFT/Collectors/Collector1.png"
             alt="Collector1"
           />
-          <p className="text-2xl text-p1-darkgreen">Collectors</p>
+
           <p className="p-2 text-base text-p1-darkgreen">
             Владельцы редких, спортивных и уникальных автомобилей, присоединившиеся к Web3
           </p>
@@ -172,6 +177,8 @@ export default function Page() {
           </div>
         </div>
         <div>
+          <p className="text-2xl text-p1-darkgreen">Cars</p>
+
           <Image
             className="relative mb-4 inline-block w-3/5 rounded-3xl border-2 border-p3-blue shadow-lg md:w-full"
             width={1000}
@@ -179,7 +186,6 @@ export default function Page() {
             src="/Cars/Car.png"
             alt="Car"
           />
-          <p className="text-2xl text-p1-darkgreen">Cars</p>
           <p className="p-2 text-base text-p1-darkgreen">
             Раритетные, уникальные и спортивные автомобили из частных коллекций
           </p>
@@ -274,7 +280,7 @@ export default function Page() {
         <p className="pt-2 text-base text-p1-darkgreen md:pt-2 md:text-2xl">
           Вручай награды победителям
         </p>
-        <h2 className="pb-2 text-base text-p1-darkgreen md:pb-2 md:text-2xl"> NFT Rewards </h2>
+        <h2 className="pb-2 text-base text-p1-darkgreen md:pb-2 md:text-2xl"> NFT Awards </h2>
         <div>
           <Image
             className="relative mb-2 inline-block w-2/5 rounded-3xl border-2 border-p2-orange shadow-lg md:w-2/5"
