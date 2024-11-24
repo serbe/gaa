@@ -1,12 +1,21 @@
+'use client';
+
+import { JumpButton } from '@/components/jumpButton';
+
 export default function Page() {
+  const jumpPoints = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10'];
   return (
     <div className="mx-auto max-w-7xl font-serif">
-      <div className="text-center text-3xl font-bold text-p1-darkgreen md:pt-2 md:text-6xl">
+      <JumpButton points={jumpPoints} />
+
+      <div className="p-2 text-center text-xl font-bold text-p1-darkgreen drop-shadow-2xl md:text-4xl">
         Выгода участника
       </div>
       <div className="flex flex-wrap object-center px-2 md:flex-nowrap md:space-x-2">
         <div className="flex w-full min-w-96 flex-wrap object-center p-2 md:mb-2 md:flex-nowrap md:space-x-2">
           <div>
+            <div className="md:pt-2" id="1"></div>
+
             <div className="my-1 rounded-3xl border-2 border-p1-darkgreen p-6 text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:my-2 md:border-4">
               <p className="pb-3 text-center font-bold">Уникальные привилегии:</p>
               <p className="pb-5">Мероприятия: Участие в мероприятиях, концертах, выставках.</p>
@@ -16,6 +25,8 @@ export default function Page() {
                 автограф-сессии, фотосессии, лекции, экскурсии, розыгрыши NFT и многое другое.
               </p>
             </div>
+            <div className="md:pt-2" id="2"></div>
+
             <div className="my-1 rounded-3xl border-2 border-p1-darkgreen p-6 text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:my-2 md:border-4">
               <p className="pb-3 text-center font-bold">Социальные привилегии:</p>
               <p className="pb-5">
@@ -25,6 +36,8 @@ export default function Page() {
                 Сетевые мероприятия: Участие в приватных сетевых событиях и встречах.
               </p>
             </div>
+            <div className="md:pt-2" id="3"></div>
+
             <div className="my-1 rounded-3xl border-2 border-p1-darkgreen p-6 text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:my-2 md:border-4">
               <p className="pb-3 text-center font-bold">Персонализация:</p>
               <p className="pb-5">
@@ -37,6 +50,7 @@ export default function Page() {
               </p>
             </div>
           </div>
+          <div className="md:pt-2" id="4"></div>
 
           <div>
             <div className="my-1 rounded-3xl border-2 border-p1-darkgreen p-6 text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:my-2 md:border-4">
@@ -46,10 +60,14 @@ export default function Page() {
               </p>
               <p className="pb-5">VIP-услуги: Доступ к премиальным услугам и сервисам.</p>
             </div>
+            <div className="md:pt-2" id="5"></div>
+
             <div className="my-1 rounded-3xl border-2 border-p1-darkgreen p-6 text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:my-2 md:border-4">
               <p className="pb-3 text-center font-bold">Вознаграждения и бонусы:</p>
               <p className="pb-5">Airdrop: Бесплатное получение дополнительных токенов или NFT.</p>
             </div>
+            <div className="md:pt-2" id="6"></div>
+
             <div className="my-1 rounded-3xl border-2 border-p1-darkgreen p-6 text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:my-2 md:border-4">
               <p className="pb-3 text-center font-bold">Физические товары:</p>
               <p className="pb-5">
@@ -60,6 +78,8 @@ export default function Page() {
                 Мерчандайзинг: Одежда, аксессуары и другие брендированные товары.
               </p>
             </div>
+            <div className="md:pt-2" id="7"></div>
+
             <div className="my-1 rounded-3xl border-2 border-p1-darkgreen p-6 text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:my-2 md:border-4">
               <p className="pb-3 text-center font-bold">Образовательные ресурсы:</p>
               <p className="pb-5">
@@ -68,6 +88,7 @@ export default function Page() {
               <p className="pb-5">Мастер-классы с ведущими пилотами.</p>
             </div>
           </div>
+          <div className="md:pt-2" id="8"></div>
 
           <div>
             <div className="my-1 rounded-3xl border-2 border-p1-darkgreen p-6 text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:my-2 md:border-4">
@@ -78,6 +99,8 @@ export default function Page() {
                 выбору формата мероприятий, судей, участников и прочим вопросам
               </p>
             </div>
+            <div className="md:pt-2" id="9"></div>
+
             <div className="my-1 rounded-3xl border-2 border-p1-darkgreen p-6 text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:my-2 md:border-4">
               <p className="pb-3 text-center font-bold">Децентрализованный портал:</p>
               <p className="pb-5">
@@ -91,6 +114,8 @@ export default function Page() {
                 всему миру, стирая границы и расстояния.
               </p>
             </div>
+            <div className="md:pt-2" id="10"></div>
+
             <div className="my-1 rounded-3xl border-2 border-p1-darkgreen p-6 text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:my-2 md:border-4">
               <p className="pb-3 text-center font-bold">Инвестиционные возможности:</p>
               <p className="pb-5">

@@ -1,11 +1,13 @@
 'use client';
 import { useState } from 'react';
-
+import { JumpButton } from '@/components/jumpButton';
 export default function Page() {
   const [check, setCheck] = useState(false);
-
+  const jumpPoints = ['1', '2', '3'];
   return (
     <div className="mx-auto max-w-7xl font-serif">
+      <JumpButton points={jumpPoints} />
+
       <div className="p-2 text-base md:p-10 md:text-2xl">
         <div className="text-center font-bold text-p1-darkgreen drop-shadow-2xl md:text-6xl">
           Наши Контакты
@@ -16,7 +18,7 @@ export default function Page() {
         </div>
         <div className="rounded-3xl border-p1-darkgreen p-2 text-xl hover:border-p1-green md:m-5 md:border-4 md:p-6 md:hover:shadow-xl">
           <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
-            <div>
+            <div id="1">
               <p className="pb-3 text-center text-sm font-semibold text-p1-darkgreen md:text-xl">
                 Если вы хотите продвигать свое мероприятие с помощью Web3, создавать награды NFT или
                 быть представителем GAA в вашем регионе, заполните форму заявки, и мы свяжемся с
@@ -35,7 +37,7 @@ export default function Page() {
               </div>
             </div>
             <div>
-              <div>
+              <div id="2">
                 <label
                   htmlFor="full_name"
                   className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
@@ -124,6 +126,7 @@ export default function Page() {
                   className="focus:ring-p1-cian h-4 w-4 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                 />
                 <label
+                  id="3"
                   htmlFor="checkbox"
                   className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-gray-300"
                 >

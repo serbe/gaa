@@ -1,17 +1,24 @@
-import Image from 'next/image';
+'use client';
 
+import { JumpButton } from '@/components/jumpButton';
+
+import Image from 'next/image';
 export default function Page() {
+  const jumpPoints = ['1', '2', '3', '4', '5', '6'];
   return (
     <div className="mx-auto max-w-7xl font-serif">
+      <JumpButton points={jumpPoints} />
+
       <div className="p-2 text-xl">
         <div className="flex flex-row place-self-center pb-5">
           <div className="text-center text-4xl font-bold text-p1-darkgreen md:pt-5 md:text-6xl">
             Наша команда
           </div>
         </div>
+
         <div className="flex flex-row">
           <div className="grid grid-cols-1 gap-4 text-center text-p1-darkgreen md:grid-cols-2 md:p-5 xl:grid-cols-3">
-            <div className="text-p1-darkgreen">
+            <div id="1" className="text-p1-darkgreen">
               <Image
                 className="rounded-full"
                 width={500}
@@ -36,7 +43,8 @@ export default function Page() {
                 </p>
               </div>
             </div>
-            <div className="text-center text-p1-darkgreen">
+
+            <div id="2" className="text-center text-p1-darkgreen">
               <Image
                 className="rounded-full"
                 width={500}
@@ -57,7 +65,8 @@ export default function Page() {
                 </p>
               </div>
             </div>
-            <div className="text-center text-p1-darkgreen">
+
+            <div id="3" className="text-center text-p1-darkgreen">
               <Image
                 className="rounded-full"
                 width={500}
@@ -83,7 +92,7 @@ export default function Page() {
 
         <div className="flex flex-row">
           <div className="grid grid-cols-1 gap-4 text-center text-p1-darkgreen md:grid-cols-2 md:p-5 xl:grid-cols-3">
-            <div className="text-center text-p1-darkgreen">
+            <div id="4" className="text-center text-p1-darkgreen">
               <Image
                 className="rounded-full"
                 width={500}
@@ -103,7 +112,8 @@ export default function Page() {
                 </p>
               </div>
             </div>
-            <div className="text-center text-p1-darkgreen">
+
+            <div id="5" className="text-center text-p1-darkgreen">
               <Image
                 className="rounded-full"
                 width={500}
@@ -126,7 +136,7 @@ export default function Page() {
               </div>
             </div>
 
-            <div className="text-center text-p1-darkgreen">
+            <div id="6" className="text-center text-p1-darkgreen">
               <Image
                 className="rounded-full"
                 width={500}

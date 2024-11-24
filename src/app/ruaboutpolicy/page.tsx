@@ -1,10 +1,36 @@
+'use client';
+import { JumpButton } from '@/components/jumpButton';
+
 export default function Page() {
+  const jumpPoints = [
+    '1',
+    '2',
+    '3',
+    '4',
+    '5',
+    '6',
+    '7',
+    '8',
+    '9',
+    '10',
+    '11',
+    '12',
+    '13',
+    '14',
+    '15',
+    '16',
+  ];
+
   return (
     <div className="mx-auto flex max-w-7xl font-serif">
-      <div className="p-2 text-xl md:p-10">
-        <div className="text-center text-3xl font-bold text-p1-darkgreen md:pt-2 md:text-6xl">
+      <JumpButton points={jumpPoints} />
+
+      <div className="p-2 text-xl md:p-2">
+        <div className="p-2 text-center text-xl font-bold text-p1-darkgreen drop-shadow-2xl md:text-4xl">
           Политика конфиденциальности
         </div>
+        <div className="md:pt-2" id="1"></div>
+
         <div className="rounded-3xl border-p1-darkgreen p-2 text-base text-p1-darkgreen hover:border-p1-gray hover:shadow-xl md:my-5 md:border-4 md:p-6 md:text-xl">
           <div className="pb-3 text-center font-bold">
             Политика в отношении обработки персональных данных
@@ -28,6 +54,8 @@ export default function Page() {
             Политика) применяется ко всей информации, которую Оператор может получить о посетителях
             веб-сайта https://gaa.zone.
           </div>
+          <div className="md:pt-2" id="2"></div>
+
           <div className="pb-5">2. Основные понятия, используемые в Политике</div>
           <div className="pb-5">
             2.1. Автоматизированная обработка персональных данных — обработка персональных данных с
@@ -105,6 +133,8 @@ export default function Page() {
             восстановления содержания персональных данных в информационной системе персональных
             данных и/или уничтожаются материальные носители персональных данных.
           </div>
+          <div className="md:pt-2" id="3"></div>
+
           <div className="pb-5">3. Основные права и обязанности Оператора</div>
           <div className="pb-5">
             3.1. Оператор имеет право:— получать от субъекта персональных данных достоверные
@@ -136,6 +166,8 @@ export default function Page() {
             предусмотренных Законом о персональных данных;— исполнять иные обязанности,
             предусмотренные Законом о персональных данных.
           </div>
+          <div className="md:pt-2" id="4"></div>
+
           <div className="pb-5">4. Основные права и обязанности субъектов персональных данных</div>
           <div className="pb-5">
             4.1. Субъекты персональных данных имеют право:— получать информацию, касающуюся
@@ -166,6 +198,8 @@ export default function Page() {
             субъекте персональных данных без согласия последнего, несут ответственность в
             соответствии с законодательством РФ.
           </div>
+          <div className="md:pt-2" id="5"></div>
+
           <div className="pb-5">5. Принципы обработки персональных данных</div>
           <div className="pb-5">
             5.1. Обработка персональных данных осуществляется на законной и справедливой основе.
@@ -202,6 +236,8 @@ export default function Page() {
             обезличиваются по достижении целей обработки или в случае утраты необходимости в
             достижении этих целей, если иное не предусмотрено федеральным законом.
           </div>
+          <div className="md:pt-2" id="6"></div>
+
           <div className="pb-5">6. Цели обработки персональных данных</div>
           <div className="pb-5">
             6.1. Цель обработки информирование Пользователя посредством отправки электронных писем,
@@ -221,6 +257,8 @@ export default function Page() {
             уничтожение и обезличивание персональных данных Отправка информационных писем на адрес
             электронной почты
           </div>
+          <div className="md:pt-2" id="7"></div>
+
           <div className="pb-5">7. Условия обработки персональных данных</div>
           <div className="pb-5">
             7.1. Обработка персональных данных осуществляется с согласия субъекта персональных
@@ -257,6 +295,8 @@ export default function Page() {
             7.7. Осуществляется обработка персональных данных, подлежащих опубликованию или
             обязательному раскрытию в соответствии с федеральным законом.
           </div>
+          <div className="md:pt-2" id="8"></div>
+
           <div className="pb-5">
             8. Порядок сбора, хранения, передачи и других видов обработки персональных
             данныхБезопасность персональных данных, которые обрабатываются Оператором,
@@ -321,6 +361,8 @@ export default function Page() {
             обработки персональных данных, а также выявление неправомерной обработки персональных
             данных.
           </div>
+          <div className="md:pt-2" id="9"></div>
+
           <div className="pb-5">
             9. Перечень действий, производимых Оператором с полученными персональными данными
           </div>
@@ -335,6 +377,8 @@ export default function Page() {
             и/или передачей полученной информации по информационно-телекоммуникационным сетям или
             без таковой.
           </div>
+          <div className="md:pt-2" id="10"></div>
+
           <div className="pb-5">10. Трансграничная передача персональных данных</div>
           <div className="pb-5">
             10.1. Оператор до начала осуществления деятельности по трансграничной передаче
@@ -349,12 +393,16 @@ export default function Page() {
             которым планируется трансграничная передача персональных данных, соответствующие
             сведения.
           </div>
+          <div className="md:pt-2" id="11"></div>
+
           <div className="pb-5">
             11. Конфиденциальность персональных данныхОператор и иные лица, получившие доступ к
             персональным данным, обязаны не раскрывать третьим лицам и не распространять
             персональные данные без согласия субъекта персональных данных, если иное не
             предусмотрено федеральным законом.
           </div>
+          <div className="md:pt-2" id="12"></div>
+
           <div className="pb-5">12. Заключительные положения</div>
           <div className="pb-5">
             12.1. Пользователь может получить любые разъяснения по интересующим вопросам, касающимся
@@ -375,10 +423,12 @@ export default function Page() {
             Администрация: Децентрализованная автономная организация Global Automotive Association
           </div>
         </div>
-        <div className="text-center text-3xl font-bold text-p1-darkgreen md:pt-2 md:text-6xl">
+        <div className="md:pt-2" id="13"></div>
+
+        <div className="text-center text-xl font-bold text-p1-darkgreen drop-shadow-2xl md:text-4xl">
           Политика конфиденциальности
         </div>
-        <div className="text-center text-3xl font-bold text-p1-darkgreen md:pt-2 md:text-6xl">
+        <div className="text-center text-xl font-bold text-p1-darkgreen drop-shadow-2xl md:text-4xl">
           Cookie
         </div>
         <div className="rounded-3xl border-p1-darkgreen p-2 text-base text-p1-darkgreen hover:border-p1-gray hover:shadow-xl md:my-5 md:border-4 md:p-6 md:text-xl">
@@ -393,6 +443,8 @@ export default function Page() {
             для правильной работы системы и обеспечивают работу сайта, в том числе защиту от
             DDoS-атак. Аналитические и рекламные cookie-файлы
           </div>
+          <div className="md:pt-2" id="14"></div>
+
           <div className="pb-5">Внутренняя статистика сайта</div>
           <div className="pb-5">
             Если посетитель не принял решение или отключил Cookie для аналитики, то внутренняя
@@ -408,6 +460,8 @@ export default function Page() {
             cookie в счетчиках аналитики являются рекламными и будут активированы только после того,
             как будет получено разрешение на использование рекламных Cookie-файлов.
           </div>
+          <div className="md:pt-2" id="15"></div>
+
           <div className="pb-5">Google Tag Manager</div>
           <div className="pb-5">
             Весь контейнер Google Tag Manager относится к аналитическим Cookie, и запрет
@@ -417,6 +471,8 @@ export default function Page() {
             инициализирован и не будет передавать данные. Код начнет работать только после действия
             пользователя.
           </div>
+          <div className="md:pt-2" id="16"></div>
+
           <div className="pb-5">Особенности работы сайта при отключенных cookie</div>
           <div className="pb-5">
             Передача UTM-меток вместе с данными формЕсли аналитические Cookie-файлы не разрешены
@@ -430,6 +486,7 @@ export default function Page() {
             Администрация: Децентрализованная автономная организация Global Automotive Association
           </div>
         </div>
+        <div className="md:pt-2" id="3"></div>
 
         <div className="pb-5"></div>
       </div>

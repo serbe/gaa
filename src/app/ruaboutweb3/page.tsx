@@ -1,21 +1,39 @@
+'use client';
+
+import { JumpButton } from '@/components/jumpButton';
+
 export default function Page() {
+  const jumpPoints = [
+    '1',
+    '2',
+    '3',
+    '4',
+    '5',
+    '6',
+    '7',
+    '8',
+    '9',
+    '10',
+    '11',
+    '12',
+    '13',
+    '14',
+    '15',
+    '16',
+  ];
   return (
     <div className="mx-auto max-w-7xl font-serif">
+      <JumpButton points={jumpPoints} />
       <div className="text-base md:text-xl">
-        <div className="flex flex-row">
-          <div className="basis-1/5"></div>
+        <div className="flex flex-row justify-center">
           <div className="basis-3/5 text-center text-p1-darkgreen">
-            <div className="p-2 md:my-5">
-              <div className="p-2 text-center text-xl font-bold text-p1-darkgreen drop-shadow-2xl md:text-6xl">
-                Изучи Web 3
-              </div>
+            <div className="p-2 text-xl font-bold text-p1-darkgreen drop-shadow-2xl md:text-4xl">
+              Изучи Web 3
             </div>
           </div>
-          <div className="basis-1/5"></div>
         </div>
         <div className="flex flex-row p-2">
-          <div className="basis-1/10"></div>
-          <div className="basis-8/10 text-p1-darkgreen">
+          <div className="basis-4/10 text-p1-darkgreen">
             <div className="space-y-6 rounded-3xl p-2 md:my-5">
               <div className="text-p1-darkgreen">
                 Собранная информация содержит ключевые основы направления развития мирового
@@ -27,8 +45,9 @@ export default function Page() {
               </div>
             </div>
           </div>
-          <div className="basis-1/10"></div>
         </div>
+        <div className="" id="1"></div>
+
         <div className="mx-auto flex max-w-full flex-row space-y-2 p-2">
           <details className="rounded-3xl border-p1-darkgreen p-2 open:bg-p1-white open:ring-1 open:ring-black/5 hover:border-p2-orange open:md:border-4 open:md:shadow-lg dark:open:bg-slate-900 dark:open:ring-white/10">
             <summary className="text-lm select-none space-y-4 font-semibold leading-6 text-p1-darkgreen dark:text-white">
@@ -70,6 +89,8 @@ export default function Page() {
             </div>
           </details>
         </div>
+        <div className="" id="2"></div>
+
         <div className="mx-auto flex max-w-full flex-row space-y-2 p-2">
           <details className="rounded-3xl border-p1-darkgreen p-2 open:bg-p1-white open:ring-1 open:ring-black/5 hover:border-p2-orange open:md:border-4 open:md:shadow-lg dark:open:bg-slate-900 dark:open:ring-white/10">
             <summary className="text-lm select-none space-y-4 font-semibold leading-6 text-p1-darkgreen dark:text-white">
@@ -135,6 +156,8 @@ export default function Page() {
             </div>
           </details>
         </div>
+        <div className="" id="2"></div>
+
         <div className="mx-auto flex max-w-full flex-row space-y-2 p-2">
           <details className="rounded-3xl border-p1-darkgreen p-2 open:bg-p1-white open:ring-1 open:ring-black/5 hover:border-p2-orange open:md:border-4 open:md:shadow-lg dark:open:bg-slate-900 dark:open:ring-white/10">
             <summary className="text-lm select-none space-y-4 font-semibold leading-6 text-p1-darkgreen dark:text-white">
@@ -204,6 +227,8 @@ export default function Page() {
             </div>
           </details>
         </div>
+        <div className="" id="5"></div>
+
         <div className="mx-auto flex max-w-full flex-row space-y-2 p-2">
           <details className="rounded-3xl border-p1-darkgreen p-2 open:bg-p1-white open:ring-1 open:ring-black/5 hover:border-p2-orange open:md:border-4 open:md:shadow-lg dark:open:bg-slate-900 dark:open:ring-white/10">
             <summary className="text-lm select-none space-y-4 font-semibold leading-6 text-p1-darkgreen dark:text-white">
@@ -256,6 +281,7 @@ export default function Page() {
             <div className="pb-5"> </div>
           </details>
         </div>
+        <div className="" id="6"></div>
         <div className="mx-auto flex max-w-full flex-row space-y-2 p-2">
           <details className="rounded-3xl border-p1-darkgreen p-2 open:bg-p1-white open:ring-1 open:ring-black/5 hover:border-p2-orange open:md:border-4 open:md:shadow-lg dark:open:bg-slate-900 dark:open:ring-white/10">
             <summary className="text-lm select-none space-y-4 font-semibold leading-6 text-p1-darkgreen dark:text-white">
@@ -379,6 +405,7 @@ export default function Page() {
             </div>
           </details>
         </div>
+        <div className="" id="7"></div>
         <div className="mx-auto flex max-w-full flex-row space-y-2 p-2">
           <details className="rounded-3xl border-p1-darkgreen p-2 open:bg-p1-white open:ring-1 open:ring-black/5 hover:border-p2-orange open:md:border-4 open:md:shadow-lg dark:open:bg-slate-900 dark:open:ring-white/10">
             <summary className="text-lm select-none space-y-4 font-semibold leading-6 text-p1-darkgreen dark:text-white">
@@ -498,6 +525,7 @@ export default function Page() {
             </ul>
           </details>
         </div>
+        <div className="" id="8"></div>
         <div className="mx-auto flex max-w-full flex-row space-y-2 p-2">
           <details className="rounded-3xl border-p1-darkgreen p-2 open:bg-p1-white open:ring-1 open:ring-black/5 hover:border-p2-orange open:md:border-4 open:md:shadow-lg dark:open:bg-slate-900 dark:open:ring-white/10">
             <summary className="text-lm select-none space-y-4 font-semibold leading-6 text-p1-darkgreen dark:text-white">
@@ -588,6 +616,7 @@ export default function Page() {
             </div>
           </details>
         </div>
+        <div className="" id="9"></div>
         <div className="mx-auto flex max-w-full flex-row space-y-2 p-2">
           <details className="rounded-3xl border-p1-darkgreen p-2 open:bg-p1-white open:ring-1 open:ring-black/5 hover:border-p2-orange open:md:border-4 open:md:shadow-lg dark:open:bg-slate-900 dark:open:ring-white/10">
             <summary className="text-lm select-none space-y-4 font-semibold leading-6 text-p1-darkgreen dark:text-white">
@@ -686,6 +715,7 @@ export default function Page() {
             </div>
           </details>
         </div>
+        <div className="" id="10"></div>
         <div className="mx-auto flex max-w-full flex-row space-y-2 p-2">
           <details className="rounded-3xl border-p1-darkgreen p-2 open:bg-p1-white open:ring-1 open:ring-black/5 hover:border-p2-orange open:md:border-4 open:md:shadow-lg dark:open:bg-slate-900 dark:open:ring-white/10">
             <summary className="text-lm select-none space-y-4 font-semibold leading-6 text-p1-darkgreen dark:text-white">
@@ -703,6 +733,7 @@ export default function Page() {
             </div>
           </details>
         </div>
+        <div className="" id="11"></div>
         <div className="mx-auto flex max-w-full flex-row space-y-2 p-2">
           <details className="rounded-3xl border-p1-darkgreen p-2 open:bg-p1-white open:ring-1 open:ring-black/5 hover:border-p2-orange open:md:border-4 open:md:shadow-lg dark:open:bg-slate-900 dark:open:ring-white/10">
             <summary className="text-lm select-none space-y-4 font-semibold leading-6 text-p1-darkgreen dark:text-white">
@@ -811,6 +842,7 @@ export default function Page() {
             </div>
           </details>
         </div>
+        <div className="" id="12"></div>
         <div className="mx-auto flex max-w-full flex-row space-y-2 p-2">
           <details className="rounded-3xl border-p1-darkgreen p-2 open:bg-p1-white open:ring-1 open:ring-black/5 hover:border-p2-orange open:md:border-4 open:md:shadow-lg dark:open:bg-slate-900 dark:open:ring-white/10">
             <summary className="text-lm select-none space-y-4 font-semibold leading-6 text-p1-darkgreen dark:text-white">
@@ -921,6 +953,7 @@ export default function Page() {
             </div>
           </details>
         </div>
+        <div className="" id="13"></div>
         <div className="mx-auto flex max-w-full flex-row space-y-2 p-2">
           <details className="rounded-3xl border-p1-darkgreen p-2 open:bg-p1-white open:ring-1 open:ring-black/5 hover:border-p2-orange open:md:border-4 open:md:shadow-lg dark:open:bg-slate-900 dark:open:ring-white/10">
             <summary className="text-lm select-none space-y-4 font-semibold leading-6 text-p1-darkgreen dark:text-white">
@@ -1020,6 +1053,7 @@ export default function Page() {
             </div>
           </details>
         </div>
+        <div className="" id="14"></div>
         <div className="mx-auto flex max-w-full flex-row space-y-2 p-2">
           <details className="rounded-3xl border-p1-darkgreen p-2 open:bg-p1-white open:ring-1 open:ring-black/5 hover:border-p2-orange open:md:border-4 open:md:shadow-lg dark:open:bg-slate-900 dark:open:ring-white/10">
             <summary className="text-lm select-none space-y-4 font-semibold leading-6 text-p1-darkgreen dark:text-white">
@@ -1115,6 +1149,7 @@ export default function Page() {
             </div>
           </details>
         </div>
+        <div className="" id="15"></div>
         <div className="mx-auto flex max-w-full flex-row space-y-2 p-2">
           <details className="rounded-3xl border-p1-darkgreen p-2 open:bg-p1-white open:ring-1 open:ring-black/5 hover:border-p2-orange open:md:border-4 open:md:shadow-lg dark:open:bg-slate-900 dark:open:ring-white/10">
             <summary className="text-lm select-none space-y-4 font-semibold leading-6 text-p1-darkgreen dark:text-white">
@@ -1198,6 +1233,7 @@ export default function Page() {
             </div>
           </details>
         </div>
+        <div className="" id="16"></div>
         <div className="pb-5"></div>
       </div>
     </div>
