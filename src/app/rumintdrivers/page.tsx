@@ -38,7 +38,7 @@ export default function Page() {
                             src="/HeroNFT/Drivers/Driver4.png"
                             alt="Driver4"
                           />
-                          <button className="w-full rounded-3xl border-2 border-red-400 bg-p2-white2 p-8 text-center text-base font-normal text-p1-darkgreen shadow-lg hover:bg-red-400 hover:text-p1-white md:px-1 md:py-2 md:text-xs">
+                          <button className="w-full rounded-3xl border-2 border-red-400 bg-p2-white2 p-8 text-center text-base font-normal text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-red-400 hover:text-p1-white md:px-1 md:py-2 md:text-xs">
                             Сгенерировать изображение
                           </button>
                         </div>
@@ -320,7 +320,7 @@ export default function Page() {
                 </div>
                 <div className="pb-8"></div>
 
-                <button className="rounded-3xl border-2 border-red-400 bg-p2-white2 px-20 py-8 text-p1-darkgreen shadow-lg hover:bg-red-400 hover:text-p1-white">
+                <button className="rounded-3xl border-2 border-red-400 bg-p2-white2 px-20 py-8 text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-red-400 hover:text-p1-white">
                   Создать NFT Гонщика
                 </button>
                 <div className="pb-5"></div>

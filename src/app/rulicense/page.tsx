@@ -136,7 +136,7 @@ export default function Page() {
                       Максимум: 10 Promoter License NFT за транзакцию
                     </p>
                     <div className="place-self-center">
-                      <button className="rounded-3xl border-2 border-amber-600 bg-p2-white2 px-20 py-8 text-p1-darkgreen shadow-lg hover:bg-amber-600 hover:text-p1-white">
+                      <button className="rounded-3xl border-2 border-amber-600 bg-p2-white2 px-20 py-8 text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-amber-600 hover:text-p1-white">
                         Создать NFT
                       </button>
                     </div>
@@ -206,7 +206,7 @@ export default function Page() {
                       Максимум: 1 National License NFT за транзакцию
                     </p>
                     <div className="place-self-center">
-                      <button className="rounded-3xl border-2 border-p1-gray bg-p2-white2 px-20 py-8 text-p1-darkgreen shadow-lg hover:bg-p1-gray hover:text-p1-white">
+                      <button className="rounded-3xl border-2 border-p1-gray bg-p2-white2 px-20 py-8 text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p1-gray hover:text-p1-white">
                         Создать NFT
                       </button>
                     </div>
@@ -276,7 +276,7 @@ export default function Page() {
                       Максимум: 1 Global License NFT за транзакцию
                     </p>
                     <div className="place-self-center">
-                      <button className="rounded-3xl border-2 border-p2-orange bg-p2-white2 px-20 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
+                      <button className="rounded-3xl border-2 border-p2-orange bg-p2-white2 px-20 py-8 text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p2-orange hover:text-p1-white">
                         Создать NFT
                       </button>
                     </div>

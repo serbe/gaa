@@ -92,7 +92,7 @@ export default function Page() {
                 <div className="justify-self-center">
                   <a
                     href="/rumintcars"
-                    className="inline-block w-full place-content-center rounded-3xl border-2 border-cyan-700 bg-p2-white2 px-10 py-8 text-center text-p1-darkgreen shadow-lg hover:bg-cyan-700 hover:text-p1-white"
+                    className="inline-block w-full place-content-center rounded-3xl border-2 border-cyan-700 bg-p2-white2 px-10 py-8 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-cyan-700 hover:text-p1-white"
                   >
                     Страница создания NFT
                   </a>

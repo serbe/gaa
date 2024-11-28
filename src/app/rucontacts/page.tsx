@@ -30,9 +30,9 @@ export default function Page() {
               <div className="grid">
                 <a
                   href="/ruapplicationform"
-                  className="inline-block w-full rounded-3xl border-2 border-p1-darkgreen bg-p1-white px-10 py-8 text-center text-p1-darkgreen shadow-lg hover:border-p1-green hover:bg-p1-green hover:text-p1-white"
+                  className="inline-block w-full rounded-3xl border-2 border-p1-darkgreen bg-p1-white px-10 py-8 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:border-p1-green hover:bg-p1-green hover:text-p1-white"
                 >
-                  Форма подачи заявки
+                  Форма заявки
                 </a>
               </div>
             </div>
@@ -136,7 +136,7 @@ export default function Page() {
 
               <div className="pb-2"></div>
               <div className="grid">
-                <button className="mx-auto w-full justify-center rounded-3xl border-2 border-p1-darkgreen bg-p1-white px-10 py-8 text-xl text-p1-darkgreen shadow-sm shadow-p1-cyan hover:border-p1-green hover:bg-p1-green hover:text-p1-white">
+                <button className="mx-auto w-full justify-center rounded-3xl border-2 border-p1-darkgreen bg-p1-white px-10 py-8 text-xl text-p1-darkgreen shadow-sm shadow-p1-cyan transition-all delay-75 duration-300 ease-in-out hover:border-p1-green hover:bg-p1-green hover:text-p1-white">
                   Отправить в GAA
                 </button>
               </div>

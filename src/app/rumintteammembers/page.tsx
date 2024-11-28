@@ -38,7 +38,7 @@ export default function Page() {
                             src="/HeroNFT/Team's members/TeamMember1.png"
                             alt="TeamMember1"
                           />
-                          <button className="w-full rounded-3xl border-2 border-p3-blue bg-p2-white2 p-8 text-center text-base font-normal text-p1-darkgreen shadow-lg hover:bg-p3-blue hover:text-p1-white md:px-1 md:py-2 md:text-xs">
+                          <button className="w-full rounded-3xl border-2 border-p3-blue bg-p2-white2 p-8 text-center text-base font-normal text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p3-blue hover:text-p1-white md:px-1 md:py-2 md:text-xs">
                             Сгенерировать изображение
                           </button>
                         </div>
@@ -323,7 +323,7 @@ export default function Page() {
               </div>
               <div className="pb-8"></div>
 
-              <button className="rounded-3xl border-2 border-p1-darkgreen bg-p2-white2 px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p3-blue hover:text-p1-white">
+              <button className="rounded-3xl border-2 border-p1-darkgreen bg-p2-white2 px-10 py-8 text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:border-p3-blue hover:bg-p3-blue hover:text-p1-white">
                 Создать NFT Участника команды
               </button>
               <div className="pb-8"></div>

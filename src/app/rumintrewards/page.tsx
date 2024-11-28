@@ -23,12 +23,12 @@ export default function Page() {
                 <div className="flex flex-wrap px-2 pt-2 md:flex-nowrap">
                   <div className="">
                     <div className="text-center text-base font-semibold text-p1-darkgreen md:text-xl">
-                      <p>Присоединяйтесь к нам</p>
-                      <p>Создай NFT Награды</p>
+                      <p>Присоединяйся к нам</p>
+                      <p>Создавай NFT Награды</p>
                     </div>
 
-                    <div className="z-10 rounded-3xl border-2 bg-amber-500 py-5 md:sticky md:top-16">
-                      <div className="grid-1 grid flex-wrap-reverse gap-2 md:w-full md:grid-cols-3">
+                    <div className="z-10 rounded-3xl border-2 bg-amber-500 md:sticky md:top-16">
+                      <div className="grid-1 grid flex-wrap-reverse gap-2 md:w-full md:grid-cols-2">
                         <div className="place-items-center p-2">
                           <Image
                             className="relative mb-4 inline-block w-max rounded-3xl border-2 border-p2-orange shadow-lg"
@@ -38,7 +38,8 @@ export default function Page() {
                             alt="Rewards"
                           />
                         </div>
-                        <div className="m-1 place-items-center p-2">
+
+                        <div className="place-items-center p-2">
                           <label
                             htmlFor="dropzone-file"
                             className="flex h-56 w-full cursor-pointer flex-col items-center justify-center rounded-3xl border-2 border-dashed border-gray-300 bg-gray-50 shadow-lg hover:bg-gray-100 dark:border-gray-600 dark:bg-gray-700 dark:hover:border-gray-500 dark:hover:bg-gray-800"
@@ -60,7 +61,7 @@ export default function Page() {
                                 />
                               </svg>
                               <p className="mb-2 text-sm text-gray-500 dark:text-gray-400">
-                                <span className="font-semibold">
+                                <span className="font-regular">
                                   Добавь медиаконтент: момент победы
                                 </span>
                               </p>
@@ -76,7 +77,7 @@ export default function Page() {
                             <input id="dropzone-file" type="file" className="hidden" />
                           </label>
                         </div>
-                        <div className="m-1 place-items-center p-2">
+                        <div className="place-items-center p-2">
                           <label
                             htmlFor="dropzone-file"
                             className="flex h-56 w-full cursor-pointer flex-col items-center justify-center rounded-3xl border-2 border-dashed border-gray-300 bg-gray-50 shadow-lg hover:bg-gray-100 dark:border-gray-600 dark:bg-gray-700 dark:hover:border-gray-500 dark:hover:bg-gray-800"
@@ -98,8 +99,8 @@ export default function Page() {
                                 />
                               </svg>
                               <p className="mb-2 text-sm text-gray-500 dark:text-gray-400">
-                                <span className="font-semibold">
-                                  Добавь медиаконтент: Победитель на подиуме награждения с наградой
+                                <span className="font-regular">
+                                  Добавь медиаконтент: Победитель на подиуме награждения
                                 </span>
                               </p>
 
@@ -114,7 +115,7 @@ export default function Page() {
                             <input id="dropzone-file" type="file" className="hidden" />
                           </label>
                         </div>
-                        <div className="m-1 place-items-center p-2">
+                        <div className="place-items-center p-2">
                           <label
                             htmlFor="dropzone-file"
                             className="flex h-56 w-full cursor-pointer flex-col items-center justify-center rounded-3xl border-2 border-dashed border-gray-300 bg-gray-50 shadow-lg hover:bg-gray-100 dark:border-gray-600 dark:bg-gray-700 dark:hover:border-gray-500 dark:hover:bg-gray-800"
@@ -136,7 +137,7 @@ export default function Page() {
                                 />
                               </svg>
                               <p className="mb-2 text-sm text-gray-500 dark:text-gray-400">
-                                <span className="font-semibold">
+                                <span className="font-regular">
                                   Добавь файл: Финальный отчет / Протокол соревнования
                                 </span>
                               </p>
@@ -155,35 +156,25 @@ export default function Page() {
                       </div>
                     </div>
                     <div className="md:w-full">
-                      <p className="p-2 pt-8 text-base font-normal text-p1-darkgreen md:text-2xl">
-                        Добавьте медиаконтент о победителе
-                      </p>
-
-                      <p className="p-2 text-base font-semibold text-p1-darkgreen md:text-2xl">
-                        Созданные Вами NFT автоматически попадут в глобальную коллекцию GAA
-                      </p>
-                      <p className="p-2 text-base font-semibold text-p1-darkgreen md:text-2xl">
-                        это единый сборник мирового сообщества
-                      </p>
-                      <p className="p-2 text-base font-semibold text-p1-darkgreen md:text-2xl">
+                      <p className="md:pb-10"></p>
+                      <p className="place-self-center pt-2 text-base text-p1-darkgreen md:text-xl">
                         Доступно для держателей NFT:
                       </p>
-                      <p className="p-2 px-2 text-base font-semibold text-p1-darkgreen md:text-2xl">
+                      <p className="place-self-center px-2 text-base text-p1-darkgreen md:text-xl">
                         Promoter license
                       </p>
-                      <p className="p-2 px-2 text-base font-semibold text-p1-darkgreen md:text-2xl">
+                      <p className="place-self-center px-2 text-base text-p1-darkgreen md:text-xl">
                         National license
                       </p>
-                      <p className="p-2 text-base font-semibold text-p1-darkgreen md:text-2xl">
+                      <p className="place-self-center text-base text-p1-darkgreen md:text-xl">
                         Global license
                       </p>
-                      <p className="p-2 text-base font-semibold text-p1-darkgreen md:text-2xl">
+                      <p className="place-self-center text-base text-p1-darkgreen md:text-xl">
                         Management GAA
                       </p>
 
-                      <p className="px-2 pt-2 text-base font-semibold text-p1-darkgreen md:pb-72 md:text-2xl">
-                        Это Ваш способ привлечения инвестиций
-                      </p>
+                      <p className="md:pb-96"></p>
+                      <p className="md:pb-96"></p>
                     </div>
                   </div>
                 </div>
@@ -194,6 +185,13 @@ export default function Page() {
           <div>
             <div className="flex flex-col object-right p-2 md:w-full">
               <div>
+                <p className="place-self-center text-base font-semibold text-p1-darkgreen md:text-xl">
+                  Добавь медиаконтент о победителе
+                </p>
+
+                <p className="place-self-center px-2 text-base font-semibold text-p1-darkgreen md:pb-4 md:text-xl">
+                  Cоздаём единую коллекцию наград
+                </p>
                 <p className="text-center text-xl text-p1-darkgreen md:text-left md:text-2xl">
                   Заполни все поля - эти метаданные будут храниться в блокчейне
                 </p>
@@ -232,6 +230,7 @@ export default function Page() {
                     required
                   />
                 </div>
+
                 <div className="pb-2"></div>
                 <div>
                   <label
@@ -248,6 +247,35 @@ export default function Page() {
                     required
                   />
                 </div>
+                <div className="pb-2"></div>
+
+                <form className="mx-auto max-w-2xl">
+                  <label
+                    htmlFor="license"
+                    className="block w-full text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
+                  >
+                    Направление
+                  </label>
+                  <select
+                    id="license"
+                    className="block w-full rounded-lg border-2 border-gray-300 bg-p2-white2 p-2.5 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                    defaultValue={'DEFAULT'}
+                  >
+                    <option value="DEFAULT" disabled>
+                      Выберите направления
+                    </option>
+                    <option value="Drift">Дрифт</option>
+                    <option value="Dragracing">Драгрэйсинг</option>
+                    <option value="Rally">Ралли</option>
+                    <option value="OpenWheels">Открытые колеса</option>
+                    <option value="TCR">Кузовные гонки</option>
+                    <option value="Oldtimer">Олдтаймер</option>
+                    <option value="Stance">Стэнс</option>
+                    <option value="AutoSound">Авто Звук</option>
+                    <option value="Simracing">Симрэйсинг</option>
+                  </select>
+                </form>
+
                 <div className="pb-2"></div>
                 <div>
                   <label
@@ -492,7 +520,7 @@ export default function Page() {
                   onChange={() => setCheck(!check)}
                   type="checkbox"
                   value=""
-                  className="focus:ring-p1-cian h-4 w-4 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                  className="h-4 w-4 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                 />
                 <label
                   htmlFor="checkbox"
@@ -503,7 +531,7 @@ export default function Page() {
               </div>
               <div className="pb-8"></div>
 
-              <button className="rounded-3xl border-2 border-p2-orange bg-p2-white2 px-20 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
+              <button className="rounded-3xl border-2 border-p2-orange bg-p2-white2 px-20 py-8 text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p2-orange hover:text-p1-white">
                 Создать NFT Награды
               </button>
               <div className="pb-8"></div>

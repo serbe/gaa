@@ -11,12 +11,14 @@ const Buttons = ({
   setter: (licenseNumber: number) => void;
 }) => {
   return (
-    <div className="inline-flex w-full justify-self-center rounded-md pt-5 shadow-sm" role="group">
+    <div className="inline-flex space-x-0 rounded-md pt-5 font-serif shadow-sm" role="group">
       <button
         className={
-          'w-full rounded-l-2xl border border-gray-200 ' +
-          (license == 0 ? 'bg-p2-orange' : 'bg-white') +
-          ' p-5 text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-yellow-800 focus:text-p1-white focus:ring-2 focus:ring-yellow-800 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p1-green'
+          'w-full rounded-l-lg border border-gray-200 ' +
+          (license == 0 ? 'bg-amber-600' : 'bg-white') +
+          ' px-4 py-2 text-sm font-medium' +
+          (license == 0 ? 'z-10 text-p1-white ring-2 ring-p2-orange' : 'text-p1-darkgreen') +
+          ' hover:bg-gray-100 hover:text-p1-darkgreen dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange'
         }
         onClick={() => setter(0)}
       >
@@ -25,8 +27,10 @@ const Buttons = ({
       <button
         className={
           'w-full border border-gray-200 ' +
-          (license == 1 ? 'bg-p2-orange' : 'bg-white') +
-          ' p-5 text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-stone-500 focus:text-p1-white focus:ring-2 focus:ring-stone-500 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-stone-500'
+          (license == 1 ? 'bg-p1-gray' : 'bg-white') +
+          ' px-4 py-2 text-sm font-medium' +
+          (license == 1 ? 'z-10 text-p1-white ring-2 ring-p1-gray' : 'text-p1-darkgreen') +
+          ' hover:bg-gray-100 hover:text-p1-darkgreen dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange'
         }
         onClick={() => setter(1)}
       >
@@ -34,9 +38,11 @@ const Buttons = ({
       </button>
       <button
         className={
-          'w-full rounded-r-2xl border border-gray-200 ' +
+          'w-full rounded-r-lg border border-gray-200 ' +
           (license == 2 ? 'bg-p2-orange' : 'bg-white') +
-          'p-5 text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-p2-orange focus:text-p1-white focus:ring-2 focus:ring-p2-orange dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange'
+          ' px-4 py-2 text-sm font-medium' +
+          (license == 2 ? 'z-10 text-p1-white ring-2 ring-p2-orange' : 'text-p1-darkgreen') +
+          ' text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange'
         }
         onClick={() => setter(2)}
       >
@@ -82,9 +88,9 @@ export default function Page() {
               <div className="my-2 justify-self-center">
                 <a
                   href="/ruapplicationform"
-                  className="inline-block w-full place-content-center rounded-3xl border-2 border-yellow-800 bg-p2-white2 px-10 py-8 text-center text-p1-darkgreen shadow-lg hover:bg-yellow-800 hover:text-p1-white"
+                  className="inline-block w-full place-content-center rounded-3xl border-2 border-yellow-800 bg-p2-white2 px-10 py-8 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-yellow-800 hover:text-p1-white"
                 >
-                  Форма подачи заявки
+                  Форма заявки
                 </a>
               </div>
               <p className="p-2 text-base text-p1-darkgreen md:text-xl">
@@ -117,7 +123,7 @@ export default function Page() {
                   <div className="justify-self-center">
                     <a
                       href="/rulicense?license=promoter"
-                      className="inline-block w-full place-content-center rounded-3xl border-2 border-yellow-800 bg-p2-white2 px-10 py-8 text-center text-p1-darkgreen shadow-lg hover:bg-yellow-800 hover:text-p1-white"
+                      className="inline-block w-full place-content-center rounded-3xl border-2 border-yellow-800 bg-p2-white2 px-10 py-8 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-yellow-800 hover:text-p1-white"
                     >
                       Страница создания NFT
                     </a>
@@ -169,9 +175,9 @@ export default function Page() {
               <div className="my-2 justify-self-center">
                 <a
                   href="/ruapplicationform"
-                  className="inline-block w-full place-content-center rounded-3xl border-2 border-p1-gray bg-p2-white2 px-10 py-8 text-center text-p1-darkgreen shadow-lg hover:bg-p1-gray hover:text-p1-white"
+                  className="inline-block w-full place-content-center rounded-3xl border-2 border-p1-gray bg-p2-white2 px-10 py-8 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p1-gray hover:text-p1-white"
                 >
-                  Форма подачи заявки
+                  Форма заявки
                 </a>
               </div>
               <p className="p-2 text-base text-p1-darkgreen md:text-xl">
@@ -204,7 +210,7 @@ export default function Page() {
                   <div className="justify-self-center">
                     <a
                       href="/rulicense?license=national"
-                      className="inline-block w-full place-content-center rounded-3xl border-2 border-p1-gray bg-p2-white2 px-10 py-8 text-center text-p1-darkgreen shadow-lg hover:bg-p1-gray hover:text-p1-white"
+                      className="inline-block w-full place-content-center rounded-3xl border-2 border-p1-gray bg-p2-white2 px-10 py-8 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p1-gray hover:text-p1-white"
                     >
                       Страница создания NFT
                     </a>
@@ -260,9 +266,9 @@ export default function Page() {
               <div className="my-2 justify-self-center">
                 <a
                   href="/ruapplicationform"
-                  className="inline-block w-full place-content-center rounded-3xl border-2 border-p2-orange bg-p2-white2 px-10 py-8 text-center text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white"
+                  className="inline-block w-full place-content-center rounded-3xl border-2 border-p2-orange bg-p2-white2 px-10 py-8 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p2-orange hover:text-p1-white"
                 >
-                  Форма подачи заявки
+                  Форма заявки
                 </a>
               </div>
               <p className="p-2 text-base text-p1-darkgreen md:text-xl">
@@ -294,7 +300,7 @@ export default function Page() {
                   <div className="justify-self-center">
                     <a
                       href="/rulicense?license=national"
-                      className="inline-block w-full place-content-center rounded-3xl border-2 border-p2-orange bg-p2-white2 px-10 py-8 text-center text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white"
+                      className="inline-block w-full place-content-center rounded-3xl border-2 border-p2-orange bg-p2-white2 px-10 py-8 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p2-orange hover:text-p1-white"
                     >
                       Страница создания NFT
                     </a>
@@ -361,9 +367,9 @@ export default function Page() {
             <div>
               <a
                 href="/ruapplicationform"
-                className="inline-block place-content-center rounded-3xl border-2 border-p1-darkgreen bg-p2-white2 p-2 text-center text-p1-darkgreen shadow-lg hover:bg-p1-green hover:text-p1-white"
+                className="inline-block place-content-center rounded-xl border-2 border-p1-darkgreen bg-p1-white p-2 text-center text-base text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p1-green hover:text-p1-white md:text-xl"
               >
-                Форма подачи заявки
+                Форма заявки
               </a>
             </div>
           </div>

@@ -43,10 +43,10 @@ export default function Page() {
                       alt="CustomLads1"
                     />
                     <div>
-                      <button className="mt-2 w-4/5 rounded-3xl border-2 border-p1-darkgreen bg-p2-white2 p-5 text-p1-darkgreen shadow-lg hover:border-p2-orange hover:bg-p2-orange hover:text-p1-white hover:drop-shadow-2xl md:mt-5">
+                      <button className="mt-2 w-4/5 rounded-3xl border-2 border-p1-darkgreen bg-p2-white2 p-5 text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:border-p2-orange hover:bg-p2-orange hover:text-p1-white hover:drop-shadow-2xl md:mt-5">
                         Создать NFT
                       </button>
-                      <button className="mt-2 w-4/5 rounded-3xl border-2 border-p1-darkgreen bg-p2-white2 p-5 text-p1-darkgreen shadow-lg hover:border-p2-orange hover:bg-p2-orange hover:text-p1-white hover:drop-shadow-2xl md:mt-5">
+                      <button className="mt-2 w-4/5 rounded-3xl border-2 border-p1-darkgreen bg-p2-white2 p-5 text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:border-p2-orange hover:bg-p2-orange hover:text-p1-white hover:drop-shadow-2xl md:mt-5">
                         Сгенерировать изображения
                       </button>
                     </div>
@@ -708,7 +708,7 @@ export default function Page() {
                     </Swiper>
                     <div className="pb-2 md:pb-5"></div>
 
-                    <button className="w-4/5 rounded-3xl border-2 border-p1-darkgreen bg-p2-white2 p-5 pb-5 text-p1-darkgreen shadow-lg hover:border-p2-orange hover:bg-p2-orange hover:text-p1-white md:hover:drop-shadow-2xl">
+                    <button className="w-4/5 rounded-3xl border-2 border-p1-darkgreen bg-p2-white2 p-5 pb-5 text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:border-p2-orange hover:bg-p2-orange hover:text-p1-white md:hover:drop-shadow-2xl">
                       Сброс
                     </button>
                   </div>

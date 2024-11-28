@@ -53,7 +53,7 @@ const Buttons = ({
           (license == 3 ? 'bg-cyan-700' : 'bg-white') +
           ' p-5 text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-cyan-700 focus:text-p1-white focus:ring-2 focus:ring-cyan-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange'
         }
-        onClick={() => setter(2)}
+        onClick={() => setter(3)}
       >
         Cars
       </Link>
@@ -146,7 +146,7 @@ export default function Page() {
               <div className="m-1 justify-self-center p-5">
                 <a
                   href="/rumintdrivers"
-                  className="inline-block w-full place-content-center rounded-3xl border-2 border-red-400 bg-p2-white2 px-10 py-8 text-center text-p1-darkgreen shadow-lg hover:bg-red-400 hover:text-p1-white"
+                  className="inline-block w-full place-content-center rounded-3xl border-2 border-red-400 bg-p2-white2 px-10 py-8 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-red-400 hover:text-p1-white"
                 >
                   Страница создания NFT
                 </a>
@@ -236,7 +236,7 @@ export default function Page() {
                 <div className="justify-self-center">
                   <a
                     href="/rumintteammembers"
-                    className="inline-block w-full place-content-center rounded-3xl border-2 border-p3-blue bg-p2-white2 px-10 py-8 text-center text-p1-darkgreen shadow-lg hover:bg-p3-blue hover:text-p1-white"
+                    className="inline-block w-full place-content-center rounded-3xl border-2 border-p3-blue bg-p2-white2 px-10 py-8 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p3-blue hover:text-p1-white"
                   >
                     Страница создания NFT
                   </a>
@@ -328,7 +328,7 @@ export default function Page() {
                 <div className="justify-self-center">
                   <a
                     href="/rumintcollectors"
-                    className="inline-block w-full place-content-center rounded-3xl border-2 border-stone-500 bg-p2-white2 px-10 py-8 text-center text-p1-darkgreen shadow-lg hover:bg-stone-500 hover:text-p1-white"
+                    className="inline-block w-full place-content-center rounded-3xl border-2 border-stone-500 bg-p2-white2 px-10 py-8 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-stone-500 hover:text-p1-white"
                   >
                     Страница создания NFT
                   </a>
@@ -425,9 +425,9 @@ export default function Page() {
               <div>
                 <a
                   href="/ruapplicationform"
-                  className="inline-block place-content-center rounded-xl border-2 border-p1-darkgreen bg-p1-white p-2 text-center text-sm text-p1-darkgreen shadow-lg hover:bg-p1-green hover:text-p1-white"
+                  className="inline-block place-content-center rounded-xl border-2 border-p1-darkgreen bg-p1-white p-2 text-center text-base text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p1-green hover:text-p1-white md:text-xl"
                 >
-                  Форма подачи заявки
+                  Форма заявки
                 </a>
               </div>
             </div>

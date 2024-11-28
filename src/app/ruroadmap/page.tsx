@@ -378,9 +378,9 @@ export default function Page() {
         </div>
       </div>
 
-      <div className="flex flex-row justify-center pb-2">
+      <div className="flex flex-row justify-center pb-2 md:p-5">
         <div className="p-5 md:basis-3/5">
-          <Image width={600} height={300} src="/Cars/Oldtimer.png" alt="Oldtimer" />
+          <Image width={700} height={300} src="/Cars/Oldtimer.png" alt="Oldtimer" />
         </div>
       </div>
 
@@ -441,21 +441,17 @@ export default function Page() {
           </div>
         </div>
       </div>
-      <div className="flex flex-row justify-center p-2 md:pt-5">
-        <div className="p-10 md:basis-3/5">
-          <Image width={1000} height={600} src="/Cars/OpenWheels.png" alt="OpenWheels" />
-        </div>
+      <div className="flex flex-row justify-center p-2 md:pt-5"></div>
+
+      <div className="place-self-center">
+        <Image width={700} height={600} src="/Cars/OpenWheels.png" alt="OpenWheels" />
       </div>
       <div className="flex flex-row p-5">
         <div className="basis-5/5">
           <Image width={1900} height={200} src="/Hero/Compose1.png" alt="Compose1" />
         </div>
       </div>
-      <div className="flex flex-row justify-center pb-2">
-        <div className="">
-          <Image width={1200} height={200} src="/Cars/Dragster.png" alt="Dragster" />
-        </div>
-      </div>
+      <div className="flex flex-row justify-center pb-2"></div>
     </div>
   );
 }
