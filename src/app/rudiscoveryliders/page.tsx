@@ -1,23 +1,18 @@
 'use client';
 
-import { useGaaStore } from '@/providers/store-provider';
+import { useLayoutEffect } from 'react';
+import { useGaaStore } from '@/providers/gaa-store-provider';
 import Image from 'next/image';
 import Link from 'next/link';
 
-const Buttons = ({
-  license,
-  setter,
-}: {
-  license: number;
-  setter: (licenseNumber: number) => void;
-}) => {
+const Buttons = ({ lider, setter }: { lider: number; setter: (liderNumber: number) => void }) => {
   return (
     <div className="inline-flex w-full justify-self-center rounded-md pt-5 shadow-sm" role="group">
       <button
         id="button-drivers"
         className={
           'w-full rounded-l-2xl border border-gray-200 ' +
-          (license == 0 ? 'bg-red-400' : 'bg-white') +
+          (lider == 0 ? 'bg-red-400' : 'bg-white') +
           ' p-5 text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-red-400 focus:text-p1-white focus:ring-2 focus:ring-red-400 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p1-green'
         }
         onClick={() => setter(0)}
@@ -28,7 +23,7 @@ const Buttons = ({
         id="button-team-members"
         className={
           'w-full border border-gray-200 ' +
-          (license == 1 ? 'bg-p3-blue' : 'bg-white') +
+          (lider == 1 ? 'bg-p3-blue' : 'bg-white') +
           ' p-5 text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-p3-blue focus:text-p1-white focus:ring-2 focus:ring-p3-blue dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-stone-500'
         }
         onClick={() => setter(1)}
@@ -39,7 +34,7 @@ const Buttons = ({
         id="button-collectors"
         className={
           'w-full border border-gray-200 ' +
-          (license == 2 ? 'bg-stone-500' : 'bg-white') +
+          (lider == 2 ? 'bg-stone-500' : 'bg-white') +
           ' p-5 text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-stone-500 focus:text-p1-white focus:ring-2 focus:ring-stone-500 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-stone-500'
         }
         onClick={() => setter(2)}
@@ -47,13 +42,12 @@ const Buttons = ({
         Collectors
       </button>
       <Link
-        href=""
+        href="/rudiscoverycars"
         className={
           'w-full rounded-r-2xl border border-gray-200 ' +
-          (license == 3 ? 'bg-cyan-700' : 'bg-white') +
+          (lider == 3 ? 'bg-cyan-700' : 'bg-white') +
           ' p-5 text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-cyan-700 focus:text-p1-white focus:ring-2 focus:ring-cyan-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange'
         }
-        onClick={() => setter(3)}
       >
         Cars
       </Link>
@@ -62,12 +56,19 @@ const Buttons = ({
 };
 
 export default function Page() {
-  const [{ license, setLicense }] = useGaaStore((state) => state);
-  return (
+  const [{ lider, setLider }, gaaStore] = useGaaStore((state) => state);
+
+  useLayoutEffect(() => {
+    gaaStore.persist.rehydrate();
+  }, [gaaStore.persist]);
+
+  return !gaaStore.persist?.hasHydrated() ? (
+    'Loading...'
+  ) : (
     <div className="mx-auto max-w-7xl font-serif">
       {/* //Лидеры движений */}
       {/* //Drivers */}
-      <div id="drivers" className={license == 0 ? '' : 'hidden'}>
+      <div id="drivers" className={lider == 0 ? '' : 'hidden'}>
         <div className="flex flex-wrap justify-center self-center md:flex-nowrap md:justify-between">
           <div className="px-2 text-xl font-semibold text-red-400 md:pt-2 md:text-3xl">
             Drivers NFT
@@ -142,7 +143,7 @@ export default function Page() {
                   />
                 </div>
               </div>
-              <Buttons license={license} setter={setLicense} />
+              <Buttons lider={lider} setter={setLider} />
               <div className="m-1 justify-self-center p-5">
                 <a
                   href="/rumintdrivers"
@@ -156,7 +157,7 @@ export default function Page() {
         </div>
       </div>
       {/* //Участники команд */}
-      <div id="teammembers" className={license == 1 ? '' : 'hidden'}>
+      <div id="teammembers" className={lider == 1 ? '' : 'hidden'}>
         <div className="flex flex-wrap justify-center self-center md:flex-nowrap md:justify-between">
           <div className="px-2 text-xl font-semibold text-p3-blue md:pt-2 md:text-3xl">
             Team&apos;s Members NFT
@@ -231,7 +232,7 @@ export default function Page() {
                   />
                 </div>
               </div>
-              <Buttons license={license} setter={setLicense} />
+              <Buttons lider={lider} setter={setLider} />
               <div className="m-1 p-5">
                 <div className="justify-self-center">
                   <a
@@ -247,7 +248,7 @@ export default function Page() {
         </div>
       </div>
       {/* //Коллекционеры */}
-      <div id="collectors" className={license == 2 ? '' : 'hidden'}>
+      <div id="collectors" className={lider == 2 ? '' : 'hidden'}>
         <div className="flex flex-wrap justify-center self-center md:flex-nowrap md:justify-between">
           <div className="px-2 text-xl font-semibold text-stone-500 md:pt-2 md:text-3xl">
             Collectors NFT
@@ -323,7 +324,7 @@ export default function Page() {
                   />
                 </div>
               </div>
-              <Buttons license={license} setter={setLicense} />
+              <Buttons lider={lider} setter={setLider} />
               <div className="m-1 p-5">
                 <div className="justify-self-center">
                   <a

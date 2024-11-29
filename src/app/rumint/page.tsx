@@ -1,15 +1,22 @@
 'use client';
 
-import { useGaaStore } from '@/providers/store-provider';
+import { useLayoutEffect } from 'react';
+import { useGaaStore } from '@/providers/gaa-store-provider';
 import Image from 'next/image';
 import Link from 'next/link';
 import { JumpButton } from '@/components/jumpButton';
 
 export default function Page() {
-  const [{ setLicense }] = useGaaStore((state) => state);
   const jumpPoints = ['racelads', 'movement-leaders', 'custom-lads', 'awards', 'licenses'];
+  const [{ setLicense, setLider }, gaaStore] = useGaaStore((state) => state);
 
-  return (
+  useLayoutEffect(() => {
+    gaaStore.persist.rehydrate();
+  }, [gaaStore.persist]);
+
+  return !gaaStore.persist?.hasHydrated() ? (
+    'Loading...'
+  ) : (
     <div className="mx-auto max-w-7xl font-serif">
       <JumpButton points={jumpPoints} />
       <div
@@ -39,19 +46,13 @@ export default function Page() {
 
           <div className="inline-flex rounded-md pt-5 shadow-sm md:place-self-center">
             <Link
-              href={{
-                pathname: '/rudiscoveryracelads',
-                query: { racelad: 'discovery' },
-              }}
+              href={'/rudiscoveryracelads'}
               className="rounded-l-xl border-2 border-p1-darkgreen bg-p2-white2 p-2 text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p1-darkgreen hover:text-p1-white focus:z-10 focus:bg-p1-darkgreen focus:text-p1-white focus:ring-2 focus:ring-p1-darkgreen md:p-5 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange"
             >
               Исследуй NFT
             </Link>
             <Link
-              href={{
-                pathname: '/rumintracelads',
-                query: { racelad: 'rumintracelads' },
-              }}
+              href={'/rumintracelads'}
               className="rounded-r-xl border-2 border-p2-orange bg-p2-white2 p-2 text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p2-orange hover:text-p1-white hover:ring-p2-orange focus:bg-p2-orange focus:text-p1-white focus:ring-2 focus:ring-p2-orange md:p-5 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange"
             >
               Создай NFT
@@ -90,19 +91,14 @@ export default function Page() {
           <p className="pb-2 text-base text-p1-darkgreen">к Web3</p>
           <div className="py-5">
             <Link
-              href={{
-                pathname: '/rudiscoveryliders',
-                query: { drivers: 'discovery' },
-              }}
+              href={'/rudiscoveryliders'}
               className="rounded-l-xl border-2 border-p1-darkgreen bg-p2-white2 p-2 text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p1-darkgreen hover:text-p1-white focus:z-10 focus:bg-p1-darkgreen focus:text-p1-white focus:ring-2 focus:ring-p1-darkgreen md:p-5 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange"
+              onClick={() => setLider(0)}
             >
               Исследуй NFT
             </Link>
             <Link
-              href={{
-                pathname: '/rumintdrivers',
-                query: { drivers: 'rumintdrivers' },
-              }}
+              href={'/rumintdrivers'}
               className="rounded-r-xl border-2 border-red-400 bg-p2-white2 p-2 text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-red-400 hover:text-p1-white focus:z-10 focus:bg-red-400 focus:text-p1-white focus:ring-2 focus:ring-red-400 md:p-5 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-red-400"
             >
               Создай NFT
@@ -123,19 +119,14 @@ export default function Page() {
           <p className="pb-2 text-base text-p1-darkgreen">к Web3</p>
           <div className="py-5">
             <Link
-              href={{
-                pathname: '/rudiscoveryliders',
-                query: { teammembers: 'discovery' },
-              }}
+              href={'/rudiscoveryliders'}
               className="rounded-l-xl border-2 border-p1-darkgreen bg-p2-white2 p-2 text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p1-darkgreen hover:text-p1-white focus:z-10 focus:bg-p1-darkgreen focus:text-p1-white focus:ring-2 focus:ring-p1-darkgreen md:p-5 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange"
+              onClick={() => setLider(1)}
             >
               Исследуй NFT
             </Link>
             <Link
-              href={{
-                pathname: '/rumintteammembers',
-                query: { teammembers: 'rumintteammembers' },
-              }}
+              href={'/rumintteammembers'}
               className="rounded-r-xl border-2 border-p3-blue bg-p2-white2 p-2 text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p3-blue hover:text-p1-white focus:z-10 focus:bg-p3-blue focus:text-p1-white focus:ring-2 focus:ring-p3-blue md:p-5 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p3-blue"
             >
               Cоздай NFT
@@ -157,19 +148,14 @@ export default function Page() {
           </p>
           <div className="py-5">
             <Link
-              href={{
-                pathname: '/rudiscoveryliders',
-                query: { collectors: 'discovery' },
-              }}
+              href={'/rudiscoveryliders'}
               className="rounded-l-xl border-2 border-p1-darkgreen bg-p2-white2 p-2 text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p1-darkgreen hover:text-p1-white focus:z-10 focus:bg-p1-darkgreen focus:text-p1-white focus:ring-2 focus:ring-p1-darkgreen md:p-5 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange"
+              onClick={() => setLider(2)}
             >
               Исследуй NFT
             </Link>
             <Link
-              href={{
-                pathname: '/rumintcollectors',
-                query: { collectors: 'rumintcollectors' },
-              }}
+              href={'/rumintcollectors'}
               className="rounded-r-xl border-2 border-stone-500 bg-p2-white2 p-2 text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-stone-500 hover:text-p1-white focus:z-10 focus:bg-stone-500 focus:text-p1-white focus:ring-2 focus:ring-stone-500 md:p-5 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-stone-500"
             >
               Cоздай NFT
@@ -191,19 +177,13 @@ export default function Page() {
           </p>
           <div className="py-5">
             <Link
-              href={{
-                pathname: '/rudiscoverycars',
-                query: { cars: 'discovery' },
-              }}
+              href={'/rudiscoverycars'}
               className="rounded-l-xl border-2 border-p1-darkgreen bg-p2-white2 p-2 text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p1-darkgreen hover:text-p1-white focus:z-10 focus:bg-p1-darkgreen focus:text-p1-white focus:ring-2 focus:ring-p1-darkgreen md:p-5 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange"
             >
               Исследуй NFT
             </Link>
             <Link
-              href={{
-                pathname: '/rumintcars',
-                query: { cars: 'rumintcars' },
-              }}
+              href={'/rumintcars'}
               className="rounded-r-xl border-2 border-cyan-700 bg-p2-white2 p-2 text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-cyan-700 hover:text-p1-white focus:z-10 focus:bg-cyan-700 focus:text-p1-white focus:ring-2 focus:ring-cyan-700 md:p-5 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-cyan-700"
             >
               Cоздай NFT
@@ -245,19 +225,13 @@ export default function Page() {
           </p>
           <div className="inline-flex rounded-md shadow-sm md:place-self-center">
             <Link
-              href={{
-                pathname: '/rudiscoverycustomlads',
-                query: { customlad: 'discovery' },
-              }}
+              href={'/rudiscoverycustomlads'}
               className="rounded-l-xl border-2 border-p1-darkgreen bg-p2-white2 p-2 text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p1-darkgreen hover:text-p1-white focus:z-10 focus:bg-p1-darkgreen focus:text-p1-white focus:ring-2 focus:ring-p1-darkgreen md:p-5 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange"
             >
               Исследуй NFT
             </Link>
             <Link
-              href={{
-                pathname: '/rumintcustomlads',
-                query: { customlad: 'rumintcustomlads' },
-              }}
+              href={'/rumintcustomlads'}
               className="rounded-r-xl border-2 border-p2-orange bg-p2-white2 p-2 text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p2-orange hover:text-p1-white focus:z-10 focus:bg-p2-orange focus:text-p1-white focus:ring-2 focus:ring-p2-orange md:p-5 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange"
             >
               Создай NFT
@@ -300,19 +274,13 @@ export default function Page() {
           </p>
           <div className="inline-flex rounded-md pt-5 shadow-sm md:place-self-center">
             <Link
-              href={{
-                pathname: '/rudiscoveryrewards',
-                query: { rewards: 'discovery' },
-              }}
+              href={'/rudiscoveryrewards'}
               className="rounded-l-xl border-2 border-p1-darkgreen bg-p2-white2 p-2 text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p1-darkgreen hover:text-p1-white focus:z-10 focus:bg-p1-darkgreen focus:text-p1-white focus:ring-2 focus:ring-p1-darkgreen md:p-5 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange"
             >
               Исследуй NFT
             </Link>
             <Link
-              href={{
-                pathname: '/rumintrewards',
-                query: { rewards: 'rumintrewards' },
-              }}
+              href={'/rumintrewards'}
               className="rounded-r-xl border-2 border-p2-orange bg-p2-white2 p-2 text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p2-orange hover:text-p1-white focus:z-10 focus:bg-p2-orange focus:text-p1-white focus:ring-2 focus:ring-p2-orange md:p-5 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange"
             >
               Создай NFT
