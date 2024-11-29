@@ -5,7 +5,6 @@ import { useState } from 'react';
 
 export default function Home() {
   const [value, setValue] = useState('0');
-  const [check, setCheck] = useState(false);
 
   return (
     <div className="mx-auto max-w-7xl font-serif">
