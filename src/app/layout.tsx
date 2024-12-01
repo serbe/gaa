@@ -25,13 +25,15 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: Readonly<Props>) {
   return (
-    <html lang="en" className={`${inter.className} scroll-smooth md:scroll-auto`}>
+    <html lang="en" class="dark" className={`${inter.className} scroll-smooth md:scroll-auto`}>
       <body>
         <div className="">
           <GaaStoreProvider>
             <Header />
             <Nav />
-            <main className="mx-auto min-h-screen bg-p1-white dark:bg-slate-950">{children}</main>
+            <main className="mx-auto min-h-screen bg-p1-white dark:bg-p1-deepdarkgreen">
+              {children}
+            </main>
             {/* <TopButton /> */}
             <ToTopButton />
             <Footer />

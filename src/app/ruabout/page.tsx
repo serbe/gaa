@@ -33,7 +33,7 @@ export default function Page() {
   ];
 
   return (
-    <div className="mx-auto max-w-7xl font-serif">
+    <div className="mx-auto max-w-7xl font-serif dark:bg-p1-deepdarkgreen">
       <JumpButton points={jumpPoints} />
 
       <div className="flex flex-row">
@@ -145,7 +145,7 @@ export default function Page() {
         <div className="md:basis-5/5">
           <div
             id="1"
-            className="p-2 text-center text-xl font-bold text-p1-darkgreen drop-shadow-2xl md:text-3xl"
+            className="p-2 text-center text-xl font-bold text-p1-darkgreen drop-shadow-2xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan md:text-3xl"
           >
             О Нас
           </div>
@@ -155,7 +155,7 @@ export default function Page() {
       <div className="flex flex-row justify-center p-2">
         <div className="text-p1-darkgreen md:basis-4/6">
           <div className="rounded-3xl">
-            <div className="px-2 text-base text-p1-darkgreen md:text-xl">
+            <div className="px-2 text-base text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan md:text-xl">
               Global Automotive Association (GAA) – это революционный блокчейн-проект, который
               объединяет всех любителей автоспорта и автомобилей в сильное и активное сообщество,
               нацеленное на популяризацию автомобильной культуры.
@@ -168,7 +168,7 @@ export default function Page() {
         <div className="mb-5 mt-5 text-p1-darkgreen md:basis-4/6">
           <div
             id="2"
-            className="space-y-4 rounded-3xl border-p1-darkgreen p-6 text-left text-base text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:border-4 md:text-xl"
+            className="space-y-4 rounded-3xl border-p1-darkgreen p-6 text-left text-base text-p1-darkgreen hover:border-p2-orange hover:shadow-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan md:border-4 md:text-xl"
           >
             <p className="text-center text-xl font-bold md:text-2xl">Наши амбициозные цели:</p>
             <p>Создание активного сообщества:</p>
@@ -193,7 +193,7 @@ export default function Page() {
           <div>
             <div
               id="3"
-              className="rounded-3xl border-p1-darkgreen p-6 text-center text-xl text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:border-4"
+              className="rounded-3xl border-p1-darkgreen p-6 text-center text-base text-p1-darkgreen hover:border-p2-orange hover:shadow-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan md:border-4 md:text-xl"
             >
               <p className="text-2xl font-bold">10,000</p>
               <p>уникальных NFT</p>
@@ -210,7 +210,7 @@ export default function Page() {
         <div className="md:basis-2/6"></div>
         <div className="basis-2/6 text-p1-darkgreen">
           <div>
-            <div className="rounded-3xl border-p1-darkgreen p-6 text-center text-xl text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:border-4">
+            <div className="rounded-3xl border-p1-darkgreen p-6 text-center text-base text-p1-darkgreen hover:border-p2-orange hover:shadow-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan md:border-4 md:text-xl">
               <p>первая коллекция</p>
               <p className="text-2xl font-bold">Глобальной Автомобильной Ассоциации</p>
             </div>
@@ -224,7 +224,7 @@ export default function Page() {
         <div className="md:basis-3/5">
           <div
             id="4"
-            className="pt-5 text-center text-6xl font-bold text-p1-darkgreen drop-shadow-2xl"
+            className="pt-5 text-center text-6xl font-bold text-p1-darkgreen drop-shadow-2xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan"
           >
             RaceLads
           </div>
@@ -236,29 +236,27 @@ export default function Page() {
         <div className="md:basis-1/6"></div>
         <div className="text-p1-darkgreen md:basis-4/6">
           <div>
-            <div className="my-5 space-y-4 rounded-3xl border-p1-darkgreen p-6 text-center text-xl text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:border-4">
-              <p className="text-center text-2xl font-bold text-p1-darkgreen">
-                NFT коллекция «RaceLads»
-              </p>
-              <p className="text-left text-base text-p1-darkgreen md:text-xl">
+            <div className="my-5 space-y-4 rounded-3xl border-p1-darkgreen p-6 text-left text-base text-p1-darkgreen hover:border-p2-orange hover:shadow-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan md:border-4 md:text-xl">
+              <p className="text-center text-2xl font-bold">NFT коллекция «RaceLads»</p>
+              <p className="text-left text-base md:text-xl">
                 Выпускаем первую NFT коллекцию, состоящую из 10.000 эксклюзивных и уникальных
                 цифровых художественных работ, вдохновленных самыми захватывающими дисциплинами
                 автогонок.
               </p>
-              <p className="text-left text-base text-p1-darkgreen md:text-xl">
+              <p className="text-left text-base md:text-xl">
                 Каждый «RaceLad» в нашей коллекции – это не просто цифровое изображение, а
                 уникальный персонаж, обладающий различными особенностями и запечатленный в
                 блокчейне.
               </p>
-              <p className="text-left text-base text-p1-darkgreen md:text-xl">
+              <p className="text-left text-base md:text-xl">
                 Владение NFT из нашей коллекции в будущем откроет вам доступ в уникальный мир драйва
                 на Web3:
               </p>
-              <ul className="list-disc space-y-3 px-5 text-p1-darkgreen">
-                <li className="text-left text-base text-p1-darkgreen md:text-xl">
+              <ul className="list-disc space-y-3 px-5">
+                <li className="text-left text-base md:text-xl">
                   участвуйте в виртуальных гонках и других захватывающих онлайн-событиях.
                 </li>
-                <li className="text-left text-base text-p1-darkgreen md:text-xl">
+                <li className="text-left text-base md:text-xl">
                   принимайте участие в ключевых голосованиях, влияющих на развитие нашего
                   сообщества.
                 </li>
@@ -271,7 +269,7 @@ export default function Page() {
       </div>
 
       <div className="md:pt-2" id="5"></div>
-      <div className="w-full snap-x overflow-x-auto rounded-3xl border-p2-orange hover:border-p2-orange md:w-4/5 md:place-self-center md:border-4 md:hover:shadow-2xl">
+      <div className="w-full snap-x overflow-x-auto rounded-3xl border-p2-orange hover:border-p2-orange dark:border-p1-darkgreen dark:hover:border-p1-green md:w-4/5 md:place-self-center md:border-4 md:hover:shadow-2xl">
         <Swiper
           autoplay={{
             delay: 5500,
@@ -431,12 +429,10 @@ export default function Page() {
         <div className="md:basis-3/5">
           <div
             id="6"
-            className="text-center text-2xl font-bold text-p1-darkgreen drop-shadow-2xl md:pt-8 md:text-3xl"
+            className="text-center text-2xl font-bold text-p1-darkgreen drop-shadow-2xl dark:text-p1-green dark:hover:text-p1-cyan md:pt-8 md:text-3xl"
           >
-            Мы планируем
-          </div>
-          <div className="text-center text-2xl font-bold text-p1-darkgreen drop-shadow-2xl md:text-3xl">
-            будущее
+            <p>Мы планируем</p>
+            <p>будущее</p>
           </div>
         </div>
         <div className="md:basis-1/5"></div>
@@ -446,37 +442,33 @@ export default function Page() {
         <div className="md:basis-1/6"></div>
         <div className="text-p1-darkgreen md:basis-4/6">
           <div>
-            <div className="my-5 space-y-2 rounded-3xl border-p1-darkgreen p-6 text-center text-xl text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:border-4">
-              <p className="text-center text-xl font-bold text-p1-darkgreen md:text-2xl">
+            <div className="my-5 space-y-2 space-y-4 rounded-3xl border-p1-darkgreen p-6 text-left text-base text-p1-darkgreen hover:border-p2-orange hover:shadow-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan md:border-4 md:text-xl">
+              <p className="text-center text-xl font-bold md:text-2xl">
                 В наших планах также выпуск и других уникальных коллекций для:
               </p>
-              <ul className="list-disc space-y-3 px-5 text-p1-darkgreen">
-                <li className="text-left text-base text-p1-darkgreen md:text-xl">пилотов</li>
-                <li className="text-left text-base text-p1-darkgreen md:text-xl">
+              <ul className="list-disc space-y-3 px-5">
+                <li className="text-left text-base md:text-xl">пилотов</li>
+                <li className="text-left text-base md:text-xl">
                   направлений автоспорта (дрифт, кольцевые гонки, драг рейсинг и т.д.)
                 </li>
-                <li className="text-left text-base text-p1-darkgreen md:text-xl">
+                <li className="text-left text-base md:text-xl">
                   коллекционеров редких автомобилей с возможностью цифровизации своего автопарка и
                   создания NFT в единой глобальной коллекции
                 </li>
-                <li className="text-left text-base text-p1-darkgreen md:text-xl">
+                <li className="text-left text-base md:text-xl">
                   награждения победителей и призеров (кубки, медали)
                 </li>
-                <li className="text-left text-base text-p1-darkgreen md:text-xl">
-                  выдачи цифровых лицензий
-                </li>
+                <li className="text-left text-base md:text-xl">выдачи цифровых лицензий</li>
               </ul>
-              <p className="text-center text-2xl font-bold text-p1-darkgreen">
-                Уникальность коллекций заключается в
-              </p>
-              <ul className="list-disc space-y-3 px-5 text-p1-darkgreen">
-                <li className="text-left text-base text-p1-darkgreen md:text-xl">
+              <p className="text-center text-2xl font-bold">Уникальность коллекций заключается в</p>
+              <ul className="list-disc space-y-3 px-5">
+                <li className="text-left text-base md:text-xl">
                   ограниченном тираже уникальных объектов цифрового искусства
                 </li>
-                <li className="text-left text-base text-p1-darkgreen md:text-xl">
+                <li className="text-left text-base md:text-xl">
                   принадлежности коллекции к Проекту автоспортивного и автокультурного сообщества
                 </li>
-                <li className="text-left text-base text-p1-darkgreen md:text-xl">
+                <li className="text-left text-base md:text-xl">
                   ограниченным перечнем коллекций цифрового исскусства
                 </li>
               </ul>
@@ -491,12 +483,10 @@ export default function Page() {
         <div className="md:basis-3/5">
           <div
             id="7"
-            className="pt-5 text-center text-3xl font-bold text-p1-darkgreen drop-shadow-2xl md:text-4xl"
+            className="pt-5 text-center text-3xl font-bold text-p1-darkgreen drop-shadow-2xl dark:text-p1-green dark:hover:text-p1-cyan md:text-4xl"
           >
-            NFT
-          </div>
-          <div className="pb-5 text-center text-3xl font-bold text-p1-darkgreen drop-shadow-2xl md:text-4xl">
-            Сервисы и Награды
+            <p> NFT</p>
+            <p>Сервисы и Награды</p>
           </div>
         </div>
         <div className="md:basis-1/5"></div>
@@ -506,30 +496,26 @@ export default function Page() {
         <div className="md:basis-1/6"></div>
         <div className="text-p1-darkgreen md:basis-4/6">
           <div>
-            <div className="space-y-4 rounded-3xl border-p1-darkgreen p-6 text-center text-xl text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:border-4">
-              <p className="text-center text-xl font-bold text-p1-darkgreen md:text-2xl">
-                NFT Сервисы
-              </p>
-              <p className="text-left text-base text-p1-darkgreen md:text-xl">
+            <div className="space-y-4 rounded-3xl border-p1-darkgreen p-6 text-left text-base text-p1-darkgreen hover:border-p2-orange hover:shadow-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan md:border-4 md:text-xl">
+              <p className="text-center text-xl font-bold md:text-2xl">NFT Сервисы</p>
+              <p className="text-left text-base md:text-xl">
                 Создание сервиса цифровизации физических объектов в NFT и объединение NFT в единые
                 коллекции цифрового исскусства:
               </p>
-              <p className="text-left text-base text-p1-darkgreen md:text-xl">
+              <p className="text-left text-base md:text-xl">
                 Cоздавайте, дарите, продавайте NFT по направлениям:
               </p>
-              <ul className="list-disc space-y-3 px-5 text-p1-darkgreen">
-                <li className="text-left text-base text-p1-darkgreen md:text-xl">Пилоты</li>
-                <li className="text-left text-base text-p1-darkgreen md:text-xl">
+              <ul className="list-disc space-y-3 px-5">
+                <li className="text-left text-base md:text-xl">Пилоты</li>
+                <li className="text-left text-base md:text-xl">
                   Участники команд (дрифт, драг рейсинг и т.д.)
                 </li>
-                <li className="text-left text-base text-p1-darkgreen md:text-xl">
-                  Коллекционеры редких автомобилей
-                </li>
-                <li className="text-left text-base text-p1-darkgreen md:text-xl">
+                <li className="text-left text-base md:text-xl">Коллекционеры редких автомобилей</li>
+                <li className="text-left text-base md:text-xl">
                   Раритетные, спортивные и кастомизированные автомобили
                 </li>
               </ul>
-              <p className="text-left text-base text-p1-darkgreen md:text-xl">
+              <p className="text-left text-base md:text-xl">
                 Единая глобальная коллекция автоспортивного и автокультурного сообщества создаваемая
                 самим сообществом
               </p>
@@ -537,21 +523,21 @@ export default function Page() {
 
             <div
               id="8"
-              className="my-5 space-y-4 rounded-3xl border-p1-darkgreen p-6 text-center text-xl text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:border-4"
+              className="my-5 space-y-4 rounded-3xl border-p1-darkgreen p-6 text-left text-base text-p1-darkgreen hover:border-p2-orange hover:shadow-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan md:border-4 md:text-xl"
             >
-              <p className="text-center text-xl font-bold text-p1-darkgreen drop-shadow-2xl md:text-3xl">
+              <p className="text-center text-xl font-bold drop-shadow-2xl md:text-3xl">
                 NFT Награды
               </p>
-              <p className="text-left text-base text-p1-darkgreen md:text-xl">
+              <p className="text-left text-base md:text-xl">
                 На сайте мы предоставляем организаторам мероприятий возможность создать уникальные
                 NFT награды для победителей и участников мероприятий и выход на новый уровень
                 организации проведения мероприятий
               </p>
-              <p className="text-left text-base text-p1-darkgreen md:text-xl">
+              <p className="text-left text-base md:text-xl">
                 Все награды будут в единой коллекции автоспортивного и автокультурного сообщества
                 NFT Rewards
               </p>
-              <p className="text-left text-base text-p1-darkgreen md:text-xl">
+              <p className="text-left text-base md:text-xl">
                 Для развития Проекта предоставляем лидерам направлений цифровые NFT лицензии,
                 расширяющие возможности и предоставляющие дополнительные полномочия использования
                 сайта.
@@ -687,12 +673,10 @@ export default function Page() {
         <div className="md:basis-3/5">
           <div
             id="10"
-            className="text-center text-xl font-bold text-p1-darkgreen drop-shadow-2xl md:text-3xl"
+            className="text-center text-xl font-bold text-p1-darkgreen drop-shadow-2xl dark:text-p1-green dark:hover:text-p1-cyan md:text-3xl"
           >
-            Выгода владельцу
-          </div>
-          <div className="text-center text-xl font-bold text-p1-darkgreen drop-shadow-2xl md:text-3xl">
-            NFT RaceLad
+            <p>Выгода владельцу</p>
+            <p>NFT RaceLad</p>
           </div>
         </div>
       </div>
@@ -700,41 +684,37 @@ export default function Page() {
       <div className="flex flex-row justify-center p-2">
         <div className="text-p1-darkgreen md:basis-4/6">
           <div>
-            <div className="my-5 space-y-4 rounded-3xl border-p1-darkgreen p-6 text-center text-xl text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:border-4">
-              <p className="text-center text-xl font-bold text-p1-darkgreen drop-shadow-2xl md:text-2xl">
+            <div className="my-5 space-y-4 rounded-3xl border-p1-darkgreen p-6 text-left text-base text-p1-darkgreen hover:border-p2-orange hover:shadow-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan md:border-4 md:text-xl">
+              <p className="text-center text-xl font-bold drop-shadow-2xl md:text-2xl">
                 Уникальные привилегии
               </p>
-              <p className="text-left text-base text-p1-darkgreen md:text-xl">
+              <p className="text-left text-base md:text-xl">
                 Предоставляем нашим членам эксклюзивные бонусы:
               </p>
-              <ul className="list-disc space-y-3 px-5 text-p1-darkgreen">
-                <li className="text-left text-base text-p1-darkgreen md:text-xl">
-                  билеты на мероприятия
-                </li>
-                <li className="text-left text-base text-p1-darkgreen md:text-xl">
+              <ul className="list-disc space-y-3 px-5">
+                <li className="text-left text-base md:text-xl">билеты на мероприятия</li>
+                <li className="text-left text-base md:text-xl">
                   участие в автограф и фото сессиях
                 </li>
-                <li className="text-left text-base text-p1-darkgreen md:text-xl">
-                  участие в лекциях и экскурсиях
-                </li>
-                <li className="text-left text-base text-p1-darkgreen md:text-xl">розыгрыши NFT</li>
-                <li className="text-left text-base text-p1-darkgreen md:text-xl">многое другое</li>
+                <li className="text-left text-base md:text-xl">участие в лекциях и экскурсиях</li>
+                <li className="text-left text-base md:text-xl">розыгрыши NFT</li>
+                <li className="text-left text-base md:text-xl">многое другое</li>
               </ul>
             </div>
 
             <div
               id="11"
-              className="my-5 space-y-2 rounded-3xl border-p1-darkgreen p-6 text-center text-xl text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:border-4"
+              className="my-5 space-y-2 space-y-4 rounded-3xl border-p1-darkgreen p-6 text-left text-base text-p1-darkgreen hover:border-p2-orange hover:shadow-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan md:border-4 md:text-xl"
             >
-              <p className="text-center text-xl font-bold text-p1-darkgreen drop-shadow-2xl md:text-2xl">
+              <p className="text-center text-xl font-bold drop-shadow-2xl md:text-2xl">
                 Собственные мероприятия
               </p>
-              <p className="text-left text-base text-p1-darkgreen md:text-xl">
+              <p className="text-left text-base md:text-xl">
                 Организуем награждения на таких мероприятиях, как дрифт, гонки, автовыставки,
                 Планируем вечеринки под брендом GAA с участием спортсменов и лидеров мнений
                 (блогеров).
               </p>
-              <p className="text-left text-base text-p1-darkgreen md:text-xl">
+              <p className="text-left text-base md:text-xl">
                 Члены нашего сообщества смогут подавать заявки и принимать участие в голосованиях по
                 выбору формата мероприятий, судей, участников и прочим вопросам.
               </p>
@@ -742,52 +722,40 @@ export default function Page() {
 
             <div
               id="12"
-              className="my-5 space-y-2 rounded-3xl border-p1-darkgreen p-6 text-center text-xl text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:border-4"
+              className="my-5 space-y-2 space-y-4 rounded-3xl border-p1-darkgreen p-6 text-left text-base text-p1-darkgreen hover:border-p2-orange hover:shadow-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan md:border-4 md:text-xl"
             >
-              <p className="text-center text-2xl font-bold text-p1-darkgreen">
-                Децентрализованный портал
-              </p>
-              <p className="text-left text-base text-p1-darkgreen md:text-xl">
+              <p className="text-center text-2xl font-bold">Децентрализованный портал</p>
+              <p className="text-left text-base md:text-xl">
                 Разрабатываем сайт, который будет являться уникальным порталом, где каждый сможет:
               </p>
-              <ul className="list-disc space-y-3 px-5 text-p1-darkgreen">
-                <li className="text-left text-base text-p1-darkgreen md:text-xl">
-                  быть в курсе последних новостей
-                </li>
-                <li className="text-left text-base text-p1-darkgreen md:text-xl">
+              <ul className="list-disc space-y-3 px-5">
+                <li className="text-left text-base md:text-xl">быть в курсе последних новостей</li>
+                <li className="text-left text-base md:text-xl">
                   ознакамливаться с результатами мероприятий
                 </li>
-                <li className="text-left text-base text-p1-darkgreen md:text-xl">
-                  принимать участие в голосованиях
-                </li>
-                <li className="text-left text-base text-p1-darkgreen md:text-xl">
+                <li className="text-left text-base md:text-xl">принимать участие в голосованиях</li>
+                <li className="text-left text-base md:text-xl">
                   приобретать NFT из наших коллекций
                 </li>
-                <li className="text-left text-base text-p1-darkgreen md:text-xl">
+                <li className="text-left text-base md:text-xl">
                   наслаждаться фото и видео материалами
                 </li>
-                <li className="text-left text-base text-p1-darkgreen md:text-xl">
-                  загружать свой контент
-                </li>
-                <li className="text-left text-base text-p1-darkgreen md:text-xl">
-                  реализовывать свои возможности
-                </li>
-                <li className="text-left text-base text-p1-darkgreen md:text-xl">многое другое</li>
+                <li className="text-left text-base md:text-xl">загружать свой контент</li>
+                <li className="text-left text-base md:text-xl">реализовывать свои возможности</li>
+                <li className="text-left text-base md:text-xl">многое другое</li>
               </ul>
             </div>
 
             <div
               id="13"
-              className="space-y-4 rounded-3xl border-p1-darkgreen p-6 text-center text-xl text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:my-5 md:border-4"
+              className="space-y-4 rounded-3xl border-p1-darkgreen p-6 text-left text-base text-p1-darkgreen hover:border-p2-orange hover:shadow-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan md:my-5 md:border-4 md:text-xl"
             >
-              <p className="text-center text-2xl font-bold text-p1-darkgreen">
-                Выход на международный уровень
-              </p>
-              <p className="text-left text-base text-p1-darkgreen md:text-xl">
+              <p className="text-center text-2xl font-bold">Выход на международный уровень</p>
+              <p className="text-left text-base md:text-xl">
                 Расширяем наше присутствие на международной арене, чтобы объединить автолюбителей по
                 всему миру, стирая границы и расстояния.
               </p>
-              <p className="text-left text-base text-p1-darkgreen md:text-xl">
+              <p className="text-left text-base md:text-xl">
                 Создание ежегодной круглогодичной международной серии и стандарта мероприятий для
                 автоспортивного и автокультурного сообщества.
               </p>
@@ -801,7 +769,7 @@ export default function Page() {
           <div className="md:basis-3/5">
             <div
               id="14"
-              className="p-2 text-center text-3xl font-bold text-p1-darkgreen drop-shadow-2xl"
+              className="p-2 text-center text-3xl font-bold text-p1-darkgreen drop-shadow-2xl dark:text-p1-green dark:hover:text-p1-cyan"
             >
               Web 3
             </div>
@@ -810,24 +778,22 @@ export default function Page() {
         <div className="flex flex-row justify-center px-2">
           <div className="text-p1-darkgreen md:basis-4/6">
             <div>
-              <div className="space-y-2 rounded-3xl border-p1-darkgreen p-2 text-center text-xl text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:my-5 md:border-4 md:p-6">
-                <p className="text-center text-xl font-bold text-p1-darkgreen md:text-2xl">
-                  Почему Web 3?
-                </p>
-                <p className="text-left text-base text-p1-darkgreen md:text-xl">
+              <div className="space-y-4 rounded-3xl border-p1-darkgreen p-6 text-left text-base text-p1-darkgreen hover:border-p2-orange hover:shadow-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan md:my-5 md:border-4 md:p-6 md:text-xl">
+                <p className="text-center text-xl font-bold md:text-2xl">Почему Web 3?</p>
+                <p className="text-left text-base md:text-xl">
                   Реализация глобальной идеи Web3 на сегодняшний день до сих пор находится на ранней
                   стадии и еще не получила должного внимания в обществе.
                 </p>
-                <p className="text-left text-base text-p1-darkgreen md:text-xl">
+                <p className="text-left text-base md:text-xl">
                   Мы в свою очередь видим перспективу реализации социально значимого проекта,
                   позволяющего объединить людей по общим интересам, используя технологии Blockchain
                   и NFT.
                 </p>
-                <p className="text-left text-base text-p1-darkgreen md:text-xl">
+                <p className="text-left text-base md:text-xl">
                   Именно технология Blockchain способна обеспечить децентрализованное сообщество,
                   управляемое самими людьми.
                 </p>
-                <p className="text-left text-base text-p1-darkgreen md:text-xl">
+                <p className="text-left text-base md:text-xl">
                   Blockchain и NFT - технологии свободы, которые открывают безграничные возможности
                   и позволяют вернуть власть людям, стирая границы между городами и странами и
                   объединяя единомышленников.
@@ -836,7 +802,7 @@ export default function Page() {
 
               <div
                 id="15"
-                className="my-5 space-y-2 rounded-3xl border-p1-darkgreen p-4 text-center text-xl text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:border-4"
+                className="space-y-4 rounded-3xl border-p1-darkgreen p-6 text-left text-base text-p1-darkgreen hover:border-p2-orange hover:shadow-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan md:border-4 md:text-xl"
               >
                 <p className="text-center">
                   Присоединяйся к GAA и стань частью глобального движения, которое создает новые

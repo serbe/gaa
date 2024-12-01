@@ -5,27 +5,27 @@ export default function Page() {
     <div className="mx-auto max-w-7xl font-serif">
       {/* //RaceLads discovery*/}
       <div className="flex flex-wrap justify-center self-center md:flex-nowrap md:justify-between">
-        <div className="px-2 text-xl font-semibold text-p1-darkgreen md:pt-2 md:text-3xl">
+        <div className="px-2 text-xl font-semibold text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan md:pt-2 md:text-3xl">
           RaceLads NFT
         </div>
-        <div className="px-2 text-xl font-semibold text-p1-darkgreen md:pt-2 md:text-3xl">
+        <div className="px-2 text-xl font-semibold text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan md:pt-2 md:text-3xl">
           Страница исследователя
         </div>
       </div>
-      <div className="rounded-3xl border-p1-darkgreen md:border-4 md:shadow-lg md:hover:border-p1-green">
+      <div className="rounded-3xl border-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan md:border-4 md:shadow-lg md:hover:border-p1-green">
         <div className="flex flex-wrap justify-center space-x-2 px-2 md:flex-nowrap">
           <div>
-            <p className="p-2 text-base text-p1-darkgreen md:text-xl">
+            <p className="p-2 text-base text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan md:text-xl">
               Невзаимозаменяемый токен, представляющий коллекцию из 10.000 уникальных цифровых
               героев, вдохновленных любовью к автомобилям и запечатленных в Blockchain.
             </p>
-            <p className="p-2 text-base text-p1-darkgreen md:text-xl">
+            <p className="p-2 text-base text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan md:text-xl">
               Коллекция, призванная внести свой вклад в развитие и популяризацию автокультуры и
               автоспорта.
             </p>
-            <div className="p-2 text-base text-p1-darkgreen md:text-xl">
+            <div className="p-2 text-base text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan md:text-xl">
               Приобретая героя из коллекции ты становишься членом большого дружного сообщества!
-              <ul className="list-disc p-5 text-base text-p1-darkgreen md:text-xl">
+              <ul className="list-disc p-5 text-base text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan md:text-xl">
                 <li className="pb-2">
                   посещай автоспортивные мероприятия, выставки, лекции, вечеринки
                 </li>
@@ -37,14 +37,14 @@ export default function Page() {
                 </li>
               </ul>
             </div>
-            <p className="p-2 text-base text-p1-darkgreen md:text-xl">
+            <p className="p-2 text-base text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan md:text-xl">
               Данная коллекция будет доступна только для держателей NFT из коллекции RaceLads.
             </p>
-            <p className="p-2 text-base text-p1-darkgreen md:text-xl">
+            <p className="p-2 text-base text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan md:text-xl">
               10 уровней доступа к редким элементам определяется наличием соответствующего
               количества NFT из коллекции RaceLads
             </p>
-            <p className="p-2 text-base text-p1-darkgreen md:text-xl">
+            <p className="p-2 text-base text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan md:text-xl">
               Любой CustomLad по желанию держателя может быть передан/продан любому участнику
               сообщества.
             </p>
@@ -93,7 +93,7 @@ export default function Page() {
               <div className="">
                 <a
                   href="/rumintracelads"
-                  className="inline-block w-full rounded-3xl border-2 border-p2-orange bg-p2-white2 px-10 py-8 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p2-orange hover:text-p1-white"
+                  className="inline-block w-full rounded-3xl border-2 border-p2-orange bg-p2-white2 px-10 py-8 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p2-orange hover:text-p1-white dark:border-p1-cyan dark:bg-p1-darkgreen dark:text-p1-cyan dark:hover:border-p2-orange dark:hover:bg-amber-600 dark:hover:text-amber-100"
                 >
                   Страница создания NFT
                 </a>
@@ -105,12 +105,12 @@ export default function Page() {
 
       <div className="pb-8"></div>
 
-      <div className="place-self-center pt-2 text-center text-2xl font-bold text-p1-darkgreen md:pt-2 md:text-3xl">
+      <div className="place-self-center pt-2 text-center text-2xl font-bold text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan md:pt-2 md:text-3xl">
         Способы получения RaceLads NFT
       </div>
 
-      <div className="rounded-3xl border-p1-darkgreen p-2 md:border-4 md:shadow-lg">
-        <div className="pb-5 text-center text-base text-p1-darkgreen md:text-2xl">
+      <div className="rounded-3xl border-p1-darkgreen p-2 dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan md:border-4 md:shadow-lg">
+        <div className="pb-5 text-center text-base text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan md:text-2xl">
           Любой желающий может получить своего персонажа (RaceLad) в период публичного минта или
           приобрести на вторичном рынке позднее
         </div>
@@ -186,6 +186,7 @@ export default function Page() {
           <div></div>
         </div>
       </div>
+      <div className="pb-5"></div>
     </div>
   );
 }

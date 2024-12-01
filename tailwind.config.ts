@@ -6,7 +6,7 @@ const config: Config = {
     './src/components/**/*.{js,ts,jsx,tsx,mdx}',
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
-  darkMode: 'media',
+  darkMode: 'class',
   theme: {
     extend: {
       backgroundImage: {
@@ -15,6 +15,7 @@ const config: Config = {
         '404': "url('/404/404.png')",
       },
       colors: {
+        'p1-deepdarkgreen': '#001c1e',
         'p1-darkgreen': '#004146',
         'p1-green': '#018076',
         'p1-cyan': '#03BFB5',

@@ -4,14 +4,14 @@ import Image from 'next/image';
 export default function Page() {
   return (
     <div className="mx-auto max-w-7xl font-serif">
-      <div className="pb-2 text-center text-2xl font-bold text-p1-darkgreen md:pt-4 md:text-4xl">
+      <div className="pb-2 text-center text-2xl font-bold text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan md:pt-4 md:text-4xl">
         Социальные сети
       </div>
 
-      <div className="mx-5 grid grid-cols-1 place-items-center gap-2 rounded-3xl border-p1-darkgreen text-center text-p1-darkgreen md:grid-cols-2 md:border-4 md:p-5 md:shadow-lg xl:grid-cols-4">
+      <div className="mx-5 grid grid-cols-1 place-items-center gap-2 rounded-3xl border-p1-darkgreen text-center text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan md:grid-cols-2 md:border-4 md:p-5 md:shadow-lg xl:grid-cols-4">
         <div className="flex flex-row">
           <div className="text-center">
-            <button className="mx-auto justify-center rounded-3xl duration-500 hover:scale-105">
+            <button className="mx-auto justify-center rounded-3xl grayscale duration-500 hover:scale-105 hover:grayscale-0">
               <a href="https://x.com/RaceLads">
                 <Image width={200} height={600} src="/logo/twitterlogox.png" alt="twitter" />
               </a>
@@ -21,7 +21,7 @@ export default function Page() {
         </div>
         <div>
           <div className="text-center">
-            <button className="mx-auto justify-center rounded-3xl duration-500 hover:scale-105">
+            <button className="mx-auto justify-center rounded-3xl grayscale duration-500 hover:scale-105 hover:grayscale-0">
               <a href="https://discord.gg/gaa">
                 <Image width={200} height={600} src="/logo/discordlogomini.png" alt="discord" />
               </a>
@@ -31,7 +31,7 @@ export default function Page() {
         </div>
 
         <div className="text-center">
-          <button className="mx-auto justify-center rounded-3xl duration-500 hover:scale-105">
+          <button className="mx-auto justify-center rounded-3xl grayscale duration-500 hover:scale-105 hover:grayscale-0">
             <a href="https://t.me/GlobalAutomotiveAssociation">
               <Image
                 width={200}
@@ -45,7 +45,7 @@ export default function Page() {
         </div>
 
         <div className="text-center">
-          <button className="mx-auto justify-center rounded-3xl duration-500 hover:scale-105">
+          <button className="mx-auto justify-center rounded-3xl grayscale duration-500 hover:scale-105 hover:grayscale-0">
             <a href="https://t.me/GAAChat">
               <Image
                 width={200}
@@ -60,7 +60,7 @@ export default function Page() {
 
         <div className="flex flex-row">
           <div className="text-center">
-            <button className="mx-auto justify-center rounded-3xl duration-500 hover:scale-105">
+            <button className="mx-auto justify-center rounded-3xl grayscale duration-500 hover:scale-105 hover:grayscale-0">
               <a href="">
                 <Image width={200} height={600} src="/logo/youtubelogomini.png" alt="youtube" />
               </a>
@@ -70,7 +70,7 @@ export default function Page() {
         </div>
         <div>
           <div className="text-center">
-            <button className="mx-auto justify-center rounded-3xl duration-500 hover:scale-105">
+            <button className="mx-auto justify-center rounded-3xl grayscale duration-500 hover:scale-105 hover:grayscale-0">
               <a href="">
                 <Image width={200} height={600} src="/logo/instagramlogomini.png" alt="instagram" />
               </a>
@@ -80,7 +80,7 @@ export default function Page() {
         </div>
 
         <div className="text-center">
-          <button className="mx-auto justify-center rounded-3xl duration-500 hover:scale-105">
+          <button className="mx-auto justify-center rounded-3xl grayscale duration-500 hover:scale-105 hover:grayscale-0">
             <a href="">
               <Image width={200} height={600} src="/logo/facebooklogomini.png" alt="facebook" />
             </a>
@@ -89,7 +89,7 @@ export default function Page() {
         </div>
 
         <div className="text-center">
-          <button className="mx-auto justify-center rounded-3xl duration-500 hover:scale-105">
+          <button className="mx-auto justify-center rounded-3xl grayscale duration-500 hover:scale-105 hover:grayscale-0">
             <a href="">
               <Image width={200} height={600} src="/logo/tiktoklogomini.png" alt="tiktok" />
             </a>
@@ -98,7 +98,7 @@ export default function Page() {
         </div>
       </div>
 
-      <div className="pb-2 text-center text-2xl font-bold text-p1-darkgreen md:pt-4 md:text-4xl">
+      <div className="pb-2 text-center text-2xl font-bold text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan md:pt-4 md:text-4xl">
         Подпишись с помощью
       </div>
 

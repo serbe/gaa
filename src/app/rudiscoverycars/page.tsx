@@ -15,32 +15,32 @@ export default function Page() {
           Страница исследователя
         </div>
       </div>
-      <div className="rounded-3xl border-cyan-700 hover:border-p1-gray md:border-4 md:shadow-lg">
+      <div className="rounded-3xl border-cyan-700 hover:border-p1-gray dark:hover:border-p1-green md:border-4 md:shadow-lg">
         <div className="flex flex-wrap justify-center px-2 pt-2 md:flex-nowrap">
           <div>
-            <p className="p-2 text-base text-p1-darkgreen md:text-xl">
+            <p className="p-2 text-base text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan md:text-xl">
               Невзаимозаменяемый токен, отражающий реальный коллекционный, спортивный,
               кастомизированный или раритетный автомобиль из национальной, корпоративной или частной
               коллекции
             </p>
-            <p className="p-2 text-base text-p1-darkgreen md:text-xl">
+            <p className="p-2 text-base text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan md:text-xl">
               Каждый NFT содержит метаданные, хранящие информацию о коллекционном экземпляре, его
               описание и характеристики
             </p>
-            <p className="p-2 text-base text-p1-darkgreen md:text-xl">
+            <p className="p-2 text-base text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan md:text-xl">
               При создании NFT есть возможность добавить медиаконтент.
             </p>
-            <p className="p-2 text-base text-p1-darkgreen md:text-xl">
+            <p className="p-2 text-base text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan md:text-xl">
               Для получения Car NFT необходимо владеть хотябы одной NFT из коллекций Drivers,
               Team&apos;s Members, Collectors NFT
             </p>
 
-            <p className="p-2 text-base text-p1-darkgreen md:text-xl">
+            <p className="p-2 text-base text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan md:text-xl">
               Данный токен Burnebal, то есть собственник смарт-контракта может уничтожить любой
               токен из коллекции, эта мера необходима для формирования чистоты коллекции.
             </p>
 
-            <p className="p-2 text-base text-p1-darkgreen md:text-xl">
+            <p className="p-2 text-base text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan md:text-xl">
               То есть собственник смарт-контракта вправе уничтожить NFT в случае нарушения
               держателем Drivers, Team&apos;s Members, Collectors NFT правил создания NFT не
               соответствующих целям Проекта.
@@ -92,7 +92,7 @@ export default function Page() {
                 <div className="justify-self-center">
                   <a
                     href="/rumintcars"
-                    className="inline-block w-full place-content-center rounded-3xl border-2 border-cyan-700 bg-p2-white2 px-10 py-8 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-cyan-700 hover:text-p1-white"
+                    className="inline-block w-full place-content-center rounded-3xl border-2 border-cyan-700 bg-p2-white2 px-10 py-8 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-cyan-700 hover:text-p1-white dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:bg-cyan-700 dark:hover:text-p1-white"
                   >
                     Страница создания NFT
                   </a>

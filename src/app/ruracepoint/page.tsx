@@ -12,21 +12,19 @@ export default function Page() {
 
       <div className="text-center text-4xl font-bold text-p2-orange md:pt-4 md:text-6xl">
         Racepoint
+        <p className="text-center text-xl md:pb-4 md:text-4xl">by Global Automotive Association</p>
       </div>
-
-      <div className="text-center text-xl font-bold text-p2-orange md:pb-4 md:text-4xl">
-        by Global Automotive Association
-      </div>
-
       <div className="flex flex-row justify-center pb-5">
         <div className="md:basis-3/5">
-          <div className="rounded-3xl border-p2-orange px-2 md:my-5 md:space-y-6 md:border-4 md:p-6 md:hover:shadow-2xl">
-            <div className="px-2 text-center text-xl text-p1-darkgreen md:pb-5 md:text-2xl">
+          <div className="rounded-3xl border-p2-orange px-2 dark:border-amber-600 dark:text-amber-600 md:my-5 md:space-y-6 md:border-4 md:p-6 md:hover:shadow-2xl">
+            <div className="px-2 text-center text-xl text-p1-darkgreen dark:text-amber-600 md:pb-5 md:text-2xl">
               Racepoint - наша внутренняя система накопления &quot;очков&quot; на аккаунт. В будущем
               возможно преобразовать в коин, пока что просто &quot;число&quot; на сайте.
             </div>
-            <div className="text-center text-2xl text-p1-darkgreen">Как зарабатывать:</div>
-            <ol className="list-decimal space-y-4 p-4 pb-5 text-p1-darkgreen">
+            <div className="text-center text-2xl text-p1-darkgreen dark:text-amber-600">
+              Как зарабатывать:
+            </div>
+            <ol className="list-decimal space-y-4 p-4 pb-5 text-p1-darkgreen dark:text-amber-600">
               <li>
                 Заходить на сайт и решать квизы, которые обновляются раз в неделю, 1 аккаунт = один
                 квиз в неделю
@@ -51,7 +49,7 @@ export default function Page() {
 
       <div className="flex flex-row justify-center pb-5">
         <div className="md:basis-3/5">
-          <div className="text-center text-xl font-bold text-p2-orange md:pb-4 md:text-4xl">
+          <div className="text-center text-xl font-bold text-p2-orange dark:text-amber-600 md:pb-4 md:text-4xl">
             Racepoint
           </div>
         </div>
@@ -59,11 +57,11 @@ export default function Page() {
       <div id="1" className="md:pt-2"></div>
       <div className="flex flex-row justify-center pb-5">
         <div className="md:basis-3/5">
-          <div className="rounded-3xl border-p2-orange p-2 md:my-5 md:space-y-6 md:border-4 md:p-6 md:hover:shadow-2xl">
-            <div className="text-center text-xl text-p1-darkgreen md:text-2xl">
+          <div className="rounded-3xl border-p2-orange p-2 dark:border-amber-600 md:my-5 md:space-y-6 md:border-4 md:p-6 md:hover:shadow-2xl">
+            <div className="text-center text-xl text-p1-darkgreen dark:text-amber-600 md:text-2xl">
               Приветственный бонус:
             </div>
-            <div className="text-center text-p1-darkgreen">
+            <div className="text-center text-p1-darkgreen dark:text-amber-600">
               За регистрацию на сайте получите 100 приветственных бонусов
             </div>
           </div>
@@ -73,11 +71,11 @@ export default function Page() {
 
       <div className="flex flex-row justify-center pb-5">
         <div className="md:basis-3/5">
-          <div className="rounded-3xl border-p2-orange p-2 md:my-5 md:space-y-6 md:border-4 md:p-6 md:hover:shadow-2xl">
-            <div className="text-center text-xl text-p1-darkgreen md:text-2xl">
+          <div className="rounded-3xl border-p2-orange p-2 dark:border-amber-600 md:my-5 md:space-y-6 md:border-4 md:p-6 md:hover:shadow-2xl">
+            <div className="text-center text-xl text-p1-darkgreen dark:text-amber-600 md:text-2xl">
               Мы ценим конфиденциальность:
             </div>
-            <div className="text-center text-p1-darkgreen">
+            <div className="text-center text-p1-darkgreen dark:text-amber-600">
               в качестве регистрации достаточно Web3Wallet (MetaMask e.t.c.) или E-mail
             </div>
             <div className="flex flex-row justify-center pb-5">
@@ -100,11 +98,11 @@ export default function Page() {
 
       <div className="flex flex-row justify-center pb-5">
         <div className="md:basis-5/5">
-          <div className="rounded-3xl border-p2-orange p-2 md:my-5 md:space-y-6 md:border-4 md:p-6 md:hover:shadow-2xl">
-            <div className="text-center text-xl text-p1-darkgreen md:text-2xl">
+          <div className="rounded-3xl border-p2-orange p-2 dark:border-amber-600 md:my-5 md:space-y-6 md:border-4 md:p-6 md:hover:shadow-2xl">
+            <div className="text-center text-xl text-p1-darkgreen dark:text-amber-600 md:text-2xl">
               Ежедневная награда
             </div>
-            <div className="text-center text-p1-darkgreen">
+            <div className="text-center text-p1-darkgreen dark:text-amber-600">
               за ежедневный вход на сайт мы благодарим посетителей предоставлением Racepoints
             </div>
             <div className="flex flex-row justify-center pb-5">
@@ -161,11 +159,11 @@ export default function Page() {
 
       <div className="flex flex-row justify-center pb-5">
         <div className="md:basis-3/5">
-          <div className="rounded-3xl border-p2-orange p-6 md:my-5 md:space-y-6 md:border-4 md:hover:shadow-2xl">
-            <div className="text-center text-xl text-p1-darkgreen md:text-2xl">
+          <div className="rounded-3xl border-p2-orange p-6 dark:border-amber-600 md:my-5 md:space-y-6 md:border-4 md:hover:shadow-2xl">
+            <div className="text-center text-xl text-p1-darkgreen dark:text-amber-600 md:text-2xl">
               Реферальная программа
             </div>
-            <div className="text-center text-p1-darkgreen">
+            <div className="text-center text-p1-darkgreen dark:text-amber-600">
               пригласи друга по реферальной ссылке - получи Racepoints
             </div>
             <div className="flex flex-row justify-center pb-5">
@@ -213,10 +211,10 @@ export default function Page() {
 
       <div className="flex flex-row justify-center pb-5">
         <div className="md:basis-3/5">
-          <div className="text-center text-xl font-bold text-p2-orange md:pb-4 md:text-4xl">
+          <div className="text-center text-xl font-bold text-p2-orange dark:text-amber-600 md:pb-4 md:text-4xl">
             Участвуй
           </div>
-          <div className="text-center text-xl font-bold text-p2-orange md:pb-4 md:text-4xl">
+          <div className="text-center text-xl font-bold text-p2-orange dark:text-amber-600 md:pb-4 md:text-4xl">
             в опросах и викторинах
           </div>
         </div>
@@ -225,8 +223,8 @@ export default function Page() {
 
       <div className="flex flex-row justify-center pb-5">
         <div className="basis-5/5">
-          <div className="rounded-3xl border-p2-orange p-2 md:my-5 md:space-y-6 md:border-4 md:p-6 md:hover:shadow-2xl">
-            <div className="pb-2 text-center text-sm font-semibold text-p1-darkgreen md:text-2xl">
+          <div className="rounded-3xl border-p2-orange p-2 dark:border-amber-600 md:my-5 md:space-y-6 md:border-4 md:p-6 md:hover:shadow-2xl">
+            <div className="pb-2 text-center text-sm font-semibold text-p1-darkgreen dark:text-amber-600 md:text-2xl">
               Участвуй в опросах и викторинах за пройденый опрос получи Racepoints
             </div>
 
@@ -284,8 +282,8 @@ export default function Page() {
 
       <div className="flex flex-row justify-center pb-5">
         <div className="basis-5/5">
-          <div className="rounded-3xl border-p2-orange p-2 md:my-5 md:space-y-6 md:border-4 md:p-6 md:hover:shadow-2xl">
-            <div className="pb-2 text-center text-sm font-semibold text-p1-darkgreen md:text-2xl">
+          <div className="rounded-3xl border-p2-orange p-2 dark:border-amber-600 md:my-5 md:space-y-6 md:border-4 md:p-6 md:hover:shadow-2xl">
+            <div className="pb-2 text-center text-sm font-semibold text-p1-darkgreen dark:text-amber-600 md:text-2xl">
               Отвечай на вопросы, связанные с миром автоспорта и автокультуры за правильный ответ
               получи Racepoints
             </div>
@@ -356,8 +354,8 @@ export default function Page() {
 
       <div className="flex flex-row place-self-center pb-5">
         <div className="basis-5/5">
-          <div className="rounded-3xl border-p2-orange md:my-5 md:space-y-6 md:border-4 md:p-6 md:hover:shadow-2xl">
-            <div className="pb-2 text-center text-sm font-semibold text-p1-darkgreen md:text-2xl">
+          <div className="rounded-3xl border-p2-orange dark:border-amber-600 md:my-5 md:space-y-6 md:border-4 md:p-6 md:hover:shadow-2xl">
+            <div className="pb-2 text-center text-sm font-semibold text-p1-darkgreen dark:text-amber-600 md:text-2xl">
               Получай тематические карточки и получи Racepoints
             </div>
 
@@ -381,17 +379,21 @@ export default function Page() {
 
       <div className="flex flex-row justify-center pb-5">
         <div className="md:basis-3/5">
-          <div className="rounded-3xl border-p2-orange p-2 md:my-5 md:space-y-3 md:border-4 md:p-6 md:hover:shadow-2xl">
-            <div className="pb-2 text-center text-2xl text-p1-darkgreen">Бонусы начисляются</div>
-            <ul className="list-disc pb-2 text-p1-darkgreen md:px-5">
+          <div className="rounded-3xl border-p2-orange p-2 dark:border-amber-600 md:my-5 md:space-y-3 md:border-4 md:p-6 md:hover:shadow-2xl">
+            <div className="pb-2 text-center text-2xl text-p1-darkgreen dark:text-amber-600">
+              Бонусы начисляются
+            </div>
+            <ul className="list-disc pb-2 text-p1-darkgreen dark:text-amber-600 md:px-5">
               <li> за правильные ответ викторины</li>
               <li> за пройденные опросы </li>
               <li> по реферальной программе </li>
             </ul>
-            <div className="px-2 text-center text-p1-darkgreen">
+            <div className="px-2 text-center text-p1-darkgreen dark:text-amber-600">
               зарегистрированные пользователи смогут получить
             </div>
-            <div className="px-2 text-center text-p1-darkgreen">от 10 до 100 Racepoints</div>
+            <div className="px-2 text-center text-p1-darkgreen dark:text-amber-600">
+              от 10 до 100 Racepoints
+            </div>
           </div>
         </div>
       </div>
@@ -407,18 +409,18 @@ export default function Page() {
 
       <div className="flex flex-row justify-center pb-5">
         <div className="md:basis-3/5">
-          <div className="rounded-3xl border-p2-orange p-6 md:my-5 md:space-y-6 md:border-4 md:hover:shadow-2xl">
-            <div className="text-center text-p1-darkgreen">
+          <div className="rounded-3xl border-p2-orange p-6 dark:border-amber-600 md:my-5 md:space-y-6 md:border-4 md:hover:shadow-2xl">
+            <div className="text-center text-p1-darkgreen dark:text-amber-600">
               Вашу активность мы оцениваем бонусами Racepoints
             </div>
-            <div className="text-center text-2xl text-p1-darkgreen">
+            <div className="text-center text-2xl text-p1-darkgreen dark:text-amber-600">
               Ваши Racepoints - Ваши преимущества
             </div>
-            <div className="text-center text-p1-darkgreen">
+            <div className="text-center text-p1-darkgreen dark:text-amber-600">
               Самые активные получат доступ в White List и эксклюзивный доступ к Pre Mint NFT
             </div>
 
-            <ol className="list space-y-4 p-4 pb-5 text-center text-2xl text-p1-darkgreen">
+            <ol className="list space-y-4 p-4 pb-5 text-center text-2xl text-p1-darkgreen dark:text-amber-600">
               <li>Level - 1 PreMint 10% off</li>
               <li>Level - 2 PreMint 20% off</li>
               <li>Level - 3 PreMint 30% off</li>
@@ -438,12 +440,12 @@ export default function Page() {
 
       <div className="flex flex-row justify-center pb-5">
         <div className="md:basis-3/5">
-          <div className="rounded-3xl border-p2-orange p-6 md:my-5 md:space-y-6 md:border-4 md:hover:shadow-2xl">
-            <div className="text-center text-xl text-p1-darkgreen md:text-2xl">
+          <div className="rounded-3xl border-p2-orange p-6 dark:border-amber-600 md:my-5 md:space-y-6 md:border-4 md:hover:shadow-2xl">
+            <div className="text-center text-xl text-p1-darkgreen dark:text-amber-600 md:text-2xl">
               После минта коллекции RaceLads проведем розыгрыш NFT из коллекции:
             </div>
 
-            <ul className="list-disc space-y-3 px-5 text-p1-darkgreen">
+            <ul className="list-disc space-y-3 px-5 text-p1-darkgreen dark:text-amber-600">
               <li>среди 10% самых активных пользователей зарегистрированных на сайте</li>
               <li>среди всех зарегистрированных на сайте</li>
               <li>среди активных пользователей, продвигающих Проект</li>
@@ -452,7 +454,7 @@ export default function Page() {
               <li>среди партнеров</li>
               <div className="pb-5"></div>
             </ul>
-            <div className="pb-5 text-center text-xl text-p1-darkgreen md:text-2xl">
+            <div className="pb-5 text-center text-xl text-p1-darkgreen dark:text-amber-600 md:text-2xl">
               Шансы повышаются от активной позиции в развитии Global Automotive Association (DAO)
             </div>
           </div>
@@ -474,8 +476,8 @@ export default function Page() {
 
       <div className="flex flex-row justify-center pb-2">
         <div className="md:basis-3/5">
-          <div className="rounded-3xl border-p2-orange md:my-5 md:space-y-6 md:border-4 md:p-6 md:hover:shadow-2xl">
-            <ul className="list-disc space-y-3 px-5 text-p1-darkgreen">
+          <div className="rounded-3xl border-p2-orange dark:border-amber-600 md:my-5 md:space-y-6 md:border-4 md:p-6 md:hover:shadow-2xl">
+            <ul className="list-disc space-y-3 px-5 text-p1-darkgreen dark:text-amber-600">
               <li>участвовать в развитии Global Automotive Association (DAO)</li>
               <li>
                 провести минт NFT будующих коллекций от Global Automotive Association (DAO) с
