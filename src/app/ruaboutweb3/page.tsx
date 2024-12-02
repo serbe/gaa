@@ -26,7 +26,7 @@ export default function Page() {
       <div className="text-base md:text-xl">
         <div className="flex flex-row justify-center">
           <div className="basis-3/5 text-center text-p1-darkgreen">
-            <div className="p-2 text-xl font-bold text-p1-darkgreen drop-shadow-2xl md:text-4xl dark:text-p1-green dark:hover:text-p1-cyan">
+            <div className="p-2 text-xl font-bold text-p1-darkgreen drop-shadow-2xl dark:text-p1-green dark:hover:text-p1-cyan md:text-4xl">
               Изучи Web 3
             </div>
           </div>
@@ -48,11 +48,11 @@ export default function Page() {
         <div className="" id="1"></div>
 
         <div className="mx-auto flex max-w-full flex-row space-y-2 p-2">
-          <details className="open:bg-p1-greem dark:open:bg-p1-deepdarkgreen rounded-3xl border-p1-darkgreen p-2 open:ring-1 open:ring-black/5 hover:border-p2-orange open:md:border-4 open:md:shadow-lg dark:text-p1-green dark:open:ring-white/10 dark:hover:border-p1-green dark:hover:text-p1-cyan">
+          <details className="open:bg-p1-greem rounded-3xl border-p1-darkgreen p-2 open:ring-1 open:ring-black/5 hover:border-p2-orange dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:open:ring-white/10 dark:hover:border-p1-green dark:hover:text-p1-cyan open:md:border-4 open:md:shadow-lg">
             <summary className="text-lm select-none space-y-4 font-semibold leading-6 text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
               Что такое Web 3?
             </summary>
-            <div className="mt-3 text-base leading-6 text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
+            <div className="mt-3 text-base leading-6 text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan md:text-xl">
               <p>
                 Web 3 (или Web 3.0) — это концепция следующего поколения интернета, которая
                 ориентирована на децентрализацию и использование блокчейн-технологий для создания
@@ -91,11 +91,11 @@ export default function Page() {
         <div className="" id="2"></div>
 
         <div className="mx-auto flex max-w-full flex-row space-y-2 p-2">
-          <details className="open:bg-p1-greem dark:open:bg-p1-deepdarkgreen rounded-3xl border-p1-darkgreen p-2 open:ring-1 open:ring-black/5 hover:border-p2-orange open:md:border-4 open:md:shadow-lg dark:text-p1-green dark:open:ring-white/10 dark:hover:border-p1-green dark:hover:text-p1-cyan">
+          <details className="open:bg-p1-greem rounded-3xl border-p1-darkgreen p-2 open:ring-1 open:ring-black/5 hover:border-p2-orange dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:open:ring-white/10 dark:hover:border-p1-green dark:hover:text-p1-cyan open:md:border-4 open:md:shadow-lg">
             <summary className="text-lm select-none space-y-4 font-semibold leading-6 text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
               Для того чтобы лучше понять, что такое Web3 надо знать, что такое Web 1 и Web 2
             </summary>
-            <div className="mt-3 text-base leading-6 text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
+            <div className="mt-3 text-base leading-6 text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan md:text-xl">
               <p>Web-1</p>
               <div className="space-y-4 pb-5"></div>
               <div className="pb-5">
@@ -158,11 +158,11 @@ export default function Page() {
         <div className="" id="3"></div>
 
         <div className="mx-auto flex max-w-full flex-row space-y-2 p-2">
-          <details className="open:bg-p1-greem dark:open:bg-p1-deepdarkgreen rounded-3xl border-p1-darkgreen p-2 open:ring-1 open:ring-black/5 hover:border-p2-orange open:md:border-4 open:md:shadow-lg dark:text-p1-green dark:open:ring-white/10 dark:hover:border-p1-green dark:hover:text-p1-cyan">
+          <details className="open:bg-p1-greem rounded-3xl border-p1-darkgreen p-2 open:ring-1 open:ring-black/5 hover:border-p2-orange dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:open:ring-white/10 dark:hover:border-p1-green dark:hover:text-p1-cyan open:md:border-4 open:md:shadow-lg">
             <summary className="text-lm select-none space-y-4 font-semibold leading-6 text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
               Web 2
             </summary>
-            <div className="mt-3 text-base leading-6 text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
+            <div className="mt-3 text-base leading-6 text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan md:text-xl">
               <p>
                 Web 2 (или Web 2.0) — это вторая эпоха развития интернета, начавшаяся в начале
                 2000-х годов. Web2 представляет собой переход от статических веб-страниц и
@@ -229,11 +229,11 @@ export default function Page() {
         <div className="" id="4"></div>
 
         <div className="mx-auto flex max-w-full flex-row space-y-2 p-2">
-          <details className="open:bg-p1-greem dark:open:bg-p1-deepdarkgreen rounded-3xl border-p1-darkgreen p-2 open:ring-1 open:ring-black/5 hover:border-p2-orange open:md:border-4 open:md:shadow-lg dark:text-p1-green dark:open:ring-white/10 dark:hover:border-p1-green dark:hover:text-p1-cyan">
+          <details className="open:bg-p1-greem rounded-3xl border-p1-darkgreen p-2 open:ring-1 open:ring-black/5 hover:border-p2-orange dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:open:ring-white/10 dark:hover:border-p1-green dark:hover:text-p1-cyan open:md:border-4 open:md:shadow-lg">
             <summary className="text-lm select-none space-y-4 font-semibold leading-6 text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
               Децентрализация
             </summary>
-            <div className="mt-3 text-base leading-6 text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
+            <div className="mt-3 text-base leading-6 text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan md:text-xl">
               <p>
                 Децентрализация — это процесс распределения власти, управления и принятия решений от
                 центрального органа или единой точки контроля к более распределенной системе или
@@ -284,11 +284,11 @@ export default function Page() {
         </div>
         <div className="" id="5"></div>
         <div className="mx-auto flex max-w-full flex-row space-y-2 p-2">
-          <details className="open:bg-p1-greem dark:open:bg-p1-deepdarkgreen rounded-3xl border-p1-darkgreen p-2 open:ring-1 open:ring-black/5 hover:border-p2-orange open:md:border-4 open:md:shadow-lg dark:text-p1-green dark:open:ring-white/10 dark:hover:border-p1-green dark:hover:text-p1-cyan">
+          <details className="open:bg-p1-greem rounded-3xl border-p1-darkgreen p-2 open:ring-1 open:ring-black/5 hover:border-p2-orange dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:open:ring-white/10 dark:hover:border-p1-green dark:hover:text-p1-cyan open:md:border-4 open:md:shadow-lg">
             <summary className="text-lm select-none space-y-4 font-semibold leading-6 text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
               Что такое блокчейн?
             </summary>
-            <div className="mt-3 text-base leading-6 text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
+            <div className="mt-3 text-base leading-6 text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan md:text-xl">
               <p>
                 Блокчейн (blockchain) — это распределенная и защищенная технология хранения данных,
                 представляющая собой цепочку блоков, каждый из которых содержит информацию. Эта
@@ -414,11 +414,11 @@ export default function Page() {
         </div>
         <div className="" id="6"></div>
         <div className="mx-auto flex max-w-full flex-row space-y-2 p-2">
-          <details className="open:bg-p1-greem dark:open:bg-p1-deepdarkgreen rounded-3xl border-p1-darkgreen p-2 open:ring-1 open:ring-black/5 hover:border-p2-orange open:md:border-4 open:md:shadow-lg dark:text-p1-green dark:open:ring-white/10 dark:hover:border-p1-green dark:hover:text-p1-cyan">
+          <details className="open:bg-p1-greem rounded-3xl border-p1-darkgreen p-2 open:ring-1 open:ring-black/5 hover:border-p2-orange dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:open:ring-white/10 dark:hover:border-p1-green dark:hover:text-p1-cyan open:md:border-4 open:md:shadow-lg">
             <summary className="text-lm select-none space-y-4 font-semibold leading-6 text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
               Смарт-контракты
             </summary>
-            <div className="mt-3 text-base leading-6 text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
+            <div className="mt-3 text-base leading-6 text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan md:text-xl">
               <p>
                 Смарт-контракты (англ. smart contracts) — это самоисполняющиеся контракты с
                 условиями соглашения между покупателем и продавцом, написанными непосредственно в
@@ -538,11 +538,11 @@ export default function Page() {
         </div>
         <div className="" id="7"></div>
         <div className="mx-auto flex max-w-full flex-row space-y-2 p-2">
-          <details className="open:bg-p1-greem dark:open:bg-p1-deepdarkgreen rounded-3xl border-p1-darkgreen p-2 open:ring-1 open:ring-black/5 hover:border-p2-orange open:md:border-4 open:md:shadow-lg dark:text-p1-green dark:open:ring-white/10 dark:hover:border-p1-green dark:hover:text-p1-cyan">
+          <details className="open:bg-p1-greem rounded-3xl border-p1-darkgreen p-2 open:ring-1 open:ring-black/5 hover:border-p2-orange dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:open:ring-white/10 dark:hover:border-p1-green dark:hover:text-p1-cyan open:md:border-4 open:md:shadow-lg">
             <summary className="text-lm select-none space-y-4 font-semibold leading-6 text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
               ДАО (Децентрализованная автономная организация)
             </summary>
-            <div className="mt-3 text-base leading-6 text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
+            <div className="mt-3 text-base leading-6 text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan md:text-xl">
               <p>
                 ДАО (Децентрализованная автономная организация) — это организация, управляемая с
                 помощью блокчейн-технологий и смарт-контрактов, которая функционирует без
@@ -634,11 +634,11 @@ export default function Page() {
         </div>
         <div className="" id="8"></div>
         <div className="mx-auto flex max-w-full flex-row space-y-2 p-2">
-          <details className="open:bg-p1-greem dark:open:bg-p1-deepdarkgreen rounded-3xl border-p1-darkgreen p-2 open:ring-1 open:ring-black/5 hover:border-p2-orange open:md:border-4 open:md:shadow-lg dark:text-p1-green dark:open:ring-white/10 dark:hover:border-p1-green dark:hover:text-p1-cyan">
+          <details className="open:bg-p1-greem rounded-3xl border-p1-darkgreen p-2 open:ring-1 open:ring-black/5 hover:border-p2-orange dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:open:ring-white/10 dark:hover:border-p1-green dark:hover:text-p1-cyan open:md:border-4 open:md:shadow-lg">
             <summary className="text-lm select-none space-y-4 font-semibold leading-6 text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
               Организация хранения данных в децентрализованной сети по техологии IPFS
             </summary>
-            <div className="mt-3 text-base leading-6 text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
+            <div className="mt-3 text-base leading-6 text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan md:text-xl">
               <p>
                 IPFS (InterPlanetary File System, Межпланетная файловая система) — это
                 децентрализованная система хранения и обмена файлами, разработанная для создания
@@ -738,11 +738,11 @@ export default function Page() {
         </div>
         <div className="" id="9"></div>
         <div className="mx-auto flex max-w-full flex-row space-y-2 p-2">
-          <details className="open:bg-p1-greem dark:open:bg-p1-deepdarkgreen rounded-3xl border-p1-darkgreen p-2 open:ring-1 open:ring-black/5 hover:border-p2-orange open:md:border-4 open:md:shadow-lg dark:text-p1-green dark:open:ring-white/10 dark:hover:border-p1-green dark:hover:text-p1-cyan">
+          <details className="open:bg-p1-greem rounded-3xl border-p1-darkgreen p-2 open:ring-1 open:ring-black/5 hover:border-p2-orange dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:open:ring-white/10 dark:hover:border-p1-green dark:hover:text-p1-cyan open:md:border-4 open:md:shadow-lg">
             <summary className="text-lm select-none space-y-4 font-semibold leading-6 text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
               Организация хранения данных в децентрализованной сети по техологии Blockweave
             </summary>
-            <div className="mt-3 text-base leading-6 text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
+            <div className="mt-3 text-base leading-6 text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan md:text-xl">
               <p>
                 Blockweave — это уникальная структура хранения данных, используемая в сети Arweave.
                 Она отличается от традиционных блокчейнов тем, что каждый блок в сети не только
@@ -756,11 +756,11 @@ export default function Page() {
         </div>
         <div className="" id="10"></div>
         <div className="mx-auto flex max-w-full flex-row space-y-2 p-2">
-          <details className="open:bg-p1-greem dark:open:bg-p1-deepdarkgreen rounded-3xl border-p1-darkgreen p-2 open:ring-1 open:ring-black/5 hover:border-p2-orange open:md:border-4 open:md:shadow-lg dark:text-p1-green dark:open:ring-white/10 dark:hover:border-p1-green dark:hover:text-p1-cyan">
+          <details className="open:bg-p1-greem rounded-3xl border-p1-darkgreen p-2 open:ring-1 open:ring-black/5 hover:border-p2-orange dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:open:ring-white/10 dark:hover:border-p1-green dark:hover:text-p1-cyan open:md:border-4 open:md:shadow-lg">
             <summary className="text-lm select-none space-y-4 font-semibold leading-6 text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
               Что такое токен?
             </summary>
-            <div className="mt-3 text-base leading-6 text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
+            <div className="mt-3 text-base leading-6 text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan md:text-xl">
               <p>
                 Токен — это цифровой актив, представляющий собой единицу стоимости или права,
                 созданный и управляемый с использованием блокчейн-технологий. Токены могут иметь
@@ -871,7 +871,7 @@ export default function Page() {
         </div>
         <div className="" id="11"></div>
         <div className="mx-auto flex max-w-full flex-row space-y-2 p-2">
-          <details className="open:bg-p1-greem dark:open:bg-p1-deepdarkgreen rounded-3xl border-p1-darkgreen p-2 open:ring-1 open:ring-black/5 hover:border-p2-orange open:md:border-4 open:md:shadow-lg dark:text-p1-green dark:open:ring-white/10 dark:hover:border-p1-green dark:hover:text-p1-cyan">
+          <details className="open:bg-p1-greem rounded-3xl border-p1-darkgreen p-2 open:ring-1 open:ring-black/5 hover:border-p2-orange dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:open:ring-white/10 dark:hover:border-p1-green dark:hover:text-p1-cyan open:md:border-4 open:md:shadow-lg">
             <summary className="text-lm select-none space-y-4 font-semibold leading-6 text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
               Что такое NFT?
             </summary>
@@ -990,11 +990,11 @@ export default function Page() {
         </div>
         <div className="" id="12"></div>
         <div className="mx-auto flex max-w-full flex-row space-y-2 p-2">
-          <details className="open:bg-p1-greem dark:open:bg-p1-deepdarkgreen rounded-3xl border-p1-darkgreen p-2 open:ring-1 open:ring-black/5 hover:border-p2-orange open:md:border-4 open:md:shadow-lg dark:text-p1-green dark:open:ring-white/10 dark:hover:border-p1-green dark:hover:text-p1-cyan">
+          <details className="open:bg-p1-greem rounded-3xl border-p1-darkgreen p-2 open:ring-1 open:ring-black/5 hover:border-p2-orange dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:open:ring-white/10 dark:hover:border-p1-green dark:hover:text-p1-cyan open:md:border-4 open:md:shadow-lg">
             <summary className="text-lm select-none space-y-4 font-semibold leading-6 text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
               Каким образом хранится NFT и сведения о том, что я собственник?
             </summary>
-            <div className="mt-3 text-base leading-6 text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
+            <div className="mt-3 text-base leading-6 text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan md:text-xl">
               <p>
                 NFT (невзаимозаменяемые токены) представляют собой уникальные цифровые активы,
                 которые хранятся на блокчейне. Однако, в отличие от криптовалют, таких как биткоин
@@ -1097,11 +1097,11 @@ export default function Page() {
         </div>
         <div className="" id="13"></div>
         <div className="mx-auto flex max-w-full flex-row space-y-2 p-2">
-          <details className="open:bg-p1-greem dark:open:bg-p1-deepdarkgreen rounded-3xl border-p1-darkgreen p-2 open:ring-1 open:ring-black/5 hover:border-p2-orange open:md:border-4 open:md:shadow-lg dark:text-p1-green dark:open:ring-white/10 dark:hover:border-p1-green dark:hover:text-p1-cyan">
+          <details className="open:bg-p1-greem rounded-3xl border-p1-darkgreen p-2 open:ring-1 open:ring-black/5 hover:border-p2-orange dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:open:ring-white/10 dark:hover:border-p1-green dark:hover:text-p1-cyan open:md:border-4 open:md:shadow-lg">
             <summary className="text-lm select-none space-y-4 font-semibold leading-6 text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
               Что такое метаданные?
             </summary>
-            <div className="mt-3 text-base leading-6 text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
+            <div className="mt-3 text-base leading-6 text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan md:text-xl">
               <p>
                 Метаданные — это данные, которые описывают и предоставляют информацию о других
                 данных. В контексте цифровых активов, таких как NFT, метаданные играют важную роль,
@@ -1202,11 +1202,11 @@ export default function Page() {
         </div>
         <div className="" id="14"></div>
         <div className="mx-auto flex max-w-full flex-row space-y-2 p-2">
-          <details className="open:bg-p1-greem dark:open:bg-p1-deepdarkgreen rounded-3xl border-p1-darkgreen p-2 open:ring-1 open:ring-black/5 hover:border-p2-orange open:md:border-4 open:md:shadow-lg dark:text-p1-green dark:open:ring-white/10 dark:hover:border-p1-green dark:hover:text-p1-cyan">
+          <details className="open:bg-p1-greem rounded-3xl border-p1-darkgreen p-2 open:ring-1 open:ring-black/5 hover:border-p2-orange dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:open:ring-white/10 dark:hover:border-p1-green dark:hover:text-p1-cyan open:md:border-4 open:md:shadow-lg">
             <summary className="text-lm select-none space-y-4 font-semibold leading-6 text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
               Что такое MetaMask?
             </summary>
-            <div className="mt-3 text-base leading-6 text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
+            <div className="mt-3 text-base leading-6 text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan md:text-xl">
               <p>
                 MetaMask — это популярный криптовалютный кошелек и инструмент для взаимодействия с
                 блокчейном Ethereum, который позволяет пользователям управлять своими эфирами (ETH)

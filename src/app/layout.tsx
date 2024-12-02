@@ -25,7 +25,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: Readonly<Props>) {
   return (
-    <html lang="en" class="dark" className={`${inter.className} scroll-smooth md:scroll-auto`}>
+    <html lang="en" className={`${inter.className} scroll-smooth md:scroll-auto`}>
       <body>
         <div className="">
           <GaaStoreProvider>
