@@ -146,13 +146,13 @@ export default function Page() {
                         Максимальное количество: 100 Team&apos;s member NFT за транзакцию
                       </p>
 
-                      <p className="p-2 text-base font-semibold text-p1-darkgreen md:text-2xl dark:text-p1-green">
+                      <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green">
                         Созданные вами NFT автоматически попадут в глобальную коллекцию GAA
                       </p>
-                      <p className="p-2 text-base font-semibold text-p1-darkgreen md:text-2xl dark:text-p1-green">
+                      <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green">
                         это единый сборник мирового сообщества
                       </p>
-                      <p className="p-2 text-base font-semibold text-p1-darkgreen md:text-2xl dark:text-p1-green">
+                      <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green">
                         Если вы планируете раздать или продать свои NFT, вы можете сделать несколько
                         NFT одновременно
                       </p>

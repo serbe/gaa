@@ -28,14 +28,14 @@ export default function Page() {
               Получите своего героя RaceLad
             </p>
             <Image
-              className="mb-4 flex w-4/5 place-self-center rounded-3xl border-2 border-p2-orange md:w-2/3 md:shadow-lg"
+              className="mb-4 flex w-4/5 place-self-center rounded-3xl border-2 border-p2-orange md:w-2/5 md:shadow-lg dark:border-amber-600"
               width={1000}
               height={1000}
               src="/HeroNFT/RaceLads/RaceLads1.png"
               alt="RaceLads1"
             />
 
-            <div className="w-3/5 place-self-center text-center accent-amber-600 md:my-5">
+            <div className="w-2/5 place-self-center text-center accent-amber-600 md:my-2">
               <label
                 htmlFor="default-range"
                 className="mb-2 block text-2xl font-medium text-gray-900 dark:text-p2-orange"
@@ -53,10 +53,10 @@ export default function Page() {
               />
             </div>
 
-            <p className="pt-4 text-center text-base text-p1-darkgreen md:text-2xl dark:text-p1-green">
+            <p className="text-center text-base text-p1-darkgreen md:text-xl dark:text-p1-green">
               Максимальное количество:
             </p>
-            <p className="pb-4 text-center text-base text-p1-darkgreen md:pb-8 md:text-2xl dark:text-p1-green">
+            <p className="pb-2 text-center text-base text-p1-darkgreen md:pb-2 md:text-xl dark:text-p1-green">
               10 RaceLads за транзакцию
             </p>
             <div className="place-self-center">
@@ -64,7 +64,7 @@ export default function Page() {
                 Создать NFT
               </button>
             </div>
-            <div id="1" className="pb-2 md:pb-8"></div>
+            <div id="1" className="pb-2 md:pb-4"></div>
           </div>
         </div>
       </div>
