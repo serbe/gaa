@@ -76,7 +76,7 @@ export default function Page() {
                     pathname: '/rudiscoveryrewards',
                     query: { rewarddiscover: '3place' },
                   }}
-                  className="w-full rounded-l-xl border border-gray-200 bg-white p-5 text-center text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-yellow-800 focus:text-p1-white focus:ring-2 focus:ring-yellow-800 md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:bg-amber-700 dark:hover:text-p1-white dark:focus:bg-amber-700 dark:focus:text-p1-white dark:focus:ring-amber-900"
+                  className="w-full rounded-l-xl border border-gray-200 bg-white p-5 text-center text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-yellow-800 focus:text-p1-white focus:ring-2 focus:ring-yellow-800 md:text-xl dark:border-p1-green dark:bg-p1-darkgreen dark:text-p1-cyan dark:hover:border-gray-300 dark:hover:bg-amber-700 dark:hover:text-gray-100 dark:focus:bg-amber-700 dark:focus:text-p1-white dark:focus:ring-amber-900"
                 >
                   3 место
                 </Link>
@@ -85,7 +85,7 @@ export default function Page() {
                     pathname: '/rudiscoveryrewards',
                     query: { rewarddiscover: '1place' },
                   }}
-                  className="w-full border border-gray-200 bg-white p-5 text-center text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-p2-orange focus:text-p1-white focus:ring-2 focus:ring-p2-orange md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:bg-amber-500 dark:hover:text-p1-white dark:focus:bg-amber-500 dark:focus:text-p1-white dark:focus:ring-yellow-900"
+                  className="w-full border border-gray-200 bg-white p-5 text-center text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-p2-orange focus:text-p1-white focus:ring-2 focus:ring-p2-orange md:text-xl dark:border-p1-green dark:bg-p1-darkgreen dark:text-p1-cyan dark:hover:border-gray-300 dark:hover:bg-amber-600 dark:hover:text-amber-100 dark:focus:bg-amber-600 dark:focus:text-amber-100 dark:focus:ring-amber-600"
                 >
                   1 место
                 </Link>
@@ -95,7 +95,7 @@ export default function Page() {
                     pathname: '/rudiscoveryrewards',
                     query: { rewarddiscover: '2place' },
                   }}
-                  className="w-full rounded-r-xl border border-gray-200 bg-white p-5 text-center text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-p1-gray focus:text-p1-white focus:ring-2 focus:ring-p1-gray md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:bg-stone-600 dark:hover:text-p1-white dark:focus:bg-stone-600 dark:focus:text-p1-white dark:focus:ring-stone-600"
+                  className="w-full rounded-r-xl border border-gray-200 bg-white p-5 text-center text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-p1-gray focus:text-p1-white focus:ring-2 focus:ring-p1-gray md:text-xl dark:border-p1-green dark:bg-p1-darkgreen dark:text-p1-cyan dark:hover:border-gray-300 dark:hover:bg-gray-500 dark:hover:text-white dark:focus:bg-stone-600 dark:focus:text-stone-100 dark:focus:ring-stone-600"
                 >
                   2 место
                 </Link>
