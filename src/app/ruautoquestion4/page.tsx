@@ -1,5 +1,6 @@
 'use client';
-
+import Image from 'next/image';
+import Link from 'next/link';
 import { Dispatch, SetStateAction, useState } from 'react';
 
 const CorrectAnswer = () => (
@@ -126,6 +127,45 @@ export default function Page() {
         </div>
         <div className="px-2 text-xl font-semibold text-p2-orange md:pt-2 md:text-3xl">
           QUESTIONS
+        </div>
+      </div>
+
+      <div className="flex flex-wrap justify-between self-center md:flex-nowrap">
+        <div className="w-1/5 md:w-1/12">
+          <Link
+            href={{
+              pathname: '/ruautoquestion3',
+              query: { ruabout: 'ruautoquestion3' },
+            }}
+            className="mx-auto justify-center rounded-3xl hover:drop-shadow-2xl"
+          >
+            <Image
+              className="relative mb-4 inline-block w-max rounded-3xl opacity-85 shadow-lg transition-all delay-75 duration-500 ease-in-out hover:scale-105 hover:opacity-100"
+              width={1000}
+              height={1000}
+              src="/Arrows/Prev.png"
+              alt="prev"
+            />
+          </Link>
+        </div>
+        <div className="px-2 text-xl font-semibold text-p2-orange md:pt-2 md:text-3xl"></div>
+        <div className="px-2 text-xl font-semibold text-p2-orange md:pt-2 md:text-3xl"></div>{' '}
+        <div className="w-1/5 md:w-1/12">
+          <Link
+            href={{
+              pathname: '/ruautoquestion1',
+              query: { ruabout: 'ruautoquestion1' },
+            }}
+            className="mx-auto justify-center rounded-3xl hover:drop-shadow-2xl"
+          >
+            <Image
+              className="relative mb-4 inline-block w-max rounded-3xl opacity-85 shadow-lg transition-all delay-75 duration-500 ease-in-out hover:scale-105 hover:opacity-100"
+              width={1000}
+              height={1000}
+              src="/Arrows/Next.png"
+              alt="next"
+            />
+          </Link>
         </div>
       </div>
       <div className="px-2 text-center text-xl font-semibold text-p2-orange md:pt-2 md:text-3xl">
