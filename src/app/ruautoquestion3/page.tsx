@@ -3,11 +3,15 @@
 import { Dispatch, SetStateAction, useState } from 'react';
 
 const CorrectAnswer = () => (
-  <div className="text-3xl font-semibold text-green-600">Вы совершенно правы!</div>
+  <div className="text-3xl font-semibold text-green-600 dark:text-green-400">
+    Вы совершенно правы!
+  </div>
 );
 
 const WrongAnswer = () => (
-  <div className="text-3xl font-semibold text-red-600">Близко, но правильный ответ другой.</div>
+  <div className="text-3xl font-semibold text-red-600 dark:text-red-400">
+    Близко, но правильный ответ другой.
+  </div>
 );
 
 const ModalWindow = ({
@@ -27,12 +31,12 @@ const ModalWindow = ({
       aria-hidden={viewModal}
       className={`fixed z-50 ${viewModal ? 'hidden' : ''} h-[calc(100%-1rem)] max-h-full w-full items-center justify-center overflow-y-auto overflow-x-hidden backdrop-blur-sm md:inset-0`}
     >
-      <div className="relative mx-auto my-auto max-h-full w-full max-w-2xl p-4">
+      <div className="relative mx-auto my-auto max-h-full w-full p-4 md:w-3/5">
         {/* <!-- Modal content --> */}
-        <div className="relative rounded-lg border-4 border-p2-orange bg-p1-white shadow md:rounded-3xl dark:bg-gray-700">
+        <div className="relative rounded-lg border-4 border-p2-orange bg-p1-white shadow md:rounded-3xl dark:bg-p1-deepdarkgreen">
           {/* <!-- Modal header --> */}
           <div className="flex items-center justify-between rounded-t border-b p-4 md:p-5 dark:border-gray-600">
-            <p className="text-xl font-semibold text-gray-900 dark:text-white">
+            <p className="text-center font-serif text-base text-p1-darkgreen md:text-2xl dark:text-p1-cyan">
               Тройная корона автоспорта — не официальный, но при этом достаточно ценный титул. Его
               присуждают пилоту, который на протяжении карьеры смог добиться абсолютных побед в трех
               гонках: 500 миль Индианаполиса, 24 часа Ле-Мана и Гран-при Монако. Это пока удалось
@@ -67,14 +71,14 @@ const ModalWindow = ({
             {/* здесь проверяется правильность ответа в данном случае верный пункт - 2 */}
             {answer == 3 ? <CorrectAnswer /> : <WrongAnswer />}
           </div>
-          <div className="space-y-4 p-4 md:p-5">
+          <div className="space-y-4 p-4 text-p1-darkgreen md:p-5 md:text-lg dark:text-p1-green">
             <p className="pb-5">
               Тацио Нуволари (Ле-Ман 1933, Гран-при Монако 1932, не хватает «Инди-500»)
             </p>
             <p className="pb-5">
               Джим Кларк (титул Ф-1 в 1963 и 1965, «Инди-500» 1965, не хватает Ле-Мана)
             </p>
-            <p className="pb-5 font-semibold">
+            <p className="pb-5 text-p1-cyan">
               Грэм Хилл — единственный в истории человек, выигравший все главные гонки мира.
               Англичанин пять раз побеждал в Монако (больше побед только у Айртона Сенны), в 1969-м
               объехал всех на овале Индианаполиса, а еще через три года поднялся на высшую ступеньку
@@ -137,7 +141,7 @@ export default function Page() {
       <div className="flex flex-row justify-center">
         <div className="md:w-3/5">
           <div className="place-items-center rounded-3xl border-p2-orange p-2 md:border-4">
-            <div className="text-center font-serif text-base font-semibold text-p1-darkgreen md:text-xl">
+            <div className="text-center font-serif text-base text-p1-darkgreen md:text-2xl dark:text-p2-orange">
               Тройная корона автоспорта — не официальный, но при этом достаточно ценный титул. Его
               присуждают пилоту, который на протяжении карьеры смог добиться абсолютных побед в трех
               гонках: 500 миль Индианаполиса, 24 часа Ле-Мана и Гран-при Монако. Это пока удалось
@@ -145,7 +149,7 @@ export default function Page() {
             </div>
 
             <div className="pb-5"></div>
-            <ul className="w-full rounded-lg border border-gray-200 bg-p1-white text-2xl font-medium text-gray-900 dark:border-gray-600 dark:bg-gray-700 dark:text-white">
+            <ul className="w-full rounded-lg border border-gray-200 bg-p1-white font-medium text-gray-900 accent-p2-orange dark:border-gray-600 dark:bg-p1-deepdarkgreen dark:text-white">
               <li className="w-full rounded-t-lg border-b border-gray-200 dark:border-gray-600">
                 <div className="flex items-center ps-3" onClick={() => setAnswer(1)}>
                   <input
@@ -153,7 +157,7 @@ export default function Page() {
                     type="radio"
                     value=""
                     name="list-radio"
-                    className="h-5 w-5 border-gray-300 bg-gray-100 text-blue-600 accent-amber-600 focus:ring-2 focus:ring-amber-600 dark:border-gray-500 dark:bg-gray-600 dark:ring-offset-gray-700 dark:focus:ring-blue-600 dark:focus:ring-offset-gray-700"
+                    className="h-5 w-5 border-gray-300 bg-gray-100 text-p1-green focus:ring-2 focus:ring-p1-green dark:border-gray-500 dark:bg-gray-600 dark:ring-offset-gray-700 dark:focus:ring-p2-orange dark:focus:ring-offset-gray-700"
                   />
                   <label
                     htmlFor="list-radio-eleven"
@@ -170,7 +174,7 @@ export default function Page() {
                     type="radio"
                     value=""
                     name="list-radio"
-                    className="h-5 w-5 border-gray-300 bg-gray-100 text-blue-600 accent-amber-600 focus:ring-2 focus:ring-amber-600 dark:border-gray-500 dark:bg-gray-600 dark:ring-offset-gray-700 dark:focus:ring-blue-600 dark:focus:ring-offset-gray-700"
+                    className="h-5 w-5 border-gray-300 bg-gray-100 text-p1-green focus:ring-2 focus:ring-p1-green dark:border-gray-500 dark:bg-gray-600 dark:ring-offset-gray-700 dark:focus:ring-p2-orange dark:focus:ring-offset-gray-700"
                   />
                   <label
                     htmlFor="list-radio-twelve"
@@ -187,7 +191,7 @@ export default function Page() {
                     type="radio"
                     value=""
                     name="list-radio"
-                    className="h-5 w-5 border-gray-300 bg-gray-100 text-blue-600 accent-amber-600 focus:ring-2 focus:ring-amber-600 dark:border-gray-500 dark:bg-gray-600 dark:ring-offset-gray-700 dark:focus:ring-blue-600 dark:focus:ring-offset-gray-700"
+                    className="h-5 w-5 border-gray-300 bg-gray-100 text-p1-green focus:ring-2 focus:ring-p1-green dark:border-gray-500 dark:bg-gray-600 dark:ring-offset-gray-700 dark:focus:ring-p2-orange dark:focus:ring-offset-gray-700"
                   />
                   <label
                     htmlFor="list-radio-thirteen"
@@ -204,7 +208,7 @@ export default function Page() {
                     type="radio"
                     value=""
                     name="list-radio"
-                    className="h-5 w-5 border-gray-300 bg-gray-100 text-blue-600 accent-amber-600 focus:ring-2 focus:ring-amber-600 dark:border-gray-500 dark:bg-gray-600 dark:ring-offset-gray-700 dark:focus:ring-blue-600 dark:focus:ring-offset-gray-700"
+                    className="h-5 w-5 border-gray-300 bg-gray-100 text-p1-green focus:ring-2 focus:ring-p1-green dark:border-gray-500 dark:bg-gray-600 dark:ring-offset-gray-700 dark:focus:ring-p2-orange dark:focus:ring-offset-gray-700"
                   />
                   <label
                     htmlFor="list-radio-fourteen"
@@ -221,7 +225,7 @@ export default function Page() {
               data-modal-target="question-modal"
               data-modal-toggle="question-modal"
               onClick={() => setViewModal(!viewModal)}
-              className="mx-auto rounded-3xl border-2 border-p2-orange bg-p1-white px-10 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white"
+              className="inline-block rounded-xl border-2 border-p2-orange bg-p1-white px-10 py-8 text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p2-orange hover:text-p1-white dark:border-p1-cyan dark:bg-p1-darkgreen dark:text-p1-cyan dark:hover:border-p2-orange dark:hover:bg-amber-600 dark:hover:text-amber-100"
             >
               Ответить
             </button>

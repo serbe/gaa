@@ -140,7 +140,7 @@ export default function Page() {
       </div>
 
       <div className="md:pb-96"></div>
-
+      <div className="md:pb-48"></div>
       <div id="4" className="pt-10"></div>
 
       <div className="flex flex-row justify-center md:pb-5">
@@ -258,6 +258,7 @@ export default function Page() {
       </div>
 
       <div className="md:pb-96"></div>
+      <div className="md:pb-96"></div>
 
       <div id="11" className="pt-10"></div>
       <div className="flex flex-row justify-center md:pb-5">
@@ -268,12 +269,16 @@ export default function Page() {
         </div>
       </div>
       <div className="flex flex-row justify-center md:pb-5">
-        <div className="basis-1/6 p-2">
-          <Image width={200} height={600} src="/QR/QR-gaa.zone.png" alt="QR-gaa.zone" />
+        <div className="basis-1/6 scale-95 p-2 transition-all delay-75 duration-300 ease-in-out hover:scale-100">
+          <Link href="https://gaa.zone">
+            <Image width={200} height={600} src="/QR/QR-gaa.zone.png" alt="QR-gaa.zone" />
+          </Link>
         </div>
       </div>
       <div className="text-center text-xl text-p1-darkgreen md:pt-4 md:text-2xl dark:text-p1-green">
         <p>пока ссылка на сайт gaa.zone</p>
+        <p>реальную поддержку возможно будет осуществить </p>
+        <p>только после развертывания смарт-контрактов и старта Проекта</p>
       </div>
 
       <div className="flex flex-row justify-center md:pb-5">
@@ -282,6 +287,7 @@ export default function Page() {
         </div>
       </div>
       <div className="md:pb-96"></div>
+      <div className="md:pb-48"></div>
 
       <div id="12" className="pt-10"></div>
       <div className="flex flex-row justify-center md:pb-5">
@@ -339,7 +345,7 @@ export default function Page() {
         <div className="md:basis-3/5"></div>
       </div>
       <div className="md:pb-96"></div>
-
+      <div className="md:pb-36"></div>
       <div id="13"></div>
     </div>
   );
