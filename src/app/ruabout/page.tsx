@@ -142,17 +142,6 @@ export default function Page() {
       </div>
 
       <div className="flex flex-row justify-center p-2">
-        <div className="md:basis-5/5">
-          <div
-            id="1"
-            className="p-2 text-center text-xl font-bold text-p1-darkgreen drop-shadow-2xl md:text-3xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan"
-          >
-            О Нас
-          </div>
-        </div>
-      </div>
-
-      <div className="flex flex-row justify-center p-2">
         <div className="text-p1-darkgreen md:basis-4/6">
           <div className="rounded-3xl">
             <div className="px-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
@@ -164,24 +153,34 @@ export default function Page() {
         </div>
       </div>
 
+      <div className="flex flex-row justify-center p-2">
+        <div className="md:basis-5/5">
+          <div
+            id="1"
+            className="p-2 text-center text-xl font-bold text-p1-darkgreen drop-shadow-2xl md:text-3xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan"
+          >
+            Наши амбициозные планы
+          </div>
+        </div>
+      </div>
+      
+
       <div className="flex flex-row justify-center">
         <div className="mb-5 mt-5 text-p1-darkgreen md:basis-4/6">
           <div
             id="2"
             className="space-y-4 rounded-3xl border-p1-darkgreen p-6 text-left text-base text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:border-4 md:text-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan"
           >
-            <p className="text-center text-xl font-bold md:text-2xl">Наши амбициозные цели:</p>
-            <p>Создание активного сообщества:</p>
+            <p className="pt-2 text-center text-xl font-bold md:text-2xl">Создание активного сообщества</p>
             <p>
               Объединяем фанатов автоспорта и автомобильной культуры в соцсетях и мессенджерах
               (Telegram, Discord, X) для общения, новых знакомств и обмена опытом.
             </p>
-            <p>Организация и проведение крупных международных автоспортивных мероприятий.</p>
-            <p className="pt-2 text-center text-xl font-bold md:text-2xl">Партнерские отношения:</p>
+            <p className="pt-2 text-center text-xl font-bold md:text-2xl">Партнерские отношения</p>
             <p>
               Устанавливаем связи с организаторами и участниками крупнейших автоспортивных событий
-              (дрифт, кольцевые гонки, драг рейсинг, симрейсинг, автовыставки) для совместных
-              проектов и акций.
+              (дрифт, кольцевые гонки, драг рейсинг, симрейсинг, автовыставки) для реализации совместных
+              проектов.
             </p>
           </div>
         </div>
@@ -224,9 +223,9 @@ export default function Page() {
         <div className="md:basis-3/5">
           <div
             id="4"
-            className="pt-5 text-center text-6xl font-bold text-p1-darkgreen drop-shadow-2xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan"
+            className="pt-5 text-center text-4xl font-bold text-p1-darkgreen drop-shadow-2xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan"
           >
-            RaceLads
+            RaceLads NFT
           </div>
         </div>
         <div className="md:basis-1/5"></div>
@@ -237,7 +236,6 @@ export default function Page() {
         <div className="text-p1-darkgreen md:basis-4/6">
           <div>
             <div className="my-5 space-y-4 rounded-3xl border-p1-darkgreen p-6 text-left text-base text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:border-4 md:text-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
-              <p className="text-center text-2xl font-bold">NFT коллекция «RaceLads»</p>
               <p className="text-left text-base md:text-xl">
                 Выпускаем первую NFT коллекцию, состоящую из 10.000 эксклюзивных и уникальных
                 цифровых художественных работ, вдохновленных самыми захватывающими дисциплинами
@@ -250,7 +248,7 @@ export default function Page() {
               </p>
               <p className="text-left text-base md:text-xl">
                 Владение NFT из нашей коллекции в будущем откроет вам доступ в уникальный мир драйва
-                на Web3:
+                в Web3:
               </p>
               <ul className="list-disc space-y-3 px-5">
                 <li className="text-left text-base md:text-xl">
@@ -460,7 +458,7 @@ export default function Page() {
                 </li>
                 <li className="text-left text-base md:text-xl">выдачи цифровых лицензий</li>
               </ul>
-              <p className="text-center text-2xl font-bold">Уникальность коллекций заключается в</p>
+              <p className="text-center text-2xl font-bold">Уникальность коллекций заключается в:</p>
               <ul className="list-disc space-y-3 px-5">
                 <li className="text-left text-base md:text-xl">
                   ограниченном тираже уникальных объектов цифрового искусства
@@ -469,7 +467,7 @@ export default function Page() {
                   принадлежности коллекции к Проекту автоспортивного и автокультурного сообщества
                 </li>
                 <li className="text-left text-base md:text-xl">
-                  ограниченным перечнем коллекций цифрового исскусства
+                  ограниченном перечне коллекций цифрового исскусства
                 </li>
               </ul>
             </div>
@@ -483,9 +481,8 @@ export default function Page() {
         <div className="md:basis-3/5">
           <div
             id="7"
-            className="pt-5 text-center text-3xl font-bold text-p1-darkgreen drop-shadow-2xl md:text-4xl dark:text-p1-green dark:hover:text-p1-cyan"
+            className="pt-5 text-center text-3xl font-bold text-p1-darkgreen drop-shadow-2xl md:text-3xl dark:text-p1-green dark:hover:text-p1-cyan"
           >
-            <p> NFT</p>
             <p>Сервисы и Награды</p>
           </div>
         </div>
@@ -499,25 +496,34 @@ export default function Page() {
             <div className="space-y-4 rounded-3xl border-p1-darkgreen p-6 text-left text-base text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:border-4 md:text-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
               <p className="text-center text-xl font-bold md:text-2xl">NFT Сервисы</p>
               <p className="text-left text-base md:text-xl">
-                Создание сервиса цифровизации физических объектов в NFT и объединение NFT в единые
-                коллекции цифрового исскусства:
+                Создаем сервис цифровизации физических объектов в NFT и объединяем NFT в единые
+                коллекции цифрового исскусства.
               </p>
               <p className="text-left text-base md:text-xl">
-                Cоздавайте, дарите, продавайте NFT по направлениям:
+                Cоздавайте, дарите, продавайте NFT различных категорий:
               </p>
               <ul className="list-disc space-y-3 px-5">
                 <li className="text-left text-base md:text-xl">Пилоты</li>
                 <li className="text-left text-base md:text-xl">
-                  Участники команд (дрифт, драг рейсинг и т.д.)
+                  Члены команд (дрифт, драг рейсинг и т.д.)
                 </li>
-                <li className="text-left text-base md:text-xl">Коллекционеры редких автомобилей</li>
+                <li className="text-left text-base md:text-xl">Коллекционеры автомобилей</li>
                 <li className="text-left text-base md:text-xl">
                   Раритетные, спортивные и кастомизированные автомобили
                 </li>
               </ul>
               <p className="text-left text-base md:text-xl">
-                Единая глобальная коллекция автоспортивного и автокультурного сообщества создаваемая
-                самим сообществом
+                Единая глобальная коллекция автоспортивного и автокультурного сообщества, создаваемая
+                самим сообществом.</p>
+
+                <p className="text-left text-base md:text-xl">
+                Также мы предоставим командам и пилотам возможность создания уникальных персонализированных NFT для последующего распределения по своему усмотрению (розыгрыши, продажа) между своими фанатами. 
+              </p>
+              <p className="text-left text-base md:text-xl">
+                Таким образом команды и пилоты смогут привлекать инвестиции (в случае продажи) или поощрять своих поклонников (в случае безвозмездной передачи) через технологию NFT. 
+              </p>
+              <p className="text-left text-base md:text-xl">
+                Фанаты в свою очередь будут иметь возможность приобщиться к своей любимой команде или пилоту через владение NFT токеном. 
               </p>
             </div>
 
@@ -525,22 +531,18 @@ export default function Page() {
               id="8"
               className="my-5 space-y-4 rounded-3xl border-p1-darkgreen p-6 text-left text-base text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:border-4 md:text-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan"
             >
-              <p className="text-center text-xl font-bold drop-shadow-2xl md:text-3xl">
+              <p className="text-center text-xl font-bold drop-shadow-2xl md:text-2xl">
                 NFT Награды
               </p>
               <p className="text-left text-base md:text-xl">
-                На сайте мы предоставляем организаторам мероприятий возможность создать уникальные
-                NFT награды для победителей и участников мероприятий и выход на новый уровень
-                организации проведения мероприятий
-              </p>
+                Через функционал сайта мы предоставим организаторам (промоутерам) возможность выхода на новый уровень
+                организации мероприятий путем создания уникальных NFT наград для победителей и участников.</p>
               <p className="text-left text-base md:text-xl">
-                Все награды будут в единой коллекции автоспортивного и автокультурного сообщества
-                NFT Rewards
-              </p>
+                Все награды будут находиться в единой NFT коллекции автоспортивного и автокультурного сообщества
+                (AWARDS NFT).</p>
               <p className="text-left text-base md:text-xl">
-                Для развития Проекта предоставляем лидерам направлений цифровые NFT лицензии,
-                расширяющие возможности и предоставляющие дополнительные полномочия использования
-                сайта.
+                Также для развития проекта мы предоставим лидерам направлений цифровые NFT лицензии,
+                расширяющие возможности и предоставляющие расширенный функционал взаимодействия с сайтом.
               </p>
             </div>
           </div>
@@ -675,8 +677,8 @@ export default function Page() {
             id="10"
             className="text-center text-xl font-bold text-p1-darkgreen drop-shadow-2xl md:text-3xl dark:text-p1-green dark:hover:text-p1-cyan"
           >
-            <p>Выгода владельцу</p>
-            <p>NFT RaceLad</p>
+            <p>Какие возможности открывает владение</p>
+            <p>NFT из коллекции RaceLads?</p>
           </div>
         </div>
       </div>
@@ -710,8 +712,10 @@ export default function Page() {
                 Собственные мероприятия
               </p>
               <p className="text-left text-base md:text-xl">
-                Организуем награждения на таких мероприятиях, как дрифт, гонки, автовыставки,
-                Планируем вечеринки под брендом GAA с участием спортсменов и лидеров мнений
+                Организуем награждения на таких мероприятиях, как дрифт, гонки, автовыставки.
+              </p>
+              <p className="text-left text-base md:text-xl">
+                Планируем встречи (сходки) под брендом GAA с участием спортсменов и лидеров мнений
                 (блогеров).
               </p>
               <p className="text-left text-base md:text-xl">
@@ -726,7 +730,7 @@ export default function Page() {
             >
               <p className="text-center text-2xl font-bold">Децентрализованный портал</p>
               <p className="text-left text-base md:text-xl">
-                Разрабатываем сайт, который будет являться уникальным порталом, где каждый сможет:
+                Запускаем сайт, где каждый сможет:
               </p>
               <ul className="list-disc space-y-3 px-5">
                 <li className="text-left text-base md:text-xl">быть в курсе последних новостей</li>
@@ -752,7 +756,7 @@ export default function Page() {
             >
               <p className="text-center text-2xl font-bold">Выход на международный уровень</p>
               <p className="text-left text-base md:text-xl">
-                Расширяем наше присутствие на международной арене, чтобы объединить автолюбителей по
+                Мы также планируем расширять наше присутствие на международной арене для того, чтобы объединить автолюбителей по
                 всему миру, стирая границы и расстояния.
               </p>
               <p className="text-left text-base md:text-xl">
@@ -771,7 +775,7 @@ export default function Page() {
               id="14"
               className="p-2 text-center text-3xl font-bold text-p1-darkgreen drop-shadow-2xl dark:text-p1-green dark:hover:text-p1-cyan"
             >
-              Web 3
+              Почему Web 3?
             </div>
           </div>
         </div>
@@ -779,7 +783,7 @@ export default function Page() {
           <div className="text-p1-darkgreen md:basis-4/6">
             <div>
               <div className="space-y-4 rounded-3xl border-p1-darkgreen p-6 text-left text-base text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:my-5 md:border-4 md:p-6 md:text-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
-                <p className="text-center text-xl font-bold md:text-2xl">Почему Web 3?</p>
+
                 <p className="text-left text-base md:text-xl">
                   Реализация глобальной идеи Web3 на сегодняшний день до сих пор находится на ранней
                   стадии и еще не получила должного внимания в обществе.
