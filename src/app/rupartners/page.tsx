@@ -20,8 +20,7 @@ export default function Page() {
                     Партнеры
                   </div>
                   <div className="px-2 pt-2 text-center text-base text-p1-darkgreen drop-shadow-2xl md:text-2xl dark:text-p1-green">
-                    Если Вы заинтересованы в том, чтобы стать партнером или спонсором, пожалуйста,
-                    свяжитесь с нами.
+                    Если Вы заинтересованы в том, чтобы стать нашим партнером или спонсором - свяжитесь с нами.
                   </div>
                 </div>
               </div>
@@ -40,7 +39,7 @@ export default function Page() {
                               href="/rucontacts"
                               className="inline-block rounded-xl border-2 border-p2-orange bg-p1-white px-10 py-8 text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p2-orange hover:text-p1-white dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:border-p1-cyan dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan"
                             >
-                              Наши контакты
+                              Обратная связь
                             </Link>
                           </div>
                         </div>
@@ -57,7 +56,7 @@ export default function Page() {
                   href="#3"
                   className="inline-block w-11/12 rounded-xl border-2 border-p2-orange bg-p1-white px-10 py-8 text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p2-orange hover:text-p1-white dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:border-p1-cyan dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan"
                 >
-                  Наши Партнеры
+                  Наши партнеры
                 </Link>
               </div>
               <div className="my-5">
@@ -65,7 +64,7 @@ export default function Page() {
                   href="#4"
                   className="inline-block w-11/12 rounded-xl border-2 border-p2-orange bg-p1-white px-10 py-8 text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p2-orange hover:text-p1-white dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:border-p1-cyan dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan"
                 >
-                  Наши Спонсоры
+                  Наши спонсоры
                 </Link>
               </div>
 
@@ -78,25 +77,19 @@ export default function Page() {
           <div className="flex flex-row">
             <div className="mx-auto text-center md:p-2 md:text-xl lg:text-2xl">
               <div className="text-center text-2xl font-bold text-p1-darkgreen md:pt-4 md:text-4xl dark:text-amber-600">
-                Для тех кто верит в Проект
+                Если Вы хотите поддержать нас,
               </div>
-              <div className="px-2 pt-4 text-center text-base text-p1-darkgreen drop-shadow-2xl md:text-xl dark:text-p1-green">
-                <p>объявляем сбор средств на развитие Проекта, </p>
-                <p className="p-2">
-                  данные средства пойдут на вовлечение лидеров мнений и распоространение Лицензий,
-                  создание NFT, маркетинг, аренду хостинга и серверов
-                </p>
-                <p className="p-2"> планируем предоставить AirDrop</p>
-                <p>первым 10 участникам по сумме внесенных средств </p>
-                <p>10, 9, 8... NFTs</p>
-                <p> и последующим 45 участникам по 1 NFT </p>
+              <div className="px-2 pt-4 text-left text-base text-p1-darkgreen drop-shadow-2xl md:text-xl dark:text-p1-green">
+                <p>предлагаем принять участие в сборе средств, которые будут направлены на развитие проекта:</p>
+                <p className="p-2"> - маркетинг (вовлечение лидеров мнений и аудитории);</p>
+                <p className="p-2"> - распоространение лицензий;</p>
+                <p className="p-2"> - создание новых коллекций NFT;</p>
+                <p className="p-2"> - аренда хостинга и серверов</p>
+                <div className="text-center text-2xl font-bold text-p1-darkgreen md:pt-4 md:text-2xl dark:text-amber-600">
+                  Первые 100 участников сбора получат NFT награды в количестве, зависящем от размера пожертвования</div>
                 <p className="p-4">
-                  так мы планируем привлечь первоначальный капитал и поблагодарть 100 неравнодушных
-                  сторонников Проекта.
+                  Таким образом мы планируем привлечь первоначальный капитал и поблагодарть наших  первых сторонников.
                 </p>
-              </div>
-              <div className="p-2 pb-6 text-center text-2xl font-bold text-p1-darkgreen md:pt-4 md:text-4xl dark:text-amber-600">
-                RaceLads
               </div>
 
               <div className="my-5">
@@ -104,7 +97,7 @@ export default function Page() {
                   href="#11"
                   className="inline-block w-11/12 rounded-xl border-2 border-p2-orange bg-p1-white px-10 py-8 text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p2-orange hover:text-p1-white dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:border-amber-400 dark:hover:bg-amber-800 dark:hover:text-amber-200"
                 >
-                  Принять участие в развитии Проекта
+                  Пожертвовать
                 </Link>
               </div>
               <div className="my-5">
