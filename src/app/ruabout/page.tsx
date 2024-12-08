@@ -163,7 +163,6 @@ export default function Page() {
           </div>
         </div>
       </div>
-      
 
       <div className="flex flex-row justify-center">
         <div className="mb-5 mt-5 text-p1-darkgreen md:basis-4/6">
@@ -171,7 +170,9 @@ export default function Page() {
             id="2"
             className="space-y-4 rounded-3xl border-p1-darkgreen p-6 text-left text-base text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:border-4 md:text-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan"
           >
-            <p className="pt-2 text-center text-xl font-bold md:text-2xl">Создание активного сообщества</p>
+            <p className="pt-2 text-center text-xl font-bold md:text-2xl">
+              Создание активного сообщества
+            </p>
             <p>
               Объединяем фанатов автоспорта и автомобильной культуры в соцсетях и мессенджерах
               (Telegram, Discord, X) для общения, новых знакомств и обмена опытом.
@@ -179,8 +180,8 @@ export default function Page() {
             <p className="pt-2 text-center text-xl font-bold md:text-2xl">Партнерские отношения</p>
             <p>
               Устанавливаем связи с организаторами и участниками крупнейших автоспортивных событий
-              (дрифт, кольцевые гонки, драг рейсинг, симрейсинг, автовыставки) для реализации совместных
-              проектов.
+              (дрифт, кольцевые гонки, драг рейсинг, симрейсинг, автовыставки) для реализации
+              совместных проектов.
             </p>
           </div>
         </div>
@@ -440,7 +441,7 @@ export default function Page() {
         <div className="md:basis-1/6"></div>
         <div className="text-p1-darkgreen md:basis-4/6">
           <div>
-            <div className="my-5 space-y-2 space-y-4 rounded-3xl border-p1-darkgreen p-6 text-left text-base text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:border-4 md:text-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
+            <div className="my-5 space-y-2 rounded-3xl border-p1-darkgreen p-6 text-left text-base text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:border-4 md:text-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
               <p className="text-center text-xl font-bold md:text-2xl">
                 В наших планах также выпуск и других уникальных коллекций для:
               </p>
@@ -458,7 +459,9 @@ export default function Page() {
                 </li>
                 <li className="text-left text-base md:text-xl">выдачи цифровых лицензий</li>
               </ul>
-              <p className="text-center text-2xl font-bold">Уникальность коллекций заключается в:</p>
+              <p className="text-center text-2xl font-bold">
+                Уникальность коллекций заключается в:
+              </p>
               <ul className="list-disc space-y-3 px-5">
                 <li className="text-left text-base md:text-xl">
                   ограниченном тираже уникальных объектов цифрового искусства
@@ -513,17 +516,22 @@ export default function Page() {
                 </li>
               </ul>
               <p className="text-left text-base md:text-xl">
-                Единая глобальная коллекция автоспортивного и автокультурного сообщества, создаваемая
-                самим сообществом.</p>
+                Единая глобальная коллекция автоспортивного и автокультурного сообщества,
+                создаваемая самим сообществом.
+              </p>
 
-                <p className="text-left text-base md:text-xl">
-                Также мы предоставим командам и пилотам возможность создания уникальных персонализированных NFT для последующего распределения по своему усмотрению (розыгрыши, продажа) между своими фанатами. 
+              <p className="text-left text-base md:text-xl">
+                Также мы предоставим командам и пилотам возможность создания уникальных
+                персонализированных NFT для последующего распределения по своему усмотрению
+                (розыгрыши, продажа) между своими фанатами.
               </p>
               <p className="text-left text-base md:text-xl">
-                Таким образом команды и пилоты смогут привлекать инвестиции (в случае продажи) или поощрять своих поклонников (в случае безвозмездной передачи) через технологию NFT. 
+                Таким образом команды и пилоты смогут привлекать инвестиции (в случае продажи) или
+                поощрять своих поклонников (в случае безвозмездной передачи) через технологию NFT.
               </p>
               <p className="text-left text-base md:text-xl">
-                Фанаты в свою очередь будут иметь возможность приобщиться к своей любимой команде или пилоту через владение NFT токеном. 
+                Фанаты в свою очередь будут иметь возможность приобщиться к своей любимой команде
+                или пилоту через владение NFT токеном.
               </p>
             </div>
 
@@ -535,14 +543,18 @@ export default function Page() {
                 NFT Награды
               </p>
               <p className="text-left text-base md:text-xl">
-                Через функционал сайта мы предоставим организаторам (промоутерам) возможность выхода на новый уровень
-                организации мероприятий путем создания уникальных NFT наград для победителей и участников.</p>
+                Через функционал сайта мы предоставим организаторам (промоутерам) возможность выхода
+                на новый уровень организации мероприятий путем создания уникальных NFT наград для
+                победителей и участников.
+              </p>
               <p className="text-left text-base md:text-xl">
-                Все награды будут находиться в единой NFT коллекции автоспортивного и автокультурного сообщества
-                (AWARDS NFT).</p>
+                Все награды будут находиться в единой NFT коллекции автоспортивного и
+                автокультурного сообщества (AWARDS NFT).
+              </p>
               <p className="text-left text-base md:text-xl">
                 Также для развития проекта мы предоставим лидерам направлений цифровые NFT лицензии,
-                расширяющие возможности и предоставляющие расширенный функционал взаимодействия с сайтом.
+                расширяющие возможности и предоставляющие расширенный функционал взаимодействия с
+                сайтом.
               </p>
             </div>
           </div>
@@ -706,7 +718,7 @@ export default function Page() {
 
             <div
               id="11"
-              className="my-5 space-y-2 space-y-4 rounded-3xl border-p1-darkgreen p-6 text-left text-base text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:border-4 md:text-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan"
+              className="my-5 space-y-4 rounded-3xl border-p1-darkgreen p-6 text-left text-base text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:border-4 md:text-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan"
             >
               <p className="text-center text-xl font-bold drop-shadow-2xl md:text-2xl">
                 Собственные мероприятия
@@ -726,12 +738,10 @@ export default function Page() {
 
             <div
               id="12"
-              className="my-5 space-y-2 space-y-4 rounded-3xl border-p1-darkgreen p-6 text-left text-base text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:border-4 md:text-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan"
+              className="my-5 space-y-4 rounded-3xl border-p1-darkgreen p-6 text-left text-base text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:border-4 md:text-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan"
             >
               <p className="text-center text-2xl font-bold">Децентрализованный портал</p>
-              <p className="text-left text-base md:text-xl">
-                Запускаем сайт, где каждый сможет:
-              </p>
+              <p className="text-left text-base md:text-xl">Запускаем сайт, где каждый сможет:</p>
               <ul className="list-disc space-y-3 px-5">
                 <li className="text-left text-base md:text-xl">быть в курсе последних новостей</li>
                 <li className="text-left text-base md:text-xl">
@@ -756,8 +766,8 @@ export default function Page() {
             >
               <p className="text-center text-2xl font-bold">Выход на международный уровень</p>
               <p className="text-left text-base md:text-xl">
-                Мы также планируем расширять наше присутствие на международной арене для того, чтобы объединить автолюбителей по
-                всему миру, стирая границы и расстояния.
+                Мы также планируем расширять наше присутствие на международной арене для того, чтобы
+                объединить автолюбителей по всему миру, стирая границы и расстояния.
               </p>
               <p className="text-left text-base md:text-xl">
                 Создание ежегодной круглогодичной международной серии и стандарта мероприятий для
@@ -783,7 +793,6 @@ export default function Page() {
           <div className="text-p1-darkgreen md:basis-4/6">
             <div>
               <div className="space-y-4 rounded-3xl border-p1-darkgreen p-6 text-left text-base text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:my-5 md:border-4 md:p-6 md:text-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
-
                 <p className="text-left text-base md:text-xl">
                   Реализация глобальной идеи Web3 на сегодняшний день до сих пор находится на ранней
                   стадии и еще не получила должного внимания в обществе.

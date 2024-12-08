@@ -41,15 +41,14 @@ export default function Page() {
             src="/HeroNFT/RaceLads/RaceLads1.png"
             alt="RaceLads1"
           />
-          <p className="text-base md:text-2xl">10.000 уникальных героев.</p>
-          <p className="text-base md:text-2xl">Кто твой персонаж - решать тебе!</p>
+          <p className="text-base md:text-2xl">10.000 уникальных героев в мире WEB3</p>
 
           <div className="inline-flex rounded-md pt-5 shadow-sm md:place-self-center">
             <Link
               href={'/rudiscoveryracelads'}
               className="rounded-l-xl border-2 border-p1-darkgreen bg-p2-white2 p-2 text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p1-darkgreen hover:text-p1-white focus:z-10 focus:bg-p1-darkgreen focus:text-p1-white focus:ring-2 focus:ring-p1-darkgreen md:p-5 dark:border-p1-green dark:bg-p1-darkgreen dark:text-p1-cyan dark:hover:border-p1-green dark:hover:bg-p1-green dark:hover:text-p1-deepdarkgreen"
             >
-              Исследуй NFT
+              Подробнее
             </Link>
             <Link
               href={'/rumintracelads'}
@@ -70,7 +69,6 @@ export default function Page() {
         className="p-2 text-center text-4xl font-bold text-p1-darkgreen md:pt-20 md:text-6xl dark:text-p1-green dark:hover:text-p1-cyan"
       >
         Лидеры движений
-        <p className="pb-2 text-center text-xl md:pb-5 md:text-4xl">знаковые персоны</p>
       </div>
       <div className="mx-5 grid grid-cols-1 gap-2 rounded-3xl border-p1-darkgreen text-center text-p1-darkgreen md:grid-cols-2 md:border-4 md:p-5 md:shadow-lg xl:grid-cols-4 dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
         <div>
@@ -91,7 +89,7 @@ export default function Page() {
               className="rounded-l-xl border-2 border-p1-darkgreen bg-p2-white2 p-2 text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p1-darkgreen hover:text-p1-white focus:z-10 focus:bg-p1-darkgreen focus:text-p1-white focus:ring-2 focus:ring-p1-darkgreen md:p-5 dark:border-p1-green dark:bg-p1-darkgreen dark:text-p1-cyan dark:hover:border-p1-green dark:hover:bg-p1-green dark:hover:text-p1-deepdarkgreen"
               onClick={() => setLider(0)}
             >
-              Исследуй NFT
+              Подробнее
             </Link>
             <Link
               href={'/rumintdrivers'}
@@ -119,7 +117,7 @@ export default function Page() {
               className="rounded-l-xl border-2 border-p1-darkgreen bg-p2-white2 p-2 text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p1-darkgreen hover:text-p1-white focus:z-10 focus:bg-p1-darkgreen focus:text-p1-white focus:ring-2 focus:ring-p1-darkgreen md:p-5 dark:border-p1-green dark:bg-p1-darkgreen dark:text-p1-cyan dark:hover:border-p1-green dark:hover:bg-p1-green dark:hover:text-p1-deepdarkgreen"
               onClick={() => setLider(1)}
             >
-              Исследуй NFT
+              Подробнее
             </Link>
             <Link
               href={'/rumintteammembers'}
@@ -148,7 +146,7 @@ export default function Page() {
               className="rounded-l-xl border-2 border-p1-darkgreen bg-p2-white2 p-2 text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p1-darkgreen hover:text-p1-white focus:z-10 focus:bg-p1-darkgreen focus:text-p1-white focus:ring-2 focus:ring-p1-darkgreen md:p-5 dark:border-p1-green dark:bg-p1-darkgreen dark:text-p1-cyan dark:hover:border-p1-green dark:hover:bg-p1-green dark:hover:text-p1-deepdarkgreen"
               onClick={() => setLider(2)}
             >
-              Исследуй NFT
+              Подробнее
             </Link>
             <Link
               href={'/rumintcollectors'}
@@ -176,7 +174,7 @@ export default function Page() {
               href={'/rudiscoverycars'}
               className="rounded-l-xl border-2 border-p1-darkgreen bg-p2-white2 p-2 text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p1-darkgreen hover:text-p1-white focus:z-10 focus:bg-p1-darkgreen focus:text-p1-white focus:ring-2 focus:ring-p1-darkgreen md:p-5 dark:border-p1-green dark:bg-p1-darkgreen dark:text-p1-cyan dark:hover:border-p1-green dark:hover:bg-p1-green dark:hover:text-p1-deepdarkgreen"
             >
-              Исследуй NFT
+              Подробнее
             </Link>
             <Link
               href={'/rumintcars'}
@@ -222,7 +220,7 @@ export default function Page() {
               href={'/rudiscoverycustomlads'}
               className="rounded-l-xl border-2 border-p1-darkgreen bg-p2-white2 p-2 text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p1-darkgreen hover:text-p1-white focus:z-10 focus:bg-p1-darkgreen focus:text-p1-white focus:ring-2 focus:ring-p1-darkgreen md:p-5 dark:border-p1-green dark:bg-p1-darkgreen dark:text-p1-cyan dark:hover:border-p1-green dark:hover:bg-p1-green dark:hover:text-p1-deepdarkgreen"
             >
-              Исследуй NFT
+              Подробнее
             </Link>
             <Link
               href={'/rumintcustomlads'}
@@ -242,12 +240,10 @@ export default function Page() {
         id="awards"
         className="pt-2 text-center text-4xl font-bold text-p1-darkgreen md:pt-20 md:text-6xl dark:text-p1-green dark:hover:text-p1-cyan"
       >
-        Награды
-        <p className="text-center text-xl font-bold md:pb-5 md:text-4xl">Кубки и Медали</p>
+        Awards NFT
       </div>
       <div className="w-full place-self-center rounded-3xl border-p1-darkgreen text-center text-p1-darkgreen md:w-3/5 md:border-4 md:shadow-lg dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
-        <p className="pt-2 text-base md:pt-2 md:text-2xl">Вручай награды победителям</p>
-        <h2 className="pb-2 text-base md:pb-2 md:text-2xl"> NFT Awards </h2>
+        <p className="pt-2 text-base md:pt-2 md:text-2xl">Вручай награды победителям!</p>
         <div>
           <Image
             className="relative mb-2 inline-block w-2/5 rounded-3xl border-2 border-p2-orange shadow-lg md:w-2/5"
@@ -259,13 +255,12 @@ export default function Page() {
           <p className="pt-2 text-base md:px-10 md:text-2xl">
             NFT награды содержат метаданные о мероприятии, спортсмене и медиаконтент
           </p>
-          <p className="pb-2 text-base md:pb-2 md:text-2xl">Когда присоединиться - решать тебе!</p>
           <div className="inline-flex rounded-md pt-5 shadow-sm md:place-self-center">
             <Link
               href={'/rudiscoveryrewards'}
               className="rounded-l-xl border-2 border-p1-darkgreen bg-p2-white2 p-2 text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p1-darkgreen hover:text-p1-white focus:z-10 focus:bg-p1-darkgreen focus:text-p1-white focus:ring-2 focus:ring-p1-darkgreen md:p-5 dark:border-p1-green dark:bg-p1-darkgreen dark:text-p1-cyan dark:hover:border-p1-green dark:hover:bg-p1-green dark:hover:text-p1-deepdarkgreen"
             >
-              Исследуй NFT
+              Подробнее
             </Link>
             <Link
               href={'/rumintrewards'}
@@ -307,7 +302,7 @@ export default function Page() {
             onClick={() => setLicense(0)}
             className="rounded-l-xl border-2 border-p1-darkgreen bg-p2-white2 p-2 text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p1-darkgreen hover:text-p1-white focus:z-10 focus:bg-p1-darkgreen focus:text-p1-white focus:ring-2 focus:ring-p1-darkgreen md:p-5 dark:border-p1-green dark:bg-p1-darkgreen dark:text-p1-cyan dark:hover:border-p1-green dark:hover:bg-p1-green dark:hover:text-p1-deepdarkgreen"
           >
-            Исследуй NFT
+            Подробнее
           </Link>
           <Link
             href={'/rulicense'}
@@ -335,7 +330,7 @@ export default function Page() {
             onClick={() => setLicense(1)}
             className="rounded-l-xl border-2 border-p1-darkgreen bg-p2-white2 p-2 text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p1-darkgreen hover:text-p1-white focus:z-10 focus:bg-p1-darkgreen focus:text-p1-white focus:ring-2 focus:ring-p1-darkgreen md:p-5 dark:border-p1-green dark:bg-p1-darkgreen dark:text-p1-cyan dark:hover:border-p1-green dark:hover:bg-p1-green dark:hover:text-p1-deepdarkgreen"
           >
-            Исследуй NFT
+            Подробнее
           </Link>
           <Link
             href={'/rulicense'}
@@ -365,7 +360,7 @@ export default function Page() {
             onClick={() => setLicense(2)}
             className="rounded-l-xl border-2 border-p1-darkgreen bg-p2-white2 p-2 text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p1-darkgreen hover:text-p1-white focus:z-10 focus:bg-p1-darkgreen focus:text-p1-white focus:ring-2 focus:ring-p1-darkgreen md:p-5 dark:border-p1-green dark:bg-p1-darkgreen dark:text-p1-cyan dark:hover:border-p1-green dark:hover:bg-p1-green dark:hover:text-p1-deepdarkgreen"
           >
-            Исследуй NFT
+            Подробнее
           </Link>
           <Link
             href={'/rulicense'}
