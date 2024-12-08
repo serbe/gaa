@@ -1,6 +1,6 @@
 'use client';
 
-import { useGaaStore } from '@/providers/store-provider';
+import { useGaaStore } from '@/providers/gaa-store-provider';
 import Image from 'next/image';
 
 const Buttons = ({

@@ -1,7 +1,7 @@
 'use client';
 
 import Image from 'next/image';
-import { useGaaStore } from '@/providers/store-provider';
+import { useGaaStore } from '@/providers/gaa-store-provider';
 import { Suspense, useState } from 'react';
 
 const Buttons = ({
