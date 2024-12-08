@@ -2,6 +2,7 @@
 
 import { useGaaStore } from '@/providers/gaa-store-provider';
 import Image from 'next/image';
+import { JumpButton } from '@/components/jumpButton';
 
 const Buttons = ({
   license,
@@ -11,14 +12,18 @@ const Buttons = ({
   setter: (licenseNumber: number) => void;
 }) => {
   return (
-    <div className="inline-flex space-x-0 rounded-md pt-5 font-serif shadow-sm" role="group">
+    <div className="inline-flex space-x-1 rounded-md pt-5 font-serif shadow-sm" role="group">
       <button
         className={
           'w-full rounded-l-lg border border-gray-200 ' +
-          (license == 0 ? 'bg-amber-600' : 'bg-white') +
+          (license == 0
+            ? 'bg-p2-orange focus:bg-p1-green dark:bg-p1-darkgreen dark:text-p1-white dark:focus:border-p1-cyan'
+            : 'bg-white') +
           ' px-4 py-2 text-sm font-medium' +
-          (license == 0 ? 'z-10 text-p1-white ring-2 ring-p2-orange' : 'text-p1-darkgreen') +
-          ' hover:bg-gray-100 hover:text-p1-darkgreen dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange'
+          (license == 0
+            ? 'z-10 text-p1-white ring-2 ring-p2-orange dark:ring-p1-cyan'
+            : 'text-p1-darkgreen') +
+          ' text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white'
         }
         onClick={() => setter(0)}
       >
@@ -27,10 +32,14 @@ const Buttons = ({
       <button
         className={
           'w-full border border-gray-200 ' +
-          (license == 1 ? 'bg-p1-gray' : 'bg-white') +
+          (license == 1
+            ? 'bg-p2-orange focus:bg-p1-green dark:bg-p1-darkgreen dark:text-p1-white dark:focus:border-p1-cyan'
+            : 'bg-white') +
           ' px-4 py-2 text-sm font-medium' +
-          (license == 1 ? 'z-10 text-p1-white ring-2 ring-p1-gray' : 'text-p1-darkgreen') +
-          ' hover:bg-gray-100 hover:text-p1-darkgreen dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange'
+          (license == 1
+            ? 'z-10 text-p1-white ring-2 ring-p2-orange dark:ring-p1-cyan'
+            : 'text-p1-darkgreen') +
+          ' text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white'
         }
         onClick={() => setter(1)}
       >
@@ -39,10 +48,14 @@ const Buttons = ({
       <button
         className={
           'w-full rounded-r-lg border border-gray-200 ' +
-          (license == 2 ? 'bg-p2-orange' : 'bg-white') +
+          (license == 2
+            ? 'bg-p2-orange focus:bg-p1-green dark:bg-p1-darkgreen dark:text-p1-white dark:focus:border-p1-cyan'
+            : 'bg-white') +
           ' px-4 py-2 text-sm font-medium' +
-          (license == 2 ? 'z-10 text-p1-white ring-2 ring-p2-orange' : 'text-p1-darkgreen') +
-          ' text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange'
+          (license == 2
+            ? 'z-10 text-p1-white ring-2 ring-p2-orange dark:ring-p1-cyan'
+            : 'text-p1-darkgreen') +
+          ' text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white'
         }
         onClick={() => setter(2)}
       >
@@ -54,33 +67,35 @@ const Buttons = ({
 
 export default function Page() {
   const [{ license, setLicense }] = useGaaStore((state) => state);
-
+  const jumpPoints = ['1', '2'];
   return (
     <div className="mx-auto max-w-7xl font-serif">
+      <JumpButton points={jumpPoints} />
+
       {/* //Promoter License */}
       <div id="promoter" className={license == 0 ? '' : 'hidden'}>
         <div className="flex flex-wrap justify-center self-center md:flex-nowrap md:justify-between">
-          <div className="px-2 text-xl font-semibold text-amber-600 md:pt-2 md:text-3xl">
+          <div className="px-2 text-xl font-semibold text-amber-600 md:pt-2 md:text-3xl dark:text-amber-700">
             Promoter License NFT
           </div>
-          <div className="px-2 text-xl font-semibold text-amber-600 md:pt-2 md:text-3xl">
+          <div className="px-2 text-xl font-semibold text-amber-600 md:pt-2 md:text-3xl dark:text-amber-700">
             Страница исследователя
           </div>
         </div>
-        <div className="rounded-3xl border-amber-600 md:border-4 md:shadow-lg">
+        <div className="rounded-3xl border-amber-600 md:border-4 md:shadow-lg dark:border-amber-700 dark:hover:border-p1-darkgreen">
           <div className="flex flex-wrap justify-center px-2 pt-2 md:flex-nowrap">
             <div>
-              <p className="p-2 text-base text-p1-darkgreen md:text-xl">
+              <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
                 Promoter License NFT невзаимозаменяемый токен, предоставляется Промоутеру
                 (Организатору) мероприятия.
               </p>
-              <p className="p-2 text-base text-p1-darkgreen md:text-xl">
+              <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
                 Promoter License NFT предоставляет доступ к странице создания NFT Наград
               </p>
-              <p className="p-2 text-base text-p1-darkgreen md:text-xl">
+              <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
                 Промоутер создает и вручает NFT награды победителям
               </p>
-              <p className="p-2 text-base text-p1-darkgreen md:text-xl">
+              <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
                 Для получения Promoter License NFT необходимо зарегистрироваться и заполнить заявку
                 для рассмотрения
               </p>
@@ -88,21 +103,21 @@ export default function Page() {
               <div className="my-2 justify-self-center">
                 <a
                   href="/ruapplicationform"
-                  className="inline-block w-full place-content-center rounded-3xl border-2 border-yellow-800 bg-p2-white2 px-10 py-8 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-yellow-800 hover:text-p1-white"
+                  className="inline-block place-content-center rounded-xl border-2 border-p1-green bg-p1-white px-10 py-8 text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:border-p1-darkgreen hover:bg-p1-darkgreen hover:text-p1-white dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:border-p1-green dark:hover:bg-p1-green dark:hover:text-p1-deepdarkgreen"
                 >
                   Форма заявки
                 </a>
               </div>
-              <p className="p-2 text-base text-p1-darkgreen md:text-xl">
+              <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
                 При положительном решении Промоутеру (Организатору) предоставляется возможность
                 создания Promoter License NFT.
               </p>
-              <p className="p-2 text-base text-p1-darkgreen md:text-xl">
+              <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
                 Данный токен Burnebal, то есть собственник смарт-контракта может уничтожить любой
                 токен из коллекции, эта мера необходима для формирования чистоты коллекции.
               </p>
 
-              <p className="p-2 text-base text-p1-darkgreen md:text-xl">
+              <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
                 То есть собственник смарт-контракта вправе уничтожить NFT в случае нарушения
                 держателем Promoter License NFT правил создания NFT не соответствующих целям
                 Проекта.
@@ -112,7 +127,7 @@ export default function Page() {
             <div className="m-1 place-items-center p-2">
               <div className="md:w-96">
                 <Image
-                  className="relative inline-block w-max rounded-3xl border-2 border-p2-orange shadow-lg md:w-full"
+                  className="relative inline-block w-max rounded-3xl border-2 border-p2-orange shadow-lg md:w-full dark:border-p1-green"
                   width={4000}
                   height={4000}
                   src="/Licenses/Promoter Lic.png"
@@ -123,7 +138,7 @@ export default function Page() {
                   <div className="justify-self-center">
                     <a
                       href="/rulicense?license=promoter"
-                      className="inline-block w-full place-content-center rounded-3xl border-2 border-yellow-800 bg-p2-white2 px-10 py-8 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-yellow-800 hover:text-p1-white"
+                      className="inline-block rounded-xl border-2 border-p2-orange bg-p1-white px-10 py-8 text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p2-orange hover:text-p1-white dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:border-p2-orange dark:hover:bg-amber-600 dark:hover:text-amber-100"
                     >
                       Страница создания NFT
                     </a>
@@ -138,20 +153,20 @@ export default function Page() {
       {/* //National License */}
       <div id="national" className={license == 1 ? '' : 'hidden'}>
         <div className="flex flex-wrap justify-center self-center md:flex-nowrap md:justify-between">
-          <div className="px-2 text-xl font-semibold text-p1-gray md:pt-2 md:text-3xl">
+          <div className="px-2 text-xl font-semibold text-p1-gray md:pt-2 md:text-3xl dark:text-stone-500">
             National License NFT
           </div>
-          <div className="px-2 text-xl font-semibold text-p1-gray md:pt-2 md:text-3xl">
+          <div className="px-2 text-xl font-semibold text-p1-gray md:pt-2 md:text-3xl dark:text-stone-500">
             Страница исследователя
           </div>
         </div>
-        <div className="rounded-3xl border-p1-gray hover:shadow-lg md:border-4">
+        <div className="rounded-3xl border-p1-gray hover:shadow-lg md:border-4 dark:border-stone-500 dark:hover:border-p1-darkgreen">
           <div className="flex flex-wrap justify-center px-2 pt-2 md:flex-nowrap">
             <div>
-              <p className="p-2 text-base text-p1-darkgreen md:text-xl">
+              <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
                 National License NFT невзаимозаменяемый токен, предоставляется лидерам направлений
               </p>
-              <div className="p-2 text-base text-p1-darkgreen md:text-xl">
+              <div className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
                 National License NFT предоставляет доступ
                 <ul className="list-disc px-5">
                   <li>к странице создания NFT Наград</li>
@@ -160,14 +175,14 @@ export default function Page() {
                 </ul>
               </div>
 
-              <p className="p-2 text-base text-p1-darkgreen md:text-xl">
+              <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
                 National License NFT решает вопросы связанные с организацией и проведением
                 награждения конкурсантов и спортсменов мероприятий, а именно решает кто будет
                 создавать NFT и кто будет награждать конкурсантов и спортсменов, подтверждает статус
                 организатора, лидера направления, пилота, участника команды в своей компетенции.
               </p>
 
-              <p className="p-2 text-base text-p1-darkgreen md:text-xl">
+              <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
                 Для получения National License NFT необходимо зарегистрироваться и заполнить заявку
                 для рассмотрения
               </p>
@@ -175,21 +190,21 @@ export default function Page() {
               <div className="my-2 justify-self-center">
                 <a
                   href="/ruapplicationform"
-                  className="inline-block w-full place-content-center rounded-3xl border-2 border-p1-gray bg-p2-white2 px-10 py-8 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p1-gray hover:text-p1-white"
+                  className="inline-block place-content-center rounded-xl border-2 border-p1-green bg-p1-white px-10 py-8 text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:border-p1-darkgreen hover:bg-p1-darkgreen hover:text-p1-white dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:border-p1-green dark:hover:bg-p1-green dark:hover:text-p1-deepdarkgreen"
                 >
                   Форма заявки
                 </a>
               </div>
-              <p className="p-2 text-base text-p1-darkgreen md:text-xl">
+              <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
                 При положительном решении лидеру направления предоставляется возможность создания
                 National License NFT.
               </p>
-              <p className="p-2 text-base text-p1-darkgreen md:text-xl">
+              <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
                 Данный токен Burnebal, то есть собственник смарт-контракта может уничтожить любой
                 токен из коллекции, эта мера необходима для формирования чистоты коллекции.
               </p>
 
-              <p className="p-2 text-base text-p1-darkgreen md:text-xl">
+              <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
                 То есть собственник смарт-контракта вправе уничтожить NFT в случае нарушения
                 держателем National License NFT правил создания NFT не соответствующих целям
                 Проекта.
@@ -199,7 +214,7 @@ export default function Page() {
             <div className="m-1 place-items-center p-2">
               <div className="md:w-96">
                 <Image
-                  className="relative inline-block rounded-3xl border-2 border-p2-orange shadow-lg md:w-full"
+                  className="relative inline-block rounded-3xl border-2 border-p2-orange shadow-lg md:w-full dark:border-p1-green"
                   width={4000}
                   height={4000}
                   src="/Licenses/National Lic.png"
@@ -210,7 +225,7 @@ export default function Page() {
                   <div className="justify-self-center">
                     <a
                       href="/rulicense?license=national"
-                      className="inline-block w-full place-content-center rounded-3xl border-2 border-p1-gray bg-p2-white2 px-10 py-8 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p1-gray hover:text-p1-white"
+                      className="inline-block rounded-xl border-2 border-p2-orange bg-p1-white px-10 py-8 text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p2-orange hover:text-p1-white dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:border-p2-orange dark:hover:bg-amber-600 dark:hover:text-amber-100"
                     >
                       Страница создания NFT
                     </a>
@@ -232,14 +247,14 @@ export default function Page() {
             Страница исследователя
           </div>
         </div>
-        <div className="rounded-3xl border-p2-orange md:border-4 md:shadow-lg">
+        <div className="rounded-3xl border-p2-orange md:border-4 md:shadow-lg dark:hover:border-p1-darkgreen">
           <div className="flex flex-wrap justify-center px-2 pt-2 md:flex-nowrap">
             <div>
-              <p className="p-2 text-base text-p1-darkgreen md:text-xl">
+              <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
                 Global License NFT невзаимозаменяемый токен, предоставляется лидерам направлений и
                 организаторам мероприятий международного уровня
               </p>
-              <div className="p-2 text-base text-p1-darkgreen md:text-xl">
+              <div className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
                 Global License NFT предоставляет доступ:
                 <ul className="list-disc px-5">
                   <li>к странице создания NFT Наград</li>
@@ -250,7 +265,7 @@ export default function Page() {
                 </ul>
               </div>
 
-              <p className="p-2 text-base text-p1-darkgreen md:text-xl">
+              <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
                 Global License NFT решает вопросы связанные с организацией и проведением награждения
                 конкурсантов и спортсменов мероприятий, определяет кто будет развивать направления,
                 а именно решает кто будет создавать NFT и кто будет награждать конкурсантов и
@@ -258,7 +273,7 @@ export default function Page() {
                 команды в своей компетенции.
               </p>
 
-              <p className="p-2 text-base text-p1-darkgreen md:text-xl">
+              <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
                 Для получения Global License NFT необходимо зарегистрироваться и заполнить заявку
                 для рассмотрения
               </p>
@@ -266,21 +281,21 @@ export default function Page() {
               <div className="my-2 justify-self-center">
                 <a
                   href="/ruapplicationform"
-                  className="inline-block w-full place-content-center rounded-3xl border-2 border-p2-orange bg-p2-white2 px-10 py-8 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p2-orange hover:text-p1-white"
+                  className="inline-block place-content-center rounded-xl border-2 border-p1-green bg-p1-white px-10 py-8 text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:border-p1-darkgreen hover:bg-p1-darkgreen hover:text-p1-white dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:border-p1-green dark:hover:bg-p1-green dark:hover:text-p1-deepdarkgreen"
                 >
                   Форма заявки
                 </a>
               </div>
-              <p className="p-2 text-base text-p1-darkgreen md:text-xl">
+              <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
                 При положительном решении лидеру направления предоставляется возможность создания
                 Global License NFT.
               </p>
-              <p className="p-2 text-base text-p1-darkgreen md:text-xl">
+              <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
                 Данный токен Burnebal, то есть собственник смарт-контракта может уничтожить любой
                 токен из коллекции, эта мера необходима для формирования чистоты коллекции.
               </p>
 
-              <p className="p-2 text-base text-p1-darkgreen md:text-xl">
+              <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
                 То есть собственник смарт-контракта вправе уничтожить NFT в случае нарушения
                 держателем Global License NFT правил создания NFT не соответствующих целям Проекта.
               </p>
@@ -289,7 +304,7 @@ export default function Page() {
             <div className="m-1 place-items-center p-2">
               <div className="md:w-96">
                 <Image
-                  className="relative inline-block rounded-3xl border-2 border-p2-orange shadow-lg md:w-full"
+                  className="relative inline-block rounded-3xl border-2 border-p2-orange shadow-lg md:w-full dark:border-p1-green"
                   width={2000}
                   height={2000}
                   src="/Licenses/Global Lic.png"
@@ -300,7 +315,7 @@ export default function Page() {
                   <div className="justify-self-center">
                     <a
                       href="/rulicense?license=national"
-                      className="inline-block w-full place-content-center rounded-3xl border-2 border-p2-orange bg-p2-white2 px-10 py-8 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p2-orange hover:text-p1-white"
+                      className="inline-block rounded-xl border-2 border-p2-orange bg-p1-white px-10 py-8 text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p2-orange hover:text-p1-white dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:border-p2-orange dark:hover:bg-amber-600 dark:hover:text-amber-100"
                     >
                       Страница создания NFT
                     </a>
@@ -312,19 +327,22 @@ export default function Page() {
         </div>
       </div>
 
-      <div className="pb-8"></div>
+      <div className="pb-8 md:pb-36"></div>
 
-      <div className="px-2 text-center text-xl font-semibold text-p1-darkgreen md:pt-2 md:text-3xl">
+      <div
+        id="1"
+        className="px-2 text-center text-xl font-semibold text-p1-darkgreen md:pt-2 md:text-3xl dark:text-p1-green dark:hover:text-p1-cyan"
+      >
         Способы получения
+        <p className="px-2 text-center text-xl font-semibold md:pt-2 md:text-3xl">
+          Promoter, National, Global Licenses NFT
+        </p>{' '}
       </div>
-      <div className="px-2 text-center text-xl font-semibold text-p1-darkgreen md:pt-2 md:text-3xl">
-        Promoter, National, Global Licenses NFT
-      </div>
-      <div className="m-2 rounded-3xl border-p1-darkgreen p-2 md:border-4 md:shadow-lg">
-        <div className="pt-2 text-center text-base text-p1-darkgreen md:text-2xl">
+      <div className="m-2 rounded-3xl border-p1-darkgreen p-2 md:border-4 md:shadow-lg dark:border-p1-green dark:hover:border-p1-darkgreen">
+        <div className="pt-2 text-center text-base text-p1-darkgreen md:text-2xl dark:text-p1-green dark:hover:text-p1-cyan">
           Management GAA и держатели Global License организуют обшее развитие и управление GAA
         </div>
-        <div className="pt-2 text-center text-base text-p1-darkgreen md:text-2xl">
+        <div className="pt-2 text-center text-base text-p1-darkgreen md:text-2xl dark:text-p1-green dark:hover:text-p1-cyan">
           Management GAA проводит верификацию и удостоверяет статус National License, Promoter
           License Global License
         </div>
@@ -367,7 +385,7 @@ export default function Page() {
             <div>
               <a
                 href="/ruapplicationform"
-                className="inline-block place-content-center rounded-xl border-2 border-p1-darkgreen bg-p1-white p-2 text-center text-base text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p1-green hover:text-p1-white md:text-xl"
+                className="inline-block place-content-center rounded-xl border-2 border-p1-darkgreen bg-p1-white p-2 text-center text-base text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p1-green hover:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:bg-p1-green dark:hover:text-p1-deepdarkgreen"
               >
                 Форма заявки
               </a>
@@ -456,16 +474,17 @@ export default function Page() {
           </div>
         </div>
 
-        <div className="pt-2 text-center text-base text-p1-darkgreen md:text-2xl">
+        <div className="pt-2 text-center text-base text-p1-darkgreen md:text-2xl dark:text-p1-green dark:hover:text-p1-cyan">
           Вектор развития направления решает Management GAA, Global License, National License
         </div>
-        <div className="pt-2 text-center text-base text-p1-darkgreen md:text-2xl">
+        <div className="pt-2 text-center text-base text-p1-darkgreen md:text-2xl dark:text-p1-green dark:hover:text-p1-cyan">
           Promoter License организует локальные мероприятия по разным направления
         </div>
-        <div className="pt-2 text-center text-base text-p1-darkgreen md:text-2xl">
+        <div className="pt-2 text-center text-base text-p1-darkgreen md:text-2xl dark:text-p1-green dark:hover:text-p1-cyan">
           National License организует развитие направлений на локальном уровне
         </div>
       </div>
+      <div id="1" className="pb-8"></div>
     </div>
   );
 }
