@@ -1,8 +1,28 @@
+'use client';
 import Link from 'next/link';
 import Image from 'next/image';
 import logoCr from '../../public/Logo/logo_cr.png';
+import { useLayoutEffect } from 'react';
+import { useGaaStore } from '@/context/gaa-store-provider';
+
+const setThemeClass = (value: string) => {
+  if (value === 'dark') {
+    if (!document.documentElement.classList.contains(value)) {
+      document.documentElement.classList.add(value);
+    }
+  } else {
+    document.documentElement.classList.remove(value);
+  }
+};
 
 const Header = () => {
+  const [{ theme, setTheme }, gaaStore] = useGaaStore((state) => state);
+
+  useLayoutEffect(() => {
+    gaaStore.persist.rehydrate();
+    setThemeClass(theme);
+  }, [gaaStore.persist, theme]);
+
   return (
     <header className="bg-sky-50 dark:bg-p1-deepdarkgreen">
       <div className="flex">
@@ -22,6 +42,21 @@ const Header = () => {
             </div>
             <div className="mx-2 dark:hover:text-p1-cyan">
               <Link href="/ru">Ru</Link>
+            </div>
+            <div className="mx-2 dark:hover:text-p1-cyan">
+              <select
+                id="theme"
+                aria-label="theme"
+                className=""
+                defaultValue={theme || 'light'}
+                onChange={(e) => {
+                  setTheme(e.target.value);
+                  setThemeClass(e.target.value);
+                }}
+              >
+                <option value="light">Light</option>
+                <option value="dark">Dark</option>
+              </select>
             </div>
           </div>
         </div>

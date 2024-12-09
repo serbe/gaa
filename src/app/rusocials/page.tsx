@@ -4,18 +4,18 @@ import Image from 'next/image';
 export default function Page() {
   return (
     <div className="mx-auto max-w-7xl font-serif">
-      <div className="pb-2 text-center text-2xl font-bold text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan md:pt-4 md:text-4xl">
+      <div className="pb-2 text-center text-2xl font-bold text-p1-darkgreen md:pt-4 md:text-4xl dark:text-p1-green dark:hover:text-p1-cyan">
         Социальные сети
       </div>
 
-      <div className="mx-5 grid grid-cols-1 place-items-center gap-2 rounded-3xl border-p1-darkgreen text-center text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan md:grid-cols-2 md:border-4 md:p-5 md:shadow-lg xl:grid-cols-4">
+      <div className="mx-5 grid grid-cols-1 place-items-center gap-2 rounded-3xl border-p1-darkgreen text-center text-p1-darkgreen md:grid-cols-2 md:border-4 md:p-5 md:shadow-lg xl:grid-cols-4 dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
         <div className="flex flex-row">
           <div className="text-center">
-            <button className="mx-auto justify-center rounded-3xl grayscale duration-500 hover:scale-105 hover:grayscale-0">
+            <div className="mx-auto justify-center rounded-3xl grayscale duration-500 hover:scale-105 hover:grayscale-0">
               <a href="https://x.com/RaceLads">
                 <Image width={200} height={600} src="/logo/twitterlogox.png" alt="twitter" />
               </a>
-            </button>
+            </div>
             <p>X.com / Twitter</p>
           </div>
         </div>
@@ -98,7 +98,7 @@ export default function Page() {
         </div>
       </div>
 
-      <div className="pb-2 text-center text-2xl font-bold text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan md:pt-4 md:text-4xl">
+      <div className="pb-2 text-center text-2xl font-bold text-p1-darkgreen md:pt-4 md:text-4xl dark:text-p1-green dark:hover:text-p1-cyan">
         Подпишись с помощью
       </div>
 

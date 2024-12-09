@@ -38,7 +38,7 @@ export default function Page() {
             id="1"
             className="px-2 text-center text-base font-semibold text-p1-darkgreen md:pt-6 md:text-xl dark:text-p1-green dark:hover:text-p1-cyan"
           >
-          Зарождение и обсуждение идеи объединения людей в сообщество посредством технологий
+            Зарождение и обсуждение идеи объединения людей в сообщество посредством технологий
             Blockchain и NFT
           </div>
         </div>
@@ -77,7 +77,7 @@ export default function Page() {
             id="2"
             className="px-2 text-center text-base font-semibold text-p1-darkgreen md:pt-4 md:text-xl dark:text-p1-green dark:hover:text-p1-cyan"
           >
-        Начало проекта
+            Начало проекта
             <p>&quot;Global Automotive Association&quot;</p>
           </div>
         </div>
@@ -98,7 +98,7 @@ export default function Page() {
             id="3"
             className="px-2 text-center text-base font-semibold text-p1-darkgreen md:pt-4 md:text-xl dark:text-p1-green dark:hover:text-p1-cyan"
           >
-        Регистрация в социальных сетях
+            Регистрация в социальных сетях
           </div>
         </div>
       </div>
@@ -163,7 +163,7 @@ export default function Page() {
             id="4"
             className="px-2 text-center text-base font-semibold text-p1-darkgreen md:pt-4 md:text-xl dark:text-p1-green dark:hover:text-p1-cyan"
           >
-        NFT коллекция RaceLads
+            NFT коллекция RaceLads
           </div>
         </div>
       </div>
@@ -188,7 +188,7 @@ export default function Page() {
             id="5"
             className="px-2 text-center text-base font-semibold text-p1-darkgreen md:pt-4 md:text-xl dark:text-p1-green dark:hover:text-p1-cyan"
           >
-        Интернет портал
+            Интернет портал
           </div>
         </div>
       </div>
@@ -197,7 +197,7 @@ export default function Page() {
         <div className="md:basis-3/5">
           <div className="space-y-4 rounded-3xl border-p1-darkgreen p-2 text-left text-base text-p1-darkgreen hover:border-p2-orange md:border-4 md:p-5 md:text-xl md:hover:shadow-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
             <div className="px-4 pb-2">
-            Регистрация доменного имени и разработка сайта, где каждый сможет:
+              Регистрация доменного имени и разработка сайта, где каждый сможет:
             </div>
             <ul className="list-disc px-4 md:px-5">
               <li>быть в курсе последних новостей</li>
@@ -226,7 +226,7 @@ export default function Page() {
             id="6"
             className="px-2 text-center text-base font-semibold text-p1-darkgreen md:pt-4 md:text-xl dark:text-p1-green dark:hover:text-p1-cyan"
           >
-        Сервисы и cоциальная значимость
+            Сервисы и cоциальная значимость
           </div>
         </div>
       </div>
@@ -243,7 +243,8 @@ export default function Page() {
               <li>зрителей</li>
             </ul>
             <div className="px-4 pb-5">
-              Cвобода выбора и коммуникаций, формирование NFT наград, цифровизация автопарка, формирование единой среды общения и принятия решений.
+              Cвобода выбора и коммуникаций, формирование NFT наград, цифровизация автопарка,
+              формирование единой среды общения и принятия решений.
             </div>
             <div className="px-4 pb-5">
               Мы создаем свободную информационную среду, за сохранность сведений в которой отвечают
@@ -259,7 +260,7 @@ export default function Page() {
             id="7"
             className="px-2 text-center text-base font-semibold text-p1-darkgreen md:pt-4 md:text-xl dark:text-p1-green dark:hover:text-p1-cyan"
           >
-        Дополнительные коллекции
+            Дополнительные коллекции
           </div>
         </div>
       </div>
@@ -277,7 +278,8 @@ export default function Page() {
               Пилоты, участники команд и коллекционеры смогут создавать свои уникальные NFT.
             </div>
             <div className="px-4 pb-5">
-              Награды (Awards NFT) - токены с метаданными о событии, изображением цифровой награды, видео-контентом.
+              Награды (Awards NFT) - токены с метаданными о событии, изображением цифровой награды,
+              видео-контентом.
             </div>
             <div className="px-4 pb-5">
               Другие коллекции, способные закрыть социально значимые вопросы сообщества.
@@ -297,7 +299,7 @@ export default function Page() {
             id="8"
             className="px-2 text-center text-base font-semibold text-p1-darkgreen md:pt-4 md:text-xl dark:text-p1-green dark:hover:text-p1-cyan"
           >
-        Выпуск взаимозаменяемых токенов
+            Выпуск взаимозаменяемых токенов
           </div>
         </div>
       </div>
@@ -307,7 +309,8 @@ export default function Page() {
           <div className="space-y-4 rounded-3xl border-p1-darkgreen p-2 text-left text-base text-p1-darkgreen hover:border-p2-orange md:border-4 md:p-5 md:text-xl md:hover:shadow-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
             <div className="px-4 pb-5">
               По достижению первоочередных целей участники сообщества (держатели NFT из коллекций
-              GAA) примут решение (путем голосования) о необходимости выпуска токена в формате ERC20.
+              GAA) примут решение (путем голосования) о необходимости выпуска токена в формате
+              ERC20.
             </div>
             <div className="px-4 pb-5">
               Таким образом мы планируем предоставить дополнительные возможности для инвесторов.
@@ -322,7 +325,7 @@ export default function Page() {
             id="9"
             className="px-2 text-center text-base font-semibold text-p1-darkgreen md:pt-4 md:text-xl dark:text-p1-green dark:hover:text-p1-cyan"
           >
-      Создание децентрализованной автономной организации (DAO)
+            Создание децентрализованной автономной организации (DAO)
           </div>
         </div>
       </div>
@@ -353,7 +356,7 @@ export default function Page() {
             id="10"
             className="px-2 text-center text-base font-semibold text-p1-darkgreen md:pt-4 md:text-xl dark:text-p1-green dark:hover:text-p1-cyan"
           >
-      Содействие развитию молодых талантов
+            Содействие развитию молодых талантов
           </div>
         </div>
       </div>
@@ -377,7 +380,7 @@ export default function Page() {
             id="11"
             className="px-2 text-center text-base font-semibold text-p1-darkgreen md:pt-4 md:text-xl dark:text-p1-green dark:hover:text-p1-cyan"
           >
-        Сохранение культурных ценностей
+            Сохранение культурных ценностей
           </div>
         </div>
       </div>
@@ -404,7 +407,7 @@ export default function Page() {
             id="12"
             className="px-2 text-center text-base font-semibold text-p1-darkgreen md:pt-4 md:text-xl dark:text-p1-green dark:hover:text-p1-cyan"
           >
-        Организация и проведение национальных автоспортивных и автокультурных мероприятий
+            Организация и проведение национальных автоспортивных и автокультурных мероприятий
           </div>
           <div className="space-y-4 rounded-3xl border-p1-darkgreen p-2 text-left text-base text-p1-darkgreen hover:border-p2-orange md:border-4 md:p-5 md:text-xl md:hover:shadow-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
             <div className="px-4 pb-5">
@@ -424,7 +427,7 @@ export default function Page() {
             id="13"
             className="px-2 text-center text-base font-semibold text-p1-darkgreen md:pt-4 md:text-xl dark:text-p1-green dark:hover:text-p1-cyan"
           >
-        Организация и проведение международных автоспортивных и автокультурных мероприятий
+            Организация и проведение международных автоспортивных и автокультурных мероприятий
           </div>
           <div className="space-y-4 rounded-3xl border-p1-darkgreen p-2 text-left text-base text-p1-darkgreen hover:border-p2-orange md:border-4 md:p-5 md:text-xl md:hover:shadow-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
             <div className="px-4 pb-5">
@@ -441,13 +444,13 @@ export default function Page() {
             id="14"
             className="px-2 text-center text-base font-semibold text-p1-darkgreen md:pt-4 md:text-xl dark:text-p1-green dark:hover:text-p1-cyan"
           >
-        Организация и проведение регулярных международных автоспортивных и автокультурных
+            Организация и проведение регулярных международных автоспортивных и автокультурных
             мероприятий
           </div>
           <div className="space-y-4 rounded-3xl border-p1-darkgreen p-2 text-left text-base text-p1-darkgreen hover:border-p2-orange md:border-4 md:p-5 md:text-xl md:hover:shadow-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
             <div className="px-4 pb-5">
-              Создание и проведение регулярных автоспортивных и автокультурных
-              мероприятий высокого уровня организации.
+              Создание и проведение регулярных автоспортивных и автокультурных мероприятий высокого
+              уровня организации.
             </div>
             <div className="pb-5 text-center">Праздник автоспорта и автокультуры!</div>
           </div>

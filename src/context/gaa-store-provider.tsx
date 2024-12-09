@@ -3,7 +3,7 @@
 import { type ReactNode, createContext, useState, useContext } from 'react';
 import { useStore } from 'zustand';
 
-import { createGaaStore } from '@/stores/gaa-store';
+import { createGaaStore } from '@/context/gaa-store';
 
 type GaaStoreType = ReturnType<typeof createGaaStore>;
 

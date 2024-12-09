@@ -1,7 +1,7 @@
 'use client';
 
 import { useLayoutEffect } from 'react';
-import { useGaaStore } from '@/providers/gaa-store-provider';
+import { useGaaStore } from '@/context/gaa-store-provider';
 import Image from 'next/image';
 import Link from 'next/link';
 import { JumpButton } from '@/components/jumpButton';
