@@ -7,11 +7,11 @@ import { useGaaStore } from '@/context/gaa-store-provider';
 
 const setThemeClass = (value: string) => {
   if (value === 'dark') {
-    if (!document.documentElement.classList.contains(value)) {
-      document.documentElement.classList.add(value);
+    if (!document.documentElement.classList.contains('dark')) {
+      document.documentElement.classList.add('dark');
     }
   } else {
-    document.documentElement.classList.remove(value);
+    document.documentElement.classList.remove('dark');
   }
 };
 
@@ -48,7 +48,7 @@ const Header = () => {
                 id="theme"
                 aria-label="theme"
                 className=""
-                defaultValue={theme || 'light'}
+                value={theme || 'light'}
                 onChange={(e) => {
                   setTheme(e.target.value);
                   setThemeClass(e.target.value);
