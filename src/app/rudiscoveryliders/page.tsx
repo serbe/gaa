@@ -89,14 +89,14 @@ export default function Page() {
                 Невзаимозаменяемый токен, отражающий пилота спортивного автомобиля.
               </p>
               <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
-                Каждый NFT содержит метаданные, хранящие информацию о гонщике
+                Каждый NFT содержит метаданные, хранящие информацию о гонщике.
               </p>
               <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
-                По согласованию мы можем полностью скопировать внешность персоны
+                По согласованию мы можем полностью скопировать внешность персоны.
               </p>
               <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
                 Мы очень ценим вклад пилотов в развитие автоспорта и хотели бы запечатлеть каждого в
-                единой коллекции, будь то представитель кольцевых гонок или дисциплины дрифта
+                единой коллекции, будь то представитель кольцевых гонок или дисциплины дрифта.
               </p>
 
               <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
@@ -105,7 +105,7 @@ export default function Page() {
               </p>
               <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
                 Это ваш способ привлечения инвестиций, за одну транзакцию вы сможете создать до 100
-                NFT, так мы планируем организовать поддержку пилотов и членов команд
+                NFT - так мы планируем организовать поддержку пилотов и членов команд.
               </p>
             </div>
 
@@ -154,7 +154,7 @@ export default function Page() {
                   href="/rumintdrivers"
                   className="inline-block w-full place-content-center rounded-3xl border-2 border-red-400 bg-p2-white2 px-10 py-8 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-red-400 hover:text-p1-white dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:bg-red-900 dark:hover:text-p1-white"
                 >
-                  Страница создания NFT
+                  Создай NFT
                 </a>
               </div>
             </div>
@@ -178,10 +178,10 @@ export default function Page() {
                 Невзаимозаменяемый токен, отражающий члена автоспортивной команды.
               </p>
               <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
-                Каждый NFT содержит метаданные, хранящие информацию о персоне
+                Каждый NFT содержит метаданные, хранящие информацию о персоне.
               </p>
               <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
-                По согласованию мы можем полностью скопировать внешность персоны
+                По согласованию мы можем полностью скопировать внешность персоны.
               </p>
               <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
                 Участники автоспортивных команд вносят огромный вклад в развитие автоспорта, поэтому
@@ -194,7 +194,7 @@ export default function Page() {
               </p>
               <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
                 Это ваш способ привлечения инвестиций, за одну транзакцию вы сможете создать до 100
-                NFT, так мы планируем организовать поддержку пилотов и членов команд
+                NFT - так мы планируем организовать поддержку пилотов и членов команд.
               </p>
             </div>
 
@@ -244,7 +244,7 @@ export default function Page() {
                     href="/rumintteammembers"
                     className="inline-block w-full place-content-center rounded-3xl border-2 border-p3-blue bg-p2-white2 px-10 py-8 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p3-blue hover:text-p1-white dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:bg-p3-violet dark:hover:text-p1-white"
                   >
-                    Страница создания NFT
+                    Создай NFT
                   </a>
                 </div>
               </div>
@@ -270,23 +270,23 @@ export default function Page() {
                 автомобилей.
               </p>
               <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
-                Каждый NFT содержит метаданные, хранящие информацию о персоне
+                Каждый NFT содержит метаданные, хранящие информацию о персоне.
               </p>
               <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
-                По согласованию мы можем полностью скопировать внешность персоны
+                По согласованию мы можем полностью скопировать внешность персоны.
               </p>
               <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
                 Мы очень ценим вклад коллекционеров в историю автокультуры и автоспорта и хотели бы
-                запечатлеть историю каждого в единой коллекции
+                запечатлеть историю каждого в единой коллекции.
               </p>
 
               <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
-                Предполагается, что первоначальным владельцем NFT будет сам член команды. Позже по
+                Предполагается, что первоначальным владельцем NFT будет сам коллекционер. Позже по
                 желанию владельца токен может быть передан/продан любому человеку.
               </p>
               <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
                 Это ваш способ привлечения инвестиций, за одну транзакцию вы сможете создать до 100
-                NFT, так мы планируем организовать поддержку коллекционеров и развитие направления
+                NFT, так мы планируем организовать поддержку коллекционеров и развитие направления.
               </p>
             </div>
 
@@ -336,7 +336,7 @@ export default function Page() {
                     href="/rumintcollectors"
                     className="inline-block w-full place-content-center rounded-3xl border-2 border-stone-500 bg-p2-white2 px-10 py-8 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-stone-500 hover:text-p1-white dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:bg-stone-700 dark:hover:text-p1-white"
                   >
-                    Страница создания NFT
+                    Создай NFT
                   </a>
                 </div>
               </div>
@@ -361,7 +361,7 @@ export default function Page() {
             Только верифицированные пользователи смогут создать NFT в коллекциях
           </div>
           <div className="text-center text-base md:text-2xl dark:text-p1-green dark:hover:text-p1-cyan">
-            Drivers, Team&apos;s Members, Collectors NFT
+            Drivers, Team&apos;s Members, Collectors
           </div>
 
           <div className="pb-5 text-center text-base md:text-2xl dark:text-p1-green dark:hover:text-p1-cyan">
@@ -516,7 +516,7 @@ export default function Page() {
           </div>
 
           <div className="p-2 text-center text-base md:text-2xl dark:text-p1-green dark:hover:text-p1-cyan">
-            Любой желающий сможет приобрести NFT из коллекций на вторичном рынке, так мы
+            Любой желающий сможет приобрести NFT из коллекций на вторичном рынке - так мы
             поддерживаем активных участников направлений и их развитие
           </div>
           <div className="p-2 text-center text-base md:text-2xl dark:text-p1-green dark:hover:text-p1-cyan">
