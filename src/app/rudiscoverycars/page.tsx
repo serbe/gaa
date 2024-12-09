@@ -26,29 +26,28 @@ export default function Page() {
             <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
               Невзаимозаменяемый токен, отражающий реальный коллекционный, спортивный,
               кастомизированный или раритетный автомобиль из национальной, корпоративной или частной
-              коллекции
+              коллекции.
             </p>
             <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
               Каждый NFT содержит метаданные, хранящие информацию о коллекционном экземпляре, его
-              описание и характеристики
+              описание и характеристики.
             </p>
             <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
               При создании NFT есть возможность добавить медиаконтент.
             </p>
             <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
-              Для получения Car NFT необходимо владеть хотябы одной NFT из коллекций Drivers,
-              Team&apos;s Members, Collectors NFT
+              Для создания Cars NFT необходимо владеть хотя бы одним NFT из коллекций Drivers,
+              Team&apos;s Members или Collectors.
             </p>
 
             <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
-              Данный токен Burnebal, то есть собственник смарт-контракта может уничтожить любой
-              токен из коллекции, эта мера необходима для формирования чистоты коллекции.
+              Данный токен имеет характеристику "Burnable" - собственник смарт-контракта может уничтожить любой
+              токен из коллекции. Эта мера необходима для поддержания актуальности коллекции.
             </p>
 
             <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
-              То есть собственник смарт-контракта вправе уничтожить NFT в случае нарушения
-              держателем Drivers, Team&apos;s Members, Collectors NFT правил создания NFT не
-              соответствующих целям Проекта.
+              Собственник смарт-контракта вправе уничтожить NFT в случае создания NFT, не
+              соответствующих правилам проекта.
             </p>
           </div>
           <div id="1"></div>
@@ -100,7 +99,7 @@ export default function Page() {
                     href="/rumintcars"
                     className="inline-block w-full place-content-center rounded-3xl border-2 border-cyan-700 bg-p2-white2 px-10 py-8 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-cyan-700 hover:text-p1-white dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:bg-cyan-900 dark:hover:text-white dark:focus:text-white dark:focus:ring-cyan-700"
                   >
-                    Страница создания NFT
+                    Создай NFT
                   </a>
                 </div>
               </div>
@@ -112,13 +111,13 @@ export default function Page() {
       <div className="md:pb-8"></div>
       <div id="2"></div>
       <div className="px-2 text-center text-xl font-semibold text-p1-darkgreen md:pt-10 md:text-3xl dark:text-p1-green dark:hover:text-p1-cyan">
-        Способы получения Car NFT
+        Способы получения Cars NFT
       </div>
 
       <div className="h-max rounded-3xl border-p1-darkgreen p-2 md:border-4 md:shadow-lg dark:hover:border-p1-green">
         <div className="text-center text-base text-p1-darkgreen md:text-2xl dark:text-p1-green dark:hover:text-p1-cyan">
-          Только владельцы NFT коллекций Drivers, Team&apos;s members, Collectors смогут оцифровать
-          свои автомобили и создать Car NFT
+          Только владельцы NFT из коллекций Drivers, Team&apos;s members, Collectors смогут оцифровать
+          свои автомобили и создать Cars NFT
         </div>
 
         <div className="grid grid-cols-7 gap-1 md:m-5">
@@ -212,7 +211,7 @@ export default function Page() {
         </div>
 
         <div className="pt-5 text-center text-base text-p1-darkgreen md:text-2xl dark:text-p1-green dark:hover:text-p1-cyan">
-          Так мы планируем обеспечить прозрачность процесса.
+          Так мы планируем обеспечить прозрачность процесса
           <p className="text-center text-base md:text-2xl">и чистоту коллекции</p>{' '}
         </div>
       </div>
