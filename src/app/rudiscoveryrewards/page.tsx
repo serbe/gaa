@@ -24,37 +24,31 @@ export default function Page() {
         <div className="flex flex-wrap justify-center px-2 pt-2 md:flex-nowrap">
           <div>
             <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
-              Невзаимозаменяемый токен (NFT награда), вручаемая Промоутером (Организатором) в рамках
-              мероприятия (соревнования)
+              Невзаимозаменяемый токен (NFT награда), вручаемый Промоутером (Организатором) в рамках
+              мероприятия (соревнования).
             </p>
             <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
-              Awards NFT можно коллекционировать, продавать, передавать
+              Awards NFT можно коллекционировать, продавать, передавать.
             </p>
             <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
-              При создании NFT прикрепляется медиаконтент
+              При создании NFT прикрепляется медиаконтент.
             </p>
             <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
-              Токен содержит ссылки на официальные документы: Итоговый протокол конкурса,
-              соревнования Фото награждения Видео победы
+              Токен содержит ссылки на официальные документы: Итоговый протокол мероприятия, фото и видео контент.
             </p>
             <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
               Все данные хранятся в IPFS сети и защищены от несанкционированного уничтожения.
             </p>
             <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
-              Доступ к минту токена у держателей NFT Promoter license, National license, Global
-              license, Management GAA
+              Доступ к созданию токена имеют держатели токенов Promoter license, National license, Global
+              license и Management GAA.
             </p>
 
             <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
-              Данный токен Burnebal, то есть собственник смарт-контракта может уничтожить любой
-              токен из коллекции, эта мера необходима для формирования чистоты коллекции.
+            Данный токен имеет характеристику "Burnable" - собственник смарт-контракта может уничтожить любой токен из коллекции. Эта мера необходима для поддержания актуальности коллекции.
             </p>
             <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
-              То есть собственник смарт-контракта вправе уничтожить NFT в случае нарушения правил
-              создания NFT не соответствующих целям Проекта. То есть категорически запрещено
-              присоединять к NFT медиаконтент политического содержания, экстремистской
-              направленности, а также любой иной медиаконтент не отвечающий вектору развития
-              Проекта. Также запрещено присоединять данные не соответствующие действительности
+            Собственник смарт-контракта вправе уничтожить NFT в случае создания NFT, не соответствующих правилам проекта.
             </p>
           </div>
           <div id="2"></div>
@@ -133,7 +127,7 @@ export default function Page() {
                     href="/rumintrewards"
                     className="inline-block w-full rounded-3xl border-2 border-p2-orange bg-p2-white2 px-10 py-8 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p2-orange hover:text-p1-white dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:border-p2-orange dark:hover:bg-amber-600 dark:hover:text-amber-100"
                   >
-                    Страница создания NFT
+                    Создай NFT
                   </a>
                 </div>
               </div>
@@ -331,12 +325,6 @@ export default function Page() {
               alt="car"
             />
           </div>
-        </div>
-        <div className="pt-2 text-center text-base text-p1-darkgreen md:text-2xl dark:text-p1-green dark:hover:text-p1-cyan">
-          Награды могут получать Drivers, Team&apos;s Members, Collectors, Cars
-          <p className="pb-2 text-center text-base md:text-2xl">
-            даже если нет соответствующей NFT
-          </p>
         </div>
       </div>
       <div id="4"></div>
