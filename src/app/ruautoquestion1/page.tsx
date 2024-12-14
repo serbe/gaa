@@ -134,10 +134,10 @@ export default function Page() {
               pathname: '/ruautoquestion4',
               query: { ruabout: 'ruautoquestion4' },
             }}
-            className="mx-auto justify-center rounded-3xl hover:drop-shadow-2xl"
+            className="mx-auto justify-center rounded-3xl"
           >
             <Image
-              className="relative mb-4 inline-block w-max rounded-3xl opacity-85 shadow-lg transition-all delay-75 duration-500 ease-in-out hover:scale-105 hover:opacity-100"
+              className="relative mb-4 inline-block w-max rounded-3xl opacity-85 transition-all delay-75 duration-500 ease-in-out hover:scale-105 hover:opacity-100"
               width={1000}
               height={1000}
               src="/Arrows/Prev.png"
@@ -153,10 +153,10 @@ export default function Page() {
               pathname: '/ruautoquestion2',
               query: { ruabout: 'ruautoquestion2' },
             }}
-            className="mx-auto justify-center rounded-3xl hover:drop-shadow-2xl"
+            className="mx-auto justify-center rounded-3xl"
           >
             <Image
-              className="relative mb-4 inline-block w-max rounded-3xl opacity-85 shadow-lg transition-all delay-75 duration-500 ease-in-out hover:scale-105 hover:opacity-100"
+              className="relative mb-4 inline-block w-max rounded-3xl opacity-85 transition-all delay-75 duration-500 ease-in-out hover:scale-105 hover:opacity-100"
               width={1000}
               height={1000}
               src="/Arrows/Next.png"
@@ -187,7 +187,7 @@ export default function Page() {
                     type="radio"
                     value=""
                     name="list-radio"
-                    className="h-5 w-5 border-gray-300 bg-gray-100 text-p1-green focus:ring-2 focus:ring-p1-green dark:border-gray-500 dark:bg-gray-600 dark:ring-offset-gray-700 dark:focus:ring-p2-orange dark:focus:ring-offset-gray-700"
+                    className="h-5 w-5 border-gray-300 bg-gray-100 text-p2-orange dark:border-p2-orange dark:bg-gray-600"
                   />
                   <label
                     htmlFor="list-radio-eleven"
@@ -205,7 +205,7 @@ export default function Page() {
                     type="radio"
                     value=""
                     name="list-radio"
-                    className="h-5 w-5 border-gray-300 bg-gray-100 text-p1-green focus:ring-2 focus:ring-p1-green dark:border-gray-500 dark:bg-gray-600 dark:ring-offset-gray-700 dark:focus:ring-p2-orange dark:focus:ring-offset-gray-700"
+                    className="h-5 w-5 border-gray-300 bg-gray-100 text-p2-orange dark:border-p2-orange dark:bg-gray-600"
                   />
                   <label
                     htmlFor="list-radio-twelve"
@@ -222,7 +222,7 @@ export default function Page() {
                     type="radio"
                     value=""
                     name="list-radio"
-                    className="h-5 w-5 border-gray-300 bg-gray-100 text-p1-green focus:ring-2 focus:ring-p1-green dark:border-gray-500 dark:bg-gray-600 dark:ring-offset-gray-700 dark:focus:ring-p2-orange dark:focus:ring-offset-gray-700"
+                    className="h-5 w-5 border-gray-300 bg-gray-100 text-p2-orange dark:border-p2-orange dark:bg-gray-600"
                   />
                   <label
                     htmlFor="list-radio-thirteen"
@@ -239,7 +239,7 @@ export default function Page() {
                     type="radio"
                     value=""
                     name="list-radio"
-                    className="h-5 w-5 border-gray-300 bg-gray-100 text-p1-green focus:ring-2 focus:ring-p1-green dark:border-gray-500 dark:bg-gray-600 dark:ring-offset-gray-700 dark:focus:ring-p2-orange dark:focus:ring-offset-gray-700"
+                    className="h-5 w-5 border-gray-300 bg-gray-100 text-p2-orange dark:border-p2-orange dark:bg-gray-600"
                   />
                   <label
                     htmlFor="list-radio-fourteen"
@@ -256,7 +256,7 @@ export default function Page() {
               data-modal-target="question-modal"
               data-modal-toggle="question-modal"
               onClick={() => setViewModal(!viewModal)}
-              className="inline-block rounded-xl border-2 border-p2-orange bg-p1-white px-10 py-8 text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p2-orange hover:text-p1-white dark:border-p1-cyan dark:bg-p1-darkgreen dark:text-p1-cyan dark:hover:border-p2-orange dark:hover:bg-amber-600 dark:hover:text-amber-100"
+              className="inline-block rounded-xl border-2 border-p2-orange bg-p1-white px-10 py-8 text-p1-darkgreen transition-all delay-75 duration-300 ease-in-out hover:bg-p2-orange hover:text-p1-white dark:border-p1-cyan dark:bg-p1-darkgreen dark:text-p1-cyan dark:hover:border-p2-orange dark:hover:bg-amber-600 dark:hover:text-amber-100"
             >
               Ответить
             </button>
