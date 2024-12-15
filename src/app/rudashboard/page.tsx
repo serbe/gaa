@@ -32,10 +32,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div
-          id="2"
-          className="mb-4 rounded-3xl border-p1-darkgreen bg-p1-white shadow-lg md:border-4 dark:border-p1-green dark:bg-p1-deepdarkgreen"
-        >
+        <div className="mb-4 rounded-3xl border-p1-darkgreen bg-p1-white shadow-lg md:border-4 dark:border-p1-green dark:bg-p1-deepdarkgreen">
           <div className="mx-auto flex justify-end space-x-4 md:p-2 md:text-xl lg:text-2xl">
             <div>
               <a
@@ -47,7 +44,7 @@ export default function Home() {
             </div>
             <div className="space-x-2">
               <a
-                href="#"
+                href="#2"
                 className="inline-block place-content-center rounded-xl border-2 border-p1-darkgreen bg-p1-white p-2 text-center text-base text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p1-green hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
               >
                 Мои NFT
@@ -135,9 +132,9 @@ export default function Home() {
                       className="block max-w-sm rounded-3xl border border-gray-200 bg-white bg-[url('/HeroNFT/CustomLads/CustomLads1.png')] bg-contain bg-no-repeat p-1 shadow duration-300 ease-in-out hover:scale-105 hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
                     >
                       <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-p1-green">
-                        Custom Lads{' '}
+                        CustomLads{' '}
                       </h5>
-                      <p className="pt-24 font-normal text-gray-700 dark:text-gray-400">
+                      <p className="pt-32 font-normal text-gray-700 dark:text-gray-400">
                         35000 CustomLads
                       </p>
                     </a>
@@ -521,6 +518,243 @@ export default function Home() {
                   <div className="m-2 aspect-video w-full rounded-3xl border border-p1-darkgreen md:pt-28">
                     ETH: USDT:
                     <p>времени назад:</p>
+                  </div>
+                </div>
+              </div>
+              <div id="2" className="pb-8"></div>
+              <div className="mt-2 rounded-3xl border-2 bg-p2-white2 p-2 text-p1-darkgreen dark:border-p1-darkgreen dark:bg-p1-deepdarkgreen dark:text-p1-green">
+                <div className="px-2 text-xl font-semibold md:pt-2 md:text-3xl">
+                  <div className="pt-2 text-left">Мои NFT___     Total NFTs:____        GAA_NFTs:_____</div>
+                  <div className="pt-2 text-left">RaceLads</div>
+
+                  <div className="mt-2 grid grid-cols-7 gap-2 space-x-2 p-4 text-base md:text-base">
+                    <a
+                      href="/rucard"
+                      className="block max-w-sm rounded-3xl border border-gray-200 bg-white bg-[url('/HeroNFT/RaceLads/RaceLads1.png')] bg-contain bg-no-repeat p-1 shadow duration-300 ease-in-out hover:scale-105 hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
+                    >
+                      <h5 className="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-p1-green">
+                        RaceLad #1{' '}
+                      </h5>
+                      <p className="pt-32 font-normal text-gray-700 dark:text-gray-400">
+                        10000 RaceLads
+                      </p>
+                      <p className="font-normal text-gray-700 dark:text-gray-400">
+                        Floor Price: ETH:15
+                      </p>
+                    </a>
+                    <a
+                      href="#"
+                      className="block max-w-sm rounded-3xl border border-gray-200 bg-white bg-[url('/HeroNFT/RaceLads/RaceLads2.png')] bg-contain bg-no-repeat p-1 shadow duration-300 ease-in-out hover:scale-105 hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
+                    >
+                      <h5 className="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-p1-green">
+                        RaceLad #2{' '}
+                      </h5>
+                      <p className="pt-32 font-normal text-gray-700 dark:text-gray-400">
+                        10000 RaceLads
+                      </p>
+                      <p className="font-normal text-gray-700 dark:text-gray-400">
+                        Floor Price: ETH:15
+                      </p>
+                    </a>
+                    <a
+                      href="#"
+                      className="block max-w-sm rounded-3xl border border-gray-200 bg-white bg-[url('/HeroNFT/RaceLads/RaceLads3.png')] bg-contain bg-no-repeat p-1 shadow duration-300 ease-in-out hover:scale-105 hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
+                    >
+                      <h5 className="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-p1-green">
+                        RaceLad #3{' '}
+                      </h5>
+                      <p className="pt-32 font-normal text-gray-700 dark:text-gray-400">
+                        10000 RaceLads
+                      </p>
+                      <p className="font-normal text-gray-700 dark:text-gray-400">
+                        Floor Price: ETH:15
+                      </p>
+                    </a>
+
+                    <a
+                      href="#"
+                      className="block max-w-sm rounded-3xl border border-gray-200 bg-white bg-[url('/HeroNFT/RaceLads/RaceLads4.png')] bg-contain bg-no-repeat p-1 shadow duration-300 ease-in-out hover:scale-105 hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
+                    >
+                      <h5 className="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-p1-green">
+                        RaceLad #4{' '}
+                      </h5>
+                      <p className="pt-32 font-normal text-gray-700 dark:text-gray-400">
+                        10000 RaceLads
+                      </p>
+                      <p className="font-normal text-gray-700 dark:text-gray-400">
+                        Floor Price: ETH:15
+                      </p>
+                    </a>
+                  </div>
+                  <div className="pt-2 text-left">Drivers</div>
+
+                  <div className="mt-2 grid grid-cols-7 gap-2 space-x-2 p-4 text-base md:text-base">
+                    <a
+                      href="#"
+                      className="block max-w-sm rounded-3xl border border-gray-200 bg-white bg-[url('/HeroNFT/Drivers/Driver3.png')] bg-contain bg-no-repeat p-1 shadow duration-300 ease-in-out hover:scale-105 hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
+                    >
+                      <h5 className="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-p1-green">
+                        Driver #1{' '}
+                      </h5>
+
+                      <p className="pt-32 font-normal text-gray-700 dark:text-gray-400">
+                        10000 Drivers
+                      </p>
+                      <p className="font-normal text-gray-700 dark:text-gray-400">
+                        Floor Price: ETH:15
+                      </p>
+                    </a>
+
+                    <a
+                      href="#"
+                      className="block max-w-sm rounded-3xl border border-gray-200 bg-white bg-[url('/HeroNFT/Drivers/Driver4.png')] bg-contain bg-no-repeat p-1 shadow duration-300 ease-in-out hover:scale-105 hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
+                    >
+                      <h5 className="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-p1-green">
+                        Driver #2{' '}
+                      </h5>
+
+                      <p className="pt-32 font-normal text-gray-700 dark:text-gray-400">
+                        10000 Drivers
+                      </p>
+                      <p className="font-normal text-gray-700 dark:text-gray-400">
+                        Floor Price: ETH:15
+                      </p>
+                    </a>
+                    <a
+                      href="#"
+                      className="block max-w-sm rounded-3xl border border-gray-200 bg-white bg-[url('/HeroNFT/Drivers/Driver2.png')] bg-contain bg-no-repeat p-1 shadow duration-300 ease-in-out hover:scale-105 hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
+                    >
+                      <h5 className="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-p1-green">
+                        Driver #3{' '}
+                      </h5>
+
+                      <p className="pt-32 font-normal text-gray-700 dark:text-gray-400">
+                        10000 Drivers
+                      </p>
+                      <p className="font-normal text-gray-700 dark:text-gray-400">
+                        Floor Price: ETH:15
+                      </p>
+                    </a>
+                    <a
+                      href="#"
+                      className="block max-w-sm rounded-3xl border border-gray-200 bg-white bg-[url('/HeroNFT/Drivers/Driver1.png')] bg-contain bg-no-repeat p-1 shadow duration-300 ease-in-out hover:scale-105 hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
+                    >
+                      <h5 className="mb-2 text-xl font-bold tracking-tight text-gray-900 dark:text-p1-green">
+                        Driver #4{' '}
+                      </h5>
+
+                      <p className="pt-32 font-normal text-gray-700 dark:text-gray-400">
+                        10000 Drivers
+                      </p>
+                      <p className="font-normal text-gray-700 dark:text-gray-400">
+                        Floor Price: ETH:15
+                      </p>
+                    </a>
+                  </div>
+                  <div className="pt-2 text-left">Team&apos;s Members</div>
+
+                  <div className="mt-2 grid grid-cols-7 gap-2 space-x-2 p-4 text-base">
+                    <a
+                      href="#"
+                      className="block max-w-sm rounded-3xl border border-gray-200 bg-white bg-[url('/HeroNFT/RaceLads/RaceLads1.png')] bg-contain bg-no-repeat p-1 shadow duration-300 ease-in-out hover:scale-105 hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
+                    >
+                      <h5 className="mb-2 font-bold tracking-tight text-gray-900 dark:text-p1-green">
+                        Team&apos;s Members #1{' '}
+                      </h5>
+                      <p className="pt-32 font-normal text-gray-700 dark:text-gray-400">
+                        10000 Team&apos;s Members
+                      </p>
+                      <p className="font-normal text-gray-700 dark:text-gray-400">
+                        Floor Price: ETH:15
+                      </p>
+                    </a>
+
+                    <a
+                      href="#"
+                      className="block max-w-sm rounded-3xl border border-gray-200 bg-white bg-[url('/HeroNFT/Drivers/Driver4.png')] bg-contain bg-no-repeat p-1 shadow duration-300 ease-in-out hover:scale-105 hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
+                    >
+                      <h5 className="mb-2 font-bold tracking-tight text-gray-900 dark:text-p1-green">
+                        Team&apos;s Members #2{' '}
+                      </h5>
+                      <p className="pt-32 font-normal text-gray-700 dark:text-gray-400">
+                        10000 Team&apos;s Members
+                      </p>
+                      <p className="font-normal text-gray-700 dark:text-gray-400">
+                        Floor Price: ETH:15
+                      </p>
+                    </a>
+                  </div>
+                  <div className="pt-2 text-left">Collectors</div>
+
+                  <div className="mt-2 grid grid-cols-7 gap-2 space-x-2 p-4 text-base">
+                  
+                    <a
+                      href="#"
+                      className="block max-w-sm rounded-3xl border border-gray-200 bg-white bg-[url('/HeroNFT/Collectors/Collector1.png')] bg-contain bg-no-repeat p-1 shadow duration-300 ease-in-out hover:scale-105 hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
+                    >
+                      <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-p1-green">
+                        Сollectors{' '}
+                      </h5>
+                      <p className="pt-32 font-normal text-gray-700 dark:text-gray-400">
+                        5000 Сollectors
+                      </p>
+                    </a>
+                  
+                  </div>
+
+                  <div className="pt-2 text-left">CustomLads</div>
+
+                  <div className="mt-2 grid grid-cols-7 gap-2 space-x-2 p-4 text-base md:text-xl">
+                 
+                 
+                  </div>
+
+                  <div className="pt-2 text-left">Награды</div>
+
+                  <div className="mt-2 grid grid-cols-7 gap-2 space-x-2 p-4 text-base md:text-xl">
+                    <a
+                      href="#"
+                      className="block max-w-sm rounded-3xl border border-gray-200 bg-white bg-[url('/HeroNFT/RaceLads/RaceLads1.png')] bg-contain bg-no-repeat p-1 shadow duration-300 ease-in-out hover:scale-105 hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
+                    >
+                      <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-p1-green">
+                        RaceLads{' '}
+                      </h5>
+                      <p className="pt-32 font-normal text-gray-700 dark:text-gray-400">
+                        10000 RaceLads
+                      </p>
+                    </a>
+
+                    <a
+                      href="#"
+                      className="block max-w-sm rounded-3xl border border-gray-200 bg-white bg-[url('/HeroNFT/Drivers/Driver4.png')] bg-contain bg-no-repeat p-1 shadow duration-300 ease-in-out hover:scale-105 hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
+                    >
+                      <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-p1-green">
+                        Drivers{' '}
+                      </h5>
+                      <p className="pt-32 font-normal text-gray-700 dark:text-gray-400">
+                        5000 Drivers
+                      </p>
+                    </a>
+    
+                  </div>
+                  <div className="pt-2 text-left">Лицензии</div>
+
+                  <div className="mt-2 grid grid-cols-7 gap-2 space-x-2 p-4 text-base md:text-xl">
+                    <a
+                      href="#"
+                      className="block max-w-sm rounded-3xl border border-gray-200 bg-white bg-[url('/HeroNFT/RaceLads/RaceLads1.png')] bg-contain bg-no-repeat p-1 shadow duration-300 ease-in-out hover:scale-105 hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
+                    >
+                      <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-p1-green">
+                        RaceLads{' '}
+                      </h5>
+                      <p className="pt-32 font-normal text-gray-700 dark:text-gray-400">
+                        10000 RaceLads
+                      </p>
+                    </a>
+
+         
+                 
+                
                   </div>
                 </div>
               </div>

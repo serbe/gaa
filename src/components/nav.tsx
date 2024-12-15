@@ -10,6 +10,7 @@ const menuItems = [
   { name: 'Racepoint', url: '/ruracepoint' },
   { name: 'Партнеры', url: '/rupartners' },
   { name: 'Социальные сети', url: '/rusocials' },
+  { name: 'Dashboard', url: '/rudashboard' },
 ];
 
 const Navbar = ({ open, setter }: { open: boolean; setter: Dispatch<SetStateAction<boolean>> }) => (
