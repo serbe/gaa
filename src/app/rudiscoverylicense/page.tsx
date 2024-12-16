@@ -112,11 +112,13 @@ export default function Page() {
                 создания Promoter License NFT.
               </p>
               <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
-              Данный токен имеет характеристику "Burnable" - собственник смарт-контракта может уничтожить любой токен из коллекции.
+                Данный токен имеет характеристику &quot;Burnable&quot; - собственник смарт-контракта
+                может уничтожить любой токен из коллекции.
               </p>
 
               <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
-              Собственник смарт-контракта вправе уничтожить NFT в случае создания NFT, не соответствующих правилам проекта.
+                Собственник смарт-контракта вправе уничтожить NFT в случае создания NFT, не
+                соответствующих правилам проекта.
               </p>
               <div className="pb-5"></div>
             </div>
@@ -160,7 +162,8 @@ export default function Page() {
           <div className="flex flex-wrap justify-center px-2 pt-2 md:flex-nowrap">
             <div>
               <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
-                National License NFT - невзаимозаменяемый токен, предоставляемый лидерам направлений.
+                National License NFT - невзаимозаменяемый токен, предоставляемый лидерам
+                направлений.
               </p>
               <div className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
                 National License NFT предоставляет доступ к:
@@ -172,8 +175,8 @@ export default function Page() {
               </div>
 
               <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
-                National License NFT дает право принимать решения, связанные с организацией мероприятий и проведением
-                награждения спортсменов.
+                National License NFT дает право принимать решения, связанные с организацией
+                мероприятий и проведением награждения спортсменов.
               </p>
 
               <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
@@ -193,11 +196,13 @@ export default function Page() {
                 National License NFT.
               </p>
               <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
-              Данный токен имеет характеристику "Burnable" - собственник смарт-контракта может уничтожить любой токен из коллекции.
+                Данный токен имеет характеристику &quot;Burnable&quot; - собственник смарт-контракта
+                может уничтожить любой токен из коллекции.
               </p>
 
               <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
-              Собственник смарт-контракта вправе уничтожить NFT в случае создания NFT, не соответствующих правилам проекта.
+                Собственник смарт-контракта вправе уничтожить NFT в случае создания NFT, не
+                соответствующих правилам проекта.
               </p>
               <div className="pb-5"></div>
             </div>
@@ -256,7 +261,8 @@ export default function Page() {
               </div>
 
               <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
-                Global License NFT дает право принимать решения, связанные с организацией мероприятий и проведением награждения спортсменов.
+                Global License NFT дает право принимать решения, связанные с организацией
+                мероприятий и проведением награждения спортсменов.
               </p>
 
               <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
@@ -276,11 +282,13 @@ export default function Page() {
                 Global License NFT.
               </p>
               <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
-              Данный токен имеет характеристику "Burnable" - собственник смарт-контракта может уничтожить любой токен из коллекции.
+                Данный токен имеет характеристику &quot;Burnable&quot; - собственник смарт-контракта
+                может уничтожить любой токен из коллекции.
               </p>
 
               <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
-              Собственник смарт-контракта вправе уничтожить NFT в случае создания NFT, не соответствующих правилам проекта.
+                Собственник смарт-контракта вправе уничтожить NFT в случае создания NFT, не
+                соответствующих правилам проекта.
               </p>
               <div className="pb-5"></div>
             </div>

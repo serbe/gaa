@@ -34,21 +34,25 @@ export default function Page() {
               При создании NFT прикрепляется медиаконтент.
             </p>
             <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
-              Токен содержит ссылки на официальные документы: Итоговый протокол мероприятия, фото и видео контент.
+              Токен содержит ссылки на официальные документы: Итоговый протокол мероприятия, фото и
+              видео контент.
             </p>
             <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
               Все данные хранятся в IPFS сети и защищены от несанкционированного уничтожения.
             </p>
             <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
-              Доступ к созданию токена имеют держатели токенов Promoter license, National license, Global
-              license и Management GAA.
+              Доступ к созданию токена имеют держатели токенов Promoter license, National license,
+              Global license и Management GAA.
             </p>
 
             <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
-            Данный токен имеет характеристику "Burnable" - собственник смарт-контракта может уничтожить любой токен из коллекции. Эта мера необходима для поддержания актуальности коллекции.
+              Данный токен имеет характеристику &quot;Burnable&quot; - собственник смарт-контракта
+              может уничтожить любой токен из коллекции. Эта мера необходима для поддержания
+              актуальности коллекции.
             </p>
             <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
-            Собственник смарт-контракта вправе уничтожить NFT в случае создания NFT, не соответствующих правилам проекта.
+              Собственник смарт-контракта вправе уничтожить NFT в случае создания NFT, не
+              соответствующих правилам проекта.
             </p>
           </div>
           <div id="2"></div>

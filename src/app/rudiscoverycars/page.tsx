@@ -41,8 +41,9 @@ export default function Page() {
             </p>
 
             <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
-              Данный токен имеет характеристику "Burnable" - собственник смарт-контракта может уничтожить любой
-              токен из коллекции. Эта мера необходима для поддержания актуальности коллекции.
+              Данный токен имеет характеристику &quot;Burnable&quot; - собственник смарт-контракта
+              может уничтожить любой токен из коллекции. Эта мера необходима для поддержания
+              актуальности коллекции.
             </p>
 
             <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
@@ -60,7 +61,7 @@ export default function Page() {
               alt="Car"
             />
             <div
-              className="inline-block inline-flex w-full justify-self-center rounded-md p-2 align-baseline shadow-sm"
+              className="inline-flex w-full justify-self-center rounded-md p-2 align-baseline shadow-sm"
               role="group"
             >
               <Link
@@ -116,8 +117,8 @@ export default function Page() {
 
       <div className="h-max rounded-3xl border-p1-darkgreen p-2 md:border-4 md:shadow-lg dark:hover:border-p1-green">
         <div className="text-center text-base text-p1-darkgreen md:text-2xl dark:text-p1-green dark:hover:text-p1-cyan">
-          Только владельцы NFT из коллекций Drivers, Team&apos;s members, Collectors смогут оцифровать
-          свои автомобили и создать Cars NFT
+          Только владельцы NFT из коллекций Drivers, Team&apos;s members, Collectors смогут
+          оцифровать свои автомобили и создать Cars NFT
         </div>
 
         <div className="grid grid-cols-7 gap-1 md:m-5">
