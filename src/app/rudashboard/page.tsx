@@ -1,19 +1,8 @@
 'use client';
 import Image from 'next/image';
-import Link from 'next/link';
-import { useState } from 'react';
 import { JumpButton } from '@/components/jumpButton';
-import { Autoplay, Mousewheel, Navigation, Pagination } from 'swiper/modules';
-import { Swiper, SwiperSlide } from 'swiper/react';
-
-// Import Swiper styles
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/scrollbar';
-import 'swiper/css/pagination';
 
 export default function Home() {
-  const [value, setValue] = useState('0');
   const jumpPoints = ['1', '2', '3'];
   return (
     <div className="mx-auto max-w-full font-serif">
@@ -23,8 +12,10 @@ export default function Home() {
         <div className="rounded-3xl border-p2-orange bg-p1-white shadow-lg md:mb-4 md:w-10 md:min-w-52 md:border-4 dark:bg-p1-deepdarkgreen">
           <div className="flex flex-row">
             <div id="1" className="mx-auto text-left md:pt-2 md:text-xl lg:text-2xl">
-              <img
+              <Image
                 className="h-10 w-10 rounded-full p-1 ring-2 ring-p1-green dark:ring-p1-darkgreen"
+                width={1000}
+                height={1000}
                 src="/HeroNFT/RaceLads/RaceLads1.png"
                 alt="Bordered avatar"
               />
@@ -51,8 +42,10 @@ export default function Home() {
               </a>
             </div>
             <div>
-              <img
+              <Image
                 className="h-10 w-10 rounded-full p-1 ring-2 ring-p1-green dark:ring-p1-darkgreen"
+                width={1000}
+                height={1000}
                 src="/HeroNFT/RaceLads/RaceLads1.png"
                 alt="Bordered avatar"
               />
@@ -524,7 +517,7 @@ export default function Home() {
               <div id="2" className="pb-8"></div>
               <div className="mt-2 rounded-3xl border-2 bg-p2-white2 p-2 text-p1-darkgreen dark:border-p1-darkgreen dark:bg-p1-deepdarkgreen dark:text-p1-green">
                 <div className="px-2 text-xl font-semibold md:pt-2 md:text-3xl">
-                  <div className="pt-2 text-left">Мои NFT___     Total NFTs:____        GAA_NFTs:_____</div>
+                  <div className="pt-2 text-left">Мои NFT___ Total NFTs:____ GAA_NFTs:_____</div>
                   <div className="pt-2 text-left">RaceLads</div>
 
                   <div className="mt-2 grid grid-cols-7 gap-2 space-x-2 p-4 text-base md:text-base">
@@ -687,7 +680,6 @@ export default function Home() {
                   <div className="pt-2 text-left">Collectors</div>
 
                   <div className="mt-2 grid grid-cols-7 gap-2 space-x-2 p-4 text-base">
-                  
                     <a
                       href="#"
                       className="block max-w-sm rounded-3xl border border-gray-200 bg-white bg-[url('/HeroNFT/Collectors/Collector1.png')] bg-contain bg-no-repeat p-1 shadow duration-300 ease-in-out hover:scale-105 hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
@@ -699,15 +691,11 @@ export default function Home() {
                         5000 Сollectors
                       </p>
                     </a>
-                  
                   </div>
 
                   <div className="pt-2 text-left">CustomLads</div>
 
-                  <div className="mt-2 grid grid-cols-7 gap-2 space-x-2 p-4 text-base md:text-xl">
-                 
-                 
-                  </div>
+                  <div className="mt-2 grid grid-cols-7 gap-2 space-x-2 p-4 text-base md:text-xl"></div>
 
                   <div className="pt-2 text-left">Награды</div>
 
@@ -735,7 +723,6 @@ export default function Home() {
                         5000 Drivers
                       </p>
                     </a>
-    
                   </div>
                   <div className="pt-2 text-left">Лицензии</div>
 
@@ -751,10 +738,6 @@ export default function Home() {
                         10000 RaceLads
                       </p>
                     </a>
-
-         
-                 
-                
                   </div>
                 </div>
               </div>

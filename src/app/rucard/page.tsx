@@ -1,19 +1,8 @@
 'use client';
 import Image from 'next/image';
-import Link from 'next/link';
-import { useState } from 'react';
 import { JumpButton } from '@/components/jumpButton';
-import { Autoplay, Mousewheel, Navigation, Pagination } from 'swiper/modules';
-import { Swiper, SwiperSlide } from 'swiper/react';
-
-// Import Swiper styles
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/scrollbar';
-import 'swiper/css/pagination';
 
 export default function Home() {
-  const [value, setValue] = useState('0');
   const jumpPoints = ['1', '2', '3'];
   return (
     <div className="mx-auto max-w-full font-serif">
@@ -23,8 +12,10 @@ export default function Home() {
         <div className="rounded-3xl border-p2-orange bg-p1-white shadow-lg md:mb-4 md:w-10 md:min-w-56 md:border-4 dark:bg-p1-deepdarkgreen">
           <div className="flex flex-row">
             <div id="1" className="mx-auto text-left md:pt-2 md:text-xl lg:text-2xl">
-              <img
+              <Image
                 className="h-10 w-10 rounded-full p-1 ring-2 ring-p1-green dark:ring-p1-darkgreen"
+                width={1000}
+                height={1000}
                 src="/HeroNFT/RaceLads/RaceLads1.png"
                 alt="Bordered avatar"
               />
@@ -62,8 +53,10 @@ export default function Home() {
               </a>
             </div>
             <div>
-              <img
+              <Image
                 className="h-10 w-10 rounded-full p-1 ring-2 ring-p1-green dark:ring-p1-darkgreen"
+                width={1000}
+                height={1000}
                 src="/HeroNFT/RaceLads/RaceLads1.png"
                 alt="Bordered avatar"
               />
