@@ -74,44 +74,40 @@ export default function Home() {
               <div className="mt-2 rounded-3xl border-2 bg-p2-white2 p-2 text-p1-darkgreen dark:border-p1-darkgreen dark:bg-p1-deepdarkgreen dark:text-p1-green">
                 <div className="px-2 text-xl font-semibold md:pt-2 md:text-3xl">
                   <div className="pt-2 text-left">Коллекции</div>
-                  <div className="mt-2 grid grid-cols-7 gap-2 space-x-2 p-4 text-base md:text-xl">
+                  <div className="mt-2 grid grid-cols-1 gap-2 space-x-2 p-4 text-base text-gray-900 sm:grid-cols-2 md:text-xl lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5">
                     <a
                       href="#"
-                      className="block max-w-sm rounded-3xl border border-gray-200 bg-white bg-[url('/HeroNFT/RaceLads/RaceLads1.png')] bg-contain bg-no-repeat p-1 shadow duration-300 ease-in-out hover:scale-105 hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
+                      className="block h-52 w-52 rounded-3xl border border-gray-200 bg-white bg-[url('/HeroNFT/RaceLads/RaceLads1.png')] bg-contain bg-no-repeat p-1 shadow duration-300 ease-in-out hover:scale-105 hover:bg-gray-100 hover:text-transparent dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
                     >
-                      <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-p1-green">
-                        RaceLads{' '}
+                      <h5 className="mb-2 text-2xl font-bold tracking-tight dark:text-p1-green">
+                        RaceLads
                       </h5>
-                      <p className="pt-32 font-normal text-gray-700 dark:text-gray-400">
-                        10000 RaceLads
-                      </p>
+                      <p className="pt-32 font-normal dark:text-gray-400">10000 RaceLads</p>
                     </a>
 
                     <a
                       href="#"
-                      className="block max-w-sm rounded-3xl border border-gray-200 bg-white bg-[url('/HeroNFT/Drivers/Driver4.png')] bg-contain bg-no-repeat p-1 shadow duration-300 ease-in-out hover:scale-105 hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
+                      className="block h-52 w-52 rounded-3xl border border-gray-200 bg-white bg-[url('/HeroNFT/Drivers/Driver4.png')] bg-contain bg-no-repeat p-1 shadow duration-300 ease-in-out hover:scale-105 hover:bg-gray-100 hover:text-transparent dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
                     >
-                      <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-p1-green">
-                        Drivers{' '}
+                      <h5 className="mb-2 text-2xl font-bold tracking-tight dark:text-p1-green">
+                        Drivers
                       </h5>
-                      <p className="pt-32 font-normal text-gray-700 dark:text-gray-400">
-                        5000 Drivers
-                      </p>
+                      <p className="pt-32 font-normal dark:text-gray-400">5000 Drivers</p>
                     </a>
                     <a
                       href="#"
-                      className="bg-[src='/HeroNFT/Team's members/TeamMember1.png')] block max-w-sm rounded-3xl border border-gray-200 bg-white bg-contain bg-no-repeat p-1 shadow duration-300 ease-in-out hover:scale-105 hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
+                      className="bg-[src='/HeroNFT/Team's members/TeamMember1.png')] block h-52 w-52 rounded-3xl border border-gray-200 bg-white bg-contain bg-no-repeat p-1 shadow duration-300 ease-in-out hover:scale-105 hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
                     >
-                      <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-p1-green">
-                        Team&apos;s Members{' '}
+                      <h5 className="mb-2 text-2xl font-bold tracking-tight dark:text-p1-green">
+                        Team&apos;s Members
                       </h5>
-                      <p className="pt-24 font-normal text-gray-700 dark:text-gray-400">
+                      <p className="pt-16 font-normal dark:text-gray-400">
                         50000 Team&apos;s Members
                       </p>
                     </a>
                     <a
                       href="#"
-                      className="block max-w-sm rounded-3xl border border-gray-200 bg-white bg-[url('/HeroNFT/Collectors/Collector1.png')] bg-contain bg-no-repeat p-1 shadow duration-300 ease-in-out hover:scale-105 hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
+                      className="block h-52 w-52 rounded-3xl border border-gray-200 bg-white bg-[url('/HeroNFT/Collectors/Collector1.png')] bg-contain bg-no-repeat p-1 shadow duration-300 ease-in-out hover:scale-105 hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
                     >
                       <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-p1-green">
                         Сollectors{' '}
@@ -122,7 +118,7 @@ export default function Home() {
                     </a>
                     <a
                       href="#"
-                      className="block max-w-sm rounded-3xl border border-gray-200 bg-white bg-[url('/HeroNFT/CustomLads/CustomLads1.png')] bg-contain bg-no-repeat p-1 shadow duration-300 ease-in-out hover:scale-105 hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
+                      className="block h-52 w-52 rounded-3xl border border-gray-200 bg-white bg-[url('/HeroNFT/CustomLads/CustomLads1.png')] bg-contain bg-no-repeat p-1 shadow duration-300 ease-in-out hover:scale-105 hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
                     >
                       <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-p1-green">
                         CustomLads{' '}
@@ -133,7 +129,7 @@ export default function Home() {
                     </a>
                     <a
                       href="#"
-                      className="block max-w-sm rounded-3xl border border-gray-200 bg-white bg-[url('/Hero/Rewards.png')] bg-contain bg-no-repeat p-1 shadow duration-300 ease-in-out hover:scale-105 hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
+                      className="block h-52 w-52 rounded-3xl border border-gray-200 bg-white bg-[url('/Hero/Rewards.png')] bg-contain bg-no-repeat p-1 shadow duration-300 ease-in-out hover:scale-105 hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
                     >
                       <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-p1-green">
                         Награды{' '}
@@ -144,7 +140,7 @@ export default function Home() {
                     </a>
                     <a
                       href="#"
-                      className="bg-[url('/Licenses/Promoter Lic.png')] block max-w-sm rounded-3xl border border-gray-200 bg-white bg-contain bg-no-repeat p-1 shadow duration-300 ease-in-out hover:scale-105 hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
+                      className="bg-[url('/Licenses/Promoter Lic.png')] block h-52 w-52 rounded-3xl border border-gray-200 bg-white bg-contain bg-no-repeat p-1 shadow duration-300 ease-in-out hover:scale-105 hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
                     >
                       <h5 className="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-p1-green">
                         Лицензии{' '}
