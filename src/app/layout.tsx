@@ -6,6 +6,7 @@ import Nav from '@/components/nav';
 import Footer from '@/components/footer';
 import { GaaStoreProvider } from '@/context/gaa-store-provider';
 import { ToTopButton } from '@/components/toTopButton';
+// import { Sidebar } from '@/components/sidebar';
 
 const inter = Roboto_Serif({
   weight: ['100', '300', '400', '500', '700', '900'],
@@ -31,6 +32,7 @@ export default function RootLayout({ children }: Readonly<Props>) {
           <div className="">
             <Header />
             <Nav />
+            {/* <Sidebar /> */}
             <main className="mx-auto min-h-screen bg-p1-white dark:bg-p1-deepdarkgreen">
               {children}
             </main>
