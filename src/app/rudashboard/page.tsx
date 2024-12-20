@@ -75,6 +75,34 @@ export default function Home() {
                 <div className="px-2 text-xl font-semibold md:pt-2 md:text-3xl">
                   <div className="pt-2 text-left">Коллекции</div>
                   <div className="mt-2 grid grid-cols-1 gap-2 space-x-2 p-4 text-base text-gray-900 sm:grid-cols-2 md:text-xl lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5">
+                    <div className="rounded-3xl border border-2 border-p1-darkgreen">
+                      <div className="group relative inline-block">
+                        <a
+                          href="#"
+                          className="block h-52 w-52 overflow-hidden rounded-3xl border border-gray-200 bg-white bg-[url('/HeroNFT/RaceLads/RaceLads1.png')] bg-contain bg-no-repeat p-1 shadow duration-300 ease-in-out hover:scale-105 hover:bg-gray-100 hover:text-transparent dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
+                        >
+                          <h5 className="mb-2 text-2xl font-bold tracking-tight dark:text-p1-green">
+                            RaceLads
+                          </h5>
+                          <p className="pt-32 font-normal dark:text-gray-400">10000 RaceLads</p>
+                        </a>
+
+                        <div className="absolute inset-0 flex translate-y-4 transform items-end justify-center opacity-0 transition-all duration-500 group-hover:translate-y-0 group-hover:opacity-100">
+                          <ul className="w-full rounded-lg bg-white p-2 text-center shadow-lg">
+                            <li>
+                              <button className="w-full rounded px-4 py-2 text-gray-700 hover:bg-gray-100">
+                                Функция 1
+                              </button>
+                            </li>
+                            <li>
+                              <button className="w-full rounded px-4 py-2 text-gray-700 hover:bg-gray-100">
+                                Функция 1
+                              </button>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
                     <a
                       href="#"
                       className="block h-52 w-52 rounded-3xl border border-gray-200 bg-white bg-[url('/HeroNFT/RaceLads/RaceLads1.png')] bg-contain bg-no-repeat p-1 shadow duration-300 ease-in-out hover:scale-105 hover:bg-gray-100 hover:text-transparent dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700"
