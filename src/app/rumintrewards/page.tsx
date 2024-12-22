@@ -178,6 +178,7 @@ export default function Page() {
                       </p>
                       <p className="md:pb-96"></p>
                       <p className="md:pb-96"></p>
+                      <p className="md:pb-96"></p>
                     </div>
                   </div>
                 </div>
@@ -187,6 +188,257 @@ export default function Page() {
 
           <div id="2">
             <div className="flex flex-col object-right px-2 md:w-full">
+              <div>
+                <p className="place-self-center text-base font-semibold text-p1-darkgreen md:text-xl dark:text-p1-green">
+                  Добавить лого спонсоров на награды
+                </p>
+              </div>
+              <div className="grid-1 grid flex-wrap-reverse gap-2 md:w-full md:grid-cols-4">
+              <div className="flex items-center text-p1-white">
+                  <div className="place-items-center p-2">
+                    <form className="mx-auto max-w-2xl">
+                      <label
+                        htmlFor="license"
+                        className="block w-full text-left text-sm font-medium text-p1-darkgreen dark:text-p1-green"
+                      >
+                        Категория спонсора
+                      </label>
+                      <select
+                        id="license"
+                        className="block w-full rounded-lg border-2 border-gray-300 bg-p2-white2 p-2.5 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder-gray-400 dark:focus:border-p1-green dark:focus:ring-p1-green"
+                        defaultValue={'DEFAULT'}
+                      >
+                        <option value="DEFAULT" disabled>
+                          Категория спонсора
+                        </option>
+                        <option value="Title_Sponsor">Титульный спонсор</option>
+                        <option value="General_Sponsor">Генеральный спонсор</option>
+                        <option value="Official_Sponsor">Официальный спонсор</option>
+                        <option value="Sponsor_participant">Спонсор участник</option>
+                        <option value="Information_Sponsor">Информационный спонсор</option>
+                        <option value="Barter_sponsor ">Бартерный спонсор</option>
+                      </select>
+                    </form>{' '}
+                    <label
+                      htmlFor="dropzone-file"
+                      className="flex h-56 w-full cursor-pointer flex-col items-center justify-center rounded-3xl border-2 border-dashed border-gray-300 bg-gray-50 shadow-lg hover:bg-gray-100 dark:border-gray-600 dark:bg-gray-700 dark:hover:border-gray-500 dark:hover:bg-gray-800"
+                    >
+                      <div className="flex flex-col items-center justify-center pb-6 pt-5">
+                        <svg
+                          className="mb-4 h-8 w-8 text-gray-500 dark:text-gray-400"
+                          aria-hidden="true"
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="none"
+                          viewBox="0 0 20 16"
+                        >
+                          <path
+                            stroke="currentColor"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth="2"
+                            d="M13 13h3a3 3 0 0 0 0-6h-.025A5.56 5.56 0 0 0 16 6.5 5.5 5.5 0 0 0 5.207 5.021C5.137 5.017 5.071 5 5 5a4 4 0 0 0 0 8h2.167M10 15V6m0 0L8 8m2-2 2 2"
+                          />
+                        </svg>
+
+                        <p className="mb-2 text-center text-sm text-gray-500 dark:text-gray-400">
+                          <span className="font-regular">"Логотип спонсора"</span>
+                        </p>
+
+                        <p className="mb-2 text-center text-sm text-gray-500 dark:text-gray-400">
+                          <span className="font-semibold">Click to upload</span> or drag and drop
+                        </p>
+                        <p className="text-center text-xs text-gray-500 dark:text-gray-400">
+                          SVG, PNG, JPG or GIF (MAX. 800x400px)
+                        </p>
+                      </div>
+                      <input id="dropzone-file" type="file" className="hidden" />
+                    </label>
+                  </div>
+                </div>
+                <div className="flex items-center text-p1-white">
+                  <div className="place-items-center p-2">
+                    <form className="mx-auto max-w-2xl">
+                      <label
+                        htmlFor="license"
+                        className="block w-full text-left text-sm font-medium text-p1-darkgreen dark:text-p1-green"
+                      >
+                        Категория спонсора
+                      </label>
+                      <select
+                        id="license"
+                        className="block w-full rounded-lg border-2 border-gray-300 bg-p2-white2 p-2.5 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder-gray-400 dark:focus:border-p1-green dark:focus:ring-p1-green"
+                        defaultValue={'DEFAULT'}
+                      >
+                        <option value="DEFAULT" disabled>
+                          Категория спонсора
+                        </option>
+                        <option value="Title_Sponsor">Титульный спонсор</option>
+                        <option value="General_Sponsor">Генеральный спонсор</option>
+                        <option value="Official_Sponsor">Официальный спонсор</option>
+                        <option value="Sponsor_participant">Спонсор участник</option>
+                        <option value="Information_Sponsor">Информационный спонсор</option>
+                        <option value="Barter_sponsor ">Бартерный спонсор</option>
+                      </select>
+                    </form>{' '}
+                    <label
+                      htmlFor="dropzone-file"
+                      className="flex h-56 w-full cursor-pointer flex-col items-center justify-center rounded-3xl border-2 border-dashed border-gray-300 bg-gray-50 shadow-lg hover:bg-gray-100 dark:border-gray-600 dark:bg-gray-700 dark:hover:border-gray-500 dark:hover:bg-gray-800"
+                    >
+                      <div className="flex flex-col items-center justify-center pb-6 pt-5">
+                        <svg
+                          className="mb-4 h-8 w-8 text-gray-500 dark:text-gray-400"
+                          aria-hidden="true"
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="none"
+                          viewBox="0 0 20 16"
+                        >
+                          <path
+                            stroke="currentColor"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth="2"
+                            d="M13 13h3a3 3 0 0 0 0-6h-.025A5.56 5.56 0 0 0 16 6.5 5.5 5.5 0 0 0 5.207 5.021C5.137 5.017 5.071 5 5 5a4 4 0 0 0 0 8h2.167M10 15V6m0 0L8 8m2-2 2 2"
+                          />
+                        </svg>
+
+                        <p className="mb-2 text-center text-sm text-gray-500 dark:text-gray-400">
+                          <span className="font-regular">"Логотип спонсора"</span>
+                        </p>
+
+                        <p className="mb-2 text-center text-sm text-gray-500 dark:text-gray-400">
+                          <span className="font-semibold">Click to upload</span> or drag and drop
+                        </p>
+                        <p className="text-center text-xs text-gray-500 dark:text-gray-400">
+                          SVG, PNG, JPG or GIF (MAX. 800x400px)
+                        </p>
+                      </div>
+                      <input id="dropzone-file" type="file" className="hidden" />
+                    </label>
+                  </div>
+                </div>
+                <div className="flex items-center text-p1-white">
+                  <div className="place-items-center p-2">
+                    <form className="mx-auto max-w-2xl">
+                      <label
+                        htmlFor="license"
+                        className="block w-full text-left text-sm font-medium text-p1-darkgreen dark:text-p1-green"
+                      >
+                        Категория спонсора
+                      </label>
+                      <select
+                        id="license"
+                        className="block w-full rounded-lg border-2 border-gray-300 bg-p2-white2 p-2.5 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder-gray-400 dark:focus:border-p1-green dark:focus:ring-p1-green"
+                        defaultValue={'DEFAULT'}
+                      >
+                        <option value="DEFAULT" disabled>
+                          Категория спонсора
+                        </option>
+                        <option value="Title_Sponsor">Титульный спонсор</option>
+                        <option value="General_Sponsor">Генеральный спонсор</option>
+                        <option value="Official_Sponsor">Официальный спонсор</option>
+                        <option value="Sponsor_participant">Спонсор участник</option>
+                        <option value="Information_Sponsor">Информационный спонсор</option>
+                        <option value="Barter_sponsor ">Бартерный спонсор</option>
+                      </select>
+                    </form>{' '}
+                    <label
+                      htmlFor="dropzone-file"
+                      className="flex h-56 w-full cursor-pointer flex-col items-center justify-center rounded-3xl border-2 border-dashed border-gray-300 bg-gray-50 shadow-lg hover:bg-gray-100 dark:border-gray-600 dark:bg-gray-700 dark:hover:border-gray-500 dark:hover:bg-gray-800"
+                    >
+                      <div className="flex flex-col items-center justify-center pb-6 pt-5">
+                        <svg
+                          className="mb-4 h-8 w-8 text-gray-500 dark:text-gray-400"
+                          aria-hidden="true"
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="none"
+                          viewBox="0 0 20 16"
+                        >
+                          <path
+                            stroke="currentColor"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth="2"
+                            d="M13 13h3a3 3 0 0 0 0-6h-.025A5.56 5.56 0 0 0 16 6.5 5.5 5.5 0 0 0 5.207 5.021C5.137 5.017 5.071 5 5 5a4 4 0 0 0 0 8h2.167M10 15V6m0 0L8 8m2-2 2 2"
+                          />
+                        </svg>
+
+                        <p className="mb-2 text-center text-sm text-gray-500 dark:text-gray-400">
+                          <span className="font-regular">"Логотип спонсора"</span>
+                        </p>
+
+                        <p className="mb-2 text-center text-sm text-gray-500 dark:text-gray-400">
+                          <span className="font-semibold">Click to upload</span> or drag and drop
+                        </p>
+                        <p className="text-center text-xs text-gray-500 dark:text-gray-400">
+                          SVG, PNG, JPG or GIF (MAX. 800x400px)
+                        </p>
+                      </div>
+                      <input id="dropzone-file" type="file" className="hidden" />
+                    </label>
+                  </div>
+                </div>
+                <div className="flex items-center text-p1-white">
+                  <div className="place-items-center p-2">
+                    <form className="mx-auto max-w-2xl">
+                      <label
+                        htmlFor="license"
+                        className="block w-full text-left text-sm font-medium text-p1-darkgreen dark:text-p1-green"
+                      >
+                        Категория спонсора
+                      </label>
+                      <select
+                        id="license"
+                        className="block w-full rounded-lg border-2 border-gray-300 bg-p2-white2 p-2.5 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder-gray-400 dark:focus:border-p1-green dark:focus:ring-p1-green"
+                        defaultValue={'DEFAULT'}
+                      >
+                        <option value="DEFAULT" disabled>
+                          Категория спонсора
+                        </option>
+                        <option value="Title_Sponsor">Титульный спонсор</option>
+                        <option value="General_Sponsor">Генеральный спонсор</option>
+                        <option value="Official_Sponsor">Официальный спонсор</option>
+                        <option value="Sponsor_participant">Спонсор участник</option>
+                        <option value="Information_Sponsor">Информационный спонсор</option>
+                        <option value="Barter_sponsor ">Бартерный спонсор</option>
+                      </select>
+                    </form>{' '}
+                    <label
+                      htmlFor="dropzone-file"
+                      className="flex h-56 w-full cursor-pointer flex-col items-center justify-center rounded-3xl border-2 border-dashed border-gray-300 bg-gray-50 shadow-lg hover:bg-gray-100 dark:border-gray-600 dark:bg-gray-700 dark:hover:border-gray-500 dark:hover:bg-gray-800"
+                    >
+                      <div className="flex flex-col items-center justify-center pb-6 pt-5">
+                        <svg
+                          className="mb-4 h-8 w-8 text-gray-500 dark:text-gray-400"
+                          aria-hidden="true"
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="none"
+                          viewBox="0 0 20 16"
+                        >
+                          <path
+                            stroke="currentColor"
+                            strokeLinecap="round"
+                            strokeLinejoin="round"
+                            strokeWidth="2"
+                            d="M13 13h3a3 3 0 0 0 0-6h-.025A5.56 5.56 0 0 0 16 6.5 5.5 5.5 0 0 0 5.207 5.021C5.137 5.017 5.071 5 5 5a4 4 0 0 0 0 8h2.167M10 15V6m0 0L8 8m2-2 2 2"
+                          />
+                        </svg>
+
+                        <p className="mb-2 text-center text-sm text-gray-500 dark:text-gray-400">
+                          <span className="font-regular">"Логотип спонсора"</span>
+                        </p>
+
+                        <p className="mb-2 text-center text-sm text-gray-500 dark:text-gray-400">
+                          <span className="font-semibold">Click to upload</span> or drag and drop
+                        </p>
+                        <p className="text-center text-xs text-gray-500 dark:text-gray-400">
+                          SVG, PNG, JPG or GIF (MAX. 800x400px)
+                        </p>
+                      </div>
+                      <input id="dropzone-file" type="file" className="hidden" />
+                    </label>
+                  </div>
+                </div>
+              </div>
               <div>
                 <p className="place-self-center text-base font-semibold text-p1-darkgreen md:text-xl dark:text-p1-green">
                   Добавь медиаконтент о победителе
@@ -240,7 +492,7 @@ export default function Page() {
                     htmlFor="event"
                     className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-green"
                   >
-                    Официаллное название мероприятия
+                    Официальное название мероприятия
                   </label>
                   <input
                     type="text"
@@ -333,7 +585,6 @@ export default function Page() {
                   required
                 />
               </div>
-
               <div className="pb-2"></div>
               <div className="w-full">
                 <form className="mx-auto max-w-2xl">
@@ -398,11 +649,9 @@ export default function Page() {
                 />
               </div>
               <div className="pb-2"></div>
-
               <p className="pt-5 text-left text-xl text-p1-darkgreen dark:text-p1-green">
                 Сведения о победителе:
               </p>
-
               <div>
                 <label
                   htmlFor="full_name"
@@ -419,7 +668,6 @@ export default function Page() {
                 />
               </div>
               <div className="pb-2"></div>
-
               <div>
                 <label
                   htmlFor="nic_name"
@@ -436,7 +684,6 @@ export default function Page() {
                 />
               </div>
               <div className="pb-2"></div>
-
               <div>
                 <label
                   htmlFor="birthday"
@@ -501,7 +748,6 @@ export default function Page() {
                 />
               </div>
               <div className="pb-2"></div>
-
               <div className="pb-2"></div>
               <div>
                 <label
@@ -513,12 +759,12 @@ export default function Page() {
                 <textarea
                   id="message"
                   rows={4}
-                  className="block w-full rounded-lg border-2 border-gray-300 bg-p2-white2 p-2.5 text-sm text-p1-darkgreen focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
+                  className="block w-full rounded-lg border-2 border-gray-300 bg-p2-white2 p-2.5 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
                   placeholder="Описание"
                 ></textarea>
               </div>
               <div className="pb-5"></div>
-              <div className="flex items-center">
+              <div className="flex items-center text-p1-white">
                 <input
                   checked={check}
                   id="checkbox"
@@ -535,7 +781,6 @@ export default function Page() {
                 </label>
               </div>
               <div className="pb-8"></div>
-
               <button className="rounded-3xl border-2 border-p2-orange bg-p2-white2 px-20 py-8 text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p2-orange hover:text-p1-white dark:border-amber-800 dark:bg-amber-950 dark:text-amber-300 dark:hover:border-amber-700 dark:hover:bg-amber-900 dark:hover:text-amber-300">
                 Создать NFT Награду
               </button>
