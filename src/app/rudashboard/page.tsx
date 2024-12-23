@@ -4,16 +4,6 @@ import Link from 'next/link';
 
 import { JumpButton } from '@/components/jumpButton';
 
-import { Autoplay, Mousewheel, Navigation, Pagination } from 'swiper/modules';
-
-import { Swiper, SwiperSlide } from 'swiper/react';
-
-// Import Swiper styles
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/scrollbar';
-import 'swiper/css/pagination';
-
 export default function Home() {
   const jumpPoints = ['1', '2', '3'];
   return (
@@ -26,8 +16,8 @@ export default function Home() {
             <div id="1" className="mx-auto text-left md:pt-2 md:text-xl lg:text-2xl">
               <Image
                 className="h-10 w-10 rounded-full p-1 ring-2 ring-p1-green dark:ring-p1-darkgreen"
-                width={1000}
-                height={1000}
+                width={480}
+                height={480}
                 src="/HeroNFT/RaceLads/RaceLads1.png"
                 alt="Bordered avatar"
               />
@@ -56,8 +46,8 @@ export default function Home() {
             <div>
               <Image
                 className="h-10 w-10 rounded-full p-1 ring-2 ring-p1-green dark:ring-p1-darkgreen"
-                width={1000}
-                height={1000}
+                width={480}
+                height={480}
                 src="/HeroNFT/RaceLads/RaceLads1.png"
                 alt="Bordered avatar"
               />
@@ -94,7 +84,9 @@ export default function Home() {
                           <h5 className="mb-2 text-2xl font-bold tracking-tight dark:text-p1-green">
                             RaceLads
                           </h5>
-                          <img
+                          <Image
+                            width={480}
+                            height={480}
                             src="/HeroNFT/RaceLads/RaceLads1.png"
                             alt="RaceLads1"
                             className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-125"
@@ -110,7 +102,9 @@ export default function Home() {
                           <h5 className="mb-2 text-2xl font-bold tracking-tight dark:text-p1-green">
                             Drivers
                           </h5>
-                          <img
+                          <Image
+                            width={480}
+                            height={480}
                             src="/HeroNFT/Drivers/Driver4.png"
                             alt="Driver4"
                             className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-125"
@@ -126,7 +120,9 @@ export default function Home() {
                           <h5 className="mb-2 text-2xl font-bold tracking-tight dark:text-p1-green">
                             Team&apos;s Members
                           </h5>
-                          <img
+                          <Image
+                            width={480}
+                            height={480}
                             src="/HeroNFT/Team's members/TeamMember1.png"
                             alt="TeamMember1"
                             className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-125"
@@ -142,7 +138,9 @@ export default function Home() {
                           <h5 className="mb-2 text-2xl font-bold tracking-tight dark:text-p1-green">
                             Collectors
                           </h5>
-                          <img
+                          <Image
+                            width={480}
+                            height={480}
                             src="/HeroNFT/Collectors/Collector1.png"
                             alt="Collector1"
                             className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-125"
@@ -158,7 +156,9 @@ export default function Home() {
                           <h5 className="mb-2 text-2xl font-bold tracking-tight dark:text-p1-green">
                             Cars
                           </h5>
-                          <img
+                          <Image
+                            width={480}
+                            height={480}
                             src="/Cars/Car.png"
                             alt="Car"
                             className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-125"
@@ -174,7 +174,9 @@ export default function Home() {
                           <h5 className="mb-2 text-2xl font-bold tracking-tight dark:text-p1-green">
                             CustomLads
                           </h5>
-                          <img
+                          <Image
+                            width={480}
+                            height={480}
                             src="/HeroNFT/CustomLads/CustomLads1.png"
                             alt="CustomLads1"
                             className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-125"
@@ -190,7 +192,9 @@ export default function Home() {
                           <h5 className="mb-2 text-2xl font-bold tracking-tight dark:text-p1-green">
                             Awards NFT
                           </h5>
-                          <img
+                          <Image
+                            width={480}
+                            height={480}
                             src="/Hero/Rewards.png"
                             alt="Rewards"
                             className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-125"
@@ -206,7 +210,9 @@ export default function Home() {
                           <h5 className="mb-2 text-2xl font-bold tracking-tight dark:text-p1-green">
                             Лицензии
                           </h5>
-                          <img
+                          <Image
+                            width={480}
+                            height={480}
                             src="/Licenses/Promoter Lic.png"
                             alt="PromoterLic"
                             className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-125"
@@ -220,7 +226,9 @@ export default function Home() {
 
                   <div className="mt-2 grid grid-cols-1 gap-2 space-x-2 p-4 text-base text-gray-900 sm:grid-cols-2 md:text-xl lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5">
                     <div className="group relative h-52 w-52 justify-self-center overflow-hidden rounded-3xl border border-gray-300">
-                      <img
+                      <Image
+                        width={480}
+                        height={480}
                         src="/HeroNFT/RaceLads/RaceLads1.png"
                         alt="Пример изображения"
                         className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-110"
@@ -239,7 +247,9 @@ export default function Home() {
 
                     <div className="group relative w-52 overflow-hidden rounded-lg border border-gray-200 bg-white shadow-lg">
                       <div className="relative">
-                        <img
+                        <Image
+                          width={480}
+                          height={480}
                           src="/HeroNFT/RaceLads/RaceLads1.png"
                           alt="RaceLad"
                           className="h-52 w-52 object-cover transition-transform duration-300 group-hover:scale-105"
@@ -282,8 +292,10 @@ export default function Home() {
 
                     <div className="group relative w-80 overflow-hidden rounded-lg border border-gray-200 bg-white shadow-lg">
                       <div className="relative">
-                        <img
-                          src="https://via.placeholder.com/300"
+                        <Image
+                          width={480}
+                          height={480}
+                          src="/HeroNFT/RaceLads/RaceLads1.png"
                           alt="Axie"
                           className="h-40 w-full object-cover transition-transform duration-300 group-hover:scale-105"
                         />
@@ -761,7 +773,9 @@ export default function Home() {
                           href={'/rucard'}
                           className="mx-auto justify-center hover:drop-shadow-2xl"
                         >
-                          <img
+                          <Image
+                            width={480}
+                            height={480}
                             src="/HeroNFT/RaceLads/RaceLads1.png"
                             alt="RaceLads"
                             className="h-full w-full object-cover transition-transform duration-500 ease-in-out group-hover:scale-150"
@@ -825,7 +839,9 @@ export default function Home() {
                           href={'/rucard'}
                           className="mx-auto justify-center hover:drop-shadow-2xl"
                         >
-                          <img
+                          <Image
+                            width={480}
+                            height={480}
                             src="/HeroNFT/RaceLads/RaceLads1.png"
                             alt="RaceLads"
                             className="h-full w-full object-cover transition-transform duration-500 ease-in-out group-hover:scale-150"
@@ -894,7 +910,7 @@ export default function Home() {
                         </button>
 
                         <div className="absolute bottom-full left-1/2 mb-3 -translate-x-1/2 translate-y-2 transform rounded-md bg-black px-4 py-2 text-sm text-white opacity-0 shadow-lg transition-all duration-300 group-hover:translate-y-0 group-hover:opacity-100">
-                          I'm a tooltip with animation!
+                          I&apos;m a tooltip with animation!
                         </div>
                       </div>
                     </div>
@@ -975,7 +991,9 @@ export default function Home() {
                           href={'/rucard'}
                           className="mx-auto justify-center hover:drop-shadow-2xl"
                         >
-                          <img
+                          <Image
+                            width={480}
+                            height={480}
                             src="/HeroNFT/RaceLads/RaceLads1.png"
                             alt="RaceLads"
                             className="h-full w-full object-cover transition-transform duration-500 ease-in-out group-hover:scale-150"
@@ -1103,7 +1121,9 @@ export default function Home() {
                           href={'/rucard'}
                           className="mx-auto justify-center hover:drop-shadow-2xl"
                         >
-                          <img
+                          <Image
+                            width={480}
+                            height={480}
                             src="/HeroNFT/RaceLads/RaceLads1.png"
                             alt="RaceLads"
                             className="h-full w-full object-cover transition-transform duration-500 ease-in-out group-hover:scale-150"
@@ -1169,25 +1189,20 @@ export default function Home() {
                         Лицензии, дающие право на создание, награждение NFT Наградами
                         <div className="place-items-centre mt-5 grid grid-cols-12 gap-2 p-4">
                           <Image
-                            width={1000}
-                            height={1000}
+                            width={480}
+                            height={480}
                             src="/Licenses/Promoter.png"
                             alt="Promoter"
                           />
 
                           <Image
-                            width={1000}
-                            height={1000}
+                            width={480}
+                            height={480}
                             src="/Licenses/National.png"
                             alt="National"
                           />
 
-                          <Image
-                            width={1000}
-                            height={1000}
-                            src="/Licenses/Global.png"
-                            alt="Global"
-                          />
+                          <Image width={480} height={480} src="/Licenses/Global.png" alt="Global" />
                         </div>
                       </div>
                     </div>
@@ -1330,7 +1345,9 @@ export default function Home() {
                                   </svg>
 
                                   <p className="mb-2 text-sm text-gray-500 dark:text-gray-400">
-                                    <span className="font-regular">"Логотип спонсора"</span>
+                                    <span className="font-regular">
+                                      &quot;Логотип спонсора&quot;
+                                    </span>
                                   </p>
 
                                   <p className="mb-2 text-sm text-gray-500 dark:text-gray-400">
@@ -1392,7 +1409,9 @@ export default function Home() {
                                   </svg>
 
                                   <p className="mb-2 text-sm text-gray-500 dark:text-gray-400">
-                                    <span className="font-regular">"Логотип спонсора"</span>
+                                    <span className="font-regular">
+                                      &quot;Логотип спонсора&quot;
+                                    </span>
                                   </p>
 
                                   <p className="mb-2 text-sm text-gray-500 dark:text-gray-400">
@@ -1454,7 +1473,9 @@ export default function Home() {
                                   </svg>
 
                                   <p className="mb-2 text-sm text-gray-500 dark:text-gray-400">
-                                    <span className="font-regular">"Логотип спонсора"</span>
+                                    <span className="font-regular">
+                                      &quot;Логотип спонсора&quot;
+                                    </span>
                                   </p>
 
                                   <p className="mb-2 text-sm text-gray-500 dark:text-gray-400">
@@ -1516,7 +1537,9 @@ export default function Home() {
                                   </svg>
 
                                   <p className="mb-2 text-sm text-gray-500 dark:text-gray-400">
-                                    <span className="font-regular">"Логотип спонсора"</span>
+                                    <span className="font-regular">
+                                      &quot;Логотип спонсора&quot;
+                                    </span>
                                   </p>
 
                                   <p className="mb-2 text-sm text-gray-500 dark:text-gray-400">
@@ -1578,7 +1601,9 @@ export default function Home() {
                                   </svg>
 
                                   <p className="mb-2 text-sm text-gray-500 dark:text-gray-400">
-                                    <span className="font-regular">"Логотип спонсора"</span>
+                                    <span className="font-regular">
+                                      &quot;Логотип спонсора&quot;
+                                    </span>
                                   </p>
 
                                   <p className="mb-2 text-sm text-gray-500 dark:text-gray-400">
@@ -1640,7 +1665,9 @@ export default function Home() {
                                   </svg>
 
                                   <p className="mb-2 text-sm text-gray-500 dark:text-gray-400">
-                                    <span className="font-regular">"Логотип спонсора"</span>
+                                    <span className="font-regular">
+                                      &quot;Логотип спонсора&quot;
+                                    </span>
                                   </p>
 
                                   <p className="mb-2 text-sm text-gray-500 dark:text-gray-400">
@@ -1702,7 +1729,9 @@ export default function Home() {
                                   </svg>
 
                                   <p className="mb-2 text-sm text-gray-500 dark:text-gray-400">
-                                    <span className="font-regular">"Логотип спонсора"</span>
+                                    <span className="font-regular">
+                                      &quot;Логотип спонсора&quot;
+                                    </span>
                                   </p>
 
                                   <p className="mb-2 text-sm text-gray-500 dark:text-gray-400">
@@ -1764,7 +1793,9 @@ export default function Home() {
                                   </svg>
 
                                   <p className="mb-2 text-sm text-gray-500 dark:text-gray-400">
-                                    <span className="font-regular">"Логотип спонсора"</span>
+                                    <span className="font-regular">
+                                      &quot;Логотип спонсора&quot;
+                                    </span>
                                   </p>
 
                                   <p className="mb-2 text-sm text-gray-500 dark:text-gray-400">
@@ -1826,7 +1857,9 @@ export default function Home() {
                                   </svg>
 
                                   <p className="mb-2 text-sm text-gray-500 dark:text-gray-400">
-                                    <span className="font-regular">"Логотип спонсора"</span>
+                                    <span className="font-regular">
+                                      &quot;Логотип спонсора&quot;
+                                    </span>
                                   </p>
 
                                   <p className="mb-2 text-sm text-gray-500 dark:text-gray-400">
@@ -1888,7 +1921,9 @@ export default function Home() {
                                   </svg>
 
                                   <p className="mb-2 text-sm text-gray-500 dark:text-gray-400">
-                                    <span className="font-regular">"Логотип спонсора"</span>
+                                    <span className="font-regular">
+                                      &quot;Логотип спонсора&quot;
+                                    </span>
                                   </p>
 
                                   <p className="mb-2 text-sm text-gray-500 dark:text-gray-400">
@@ -1978,7 +2013,9 @@ export default function Home() {
                           href={'/rucard'}
                           className="mx-auto justify-center hover:drop-shadow-2xl"
                         >
-                          <img
+                          <Image
+                            width={480}
+                            height={480}
                             src="/HeroNFT/RaceLads/RaceLads1.png"
                             alt="RaceLads"
                             className="h-full w-full object-cover transition-transform duration-500 ease-in-out group-hover:scale-150"
@@ -2046,7 +2083,9 @@ export default function Home() {
                           href={'/rucard'}
                           className="mx-auto justify-center hover:drop-shadow-2xl"
                         >
-                          <img
+                          <Image
+                            width={480}
+                            height={480}
                             src="/Hero/cup1.png"
                             alt="cup1"
                             className="h-full w-full scale-50 object-cover transition-transform duration-500 ease-in-out group-hover:scale-75"
@@ -2110,7 +2149,9 @@ export default function Home() {
                           href={'/rucard'}
                           className="mx-auto justify-center hover:drop-shadow-2xl"
                         >
-                          <img
+                          <Image
+                            width={480}
+                            height={480}
                             src="/Hero/cup2.png"
                             alt="cup2"
                             className="h-full w-full scale-50 object-cover transition-transform duration-500 ease-in-out group-hover:scale-75"
@@ -2173,7 +2214,9 @@ export default function Home() {
                           href={'/rucard'}
                           className="mx-auto justify-center hover:drop-shadow-2xl"
                         >
-                          <img
+                          <Image
+                            width={480}
+                            height={480}
                             src="/Hero/cup3.png"
                             alt="cup3"
                             className="h-full w-full scale-50 object-cover transition-transform duration-500 ease-in-out group-hover:scale-75"
@@ -2241,7 +2284,9 @@ export default function Home() {
                           href={'/rucard'}
                           className="mx-auto justify-center hover:drop-shadow-2xl"
                         >
-                          <img
+                          <Image
+                            width={480}
+                            height={480}
                             src="/Hero/cup1.png"
                             alt="cup1"
                             className="h-full w-full scale-50 object-cover transition-transform duration-500 ease-in-out group-hover:scale-75"
@@ -2437,7 +2482,9 @@ export default function Home() {
                           href={'/rucard'}
                           className="mx-auto justify-center hover:drop-shadow-2xl"
                         >
-                          <img
+                          <Image
+                            width={480}
+                            height={480}
                             src="/HeroNFT/Drivers/Driver4.png"
                             alt="Driver4"
                             className="h-full w-full object-cover transition-transform duration-500 ease-in-out group-hover:scale-150"
@@ -2488,7 +2535,9 @@ export default function Home() {
                               href={'/rucard'}
                               className="mx-auto justify-center hover:drop-shadow-2xl"
                             >
-                              <img
+                              <Image
+                                width={480}
+                                height={480}
                                 src="/Hero/cup1.png"
                                 alt="cup1"
                                 className="h-full w-full scale-50 object-cover transition-transform duration-500 ease-in-out group-hover:scale-75"
@@ -2523,7 +2572,9 @@ export default function Home() {
                               href={'/rucard'}
                               className="mx-auto justify-center hover:drop-shadow-2xl"
                             >
-                              <img
+                              <Image
+                                width={480}
+                                height={480}
                                 src="/Hero/cup1.png"
                                 alt="cup1"
                                 className="h-full w-full scale-50 object-cover transition-transform duration-500 ease-in-out group-hover:scale-75"
@@ -2558,7 +2609,9 @@ export default function Home() {
                               href={'/rucard'}
                               className="mx-auto justify-center hover:drop-shadow-2xl"
                             >
-                              <img
+                              <Image
+                                width={480}
+                                height={480}
                                 src="/Hero/cup1.png"
                                 alt="cup1"
                                 className="h-full w-full scale-50 object-cover transition-transform duration-500 ease-in-out group-hover:scale-75"
@@ -2593,7 +2646,9 @@ export default function Home() {
                               href={'/rucard'}
                               className="mx-auto justify-center hover:drop-shadow-2xl"
                             >
-                              <img
+                              <Image
+                                width={480}
+                                height={480}
                                 src="/Hero/cup1.png"
                                 alt="cup1"
                                 className="h-full w-full scale-50 object-cover transition-transform duration-500 ease-in-out group-hover:scale-75"

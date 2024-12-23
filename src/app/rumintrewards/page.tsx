@@ -194,7 +194,7 @@ export default function Page() {
                 </p>
               </div>
               <div className="grid-1 grid flex-wrap-reverse gap-2 md:w-full md:grid-cols-4">
-              <div className="flex items-center text-p1-white">
+                <div className="flex items-center text-p1-white">
                   <div className="place-items-center p-2">
                     <form className="mx-auto max-w-2xl">
                       <label
@@ -241,7 +241,7 @@ export default function Page() {
                         </svg>
 
                         <p className="mb-2 text-center text-sm text-gray-500 dark:text-gray-400">
-                          <span className="font-regular">"Логотип спонсора"</span>
+                          <span className="font-regular">&quot;Логотип спонсора&quot;</span>
                         </p>
 
                         <p className="mb-2 text-center text-sm text-gray-500 dark:text-gray-400">
@@ -302,7 +302,7 @@ export default function Page() {
                         </svg>
 
                         <p className="mb-2 text-center text-sm text-gray-500 dark:text-gray-400">
-                          <span className="font-regular">"Логотип спонсора"</span>
+                          <span className="font-regular">&quot;Логотип спонсора&quot;</span>
                         </p>
 
                         <p className="mb-2 text-center text-sm text-gray-500 dark:text-gray-400">
@@ -363,7 +363,7 @@ export default function Page() {
                         </svg>
 
                         <p className="mb-2 text-center text-sm text-gray-500 dark:text-gray-400">
-                          <span className="font-regular">"Логотип спонсора"</span>
+                          <span className="font-regular">&quot;Логотип спонсора&quot;</span>
                         </p>
 
                         <p className="mb-2 text-center text-sm text-gray-500 dark:text-gray-400">
@@ -424,7 +424,7 @@ export default function Page() {
                         </svg>
 
                         <p className="mb-2 text-center text-sm text-gray-500 dark:text-gray-400">
-                          <span className="font-regular">"Логотип спонсора"</span>
+                          <span className="font-regular">&quot;Логотип спонсора&quot;</span>
                         </p>
 
                         <p className="mb-2 text-center text-sm text-gray-500 dark:text-gray-400">
