@@ -145,9 +145,7 @@ export default function Page() {
         <div className="text-p1-darkgreen md:basis-4/6">
           <div className="rounded-3xl">
             <div className="px-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
-              Global Automotive Association (GAA) – это революционный блокчейн-проект, который
-              объединяет всех любителей автоспорта и автомобилей в сильное и активное сообщество,
-              нацеленное на популяризацию автомобильной культуры.
+            Global Automotive Association (GAA) is a revolutionary blockchain project that unites all motorsport and car enthusiasts into a strong and active community aimed at promoting automotive culture.
             </div>
           </div>
         </div>

@@ -16,7 +16,7 @@ export default function Home() {
           <div className="flex flex-row">
             <div className="mx-auto text-center md:p-2 md:text-xl lg:text-2xl">
               <div className="pt-2 text-p1-darkgreen dark:text-p2-orange">
-                Генеративная коллекция
+                Generative collection
               </div>
               <div id="1" className="pb-2 text-p1-darkgreen dark:text-p2-orange">
                 RaceLads NFT
