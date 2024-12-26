@@ -11,13 +11,12 @@ export default function Home() {
       <JumpButton points={jumpPoints} />
 
       <div className="h-4/5 bg-[url('/background/bgsky.png')] bg-cover bg-center p-2">
-        <div className="grid h-80 grid-cols-1 p-1 md:grid-cols-3">
-          <div className="flex grid-flow-row auto-rows-max justify-start space-x-2 md:px-10">
-            <div>
-              {' '}
-              <Link href={'#'} className="mx-auto justify-center">
+        <div className="grid grid-cols-1 p-1 md:grid-cols-3">
+          <div className="flex justify-start space-x-6">
+            <div className="">
+              <Link href={'#'} className="">
                 <Image
-                  className="h-10 w-10 rounded-full ring-2 ring-p1-green dark:ring-p1-darkgreen"
+                  className="hover:bg:white-p1-white h-14 w-14 rounded-full ring-2 ring-p1-green hover:bg-p1-white hover:bg-opacity-50 hover:ring-p1-cyan dark:ring-p1-darkgreen"
                   width={480}
                   height={480}
                   src="/Logo/GAA_Logo_1.png"
@@ -26,23 +25,29 @@ export default function Home() {
               </Link>
             </div>
             <div>
-              <a
-                href="#"
-                className="inline-block place-content-center rounded-xl text-center text-3xl font-bold text-p1-white"
-              >
-                RaceLads
-              </a>
-            </div>
-            <div>
-              {' '}
-              <nav className="flex space-x-6 px-10 text-3xl font-bold text-p1-white">
-                <a href="#" className="hover:text-gray-900">
+              <nav className="grid grid-cols-1 space-x-6 px-10 text-center text-xl font-bold text-p1-darkgreen md:grid-cols-4">
+                <a
+                  href="#"
+                  className="rounded-sm p-1 transition-all delay-75 duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen"
+                >
+                  RaceLads
+                </a>
+                <a
+                  href="#"
+                  className="rounded-sm p-1 transition-all delay-75 duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen"
+                >
                   Drops
                 </a>
-                <a href="#" className="hover:text-gray-900">
+                <a
+                  href="#"
+                  className="rounded-sm p-1 transition-all delay-75 duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen"
+                >
                   Stats
                 </a>
-                <a href="#" className="hover:text-gray-900">
+                <a
+                  href="#"
+                  className="rounded-sm p-1 transition-all delay-75 duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen"
+                >
                   Create
                 </a>
               </nav>
@@ -74,7 +79,7 @@ export default function Home() {
               {' '}
               <Link href={'#'} className="mx-auto justify-center">
                 <Image
-                  className="h-10 w-10 rounded-sm p-1"
+                  className="h-10 w-10 rounded-sm p-1 ring-p1-green transition-all delay-75 duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:ring-2 hover:ring-p1-cyan dark:ring-p1-darkgreen"
                   width={480}
                   height={480}
                   src="/Logo/wallet-nft.png"
@@ -86,7 +91,7 @@ export default function Home() {
               {' '}
               <Link href={'#'} className="mx-auto justify-center">
                 <Image
-                  className="h-10 w-10 rounded-full p-1 ring-2 ring-p1-green dark:ring-p1-darkgreen"
+                  className="h-10 w-10 rounded-full p-1 ring-2 ring-p1-green transition-all delay-75 duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:ring-p1-cyan dark:ring-p1-darkgreen"
                   width={480}
                   height={480}
                   src="/HeroNFT/RaceLads/RaceLads1.png"
@@ -98,7 +103,7 @@ export default function Home() {
               {' '}
               <Link href={'#'} className="mx-auto justify-center">
                 <Image
-                  className="h-10 w-10 rounded-full p-1 ring-2 ring-p1-gray dark:ring-p1-darkgreen"
+                  className="h-10 w-10 rounded-full p-1 ring-2 ring-p1-gray transition-all delay-75 duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:ring-p1-cyan dark:ring-p1-darkgreen"
                   width={480}
                   height={480}
                   src="/Logo/user.png"
@@ -109,7 +114,7 @@ export default function Home() {
             <div>
               <Link href={'#'} className="mx-auto justify-center">
                 <Image
-                  className="h-10 w-10 rounded-sm p-1 dark:ring-p1-darkgreen"
+                  className="h-10 w-10 rounded-sm p-1 ring-p1-green transition-all delay-75 duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50"
                   width={480}
                   height={480}
                   src="/Logo/cart.png"
@@ -119,7 +124,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="grid h-80 grid-cols-1 p-1 md:grid-cols-3">
+        <div className="grid h-80 grid-cols-1 p-1 pt-6 md:grid-cols-3">
           <div className="flex grid-flow-row auto-rows-max justify-start space-x-2 md:px-10">
             <div>
               <div>
@@ -136,12 +141,13 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="grid h-80 grid-cols-1 p-1 md:grid-cols-2">
+        <div className="grid h-1/5 grid-cols-1 p-1 md:grid-cols-2">
           <div className="flex grid-flow-row auto-rows-max justify-start space-x-2">
             <div>
               <div>
                 <p className="text-3xl font-semibold md:px-10">RaceLads</p>
                 <p className="font-thing text-2xl md:px-10">Polygon zkEVM </p>
+                <p className="font-thing text-2xl md:px-10">Design by GAA </p>
               </div>
             </div>
             <Link href={'#'} className="mx-auto justify-center">
@@ -157,6 +163,18 @@ export default function Home() {
               ...
             </a>
           </div>
+        </div>
+        <div className="grid h-1/5 grid-cols-1 p-1 md:grid-cols-2">
+          <div className="flex grid-flow-row auto-rows-max justify-start space-x-2">
+            <div>
+              <p className="font-thing pt-4 text-xl md:px-10">Items: 10.000 </p>
+            </div>
+            <p className="font-thing pt-4 text-xl md:px-10">Created Feb 2025 </p>
+
+            <p className="font-thing pt-4 text-xl md:px-10">Creator earnings 7.5%</p>
+            <p className="font-thing pt-4 text-xl md:px-10">Chain Ethereum</p>
+          </div>
+
           <div className="flex grid-flow-row auto-rows-max justify-end space-x-8 pb-4">
             <div>
               <p className="text-2xl font-semibold">9 ETH</p>
@@ -181,7 +199,165 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <div className="grid h-1/5 grid-cols-1 p-1 md:grid-cols-2">
+        <div className="flex grid-flow-row auto-rows-max justify-start space-x-2">
+          <div>
+            <div
+              className="inline-flex w-full justify-center rounded-md pt-5 shadow-sm"
+              role="group"
+            >
+              <Link
+                href={{
+                  pathname: '#',
+                  query: { rewarddiscover: '#' },
+                }}
+                className="inline-block w-full place-content-center rounded-l-xl border-2 border-p1-darkgreen bg-p1-white p-2 text-center text-base text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p1-green hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+              >
+                Items
+              </Link>
+              <Link
+                href={{
+                  pathname: '#',
+                  query: { rewarddiscover: '#' },
+                }}
+                className="inline-block w-full place-content-center border-2 border-p1-darkgreen bg-p1-white p-2 text-center text-base text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p1-green hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+              >
+                Offers
+              </Link>
+              <Link
+                href={{
+                  pathname: '#',
+                  query: { rewarddiscover: '#' },
+                }}
+                className="inline-block w-full place-content-center border-2 border-p1-darkgreen bg-p1-white p-2 text-center text-base text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p1-green hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+              >
+                Analitics
+              </Link>
 
+              <Link
+                href={{
+                  pathname: '#',
+                  query: { rewarddiscover: '#' },
+                }}
+                className="inline-block w-full place-content-center rounded-r-xl border-2 border-p1-darkgreen bg-p1-white p-2 text-center text-base text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p1-green hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+              >
+                Activity
+              </Link>
+            </div>
+          </div>
+        </div>
+
+        <div className="flex grid-flow-row auto-rows-max justify-end space-x-8 pb-4">
+          <div></div>
+        </div>
+      </div>
+
+      <div className="grid h-1/5 grid-cols-1 p-1 md:grid-cols-6">
+        <div className="flex grid-flow-row auto-rows-max justify-start space-x-2">
+          <span className="relative flex h-3 w-3">
+            <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-sky-400 opacity-75"></span>
+            <span className="relative inline-flex h-3 w-3 rounded-full bg-sky-500"></span>
+          </span>
+          <div> </div>
+          <Link
+            href={{
+              pathname: '#',
+              query: { rewarddiscover: '#' },
+            }}
+            className="inline-block w-full place-content-center rounded-xl border-2 border-p1-darkgreen bg-p1-white p-2 text-center text-base text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p1-green hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+          >
+            Activity
+          </Link>
+        </div>
+        <div className="font-thing text-2xl md:px-10">100 results</div>
+        <div>
+          <div className="span-2 verflow-hidden mx-auto my-6 flex w-full rounded-md border-2 border-p1-darkgreen bg-p1-white px-4 py-3 font-[sans-serif]">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 192.904 192.904"
+              width="16px"
+              className="mr-3 rotate-90 fill-gray-600"
+            >
+              <path d="m190.707 180.101-47.078-47.077c11.702-14.072 18.752-32.142 18.752-51.831C162.381 36.423 125.959 0 81.191 0 36.422 0 0 36.423 0 81.193c0 44.767 36.422 81.187 81.191 81.187 19.688 0 37.759-7.049 51.831-18.751l47.079 47.078a7.474 7.474 0 0 0 5.303 2.197 7.498 7.498 0 0 0 5.303-12.803zM15 81.193C15 44.694 44.693 15 81.191 15c36.497 0 66.189 29.694 66.189 66.193 0 36.496-29.692 66.187-66.189 66.187C44.693 147.38 15 117.689 15 81.193z"></path>
+            </svg>
+            <input
+              type="email"
+              placeholder="Search Something..."
+              className="w-full bg-transparent text-sm text-gray-600 outline-none"
+            />
+          </div>
+        </div>
+        <div>
+          <form className="mx-4 max-w-2xl pt-6">
+            <label
+              htmlFor="license"
+              className="block w-full text-left text-sm font-medium text-p1-darkgreen dark:text-p1-green"
+            ></label>
+            <select
+              id="license"
+              className="block w-full rounded-lg border-2 border-gray-300 bg-p2-white2 p-2.5 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder-gray-400 dark:focus:border-p1-green dark:focus:ring-p1-green"
+              defaultValue={'DEFAULT'}
+            >
+              <option value="DEFAULT" disabled>
+                Price low to high
+              </option>
+              <option value="Title_Sponsor">Price low to high</option>
+              <option value="General_Sponsor">Price high to low</option>
+              <option value="Official_Sponsor">Recently listed</option>
+              <option value="Sponsor_participant">Best offer</option>
+              <option value="Information_Sponsor">Highest last sale</option>
+              <option value="Barter_sponsor ">Recently sold</option>
+              <option value="Barter_sponsor ">Recently created</option>
+              <option value="Barter_sponsor ">Most viewed</option>
+              <option value="Barter_sponsor ">Oldest</option>
+              <option value="Barter_sponsor ">Most favorited</option>
+              <option value="Barter_sponsor ">Ending soon</option>
+              <option value="Barter_sponsor ">Recently received</option>
+            </select>
+          </form>{' '}
+        </div>
+        <div className="flex grid-flow-row auto-rows-max justify-end space-x-8 pb-4">
+          <div className="inline-flex w-full justify-center rounded-md pt-5 shadow-sm" role="group">
+            <Link
+              href={{
+                pathname: '#',
+                query: { rewarddiscover: '#' },
+              }}
+              className="inline-block w-full place-content-center rounded-l-xl border-2 border-p1-darkgreen bg-p1-white p-2 text-center text-base text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p1-green hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+            >
+              Items
+            </Link>
+            <Link
+              href={{
+                pathname: '#',
+                query: { rewarddiscover: '#' },
+              }}
+              className="inline-block w-full place-content-center border-2 border-p1-darkgreen bg-p1-white p-2 text-center text-base text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p1-green hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+            >
+              Offers
+            </Link>
+            <Link
+              href={{
+                pathname: '#',
+                query: { rewarddiscover: '#' },
+              }}
+              className="inline-block w-full place-content-center border-2 border-p1-darkgreen bg-p1-white p-2 text-center text-base text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p1-green hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+            >
+              Analitics
+            </Link>
+
+            <Link
+              href={{
+                pathname: '#',
+                query: { rewarddiscover: '#' },
+              }}
+              className="inline-block w-full place-content-center rounded-r-xl border-2 border-p1-darkgreen bg-p1-white p-2 text-center text-base text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p1-green hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+            >
+              Activity
+            </Link>
+          </div>
+        </div>
+      </div>
       <div className="pb-40"></div>
 
       <section className="relative h-[450px] bg-cover bg-center pt-8">
