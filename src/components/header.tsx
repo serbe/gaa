@@ -1,6 +1,6 @@
 'use client';
 import { useTranslations } from 'next-intl';
-import { Link } from '@/i18n/routing';
+import { Link, usePathname } from '@/i18n/routing';
 import Image from 'next/image';
 import logoCr from '../../public/Logo/logo_cr.png';
 import { useLayoutEffect } from 'react';
@@ -25,6 +25,7 @@ const Header = () => {
   }, [gaaStore.persist, theme]);
 
   const t = useTranslations('Header');
+  const pathname = usePathname();
 
   return (
     <header className="bg-sky-50 dark:bg-p1-deepdarkgreen">
@@ -41,12 +42,12 @@ const Header = () => {
               <Link href="/connectwallet">{t('connectwallet')}</Link>
             </div>
             <div className="mx-2 dark:hover:text-p1-cyan">
-              <Link href="/" locale="en">
+              <Link href={pathname} locale="en">
                 En
               </Link>
             </div>
             <div className="mx-2 dark:hover:text-p1-cyan">
-              <Link href="/" locale="ru">
+              <Link href={pathname} locale="ru">
                 Ru
               </Link>
             </div>
