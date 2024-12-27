@@ -1,5 +1,6 @@
 'use client';
-import Link from 'next/link';
+import { useTranslations } from 'next-intl';
+import { Link } from '@/i18n/routing';
 import Image from 'next/image';
 import logoCr from '../../public/Logo/logo_cr.png';
 import { useLayoutEffect } from 'react';
@@ -23,6 +24,8 @@ const Header = () => {
     setThemeClass(theme);
   }, [gaaStore.persist, theme]);
 
+  const t = useTranslations('Header');
+
   return (
     <header className="bg-sky-50 dark:bg-p1-deepdarkgreen">
       <div className="flex">
@@ -32,16 +35,20 @@ const Header = () => {
         <div className="w-1/2">
           <div className="flex justify-end p-8 dark:text-p1-gray">
             <div className="mx-2 dark:hover:text-p1-cyan">
-              <Link href="/ruautorization">Авторизация</Link>
+              <Link href="/autorization">{t('autorization')}</Link>
             </div>
             <div className="mx-2 dark:hover:text-p1-cyan">
-              <Link href="/ruconnectwallet">Подключить кошелек</Link>
+              <Link href="/connectwallet">{t('connectwallet')}</Link>
             </div>
             <div className="mx-2 dark:hover:text-p1-cyan">
-              <Link href="/en">En</Link>
+              <Link href="/" locale="en">
+                En
+              </Link>
             </div>
             <div className="mx-2 dark:hover:text-p1-cyan">
-              <Link href="/ru">Ru</Link>
+              <Link href="/" locale="ru">
+                Ru
+              </Link>
             </div>
             <div className="mx-2 dark:hover:text-p1-cyan">
               <button

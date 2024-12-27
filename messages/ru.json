@@ -1,0 +1,17 @@
+{
+  "Header": {
+    "autorization": "Авторизация",
+    "connectwallet": "Подключить кошелек"
+  },
+  "Nav": {
+    "home": "Домой",
+    "about": "О нас",
+    "roadmap": "Дорожная карта",
+    "events": "События",
+    "mint": "Создай NFT",
+    "racepoint": "Racepoint",
+    "partners": "Партнеры",
+    "socials": "Социальные сети",
+    "dashboard": "Dashboard"
+  }
+}

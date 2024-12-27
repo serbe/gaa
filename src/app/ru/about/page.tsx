@@ -1,6 +1,6 @@
 'use client';
 import Image from 'next/image';
-import Link from 'next/link';
+import { Link } from '@/i18n/routing';
 import { JumpButton } from '@/components/jumpButton';
 
 import { Autoplay, Mousewheel, Navigation, Pagination } from 'swiper/modules';
@@ -39,10 +39,7 @@ export default function Page() {
       <div className="flex flex-row">
         <div className="basis-1/6 text-center opacity-85 duration-500 ease-in-out hover:scale-105 hover:opacity-100">
           <Link
-            href={{
-              pathname: '/ruaboutmemberbenefit',
-              query: { ruabout: 'ruaboutmemberbenefit' },
-            }}
+            href="/aboutmemberbenefit"
             className="mx-auto justify-center rounded-3xl hover:drop-shadow-2xl"
           >
             <Image
@@ -56,10 +53,7 @@ export default function Page() {
         </div>
         <div className="basis-1/6 text-center opacity-85 duration-500 hover:scale-105 hover:opacity-100">
           <Link
-            href={{
-              pathname: '/ruaboutterms',
-              query: { ruabout: 'ruaboutterms' },
-            }}
+            href="/aboutterms"
             className="mx-auto justify-center rounded-3xl hover:drop-shadow-2xl"
           >
             <Image
@@ -73,10 +67,7 @@ export default function Page() {
         </div>
         <div className="basis-1/6 text-center opacity-85 duration-500 hover:scale-105 hover:opacity-100">
           <Link
-            href={{
-              pathname: '/ruaboutpolicy',
-              query: { ruabout: 'ruaboutpolicy' },
-            }}
+            href="/aboutpolicy"
             className="mx-auto justify-center rounded-3xl hover:drop-shadow-2xl"
           >
             <Image
@@ -90,10 +81,7 @@ export default function Page() {
         </div>
         <div className="basis-1/6 text-center opacity-85 duration-500 hover:scale-105 hover:opacity-100">
           <Link
-            href={{
-              pathname: '/ruaboutweb3',
-              query: { ruabout: 'ruaboutweb3' },
-            }}
+            href="/aboutweb3"
             className="mx-auto justify-center rounded-3xl hover:drop-shadow-2xl"
           >
             <Image
@@ -106,13 +94,7 @@ export default function Page() {
           </Link>
         </div>
         <div className="basis-1/6 text-center opacity-85 duration-500 hover:scale-105 hover:opacity-100">
-          <Link
-            href={{
-              pathname: '/ruteam',
-              query: { ruabout: 'ruteam' },
-            }}
-            className="mx-auto justify-center rounded-3xl hover:drop-shadow-2xl"
-          >
+          <Link href="/team" className="mx-auto justify-center rounded-3xl hover:drop-shadow-2xl">
             <Image
               className="relative mb-4 inline-block w-max rounded-3xl"
               width={1000}
@@ -124,10 +106,7 @@ export default function Page() {
         </div>
         <div className="basis-1/6 text-center opacity-85 duration-500 hover:scale-105 hover:opacity-100">
           <Link
-            href={{
-              pathname: '/rucontacts',
-              query: { ruabout: 'rucontacts' },
-            }}
+            href="/contacts"
             className="mx-auto justify-center rounded-3xl hover:drop-shadow-2xl"
           >
             <Image

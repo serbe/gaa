@@ -1,15 +1,19 @@
 import type { NextConfig } from 'next';
+import createNextIntlPlugin from 'next-intl/plugin';
+
+const withNextIntl = createNextIntlPlugin();
 
 const nextConfig: NextConfig = {
   distDir: 'build',
   reactStrictMode: true,
   // i18n: {
-  //   locales: ['en-US', 'ru'],
-  //   defaultLocale: 'en-US',
+  //   locales: ['en', 'ru'],
+  //   defaultLocale: 'ru',
   // },
+  // trailingSlash: true,
   // experimental: {
   //   typedRoutes: true,
   // },
 };
 
-export default nextConfig;
+export default withNextIntl(nextConfig);

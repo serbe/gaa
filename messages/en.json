@@ -1,0 +1,17 @@
+{
+  "Header": {
+    "autorization": "Autorization",
+    "connectwallet": "Connect wallet"
+  },
+  "Nav": {
+    "home": "Home",
+    "about": "About",
+    "roadmap": "Roadmap",
+    "events": "Events",
+    "mint": "Mint",
+    "racepoint": "Racepoint",
+    "partners": "Partners",
+    "socials": "Socials",
+    "dashboard": "Dashboard"
+  }
+}

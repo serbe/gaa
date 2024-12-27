@@ -1,10 +1,11 @@
 'use client';
 import Image from 'next/image';
-import Link from 'next/link';
+// import { useTranslations } from 'next-intl';
+import { Link } from '@/i18n/routing';
 import { useState } from 'react';
 import { JumpButton } from '@/components/jumpButton';
 
-export default function Home() {
+export default function RussianPage() {
   const [value, setValue] = useState('0');
   const jumpPoints = ['1', '2', '3'];
   return (
@@ -67,12 +68,12 @@ export default function Home() {
             <div className="place-content-center p-2 text-center text-p1-darkgreen md:text-xl lg:text-2xl dark:text-p1-cyan">
               <div className="pt-2">Сервис</div>
               <div className="pb-5">создания NFT наград на сайте</div>
-              <a
-                href="/ruapplicationform"
+              <Link
+                href="/applicationform"
                 className="inline-block place-content-center rounded-xl border-2 border-p1-green bg-p1-white px-10 py-8 text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:border-p1-darkgreen hover:bg-p1-darkgreen hover:text-p1-white dark:border-p1-cyan dark:bg-p1-darkgreen dark:text-p1-cyan dark:hover:border-p1-green dark:hover:bg-p1-green dark:hover:text-p1-deepdarkgreen"
               >
                 Форма заявки
-              </a>
+              </Link>
               <div className="place-items-centre mt-5 grid grid-cols-3 gap-2 p-4">
                 <Image width={1000} height={1200} src="/Licenses/Promoter.png" alt="Promoter" />
 
