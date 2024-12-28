@@ -46,7 +46,7 @@ export default function Page() {
               className="relative mb-4 inline-block w-max rounded-3xl"
               width={1000}
               height={1000}
-              src="/AboutHero/Benefit.png"
+              src="/AboutHero/enBenefit.png"
               alt="Benefit"
             />
           </Link>
@@ -60,7 +60,7 @@ export default function Page() {
               className="relative mb-4 inline-block w-max rounded-3xl"
               width={1000}
               height={1000}
-              src="/AboutHero/Terms.png"
+              src="/AboutHero/enTerms.png"
               alt="Terms"
             />
           </Link>
@@ -74,7 +74,7 @@ export default function Page() {
               className="relative mb-4 inline-block w-max rounded-3xl"
               width={1000}
               height={1000}
-              src="/AboutHero/Policy.png"
+              src="/AboutHero/enPolicy.png"
               alt="Policy"
             />
           </Link>
@@ -88,7 +88,7 @@ export default function Page() {
               className="relative mb-4 inline-block w-max rounded-3xl"
               width={1000}
               height={1000}
-              src="/AboutHero/Web3.png"
+              src="/AboutHero/enWeb3.png"
               alt="Web3"
             />
           </Link>
@@ -99,7 +99,7 @@ export default function Page() {
               className="relative mb-4 inline-block w-max rounded-3xl"
               width={1000}
               height={1000}
-              src="/AboutHero/Team.png"
+              src="/AboutHero/enTeam.png"
               alt="Team"
             />
           </Link>
@@ -113,7 +113,7 @@ export default function Page() {
               className="relative mb-4 inline-block w-max rounded-3xl"
               width={1000}
               height={1000}
-              src="/AboutHero/Contacts.png"
+              src="/AboutHero/enContacts.png"
               alt="Contacts"
             />
           </Link>

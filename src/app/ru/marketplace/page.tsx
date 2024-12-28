@@ -240,6 +240,128 @@ export default function Home() {
         </div>
       </div>
 
+      <div className="grid grid-cols-1 p-1 md:grid-cols-3">
+        <div className="flex justify-start space-x-6">
+          <div className="">
+            <Link href={'#'} className="">
+              <Image
+                className="hover:bg:white-p1-white h-14 w-14 rounded-full ring-2 ring-p1-green hover:bg-p1-white hover:bg-opacity-50 hover:ring-p1-cyan dark:ring-p1-darkgreen"
+                width={480}
+                height={480}
+                src="/Logo/GAA_Logo_1.png"
+                alt="Bordered avatar"
+              />
+            </Link>
+          </div>
+          <div>
+            <nav className="grid grid-cols-1 space-x-6 px-10 text-center text-xl font-bold text-p1-darkgreen md:grid-cols-4">
+              <Link
+                href="#"
+                className="rounded-sm p-1 transition-all delay-75 duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen"
+              >
+                RaceLads
+              </Link>
+              <Link
+                href="#"
+                className="rounded-sm p-1 transition-all delay-75 duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen"
+              >
+                Drops
+              </Link>
+              <Link
+                href="#"
+                className="rounded-sm p-1 transition-all delay-75 duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen"
+              >
+                Stats
+              </Link>
+              <Link
+                href="#"
+                className="rounded-sm p-1 transition-all delay-75 duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen"
+              >
+                Create
+              </Link>
+            </nav>
+          </div>
+        </div>
+
+        <div className="flex justify-center space-x-2">
+          <div>
+            <div className="mx-auto flex w-96 max-w-md overflow-hidden rounded-md border-2 border-p1-darkgreen bg-p1-white px-4 py-3 font-[sans-serif]">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 192.904 192.904"
+                width="16px"
+                className="mr-3 rotate-90 fill-gray-600"
+              >
+                <path d="m190.707 180.101-47.078-47.077c11.702-14.072 18.752-32.142 18.752-51.831C162.381 36.423 125.959 0 81.191 0 36.422 0 0 36.423 0 81.193c0 44.767 36.422 81.187 81.191 81.187 19.688 0 37.759-7.049 51.831-18.751l47.079 47.078a7.474 7.474 0 0 0 5.303 2.197 7.498 7.498 0 0 0 5.303-12.803zM15 81.193C15 44.694 44.693 15 81.191 15c36.497 0 66.189 29.694 66.189 66.193 0 36.496-29.692 66.187-66.189 66.187C44.693 147.38 15 117.689 15 81.193z"></path>
+              </svg>
+              <input
+                type="email"
+                placeholder="Search Something..."
+                className="w-full bg-transparent text-sm text-gray-600 outline-none"
+              />
+            </div>
+          </div>
+        </div>
+
+        <div className="flex justify-end space-x-6 px-10">
+          <div>
+            <Link href={'#'} className="mx-auto justify-center">
+              <Image
+                className="h-10 w-10 rounded-sm p-1 ring-p1-gray transition-all delay-75 duration-300 ease-in-out hover:bg-p1-green hover:bg-opacity-50 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:hover:bg-p1-green"
+                width={480}
+                height={480}
+                src="/icon/line.png"
+                alt="line"
+              />
+            </Link>
+          </div>
+          <div>
+            <Link href={'#'} className="mx-auto justify-center">
+              <Image
+                className="h-10 w-10 rounded-sm p-1 ring-p1-gray transition-all delay-75 duration-300 ease-in-out hover:bg-p1-green hover:bg-opacity-50 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:hover:bg-p1-green"
+                width={480}
+                height={480}
+                src="/icon/16.png"
+                alt="bt16"
+              />
+            </Link>
+          </div>
+          <div>
+            <Link href={'#'} className="mx-auto justify-center">
+              <Image
+                className="h-10 w-10 rounded-sm p-1 ring-p1-gray transition-all delay-75 duration-300 ease-in-out hover:bg-p1-green hover:bg-opacity-50 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:hover:bg-p1-green"
+                width={480}
+                height={480}
+                src="/icon/9.png"
+                alt="bt9"
+              />
+            </Link>
+          </div>
+          <div>
+            <Link href={'#'} className="mx-auto justify-center">
+              <Image
+                className="h-10 w-10 rounded-sm p-1 ring-p1-gray transition-all delay-75 duration-300 ease-in-out hover:bg-p1-green hover:bg-opacity-50 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:hover:bg-p1-green"
+                width={480}
+                height={480}
+                src="/icon/4.png"
+                alt="bt4"
+              />
+            </Link>
+          </div>
+          <div>
+            <Link href={'#'} className="mx-auto justify-center">
+              <Image
+                className="h-10 w-10 rounded-sm p-1 ring-p1-gray transition-all delay-75 duration-300 ease-in-out hover:bg-p1-green hover:bg-opacity-50 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:hover:bg-p1-green"
+                width={480}
+                height={480}
+                src="/icon/3.png"
+                alt="bt3"
+              />
+            </Link>
+          </div>
+        </div>
+      </div>
+
       <div className="grid h-1/5 grid-cols-1 p-1 md:grid-cols-6">
         <div className="flex grid-flow-row auto-rows-max justify-start space-x-2">
           <span className="relative flex h-3 w-3">
