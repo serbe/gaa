@@ -11,12 +11,12 @@ export default function Home() {
       <JumpButton points={jumpPoints} />
 
       <div className="h-4/5 bg-[url('/background/bgsky.png')] bg-cover bg-center p-2">
-        <div className="grid grid-cols-1 p-1 md:grid-cols-3">
+        <div className="grid grid-cols-1 justify-center p-1 md:grid-cols-2 md:justify-between 2xl:grid-cols-3">
           <div className="flex justify-start space-x-6">
             <div className="">
               <Link href={'#'} className="">
                 <Image
-                  className="hover:bg:white-p1-white h-14 w-14 rounded-full ring-2 ring-p1-green hover:bg-p1-white hover:bg-opacity-50 hover:ring-p1-cyan dark:ring-p1-darkgreen"
+                  className="hover:bg:white-p1-white h-14 w-14 rounded-full text-base ring-2 ring-p1-green hover:bg-p1-white hover:bg-opacity-50 hover:ring-p1-cyan dark:ring-p1-darkgreen"
                   width={480}
                   height={480}
                   src="/Logo/GAA_Logo_1.png"
@@ -25,7 +25,7 @@ export default function Home() {
               </Link>
             </div>
             <div>
-              <nav className="grid grid-cols-1 space-x-6 px-10 text-center text-xl font-bold text-p1-darkgreen md:grid-cols-4">
+              <nav className="grid grid-cols-1 space-x-6 px-10 text-center font-bold text-p1-darkgreen md:grid-cols-4 md:text-xl">
                 <Link
                   href="#"
                   className="rounded-sm p-1 transition-all delay-75 duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen"
@@ -56,7 +56,7 @@ export default function Home() {
 
           <div className="flex justify-center space-x-2">
             <div>
-              <div className="mx-auto flex w-96 max-w-md overflow-hidden rounded-md border-2 border-p1-darkgreen bg-p1-white px-4 py-3 font-[sans-serif]">
+              <div className="mx-auto flex max-w-md overflow-hidden rounded-md border-2 border-p1-green bg-p2-white2 px-4 py-3 font-[sans-serif] md:w-96">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 192.904 192.904"
@@ -68,7 +68,7 @@ export default function Home() {
                 <input
                   type="email"
                   placeholder="Search Something..."
-                  className="w-full bg-transparent text-sm text-gray-600 outline-none"
+                  className="w-full bg-transparent text-xl text-gray-600 outline-none"
                 />
               </div>
             </div>
@@ -165,41 +165,41 @@ export default function Home() {
           </div>
         </div>
         <div className="grid h-1/5 grid-cols-1 p-1 md:grid-cols-2">
-          <div className="flex grid-flow-row auto-rows-max justify-start space-x-2">
+          <div className="flex grid-flow-row auto-rows-max justify-start space-x-2 pt-2">
             <div>
-              <p className="font-thing pt-4 text-xl md:px-10">Items: 10.000 </p>
+              <p className="font-thing pt-1 text-xl md:px-10 md:text-2xl">Items: 10.000 </p>
             </div>
-            <p className="font-thing pt-4 text-xl md:px-10">Created Feb 2025 </p>
+            <p className="font-thing pt-1 text-xl md:px-2 md:text-2xl">Created: Feb 2025 </p>
 
-            <p className="font-thing pt-4 text-xl md:px-10">Creator earnings 7.5%</p>
-            <p className="font-thing pt-4 text-xl md:px-10">Chain Ethereum</p>
+            <p className="font-thing pt-1 text-xl md:px-2 md:text-2xl">Creator earnings: 7.5%</p>
+            <p className="font-thing pt-1 text-xl md:px-2 md:text-2xl">Chain: Ethereum</p>
           </div>
 
-          <div className="flex grid-flow-row auto-rows-max justify-end space-x-8 pb-4">
+          <div className="flex grid-flow-row auto-rows-max justify-end space-x-8 pb-4 pt-2">
             <div>
-              <p className="text-2xl font-semibold">9 ETH</p>
+              <p className="text-sm font-semibold md:text-2xl">9 ETH</p>
               <p>Total volume</p>
             </div>
             <div>
-              <p className="text-2xl font-semibold">0,013 ETH</p>
+              <p className="text-sm font-semibold md:text-2xl">0,013 ETH</p>
               <p>Floor price</p>
             </div>
             <div>
-              <p className="text-2xl font-semibold">0,009 WETH</p>
+              <p className="text-sm font-semibold md:text-2xl">0,009 WETH</p>
               <p>Best offer</p>
             </div>
             <div>
-              <p className="text-2xl font-semibold">29%</p>
+              <p className="text-sm font-semibold md:text-2xl">29%</p>
               <p>Listed</p>
             </div>
             <div>
-              <p className="text-2xl font-semibold">3 690 (85%)</p>
+              <p className="text-sm font-semibold md:text-2xl">3 690 (85%)</p>
               <p>Owners (Unique)</p>
             </div>
           </div>
         </div>
       </div>
-      <div className="grid h-1/5 grid-cols-1 p-1 md:grid-cols-2">
+      <div className="grid h-1/5 grid-cols-1 p-1 md:grid-cols-4 md:px-10">
         <div className="flex grid-flow-row auto-rows-max justify-start space-x-2">
           <div>
             <div
@@ -208,84 +208,35 @@ export default function Home() {
             >
               <Link
                 href="#"
-                className="inline-block w-full place-content-center rounded-l-xl border-2 border-p1-darkgreen bg-p1-white p-2 text-center text-base text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p1-green hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                className="inline-block w-full place-content-center rounded-l-xl border-2 bg-p1-white p-2 text-center text-base text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:border-p1-darkgreen hover:bg-p1-green hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
               >
                 Items
               </Link>
               <Link
                 href="#"
-                className="inline-block w-full place-content-center border-2 border-p1-darkgreen bg-p1-white p-2 text-center text-base text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p1-green hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                className="inline-block w-full place-content-center border-2 bg-p1-white p-2 text-center text-base text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:border-p1-darkgreen hover:bg-p1-green hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
               >
                 Offers
               </Link>
               <Link
                 href="#"
-                className="inline-block w-full place-content-center border-2 border-p1-darkgreen bg-p1-white p-2 text-center text-base text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p1-green hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                className="inline-block w-full place-content-center border-2 bg-p1-white p-2 text-center text-base text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:border-p1-darkgreen hover:bg-p1-green hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
               >
                 Analitics
               </Link>
 
               <Link
                 href="#"
-                className="inline-block w-full place-content-center rounded-r-xl border-2 border-p1-darkgreen bg-p1-white p-2 text-center text-base text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p1-green hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                className="inline-block w-full place-content-center rounded-r-xl border-2 bg-p1-white p-2 text-center text-base text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:border-p1-darkgreen hover:bg-p1-green hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
               >
                 Activity
               </Link>
             </div>
           </div>
         </div>
-
-        <div className="flex grid-flow-row auto-rows-max justify-end space-x-8 pb-4">
-          <div></div>
-        </div>
-      </div>
-
-      <div className="grid grid-cols-1 p-1 md:grid-cols-3">
-        <div className="flex justify-start space-x-6">
-          <div className="">
-            <Link href={'#'} className="">
-              <Image
-                className="hover:bg:white-p1-white h-14 w-14 rounded-full ring-2 ring-p1-green hover:bg-p1-white hover:bg-opacity-50 hover:ring-p1-cyan dark:ring-p1-darkgreen"
-                width={480}
-                height={480}
-                src="/Logo/GAA_Logo_1.png"
-                alt="Bordered avatar"
-              />
-            </Link>
-          </div>
+        <div className="flex justify-center space-x-2 pt-5">
           <div>
-            <nav className="grid grid-cols-1 space-x-6 px-10 text-center text-xl font-bold text-p1-darkgreen md:grid-cols-4">
-              <Link
-                href="#"
-                className="rounded-sm p-1 transition-all delay-75 duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen"
-              >
-                RaceLads
-              </Link>
-              <Link
-                href="#"
-                className="rounded-sm p-1 transition-all delay-75 duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen"
-              >
-                Drops
-              </Link>
-              <Link
-                href="#"
-                className="rounded-sm p-1 transition-all delay-75 duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen"
-              >
-                Stats
-              </Link>
-              <Link
-                href="#"
-                className="rounded-sm p-1 transition-all delay-75 duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen"
-              >
-                Create
-              </Link>
-            </nav>
-          </div>
-        </div>
-
-        <div className="flex justify-center space-x-2">
-          <div>
-            <div className="mx-auto flex w-96 max-w-md overflow-hidden rounded-md border-2 border-p1-darkgreen bg-p1-white px-4 py-3 font-[sans-serif]">
+            <div className="mx-auto flex max-w-md overflow-hidden rounded-md border-2 border-p1-green bg-p2-white2 px-4 py-3 font-[sans-serif] md:w-96">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 192.904 192.904"
@@ -297,163 +248,505 @@ export default function Home() {
               <input
                 type="email"
                 placeholder="Search Something..."
-                className="w-full bg-transparent text-sm text-gray-600 outline-none"
+                className="w-full bg-transparent text-xl text-gray-600 outline-none"
               />
             </div>
           </div>
         </div>
-
-        <div className="flex justify-end space-x-6 px-10">
-          <div>
-            <Link href={'#'} className="mx-auto justify-center">
-              <Image
-                className="h-10 w-10 rounded-sm p-1 ring-p1-gray transition-all delay-75 duration-300 ease-in-out hover:bg-p1-green hover:bg-opacity-50 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:hover:bg-p1-green"
-                width={480}
-                height={480}
-                src="/icon/line.png"
-                alt="line"
-              />
-            </Link>
-          </div>
-          <div>
-            <Link href={'#'} className="mx-auto justify-center">
-              <Image
-                className="h-10 w-10 rounded-sm p-1 ring-p1-gray transition-all delay-75 duration-300 ease-in-out hover:bg-p1-green hover:bg-opacity-50 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:hover:bg-p1-green"
-                width={480}
-                height={480}
-                src="/icon/16.png"
-                alt="bt16"
-              />
-            </Link>
-          </div>
-          <div>
-            <Link href={'#'} className="mx-auto justify-center">
-              <Image
-                className="h-10 w-10 rounded-sm p-1 ring-p1-gray transition-all delay-75 duration-300 ease-in-out hover:bg-p1-green hover:bg-opacity-50 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:hover:bg-p1-green"
-                width={480}
-                height={480}
-                src="/icon/9.png"
-                alt="bt9"
-              />
-            </Link>
-          </div>
-          <div>
-            <Link href={'#'} className="mx-auto justify-center">
-              <Image
-                className="h-10 w-10 rounded-sm p-1 ring-p1-gray transition-all delay-75 duration-300 ease-in-out hover:bg-p1-green hover:bg-opacity-50 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:hover:bg-p1-green"
-                width={480}
-                height={480}
-                src="/icon/4.png"
-                alt="bt4"
-              />
-            </Link>
-          </div>
-          <div>
-            <Link href={'#'} className="mx-auto justify-center">
-              <Image
-                className="h-10 w-10 rounded-sm p-1 ring-p1-gray transition-all delay-75 duration-300 ease-in-out hover:bg-p1-green hover:bg-opacity-50 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:hover:bg-p1-green"
-                width={480}
-                height={480}
-                src="/icon/3.png"
-                alt="bt3"
-              />
-            </Link>
-          </div>
-        </div>
-      </div>
-
-      <div className="grid h-1/5 grid-cols-1 p-1 md:grid-cols-6">
-        <div className="flex grid-flow-row auto-rows-max justify-start space-x-2">
-          <span className="relative flex h-3 w-3">
-            <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-sky-400 opacity-75"></span>
-            <span className="relative inline-flex h-3 w-3 rounded-full bg-sky-500"></span>
-          </span>
-          <div> </div>
-          <Link
-            href="#"
-            className="inline-block w-full place-content-center rounded-xl border-2 border-p1-darkgreen bg-p1-white p-2 text-center text-base text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p1-green hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+        <form className="md:w-30 mx-4 max-w-2xl pt-5 lg:w-60">
+          <label
+            htmlFor="price"
+            className="block w-full text-left text-sm font-medium text-p1-darkgreen md:text-xl dark:text-p1-green"
+          ></label>
+          <select
+            id="price"
+            className="block w-full rounded-lg border-2 border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange md:text-xl dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder-gray-400 dark:focus:border-p1-green dark:focus:ring-p1-green"
+            defaultValue={'DEFAULT'}
           >
-            Activity
-          </Link>
-        </div>
-        <div className="font-thing text-2xl md:px-10">100 results</div>
-        <div>
-          <div className="span-2 verflow-hidden mx-auto my-6 flex w-full rounded-md border-2 border-p1-darkgreen bg-p1-white px-4 py-3 font-[sans-serif]">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 192.904 192.904"
-              width="16px"
-              className="mr-3 rotate-90 fill-gray-600"
+            <option value="DEFAULT" disabled>
+              Price low to high
+            </option>
+            <option value="Title_Sponsor">Price low to high</option>
+            <option value="General_Sponsor">Price high to low</option>
+            <option value="Official_Sponsor">Recently listed</option>
+            <option value="Sponsor_participant">Best offer</option>
+            <option value="Information_Sponsor">Highest last sale</option>
+            <option value="Barter_sponsor ">Recently sold</option>
+            <option value="Barter_sponsor ">Recently created</option>
+            <option value="Barter_sponsor ">Most viewed</option>
+            <option value="Barter_sponsor ">Oldest</option>
+            <option value="Barter_sponsor ">Most favorited</option>
+            <option value="Barter_sponsor ">Ending soon</option>
+            <option value="Barter_sponsor ">Recently received</option>
+          </select>
+        </form>
+        <div className="flex flex-auto grid-flow-row auto-rows-max justify-end space-x-8 pb-4">
+          <div>
+            <div
+              className="inline-flex w-full flex-auto justify-center rounded-md pt-5 shadow-sm"
+              role="group"
             >
-              <path d="m190.707 180.101-47.078-47.077c11.702-14.072 18.752-32.142 18.752-51.831C162.381 36.423 125.959 0 81.191 0 36.422 0 0 36.423 0 81.193c0 44.767 36.422 81.187 81.191 81.187 19.688 0 37.759-7.049 51.831-18.751l47.079 47.078a7.474 7.474 0 0 0 5.303 2.197 7.498 7.498 0 0 0 5.303-12.803zM15 81.193C15 44.694 44.693 15 81.191 15c36.497 0 66.189 29.694 66.189 66.193 0 36.496-29.692 66.187-66.189 66.187C44.693 147.38 15 117.689 15 81.193z"></path>
-            </svg>
-            <input
-              type="email"
-              placeholder="Search Something..."
-              className="w-full bg-transparent text-sm text-gray-600 outline-none"
-            />
-          </div>
-        </div>
-        <div>
-          <form className="mx-4 max-w-2xl pt-6">
-            <label
-              htmlFor="license"
-              className="block w-full text-left text-sm font-medium text-p1-darkgreen dark:text-p1-green"
-            ></label>
-            <select
-              id="license"
-              className="block w-full rounded-lg border-2 border-gray-300 bg-p2-white2 p-2.5 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder-gray-400 dark:focus:border-p1-green dark:focus:ring-p1-green"
-              defaultValue={'DEFAULT'}
-            >
-              <option value="DEFAULT" disabled>
-                Price low to high
-              </option>
-              <option value="Title_Sponsor">Price low to high</option>
-              <option value="General_Sponsor">Price high to low</option>
-              <option value="Official_Sponsor">Recently listed</option>
-              <option value="Sponsor_participant">Best offer</option>
-              <option value="Information_Sponsor">Highest last sale</option>
-              <option value="Barter_sponsor ">Recently sold</option>
-              <option value="Barter_sponsor ">Recently created</option>
-              <option value="Barter_sponsor ">Most viewed</option>
-              <option value="Barter_sponsor ">Oldest</option>
-              <option value="Barter_sponsor ">Most favorited</option>
-              <option value="Barter_sponsor ">Ending soon</option>
-              <option value="Barter_sponsor ">Recently received</option>
-            </select>
-          </form>
-        </div>
-        <div className="flex grid-flow-row auto-rows-max justify-end space-x-8 pb-4">
-          <div className="inline-flex w-full justify-center rounded-md pt-5 shadow-sm" role="group">
-            <Link
-              href="#"
-              className="inline-block w-full place-content-center rounded-l-xl border-2 border-p1-darkgreen bg-p1-white p-2 text-center text-base text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p1-green hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
-            >
-              Items
-            </Link>
-            <Link
-              href="#"
-              className="inline-block w-full place-content-center border-2 border-p1-darkgreen bg-p1-white p-2 text-center text-base text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p1-green hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
-            >
-              Offers
-            </Link>
-            <Link
-              href="#"
-              className="inline-block w-full place-content-center border-2 border-p1-darkgreen bg-p1-white p-2 text-center text-base text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p1-green hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
-            >
-              Analitics
-            </Link>
+              <Link
+                href="#"
+                className="inline-block w-max place-content-center rounded-l-xl border-2 bg-p1-white p-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:border-p1-darkgreen hover:bg-p1-green hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+              >
+                All
+              </Link>
+              <Link
+                href="#"
+                className="inline-block w-max place-content-center border-2 bg-p1-white p-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:border-p1-darkgreen hover:bg-p1-green hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+              >
+                Listed
+              </Link>
+              <Link
+                href="#"
+                className="inline-block w-max place-content-center border-2 bg-p1-white p-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:border-p1-darkgreen hover:bg-p1-green hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+              >
+                On Auction
+              </Link>
+              <Link
+                href="#"
+                className="inline-block w-max place-content-center border-2 bg-p1-white p-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:border-p1-darkgreen hover:bg-p1-green hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+              >
+                New
+              </Link>
 
-            <Link
-              href="#"
-              className="inline-block w-full place-content-center rounded-r-xl border-2 border-p1-darkgreen bg-p1-white p-2 text-center text-base text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p1-green hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
-            >
-              Activity
-            </Link>
+              <Link
+                href="#"
+                className="inline-block w-max place-content-center rounded-r-xl border-2 bg-p1-white p-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:border-p1-darkgreen hover:bg-p1-green hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+              >
+                Has Offers
+              </Link>
+            </div>
           </div>
         </div>
       </div>
-      <div className="pb-40"></div>
+
+      <div className="pb-10"></div>
+      <div className="grid grid-cols-1 justify-between p-1 md:grid-cols-2 2xl:grid-cols-2">
+        <div className="flex justify-start space-x-6 px-10">
+          <div>
+            <Link href={'#'} className="mx-auto justify-start">
+              <Image
+                className="h-10 w-10 rounded-sm p-1 ring-p1-gray transition-all delay-75 duration-300 ease-in-out hover:bg-p1-green hover:bg-opacity-50 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:hover:bg-p1-green"
+                width={480}
+                height={480}
+                src="/icon/2.png"
+                alt="bt2"
+              />
+            </Link>
+          </div>
+          <span className="relative flex h-3 w-3 pt-4">
+            <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-p1-green opacity-75"></span>
+            <span className="relative inline-flex h-3 w-3 rounded-full bg-p1-green"></span>
+          </span>
+          <div className="place-content-center text-xl text-p1-darkgreen hover:text-p1-cyan dark:text-p1-green">
+            Live
+          </div>
+          <div className="flex grid-flow-row auto-rows-max justify-start space-x-2"></div>
+          <div>
+            <Link
+              href="#"
+              className="place-self-center text-2xl text-p1-darkgreen hover:text-p1-cyan dark:text-p1-green"
+            >
+              100 results{' '}
+            </Link>
+            <Link
+              href="#"
+              className="hover:bg-p2-white rounded-sm p-1 transition-all delay-75 duration-300 ease-in-out hover:bg-opacity-50 hover:text-p1-deepdarkgreen"
+            ></Link>
+          </div>
+        </div>
+
+        <div className="flex justify-end px-10">
+          <div className="inline-flex w-full justify-end rounded-md" role="group">
+            <div className="w-10">
+              <Link href={'#'} className="mx-auto justify-center">
+                <Image
+                  className="h-10 w-10 rounded-sm p-1 ring-p1-gray transition-all delay-75 duration-300 ease-in-out hover:bg-p1-green hover:bg-opacity-50 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:hover:bg-p1-green"
+                  width={480}
+                  height={480}
+                  src="/icon/line.png"
+                  alt="line"
+                />
+              </Link>
+            </div>
+            <div className="w-10">
+              <Link href={'#'} className="mx-auto justify-center">
+                <Image
+                  className="h-10 w-10 rounded-sm p-1 ring-p1-gray transition-all delay-75 duration-300 ease-in-out hover:bg-p1-green hover:bg-opacity-50 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:hover:bg-p1-green"
+                  width={480}
+                  height={480}
+                  src="/icon/16.png"
+                  alt="bt16"
+                />
+              </Link>
+            </div>
+            <div className="w-10">
+              <Link href={'#'} className="mx-auto justify-center">
+                <Image
+                  className="h-10 w-10 rounded-sm p-1 ring-p1-gray transition-all delay-75 duration-300 ease-in-out hover:bg-p1-green hover:bg-opacity-50 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:hover:bg-p1-green"
+                  width={480}
+                  height={480}
+                  src="/icon/9.png"
+                  alt="bt9"
+                />
+              </Link>
+            </div>
+            <div className="w-10">
+              <Link href={'#'} className="mx-auto justify-center">
+                <Image
+                  className="h-10 w-10 rounded-sm p-1 ring-p1-gray transition-all delay-75 duration-300 ease-in-out hover:bg-p1-green hover:bg-opacity-50 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:hover:bg-p1-green"
+                  width={480}
+                  height={480}
+                  src="/icon/4.png"
+                  alt="bt4"
+                />
+              </Link>
+            </div>
+            <div className="w-10">
+              <Link href={'#'} className="mx-auto justify-center">
+                <Image
+                  className="h-10 w-10 rounded-sm p-1 ring-p1-gray transition-all delay-75 duration-300 ease-in-out hover:bg-p1-green hover:bg-opacity-50 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:hover:bg-p1-green"
+                  width={480}
+                  height={480}
+                  src="/icon/3.png"
+                  alt="bt3"
+                />
+              </Link>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <section className="mx-auto px-6 py-12">
+        <h2 className="mb-6 text-2xl font-bold text-gray-800">Items</h2>
+        <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6">
+          <div className="group relative w-full overflow-hidden rounded-xl border border-gray-200 bg-white object-cover shadow-lg transition-transform duration-300 hover:shadow-2xl">
+            <div>
+              <button className="absolute left-2 top-2 z-50 rounded-full bg-blue-500 px-3 py-1 text-sm text-white">
+                Rare
+              </button>
+            </div>
+
+            <div className="relative">
+              <Link href="/card" className="mx-auto justify-center hover:drop-shadow-2xl">
+                <Image
+                  width={480}
+                  height={480}
+                  src="/HeroNFT/RaceLads/RaceLads1.png"
+                  alt="RaceLads"
+                  className="h-full w-full object-cover transition-transform duration-500 ease-in-out group-hover:scale-150"
+                />
+              </Link>
+            </div>
+
+            <div className="w-full bg-p1-white bg-opacity-10 p-4 text-p1-darkgreen transition-transform duration-500 ease-in-out group-hover:-translate-y-12">
+              <div className="flex items-center justify-between">
+                <div className="text-left text-xl font-bold text-gray-800">RaceLad</div>
+                <div className="text-left text-lg font-bold text-gray-800"># 8888</div>
+              </div>
+              <p className="mt-1 text-left text-xl text-gray-600">Total: 10.000</p>
+              <div className="">
+                <div className="mt-2 flex items-center justify-between">
+                  <div className="text-center">
+                    <p className="mt-1 text-left text-base text-gray-600 md:text-xl">
+                      Price:
+                      <Image
+                        className="relative mt-1 inline-block w-max"
+                        layout="intrinsic"
+                        width={24}
+                        height={24}
+                        src="/Logo/eth.png"
+                        alt="eth"
+                      />
+                      10
+                    </p>
+                  </div>
+                  <div className="text-center">
+                    <p className="mt-1 text-left text-base text-gray-600">
+                      <Image
+                        className="mt-1 inline-block w-max"
+                        width={18}
+                        height={18}
+                        src="/Logo/usd.png"
+                        alt="usd"
+                      />
+                      25.000
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="flex items-center justify-between">
+              <button className="absolute bottom-0 left-0 w-full translate-y-full border bg-p1-darkgreen bg-opacity-100 py-3 text-center text-xl text-p2-white2 transition-transform duration-500 ease-in-out hover:bg-p1-green group-hover:translate-y-0">
+                <div
+                  className="inline-flex w-full justify-center rounded-md pt-5 shadow-sm"
+                  role="group"
+                >
+                  <Link
+                    href="#"
+                    className="inline-block w-full place-content-center rounded-l-xl border-2 bg-p1-white p-2 text-center text-base text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:border-p1-darkgreen hover:bg-p1-green hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                  >
+                    Buy
+                  </Link>
+
+                  <Link href={'#'} className="mx-auto justify-center">
+                    <Image
+                      className="inline-block w-10 place-content-center px-2 ring-p1-green transition-all delay-75 duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50"
+                      width={480}
+                      height={480}
+                      src="/Logo/cart.png"
+                      alt="Bordered avatar"
+                    />
+                  </Link>
+                </div>
+              </button>
+            </div>
+            <div></div>
+          </div>
+          <div className="group relative w-full overflow-hidden rounded-3xl border border-gray-200 bg-p2-white2 object-cover shadow-lg transition-transform duration-300 hover:shadow-2xl">
+            <div>
+              <button className="absolute left-2 top-2 z-50 rounded-full bg-blue-500 px-3 py-1 text-sm text-white">
+                Rare
+              </button>
+            </div>
+
+            <div className="relative">
+              <Link href="/card" className="mx-auto justify-center hover:drop-shadow-2xl">
+                <Image
+                  width={480}
+                  height={480}
+                  src="/HeroNFT/RaceLads/RaceLads1.png"
+                  alt="RaceLads"
+                  className="h-full w-full scale-105 object-cover transition-transform duration-500 ease-in-out group-hover:scale-100"
+                />
+              </Link>
+            </div>
+
+            <div className="w-full bg-p1-white p-4 text-p1-darkgreen transition-transform duration-500 ease-in-out group-hover:-translate-y-12">
+              <div className="flex items-center justify-between">
+                <div className="text-left text-xl font-bold text-gray-800">RaceLad</div>
+                <div className="text-left text-lg font-bold text-gray-800"># 8888</div>
+              </div>
+              <p className="mt-1 text-left text-xl text-gray-600">Total: 10.000</p>
+              <div className="">
+                <div className="mt-2 flex items-center justify-between">
+                  <div className="text-center">
+                    <p className="mt-1 text-left text-base text-gray-600 md:text-xl">
+                      Price:
+                      <Image
+                        className="relative mt-1 inline-block w-max"
+                        layout="intrinsic"
+                        width={24}
+                        height={24}
+                        src="/Logo/eth.png"
+                        alt="eth"
+                      />
+                      10
+                    </p>
+                  </div>
+                  <div className="text-center">
+                    <p className="mt-1 text-left text-base text-gray-600">
+                      <Image
+                        className="mt-1 inline-block w-max"
+                        width={18}
+                        height={18}
+                        src="/Logo/usd.png"
+                        alt="usd"
+                      />
+                      25.000
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="flex items-center justify-between">
+              <button className="absolute bottom-0 left-0 w-full translate-y-full border bg-p1-darkgreen bg-opacity-90 py-3 text-center text-xl text-p1-white transition-transform duration-500 ease-in-out hover:bg-p1-green group-hover:translate-y-0">
+                Buy
+              </button>
+            </div>
+          </div>
+          <div className="group relative w-full overflow-hidden rounded-3xl border border-gray-200 bg-white object-cover shadow-lg transition-transform duration-300 hover:shadow-2xl">
+            <div>
+              <button className="absolute left-2 top-2 z-50 rounded-full bg-blue-500 px-3 py-1 text-sm text-white">
+                Rare
+              </button>
+            </div>
+
+            <div className="relative">
+              <Link href="/card" className="mx-auto justify-center hover:drop-shadow-2xl">
+                <Image
+                  width={480}
+                  height={480}
+                  src="/HeroNFT/RaceLads/RaceLads1.png"
+                  alt="RaceLads"
+                  className="h-full w-full object-cover transition-transform duration-500 ease-in-out group-hover:scale-150"
+                />
+              </Link>
+            </div>
+
+            <div className="w-full bg-p1-white p-4 text-p1-darkgreen transition-transform duration-500 ease-in-out group-hover:-translate-y-12">
+              <div className="flex items-center justify-between">
+                <div className="text-left text-xl font-bold text-gray-800">RaceLad</div>
+                <div className="text-left text-lg font-bold text-gray-800"># 8888</div>
+              </div>
+              <p className="mt-1 text-left text-xl text-gray-600">Total: 10.000</p>
+              <div className="">
+                <div className="mt-2 flex items-center justify-between">
+                  <div className="text-center">
+                    <p className="mt-1 text-left text-base text-gray-600 md:text-xl">
+                      Price:
+                      <Image
+                        className="relative mt-1 inline-block w-max"
+                        layout="intrinsic"
+                        width={24}
+                        height={24}
+                        src="/Logo/eth.png"
+                        alt="eth"
+                      />
+                      10
+                    </p>
+                  </div>
+                  <div className="text-center">
+                    <p className="mt-1 text-left text-base text-gray-600">
+                      <Image
+                        className="mt-1 inline-block w-max"
+                        width={18}
+                        height={18}
+                        src="/Logo/usd.png"
+                        alt="usd"
+                      />
+                      25.000
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="flex items-center justify-between">
+              <button className="absolute bottom-0 left-0 w-full translate-y-full border bg-p1-darkgreen bg-opacity-90 py-3 text-center text-xl text-p1-white transition-transform duration-500 ease-in-out hover:bg-p1-green group-hover:translate-y-0">
+                Buy
+              </button>
+            </div>
+          </div>
+          <div className="group relative w-full overflow-hidden rounded-3xl border border-gray-200 bg-white object-cover shadow-lg transition-transform duration-300 hover:shadow-2xl">
+            <div>
+              <button className="absolute left-2 top-2 z-50 rounded-full bg-blue-500 px-3 py-1 text-sm text-white">
+                Rare
+              </button>
+            </div>
+
+            <div className="relative">
+              <Link href="/card" className="mx-auto justify-center hover:drop-shadow-2xl">
+                <Image
+                  width={480}
+                  height={480}
+                  src="/HeroNFT/RaceLads/RaceLads1.png"
+                  alt="RaceLads"
+                  className="h-full w-full object-cover transition-transform duration-500 ease-in-out group-hover:scale-150"
+                />
+              </Link>
+            </div>
+
+            <div className="w-full bg-p1-white p-4 text-p1-darkgreen transition-transform duration-500 ease-in-out group-hover:-translate-y-12">
+              <div className="flex items-center justify-between">
+                <div className="text-left text-xl font-bold text-gray-800">RaceLad</div>
+                <div className="text-left text-lg font-bold text-gray-800"># 8888</div>
+              </div>
+              <p className="mt-1 text-left text-xl text-gray-600">Total: 10.000</p>
+              <div className="">
+                <div className="mt-2 flex items-center justify-between">
+                  <div className="text-center">
+                    <p className="mt-1 text-left text-base text-gray-600 md:text-xl">
+                      Price:
+                      <Image
+                        className="relative mt-1 inline-block w-max"
+                        layout="intrinsic"
+                        width={24}
+                        height={24}
+                        src="/Logo/eth.png"
+                        alt="eth"
+                      />
+                      10
+                    </p>
+                  </div>
+                  <div className="text-center">
+                    <p className="mt-1 text-left text-base text-gray-600">
+                      <Image
+                        className="mt-1 inline-block w-max"
+                        width={18}
+                        height={18}
+                        src="/Logo/usd.png"
+                        alt="usd"
+                      />
+                      25.000
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="flex items-center justify-between">
+              <button className="absolute bottom-0 left-0 w-full translate-y-full border bg-p1-darkgreen bg-opacity-90 py-3 text-center text-xl text-p1-white transition-transform duration-500 ease-in-out hover:bg-p1-green group-hover:translate-y-0">
+                Buy
+              </button>
+            </div>
+          </div>
+          <div className="overflow-hidden rounded-lg bg-white shadow-md">
+            <Image
+              width={480}
+              height={480}
+              src="/HeroNFT/RaceLads/RaceLads1.png"
+              alt="RaceLad"
+              className="h-72 w-full object-cover transition-transform duration-300 group-hover:scale-100"
+            />
+            <div className="p-4">
+              <h3 className="text-lg font-semibold text-gray-800">Item #1</h3>
+              <p className="text-sm text-gray-500">Ξ 2.0</p>
+            </div>
+          </div>
+          <div className="overflow-hidden rounded-lg bg-white shadow-md">
+            <Image
+              width={480}
+              height={480}
+              src="/HeroNFT/RaceLads/RaceLads1.png"
+              alt="RaceLad"
+              className="h-72 w-full object-cover transition-transform duration-300 group-hover:scale-100"
+            />
+            <div className="p-4">
+              <h3 className="text-lg font-semibold text-gray-800">Item #2</h3>
+              <p className="text-sm text-gray-500">Ξ 3.5</p>
+            </div>
+          </div>
+          <div className="overflow-hidden rounded-lg bg-white shadow-md">
+            <Image
+              width={480}
+              height={480}
+              src="/HeroNFT/RaceLads/RaceLads1.png"
+              alt="RaceLad"
+              className="h-72 w-full object-cover transition-transform duration-300 group-hover:scale-100"
+            />
+            <div className="p-4">
+              <h3 className="text-lg font-semibold text-gray-800">Item #3</h3>
+              <p className="text-sm text-gray-500">Ξ 1.8</p>
+            </div>
+          </div>
+          <div className="overflow-hidden rounded-lg bg-white shadow-md">
+            <Image
+              width={480}
+              height={480}
+              src="/HeroNFT/RaceLads/RaceLads1.png"
+              alt="RaceLad"
+              className="h-72 w-full object-cover transition-transform duration-300 group-hover:scale-100"
+            />
+            <div className="p-4">
+              <h3 className="text-lg font-semibold text-gray-800">Item #4</h3>
+              <p className="text-sm text-gray-500">Ξ 2.2</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div className="pb-20"></div>
 
       <section className="relative h-[450px] bg-cover bg-center pt-8">
         <div className="absolute inset-0 bg-black bg-opacity-50"></div>
@@ -483,79 +776,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
-      <div className="group relative w-full overflow-hidden rounded-lg border border-gray-200 bg-white shadow-lg">
-        <div className="relative">
-          <Image
-            width={1000}
-            height={1000}
-            src="/background/bgsky.png"
-            alt="RaceLad"
-            className="h-96 w-full object-cover transition-transform duration-300 group-hover:scale-100"
-          />
-
-          <div className="mx-auto flex justify-end space-x-4 md:p-2 md:text-xl lg:text-2xl">
-            <div className="absolute right-60 top-2 space-x-2">
-              <Link
-                href="#"
-                className="inline-block place-content-center rounded-xl border-2 border-p1-darkgreen bg-p1-white p-2 text-center text-base text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p1-green hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
-              >
-                Все NFT
-              </Link>
-            </div>
-            <div className="absolute right-20 top-2 space-x-2">
-              <Link
-                href="#2"
-                className="inline-block place-content-center rounded-xl border-2 border-p1-darkgreen bg-p1-white p-2 text-center text-base text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p1-green hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
-              >
-                Мои NFT
-              </Link>
-            </div>
-            <div className="absolute right-2 top-2">
-              <Image
-                className="h-10 w-10 rounded-full p-1 ring-2 ring-p1-green dark:ring-p1-darkgreen"
-                width={8000}
-                height={8000}
-                src="/HeroNFT/RaceLads/RaceLads1.png"
-                alt="Bordered avatar"
-              />
-            </div>
-            <div className="absolute left-2 top-2 rounded-full bg-p1-darkgreen px-3 py-1 text-sm text-white">
-              Rare
-            </div>
-          </div>
-        </div>
-
-        <div className="p-4">
-          <h3 className="text-lg font-bold text-gray-800">RaceLad</h3>
-          <p className="mt-1 text-sm text-gray-600">Generative Collection by GAA</p>
-
-          <div className="mt-4 flex items-center justify-between">
-            <div className="text-center">
-              <p className="text-xs text-gray-500">Health</p>
-              <p className="font-semibold text-gray-800">43</p>
-            </div>
-            <div className="text-center">
-              <p className="text-xs text-gray-500">Speed</p>
-              <p className="font-semibold text-gray-800">61</p>
-            </div>
-            <div className="text-center">
-              <p className="text-xs text-gray-500">Skill</p>
-              <p className="font-semibold text-gray-800">57</p>
-            </div>
-            <div className="text-center">
-              <p className="text-xs text-gray-500">Morale</p>
-              <p className="font-semibold text-gray-800">52</p>
-            </div>
-          </div>
-        </div>
-
-        <div className="absolute bottom-0 left-0 w-full translate-y-full bg-gray-900 bg-opacity-90 py-3 text-center text-white transition-transform duration-300 group-hover:-translate-y-0">
-          <div className="absolute bottom-0 left-0 w-full translate-y-full bg-gray-900 bg-opacity-90 py-3 text-center text-white transition-transform duration-300 group-hover:translate-y-0">
-            Buy Now
-          </div>
-        </div>
-      </div>
 
       <div className="mx-auto mt-8 max-w-4xl rounded-lg bg-gray-100 p-6 shadow-md">
         <div className="flex items-center space-x-4">
@@ -683,13 +903,6 @@ export default function Home() {
                     />
                   </div>
                 </div>
-                <Image
-                  width={480}
-                  height={480}
-                  src="/background/bgroad.png"
-                  alt="bgroad"
-                  className="h-full w-full object-cover"
-                />
 
                 <div className="absolute inset-0 flex -translate-y-28 transform items-end justify-center opacity-0 transition-all duration-500 group-hover:translate-y-0 group-hover:opacity-100"></div>
               </div>
