@@ -97,7 +97,7 @@ export default function Home() {
                 />
               </Link>
             </div>
-            <div>
+            <div className="group relative inline-block">
               <Link href={'#'} className="mx-auto justify-center">
                 <Image
                   className="h-10 w-10 rounded-full p-1 ring-2 ring-p1-gray transition-all delay-75 duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:ring-p1-cyan dark:ring-p1-darkgreen"
@@ -106,6 +106,94 @@ export default function Home() {
                   src="/Logo/user.png"
                   alt="Bordered avatar"
                 />
+
+                <div className="invisible absolute left-1/2 mt-2 w-64 -translate-x-1/2 transform rounded bg-p1-cyan p-4 text-gray-800 opacity-0 shadow-lg transition-all duration-300 group-hover:visible group-hover:opacity-100">
+                  <div className="rounded-xl p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen">
+                    <Link href={'#'} className="mx-auto justify-center">
+                      <Image
+                        className="h-4 w-4"
+                        width={480}
+                        height={480}
+                        src="/Logo/cart.png"
+                        alt="Bordered avatar"
+                      />
+                      Profile
+                    </Link>
+                  </div>
+                  <div className="rounded-xl p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen">
+                    <Link href={'#'} className="mx-auto justify-center">
+                      <Image
+                        className="h-0 w-0"
+                        width={480}
+                        height={480}
+                        src="/Logo/cart.png"
+                        alt="Bordered avatar"
+                      />
+                      Watchlist
+                    </Link>
+                  </div>
+
+                  <div className="rounded-xl p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen">
+                    <Link href={'#'} className="mx-auto justify-center">
+                      <Image
+                        className="h-0 w-0"
+                        width={480}
+                        height={480}
+                        src="/Logo/cart.png"
+                        alt="Bordered avatar"
+                      />
+                      Deals
+                    </Link>
+                  </div>
+                  <div className="rounded-xl p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen">
+                    <Link href={'#'} className="mx-auto justify-center">
+                      <Image
+                        className="h-0 w-0"
+                        width={480}
+                        height={480}
+                        src="/Logo/cart.png"
+                        alt="Bordered avatar"
+                      />
+                      Settings
+                    </Link>
+                  </div>
+                  <div className="rounded-xl p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen">
+                    <Link href={'#'} className="mx-auto justify-center">
+                      <Image
+                        className="h-0 w-0"
+                        width={480}
+                        height={480}
+                        src="/Logo/cart.png"
+                        alt="Bordered avatar"
+                      />
+                      Dark mode
+                    </Link>
+                  </div>
+                  <div className="rounded-xl p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen">
+                    <Link href={'#'} className="mx-auto justify-center">
+                      <Image
+                        className="h-0 w-0"
+                        width={480}
+                        height={480}
+                        src="/Logo/cart.png"
+                        alt="Bordered avatar"
+                      />
+                      Language
+                    </Link>
+                  </div>
+                  <div className="rounded-xl p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen">
+                    <Link href={'#'} className="mx-auto justify-center">
+                      <Image
+                        className="h-0 w-0"
+                        width={480}
+                        height={480}
+                        src="/Logo/cart.png"
+                        alt="Bordered avatar"
+                      />
+                      Settings
+                    </Link>
+                  </div>
+                </div>
               </Link>
             </div>
             <div>
@@ -340,21 +428,17 @@ export default function Home() {
             <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-p1-green opacity-75"></span>
             <span className="relative inline-flex h-3 w-3 rounded-full bg-p1-green"></span>
           </span>
-          <div className="place-content-center text-xl text-p1-darkgreen hover:text-p1-cyan dark:text-p1-green">
+          <div className="place-content-center text-xl text-p1-darkgreen dark:text-p1-green">
             Live
           </div>
           <div className="flex grid-flow-row auto-rows-max justify-start space-x-2"></div>
           <div>
             <Link
               href="#"
-              className="place-self-center text-2xl text-p1-darkgreen hover:text-p1-cyan dark:text-p1-green"
+              className="place-self-center text-2xl text-p1-darkgreen dark:text-p1-green"
             >
               100 results{' '}
             </Link>
-            <Link
-              href="#"
-              className="hover:bg-p2-white rounded-sm p-1 transition-all delay-75 duration-300 ease-in-out hover:bg-opacity-50 hover:text-p1-deepdarkgreen"
-            ></Link>
           </div>
         </div>
 
@@ -420,15 +504,14 @@ export default function Home() {
       </div>
 
       <section className="mx-auto px-6 py-12">
-        <h2 className="mb-6 text-2xl font-bold text-gray-800">Items</h2>
+        <h2 className="mb-6 text-2xl font-bold text-p1-darkgreen dark:text-p1-green">Items</h2>
         <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6">
-          <div className="group relative w-full overflow-hidden rounded-xl border border-gray-200 bg-white object-cover shadow-lg transition-transform duration-300 hover:shadow-2xl">
+          <div className="group relative w-full overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-300 hover:shadow-2xl">
             <div>
-              <button className="absolute left-2 top-2 z-50 rounded-full bg-blue-500 px-3 py-1 text-sm text-white">
+              <button className="absolute left-2 top-2 z-50 rounded-br-lg rounded-tl-lg bg-blue-500 px-3 py-1 text-sm text-white">
                 Rare
               </button>
             </div>
-
             <div className="relative">
               <Link href="/card" className="mx-auto justify-center hover:drop-shadow-2xl">
                 <Image
@@ -441,16 +524,22 @@ export default function Home() {
               </Link>
             </div>
 
-            <div className="w-full bg-p1-white bg-opacity-10 p-4 text-p1-darkgreen transition-transform duration-500 ease-in-out group-hover:-translate-y-12">
+            <div className="w-full bg-p1-white bg-opacity-10 p-4 text-p1-darkgreen transition-transform duration-500 ease-in-out group-hover:-translate-y-12 group-hover:bg-opacity-50 dark:bg-p1-green dark:text-p1-white">
               <div className="flex items-center justify-between">
-                <div className="text-left text-xl font-bold text-gray-800">RaceLad</div>
-                <div className="text-left text-lg font-bold text-gray-800"># 8888</div>
+                <div className="text-left text-xl font-bold text-gray-800 dark:text-p1-white">
+                  RaceLad
+                </div>
+                <div className="text-left text-lg font-bold text-gray-800 dark:text-p1-white">
+                  # 8888
+                </div>
               </div>
-              <p className="mt-1 text-left text-xl text-gray-600">Total: 10.000</p>
+              <p className="mt-1 text-left text-xl text-gray-600 dark:text-p1-white">
+                Total: 10.000
+              </p>
               <div className="">
                 <div className="mt-2 flex items-center justify-between">
                   <div className="text-center">
-                    <p className="mt-1 text-left text-base text-gray-600 md:text-xl">
+                    <p className="mt-1 text-left text-base text-gray-600 md:text-xl dark:text-p1-white">
                       Price:
                       <Image
                         className="relative mt-1 inline-block w-max"
@@ -460,11 +549,11 @@ export default function Home() {
                         src="/Logo/eth.png"
                         alt="eth"
                       />
-                      10
+                      0.001
                     </p>
                   </div>
                   <div className="text-center">
-                    <p className="mt-1 text-left text-base text-gray-600">
+                    <p className="mt-1 text-left text-base text-gray-600 md:text-xl dark:text-p1-white">
                       <Image
                         className="mt-1 inline-block w-max"
                         width={18}
@@ -478,124 +567,68 @@ export default function Home() {
                 </div>
               </div>
             </div>
+
             <div className="flex items-center justify-between">
-              <button className="absolute bottom-0 left-0 w-full translate-y-full border bg-p1-darkgreen bg-opacity-100 py-3 text-center text-xl text-p2-white2 transition-transform duration-500 ease-in-out hover:bg-p1-green group-hover:translate-y-0">
-                <div
-                  className="inline-flex w-full justify-center rounded-md pt-5 shadow-sm"
-                  role="group"
-                >
+              <div className="absolute bottom-0 left-0 w-full translate-y-full bg-p1-darkgreen bg-opacity-100 text-center text-xl text-p2-white2 transition-transform duration-500 ease-in-out hover:bg-p1-darkgreen group-hover:translate-y-0">
+                <div className="inline-flex w-full justify-center" role="group">
                   <Link
                     href="#"
-                    className="inline-block w-full place-content-center rounded-l-xl border-2 bg-p1-white p-2 text-center text-base text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:border-p1-darkgreen hover:bg-p1-green hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                    className="inline-block w-4/5 place-content-center rounded-bl-xl border-2 border-p1-darkgreen bg-p1-darkgreen text-center text-xl font-semibold text-p1-white shadow-lg transition-all duration-300 ease-in-out hover:border-p1-cyan hover:bg-p1-darkgreen hover:text-2xl hover:text-p1-white focus:border-p1-cyan focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-white dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
                   >
                     Buy
                   </Link>
 
-                  <Link href={'#'} className="mx-auto justify-center">
+                  <Link
+                    href={'#'}
+                    className="mx-auto w-1/5 justify-center rounded-br-xl border-2 border-p1-green p-2 transition-all duration-300 ease-in-out hover:scale-105 hover:bg-p1-darkgreen hover:bg-opacity-50 focus:scale-90 focus:border-p1-cyan hover:focus:bg-p1-darkgreen dark:border-p1-green dark:bg-p1-deepdarkgreen dark:hover:bg-p1-deepdarkgreen dark:hover:focus:bg-p1-deepdarkgreen"
+                  >
                     <Image
-                      className="inline-block w-10 place-content-center px-2 ring-p1-green transition-all delay-75 duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50"
+                      className="inline-block h-10 w-10 place-content-center bg-p1-darkgreen p-1 dark:bg-p1-deepdarkgreen dark:hover:bg-p1-deepdarkgreen"
                       width={480}
                       height={480}
-                      src="/Logo/cart.png"
+                      src="/Logo/cart_white.png"
                       alt="Bordered avatar"
                     />
                   </Link>
                 </div>
-              </button>
+              </div>
             </div>
             <div></div>
           </div>
-          <div className="group relative w-full overflow-hidden rounded-3xl border border-gray-200 bg-p2-white2 object-cover shadow-lg transition-transform duration-300 hover:shadow-2xl">
+          <div className="group relative w-full overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-300 hover:shadow-2xl">
             <div>
-              <button className="absolute left-2 top-2 z-50 rounded-full bg-blue-500 px-3 py-1 text-sm text-white">
+              <button className="absolute left-2 top-2 z-50 rounded-br-lg rounded-tl-lg bg-blue-500 px-3 py-1 text-sm text-white">
                 Rare
               </button>
             </div>
-
             <div className="relative">
               <Link href="/card" className="mx-auto justify-center hover:drop-shadow-2xl">
                 <Image
                   width={480}
                   height={480}
-                  src="/HeroNFT/RaceLads/RaceLads1.png"
-                  alt="RaceLads"
-                  className="h-full w-full scale-105 object-cover transition-transform duration-500 ease-in-out group-hover:scale-100"
-                />
-              </Link>
-            </div>
-
-            <div className="w-full bg-p1-white p-4 text-p1-darkgreen transition-transform duration-500 ease-in-out group-hover:-translate-y-12">
-              <div className="flex items-center justify-between">
-                <div className="text-left text-xl font-bold text-gray-800">RaceLad</div>
-                <div className="text-left text-lg font-bold text-gray-800"># 8888</div>
-              </div>
-              <p className="mt-1 text-left text-xl text-gray-600">Total: 10.000</p>
-              <div className="">
-                <div className="mt-2 flex items-center justify-between">
-                  <div className="text-center">
-                    <p className="mt-1 text-left text-base text-gray-600 md:text-xl">
-                      Price:
-                      <Image
-                        className="relative mt-1 inline-block w-max"
-                        layout="intrinsic"
-                        width={24}
-                        height={24}
-                        src="/Logo/eth.png"
-                        alt="eth"
-                      />
-                      10
-                    </p>
-                  </div>
-                  <div className="text-center">
-                    <p className="mt-1 text-left text-base text-gray-600">
-                      <Image
-                        className="mt-1 inline-block w-max"
-                        width={18}
-                        height={18}
-                        src="/Logo/usd.png"
-                        alt="usd"
-                      />
-                      25.000
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="flex items-center justify-between">
-              <button className="absolute bottom-0 left-0 w-full translate-y-full border bg-p1-darkgreen bg-opacity-90 py-3 text-center text-xl text-p1-white transition-transform duration-500 ease-in-out hover:bg-p1-green group-hover:translate-y-0">
-                Buy
-              </button>
-            </div>
-          </div>
-          <div className="group relative w-full overflow-hidden rounded-3xl border border-gray-200 bg-white object-cover shadow-lg transition-transform duration-300 hover:shadow-2xl">
-            <div>
-              <button className="absolute left-2 top-2 z-50 rounded-full bg-blue-500 px-3 py-1 text-sm text-white">
-                Rare
-              </button>
-            </div>
-
-            <div className="relative">
-              <Link href="/card" className="mx-auto justify-center hover:drop-shadow-2xl">
-                <Image
-                  width={480}
-                  height={480}
-                  src="/HeroNFT/RaceLads/RaceLads1.png"
+                  src="/HeroNFT/RaceLads/RaceLads2.png"
                   alt="RaceLads"
                   className="h-full w-full object-cover transition-transform duration-500 ease-in-out group-hover:scale-150"
                 />
               </Link>
             </div>
 
-            <div className="w-full bg-p1-white p-4 text-p1-darkgreen transition-transform duration-500 ease-in-out group-hover:-translate-y-12">
+            <div className="w-full bg-p1-white bg-opacity-10 p-4 text-p1-darkgreen transition-transform duration-500 ease-in-out group-hover:-translate-y-12 group-hover:bg-opacity-50 dark:bg-p1-green dark:text-p1-white">
               <div className="flex items-center justify-between">
-                <div className="text-left text-xl font-bold text-gray-800">RaceLad</div>
-                <div className="text-left text-lg font-bold text-gray-800"># 8888</div>
+                <div className="text-left text-xl font-bold text-gray-800 dark:text-p1-white">
+                  RaceLad
+                </div>
+                <div className="text-left text-lg font-bold text-gray-800 dark:text-p1-white">
+                  # 8888
+                </div>
               </div>
-              <p className="mt-1 text-left text-xl text-gray-600">Total: 10.000</p>
+              <p className="mt-1 text-left text-xl text-gray-600 dark:text-p1-white">
+                Total: 10.000
+              </p>
               <div className="">
                 <div className="mt-2 flex items-center justify-between">
                   <div className="text-center">
-                    <p className="mt-1 text-left text-base text-gray-600 md:text-xl">
+                    <p className="mt-1 text-left text-base text-gray-600 md:text-xl dark:text-p1-white">
                       Price:
                       <Image
                         className="relative mt-1 inline-block w-max"
@@ -605,11 +638,11 @@ export default function Home() {
                         src="/Logo/eth.png"
                         alt="eth"
                       />
-                      10
+                      0.001
                     </p>
                   </div>
                   <div className="text-center">
-                    <p className="mt-1 text-left text-base text-gray-600">
+                    <p className="mt-1 text-left text-base text-gray-600 md:text-xl dark:text-p1-white">
                       <Image
                         className="mt-1 inline-block w-max"
                         width={18}
@@ -623,41 +656,67 @@ export default function Home() {
                 </div>
               </div>
             </div>
+
             <div className="flex items-center justify-between">
-              <button className="absolute bottom-0 left-0 w-full translate-y-full border bg-p1-darkgreen bg-opacity-90 py-3 text-center text-xl text-p1-white transition-transform duration-500 ease-in-out hover:bg-p1-green group-hover:translate-y-0">
-                Buy
-              </button>
+              <div className="absolute bottom-0 left-0 w-full translate-y-full bg-p1-darkgreen bg-opacity-100 text-center text-xl text-p2-white2 transition-transform duration-500 ease-in-out hover:bg-p1-darkgreen group-hover:translate-y-0">
+                <div className="inline-flex w-full justify-center" role="group">
+                  <Link
+                    href="#"
+                    className="inline-block w-4/5 place-content-center rounded-bl-xl border-2 border-p1-darkgreen bg-p1-darkgreen text-center text-xl font-semibold text-p1-white shadow-lg transition-all duration-300 ease-in-out hover:border-p1-cyan hover:bg-p1-darkgreen hover:text-2xl hover:text-p1-white focus:border-p1-cyan focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-white dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                  >
+                    Buy
+                  </Link>
+
+                  <Link
+                    href={'#'}
+                    className="mx-auto w-1/5 justify-center rounded-br-xl border-2 border-p1-green p-2 transition-all duration-300 ease-in-out hover:scale-105 hover:bg-p1-darkgreen hover:bg-opacity-50 focus:scale-90 focus:border-p1-cyan hover:focus:bg-p1-darkgreen dark:border-p1-green dark:bg-p1-deepdarkgreen dark:hover:bg-p1-deepdarkgreen dark:hover:focus:bg-p1-deepdarkgreen"
+                  >
+                    <Image
+                      className="inline-block h-10 w-10 place-content-center bg-p1-darkgreen p-1 dark:bg-p1-deepdarkgreen dark:hover:bg-p1-deepdarkgreen"
+                      width={480}
+                      height={480}
+                      src="/Logo/cart_white.png"
+                      alt="Bordered avatar"
+                    />
+                  </Link>
+                </div>
+              </div>
             </div>
           </div>
-          <div className="group relative w-full overflow-hidden rounded-3xl border border-gray-200 bg-white object-cover shadow-lg transition-transform duration-300 hover:shadow-2xl">
+          <div className="group relative w-full overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-300 hover:shadow-2xl">
             <div>
-              <button className="absolute left-2 top-2 z-50 rounded-full bg-blue-500 px-3 py-1 text-sm text-white">
+              <button className="absolute left-2 top-2 z-50 rounded-br-lg rounded-tl-lg bg-blue-500 px-3 py-1 text-sm text-white">
                 Rare
               </button>
             </div>
-
             <div className="relative">
               <Link href="/card" className="mx-auto justify-center hover:drop-shadow-2xl">
                 <Image
                   width={480}
                   height={480}
-                  src="/HeroNFT/RaceLads/RaceLads1.png"
+                  src="/HeroNFT/RaceLads/RaceLads3.png"
                   alt="RaceLads"
                   className="h-full w-full object-cover transition-transform duration-500 ease-in-out group-hover:scale-150"
                 />
               </Link>
             </div>
 
-            <div className="w-full bg-p1-white p-4 text-p1-darkgreen transition-transform duration-500 ease-in-out group-hover:-translate-y-12">
+            <div className="w-full bg-p1-white bg-opacity-10 p-4 text-p1-darkgreen transition-transform duration-500 ease-in-out group-hover:-translate-y-12 group-hover:bg-opacity-50 dark:bg-p1-green dark:text-p1-white">
               <div className="flex items-center justify-between">
-                <div className="text-left text-xl font-bold text-gray-800">RaceLad</div>
-                <div className="text-left text-lg font-bold text-gray-800"># 8888</div>
+                <div className="text-left text-xl font-bold text-gray-800 dark:text-p1-white">
+                  RaceLad
+                </div>
+                <div className="text-left text-lg font-bold text-gray-800 dark:text-p1-white">
+                  # 8888
+                </div>
               </div>
-              <p className="mt-1 text-left text-xl text-gray-600">Total: 10.000</p>
+              <p className="mt-1 text-left text-xl text-gray-600 dark:text-p1-white">
+                Total: 10.000
+              </p>
               <div className="">
                 <div className="mt-2 flex items-center justify-between">
                   <div className="text-center">
-                    <p className="mt-1 text-left text-base text-gray-600 md:text-xl">
+                    <p className="mt-1 text-left text-base text-gray-600 md:text-xl dark:text-p1-white">
                       Price:
                       <Image
                         className="relative mt-1 inline-block w-max"
@@ -667,11 +726,11 @@ export default function Home() {
                         src="/Logo/eth.png"
                         alt="eth"
                       />
-                      10
+                      0.001
                     </p>
                   </div>
                   <div className="text-center">
-                    <p className="mt-1 text-left text-base text-gray-600">
+                    <p className="mt-1 text-left text-base text-gray-600 md:text-xl dark:text-p1-white">
                       <Image
                         className="mt-1 inline-block w-max"
                         width={18}
@@ -685,62 +744,471 @@ export default function Home() {
                 </div>
               </div>
             </div>
+
             <div className="flex items-center justify-between">
-              <button className="absolute bottom-0 left-0 w-full translate-y-full border bg-p1-darkgreen bg-opacity-90 py-3 text-center text-xl text-p1-white transition-transform duration-500 ease-in-out hover:bg-p1-green group-hover:translate-y-0">
-                Buy
+              <div className="absolute bottom-0 left-0 w-full translate-y-full bg-p1-darkgreen bg-opacity-100 text-center text-xl text-p2-white2 transition-transform duration-500 ease-in-out hover:bg-p1-darkgreen group-hover:translate-y-0">
+                <div className="inline-flex w-full justify-center" role="group">
+                  <Link
+                    href="#"
+                    className="inline-block w-4/5 place-content-center rounded-bl-xl border-2 border-p1-darkgreen bg-p1-darkgreen text-center text-xl font-semibold text-p1-white shadow-lg transition-all duration-300 ease-in-out hover:border-p1-cyan hover:bg-p1-darkgreen hover:text-2xl hover:text-p1-white focus:border-p1-cyan focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-white dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                  >
+                    Buy
+                  </Link>
+
+                  <Link
+                    href={'#'}
+                    className="mx-auto w-1/5 justify-center rounded-br-xl border-2 border-p1-green p-2 transition-all duration-300 ease-in-out hover:scale-105 hover:bg-p1-darkgreen hover:bg-opacity-50 focus:scale-90 focus:border-p1-cyan hover:focus:bg-p1-darkgreen dark:border-p1-green dark:bg-p1-deepdarkgreen dark:hover:bg-p1-deepdarkgreen dark:hover:focus:bg-p1-deepdarkgreen"
+                  >
+                    <Image
+                      className="inline-block h-10 w-10 place-content-center bg-p1-darkgreen p-1 dark:bg-p1-deepdarkgreen dark:hover:bg-p1-deepdarkgreen"
+                      width={480}
+                      height={480}
+                      src="/Logo/cart_white.png"
+                      alt="Bordered avatar"
+                    />
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="group relative w-full overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-300 hover:shadow-2xl">
+            <div>
+              <button className="absolute left-2 top-2 z-50 rounded-br-lg rounded-tl-lg bg-blue-500 px-3 py-1 text-sm text-white">
+                Rare
               </button>
             </div>
-          </div>
-          <div className="overflow-hidden rounded-lg bg-white shadow-md">
-            <Image
-              width={480}
-              height={480}
-              src="/HeroNFT/RaceLads/RaceLads1.png"
-              alt="RaceLad"
-              className="h-72 w-full object-cover transition-transform duration-300 group-hover:scale-100"
-            />
-            <div className="p-4">
-              <h3 className="text-lg font-semibold text-gray-800">Item #1</h3>
-              <p className="text-sm text-gray-500">Ξ 2.0</p>
+            <div className="relative">
+              <Link href="/card" className="mx-auto justify-center hover:drop-shadow-2xl">
+                <Image
+                  width={480}
+                  height={480}
+                  src="/HeroNFT/RaceLads/RaceLads4.png"
+                  alt="RaceLads"
+                  className="h-full w-full object-cover transition-transform duration-500 ease-in-out group-hover:scale-150"
+                />
+              </Link>
+            </div>
+
+            <div className="w-full bg-p1-white bg-opacity-10 p-4 text-p1-darkgreen transition-transform duration-500 ease-in-out group-hover:-translate-y-12 group-hover:bg-opacity-50 dark:bg-p1-green dark:text-p1-white">
+              <div className="flex items-center justify-between">
+                <div className="text-left text-xl font-bold text-gray-800 dark:text-p1-white">
+                  RaceLad
+                </div>
+                <div className="text-left text-lg font-bold text-gray-800 dark:text-p1-white">
+                  # 8888
+                </div>
+              </div>
+              <p className="mt-1 text-left text-xl text-gray-600 dark:text-p1-white">
+                Total: 10.000
+              </p>
+              <div className="">
+                <div className="mt-2 flex items-center justify-between">
+                  <div className="text-center">
+                    <p className="mt-1 text-left text-base text-gray-600 md:text-xl dark:text-p1-white">
+                      Price:
+                      <Image
+                        className="relative mt-1 inline-block w-max"
+                        layout="intrinsic"
+                        width={24}
+                        height={24}
+                        src="/Logo/eth.png"
+                        alt="eth"
+                      />
+                      0.001
+                    </p>
+                  </div>
+                  <div className="text-center">
+                    <p className="mt-1 text-left text-base text-gray-600 md:text-xl dark:text-p1-white">
+                      <Image
+                        className="mt-1 inline-block w-max"
+                        width={18}
+                        height={18}
+                        src="/Logo/usd.png"
+                        alt="usd"
+                      />
+                      25.000
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="flex items-center justify-between">
+              <div className="absolute bottom-0 left-0 w-full translate-y-full bg-p1-darkgreen bg-opacity-100 text-center text-xl text-p2-white2 transition-transform duration-500 ease-in-out hover:bg-p1-darkgreen group-hover:translate-y-0">
+                <div className="inline-flex w-full justify-center" role="group">
+                  <Link
+                    href="#"
+                    className="inline-block w-4/5 place-content-center rounded-bl-xl border-2 border-p1-darkgreen bg-p1-darkgreen text-center text-xl font-semibold text-p1-white shadow-lg transition-all duration-300 ease-in-out hover:border-p1-cyan hover:bg-p1-darkgreen hover:text-2xl hover:text-p1-white focus:border-p1-cyan focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-white dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                  >
+                    Buy
+                  </Link>
+
+                  <Link
+                    href={'#'}
+                    className="mx-auto w-1/5 justify-center rounded-br-xl border-2 border-p1-green p-2 transition-all duration-300 ease-in-out hover:scale-105 hover:bg-p1-darkgreen hover:bg-opacity-50 focus:scale-90 focus:border-p1-cyan hover:focus:bg-p1-darkgreen dark:border-p1-green dark:bg-p1-deepdarkgreen dark:hover:bg-p1-deepdarkgreen dark:hover:focus:bg-p1-deepdarkgreen"
+                  >
+                    <Image
+                      className="inline-block h-10 w-10 place-content-center bg-p1-darkgreen p-1 dark:bg-p1-deepdarkgreen dark:hover:bg-p1-deepdarkgreen"
+                      width={480}
+                      height={480}
+                      src="/Logo/cart_white.png"
+                      alt="Bordered avatar"
+                    />
+                  </Link>
+                </div>
+              </div>
             </div>
           </div>
-          <div className="overflow-hidden rounded-lg bg-white shadow-md">
-            <Image
-              width={480}
-              height={480}
-              src="/HeroNFT/RaceLads/RaceLads1.png"
-              alt="RaceLad"
-              className="h-72 w-full object-cover transition-transform duration-300 group-hover:scale-100"
-            />
-            <div className="p-4">
-              <h3 className="text-lg font-semibold text-gray-800">Item #2</h3>
-              <p className="text-sm text-gray-500">Ξ 3.5</p>
+          <div className="group relative w-full overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-300 hover:shadow-2xl">
+            <div>
+              <button className="absolute left-2 top-2 z-50 rounded-br-lg rounded-tl-lg bg-blue-500 px-3 py-1 text-sm text-white">
+                Rare
+              </button>
+            </div>
+            <div className="relative">
+              <Link href="/card" className="mx-auto justify-center hover:drop-shadow-2xl">
+                <Image
+                  width={480}
+                  height={480}
+                  src="/HeroNFT/Drivers/Driver4.png"
+                  alt="Drivers"
+                  className="h-full w-full object-cover transition-transform duration-500 ease-in-out group-hover:scale-150"
+                />
+              </Link>
+            </div>
+
+            <div className="w-full bg-p1-white bg-opacity-10 p-4 text-p1-darkgreen transition-transform duration-500 ease-in-out group-hover:-translate-y-12 group-hover:bg-opacity-50 dark:bg-p1-green dark:text-p1-white">
+              <div className="flex items-center justify-between">
+                <div className="text-left text-xl font-bold text-gray-800 dark:text-p1-white">
+                  Drivers
+                </div>
+                <div className="text-left text-lg font-bold text-gray-800 dark:text-p1-white">
+                  # 8888
+                </div>
+              </div>
+              <p className="mt-1 text-left text-xl text-gray-600 dark:text-p1-white">
+                Total: 10.000
+              </p>
+              <div className="">
+                <div className="mt-2 flex items-center justify-between">
+                  <div className="text-center">
+                    <p className="mt-1 text-left text-base text-gray-600 md:text-xl dark:text-p1-white">
+                      Price:
+                      <Image
+                        className="relative mt-1 inline-block w-max"
+                        layout="intrinsic"
+                        width={24}
+                        height={24}
+                        src="/Logo/eth.png"
+                        alt="eth"
+                      />
+                      0.001
+                    </p>
+                  </div>
+                  <div className="text-center">
+                    <p className="mt-1 text-left text-base text-gray-600 md:text-xl dark:text-p1-white">
+                      <Image
+                        className="mt-1 inline-block w-max"
+                        width={18}
+                        height={18}
+                        src="/Logo/usd.png"
+                        alt="usd"
+                      />
+                      25.000
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="flex items-center justify-between">
+              <div className="absolute bottom-0 left-0 w-full translate-y-full bg-p1-darkgreen bg-opacity-100 text-center text-xl text-p2-white2 transition-transform duration-500 ease-in-out hover:bg-p1-darkgreen group-hover:translate-y-0">
+                <div className="inline-flex w-full justify-center" role="group">
+                  <Link
+                    href="#"
+                    className="inline-block w-4/5 place-content-center rounded-bl-xl border-2 border-p1-darkgreen bg-p1-darkgreen text-center text-xl font-semibold text-p1-white shadow-lg transition-all duration-300 ease-in-out hover:border-p1-cyan hover:bg-p1-darkgreen hover:text-2xl hover:text-p1-white focus:border-p1-cyan focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-white dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                  >
+                    Buy
+                  </Link>
+
+                  <Link
+                    href={'#'}
+                    className="mx-auto w-1/5 justify-center rounded-br-xl border-2 border-p1-green p-2 transition-all duration-300 ease-in-out hover:scale-105 hover:bg-p1-darkgreen hover:bg-opacity-50 focus:scale-90 focus:border-p1-cyan hover:focus:bg-p1-darkgreen dark:border-p1-green dark:bg-p1-deepdarkgreen dark:hover:bg-p1-deepdarkgreen dark:hover:focus:bg-p1-deepdarkgreen"
+                  >
+                    <Image
+                      className="inline-block h-10 w-10 place-content-center bg-p1-darkgreen p-1 dark:bg-p1-deepdarkgreen dark:hover:bg-p1-deepdarkgreen"
+                      width={480}
+                      height={480}
+                      src="/Logo/cart_white.png"
+                      alt="Bordered avatar"
+                    />
+                  </Link>
+                </div>
+              </div>
             </div>
           </div>
-          <div className="overflow-hidden rounded-lg bg-white shadow-md">
-            <Image
-              width={480}
-              height={480}
-              src="/HeroNFT/RaceLads/RaceLads1.png"
-              alt="RaceLad"
-              className="h-72 w-full object-cover transition-transform duration-300 group-hover:scale-100"
-            />
-            <div className="p-4">
-              <h3 className="text-lg font-semibold text-gray-800">Item #3</h3>
-              <p className="text-sm text-gray-500">Ξ 1.8</p>
+          <div className="group relative w-full overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-300 hover:shadow-2xl">
+            <div>
+              <button className="absolute left-2 top-2 z-50 rounded-br-lg rounded-tl-lg bg-blue-500 px-3 py-1 text-sm text-white">
+                Rare
+              </button>
+            </div>
+            <div className="relative">
+              <Link href="/card" className="mx-auto justify-center hover:drop-shadow-2xl">
+                <Image
+                  width={480}
+                  height={480}
+                  src="/HeroNFT/Drivers/Driver3.png"
+                  alt="Drivers"
+                  className="h-full w-full object-cover transition-transform duration-500 ease-in-out group-hover:scale-150"
+                />
+              </Link>
+            </div>
+
+            <div className="w-full bg-p1-white bg-opacity-10 p-4 text-p1-darkgreen transition-transform duration-500 ease-in-out group-hover:-translate-y-12 group-hover:bg-opacity-50 dark:bg-p1-green dark:text-p1-white">
+              <div className="flex items-center justify-between">
+                <div className="text-left text-xl font-bold text-gray-800 dark:text-p1-white">
+                  Drivers
+                </div>
+                <div className="text-left text-lg font-bold text-gray-800 dark:text-p1-white">
+                  # 8888
+                </div>
+              </div>
+              <p className="mt-1 text-left text-xl text-gray-600 dark:text-p1-white">
+                Total: 10.000
+              </p>
+              <div className="">
+                <div className="mt-2 flex items-center justify-between">
+                  <div className="text-center">
+                    <p className="mt-1 text-left text-base text-gray-600 md:text-xl dark:text-p1-white">
+                      Price:
+                      <Image
+                        className="relative mt-1 inline-block w-max"
+                        layout="intrinsic"
+                        width={24}
+                        height={24}
+                        src="/Logo/eth.png"
+                        alt="eth"
+                      />
+                      0.001
+                    </p>
+                  </div>
+                  <div className="text-center">
+                    <p className="mt-1 text-left text-base text-gray-600 md:text-xl dark:text-p1-white">
+                      <Image
+                        className="mt-1 inline-block w-max"
+                        width={18}
+                        height={18}
+                        src="/Logo/usd.png"
+                        alt="usd"
+                      />
+                      25.000
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="flex items-center justify-between">
+              <div className="absolute bottom-0 left-0 w-full translate-y-full bg-p1-darkgreen bg-opacity-100 text-center text-xl text-p2-white2 transition-transform duration-500 ease-in-out hover:bg-p1-darkgreen group-hover:translate-y-0">
+                <div className="inline-flex w-full justify-center" role="group">
+                  <Link
+                    href="#"
+                    className="inline-block w-4/5 place-content-center rounded-bl-xl border-2 border-p1-darkgreen bg-p1-darkgreen text-center text-xl font-semibold text-p1-white shadow-lg transition-all duration-300 ease-in-out hover:border-p1-cyan hover:bg-p1-darkgreen hover:text-2xl hover:text-p1-white focus:border-p1-cyan focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-white dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                  >
+                    Buy
+                  </Link>
+
+                  <Link
+                    href={'#'}
+                    className="mx-auto w-1/5 justify-center rounded-br-xl border-2 border-p1-green p-2 transition-all duration-300 ease-in-out hover:scale-105 hover:bg-p1-darkgreen hover:bg-opacity-50 focus:scale-90 focus:border-p1-cyan hover:focus:bg-p1-darkgreen dark:border-p1-green dark:bg-p1-deepdarkgreen dark:hover:bg-p1-deepdarkgreen dark:hover:focus:bg-p1-deepdarkgreen"
+                  >
+                    <Image
+                      className="inline-block h-10 w-10 place-content-center bg-p1-darkgreen p-1 dark:bg-p1-deepdarkgreen dark:hover:bg-p1-deepdarkgreen"
+                      width={480}
+                      height={480}
+                      src="/Logo/cart_white.png"
+                      alt="Bordered avatar"
+                    />
+                  </Link>
+                </div>
+              </div>
             </div>
           </div>
-          <div className="overflow-hidden rounded-lg bg-white shadow-md">
-            <Image
-              width={480}
-              height={480}
-              src="/HeroNFT/RaceLads/RaceLads1.png"
-              alt="RaceLad"
-              className="h-72 w-full object-cover transition-transform duration-300 group-hover:scale-100"
-            />
-            <div className="p-4">
-              <h3 className="text-lg font-semibold text-gray-800">Item #4</h3>
-              <p className="text-sm text-gray-500">Ξ 2.2</p>
+          <div className="group relative w-full overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-300 hover:shadow-2xl">
+            <div>
+              <button className="absolute left-2 top-2 z-50 rounded-br-lg rounded-tl-lg bg-blue-500 px-3 py-1 text-sm text-white">
+                Rare
+              </button>
+            </div>
+            <div className="relative">
+              <Link href="/card" className="mx-auto justify-center hover:drop-shadow-2xl">
+                <Image
+                  width={480}
+                  height={480}
+                  src="/HeroNFT/Drivers/Driver2.png"
+                  alt="Drivers"
+                  className="h-full w-full object-cover transition-transform duration-500 ease-in-out group-hover:scale-150"
+                />
+              </Link>
+            </div>
+
+            <div className="w-full bg-p1-white bg-opacity-10 p-4 text-p1-darkgreen transition-transform duration-500 ease-in-out group-hover:-translate-y-12 group-hover:bg-opacity-50 dark:bg-p1-green dark:text-p1-white">
+              <div className="flex items-center justify-between">
+                <div className="text-left text-xl font-bold text-gray-800 dark:text-p1-white">
+                  Drivers
+                </div>
+                <div className="text-left text-lg font-bold text-gray-800 dark:text-p1-white">
+                  # 8888
+                </div>
+              </div>
+              <p className="mt-1 text-left text-xl text-gray-600 dark:text-p1-white">
+                Total: 10.000
+              </p>
+              <div className="">
+                <div className="mt-2 flex items-center justify-between">
+                  <div className="text-center">
+                    <p className="mt-1 text-left text-base text-gray-600 md:text-xl dark:text-p1-white">
+                      Price:
+                      <Image
+                        className="relative mt-1 inline-block w-max"
+                        layout="intrinsic"
+                        width={24}
+                        height={24}
+                        src="/Logo/eth.png"
+                        alt="eth"
+                      />
+                      0.001
+                    </p>
+                  </div>
+                  <div className="text-center">
+                    <p className="mt-1 text-left text-base text-gray-600 md:text-xl dark:text-p1-white">
+                      <Image
+                        className="mt-1 inline-block w-max"
+                        width={18}
+                        height={18}
+                        src="/Logo/usd.png"
+                        alt="usd"
+                      />
+                      25.000
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="flex items-center justify-between">
+              <div className="absolute bottom-0 left-0 w-full translate-y-full bg-p1-darkgreen bg-opacity-100 text-center text-xl text-p2-white2 transition-transform duration-500 ease-in-out hover:bg-p1-darkgreen group-hover:translate-y-0">
+                <div className="inline-flex w-full justify-center" role="group">
+                  <Link
+                    href="#"
+                    className="inline-block w-4/5 place-content-center rounded-bl-xl border-2 border-p1-darkgreen bg-p1-darkgreen text-center text-xl font-semibold text-p1-white shadow-lg transition-all duration-300 ease-in-out hover:border-p1-cyan hover:bg-p1-darkgreen hover:text-2xl hover:text-p1-white focus:border-p1-cyan focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-white dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                  >
+                    Buy
+                  </Link>
+
+                  <Link
+                    href={'#'}
+                    className="mx-auto w-1/5 justify-center rounded-br-xl border-2 border-p1-green p-2 transition-all duration-300 ease-in-out hover:scale-105 hover:bg-p1-darkgreen hover:bg-opacity-50 focus:scale-90 focus:border-p1-cyan hover:focus:bg-p1-darkgreen dark:border-p1-green dark:bg-p1-deepdarkgreen dark:hover:bg-p1-deepdarkgreen dark:hover:focus:bg-p1-deepdarkgreen"
+                  >
+                    <Image
+                      className="inline-block h-10 w-10 place-content-center bg-p1-darkgreen p-1 dark:bg-p1-deepdarkgreen dark:hover:bg-p1-deepdarkgreen"
+                      width={480}
+                      height={480}
+                      src="/Logo/cart_white.png"
+                      alt="Bordered avatar"
+                    />
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="group relative w-full overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-300 hover:shadow-2xl">
+            <div>
+              <button className="absolute left-2 top-2 z-50 rounded-br-lg rounded-tl-lg bg-blue-500 px-3 py-1 text-sm text-white">
+                Rare
+              </button>
+            </div>
+            <div className="relative">
+              <Link href="/card" className="mx-auto justify-center hover:drop-shadow-2xl">
+                <Image
+                  width={480}
+                  height={480}
+                  src="/HeroNFT/Drivers/Driver1.png"
+                  alt="Drivers"
+                  className="h-full w-full object-cover transition-transform duration-500 ease-in-out group-hover:scale-150"
+                />
+              </Link>
+            </div>
+
+            <div className="w-full bg-p1-white bg-opacity-10 p-4 text-p1-darkgreen transition-transform duration-500 ease-in-out group-hover:-translate-y-12 group-hover:bg-opacity-50 dark:bg-p1-green dark:text-p1-white">
+              <div className="flex items-center justify-between">
+                <div className="text-left text-xl font-bold text-gray-800 dark:text-p1-white">
+                  Drivers
+                </div>
+                <div className="text-left text-lg font-bold text-gray-800 dark:text-p1-white">
+                  # 8888
+                </div>
+              </div>
+              <p className="mt-1 text-left text-xl text-gray-600 dark:text-p1-white">
+                Total: 10.000
+              </p>
+              <div className="">
+                <div className="mt-2 flex items-center justify-between">
+                  <div className="text-center">
+                    <p className="mt-1 text-left text-base text-gray-600 md:text-xl dark:text-p1-white">
+                      Price:
+                      <Image
+                        className="relative mt-1 inline-block w-max"
+                        layout="intrinsic"
+                        width={24}
+                        height={24}
+                        src="/Logo/eth.png"
+                        alt="eth"
+                      />
+                      0.001
+                    </p>
+                  </div>
+                  <div className="text-center">
+                    <p className="mt-1 text-left text-base text-gray-600 md:text-xl dark:text-p1-white">
+                      <Image
+                        className="mt-1 inline-block w-max"
+                        width={18}
+                        height={18}
+                        src="/Logo/usd.png"
+                        alt="usd"
+                      />
+                      25.000
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="flex items-center justify-between">
+              <div className="absolute bottom-0 left-0 w-full translate-y-full bg-p1-darkgreen bg-opacity-100 text-center text-xl text-p2-white2 transition-transform duration-500 ease-in-out hover:bg-p1-darkgreen group-hover:translate-y-0">
+                <div className="inline-flex w-full justify-center" role="group">
+                  <Link
+                    href="#"
+                    className="inline-block w-4/5 place-content-center rounded-bl-xl border-2 border-p1-darkgreen bg-p1-darkgreen text-center text-xl font-semibold text-p1-white shadow-lg transition-all duration-300 ease-in-out hover:border-p1-cyan hover:bg-p1-darkgreen hover:text-2xl hover:text-p1-white focus:border-p1-cyan focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-white dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                  >
+                    Buy
+                  </Link>
+
+                  <Link
+                    href={'#'}
+                    className="mx-auto w-1/5 justify-center rounded-br-xl border-2 border-p1-green p-2 transition-all duration-300 ease-in-out hover:scale-105 hover:bg-p1-darkgreen hover:bg-opacity-50 focus:scale-90 focus:border-p1-cyan hover:focus:bg-p1-darkgreen dark:border-p1-green dark:bg-p1-deepdarkgreen dark:hover:bg-p1-deepdarkgreen dark:hover:focus:bg-p1-deepdarkgreen"
+                  >
+                    <Image
+                      className="inline-block h-10 w-10 place-content-center bg-p1-darkgreen p-1 dark:bg-p1-deepdarkgreen dark:hover:bg-p1-deepdarkgreen"
+                      width={480}
+                      height={480}
+                      src="/Logo/cart_white.png"
+                      alt="Bordered avatar"
+                    />
+                  </Link>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -777,405 +1245,261 @@ export default function Home() {
         </div>
       </section>
 
-      <div className="mx-auto mt-8 max-w-4xl rounded-lg bg-gray-100 p-6 shadow-md">
-        <div className="flex items-center space-x-4">
-          <Image
-            width={480}
-            height={480}
-            src="/HeroNFT/RaceLads/RaceLads1.png"
-            alt="RaceLad"
-            className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-100"
-          />
-          <div>
-            <h2 className="text-2xl font-bold text-gray-800">RaceLads Elementals</h2>
-            <p className="text-gray-600">
-              Discover the magic of RaceLads Elementals, blending art and creativity in a stunning
-              NFT collection.
-            </p>
+      <div className="px-6 pt-2 text-left text-3xl font-semibold text-p1-darkgreen dark:text-p1-green">
+        Коллекции
+      </div>
+      <div className="flex flex-row space-x-4 overflow-x-auto px-4">
+        <div className="mx-auto mt-8 w-max space-x-4 rounded-lg bg-gray-100 p-6 shadow-md">
+          <div className="flex w-full items-center space-x-4">
+            <Image
+              width={480}
+              height={480}
+              src="/HeroNFT/RaceLads/RaceLads1.png"
+              alt="RaceLad"
+              className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-100"
+            />
+            <div>
+              <h2 className="text-2xl font-bold text-gray-800">RaceLads Elementals</h2>
+              <p className="text-gray-600">
+                Discover the magic of RaceLads Elementals, blending art and creativity in a stunning
+                NFT collection.
+              </p>
+            </div>
+          </div>
+          <div className="mt-4 flex w-max items-center justify-between space-x-6">
+            <div>
+              <p className="text-sm text-gray-500">Floor Price</p>
+              <p className="text-lg font-semibold text-gray-800">Ξ 1.2</p>
+            </div>
+            <div>
+              <p className="text-sm text-gray-500">Total Volume</p>
+              <p className="text-lg font-semibold text-gray-800">Ξ 25K</p>
+            </div>
+            <div>
+              <p className="text-sm text-gray-500">Items</p>
+              <p className="text-lg font-semibold text-gray-800">10,000</p>
+            </div>
+            <button className="rounded-md bg-blue-600 px-4 py-2 text-white hover:bg-blue-700">
+              Explore Collection
+            </button>
           </div>
         </div>
-        <div className="mt-4 flex items-center justify-between">
-          <div>
-            <p className="text-sm text-gray-500">Floor Price</p>
-            <p className="text-lg font-semibold text-gray-800">Ξ 1.2</p>
+        <div className="mx-auto mt-8 w-max space-x-4 rounded-lg bg-gray-100 p-6 shadow-md">
+          <div className="flex w-full items-center space-x-4">
+            <Image
+              width={480}
+              height={480}
+              src="/HeroNFT/Drivers/Driver4.png"
+              alt="Driver4"
+              className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-100"
+            />
+            <div>
+              <h2 className="text-2xl font-bold text-gray-800">Drivers Elementals</h2>
+              <p className="text-gray-600">
+                Discover the magic of RaceLads Elementals, blending art and creativity in a stunning
+                NFT collection.
+              </p>
+            </div>
           </div>
-          <div>
-            <p className="text-sm text-gray-500">Total Volume</p>
-            <p className="text-lg font-semibold text-gray-800">Ξ 25K</p>
+          <div className="mt-4 flex w-max items-center justify-between space-x-6">
+            <div>
+              <p className="text-sm text-gray-500">Floor Price</p>
+              <p className="text-lg font-semibold text-gray-800">Ξ 1.2</p>
+            </div>
+            <div>
+              <p className="text-sm text-gray-500">Total Volume</p>
+              <p className="text-lg font-semibold text-gray-800">Ξ 25K</p>
+            </div>
+            <div>
+              <p className="text-sm text-gray-500">Items</p>
+              <p className="text-lg font-semibold text-gray-800">10,000</p>
+            </div>
+            <button className="rounded-md bg-blue-600 px-4 py-2 text-white hover:bg-blue-700">
+              Explore Collection
+            </button>
           </div>
-          <div>
-            <p className="text-sm text-gray-500">Items</p>
-            <p className="text-lg font-semibold text-gray-800">10,000</p>
+        </div>
+        <div className="mx-auto mt-8 w-max space-x-4 rounded-lg bg-gray-100 p-6 shadow-md">
+          <div className="flex w-full items-center space-x-4">
+            <Image
+              width={480}
+              height={480}
+              src="/HeroNFT/Collectors/Collector1.png"
+              alt="Collector1"
+              className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-100"
+            />
+            <div>
+              <h2 className="text-2xl font-bold text-gray-800">Collectors Elementals</h2>
+              <p className="text-gray-600">
+                Discover the magic of RaceLads Elementals, blending art and creativity in a stunning
+                NFT collection.
+              </p>
+            </div>
           </div>
-          <button className="rounded-md bg-blue-600 px-4 py-2 text-white hover:bg-blue-700">
-            Explore Collection
-          </button>
+          <div className="mt-4 flex w-max items-center justify-between space-x-6">
+            <div>
+              <p className="text-sm text-gray-500">Floor Price</p>
+              <p className="text-lg font-semibold text-gray-800">Ξ 1.2</p>
+            </div>
+            <div>
+              <p className="text-sm text-gray-500">Total Volume</p>
+              <p className="text-lg font-semibold text-gray-800">Ξ 25K</p>
+            </div>
+            <div>
+              <p className="text-sm text-gray-500">Items</p>
+              <p className="text-lg font-semibold text-gray-800">10,000</p>
+            </div>
+            <button className="rounded-md bg-blue-600 px-4 py-2 text-white hover:bg-blue-700">
+              Explore Collection
+            </button>
+          </div>
+        </div>
+        <div className="mx-auto mt-8 w-max space-x-4 rounded-lg bg-gray-100 p-6 shadow-md">
+          <div className="flex w-full items-center space-x-4">
+            <Image
+              width={480}
+              height={480}
+              src="/Cars/Car.png"
+              alt="Car"
+              className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-100"
+            />
+            <div>
+              <h2 className="text-2xl font-bold text-gray-800">Cars Elementals</h2>
+              <p className="text-gray-600">
+                Discover the magic of RaceLads Elementals, blending art and creativity in a stunning
+                NFT collection.
+              </p>
+            </div>
+          </div>
+          <div className="mt-4 flex w-max items-center justify-between space-x-6">
+            <div>
+              <p className="text-sm text-gray-500">Floor Price</p>
+              <p className="text-lg font-semibold text-gray-800">Ξ 1.2</p>
+            </div>
+            <div>
+              <p className="text-sm text-gray-500">Total Volume</p>
+              <p className="text-lg font-semibold text-gray-800">Ξ 25K</p>
+            </div>
+            <div>
+              <p className="text-sm text-gray-500">Items</p>
+              <p className="text-lg font-semibold text-gray-800">10,000</p>
+            </div>
+            <button className="rounded-md bg-blue-600 px-4 py-2 text-white hover:bg-blue-700">
+              Explore Collection
+            </button>
+          </div>
+        </div>
+        <div className="mx-auto mt-8 w-max space-x-4 rounded-lg bg-gray-100 p-6 shadow-md">
+          <div className="flex w-full items-center space-x-4">
+            <Image
+              width={480}
+              height={480}
+              src="/HeroNFT/CustomLads/CustomLads1.png"
+              alt="CustomLads1"
+              className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-100"
+            />
+            <div>
+              <h2 className="text-2xl font-bold text-gray-800">CustomLads Elementals</h2>
+              <p className="text-gray-600">
+                Discover the magic of RaceLads Elementals, blending art and creativity in a stunning
+                NFT collection.
+              </p>
+            </div>
+          </div>
+          <div className="mt-4 flex w-max items-center justify-between space-x-6">
+            <div>
+              <p className="text-sm text-gray-500">Floor Price</p>
+              <p className="text-lg font-semibold text-gray-800">Ξ 1.2</p>
+            </div>
+            <div>
+              <p className="text-sm text-gray-500">Total Volume</p>
+              <p className="text-lg font-semibold text-gray-800">Ξ 25K</p>
+            </div>
+            <div>
+              <p className="text-sm text-gray-500">Items</p>
+              <p className="text-lg font-semibold text-gray-800">10,000</p>
+            </div>
+            <button className="rounded-md bg-blue-600 px-4 py-2 text-white hover:bg-blue-700">
+              Explore Collection
+            </button>
+          </div>
+        </div>
+        <div className="mx-auto mt-8 w-max space-x-4 rounded-lg bg-gray-100 p-6 shadow-md">
+          <div className="flex w-full items-center space-x-4">
+            <Image
+              width={480}
+              height={480}
+              src="/Hero/Rewards.png"
+              alt="Rewards"
+              className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-100"
+            />
+            <div>
+              <h2 className="text-2xl font-bold text-gray-800">Awards Elementals</h2>
+              <p className="text-gray-600">
+                Discover the magic of RaceLads Elementals, blending art and creativity in a stunning
+                NFT collection.
+              </p>
+            </div>
+          </div>
+          <div className="mt-4 flex w-max items-center justify-between space-x-6">
+            <div>
+              <p className="text-sm text-gray-500">Floor Price</p>
+              <p className="text-lg font-semibold text-gray-800">Ξ 1.2</p>
+            </div>
+            <div>
+              <p className="text-sm text-gray-500">Total Volume</p>
+              <p className="text-lg font-semibold text-gray-800">Ξ 25K</p>
+            </div>
+            <div>
+              <p className="text-sm text-gray-500">Items</p>
+              <p className="text-lg font-semibold text-gray-800">10,000</p>
+            </div>
+            <button className="rounded-md bg-blue-600 px-4 py-2 text-white hover:bg-blue-700">
+              Explore Collection
+            </button>
+          </div>
+        </div>
+        <div className="mx-auto mt-8 w-max space-x-4 rounded-lg bg-gray-100 p-6 shadow-md">
+          <div className="flex w-full items-center space-x-4">
+            <Image
+              width={480}
+              height={480}
+              src="/Licenses/Global Lic.png"
+              alt="GlobalLic"
+              className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-100"
+            />
+            <div>
+              <h2 className="text-2xl font-bold text-gray-800">Licenses Elementals</h2>
+              <p className="text-gray-600">
+                Discover the magic of RaceLads Elementals, blending art and creativity in a stunning
+                NFT collection.
+              </p>
+            </div>
+          </div>
+          <div className="mt-4 flex w-max items-center justify-between space-x-6">
+            <div>
+              <p className="text-sm text-gray-500">Floor Price</p>
+              <p className="text-lg font-semibold text-gray-800">Ξ 1.2</p>
+            </div>
+            <div>
+              <p className="text-sm text-gray-500">Total Volume</p>
+              <p className="text-lg font-semibold text-gray-800">Ξ 25K</p>
+            </div>
+            <div>
+              <p className="text-sm text-gray-500">Items</p>
+              <p className="text-lg font-semibold text-gray-800">10,000</p>
+            </div>
+            <button className="rounded-md bg-blue-600 px-4 py-2 text-white hover:bg-blue-700">
+              Explore Collection
+            </button>
+          </div>
         </div>
       </div>
 
-      <section className="container mx-auto px-6 py-12">
-        <h2 className="mb-6 text-2xl font-bold text-gray-800">Items</h2>
-        <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
-          <div className="overflow-hidden rounded-lg bg-white shadow-md">
-            <Image
-              width={480}
-              height={480}
-              src="/HeroNFT/RaceLads/RaceLads1.png"
-              alt="RaceLad"
-              className="h-72 w-full object-cover transition-transform duration-300 group-hover:scale-100"
-            />
-            <div className="p-4">
-              <h3 className="text-lg font-semibold text-gray-800">Item #1</h3>
-              <p className="text-sm text-gray-500">Ξ 2.0</p>
-            </div>
-          </div>
-          <div className="overflow-hidden rounded-lg bg-white shadow-md">
-            <Image
-              width={480}
-              height={480}
-              src="/HeroNFT/RaceLads/RaceLads1.png"
-              alt="RaceLad"
-              className="h-72 w-full object-cover transition-transform duration-300 group-hover:scale-100"
-            />
-            <div className="p-4">
-              <h3 className="text-lg font-semibold text-gray-800">Item #2</h3>
-              <p className="text-sm text-gray-500">Ξ 3.5</p>
-            </div>
-          </div>
-          <div className="overflow-hidden rounded-lg bg-white shadow-md">
-            <Image
-              width={480}
-              height={480}
-              src="/HeroNFT/RaceLads/RaceLads1.png"
-              alt="RaceLad"
-              className="h-72 w-full object-cover transition-transform duration-300 group-hover:scale-100"
-            />
-            <div className="p-4">
-              <h3 className="text-lg font-semibold text-gray-800">Item #3</h3>
-              <p className="text-sm text-gray-500">Ξ 1.8</p>
-            </div>
-          </div>
-          <div className="overflow-hidden rounded-lg bg-white shadow-md">
-            <Image
-              width={480}
-              height={480}
-              src="/HeroNFT/RaceLads/RaceLads1.png"
-              alt="RaceLad"
-              className="h-72 w-full object-cover transition-transform duration-300 group-hover:scale-100"
-            />
-            <div className="p-4">
-              <h3 className="text-lg font-semibold text-gray-800">Item #4</h3>
-              <p className="text-sm text-gray-500">Ξ 2.2</p>
-            </div>
-          </div>
-        </div>
-      </section>
-
       <div className="flex flex-wrap object-left md:flex-nowrap md:space-x-2 md:pt-5">
-        <div className="mb-4 rounded-3xl border-p1-darkgreen bg-p1-white shadow-lg md:border-4 dark:border-p1-green dark:bg-p1-deepdarkgreen">
-          <div className="scale-95 duration-500">
-            <Link href={'#'} className="mx-auto justify-center">
-              <div className="relative h-96 w-full justify-self-center overflow-hidden rounded-xl border border-gray-300">
-                <div className="mx-auto flex justify-end space-x-4 md:p-2 md:text-xl lg:text-2xl">
-                  <div>
-                    <Link
-                      href="#"
-                      className="inline-block place-content-center rounded-xl border-2 border-p1-darkgreen bg-p1-white p-2 text-center text-base text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p1-green hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
-                    >
-                      Все NFT
-                    </Link>
-                  </div>
-                  <div className="space-x-2">
-                    <Link
-                      href="#2"
-                      className="inline-block place-content-center rounded-xl border-2 border-p1-darkgreen bg-p1-white p-2 text-center text-base text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p1-green hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
-                    >
-                      Мои NFT
-                    </Link>
-                  </div>
-                  <div>
-                    <Image
-                      className="h-10 w-10 rounded-full p-1 ring-2 ring-p1-green dark:ring-p1-darkgreen"
-                      width={480}
-                      height={480}
-                      src="/HeroNFT/RaceLads/RaceLads1.png"
-                      alt="Bordered avatar"
-                    />
-                  </div>
-                </div>
-
-                <div className="absolute inset-0 flex -translate-y-28 transform items-end justify-center opacity-0 transition-all duration-500 group-hover:translate-y-0 group-hover:opacity-100"></div>
-              </div>
-            </Link>
-          </div>
-
+        <div className="mb-4 bg-p1-white shadow-lg dark:bg-p1-deepdarkgreen">
           <div className="text-centre flex flex-row">
             <div className="place-content-center p-2 text-center text-p1-darkgreen md:text-xl lg:text-2xl dark:text-p1-cyan">
-              <div className="mt-2 rounded-3xl border-2 bg-p2-white2 p-2 text-p1-darkgreen dark:bg-p1-deepdarkgreen dark:text-p1-green">
-                <div className="px-2 text-xl font-semibold md:pt-2 md:text-3xl">
-                  <div className="pt-2 text-left">Коллекции</div>
-
-                  <div className="mt-2 grid grid-cols-8 place-items-center gap-2 space-x-2 p-4 text-base md:text-xl">
-                    <div className="basis-3/5 scale-95 duration-500">
-                      <Link href={'#'} className="mx-auto justify-center">
-                        <div className="group relative h-52 w-52 justify-self-center overflow-hidden rounded-3xl border border-gray-300">
-                          <h5 className="mb-2 text-2xl font-bold tracking-tight dark:text-p1-green">
-                            RaceLads
-                          </h5>
-                          <Image
-                            width={480}
-                            height={480}
-                            src="/HeroNFT/RaceLads/RaceLads1.png"
-                            alt="RaceLads1"
-                            className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-125"
-                          />
-
-                          <div className="absolute inset-0 flex -translate-y-28 transform items-end justify-center opacity-0 transition-all duration-500 group-hover:translate-y-0 group-hover:opacity-100"></div>
-                        </div>
-                      </Link>
-                    </div>
-                    <div className="basis-3/5 scale-95 duration-500">
-                      <Link href={'#'} className="mx-auto justify-center">
-                        <div className="group relative h-52 w-52 justify-self-center overflow-hidden rounded-3xl border border-gray-300">
-                          <h5 className="mb-2 text-2xl font-bold tracking-tight dark:text-p1-green">
-                            Drivers
-                          </h5>
-                          <Image
-                            width={480}
-                            height={480}
-                            src="/HeroNFT/Drivers/Driver4.png"
-                            alt="Driver4"
-                            className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-125"
-                          />
-
-                          <div className="absolute inset-0 flex -translate-y-28 transform items-end justify-center opacity-0 transition-all duration-500 group-hover:translate-y-0 group-hover:opacity-100"></div>
-                        </div>
-                      </Link>
-                    </div>
-                    <div className="basis-3/5 scale-95 duration-500">
-                      <Link href={'#'} className="mx-auto justify-center">
-                        <div className="group relative h-52 w-52 justify-self-center overflow-hidden rounded-3xl border border-gray-300">
-                          <h5 className="mb-2 text-2xl font-bold tracking-tight dark:text-p1-green">
-                            Team&apos;s Members
-                          </h5>
-                          <Image
-                            width={480}
-                            height={480}
-                            src="/HeroNFT/Team's members/TeamMember1.png"
-                            alt="TeamMember1"
-                            className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-125"
-                          />
-
-                          <div className="absolute inset-0 flex -translate-y-28 transform items-end justify-center opacity-0 transition-all duration-500 group-hover:translate-y-0 group-hover:opacity-100"></div>
-                        </div>
-                      </Link>
-                    </div>
-                    <div className="basis-3/5 scale-95 duration-500">
-                      <Link href={'#'} className="mx-auto justify-center">
-                        <div className="group relative h-52 w-52 justify-self-center overflow-hidden rounded-3xl border border-gray-300">
-                          <h5 className="mb-2 text-2xl font-bold tracking-tight dark:text-p1-green">
-                            Collectors
-                          </h5>
-                          <Image
-                            width={480}
-                            height={480}
-                            src="/HeroNFT/Collectors/Collector1.png"
-                            alt="Collector1"
-                            className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-125"
-                          />
-
-                          <div className="absolute inset-0 flex -translate-y-28 transform items-end justify-center opacity-0 transition-all duration-500 group-hover:translate-y-0 group-hover:opacity-100"></div>
-                        </div>
-                      </Link>
-                    </div>
-                    <div className="basis-3/5 scale-95 duration-500">
-                      <Link href={'#'} className="mx-auto justify-center">
-                        <div className="group relative h-52 w-52 justify-self-center overflow-hidden rounded-3xl border border-gray-300">
-                          <h5 className="mb-2 text-2xl font-bold tracking-tight dark:text-p1-green">
-                            Cars
-                          </h5>
-                          <Image
-                            width={480}
-                            height={480}
-                            src="/Cars/Car.png"
-                            alt="Car"
-                            className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-125"
-                          />
-
-                          <div className="absolute inset-0 flex -translate-y-28 transform items-end justify-center opacity-0 transition-all duration-500 group-hover:translate-y-0 group-hover:opacity-100"></div>
-                        </div>
-                      </Link>
-                    </div>
-                    <div className="basis-3/5 scale-95 duration-500">
-                      <Link href={'#'} className="mx-auto justify-center">
-                        <div className="group relative h-52 w-52 justify-self-center overflow-hidden rounded-3xl border border-gray-300">
-                          <h5 className="mb-2 text-2xl font-bold tracking-tight dark:text-p1-green">
-                            CustomLads
-                          </h5>
-                          <Image
-                            width={480}
-                            height={480}
-                            src="/HeroNFT/CustomLads/CustomLads1.png"
-                            alt="CustomLads1"
-                            className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-125"
-                          />
-
-                          <div className="absolute inset-0 flex -translate-y-28 transform items-end justify-center opacity-0 transition-all duration-500 group-hover:translate-y-0 group-hover:opacity-100"></div>
-                        </div>
-                      </Link>
-                    </div>
-                    <div className="basis-3/5 scale-95 duration-500">
-                      <Link href={'#'} className="mx-auto justify-center">
-                        <div className="group relative h-52 w-52 justify-self-center overflow-hidden rounded-3xl border border-gray-300">
-                          <h5 className="mb-2 text-2xl font-bold tracking-tight dark:text-p1-green">
-                            Awards NFT
-                          </h5>
-                          <Image
-                            width={480}
-                            height={480}
-                            src="/Hero/Rewards.png"
-                            alt="Rewards"
-                            className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-125"
-                          />
-
-                          <div className="absolute inset-0 flex -translate-y-28 transform items-end justify-center opacity-0 transition-all duration-500 group-hover:translate-y-0 group-hover:opacity-100"></div>
-                        </div>
-                      </Link>
-                    </div>
-                    <div className="basis-3/5 scale-95 duration-500">
-                      <Link href={'#'} className="mx-auto justify-center">
-                        <div className="group relative h-52 w-52 justify-self-center overflow-hidden rounded-3xl border border-gray-300">
-                          <h5 className="mb-2 text-2xl font-bold tracking-tight dark:text-p1-green">
-                            Лицензии
-                          </h5>
-                          <Image
-                            width={480}
-                            height={480}
-                            src="/Licenses/Promoter Lic.png"
-                            alt="PromoterLic"
-                            className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-125"
-                          />
-
-                          <div className="absolute inset-0 flex -translate-y-28 transform items-end justify-center opacity-0 transition-all duration-500 group-hover:translate-y-0 group-hover:opacity-100"></div>
-                        </div>
-                      </Link>
-                    </div>
-                  </div>
-
-                  <div className="mt-2 grid grid-cols-1 gap-2 space-x-2 p-4 text-base text-gray-900 sm:grid-cols-2 md:text-xl lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5">
-                    <div className="group relative h-52 w-52 justify-self-center overflow-hidden rounded-3xl border border-gray-300">
-                      <Image
-                        width={480}
-                        height={480}
-                        src="/HeroNFT/RaceLads/RaceLads1.png"
-                        alt="Пример изображения"
-                        className="h-full w-full object-cover transition-transform duration-300 group-hover:scale-110"
-                      />
-
-                      <div className="absolute inset-0 flex translate-y-4 transform items-end justify-center opacity-0 transition-all duration-500 group-hover:translate-y-0 group-hover:opacity-100">
-                        <ul className="w-full rounded-lg bg-white p-2 text-center shadow-lg">
-                          <li>
-                            <button className="w-full rounded px-4 py-2 text-gray-700 hover:bg-gray-100">
-                              Функция 1
-                            </button>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-
-                    <div className="group relative w-52 overflow-hidden rounded-lg border border-gray-200 bg-white shadow-lg">
-                      <div className="relative">
-                        <Image
-                          width={480}
-                          height={480}
-                          src="/HeroNFT/RaceLads/RaceLads1.png"
-                          alt="RaceLad"
-                          className="h-52 w-52 object-cover transition-transform duration-300 group-hover:scale-105"
-                        />
-                        <div className="absolute left-2 top-2 rounded-full bg-p1-darkgreen px-3 py-1 text-sm text-white">
-                          Rare
-                        </div>
-                      </div>
-
-                      <div className="p-4">
-                        <h3 className="text-lg font-bold text-gray-800">RaceLad</h3>
-                        <p className="mt-1 text-sm text-gray-600">Generative Collection by GAA</p>
-
-                        <div className="mt-4 flex items-center justify-between">
-                          <div className="text-center">
-                            <p className="text-xs text-gray-500">Health</p>
-                            <p className="font-semibold text-gray-800">43</p>
-                          </div>
-                          <div className="text-center">
-                            <p className="text-xs text-gray-500">Speed</p>
-                            <p className="font-semibold text-gray-800">61</p>
-                          </div>
-                          <div className="text-center">
-                            <p className="text-xs text-gray-500">Skill</p>
-                            <p className="font-semibold text-gray-800">57</p>
-                          </div>
-                          <div className="text-center">
-                            <p className="text-xs text-gray-500">Morale</p>
-                            <p className="font-semibold text-gray-800">52</p>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div className="absolute bottom-0 left-0 w-full translate-y-full bg-gray-900 bg-opacity-90 py-3 text-center text-white transition-transform duration-300 group-hover:-translate-y-0">
-                        <div className="absolute bottom-0 left-0 w-full translate-y-full bg-gray-900 bg-opacity-90 py-3 text-center text-white transition-transform duration-300 group-hover:translate-y-0">
-                          Buy Now
-                        </div>
-                      </div>
-                    </div>
-
-                    <div className="group relative w-80 overflow-hidden rounded-lg border border-gray-200 bg-white shadow-lg">
-                      <div className="relative">
-                        <Image
-                          width={480}
-                          height={480}
-                          src="/HeroNFT/RaceLads/RaceLads1.png"
-                          alt="Axie"
-                          className="h-40 w-full object-cover transition-transform duration-300 group-hover:scale-105"
-                        />
-                        <div className="absolute left-2 top-2 rounded-full bg-blue-500 px-3 py-1 text-sm text-white">
-                          Rare
-                        </div>
-                      </div>
-
-                      <div className="p-4">
-                        <h3 className="text-lg font-bold text-gray-800">Axie Name</h3>
-                        <p className="mt-1 text-sm text-gray-600">
-                          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        </p>
-
-                        <div className="mt-4 flex items-center justify-between">
-                          <div className="text-center">
-                            <p className="text-xs text-gray-500">Health</p>
-                            <p className="font-semibold text-gray-800">43</p>
-                          </div>
-                          <div className="text-center">
-                            <p className="text-xs text-gray-500">Speed</p>
-                            <p className="font-semibold text-gray-800">61</p>
-                          </div>
-                          <div className="text-center">
-                            <p className="text-xs text-gray-500">Skill</p>
-                            <p className="font-semibold text-gray-800">57</p>
-                          </div>
-                          <div className="text-center">
-                            <p className="text-xs text-gray-500">Morale</p>
-                            <p className="font-semibold text-gray-800">52</p>
-                          </div>
-                        </div>
-                      </div>
-
-                      <div className="absolute bottom-0 left-0 w-full translate-y-full bg-gray-900 bg-opacity-90 py-3 text-center text-white transition-transform duration-300 group-hover:translate-y-0">
-                        <p className="text-sm">View Details</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
               <div className="mt-2 rounded-3xl border-2 bg-p2-white2 p-2 text-p1-darkgreen dark:border-p1-darkgreen dark:bg-p1-deepdarkgreen dark:text-p1-green">
                 <div className="flex flex-wrap justify-center self-center md:flex-nowrap md:justify-between">
                   <div className="px-2 text-xl font-semibold md:pt-2 md:text-3xl">Статистика</div>
@@ -1598,155 +1922,739 @@ export default function Home() {
                     </Link>
                   </div>
                   <div className="pt-2 text-left">RaceLads</div>
-                  <div className="mt-2 grid grid-cols-5 place-items-center gap-2 space-x-2 p-4 text-base md:text-xl">
-                    <div className="group relative w-80 overflow-hidden rounded-3xl border border-gray-200 bg-white shadow-lg hover:shadow-2xl">
-                      <div>
-                        <button className="absolute left-2 top-2 z-50 rounded-full bg-blue-500 px-3 py-1 text-sm text-white">
-                          Rare
-                        </button>
-                      </div>
 
-                      <div className="relative">
-                        <Link href="/card" className="mx-auto justify-center hover:drop-shadow-2xl">
-                          <Image
-                            width={480}
-                            height={480}
-                            src="/HeroNFT/RaceLads/RaceLads1.png"
-                            alt="RaceLads"
-                            className="h-full w-full object-cover transition-transform duration-500 ease-in-out group-hover:scale-150"
-                          />
-                        </Link>
-                      </div>
-
-                      <div className="w-full bg-p1-white p-4 text-p1-darkgreen transition-transform duration-500 ease-in-out group-hover:-translate-y-12">
-                        <div className="flex items-center justify-between">
-                          <div className="text-left text-xl font-bold text-gray-800">RaceLad</div>
-                          <div className="text-left text-lg font-bold text-gray-800"># 8888</div>
+                  <section className="mx-auto py-12">
+                    <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5">
+                      <div className="group relative w-full overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-300 hover:shadow-2xl">
+                        <div>
+                          <button className="absolute left-2 top-2 z-50 rounded-br-lg rounded-tl-lg bg-blue-500 px-3 py-1 text-sm text-white">
+                            Rare
+                          </button>
                         </div>
-                        <p className="mt-1 text-left text-xl text-gray-600">Total: 10.000</p>
-                        <div className="">
-                          <div className="mt-2 flex items-center justify-between">
-                            <div className="text-center">
-                              <p className="mt-1 text-left text-base text-gray-600 md:text-xl">
-                                Price:
-                                <Image
-                                  className="relative mt-1 inline-block w-max"
-                                  layout="intrinsic"
-                                  width={24}
-                                  height={24}
-                                  src="/Logo/eth.png"
-                                  alt="eth"
-                                />
-                                10
-                              </p>
+                        <div className="relative">
+                          <Link
+                            href="/card"
+                            className="mx-auto justify-center hover:drop-shadow-2xl"
+                          >
+                            <Image
+                              width={480}
+                              height={480}
+                              src="/HeroNFT/RaceLads/RaceLads1.png"
+                              alt="RaceLads"
+                              className="h-full w-full object-cover transition-transform duration-500 ease-in-out group-hover:scale-150"
+                            />
+                          </Link>
+                        </div>
+
+                        <div className="w-full bg-p1-white bg-opacity-10 p-4 text-p1-darkgreen transition-transform duration-500 ease-in-out group-hover:-translate-y-12 group-hover:bg-opacity-50 dark:bg-p1-green dark:text-p1-white">
+                          <div className="flex items-center justify-between">
+                            <div className="text-left text-xl font-bold text-gray-800 dark:text-p1-white">
+                              RaceLad
                             </div>
-                            <div className="text-center">
-                              <p className="mt-1 text-left text-base text-gray-600">
+                            <div className="text-left text-lg font-bold text-gray-800 dark:text-p1-white">
+                              # 8888
+                            </div>
+                          </div>
+                          <p className="mt-1 text-left text-xl text-gray-600 dark:text-p1-white">
+                            Total: 10.000
+                          </p>
+                          <div className="">
+                            <div className="mt-2 flex items-center justify-between">
+                              <div className="text-center">
+                                <p className="mt-1 text-left text-base text-gray-600 md:text-xl dark:text-p1-white">
+                                  Price:
+                                  <Image
+                                    className="relative mt-1 inline-block w-max"
+                                    layout="intrinsic"
+                                    width={24}
+                                    height={24}
+                                    src="/Logo/eth.png"
+                                    alt="eth"
+                                  />
+                                  0.001
+                                </p>
+                              </div>
+                              <div className="text-center">
+                                <p className="mt-1 text-left text-base text-gray-600 md:text-xl dark:text-p1-white">
+                                  <Image
+                                    className="mt-1 inline-block w-max"
+                                    width={18}
+                                    height={18}
+                                    src="/Logo/usd.png"
+                                    alt="usd"
+                                  />
+                                  25.000
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className="flex items-center justify-between">
+                          <div className="absolute bottom-0 left-0 w-full translate-y-full bg-p1-darkgreen bg-opacity-100 text-center text-xl text-p2-white2 transition-transform duration-500 ease-in-out hover:bg-p1-darkgreen group-hover:translate-y-0">
+                            <div className="inline-flex w-full justify-center" role="group">
+                              <Link
+                                href="#"
+                                className="inline-block w-4/5 place-content-center rounded-bl-xl border-2 border-p1-darkgreen bg-p1-darkgreen text-center text-xl font-semibold text-p1-white shadow-lg transition-all duration-300 ease-in-out hover:border-p1-cyan hover:bg-p1-darkgreen hover:text-2xl hover:text-p1-white focus:border-p1-cyan focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-white dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                              >
+                                Buy
+                              </Link>
+
+                              <Link
+                                href={'#'}
+                                className="mx-auto w-1/5 justify-center rounded-br-xl border-2 border-p1-green p-2 transition-all duration-300 ease-in-out hover:scale-105 hover:bg-p1-darkgreen hover:bg-opacity-50 focus:scale-90 focus:border-p1-cyan hover:focus:bg-p1-darkgreen dark:border-p1-green dark:bg-p1-deepdarkgreen dark:hover:bg-p1-deepdarkgreen dark:hover:focus:bg-p1-deepdarkgreen"
+                              >
                                 <Image
-                                  className="mt-1 inline-block w-max"
-                                  width={18}
-                                  height={18}
-                                  src="/Logo/usd.png"
-                                  alt="usd"
+                                  className="inline-block h-10 w-10 place-content-center bg-p1-darkgreen p-1 dark:bg-p1-deepdarkgreen dark:hover:bg-p1-deepdarkgreen"
+                                  width={480}
+                                  height={480}
+                                  src="/Logo/cart_white.png"
+                                  alt="Bordered avatar"
                                 />
-                                25.000
-                              </p>
+                              </Link>
                             </div>
                           </div>
                         </div>
                       </div>
-                      <div className="flex items-center justify-between">
-                        <button className="absolute bottom-0 left-0 w-full translate-y-full border bg-p1-darkgreen bg-opacity-90 py-3 text-center text-xl text-p1-white transition-transform duration-500 ease-in-out hover:bg-p1-green group-hover:translate-y-0">
-                          Buy
-                        </button>
-                      </div>
-                    </div>
-
-                    <div className="group relative w-80 overflow-hidden rounded-3xl border border-gray-200 bg-white shadow-lg hover:shadow-2xl">
-                      <div>
-                        <button className="absolute left-2 top-2 z-50 rounded-full bg-blue-500 px-3 py-1 text-sm text-white">
-                          Rare
-                        </button>
-                      </div>
-
-                      <div className="relative">
-                        <Link href="/card" className="mx-auto justify-center hover:drop-shadow-2xl">
-                          <Image
-                            width={480}
-                            height={480}
-                            src="/HeroNFT/RaceLads/RaceLads1.png"
-                            alt="RaceLads"
-                            className="h-full w-full object-cover transition-transform duration-500 ease-in-out group-hover:scale-150"
-                          />
-                        </Link>
-                      </div>
-
-                      <div className="w-full bg-p1-white p-4 text-p1-darkgreen transition-transform duration-500 ease-in-out group-hover:-translate-y-12">
-                        <div className="flex items-center justify-between">
-                          <div className="text-left text-xl font-bold text-gray-800">RaceLad</div>
-                          <div className="text-left text-lg font-bold text-gray-800"># 8888</div>
+                      <div className="group relative w-full overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-300 hover:shadow-2xl">
+                        <div>
+                          <button className="absolute left-2 top-2 z-50 rounded-br-lg rounded-tl-lg bg-blue-500 px-3 py-1 text-sm text-white">
+                            Rare
+                          </button>
                         </div>
-                        <p className="mt-1 text-left text-xl text-gray-600">Total: 10.000</p>
-                        <div className="">
-                          <div className="mt-2 flex items-center justify-between">
-                            <div className="text-center">
-                              <p className="mt-1 text-left text-base text-gray-600 md:text-xl">
-                                Price:
-                                <Image
-                                  className="relative mt-1 inline-block w-max"
-                                  layout="intrinsic"
-                                  width={24}
-                                  height={24}
-                                  src="/Logo/eth.png"
-                                  alt="eth"
-                                />
-                                10
-                              </p>
+                        <div className="relative">
+                          <Link
+                            href="/card"
+                            className="mx-auto justify-center hover:drop-shadow-2xl"
+                          >
+                            <Image
+                              width={480}
+                              height={480}
+                              src="/HeroNFT/RaceLads/RaceLads2.png"
+                              alt="RaceLads"
+                              className="h-full w-full object-cover transition-transform duration-500 ease-in-out group-hover:scale-150"
+                            />
+                          </Link>
+                        </div>
+
+                        <div className="w-full bg-p1-white bg-opacity-10 p-4 text-p1-darkgreen transition-transform duration-500 ease-in-out group-hover:-translate-y-12 group-hover:bg-opacity-50 dark:bg-p1-green dark:text-p1-white">
+                          <div className="flex items-center justify-between">
+                            <div className="text-left text-xl font-bold text-gray-800 dark:text-p1-white">
+                              RaceLad
                             </div>
-                            <div className="text-center">
-                              <p className="mt-1 text-left text-base text-gray-600">
+                            <div className="text-left text-lg font-bold text-gray-800 dark:text-p1-white">
+                              # 8888
+                            </div>
+                          </div>
+                          <p className="mt-1 text-left text-xl text-gray-600 dark:text-p1-white">
+                            Total: 10.000
+                          </p>
+                          <div className="">
+                            <div className="mt-2 flex items-center justify-between">
+                              <div className="text-center">
+                                <p className="mt-1 text-left text-base text-gray-600 md:text-xl dark:text-p1-white">
+                                  Price:
+                                  <Image
+                                    className="relative mt-1 inline-block w-max"
+                                    layout="intrinsic"
+                                    width={24}
+                                    height={24}
+                                    src="/Logo/eth.png"
+                                    alt="eth"
+                                  />
+                                  0.001
+                                </p>
+                              </div>
+                              <div className="text-center">
+                                <p className="mt-1 text-left text-base text-gray-600 md:text-xl dark:text-p1-white">
+                                  <Image
+                                    className="mt-1 inline-block w-max"
+                                    width={18}
+                                    height={18}
+                                    src="/Logo/usd.png"
+                                    alt="usd"
+                                  />
+                                  25.000
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className="flex items-center justify-between">
+                          <div className="absolute bottom-0 left-0 w-full translate-y-full bg-p1-darkgreen bg-opacity-100 text-center text-xl text-p2-white2 transition-transform duration-500 ease-in-out hover:bg-p1-darkgreen group-hover:translate-y-0">
+                            <div className="inline-flex w-full justify-center" role="group">
+                              <Link
+                                href="#"
+                                className="inline-block w-4/5 place-content-center rounded-bl-xl border-2 border-p1-darkgreen bg-p1-darkgreen text-center text-xl font-semibold text-p1-white shadow-lg transition-all duration-300 ease-in-out hover:border-p1-cyan hover:bg-p1-darkgreen hover:text-2xl hover:text-p1-white focus:border-p1-cyan focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-white dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                              >
+                                Buy
+                              </Link>
+
+                              <Link
+                                href={'#'}
+                                className="mx-auto w-1/5 justify-center rounded-br-xl border-2 border-p1-green p-2 transition-all duration-300 ease-in-out hover:scale-105 hover:bg-p1-darkgreen hover:bg-opacity-50 focus:scale-90 focus:border-p1-cyan hover:focus:bg-p1-darkgreen dark:border-p1-green dark:bg-p1-deepdarkgreen dark:hover:bg-p1-deepdarkgreen dark:hover:focus:bg-p1-deepdarkgreen"
+                              >
                                 <Image
-                                  className="mt-1 inline-block w-max"
-                                  width={18}
-                                  height={18}
-                                  src="/Logo/usd.png"
-                                  alt="usd"
+                                  className="inline-block h-10 w-10 place-content-center bg-p1-darkgreen p-1 dark:bg-p1-deepdarkgreen dark:hover:bg-p1-deepdarkgreen"
+                                  width={480}
+                                  height={480}
+                                  src="/Logo/cart_white.png"
+                                  alt="Bordered avatar"
                                 />
-                                25.000
-                              </p>
+                              </Link>
                             </div>
                           </div>
                         </div>
                       </div>
-                      <div className="flex items-center justify-between">
-                        <button className="absolute bottom-0 left-0 w-full translate-y-full border bg-p1-darkgreen bg-opacity-90 py-3 text-center text-xl text-p1-white transition-transform duration-500 ease-in-out hover:bg-p1-green group-hover:translate-y-0">
-                          Buy
-                        </button>
+                      <div className="group relative w-full overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-300 hover:shadow-2xl">
+                        <div>
+                          <button className="absolute left-2 top-2 z-50 rounded-br-lg rounded-tl-lg bg-blue-500 px-3 py-1 text-sm text-white">
+                            Rare
+                          </button>
+                        </div>
+                        <div className="relative">
+                          <Link
+                            href="/card"
+                            className="mx-auto justify-center hover:drop-shadow-2xl"
+                          >
+                            <Image
+                              width={480}
+                              height={480}
+                              src="/HeroNFT/RaceLads/RaceLads3.png"
+                              alt="RaceLads"
+                              className="h-full w-full object-cover transition-transform duration-500 ease-in-out group-hover:scale-150"
+                            />
+                          </Link>
+                        </div>
+
+                        <div className="w-full bg-p1-white bg-opacity-10 p-4 text-p1-darkgreen transition-transform duration-500 ease-in-out group-hover:-translate-y-12 group-hover:bg-opacity-50 dark:bg-p1-green dark:text-p1-white">
+                          <div className="flex items-center justify-between">
+                            <div className="text-left text-xl font-bold text-gray-800 dark:text-p1-white">
+                              RaceLad
+                            </div>
+                            <div className="text-left text-lg font-bold text-gray-800 dark:text-p1-white">
+                              # 8888
+                            </div>
+                          </div>
+                          <p className="mt-1 text-left text-xl text-gray-600 dark:text-p1-white">
+                            Total: 10.000
+                          </p>
+                          <div className="">
+                            <div className="mt-2 flex items-center justify-between">
+                              <div className="text-center">
+                                <p className="mt-1 text-left text-base text-gray-600 md:text-xl dark:text-p1-white">
+                                  Price:
+                                  <Image
+                                    className="relative mt-1 inline-block w-max"
+                                    layout="intrinsic"
+                                    width={24}
+                                    height={24}
+                                    src="/Logo/eth.png"
+                                    alt="eth"
+                                  />
+                                  0.001
+                                </p>
+                              </div>
+                              <div className="text-center">
+                                <p className="mt-1 text-left text-base text-gray-600 md:text-xl dark:text-p1-white">
+                                  <Image
+                                    className="mt-1 inline-block w-max"
+                                    width={18}
+                                    height={18}
+                                    src="/Logo/usd.png"
+                                    alt="usd"
+                                  />
+                                  25.000
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className="flex items-center justify-between">
+                          <div className="absolute bottom-0 left-0 w-full translate-y-full bg-p1-darkgreen bg-opacity-100 text-center text-xl text-p2-white2 transition-transform duration-500 ease-in-out hover:bg-p1-darkgreen group-hover:translate-y-0">
+                            <div className="inline-flex w-full justify-center" role="group">
+                              <Link
+                                href="#"
+                                className="inline-block w-4/5 place-content-center rounded-bl-xl border-2 border-p1-darkgreen bg-p1-darkgreen text-center text-xl font-semibold text-p1-white shadow-lg transition-all duration-300 ease-in-out hover:border-p1-cyan hover:bg-p1-darkgreen hover:text-2xl hover:text-p1-white focus:border-p1-cyan focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-white dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                              >
+                                Buy
+                              </Link>
+
+                              <Link
+                                href={'#'}
+                                className="mx-auto w-1/5 justify-center rounded-br-xl border-2 border-p1-green p-2 transition-all duration-300 ease-in-out hover:scale-105 hover:bg-p1-darkgreen hover:bg-opacity-50 focus:scale-90 focus:border-p1-cyan hover:focus:bg-p1-darkgreen dark:border-p1-green dark:bg-p1-deepdarkgreen dark:hover:bg-p1-deepdarkgreen dark:hover:focus:bg-p1-deepdarkgreen"
+                              >
+                                <Image
+                                  className="inline-block h-10 w-10 place-content-center bg-p1-darkgreen p-1 dark:bg-p1-deepdarkgreen dark:hover:bg-p1-deepdarkgreen"
+                                  width={480}
+                                  height={480}
+                                  src="/Logo/cart_white.png"
+                                  alt="Bordered avatar"
+                                />
+                              </Link>
+                            </div>
+                          </div>
+                        </div>
                       </div>
-                    </div>
+                      <div className="group relative w-full overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-300 hover:shadow-2xl">
+                        <div>
+                          <button className="absolute left-2 top-2 z-50 rounded-br-lg rounded-tl-lg bg-blue-500 px-3 py-1 text-sm text-white">
+                            Rare
+                          </button>
+                        </div>
+                        <div className="relative">
+                          <Link
+                            href="/card"
+                            className="mx-auto justify-center hover:drop-shadow-2xl"
+                          >
+                            <Image
+                              width={480}
+                              height={480}
+                              src="/HeroNFT/RaceLads/RaceLads4.png"
+                              alt="RaceLads"
+                              className="h-full w-full object-cover transition-transform duration-500 ease-in-out group-hover:scale-150"
+                            />
+                          </Link>
+                        </div>
 
-                    <div className="group relative inline-block">
-                      <button className="rounded bg-blue-500 px-4 py-2 font-bold text-white hover:bg-blue-600 focus:outline-none">
-                        Наведи на меня
-                      </button>
+                        <div className="w-full bg-p1-white bg-opacity-10 p-4 text-p1-darkgreen transition-transform duration-500 ease-in-out group-hover:-translate-y-12 group-hover:bg-opacity-50 dark:bg-p1-green dark:text-p1-white">
+                          <div className="flex items-center justify-between">
+                            <div className="text-left text-xl font-bold text-gray-800 dark:text-p1-white">
+                              RaceLad
+                            </div>
+                            <div className="text-left text-lg font-bold text-gray-800 dark:text-p1-white">
+                              # 8888
+                            </div>
+                          </div>
+                          <p className="mt-1 text-left text-xl text-gray-600 dark:text-p1-white">
+                            Total: 10.000
+                          </p>
+                          <div className="">
+                            <div className="mt-2 flex items-center justify-between">
+                              <div className="text-center">
+                                <p className="mt-1 text-left text-base text-gray-600 md:text-xl dark:text-p1-white">
+                                  Price:
+                                  <Image
+                                    className="relative mt-1 inline-block w-max"
+                                    layout="intrinsic"
+                                    width={24}
+                                    height={24}
+                                    src="/Logo/eth.png"
+                                    alt="eth"
+                                  />
+                                  0.001
+                                </p>
+                              </div>
+                              <div className="text-center">
+                                <p className="mt-1 text-left text-base text-gray-600 md:text-xl dark:text-p1-white">
+                                  <Image
+                                    className="mt-1 inline-block w-max"
+                                    width={18}
+                                    height={18}
+                                    src="/Logo/usd.png"
+                                    alt="usd"
+                                  />
+                                  25.000
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
 
-                      <div className="invisible absolute left-1/2 mt-2 w-64 -translate-x-1/2 transform rounded bg-white p-4 text-gray-800 opacity-0 shadow-lg transition-all duration-300 group-hover:visible group-hover:opacity-100">
-                        <p>Это всплывающая панель с дополнительной информацией!</p>
+                        <div className="flex items-center justify-between">
+                          <div className="absolute bottom-0 left-0 w-full translate-y-full bg-p1-darkgreen bg-opacity-100 text-center text-xl text-p2-white2 transition-transform duration-500 ease-in-out hover:bg-p1-darkgreen group-hover:translate-y-0">
+                            <div className="inline-flex w-full justify-center" role="group">
+                              <Link
+                                href="#"
+                                className="inline-block w-4/5 place-content-center rounded-bl-xl border-2 border-p1-darkgreen bg-p1-darkgreen text-center text-xl font-semibold text-p1-white shadow-lg transition-all duration-300 ease-in-out hover:border-p1-cyan hover:bg-p1-darkgreen hover:text-2xl hover:text-p1-white focus:border-p1-cyan focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-white dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                              >
+                                Buy
+                              </Link>
+
+                              <Link
+                                href={'#'}
+                                className="mx-auto w-1/5 justify-center rounded-br-xl border-2 border-p1-green p-2 transition-all duration-300 ease-in-out hover:scale-105 hover:bg-p1-darkgreen hover:bg-opacity-50 focus:scale-90 focus:border-p1-cyan hover:focus:bg-p1-darkgreen dark:border-p1-green dark:bg-p1-deepdarkgreen dark:hover:bg-p1-deepdarkgreen dark:hover:focus:bg-p1-deepdarkgreen"
+                              >
+                                <Image
+                                  className="inline-block h-10 w-10 place-content-center bg-p1-darkgreen p-1 dark:bg-p1-deepdarkgreen dark:hover:bg-p1-deepdarkgreen"
+                                  width={480}
+                                  height={480}
+                                  src="/Logo/cart_white.png"
+                                  alt="Bordered avatar"
+                                />
+                              </Link>
+                            </div>
+                          </div>
+                        </div>
                       </div>
-                    </div>
+                      <div className="group relative w-full overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-300 hover:shadow-2xl">
+                        <div>
+                          <button className="absolute left-2 top-2 z-50 rounded-br-lg rounded-tl-lg bg-blue-500 px-3 py-1 text-sm text-white">
+                            Rare
+                          </button>
+                        </div>
+                        <div className="relative">
+                          <Link
+                            href="/card"
+                            className="mx-auto justify-center hover:drop-shadow-2xl"
+                          >
+                            <Image
+                              width={480}
+                              height={480}
+                              src="/HeroNFT/Drivers/Driver4.png"
+                              alt="Drivers"
+                              className="h-full w-full object-cover transition-transform duration-500 ease-in-out group-hover:scale-150"
+                            />
+                          </Link>
+                        </div>
 
-                    <div className="flex h-10 items-center justify-center bg-gray-100 font-sans">
-                      <div className="group relative">
-                        <button className="rounded-lg bg-indigo-600 px-6 py-3 text-white shadow-lg hover:bg-indigo-700">
-                          Hover over me
-                        </button>
+                        <div className="w-full bg-p1-white bg-opacity-10 p-4 text-p1-darkgreen transition-transform duration-500 ease-in-out group-hover:-translate-y-12 group-hover:bg-opacity-50 dark:bg-p1-green dark:text-p1-white">
+                          <div className="flex items-center justify-between">
+                            <div className="text-left text-xl font-bold text-gray-800 dark:text-p1-white">
+                              Drivers
+                            </div>
+                            <div className="text-left text-lg font-bold text-gray-800 dark:text-p1-white">
+                              # 8888
+                            </div>
+                          </div>
+                          <p className="mt-1 text-left text-xl text-gray-600 dark:text-p1-white">
+                            Total: 10.000
+                          </p>
+                          <div className="">
+                            <div className="mt-2 flex items-center justify-between">
+                              <div className="text-center">
+                                <p className="mt-1 text-left text-base text-gray-600 md:text-xl dark:text-p1-white">
+                                  Price:
+                                  <Image
+                                    className="relative mt-1 inline-block w-max"
+                                    layout="intrinsic"
+                                    width={24}
+                                    height={24}
+                                    src="/Logo/eth.png"
+                                    alt="eth"
+                                  />
+                                  0.001
+                                </p>
+                              </div>
+                              <div className="text-center">
+                                <p className="mt-1 text-left text-base text-gray-600 md:text-xl dark:text-p1-white">
+                                  <Image
+                                    className="mt-1 inline-block w-max"
+                                    width={18}
+                                    height={18}
+                                    src="/Logo/usd.png"
+                                    alt="usd"
+                                  />
+                                  25.000
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
 
-                        <div className="absolute bottom-full left-1/2 mb-3 -translate-x-1/2 translate-y-2 transform rounded-md bg-black px-4 py-2 text-sm text-white opacity-0 shadow-lg transition-all duration-300 group-hover:translate-y-0 group-hover:opacity-100">
-                          I&apos;m a tooltip with animation!
+                        <div className="flex items-center justify-between">
+                          <div className="absolute bottom-0 left-0 w-full translate-y-full bg-p1-darkgreen bg-opacity-100 text-center text-xl text-p2-white2 transition-transform duration-500 ease-in-out hover:bg-p1-darkgreen group-hover:translate-y-0">
+                            <div className="inline-flex w-full justify-center" role="group">
+                              <Link
+                                href="#"
+                                className="inline-block w-4/5 place-content-center rounded-bl-xl border-2 border-p1-darkgreen bg-p1-darkgreen text-center text-xl font-semibold text-p1-white shadow-lg transition-all duration-300 ease-in-out hover:border-p1-cyan hover:bg-p1-darkgreen hover:text-2xl hover:text-p1-white focus:border-p1-cyan focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-white dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                              >
+                                Buy
+                              </Link>
+
+                              <Link
+                                href={'#'}
+                                className="mx-auto w-1/5 justify-center rounded-br-xl border-2 border-p1-green p-2 transition-all duration-300 ease-in-out hover:scale-105 hover:bg-p1-darkgreen hover:bg-opacity-50 focus:scale-90 focus:border-p1-cyan hover:focus:bg-p1-darkgreen dark:border-p1-green dark:bg-p1-deepdarkgreen dark:hover:bg-p1-deepdarkgreen dark:hover:focus:bg-p1-deepdarkgreen"
+                              >
+                                <Image
+                                  className="inline-block h-10 w-10 place-content-center bg-p1-darkgreen p-1 dark:bg-p1-deepdarkgreen dark:hover:bg-p1-deepdarkgreen"
+                                  width={480}
+                                  height={480}
+                                  src="/Logo/cart_white.png"
+                                  alt="Bordered avatar"
+                                />
+                              </Link>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="group relative w-full overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-300 hover:shadow-2xl">
+                        <div>
+                          <button className="absolute left-2 top-2 z-50 rounded-br-lg rounded-tl-lg bg-blue-500 px-3 py-1 text-sm text-white">
+                            Rare
+                          </button>
+                        </div>
+                        <div className="relative">
+                          <Link
+                            href="/card"
+                            className="mx-auto justify-center hover:drop-shadow-2xl"
+                          >
+                            <Image
+                              width={480}
+                              height={480}
+                              src="/HeroNFT/Drivers/Driver3.png"
+                              alt="Drivers"
+                              className="h-full w-full object-cover transition-transform duration-500 ease-in-out group-hover:scale-150"
+                            />
+                          </Link>
+                        </div>
+
+                        <div className="w-full bg-p1-white bg-opacity-10 p-4 text-p1-darkgreen transition-transform duration-500 ease-in-out group-hover:-translate-y-12 group-hover:bg-opacity-50 dark:bg-p1-green dark:text-p1-white">
+                          <div className="flex items-center justify-between">
+                            <div className="text-left text-xl font-bold text-gray-800 dark:text-p1-white">
+                              Drivers
+                            </div>
+                            <div className="text-left text-lg font-bold text-gray-800 dark:text-p1-white">
+                              # 8888
+                            </div>
+                          </div>
+                          <p className="mt-1 text-left text-xl text-gray-600 dark:text-p1-white">
+                            Total: 10.000
+                          </p>
+                          <div className="">
+                            <div className="mt-2 flex items-center justify-between">
+                              <div className="text-center">
+                                <p className="mt-1 text-left text-base text-gray-600 md:text-xl dark:text-p1-white">
+                                  Price:
+                                  <Image
+                                    className="relative mt-1 inline-block w-max"
+                                    layout="intrinsic"
+                                    width={24}
+                                    height={24}
+                                    src="/Logo/eth.png"
+                                    alt="eth"
+                                  />
+                                  0.001
+                                </p>
+                              </div>
+                              <div className="text-center">
+                                <p className="mt-1 text-left text-base text-gray-600 md:text-xl dark:text-p1-white">
+                                  <Image
+                                    className="mt-1 inline-block w-max"
+                                    width={18}
+                                    height={18}
+                                    src="/Logo/usd.png"
+                                    alt="usd"
+                                  />
+                                  25.000
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className="flex items-center justify-between">
+                          <div className="absolute bottom-0 left-0 w-full translate-y-full bg-p1-darkgreen bg-opacity-100 text-center text-xl text-p2-white2 transition-transform duration-500 ease-in-out hover:bg-p1-darkgreen group-hover:translate-y-0">
+                            <div className="inline-flex w-full justify-center" role="group">
+                              <Link
+                                href="#"
+                                className="inline-block w-4/5 place-content-center rounded-bl-xl border-2 border-p1-darkgreen bg-p1-darkgreen text-center text-xl font-semibold text-p1-white shadow-lg transition-all duration-300 ease-in-out hover:border-p1-cyan hover:bg-p1-darkgreen hover:text-2xl hover:text-p1-white focus:border-p1-cyan focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-white dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                              >
+                                Buy
+                              </Link>
+
+                              <Link
+                                href={'#'}
+                                className="mx-auto w-1/5 justify-center rounded-br-xl border-2 border-p1-green p-2 transition-all duration-300 ease-in-out hover:scale-105 hover:bg-p1-darkgreen hover:bg-opacity-50 focus:scale-90 focus:border-p1-cyan hover:focus:bg-p1-darkgreen dark:border-p1-green dark:bg-p1-deepdarkgreen dark:hover:bg-p1-deepdarkgreen dark:hover:focus:bg-p1-deepdarkgreen"
+                              >
+                                <Image
+                                  className="inline-block h-10 w-10 place-content-center bg-p1-darkgreen p-1 dark:bg-p1-deepdarkgreen dark:hover:bg-p1-deepdarkgreen"
+                                  width={480}
+                                  height={480}
+                                  src="/Logo/cart_white.png"
+                                  alt="Bordered avatar"
+                                />
+                              </Link>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="group relative w-full overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-300 hover:shadow-2xl">
+                        <div>
+                          <button className="absolute left-2 top-2 z-50 rounded-br-lg rounded-tl-lg bg-blue-500 px-3 py-1 text-sm text-white">
+                            Rare
+                          </button>
+                        </div>
+                        <div className="relative">
+                          <Link
+                            href="/card"
+                            className="mx-auto justify-center hover:drop-shadow-2xl"
+                          >
+                            <Image
+                              width={480}
+                              height={480}
+                              src="/HeroNFT/Drivers/Driver2.png"
+                              alt="Drivers"
+                              className="h-full w-full object-cover transition-transform duration-500 ease-in-out group-hover:scale-150"
+                            />
+                          </Link>
+                        </div>
+
+                        <div className="w-full bg-p1-white bg-opacity-10 p-4 text-p1-darkgreen transition-transform duration-500 ease-in-out group-hover:-translate-y-12 group-hover:bg-opacity-50 dark:bg-p1-green dark:text-p1-white">
+                          <div className="flex items-center justify-between">
+                            <div className="text-left text-xl font-bold text-gray-800 dark:text-p1-white">
+                              Drivers
+                            </div>
+                            <div className="text-left text-lg font-bold text-gray-800 dark:text-p1-white">
+                              # 8888
+                            </div>
+                          </div>
+                          <p className="mt-1 text-left text-xl text-gray-600 dark:text-p1-white">
+                            Total: 10.000
+                          </p>
+                          <div className="">
+                            <div className="mt-2 flex items-center justify-between">
+                              <div className="text-center">
+                                <p className="mt-1 text-left text-base text-gray-600 md:text-xl dark:text-p1-white">
+                                  Price:
+                                  <Image
+                                    className="relative mt-1 inline-block w-max"
+                                    layout="intrinsic"
+                                    width={24}
+                                    height={24}
+                                    src="/Logo/eth.png"
+                                    alt="eth"
+                                  />
+                                  0.001
+                                </p>
+                              </div>
+                              <div className="text-center">
+                                <p className="mt-1 text-left text-base text-gray-600 md:text-xl dark:text-p1-white">
+                                  <Image
+                                    className="mt-1 inline-block w-max"
+                                    width={18}
+                                    height={18}
+                                    src="/Logo/usd.png"
+                                    alt="usd"
+                                  />
+                                  25.000
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className="flex items-center justify-between">
+                          <div className="absolute bottom-0 left-0 w-full translate-y-full bg-p1-darkgreen bg-opacity-100 text-center text-xl text-p2-white2 transition-transform duration-500 ease-in-out hover:bg-p1-darkgreen group-hover:translate-y-0">
+                            <div className="inline-flex w-full justify-center" role="group">
+                              <Link
+                                href="#"
+                                className="inline-block w-4/5 place-content-center rounded-bl-xl border-2 border-p1-darkgreen bg-p1-darkgreen text-center text-xl font-semibold text-p1-white shadow-lg transition-all duration-300 ease-in-out hover:border-p1-cyan hover:bg-p1-darkgreen hover:text-2xl hover:text-p1-white focus:border-p1-cyan focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-white dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                              >
+                                Buy
+                              </Link>
+
+                              <Link
+                                href={'#'}
+                                className="mx-auto w-1/5 justify-center rounded-br-xl border-2 border-p1-green p-2 transition-all duration-300 ease-in-out hover:scale-105 hover:bg-p1-darkgreen hover:bg-opacity-50 focus:scale-90 focus:border-p1-cyan hover:focus:bg-p1-darkgreen dark:border-p1-green dark:bg-p1-deepdarkgreen dark:hover:bg-p1-deepdarkgreen dark:hover:focus:bg-p1-deepdarkgreen"
+                              >
+                                <Image
+                                  className="inline-block h-10 w-10 place-content-center bg-p1-darkgreen p-1 dark:bg-p1-deepdarkgreen dark:hover:bg-p1-deepdarkgreen"
+                                  width={480}
+                                  height={480}
+                                  src="/Logo/cart_white.png"
+                                  alt="Bordered avatar"
+                                />
+                              </Link>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="group relative w-full overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-300 hover:shadow-2xl">
+                        <div>
+                          <button className="absolute left-2 top-2 z-50 rounded-br-lg rounded-tl-lg bg-blue-500 px-3 py-1 text-sm text-white">
+                            Rare
+                          </button>
+                        </div>
+                        <div className="relative">
+                          <Link
+                            href="/card"
+                            className="mx-auto justify-center hover:drop-shadow-2xl"
+                          >
+                            <Image
+                              width={480}
+                              height={480}
+                              src="/HeroNFT/Drivers/Driver1.png"
+                              alt="Drivers"
+                              className="h-full w-full object-cover transition-transform duration-500 ease-in-out group-hover:scale-150"
+                            />
+                          </Link>
+                        </div>
+
+                        <div className="w-full bg-p1-white bg-opacity-10 p-4 text-p1-darkgreen transition-transform duration-500 ease-in-out group-hover:-translate-y-12 group-hover:bg-opacity-50 dark:bg-p1-green dark:text-p1-white">
+                          <div className="flex items-center justify-between">
+                            <div className="text-left text-xl font-bold text-gray-800 dark:text-p1-white">
+                              Drivers
+                            </div>
+                            <div className="text-left text-lg font-bold text-gray-800 dark:text-p1-white">
+                              # 8888
+                            </div>
+                          </div>
+                          <p className="mt-1 text-left text-xl text-gray-600 dark:text-p1-white">
+                            Total: 10.000
+                          </p>
+                          <div className="">
+                            <div className="mt-2 flex items-center justify-between">
+                              <div className="text-center">
+                                <p className="mt-1 text-left text-base text-gray-600 md:text-xl dark:text-p1-white">
+                                  Price:
+                                  <Image
+                                    className="relative mt-1 inline-block w-max"
+                                    layout="intrinsic"
+                                    width={24}
+                                    height={24}
+                                    src="/Logo/eth.png"
+                                    alt="eth"
+                                  />
+                                  0.001
+                                </p>
+                              </div>
+                              <div className="text-center">
+                                <p className="mt-1 text-left text-base text-gray-600 md:text-xl dark:text-p1-white">
+                                  <Image
+                                    className="mt-1 inline-block w-max"
+                                    width={18}
+                                    height={18}
+                                    src="/Logo/usd.png"
+                                    alt="usd"
+                                  />
+                                  25.000
+                                </p>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <div className="flex items-center justify-between">
+                          <div className="absolute bottom-0 left-0 w-full translate-y-full bg-p1-darkgreen bg-opacity-100 text-center text-xl text-p2-white2 transition-transform duration-500 ease-in-out hover:bg-p1-darkgreen group-hover:translate-y-0">
+                            <div className="inline-flex w-full justify-center" role="group">
+                              <Link
+                                href="#"
+                                className="inline-block w-4/5 place-content-center rounded-bl-xl border-2 border-p1-darkgreen bg-p1-darkgreen text-center text-xl font-semibold text-p1-white shadow-lg transition-all duration-300 ease-in-out hover:border-p1-cyan hover:bg-p1-darkgreen hover:text-2xl hover:text-p1-white focus:border-p1-cyan focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-white dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                              >
+                                Buy
+                              </Link>
+
+                              <Link
+                                href={'#'}
+                                className="mx-auto w-1/5 justify-center rounded-br-xl border-2 border-p1-green p-2 transition-all duration-300 ease-in-out hover:scale-105 hover:bg-p1-darkgreen hover:bg-opacity-50 focus:scale-90 focus:border-p1-cyan hover:focus:bg-p1-darkgreen dark:border-p1-green dark:bg-p1-deepdarkgreen dark:hover:bg-p1-deepdarkgreen dark:hover:focus:bg-p1-deepdarkgreen"
+                              >
+                                <Image
+                                  className="inline-block h-10 w-10 place-content-center bg-p1-darkgreen p-1 dark:bg-p1-deepdarkgreen dark:hover:bg-p1-deepdarkgreen"
+                                  width={480}
+                                  height={480}
+                                  src="/Logo/cart_white.png"
+                                  alt="Bordered avatar"
+                                />
+                              </Link>
+                            </div>
+                          </div>
                         </div>
                       </div>
                     </div>
-                  </div>
+                  </section>
                 </div>
               </div>
 
@@ -1810,14 +2718,13 @@ export default function Home() {
                     </Link>
                   </div>
                   <div className="pt-2 text-left">RaceLads</div>
-                  <div className="mt-2 grid grid-cols-5 place-items-center gap-2 space-x-2 p-4 text-base md:text-xl">
-                    <div className="group relative w-80 overflow-hidden rounded-3xl border border-gray-200 bg-white shadow-lg hover:shadow-2xl">
+                  <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5">
+                    <div className="group relative w-full overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-300 hover:shadow-2xl">
                       <div>
-                        <button className="absolute left-2 top-2 z-50 rounded-full bg-blue-500 px-3 py-1 text-sm text-white">
+                        <button className="absolute left-2 top-2 z-50 rounded-br-lg rounded-tl-lg bg-blue-500 px-3 py-1 text-sm text-white">
                           Rare
                         </button>
                       </div>
-
                       <div className="relative">
                         <Link href="/card" className="mx-auto justify-center hover:drop-shadow-2xl">
                           <Image
@@ -1830,16 +2737,22 @@ export default function Home() {
                         </Link>
                       </div>
 
-                      <div className="w-full bg-p1-white p-4 text-p1-darkgreen transition-transform duration-500 ease-in-out group-hover:-translate-y-12">
+                      <div className="w-full bg-p1-white bg-opacity-10 p-4 text-p1-darkgreen transition-transform duration-500 ease-in-out group-hover:-translate-y-12 group-hover:bg-opacity-50 dark:bg-p1-green dark:text-p1-white">
                         <div className="flex items-center justify-between">
-                          <div className="text-left text-xl font-bold text-gray-800">RaceLad</div>
-                          <div className="text-left text-lg font-bold text-gray-800"># 8888</div>
+                          <div className="text-left text-xl font-bold text-gray-800 dark:text-p1-white">
+                            RaceLad
+                          </div>
+                          <div className="text-left text-lg font-bold text-gray-800 dark:text-p1-white">
+                            # 8888
+                          </div>
                         </div>
-                        <p className="mt-1 text-left text-xl text-gray-600">Total: 10.000</p>
+                        <p className="mt-1 text-left text-xl text-gray-600 dark:text-p1-white">
+                          Total: 10.000
+                        </p>
                         <div className="">
                           <div className="mt-2 flex items-center justify-between">
                             <div className="text-center">
-                              <p className="mt-1 text-left text-base text-gray-600 md:text-xl">
+                              <p className="mt-1 text-left text-base text-gray-600 md:text-xl dark:text-p1-white">
                                 Price:
                                 <Image
                                   className="relative mt-1 inline-block w-max"
@@ -1849,11 +2762,11 @@ export default function Home() {
                                   src="/Logo/eth.png"
                                   alt="eth"
                                 />
-                                10
+                                0.001
                               </p>
                             </div>
                             <div className="text-center">
-                              <p className="mt-1 text-left text-base text-gray-600">
+                              <p className="mt-1 text-left text-base text-gray-600 md:text-xl dark:text-p1-white">
                                 <Image
                                   className="mt-1 inline-block w-max"
                                   width={18}
@@ -1867,10 +2780,31 @@ export default function Home() {
                           </div>
                         </div>
                       </div>
+
                       <div className="flex items-center justify-between">
-                        <button className="absolute bottom-0 left-0 w-full translate-y-full border bg-p1-darkgreen bg-opacity-90 py-3 text-center text-xl text-p1-white transition-transform duration-500 ease-in-out hover:bg-p1-green group-hover:translate-y-0">
-                          Buy
-                        </button>
+                        <div className="absolute bottom-0 left-0 w-full translate-y-full bg-p1-darkgreen bg-opacity-100 text-center text-xl text-p2-white2 transition-transform duration-500 ease-in-out hover:bg-p1-darkgreen group-hover:translate-y-0">
+                          <div className="inline-flex w-full justify-center" role="group">
+                            <Link
+                              href="#"
+                              className="inline-block w-4/5 place-content-center rounded-bl-xl border-2 border-p1-darkgreen bg-p1-darkgreen text-center text-xl font-semibold text-p1-white shadow-lg transition-all duration-300 ease-in-out hover:border-p1-cyan hover:bg-p1-darkgreen hover:text-2xl hover:text-p1-white focus:border-p1-cyan focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-white dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                            >
+                              Buy
+                            </Link>
+
+                            <Link
+                              href={'#'}
+                              className="mx-auto w-1/5 justify-center rounded-br-xl border-2 border-p1-green p-2 transition-all duration-300 ease-in-out hover:scale-105 hover:bg-p1-darkgreen hover:bg-opacity-50 focus:scale-90 focus:border-p1-cyan hover:focus:bg-p1-darkgreen dark:border-p1-green dark:bg-p1-deepdarkgreen dark:hover:bg-p1-deepdarkgreen dark:hover:focus:bg-p1-deepdarkgreen"
+                            >
+                              <Image
+                                className="inline-block h-10 w-10 place-content-center bg-p1-darkgreen p-1 dark:bg-p1-deepdarkgreen dark:hover:bg-p1-deepdarkgreen"
+                                width={480}
+                                height={480}
+                                src="/Logo/cart_white.png"
+                                alt="Bordered avatar"
+                              />
+                            </Link>
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -1937,14 +2871,13 @@ export default function Home() {
                     </Link>
                   </div>
                   <div className="pt-2 text-left">RaceLads</div>
-                  <div className="mt-2 grid grid-cols-5 place-items-center gap-2 space-x-2 p-4 text-base md:text-xl">
-                    <div className="group relative w-80 overflow-hidden rounded-3xl border border-gray-200 bg-white shadow-lg hover:shadow-2xl">
+                  <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5">
+                    <div className="group relative w-full overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-300 hover:shadow-2xl">
                       <div>
-                        <button className="absolute left-2 top-2 z-50 rounded-full bg-blue-500 px-3 py-1 text-sm text-white">
+                        <button className="absolute left-2 top-2 z-50 rounded-br-lg rounded-tl-lg bg-blue-500 px-3 py-1 text-sm text-white">
                           Rare
                         </button>
                       </div>
-
                       <div className="relative">
                         <Link href="/card" className="mx-auto justify-center hover:drop-shadow-2xl">
                           <Image
@@ -1957,16 +2890,22 @@ export default function Home() {
                         </Link>
                       </div>
 
-                      <div className="w-full bg-p1-white p-4 text-p1-darkgreen transition-transform duration-500 ease-in-out group-hover:-translate-y-12">
+                      <div className="w-full bg-p1-white bg-opacity-10 p-4 text-p1-darkgreen transition-transform duration-500 ease-in-out group-hover:-translate-y-12 group-hover:bg-opacity-50 dark:bg-p1-green dark:text-p1-white">
                         <div className="flex items-center justify-between">
-                          <div className="text-left text-xl font-bold text-gray-800">RaceLad</div>
-                          <div className="text-left text-lg font-bold text-gray-800"># 8888</div>
+                          <div className="text-left text-xl font-bold text-gray-800 dark:text-p1-white">
+                            RaceLad
+                          </div>
+                          <div className="text-left text-lg font-bold text-gray-800 dark:text-p1-white">
+                            # 8888
+                          </div>
                         </div>
-                        <p className="mt-1 text-left text-xl text-gray-600">Total: 10.000</p>
+                        <p className="mt-1 text-left text-xl text-gray-600 dark:text-p1-white">
+                          Total: 10.000
+                        </p>
                         <div className="">
                           <div className="mt-2 flex items-center justify-between">
                             <div className="text-center">
-                              <p className="mt-1 text-left text-base text-gray-600 md:text-xl">
+                              <p className="mt-1 text-left text-base text-gray-600 md:text-xl dark:text-p1-white">
                                 Price:
                                 <Image
                                   className="relative mt-1 inline-block w-max"
@@ -1976,11 +2915,11 @@ export default function Home() {
                                   src="/Logo/eth.png"
                                   alt="eth"
                                 />
-                                10
+                                0.001
                               </p>
                             </div>
                             <div className="text-center">
-                              <p className="mt-1 text-left text-base text-gray-600">
+                              <p className="mt-1 text-left text-base text-gray-600 md:text-xl dark:text-p1-white">
                                 <Image
                                   className="mt-1 inline-block w-max"
                                   width={18}
@@ -1994,10 +2933,31 @@ export default function Home() {
                           </div>
                         </div>
                       </div>
+
                       <div className="flex items-center justify-between">
-                        <button className="absolute bottom-0 left-0 w-full translate-y-full border bg-p1-darkgreen bg-opacity-90 py-3 text-center text-xl text-p1-white transition-transform duration-500 ease-in-out hover:bg-p1-green group-hover:translate-y-0">
-                          Buy
-                        </button>
+                        <div className="absolute bottom-0 left-0 w-full translate-y-full bg-p1-darkgreen bg-opacity-100 text-center text-xl text-p2-white2 transition-transform duration-500 ease-in-out hover:bg-p1-darkgreen group-hover:translate-y-0">
+                          <div className="inline-flex w-full justify-center" role="group">
+                            <Link
+                              href="#"
+                              className="inline-block w-4/5 place-content-center rounded-bl-xl border-2 border-p1-darkgreen bg-p1-darkgreen text-center text-xl font-semibold text-p1-white shadow-lg transition-all duration-300 ease-in-out hover:border-p1-cyan hover:bg-p1-darkgreen hover:text-2xl hover:text-p1-white focus:border-p1-cyan focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-white dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                            >
+                              Buy
+                            </Link>
+
+                            <Link
+                              href={'#'}
+                              className="mx-auto w-1/5 justify-center rounded-br-xl border-2 border-p1-green p-2 transition-all duration-300 ease-in-out hover:scale-105 hover:bg-p1-darkgreen hover:bg-opacity-50 focus:scale-90 focus:border-p1-cyan hover:focus:bg-p1-darkgreen dark:border-p1-green dark:bg-p1-deepdarkgreen dark:hover:bg-p1-deepdarkgreen dark:hover:focus:bg-p1-deepdarkgreen"
+                            >
+                              <Image
+                                className="inline-block h-10 w-10 place-content-center bg-p1-darkgreen p-1 dark:bg-p1-deepdarkgreen dark:hover:bg-p1-deepdarkgreen"
+                                width={480}
+                                height={480}
+                                src="/Logo/cart_white.png"
+                                alt="Bordered avatar"
+                              />
+                            </Link>
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -2825,15 +3785,14 @@ export default function Home() {
                       Лицензии
                     </Link>
                   </div>
-                  <div className="pt-2 text-left">RaceLads</div>
-                  <div className="mt-2 grid grid-cols-5 place-items-center gap-2 space-x-2 p-4 text-base md:text-xl">
-                    <div className="group relative w-80 overflow-hidden rounded-3xl border border-gray-200 bg-white shadow-lg hover:shadow-2xl">
+                  <div className="pt-12 text-left">RaceLads</div>
+                  <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5">
+                    <div className="group relative w-full overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-300 hover:shadow-2xl">
                       <div>
-                        <button className="absolute left-2 top-2 z-50 rounded-full bg-blue-500 px-3 py-1 text-sm text-white">
+                        <button className="absolute left-2 top-2 z-50 rounded-br-lg rounded-tl-lg bg-blue-500 px-3 py-1 text-sm text-white">
                           Rare
                         </button>
                       </div>
-
                       <div className="relative">
                         <Link href="/card" className="mx-auto justify-center hover:drop-shadow-2xl">
                           <Image
@@ -2846,16 +3805,22 @@ export default function Home() {
                         </Link>
                       </div>
 
-                      <div className="w-full bg-p1-white p-4 text-p1-darkgreen transition-transform duration-500 ease-in-out group-hover:-translate-y-12">
+                      <div className="w-full bg-p1-white bg-opacity-10 p-4 text-p1-darkgreen transition-transform duration-500 ease-in-out group-hover:-translate-y-12 group-hover:bg-opacity-50 dark:bg-p1-green dark:text-p1-white">
                         <div className="flex items-center justify-between">
-                          <div className="text-left text-xl font-bold text-gray-800">RaceLad</div>
-                          <div className="text-left text-lg font-bold text-gray-800"># 8888</div>
+                          <div className="text-left text-xl font-bold text-gray-800 dark:text-p1-white">
+                            RaceLad
+                          </div>
+                          <div className="text-left text-lg font-bold text-gray-800 dark:text-p1-white">
+                            # 8888
+                          </div>
                         </div>
-                        <p className="mt-1 text-left text-xl text-gray-600">Total: 10.000</p>
+                        <p className="mt-1 text-left text-xl text-gray-600 dark:text-p1-white">
+                          Total: 10.000
+                        </p>
                         <div className="">
                           <div className="mt-2 flex items-center justify-between">
                             <div className="text-center">
-                              <p className="mt-1 text-left text-base text-gray-600 md:text-xl">
+                              <p className="mt-1 text-left text-base text-gray-600 md:text-xl dark:text-p1-white">
                                 Price:
                                 <Image
                                   className="relative mt-1 inline-block w-max"
@@ -2865,11 +3830,11 @@ export default function Home() {
                                   src="/Logo/eth.png"
                                   alt="eth"
                                 />
-                                ---
+                                0.001
                               </p>
                             </div>
                             <div className="text-center">
-                              <p className="mt-1 text-left text-base text-gray-600">
+                              <p className="mt-1 text-left text-base text-gray-600 md:text-xl dark:text-p1-white">
                                 <Image
                                   className="mt-1 inline-block w-max"
                                   width={18}
@@ -2877,30 +3842,49 @@ export default function Home() {
                                   src="/Logo/usd.png"
                                   alt="usd"
                                 />
-                                ===
+                                25.000
                               </p>
                             </div>
                           </div>
                         </div>
                       </div>
+
                       <div className="flex items-center justify-between">
-                        <button className="absolute bottom-0 left-0 w-full translate-y-full border bg-p1-darkgreen bg-opacity-90 py-3 text-center text-xl text-p1-white transition-transform duration-500 ease-in-out hover:bg-p1-green group-hover:translate-y-0">
-                          Discover
-                        </button>
+                        <div className="absolute bottom-0 left-0 w-full translate-y-full bg-p1-darkgreen bg-opacity-100 text-center text-xl text-p2-white2 transition-transform duration-500 ease-in-out hover:bg-p1-darkgreen group-hover:translate-y-0">
+                          <div className="inline-flex w-full justify-center" role="group">
+                            <Link
+                              href="#"
+                              className="inline-block w-4/5 place-content-center rounded-bl-xl border-2 border-p1-darkgreen bg-p1-darkgreen text-center text-xl font-semibold text-p1-white shadow-lg transition-all duration-300 ease-in-out hover:border-p1-cyan hover:bg-p1-darkgreen hover:text-2xl hover:text-p1-white focus:border-p1-cyan focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-white dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                            >
+                              Buy
+                            </Link>
+
+                            <Link
+                              href={'#'}
+                              className="mx-auto w-1/5 justify-center rounded-br-xl border-2 border-p1-green p-2 transition-all duration-300 ease-in-out hover:scale-105 hover:bg-p1-darkgreen hover:bg-opacity-50 focus:scale-90 focus:border-p1-cyan hover:focus:bg-p1-darkgreen dark:border-p1-green dark:bg-p1-deepdarkgreen dark:hover:bg-p1-deepdarkgreen dark:hover:focus:bg-p1-deepdarkgreen"
+                            >
+                              <Image
+                                className="inline-block h-10 w-10 place-content-center bg-p1-darkgreen p-1 dark:bg-p1-deepdarkgreen dark:hover:bg-p1-deepdarkgreen"
+                                width={480}
+                                height={480}
+                                src="/Logo/cart_white.png"
+                                alt="Bordered avatar"
+                              />
+                            </Link>
+                          </div>
+                        </div>
                       </div>
                     </div>
-                    <div></div>
                   </div>
 
-                  <div className="pt-2 text-left">Награды</div>
-                  <div className="mt-2 grid grid-cols-5 place-items-center gap-2 space-x-2 p-4 text-base md:text-xl">
-                    <div className="group relative w-80 overflow-hidden rounded-3xl border border-gray-200 bg-white shadow-lg hover:shadow-2xl">
+                  <div className="pt-12 text-left">Награды1</div>
+                  <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5">
+                    <div className="group relative w-full overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-300 hover:shadow-2xl">
                       <div>
-                        <button className="absolute left-2 top-2 z-50 rounded-full bg-blue-500 px-3 py-1 text-sm text-white">
+                        <button className="absolute left-2 top-2 z-50 rounded-br-lg rounded-tl-lg bg-blue-500 px-3 py-1 text-sm text-white">
                           Rare
                         </button>
                       </div>
-
                       <div className="relative">
                         <Link href="/card" className="mx-auto justify-center hover:drop-shadow-2xl">
                           <Image
@@ -2913,16 +3897,22 @@ export default function Home() {
                         </Link>
                       </div>
 
-                      <div className="w-full bg-p1-white p-4 text-p1-darkgreen transition-transform duration-500 ease-in-out group-hover:-translate-y-12">
+                      <div className="w-full bg-p1-white bg-opacity-10 p-4 text-p1-darkgreen transition-transform duration-500 ease-in-out group-hover:-translate-y-12 group-hover:bg-opacity-50 dark:bg-p1-green dark:text-p1-white">
                         <div className="flex items-center justify-between">
-                          <div className="text-left text-xl font-bold text-gray-800">Award</div>
-                          <div className="text-left text-lg font-bold text-gray-800"># 1</div>
+                          <div className="text-left text-xl font-bold text-gray-800 dark:text-p1-white">
+                            Award
+                          </div>
+                          <div className="text-left text-lg font-bold text-gray-800 dark:text-p1-white">
+                            # 1
+                          </div>
                         </div>
-                        <p className="mt-1 text-left text-xl text-gray-600">Total: 36899</p>
+                        <p className="mt-1 text-left text-xl text-gray-600 dark:text-p1-white">
+                          Total: 10.000
+                        </p>
                         <div className="">
                           <div className="mt-2 flex items-center justify-between">
                             <div className="text-center">
-                              <p className="mt-1 text-left text-base text-gray-600 md:text-xl">
+                              <p className="mt-1 text-left text-base text-gray-600 md:text-xl dark:text-p1-white">
                                 Price:
                                 <Image
                                   className="relative mt-1 inline-block w-max"
@@ -2936,7 +3926,7 @@ export default function Home() {
                               </p>
                             </div>
                             <div className="text-center">
-                              <p className="mt-1 text-left text-base text-gray-600">
+                              <p className="mt-1 text-left text-base text-gray-600 md:text-xl dark:text-p1-white">
                                 <Image
                                   className="mt-1 inline-block w-max"
                                   width={18}
@@ -2950,149 +3940,30 @@ export default function Home() {
                           </div>
                         </div>
                       </div>
+
                       <div className="flex items-center justify-between">
-                        <button className="absolute bottom-0 left-0 w-full translate-y-full border bg-p1-darkgreen bg-opacity-90 py-3 text-center text-xl text-p1-white transition-transform duration-500 ease-in-out hover:bg-p1-green group-hover:translate-y-0">
-                          Discover
-                        </button>
-                      </div>
-                    </div>
-
-                    <div className="group relative w-80 overflow-hidden rounded-3xl border border-gray-200 bg-white shadow-lg hover:shadow-2xl">
-                      <div>
-                        <button className="absolute left-2 top-2 z-50 rounded-full bg-blue-500 px-3 py-1 text-sm text-white">
-                          Rare
-                        </button>
-                      </div>
-
-                      <div className="relative">
-                        <Link href="/card" className="mx-auto justify-center hover:drop-shadow-2xl">
-                          <Image
-                            width={480}
-                            height={480}
-                            src="/Hero/cup2.png"
-                            alt="cup2"
-                            className="h-full w-full scale-50 object-cover transition-transform duration-500 ease-in-out group-hover:scale-75"
-                          />
-                        </Link>
-                      </div>
-
-                      <div className="w-full bg-p1-white p-4 text-p1-darkgreen transition-transform duration-500 ease-in-out group-hover:-translate-y-12">
-                        <div className="flex items-center justify-between">
-                          <div className="text-left text-xl font-bold text-gray-800">Award</div>
-                          <div className="text-left text-lg font-bold text-gray-800"># 1</div>
-                        </div>
-                        <p className="mt-1 text-left text-xl text-gray-600">Total: 36899</p>
-                        <div className="">
-                          <div className="mt-2 flex items-center justify-between">
-                            <div className="text-center">
-                              <p className="mt-1 text-left text-base text-gray-600 md:text-xl">
-                                Price:
-                                <Image
-                                  className="relative mt-1 inline-block w-max"
-                                  layout="intrinsic"
-                                  width={24}
-                                  height={24}
-                                  src="/Logo/eth.png"
-                                  alt="eth"
-                                />
-                                ---
-                              </p>
-                            </div>
-                            <div className="text-center">
-                              <p className="mt-1 text-left text-base text-gray-600">
-                                <Image
-                                  className="mt-1 inline-block w-max"
-                                  width={18}
-                                  height={18}
-                                  src="/Logo/usd.png"
-                                  alt="usd"
-                                />
-                                ---
-                              </p>
-                            </div>
+                        <div className="absolute bottom-0 left-0 w-full translate-y-full bg-p1-darkgreen bg-opacity-100 text-center text-xl text-p2-white2 transition-transform duration-500 ease-in-out hover:bg-p1-darkgreen group-hover:translate-y-0">
+                          <div className="inline-flex w-full justify-center" role="group">
+                            <Link
+                              href="#"
+                              className="inline-block w-full place-content-center rounded-b-xl border-2 border-p1-darkgreen bg-p1-darkgreen text-center text-xl font-semibold text-p1-white shadow-lg transition-all duration-300 ease-in-out hover:border-p1-cyan hover:bg-p1-darkgreen hover:text-2xl hover:text-p1-white focus:border-p1-cyan focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-white dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                            >
+                              Discovery
+                            </Link>
                           </div>
                         </div>
                       </div>
-                      <div className="flex items-center justify-between">
-                        <button className="absolute bottom-0 left-0 w-full translate-y-full border bg-p1-darkgreen bg-opacity-90 py-3 text-center text-xl text-p1-white transition-transform duration-500 ease-in-out hover:bg-p1-green group-hover:translate-y-0">
-                          Discover
-                        </button>
-                      </div>
                     </div>
-                    <div className="group relative w-80 overflow-hidden rounded-3xl border border-gray-200 bg-white shadow-lg hover:shadow-2xl">
-                      <div>
-                        <button className="absolute left-2 top-2 z-50 rounded-full bg-blue-500 px-3 py-1 text-sm text-white">
-                          Rare
-                        </button>
-                      </div>
-
-                      <div className="relative">
-                        <Link href="/card" className="mx-auto justify-center hover:drop-shadow-2xl">
-                          <Image
-                            width={480}
-                            height={480}
-                            src="/Hero/cup3.png"
-                            alt="cup3"
-                            className="h-full w-full scale-50 object-cover transition-transform duration-500 ease-in-out group-hover:scale-75"
-                          />
-                        </Link>
-                      </div>
-
-                      <div className="w-full bg-p1-white p-4 text-p1-darkgreen transition-transform duration-500 ease-in-out group-hover:-translate-y-12">
-                        <div className="flex items-center justify-between">
-                          <div className="text-left text-xl font-bold text-gray-800">Award</div>
-                          <div className="text-left text-lg font-bold text-gray-800"># 1</div>
-                        </div>
-                        <p className="mt-1 text-left text-xl text-gray-600">Total: 36899</p>
-                        <div className="">
-                          <div className="mt-2 flex items-center justify-between">
-                            <div className="text-center">
-                              <p className="mt-1 text-left text-base text-gray-600 md:text-xl">
-                                Price:
-                                <Image
-                                  className="relative mt-1 inline-block w-max"
-                                  layout="intrinsic"
-                                  width={24}
-                                  height={24}
-                                  src="/Logo/eth.png"
-                                  alt="eth"
-                                />
-                                ---
-                              </p>
-                            </div>
-                            <div className="text-center">
-                              <p className="mt-1 text-left text-base text-gray-600">
-                                <Image
-                                  className="mt-1 inline-block w-max"
-                                  width={18}
-                                  height={18}
-                                  src="/Logo/usd.png"
-                                  alt="usd"
-                                />
-                                ---
-                              </p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div className="flex items-center justify-between">
-                        <button className="absolute bottom-0 left-0 w-full translate-y-full border bg-p1-darkgreen bg-opacity-90 py-3 text-center text-xl text-p1-white transition-transform duration-500 ease-in-out hover:bg-p1-green group-hover:translate-y-0">
-                          Discover
-                        </button>
-                      </div>
-                    </div>
-                    <div>1</div>
                   </div>
 
-                  <div className="pt-2 text-left">Награды</div>
+                  <div className="pt-12 text-left">Награды</div>
                   <div className="mt-2 grid grid-cols-5 place-items-center gap-2 space-x-2 p-4 text-base md:text-xl">
-                    <div className="group relative w-80 overflow-hidden rounded-3xl border border-gray-200 bg-white shadow-lg hover:shadow-2xl">
+                    <div className="group relative w-full overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-300 hover:shadow-2xl">
                       <div>
-                        <button className="absolute left-2 top-2 z-50 rounded-full bg-blue-500 px-3 py-1 text-sm text-white">
+                        <button className="absolute left-2 top-2 z-50 rounded-br-lg rounded-tl-lg bg-blue-500 px-3 py-1 text-sm text-white">
                           Rare
                         </button>
                       </div>
-
                       <div className="relative">
                         <Link href="/card" className="mx-auto justify-center hover:drop-shadow-2xl">
                           <Image
@@ -3105,16 +3976,22 @@ export default function Home() {
                         </Link>
                       </div>
 
-                      <div className="w-full bg-p1-white p-4 text-p1-darkgreen transition-transform duration-500 ease-in-out group-hover:-translate-y-12">
+                      <div className="w-full bg-p1-white bg-opacity-10 p-4 text-p1-darkgreen transition-transform duration-500 ease-in-out group-hover:-translate-y-12 group-hover:bg-opacity-50 dark:bg-p1-green dark:text-p1-white">
                         <div className="flex items-center justify-between">
-                          <div className="text-left text-xl font-bold text-gray-800">Award</div>
-                          <div className="text-left text-lg font-bold text-gray-800"># 1</div>
+                          <div className="text-left text-xl font-bold text-gray-800 dark:text-p1-white">
+                            Award
+                          </div>
+                          <div className="text-left text-lg font-bold text-gray-800 dark:text-p1-white">
+                            # 1
+                          </div>
                         </div>
-                        <p className="mt-1 text-left text-xl text-gray-600">Total: 36899</p>
+                        <p className="mt-1 text-left text-xl text-gray-600 dark:text-p1-white">
+                          Total: 10.000
+                        </p>
                         <div className="">
                           <div className="mt-2 flex items-center justify-between">
                             <div className="text-center">
-                              <p className="mt-1 text-left text-base text-gray-600 md:text-xl">
+                              <p className="mt-1 text-left text-base text-gray-600 md:text-xl dark:text-p1-white">
                                 Price:
                                 <Image
                                   className="relative mt-1 inline-block w-max"
@@ -3128,7 +4005,7 @@ export default function Home() {
                               </p>
                             </div>
                             <div className="text-center">
-                              <p className="mt-1 text-left text-base text-gray-600">
+                              <p className="mt-1 text-left text-base text-gray-600 md:text-xl dark:text-p1-white">
                                 <Image
                                   className="mt-1 inline-block w-max"
                                   width={18}
@@ -3142,10 +4019,18 @@ export default function Home() {
                           </div>
                         </div>
                       </div>
+
                       <div className="flex items-center justify-between">
-                        <button className="absolute bottom-0 left-0 w-full translate-y-full border bg-p1-darkgreen bg-opacity-90 py-3 text-center text-xl text-p1-white transition-transform duration-500 ease-in-out hover:bg-p1-green group-hover:translate-y-0">
-                          Discover
-                        </button>
+                        <div className="absolute bottom-0 left-0 w-full translate-y-full bg-p1-darkgreen bg-opacity-100 text-center text-xl text-p2-white2 transition-transform duration-500 ease-in-out hover:bg-p1-darkgreen group-hover:translate-y-0">
+                          <div className="inline-flex w-full justify-center" role="group">
+                            <Link
+                              href="#"
+                              className="inline-block w-full place-content-center rounded-b-xl border-2 border-p1-darkgreen bg-p1-darkgreen text-center text-xl font-semibold text-p1-white shadow-lg transition-all duration-300 ease-in-out hover:border-p1-cyan hover:bg-p1-darkgreen hover:text-2xl hover:text-p1-white focus:border-p1-cyan focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-white dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                            >
+                              Discovery
+                            </Link>
+                          </div>
+                        </div>
                       </div>
                     </div>
                     <div className="col-span-2 w-full">
@@ -3281,63 +4166,74 @@ export default function Home() {
                       <div className="pb-2"></div>
                     </div>
 
-                    <div className="group relative w-80 overflow-hidden rounded-3xl border border-gray-200 bg-white shadow-lg hover:shadow-2xl">
+                    <div className="group relative w-full overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-300 hover:shadow-2xl">
                       <div>
-                        <button className="absolute left-2 top-2 z-50 rounded-full bg-blue-500 px-3 py-1 text-sm text-white">
+                        <button className="absolute left-2 top-2 z-50 rounded-br-lg rounded-tl-lg bg-blue-500 px-3 py-1 text-sm text-white">
                           Rare
                         </button>
                       </div>
-
                       <div className="relative">
                         <Link href="/card" className="mx-auto justify-center hover:drop-shadow-2xl">
                           <Image
                             width={480}
                             height={480}
                             src="/HeroNFT/Drivers/Driver4.png"
-                            alt="Driver4"
+                            alt="Drivers"
                             className="h-full w-full object-cover transition-transform duration-500 ease-in-out group-hover:scale-150"
                           />
                         </Link>
                       </div>
 
-                      <div className="w-full bg-p1-white p-4 text-p1-darkgreen transition-transform duration-500 ease-in-out group-hover:-translate-y-12">
+                      <div className="w-full bg-p1-white bg-opacity-10 p-4 text-p1-darkgreen transition-transform duration-500 ease-in-out group-hover:-translate-y-12 group-hover:bg-opacity-50 dark:bg-p1-green dark:text-p1-white">
                         <div className="flex items-center justify-between">
-                          <div className="text-left text-xl font-bold text-gray-800">Driver</div>
-                          <div className="text-left text-lg font-bold text-gray-800"># 88</div>
+                          <div className="text-left text-xl font-bold text-gray-800 dark:text-p1-white">
+                            Driver
+                          </div>
+                          <div className="text-left text-lg font-bold text-gray-800 dark:text-p1-white">
+                            # 88
+                          </div>
                         </div>
-                        <p className="mt-1 text-left text-xl text-gray-600">Total: 15.000</p>
-                        <p className="text-regular mt-1 text-center text-base text-gray-600">
+                        <p className="mt-1 text-left text-base text-gray-600 group-hover:text-p1-deepdarkgreen dark:text-p1-white">
                           Цареградцев Аркадий Петрович
                         </p>
                         <div className="">
                           <div className="mt-2 flex items-center justify-between">
                             <div className="text-center">
-                              <p className="mt-1 text-left text-sm text-gray-600 md:text-xl">
-                                Одержимые
+                              <p className="mt-1 text-left text-xl text-gray-600 group-hover:text-p1-deepdarkgreen md:text-xl dark:text-p1-white">
+                                Команда: Одержимые
                               </p>
                             </div>
                             <div className="text-center">
-                              <p className="mt-1 text-left text-base text-gray-600">Царь</p>
+                              <p className="mt-1 text-left text-base text-gray-600 group-hover:text-p1-deepdarkgreen md:text-xl dark:text-p1-white">
+                                Царь
+                              </p>
                             </div>
                           </div>
                         </div>
                       </div>
+
                       <div className="flex items-center justify-between">
-                        <button className="absolute bottom-0 left-0 w-full translate-y-full border bg-p1-darkgreen bg-opacity-90 py-3 text-center text-xl text-p1-white transition-transform duration-500 ease-in-out hover:bg-p1-green group-hover:translate-y-0">
-                          Buy
-                        </button>
+                        <div className="absolute bottom-0 left-0 w-full translate-y-full bg-p1-darkgreen bg-opacity-100 text-center text-xl text-p2-white2 transition-transform duration-500 ease-in-out hover:bg-p1-darkgreen group-hover:translate-y-0">
+                          <div className="inline-flex w-full justify-center" role="group">
+                            <Link
+                              href="#"
+                              className="inline-block w-full place-content-center rounded-bl-xl border-2 border-p1-darkgreen bg-p1-darkgreen text-center text-xl font-semibold text-p1-white shadow-lg transition-all duration-300 ease-in-out hover:border-p1-cyan hover:bg-p1-darkgreen hover:text-2xl hover:text-p1-white focus:border-p1-cyan focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-white dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                            >
+                              Discover
+                            </Link>
+                          </div>
+                        </div>
                       </div>
                     </div>
 
                     <div className="mt-2 grid grid-cols-2 place-items-center gap-2 space-x-2 p-4 text-base md:text-xl">
                       <div>
-                        <div className="w-30 group relative overflow-hidden rounded-3xl border border-gray-200 bg-white shadow-lg hover:shadow-2xl">
+                        <div className="group relative w-full overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-300 hover:shadow-2xl">
                           <div>
-                            <button className="absolute left-2 top-2 z-50 rounded-full bg-blue-500 px-3 py-1 text-sm text-white">
+                            <button className="absolute left-2 top-2 z-50 rounded-br-lg rounded-tl-lg bg-blue-500 px-3 py-1 text-sm text-white">
                               Rare
                             </button>
                           </div>
-
                           <div className="relative">
                             <Link
                               href="/card"
@@ -3353,28 +4249,41 @@ export default function Home() {
                             </Link>
                           </div>
 
-                          <div className="w-full bg-p1-white p-4 text-p1-darkgreen transition-transform duration-500 ease-in-out group-hover:-translate-y-12">
+                          <div className="w-full bg-p1-white bg-opacity-10 p-4 text-p1-darkgreen transition-transform duration-500 ease-in-out group-hover:-translate-y-12 group-hover:bg-opacity-50 dark:bg-p1-green dark:text-p1-white">
                             <div className="flex items-center justify-between">
-                              <div className="text-left text-xl font-bold text-gray-800">Award</div>
-                              <div className="text-left text-lg font-bold text-gray-800"># 1</div>
+                              <div className="text-left text-xl font-bold text-gray-800 dark:text-p1-white">
+                                Award
+                              </div>
+                              <div className="text-left text-lg font-bold text-gray-800 dark:text-p1-white">
+                                # 1
+                              </div>
                             </div>
-                            <p className="mt-1 text-left text-xl text-gray-600">Total: 36899</p>
+                            <p className="mt-1 text-left text-xl text-gray-600 dark:text-p1-white">
+                              Total: 10.000
+                            </p>
                           </div>
+
                           <div className="flex items-center justify-between">
-                            <button className="absolute bottom-0 left-0 w-full translate-y-full border bg-p1-darkgreen bg-opacity-90 py-3 text-center text-xl text-p1-white transition-transform duration-500 ease-in-out hover:bg-p1-green group-hover:translate-y-0">
-                              Discover
-                            </button>
+                            <div className="absolute bottom-0 left-0 w-full translate-y-full bg-p1-darkgreen bg-opacity-100 text-center text-xl text-p2-white2 transition-transform duration-500 ease-in-out hover:bg-p1-darkgreen group-hover:translate-y-0">
+                              <div className="inline-flex w-full justify-center" role="group">
+                                <Link
+                                  href="#"
+                                  className="inline-block w-full place-content-center rounded-b-xl border-2 border-p1-darkgreen bg-p1-darkgreen text-center text-xl font-semibold text-p1-white shadow-lg transition-all duration-300 ease-in-out hover:border-p1-cyan hover:bg-p1-darkgreen hover:text-2xl hover:text-p1-white focus:border-p1-cyan focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-white dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                                >
+                                  Discovery
+                                </Link>
+                              </div>
+                            </div>
                           </div>
                         </div>
                       </div>
                       <div>
-                        <div className="w-30 group relative overflow-hidden rounded-3xl border border-gray-200 bg-white shadow-lg hover:shadow-2xl">
+                        <div className="group relative w-full overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-300 hover:shadow-2xl">
                           <div>
-                            <button className="absolute left-2 top-2 z-50 rounded-full bg-blue-500 px-3 py-1 text-sm text-white">
+                            <button className="absolute left-2 top-2 z-50 rounded-br-lg rounded-tl-lg bg-blue-500 px-3 py-1 text-sm text-white">
                               Rare
                             </button>
                           </div>
-
                           <div className="relative">
                             <Link
                               href="/card"
@@ -3390,28 +4299,41 @@ export default function Home() {
                             </Link>
                           </div>
 
-                          <div className="w-full bg-p1-white p-4 text-p1-darkgreen transition-transform duration-500 ease-in-out group-hover:-translate-y-12">
+                          <div className="w-full bg-p1-white bg-opacity-10 p-4 text-p1-darkgreen transition-transform duration-500 ease-in-out group-hover:-translate-y-12 group-hover:bg-opacity-50 dark:bg-p1-green dark:text-p1-white">
                             <div className="flex items-center justify-between">
-                              <div className="text-left text-xl font-bold text-gray-800">Award</div>
-                              <div className="text-left text-lg font-bold text-gray-800"># 1</div>
+                              <div className="text-left text-xl font-bold text-gray-800 dark:text-p1-white">
+                                Award
+                              </div>
+                              <div className="text-left text-lg font-bold text-gray-800 dark:text-p1-white">
+                                # 1
+                              </div>
                             </div>
-                            <p className="mt-1 text-left text-xl text-gray-600">Total: 36899</p>
+                            <p className="mt-1 text-left text-xl text-gray-600 dark:text-p1-white">
+                              Total: 10.000
+                            </p>
                           </div>
+
                           <div className="flex items-center justify-between">
-                            <button className="absolute bottom-0 left-0 w-full translate-y-full border bg-p1-darkgreen bg-opacity-90 py-3 text-center text-xl text-p1-white transition-transform duration-500 ease-in-out hover:bg-p1-green group-hover:translate-y-0">
-                              Discover
-                            </button>
+                            <div className="absolute bottom-0 left-0 w-full translate-y-full bg-p1-darkgreen bg-opacity-100 text-center text-xl text-p2-white2 transition-transform duration-500 ease-in-out hover:bg-p1-darkgreen group-hover:translate-y-0">
+                              <div className="inline-flex w-full justify-center" role="group">
+                                <Link
+                                  href="#"
+                                  className="inline-block w-full place-content-center rounded-b-xl border-2 border-p1-darkgreen bg-p1-darkgreen text-center text-xl font-semibold text-p1-white shadow-lg transition-all duration-300 ease-in-out hover:border-p1-cyan hover:bg-p1-darkgreen hover:text-2xl hover:text-p1-white focus:border-p1-cyan focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-white dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                                >
+                                  Discovery
+                                </Link>
+                              </div>
+                            </div>
                           </div>
                         </div>
                       </div>
                       <div>
-                        <div className="w-30 group relative overflow-hidden rounded-3xl border border-gray-200 bg-white shadow-lg hover:shadow-2xl">
+                        <div className="group relative w-full overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-300 hover:shadow-2xl">
                           <div>
-                            <button className="absolute left-2 top-2 z-50 rounded-full bg-blue-500 px-3 py-1 text-sm text-white">
+                            <button className="absolute left-2 top-2 z-50 rounded-br-lg rounded-tl-lg bg-blue-500 px-3 py-1 text-sm text-white">
                               Rare
                             </button>
                           </div>
-
                           <div className="relative">
                             <Link
                               href="/card"
@@ -3427,28 +4349,41 @@ export default function Home() {
                             </Link>
                           </div>
 
-                          <div className="w-full bg-p1-white p-4 text-p1-darkgreen transition-transform duration-500 ease-in-out group-hover:-translate-y-12">
+                          <div className="w-full bg-p1-white bg-opacity-10 p-4 text-p1-darkgreen transition-transform duration-500 ease-in-out group-hover:-translate-y-12 group-hover:bg-opacity-50 dark:bg-p1-green dark:text-p1-white">
                             <div className="flex items-center justify-between">
-                              <div className="text-left text-xl font-bold text-gray-800">Award</div>
-                              <div className="text-left text-lg font-bold text-gray-800"># 1</div>
+                              <div className="text-left text-xl font-bold text-gray-800 dark:text-p1-white">
+                                Award
+                              </div>
+                              <div className="text-left text-lg font-bold text-gray-800 dark:text-p1-white">
+                                # 1
+                              </div>
                             </div>
-                            <p className="mt-1 text-left text-xl text-gray-600">Total: 36899</p>
+                            <p className="mt-1 text-left text-xl text-gray-600 dark:text-p1-white">
+                              Total: 10.000
+                            </p>
                           </div>
+
                           <div className="flex items-center justify-between">
-                            <button className="absolute bottom-0 left-0 w-full translate-y-full border bg-p1-darkgreen bg-opacity-90 py-3 text-center text-xl text-p1-white transition-transform duration-500 ease-in-out hover:bg-p1-green group-hover:translate-y-0">
-                              Discover
-                            </button>
+                            <div className="absolute bottom-0 left-0 w-full translate-y-full bg-p1-darkgreen bg-opacity-100 text-center text-xl text-p2-white2 transition-transform duration-500 ease-in-out hover:bg-p1-darkgreen group-hover:translate-y-0">
+                              <div className="inline-flex w-full justify-center" role="group">
+                                <Link
+                                  href="#"
+                                  className="inline-block w-full place-content-center rounded-b-xl border-2 border-p1-darkgreen bg-p1-darkgreen text-center text-xl font-semibold text-p1-white shadow-lg transition-all duration-300 ease-in-out hover:border-p1-cyan hover:bg-p1-darkgreen hover:text-2xl hover:text-p1-white focus:border-p1-cyan focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-white dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                                >
+                                  Discovery
+                                </Link>
+                              </div>
+                            </div>
                           </div>
                         </div>
                       </div>
                       <div>
-                        <div className="w-30 group relative overflow-hidden rounded-3xl border border-gray-200 bg-white shadow-lg hover:shadow-2xl">
+                        <div className="group relative w-full overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-300 hover:shadow-2xl">
                           <div>
-                            <button className="absolute left-2 top-2 z-50 rounded-full bg-blue-500 px-3 py-1 text-sm text-white">
+                            <button className="absolute left-2 top-2 z-50 rounded-br-lg rounded-tl-lg bg-blue-500 px-3 py-1 text-sm text-white">
                               Rare
                             </button>
                           </div>
-
                           <div className="relative">
                             <Link
                               href="/card"
@@ -3464,17 +4399,31 @@ export default function Home() {
                             </Link>
                           </div>
 
-                          <div className="w-full bg-p1-white p-4 text-p1-darkgreen transition-transform duration-500 ease-in-out group-hover:-translate-y-12">
+                          <div className="w-full bg-p1-white bg-opacity-10 p-4 text-p1-darkgreen transition-transform duration-500 ease-in-out group-hover:-translate-y-12 group-hover:bg-opacity-50 dark:bg-p1-green dark:text-p1-white">
                             <div className="flex items-center justify-between">
-                              <div className="text-left text-xl font-bold text-gray-800">Award</div>
-                              <div className="text-left text-lg font-bold text-gray-800"># 1</div>
+                              <div className="text-left text-xl font-bold text-gray-800 dark:text-p1-white">
+                                Award
+                              </div>
+                              <div className="text-left text-lg font-bold text-gray-800 dark:text-p1-white">
+                                # 1
+                              </div>
                             </div>
-                            <p className="mt-1 text-left text-xl text-gray-600">Total: 36899</p>
+                            <p className="mt-1 text-left text-xl text-gray-600 dark:text-p1-white">
+                              Total: 10.000
+                            </p>
                           </div>
+
                           <div className="flex items-center justify-between">
-                            <button className="absolute bottom-0 left-0 w-full translate-y-full border bg-p1-darkgreen bg-opacity-90 py-3 text-center text-xl text-p1-white transition-transform duration-500 ease-in-out hover:bg-p1-green group-hover:translate-y-0">
-                              Discover
-                            </button>
+                            <div className="absolute bottom-0 left-0 w-full translate-y-full bg-p1-darkgreen bg-opacity-100 text-center text-xl text-p2-white2 transition-transform duration-500 ease-in-out hover:bg-p1-darkgreen group-hover:translate-y-0">
+                              <div className="inline-flex w-full justify-center" role="group">
+                                <Link
+                                  href="#"
+                                  className="inline-block w-full place-content-center rounded-b-xl border-2 border-p1-darkgreen bg-p1-darkgreen text-center text-xl font-semibold text-p1-white shadow-lg transition-all duration-300 ease-in-out hover:border-p1-cyan hover:bg-p1-darkgreen hover:text-2xl hover:text-p1-white focus:border-p1-cyan focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-white dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                                >
+                                  Discovery
+                                </Link>
+                              </div>
+                            </div>
                           </div>
                         </div>
                       </div>
