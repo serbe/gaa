@@ -16,9 +16,9 @@ const Buttons = ({ lider, setter }: { lider: number; setter: (liderNumber: numbe
       <button
         id="button-drivers"
         className={
-          'w-full rounded-l-2xl border border-gray-200 ' +
-          (lider == 0 ? 'bg-red-400 dark:bg-red-900' : 'bg-white') +
-          ' rounded-l-xl border-2 border-red-400 bg-p2-white2 p-5 text-center text-sm font-medium text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-red-400 hover:text-p1-white focus:z-10 focus:bg-red-400 focus:text-p1-white focus:ring-2 focus:ring-red-400 md:p-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:bg-red-900 dark:hover:text-red-100 dark:focus:text-p1-cyan dark:focus:ring-p1-green'
+          'w-full rounded-l-2xl border ' +
+          (lider == 0 ? 'bg-red-400 text-p1-white dark:bg-red-900' : 'bg-white') +
+          ' rounded-l-xl border-red-400 bg-p2-white2 p-5 text-center text-sm font-medium text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-red-400 hover:text-p1-white focus:z-10 focus:bg-red-400 focus:text-p1-white focus:ring-2 focus:ring-red-400 md:p-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:bg-red-900 dark:hover:text-red-100 dark:focus:text-p1-cyan dark:focus:ring-p1-green'
         }
         onClick={() => setter(0)}
       >
@@ -27,9 +27,9 @@ const Buttons = ({ lider, setter }: { lider: number; setter: (liderNumber: numbe
       <button
         id="button-team-members"
         className={
-          'w-full border border-gray-200 ' +
-          (lider == 1 ? 'bg-p3-blue dark:bg-p3-violet' : 'bg-white') +
-          ' border-2 border-p3-blue bg-p2-white2 p-5 text-center text-sm font-medium text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p3-blue hover:text-p1-white focus:z-10 focus:bg-p3-blue focus:text-p1-white focus:ring-2 focus:ring-p3-blue md:p-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:bg-p3-violet dark:hover:text-white dark:focus:text-white dark:focus:ring-p1-green'
+          'w-full border ' +
+          (lider == 1 ? 'bg-p3-blue text-p1-white dark:bg-p3-violet' : 'bg-white') +
+          ' border-p3-blue bg-p2-white2 p-5 text-center text-sm font-medium text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p3-blue hover:text-p1-white focus:z-10 focus:bg-p3-blue focus:text-p1-white focus:ring-2 focus:ring-p3-blue md:p-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:bg-p3-violet dark:hover:text-white dark:focus:text-white dark:focus:ring-p3-blue'
         }
         onClick={() => setter(1)}
       >
@@ -38,9 +38,9 @@ const Buttons = ({ lider, setter }: { lider: number; setter: (liderNumber: numbe
       <button
         id="button-collectors"
         className={
-          'w-full border border-gray-200 ' +
-          (lider == 2 ? 'bg-stone-500 dark:bg-stone-700' : 'bg-white') +
-          ' ddark:focus:ring-p1-green border-2 border-stone-500 bg-p2-white2 p-5 text-center text-sm font-medium text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-stone-500 hover:text-p1-white focus:z-10 focus:bg-stone-500 focus:text-p1-white focus:ring-2 focus:ring-stone-500 md:p-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:bg-stone-700 dark:hover:text-stone-100 dark:focus:text-white'
+          'w-full border ' +
+          (lider == 2 ? 'bg-stone-500 text-p1-white dark:bg-stone-700' : 'bg-white') +
+          ' border-stone-500 bg-p2-white2 p-5 text-center text-sm font-medium text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-stone-500 hover:text-p1-white focus:z-10 focus:bg-stone-500 focus:text-p1-white focus:ring-2 focus:ring-stone-500 md:p-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:bg-stone-700 dark:hover:text-stone-100 dark:focus:text-white dark:focus:ring-stone-500'
         }
         onClick={() => setter(2)}
       >
@@ -49,9 +49,9 @@ const Buttons = ({ lider, setter }: { lider: number; setter: (liderNumber: numbe
       <Link
         href="/discoverycars"
         className={
-          'w-full rounded-r-2xl border border-gray-200 ' +
-          (lider == 3 ? 'bg-cyan-700 dark:bg-cyan-900' : 'bg-white') +
-          ' rounded-r-xl border-2 border-cyan-700 bg-p2-white2 p-5 text-center text-sm font-medium text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-cyan-700 hover:text-p1-white focus:z-10 focus:bg-cyan-700 focus:text-p1-white focus:ring-2 focus:ring-cyan-700 md:p-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:bg-cyan-900 dark:hover:text-white dark:focus:text-white dark:focus:ring-p1-green'
+          'w-full rounded-r-2xl border ' +
+          (lider == 3 ? 'bg-cyan-700 text-p1-white dark:bg-cyan-900' : 'bg-white') +
+          ' rounded-r-xl border border-cyan-700 bg-p2-white2 p-5 text-center text-sm font-medium text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-cyan-700 hover:text-p1-white focus:z-10 focus:bg-cyan-700 focus:text-p1-white focus:ring-2 focus:ring-cyan-700 md:p-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:bg-cyan-900 dark:hover:text-white dark:focus:text-white dark:focus:ring-cyan-700'
         }
       >
         Cars
