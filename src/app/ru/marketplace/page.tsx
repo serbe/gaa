@@ -109,7 +109,7 @@ export default function Home() {
 
                 <div className="invisible absolute left-1/2 mt-2 w-64 -translate-x-1/2 transform rounded bg-p1-cyan p-4 text-gray-800 opacity-0 shadow-lg transition-all duration-300 group-hover:visible group-hover:opacity-100">
                   <div className="rounded-xl p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen">
-                    <Link href={'#'} className="mx-auto justify-center">
+                    <Link href={'/profile'} className="mx-auto justify-center">
                       <Image
                         className="h-4 w-4"
                         width={480}
@@ -118,6 +118,18 @@ export default function Home() {
                         alt="Bordered avatar"
                       />
                       Profile
+                    </Link>
+                  </div>
+                  <div className="rounded-xl p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen">
+                    <Link href={'#'} className="mx-auto justify-center">
+                      <Image
+                        className="h-4 w-4"
+                        width={480}
+                        height={480}
+                        src="/Logo/cart.png"
+                        alt="Bordered avatar"
+                      />
+                      Dashboard
                     </Link>
                   </div>
                   <div className="rounded-xl p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen">
@@ -811,7 +823,6 @@ export default function Home() {
                 className="grid w-1/5 place-content-center rounded-br-xl border-2 border-p1-darkgreen bg-p1-darkgreen text-center text-lg font-semibold shadow-lg shadow-p1-cyan transition-all duration-300 ease-in-out hover:scale-75 hover:border-p1-cyan hover:bg-p1-darkgreen hover:text-p1-white hover:shadow-2xl hover:shadow-p1-cyan hover:ring-p1-cyan focus:scale-75 focus:ring-p1-cyan md:text-3xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
               >
                 <Image
-                  svg="fill-white"
                   className="bg-p1-darkgreenе inline-block h-10 w-10 dark:bg-p1-deepdarkgreen dark:hover:bg-p1-deepdarkgreen"
                   width={480}
                   height={480}
