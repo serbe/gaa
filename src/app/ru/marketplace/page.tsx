@@ -516,7 +516,7 @@ export default function Home() {
       </div>
 
       {/* карточка 1 */}
-      <div className="group relative h-[43rem] w-[30rem] place-self-center overflow-hidden rounded-xl bg-white object-cover shadow-lg shadow-p1-green transition-transform duration-300 hover:shadow-lg hover:shadow-p1-cyan group-hover:shadow-lg dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
+      <div className="group relative h-[43rem] w-[30rem] place-self-center overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-300 hover:shadow-lg hover:shadow-p1-cyan group-hover:shadow-lg dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
         <div>
           <button className="invisible absolute left-2 top-2 z-10 inline-block rounded-br-lg rounded-tl-lg bg-blue-500 px-3 py-1 text-lg text-white duration-300 ease-in-out hover:bg-sky-800 group-hover:visible group-hover:opacity-100">
             Rare
@@ -679,7 +679,7 @@ export default function Home() {
 
       {/* карточка 2 */}
 
-      <div className="group relative h-[30rem] w-[20rem] place-self-center overflow-hidden rounded-xl bg-white object-cover shadow-lg shadow-p1-green transition-transform duration-300 hover:shadow-lg hover:shadow-p1-cyan group-hover:shadow-lg dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
+      <div className="group relative h-[30rem] w-[20rem] place-self-center overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-300 hover:shadow-lg hover:shadow-p1-cyan group-hover:shadow-lg dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
         <div>
           <button className="invisible absolute left-2 top-2 z-10 inline-block rounded-br-lg rounded-tl-lg bg-blue-500 px-3 py-1 text-lg text-white duration-300 ease-in-out hover:bg-sky-800 group-hover:visible group-hover:opacity-100">
             Rare
@@ -824,6 +824,166 @@ export default function Home() {
               >
                 <Image
                   className="bg-p1-darkgreenе inline-block h-10 w-10 dark:bg-p1-deepdarkgreen dark:hover:bg-p1-deepdarkgreen"
+                  width={480}
+                  height={480}
+                  src="/Logo/shopping-cart-white.png"
+                  alt="Bordered avatar"
+                />
+              </Link>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="pb-10"> </div>
+
+      {/* карточка 3 */}
+
+      <div className="group relative h-[21.6rem] w-[15rem] place-self-center overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-300 hover:shadow-lg hover:shadow-p1-cyan group-hover:shadow-lg dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
+        <div>
+          <button className="invisible absolute left-2 top-2 z-10 inline-block rounded-br-lg rounded-tl-lg bg-blue-500 px-3 py-1 text-lg text-white duration-300 ease-in-out hover:bg-sky-800 group-hover:visible group-hover:opacity-100">
+            Rare
+          </button>
+
+          <button className="invisible absolute left-2 top-14 z-50 inline-block rounded-lg px-3 py-1 text-center text-lg font-medium text-white transition-all duration-300 ease-in-out hover:scale-125 group-hover:visible">
+            <Image
+              className="relative inline-block w-max"
+              layout="intrinsic"
+              width={20}
+              height={20}
+              src="/Logo/eth1.png"
+              alt="eth"
+            />
+          </button>
+
+          <path
+            d="M18.527 12.2062L12 16.1938L5.46875 12.2062L12 1L18.527 12.2062ZM12 17.4742L5.46875 13.4867L12 23L18.5312 13.4867L12 17.4742V17.4742Z"
+            fill="white"
+          ></path>
+
+          <div className="group invisible absolute right-2 top-2 z-10 inline-block duration-300 ease-in-out group-hover:visible group-hover:opacity-100">
+            <Link href={'#'} className="mx-auto justify-center">
+              <Image
+                className="h-10 w-10 rounded-full p-1 ring-2 ring-p1-gray transition-all delay-75 duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:ring-p1-cyan dark:ring-p1-darkgreen"
+                width={480}
+                height={480}
+                src="/Logo/user.png"
+                alt="Bordered avatar"
+              />
+            </Link>
+            <Link
+              href={'#'}
+              className="top-14 z-50 grid w-10 place-content-center transition-all delay-75 duration-300 ease-in-out hover:scale-125"
+            >
+              <Image
+                className="p-1"
+                width={480}
+                height={480}
+                src="/Logo/heart-red.png"
+                alt="Bordered avatar"
+              />
+            </Link>
+          </div>
+        </div>
+
+        <div className="relative">
+          <Link href="/card" className="mx-auto justify-center">
+            <Image
+              width={500}
+              height={500}
+              src="/HeroNFT/RaceLads/RaceLads1.png"
+              alt="RaceLads"
+              className="h-[15rem] w-[15rem] object-cover transition-transform duration-500 ease-in-out group-hover:scale-150"
+            />
+          </Link>
+        </div>
+
+        <div className="w-full bg-p2-white2 bg-opacity-100 p-1 text-p1-darkgreen transition-transform duration-500 ease-in-out group-hover:translate-y-28 group-hover:bg-opacity-100 group-hover:shadow-xl group-hover:shadow-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:group-hover:text-p1-cyan dark:group-hover:shadow-p1-green">
+          <div className="flex items-center justify-between">
+            <div className="text-left text-lg font-bold">RaceLad</div>
+            <div className="text-left text-lg font-bold"># 8888</div>
+          </div>
+          <p className="text-left text-sm">Total: 10.000</p>
+          <div className="pb-12">
+            <div className="flex items-center justify-between">
+              <div className="text-center">
+                <p className="text-center text-sm">
+                  Price:
+                  <Image
+                    className="relative inline-block w-max space-x-4 px-1"
+                    layout="intrinsic"
+                    width={12}
+                    height={12}
+                    src="/Logo/eth1.png"
+                    alt="eth"
+                  />
+                  0.001
+                </p>
+              </div>
+              <div className="space-x-4 text-center">
+                <p className="text-left text-sm">
+                  <Image
+                    className="inline-block w-max"
+                    width={6}
+                    height={6}
+                    src="/Logo/usd-green.png"
+                    alt="usd"
+                  />
+                  25.000
+                </p>
+              </div>
+            </div>
+            <Link href={'#'} className="grid w-6 place-content-center">
+              <Image
+                className="px-1"
+                width={480}
+                height={480}
+                src="/Logo/heart-red.png"
+                alt="Bordered avatar"
+              />
+            </Link>
+          </div>
+        </div>
+
+        <div className="flex items-center justify-between">
+          <div className="absolute bottom-0 left-0 w-full translate-y-full bg-p1-darkgreen bg-opacity-100 text-center text-p2-white2 shadow-sm shadow-p1-green transition-transform duration-500 ease-in-out hover:bg-p1-darkgreen group-hover:translate-y-0 dark:bg-p1-deepdarkgreen">
+            <div className="inline-flex h-[3rem] w-[15rem] justify-center text-sm" role="group">
+              <Link
+                href="#"
+                className="grid w-4/5 place-content-center rounded-bl-xl border-2 border-p1-darkgreen bg-p1-darkgreen text-center text-sm shadow-lg shadow-p1-cyan transition-all duration-300 ease-in-out hover:border-p1-cyan hover:bg-p1-darkgreen hover:text-p1-white hover:shadow-2xl hover:shadow-p1-cyan md:text-3xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+              >
+                <div className="grid grid-cols-3 space-x-1 text-center text-sm">
+                  <div className="self-end text-sm">Buy Price:</div>
+                  <div className="px-2 text-sm">
+                    <Image
+                      className="relative inline-block w-5 px-1"
+                      layout="intrinsic"
+                      width={4}
+                      height={4}
+                      src="/Logo/eth1.png"
+                      alt="eth"
+                    />
+                    0.001
+                  </div>
+                  <div>
+                    <Image
+                      className="inline-block w-4 px-1"
+                      width={3}
+                      height={3}
+                      src="/Logo/usd-cyan.png"
+                      alt="usd"
+                    />
+                    25.000
+                  </div>
+                </div>
+              </Link>
+
+              <Link
+                href={'#'}
+                className="grid w-1/5 place-content-center rounded-br-xl border-2 border-p1-darkgreen bg-p1-darkgreen text-center text-lg font-semibold shadow-lg shadow-p1-cyan transition-all duration-300 ease-in-out hover:scale-75 hover:border-p1-cyan hover:bg-p1-darkgreen hover:text-p1-white hover:shadow-2xl hover:shadow-p1-cyan hover:ring-p1-cyan focus:scale-75 focus:ring-p1-cyan md:text-3xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+              >
+                <Image
+                  className="bg-p1-darkgreenе inline-block h-6 w-6 dark:bg-p1-deepdarkgreen dark:hover:bg-p1-deepdarkgreen"
                   width={480}
                   height={480}
                   src="/Logo/shopping-cart-white.png"
