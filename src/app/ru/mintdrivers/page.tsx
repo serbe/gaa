@@ -13,10 +13,10 @@ export default function Page() {
       <JumpButton points={jumpPoints} />
 
       <div className="flex flex-wrap justify-center md:flex-nowrap md:justify-between">
-        <div className="px-2 text-2xl font-semibold text-red-400 md:pt-2 md:text-4xl dark:text-red-900">
+        <div className="px-2 text-2xl font-semibold text-red-400 md:pt-2 md:text-4xl dark:text-red-400">
           Drivers NFT
         </div>
-        <div className="px-2 text-2xl font-semibold text-red-400 md:pt-2 md:text-4xl dark:text-red-900">
+        <div className="px-2 text-2xl font-semibold text-red-400 md:pt-2 md:text-4xl dark:text-red-400">
           Страница создания NFT
         </div>
       </div>
