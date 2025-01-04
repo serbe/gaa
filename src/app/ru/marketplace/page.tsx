@@ -231,7 +231,7 @@ export default function Home() {
             </Link>
           </div>
         </div>
-        <div className="grid h-1/5 grid-cols-1 p-1 md:grid-cols-2">
+        <div className="grid h-1/5 grid-cols-1 p-1 2xl:grid-cols-2">
           <div className="flex grid-flow-row auto-rows-max justify-start space-x-2 pt-2">
             <div>
               <p className="font-thing pt-1 text-xl md:px-10 md:text-2xl">Items: 10.000 </p>
@@ -266,7 +266,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="grid h-1/5 grid-cols-1 p-1 md:grid-cols-4 md:px-10 lg:grid-cols-4">
+      <div className="grid h-1/5 grid-cols-1 p-1 md:grid-cols-2 md:px-10 2xl:grid-cols-4">
         <div className="flex grid-flow-row auto-rows-max justify-start space-x-2">
           <div>
             <div
