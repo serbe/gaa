@@ -107,93 +107,59 @@ export default function Home() {
                   alt="Bordered avatar"
                 />
 
-                <div className="invisible absolute left-1/2 mt-2 w-64 -translate-x-1/2 transform rounded bg-p1-cyan p-4 text-gray-800 opacity-0 shadow-lg transition-all duration-300 group-hover:visible group-hover:opacity-100">
-                  <div className="rounded-xl p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen">
+                <div className="invisible absolute left-1/2 mt-2 w-64 -translate-x-1/2 transform rounded-xl bg-sky-300 p-4 text-gray-800 opacity-0 shadow-lg transition-all duration-300 group-hover:visible group-hover:opacity-100">
+                  <div className="rounded-lg p-1 px-3 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen">
                     <Link href={'/profile'} className="mx-auto justify-center">
-                      <Image
-                        className="h-4 w-4"
-                        width={480}
-                        height={480}
-                        src="/Logo/cart.png"
-                        alt="Bordered avatar"
-                      />
                       Profile
                     </Link>
                   </div>
-                  <div className="rounded-xl p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen">
-                    <Link href={'#'} className="mx-auto justify-center">
-                      <Image
-                        className="h-4 w-4"
-                        width={480}
-                        height={480}
-                        src="/Logo/cart.png"
-                        alt="Bordered avatar"
-                      />
+                  <div className="rounded-lg p-1 px-3 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen">
+                    <Link href={'/dashboard'} className="mx-auto justify-center">
                       Dashboard
                     </Link>
                   </div>
-                  <div className="rounded-xl p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen">
+                  <div className="rounded-lg p-1 px-3 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen">
+                    <Link href={'/marketplace'} className="mx-auto justify-center">
+                      Marketplace
+                    </Link>
+                  </div>
+                  <div className="rounded-lg p-1 px-3 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen">
+                    <Link href={'/user'} className="mx-auto justify-center">
+                      ЛК user
+                    </Link>
+                  </div>
+                  <div className="rounded-lg p-1 px-3 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen">
+                    <Link href={'/userlicense'} className="mx-auto justify-center">
+                      ЛК with License
+                    </Link>
+                  </div>
+                  <div className="rounded-lg p-1 px-3 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen">
                     <Link href={'#'} className="mx-auto justify-center">
-                      <Image
-                        className="h-0 w-0"
-                        width={480}
-                        height={480}
-                        src="/Logo/cart.png"
-                        alt="Bordered avatar"
-                      />
                       Watchlist
                     </Link>
                   </div>
 
-                  <div className="rounded-xl p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen">
+                  <div className="rounded-lg p-1 px-3 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen">
                     <Link href={'#'} className="mx-auto justify-center">
-                      <Image
-                        className="h-0 w-0"
-                        width={480}
-                        height={480}
-                        src="/Logo/cart.png"
-                        alt="Bordered avatar"
-                      />
                       Deals
                     </Link>
                   </div>
-                  <div className="rounded-xl p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen">
+                  <div className="rounded-lg p-1 px-3 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen">
                     <Link href={'#'} className="mx-auto justify-center">
-                      <Image
-                        className="h-0 w-0"
-                        width={480}
-                        height={480}
-                        src="/Logo/cart.png"
-                        alt="Bordered avatar"
-                      />
                       Settings
                     </Link>
                   </div>
-                  <div className="rounded-xl p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen">
+                  <div className="rounded-lg p-1 px-3 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen">
                     <Link href={'#'} className="mx-auto justify-center">
-                      <Image
-                        className="h-0 w-0"
-                        width={480}
-                        height={480}
-                        src="/Logo/cart.png"
-                        alt="Bordered avatar"
-                      />
                       Dark mode
                     </Link>
                   </div>
-                  <div className="rounded-xl p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen">
+                  <div className="rounded-lg p-1 px-3 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen">
                     <Link href={'#'} className="mx-auto justify-center">
-                      <Image
-                        className="h-0 w-0"
-                        width={480}
-                        height={480}
-                        src="/Logo/cart.png"
-                        alt="Bordered avatar"
-                      />
                       Language
                     </Link>
                   </div>
-                  <div className="rounded-xl p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen">
+                  <div className="rounded-lg p-1 px-3 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen">
                     <Link href={'#'} className="mx-auto justify-center">
                       <Image
                         className="h-0 w-0"
@@ -515,12 +481,7 @@ export default function Home() {
         </div>
       </div>
 
-
-  
-
       <div className="pb-20"></div>
-
-
 
       {/* Коллекции */}
 
