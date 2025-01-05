@@ -63,7 +63,7 @@ export default function Home() {
                   </div>
                   <div className="rounded-lg p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen md:px-3">
                     <Link href={'#marketteams'} className="mx-auto justify-center">
-                      Team's members
+                      Team&apos;s members
                     </Link>
                   </div>
                   <div className="rounded-lg p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen md:px-3">
@@ -158,14 +158,10 @@ export default function Home() {
                   </div>
                   <div className="rounded-lg p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen md:px-3">
                     <Link href={'/user'} className="mx-auto justify-center">
-                      Personal account
+                      My NFT{' '}
                     </Link>
                   </div>
-                  <div className="rounded-lg p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen md:px-3">
-                    <Link href={'/userlicense'} className="mx-auto justify-center">
-                      Promoter account
-                    </Link>
-                  </div>
+
                   <div className="rounded-lg p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen md:px-3">
                     <Link href={'#'} className="mx-auto justify-center">
                       Watchlist
@@ -175,22 +171,6 @@ export default function Home() {
                   <div className="rounded-lg p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen md:px-3">
                     <Link href={'#'} className="mx-auto justify-center">
                       Deals
-                    </Link>
-                  </div>
-
-                  <div className="rounded-lg p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen md:px-3">
-                    <Link href={'#'} className="mx-auto justify-center">
-                      Dark mode
-                    </Link>
-                  </div>
-                  <div className="rounded-lg p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen md:px-3">
-                    <Link href={'#'} className="mx-auto justify-center">
-                      Language
-                    </Link>
-                  </div>
-                  <div className="rounded-lg p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen md:px-3">
-                    <Link href={'#'} className="mx-auto justify-center">
-                      Settings
                     </Link>
                   </div>
                 </div>
@@ -372,12 +352,11 @@ export default function Home() {
                   <option value="Best_offer">Best offer</option>
                   <option value="Highest_last_sale">Highest last sale</option>
                   <option value="Recently_sold">Recently sold</option>
-                  <option value="Recently_created">Recently created</option>
+
                   <option value="Most_viewed">Most viewed</option>
-                  <option value="Oldest">Oldest</option>
+
                   <option value="Most_favorited">Most favorited</option>
                   <option value="Ending_soon">Ending soon</option>
-                  <option value="Recently_received">Recently received</option>
                 </select>
               </form>
             </div>
@@ -407,12 +386,6 @@ export default function Home() {
                 className="inline-block w-max place-content-center border-2 bg-p1-white p-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:border-p1-darkgreen hover:bg-p1-green hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
               >
                 On Auction
-              </Link>
-              <Link
-                href="#"
-                className="inline-block w-max place-content-center border-2 bg-p1-white p-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:border-p1-darkgreen hover:bg-p1-green hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
-              >
-                New
               </Link>
 
               <Link
@@ -524,39 +497,15 @@ export default function Home() {
       {/* карточка 1 */}
       <div className="group relative h-[43rem] w-[30rem] place-self-center overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-300 hover:shadow-lg hover:shadow-p1-cyan group-hover:shadow-lg dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
         <div>
-          <button className="invisible absolute left-2 top-2 z-10 inline-block rounded-br-lg rounded-tl-lg bg-blue-500 px-3 py-1 text-lg text-white duration-300 ease-in-out hover:bg-sky-800 group-hover:visible group-hover:opacity-100">
-            Rare
-          </button>
-
-          <button className="invisible absolute left-2 top-14 z-50 inline-block rounded-lg px-3 py-1 text-center text-lg font-medium text-white transition-all duration-300 ease-in-out hover:scale-125 group-hover:visible">
-            <Image
-              className="relative inline-block w-10"
-              layout="intrinsic"
-              width={50}
-              height={50}
-              src="/Logo/eth1.png"
-              alt="eth"
-            />
-          </button>
-
           <path
             d="M18.527 12.2062L12 16.1938L5.46875 12.2062L12 1L18.527 12.2062ZM12 17.4742L5.46875 13.4867L12 23L18.5312 13.4867L12 17.4742V17.4742Z"
             fill="white"
           ></path>
 
           <div className="group invisible absolute right-2 top-2 z-10 inline-block duration-300 ease-in-out group-hover:visible group-hover:opacity-100">
-            <Link href={'#'} className="mx-auto justify-center">
-              <Image
-                className="h-10 w-10 rounded-full p-1 ring-2 ring-p1-gray transition-all delay-75 duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:ring-p1-cyan dark:ring-p1-darkgreen"
-                width={480}
-                height={480}
-                src="/Logo/user.png"
-                alt="Bordered avatar"
-              />
-            </Link>
             <Link
               href={'#'}
-              className="top-14 z-50 grid w-10 place-content-center transition-all delay-75 duration-300 ease-in-out hover:scale-125"
+              className="top-2 grid w-10 place-content-center transition-all delay-75 duration-300 ease-in-out hover:scale-125"
             >
               <Image
                 className="p-1"
@@ -616,15 +565,19 @@ export default function Home() {
                 </p>
               </div>
             </div>
-            <Link href={'#'} className="grid w-8 place-content-center">
-              <Image
-                className=""
-                width={480}
-                height={480}
-                src="/Logo/heart-red.png"
-                alt="Bordered avatar"
-              />
-            </Link>
+            <div className="text-left">
+              <p className="text-left text-2xl">
+                Last sale
+                <Image
+                  className="mt-1 inline-block w-5"
+                  width={50}
+                  height={50}
+                  src="/Logo/usd-green.png"
+                  alt="usd"
+                />
+                22.000
+              </p>
+            </div>
           </div>
         </div>
 
