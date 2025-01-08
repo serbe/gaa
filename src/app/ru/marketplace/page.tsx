@@ -1,7 +1,15 @@
 'use client';
 import Image from 'next/image';
 import { Link } from '@/i18n/routing';
+import { Autoplay, Mousewheel, Navigation, Pagination } from 'swiper/modules';
 
+import { Swiper, SwiperSlide } from 'swiper/react';
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/scrollbar';
+import 'swiper/css/pagination';
 import { useState } from 'react';
 import { JumpButton } from '@/components/jumpButton';
 export default function Home() {
@@ -11,113 +19,13 @@ export default function Home() {
     <div className="mx-auto w-full font-serif">
       <JumpButton points={jumpPoints} />
 
-      <div className="h-8/10 bg-[url('/background/bgsky.png')] bg-cover bg-center p-2 dark:brightness-75">
+      <div className="h-1/6 bg-[url('/background/bgsky.png')] bg-cover bg-center p-2 dark:brightness-75">
         <div className="flex justify-center space-x-2"></div>
         <div className="grid grid-cols-2 justify-center p-1 md:justify-between">
-          <div className="flex justify-start space-x-6">
-            <div className="group relative inline-block">
-              <Link href={'#'} className="mx-auto justify-center md:hidden">
-                <Image
-                  className="p-0.2 h-11 w-11 rounded-full ring-2 ring-p1-gray transition-all delay-75 duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:ring-p1-cyan dark:ring-p1-darkgreen"
-                  width={480}
-                  height={480}
-                  src="/Logo/GAA_Logo_1.png"
-                  alt="Bordered avatar"
-                />
-
-                <div className="invisible absolute -left-2 z-10 mt-2 w-28 translate-x-2 transform rounded-xl bg-sky-300 p-4 text-gray-800 opacity-0 shadow-lg transition-all duration-300 group-hover:visible group-hover:bg-opacity-50 group-hover:opacity-100 md:hidden">
-                  <div className="rounded-lg p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen md:px-3">
-                    <Link href={'/drops'} className="mx-auto justify-center">
-                      Drops
-                    </Link>
-                  </div>
-                  <div className="rounded-lg p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen md:px-3">
-                    <Link href={'/dashboard'} className="mx-auto justify-center">
-                      Stats
-                    </Link>
-                  </div>
-                  <div className="rounded-lg p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen md:px-3">
-                    <Link href={'/mintracelads'} className="mx-auto justify-center">
-                      Create
-                    </Link>
-                  </div>
-                </div>
-              </Link>
-            </div>
-            <nav className="hidden place-content-center space-x-6 text-center text-base font-bold text-p1-darkgreen md:visible md:grid md:grid-cols-5 md:text-base lg:text-lg xl:text-xl 2xl:text-2xl">
-              <Link
-                href="#"
-                className="group inline-block rounded-xl p-1 transition-all delay-75 duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-green focus:bg-p1-white focus:bg-opacity-50 focus:text-p1-deepdarkgreen"
-              >
-                RaceLads
-                <div className="invisible absolute left-32 z-10 mt-2 w-40 -translate-x-1/2 transform rounded-xl bg-sky-300 bg-opacity-50 p-4 text-gray-800 opacity-0 shadow-lg transition-all duration-300 group-hover:visible group-hover:opacity-100 md:w-52">
-                  <div className="rounded-lg p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen md:px-3">
-                    <Link href={'#marketracelads'} className="mx-auto justify-center">
-                      RaceLads
-                    </Link>
-                  </div>
-                  <div className="rounded-lg p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen md:px-3">
-                    <Link href={'#marketdrivers'} className="mx-auto justify-center">
-                      Drivers
-                    </Link>
-                  </div>
-                  <div className="rounded-lg p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen md:px-3">
-                    <Link href={'#marketteams'} className="mx-auto justify-center">
-                      Team&apos;s members
-                    </Link>
-                  </div>
-                  <div className="rounded-lg p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen md:px-3">
-                    <Link href={'#marketcollectors'} className="mx-auto justify-center">
-                      Collectors
-                    </Link>
-                  </div>
-                  <div className="rounded-lg p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen md:px-3">
-                    <Link href={'#marketcars'} className="mx-auto justify-center">
-                      Cars
-                    </Link>
-                  </div>
-                  <div className="rounded-lg p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen md:px-3">
-                    <Link href={'#marketcustomlads'} className="mx-auto justify-center">
-                      CustomLads
-                    </Link>
-                  </div>
-
-                  <div className="rounded-lg p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen md:px-3">
-                    <Link href={'#marketawards'} className="mx-auto justify-center">
-                      Awards
-                    </Link>
-                  </div>
-                  <div className="rounded-lg p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen md:px-3">
-                    <Link href={'#marketlicenses'} className="mx-auto justify-center">
-                      Licenses
-                    </Link>
-                  </div>
-                </div>
-              </Link>
-
-              <Link
-                href="/drops"
-                className="rounded-xl p-1 transition-all delay-75 duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-green focus:bg-p1-white focus:bg-opacity-50 focus:text-p1-deepdarkgreen"
-              >
-                Drops
-              </Link>
-              <Link
-                href="/dashboard"
-                className="rounded-xl p-1 transition-all delay-75 duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-green focus:bg-p1-white focus:bg-opacity-50 focus:text-p1-deepdarkgreen"
-              >
-                Stats
-              </Link>
-              <Link
-                href="/mintracelads"
-                className="rounded-xl p-1 transition-all delay-75 duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-green focus:bg-p1-white focus:bg-opacity-50 focus:text-p1-deepdarkgreen"
-              >
-                Create
-              </Link>
-            </nav>
-          </div>
+          <div className="flex justify-start space-x-6"></div>
 
           {/* кошелек, профиль, корзина */}
-          <div className="y- flex justify-end space-x-6 px-2 md:px-10">
+          <div className="flex justify-end space-x-6 px-2 md:px-10">
             <div>
               <Link href={'#'} className="mx-auto justify-center">
                 <Image
@@ -191,7 +99,7 @@ export default function Home() {
         </div>
         {/* Поиск 1 */}
         <div className="">
-          <div className="mx-auto flex w-60 overflow-hidden rounded-xl border-p1-green bg-p2-white2 bg-opacity-50 px-4 py-3 backdrop-blur-lg md:w-60 lg:w-72 2xl:w-96">
+          <div className="mx-auto flex w-72 overflow-hidden rounded-xl border-p1-green bg-p2-white2 bg-opacity-50 px-4 py-3 backdrop-blur-lg md:-my-6 lg:w-80 xl:w-96">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 192.904 192.904"
@@ -207,6 +115,457 @@ export default function Home() {
             />
           </div>
         </div>
+        <div className="pb-2"> </div>
+
+        {/* Слайдер коллекции 1 */}
+        <div className="w-full snap-x space-x-6 overflow-x-auto rounded-3xl bg-p1-white bg-opacity-0 p-4 md:place-self-center dark:bg-p1-green dark:bg-opacity-0">
+          <Swiper
+            autoplay={{
+              delay: 9500,
+              pauseOnMouseEnter: true,
+            }}
+            direction={'horizontal'}
+            spaceBetween={1}
+            slidesPerView={5}
+            mousewheel={true}
+            modules={[Autoplay, Mousewheel, Navigation]}
+            navigation={false}
+            pagination={{
+              clickable: true,
+            }}
+            loop={true}
+            className="mySwyper"
+          >
+            <SwiperSlide>
+              <div className="group mx-auto mt-1 w-full scale-95 space-x-3 rounded-2xl border-2 border-p1-green bg-gray-100 bg-opacity-50 object-cover p-1 backdrop-blur-sm transition-transform duration-300 hover:scale-100 md:p-2 dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:bg-opacity-80 dark:text-p1-green dark:hover:border-p1-cyan dark:hover:text-p1-cyan dark:group-hover:border-p1-cyan">
+                <Link href="№" className="mx-auto justify-center">
+                  <div className="grid w-full grid-cols-1 items-center gap-2 overflow-hidden rounded-lg xl:grid-cols-2">
+                    <Image
+                      width={480}
+                      height={480}
+                      src="/HeroNFT/RaceLads/RaceLads1.png"
+                      alt="RaceLad"
+                      className="w-full"
+                    />
+                    <div>
+                      <h2 className="spacing-1 text-xl font-bold text-p1-darkgreen xl:text-2xl dark:text-p1-cyan">
+                        RaceLads
+                      </h2>
+                      <p className="spacing-1 text-p1-darkgreen dark:text-p1-cyan"></p>
+                      <p className="spacing-1 text-p1-darkgreen dark:text-p1-cyan"></p>
+                      <button className="w-full place-content-end rounded-md border border-p1-cyan bg-p1-green py-2 text-white hover:bg-p1-darkgreen dark:bg-p1-deepdarkgreen dark:hover:shadow-lg dark:hover:shadow-p1-darkgreen">
+                        Explore Collection
+                      </button>
+                    </div>
+                  </div>{' '}
+                  <div className="mt-2 grid w-full grid-cols-3 items-center justify-between text-center md:mt-4 md:grid-cols-3 md:space-x-2 xl:space-x-4 2xl:space-x-6">
+                    <div>
+                      <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Items</p>
+                      <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
+                        10,000
+                      </p>
+                    </div>
+                    <div>
+                      <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Floor Price</p>
+                      <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
+                        <Image
+                          className="relative inline-block w-8 px-1"
+                          layout="intrinsic"
+                          width={50}
+                          height={50}
+                          src="/Logo/eth.png"
+                          alt="eth"
+                        />{' '}
+                        15.2
+                      </p>
+                    </div>
+                    <div>
+                      <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Total Volume</p>
+                      <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
+                        25K
+                      </p>
+                    </div>
+                  </div>
+                </Link>
+              </div>
+            </SwiperSlide>
+
+            <SwiperSlide>
+              <div className="group mx-auto mt-1 w-full scale-95 space-x-3 rounded-2xl border-2 border-p1-green bg-gray-100 bg-opacity-50 object-cover p-1 backdrop-blur-sm transition-transform duration-300 hover:scale-100 md:p-2 dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:bg-opacity-80 dark:text-p1-green dark:hover:border-p1-cyan dark:hover:text-p1-cyan dark:group-hover:border-p1-cyan">
+                <Link href="№" className="mx-auto justify-center">
+                  <div className="grid w-full grid-cols-1 items-center gap-2 overflow-hidden rounded-lg xl:grid-cols-2">
+                    <Image
+                      width={480}
+                      height={480}
+                      src="/HeroNFT/Drivers/Driver4.png"
+                      alt="RaceLad"
+                      className="w-full"
+                    />
+                    <div>
+                      <h2 className="spacing-1 text-xl font-bold text-p1-darkgreen xl:text-2xl dark:text-p1-cyan">
+                        Drivers
+                      </h2>
+
+                      <p className="spacing-1 text-p1-darkgreen dark:text-p1-cyan"></p>
+                      <button className="w-full place-content-end rounded-md border border-p1-cyan bg-p1-green py-2 text-white hover:bg-p1-darkgreen dark:bg-p1-deepdarkgreen dark:hover:shadow-lg dark:hover:shadow-p1-darkgreen">
+                        Explore Collection
+                      </button>
+                    </div>
+                  </div>{' '}
+                  <div className="mt-2 grid w-full grid-cols-3 items-center justify-between text-center md:mt-4 md:grid-cols-3 md:space-x-2 xl:space-x-4 2xl:space-x-6">
+                    <div>
+                      <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Items</p>
+                      <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
+                        10,000
+                      </p>
+                    </div>
+                    <div>
+                      <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Floor Price</p>
+                      <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
+                        <Image
+                          className="relative inline-block w-8 px-1"
+                          layout="intrinsic"
+                          width={50}
+                          height={50}
+                          src="/Logo/eth.png"
+                          alt="eth"
+                        />{' '}
+                        15.2
+                      </p>
+                    </div>
+                    <div>
+                      <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Total Volume</p>
+                      <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
+                        25K
+                      </p>
+                    </div>
+                  </div>
+                </Link>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="group mx-auto mt-1 w-full scale-95 space-x-3 rounded-2xl border-2 border-p1-green bg-gray-100 bg-opacity-50 object-cover p-1 backdrop-blur-sm transition-transform duration-300 hover:scale-100 md:p-2 dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:bg-opacity-80 dark:text-p1-green dark:hover:border-p1-cyan dark:hover:text-p1-cyan dark:group-hover:border-p1-cyan">
+                <Link href="№" className="mx-auto justify-center">
+                  <div className="grid w-full grid-cols-1 items-center gap-2 overflow-hidden rounded-lg xl:grid-cols-2">
+                    <Image
+                      width={480}
+                      height={480}
+                      src="/HeroNFT/Team's members/TeamMember1.png"
+                      alt="Team's member1"
+                      className="w-full"
+                    />
+                    <div>
+                      <h2 className="spacing-1 text-xl font-bold text-p1-darkgreen xl:text-2xl dark:text-p1-cyan">
+                        Team&apos;s Members
+                      </h2>
+
+                      <p className="spacing-1 text-p1-darkgreen dark:text-p1-cyan"></p>
+                      <button className="w-full place-content-end rounded-md border border-p1-cyan bg-p1-green py-2 text-white hover:bg-p1-darkgreen dark:bg-p1-deepdarkgreen dark:hover:shadow-lg dark:hover:shadow-p1-darkgreen">
+                        Explore Collection
+                      </button>
+                    </div>
+                  </div>{' '}
+                  <div className="mt-2 grid w-full grid-cols-3 items-center justify-between text-center md:mt-4 md:grid-cols-3 md:space-x-2 xl:space-x-4 2xl:space-x-6">
+                    <div>
+                      <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Items</p>
+                      <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
+                        10,000
+                      </p>
+                    </div>
+                    <div>
+                      <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Floor Price</p>
+                      <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
+                        <Image
+                          className="relative inline-block w-8 px-1"
+                          layout="intrinsic"
+                          width={50}
+                          height={50}
+                          src="/Logo/eth.png"
+                          alt="eth"
+                        />{' '}
+                        15.2
+                      </p>
+                    </div>
+                    <div>
+                      <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Total Volume</p>
+                      <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
+                        25K
+                      </p>
+                    </div>
+                  </div>
+                </Link>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="group mx-auto mt-1 w-full scale-95 space-x-3 rounded-2xl border-2 border-p1-green bg-gray-100 bg-opacity-50 object-cover p-1 backdrop-blur-sm transition-transform duration-300 hover:scale-100 md:p-2 dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:bg-opacity-80 dark:text-p1-green dark:hover:border-p1-cyan dark:hover:text-p1-cyan dark:group-hover:border-p1-cyan">
+                <Link href="№" className="mx-auto justify-center">
+                  <div className="grid w-full grid-cols-1 items-center gap-2 overflow-hidden rounded-lg xl:grid-cols-2">
+                    <Image
+                      width={480}
+                      height={480}
+                      src="/HeroNFT/Collectors/Collector1.png"
+                      alt="RaceLad"
+                      className="w-full"
+                    />
+                    <div>
+                      <h2 className="spacing-1 text-xl font-bold text-p1-darkgreen xl:text-2xl dark:text-p1-cyan">
+                        Collectors
+                      </h2>
+                      <p className="spacing-1 text-p1-darkgreen dark:text-p1-cyan"></p>
+
+                      <button className="w-full place-content-end rounded-md border border-p1-cyan bg-p1-green py-2 text-white hover:bg-p1-darkgreen dark:bg-p1-deepdarkgreen dark:hover:shadow-lg dark:hover:shadow-p1-darkgreen">
+                        Explore Collection
+                      </button>
+                    </div>
+                  </div>{' '}
+                  <div className="mt-2 grid w-full grid-cols-3 items-center justify-between text-center md:mt-4 md:grid-cols-3 md:space-x-2 xl:space-x-4 2xl:space-x-6">
+                    <div>
+                      <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Items</p>
+                      <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
+                        10,000
+                      </p>
+                    </div>
+                    <div>
+                      <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Floor Price</p>
+                      <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
+                        <Image
+                          className="relative inline-block w-8 px-1"
+                          layout="intrinsic"
+                          width={50}
+                          height={50}
+                          src="/Logo/eth.png"
+                          alt="eth"
+                        />{' '}
+                        15.2
+                      </p>
+                    </div>
+                    <div>
+                      <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Total Volume</p>
+                      <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
+                        25K
+                      </p>
+                    </div>
+                  </div>
+                </Link>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="group mx-auto mt-1 w-full scale-95 space-x-3 rounded-2xl border-2 border-p1-green bg-gray-100 bg-opacity-50 object-cover p-1 backdrop-blur-sm transition-transform duration-300 hover:scale-100 md:p-2 dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:bg-opacity-80 dark:text-p1-green dark:hover:border-p1-cyan dark:hover:text-p1-cyan dark:group-hover:border-p1-cyan">
+                <Link href="№" className="mx-auto justify-center">
+                  <div className="grid w-full grid-cols-1 items-center gap-2 overflow-hidden rounded-lg xl:grid-cols-2">
+                    <Image
+                      width={480}
+                      height={480}
+                      src="/Cars/Car.png"
+                      alt="Car"
+                      className="w-full"
+                    />
+                    <div>
+                      <h2 className="spacing-1 text-xl font-bold text-p1-darkgreen xl:text-2xl dark:text-p1-cyan">
+                        Cars
+                      </h2>
+                      <p className="spacing-1 text-p1-darkgreen dark:text-p1-cyan"></p>
+                      <p className="spacing-1 text-p1-darkgreen dark:text-p1-cyan"></p>
+                      <button className="w-full place-content-end rounded-md border border-p1-cyan bg-p1-green py-2 text-white hover:bg-p1-darkgreen dark:bg-p1-deepdarkgreen dark:hover:shadow-lg dark:hover:shadow-p1-darkgreen">
+                        Explore Collection
+                      </button>
+                    </div>
+                  </div>{' '}
+                  <div className="mt-2 grid w-full grid-cols-3 items-center justify-between text-center md:mt-4 md:grid-cols-3 md:space-x-2 xl:space-x-4 2xl:space-x-6">
+                    <div>
+                      <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Items</p>
+                      <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
+                        10,000
+                      </p>
+                    </div>
+                    <div>
+                      <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Floor Price</p>
+                      <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
+                        <Image
+                          className="relative inline-block w-8 px-1"
+                          layout="intrinsic"
+                          width={50}
+                          height={50}
+                          src="/Logo/eth.png"
+                          alt="eth"
+                        />{' '}
+                        15.2
+                      </p>
+                    </div>
+                    <div>
+                      <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Total Volume</p>
+                      <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
+                        25K
+                      </p>
+                    </div>
+                  </div>
+                </Link>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="group mx-auto mt-1 w-full scale-95 space-x-3 rounded-2xl border-2 border-p1-green bg-gray-100 bg-opacity-50 object-cover p-1 backdrop-blur-sm transition-transform duration-300 hover:scale-100 md:p-2 dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:bg-opacity-80 dark:text-p1-green dark:hover:border-p1-cyan dark:hover:text-p1-cyan dark:group-hover:border-p1-cyan">
+                <Link href="№" className="mx-auto justify-center">
+                  <div className="grid w-full grid-cols-1 items-center gap-2 overflow-hidden rounded-lg xl:grid-cols-2">
+                    <Image
+                      width={480}
+                      height={480}
+                      src="/HeroNFT/CustomLads/CustomLads1.png"
+                      alt="CustomLad"
+                      className="w-full"
+                    />
+                    <div>
+                      <h2 className="spacing-1 text-xl font-bold text-p1-darkgreen xl:text-2xl dark:text-p1-cyan">
+                        Custom Lads
+                      </h2>
+                      <p className="spacing-1 text-p1-darkgreen dark:text-p1-cyan"></p>
+                      <p className="spacing-1 text-p1-darkgreen dark:text-p1-cyan"></p>
+                      <button className="w-full place-content-end rounded-md border border-p1-cyan bg-p1-green py-2 text-white hover:bg-p1-darkgreen dark:bg-p1-deepdarkgreen dark:hover:shadow-lg dark:hover:shadow-p1-darkgreen">
+                        Explore Collection
+                      </button>
+                    </div>
+                  </div>{' '}
+                  <div className="mt-2 grid w-full grid-cols-3 items-center justify-between text-center md:mt-4 md:grid-cols-3 md:space-x-2 xl:space-x-4 2xl:space-x-6">
+                    <div>
+                      <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Items</p>
+                      <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
+                        10,000
+                      </p>
+                    </div>
+                    <div>
+                      <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Floor Price</p>
+                      <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
+                        <Image
+                          className="relative inline-block w-8 px-1"
+                          layout="intrinsic"
+                          width={50}
+                          height={50}
+                          src="/Logo/eth.png"
+                          alt="eth"
+                        />{' '}
+                        15.2
+                      </p>
+                    </div>
+                    <div>
+                      <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Total Volume</p>
+                      <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
+                        25K
+                      </p>
+                    </div>
+                  </div>
+                </Link>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="group mx-auto mt-1 w-full scale-95 space-x-3 rounded-2xl border-2 border-p1-green bg-gray-100 bg-opacity-50 object-cover p-1 backdrop-blur-sm transition-transform duration-300 hover:scale-100 md:p-2 dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:bg-opacity-80 dark:text-p1-green dark:hover:border-p1-cyan dark:hover:text-p1-cyan dark:group-hover:border-p1-cyan">
+                <Link href="№" className="mx-auto justify-center">
+                  <div className="grid w-full grid-cols-1 items-center gap-2 overflow-hidden rounded-lg xl:grid-cols-2">
+                    <Image
+                      width={480}
+                      height={480}
+                      src="/Hero/Rewards.png"
+                      alt="Rewards"
+                      className="w-full"
+                    />
+                    <div>
+                      <h2 className="spacing-1 text-xl font-bold text-p1-darkgreen xl:text-2xl dark:text-p1-cyan">
+                        Awards
+                      </h2>
+                      <p className="spacing-1 text-p1-darkgreen dark:text-p1-cyan"></p>
+                      <p className="spacing-1 text-p1-darkgreen dark:text-p1-cyan"></p>
+                      <button className="w-full place-content-end rounded-md border border-p1-cyan bg-p1-green py-2 text-white hover:bg-p1-darkgreen dark:bg-p1-deepdarkgreen dark:hover:shadow-lg dark:hover:shadow-p1-darkgreen">
+                        Explore Collection
+                      </button>
+                    </div>
+                  </div>{' '}
+                  <div className="mt-2 grid w-full grid-cols-3 items-center justify-between text-center md:mt-4 md:grid-cols-3 md:space-x-2 xl:space-x-4 2xl:space-x-6">
+                    <div>
+                      <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Items</p>
+                      <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
+                        10,000
+                      </p>
+                    </div>
+                    <div>
+                      <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Floor Price</p>
+                      <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
+                        <Image
+                          className="relative inline-block w-8 px-1"
+                          layout="intrinsic"
+                          width={50}
+                          height={50}
+                          src="/Logo/eth.png"
+                          alt="eth"
+                        />{' '}
+                        15.2
+                      </p>
+                    </div>
+                    <div>
+                      <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Total Volume</p>
+                      <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
+                        25K
+                      </p>
+                    </div>
+                  </div>
+                </Link>
+              </div>
+            </SwiperSlide>
+            <SwiperSlide>
+              <div className="group mx-auto mt-1 w-full scale-95 space-x-3 rounded-2xl border-2 border-p1-green bg-gray-100 bg-opacity-50 object-cover p-1 backdrop-blur-sm transition-transform duration-300 hover:scale-100 md:p-2 dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:bg-opacity-80 dark:text-p1-green dark:hover:border-p1-cyan dark:hover:text-p1-cyan dark:group-hover:border-p1-cyan">
+                <Link href="№" className="mx-auto justify-center">
+                  <div className="grid w-full grid-cols-1 items-center gap-2 overflow-hidden rounded-lg xl:grid-cols-2">
+                    <Image
+                      width={480}
+                      height={480}
+                      src="/Licenses/Global Lic.png"
+                      alt="GlobalLic"
+                      className="w-full"
+                    />
+                    <div>
+                      <h2 className="spacing-1 text-xl font-bold text-p1-darkgreen xl:text-2xl dark:text-p1-cyan">
+                        Licenses
+                      </h2>
+                      <p className="spacing-1 text-p1-darkgreen dark:text-p1-cyan"></p>
+                      <p className="spacing-1 text-p1-darkgreen dark:text-p1-cyan"></p>
+                      <button className="w-full place-content-end rounded-md border border-p1-cyan bg-p1-green py-2 text-white hover:bg-p1-darkgreen dark:bg-p1-deepdarkgreen dark:hover:shadow-lg dark:hover:shadow-p1-darkgreen">
+                        Explore Collection
+                      </button>
+                    </div>
+                  </div>{' '}
+                  <div className="mt-2 grid w-full grid-cols-3 items-center justify-between text-center md:mt-4 md:grid-cols-3 md:space-x-2 xl:space-x-4 2xl:space-x-6">
+                    <div>
+                      <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Items</p>
+                      <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
+                        10,000
+                      </p>
+                    </div>
+                    <div>
+                      <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Floor Price</p>
+                      <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
+                        <Image
+                          className="relative inline-block w-8 px-1"
+                          layout="intrinsic"
+                          width={50}
+                          height={50}
+                          src="/Logo/eth.png"
+                          alt="eth"
+                        />{' '}
+                        15.2
+                      </p>
+                    </div>
+                    <div>
+                      <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Total Volume</p>
+                      <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
+                        25K
+                      </p>
+                    </div>
+                  </div>
+                </Link>
+              </div>
+            </SwiperSlide>
+          </Swiper>
+
+          <div className="pb-2"></div>
+        </div>
+
         <div className="grid h-80 grid-cols-1 place-items-start p-1 md:grid-cols-1 xl:grid-cols-2">
           <div className="flex grid-flow-row auto-rows-max space-x-2 px-2 md:px-10">
             <Link href={'#'} className="mx-auto w-80">
@@ -229,21 +588,6 @@ export default function Home() {
                 <p className="font-thing text-2xl md:px-10">Design by GAA </p>
               </div>
             </div>
-            <Link href={'#'} className="mx-auto justify-center">
-              <Image
-                className="h-10 w-10 rounded-sm p-1 dark:ring-p1-darkgreen"
-                width={480}
-                height={480}
-                src="/Logo/globe.png"
-                alt="Bordered avatar"
-              />
-            </Link>
-            <Link
-              href="/discoveryracelads"
-              className="text-3xl font-bold text-gray-600 hover:text-gray-900 md:px-10"
-            >
-              ...
-            </Link>
           </div>
         </div>
         <div className="grid h-1/5 grid-cols-1 p-1 2xl:grid-cols-2">
@@ -282,6 +626,163 @@ export default function Home() {
         </div>
       </div>
 
+      {/* RaceLads ... hidden */}
+      <div className="hidden h-1/6 bg-[url('/background/bgsky.png')] bg-cover bg-center p-2 dark:brightness-75">
+        <div className="flex justify-center space-x-2"></div>
+        <div className="grid grid-cols-2 justify-center p-1 md:justify-between">
+          <div className="flex justify-start space-x-6"></div>
+
+          {/* кошелек, профиль, корзина */}
+          <div className="flex justify-end space-x-6 px-2 md:px-10">
+            <div>
+              <Link href={'#'} className="mx-auto justify-center">
+                <Image
+                  className="h-10 w-10 rounded-sm p-1 ring-p1-green transition-all delay-75 duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:ring-2 hover:ring-p1-cyan dark:ring-p1-darkgreen"
+                  width={480}
+                  height={480}
+                  src="/Logo/wallet-nft.png"
+                  alt="Bordered avatar"
+                />
+              </Link>
+            </div>
+
+            <div className="group relative inline-block">
+              <Link href={'#'} className="mx-auto justify-center">
+                <Image
+                  className="h-10 w-10 rounded-full p-1 ring-2 ring-p1-gray transition-all delay-75 duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:ring-p1-cyan dark:ring-p1-darkgreen"
+                  width={480}
+                  height={480}
+                  src="/Logo/user.png"
+                  alt="Bordered avatar"
+                />
+
+                <div className="invisible absolute left-1/2 z-10 mt-2 w-40 -translate-x-1/2 transform rounded-xl bg-sky-300 bg-opacity-50 p-4 text-gray-800 opacity-0 shadow-lg transition-all duration-300 group-hover:visible group-hover:opacity-100 md:w-52">
+                  <div className="rounded-lg p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen md:px-3">
+                    <Link href={'/profile'} className="mx-auto justify-center">
+                      Profile
+                    </Link>
+                  </div>
+                  <div className="rounded-lg p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen md:px-3">
+                    <Link href={'/dashboard'} className="mx-auto justify-center">
+                      Dashboard
+                    </Link>
+                  </div>
+                  <div className="rounded-lg p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen md:px-3">
+                    <Link href={'/marketplace'} className="mx-auto justify-center">
+                      Marketplace
+                    </Link>
+                  </div>
+                  <div className="rounded-lg p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen md:px-3">
+                    <Link href={'/user'} className="mx-auto justify-center">
+                      My NFT{' '}
+                    </Link>
+                  </div>
+
+                  <div className="rounded-lg p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen md:px-3">
+                    <Link href={'#'} className="mx-auto justify-center">
+                      Watchlist
+                    </Link>
+                  </div>
+
+                  <div className="rounded-lg p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen md:px-3">
+                    <Link href={'#'} className="mx-auto justify-center">
+                      Deals
+                    </Link>
+                  </div>
+                </div>
+              </Link>
+            </div>
+            <div>
+              <Link href={'#'} className="mx-auto justify-center">
+                <Image
+                  className="h-10 w-10 rounded-sm p-1 ring-p1-green transition-all delay-75 duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50"
+                  width={480}
+                  height={480}
+                  src="/Logo/shopping-cart.png"
+                  alt="Bordered avatar"
+                />
+              </Link>
+            </div>
+          </div>
+        </div>
+        {/* Поиск 1 */}
+        <div className="">
+          <div className="mx-auto flex w-72 overflow-hidden rounded-xl border-p1-green bg-p2-white2 bg-opacity-50 px-4 py-3 backdrop-blur-lg md:w-96">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 192.904 192.904"
+              width="16px"
+              className="mr-3 rotate-90 fill-gray-600"
+            >
+              <path d="m190.707 180.101-47.078-47.077c11.702-14.072 18.752-32.142 18.752-51.831C162.381 36.423 125.959 0 81.191 0 36.422 0 0 36.423 0 81.193c0 44.767 36.422 81.187 81.191 81.187 19.688 0 37.759-7.049 51.831-18.751l47.079 47.078a7.474 7.474 0 0 0 5.303 2.197 7.498 7.498 0 0 0 5.303-12.803zM15 81.193C15 44.694 44.693 15 81.191 15c36.497 0 66.189 29.694 66.189 66.193 0 36.496-29.692 66.187-66.189 66.187C44.693 147.38 15 117.689 15 81.193z"></path>
+            </svg>
+            <input
+              type="email"
+              placeholder="Search Something..."
+              className="w-full bg-transparent text-xl text-gray-600 outline-none"
+            />
+          </div>
+        </div>
+        <div className="grid h-80 grid-cols-1 place-items-start p-1 md:grid-cols-1 xl:grid-cols-2">
+          <div className="flex grid-flow-row auto-rows-max space-x-2 px-2 md:px-10">
+            <Link href={'#'} className="mx-auto w-80">
+              <Image
+                className="rounded-3xl dark:ring-p1-darkgreen"
+                width={1000}
+                height={1000}
+                src="/HeroNFT/RaceLads/RaceLads1.png"
+                alt="Bordered avatar"
+              />
+            </Link>
+          </div>
+        </div>
+        <div className="grid h-1/5 grid-cols-1 p-1 md:grid-cols-2">
+          <div className="flex grid-flow-row auto-rows-max justify-start space-x-2">
+            <div>
+              <div>
+                <p className="text-3xl font-semibold md:px-10">RaceLads</p>
+                <p className="font-thing text-2xl md:px-10">Polygon zkEVM </p>
+                <p className="font-thing text-2xl md:px-10">Design by GAA </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="grid h-1/5 grid-cols-1 p-1 2xl:grid-cols-2">
+          <div className="flex grid-flow-row auto-rows-max justify-start space-x-2 pt-2 md:space-x-2">
+            <div>
+              <p className="font-thing pt-1 text-xl md:px-10 md:text-2xl">Items: 10.000 </p>
+            </div>
+            <p className="font-thing pt-1 text-xl md:px-2 md:text-2xl">Created: Feb 2025 </p>
+
+            <p className="font-thing pt-1 text-xl md:px-2 md:text-2xl">Creator earnings: 7.5%</p>
+            <p className="font-thing pt-1 text-xl md:px-2 md:text-2xl">Chain: Ethereum</p>
+          </div>
+
+          <div className="flex grid-flow-row auto-rows-max justify-end space-x-4 pb-4 pt-2 md:space-x-8">
+            <div>
+              <p className="text-xs font-semibold sm:text-sm md:text-2xl">9 ETH</p>
+              <p>Total volume</p>
+            </div>
+            <div>
+              <p className="text-xs font-semibold sm:text-sm md:text-2xl">0,013 ETH</p>
+              <p>Floor price</p>
+            </div>
+            <div>
+              <p className="text-xs font-semibold sm:text-sm md:text-2xl">0,009 WETH</p>
+              <p>Best offer</p>
+            </div>
+            <div>
+              <p className="text-xs font-semibold sm:text-sm md:text-2xl">29%</p>
+              <p>Listed</p>
+            </div>
+            <div>
+              <p className="text-xs font-semibold sm:text-sm md:text-2xl">3 690 (85%)</p>
+              <p>Owners (Unique)</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="1"></div>
       <div className="flex justify-center space-x-2 pt-2">
         <div>
           <div className="mx-auto flex max-w-2xl overflow-hidden rounded-2xl border-2 border-p1-green bg-p2-white2 px-4 py-3 backdrop-blur-sm hover:border-p1-cyan focus:border-p1-cyan md:w-60 md:w-96 dark:bg-p1-darkgreen dark:text-p1-cyan">
@@ -494,18 +995,21 @@ export default function Home() {
         </div>
       </div>
 
-      {/* карточка 1 */}
-      <div className="group relative h-[43rem] w-[30rem] place-self-center overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-300 hover:shadow-lg hover:shadow-p1-cyan group-hover:shadow-lg dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
+      <div className="pb-10"> </div>
+
+      {/* ... карточка 1 ...15x10 */}
+
+      <div className="group relative h-[14.5rem] w-[10rem] place-self-center overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-300 hover:shadow-lg hover:shadow-p1-cyan group-hover:shadow-sm dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
         <div>
           <path
             d="M18.527 12.2062L12 16.1938L5.46875 12.2062L12 1L18.527 12.2062ZM12 17.4742L5.46875 13.4867L12 23L18.5312 13.4867L12 17.4742V17.4742Z"
             fill="white"
           ></path>
 
-          <div className="group invisible absolute right-2 top-2 z-10 inline-block duration-300 ease-in-out group-hover:visible group-hover:opacity-100">
+          <div className="group invisible absolute right-1 top-1 z-10 inline-block duration-300 ease-in-out group-hover:visible group-hover:opacity-100">
             <Link
               href={'#'}
-              className="top-2 grid w-10 place-content-center transition-all delay-75 duration-300 ease-in-out hover:scale-125"
+              className="z-50 grid w-6 place-content-center transition-all delay-75 duration-300 ease-in-out hover:scale-125"
             >
               <Image
                 className="p-1"
@@ -525,24 +1029,24 @@ export default function Home() {
               height={500}
               src="/HeroNFT/RaceLads/RaceLads1.png"
               alt="RaceLads"
-              className="h-[30rem] w-[30rem] object-cover transition-transform duration-500 ease-in-out group-hover:scale-150"
+              className="h-[10rem] w-[10rem] object-cover transition-transform duration-500 ease-in-out group-hover:scale-150"
             />
           </Link>
         </div>
 
-        <div className="w-full bg-p2-white2 bg-opacity-100 p-4 text-p1-darkgreen transition-transform duration-500 ease-in-out group-hover:translate-y-28 group-hover:bg-opacity-100 group-hover:shadow-xl group-hover:shadow-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:group-hover:text-p1-cyan dark:group-hover:shadow-p1-green">
+        <div className="w-full bg-p2-white2 bg-opacity-100 text-p1-darkgreen transition-transform duration-500 ease-in-out group-hover:translate-y-28 group-hover:bg-opacity-100 group-hover:shadow-xl group-hover:shadow-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:group-hover:text-p1-cyan dark:group-hover:shadow-p1-green">
           <div className="flex items-center justify-between">
-            <div className="text-left text-3xl font-bold">RaceLad</div>
-            <div className="text-left text-3xl font-bold"># 8888</div>
+            <div className="px-1 pt-1 text-left text-sm font-bold">RaceLad</div>
+            <div className="px-1 pt-1 text-left text-sm font-bold"># 8888</div>
           </div>
-          <p className="mt-4 text-left text-2xl">Total: 10.000</p>
-          <div className="pb-12">
+
+          <div className="px-1 pb-12 pt-1">
             <div className="flex items-center justify-between">
               <div className="text-center">
-                <p className="text-center text-2xl">
+                <p className="text-center text-xs">
                   Price:
                   <Image
-                    className="relative inline-block w-10 space-x-4 p-2"
+                    className="relative inline-block w-4 space-x-4 px-1"
                     layout="intrinsic"
                     width={50}
                     height={50}
@@ -552,210 +1056,23 @@ export default function Home() {
                   0.001
                 </p>
               </div>
-              <div className="space-x-4 text-center">
-                <p className="mt-1 text-left text-2xl">
-                  <Image
-                    className="mt-1 inline-block w-5"
-                    width={50}
-                    height={50}
-                    src="/Logo/usd-green.png"
-                    alt="usd"
-                  />
-                  25.000
-                </p>
-              </div>
             </div>
-            <div className="text-left">
-              <p className="text-left text-2xl">
-                Last sale
-                <Image
-                  className="mt-1 inline-block w-5"
-                  width={50}
-                  height={50}
-                  src="/Logo/usd-green.png"
-                  alt="usd"
-                />
-                22.000
-              </p>
-            </div>
+            <div className="space-x-4 text-left text-xs font-thin"> Last sale: 1000 WETH</div>
           </div>
         </div>
 
         <div className="flex items-center justify-between">
-          <div className="absolute bottom-0 left-0 w-full translate-y-full bg-p1-darkgreen bg-opacity-100 text-center text-xl text-p2-white2 shadow-sm shadow-p1-green transition-transform duration-500 ease-in-out hover:bg-p1-darkgreen group-hover:translate-y-0 dark:bg-p1-deepdarkgreen">
-            <div className="inline-flex h-[6rem] w-[30rem] justify-center" role="group">
+          <div className="absolute bottom-0 left-0 h-[2rem] w-[10rem] translate-y-full bg-p1-darkgreen bg-opacity-100 text-center text-p2-white2 shadow-sm shadow-p1-green transition-transform duration-500 ease-in-out hover:bg-p1-darkgreen group-hover:translate-y-0 dark:bg-p1-deepdarkgreen">
+            <div className="inline-flex h-[2rem] w-[10rem] justify-center text-sm" role="group">
               <Link
                 href="#"
-                className="grid w-4/5 place-content-center rounded-bl-xl border-2 border-p1-darkgreen bg-p1-darkgreen text-center text-xl font-semibold shadow-lg shadow-p1-cyan transition-all duration-300 ease-in-out hover:border-p1-cyan hover:bg-p1-darkgreen hover:text-p1-white hover:shadow-2xl hover:shadow-p1-cyan md:text-3xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                className="grid w-4/5 place-content-center rounded-bl-xl border border-p1-darkgreen bg-p1-darkgreen text-center text-sm shadow-lg shadow-p1-cyan transition-all duration-300 ease-in-out hover:border-p1-cyan hover:bg-p1-darkgreen hover:text-p1-white hover:shadow-2xl hover:shadow-p1-cyan md:text-3xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
               >
-                Buy
-                <div className="text-semibold mt-1 grid grid-cols-3 space-x-2 text-center text-2xl">
-                  <div className="self-end">Price:</div>
-                  <div className="px-2">
+                <div className="grid grid-cols-2 items-center justify-between gap-2">
+                  <div className="leading-2 text-xs">Buy:</div>
+                  <div className="text-center text-xs leading-3">
                     <Image
-                      className="relative inline-block w-6 px-1"
-                      layout="intrinsic"
-                      width={26}
-                      height={26}
-                      src="/Logo/eth1.png"
-                      alt="eth"
-                    />
-                    0.001
-                  </div>
-                  <div>
-                    <Image
-                      className="mt-1 inline-block w-5 px-1"
-                      width={50}
-                      height={50}
-                      src="/Logo/usd-cyan.png"
-                      alt="usd"
-                    />
-                    25.000
-                  </div>
-                </div>
-              </Link>
-
-              <Link
-                href={'#'}
-                className="grid w-1/5 place-content-center rounded-br-xl border-2 border-p1-darkgreen bg-p1-darkgreen text-center text-xl font-semibold shadow-lg shadow-p1-cyan transition-all duration-300 ease-in-out hover:scale-75 hover:border-p1-cyan hover:bg-p1-darkgreen hover:text-p1-white hover:shadow-2xl hover:shadow-p1-cyan hover:ring-p1-cyan focus:scale-75 focus:ring-p1-cyan md:text-3xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
-              >
-                <Image
-                  svg="fill-white"
-                  className="bg-p1-darkgreenе inline-block h-10 w-10 dark:bg-p1-deepdarkgreen dark:hover:bg-p1-deepdarkgreen"
-                  width={480}
-                  height={480}
-                  src="/Logo/shopping-cart-white.png"
-                  alt="Bordered avatar"
-                />
-              </Link>
-            </div>
-          </div>
-        </div>
-        <div></div>
-      </div>
-
-      <div className="pb-10"> </div>
-
-      {/* карточка 2 */}
-
-      <div className="group relative h-[30rem] w-[20rem] place-self-center overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-300 hover:shadow-lg hover:shadow-p1-cyan group-hover:shadow-lg dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
-        <div>
-          <button className="invisible absolute left-2 top-2 z-10 inline-block rounded-br-lg rounded-tl-lg bg-blue-500 px-3 py-1 text-lg text-white duration-300 ease-in-out hover:bg-sky-800 group-hover:visible group-hover:opacity-100">
-            Rare
-          </button>
-
-          <button className="invisible absolute left-2 top-14 z-50 inline-block rounded-lg px-3 py-1 text-center text-lg font-medium text-white transition-all duration-300 ease-in-out hover:scale-125 group-hover:visible">
-            <Image
-              className="relative inline-block w-8"
-              layout="intrinsic"
-              width={50}
-              height={50}
-              src="/Logo/eth1.png"
-              alt="eth"
-            />
-          </button>
-
-          <path
-            d="M18.527 12.2062L12 16.1938L5.46875 12.2062L12 1L18.527 12.2062ZM12 17.4742L5.46875 13.4867L12 23L18.5312 13.4867L12 17.4742V17.4742Z"
-            fill="white"
-          ></path>
-
-          <div className="group invisible absolute right-2 top-2 z-10 inline-block duration-300 ease-in-out group-hover:visible group-hover:opacity-100">
-            <Link href={'#'} className="mx-auto justify-center">
-              <Image
-                className="h-10 w-10 rounded-full p-1 ring-2 ring-p1-gray transition-all delay-75 duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:ring-p1-cyan dark:ring-p1-darkgreen"
-                width={480}
-                height={480}
-                src="/Logo/user.png"
-                alt="Bordered avatar"
-              />
-            </Link>
-            <Link
-              href={'#'}
-              className="top-14 z-50 grid w-10 place-content-center transition-all delay-75 duration-300 ease-in-out hover:scale-125"
-            >
-              <Image
-                className="p-1"
-                width={480}
-                height={480}
-                src="/Logo/heart-red.png"
-                alt="Bordered avatar"
-              />
-            </Link>
-          </div>
-        </div>
-
-        <div className="relative">
-          <Link href="/card" className="mx-auto justify-center">
-            <Image
-              width={500}
-              height={500}
-              src="/HeroNFT/RaceLads/RaceLads1.png"
-              alt="RaceLads"
-              className="h-[20rem] w-[20rem] object-cover transition-transform duration-500 ease-in-out group-hover:scale-150"
-            />
-          </Link>
-        </div>
-
-        <div className="w-full bg-p2-white2 bg-opacity-100 p-4 text-p1-darkgreen transition-transform duration-500 ease-in-out group-hover:translate-y-28 group-hover:bg-opacity-100 group-hover:shadow-xl group-hover:shadow-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:group-hover:text-p1-cyan dark:group-hover:shadow-p1-green">
-          <div className="flex items-center justify-between">
-            <div className="text-left text-2xl font-bold">RaceLad</div>
-            <div className="text-left text-2xl font-bold"># 8888</div>
-          </div>
-          <p className="text-left text-2xl">Total: 10.000</p>
-          <div className="pb-12">
-            <div className="flex items-center justify-between">
-              <div className="text-center">
-                <p className="text-center text-2xl">
-                  Price:
-                  <Image
-                    className="relative inline-block w-6 space-x-4 p-1"
-                    layout="intrinsic"
-                    width={50}
-                    height={50}
-                    src="/Logo/eth1.png"
-                    alt="eth"
-                  />
-                  0.001
-                </p>
-              </div>
-              <div className="space-x-4 text-center">
-                <p className="text-left text-2xl">
-                  <Image
-                    className="inline-block w-4"
-                    width={50}
-                    height={50}
-                    src="/Logo/usd-green.png"
-                    alt="usd"
-                  />
-                  25.000
-                </p>
-              </div>
-            </div>
-            <Link href={'#'} className="grid w-8 place-content-center">
-              <Image
-                className="pb-2"
-                width={480}
-                height={480}
-                src="/Logo/heart-red.png"
-                alt="Bordered avatar"
-              />
-            </Link>
-          </div>
-        </div>
-
-        <div className="flex items-center justify-between">
-          <div className="absolute bottom-0 left-0 w-full translate-y-full bg-p1-darkgreen bg-opacity-100 text-center text-p2-white2 shadow-sm shadow-p1-green transition-transform duration-500 ease-in-out hover:bg-p1-darkgreen group-hover:translate-y-0 dark:bg-p1-deepdarkgreen">
-            <div className="inline-flex h-[5rem] w-[20rem] justify-center text-sm" role="group">
-              <Link
-                href="#"
-                className="grid w-4/5 place-content-center rounded-bl-xl border-2 border-p1-darkgreen bg-p1-darkgreen text-center text-sm font-semibold shadow-lg shadow-p1-cyan transition-all duration-300 ease-in-out hover:border-p1-cyan hover:bg-p1-darkgreen hover:text-p1-white hover:shadow-2xl hover:shadow-p1-cyan md:text-3xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
-              >
-                <div className="text-semibold mt-1 grid grid-cols-3 space-x-2 text-center text-lg">
-                  <div className="self-end text-xl">Buy Price:</div>
-                  <div className="px-2 text-lg">
-                    <Image
-                      className="relative inline-block w-6 px-1"
+                      className="relative inline-block w-3 px-0.5"
                       layout="intrinsic"
                       width={50}
                       height={50}
@@ -764,26 +1081,15 @@ export default function Home() {
                     />
                     0.001
                   </div>
-
-                  <div>
-                    <Image
-                      className="mt-1 inline-block w-5 px-1"
-                      width={50}
-                      height={50}
-                      src="/Logo/usd-cyan.png"
-                      alt="usd"
-                    />
-                    25.000
-                  </div>
                 </div>
               </Link>
 
               <Link
                 href={'#'}
-                className="grid w-1/5 place-content-center rounded-br-xl border-2 border-p1-darkgreen bg-p1-darkgreen text-center text-lg font-semibold shadow-lg shadow-p1-cyan transition-all duration-300 ease-in-out hover:scale-75 hover:border-p1-cyan hover:bg-p1-darkgreen hover:text-p1-white hover:shadow-2xl hover:shadow-p1-cyan hover:ring-p1-cyan focus:scale-75 focus:ring-p1-cyan md:text-3xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                className="grid w-1/5 place-content-center rounded-br-xl border border-p1-darkgreen bg-p1-darkgreen text-center text-lg font-semibold shadow-lg shadow-p1-cyan transition-all duration-300 ease-in-out hover:scale-75 hover:border-p1-cyan hover:bg-p1-darkgreen hover:text-p1-white hover:shadow-2xl hover:shadow-p1-cyan hover:ring-p1-cyan focus:scale-75 focus:border-p1-cyan focus:ring-p1-cyan md:text-3xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
               >
                 <Image
-                  className="bg-p1-darkgreenе inline-block h-10 w-10 dark:bg-p1-deepdarkgreen dark:hover:bg-p1-deepdarkgreen"
+                  className="bg-p1-darkgreenе inline-block h-5 w-5 dark:bg-p1-deepdarkgreen dark:hover:bg-p1-deepdarkgreen"
                   width={480}
                   height={480}
                   src="/Logo/shopping-cart-white.png"
@@ -797,43 +1103,18 @@ export default function Home() {
 
       <div className="pb-10"> </div>
 
-      {/* карточка 3 */}
-
-      <div className="group relative h-[21.6rem] w-[15rem] place-self-center overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-300 hover:shadow-lg hover:shadow-p1-cyan group-hover:shadow-lg dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
+      {/* ...карточка 2 ...21.5x15 */}
+      <div className="group relative h-[21.5rem] w-[15rem] place-self-center overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-300 hover:shadow-lg hover:shadow-p1-cyan group-hover:shadow-sm dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
         <div>
-          <button className="invisible absolute left-2 top-2 z-10 inline-block rounded-br-lg rounded-tl-lg bg-blue-500 px-3 py-1 text-lg text-white duration-300 ease-in-out hover:bg-sky-800 group-hover:visible group-hover:opacity-100">
-            Rare
-          </button>
-
-          <button className="invisible absolute left-2 top-14 z-50 inline-block rounded-lg px-3 py-1 text-center text-lg font-medium text-white transition-all duration-300 ease-in-out hover:scale-125 group-hover:visible">
-            <Image
-              className="relative inline-block w-6"
-              layout="intrinsic"
-              width={50}
-              height={50}
-              src="/Logo/eth1.png"
-              alt="eth"
-            />
-          </button>
-
           <path
             d="M18.527 12.2062L12 16.1938L5.46875 12.2062L12 1L18.527 12.2062ZM12 17.4742L5.46875 13.4867L12 23L18.5312 13.4867L12 17.4742V17.4742Z"
             fill="white"
           ></path>
 
-          <div className="group invisible absolute right-2 top-2 z-10 inline-block duration-300 ease-in-out group-hover:visible group-hover:opacity-100">
-            <Link href={'#'} className="mx-auto justify-center">
-              <Image
-                className="h-10 w-10 rounded-full p-1 ring-2 ring-p1-gray transition-all delay-75 duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:ring-p1-cyan dark:ring-p1-darkgreen"
-                width={480}
-                height={480}
-                src="/Logo/user.png"
-                alt="Bordered avatar"
-              />
-            </Link>
+          <div className="group invisible absolute right-1 top-1 z-10 inline-block duration-300 ease-in-out group-hover:visible group-hover:opacity-100">
             <Link
               href={'#'}
-              className="top-14 z-50 grid w-10 place-content-center transition-all delay-75 duration-300 ease-in-out hover:scale-125"
+              className="z-50 grid w-8 place-content-center transition-all delay-75 duration-300 ease-in-out hover:scale-125"
             >
               <Image
                 className="p-1"
@@ -859,15 +1140,15 @@ export default function Home() {
         </div>
 
         <div className="w-full bg-p2-white2 bg-opacity-100 p-1 text-p1-darkgreen transition-transform duration-500 ease-in-out group-hover:translate-y-28 group-hover:bg-opacity-100 group-hover:shadow-xl group-hover:shadow-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:group-hover:text-p1-cyan dark:group-hover:shadow-p1-green">
-          <div className="flex items-center justify-between">
-            <div className="text-left text-lg font-bold">RaceLad</div>
-            <div className="text-left text-lg font-bold"># 8888</div>
+          <div className="flex items-center justify-between pt-1">
+            <div className="px-2 text-left text-base font-bold">RaceLad</div>
+            <div className="px-2 text-left text-base font-bold"># 2222</div>
           </div>
-          <p className="text-left text-sm">Total: 10.000</p>
-          <div className="pb-12">
+
+          <div className="px-2 pb-12 pt-2">
             <div className="flex items-center justify-between">
               <div className="text-center">
-                <p className="text-center text-sm">
+                <p className="text-center text-base">
                   Price:
                   <Image
                     className="relative inline-block w-5 space-x-4 px-1"
@@ -880,67 +1161,37 @@ export default function Home() {
                   0.001
                 </p>
               </div>
-              <div className="space-x-4 text-center">
-                <p className="text-left text-sm">
-                  <Image
-                    className="inline-block w-3"
-                    width={50}
-                    height={50}
-                    src="/Logo/usd-green.png"
-                    alt="usd"
-                  />
-                  25.000
-                </p>
-              </div>
             </div>
-            <Link href={'#'} className="grid w-6 place-content-center">
-              <Image
-                className="px-1"
-                width={480}
-                height={480}
-                src="/Logo/heart-red.png"
-                alt="Bordered avatar"
-              />
-            </Link>
+            <div className="text-left text-base font-thin"> Last sale: 1000 WETH</div>
           </div>
         </div>
 
         <div className="flex items-center justify-between">
-          <div className="absolute bottom-0 left-0 w-full translate-y-full bg-p1-darkgreen bg-opacity-100 text-center text-p2-white2 shadow-sm shadow-p1-green transition-transform duration-500 ease-in-out hover:bg-p1-darkgreen group-hover:translate-y-0 dark:bg-p1-deepdarkgreen">
-            <div className="inline-flex h-[3rem] w-[15rem] justify-center text-sm" role="group">
+          <div className="absolute bottom-0 left-0 h-[2.8rem] w-[15rem] translate-y-full bg-p1-darkgreen bg-opacity-100 text-center text-p2-white2 shadow-sm shadow-p1-green transition-transform duration-500 ease-in-out hover:bg-p1-darkgreen group-hover:translate-y-0 dark:bg-p1-deepdarkgreen">
+            <div className="inline-flex h-[2.8rem] w-[15rem] justify-center text-sm" role="group">
               <Link
                 href="#"
-                className="grid w-4/5 place-content-center rounded-bl-xl border-2 border-p1-darkgreen bg-p1-darkgreen text-center text-sm shadow-lg shadow-p1-cyan transition-all duration-300 ease-in-out hover:border-p1-cyan hover:bg-p1-darkgreen hover:text-p1-white hover:shadow-2xl hover:shadow-p1-cyan md:text-3xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                className="grid w-4/5 place-content-center rounded-bl-xl border border-p1-darkgreen bg-p1-darkgreen text-center text-base shadow-lg shadow-p1-cyan transition-all duration-300 ease-in-out hover:border-p1-cyan hover:bg-p1-darkgreen hover:text-p1-white hover:shadow-2xl hover:shadow-p1-cyan md:text-3xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
               >
-                <div className="grid grid-cols-3 space-x-1 text-center text-sm">
-                  <div className="self-end text-sm">Buy Price:</div>
-                  <div className="px-2 text-sm">
+                <div className="flex items-center justify-between space-x-4">
+                  <div className="text-base leading-4">Buy:</div>
+                  <p className="text-center text-base leading-3">
                     <Image
                       className="relative inline-block w-5 px-1"
                       layout="intrinsic"
-                      width={4}
-                      height={4}
+                      width={50}
+                      height={50}
                       src="/Logo/eth1.png"
                       alt="eth"
                     />
                     0.001
-                  </div>
-                  <div>
-                    <Image
-                      className="inline-block w-4 px-1"
-                      width={50}
-                      height={50}
-                      src="/Logo/usd-cyan.png"
-                      alt="usd"
-                    />
-                    25.000
-                  </div>
+                  </p>
                 </div>
               </Link>
 
               <Link
                 href={'#'}
-                className="grid w-1/5 place-content-center rounded-br-xl border-2 border-p1-darkgreen bg-p1-darkgreen text-center text-lg font-semibold shadow-lg shadow-p1-cyan transition-all duration-300 ease-in-out hover:scale-75 hover:border-p1-cyan hover:bg-p1-darkgreen hover:text-p1-white hover:shadow-2xl hover:shadow-p1-cyan hover:ring-p1-cyan focus:scale-75 focus:ring-p1-cyan md:text-3xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                className="grid w-1/5 place-content-center rounded-br-xl border border-p1-darkgreen bg-p1-darkgreen text-center text-lg font-semibold shadow-lg shadow-p1-cyan transition-all duration-300 ease-in-out hover:scale-75 hover:border-p1-cyan hover:bg-p1-darkgreen hover:text-p1-white hover:shadow-2xl hover:shadow-p1-cyan hover:ring-p1-cyan focus:scale-75 focus:border-p1-cyan focus:ring-p1-cyan md:text-3xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
               >
                 <Image
                   className="bg-p1-darkgreenе inline-block h-6 w-6 dark:bg-p1-deepdarkgreen dark:hover:bg-p1-deepdarkgreen"
@@ -957,43 +1208,18 @@ export default function Home() {
 
       <div className="pb-10"> </div>
 
-      {/* карточка 4 */}
-
-      <div className="group relative h-[15rem] w-[10rem] place-self-center overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-300 hover:shadow-lg hover:shadow-p1-cyan group-hover:shadow-sm dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
+      {/* ...карточка 3 ...28x20 */}
+      <div className="group relative h-[28rem] w-[20rem] place-self-center overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-300 hover:shadow-lg hover:shadow-p1-cyan group-hover:shadow-sm dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
         <div>
-          <button className="invisible absolute left-1 top-1 z-10 inline-block rounded-br-lg rounded-tl-lg bg-blue-500 px-1 py-1 text-xs text-white duration-300 ease-in-out hover:bg-sky-800 group-hover:visible group-hover:opacity-100">
-            Rare
-          </button>
-
-          <button className="invisible absolute left-0 top-6 z-50 inline-block rounded-lg px-3 py-1 text-center text-lg font-medium text-white transition-all duration-300 ease-in-out hover:scale-125 group-hover:visible">
-            <Image
-              className="relative inline-block w-3"
-              layout="intrinsic"
-              width={50}
-              height={50}
-              src="/Logo/eth1.png"
-              alt="eth"
-            />
-          </button>
-
           <path
             d="M18.527 12.2062L12 16.1938L5.46875 12.2062L12 1L18.527 12.2062ZM12 17.4742L5.46875 13.4867L12 23L18.5312 13.4867L12 17.4742V17.4742Z"
             fill="white"
           ></path>
 
-          <div className="group invisible absolute right-0 top-1 z-10 inline-block duration-300 ease-in-out group-hover:visible group-hover:opacity-100">
-            <Link href={'#'} className="mx-auto justify-center">
-              <Image
-                className="h-5 w-5 rounded-full p-1 ring-2 ring-p1-gray transition-all delay-75 duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:ring-p1-cyan dark:ring-p1-darkgreen"
-                width={480}
-                height={480}
-                src="/Logo/user.png"
-                alt="Bordered avatar"
-              />
-            </Link>
+          <div className="group invisible absolute right-1 top-1 z-10 inline-block duration-300 ease-in-out group-hover:visible group-hover:opacity-100">
             <Link
               href={'#'}
-              className="top-14 z-50 grid w-6 place-content-center transition-all delay-75 duration-300 ease-in-out hover:scale-125"
+              className="z-50 grid w-8 place-content-center transition-all delay-75 duration-300 ease-in-out hover:scale-125"
             >
               <Image
                 className="p-1"
@@ -1013,24 +1239,24 @@ export default function Home() {
               height={500}
               src="/HeroNFT/RaceLads/RaceLads1.png"
               alt="RaceLads"
-              className="h-[10rem] w-[10rem] object-cover transition-transform duration-500 ease-in-out group-hover:scale-150"
+              className="h-[20rem] w-[20rem] object-cover transition-transform duration-500 ease-in-out group-hover:scale-150"
             />
           </Link>
         </div>
 
         <div className="w-full bg-p2-white2 bg-opacity-100 p-1 text-p1-darkgreen transition-transform duration-500 ease-in-out group-hover:translate-y-28 group-hover:bg-opacity-100 group-hover:shadow-xl group-hover:shadow-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:group-hover:text-p1-cyan dark:group-hover:shadow-p1-green">
           <div className="flex items-center justify-between">
-            <div className="text-left text-sm font-bold">RaceLad</div>
-            <div className="text-left text-sm font-bold"># 8888</div>
+            <div className="px-4 text-left text-xl font-bold">RaceLad</div>
+            <div className="px-4 text-left text-xl font-bold"># 3333</div>
           </div>
-          <p className="text-left text-xs">Total: 10.000</p>
-          <div className="pb-12">
+
+          <div className="px-4 pb-12 pt-4">
             <div className="flex items-center justify-between">
               <div className="text-center">
-                <p className="text-center text-xs">
+                <p className="text-center text-lg">
                   Price:
                   <Image
-                    className="relative inline-block w-4 space-x-4 px-1"
+                    className="relative inline-block w-6 px-1"
                     layout="intrinsic"
                     width={50}
                     height={50}
@@ -1040,24 +1266,70 @@ export default function Home() {
                   0.001
                 </p>
               </div>
-              <div className="space-x-4 text-center">
-                <p className="text-left text-xs">
-                  <Image
-                    className="inline-block w-2"
-                    width={50}
-                    height={50}
-                    src="/Logo/usd-green.png"
-                    alt="usd"
-                  />
-                  25.000
-                </p>
-              </div>
             </div>
-            <Link href={'#'} className="grid w-6 place-content-center">
+            <div className="text-left text-lg font-thin"> Last sale: 1000 WETH</div>
+          </div>
+        </div>
+
+        <div className="flex items-center justify-between">
+          <div className="absolute bottom-0 left-0 w-full translate-y-full bg-p1-darkgreen bg-opacity-100 text-center text-p2-white2 shadow-sm shadow-p1-green transition-transform duration-500 ease-in-out hover:bg-p1-darkgreen group-hover:translate-y-0 dark:bg-p1-deepdarkgreen">
+            <div className="inline-flex h-[3rem] w-[20rem] justify-center text-sm" role="group">
+              <Link
+                href="#"
+                className="grid w-4/5 place-content-center rounded-bl-xl border border-p1-darkgreen bg-p1-darkgreen text-center text-base shadow-lg shadow-p1-cyan transition-all duration-300 ease-in-out hover:border-p1-cyan hover:bg-p1-darkgreen hover:text-p1-white hover:shadow-2xl hover:shadow-p1-cyan md:text-3xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+              >
+                <div className="flex items-center justify-between space-x-4">
+                  <div className="text-xl leading-5">Buy:</div>
+                  <p className="text-center text-lg leading-3">
+                    <Image
+                      className="relative inline-block w-5 px-1"
+                      layout="intrinsic"
+                      width={50}
+                      height={50}
+                      src="/Logo/eth1.png"
+                      alt="eth"
+                    />
+                    0.001
+                  </p>
+                </div>
+              </Link>
+
+              <Link
+                href={'#'}
+                className="grid w-1/5 place-content-center rounded-br-xl border border-p1-darkgreen bg-p1-darkgreen text-center text-lg font-semibold shadow-lg shadow-p1-cyan transition-all duration-300 ease-in-out hover:scale-75 hover:border-p1-cyan hover:bg-p1-darkgreen hover:text-p1-white hover:shadow-2xl hover:shadow-p1-cyan hover:ring-p1-cyan focus:scale-75 focus:border-p1-cyan focus:ring-p1-cyan md:text-3xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+              >
+                <Image
+                  className="bg-p1-darkgreenе inline-block h-7 w-7 dark:bg-p1-deepdarkgreen dark:hover:bg-p1-deepdarkgreen"
+                  width={480}
+                  height={480}
+                  src="/Logo/shopping-cart-white.png"
+                  alt="Bordered avatar"
+                />
+              </Link>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="pb-10"> </div>
+
+      {/* ...карточка 4...39x28 */}
+      <div className="group relative h-[39rem] w-[28rem] place-self-center overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-300 hover:shadow-lg hover:shadow-p1-cyan group-hover:shadow-sm dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
+        <div>
+          <path
+            d="M18.527 12.2062L12 16.1938L5.46875 12.2062L12 1L18.527 12.2062ZM12 17.4742L5.46875 13.4867L12 23L18.5312 13.4867L12 17.4742V17.4742Z"
+            fill="white"
+          ></path>
+
+          <div className="group invisible absolute right-1 top-1 z-10 inline-block duration-300 ease-in-out group-hover:visible group-hover:opacity-100">
+            <Link
+              href={'#'}
+              className="z-50 grid w-8 place-content-center transition-all delay-75 duration-300 ease-in-out hover:scale-125"
+            >
               <Image
-                className="px-1"
-                width={480}
-                height={480}
+                className="p-1"
+                width={1000}
+                height={1000}
                 src="/Logo/heart-red.png"
                 alt="Bordered avatar"
               />
@@ -1065,48 +1337,74 @@ export default function Home() {
           </div>
         </div>
 
+        <div className="relative">
+          <Link href="/card" className="mx-auto justify-center">
+            <Image
+              width={500}
+              height={500}
+              src="/HeroNFT/RaceLads/RaceLads1.png"
+              alt="RaceLads"
+              className="h-[28rem] w-[28rem] object-cover transition-transform duration-500 ease-in-out group-hover:scale-150"
+            />
+          </Link>
+        </div>
+
+        <div className="w-full bg-p2-white2 bg-opacity-100 p-1 text-p1-darkgreen transition-transform duration-500 ease-in-out group-hover:translate-y-28 group-hover:bg-opacity-100 group-hover:shadow-xl group-hover:shadow-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:group-hover:text-p1-cyan dark:group-hover:shadow-p1-green">
+          <div className="flex items-center justify-between">
+            <div className="px-4 pt-2 text-left text-3xl font-bold">RaceLad</div>
+            <div className="px-4 pt-2 text-left text-3xl font-bold"># 8888</div>
+          </div>
+
+          <div className="px-4 pb-12 pt-6">
+            <div className="flex items-center justify-between">
+              <div className="text-center">
+                <p className="text-center text-3xl">
+                  Price:
+                  <Image
+                    className="relative inline-block w-7 px-1"
+                    layout="intrinsic"
+                    width={50}
+                    height={50}
+                    src="/Logo/eth1.png"
+                    alt="eth"
+                  />
+                  0.001
+                </p>
+              </div>
+            </div>
+            <div className="pt-3 text-left text-xl font-thin"> Last sale: 1000 WETH</div>
+          </div>
+        </div>
+
         <div className="flex items-center justify-between">
           <div className="absolute bottom-0 left-0 w-full translate-y-full bg-p1-darkgreen bg-opacity-100 text-center text-p2-white2 shadow-sm shadow-p1-green transition-transform duration-500 ease-in-out hover:bg-p1-darkgreen group-hover:translate-y-0 dark:bg-p1-deepdarkgreen">
-            <div className="inline-flex h-[3rem] w-[10rem] justify-center text-sm" role="group">
+            <div className="inline-flex h-[4rem] w-[28rem] justify-center text-sm" role="group">
               <Link
                 href="#"
-                className="grid w-4/5 place-content-center rounded-bl-xl border-2 border-p1-darkgreen bg-p1-darkgreen text-center text-sm shadow-lg shadow-p1-cyan transition-all duration-300 ease-in-out hover:border-p1-cyan hover:bg-p1-darkgreen hover:text-p1-white hover:shadow-2xl hover:shadow-p1-cyan md:text-3xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                className="grid w-4/5 place-content-center rounded-bl-xl border border-p1-darkgreen bg-p1-darkgreen text-center text-base shadow-xl shadow-p1-cyan transition-all duration-300 ease-in-out hover:border-p1-cyan hover:bg-p1-darkgreen hover:text-p1-white hover:shadow-2xl hover:shadow-p1-cyan md:text-3xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
               >
-                <div className="grid grid-cols-3 place-items-center space-x-1 text-center text-xs">
-                  <div className="text-xs">Buy:</div>
-
-                  <div className="px-1 text-xs">
+                <div className="flex items-center justify-between space-x-4 pb-2">
+                  <div className="text-2xl">Buy:</div>
+                  <p className="text-center text-xl">
                     <Image
-                      className="relative inline-block w-2"
+                      className="relative inline-block w-6 px-1"
                       layout="intrinsic"
                       width={50}
                       height={50}
                       src="/Logo/eth1.png"
                       alt="eth"
                     />
-                  </div>
-                  <div className="text-xs"> 0.001</div>
-
-                  <div className="text-xs">Price:</div>
-                  <div>
-                    <Image
-                      className="inline-block w-1.5"
-                      width={50}
-                      height={50}
-                      src="/Logo/usd-cyan.png"
-                      alt="usd"
-                    />
-                  </div>
-                  <div className="text-xs">25.000</div>
+                    0.001
+                  </p>
                 </div>
               </Link>
 
               <Link
                 href={'#'}
-                className="grid w-1/5 place-content-center rounded-br-xl border-2 border-p1-darkgreen bg-p1-darkgreen text-center text-lg font-semibold shadow-lg shadow-p1-cyan transition-all duration-300 ease-in-out hover:scale-75 hover:border-p1-cyan hover:bg-p1-darkgreen hover:text-p1-white hover:shadow-2xl hover:shadow-p1-cyan hover:ring-p1-cyan focus:scale-75 focus:ring-p1-cyan md:text-3xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                className="grid w-1/5 place-content-center rounded-br-xl border border-p1-darkgreen bg-p1-darkgreen text-center text-lg font-semibold shadow-lg shadow-p1-cyan transition-all duration-300 ease-in-out hover:scale-75 hover:border-p1-cyan hover:bg-p1-darkgreen hover:text-p1-white hover:shadow-2xl hover:shadow-p1-cyan hover:ring-p1-cyan focus:scale-75 focus:border-p1-cyan focus:ring-p1-cyan md:text-3xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
               >
                 <Image
-                  className="bg-p1-darkgreenе inline-block h-4 w-4 dark:bg-p1-deepdarkgreen dark:hover:bg-p1-deepdarkgreen"
+                  className="bg-p1-darkgreenе inline-block h-9 w-9 dark:bg-p1-deepdarkgreen dark:hover:bg-p1-deepdarkgreen"
                   width={480}
                   height={480}
                   src="/Logo/shopping-cart-white.png"
@@ -1552,715 +1850,6 @@ export default function Home() {
 
       <section className="mx-auto px-6 py-12">
         <h2 className="mb-6 text-2xl font-bold text-p1-darkgreen dark:text-p1-green">Items</h2>
-        <div className="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6">
-          <div className="group relative overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-300 hover:shadow-2xl">
-            <div>
-              <button className="absolute left-2 top-2 z-50 rounded-br-lg rounded-tl-lg bg-blue-500 px-3 py-1 text-sm text-white">
-                Rare
-              </button>
-            </div>
-            <div className="relative">
-              <Link href="/card" className="mx-auto justify-center hover:drop-shadow-2xl">
-                <Image
-                  width={480}
-                  height={480}
-                  src="/HeroNFT/RaceLads/RaceLads1.png"
-                  alt="RaceLads"
-                  className="h-full w-full object-cover transition-transform duration-500 ease-in-out group-hover:scale-150"
-                />
-              </Link>
-            </div>
-
-            <div className="w-full bg-p1-white bg-opacity-100 p-4 text-p1-darkgreen transition-transform duration-500 ease-in-out group-hover:-translate-y-14 group-hover:bg-opacity-100 dark:bg-p1-green dark:text-p1-white">
-              <div className="flex items-center justify-between">
-                <div className="text-left text-xl font-bold text-gray-800 dark:text-p1-white">
-                  RaceLad
-                </div>
-                <div className="text-left text-lg font-bold text-gray-800 dark:text-p1-white">
-                  # 8888
-                </div>
-              </div>
-              <p className="mt-1 text-left text-xl text-gray-600 dark:text-p1-white">
-                Total: 10.000
-              </p>
-              <div className="">
-                <div className="mt-2 flex items-center justify-between">
-                  <div className="text-center">
-                    <p className="mt-1 text-left text-base text-gray-600 md:text-xl dark:text-p1-white">
-                      Price:
-                      <Image
-                        className="relative mt-1 inline-block w-max"
-                        layout="intrinsic"
-                        width={24}
-                        height={24}
-                        src="/Logo/eth.png"
-                        alt="eth"
-                      />
-                      0.001
-                    </p>
-                  </div>
-                  <div className="text-center">
-                    <p className="mt-1 text-left text-base text-gray-600 md:text-xl dark:text-p1-white">
-                      <Image
-                        className="mt-1 inline-block w-max"
-                        width={18}
-                        height={18}
-                        src="/Logo/usd.png"
-                        alt="usd"
-                      />
-                      25.000
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="flex items-center justify-between">
-              <div className="absolute bottom-0 left-0 w-full translate-y-full bg-p1-darkgreen bg-opacity-100 text-center text-xl text-p2-white2 transition-transform duration-500 ease-in-out hover:bg-p1-darkgreen group-hover:translate-y-0">
-                <div className="inline-flex w-full justify-center" role="group">
-                  <Link
-                    href="#"
-                    className="inline-block w-4/5 place-content-center rounded-bl-xl border-2 border-p1-darkgreen bg-p1-darkgreen text-center text-xl font-semibold text-p1-white shadow-lg transition-all duration-300 ease-in-out hover:border-p1-cyan hover:bg-p1-darkgreen hover:text-2xl hover:text-p1-white focus:border-p1-cyan focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-white dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
-                  >
-                    Buy
-                  </Link>
-
-                  <Link
-                    href={'#'}
-                    className="mx-auto w-1/5 justify-center rounded-br-xl border-2 border-p1-green p-2 transition-all duration-300 ease-in-out hover:scale-105 hover:bg-p1-darkgreen hover:bg-opacity-50 focus:scale-90 focus:border-p1-cyan hover:focus:bg-p1-darkgreen dark:border-p1-green dark:bg-p1-deepdarkgreen dark:hover:bg-p1-deepdarkgreen dark:hover:focus:bg-p1-deepdarkgreen"
-                  >
-                    <Image
-                      className="inline-block h-10 w-10 place-content-center bg-p1-darkgreen p-1 dark:bg-p1-deepdarkgreen dark:hover:bg-p1-deepdarkgreen"
-                      width={480}
-                      height={480}
-                      src="/Logo/cart_white.png"
-                      alt="Bordered avatar"
-                    />
-                  </Link>
-                </div>
-              </div>
-            </div>
-            <div></div>
-          </div>
-          <div>1</div>
-
-          <div className="group relative w-full overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-300 hover:shadow-2xl">
-            <div>
-              <button className="absolute left-2 top-2 z-50 rounded-br-lg rounded-tl-lg bg-blue-500 px-3 py-1 text-sm text-white">
-                Rare
-              </button>
-            </div>
-            <div className="relative">
-              <Link href="/card" className="mx-auto justify-center hover:drop-shadow-2xl">
-                <Image
-                  width={1000}
-                  height={1000}
-                  src="/HeroNFT/RaceLads/RaceLads2.png"
-                  alt="RaceLads"
-                  className="h-full w-full object-cover transition-transform duration-500 ease-in-out group-hover:scale-150"
-                />
-              </Link>
-            </div>
-
-            <div className="w-full bg-p1-white bg-opacity-10 p-4 text-p1-darkgreen transition-transform duration-500 ease-in-out group-hover:-translate-y-12 group-hover:bg-opacity-50 dark:bg-p1-green dark:text-p1-white">
-              <div className="flex items-center justify-between">
-                <div className="text-left text-xl font-bold text-gray-800 dark:text-p1-white">
-                  RaceLad
-                </div>
-                <div className="text-left text-lg font-bold text-gray-800 dark:text-p1-white">
-                  # 8888
-                </div>
-              </div>
-              <p className="mt-1 text-left text-xl text-gray-600 dark:text-p1-white">
-                Total: 10.000
-              </p>
-              <div className="">
-                <div className="mt-2 flex items-center justify-between">
-                  <div className="text-center">
-                    <p className="mt-1 text-left text-base text-gray-600 md:text-xl dark:text-p1-white">
-                      Price:
-                      <Image
-                        className="relative mt-1 inline-block w-max"
-                        layout="intrinsic"
-                        width={24}
-                        height={24}
-                        src="/Logo/eth.png"
-                        alt="eth"
-                      />
-                      0.001
-                    </p>
-                  </div>
-                  <div className="text-center">
-                    <p className="mt-1 text-left text-base text-gray-600 md:text-xl dark:text-p1-white">
-                      <Image
-                        className="mt-1 inline-block w-max"
-                        width={18}
-                        height={18}
-                        src="/Logo/usd.png"
-                        alt="usd"
-                      />
-                      25.000
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="flex items-center justify-between">
-              <div className="absolute bottom-0 left-0 w-full translate-y-full bg-p1-darkgreen bg-opacity-100 text-center text-xl text-p2-white2 transition-transform duration-500 ease-in-out hover:bg-p1-darkgreen group-hover:translate-y-0">
-                <div className="inline-flex w-full justify-center" role="group">
-                  <Link
-                    href="#"
-                    className="inline-block w-4/5 place-content-center rounded-bl-xl border-2 border-p1-darkgreen bg-p1-darkgreen text-center text-xl font-semibold text-p1-white shadow-lg transition-all duration-300 ease-in-out hover:border-p1-cyan hover:bg-p1-darkgreen hover:text-2xl hover:text-p1-white focus:border-p1-cyan focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-white dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
-                  >
-                    Buy
-                  </Link>
-
-                  <Link
-                    href={'#'}
-                    className="mx-auto w-1/5 justify-center rounded-br-xl border-2 border-p1-green p-2 transition-all duration-300 ease-in-out hover:scale-105 hover:bg-p1-darkgreen hover:bg-opacity-50 focus:scale-90 focus:border-p1-cyan hover:focus:bg-p1-darkgreen dark:border-p1-green dark:bg-p1-deepdarkgreen dark:hover:bg-p1-deepdarkgreen dark:hover:focus:bg-p1-deepdarkgreen"
-                  >
-                    <Image
-                      className="inline-block h-10 w-10 place-content-center bg-p1-darkgreen p-1 dark:bg-p1-deepdarkgreen dark:hover:bg-p1-deepdarkgreen"
-                      width={480}
-                      height={480}
-                      src="/Logo/cart_white.png"
-                      alt="Bordered avatar"
-                    />
-                  </Link>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="group relative w-full overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-300 hover:shadow-2xl">
-            <div>
-              <button className="absolute left-2 top-2 z-50 rounded-br-lg rounded-tl-lg bg-blue-500 px-3 py-1 text-sm text-white">
-                Rare
-              </button>
-            </div>
-            <div className="relative">
-              <Link href="/card" className="mx-auto justify-center hover:drop-shadow-2xl">
-                <Image
-                  width={480}
-                  height={480}
-                  src="/HeroNFT/RaceLads/RaceLads3.png"
-                  alt="RaceLads"
-                  className="h-full w-full object-cover transition-transform duration-500 ease-in-out group-hover:scale-150"
-                />
-              </Link>
-            </div>
-
-            <div className="w-full bg-p1-white bg-opacity-10 p-4 text-p1-darkgreen transition-transform duration-500 ease-in-out group-hover:-translate-y-12 group-hover:bg-opacity-50 dark:bg-p1-green dark:text-p1-white">
-              <div className="flex items-center justify-between">
-                <div className="text-left text-xl font-bold text-gray-800 dark:text-p1-white">
-                  RaceLad
-                </div>
-                <div className="text-left text-lg font-bold text-gray-800 dark:text-p1-white">
-                  # 8888
-                </div>
-              </div>
-              <p className="mt-1 text-left text-xl text-gray-600 dark:text-p1-white">
-                Total: 10.000
-              </p>
-              <div className="">
-                <div className="mt-2 flex items-center justify-between">
-                  <div className="text-center">
-                    <p className="mt-1 text-left text-base text-gray-600 md:text-xl dark:text-p1-white">
-                      Price:
-                      <Image
-                        className="relative mt-1 inline-block w-max"
-                        layout="intrinsic"
-                        width={24}
-                        height={24}
-                        src="/Logo/eth.png"
-                        alt="eth"
-                      />
-                      0.001
-                    </p>
-                  </div>
-                  <div className="text-center">
-                    <p className="mt-1 text-left text-base text-gray-600 md:text-xl dark:text-p1-white">
-                      <Image
-                        className="mt-1 inline-block w-max"
-                        width={18}
-                        height={18}
-                        src="/Logo/usd.png"
-                        alt="usd"
-                      />
-                      25.000
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="flex items-center justify-between">
-              <div className="absolute bottom-0 left-0 w-full translate-y-full bg-p1-darkgreen bg-opacity-100 text-center text-xl text-p2-white2 transition-transform duration-500 ease-in-out hover:bg-p1-darkgreen group-hover:translate-y-0">
-                <div className="inline-flex w-full justify-center" role="group">
-                  <Link
-                    href="#"
-                    className="inline-block w-4/5 place-content-center rounded-bl-xl border-2 border-p1-darkgreen bg-p1-darkgreen text-center text-xl font-semibold text-p1-white shadow-lg transition-all duration-300 ease-in-out hover:border-p1-cyan hover:bg-p1-darkgreen hover:text-2xl hover:text-p1-white focus:border-p1-cyan focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-white dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
-                  >
-                    Buy
-                  </Link>
-
-                  <Link
-                    href={'#'}
-                    className="mx-auto w-1/5 justify-center rounded-br-xl border-2 border-p1-green p-2 transition-all duration-300 ease-in-out hover:scale-105 hover:bg-p1-darkgreen hover:bg-opacity-50 focus:scale-90 focus:border-p1-cyan hover:focus:bg-p1-darkgreen dark:border-p1-green dark:bg-p1-deepdarkgreen dark:hover:bg-p1-deepdarkgreen dark:hover:focus:bg-p1-deepdarkgreen"
-                  >
-                    <Image
-                      className="inline-block h-10 w-10 place-content-center bg-p1-darkgreen p-1 dark:bg-p1-deepdarkgreen dark:hover:bg-p1-deepdarkgreen"
-                      width={480}
-                      height={480}
-                      src="/Logo/cart_white.png"
-                      alt="Bordered avatar"
-                    />
-                  </Link>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="group relative w-full overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-300 hover:shadow-2xl">
-            <div>
-              <button className="absolute left-2 top-2 z-50 rounded-br-lg rounded-tl-lg bg-blue-500 px-3 py-1 text-sm text-white">
-                Rare
-              </button>
-            </div>
-            <div className="relative">
-              <Link href="/card" className="mx-auto justify-center hover:drop-shadow-2xl">
-                <Image
-                  width={480}
-                  height={480}
-                  src="/HeroNFT/RaceLads/RaceLads4.png"
-                  alt="RaceLads"
-                  className="h-full w-full object-cover transition-transform duration-500 ease-in-out group-hover:scale-150"
-                />
-              </Link>
-            </div>
-
-            <div className="w-full bg-p1-white bg-opacity-10 p-4 text-p1-darkgreen transition-transform duration-500 ease-in-out group-hover:-translate-y-12 group-hover:bg-opacity-50 dark:bg-p1-green dark:text-p1-white">
-              <div className="flex items-center justify-between">
-                <div className="text-left text-xl font-bold text-gray-800 dark:text-p1-white">
-                  RaceLad
-                </div>
-                <div className="text-left text-lg font-bold text-gray-800 dark:text-p1-white">
-                  # 8888
-                </div>
-              </div>
-              <p className="mt-1 text-left text-xl text-gray-600 dark:text-p1-white">
-                Total: 10.000
-              </p>
-              <div className="">
-                <div className="mt-2 flex items-center justify-between">
-                  <div className="text-center">
-                    <p className="mt-1 text-left text-base text-gray-600 md:text-xl dark:text-p1-white">
-                      Price:
-                      <Image
-                        className="relative mt-1 inline-block w-max"
-                        layout="intrinsic"
-                        width={24}
-                        height={24}
-                        src="/Logo/eth.png"
-                        alt="eth"
-                      />
-                      0.001
-                    </p>
-                  </div>
-                  <div className="text-center">
-                    <p className="mt-1 text-left text-base text-gray-600 md:text-xl dark:text-p1-white">
-                      <Image
-                        className="mt-1 inline-block w-max"
-                        width={18}
-                        height={18}
-                        src="/Logo/usd.png"
-                        alt="usd"
-                      />
-                      25.000
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="flex items-center justify-between">
-              <div className="absolute bottom-0 left-0 w-full translate-y-full bg-p1-darkgreen bg-opacity-100 text-center text-xl text-p2-white2 transition-transform duration-500 ease-in-out hover:bg-p1-darkgreen group-hover:translate-y-0">
-                <div className="inline-flex w-full justify-center" role="group">
-                  <Link
-                    href="#"
-                    className="inline-block w-4/5 place-content-center rounded-bl-xl border-2 border-p1-darkgreen bg-p1-darkgreen text-center text-xl font-semibold text-p1-white shadow-lg transition-all duration-300 ease-in-out hover:border-p1-cyan hover:bg-p1-darkgreen hover:text-2xl hover:text-p1-white focus:border-p1-cyan focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-white dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
-                  >
-                    Buy
-                  </Link>
-
-                  <Link
-                    href={'#'}
-                    className="mx-auto w-1/5 justify-center rounded-br-xl border-2 border-p1-green p-2 transition-all duration-300 ease-in-out hover:scale-105 hover:bg-p1-darkgreen hover:bg-opacity-50 focus:scale-90 focus:border-p1-cyan hover:focus:bg-p1-darkgreen dark:border-p1-green dark:bg-p1-deepdarkgreen dark:hover:bg-p1-deepdarkgreen dark:hover:focus:bg-p1-deepdarkgreen"
-                  >
-                    <Image
-                      className="inline-block h-10 w-10 place-content-center bg-p1-darkgreen p-1 dark:bg-p1-deepdarkgreen dark:hover:bg-p1-deepdarkgreen"
-                      width={480}
-                      height={480}
-                      src="/Logo/cart_white.png"
-                      alt="Bordered avatar"
-                    />
-                  </Link>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="group relative w-full overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-300 hover:shadow-2xl">
-            <div>
-              <button className="absolute left-2 top-2 z-50 rounded-br-lg rounded-tl-lg bg-blue-500 px-3 py-1 text-sm text-white">
-                Rare
-              </button>
-            </div>
-            <div className="relative">
-              <Link href="/card" className="mx-auto justify-center hover:drop-shadow-2xl">
-                <Image
-                  width={480}
-                  height={480}
-                  src="/HeroNFT/Drivers/Driver4.png"
-                  alt="Drivers"
-                  className="h-full w-full object-cover transition-transform duration-500 ease-in-out group-hover:scale-150"
-                />
-              </Link>
-            </div>
-
-            <div className="w-full bg-p1-white bg-opacity-10 p-4 text-p1-darkgreen transition-transform duration-500 ease-in-out group-hover:-translate-y-12 group-hover:bg-opacity-50 dark:bg-p1-green dark:text-p1-white">
-              <div className="flex items-center justify-between">
-                <div className="text-left text-xl font-bold text-gray-800 dark:text-p1-white">
-                  Drivers
-                </div>
-                <div className="text-left text-lg font-bold text-gray-800 dark:text-p1-white">
-                  # 8888
-                </div>
-              </div>
-              <p className="mt-1 text-left text-xl text-gray-600 dark:text-p1-white">
-                Total: 10.000
-              </p>
-              <div className="">
-                <div className="mt-2 flex items-center justify-between">
-                  <div className="text-center">
-                    <p className="mt-1 text-left text-base text-gray-600 md:text-xl dark:text-p1-white">
-                      Price:
-                      <Image
-                        className="relative mt-1 inline-block w-max"
-                        layout="intrinsic"
-                        width={24}
-                        height={24}
-                        src="/Logo/eth.png"
-                        alt="eth"
-                      />
-                      0.001
-                    </p>
-                  </div>
-                  <div className="text-center">
-                    <p className="mt-1 text-left text-base text-gray-600 md:text-xl dark:text-p1-white">
-                      <Image
-                        className="mt-1 inline-block w-max"
-                        width={18}
-                        height={18}
-                        src="/Logo/usd.png"
-                        alt="usd"
-                      />
-                      25.000
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="flex items-center justify-between">
-              <div className="absolute bottom-0 left-0 w-full translate-y-full bg-p1-darkgreen bg-opacity-100 text-center text-xl text-p2-white2 transition-transform duration-500 ease-in-out hover:bg-p1-darkgreen group-hover:translate-y-0">
-                <div className="inline-flex w-full justify-center" role="group">
-                  <Link
-                    href="#"
-                    className="inline-block w-4/5 place-content-center rounded-bl-xl border-2 border-p1-darkgreen bg-p1-darkgreen text-center text-xl font-semibold text-p1-white shadow-lg transition-all duration-300 ease-in-out hover:border-p1-cyan hover:bg-p1-darkgreen hover:text-2xl hover:text-p1-white focus:border-p1-cyan focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-white dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
-                  >
-                    Buy
-                  </Link>
-
-                  <Link
-                    href={'#'}
-                    className="mx-auto w-1/5 justify-center rounded-br-xl border-2 border-p1-green p-2 transition-all duration-300 ease-in-out hover:scale-105 hover:bg-p1-darkgreen hover:bg-opacity-50 focus:scale-90 focus:border-p1-cyan hover:focus:bg-p1-darkgreen dark:border-p1-green dark:bg-p1-deepdarkgreen dark:hover:bg-p1-deepdarkgreen dark:hover:focus:bg-p1-deepdarkgreen"
-                  >
-                    <Image
-                      className="inline-block h-10 w-10 place-content-center bg-p1-darkgreen p-1 dark:bg-p1-deepdarkgreen dark:hover:bg-p1-deepdarkgreen"
-                      width={480}
-                      height={480}
-                      src="/Logo/cart_white.png"
-                      alt="Bordered avatar"
-                    />
-                  </Link>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="group relative w-full overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-300 hover:shadow-2xl">
-            <div>
-              <button className="absolute left-2 top-2 z-50 rounded-br-lg rounded-tl-lg bg-blue-500 px-3 py-1 text-sm text-white">
-                Rare
-              </button>
-            </div>
-            <div className="relative">
-              <Link href="/card" className="mx-auto justify-center hover:drop-shadow-2xl">
-                <Image
-                  width={480}
-                  height={480}
-                  src="/HeroNFT/Drivers/Driver3.png"
-                  alt="Drivers"
-                  className="h-full w-full object-cover transition-transform duration-500 ease-in-out group-hover:scale-150"
-                />
-              </Link>
-            </div>
-
-            <div className="w-full bg-p1-white bg-opacity-10 p-4 text-p1-darkgreen transition-transform duration-500 ease-in-out group-hover:-translate-y-12 group-hover:bg-opacity-50 dark:bg-p1-green dark:text-p1-white">
-              <div className="flex items-center justify-between">
-                <div className="text-left text-xl font-bold text-gray-800 dark:text-p1-white">
-                  Drivers
-                </div>
-                <div className="text-left text-lg font-bold text-gray-800 dark:text-p1-white">
-                  # 8888
-                </div>
-              </div>
-              <p className="mt-1 text-left text-xl text-gray-600 dark:text-p1-white">
-                Total: 10.000
-              </p>
-              <div className="">
-                <div className="mt-2 flex items-center justify-between">
-                  <div className="text-center">
-                    <p className="mt-1 text-left text-base text-gray-600 md:text-xl dark:text-p1-white">
-                      Price:
-                      <Image
-                        className="relative mt-1 inline-block w-max"
-                        layout="intrinsic"
-                        width={24}
-                        height={24}
-                        src="/Logo/eth.png"
-                        alt="eth"
-                      />
-                      0.001
-                    </p>
-                  </div>
-                  <div className="text-center">
-                    <p className="mt-1 text-left text-base text-gray-600 md:text-xl dark:text-p1-white">
-                      <Image
-                        className="mt-1 inline-block w-max"
-                        width={18}
-                        height={18}
-                        src="/Logo/usd.png"
-                        alt="usd"
-                      />
-                      25.000
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="flex items-center justify-between">
-              <div className="absolute bottom-0 left-0 w-full translate-y-full bg-p1-darkgreen bg-opacity-100 text-center text-xl text-p2-white2 transition-transform duration-500 ease-in-out hover:bg-p1-darkgreen group-hover:translate-y-0">
-                <div className="inline-flex w-full justify-center" role="group">
-                  <Link
-                    href="#"
-                    className="inline-block w-4/5 place-content-center rounded-bl-xl border-2 border-p1-darkgreen bg-p1-darkgreen text-center text-xl font-semibold text-p1-white shadow-lg transition-all duration-300 ease-in-out hover:border-p1-cyan hover:bg-p1-darkgreen hover:text-2xl hover:text-p1-white focus:border-p1-cyan focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-white dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
-                  >
-                    Buy
-                  </Link>
-
-                  <Link
-                    href={'#'}
-                    className="mx-auto w-1/5 justify-center rounded-br-xl border-2 border-p1-green p-2 transition-all duration-300 ease-in-out hover:scale-105 hover:bg-p1-darkgreen hover:bg-opacity-50 focus:scale-90 focus:border-p1-cyan hover:focus:bg-p1-darkgreen dark:border-p1-green dark:bg-p1-deepdarkgreen dark:hover:bg-p1-deepdarkgreen dark:hover:focus:bg-p1-deepdarkgreen"
-                  >
-                    <Image
-                      className="inline-block h-10 w-10 place-content-center bg-p1-darkgreen p-1 dark:bg-p1-deepdarkgreen dark:hover:bg-p1-deepdarkgreen"
-                      width={480}
-                      height={480}
-                      src="/Logo/cart_white.png"
-                      alt="Bordered avatar"
-                    />
-                  </Link>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="group relative w-full overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-300 hover:shadow-2xl">
-            <div>
-              <button className="absolute left-2 top-2 z-50 rounded-br-lg rounded-tl-lg bg-blue-500 px-3 py-1 text-sm text-white">
-                Rare
-              </button>
-            </div>
-            <div className="relative">
-              <Link href="/card" className="mx-auto justify-center hover:drop-shadow-2xl">
-                <Image
-                  width={480}
-                  height={480}
-                  src="/HeroNFT/Drivers/Driver2.png"
-                  alt="Drivers"
-                  className="h-full w-full object-cover transition-transform duration-500 ease-in-out group-hover:scale-150"
-                />
-              </Link>
-            </div>
-
-            <div className="w-full bg-p1-white bg-opacity-10 p-4 text-p1-darkgreen transition-transform duration-500 ease-in-out group-hover:-translate-y-12 group-hover:bg-opacity-50 dark:bg-p1-green dark:text-p1-white">
-              <div className="flex items-center justify-between">
-                <div className="text-left text-xl font-bold text-gray-800 dark:text-p1-white">
-                  Drivers
-                </div>
-                <div className="text-left text-lg font-bold text-gray-800 dark:text-p1-white">
-                  # 8888
-                </div>
-              </div>
-              <p className="mt-1 text-left text-xl text-gray-600 dark:text-p1-white">
-                Total: 10.000
-              </p>
-              <div className="">
-                <div className="mt-2 flex items-center justify-between">
-                  <div className="text-center">
-                    <p className="mt-1 text-left text-base text-gray-600 md:text-xl dark:text-p1-white">
-                      Price:
-                      <Image
-                        className="relative mt-1 inline-block w-max"
-                        layout="intrinsic"
-                        width={24}
-                        height={24}
-                        src="/Logo/eth.png"
-                        alt="eth"
-                      />
-                      0.001
-                    </p>
-                  </div>
-                  <div className="text-center">
-                    <p className="mt-1 text-left text-base text-gray-600 md:text-xl dark:text-p1-white">
-                      <Image
-                        className="mt-1 inline-block w-max"
-                        width={18}
-                        height={18}
-                        src="/Logo/usd.png"
-                        alt="usd"
-                      />
-                      25.000
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="flex items-center justify-between">
-              <div className="absolute bottom-0 left-0 w-full translate-y-full bg-p1-darkgreen bg-opacity-100 text-center text-xl text-p2-white2 transition-transform duration-500 ease-in-out hover:bg-p1-darkgreen group-hover:translate-y-0">
-                <div className="inline-flex w-full justify-center" role="group">
-                  <Link
-                    href="#"
-                    className="inline-block w-4/5 place-content-center rounded-bl-xl border-2 border-p1-darkgreen bg-p1-darkgreen text-center text-xl font-semibold text-p1-white shadow-lg transition-all duration-300 ease-in-out hover:border-p1-cyan hover:bg-p1-darkgreen hover:text-2xl hover:text-p1-white focus:border-p1-cyan focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-white dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
-                  >
-                    Buy
-                  </Link>
-
-                  <Link
-                    href={'#'}
-                    className="mx-auto w-1/5 justify-center rounded-br-xl border-2 border-p1-green p-2 transition-all duration-300 ease-in-out hover:scale-105 hover:bg-p1-darkgreen hover:bg-opacity-50 focus:scale-90 focus:border-p1-cyan hover:focus:bg-p1-darkgreen dark:border-p1-green dark:bg-p1-deepdarkgreen dark:hover:bg-p1-deepdarkgreen dark:hover:focus:bg-p1-deepdarkgreen"
-                  >
-                    <Image
-                      className="inline-block h-10 w-10 place-content-center bg-p1-darkgreen p-1 dark:bg-p1-deepdarkgreen dark:hover:bg-p1-deepdarkgreen"
-                      width={480}
-                      height={480}
-                      src="/Logo/cart_white.png"
-                      alt="Bordered avatar"
-                    />
-                  </Link>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="group relative w-full overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-300 hover:shadow-2xl">
-            <div>
-              <button className="absolute left-2 top-2 z-50 rounded-br-lg rounded-tl-lg bg-blue-500 px-3 py-1 text-sm text-white">
-                Rare
-              </button>
-            </div>
-            <div className="relative">
-              <Link href="/card" className="mx-auto justify-center hover:drop-shadow-2xl">
-                <Image
-                  width={480}
-                  height={480}
-                  src="/HeroNFT/Drivers/Driver1.png"
-                  alt="Drivers"
-                  className="h-full w-full object-cover transition-transform duration-500 ease-in-out group-hover:scale-150"
-                />
-              </Link>
-            </div>
-
-            <div className="w-full bg-p1-white bg-opacity-10 p-4 text-p1-darkgreen transition-transform duration-500 ease-in-out group-hover:-translate-y-12 group-hover:bg-opacity-50 dark:bg-p1-green dark:text-p1-white">
-              <div className="flex items-center justify-between">
-                <div className="text-left text-xl font-bold text-gray-800 dark:text-p1-white">
-                  Drivers
-                </div>
-                <div className="text-left text-lg font-bold text-gray-800 dark:text-p1-white">
-                  # 8888
-                </div>
-              </div>
-              <p className="mt-1 text-left text-xl text-gray-600 dark:text-p1-white">
-                Total: 10.000
-              </p>
-              <div className="">
-                <div className="mt-2 flex items-center justify-between">
-                  <div className="text-center">
-                    <p className="mt-1 text-left text-base text-gray-600 md:text-xl dark:text-p1-white">
-                      Price:
-                      <Image
-                        className="relative mt-1 inline-block w-max"
-                        layout="intrinsic"
-                        width={24}
-                        height={24}
-                        src="/Logo/eth.png"
-                        alt="eth"
-                      />
-                      0.001
-                    </p>
-                  </div>
-                  <div className="text-center">
-                    <p className="mt-1 text-left text-base text-gray-600 md:text-xl dark:text-p1-white">
-                      <Image
-                        className="mt-1 inline-block w-max"
-                        width={18}
-                        height={18}
-                        src="/Logo/usd.png"
-                        alt="usd"
-                      />
-                      25.000
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className="flex items-center justify-between">
-              <div className="absolute bottom-0 left-0 w-full translate-y-full bg-p1-darkgreen bg-opacity-100 text-center text-xl text-p2-white2 transition-transform duration-500 ease-in-out hover:bg-p1-darkgreen group-hover:translate-y-0">
-                <div className="inline-flex w-full justify-center" role="group">
-                  <Link
-                    href="#"
-                    className="inline-block w-4/5 place-content-center rounded-bl-xl border-2 border-p1-darkgreen bg-p1-darkgreen text-center text-xl font-semibold text-p1-white shadow-lg transition-all duration-300 ease-in-out hover:border-p1-cyan hover:bg-p1-darkgreen hover:text-2xl hover:text-p1-white focus:border-p1-cyan focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-white dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
-                  >
-                    Buy
-                  </Link>
-
-                  <Link
-                    href={'#'}
-                    className="mx-auto w-1/5 justify-center rounded-br-xl border-2 border-p1-green p-2 transition-all duration-300 ease-in-out hover:scale-105 hover:bg-p1-darkgreen hover:bg-opacity-50 focus:scale-90 focus:border-p1-cyan hover:focus:bg-p1-darkgreen dark:border-p1-green dark:bg-p1-deepdarkgreen dark:hover:bg-p1-deepdarkgreen dark:hover:focus:bg-p1-deepdarkgreen"
-                  >
-                    <Image
-                      className="inline-block h-10 w-10 place-content-center bg-p1-darkgreen p-1 dark:bg-p1-deepdarkgreen dark:hover:bg-p1-deepdarkgreen"
-                      width={480}
-                      height={480}
-                      src="/Logo/cart_white.png"
-                      alt="Bordered avatar"
-                    />
-                  </Link>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
       </section>
 
       <div className="pb-20"></div>
