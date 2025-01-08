@@ -11,13 +11,13 @@ export default function Page() {
   return (
     <div className="mx-auto max-w-7xl font-serif">
       <JumpButton points={jumpPoints} />
-
+      <div id="1"></div>
       <div className="flex flex-wrap justify-center md:flex-nowrap md:justify-between">
         <div className="px-2 text-2xl font-semibold text-stone-400 md:pt-2 md:text-4xl dark:text-stone-900">
           Profile
         </div>
         <div className="px-2 text-2xl font-semibold text-stone-400 md:pt-2 md:text-4xl dark:text-stone-900">
-          Внесите ваши данные (опционально)
+          Профиль
         </div>
       </div>
       <section className="flex flex-wrap rounded-3xl border-stone-400 bg-p1-white p-2 md:flex-nowrap md:border-4 md:shadow-lg dark:border-stone-900 dark:bg-p1-deepdarkgreen">
@@ -26,7 +26,8 @@ export default function Page() {
             <div className="text-center md:text-2xl lg:text-2xl">
               <div className="">
                 <div className="flex flex-wrap px-2 pt-2 md:flex-nowrap">
-                  <div className="">
+                  {/* скрыты функции 1 */}
+                  <div className="hidden">
                     <div className="text-center text-base font-semibold text-p1-darkgreen md:text-xl dark:text-p1-green">
                       <p>Присоединяйтесь к нам</p>
                     </div>
@@ -172,14 +173,16 @@ export default function Page() {
           <div>
             <div className="flex flex-col object-right p-2 md:w-full">
               <div id="2">
+                {/* скрыты функции 1.1 */}
+
                 <p className="text-center text-xl text-p1-darkgreen md:text-left md:text-2xl dark:text-p1-green">
-                  Заполни все поля - при создании NFT эти метаданные будут храниться в блокчейне,
-                  при выборе "Сохранить" - только на облачном сервере (опционально)
+                  Заполни поля - нажми &quot;Сохранить&quot;
                 </p>
               </div>
 
               <div className="pb-5"></div>
-              <div>
+              {/* скрыты функции 2 */}
+              <div className="hidden">
                 <label
                   htmlFor="discipline"
                   className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-green"
@@ -197,7 +200,7 @@ export default function Page() {
               <div className="pb-2"></div>
               <div>
                 <label
-                  htmlFor="e-mail"
+                  htmlFor="email"
                   className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-green"
                 >
                   email
@@ -211,7 +214,8 @@ export default function Page() {
                 />
               </div>
               <div className="pb-2"></div>
-              <div>
+              {/* скрыты функции 3 */}
+              <div className="hidden">
                 <label
                   htmlFor="full_name"
                   className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-green"
@@ -244,8 +248,8 @@ export default function Page() {
                 />
               </div>
               <div className="pb-2"></div>
-
-              <div>
+              {/* скрыты функции 4 */}
+              <div className="hidden">
                 <label
                   htmlFor="birthday"
                   className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-green"
@@ -312,7 +316,8 @@ export default function Page() {
                 ></textarea>
               </div>
               <div className="pb-5"></div>
-              <div className="flex items-center">
+              {/* скрыты функции 5 */}
+              <div className="flex hidden items-center">
                 <input
                   checked={check}
                   id="checkbox"
@@ -334,7 +339,8 @@ export default function Page() {
                 Сохранить
               </button>
               <div className="pb-2"> </div>
-              <button className="rounded-3xl border-2 border-stone-400 bg-p2-white2 px-10 py-8 text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-stone-400 hover:text-p1-white dark:border-stone-800 dark:bg-stone-950 dark:text-stone-300 dark:hover:border-stone-700 dark:hover:bg-stone-900 dark:hover:text-stone-300">
+              {/* скрыты функции 6 */}
+              <button className="hidden rounded-3xl border-2 border-stone-400 bg-p2-white2 px-10 py-8 text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-stone-400 hover:text-p1-white dark:border-stone-800 dark:bg-stone-950 dark:text-stone-300 dark:hover:border-stone-700 dark:hover:bg-stone-900 dark:hover:text-stone-300">
                 Создать NFT CustomLad с Вашими метаданными
               </button>
             </div>
