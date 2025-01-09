@@ -1,19 +1,9 @@
 'use client';
 import Image from 'next/image';
 import { Link } from '@/i18n/routing';
-import { Autoplay, Mousewheel, Navigation, Pagination } from 'swiper/modules';
-
-import { Swiper, SwiperSlide } from 'swiper/react';
-
-// Import Swiper styles
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/scrollbar';
-import 'swiper/css/pagination';
-import { useState } from 'react';
 import { JumpButton } from '@/components/jumpButton';
+
 export default function Home() {
-  const [check, setCheck] = useState(false);
   const jumpPoints = ['1', '2', '3'];
   return (
     <div className="mx-auto w-full font-serif">
@@ -122,7 +112,6 @@ export default function Home() {
         {/* Карточка */}
 
         <div className="grid h-full w-full grid-cols-1 justify-between p-1 pt-12 md:grid-cols-1 xl:grid-cols-2">
-          
           <div className="grid grid-cols-2">
             <div>
               {' '}
@@ -162,7 +151,6 @@ export default function Home() {
             </Link>
           </div>
         </div>
-
 
         <div className="grid h-1/5 grid-cols-1 p-1 md:grid-cols-2">
           <div className="flex grid-flow-row auto-rows-max justify-start space-x-2">
@@ -214,7 +202,7 @@ export default function Home() {
       <div id="2"></div>
       <div className="flex justify-center space-x-2 pt-2">
         <div>
-          <div className="mx-auto flex max-w-2xl overflow-hidden rounded-2xl border-2 border-p1-green bg-p2-white2 px-4 py-3 backdrop-blur-sm hover:border-p1-cyan focus:border-p1-cyan md:w-60 md:w-96 dark:bg-p1-darkgreen dark:text-p1-cyan">
+          <div className="mx-auto flex max-w-2xl overflow-hidden rounded-2xl border-2 border-p1-green bg-p2-white2 px-4 py-3 backdrop-blur-sm hover:border-p1-cyan focus:border-p1-cyan md:w-96 dark:bg-p1-darkgreen dark:text-p1-cyan">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 192.904 192.904"
@@ -424,7 +412,6 @@ export default function Home() {
         </div>
       </div>
 
- 
       <div id="3"></div>
     </div>
   );
