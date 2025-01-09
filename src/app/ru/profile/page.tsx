@@ -194,7 +194,7 @@ export default function Page() {
                   id="wallet"
                   className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
                   placeholder="Кошелек"
-                  requistone
+                  required
                 />
               </div>
               <div className="pb-2"></div>
@@ -210,7 +210,7 @@ export default function Page() {
                   id="email"
                   className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
                   placeholder="e-mail"
-                  requistone
+                  required
                 />
               </div>
               <div className="pb-2"></div>
@@ -227,7 +227,7 @@ export default function Page() {
                   id="full_name"
                   className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
                   placeholder="Иванов Иван Иванович"
-                  requistone
+                  required
                 />
               </div>
               <div className="pb-2"></div>
@@ -244,7 +244,7 @@ export default function Page() {
                   id="nic_name"
                   className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
                   placeholder="Ник-Имя"
-                  requistone
+                  required
                 />
               </div>
               <div className="pb-2"></div>
@@ -261,7 +261,7 @@ export default function Page() {
                   id="birthday"
                   className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
                   placeholder="Дата рождения"
-                  requistone
+                  required
                 />
               </div>
               <div className="pb-2"></div>
@@ -278,7 +278,7 @@ export default function Page() {
                   id="contry"
                   className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
                   placeholder="Страна"
-                  requistone
+                  required
                 />
               </div>
               <div className="pb-2"></div>
@@ -295,7 +295,7 @@ export default function Page() {
                   id="city"
                   className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
                   placeholder="Город"
-                  requistone
+                  required
                 />
               </div>
               <div className="pb-2"></div>
