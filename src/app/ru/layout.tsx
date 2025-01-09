@@ -16,10 +16,7 @@ const inter = Roboto_Serif({
   subsets: ['latin', 'cyrillic'],
 });
 
-// type Props = {
-//   params: { locale: string };
-//   children: React.ReactNode;
-// };
+type Params = Promise<{ locale: string }>;
 
 export const metadata: Metadata = {
   title: 'GAA',
@@ -28,11 +25,12 @@ export const metadata: Metadata = {
 
 export default async function LocaleLayout({
   children,
-  params: { locale },
+  params,
 }: {
   children: React.ReactNode;
-  params: { locale: string };
+  params: Params;
 }) {
+  const { locale } = await params;
   const messages = await getMessages();
 
   return (
