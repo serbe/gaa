@@ -1,20 +1,25 @@
 'use client';
+
 import Image from 'next/image';
 import { Link } from '@/i18n/routing';
-import { Autoplay, Mousewheel, Navigation, Pagination } from 'swiper/modules';
-
+import { Autoplay, Mousewheel, Navigation } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
+import { useState } from 'react';
+import { JumpButton } from '@/components/jumpButton';
+import { useWindowDimensions } from '@/utils/hooks';
 
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/scrollbar';
 import 'swiper/css/pagination';
-import { useState } from 'react';
-import { JumpButton } from '@/components/jumpButton';
+
 export default function Home() {
   const [check, setCheck] = useState(false);
   const jumpPoints = ['1', '2', '3'];
+  const { width } = useWindowDimensions();
+  const cardWidth = 288;
+
   return (
     <div className="mx-auto w-full font-serif">
       <JumpButton points={jumpPoints} />
@@ -128,7 +133,7 @@ export default function Home() {
             }}
             direction={'horizontal'}
             spaceBetween={1}
-            slidesPerView={5}
+            slidesPerView={Math.floor(width / cardWidth)}
             mousewheel={true}
             modules={[Autoplay, Mousewheel, Navigation]}
             navigation={false}
@@ -140,7 +145,7 @@ export default function Home() {
           >
             <SwiperSlide>
               <div className="group mx-auto mt-1 w-full scale-95 space-x-3 rounded-2xl border-2 border-p1-green bg-gray-100 bg-opacity-50 object-cover p-1 backdrop-blur-sm transition-transform duration-300 hover:scale-100 md:p-2 dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:bg-opacity-80 dark:text-p1-green dark:hover:border-p1-cyan dark:hover:text-p1-cyan dark:group-hover:border-p1-cyan">
-                <Link href="№" className="mx-auto justify-center">
+                <Link href="#" className="mx-auto justify-center">
                   <div className="grid w-full grid-cols-1 items-center gap-2 overflow-hidden rounded-lg xl:grid-cols-2">
                     <Image
                       width={480}
@@ -194,7 +199,7 @@ export default function Home() {
 
             <SwiperSlide>
               <div className="group mx-auto mt-1 w-full scale-95 space-x-3 rounded-2xl border-2 border-p1-green bg-gray-100 bg-opacity-50 object-cover p-1 backdrop-blur-sm transition-transform duration-300 hover:scale-100 md:p-2 dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:bg-opacity-80 dark:text-p1-green dark:hover:border-p1-cyan dark:hover:text-p1-cyan dark:group-hover:border-p1-cyan">
-                <Link href="№" className="mx-auto justify-center">
+                <Link href="#" className="mx-auto justify-center">
                   <div className="grid w-full grid-cols-1 items-center gap-2 overflow-hidden rounded-lg xl:grid-cols-2">
                     <Image
                       width={480}
@@ -207,7 +212,6 @@ export default function Home() {
                       <h2 className="spacing-1 text-xl font-bold text-p1-darkgreen xl:text-2xl dark:text-p1-cyan">
                         Drivers
                       </h2>
-
                       <p className="spacing-1 text-p1-darkgreen dark:text-p1-cyan"></p>
                       <button className="w-full place-content-end rounded-md border border-p1-cyan bg-p1-green py-2 text-white hover:bg-p1-darkgreen dark:bg-p1-deepdarkgreen dark:hover:shadow-lg dark:hover:shadow-p1-darkgreen">
                         Explore Collection
@@ -247,7 +251,7 @@ export default function Home() {
             </SwiperSlide>
             <SwiperSlide>
               <div className="group mx-auto mt-1 w-full scale-95 space-x-3 rounded-2xl border-2 border-p1-green bg-gray-100 bg-opacity-50 object-cover p-1 backdrop-blur-sm transition-transform duration-300 hover:scale-100 md:p-2 dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:bg-opacity-80 dark:text-p1-green dark:hover:border-p1-cyan dark:hover:text-p1-cyan dark:group-hover:border-p1-cyan">
-                <Link href="№" className="mx-auto justify-center">
+                <Link href="#" className="mx-auto justify-center">
                   <div className="grid w-full grid-cols-1 items-center gap-2 overflow-hidden rounded-lg xl:grid-cols-2">
                     <Image
                       width={480}
@@ -300,7 +304,7 @@ export default function Home() {
             </SwiperSlide>
             <SwiperSlide>
               <div className="group mx-auto mt-1 w-full scale-95 space-x-3 rounded-2xl border-2 border-p1-green bg-gray-100 bg-opacity-50 object-cover p-1 backdrop-blur-sm transition-transform duration-300 hover:scale-100 md:p-2 dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:bg-opacity-80 dark:text-p1-green dark:hover:border-p1-cyan dark:hover:text-p1-cyan dark:group-hover:border-p1-cyan">
-                <Link href="№" className="mx-auto justify-center">
+                <Link href="#" className="mx-auto justify-center">
                   <div className="grid w-full grid-cols-1 items-center gap-2 overflow-hidden rounded-lg xl:grid-cols-2">
                     <Image
                       width={480}
@@ -314,7 +318,6 @@ export default function Home() {
                         Collectors
                       </h2>
                       <p className="spacing-1 text-p1-darkgreen dark:text-p1-cyan"></p>
-
                       <button className="w-full place-content-end rounded-md border border-p1-cyan bg-p1-green py-2 text-white hover:bg-p1-darkgreen dark:bg-p1-deepdarkgreen dark:hover:shadow-lg dark:hover:shadow-p1-darkgreen">
                         Explore Collection
                       </button>
@@ -353,7 +356,7 @@ export default function Home() {
             </SwiperSlide>
             <SwiperSlide>
               <div className="group mx-auto mt-1 w-full scale-95 space-x-3 rounded-2xl border-2 border-p1-green bg-gray-100 bg-opacity-50 object-cover p-1 backdrop-blur-sm transition-transform duration-300 hover:scale-100 md:p-2 dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:bg-opacity-80 dark:text-p1-green dark:hover:border-p1-cyan dark:hover:text-p1-cyan dark:group-hover:border-p1-cyan">
-                <Link href="№" className="mx-auto justify-center">
+                <Link href="#" className="mx-auto justify-center">
                   <div className="grid w-full grid-cols-1 items-center gap-2 overflow-hidden rounded-lg xl:grid-cols-2">
                     <Image
                       width={480}
@@ -406,7 +409,7 @@ export default function Home() {
             </SwiperSlide>
             <SwiperSlide>
               <div className="group mx-auto mt-1 w-full scale-95 space-x-3 rounded-2xl border-2 border-p1-green bg-gray-100 bg-opacity-50 object-cover p-1 backdrop-blur-sm transition-transform duration-300 hover:scale-100 md:p-2 dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:bg-opacity-80 dark:text-p1-green dark:hover:border-p1-cyan dark:hover:text-p1-cyan dark:group-hover:border-p1-cyan">
-                <Link href="№" className="mx-auto justify-center">
+                <Link href="#" className="mx-auto justify-center">
                   <div className="grid w-full grid-cols-1 items-center gap-2 overflow-hidden rounded-lg xl:grid-cols-2">
                     <Image
                       width={480}
@@ -459,7 +462,7 @@ export default function Home() {
             </SwiperSlide>
             <SwiperSlide>
               <div className="group mx-auto mt-1 w-full scale-95 space-x-3 rounded-2xl border-2 border-p1-green bg-gray-100 bg-opacity-50 object-cover p-1 backdrop-blur-sm transition-transform duration-300 hover:scale-100 md:p-2 dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:bg-opacity-80 dark:text-p1-green dark:hover:border-p1-cyan dark:hover:text-p1-cyan dark:group-hover:border-p1-cyan">
-                <Link href="№" className="mx-auto justify-center">
+                <Link href="#" className="mx-auto justify-center">
                   <div className="grid w-full grid-cols-1 items-center gap-2 overflow-hidden rounded-lg xl:grid-cols-2">
                     <Image
                       width={480}
@@ -512,7 +515,7 @@ export default function Home() {
             </SwiperSlide>
             <SwiperSlide>
               <div className="group mx-auto mt-1 w-full scale-95 space-x-3 rounded-2xl border-2 border-p1-green bg-gray-100 bg-opacity-50 object-cover p-1 backdrop-blur-sm transition-transform duration-300 hover:scale-100 md:p-2 dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:bg-opacity-80 dark:text-p1-green dark:hover:border-p1-cyan dark:hover:text-p1-cyan dark:group-hover:border-p1-cyan">
-                <Link href="№" className="mx-auto justify-center">
+                <Link href="#" className="mx-auto justify-center">
                   <div className="grid w-full grid-cols-1 items-center gap-2 overflow-hidden rounded-lg xl:grid-cols-2">
                     <Image
                       width={480}
@@ -631,7 +634,7 @@ export default function Home() {
       <div id="2"></div>
       <div className="flex justify-center space-x-2 pt-2">
         <div>
-          <div className="mx-auto flex max-w-2xl overflow-hidden rounded-2xl border-2 border-p1-green bg-p2-white2 px-4 py-3 backdrop-blur-sm hover:border-p1-cyan focus:border-p1-cyan md:w-60 md:w-96 dark:bg-p1-darkgreen dark:text-p1-cyan">
+          <div className="mx-auto flex max-w-2xl overflow-hidden rounded-2xl border-2 border-p1-green bg-p2-white2 px-4 py-3 backdrop-blur-sm hover:border-p1-cyan focus:border-p1-cyan md:w-96 dark:bg-p1-darkgreen dark:text-p1-cyan">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 192.904 192.904"
@@ -1277,7 +1280,7 @@ export default function Home() {
                 <th scope="col" className="px-6 py-3">
                   <div className="flex items-center">
                     Item
-                    <a href="#">
+                    <Link href="#">
                       <svg
                         className="ms-1.5 h-3 w-3"
                         aria-hidden="true"
@@ -1287,13 +1290,13 @@ export default function Home() {
                       >
                         <path d="M8.574 11.024h6.852a2.075 2.075 0 0 0 1.847-1.086 1.9 1.9 0 0 0-.11-1.986L13.736 2.9a2.122 2.122 0 0 0-3.472 0L6.837 7.952a1.9 1.9 0 0 0-.11 1.986 2.074 2.074 0 0 0 1.847 1.086Zm6.852 1.952H8.574a2.072 2.072 0 0 0-1.847 1.087 1.9 1.9 0 0 0 .11 1.985l3.426 5.05a2.123 2.123 0 0 0 3.472 0l3.427-5.05a1.9 1.9 0 0 0 .11-1.985 2.074 2.074 0 0 0-1.846-1.087Z" />
                       </svg>
-                    </a>
+                    </Link>
                   </div>
                 </th>
                 <th scope="col" className="px-6 py-3">
                   <div className="flex items-center">
                     Collection
-                    <a href="#">
+                    <Link href="#">
                       <svg
                         className="ms-1.5 h-3 w-3"
                         aria-hidden="true"
@@ -1303,13 +1306,13 @@ export default function Home() {
                       >
                         <path d="M8.574 11.024h6.852a2.075 2.075 0 0 0 1.847-1.086 1.9 1.9 0 0 0-.11-1.986L13.736 2.9a2.122 2.122 0 0 0-3.472 0L6.837 7.952a1.9 1.9 0 0 0-.11 1.986 2.074 2.074 0 0 0 1.847 1.086Zm6.852 1.952H8.574a2.072 2.072 0 0 0-1.847 1.087 1.9 1.9 0 0 0 .11 1.985l3.426 5.05a2.123 2.123 0 0 0 3.472 0l3.427-5.05a1.9 1.9 0 0 0 .11-1.985 2.074 2.074 0 0 0-1.846-1.087Z" />
                       </svg>
-                    </a>
+                    </Link>
                   </div>
                 </th>
                 <th scope="col" className="px-6 py-3">
                   <div className="flex items-center">
                     Name
-                    <a href="#">
+                    <Link href="#">
                       <svg
                         className="ms-1.5 h-3 w-3"
                         aria-hidden="true"
@@ -1319,13 +1322,13 @@ export default function Home() {
                       >
                         <path d="M8.574 11.024h6.852a2.075 2.075 0 0 0 1.847-1.086 1.9 1.9 0 0 0-.11-1.986L13.736 2.9a2.122 2.122 0 0 0-3.472 0L6.837 7.952a1.9 1.9 0 0 0-.11 1.986 2.074 2.074 0 0 0 1.847 1.086Zm6.852 1.952H8.574a2.072 2.072 0 0 0-1.847 1.087 1.9 1.9 0 0 0 .11 1.985l3.426 5.05a2.123 2.123 0 0 0 3.472 0l3.427-5.05a1.9 1.9 0 0 0 .11-1.985 2.074 2.074 0 0 0-1.846-1.087Z" />
                       </svg>
-                    </a>
+                    </Link>
                   </div>
                 </th>
                 <th scope="col" className="px-6 py-3">
                   <div className="flex items-center">
                     Number #
-                    <a href="#">
+                    <Link href="#">
                       <svg
                         className="ms-1.5 h-3 w-3"
                         aria-hidden="true"
@@ -1335,13 +1338,13 @@ export default function Home() {
                       >
                         <path d="M8.574 11.024h6.852a2.075 2.075 0 0 0 1.847-1.086 1.9 1.9 0 0 0-.11-1.986L13.736 2.9a2.122 2.122 0 0 0-3.472 0L6.837 7.952a1.9 1.9 0 0 0-.11 1.986 2.074 2.074 0 0 0 1.847 1.086Zm6.852 1.952H8.574a2.072 2.072 0 0 0-1.847 1.087 1.9 1.9 0 0 0 .11 1.985l3.426 5.05a2.123 2.123 0 0 0 3.472 0l3.427-5.05a1.9 1.9 0 0 0 .11-1.985 2.074 2.074 0 0 0-1.846-1.087Z" />
                       </svg>
-                    </a>
+                    </Link>
                   </div>
                 </th>
                 <th scope="col" className="px-6 py-3">
                   <div className="flex items-center">
                     Current Price
-                    <a href="#">
+                    <Link href="#">
                       <svg
                         className="ms-1.5 h-3 w-3"
                         aria-hidden="true"
@@ -1351,14 +1354,14 @@ export default function Home() {
                       >
                         <path d="M8.574 11.024h6.852a2.075 2.075 0 0 0 1.847-1.086 1.9 1.9 0 0 0-.11-1.986L13.736 2.9a2.122 2.122 0 0 0-3.472 0L6.837 7.952a1.9 1.9 0 0 0-.11 1.986 2.074 2.074 0 0 0 1.847 1.086Zm6.852 1.952H8.574a2.072 2.072 0 0 0-1.847 1.087 1.9 1.9 0 0 0 .11 1.985l3.426 5.05a2.123 2.123 0 0 0 3.472 0l3.427-5.05a1.9 1.9 0 0 0 .11-1.985 2.074 2.074 0 0 0-1.846-1.087Z" />
                       </svg>
-                    </a>
+                    </Link>
                   </div>
                 </th>
 
                 <th scope="col" className="px-6 py-3">
                   <div className="flex items-center">
                     Best Offer
-                    <a href="#">
+                    <Link href="#">
                       <svg
                         className="ms-1.5 h-3 w-3"
                         aria-hidden="true"
@@ -1368,13 +1371,13 @@ export default function Home() {
                       >
                         <path d="M8.574 11.024h6.852a2.075 2.075 0 0 0 1.847-1.086 1.9 1.9 0 0 0-.11-1.986L13.736 2.9a2.122 2.122 0 0 0-3.472 0L6.837 7.952a1.9 1.9 0 0 0-.11 1.986 2.074 2.074 0 0 0 1.847 1.086Zm6.852 1.952H8.574a2.072 2.072 0 0 0-1.847 1.087 1.9 1.9 0 0 0 .11 1.985l3.426 5.05a2.123 2.123 0 0 0 3.472 0l3.427-5.05a1.9 1.9 0 0 0 .11-1.985 2.074 2.074 0 0 0-1.846-1.087Z" />
                       </svg>
-                    </a>
+                    </Link>
                   </div>
                 </th>
                 <th scope="col" className="px-6 py-3">
                   <div className="flex items-center">
                     Last Sale
-                    <a href="#">
+                    <Link href="#">
                       <svg
                         className="ms-1.5 h-3 w-3"
                         aria-hidden="true"
@@ -1384,13 +1387,13 @@ export default function Home() {
                       >
                         <path d="M8.574 11.024h6.852a2.075 2.075 0 0 0 1.847-1.086 1.9 1.9 0 0 0-.11-1.986L13.736 2.9a2.122 2.122 0 0 0-3.472 0L6.837 7.952a1.9 1.9 0 0 0-.11 1.986 2.074 2.074 0 0 0 1.847 1.086Zm6.852 1.952H8.574a2.072 2.072 0 0 0-1.847 1.087 1.9 1.9 0 0 0 .11 1.985l3.426 5.05a2.123 2.123 0 0 0 3.472 0l3.427-5.05a1.9 1.9 0 0 0 .11-1.985 2.074 2.074 0 0 0-1.846-1.087Z" />
                       </svg>
-                    </a>
+                    </Link>
                   </div>
                 </th>
                 <th scope="col" className="px-6 py-3">
                   <div className="flex items-center">
                     Rarity
-                    <a href="#">
+                    <Link href="#">
                       <svg
                         className="ms-1.5 h-3 w-3"
                         aria-hidden="true"
@@ -1400,13 +1403,13 @@ export default function Home() {
                       >
                         <path d="M8.574 11.024h6.852a2.075 2.075 0 0 0 1.847-1.086 1.9 1.9 0 0 0-.11-1.986L13.736 2.9a2.122 2.122 0 0 0-3.472 0L6.837 7.952a1.9 1.9 0 0 0-.11 1.986 2.074 2.074 0 0 0 1.847 1.086Zm6.852 1.952H8.574a2.072 2.072 0 0 0-1.847 1.087 1.9 1.9 0 0 0 .11 1.985l3.426 5.05a2.123 2.123 0 0 0 3.472 0l3.427-5.05a1.9 1.9 0 0 0 .11-1.985 2.074 2.074 0 0 0-1.846-1.087Z" />
                       </svg>
-                    </a>
+                    </Link>
                   </div>
                 </th>
                 <th scope="col" className="px-6 py-3">
                   <div className="flex items-center">
                     Owner
-                    <a href="#">
+                    <Link href="#">
                       <svg
                         className="ms-1.5 h-3 w-3"
                         aria-hidden="true"
@@ -1416,13 +1419,13 @@ export default function Home() {
                       >
                         <path d="M8.574 11.024h6.852a2.075 2.075 0 0 0 1.847-1.086 1.9 1.9 0 0 0-.11-1.986L13.736 2.9a2.122 2.122 0 0 0-3.472 0L6.837 7.952a1.9 1.9 0 0 0-.11 1.986 2.074 2.074 0 0 0 1.847 1.086Zm6.852 1.952H8.574a2.072 2.072 0 0 0-1.847 1.087 1.9 1.9 0 0 0 .11 1.985l3.426 5.05a2.123 2.123 0 0 0 3.472 0l3.427-5.05a1.9 1.9 0 0 0 .11-1.985 2.074 2.074 0 0 0-1.846-1.087Z" />
                       </svg>
-                    </a>
+                    </Link>
                   </div>
                 </th>
                 <th scope="col" className="px-6 py-3">
                   <div className="flex items-center">
                     Time Listed
-                    <a href="#">
+                    <Link href="#">
                       <svg
                         className="ms-1.5 h-3 w-3"
                         aria-hidden="true"
@@ -1432,13 +1435,13 @@ export default function Home() {
                       >
                         <path d="M8.574 11.024h6.852a2.075 2.075 0 0 0 1.847-1.086 1.9 1.9 0 0 0-.11-1.986L13.736 2.9a2.122 2.122 0 0 0-3.472 0L6.837 7.952a1.9 1.9 0 0 0-.11 1.986 2.074 2.074 0 0 0 1.847 1.086Zm6.852 1.952H8.574a2.072 2.072 0 0 0-1.847 1.087 1.9 1.9 0 0 0 .11 1.985l3.426 5.05a2.123 2.123 0 0 0 3.472 0l3.427-5.05a1.9 1.9 0 0 0 .11-1.985 2.074 2.074 0 0 0-1.846-1.087Z" />
                       </svg>
-                    </a>
+                    </Link>
                   </div>
                 </th>
                 <th scope="col" className="px-6 py-3">
                   <div className="flex items-center">
                     Make Offer
-                    <a href="#">
+                    <Link href="#">
                       <svg
                         className="ms-1.5 h-3 w-3"
                         aria-hidden="true"
@@ -1448,7 +1451,7 @@ export default function Home() {
                       >
                         <path d="M8.574 11.024h6.852a2.075 2.075 0 0 0 1.847-1.086 1.9 1.9 0 0 0-.11-1.986L13.736 2.9a2.122 2.122 0 0 0-3.472 0L6.837 7.952a1.9 1.9 0 0 0-.11 1.986 2.074 2.074 0 0 0 1.847 1.086Zm6.852 1.952H8.574a2.072 2.072 0 0 0-1.847 1.087 1.9 1.9 0 0 0 .11 1.985l3.426 5.05a2.123 2.123 0 0 0 3.472 0l3.427-5.05a1.9 1.9 0 0 0 .11-1.985 2.074 2.074 0 0 0-1.846-1.087Z" />
                       </svg>
-                    </a>
+                    </Link>
                   </div>
                 </th>
               </tr>
@@ -1557,7 +1560,7 @@ export default function Home() {
                 <th scope="col" className="px-6 py-3">
                   <div className="flex items-center">
                     Image Collection
-                    <a href="#">
+                    <Link href="#">
                       <svg
                         className="ms-1.5 h-3 w-3"
                         aria-hidden="true"
@@ -1567,13 +1570,13 @@ export default function Home() {
                       >
                         <path d="M8.574 11.024h6.852a2.075 2.075 0 0 0 1.847-1.086 1.9 1.9 0 0 0-.11-1.986L13.736 2.9a2.122 2.122 0 0 0-3.472 0L6.837 7.952a1.9 1.9 0 0 0-.11 1.986 2.074 2.074 0 0 0 1.847 1.086Zm6.852 1.952H8.574a2.072 2.072 0 0 0-1.847 1.087 1.9 1.9 0 0 0 .11 1.985l3.426 5.05a2.123 2.123 0 0 0 3.472 0l3.427-5.05a1.9 1.9 0 0 0 .11-1.985 2.074 2.074 0 0 0-1.846-1.087Z" />
                       </svg>
-                    </a>
+                    </Link>
                   </div>
                 </th>
                 <th scope="col" className="px-6 py-3">
                   <div className="flex items-center">
                     Collection
-                    <a href="#">
+                    <Link href="#">
                       <svg
                         className="ms-1.5 h-3 w-3"
                         aria-hidden="true"
@@ -1583,13 +1586,13 @@ export default function Home() {
                       >
                         <path d="M8.574 11.024h6.852a2.075 2.075 0 0 0 1.847-1.086 1.9 1.9 0 0 0-.11-1.986L13.736 2.9a2.122 2.122 0 0 0-3.472 0L6.837 7.952a1.9 1.9 0 0 0-.11 1.986 2.074 2.074 0 0 0 1.847 1.086Zm6.852 1.952H8.574a2.072 2.072 0 0 0-1.847 1.087 1.9 1.9 0 0 0 .11 1.985l3.426 5.05a2.123 2.123 0 0 0 3.472 0l3.427-5.05a1.9 1.9 0 0 0 .11-1.985 2.074 2.074 0 0 0-1.846-1.087Z" />
                       </svg>
-                    </a>
+                    </Link>
                   </div>
                 </th>
                 <th scope="col" className="px-6 py-3">
                   <div className="flex items-center">
                     Floor price
-                    <a href="#">
+                    <Link href="#">
                       <svg
                         className="ms-1.5 h-3 w-3"
                         aria-hidden="true"
@@ -1599,13 +1602,13 @@ export default function Home() {
                       >
                         <path d="M8.574 11.024h6.852a2.075 2.075 0 0 0 1.847-1.086 1.9 1.9 0 0 0-.11-1.986L13.736 2.9a2.122 2.122 0 0 0-3.472 0L6.837 7.952a1.9 1.9 0 0 0-.11 1.986 2.074 2.074 0 0 0 1.847 1.086Zm6.852 1.952H8.574a2.072 2.072 0 0 0-1.847 1.087 1.9 1.9 0 0 0 .11 1.985l3.426 5.05a2.123 2.123 0 0 0 3.472 0l3.427-5.05a1.9 1.9 0 0 0 .11-1.985 2.074 2.074 0 0 0-1.846-1.087Z" />
                       </svg>
-                    </a>
+                    </Link>
                   </div>
                 </th>
                 <th scope="col" className="px-6 py-3">
                   <div className="flex items-center">
                     Volume
-                    <a href="#">
+                    <Link href="#">
                       <svg
                         className="ms-1.5 h-3 w-3"
                         aria-hidden="true"
@@ -1615,7 +1618,7 @@ export default function Home() {
                       >
                         <path d="M8.574 11.024h6.852a2.075 2.075 0 0 0 1.847-1.086 1.9 1.9 0 0 0-.11-1.986L13.736 2.9a2.122 2.122 0 0 0-3.472 0L6.837 7.952a1.9 1.9 0 0 0-.11 1.986 2.074 2.074 0 0 0 1.847 1.086Zm6.852 1.952H8.574a2.072 2.072 0 0 0-1.847 1.087 1.9 1.9 0 0 0 .11 1.985l3.426 5.05a2.123 2.123 0 0 0 3.472 0l3.427-5.05a1.9 1.9 0 0 0 .11-1.985 2.074 2.074 0 0 0-1.846-1.087Z" />
                       </svg>
-                    </a>
+                    </Link>
                   </div>
                 </th>
               </tr>
