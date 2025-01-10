@@ -589,7 +589,7 @@ export default function Home() {
               <div>
                 <p className="text-3xl font-semibold md:px-10">RaceLads</p>
                 <p className="font-thing text-2xl md:px-10">Polygon zkEVM </p>
-                <p className="font-thing text-2xl md:px-10">Design by GAA </p>
+                <p className="font-thing text-2xl md:px-10">Designed by GAA </p>
               </div>
             </div>
           </div>
