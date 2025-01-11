@@ -10,7 +10,7 @@ export default function Home() {
       <JumpButton points={jumpPoints} />
 
       <div id="1"></div>
-      <div className="h-1/6 bg-[url('/background/bgsky.png')] bg-cover bg-center p-2 dark:brightness-75">
+      <div className="h-1/6 bg-p1-white bg-cover bg-center p-2 dark:bg-p1-deepdarkgreen dark:brightness-75">
         <div className="flex justify-center space-x-2"></div>
         <div className="grid grid-cols-2 justify-center p-1 md:justify-between">
           <div className="flex justify-start space-x-6"></div>
@@ -20,7 +20,7 @@ export default function Home() {
             <div>
               <Link href={'#'} className="mx-auto justify-center">
                 <Image
-                  className="h-10 w-10 rounded-sm p-1 ring-p1-green transition-all delay-75 duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:ring-2 hover:ring-p1-cyan dark:ring-p1-darkgreen"
+                  className="h-10 w-10 rounded-lg p-1 ring-p1-green transition-all delay-75 duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:ring-2 hover:ring-p1-cyan dark:ring-p1-darkgreen"
                   width={480}
                   height={480}
                   src="/Logo/wallet-nft.png"
@@ -78,7 +78,7 @@ export default function Home() {
             <div>
               <Link href={'#'} className="mx-auto justify-center">
                 <Image
-                  className="h-10 w-10 rounded-sm p-1 ring-p1-green transition-all delay-75 duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50"
+                  className="h-10 w-10 rounded-lg p-1 ring-p1-green transition-all delay-75 duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:ring-2 hover:ring-p1-cyan dark:ring-p1-darkgreen"
                   width={480}
                   height={480}
                   src="/Logo/shopping-cart.png"
@@ -102,7 +102,7 @@ export default function Home() {
             </svg>
             <input
               type="email"
-              placeholder="Search Something..."
+              placeholder="Search ..."
               className="w-full bg-transparent text-xl text-gray-600 outline-none"
             />
           </div>
@@ -111,45 +111,463 @@ export default function Home() {
 
         {/* Карточка */}
 
-        <div className="grid h-full w-full grid-cols-1 justify-between p-1 pt-12 md:grid-cols-1 xl:grid-cols-2">
-          <div className="grid grid-cols-2">
-            <div>
-              {' '}
-              <Link
-                href={'#'}
-                className="z-50 grid w-10 transition-all delay-75 duration-300 ease-in-out hover:scale-125"
-              >
-                <Image className="p-1" width={480} height={480} src="/Logo/eth.png" alt="LogoETH" />
-              </Link>
+        <div className="grid grid-cols-2 place-content-between pt-8">
+          <div className="grid grid-cols-1">
+            <div className="grid grid-cols-2 justify-between md:grid-cols-2 2xl:grid-cols-2">
+              <div className="flex justify-start space-x-1 md:px-10">
+                <div className="w-10 transition-all delay-75 duration-300 ease-in-out hover:scale-125">
+                  <Link href={'#'}>
+                    <Image
+                      className="p-1"
+                      width={480}
+                      height={480}
+                      src="/Logo/Poligon_zkEVM_logo_green.png"
+                      alt="LogoETH"
+                    />
+                  </Link>
+                </div>
+
+                <div className="place-content-center text-2xl text-p1-green md:text-xl dark:text-p1-green">
+                  Polygon zkEVM
+                </div>
+                <div className="flex grid-flow-row auto-rows-max justify-start space-x-2"></div>
+                <div></div>
+              </div>
+
+              <div className="flex justify-end">
+                <div className="inline-flex w-full justify-end rounded-md md:px-10" role="group">
+                  <div className="w-7 text-xl text-p1-green">10</div>
+                  <div className="w-10">
+                    <div className="transition-all delay-75 duration-300 ease-in-out hover:scale-125">
+                      {' '}
+                      <Link href={'#'} className="">
+                        <Image
+                          className="p-1"
+                          width={480}
+                          height={480}
+                          src="/icon/heart_green.png"
+                          alt="Bordered avatar"
+                        />
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div>
-              {' '}
-              <Link
-                href={'#'}
-                className="z-50 grid w-10 justify-end transition-all delay-75 duration-300 ease-in-out hover:scale-125"
-              >
+            <div className="flex grid-flow-row auto-rows-max space-x-2 px-2 md:px-10">
+              <Link href={'#'} className="mx-auto w-full">
                 <Image
-                  className="p-1"
-                  width={480}
-                  height={480}
-                  src="/Logo/heart-red.png"
+                  className="rounded-3xl dark:ring-p1-darkgreen"
+                  width={1000}
+                  height={1000}
+                  src="/HeroNFT/RaceLads/RaceLads1.png"
                   alt="Bordered avatar"
                 />
               </Link>
             </div>
           </div>
-          <div>1</div>
-          <div className="flex grid-flow-row auto-rows-max space-x-2 px-2 md:px-10">
-            <Link href={'#'} className="mx-auto w-full">
-              <Image
-                className="rounded-3xl dark:ring-p1-darkgreen"
-                width={1000}
-                height={1000}
-                src="/HeroNFT/RaceLads/RaceLads1.png"
-                alt="Bordered avatar"
-              />
-            </Link>
+
+          <div>
+            <div className="">
+              <div className="grid grid-cols-2 justify-between md:grid-cols-2 2xl:grid-cols-2">
+                <div className="flex justify-start space-x-1 md:px-10">
+                  <div className="group relative">
+                    <div>
+                      <Link
+                        href={'#'}
+                        className="mx-auto justify-start text-2xl text-p1-green hover:text-p1-cyan"
+                      >
+                        RaceLads
+                      </Link>
+                    </div>
+                    <div className="invisible absolute left-1/2 top-full z-10 -translate-x-1/2 transform rounded-xl bg-p1-white opacity-0 shadow-lg transition-all duration-300 group-hover:visible group-hover:opacity-100">
+                      <div className="w-96 rounded-lg bg-p1-darkgreen text-base text-white shadow-lg">
+                        <div className="group mx-auto mt-1 w-full space-x-3 rounded-lg border-2 border-p1-green bg-p1-white bg-opacity-100 object-cover p-1 transition-transform duration-300 hover:scale-100 md:p-2 dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:bg-opacity-80 dark:text-p1-green dark:hover:border-p1-cyan dark:hover:text-p1-cyan dark:group-hover:border-p1-cyan">
+                          <Link href="#" className="mx-auto justify-center">
+                            <div className="grid w-full grid-cols-1 items-center gap-2 overflow-hidden rounded-2xl xl:grid-cols-2">
+                              <Image
+                                width={480}
+                                height={480}
+                                src="/HeroNFT/RaceLads/RaceLads1.png"
+                                alt="RaceLad"
+                                className="w-full scale-90"
+                              />
+                              <div>
+                                <h2 className="spacing-1 text-xl font-bold text-p1-darkgreen xl:text-2xl dark:text-p1-cyan">
+                                  RaceLads
+                                </h2>
+                                <p className="spacing-1 text-p1-darkgreen dark:text-p1-cyan"></p>
+                                <p className="spacing-1 text-p1-darkgreen dark:text-p1-cyan"></p>
+                                <button className="w-full place-content-end rounded-md border border-p1-cyan bg-p1-green py-2 text-white hover:bg-p1-darkgreen dark:bg-p1-deepdarkgreen dark:hover:shadow-lg dark:hover:shadow-p1-darkgreen">
+                                  Explore Collection
+                                </button>
+                              </div>
+                            </div>{' '}
+                            <div className="mt-2 grid w-full grid-cols-3 items-center justify-between space-x-1 text-center md:mt-4 md:grid-cols-3">
+                              <div>
+                                <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Items</p>
+                                <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
+                                  10,000
+                                </p>
+                              </div>
+                              <div>
+                                <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">
+                                  Floor Price
+                                </p>
+                                <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
+                                  <Image
+                                    className="relative inline-block w-8 px-1"
+                                    layout="intrinsic"
+                                    width={50}
+                                    height={50}
+                                    src="/Logo/eth.png"
+                                    alt="eth"
+                                  />{' '}
+                                  15.2
+                                </p>
+                              </div>
+                              <div>
+                                <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">
+                                  Total Volume
+                                </p>
+                                <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
+                                  25K
+                                </p>
+                              </div>
+                            </div>
+                          </Link>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="">
+                    <div className="group relative">
+                      <Link href={'#'} className="mx-auto justify-start">
+                        <Image
+                          className="h-7 w-7 rounded-sm p-1 transition-all delay-75 duration-300 ease-in-out"
+                          width={480}
+                          height={480}
+                          src="/icon/chek_bold_green.png"
+                          alt="bt2"
+                        />
+                      </Link>
+                      <div className="invisible absolute left-1/2 top-full z-10 mt-2 w-80 -translate-x-1/2 transform rounded-xl bg-p1-darkgreen bg-center p-4 text-gray-800 opacity-0 shadow-lg backdrop-blur-sm transition-all duration-300 group-hover:visible group-hover:opacity-100">
+                        <div className="w-72 rounded-lg bg-p1-darkgreen text-base text-white shadow-lg">
+                          <details className="mb-2 border-b border-gray-600">
+                            <summary className="relative flex cursor-pointer justify-start py-1">
+                              {' '}
+                              <div className="px-2">
+                                <Image
+                                  className="h-6 w-6"
+                                  width={480}
+                                  height={480}
+                                  src="/icon/chek_green.png"
+                                  alt="bt2"
+                                />
+                              </div>{' '}
+                              <div className="text-p1-cyan">Bedged Collectiob</div>
+                            </summary>
+                            <div className="pl-4 pt-1 text-p1-cyan">
+                              This collection belongs to a verified account and has significant
+                              interest or sales. Learn more This token was minted on the smart
+                              contract at the address below:
+                            </div>
+                          </details>
+                          <details>
+                            <summary className="relative flex cursor-pointer justify-start py-1">
+                              <div className="px-2">
+                                <Image
+                                  className="h-6 w-6"
+                                  width={480}
+                                  height={480}
+                                  src="/icon/Attention_orange.png"
+                                  alt="bt2"
+                                />
+                              </div>
+                              <div className="text-p1-cyan">Mintable Collection</div>
+                            </summary>
+                            <div className="pl-4 pt-1 text-p1-cyan">
+                              Mintable collections allow users to create their own digital items,
+                              which could include duplicate or fake versions of items from other
+                              projects. You should always do your own research, proceed with
+                              caution, and be certain that the smart contract address of the project
+                              is exactly what you expect.
+                            </div>
+                          </details>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="flex justify-end md:px-10">
+                  <div className="inline-flex w-full justify-end space-x-3 rounded-md" role="group">
+                    <div className="w-10">
+                      <Link href={'#'} className="mx-auto justify-center">
+                        <Image
+                          className="h-10 w-10 rounded-xl p-0 transition-all delay-75 duration-300 ease-in-out hover:bg-opacity-50 hover:ring-1 hover:ring-p1-green dark:ring-p1-green dark:hover:ring-p1-cyan"
+                          width={480}
+                          height={480}
+                          src="/icon/hand_shake_green.png"
+                          alt="line"
+                        />
+                      </Link>
+                    </div>
+                    <div className="w-10">
+                      <Link href={'#'} className="mx-auto justify-center">
+                        <Image
+                          className="h-10 w-10 rounded-xl p-1 transition-all delay-75 duration-300 ease-in-out hover:bg-opacity-50 hover:ring-1 hover:ring-p1-green dark:ring-p1-green dark:hover:ring-p1-cyan"
+                          width={480}
+                          height={480}
+                          src="/icon/share_green.png"
+                          alt="bt16"
+                        />
+                      </Link>
+                    </div>
+                    <div className="w-10">
+                      <Link href={'#'} className="mx-auto justify-center">
+                        <Image
+                          className="h-10 w-10 rounded-xl p-1 transition-all delay-75 duration-300 ease-in-out hover:bg-opacity-50 hover:ring-1 hover:ring-p1-green dark:ring-p1-green dark:hover:ring-p1-cyan"
+                          width={480}
+                          height={480}
+                          src="/icon/points_green.png"
+                          alt="bt9"
+                        />
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <div className="">
+                <div className="grid grid-cols-2 justify-between md:grid-cols-2 2xl:grid-cols-2">
+                  <div className="flex justify-start space-x-1 md:px-10">
+                    <div className="relative">
+                      <div className="mx-auto justify-start text-2xl text-p1-darkgreen dark:text-p1-green">
+                        RaceLad
+                      </div>
+                    </div>
+                    <div className="">
+                      <div className="mx-auto justify-start px-3 text-2xl text-p1-darkgreen dark:text-p1-green">
+                        {' '}
+                        John{' '}
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="flex justify-end md:px-10"></div>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div className="">
+                <div className="grid grid-cols-2 justify-between md:grid-cols-2 2xl:grid-cols-2">
+                  <div className="flex justify-start space-x-1 md:px-10">
+                    <div className="relative">
+                      <div className="mx-auto justify-start text-2xl text-p1-darkgreen"></div>
+                    </div>
+                    <div className="">
+                      <div className="mx-auto justify-start text-xl text-p1-darkgreen dark:text-p1-green"># 8888</div>
+                    </div>
+                  </div>
+
+                  <div className="flex justify-end md:px-10"></div>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <div className="">
+                <div className="">
+                  <div className="flex justify-start space-x-1 md:px-10">
+                    <div className="relative">
+                      <div className="mx-auto justify-start text-xl text-p1-darkgreen dark:text-p1-green">
+                        Owned by:
+                      </div>
+                    </div>
+                    <div className="">
+                      <div className="mx-auto justify-start text-xl text-p1-green hover:text-p1-cyan">
+                        <Link href={'#'} className="mx-auto justify-center">
+                          Иван Иванович Иванов
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="pb-4"></div>
+            <div>
+              <div className="">
+                <div className="grid grid-cols-1 justify-between">
+                  <div className="flex justify-start space-x-4">
+                    <div className="relative">
+                      <div className="mx-auto justify-start text-xl text-p1-darkgreen dark:text-p1-green">
+                        <Image
+                          className="h-8 w-8 p-0 transition-all delay-75 duration-300 ease-in-out hover:scale-125"
+                          width={480}
+                          height={480}
+                          src="/icon/view_green.png"
+                          alt="view"
+                        />
+                      </div>
+                    </div>
+                    <div className="px-2">
+                      <div className="mx-auto justify-start text-xl text-p1-darkgreen dark:text-p1-green">
+                        569 views
+                      </div>
+                    </div>
+                    <div className="">
+                      <div className="mx-auto justify-start text-xl text-p1-darkgreen dark:text-p1-green">
+                        <Image
+                          className="h-7 w-7 p-0 transition-all delay-75 duration-300 ease-in-out hover:scale-125"
+                          width={480}
+                          height={480}
+                          src="/icon/heart_green.png"
+                          alt="heart"
+                        />
+                      </div>
+                    </div>
+                    <div className="px-2">
+                      <div className="mx-auto justify-start text-xl text-p1-darkgreen dark:text-p1-green">
+                        10 favorites
+                      </div>
+                    </div>
+                    <div className="">
+                      <div className="mx-auto justify-start text-xl text-p1-darkgreen dark:text-p1-green">
+                        <Image
+                          className="h-7 w-7 p-0 transition-all delay-75 duration-300 ease-in-out hover:scale-125"
+                          width={480}
+                          height={480}
+                          src="/icon/pfps.png"
+                          alt="pfps"
+                        />
+                      </div>
+                    </div>
+                    <div className="">
+                      <div className="mx-auto justify-start text-xl text-p1-darkgreen dark:text-p1-green">PFPs</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="pb-2"> </div>
+            <div>
+              <div className="flex justify-start space-x-1 rounded-2xl border bg-p1-white p-2 shadow-sm md:px-10 dark:border-p1-green dark:bg-p1-deepdarkgreen">
+                <div className="relative">
+                  <div className="mx-auto justify-start text-xl text-p1-darkgreen dark:text-p1-green">Best offer</div>
+
+                  <div>
+                    <div className="">
+                      <div className="grid grid-cols-1 justify-between">
+                        <div className="flex justify-start">
+                          <div className="relative">
+                            <div className="mx-auto justify-start text-4xl text-p1-darkgreen dark:text-p1-green">
+                              2,72
+                            </div>
+                          </div>
+                          <div className="">
+                            <div className="mx-auto justify-start text-4xl text-p1-darkgreen dark:text-p1-green">
+                              WETH
+                            </div>
+                          </div>
+                          <div className="px-4"> </div>
+                          <div className="self-end">
+                            <div className="">
+                              <Image
+                                className="h-6 w-6 px-1"
+                                width={480}
+                                height={480}
+                                src="/logo/usd-green.png"
+                                alt="heart"
+                              />
+                            </div>
+                          </div>
+                          <div className="self-end text-xl text-p1-darkgreen dark:text-p1-green">
+                            <div className="">10.000</div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="my-5 flex">
+                      <Link
+                        href="#"
+                        className="relative flex place-content-center rounded-xl border-2 border-p1-green bg-p1-white px-4 py-4 text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:border-p1-darkgreen hover:bg-p1-darkgreen hover:text-p1-cyan dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan"
+                      >
+                        <div>
+                          <Image
+                            className="h-7 w-7 transition-all delay-75 duration-300 ease-in-out hover:scale-125"
+                            width={480}
+                            height={480}
+                            src="/icon/offer_green.png"
+                            alt="offer"
+                          />
+                        </div>
+                        <div className="px-4">Сделать предложение</div>
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="pt-2"> 
+            <div className="w-72 rounded-lg bg-p1-darkgreen text-base text-white shadow-lg">
+                          <details className="mb-2 border-b border-gray-600">
+                            <summary className="relative flex cursor-pointer justify-start py-1">
+                              {' '}
+                              <div className="px-2">
+                                <Image
+                                  className="h-6 w-6"
+                                  width={480}
+                                  height={480}
+                                  src="/icon/chek_green.png"
+                                  alt="bt2"
+                                />
+                              </div>{' '}
+                              <div className="text-p1-cyan">Bedged Collectiob</div>
+                            </summary>
+                            <div className="pl-4 pt-1 text-p1-cyan">
+                              This collection belongs to a verified account and has significant
+                              interest or sales. Learn more This token was minted on the smart
+                              contract at the address below:
+                            </div>
+                          </details>
+                          <details>
+                            <summary className="relative flex cursor-pointer justify-start py-1">
+                              <div className="px-2">
+                                <Image
+                                  className="h-6 w-6"
+                                  width={480}
+                                  height={480}
+                                  src="/icon/Attention_orange.png"
+                                  alt="bt2"
+                                />
+                              </div>
+                              <div className="text-p1-cyan">Mintable Collection</div>
+                            </summary>
+                            <div className="pl-4 pt-1 text-p1-cyan">
+                              Mintable collections allow users to create their own digital items,
+                              which could include duplicate or fake versions of items from other
+                              projects. You should always do your own research, proceed with
+                              caution, and be certain that the smart contract address of the project
+                              is exactly what you expect.
+                            </div>
+                          </details>
+                        </div>
+
+
+            </div>
+            <div className=""> 12345678</div>
+            <div className=""> 12345678</div>
+            <div className=""> 12345678</div>
+            <div className=""> 12345678</div>
+            <div className=""> 12345678</div>
+            <div className=""> 12345678</div>
           </div>
+
+          <div>1111</div>
         </div>
 
         <div className="grid h-1/5 grid-cols-1 p-1 md:grid-cols-2">
