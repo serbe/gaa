@@ -4,9 +4,8 @@ import Image from 'next/image';
 import { Link } from '@/i18n/routing';
 import { Autoplay, Mousewheel, Navigation } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { useState } from 'react';
 import { JumpButton } from '@/components/jumpButton';
-import { useWindowDimensions } from '@/utils/hooks';
+import { useDeviceSize } from '@/utils/hooks';
 
 // Import Swiper styles
 import 'swiper/css';
@@ -15,9 +14,8 @@ import 'swiper/css/scrollbar';
 import 'swiper/css/pagination';
 
 export default function Home() {
-  const [check, setCheck] = useState(false);
   const jumpPoints = ['1', '2', '3'];
-  const { width } = useWindowDimensions();
+  const { width } = useDeviceSize();
   const cardWidth = 288;
 
   return (
@@ -1031,7 +1029,6 @@ export default function Home() {
               <div className="text-darkgreen w-full rounded-2xl border border-p1-green bg-p1-white text-xl shadow-lg dark:bg-p1-deepdarkgreen">
                 <details className="m-2">
                   <summary className="relative flex cursor-pointer justify-start py-2">
-                    {' '}
                     <div className="px-2">
                       <Image
                         className="h-10 w-10 transition-all duration-300 ease-in-out hover:scale-125"
@@ -1040,7 +1037,7 @@ export default function Home() {
                         src="/icon/price_history_green.png"
                         alt="ph"
                       />
-                    </div>{' '}
+                    </div>
                     <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
                       Price History
                     </div>
@@ -3021,7 +3018,6 @@ export default function Home() {
           <div className="text-darkgreen w-full rounded-2xl border border-p1-green bg-p1-white text-xl shadow-lg dark:bg-p1-deepdarkgreen">
             <details className="m-2">
               <summary className="relative flex cursor-pointer justify-start py-2">
-                {' '}
                 <div className="px-2">
                   <Image
                     className="h-10 w-10 transition-all duration-300 ease-in-out hover:scale-125"
@@ -3030,7 +3026,7 @@ export default function Home() {
                     src="/icon/more.png"
                     alt="ph"
                   />
-                </div>{' '}
+                </div>
                 <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
                   More From This Collection
                 </div>
