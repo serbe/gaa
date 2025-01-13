@@ -19,7 +19,7 @@ export default function Home() {
   const cardWidth = 288;
 
   return (
-    <div className="mx-auto w-full font-serif">
+    <div className="mx-auto w-full font-serif md:px-6 lg:px-10 xl:px-14 2xl:px-16">
       <JumpButton points={jumpPoints} />
 
       <div id="1"></div>
@@ -55,33 +55,75 @@ export default function Home() {
                 <div className="invisible absolute left-1/2 z-10 mt-2 w-40 -translate-x-1/2 transform rounded-xl bg-p1-cyan bg-center p-4 text-gray-800 opacity-0 shadow-lg transition-all duration-300 group-hover:visible group-hover:opacity-100 md:w-52">
                   <div className="rounded-lg border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
                     <Link href={'/profile'} className="mx-auto justify-center">
+                      <Image
+                        className="h-10 w-10"
+                        width={480}
+                        height={480}
+                        src="/icon/NFT_user_green.png"
+                        alt="Bordered avatar"
+                      />
                       Profile
                     </Link>
                   </div>
                   <div className="rounded-lg border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
                     <Link href={'/dashboard'} className="mx-auto justify-center">
+                      <Image
+                        className="h-10 w-10"
+                        width={480}
+                        height={480}
+                        src="/icon/more.png"
+                        alt="Bordered avatar"
+                      />
                       Dashboard
                     </Link>
                   </div>
                   <div className="rounded-lg border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
                     <Link href={'/marketplace'} className="mx-auto justify-center">
+                      <Image
+                        className="h-10 w-10"
+                        width={480}
+                        height={480}
+                        src="/Logo/shopping-cart.png"
+                        alt="Bordered avatar"
+                      />
                       Marketplace
                     </Link>
                   </div>
                   <div className="rounded-lg border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
                     <Link href={'/user'} className="mx-auto justify-center">
+                      <Image
+                        className="h-10 w-10"
+                        width={480}
+                        height={480}
+                        src="/icon/NFT-col.png"
+                        alt="Bordered avatar"
+                      />
                       My NFT{' '}
                     </Link>
                   </div>
 
                   <div className="rounded-lg border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
                     <Link href={'#'} className="mx-auto justify-center">
+                      <Image
+                        className="h-10 w-10"
+                        width={480}
+                        height={480}
+                        src="/icon/view_green.png"
+                        alt="Bordered avatar"
+                      />
                       Watchlist
                     </Link>
                   </div>
 
                   <div className="rounded-lg border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
                     <Link href={'#'} className="mx-auto justify-center">
+                      <Image
+                        className="h-10 w-10"
+                        width={480}
+                        height={480}
+                        src="/icon/hand_shake_green.png"
+                        alt="Bordered avatar"
+                      />
                       Deals
                     </Link>
                   </div>
@@ -125,7 +167,7 @@ export default function Home() {
 
         {/* Карточка */}
 
-        <div className="grid grid-cols-1 place-content-between pt-2 md:grid-cols-2">
+        <div className="grid grid-cols-1 place-content-between pt-2 md:grid-cols-[500px_1fr] lg:grid-cols-[500px_1fr] xl:grid-cols-[500px_1fr] 2xl:grid-cols-[900px_1fr]">
           <div className="grid grid-cols-1 place-content-start">
             <div className="grid grid-cols-2 justify-between md:grid-cols-2 2xl:grid-cols-2">
               <div className="flex justify-start space-x-1 md:px-10">
@@ -321,9 +363,9 @@ export default function Home() {
                       Traits
                     </div>
                   </summary>
-                  <div className="px-2 pt-1 text-center lining-nums text-p1-darkgreen dark:text-p1-green">
+                  <div className="pt-1 text-center lining-nums text-p1-darkgreen sm:px-2 dark:text-p1-green">
                     <div className="group">
-                      <div className="grid grid-cols-3 place-content-center gap-2">
+                      <div className="grid grid-cols-2 place-content-center gap-1 text-sm sm:grid-cols-2 sm:gap-2 sm:text-xl 2xl:grid-cols-3">
                         <div className="">
                           <div className="grid">
                             <Link
@@ -339,9 +381,9 @@ export default function Home() {
                                   alt="offer"
                                 />
                               </div>
-                              <div className="px-4">Background</div>
-                              <div className="px-4 font-semibold">Sky 13%</div>
-                              <div className="px-4">Floor: 2,99%</div>
+                              <div className="">Background</div>
+                              <div className="font-semibold">Sky 13%</div>
+                              <div className="">Floor: 2,99%</div>
                             </Link>
                           </div>
                         </div>
@@ -361,9 +403,9 @@ export default function Home() {
                                   alt="offer"
                                 />
                               </div>
-                              <div className="px-4">Body</div>
-                              <div className="px-4 font-semibold">Asia 17%</div>
-                              <div className="px-4">Floor: 3,99%</div>
+                              <div className="">Body</div>
+                              <div className="font-semibold">Asia 17%</div>
+                              <div className="">Floor: 3,99%</div>
                             </Link>
                           </div>
                         </div>
@@ -382,9 +424,9 @@ export default function Home() {
                                   alt="offer"
                                 />
                               </div>
-                              <div className="px-4">Background</div>
-                              <div className="px-4 font-semibold">Sky 13%</div>
-                              <div className="px-4">Floor: 2,99%</div>
+                              <div className="">Background</div>
+                              <div className="font-semibold">Sky 13%</div>
+                              <div className="">Floor: 2,99%</div>
                             </Link>
                           </div>
                         </div>
@@ -403,9 +445,9 @@ export default function Home() {
                                   alt="offer"
                                 />
                               </div>
-                              <div className="px-4">Нос</div>
-                              <div className="px-4 font-semibold">Прямой 13%</div>
-                              <div className="px-4">Floor: 1,99%</div>
+                              <div className="">Нос</div>
+                              <div className="font-semibold">Прямой 13%</div>
+                              <div className="">Floor: 1,99%</div>
                             </Link>
                           </div>
                         </div>
@@ -424,9 +466,9 @@ export default function Home() {
                                   alt="offer"
                                 />
                               </div>
-                              <div className="px-4">Рот</div>
-                              <div className="px-4 font-semibold">Улыбается 12%</div>
-                              <div className="px-4">Floor: 2,99%</div>
+                              <div className="">Рот</div>
+                              <div className="font-semibold">Улыбается 12%</div>
+                              <div className="">Floor: 2,99%</div>
                             </Link>
                           </div>
                         </div>
@@ -445,9 +487,9 @@ export default function Home() {
                                   alt="offer"
                                 />
                               </div>
-                              <div className="px-4">Одежда</div>
-                              <div className="px-4 font-semibold">Куртка 18%</div>
-                              <div className="px-4">Floor: 2,99%</div>
+                              <div className="">Одежда</div>
+                              <div className="font-semibold">Куртка 18%</div>
+                              <div className="">Floor: 2,99%</div>
                             </Link>
                           </div>
                         </div>
@@ -466,9 +508,9 @@ export default function Home() {
                                   alt="offer"
                                 />
                               </div>
-                              <div className="px-4">Головной убор</div>
-                              <div className="px-4 font-semibold">Шлем 60-х 25%</div>
-                              <div className="px-4">Floor: 2,99%</div>
+                              <div className="">Головной убор</div>
+                              <div className="font-semibold">Шлем 60-х 25%</div>
+                              <div className="">Floor: 2,99%</div>
                             </Link>
                           </div>
                         </div>
@@ -708,26 +750,86 @@ export default function Home() {
                       </Link>
                     </div>
                     <div className="w-10">
-                      <Link href={'#'} className="mx-auto justify-center">
-                        <Image
-                          className="h-10 w-10 rounded-xl p-1 transition-all delay-75 duration-300 ease-in-out hover:bg-opacity-50 hover:ring-1 hover:ring-p1-green dark:ring-p1-green dark:hover:ring-p1-cyan"
-                          width={480}
-                          height={480}
-                          src="/icon/share_green.png"
-                          alt="bt16"
-                        />
-                      </Link>
+                      <div className="group relative inline-block">
+                        <Link href={'#'} className="mx-auto justify-center">
+                          <Image
+                            className="h-10 w-10 rounded-xl p-1 transition-all delay-75 duration-300 ease-in-out hover:bg-opacity-50 hover:ring-1 hover:ring-p1-green dark:ring-p1-green dark:hover:ring-p1-cyan"
+                            width={480}
+                            height={480}
+                            src="/icon/share_green.png"
+                            alt="bt16"
+                          />
+
+                          <div className="invisible absolute left-1/2 z-10 mt-2 w-60 -translate-x-1/2 transform rounded-xl bg-p1-cyan bg-center p-4 text-gray-800 opacity-0 shadow-lg transition-all duration-300 group-hover:visible group-hover:opacity-100 md:w-60">
+                            <div className="rounded-lg border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
+                              <Link href={'#'} className="mx-auto justify-center">
+                                <Image
+                                  className="h-10 w-10"
+                                  width={480}
+                                  height={480}
+                                  src="/icon/copy_link_green.png"
+                                  alt="bt9"
+                                />
+                                Copy Link
+                              </Link>
+                            </div>
+                            <div className="rounded-lg border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
+                              <Link href={'#'} className="mx-auto justify-center">
+                                <Image
+                                  className="h-10 w-10"
+                                  width={480}
+                                  height={480}
+                                  src="/logo/twitterlogobird_green.png"
+                                  alt="bt9"
+                                />
+                                Share on Twitter
+                              </Link>
+                            </div>
+                          </div>
+                        </Link>
+                      </div>
                     </div>
                     <div className="w-10">
-                      <Link href={'#'} className="mx-auto justify-center">
-                        <Image
-                          className="h-10 w-10 rounded-xl p-1 transition-all delay-75 duration-300 ease-in-out hover:bg-opacity-50 hover:ring-1 hover:ring-p1-green dark:ring-p1-green dark:hover:ring-p1-cyan"
-                          width={480}
-                          height={480}
-                          src="/icon/points_green.png"
-                          alt="bt9"
-                        />
-                      </Link>
+                      <div className="w-10">
+                        <div className="group relative inline-block">
+                          <Link href={'#'} className="mx-auto justify-center">
+                            <Image
+                              className="h-10 w-10 rounded-xl p-1 transition-all delay-75 duration-300 ease-in-out hover:bg-opacity-50 hover:ring-1 hover:ring-p1-green dark:ring-p1-green dark:hover:ring-p1-cyan"
+                              width={480}
+                              height={480}
+                              src="/icon/points_green.png"
+                              alt="bt9"
+                            />
+
+                            <div className="invisible absolute left-1/2 z-10 mt-2 w-60 -translate-x-1/2 transform rounded-xl bg-p1-cyan bg-center p-4 text-gray-800 opacity-0 shadow-lg transition-all duration-300 group-hover:visible group-hover:opacity-100 md:w-60">
+                              <div className="rounded-lg border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
+                                <Link href={'#'} className="mx-auto justify-center">
+                                  <Image
+                                    className="h-10 w-10"
+                                    width={480}
+                                    height={480}
+                                    src="/icon/refresh_green.png"
+                                    alt="bt9"
+                                  />
+                                  Refresh Metadata
+                                </Link>
+                              </div>
+                              <div className="rounded-lg border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
+                                <Link href={'#'} className="mx-auto justify-center">
+                                  <Image
+                                    className="h-10 w-10"
+                                    width={480}
+                                    height={480}
+                                    src="/icon/description_green.png"
+                                    alt="bt9"
+                                  />
+                                  Report
+                                </Link>
+                              </div>
+                            </div>
+                          </Link>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -976,11 +1078,11 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className="my-5 grid grid-cols-1 place-content-around gap-4 md:grid-cols-2">
+              <div className="my-5 grid grid-cols-1 place-content-around gap-4 lg:grid-cols-2">
                 <div className="basis-1/2">
                   {' '}
                   <div className="relative flex place-content-center">
-                    <div className="apace-x-4 inline-flex w-full justify-center rounded-l-xl text-xl">
+                    <div className="apace-x-4 inline-flex w-full justify-center rounded-l-xl xl:text-xl">
                       <Link
                         href="#"
                         className="grid w-4/5 place-content-center rounded-l-xl border-2 border-p1-green bg-p1-white px-4 py-4 text-p1-darkgreen shadow-lg transition-all duration-300 ease-in-out hover:border-p1-darkgreen hover:bg-p2-white2 hover:text-p1-darkgreen hover:shadow-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan"
@@ -2788,6 +2890,241 @@ export default function Home() {
                             <div className="relative text-left">Mint</div>
                           </td>
                           <td className="px-2 py-2 text-left">0,03 ETH</td>
+                          <td className="px-2 py-2 text-left">
+                            <div className="group relative">
+                              <div>
+                                <Link
+                                  href={'#'}
+                                  className="mx-auto justify-start text-left text-p1-green hover:text-p1-cyan"
+                                >
+                                  NulAdress
+                                </Link>
+                              </div>
+                              <div className="invisible absolute -left-1.5 top-0 z-50 -translate-x-full transform place-content-start opacity-0 shadow-lg transition-all duration-300 group-hover:visible group-hover:opacity-100">
+                                <div className="w-64 rounded-xl text-xl shadow-lg">
+                                  <div className="group mx-auto mt-1 w-full place-self-start rounded-lg border-2 border-p1-green bg-p2-white2 bg-opacity-100 object-cover p-1 transition-transform duration-300 hover:scale-100 md:p-2 dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:text-p1-cyan dark:group-hover:border-p1-cyan">
+                                    <Link href="#" className="mx-auto">
+                                      <div className="inline-flex place-content-start space-x-2">
+                                        <Image
+                                          width={480}
+                                          height={480}
+                                          src="/HeroNFT/RaceLads/RaceLads1.png"
+                                          alt="RaceLad"
+                                          className="w-12 rounded-lg"
+                                        />
+                                        <div className="font-semibold text-p1-darkgreen">
+                                          {' '}
+                                          JeamBeam
+                                          <div className="text-base font-thin lining-nums text-p1-darkgreen">
+                                            {' '}
+                                            0x010a...0369
+                                          </div>
+                                        </div>
+                                      </div>{' '}
+                                    </Link>
+
+                                    <div className="grid w-full grid-cols-3 items-center text-center">
+                                      <div>
+                                        <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">
+                                          collected
+                                        </p>
+                                        <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
+                                          105
+                                        </p>
+                                      </div>
+                                      <div>
+                                        <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">
+                                          created
+                                        </p>
+                                        <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
+                                          15
+                                        </p>
+                                      </div>
+                                      <div>
+                                        <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">
+                                          sold
+                                        </p>
+                                        <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
+                                          12
+                                        </p>
+                                      </div>
+                                    </div>
+                                    <div className="inline-flex place-content-center space-x-1">
+                                      <Link href="#" className="mx-auto">
+                                        <Image
+                                          width={480}
+                                          height={480}
+                                          src="/HeroNFT/RaceLads/RaceLads2.png"
+                                          alt="RaceLad"
+                                          className="w-20 rounded-lg"
+                                        />
+                                      </Link>
+                                      <Link href="#" className="mx-auto">
+                                        <Image
+                                          width={480}
+                                          height={480}
+                                          src="/HeroNFT/RaceLads/RaceLads3.png"
+                                          alt="RaceLad"
+                                          className="w-20 rounded-lg"
+                                        />
+                                      </Link>
+                                      <Link href="#" className="mx-auto">
+                                        <Image
+                                          width={480}
+                                          height={480}
+                                          src="/HeroNFT/RaceLads/RaceLads4.png"
+                                          alt="RaceLad"
+                                          className="w-20 rounded-lg"
+                                        />
+                                      </Link>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </td>
+
+                          <td className="px-2 py-2 text-left">
+                            <div className="group relative">
+                              <div>
+                                <Link
+                                  href={'#'}
+                                  className="mx-auto justify-start text-left text-p1-green hover:text-p1-cyan"
+                                >
+                                  JeamBeam
+                                </Link>
+                              </div>
+                              <div className="invisible absolute -left-1.5 top-0 z-50 -translate-x-full transform place-content-start opacity-0 shadow-lg transition-all duration-300 group-hover:visible group-hover:opacity-100">
+                                <div className="w-64 rounded-xl text-xl shadow-lg">
+                                  <div className="group mx-auto mt-1 w-full place-self-start rounded-lg border-2 border-p1-green bg-p2-white2 bg-opacity-100 object-cover p-1 transition-transform duration-300 hover:scale-100 md:p-2 dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:text-p1-cyan dark:group-hover:border-p1-cyan">
+                                    <Link href="#" className="mx-auto">
+                                      <div className="inline-flex place-content-start space-x-2">
+                                        <Image
+                                          width={480}
+                                          height={480}
+                                          src="/HeroNFT/RaceLads/RaceLads1.png"
+                                          alt="RaceLad"
+                                          className="w-12 rounded-lg"
+                                        />
+                                        <div className="font-semibold text-p1-darkgreen">
+                                          {' '}
+                                          JeamBeam
+                                          <div className="text-base font-thin lining-nums text-p1-darkgreen">
+                                            {' '}
+                                            0x010a...0369
+                                          </div>
+                                        </div>
+                                      </div>{' '}
+                                    </Link>
+
+                                    <div className="grid w-full grid-cols-3 items-center text-center">
+                                      <div>
+                                        <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">
+                                          collected
+                                        </p>
+                                        <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
+                                          105
+                                        </p>
+                                      </div>
+                                      <div>
+                                        <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">
+                                          created
+                                        </p>
+                                        <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
+                                          15
+                                        </p>
+                                      </div>
+                                      <div>
+                                        <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">
+                                          sold
+                                        </p>
+                                        <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
+                                          12
+                                        </p>
+                                      </div>
+                                    </div>
+                                    <div className="inline-flex place-content-center space-x-1">
+                                      <Link href="#" className="mx-auto">
+                                        <Image
+                                          width={480}
+                                          height={480}
+                                          src="/HeroNFT/RaceLads/RaceLads2.png"
+                                          alt="RaceLad"
+                                          className="w-20 rounded-lg"
+                                        />
+                                      </Link>
+                                      <Link href="#" className="mx-auto">
+                                        <Image
+                                          width={480}
+                                          height={480}
+                                          src="/HeroNFT/RaceLads/RaceLads3.png"
+                                          alt="RaceLad"
+                                          className="w-20 rounded-lg"
+                                        />
+                                      </Link>
+                                      <Link href="#" className="mx-auto">
+                                        <Image
+                                          width={480}
+                                          height={480}
+                                          src="/HeroNFT/RaceLads/RaceLads4.png"
+                                          alt="RaceLad"
+                                          className="w-20 rounded-lg"
+                                        />
+                                      </Link>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </td>
+                          <td className="px-2 py-2 text-left">
+                            <div className="group relative">
+                              <div>
+                                <Link
+                                  href={'#'}
+                                  className="mx-auto justify-start text-left text-p1-green hover:text-p1-cyan"
+                                >
+                                  4d ago
+                                </Link>
+                              </div>
+                              <div className="invisible absolute -left-1.5 top-0 z-50 -translate-x-full transform place-content-start opacity-0 shadow-lg transition-all duration-300 group-hover:visible group-hover:opacity-100">
+                                <div className="w-64 rounded-xl text-xl shadow-lg">
+                                  <div className="group mx-auto mt-1 w-full place-self-start rounded-lg border-2 border-p1-green bg-p2-white2 bg-opacity-100 object-cover p-1 transition-transform duration-300 hover:scale-100 md:p-2 dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:text-p1-cyan dark:group-hover:border-p1-cyan">
+                                    <Link href="#" className="mx-auto">
+                                      <div className="inline-flex place-content-start space-x-2">
+                                        <div className="font-semibold text-p1-darkgreen">
+                                          {' '}
+                                          на страницу Etherscan
+                                          <div className="text-base font-thin lining-nums text-p1-darkgreen">
+                                            Transaction Details
+                                          </div>
+                                        </div>
+                                      </div>{' '}
+                                    </Link>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </td>
+                        </tr>
+                        <tr className="border-b bg-white text-base lining-nums dark:border-p1-green dark:bg-p1-deepdarkgreen">
+                          <th
+                            scope="row"
+                            className="place-content-center whitespace-nowrap px-2 py-2 text-right font-medium"
+                          >
+                            <Image
+                              width={480}
+                              height={480}
+                              src="/icon/airdrop.png"
+                              alt="mint"
+                              className="w-8 rounded-lg"
+                            />
+                          </th>
+                          <td className="px-2 py-2">
+                            {' '}
+                            <div className="relative text-left">Airdrop</div>
+                          </td>
+                          <td className="px-2 py-2 text-left">...</td>
                           <td className="px-2 py-2 text-left">
                             <div className="group relative">
                               <div>
