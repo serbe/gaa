@@ -54,7 +54,7 @@ export default function Home() {
                   alt="Bordered avatar"
                 />
 
-                <div className="invisible absolute left-1/2 z-10 mt-2 w-40 -translate-x-1/2 transform rounded-xl bg-p1-cyan bg-opacity-80 bg-center p-4 text-gray-800 opacity-0 shadow-lg backdrop-blur-sm transition-all duration-300 group-hover:visible group-hover:opacity-100 md:w-52">
+                <div className="invisible absolute left-1/2 z-10 mt-2 w-40 -translate-x-1/2 transform rounded-xl bg-p1-cyan bg-opacity-80 bg-center p-4 text-gray-800 opacity-0 shadow-lg transition-all duration-300 group-hover:visible group-hover:opacity-100 md:w-52">
                   <div className="rounded-lg p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen md:px-3">
                     <Link href={'/profile'} className="mx-auto justify-center">
                       Profile
