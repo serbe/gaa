@@ -147,7 +147,7 @@ export default function Home() {
         {/* Поиск 1 */}
         <div className="flex justify-center space-x-2 pt-2 md:-mt-14">
           <div>
-            <div className="mx-auto flex max-w-2xl overflow-hidden rounded-2xl border-2 border-p1-green bg-p2-white2 px-4 py-3 hover:border-p1-cyan focus:border-p1-cyan md:w-96 dark:bg-p1-darkgreen dark:text-p1-cyan">
+            <div className="mx-auto flex max-w-2xl overflow-hidden rounded-2xl border-2 border-p1-green bg-p2-white2 px-4 py-3 hover:border-p1-cyan focus:border-p1-cyan md:w-80 xl:w-96 dark:bg-p1-darkgreen dark:text-p1-cyan">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 192.904 192.904"
@@ -979,12 +979,13 @@ export default function Home() {
               </div>
             </div>
             <div className="pb-4"></div>
+
             <div>
               <div className="">
-                <div className="grid grid-cols-1 justify-between">
-                  <div className="flex justify-start space-x-4">
+                <div className="grid grid-cols-2 lg:grid-cols-3">
+                  <div className="flex justify-start">
                     <div className="relative">
-                      <div className="mx-auto justify-start text-xl text-p1-darkgreen dark:text-p1-green">
+                      <div className="justify-start text-xl text-p1-darkgreen dark:text-p1-green">
                         <Image
                           className="h-8 w-8 p-0 transition-all delay-75 duration-300 ease-in-out hover:scale-125"
                           width={480}
@@ -994,11 +995,14 @@ export default function Home() {
                         />
                       </div>
                     </div>
-                    <div className="px-2">
-                      <div className="mx-auto justify-start text-xl text-p1-darkgreen dark:text-p1-green">
+                    <div className="">
+                      <div className="mx-auto justify-start px-2 text-xl text-p1-darkgreen dark:text-p1-green">
                         569 views
                       </div>
                     </div>
+                    <div className="px-4"> </div>
+                  </div>
+                  <div className="flex justify-start">
                     <div className="group relative">
                       <Link
                         href={'#'}
@@ -1107,9 +1111,10 @@ export default function Home() {
                         </div>
                       </div>
                     </div>
-
-                    <div className="">
-                      <div className="mx-auto justify-start text-xl text-p1-darkgreen dark:text-p1-green">
+                  </div>
+                  <div className="flex justify-start">
+                    <div className="justify-start text-xl text-p1-darkgreen dark:text-p1-green">
+                      <div className="">
                         <Image
                           className="h-7 w-7 p-0 transition-all delay-75 duration-300 ease-in-out hover:scale-125"
                           width={480}
@@ -1119,15 +1124,14 @@ export default function Home() {
                         />
                       </div>
                     </div>
-                    <div className="">
-                      <div className="mx-auto justify-start text-xl text-p1-darkgreen dark:text-p1-green">
-                        PFPs
-                      </div>
+                    <div className="justify-start px-2 text-xl text-p1-darkgreen dark:text-p1-green">
+                      <div className=""> PFPs</div>
                     </div>
                   </div>
                 </div>
               </div>
             </div>
+
             <div className="pb-2"> </div>
             <div className="rounded-2xl border-2 bg-p1-white p-2 shadow-sm md:px-10 dark:border-p1-green dark:bg-p1-deepdarkgreen">
               <div className="flex justify-start space-x-1">
@@ -4134,7 +4138,7 @@ export default function Home() {
       </div>
 
       <div id="2"></div>
-      <div className="m-2">
+      <div className="mx-2">
         <div className="text-darkgreen w-full rounded-2xl border border-p1-green bg-p1-white text-xl shadow-lg dark:bg-p1-deepdarkgreen">
           <details className="m-2">
             <summary className="relative flex cursor-pointer justify-start py-2">
@@ -4175,7 +4179,7 @@ export default function Home() {
                   <SwiperSlide>
                     <div className="group mx-auto mt-1 w-full scale-95 space-x-3 rounded-2xl border-2 border-p1-green bg-gray-100 bg-opacity-50 object-cover p-1 transition-transform duration-300 hover:scale-100 md:p-2 dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:bg-opacity-80 dark:text-p1-green dark:hover:border-p1-cyan dark:hover:text-p1-cyan dark:group-hover:border-p1-cyan">
                       <Link href="#" className="mx-auto justify-center">
-                        <div className="grid w-full grid-cols-1 items-center gap-2 overflow-hidden rounded-lg xl:grid-cols-2">
+                        <div className="grid w-full grid-cols-1 items-center gap-2 overflow-hidden rounded-lg xl:grid-cols-1">
                           <Image
                             width={480}
                             height={480}
@@ -4233,7 +4237,7 @@ export default function Home() {
                   <SwiperSlide>
                     <div className="group mx-auto mt-1 w-full scale-95 space-x-3 rounded-2xl border-2 border-p1-green bg-gray-100 bg-opacity-50 object-cover p-1 transition-transform duration-300 hover:scale-100 md:p-2 dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:bg-opacity-80 dark:text-p1-green dark:hover:border-p1-cyan dark:hover:text-p1-cyan dark:group-hover:border-p1-cyan">
                       <Link href="#" className="mx-auto justify-center">
-                        <div className="grid w-full grid-cols-1 items-center gap-2 overflow-hidden rounded-lg xl:grid-cols-2">
+                        <div className="grid w-full grid-cols-1 items-center gap-2 overflow-hidden rounded-lg xl:grid-cols-1">
                           <Image
                             width={480}
                             height={480}
@@ -4289,7 +4293,7 @@ export default function Home() {
                   <SwiperSlide>
                     <div className="group mx-auto mt-1 w-full scale-95 space-x-3 rounded-2xl border-2 border-p1-green bg-gray-100 bg-opacity-50 object-cover p-1 transition-transform duration-300 hover:scale-100 md:p-2 dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:bg-opacity-80 dark:text-p1-green dark:hover:border-p1-cyan dark:hover:text-p1-cyan dark:group-hover:border-p1-cyan">
                       <Link href="#" className="mx-auto justify-center">
-                        <div className="grid w-full grid-cols-1 items-center gap-2 overflow-hidden rounded-lg xl:grid-cols-2">
+                        <div className="grid w-full grid-cols-1 items-center gap-2 overflow-hidden rounded-lg xl:grid-cols-1">
                           <Image
                             width={480}
                             height={480}
@@ -4346,7 +4350,7 @@ export default function Home() {
                   <SwiperSlide>
                     <div className="group mx-auto mt-1 w-full scale-95 space-x-3 rounded-2xl border-2 border-p1-green bg-gray-100 bg-opacity-50 object-cover p-1 transition-transform duration-300 hover:scale-100 md:p-2 dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:bg-opacity-80 dark:text-p1-green dark:hover:border-p1-cyan dark:hover:text-p1-cyan dark:group-hover:border-p1-cyan">
                       <Link href="#" className="mx-auto justify-center">
-                        <div className="grid w-full grid-cols-1 items-center gap-2 overflow-hidden rounded-lg xl:grid-cols-2">
+                        <div className="grid w-full grid-cols-1 items-center gap-2 overflow-hidden rounded-lg xl:grid-cols-1">
                           <Image
                             width={480}
                             height={480}
@@ -4402,7 +4406,7 @@ export default function Home() {
                   <SwiperSlide>
                     <div className="group mx-auto mt-1 w-full scale-95 space-x-3 rounded-2xl border-2 border-p1-green bg-gray-100 bg-opacity-50 object-cover p-1 transition-transform duration-300 hover:scale-100 md:p-2 dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:bg-opacity-80 dark:text-p1-green dark:hover:border-p1-cyan dark:hover:text-p1-cyan dark:group-hover:border-p1-cyan">
                       <Link href="#" className="mx-auto justify-center">
-                        <div className="grid w-full grid-cols-1 items-center gap-2 overflow-hidden rounded-lg xl:grid-cols-2">
+                        <div className="grid w-full grid-cols-1 items-center gap-2 overflow-hidden rounded-lg xl:grid-cols-1">
                           <Image
                             width={480}
                             height={480}
@@ -4459,7 +4463,7 @@ export default function Home() {
                   <SwiperSlide>
                     <div className="group mx-auto mt-1 w-full scale-95 space-x-3 rounded-2xl border-2 border-p1-green bg-gray-100 bg-opacity-50 object-cover p-1 transition-transform duration-300 hover:scale-100 md:p-2 dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:bg-opacity-80 dark:text-p1-green dark:hover:border-p1-cyan dark:hover:text-p1-cyan dark:group-hover:border-p1-cyan">
                       <Link href="#" className="mx-auto justify-center">
-                        <div className="grid w-full grid-cols-1 items-center gap-2 overflow-hidden rounded-lg xl:grid-cols-2">
+                        <div className="grid w-full grid-cols-1 items-center gap-2 overflow-hidden rounded-lg xl:grid-cols-1">
                           <Image
                             width={480}
                             height={480}
@@ -4516,7 +4520,7 @@ export default function Home() {
                   <SwiperSlide>
                     <div className="group mx-auto mt-1 w-full scale-95 space-x-3 rounded-2xl border-2 border-p1-green bg-gray-100 bg-opacity-50 object-cover p-1 transition-transform duration-300 hover:scale-100 md:p-2 dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:bg-opacity-80 dark:text-p1-green dark:hover:border-p1-cyan dark:hover:text-p1-cyan dark:group-hover:border-p1-cyan">
                       <Link href="#" className="mx-auto justify-center">
-                        <div className="grid w-full grid-cols-1 items-center gap-2 overflow-hidden rounded-lg xl:grid-cols-2">
+                        <div className="grid w-full grid-cols-1 items-center gap-2 overflow-hidden rounded-lg xl:grid-cols-1">
                           <Image
                             width={480}
                             height={480}
@@ -4573,7 +4577,7 @@ export default function Home() {
                   <SwiperSlide>
                     <div className="group mx-auto mt-1 w-full scale-95 space-x-3 rounded-2xl border-2 border-p1-green bg-gray-100 bg-opacity-50 object-cover p-1 transition-transform duration-300 hover:scale-100 md:p-2 dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:bg-opacity-80 dark:text-p1-green dark:hover:border-p1-cyan dark:hover:text-p1-cyan dark:group-hover:border-p1-cyan">
                       <Link href="#" className="mx-auto justify-center">
-                        <div className="grid w-full grid-cols-1 items-center gap-2 overflow-hidden rounded-lg xl:grid-cols-2">
+                        <div className="grid w-full grid-cols-1 items-center gap-2 overflow-hidden rounded-lg xl:grid-cols-1">
                           <Image
                             width={480}
                             height={480}
