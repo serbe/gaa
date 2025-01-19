@@ -2050,7 +2050,7 @@ export default function Home() {
             <details className="m-2">
               <summary className="relative flex cursor-pointer justify-between py-2">
                 <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
-                  Cupid's arrow
+                  Cupid&apos;s arrow
                 </div>
                 <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
                   2
@@ -2090,7 +2090,7 @@ export default function Home() {
                     htmlFor="checkbox_ETH"
                     className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-p1-cyan"
                   >
-                    No Cupid's arrow
+                    No Cupid&apos;s arrow
                   </label>
                   <div className="px-4 text-p1-darkgreen dark:text-p1-green">9986</div>
                 </div>
@@ -2108,7 +2108,7 @@ export default function Home() {
                     htmlFor="checkbox_POL"
                     className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-p1-cyan"
                   >
-                    Cupid's arrow
+                    Cupid&apos;s arrow
                   </label>
                   <div className="px-4 text-p1-darkgreen dark:text-p1-green">14</div>
                 </div>
