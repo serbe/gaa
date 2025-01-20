@@ -4117,10 +4117,12 @@ export default function Home() {
               </table>
             </div>
           </div>
+          <div></div>
 
-          <div className="pt-2 text-left">Личный кабинет Promoter/National/Global</div>
           <div className="flex flex-row justify-center pb-5">
             <div className="md:basis-5/5">
+              <div className="pt-2 text-left">Личный кабинет Promoter/National/Global</div>
+
               <div className="pt-2 text-left">
                 Лицензии, дающие право на создание, награждение NFT Наградами
                 <div className="place-items-centre mt-5 grid grid-cols-12 gap-2 p-4">

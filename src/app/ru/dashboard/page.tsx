@@ -622,6 +622,42 @@ export default function Home() {
               />
             </Link>
           </div>
+          <div className="mt-2 h-full rounded-3xl border-2 bg-p2-white2 bg-opacity-20 p-2 text-p1-darkgreen dark:border-p1-darkgreen dark:bg-p1-deepdarkgreen dark:text-p1-green">
+            <div className="flex flex-wrap justify-center self-center md:flex-nowrap md:justify-between">
+              <div className="px-2 text-xl font-semibold md:pt-2 md:text-3xl">Статистика</div>
+              <div className="space-x-2 px-2 text-xl font-semibold text-p1-darkgreen md:pt-2 md:text-3xl">
+                <Link
+                  href="#"
+                  className="inline-block place-content-center rounded-xl border-2 border-p1-darkgreen bg-p1-white p-2 text-center text-base text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p1-green hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                >
+                  24H
+                </Link>
+                <Link
+                  href="#"
+                  className="inline-block place-content-center rounded-xl border-2 border-p1-darkgreen bg-p1-white p-2 text-center text-base text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p1-green hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                >
+                  7D
+                </Link>
+                <Link
+                  href="#"
+                  className="inline-block place-content-center rounded-xl border-2 border-p1-darkgreen bg-p1-white p-2 text-center text-base text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p1-green hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                >
+                  30D
+                </Link>
+              </div>
+            </div>
+            <div className="mt-2 grid grid-cols-3 place-items-center gap-2 space-x-2 p-4 text-center text-base md:text-xl">
+              <div className="m-2 aspect-video w-full rounded-3xl border border-p1-darkgreen text-center md:pt-20">
+                Total Sales:
+              </div>
+              <div className="m-2 aspect-video w-full rounded-3xl border border-p1-darkgreen md:pt-20">
+                Total Volume:
+              </div>
+              <div className="m-2 aspect-video w-full rounded-3xl border border-p1-darkgreen md:pt-20">
+                RaceLads Sold:
+              </div>
+            </div>
+          </div>
         </div>
         <div className="grid h-1/5 grid-cols-1 p-1 md:grid-cols-2">
           <div className="flex grid-flow-row auto-rows-max justify-start space-x-2">
