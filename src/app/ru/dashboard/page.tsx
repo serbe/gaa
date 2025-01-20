@@ -89,7 +89,7 @@ export default function Home() {
                     </Link>
                   </div>
                   <div className="rounded-lg border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
-                    <Link href={'/user'} className="mx-auto justify-center">
+                    <Link href={'/mynfts'} className="mx-auto justify-center">
                       <Image
                         className="h-10 w-10"
                         width={480}
@@ -795,7 +795,7 @@ export default function Home() {
       <div className="flex flex-wrap justify-center object-left md:flex-nowrap md:space-x-2 md:pt-5">
         <div className="mb-4 bg-p1-white shadow-lg dark:bg-p1-deepdarkgreen">
           <div className="text-centre flex flex-row">
-            <div className="place-content-center p-2 text-center text-p1-darkgreen md:text-xl lg:text-2xl dark:text-p1-cyan">
+            <div className="grid grid-cols-1 place-content-center p-2 text-center text-p1-darkgreen md:text-xl lg:text-2xl xl:grid-cols-2 dark:text-p1-cyan">
               <div className="mt-2 rounded-3xl border-2 bg-p2-white2 p-2 text-p1-darkgreen dark:border-p1-darkgreen dark:bg-p1-deepdarkgreen dark:text-p1-green">
                 <div className="flex flex-wrap justify-center self-center md:flex-nowrap md:justify-between">
                   <div className="px-2 text-xl font-semibold md:pt-2 md:text-3xl">Статистика</div>

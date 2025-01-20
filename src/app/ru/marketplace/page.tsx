@@ -92,7 +92,7 @@ export default function Home() {
                     </Link>
                   </div>
                   <div className="rounded-lg border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
-                    <Link href={'/user'} className="mx-auto justify-center">
+                    <Link href={'/mynfts'} className="mx-auto justify-center">
                       <Image
                         className="h-10 w-10"
                         width={480}
@@ -676,7 +676,7 @@ export default function Home() {
       <div id="2"></div>
       <div className="flex justify-center space-x-2 pt-2">
         <div>
-          <div className="mx-auto flex max-w-2xl overflow-hidden rounded-2xl border-2 border-p1-green bg-p2-white2 px-4 py-3 backdrop-blur-sm hover:border-p1-cyan focus:border-p1-cyan md:w-96 dark:bg-p1-darkgreen dark:text-p1-cyan">
+          <div className="mx-auto flex max-w-2xl overflow-hidden rounded-2xl border-2 border-p1-green bg-p2-white2 px-4 py-3 backdrop-blur-sm hover:border-p1-cyan focus:border-p1-cyan md:w-96 dark:bg-p1-deepdarkgreen dark:text-p1-cyan">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 192.904 192.904"

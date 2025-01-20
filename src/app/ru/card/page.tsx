@@ -90,7 +90,7 @@ export default function Home() {
                     </Link>
                   </div>
                   <div className="rounded-lg border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
-                    <Link href={'/user'} className="mx-auto justify-center">
+                    <Link href={'/mynfts'} className="mx-auto justify-center">
                       <Image
                         className="h-10 w-10"
                         width={480}
@@ -1177,7 +1177,8 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className="my-5 grid grid-cols-1 place-content-around gap-4 lg:grid-cols-2">
+
+              <div className="my-5 grid grid-cols-1 place-content-around gap-4 2xl:grid-cols-3">
                 <div className="basis-1/2">
                   {' '}
                   <div className="relative flex place-content-center">
@@ -1194,7 +1195,7 @@ export default function Home() {
                         className="hover:bg-p2-white grid w-1/5 place-content-center rounded-r-xl border-b-2 border-r-2 border-t-2 border-p1-darkgreen bg-p1-white text-center text-lg font-semibold shadow-lg transition-all duration-300 ease-in-out hover:border-p1-darkgreen hover:bg-p2-white2 hover:shadow-xl hover:ring-p1-cyan focus:scale-95 focus:border-l-2 focus:border-p1-darkgreen focus:shadow-lg focus:shadow-p1-green focus:ring-p1-cyan md:text-3xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-darkgreen dark:focus:text-p1-cyan"
                       >
                         <Image
-                          className="bg-p1-darkgreenе inline-block h-8 w-8 dark:bg-p1-deepdarkgreen dark:hover:bg-p1-deepdarkgreen"
+                          className="bg-p1-darkgreenе inline-block h-7 w-7 dark:bg-p1-deepdarkgreen dark:hover:bg-p1-deepdarkgreen"
                           width={480}
                           height={480}
                           src="/Logo/shopping-cart.png"
@@ -1202,6 +1203,26 @@ export default function Home() {
                         />
                       </Link>
                     </div>
+                  </div>
+                </div>
+                <div className="basis-1/2">
+                  {' '}
+                  <div>
+                    <Link
+                      href="#"
+                      className="relative flex place-content-center rounded-xl border-2 border-p1-green bg-p1-white px-4 py-4 text-p1-darkgreen shadow-lg transition-all duration-300 ease-in-out hover:border-p1-darkgreen hover:bg-p2-white2 hover:text-p1-darkgreen hover:shadow-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan"
+                    >
+                      <div>
+                        <Image
+                          className="h-7 w-7 transition-all duration-300 ease-in-out hover:scale-125"
+                          width={480}
+                          height={480}
+                          src="/icon/offer_green.png"
+                          alt="offer"
+                        />
+                      </div>
+                      <div className="px-4">Sale</div>
+                    </Link>
                   </div>
                 </div>
                 <div className="basis-1/2">
