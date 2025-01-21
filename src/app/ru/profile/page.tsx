@@ -18,7 +18,7 @@ export default function Page() {
           <div className="flex justify-start space-x-6"></div>
 
           {/* кошелек, профиль, корзина */}
-          <div className="flex justify-end space-x-6 px-2 md:px-10">
+          <div className="flex justify-end space-x-6 px-2 md:px-32">
             <div>
               <Link href={'#'} className="mx-auto justify-center">
                 <Image
@@ -135,7 +135,7 @@ export default function Page() {
 
         {/* Навигация 2 */}
 
-        <div className="flex justify-end space-x-6 px-2 pt-4 md:px-10">
+        <div className="flex justify-end space-x-6 px-2 pt-4 md:px-32">
           <div className="inline-flex w-full justify-end space-x-6 rounded-md" role="group">
             <div className="w-10">
               <Link href={'#'} className="mx-auto justify-center">
