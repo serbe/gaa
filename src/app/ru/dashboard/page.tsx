@@ -737,7 +737,7 @@ export default function Home() {
                   <option value="Price_low_to_high">Все</option>
                   <option value="Price_high_to_low">RaceLads</option>
                   <option value="Recently_listedr">Drivers</option>
-                  <option value="Best_offer">Team's Members</option>
+                  <option value="Best_offer">Team&apos;s Members</option>
                   <option value="Highest_last_sale">Collectors</option>
                   <option value="Recently_sold">Cars</option>
 
@@ -781,8 +781,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-
-      {/* иконки ... */}
 
       <div className="pb-4"></div>
 
