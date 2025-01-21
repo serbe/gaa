@@ -1,352 +1,366 @@
 'use client';
 import Image from 'next/image';
-import { useState } from 'react';
 import { JumpButton } from '@/components/jumpButton';
+import { Link } from '@/i18n/routing';
 
 export default function Page() {
-  const [value, setValue] = useState('0');
-  const [check, setCheck] = useState(false);
   const jumpPoints = ['1', '2', '3'];
 
   return (
-    <div className="mx-auto max-w-7xl font-serif">
+    <div className="mx-auto font-serif">
       <JumpButton points={jumpPoints} />
+
       <div id="1"></div>
-      <div className="flex flex-wrap justify-center md:flex-nowrap md:justify-between">
-        <div className="px-2 text-2xl font-semibold text-stone-400 md:pt-2 md:text-4xl dark:text-stone-900">
-          Profile
+
+      <div className="h-screen bg-[url('/background/bgsky.png')] bg-cover bg-center p-2 dark:brightness-75">
+        <div className="flex justify-center space-x-2"></div>
+        <div className="grid grid-cols-2 justify-center p-1 md:justify-between">
+          <div className="flex justify-start space-x-6"></div>
+
+          {/* кошелек, профиль, корзина */}
+          <div className="flex justify-end space-x-6 px-2 md:px-10">
+            <div>
+              <Link href={'#'} className="mx-auto justify-center">
+                <Image
+                  className="h-10 w-10 rounded-lg p-1 ring-p1-green transition-all delay-75 duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:ring-2 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:hover:bg-p1-deepdarkgreen"
+                  width={480}
+                  height={480}
+                  src="/Logo/wallet-nft.png"
+                  alt="Bordered avatar"
+                />
+              </Link>
+            </div>
+
+            <div className="group relative inline-block">
+              <Link href={'#'} className="mx-auto justify-center">
+                <Image
+                  className="h-10 w-10 rounded-full p-1 ring-p1-green transition-all delay-75 duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:ring-2 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:hover:bg-p1-deepdarkgreen"
+                  width={480}
+                  height={480}
+                  src="/Logo/user.png"
+                  alt="Bordered avatar"
+                />
+
+                <div className="invisible absolute left-1/2 z-10 mt-2 w-40 -translate-x-1/2 transform rounded-xl bg-p1-cyan bg-center p-4 text-gray-800 opacity-0 shadow-lg transition-all duration-300 group-hover:visible group-hover:opacity-100 md:w-52">
+                  <div className="rounded-lg border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
+                    <Link href={'/profile'} className="mx-auto justify-center">
+                      <Image
+                        className="h-10 w-10"
+                        width={480}
+                        height={480}
+                        src="/icon/NFT_user_green.png"
+                        alt="Bordered avatar"
+                      />
+                      Profile
+                    </Link>
+                  </div>
+                  <div className="rounded-lg border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
+                    <Link href={'/dashboard'} className="mx-auto justify-center">
+                      <Image
+                        className="h-10 w-10"
+                        width={480}
+                        height={480}
+                        src="/icon/more.png"
+                        alt="Bordered avatar"
+                      />
+                      Dashboard
+                    </Link>
+                  </div>
+                  <div className="rounded-lg border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
+                    <Link href={'/marketplace'} className="mx-auto justify-center">
+                      <Image
+                        className="h-10 w-10"
+                        width={480}
+                        height={480}
+                        src="/Logo/shopping-cart.png"
+                        alt="Bordered avatar"
+                      />
+                      Marketplace
+                    </Link>
+                  </div>
+                  <div className="rounded-lg border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
+                    <Link href={'/mynfts'} className="mx-auto justify-center">
+                      <Image
+                        className="h-10 w-10"
+                        width={480}
+                        height={480}
+                        src="/icon/NFT-col.png"
+                        alt="Bordered avatar"
+                      />
+                      My NFT{' '}
+                    </Link>
+                  </div>
+
+                  <div className="rounded-lg border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
+                    <Link href={'#'} className="mx-auto justify-center">
+                      <Image
+                        className="h-10 w-10"
+                        width={480}
+                        height={480}
+                        src="/icon/view_green.png"
+                        alt="Bordered avatar"
+                      />
+                      Watchlist
+                    </Link>
+                  </div>
+
+                  <div className="rounded-lg border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
+                    <Link href={'#'} className="mx-auto justify-center">
+                      <Image
+                        className="h-10 w-10"
+                        width={480}
+                        height={480}
+                        src="/icon/hand_shake_green.png"
+                        alt="Bordered avatar"
+                      />
+                      Deals
+                    </Link>
+                  </div>
+                </div>
+              </Link>
+            </div>
+            <div>
+              <Link href={'#'} className="mx-auto justify-center">
+                <Image
+                  className="h-10 w-10 rounded-lg p-1 ring-p1-green transition-all delay-75 duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:ring-2 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:hover:bg-p1-deepdarkgreen"
+                  width={480}
+                  height={480}
+                  src="/Logo/shopping-cart.png"
+                  alt="Bordered avatar"
+                />
+              </Link>
+            </div>
+          </div>
         </div>
-        <div className="px-2 text-2xl font-semibold text-stone-400 md:pt-2 md:text-4xl dark:text-stone-900">
-          Профиль
-        </div>
-      </div>
-      <section className="flex flex-wrap rounded-3xl border-stone-400 bg-p1-white p-2 md:flex-nowrap md:border-4 md:shadow-lg dark:border-stone-900 dark:bg-p1-deepdarkgreen">
-        <div className="grid grid-cols-1 md:w-max md:grid-cols-2 md:gap-4">
-          <div className="">
-            <div className="text-center md:text-2xl lg:text-2xl">
-              <div className="">
-                <div className="flex flex-wrap px-2 pt-2 md:flex-nowrap">
-                  {/* скрыты функции 1 */}
-                  <div className="hidden">
-                    <div className="text-center text-base font-semibold text-p1-darkgreen md:text-xl dark:text-p1-green">
-                      <p>Присоединяйтесь к нам</p>
+
+        {/* Навигация 2 */}
+
+        <div className="flex justify-end space-x-6 px-2 pt-4 md:px-10">
+          <div className="inline-flex w-full justify-end space-x-6 rounded-md" role="group">
+            <div className="w-10">
+              <Link href={'#'} className="mx-auto justify-center">
+                <Image
+                  className="h-10 w-10 rounded-xl p-0 transition-all delay-75 duration-300 ease-in-out hover:bg-opacity-50 hover:ring-1 hover:ring-p1-green dark:ring-p1-green dark:hover:ring-p1-cyan"
+                  width={480}
+                  height={480}
+                  src="/icon/hand_shake_green.png"
+                  alt="line"
+                />
+              </Link>
+            </div>
+            <div className="w-10">
+              <div className="group relative inline-block">
+                <Link href={'#'} className="mx-auto justify-center">
+                  <Image
+                    className="h-10 w-10 rounded-xl p-1 transition-all delay-75 duration-300 ease-in-out hover:bg-opacity-50 hover:ring-1 hover:ring-p1-green dark:ring-p1-green dark:hover:ring-p1-cyan"
+                    width={480}
+                    height={480}
+                    src="/icon/share_green.png"
+                    alt="bt16"
+                  />
+
+                  <div className="invisible absolute left-1/2 z-10 mt-2 w-60 -translate-x-1/2 transform rounded-xl bg-p1-cyan bg-center p-4 text-gray-800 opacity-0 shadow-lg transition-all duration-300 group-hover:visible group-hover:opacity-100 md:w-60">
+                    <div className="rounded-lg border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
+                      <Link href={'#'} className="mx-auto justify-center">
+                        <Image
+                          className="h-10 w-10"
+                          width={480}
+                          height={480}
+                          src="/icon/copy_link_green.png"
+                          alt="bt9"
+                        />
+                        Copy Link
+                      </Link>
                     </div>
-
-                    <div className="z-10 rounded-3xl border-2 bg-stone-300 py-5 md:sticky md:top-16 dark:border-stone-900 dark:bg-stone-950">
-                      <div className="grid-1 grid flex-wrap-reverse gap-2 md:w-full md:grid-cols-3">
-                        <div className="place-items-center p-2">
-                          <Image
-                            className="relative mb-4 inline-block w-max rounded-3xl border-2 border-stone-400 shadow-lg"
-                            width={1000}
-                            height={1000}
-                            src="/Logo/user.png"
-                            alt="Bordered avatar"
-                          />
-                          <button className="w-full rounded-3xl border-2 border-stone-400 bg-p2-white2 p-8 text-center text-base font-normal text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-stone-400 hover:text-p1-white md:px-1 md:py-2 md:text-xs dark:border-stone-800 dark:bg-stone-950 dark:text-p1-gray dark:hover:border-stone-700 dark:hover:bg-stone-900 dark:hover:text-stone-300">
-                            Сгенерировать изображение
-                          </button>
-                        </div>
-                        <div className="m-1 place-items-center p-2">
-                          <label
-                            htmlFor="dropzone-file"
-                            className="flex h-56 w-full cursor-pointer flex-col items-center justify-center rounded-3xl border-2 border-dashed border-gray-300 bg-gray-50 shadow-lg hover:bg-gray-100 dark:border-gray-600 dark:bg-gray-700 dark:hover:border-gray-500 dark:hover:bg-gray-800"
-                          >
-                            <div className="flex flex-col items-center justify-center pb-6 pt-5">
-                              <svg
-                                className="mb-4 h-8 w-8 text-gray-500 dark:text-gray-400"
-                                aria-hidden="true"
-                                xmlns="http://www.w3.org/2000/svg"
-                                fill="none"
-                                viewBox="0 0 20 16"
-                              >
-                                <path
-                                  stroke="currentColor"
-                                  strokeLinecap="round"
-                                  strokeLinejoin="round"
-                                  strokeWidth="2"
-                                  d="M13 13h3a3 3 0 0 0 0-6h-.025A5.56 5.56 0 0 0 16 6.5 5.5 5.5 0 0 0 5.207 5.021C5.137 5.017 5.071 5 5 5a4 4 0 0 0 0 8h2.167M10 15V6m0 0L8 8m2-2 2 2"
-                                />
-                              </svg>
-                              <p className="mb-2 text-sm text-gray-500 dark:text-gray-400">
-                                <span className="font-semibold">
-                                  Изображение персоны в картинке
-                                </span>
-                              </p>
-
-                              <p className="mb-2 text-sm text-gray-500 dark:text-gray-400">
-                                <span className="font-semibold">Click to upload</span> or drag and
-                                drop
-                              </p>
-                              <p className="text-xs text-gray-500 dark:text-gray-400">
-                                SVG, PNG, JPG or GIF (MAX. 800x400px)
-                              </p>
-                            </div>
-                            <input id="dropzone-file" type="file" className="hidden" />
-                          </label>
-                        </div>
-                        <div className="m-1 place-items-center p-2">
-                          <label
-                            htmlFor="dropzone-file"
-                            className="flex h-56 w-full cursor-pointer flex-col items-center justify-center rounded-3xl border-2 border-dashed border-gray-300 bg-gray-50 shadow-lg hover:bg-gray-100 dark:border-gray-600 dark:bg-gray-700 dark:hover:border-gray-500 dark:hover:bg-gray-800"
-                          >
-                            <div className="flex flex-col items-center justify-center pb-6 pt-5">
-                              <svg
-                                className="mb-4 h-8 w-8 text-gray-500 dark:text-gray-400"
-                                aria-hidden="true"
-                                xmlns="http://www.w3.org/2000/svg"
-                                fill="none"
-                                viewBox="0 0 20 16"
-                              >
-                                <path
-                                  stroke="currentColor"
-                                  strokeLinecap="round"
-                                  strokeLinejoin="round"
-                                  strokeWidth="2"
-                                  d="M13 13h3a3 3 0 0 0 0-6h-.025A5.56 5.56 0 0 0 16 6.5 5.5 5.5 0 0 0 5.207 5.021C5.137 5.017 5.071 5 5 5a4 4 0 0 0 0 8h2.167M10 15V6m0 0L8 8m2-2 2 2"
-                                />
-                              </svg>
-                              <p className="mb-2 text-sm text-gray-500 dark:text-gray-400">
-                                <span className="font-semibold">Фото Персоны</span>
-                              </p>
-
-                              <p className="mb-2 text-sm text-gray-500 dark:text-gray-400">
-                                <span className="font-semibold">Click to upload</span> or drag and
-                                drop
-                              </p>
-                              <p className="text-xs text-gray-500 dark:text-gray-400">
-                                SVG, PNG, JPG or GIF (MAX. 800x400px)
-                              </p>
-                            </div>
-                            <input id="dropzone-file" type="file" className="hidden" />
-                          </label>
-                        </div>
-                      </div>
-
-                      <div>
-                        <div className="accent-stone-700">
-                          <label
-                            htmlFor="default-range"
-                            className="mb-2 mt-5 block text-2xl font-medium text-gray-900 dark:text-stone-300"
-                          >
-                            {value}
-                          </label>
-                          <input
-                            id="default-range"
-                            type="range"
-                            min="1"
-                            max="100"
-                            value={value}
-                            onChange={(e) => setValue(e.target.value)}
-                            className="h-2 w-3/5 cursor-pointer appearance-none rounded-lg bg-gray-200 dark:bg-gray-700"
-                          />
-                        </div>
-                      </div>
-                    </div>
-                    <div id="1" className="text-p1-darkgreen dark:text-p1-green">
-                      <p className="p-2 pt-8 text-base font-normal md:text-xl">
-                        Максимальное количество: 100 NFT за транзакцию
-                      </p>
-
-                      <p className="p-2 text-base md:text-xl">
-                        Созданные вами NFT автоматически попадут в глобальную коллекцию GAA
-                      </p>
-                      <p className="p-2 text-base md:text-xl">
-                        это единый сборник мирового сообщества
-                      </p>
-                      <p className="p-2 text-base md:text-xl">
-                        Если вы планируете раздать или продать свои NFT, вы можете сделать несколько
-                        NFT одновременно
-                      </p>
-                      <p className="px-2 pt-2 text-base font-semibold md:pb-5 md:text-2xl">
-                        Это Ваш способ привлечения инвестиций
-                      </p>
-                      <p className="px-2 pt-2 text-base font-semibold md:pb-5 md:text-2xl">
-                        Создание NFT это дополнительная опция
-                      </p>
+                    <div className="rounded-lg border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
+                      <Link href={'#'} className="mx-auto justify-center">
+                        <Image
+                          className="h-10 w-10"
+                          width={480}
+                          height={480}
+                          src="/logo/twitterlogobird_green.png"
+                          alt="bt9"
+                        />
+                        Share on Twitter
+                      </Link>
                     </div>
                   </div>
+                </Link>
+              </div>
+            </div>
+            <div className="w-10">
+              <div className="w-10">
+                <div className="group relative inline-block">
+                  <Link href={'#'} className="mx-auto justify-center">
+                    <Image
+                      className="h-10 w-10 rounded-xl p-1 transition-all delay-75 duration-300 ease-in-out hover:bg-opacity-50 hover:ring-1 hover:ring-p1-green dark:ring-p1-green dark:hover:ring-p1-cyan"
+                      width={480}
+                      height={480}
+                      src="/icon/points_green.png"
+                      alt="bt9"
+                    />
+
+                    <div className="invisible absolute left-1/2 z-10 mt-2 w-60 -translate-x-1/2 transform rounded-xl bg-p1-cyan bg-center p-4 text-gray-800 opacity-0 shadow-lg transition-all duration-300 group-hover:visible group-hover:opacity-100 md:w-60">
+                      <div className="rounded-lg border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
+                        <Link href={'#'} className="mx-auto justify-center">
+                          <Image
+                            className="h-10 w-10"
+                            width={480}
+                            height={480}
+                            src="/icon/refresh_green.png"
+                            alt="bt9"
+                          />
+                          Refresh Metadata
+                        </Link>
+                      </div>
+                      <div className="rounded-lg border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
+                        <Link href={'#'} className="mx-auto justify-center">
+                          <Image
+                            className="h-10 w-10"
+                            width={480}
+                            height={480}
+                            src="/icon/description_green.png"
+                            alt="bt9"
+                          />
+                          Report
+                        </Link>
+                      </div>
+                    </div>
+                  </Link>
                 </div>
               </div>
             </div>
           </div>
-
-          <div>
-            <div className="flex flex-col object-right p-2 md:w-full">
-              <div id="2">
-                {/* скрыты функции 1.1 */}
-
-                <p className="text-center text-xl text-p1-darkgreen md:text-left md:text-2xl dark:text-p1-green">
-                  Заполни поля - нажми &quot;Сохранить&quot;
-                </p>
-              </div>
-
-              <div className="pb-5"></div>
-              {/* скрыты функции 2 */}
-              <div className="hidden">
-                <label
-                  htmlFor="discipline"
-                  className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-green"
-                >
-                  Кошелек
-                </label>
-                <input
-                  type="text"
-                  id="wallet"
-                  className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
-                  placeholder="Кошелек"
-                  required
-                />
-              </div>
-              <div className="pb-2"></div>
-              <div>
-                <label
-                  htmlFor="email"
-                  className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-green"
-                >
-                  email
-                </label>
-                <input
-                  type="email"
-                  id="email"
-                  className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
-                  placeholder="e-mail"
-                  required
-                />
-              </div>
-              <div className="pb-2"></div>
-              {/* скрыты функции 3 */}
-              <div className="hidden">
-                <label
-                  htmlFor="full_name"
-                  className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-green"
-                >
-                  Полное имя
-                </label>
-                <input
-                  type="text"
-                  id="full_name"
-                  className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
-                  placeholder="Иванов Иван Иванович"
-                  required
-                />
-              </div>
-              <div className="pb-2"></div>
-
-              <div>
-                <label
-                  htmlFor="nic_name"
-                  className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-green"
-                >
-                  Ник-Имя
-                </label>
-                <input
-                  type="text"
-                  id="nic_name"
-                  className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
-                  placeholder="Ник-Имя"
-                  required
-                />
-              </div>
-              <div className="pb-2"></div>
-              {/* скрыты функции 4 */}
-              <div className="hidden">
-                <label
-                  htmlFor="birthday"
-                  className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-green"
-                >
-                  Дата рождения
-                </label>
-                <input
-                  type="date"
-                  id="birthday"
-                  className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
-                  placeholder="Дата рождения"
-                  required
-                />
-              </div>
-              <div className="pb-2"></div>
-
-              <div>
-                <label
-                  htmlFor="contry"
-                  className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-green"
-                >
-                  Страна
-                </label>
-                <input
-                  type="text"
-                  id="contry"
-                  className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
-                  placeholder="Страна"
-                  required
-                />
-              </div>
-              <div className="pb-2"></div>
-
-              <div>
-                <label
-                  htmlFor="city"
-                  className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-green"
-                >
-                  Город
-                </label>
-                <input
-                  type="text"
-                  id="city"
-                  className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
-                  placeholder="Город"
-                  required
-                />
-              </div>
-              <div className="pb-2"></div>
-
-              <div className="pb-2"></div>
-              <div>
-                <label
-                  htmlFor="message"
-                  className="mb-2 block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-green"
-                >
-                  Описание
-                </label>
-                <textarea
-                  id="message"
-                  rows={4}
-                  className="block w-full rounded-lg border-2 border-gray-300 bg-p2-white2 p-2.5 text-sm text-p1-darkgreen focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
-                  placeholder="Описание"
-                ></textarea>
-              </div>
-              <div className="pb-5"></div>
-              {/* скрыты функции 5 */}
-              <div className="flex hidden items-center">
-                <input
-                  checked={check}
-                  id="checkbox"
-                  onChange={() => setCheck(!check)}
-                  type="checkbox"
-                  value=""
-                  className="focus:ring-p1-cian h-4 w-4 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
-                />
-                <label
-                  htmlFor="checkbox "
-                  className="ms-2 text-sm font-medium text-p1-darkgreen dark:text-p1-green"
-                >
-                  Я согласен на обработку персональных данных.
-                </label>
-              </div>
-              <div id="3" className="pb-8"></div>
-
-              <button className="rounded-3xl border-2 border-stone-400 bg-p2-white2 px-10 py-8 text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-stone-400 hover:text-p1-white dark:border-stone-800 dark:bg-stone-950 dark:text-stone-300 dark:hover:border-stone-700 dark:hover:bg-stone-900 dark:hover:text-stone-300">
-                Сохранить
-              </button>
-              <div className="pb-2"> </div>
-              {/* скрыты функции 6 */}
-              <button className="hidden rounded-3xl border-2 border-stone-400 bg-p2-white2 px-10 py-8 text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-stone-400 hover:text-p1-white dark:border-stone-800 dark:bg-stone-950 dark:text-stone-300 dark:hover:border-stone-700 dark:hover:bg-stone-900 dark:hover:text-stone-300">
-                Создать NFT CustomLad с Вашими метаданными
-              </button>
-            </div>
-          </div>
         </div>
-      </section>
+        <div className="flex space-x-2 px-2 md:px-10">
+          <div>
+            <Link href={'#'} className="md: mx-auto">
+              <Image
+                className="-mt-10 w-40 rounded-full border-4 border-p1-gray md:w-80 dark:ring-p1-darkgreen"
+                width={1000}
+                height={1000}
+                src="/HeroNFT/RaceLads/RaceLads1.png"
+                alt="Bordered avatar"
+              />
+            </Link>
+
+            <div className="place-content-end text-p1-darkgreen">
+              <p className="text-3xl font-semibold md:px-10">Unnamed</p>
+              <p className="font-thing text-2xl md:px-10">0 x6918...a442 </p>
+              <p className="font-thing text-2xl md:px-10">Joined May 2024 </p>
+            </div>
+          </div>{' '}
+        </div>
+        <div className="-my-4 place-items-start p-1">
+          <div
+            id="2"
+            className="my-8 w-full place-self-center rounded-2xl bg-p1-white bg-opacity-30 md:w-4/6 xl:-my-96 xl:w-2/6"
+          >
+            <div className="flex flex-wrap justify-center md:flex-nowrap md:justify-between">
+              <div className="px-2 text-2xl font-semibold text-stone-400 md:pt-2 md:text-4xl dark:text-p1-darkgreen">
+                Profile
+              </div>
+              <div className="px-2 text-2xl font-semibold text-stone-400 md:pt-2 md:text-4xl dark:text-p1-darkgreen">
+                Профиль
+              </div>
+            </div>
+            <div className="m-4 rounded-3xl border-stone-400 bg-p1-white bg-opacity-75 p-4 md:border-4 md:shadow-lg dark:border-stone-900 dark:bg-p1-deepdarkgreen">
+              <div className="grid grid-cols-1 gap-4 md:w-full xl:grid-cols-2">
+                <div>
+                  <div>
+                    <label
+                      htmlFor="email"
+                      className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-green"
+                    >
+                      email
+                    </label>
+                    <input
+                      type="email"
+                      id="email"
+                      className="block w-full rounded-xl border-2 border-gray-300 bg-p2-white2 p-2.5 text-sm text-p1-darkgreen focus:border-blue-500 focus:ring-blue-500 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:placeholder-p1-green dark:focus:border-p1-cyan dark:focus:ring-p1-cyan"
+                      placeholder="e-mail"
+                      required
+                    />
+                  </div>
+
+                  <div>
+                    <label
+                      htmlFor="nic_name"
+                      className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-green"
+                    >
+                      Ник-Имя
+                    </label>
+                    <input
+                      type="text"
+                      id="nic_name"
+                      className="block w-full rounded-xl border-2 border-gray-300 bg-p2-white2 p-2.5 text-sm text-p1-darkgreen focus:border-blue-500 focus:ring-blue-500 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:placeholder-p1-green dark:focus:border-p1-cyan dark:focus:ring-p1-cyan"
+                      placeholder="Ник-Имя"
+                      required
+                    />
+                  </div>
+                </div>
+
+                <div>
+                  <div>
+                    <label
+                      htmlFor="contry"
+                      className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-green"
+                    >
+                      Страна
+                    </label>
+                    <input
+                      type="text"
+                      id="contry"
+                      className="block w-full rounded-xl border-2 border-gray-300 bg-p2-white2 p-2.5 text-sm text-p1-darkgreen focus:border-blue-500 focus:ring-blue-500 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:placeholder-p1-green dark:focus:border-p1-cyan dark:focus:ring-p1-cyan"
+                      placeholder="Страна"
+                      required
+                    />
+                  </div>
+
+                  <div>
+                    <label
+                      htmlFor="city"
+                      className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-green"
+                    >
+                      Город
+                    </label>
+                    <input
+                      type="text"
+                      id="city"
+                      className="block w-full rounded-xl border-2 border-gray-300 bg-p2-white2 p-2.5 text-sm text-p1-darkgreen focus:border-blue-500 focus:ring-blue-500 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:placeholder-p1-green dark:focus:border-p1-cyan dark:focus:ring-p1-cyan"
+                      placeholder="Город"
+                      required
+                    />
+                  </div>
+                </div>
+                <div>
+                  <label
+                    htmlFor="message"
+                    className="mb-2 block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-green"
+                  >
+                    Описание
+                  </label>
+                  <textarea
+                    id="message"
+                    rows={4}
+                    className="block w-full rounded-xl border-2 border-gray-300 bg-p2-white2 p-2.5 text-sm text-p1-darkgreen focus:border-blue-500 focus:ring-blue-500 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:placeholder-p1-green dark:focus:border-p1-cyan dark:focus:ring-p1-cyan"
+                    placeholder="Описание"
+                  ></textarea>
+                </div>
+
+                <button className="rounded-xl border-2 border-stone-400 bg-p2-white2 px-4 py-2 text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-stone-400 hover:text-p1-white md:mt-10 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan">
+                  Сохранить
+                </button>
+              </div>
+            </div>
+
+            <div className="pb-4"> </div>
+          </div>
+
+          <div className=""> </div>
+        </div>
+      </div>
+
       <div className="pb-5"></div>
     </div>
   );
