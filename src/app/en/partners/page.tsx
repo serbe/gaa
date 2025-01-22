@@ -208,55 +208,51 @@ export default function Page() {
           </div>
           <div id="8"></div>
           <div className="text-center text-2xl font-bold text-p1-darkgreen md:pt-8 md:text-4xl dark:text-p1-green">
-          Sponsor participant:
+            Sponsor participant:
           </div>
           <div className="text-center text-xl text-p1-darkgreen md:pt-4 md:text-2xl dark:text-p1-green">
             <p>
-              
-This status is determined by NFT Promoter, National, Global holders and is limited
+              This status is determined by NFT Promoter, National, Global holders and is limited
               temporary period to cover no more than 10% of the costs of organizing and conducting
               specific event
             </p>
-            <p>
-            placement cost - 10% sponsorship fee</p>
+            <p>placement cost - 10% sponsorship fee</p>
 
-            <p>The logo of your brand with the status &quot;Sponsor&quot; at the NFT reward event</p>
             <p>
-The cost of placing a logo on the award is at least 1000 USDT</p>
+              The logo of your brand with the status &quot;Sponsor&quot; at the NFT reward event
+            </p>
+            <p>The cost of placing a logo on the award is at least 1000 USDT</p>
           </div>
           <div id="9"></div>
           <div className="text-center text-2xl font-bold text-p1-darkgreen md:pt-8 md:text-4xl dark:text-p1-green">
-          Information sponsor:
-
+            Information sponsor:
           </div>
           <div className="text-center text-xl text-p1-darkgreen md:pt-4 md:text-2xl dark:text-p1-green">
             <p>
-            This status is determined by NFT Promoter, National, Global holders and is limited
-            temporary period for organizing and holding a specific event
+              This status is determined by NFT Promoter, National, Global holders and is limited
+              temporary period for organizing and holding a specific event
             </p>
-            <p>
-            Media: TV channels, radio stations, magazines, newspapers, Internet resources</p>
+            <p>Media: TV channels, radio stations, magazines, newspapers, Internet resources</p>
 
             <p>
-              
-The logo of your information resource on the gaa.zone website in the information section
-              sponsor and link to your resource
+              The logo of your information resource on the gaa.zone website in the information
+              section sponsor and link to your resource
             </p>
           </div>
           <div id="10"></div>
           <div className="text-center text-2xl font-bold text-p1-darkgreen md:pt-8 md:text-4xl dark:text-p1-green">
-
-          Barter Sponsor:          </div>
+            Barter Sponsor:{' '}
+          </div>
           <div className="text-center text-xl text-p1-darkgreen md:pt-4 md:text-2xl dark:text-p1-green">
             <p>
-            This status is determined by NFT Promoter, National, Global holders and is limited
+              This status is determined by NFT Promoter, National, Global holders and is limited
               temporary period of cooperation
             </p>
             <p>not the deposit of funds, but the provision of products and services</p>
 
             <p>
-            Your brand logo on the gaa.zone website in the Barter Sponsors section, with a link to your
-            resource, as well as collaboration in joint projects
+              Your brand logo on the gaa.zone website in the Barter Sponsors section, with a link to
+              your resource, as well as collaboration in joint projects
             </p>
           </div>
         </div>
@@ -269,8 +265,8 @@ The logo of your information resource on the gaa.zone website in the information
       <div className="flex flex-row justify-center md:pb-5">
         <div className="md:basis-3/5">
           <div className="text-center text-2xl font-bold text-p1-darkgreen md:pt-4 md:text-4xl dark:text-p1-cyan">
-
-          QR code to support the Project          </div>
+            QR code to support the Project{' '}
+          </div>
         </div>
       </div>
       <div className="flex flex-row justify-center md:pb-5">
@@ -283,7 +279,9 @@ The logo of your information resource on the gaa.zone website in the information
       <div className="text-center text-xl text-p1-darkgreen md:pt-4 md:text-2xl dark:text-p1-green">
         <p>for now the link is to the site gaa.zone</p>
         <p>
-        real support will be possible only after the deployment of smart contracts and the start of the Project </p>
+          real support will be possible only after the deployment of smart contracts and the start
+          of the Project{' '}
+        </p>
       </div>
 
       <div className="flex flex-row justify-center md:pb-5">
@@ -298,8 +296,8 @@ The logo of your information resource on the gaa.zone website in the information
       <div className="flex flex-row justify-center md:pb-5">
         <div className="md:basis-3/5">
           <div className="text-center text-2xl font-bold text-p1-darkgreen md:pt-4 md:text-4xl dark:text-p1-cyan">
-
-          Participants table          </div>
+            Participants table{' '}
+          </div>
         </div>
       </div>
 
