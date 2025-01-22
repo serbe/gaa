@@ -247,7 +247,7 @@ export default function Page() {
       </div>
 
       <div className="md:pt-2" id="5"></div>
-      <div className="w-full snap-x overflow-x-auto rounded-3xl border-p2-orange hover:border-p2-orange md:w-4/5 md:place-self-center md:border-4 md:hover:shadow-2xl dark:border-p1-darkgreen dark:hover:border-p1-green">
+      <div className="w-full snap-x overflow-x-auto rounded-3xl md:w-4/5 md:place-self-center dark:border-p1-darkgreen dark:hover:border-p1-green">
         <Swiper
           autoplay={{
             delay: 5500,
@@ -315,7 +315,7 @@ export default function Page() {
                 className="relative inline-block w-full snap-center shadow-lg duration-500 hover:z-50 hover:scale-150"
                 width={130}
                 height={130}
-                src="/HeroNFT/CustomLads/CustomLads1.png"
+                src="/HeroNFT/CustomLads/CustomLads11.png"
                 alt="CustomLads1"
               />
             </div>
@@ -326,7 +326,7 @@ export default function Page() {
                 className="relative inline-block w-full snap-center shadow-lg duration-500 hover:z-50 hover:scale-150"
                 width={130}
                 height={130}
-                src="/HeroNFT/CustomLads/CustomLads2.png"
+                src="/HeroNFT/CustomLads/CustomLads22.png"
                 alt="CustomLads2"
               />
             </div>
@@ -337,7 +337,7 @@ export default function Page() {
                 className="relative inline-block w-full snap-center shadow-lg duration-500 hover:z-50 hover:scale-150"
                 width={130}
                 height={130}
-                src="/HeroNFT/CustomLads/CustomLads3.png"
+                src="/HeroNFT/CustomLads/CustomLads33.png"
                 alt="CustomLads3"
               />
             </div>
@@ -348,7 +348,7 @@ export default function Page() {
                 className="relative inline-block w-full snap-center shadow-lg duration-500 hover:z-50 hover:scale-150"
                 width={130}
                 height={130}
-                src="/HeroNFT/CustomLads/CustomLads4.png"
+                src="/HeroNFT/CustomLads/CustomLads44.png"
                 alt="CustomLads4"
               />
             </div>
