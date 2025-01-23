@@ -1027,7 +1027,9 @@ export default function Home() {
                   <input
                     checked={check}
                     id="checkbox_ETH"
-                    onChange={() => setCheck(!check)}
+                    onChange={() => {
+                      setCheck(!check);
+                    }}
                     type="checkbox"
                     value=""
                     className="focus:ring-p1-cian h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
@@ -1044,7 +1046,9 @@ export default function Home() {
                   <input
                     checked={check}
                     id="checkbox_POL"
-                    onChange={() => setCheck(!check)}
+                    onChange={() => {
+                      setCheck(!check);
+                    }}
                     type="checkbox"
                     value=""
                     className="focus:ring-p1-cian h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
@@ -1099,7 +1103,9 @@ export default function Home() {
                   <input
                     checked={check}
                     id="checkbox_ETH"
-                    onChange={() => setCheck(!check)}
+                    onChange={() => {
+                      setCheck(!check);
+                    }}
                     type="checkbox"
                     value=""
                     className="focus:ring-p1-cian h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
@@ -1118,7 +1124,9 @@ export default function Home() {
                   <input
                     checked={check}
                     id="checkbox_POL"
-                    onChange={() => setCheck(!check)}
+                    onChange={() => {
+                      setCheck(!check);
+                    }}
                     type="checkbox"
                     value=""
                     className="focus:ring-p1-cian h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
@@ -1170,7 +1178,9 @@ export default function Home() {
                   <input
                     checked={check}
                     id="checkbox_ETH"
-                    onChange={() => setCheck(!check)}
+                    onChange={() => {
+                      setCheck(!check);
+                    }}
                     type="checkbox"
                     value=""
                     className="focus:ring-p1-cian h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
@@ -1188,7 +1198,9 @@ export default function Home() {
                   <input
                     checked={check}
                     id="checkbox_POL"
-                    onChange={() => setCheck(!check)}
+                    onChange={() => {
+                      setCheck(!check);
+                    }}
                     type="checkbox"
                     value=""
                     className="focus:ring-p1-cian h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
@@ -1240,7 +1252,9 @@ export default function Home() {
                   <input
                     checked={check}
                     id="checkbox_ETH"
-                    onChange={() => setCheck(!check)}
+                    onChange={() => {
+                      setCheck(!check);
+                    }}
                     type="checkbox"
                     value=""
                     className="focus:ring-p1-cian h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
@@ -1258,7 +1272,9 @@ export default function Home() {
                   <input
                     checked={check}
                     id="checkbox_POL"
-                    onChange={() => setCheck(!check)}
+                    onChange={() => {
+                      setCheck(!check);
+                    }}
                     type="checkbox"
                     value=""
                     className="focus:ring-p1-cian h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
@@ -1310,7 +1326,9 @@ export default function Home() {
                   <input
                     checked={check}
                     id="checkbox_ETH"
-                    onChange={() => setCheck(!check)}
+                    onChange={() => {
+                      setCheck(!check);
+                    }}
                     type="checkbox"
                     value=""
                     className="focus:ring-p1-cian h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
@@ -1328,7 +1346,9 @@ export default function Home() {
                   <input
                     checked={check}
                     id="checkbox_POL"
-                    onChange={() => setCheck(!check)}
+                    onChange={() => {
+                      setCheck(!check);
+                    }}
                     type="checkbox"
                     value=""
                     className="focus:ring-p1-cian h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
@@ -1380,7 +1400,9 @@ export default function Home() {
                   <input
                     checked={check}
                     id="checkbox_ETH"
-                    onChange={() => setCheck(!check)}
+                    onChange={() => {
+                      setCheck(!check);
+                    }}
                     type="checkbox"
                     value=""
                     className="focus:ring-p1-cian h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
@@ -1398,7 +1420,9 @@ export default function Home() {
                   <input
                     checked={check}
                     id="checkbox_POL"
-                    onChange={() => setCheck(!check)}
+                    onChange={() => {
+                      setCheck(!check);
+                    }}
                     type="checkbox"
                     value=""
                     className="focus:ring-p1-cian h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
@@ -1450,7 +1474,9 @@ export default function Home() {
                   <input
                     checked={check}
                     id="checkbox_ETH"
-                    onChange={() => setCheck(!check)}
+                    onChange={() => {
+                      setCheck(!check);
+                    }}
                     type="checkbox"
                     value=""
                     className="focus:ring-p1-cian h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
@@ -1468,7 +1494,9 @@ export default function Home() {
                   <input
                     checked={check}
                     id="checkbox_POL"
-                    onChange={() => setCheck(!check)}
+                    onChange={() => {
+                      setCheck(!check);
+                    }}
                     type="checkbox"
                     value=""
                     className="focus:ring-p1-cian h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
@@ -1520,7 +1548,9 @@ export default function Home() {
                   <input
                     checked={check}
                     id="checkbox_ETH"
-                    onChange={() => setCheck(!check)}
+                    onChange={() => {
+                      setCheck(!check);
+                    }}
                     type="checkbox"
                     value=""
                     className="focus:ring-p1-cian h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
@@ -1538,7 +1568,9 @@ export default function Home() {
                   <input
                     checked={check}
                     id="checkbox_POL"
-                    onChange={() => setCheck(!check)}
+                    onChange={() => {
+                      setCheck(!check);
+                    }}
                     type="checkbox"
                     value=""
                     className="focus:ring-p1-cian h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
@@ -1590,7 +1622,9 @@ export default function Home() {
                   <input
                     checked={check}
                     id="checkbox_ETH"
-                    onChange={() => setCheck(!check)}
+                    onChange={() => {
+                      setCheck(!check);
+                    }}
                     type="checkbox"
                     value=""
                     className="focus:ring-p1-cian h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
@@ -1608,7 +1642,9 @@ export default function Home() {
                   <input
                     checked={check}
                     id="checkbox_POL"
-                    onChange={() => setCheck(!check)}
+                    onChange={() => {
+                      setCheck(!check);
+                    }}
                     type="checkbox"
                     value=""
                     className="focus:ring-p1-cian h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
@@ -1660,7 +1696,9 @@ export default function Home() {
                   <input
                     checked={check}
                     id="checkbox_ETH"
-                    onChange={() => setCheck(!check)}
+                    onChange={() => {
+                      setCheck(!check);
+                    }}
                     type="checkbox"
                     value=""
                     className="focus:ring-p1-cian h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
@@ -1678,7 +1716,9 @@ export default function Home() {
                   <input
                     checked={check}
                     id="checkbox_POL"
-                    onChange={() => setCheck(!check)}
+                    onChange={() => {
+                      setCheck(!check);
+                    }}
                     type="checkbox"
                     value=""
                     className="focus:ring-p1-cian h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
@@ -1730,7 +1770,9 @@ export default function Home() {
                   <input
                     checked={check}
                     id="checkbox_ETH"
-                    onChange={() => setCheck(!check)}
+                    onChange={() => {
+                      setCheck(!check);
+                    }}
                     type="checkbox"
                     value=""
                     className="focus:ring-p1-cian h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
@@ -1748,7 +1790,9 @@ export default function Home() {
                   <input
                     checked={check}
                     id="checkbox_POL"
-                    onChange={() => setCheck(!check)}
+                    onChange={() => {
+                      setCheck(!check);
+                    }}
                     type="checkbox"
                     value=""
                     className="focus:ring-p1-cian h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
@@ -1800,7 +1844,9 @@ export default function Home() {
                   <input
                     checked={check}
                     id="checkbox_ETH"
-                    onChange={() => setCheck(!check)}
+                    onChange={() => {
+                      setCheck(!check);
+                    }}
                     type="checkbox"
                     value=""
                     className="focus:ring-p1-cian h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
@@ -1818,7 +1864,9 @@ export default function Home() {
                   <input
                     checked={check}
                     id="checkbox_POL"
-                    onChange={() => setCheck(!check)}
+                    onChange={() => {
+                      setCheck(!check);
+                    }}
                     type="checkbox"
                     value=""
                     className="focus:ring-p1-cian h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
@@ -1870,7 +1918,9 @@ export default function Home() {
                   <input
                     checked={check}
                     id="checkbox_ETH"
-                    onChange={() => setCheck(!check)}
+                    onChange={() => {
+                      setCheck(!check);
+                    }}
                     type="checkbox"
                     value=""
                     className="focus:ring-p1-cian h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
@@ -1888,7 +1938,9 @@ export default function Home() {
                   <input
                     checked={check}
                     id="checkbox_POL"
-                    onChange={() => setCheck(!check)}
+                    onChange={() => {
+                      setCheck(!check);
+                    }}
                     type="checkbox"
                     value=""
                     className="focus:ring-p1-cian h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
@@ -1940,7 +1992,9 @@ export default function Home() {
                   <input
                     checked={check}
                     id="checkbox_ETH"
-                    onChange={() => setCheck(!check)}
+                    onChange={() => {
+                      setCheck(!check);
+                    }}
                     type="checkbox"
                     value=""
                     className="focus:ring-p1-cian h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
@@ -1958,7 +2012,9 @@ export default function Home() {
                   <input
                     checked={check}
                     id="checkbox_POL"
-                    onChange={() => setCheck(!check)}
+                    onChange={() => {
+                      setCheck(!check);
+                    }}
                     type="checkbox"
                     value=""
                     className="focus:ring-p1-cian h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
@@ -2010,7 +2066,9 @@ export default function Home() {
                   <input
                     checked={check}
                     id="checkbox_ETH"
-                    onChange={() => setCheck(!check)}
+                    onChange={() => {
+                      setCheck(!check);
+                    }}
                     type="checkbox"
                     value=""
                     className="focus:ring-p1-cian h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
@@ -2028,7 +2086,9 @@ export default function Home() {
                   <input
                     checked={check}
                     id="checkbox_POL"
-                    onChange={() => setCheck(!check)}
+                    onChange={() => {
+                      setCheck(!check);
+                    }}
                     type="checkbox"
                     value=""
                     className="focus:ring-p1-cian h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
@@ -2080,7 +2140,9 @@ export default function Home() {
                   <input
                     checked={check}
                     id="checkbox_ETH"
-                    onChange={() => setCheck(!check)}
+                    onChange={() => {
+                      setCheck(!check);
+                    }}
                     type="checkbox"
                     value=""
                     className="focus:ring-p1-cian h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
@@ -2098,7 +2160,9 @@ export default function Home() {
                   <input
                     checked={check}
                     id="checkbox_POL"
-                    onChange={() => setCheck(!check)}
+                    onChange={() => {
+                      setCheck(!check);
+                    }}
                     type="checkbox"
                     value=""
                     className="focus:ring-p1-cian h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
@@ -2150,7 +2214,9 @@ export default function Home() {
                   <input
                     checked={check}
                     id="checkbox_ETH"
-                    onChange={() => setCheck(!check)}
+                    onChange={() => {
+                      setCheck(!check);
+                    }}
                     type="checkbox"
                     value=""
                     className="focus:ring-p1-cian h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
@@ -2168,7 +2234,9 @@ export default function Home() {
                   <input
                     checked={check}
                     id="checkbox_POL"
-                    onChange={() => setCheck(!check)}
+                    onChange={() => {
+                      setCheck(!check);
+                    }}
                     type="checkbox"
                     value=""
                     className="focus:ring-p1-cian h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
@@ -2880,7 +2948,9 @@ export default function Home() {
                               <input
                                 checked={check}
                                 id="checkbox"
-                                onChange={() => setCheck(!check)}
+                                onChange={() => {
+                                  setCheck(!check);
+                                }}
                                 type="checkbox"
                                 value=""
                                 className="focus:ring-p1-cian h-4 w-4 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
@@ -2922,7 +2992,9 @@ export default function Home() {
                               <input
                                 checked={check}
                                 id="checkbox"
-                                onChange={() => setCheck(!check)}
+                                onChange={() => {
+                                  setCheck(!check);
+                                }}
                                 type="checkbox"
                                 value=""
                                 className="focus:ring-p1-cian h-4 w-4 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"

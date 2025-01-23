@@ -136,7 +136,9 @@ export default function Page() {
                             min="1"
                             max="100"
                             value={value}
-                            onChange={(e) => setValue(e.target.value)}
+                            onChange={(e) => {
+                              setValue(e.target.value);
+                            }}
                             className="h-2 w-3/5 cursor-pointer appearance-none rounded-lg bg-gray-200 dark:bg-gray-700"
                           />
                         </div>
@@ -313,7 +315,9 @@ export default function Page() {
                 <input
                   checked={check}
                   id="checkbox"
-                  onChange={() => setCheck(!check)}
+                  onChange={() => {
+                    setCheck(!check);
+                  }}
                   type="checkbox"
                   value=""
                   className="focus:ring-p1-cian h-4 w-4 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"

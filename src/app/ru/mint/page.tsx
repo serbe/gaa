@@ -11,10 +11,10 @@ export default function Page() {
   const [{ setLicense, setLider }, gaaStore] = useGaaStore((state) => state);
 
   useLayoutEffect(() => {
-    gaaStore.persist.rehydrate();
+    void gaaStore.persist.rehydrate();
   }, [gaaStore.persist]);
 
-  return !gaaStore.persist?.hasHydrated() ? (
+  return !gaaStore.persist.hasHydrated() ? (
     'Loading...'
   ) : (
     <div className="mx-auto max-w-7xl font-serif">
@@ -85,7 +85,9 @@ export default function Page() {
             <Link
               href="/discoveryliders"
               className="rounded-l-xl border-2 border-p1-darkgreen bg-p2-white2 p-2 text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p1-darkgreen hover:text-p1-white focus:z-10 focus:bg-p1-darkgreen focus:text-p1-white focus:ring-2 focus:ring-p1-darkgreen md:p-5 dark:border-p1-green dark:bg-p1-darkgreen dark:text-p1-cyan dark:hover:border-p1-green dark:hover:bg-p1-green dark:hover:text-p1-deepdarkgreen"
-              onClick={() => setLider(0)}
+              onClick={() => {
+                setLider(0);
+              }}
             >
               Подробнее
             </Link>
@@ -113,7 +115,9 @@ export default function Page() {
             <Link
               href="/discoveryliders"
               className="rounded-l-xl border-2 border-p1-darkgreen bg-p2-white2 p-2 text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p1-darkgreen hover:text-p1-white focus:z-10 focus:bg-p1-darkgreen focus:text-p1-white focus:ring-2 focus:ring-p1-darkgreen md:p-5 dark:border-p1-green dark:bg-p1-darkgreen dark:text-p1-cyan dark:hover:border-p1-green dark:hover:bg-p1-green dark:hover:text-p1-deepdarkgreen"
-              onClick={() => setLider(1)}
+              onClick={() => {
+                setLider(1);
+              }}
             >
               Подробнее
             </Link>
@@ -142,7 +146,9 @@ export default function Page() {
             <Link
               href="/discoveryliders"
               className="rounded-l-xl border-2 border-p1-darkgreen bg-p2-white2 p-2 text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p1-darkgreen hover:text-p1-white focus:z-10 focus:bg-p1-darkgreen focus:text-p1-white focus:ring-2 focus:ring-p1-darkgreen md:p-5 dark:border-p1-green dark:bg-p1-darkgreen dark:text-p1-cyan dark:hover:border-p1-green dark:hover:bg-p1-green dark:hover:text-p1-deepdarkgreen"
-              onClick={() => setLider(2)}
+              onClick={() => {
+                setLider(2);
+              }}
             >
               Подробнее
             </Link>
@@ -297,14 +303,18 @@ export default function Page() {
           <p className="text-xm pb-8">Предоставляет доступ на страницу создания NFT наград</p>
           <Link
             href="/discoverylicense"
-            onClick={() => setLicense(0)}
+            onClick={() => {
+              setLicense(0);
+            }}
             className="rounded-l-xl border-2 border-p1-darkgreen bg-p2-white2 p-2 text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p1-darkgreen hover:text-p1-white focus:z-10 focus:bg-p1-darkgreen focus:text-p1-white focus:ring-2 focus:ring-p1-darkgreen md:p-5 dark:border-p1-green dark:bg-p1-darkgreen dark:text-p1-cyan dark:hover:border-p1-green dark:hover:bg-p1-green dark:hover:text-p1-deepdarkgreen"
           >
             Подробнее
           </Link>
           <Link
             href="/license"
-            onClick={() => setLicense(0)}
+            onClick={() => {
+              setLicense(0);
+            }}
             className="rounded-r-xl border-2 border-amber-600 bg-p2-white2 p-2 text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-amber-600 hover:text-p1-white focus:z-10 focus:bg-amber-600 focus:text-p1-white focus:ring-2 focus:ring-amber-600 md:p-5 dark:border-p1-green dark:bg-p1-darkgreen dark:text-p1-cyan dark:hover:border-amber-600 dark:hover:bg-amber-800 dark:hover:text-white dark:focus:text-white dark:focus:ring-amber-600"
           >
             Cоздай NFT
@@ -325,14 +335,18 @@ export default function Page() {
           </p>
           <Link
             href="/discoverylicense"
-            onClick={() => setLicense(1)}
+            onClick={() => {
+              setLicense(1);
+            }}
             className="rounded-l-xl border-2 border-p1-darkgreen bg-p2-white2 p-2 text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p1-darkgreen hover:text-p1-white focus:z-10 focus:bg-p1-darkgreen focus:text-p1-white focus:ring-2 focus:ring-p1-darkgreen md:p-5 dark:border-p1-green dark:bg-p1-darkgreen dark:text-p1-cyan dark:hover:border-p1-green dark:hover:bg-p1-green dark:hover:text-p1-deepdarkgreen"
           >
             Подробнее
           </Link>
           <Link
             href="/license"
-            onClick={() => setLicense(1)}
+            onClick={() => {
+              setLicense(1);
+            }}
             className="rounded-r-xl border-2 border-p1-gray bg-p2-white2 p-2 text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p1-gray hover:text-p1-white focus:z-10 focus:bg-p1-gray focus:text-p1-white focus:ring-2 focus:ring-p1-gray md:p-5 dark:border-p1-green dark:bg-p1-darkgreen dark:text-p1-cyan dark:hover:border-gray-300 dark:hover:bg-gray-500 dark:hover:text-white dark:focus:text-white dark:focus:ring-p1-gray"
           >
             Cоздай NFT
@@ -355,14 +369,18 @@ export default function Page() {
           </p>
           <Link
             href="/discoverylicense"
-            onClick={() => setLicense(2)}
+            onClick={() => {
+              setLicense(2);
+            }}
             className="rounded-l-xl border-2 border-p1-darkgreen bg-p2-white2 p-2 text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p1-darkgreen hover:text-p1-white focus:z-10 focus:bg-p1-darkgreen focus:text-p1-white focus:ring-2 focus:ring-p1-darkgreen md:p-5 dark:border-p1-green dark:bg-p1-darkgreen dark:text-p1-cyan dark:hover:border-p1-green dark:hover:bg-p1-green dark:hover:text-p1-deepdarkgreen"
           >
             Подробнее
           </Link>
           <Link
             href="/license"
-            onClick={() => setLicense(2)}
+            onClick={() => {
+              setLicense(2);
+            }}
             className="rounded-r-xl border-2 border-p2-orange bg-p2-white2 p-2 text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p2-orange hover:text-p1-white hover:ring-p2-orange focus:bg-p2-orange focus:text-p1-white focus:ring-2 focus:ring-p2-orange md:p-5 dark:border-p1-green dark:bg-p1-darkgreen dark:text-p1-cyan dark:hover:border-p2-orange dark:hover:bg-amber-600 dark:hover:text-amber-100"
           >
             Cоздай NFT

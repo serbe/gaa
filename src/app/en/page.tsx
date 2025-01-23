@@ -43,7 +43,9 @@ export default function EnglishPage() {
                   min="1"
                   max="10"
                   value={value}
-                  onChange={(e) => setValue(e.target.value)}
+                  onChange={(e) => {
+                    setValue(e.target.value);
+                  }}
                   className="h-2 w-full cursor-pointer appearance-none rounded-lg bg-gray-200 dark:bg-gray-700"
                 />
               </div>

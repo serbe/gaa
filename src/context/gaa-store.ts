@@ -1,22 +1,22 @@
 import { persist, createJSONStorage } from 'zustand/middleware';
 import { createStore } from 'zustand/vanilla';
 
-export type GaaState = {
+export interface GaaState {
   license: number;
   lider: number;
   lad: number;
   theme: string;
-};
+}
 
-export type GaaActions = {
+export interface GaaActions {
   setLicense: (licenseNumber: number) => void;
   setLider: (liderNumber: number) => void;
   setLad: (ladNumber: number) => void;
   setTheme: (theme: string) => void;
   switchTheme: () => void;
-};
+}
 
-export type GaaStore = GaaState & GaaActions;
+export interface GaaStore extends GaaState, GaaActions {}
 
 export const defaultInitState: GaaState = {
   license: 0,
@@ -30,31 +30,36 @@ export const createGaaStore = (initState: GaaState = defaultInitState) => {
     persist(
       (set, get) => ({
         ...initState,
-        setLicense: (licenseNumber: number) =>
+        setLicense: (licenseNumber: number) => {
           set((state) => ({
             ...state,
             license: licenseNumber >= 0 && licenseNumber <= 2 ? licenseNumber : 0,
-          })),
-        setLider: (liderNumber: number) =>
+          }));
+        },
+        setLider: (liderNumber: number) => {
           set((state) => ({
             ...state,
             lider: liderNumber >= 0 && liderNumber <= 2 ? liderNumber : 0,
-          })),
-        setLad: (ladNumber: number) =>
+          }));
+        },
+        setLad: (ladNumber: number) => {
           set((state) => ({
             ...state,
             lad: ladNumber >= 0 && ladNumber <= 2 ? ladNumber : 0,
-          })),
-        setTheme: (theme: string) =>
+          }));
+        },
+        setTheme: (theme: string) => {
           set((state) => ({
             ...state,
             theme: theme,
-          })),
-        switchTheme: () =>
+          }));
+        },
+        switchTheme: () => {
           set((state) => ({
             ...state,
             theme: get().theme === 'dark' ? 'light' : 'dark',
-          })),
+          }));
+        },
       }),
       {
         name: 'gaa-store',

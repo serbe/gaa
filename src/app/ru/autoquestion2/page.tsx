@@ -44,7 +44,9 @@ const ModalWindow = ({
               type="button"
               className="ms-auto inline-flex h-8 w-8 items-center justify-center rounded-lg bg-transparent text-sm text-gray-400 hover:bg-gray-200 hover:text-gray-900 dark:hover:bg-gray-600 dark:hover:text-white"
               data-modal-hide="question-modal"
-              onClick={() => setViewModal(!viewModal)}
+              onClick={() => {
+                setViewModal(!viewModal);
+              }}
             >
               <svg
                 className="h-3 w-3"
@@ -101,7 +103,9 @@ const ModalWindow = ({
             <button
               data-modal-hide="question-modal"
               type="button"
-              onClick={() => setViewModal(!viewModal)}
+              onClick={() => {
+                setViewModal(!viewModal);
+              }}
               className="w-full rounded-lg border border-gray-200 bg-white px-5 py-2.5 text-sm font-medium text-gray-900 hover:bg-p2-orange hover:text-p1-white focus:z-10 focus:outline-none focus:ring-4 focus:ring-gray-100 dark:border-gray-600 dark:bg-gray-800 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white dark:focus:ring-gray-700"
             >
               Закрыть
@@ -174,7 +178,12 @@ export default function Page() {
             <div className="pb-5"></div>
             <ul className="w-full rounded-lg border border-gray-200 bg-p1-white font-medium text-gray-900 accent-p2-orange dark:border-gray-600 dark:bg-p1-deepdarkgreen dark:text-white">
               <li className="w-full rounded-t-lg border-b border-gray-200 dark:border-gray-600">
-                <div className="flex items-center ps-3" onClick={() => setAnswer(1)}>
+                <div
+                  className="flex items-center ps-3"
+                  onClick={() => {
+                    setAnswer(1);
+                  }}
+                >
                   <input
                     id="list-radio-eleven"
                     type="radio"
@@ -191,7 +200,12 @@ export default function Page() {
                 </div>
               </li>
               <li className="w-full rounded-t-lg border-b border-gray-200 dark:border-gray-600">
-                <div className="flex items-center ps-3" onClick={() => setAnswer(2)}>
+                <div
+                  className="flex items-center ps-3"
+                  onClick={() => {
+                    setAnswer(2);
+                  }}
+                >
                   <input
                     id="list-radio-twelve"
                     type="radio"
@@ -208,7 +222,12 @@ export default function Page() {
                 </div>
               </li>
               <li className="w-full rounded-t-lg border-b border-gray-200 dark:border-gray-600">
-                <div className="flex items-center ps-3" onClick={() => setAnswer(3)}>
+                <div
+                  className="flex items-center ps-3"
+                  onClick={() => {
+                    setAnswer(3);
+                  }}
+                >
                   <input
                     id="list-radio-thirteen"
                     type="radio"
@@ -225,7 +244,12 @@ export default function Page() {
                 </div>
               </li>
               <li className="w-full rounded-t-lg border-b border-gray-200 dark:border-gray-600">
-                <div className="flex items-center ps-3" onClick={() => setAnswer(4)}>
+                <div
+                  className="flex items-center ps-3"
+                  onClick={() => {
+                    setAnswer(4);
+                  }}
+                >
                   <input
                     id="list-radio-fourteen"
                     type="radio"
@@ -247,7 +271,9 @@ export default function Page() {
             <button
               data-modal-target="question-modal"
               data-modal-toggle="question-modal"
-              onClick={() => setViewModal(!viewModal)}
+              onClick={() => {
+                setViewModal(!viewModal);
+              }}
               className="inline-block rounded-xl border-2 border-p2-orange bg-p1-white px-10 py-8 text-p1-darkgreen transition-all delay-75 duration-300 ease-in-out hover:bg-p2-orange hover:text-p1-white dark:border-p1-cyan dark:bg-p1-darkgreen dark:text-p1-cyan dark:hover:border-p2-orange dark:hover:bg-amber-600 dark:hover:text-amber-100"
             >
               Ответить

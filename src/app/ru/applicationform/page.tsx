@@ -47,7 +47,9 @@ export default function Page() {
               <input
                 checked={check}
                 id="checkbox"
-                onChange={() => setCheck(!check)}
+                onChange={() => {
+                  setCheck(!check);
+                }}
                 type="checkbox"
                 value=""
                 className="mx-5 h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-p1-green"
@@ -65,7 +67,9 @@ export default function Page() {
               <input
                 checked={check}
                 id="checkbox"
-                onChange={() => setCheck(!check)}
+                onChange={() => {
+                  setCheck(!check);
+                }}
                 type="checkbox"
                 value=""
                 className="mx-5 h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-p1-green"
@@ -83,7 +87,9 @@ export default function Page() {
               <input
                 checked={check}
                 id="checkbox"
-                onChange={() => setCheck(!check)}
+                onChange={() => {
+                  setCheck(!check);
+                }}
                 type="checkbox"
                 value=""
                 className="mx-5 h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-p1-green"
@@ -159,7 +165,9 @@ export default function Page() {
               <input
                 checked={check}
                 id="checkbox"
-                onChange={() => setCheck(!check)}
+                onChange={() => {
+                  setCheck(!check);
+                }}
                 type="checkbox"
                 value=""
                 className="mx-5 h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-p1-green"
@@ -178,7 +186,9 @@ export default function Page() {
               <input
                 checked={check}
                 id="checkbox"
-                onChange={() => setCheck(!check)}
+                onChange={() => {
+                  setCheck(!check);
+                }}
                 type="checkbox"
                 value=""
                 className="mx-5 h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-p1-green"
@@ -196,7 +206,9 @@ export default function Page() {
               <input
                 checked={check}
                 id="checkbox"
-                onChange={() => setCheck(!check)}
+                onChange={() => {
+                  setCheck(!check);
+                }}
                 type="checkbox"
                 value=""
                 className="mx-5 h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-p1-green"
@@ -214,7 +226,9 @@ export default function Page() {
               <input
                 checked={check}
                 id="checkbox"
-                onChange={() => setCheck(!check)}
+                onChange={() => {
+                  setCheck(!check);
+                }}
                 type="checkbox"
                 value=""
                 className="mx-5 h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-p1-green"
@@ -232,7 +246,9 @@ export default function Page() {
               <input
                 checked={check}
                 id="checkbox"
-                onChange={() => setCheck(!check)}
+                onChange={() => {
+                  setCheck(!check);
+                }}
                 type="checkbox"
                 value=""
                 className="mx-5 h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-p1-green"
@@ -250,7 +266,9 @@ export default function Page() {
               <input
                 checked={check}
                 id="checkbox"
-                onChange={() => setCheck(!check)}
+                onChange={() => {
+                  setCheck(!check);
+                }}
                 type="checkbox"
                 value=""
                 className="mx-5 h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-p1-green"
@@ -268,7 +286,9 @@ export default function Page() {
               <input
                 checked={check}
                 id="checkbox"
-                onChange={() => setCheck(!check)}
+                onChange={() => {
+                  setCheck(!check);
+                }}
                 type="checkbox"
                 value=""
                 className="mx-5 h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-p1-green"
@@ -286,7 +306,9 @@ export default function Page() {
               <input
                 checked={check}
                 id="checkbox"
-                onChange={() => setCheck(!check)}
+                onChange={() => {
+                  setCheck(!check);
+                }}
                 type="checkbox"
                 value=""
                 className="mx-5 h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-p1-green"
@@ -304,7 +326,9 @@ export default function Page() {
               <input
                 checked={check}
                 id="checkbox"
-                onChange={() => setCheck(!check)}
+                onChange={() => {
+                  setCheck(!check);
+                }}
                 type="checkbox"
                 value=""
                 className="mx-5 h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-p1-green"
@@ -322,7 +346,9 @@ export default function Page() {
               <input
                 checked={check}
                 id="checkbox"
-                onChange={() => setCheck(!check)}
+                onChange={() => {
+                  setCheck(!check);
+                }}
                 type="checkbox"
                 value=""
                 className="mx-5 h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-p1-green"
@@ -340,7 +366,9 @@ export default function Page() {
               <input
                 checked={check}
                 id="checkbox"
-                onChange={() => setCheck(!check)}
+                onChange={() => {
+                  setCheck(!check);
+                }}
                 type="checkbox"
                 value=""
                 className="mx-5 h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-p1-green"
@@ -358,7 +386,9 @@ export default function Page() {
               <input
                 checked={check}
                 id="checkbox"
-                onChange={() => setCheck(!check)}
+                onChange={() => {
+                  setCheck(!check);
+                }}
                 type="checkbox"
                 value=""
                 className="mx-5 h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-p1-green"
@@ -399,7 +429,9 @@ export default function Page() {
               <input
                 checked={check}
                 id="checkbox"
-                onChange={() => setCheck(!check)}
+                onChange={() => {
+                  setCheck(!check);
+                }}
                 type="checkbox"
                 value=""
                 className="mx-5 h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-p1-green"
@@ -418,7 +450,9 @@ export default function Page() {
               <input
                 checked={check}
                 id="checkbox"
-                onChange={() => setCheck(!check)}
+                onChange={() => {
+                  setCheck(!check);
+                }}
                 type="checkbox"
                 value=""
                 className="mx-5 h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-p1-green"
@@ -437,7 +471,9 @@ export default function Page() {
               <input
                 checked={check}
                 id="checkbox"
-                onChange={() => setCheck(!check)}
+                onChange={() => {
+                  setCheck(!check);
+                }}
                 type="checkbox"
                 value=""
                 className="mx-5 h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-p1-green"
@@ -456,7 +492,9 @@ export default function Page() {
               <input
                 checked={check}
                 id="checkbox"
-                onChange={() => setCheck(!check)}
+                onChange={() => {
+                  setCheck(!check);
+                }}
                 type="checkbox"
                 value=""
                 className="mx-5 h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-p1-green"
@@ -474,7 +512,9 @@ export default function Page() {
               <input
                 checked={check}
                 id="checkbox"
-                onChange={() => setCheck(!check)}
+                onChange={() => {
+                  setCheck(!check);
+                }}
                 type="checkbox"
                 value=""
                 className="mx-5 h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-p1-green"
@@ -493,7 +533,9 @@ export default function Page() {
               <input
                 checked={check}
                 id="checkbox"
-                onChange={() => setCheck(!check)}
+                onChange={() => {
+                  setCheck(!check);
+                }}
                 type="checkbox"
                 value=""
                 className="mx-5 h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-p1-green"
@@ -512,7 +554,9 @@ export default function Page() {
               <input
                 checked={check}
                 id="checkbox"
-                onChange={() => setCheck(!check)}
+                onChange={() => {
+                  setCheck(!check);
+                }}
                 type="checkbox"
                 value=""
                 className="mx-5 h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-p1-green"
@@ -530,7 +574,9 @@ export default function Page() {
               <input
                 checked={check}
                 id="checkbox"
-                onChange={() => setCheck(!check)}
+                onChange={() => {
+                  setCheck(!check);
+                }}
                 type="checkbox"
                 value=""
                 className="mx-5 h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-p1-green"
@@ -548,7 +594,9 @@ export default function Page() {
               <input
                 checked={check}
                 id="checkbox"
-                onChange={() => setCheck(!check)}
+                onChange={() => {
+                  setCheck(!check);
+                }}
                 type="checkbox"
                 value=""
                 className="mx-5 h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-p1-green"

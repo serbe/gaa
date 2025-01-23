@@ -20,7 +20,7 @@ const Header = () => {
   const [{ theme, switchTheme }, gaaStore] = useGaaStore((state) => state);
 
   useLayoutEffect(() => {
-    gaaStore.persist.rehydrate();
+    void gaaStore.persist.rehydrate();
     setThemeClass(theme);
   }, [gaaStore.persist, theme]);
 
@@ -53,7 +53,9 @@ const Header = () => {
             </div>
             <div className="mx-2 dark:hover:text-p1-cyan">
               <button
-                onClick={() => switchTheme()}
+                onClick={() => {
+                  switchTheme();
+                }}
                 className="h-6 w-6 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700"
               >
                 <svg

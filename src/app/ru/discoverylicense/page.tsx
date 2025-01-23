@@ -26,7 +26,9 @@ const Buttons = ({
             : 'text-p1-darkgreen') +
           ' text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white'
         }
-        onClick={() => setter(0)}
+        onClick={() => {
+          setter(0);
+        }}
       >
         Promoter License
       </button>
@@ -42,7 +44,9 @@ const Buttons = ({
             : 'text-p1-darkgreen') +
           ' text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white'
         }
-        onClick={() => setter(1)}
+        onClick={() => {
+          setter(1);
+        }}
       >
         National License
       </button>
@@ -58,7 +62,9 @@ const Buttons = ({
             : 'text-p1-darkgreen') +
           ' text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white'
         }
-        onClick={() => setter(2)}
+        onClick={() => {
+          setter(2);
+        }}
       >
         Global License
       </button>

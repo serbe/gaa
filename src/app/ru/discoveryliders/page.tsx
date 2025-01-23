@@ -20,7 +20,9 @@ const Buttons = ({ lider, setter }: { lider: number; setter: (liderNumber: numbe
           (lider == 0 ? 'bg-red-400 text-p1-white dark:bg-red-900' : 'bg-white') +
           ' rounded-l-xl border-red-400 bg-p2-white2 p-5 text-center text-sm font-medium text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-red-400 hover:text-p1-white focus:z-10 focus:bg-red-400 focus:text-p1-white focus:ring-2 focus:ring-red-400 md:p-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:bg-red-900 dark:hover:text-red-100 dark:focus:text-p1-cyan dark:focus:ring-p1-green'
         }
-        onClick={() => setter(0)}
+        onClick={() => {
+          setter(0);
+        }}
       >
         Drivers
       </button>
@@ -31,7 +33,9 @@ const Buttons = ({ lider, setter }: { lider: number; setter: (liderNumber: numbe
           (lider == 1 ? 'bg-p3-blue text-p1-white dark:bg-p3-violet' : 'bg-white') +
           ' border-p3-blue bg-p2-white2 p-5 text-center text-sm font-medium text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p3-blue hover:text-p1-white focus:z-10 focus:bg-p3-blue focus:text-p1-white focus:ring-2 focus:ring-p3-blue md:p-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:bg-p3-violet dark:hover:text-white dark:focus:text-white dark:focus:ring-p3-blue'
         }
-        onClick={() => setter(1)}
+        onClick={() => {
+          setter(1);
+        }}
       >
         Team&apos;s Members
       </button>
@@ -42,7 +46,9 @@ const Buttons = ({ lider, setter }: { lider: number; setter: (liderNumber: numbe
           (lider == 2 ? 'bg-stone-500 text-p1-white dark:bg-stone-700' : 'bg-white') +
           ' border-stone-500 bg-p2-white2 p-5 text-center text-sm font-medium text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-stone-500 hover:text-p1-white focus:z-10 focus:bg-stone-500 focus:text-p1-white focus:ring-2 focus:ring-stone-500 md:p-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:bg-stone-700 dark:hover:text-stone-100 dark:focus:text-white dark:focus:ring-stone-500'
         }
-        onClick={() => setter(2)}
+        onClick={() => {
+          setter(2);
+        }}
       >
         Collectors
       </button>
@@ -64,10 +70,10 @@ export default function Page() {
   const [{ lider, setLider }, gaaStore] = useGaaStore((state) => state);
 
   useLayoutEffect(() => {
-    gaaStore.persist.rehydrate();
+    void gaaStore.persist.rehydrate();
   }, [gaaStore.persist]);
 
-  return !gaaStore.persist?.hasHydrated() ? (
+  return !gaaStore.persist.hasHydrated() ? (
     'Loading...'
   ) : (
     <div className="mx-auto max-w-7xl font-serif">

@@ -17,7 +17,9 @@ export function useWindowDimensions() {
     }
 
     window.addEventListener('resize', handleResize);
-    return () => window.removeEventListener('resize', handleResize);
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
   }, []);
 
   return windowDimensions;
@@ -37,7 +39,9 @@ export const useDeviceSize = () => {
     handleWindowResize();
     window.addEventListener('resize', handleWindowResize);
     // unsubscribe from the event on component unmount
-    return () => window.removeEventListener('resize', handleWindowResize);
+    return () => {
+      window.removeEventListener('resize', handleWindowResize);
+    };
   }, []);
 
   return { width, height };
