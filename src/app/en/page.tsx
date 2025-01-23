@@ -51,10 +51,10 @@ export default function EnglishPage() {
               </div>
               <div className="my-5">
                 <Link
-                  href="/"
+                  href="/mintracelads"
                   className="inline-block rounded-xl border-2 border-p2-orange bg-p1-white px-10 py-8 text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p2-orange hover:text-p1-white dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p2-orange dark:hover:bg-amber-600 dark:hover:text-amber-100"
                 >
-                  Создай NFT
+                  Create NFT
                 </Link>
               </div>
             </div>
@@ -67,26 +67,26 @@ export default function EnglishPage() {
         >
           <div className="text-centre flex flex-row">
             <div className="place-content-center p-2 text-center text-p1-darkgreen md:text-xl lg:text-2xl dark:text-p1-cyan">
-              <div className="pt-2">Сервис</div>
-              <div className="pb-5">создания NFT наград на сайте</div>
+              <div className="pt-2">Service</div>
+              <div className="pb-5">for creating NFT rewards on the website</div>
               <Link
                 href="/applicationform"
                 className="inline-block place-content-center rounded-xl border-2 border-p1-green bg-p1-white px-10 py-8 text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:border-p1-darkgreen hover:bg-p1-darkgreen hover:text-p1-white dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan"
               >
-                Форма заявки
+               Application form
               </Link>
               <div className="place-items-centre mt-5 grid grid-cols-3 gap-2 p-4">
                 <Image width={1000} height={1200} src="/Licenses/Promoter.png" alt="Promoter" />
 
-                <Image width={1000} height={1200} src="/Licenses/National.png" alt="National" />
+                <Image width={1000} height={1200} src="/Licenses/Local.png" alt="Local" />
 
                 <Image width={1000} height={1200} src="/Licenses/Global.png" alt="Global" />
 
                 <div className="pt-2 text-center text-sm text-p1-darkgreen lg:text-xl dark:text-p1-cyan">
-                  Все награды в единой коллекции
+                All awards in one collection
                 </div>
                 <div className="pt-2 text-center text-sm text-p1-darkgreen lg:text-xl dark:text-p1-cyan">
-                  Безопасное хранение медиаконтента в IPFS сети
+                Secure storage of media content in IPFS network
                 </div>
                 <Image
                   width={1000}
