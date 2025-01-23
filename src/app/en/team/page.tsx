@@ -12,11 +12,10 @@ export default function Page() {
       <div className="text-lg">
         <div className="flex flex-row place-self-center">
           <div className="text-center text-xl font-bold text-p1-darkgreen md:pt-5 md:text-4xl dark:text-p1-green dark:hover:text-p1-cyan">
-            Our Team
-          </div>
+Our Team          </div>
         </div>
 
-        <div className="flex flex-row">
+        <div className="flex flex-row place-content-center">
           <div className="grid grid-cols-1 gap-4 text-center text-p1-darkgreen md:grid-cols-2 md:p-2 xl:grid-cols-3">
             <div id="1" className="place-items-center text-p1-darkgreen">
               <Image
@@ -30,19 +29,12 @@ export default function Page() {
               <div className="mx-auto flex max-w-full flex-row justify-center space-y-2 p-2">
                 <details className="rounded-3xl p-2 text-center open:ring-1 open:ring-black/5 dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:hover:border-p1-green dark:hover:text-p1-cyan">
                   <summary className="text-lm select-none space-y-4 font-semibold leading-6 text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
-                    Михаил Стародуб
+                  Mikhail Starodub
                     <p>Founder & President</p>
                   </summary>
                   <div className="mt-3 text-base leading-6 md:text-xl">
                     <div className="pb-5 text-justify">
-                      Михаил основал нашу компанию. Он отец наших главных целей и ценностей. Он
-                      нашел ключевых членов нашей команды и помог им проявить свои уникальные
-                      таланты в рабочем процессе. Он сделал первые шаги, которые были действительно
-                      важны. Орагнизовал старт Проекта, тактику и стратегию развития компании на
-                      ближайшие 5 лет. Имеет международный опыт организации и проведения официальных
-                      спортивных международных соревнований таких как Formula-1, WTCR, национальных
-                      RDS GP, РСКГ, REC, SDC, а также иных автоспортивных и автокультурных
-                      мероприятий на Sochi Autodrom и Igora Drive
+                    Mikhail is the founder of our company. He is the father of our main goals and values. He found the key members of our team and helped them show their unique talents in the work flow. He made the first key steps. He oragnized the start of the Project, tactics and strategy of the company's development for the next 5 years. He has international experience in organizing and conducting official international sports competitions such as Formula-1, WTCR, national RDS GP, RCRS, REC, SDC, as well as other motorsport and autocultural events at Sochi Autodrom and Igora Drive.
                     </div>
                   </div>
                 </details>
@@ -61,17 +53,12 @@ export default function Page() {
               <div className="mx-auto flex max-w-full flex-row justify-center space-y-2 p-2">
                 <details className="rounded-3xl p-2 text-center open:ring-1 open:ring-black/5 dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:hover:border-p1-green dark:hover:text-p1-cyan">
                   <summary className="text-lm select-none space-y-4 font-semibold leading-6 text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
-                    Андрей Лаус
-                    <p>Founder & Vice President</p>
+                  Andrew Laus
+                    <p>Co-Founder & Vice President</p>
                   </summary>
                   <div className="mt-3 text-base leading-6 md:text-xl">
                     <div className="text-justify">
-                      Стратегическое планирование и рост компании. Специализируется на анализе
-                      рынка, разработке бизнес-стратегий и привлечении партнеров. Имеет
-                      международный опыт организации и проведения официальных спортивных
-                      международных соревнований таких как Formula-1, WTCR, национальных RDS GP,
-                      РСКГ, REC, SDC, а также иных автоспортивных и автокультурных мероприятий на
-                      Sochi Autodrom и Igora Drive
+                    Strategic planning and company growth. Specializes in market analysis, business strategy development and partner engagement. Has international experience in organizing and conducting official international sports competitions such as Formula-1, WTCR, national RDS GP, RCRS, REC, SDC, as well as other motorsport and autocultural events at Sochi Autodrom and Igora Drive.
                     </div>
                   </div>
                 </details>
@@ -90,16 +77,12 @@ export default function Page() {
               <div className="mx-auto flex max-w-full flex-row justify-center space-y-2 p-2">
                 <details className="rounded-3xl p-2 text-center open:ring-1 open:ring-black/5 dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:hover:border-p1-green dark:hover:text-p1-cyan">
                   <summary className="text-lm select-none space-y-4 font-semibold leading-6 text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
-                    Давид Агаджанян
-                    <p>Founder & Director of public and international relations</p>
+                  David Aghajanyan
+                    <p>Co-Founder, CFO & IRO</p>
                   </summary>
                   <div className="mt-3 text-base leading-6 md:text-xl">
                     <div className="text-justify">
-                      Специализируется на установлении и поддержании международных деловых
-                      отношений, управлении корпоративной репутацией, разработке и реализации
-                      PR-стратегий на глобальном уровне. Обладает навыками кризисного менеджмента и
-                      организации международных мероприятий. Опыт работы включает успешные проекты
-                      по продвижению бренда и укреплению партнерских отношений.
+                    Specializes in establishing and maintaining international business relations, managing corporate reputation, developing and implementing PR strategies at the global level. Possesses skills in crisis management and organization of international events. Experience includes successful projects on brand promotion and strengthening partnerships.
                     </div>
                   </div>
                 </details>
@@ -120,15 +103,12 @@ export default function Page() {
               <div className="mx-auto flex max-w-full flex-row justify-center space-y-2 p-2">
                 <details className="rounded-3xl p-2 text-center open:ring-1 open:ring-black/5 dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:hover:border-p1-green dark:hover:text-p1-cyan">
                   <summary className="text-lm select-none space-y-4 font-semibold leading-6 text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
-                    Валерий Костиков
-                    <p>Founder & Software developer</p>
+                  Valery Kostikov
+                    <p>Co-Founder & Software developer</p>
                   </summary>
                   <div className="mt-3 text-base leading-6 md:text-xl">
                     <div className="text-justify">
-                      Разработчик программного обеспечения, специализирующийся на frontend (React,
-                      Vue.js), backend (Node.js, Django), Web3 и блокчейн (Solidity, Ethereum).
-                      Руководит разработкой и стратегией развития автоматизации сервисов. Имеет опыт
-                      создания и развертывания смарт-контрактов, а также интеграцией блокчейн-сетей.
+                    Software developer specializing in frontend (React, Vue.js), backend (Node.js, Django), Web3 and blockchain (Solidity, Ethereum). Leads service automation design and development strategy. Experienced in creating and deploying smart contracts and integrating blockchain networks.
                     </div>
                   </div>
                 </details>
@@ -147,18 +127,12 @@ export default function Page() {
               <div className="mx-auto flex max-w-full flex-row justify-center space-y-2 p-2">
                 <details className="rounded-3xl p-2 text-center open:ring-1 open:ring-black/5 dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:hover:border-p1-green dark:hover:text-p1-cyan">
                   <summary className="text-lm select-none space-y-4 font-semibold leading-6 text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
-                    Лада Леман
+                  Lada Lehman
                     <p>Artist</p>
                   </summary>
                   <div className="mt-3 text-base leading-6 md:text-xl">
                     <div className="text-justify">
-                      Лада обладает креативным подходом к выполнению задач и обширным опытом в
-                      создании и управлении визуальными концепциями. Специализируется на разработке
-                      бренд-стратегий, внедрении инновационных решений в проекты. Успешно
-                      реализовала множество проектов в области графического дизайна, анимации.
-                      Обеспечивает высокие стандарты креативности и функциональности. Обладает
-                      глубокими знаниями в области пользовательского опыта и современного
-                      графического дизайна и анимации.
+                    Lada has a creative approach to getting things done and extensive experience in creating and managing visual concepts. She specializes in developing brand strategies and implementing innovative solutions in projects. Successfully realized many projects in the field of graphic design, animation. Ensures high standards of creativity and functionality. Possesses in-depth knowledge of user experience and modern graphic design and animation.
                     </div>
                   </div>
                 </details>
@@ -177,21 +151,20 @@ export default function Page() {
               <div className="mx-auto flex max-w-full flex-row justify-center space-y-2 p-2">
                 <details className="rounded-3xl p-2 text-center open:ring-1 open:ring-black/5 dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:hover:border-p1-green dark:hover:text-p1-cyan">
                   <summary className="text-lm select-none space-y-4 font-semibold leading-6 text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
-                    Герман Беньковский
-                    <p>Founder & Marketing Director</p>
+                  Herman Benkovsky
+                                      <p>Co-Founder & CMO</p>
                   </summary>
                   <div className="mt-3 text-base leading-6 md:text-xl">
                     <div className="text-justify">
-                      Герман - на сегодняшний день самый молодой участник нашей команды. Он студент
-                      МГИМО. За плечами Германа опыт по созданию успешных социальнозначимых медиа
-                      продуктов в сферах Web2 и Web3. В команде Global Automotive Association Герман
-                      ответственен стратегию продвижения продукта и сотрудничество с отечественными
-                      и зарубежными партнерами.
+                    Herman is by far the youngest member of our team. He is a student at MGIMO. Herman has experience in creating successful socially significant media products in the Web2 and Web3 spheres. In the Global Automotive Association team German is responsible for the product promotion strategy and cooperation with domestic and foreign partners.
                     </div>
                   </div>
                 </details>
               </div>
             </div>
+
+
+
           </div>
         </div>
       </div>
