@@ -33,7 +33,7 @@ export default function Page() {
   ];
 
   return (
-    <div className="mx-auto max-w-7xl font-serif dark:bg-p1-deepdarkgreen">
+    <div className="dark:bg-p1-deepdarkgreen mx-auto max-w-7xl font-serif">
       <JumpButton points={jumpPoints} />
 
       <div className="flex flex-row">
@@ -123,7 +123,7 @@ export default function Page() {
       <div className="flex flex-row justify-center p-2">
         <div className="text-p1-darkgreen md:basis-4/6">
           <div className="rounded-3xl">
-            <div className="px-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
+            <div className="text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan px-2 text-base md:text-xl">
               Global Automotive Association (GAA) is a revolutionary blockchain project that unites
               all motorsport and car enthusiasts into a strong and active community aimed at
               promoting automotive culture.
@@ -136,21 +136,21 @@ export default function Page() {
         <div className="md:basis-5/5">
           <div
             id="1"
-            className="p-2 text-center text-xl font-bold text-p1-darkgreen drop-shadow-2xl md:text-3xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan"
+            className="text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan p-2 text-center text-xl font-bold drop-shadow-2xl md:text-3xl"
           >
-            Our ambitious goals:{' '}
+            Our ambitious goals:
           </div>
         </div>
       </div>
 
       <div className="flex flex-row justify-center">
-        <div className="mb-5 mt-5 text-p1-darkgreen md:basis-4/6">
+        <div className="text-p1-darkgreen mt-5 mb-5 md:basis-4/6">
           <div
             id="2"
-            className="space-y-4 rounded-3xl border-p1-darkgreen p-6 text-left text-base text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:border-4 md:text-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan"
+            className="border-p1-darkgreen text-p1-darkgreen hover:border-p2-orange dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan space-y-4 rounded-3xl p-6 text-left text-base hover:shadow-xl md:border-4 md:text-xl"
           >
             <p className="pt-2 text-center text-xl font-bold md:text-2xl">
-              Creating an active community:{' '}
+              Creating an active community:
             </p>
             <p>
               We unite fans of motorsport and automotive culture in social networks and messengers
@@ -173,7 +173,7 @@ export default function Page() {
           <div>
             <div
               id="3"
-              className="rounded-3xl border-p1-darkgreen p-6 text-center text-base text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:border-4 md:text-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan"
+              className="border-p1-darkgreen text-p1-darkgreen hover:border-p2-orange dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan rounded-3xl p-6 text-center text-base hover:shadow-xl md:border-4 md:text-xl"
             >
               <p className="text-2xl font-bold">10,000</p>
               <p>unique NFTs </p>
@@ -188,9 +188,9 @@ export default function Page() {
       <div className="flex flex-row justify-center p-2 md:justify-end">
         <div className="md:basis-1/6"></div>
         <div className="md:basis-2/6"></div>
-        <div className="basis-2/6 text-p1-darkgreen">
+        <div className="text-p1-darkgreen basis-2/6">
           <div>
-            <div className="rounded-3xl border-p1-darkgreen p-6 text-center text-base text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:border-4 md:text-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
+            <div className="border-p1-darkgreen text-p1-darkgreen hover:border-p2-orange dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan rounded-3xl p-6 text-center text-base hover:shadow-xl md:border-4 md:text-xl">
               <p>first collection</p>
               <p className="text-2xl font-bold">of the Global Automobile Association</p>
             </div>
@@ -204,7 +204,7 @@ export default function Page() {
         <div className="md:basis-3/5">
           <div
             id="4"
-            className="pt-5 text-center text-4xl font-bold text-p1-darkgreen drop-shadow-2xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan"
+            className="text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan pt-5 text-center text-4xl font-bold drop-shadow-2xl"
           >
             RaceLads NFT
           </div>
@@ -216,7 +216,7 @@ export default function Page() {
         <div className="md:basis-1/6"></div>
         <div className="text-p1-darkgreen md:basis-4/6">
           <div>
-            <div className="my-5 space-y-4 rounded-3xl border-p1-darkgreen p-6 text-left text-base text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:border-4 md:text-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
+            <div className="border-p1-darkgreen text-p1-darkgreen hover:border-p2-orange dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan my-5 space-y-4 rounded-3xl p-6 text-left text-base hover:shadow-xl md:border-4 md:text-xl">
               <p className="text-left text-base md:text-xl">
                 Launching the first NFT collection of 10,000 exclusive and unique digital artworks
                 inspired by the most exciting disciplines of auto racing.
@@ -231,7 +231,7 @@ export default function Page() {
               </p>
               <ul className="list-disc space-y-3 px-5">
                 <li className="text-left text-base md:text-xl">
-                  participate in virtual races and other exciting online events.{' '}
+                  participate in virtual races and other exciting online events.
                 </li>
                 <li className="text-left text-base md:text-xl">
                   participate in key votes that influence the development of our community.
@@ -245,7 +245,7 @@ export default function Page() {
       </div>
 
       <div className="md:pt-2" id="5"></div>
-      <div className="w-full snap-x overflow-x-auto rounded-3xl border-p2-orange hover:border-p2-orange md:w-4/5 md:place-self-center dark:border-p1-darkgreen dark:hover:border-p1-green">
+      <div className="border-p2-orange hover:border-p2-orange dark:border-p1-darkgreen dark:hover:border-p1-green w-full snap-x overflow-x-auto rounded-3xl md:w-4/5 md:place-self-center">
         <Swiper
           autoplay={{
             delay: 5500,
@@ -405,7 +405,7 @@ export default function Page() {
         <div className="md:basis-3/5">
           <div
             id="6"
-            className="text-center text-2xl font-bold text-p1-darkgreen drop-shadow-2xl md:pt-8 md:text-3xl dark:text-p1-green dark:hover:text-p1-cyan"
+            className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan text-center text-2xl font-bold drop-shadow-2xl md:pt-8 md:text-3xl"
           >
             <p>We are planning</p>
             <p>our future</p>
@@ -418,9 +418,9 @@ export default function Page() {
         <div className="md:basis-1/6"></div>
         <div className="text-p1-darkgreen md:basis-4/6">
           <div>
-            <div className="my-5 space-y-2 rounded-3xl border-p1-darkgreen p-6 text-left text-base text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:border-4 md:text-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
+            <div className="border-p1-darkgreen text-p1-darkgreen hover:border-p2-orange dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan my-5 space-y-2 rounded-3xl p-6 text-left text-base hover:shadow-xl md:border-4 md:text-xl">
               <p className="text-center text-xl font-bold md:text-2xl">
-                We also plan to release other unique collections for:{' '}
+                We also plan to release other unique collections for:
               </p>
               <ul className="list-disc space-y-3 px-5">
                 <li className="text-left text-base md:text-xl">pilots</li>
@@ -432,23 +432,23 @@ export default function Page() {
                   fleet and creation of NFTs in a single global collection
                 </li>
                 <li className="text-left text-base md:text-xl">
-                  awarding winners and runner-ups (cups, medals){' '}
+                  awarding winners and runner-ups (cups, medals)
                 </li>
                 <li className="text-left text-base md:text-xl">issuing digital licenses</li>
               </ul>
               <p className="text-center text-2xl font-bold">
-                The uniqueness of the collections lies in{' '}
+                The uniqueness of the collections lies in
               </p>
               <ul className="list-disc space-y-3 px-5">
                 <li className="text-left text-base md:text-xl">
-                  limited issue of unique objects of digital art{' '}
+                  limited issue of unique objects of digital art
                 </li>
                 <li className="text-left text-base md:text-xl">
                   belonging of the collection to the Motorsport and Automotive Culture Community
-                  Project{' '}
+                  Project
                 </li>
                 <li className="text-left text-base md:text-xl">
-                  a limited list of digital art collections.{' '}
+                  a limited list of digital art collections.
                 </li>
               </ul>
             </div>
@@ -462,7 +462,7 @@ export default function Page() {
         <div className="md:basis-3/5">
           <div
             id="7"
-            className="pt-5 text-center text-3xl font-bold text-p1-darkgreen drop-shadow-2xl md:text-3xl dark:text-p1-green dark:hover:text-p1-cyan"
+            className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan pt-5 text-center text-3xl font-bold drop-shadow-2xl md:text-3xl"
           >
             <p>Services and Awards</p>
           </div>
@@ -474,14 +474,14 @@ export default function Page() {
         <div className="md:basis-1/6"></div>
         <div className="text-p1-darkgreen md:basis-4/6">
           <div>
-            <div className="space-y-4 rounded-3xl border-p1-darkgreen p-6 text-left text-base text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:border-4 md:text-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
+            <div className="border-p1-darkgreen text-p1-darkgreen hover:border-p2-orange dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan space-y-4 rounded-3xl p-6 text-left text-base hover:shadow-xl md:border-4 md:text-xl">
               <p className="text-center text-xl font-bold md:text-2xl">NFT Services</p>
               <p className="text-left text-base md:text-xl">
                 Create a service to digitize physical objects into NFTs and compile NFTs into
                 unified digital art collections
               </p>
               <p className="text-left text-base md:text-xl">
-                Create, donate, sell NFTs by designation:{' '}
+                Create, donate, sell NFTs by designation:
               </p>
               <ul className="list-disc space-y-3 px-5">
                 <li className="text-left text-base md:text-xl">Pilots</li>
@@ -503,7 +503,7 @@ export default function Page() {
 
             <div
               id="8"
-              className="my-5 space-y-4 rounded-3xl border-p1-darkgreen p-6 text-left text-base text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:border-4 md:text-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan"
+              className="border-p1-darkgreen text-p1-darkgreen hover:border-p2-orange dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan my-5 space-y-4 rounded-3xl p-6 text-left text-base hover:shadow-xl md:border-4 md:text-xl"
             >
               <p className="text-center text-xl font-bold drop-shadow-2xl md:text-2xl">
                 NFT Awards
@@ -527,7 +527,7 @@ export default function Page() {
         <div className="md:basis-1/6"></div>
       </div>
       <div id="9" className="md:pt-2"></div>
-      <div className="md:place-self-senter rounden-3xl w-fulloverflow-x-auto snap-x pb-5 pt-5 md:h-full">
+      <div className="md:place-self-senter rounden-3xl w-fulloverflow-x-auto snap-x pt-5 pb-5 md:h-full">
         <Swiper
           autoplay={{
             delay: 5500,
@@ -652,7 +652,7 @@ export default function Page() {
         <div className="md:basis-3/5">
           <div
             id="10"
-            className="text-center text-xl font-bold text-p1-darkgreen drop-shadow-2xl md:text-3xl dark:text-p1-green dark:hover:text-p1-cyan"
+            className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan text-center text-xl font-bold drop-shadow-2xl md:text-3xl"
           >
             <p>Benefit to the owner</p>
             <p>NFT RaceLad</p>
@@ -663,17 +663,17 @@ export default function Page() {
       <div className="flex flex-row justify-center p-2">
         <div className="text-p1-darkgreen md:basis-4/6">
           <div>
-            <div className="my-5 space-y-4 rounded-3xl border-p1-darkgreen p-6 text-left text-base text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:border-4 md:text-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
+            <div className="border-p1-darkgreen text-p1-darkgreen hover:border-p2-orange dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan my-5 space-y-4 rounded-3xl p-6 text-left text-base hover:shadow-xl md:border-4 md:text-xl">
               <p className="text-center text-xl font-bold drop-shadow-2xl md:text-2xl">
                 Unique privileges
               </p>
               <p className="text-left text-base md:text-xl">
-                Provide our members with exclusive perks:{' '}
+                Provide our members with exclusive perks:
               </p>
               <ul className="list-disc space-y-3 px-5">
                 <li className="text-left text-base md:text-xl">event tickets</li>
                 <li className="text-left text-base md:text-xl">
-                  participation in autograph and photo sessions{' '}
+                  participation in autograph and photo sessions
                 </li>
                 <li className="text-left text-base md:text-xl">
                   participation in lectures and excursions
@@ -685,7 +685,7 @@ export default function Page() {
 
             <div
               id="11"
-              className="my-5 space-y-4 rounded-3xl border-p1-darkgreen p-6 text-left text-base text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:border-4 md:text-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan"
+              className="border-p1-darkgreen text-p1-darkgreen hover:border-p2-orange dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan my-5 space-y-4 rounded-3xl p-6 text-left text-base hover:shadow-xl md:border-4 md:text-xl"
             >
               <p className="text-center text-xl font-bold drop-shadow-2xl md:text-2xl">
                 Own events
@@ -693,7 +693,7 @@ export default function Page() {
               <p className="text-left text-base md:text-xl">
                 We organize events such as drifting, races, car shows and parties under the GAA
                 brand with the participation of athletes and influencers (bloggers) with various
-                awards (including digital).{' '}
+                awards (including digital).
               </p>
               <p className="text-left text-base md:text-xl">
                 Our community members will be able to apply and vote on event format, judges,
@@ -703,7 +703,7 @@ export default function Page() {
 
             <div
               id="12"
-              className="my-5 space-y-4 rounded-3xl border-p1-darkgreen p-6 text-left text-base text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:border-4 md:text-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan"
+              className="border-p1-darkgreen text-p1-darkgreen hover:border-p2-orange dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan my-5 space-y-4 rounded-3xl p-6 text-left text-base hover:shadow-xl md:border-4 md:text-xl"
             >
               <p className="text-center text-2xl font-bold">Decentralized portal</p>
               <p className="text-left text-base md:text-xl">
@@ -714,11 +714,11 @@ export default function Page() {
                   keep up to date with the latest news
                 </li>
                 <li className="text-left text-base md:text-xl">
-                  familiarize themselves with the results of events{' '}
+                  familiarize themselves with the results of events
                 </li>
                 <li className="text-left text-base md:text-xl">take part in voting</li>
                 <li className="text-left text-base md:text-xl">
-                  purchase NFTs from our collections{' '}
+                  purchase NFTs from our collections
                 </li>
                 <li className="text-left text-base md:text-xl">enjoy photos and videos </li>
                 <li className="text-left text-base md:text-xl">upload your content</li>
@@ -729,7 +729,7 @@ export default function Page() {
 
             <div
               id="13"
-              className="space-y-4 rounded-3xl border-p1-darkgreen p-6 text-left text-base text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:my-5 md:border-4 md:text-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan"
+              className="border-p1-darkgreen text-p1-darkgreen hover:border-p2-orange dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan space-y-4 rounded-3xl p-6 text-left text-base hover:shadow-xl md:my-5 md:border-4 md:text-xl"
             >
               <p className="text-center text-2xl font-bold">Going International</p>
               <p className="text-left text-base md:text-xl">
@@ -750,7 +750,7 @@ export default function Page() {
           <div className="md:basis-3/5">
             <div
               id="14"
-              className="p-2 text-center text-3xl font-bold text-p1-darkgreen drop-shadow-2xl dark:text-p1-green dark:hover:text-p1-cyan"
+              className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan p-2 text-center text-3xl font-bold drop-shadow-2xl"
             >
               Why Web 3?
             </div>
@@ -759,7 +759,7 @@ export default function Page() {
         <div className="flex flex-row justify-center px-2">
           <div className="text-p1-darkgreen md:basis-4/6">
             <div>
-              <div className="space-y-4 rounded-3xl border-p1-darkgreen p-6 text-left text-base text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:my-5 md:border-4 md:p-6 md:text-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
+              <div className="border-p1-darkgreen text-p1-darkgreen hover:border-p2-orange dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan space-y-4 rounded-3xl p-6 text-left text-base hover:shadow-xl md:my-5 md:border-4 md:p-6 md:text-xl">
                 <p className="text-left text-base md:text-xl">
                   The realization of the global idea of Web3 is still at an early stage and has not
                   yet received the attention it deserves in society.
@@ -781,7 +781,7 @@ export default function Page() {
 
               <div
                 id="15"
-                className="space-y-4 rounded-3xl border-p1-darkgreen p-6 text-left text-base text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:border-4 md:text-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan"
+                className="border-p1-darkgreen text-p1-darkgreen hover:border-p2-orange dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan space-y-4 rounded-3xl p-6 text-left text-base hover:shadow-xl md:border-4 md:text-xl"
               >
                 <p className="text-center">
                   Join GAA and be part of a global movement that creates new rules of fair play in

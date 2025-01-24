@@ -42,7 +42,7 @@ export default async function LocaleLayout({
               <Header />
               <Nav />
               {/* <Sidebar /> */}
-              <main className="mx-auto min-h-screen bg-p1-white dark:bg-p1-deepdarkgreen">
+              <main className="bg-p1-white dark:bg-p1-deepdarkgreen mx-auto min-h-screen">
                 {children}
               </main>
               {/* <TopButton /> */}

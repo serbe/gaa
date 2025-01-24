@@ -28,30 +28,30 @@ const Header = () => {
   const pathname = usePathname();
 
   return (
-    <header className="bg-sky-50 dark:bg-p1-deepdarkgreen">
+    <header className="dark:bg-p1-deepdarkgreen bg-sky-50">
       <div className="flex">
         <Link className="w-1/2 px-8 pt-2" href="/">
           <Image src={logoCr} alt="GAA" width="200" height="90" />
         </Link>
         <div className="w-1/2">
-          <div className="flex justify-end p-8 dark:text-p1-gray">
-            <div className="mx-2 dark:hover:text-p1-cyan">
+          <div className="dark:text-p1-gray flex justify-end p-8">
+            <div className="dark:hover:text-p1-cyan mx-2">
               <Link href="/autorization">{t('autorization')}</Link>
             </div>
-            <div className="mx-2 dark:hover:text-p1-cyan">
+            <div className="dark:hover:text-p1-cyan mx-2">
               <Link href="/connectwallet">{t('connectwallet')}</Link>
             </div>
-            <div className="mx-2 dark:hover:text-p1-cyan">
+            <div className="dark:hover:text-p1-cyan mx-2">
               <Link href={pathname} locale="en">
                 En
               </Link>
             </div>
-            <div className="mx-2 dark:hover:text-p1-cyan">
+            <div className="dark:hover:text-p1-cyan mx-2">
               <Link href={pathname} locale="ru">
                 Ru
               </Link>
             </div>
-            <div className="mx-2 dark:hover:text-p1-cyan">
+            <div className="dark:hover:text-p1-cyan mx-2">
               <button
                 onClick={() => {
                   switchTheme();

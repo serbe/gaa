@@ -11,29 +11,29 @@ export default function Page() {
 
       {/* //RaceLads discovery*/}
       <div className="flex flex-wrap justify-center self-center md:flex-nowrap md:justify-between">
-        <div className="px-2 text-xl font-semibold text-p1-darkgreen md:pt-2 md:text-3xl dark:text-p1-green dark:hover:text-p1-cyan">
+        <div className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan px-2 text-xl font-semibold md:pt-2 md:text-3xl">
           RaceLads NFT
         </div>
-        <div className="px-2 text-xl font-semibold text-p1-darkgreen md:pt-2 md:text-3xl dark:text-p1-green dark:hover:text-p1-cyan">
+        <div className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan px-2 text-xl font-semibold md:pt-2 md:text-3xl">
           Страница исследователя
         </div>
       </div>
       <div id="1"></div>
 
-      <div className="rounded-3xl border-p1-darkgreen md:border-4 md:shadow-lg md:hover:border-p1-green dark:border-p1-green dark:text-p1-green dark:hover:border-p1-darkgreen dark:hover:text-p1-cyan">
+      <div className="border-p1-darkgreen md:hover:border-p1-green dark:border-p1-green dark:text-p1-green dark:hover:border-p1-darkgreen dark:hover:text-p1-cyan rounded-3xl md:border-4 md:shadow-lg">
         <div className="flex flex-wrap justify-center space-x-2 px-2 md:flex-nowrap">
           <div>
-            <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
+            <p className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan p-2 text-base md:text-xl">
               Невзаимозаменяемый токен, представляющий коллекцию из 10.000 уникальных цифровых
               героев, вдохновленных любовью к автомобилям и запечатленных в Blockchain.
             </p>
-            <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
+            <p className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan p-2 text-base md:text-xl">
               Коллекция, призванная внести свой вклад в развитие и популяризацию автокультуры и
               автоспорта.
             </p>
-            <div className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
+            <div className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan p-2 text-base md:text-xl">
               Приобретая героя из коллекции ты становишься членом большого дружного сообщества!
-              <ul className="list-disc p-5 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
+              <ul className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan list-disc p-5 text-base md:text-xl">
                 <li className="pb-2">
                   посещай автоспортивные мероприятия, выставки, лекции, вечеринки
                 </li>
@@ -45,7 +45,7 @@ export default function Page() {
                 </li>
               </ul>
             </div>
-            <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
+            <p className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan p-2 text-base md:text-xl">
               Любой RaceLad по желанию держателя может быть передан/продан любому участнику
               сообщества.
             </p>
@@ -56,7 +56,7 @@ export default function Page() {
             <div className="grid grid-cols-2 gap-2">
               <div>
                 <Image
-                  className="relative inline-block w-max rounded-3xl border-2 border-p2-orange shadow-lg dark:border-p1-green"
+                  className="border-p2-orange dark:border-p1-green relative inline-block w-max rounded-3xl border-2 shadow-lg"
                   width={4000}
                   height={4000}
                   src="/HeroNFT/RaceLads/RaceLads1.png"
@@ -65,7 +65,7 @@ export default function Page() {
               </div>
               <div className="justify-self-end">
                 <Image
-                  className="relative inline-block w-max rounded-3xl border-2 border-p2-orange shadow-lg dark:border-p1-green"
+                  className="border-p2-orange dark:border-p1-green relative inline-block w-max rounded-3xl border-2 shadow-lg"
                   width={4000}
                   height={4000}
                   src="/HeroNFT/RaceLads/RaceLads2.png"
@@ -74,7 +74,7 @@ export default function Page() {
               </div>
               <div className="justify-self-end">
                 <Image
-                  className="relative inline-block w-max rounded-3xl border-2 border-p2-orange shadow-lg dark:border-p1-green"
+                  className="border-p2-orange dark:border-p1-green relative inline-block w-max rounded-3xl border-2 shadow-lg"
                   width={4000}
                   height={4000}
                   src="/HeroNFT/RaceLads/RaceLads3.png"
@@ -83,7 +83,7 @@ export default function Page() {
               </div>
               <div className="justify-self-end">
                 <Image
-                  className="relative inline-block w-max rounded-3xl border-2 border-p2-orange shadow-lg dark:border-p1-green"
+                  className="border-p2-orange dark:border-p1-green relative inline-block w-max rounded-3xl border-2 shadow-lg"
                   width={4000}
                   height={4000}
                   src="/HeroNFT/RaceLads/RaceLads4.png"
@@ -95,7 +95,7 @@ export default function Page() {
               <div className="">
                 <Link
                   href="/mintracelads"
-                  className="inline-block w-full rounded-3xl border-2 border-p2-orange bg-p2-white2 px-10 py-8 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p2-orange hover:text-p1-white dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:border-p2-orange dark:hover:bg-amber-600 dark:hover:text-amber-100"
+                  className="border-p2-orange bg-p2-white2 text-p1-darkgreen hover:bg-p2-orange hover:text-p1-white dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:border-p2-orange inline-block w-full rounded-3xl border-2 px-10 py-8 text-center shadow-lg transition-all delay-75 duration-300 ease-in-out dark:hover:bg-amber-600 dark:hover:text-amber-100"
                 >
                   Создай своего RaceLad!
                 </Link>
@@ -108,12 +108,12 @@ export default function Page() {
       <div className="pb-8"></div>
       <div id="3"></div>
 
-      <div className="place-self-center pt-2 text-center text-2xl font-bold text-p1-darkgreen md:pt-2 md:text-3xl dark:text-p1-green dark:hover:text-p1-cyan">
+      <div className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan place-self-center pt-2 text-center text-2xl font-bold md:pt-2 md:text-3xl">
         Способы получения RaceLads NFT
       </div>
 
-      <div className="rounded-3xl border-p1-darkgreen p-2 md:border-4 md:shadow-lg dark:border-p1-green dark:text-p1-green dark:hover:border-p1-darkgreen dark:hover:text-p1-cyan">
-        <div className="pb-5 text-center text-base text-p1-darkgreen md:text-2xl dark:text-p1-green dark:hover:text-p1-cyan">
+      <div className="border-p1-darkgreen dark:border-p1-green dark:text-p1-green dark:hover:border-p1-darkgreen dark:hover:text-p1-cyan rounded-3xl p-2 md:border-4 md:shadow-lg">
+        <div className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan pb-5 text-center text-base md:text-2xl">
           Любой желающий может получить своего персонажа (RaceLad) в период публичного минта или
           приобрести на вторичном рынке позднее
         </div>
@@ -159,7 +159,7 @@ export default function Page() {
           </div>
           <div className="place-self-end">
             <Image
-              className="relative inline-block w-max rounded-3xl border-2 border-p2-orange shadow-lg dark:border-p1-green"
+              className="border-p2-orange dark:border-p1-green relative inline-block w-max rounded-3xl border-2 shadow-lg"
               width={1000}
               height={1000}
               src="/HeroNFT/RaceLads/RaceLads1.png"
@@ -178,7 +178,7 @@ export default function Page() {
           <div></div>
           <div>
             <Image
-              className="relative -mt-40 inline-block w-max rounded-3xl border-2 border-p2-orange shadow-lg dark:border-p1-green"
+              className="border-p2-orange dark:border-p1-green relative -mt-40 inline-block w-max rounded-3xl border-2 shadow-lg"
               width={1000}
               height={1000}
               src="/HeroNFT/RaceLads/RaceLads3.png"

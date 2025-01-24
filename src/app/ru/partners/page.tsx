@@ -11,15 +11,15 @@ export default function Page() {
       <JumpButton points={jumpPoints} />
       <div id="1"></div>
       <section className="flex flex-wrap object-center px-2 md:flex-nowrap md:space-x-2 md:pt-4">
-        <div className="mb-4 w-full rounded-3xl border-p1-darkgreen bg-p1-white shadow-lg md:border-4 dark:border-p1-green dark:bg-p1-deepdarkgreen">
+        <div className="border-p1-darkgreen bg-p1-white dark:border-p1-green dark:bg-p1-deepdarkgreen mb-4 w-full rounded-3xl shadow-lg md:border-4">
           <div className="flex flex-row">
             <div className="mx-auto text-center md:p-2 md:text-xl lg:text-2xl">
               <div className="flex flex-row justify-center md:pb-2">
                 <div className="md:basis-3/5">
-                  <div className="text-center text-2xl font-bold text-p1-darkgreen md:pt-2 md:text-4xl dark:text-p1-cyan">
+                  <div className="text-p1-darkgreen dark:text-p1-cyan text-center text-2xl font-bold md:pt-2 md:text-4xl">
                     Партнеры
                   </div>
-                  <div className="px-2 pt-2 text-center text-base text-p1-darkgreen drop-shadow-2xl md:text-2xl dark:text-p1-green">
+                  <div className="text-p1-darkgreen dark:text-p1-green px-2 pt-2 text-center text-base drop-shadow-2xl md:text-2xl">
                     Если Вы заинтересованы в том, чтобы стать нашим партнером или спонсором -
                     свяжитесь с нами.
                   </div>
@@ -32,13 +32,13 @@ export default function Page() {
                 </div>
                 <div className="basis-3/5">
                   <div className="rounded-3xl p-2 md:my-5">
-                    <div className="text-center text-2xl text-p1-darkgreen md:pb-5">
+                    <div className="text-p1-darkgreen text-center text-2xl md:pb-5">
                       <div className="place-content-center">
                         <div className="grid">
                           <div>
                             <Link
                               href="/contacts"
-                              className="inline-block rounded-xl border-2 border-p2-orange bg-p1-white px-10 py-8 text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p2-orange hover:text-p1-white dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:border-p1-cyan dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan"
+                              className="border-p2-orange bg-p1-white text-p1-darkgreen hover:bg-p2-orange hover:text-p1-white dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:border-p1-cyan dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan inline-block rounded-xl border-2 px-10 py-8 shadow-lg transition-all delay-75 duration-300 ease-in-out"
                             >
                               Обратная связь
                             </Link>
@@ -55,7 +55,7 @@ export default function Page() {
               <div className="my-5">
                 <Link
                   href="#3"
-                  className="inline-block w-11/12 rounded-xl border-2 border-p2-orange bg-p1-white px-10 py-8 text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p2-orange hover:text-p1-white dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:border-p1-cyan dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan"
+                  className="border-p2-orange bg-p1-white text-p1-darkgreen hover:bg-p2-orange hover:text-p1-white dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:border-p1-cyan dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan inline-block w-11/12 rounded-xl border-2 px-10 py-8 shadow-lg transition-all delay-75 duration-300 ease-in-out"
                 >
                   Наши партнеры
                 </Link>
@@ -63,7 +63,7 @@ export default function Page() {
               <div className="my-5">
                 <Link
                   href="#4"
-                  className="inline-block w-11/12 rounded-xl border-2 border-p2-orange bg-p1-white px-10 py-8 text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p2-orange hover:text-p1-white dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:border-p1-cyan dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan"
+                  className="border-p2-orange bg-p1-white text-p1-darkgreen hover:bg-p2-orange hover:text-p1-white dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:border-p1-cyan dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan inline-block w-11/12 rounded-xl border-2 px-10 py-8 shadow-lg transition-all delay-75 duration-300 ease-in-out"
                 >
                   Наши спонсоры
                 </Link>
@@ -74,13 +74,13 @@ export default function Page() {
           </div>
         </div>
         <div id="2"></div>
-        <div className="w-full rounded-3xl border-p2-orange bg-p1-white shadow-lg md:mb-4 md:min-w-96 md:border-4 dark:border-amber-600 dark:bg-p1-deepdarkgreen">
+        <div className="border-p2-orange bg-p1-white dark:bg-p1-deepdarkgreen w-full rounded-3xl shadow-lg md:mb-4 md:min-w-96 md:border-4 dark:border-amber-600">
           <div className="flex flex-row">
             <div className="mx-auto text-center md:p-2 md:text-xl lg:text-2xl">
-              <div className="text-center text-2xl font-bold text-p1-darkgreen md:pt-4 md:text-4xl dark:text-amber-600">
+              <div className="text-p1-darkgreen text-center text-2xl font-bold md:pt-4 md:text-4xl dark:text-amber-600">
                 Если Вы хотите поддержать нас,
               </div>
-              <div className="px-2 pt-4 text-left text-base text-p1-darkgreen drop-shadow-2xl md:text-xl dark:text-p1-green">
+              <div className="text-p1-darkgreen dark:text-p1-green px-2 pt-4 text-left text-base drop-shadow-2xl md:text-xl">
                 <p>
                   предлагаем принять участие в сборе средств, которые будут направлены на развитие
                   проекта:
@@ -89,7 +89,7 @@ export default function Page() {
                 <p className="p-2"> - распоространение лицензий;</p>
                 <p className="p-2"> - создание новых коллекций NFT;</p>
                 <p className="p-2"> - аренда хостинга и серверов</p>
-                <div className="text-center text-2xl font-bold text-p1-darkgreen md:pt-4 md:text-2xl dark:text-amber-600">
+                <div className="text-p1-darkgreen text-center text-2xl font-bold md:pt-4 md:text-2xl dark:text-amber-600">
                   Первые 100 участников сбора получат NFT награды в количестве, зависящем от размера
                   пожертвования
                 </div>
@@ -102,7 +102,7 @@ export default function Page() {
               <div className="my-5">
                 <Link
                   href="#11"
-                  className="inline-block w-11/12 rounded-xl border-2 border-p2-orange bg-p1-white px-10 py-8 text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p2-orange hover:text-p1-white dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:border-amber-400 dark:hover:bg-amber-800 dark:hover:text-amber-200"
+                  className="border-p2-orange bg-p1-white text-p1-darkgreen hover:bg-p2-orange hover:text-p1-white dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan inline-block w-11/12 rounded-xl border-2 px-10 py-8 shadow-lg transition-all delay-75 duration-300 ease-in-out dark:hover:border-amber-400 dark:hover:bg-amber-800 dark:hover:text-amber-200"
                 >
                   Пожертвовать
                 </Link>
@@ -110,7 +110,7 @@ export default function Page() {
               <div className="my-5">
                 <Link
                   href="#12"
-                  className="inline-block w-11/12 rounded-xl border-2 border-p2-orange bg-p1-white px-10 py-8 text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p2-orange hover:text-p1-white dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:border-amber-400 dark:hover:bg-amber-800 dark:hover:text-amber-200"
+                  className="border-p2-orange bg-p1-white text-p1-darkgreen hover:bg-p2-orange hover:text-p1-white dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan inline-block w-11/12 rounded-xl border-2 px-10 py-8 shadow-lg transition-all delay-75 duration-300 ease-in-out dark:hover:border-amber-400 dark:hover:bg-amber-800 dark:hover:text-amber-200"
                 >
                   Таблица участников
                 </Link>
@@ -123,11 +123,11 @@ export default function Page() {
       <div id="3" className="pt-10"></div>
       <div className="flex flex-row justify-center md:pb-5">
         <div className="md:basis-5/5">
-          <div className="text-center text-2xl font-bold text-p1-darkgreen md:pt-4 md:text-4xl dark:text-p1-cyan">
+          <div className="text-p1-darkgreen dark:text-p1-cyan text-center text-2xl font-bold md:pt-4 md:text-4xl">
             Партнеры
           </div>
 
-          <div className="text-center text-xl text-p1-darkgreen md:pt-4 md:text-2xl dark:text-p1-green">
+          <div className="text-p1-darkgreen dark:text-p1-green text-center text-xl md:pt-4 md:text-2xl">
             <p>Партнерами являются обладатели лицензий NFT Promoter, National, Global</p>
           </div>
         </div>
@@ -145,7 +145,7 @@ export default function Page() {
 
       <div className="flex flex-row justify-center md:pb-5">
         <div className="md:basis-3/5">
-          <div className="text-center text-2xl font-bold text-p1-darkgreen md:pt-4 md:text-4xl dark:text-p1-cyan">
+          <div className="text-p1-darkgreen dark:text-p1-cyan text-center text-2xl font-bold md:pt-4 md:text-4xl">
             Спонсоры
           </div>
         </div>
@@ -153,10 +153,10 @@ export default function Page() {
       <div id="5"></div>
       <div className="flex flex-row justify-center md:pb-5">
         <div className="md:basis-3/5">
-          <div className="text-center text-2xl font-bold text-p1-darkgreen md:pt-4 md:text-4xl dark:text-p1-green">
+          <div className="text-p1-darkgreen dark:text-p1-green text-center text-2xl font-bold md:pt-4 md:text-4xl">
             Титульный спонсор:
           </div>
-          <div className="text-center text-xl text-p1-darkgreen md:pt-4 md:text-2xl dark:text-p1-green">
+          <div className="text-p1-darkgreen dark:text-p1-green text-center text-xl md:pt-4 md:text-2xl">
             <p>
               Так как наша организация децентрализованная, данный статус определяется держателями
               NFT Promoter, National, Global и ограничен временным периодом на покрытие всех
@@ -174,10 +174,10 @@ export default function Page() {
             </p>
           </div>
           <div id="6"></div>
-          <div className="text-center text-2xl font-bold text-p1-darkgreen md:pt-8 md:text-4xl dark:text-p1-green">
+          <div className="text-p1-darkgreen dark:text-p1-green text-center text-2xl font-bold md:pt-8 md:text-4xl">
             Генеральный спонсор:
           </div>
-          <div className="text-center text-xl text-p1-darkgreen md:pt-4 md:text-2xl dark:text-p1-green">
+          <div className="text-p1-darkgreen dark:text-p1-green text-center text-xl md:pt-4 md:text-2xl">
             <p>
               Данный статус определяется держателями NFT Promoter, National, Global и ограничен
               временным периодом на покрытие 50% расходов на организацию и проведение конкретного
@@ -191,10 +191,10 @@ export default function Page() {
             </p>
           </div>
           <div id="7"></div>
-          <div className="text-center text-2xl font-bold text-p1-darkgreen md:pt-8 md:text-4xl dark:text-p1-green">
+          <div className="text-p1-darkgreen dark:text-p1-green text-center text-2xl font-bold md:pt-8 md:text-4xl">
             Официальный спонсор:
           </div>
-          <div className="text-center text-xl text-p1-darkgreen md:pt-4 md:text-2xl dark:text-p1-green">
+          <div className="text-p1-darkgreen dark:text-p1-green text-center text-xl md:pt-4 md:text-2xl">
             <p>
               Данный статус определяется держателями NFT Promoter, National, Global и ограничен
               временным периодом на покрытие 25% расходов на организацию и проведение конкретного
@@ -208,10 +208,10 @@ export default function Page() {
             </p>
           </div>
           <div id="8"></div>
-          <div className="text-center text-2xl font-bold text-p1-darkgreen md:pt-8 md:text-4xl dark:text-p1-green">
+          <div className="text-p1-darkgreen dark:text-p1-green text-center text-2xl font-bold md:pt-8 md:text-4xl">
             Спонсор участник:
           </div>
-          <div className="text-center text-xl text-p1-darkgreen md:pt-4 md:text-2xl dark:text-p1-green">
+          <div className="text-p1-darkgreen dark:text-p1-green text-center text-xl md:pt-4 md:text-2xl">
             <p>
               Данный статус определяется держателями NFT Promoter, National, Global и ограничен
               временным периодом на покрытие не более 10% расходов на организацию и проведение
@@ -223,10 +223,10 @@ export default function Page() {
             <p>Стоимость размещения логотипа на награде составляет не менее 1000 USDT</p>
           </div>
           <div id="9"></div>
-          <div className="text-center text-2xl font-bold text-p1-darkgreen md:pt-8 md:text-4xl dark:text-p1-green">
+          <div className="text-p1-darkgreen dark:text-p1-green text-center text-2xl font-bold md:pt-8 md:text-4xl">
             Информационный спонсор:
           </div>
-          <div className="text-center text-xl text-p1-darkgreen md:pt-4 md:text-2xl dark:text-p1-green">
+          <div className="text-p1-darkgreen dark:text-p1-green text-center text-xl md:pt-4 md:text-2xl">
             <p>
               Данный статус определяется держателями NFT Promoter, National, Global и ограничен
               временным периодом на организацию и проведение конкретного мероприятия
@@ -239,10 +239,10 @@ export default function Page() {
             </p>
           </div>
           <div id="10"></div>
-          <div className="text-center text-2xl font-bold text-p1-darkgreen md:pt-8 md:text-4xl dark:text-p1-green">
+          <div className="text-p1-darkgreen dark:text-p1-green text-center text-2xl font-bold md:pt-8 md:text-4xl">
             Бартерный спонсор:
           </div>
-          <div className="text-center text-xl text-p1-darkgreen md:pt-4 md:text-2xl dark:text-p1-green">
+          <div className="text-p1-darkgreen dark:text-p1-green text-center text-xl md:pt-4 md:text-2xl">
             <p>
               Данный статус определяется держателями NFT Promoter, National, Global и ограничен
               временным периодом сотрудничества
@@ -263,7 +263,7 @@ export default function Page() {
       <div id="11" className="pt-10"></div>
       <div className="flex flex-row justify-center md:pb-5">
         <div className="md:basis-3/5">
-          <div className="text-center text-2xl font-bold text-p1-darkgreen md:pt-4 md:text-4xl dark:text-p1-cyan">
+          <div className="text-p1-darkgreen dark:text-p1-cyan text-center text-2xl font-bold md:pt-4 md:text-4xl">
             QR-код для поддержания Проекта
           </div>
         </div>
@@ -275,7 +275,7 @@ export default function Page() {
           </Link>
         </div>
       </div>
-      <div className="text-center text-xl text-p1-darkgreen md:pt-4 md:text-2xl dark:text-p1-green">
+      <div className="text-p1-darkgreen dark:text-p1-green text-center text-xl md:pt-4 md:text-2xl">
         <p>пока ссылка на сайт gaa.zone</p>
         <p>реальную поддержку возможно будет осуществить </p>
         <p>только после развертывания смарт-контрактов и старта Проекта</p>
@@ -292,14 +292,14 @@ export default function Page() {
       <div id="12" className="pt-10"></div>
       <div className="flex flex-row justify-center md:pb-5">
         <div className="md:basis-3/5">
-          <div className="text-center text-2xl font-bold text-p1-darkgreen md:pt-4 md:text-4xl dark:text-p1-cyan">
+          <div className="text-p1-darkgreen dark:text-p1-cyan text-center text-2xl font-bold md:pt-4 md:text-4xl">
             Таблица участников
           </div>
         </div>
       </div>
 
       <div className="flex flex-row justify-center md:pb-5">
-        <div className="basis-5/6 p-2 text-p1-green">
+        <div className="text-p1-green basis-5/6 p-2">
           <div className="grid grid-cols-4 gap-4">
             <div>#</div>
             <div>Avatar</div>

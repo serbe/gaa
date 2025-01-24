@@ -35,7 +35,7 @@ export default function Home() {
             <div>
               <Link href={'#'} className="mx-auto justify-center">
                 <Image
-                  className="h-10 w-10 rounded-lg p-1 ring-p1-green transition-all delay-75 duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:ring-2 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:hover:bg-p1-deepdarkgreen"
+                  className="ring-p1-green hover:bg-p1-white hover:bg-opacity-50 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:hover:bg-p1-deepdarkgreen h-10 w-10 rounded-lg p-1 transition-all delay-75 duration-300 ease-in-out hover:ring-2"
                   width={480}
                   height={480}
                   src="/Logo/wallet-nft.png"
@@ -47,15 +47,15 @@ export default function Home() {
             <div className="group relative inline-block">
               <Link href={'#'} className="mx-auto justify-center">
                 <Image
-                  className="h-10 w-10 rounded-full p-1 ring-p1-green transition-all delay-75 duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:ring-2 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:hover:bg-p1-deepdarkgreen"
+                  className="ring-p1-green hover:bg-p1-white hover:bg-opacity-50 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:hover:bg-p1-deepdarkgreen h-10 w-10 rounded-full p-1 transition-all delay-75 duration-300 ease-in-out hover:ring-2"
                   width={480}
                   height={480}
                   src="/Logo/user.png"
                   alt="Bordered avatar"
                 />
 
-                <div className="invisible absolute left-1/2 z-10 mt-2 w-40 -translate-x-1/2 transform rounded-xl bg-p1-cyan bg-center p-4 text-gray-800 opacity-0 shadow-lg transition-all duration-300 group-hover:visible group-hover:opacity-100 md:w-52">
-                  <div className="rounded-lg border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
+                <div className="bg-p1-cyan invisible absolute left-1/2 z-10 mt-2 w-40 -translate-x-1/2 transform rounded-xl bg-center p-4 text-gray-800 opacity-0 shadow-lg transition-all duration-300 group-hover:visible group-hover:opacity-100 md:w-52">
+                  <div className="border-p1-darkgreen text-p1-darkgreen hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen dark:border-p1-deepdarkgreen rounded-lg border-b p-1 text-xl font-semibold transition-all duration-300 ease-in-out md:px-3">
                     <Link href={'/profile'} className="mx-auto justify-center">
                       <Image
                         className="h-10 w-10"
@@ -67,7 +67,7 @@ export default function Home() {
                       Profile
                     </Link>
                   </div>
-                  <div className="rounded-lg border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
+                  <div className="border-p1-darkgreen text-p1-darkgreen hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen dark:border-p1-deepdarkgreen rounded-lg border-b p-1 text-xl font-semibold transition-all duration-300 ease-in-out md:px-3">
                     <Link href={'/dashboard'} className="mx-auto justify-center">
                       <Image
                         className="h-10 w-10"
@@ -79,7 +79,7 @@ export default function Home() {
                       Dashboard
                     </Link>
                   </div>
-                  <div className="rounded-lg border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
+                  <div className="border-p1-darkgreen text-p1-darkgreen hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen dark:border-p1-deepdarkgreen rounded-lg border-b p-1 text-xl font-semibold transition-all duration-300 ease-in-out md:px-3">
                     <Link href={'/marketplace'} className="mx-auto justify-center">
                       <Image
                         className="h-10 w-10"
@@ -91,7 +91,7 @@ export default function Home() {
                       Marketplace
                     </Link>
                   </div>
-                  <div className="rounded-lg border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
+                  <div className="border-p1-darkgreen text-p1-darkgreen hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen dark:border-p1-deepdarkgreen rounded-lg border-b p-1 text-xl font-semibold transition-all duration-300 ease-in-out md:px-3">
                     <Link href={'/mynfts'} className="mx-auto justify-center">
                       <Image
                         className="h-10 w-10"
@@ -100,11 +100,11 @@ export default function Home() {
                         src="/icon/NFT-col.png"
                         alt="Bordered avatar"
                       />
-                      My NFT{' '}
+                      My NFT
                     </Link>
                   </div>
 
-                  <div className="rounded-lg border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
+                  <div className="border-p1-darkgreen text-p1-darkgreen hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen dark:border-p1-deepdarkgreen rounded-lg border-b p-1 text-xl font-semibold transition-all duration-300 ease-in-out md:px-3">
                     <Link href={'#'} className="mx-auto justify-center">
                       <Image
                         className="h-10 w-10"
@@ -117,7 +117,7 @@ export default function Home() {
                     </Link>
                   </div>
 
-                  <div className="rounded-lg border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
+                  <div className="border-p1-darkgreen text-p1-darkgreen hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen dark:border-p1-deepdarkgreen rounded-lg border-b p-1 text-xl font-semibold transition-all duration-300 ease-in-out md:px-3">
                     <Link href={'#'} className="mx-auto justify-center">
                       <Image
                         className="h-10 w-10"
@@ -135,7 +135,7 @@ export default function Home() {
             <div>
               <Link href={'#'} className="mx-auto justify-center">
                 <Image
-                  className="h-10 w-10 rounded-lg p-1 ring-p1-green transition-all delay-75 duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:ring-2 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:hover:bg-p1-deepdarkgreen"
+                  className="ring-p1-green hover:bg-p1-white hover:bg-opacity-50 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:hover:bg-p1-deepdarkgreen h-10 w-10 rounded-lg p-1 transition-all delay-75 duration-300 ease-in-out hover:ring-2"
                   width={480}
                   height={480}
                   src="/Logo/shopping-cart.png"
@@ -148,7 +148,7 @@ export default function Home() {
 
         {/* Поиск 1 */}
         <div className="">
-          <div className="mx-auto flex w-72 overflow-hidden rounded-xl border-p1-green bg-p2-white2 bg-opacity-50 px-4 py-3 backdrop-blur-lg md:-my-10 lg:w-80 xl:w-96">
+          <div className="border-p1-green bg-p2-white2 bg-opacity-50 mx-auto flex w-72 overflow-hidden rounded-xl px-4 py-3 backdrop-blur-lg md:-my-10 lg:w-80 xl:w-96">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 192.904 192.904"
@@ -167,7 +167,7 @@ export default function Home() {
         <div className="pb-6"> </div>
 
         {/* Слайдер коллекции 1 */}
-        <div className="w-full snap-x space-x-6 place-self-center overflow-x-auto rounded-3xl bg-p1-white bg-opacity-0 p-4 dark:bg-p1-green dark:bg-opacity-0">
+        <div className="bg-p1-white bg-opacity-0 dark:bg-p1-green dark:bg-opacity-0 w-full snap-x space-x-6 place-self-center overflow-x-auto rounded-3xl p-4">
           <Swiper
             autoplay={{
               delay: 9500,
@@ -186,7 +186,7 @@ export default function Home() {
             className="mySwyper place-items-center"
           >
             <SwiperSlide>
-              <div className="group mx-auto mt-1 w-full scale-95 space-x-3 rounded-2xl border-2 border-p1-green bg-gray-100 bg-opacity-50 object-cover p-1 transition-transform duration-300 hover:scale-100 md:p-2 dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:bg-opacity-80 dark:text-p1-green dark:hover:border-p1-cyan dark:hover:text-p1-cyan dark:group-hover:border-p1-cyan">
+              <div className="group border-p1-green bg-opacity-50 dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:bg-opacity-80 dark:text-p1-green dark:hover:border-p1-cyan dark:hover:text-p1-cyan dark:group-hover:border-p1-cyan mx-auto mt-1 w-full scale-95 space-x-3 rounded-2xl border-2 bg-gray-100 object-cover p-1 transition-transform duration-300 hover:scale-100 md:p-2">
                 <Link href="#" className="mx-auto justify-center">
                   <div className="grid w-full grid-cols-1 items-center gap-2 overflow-hidden rounded-lg xl:grid-cols-2">
                     <Image
@@ -197,26 +197,26 @@ export default function Home() {
                       className="w-full"
                     />
                     <div>
-                      <h2 className="spacing-1 text-xl font-bold text-p1-darkgreen xl:text-2xl dark:text-p1-cyan">
+                      <h2 className="spacing-1 text-p1-darkgreen dark:text-p1-cyan text-xl font-bold xl:text-2xl">
                         RaceLads
                       </h2>
                       <p className="spacing-1 text-p1-darkgreen dark:text-p1-cyan"></p>
                       <p className="spacing-1 text-p1-darkgreen dark:text-p1-cyan"></p>
-                      <button className="w-full place-content-end rounded-md border border-p1-cyan bg-p1-green py-2 text-white hover:bg-p1-darkgreen dark:bg-p1-deepdarkgreen dark:hover:shadow-lg dark:hover:shadow-p1-darkgreen">
+                      <button className="border-p1-cyan bg-p1-green hover:bg-p1-darkgreen dark:bg-p1-deepdarkgreen dark:hover:shadow-p1-darkgreen w-full place-content-end rounded-md border py-2 text-white dark:hover:shadow-lg">
                         Explore Collection
                       </button>
                     </div>
-                  </div>{' '}
+                  </div>
                   <div className="mt-2 grid w-full grid-cols-3 items-center justify-between space-x-1 text-center md:mt-4 md:grid-cols-3">
                     <div>
-                      <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Items</p>
-                      <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
+                      <p className="text-p1-darkgreen dark:text-p1-cyan text-sm">Items</p>
+                      <p className="text-p1-deepdarkgreen dark:text-p1-cyan text-lg font-semibold">
                         10,000
                       </p>
                     </div>
                     <div>
-                      <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Floor Price</p>
-                      <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
+                      <p className="text-p1-darkgreen dark:text-p1-cyan text-sm">Floor Price</p>
+                      <p className="text-p1-deepdarkgreen dark:text-p1-cyan text-lg font-semibold">
                         <Image
                           className="relative inline-block w-8 px-1"
                           layout="intrinsic"
@@ -224,13 +224,13 @@ export default function Home() {
                           height={50}
                           src="/Logo/eth.png"
                           alt="eth"
-                        />{' '}
+                        />
                         15.2
                       </p>
                     </div>
                     <div>
-                      <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Total Volume</p>
-                      <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
+                      <p className="text-p1-darkgreen dark:text-p1-cyan text-sm">Total Volume</p>
+                      <p className="text-p1-deepdarkgreen dark:text-p1-cyan text-lg font-semibold">
                         25K
                       </p>
                     </div>
@@ -240,7 +240,7 @@ export default function Home() {
             </SwiperSlide>
 
             <SwiperSlide>
-              <div className="group mx-auto mt-1 w-full scale-95 space-x-3 rounded-2xl border-2 border-p1-green bg-gray-100 bg-opacity-50 object-cover p-1 transition-transform duration-300 hover:scale-100 md:p-2 dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:bg-opacity-80 dark:text-p1-green dark:hover:border-p1-cyan dark:hover:text-p1-cyan dark:group-hover:border-p1-cyan">
+              <div className="group border-p1-green bg-opacity-50 dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:bg-opacity-80 dark:text-p1-green dark:hover:border-p1-cyan dark:hover:text-p1-cyan dark:group-hover:border-p1-cyan mx-auto mt-1 w-full scale-95 space-x-3 rounded-2xl border-2 bg-gray-100 object-cover p-1 transition-transform duration-300 hover:scale-100 md:p-2">
                 <Link href="#" className="mx-auto justify-center">
                   <div className="grid w-full grid-cols-1 items-center gap-2 overflow-hidden rounded-lg xl:grid-cols-2">
                     <Image
@@ -251,25 +251,25 @@ export default function Home() {
                       className="w-full"
                     />
                     <div>
-                      <h2 className="spacing-1 text-xl font-bold text-p1-darkgreen xl:text-2xl dark:text-p1-cyan">
+                      <h2 className="spacing-1 text-p1-darkgreen dark:text-p1-cyan text-xl font-bold xl:text-2xl">
                         Drivers
                       </h2>
                       <p className="spacing-1 text-p1-darkgreen dark:text-p1-cyan"></p>
-                      <button className="w-full place-content-end rounded-md border border-p1-cyan bg-p1-green py-2 text-white hover:bg-p1-darkgreen dark:bg-p1-deepdarkgreen dark:hover:shadow-lg dark:hover:shadow-p1-darkgreen">
+                      <button className="border-p1-cyan bg-p1-green hover:bg-p1-darkgreen dark:bg-p1-deepdarkgreen dark:hover:shadow-p1-darkgreen w-full place-content-end rounded-md border py-2 text-white dark:hover:shadow-lg">
                         Explore Collection
                       </button>
                     </div>
-                  </div>{' '}
+                  </div>
                   <div className="mt-2 grid w-full grid-cols-3 items-center justify-between space-x-1 text-center md:mt-4 md:grid-cols-3">
                     <div>
-                      <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Items</p>
-                      <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
+                      <p className="text-p1-darkgreen dark:text-p1-cyan text-sm">Items</p>
+                      <p className="text-p1-deepdarkgreen dark:text-p1-cyan text-lg font-semibold">
                         10,000
                       </p>
                     </div>
                     <div>
-                      <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Floor Price</p>
-                      <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
+                      <p className="text-p1-darkgreen dark:text-p1-cyan text-sm">Floor Price</p>
+                      <p className="text-p1-deepdarkgreen dark:text-p1-cyan text-lg font-semibold">
                         <Image
                           className="relative inline-block w-8 px-1"
                           layout="intrinsic"
@@ -277,13 +277,13 @@ export default function Home() {
                           height={50}
                           src="/Logo/eth.png"
                           alt="eth"
-                        />{' '}
+                        />
                         15.2
                       </p>
                     </div>
                     <div>
-                      <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Total Volume</p>
-                      <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
+                      <p className="text-p1-darkgreen dark:text-p1-cyan text-sm">Total Volume</p>
+                      <p className="text-p1-deepdarkgreen dark:text-p1-cyan text-lg font-semibold">
                         25K
                       </p>
                     </div>
@@ -292,7 +292,7 @@ export default function Home() {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="group mx-auto mt-1 w-full scale-95 space-x-3 rounded-2xl border-2 border-p1-green bg-gray-100 bg-opacity-50 object-cover p-1 transition-transform duration-300 hover:scale-100 md:p-2 dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:bg-opacity-80 dark:text-p1-green dark:hover:border-p1-cyan dark:hover:text-p1-cyan dark:group-hover:border-p1-cyan">
+              <div className="group border-p1-green bg-opacity-50 dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:bg-opacity-80 dark:text-p1-green dark:hover:border-p1-cyan dark:hover:text-p1-cyan dark:group-hover:border-p1-cyan mx-auto mt-1 w-full scale-95 space-x-3 rounded-2xl border-2 bg-gray-100 object-cover p-1 transition-transform duration-300 hover:scale-100 md:p-2">
                 <Link href="#" className="mx-auto justify-center">
                   <div className="grid w-full grid-cols-1 items-center gap-2 overflow-hidden rounded-lg xl:grid-cols-2">
                     <Image
@@ -303,26 +303,26 @@ export default function Home() {
                       className="w-full"
                     />
                     <div>
-                      <h2 className="spacing-1 text-xl font-bold text-p1-darkgreen xl:text-2xl dark:text-p1-cyan">
+                      <h2 className="spacing-1 text-p1-darkgreen dark:text-p1-cyan text-xl font-bold xl:text-2xl">
                         Team&apos;s Members
                       </h2>
 
                       <p className="spacing-1 text-p1-darkgreen dark:text-p1-cyan"></p>
-                      <button className="w-full place-content-end rounded-md border border-p1-cyan bg-p1-green py-2 text-white hover:bg-p1-darkgreen dark:bg-p1-deepdarkgreen dark:hover:shadow-lg dark:hover:shadow-p1-darkgreen">
+                      <button className="border-p1-cyan bg-p1-green hover:bg-p1-darkgreen dark:bg-p1-deepdarkgreen dark:hover:shadow-p1-darkgreen w-full place-content-end rounded-md border py-2 text-white dark:hover:shadow-lg">
                         Explore Collection
                       </button>
                     </div>
-                  </div>{' '}
+                  </div>
                   <div className="mt-2 grid w-full grid-cols-3 items-center justify-between space-x-1 text-center md:mt-4 md:grid-cols-3">
                     <div>
-                      <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Items</p>
-                      <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
+                      <p className="text-p1-darkgreen dark:text-p1-cyan text-sm">Items</p>
+                      <p className="text-p1-deepdarkgreen dark:text-p1-cyan text-lg font-semibold">
                         10,000
                       </p>
                     </div>
                     <div>
-                      <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Floor Price</p>
-                      <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
+                      <p className="text-p1-darkgreen dark:text-p1-cyan text-sm">Floor Price</p>
+                      <p className="text-p1-deepdarkgreen dark:text-p1-cyan text-lg font-semibold">
                         <Image
                           className="relative inline-block w-8 px-1"
                           layout="intrinsic"
@@ -330,13 +330,13 @@ export default function Home() {
                           height={50}
                           src="/Logo/eth.png"
                           alt="eth"
-                        />{' '}
+                        />
                         15.2
                       </p>
                     </div>
                     <div>
-                      <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Total Volume</p>
-                      <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
+                      <p className="text-p1-darkgreen dark:text-p1-cyan text-sm">Total Volume</p>
+                      <p className="text-p1-deepdarkgreen dark:text-p1-cyan text-lg font-semibold">
                         25K
                       </p>
                     </div>
@@ -345,7 +345,7 @@ export default function Home() {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="group mx-auto mt-1 w-full scale-95 space-x-3 rounded-2xl border-2 border-p1-green bg-gray-100 bg-opacity-50 object-cover p-1 transition-transform duration-300 hover:scale-100 md:p-2 dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:bg-opacity-80 dark:text-p1-green dark:hover:border-p1-cyan dark:hover:text-p1-cyan dark:group-hover:border-p1-cyan">
+              <div className="group border-p1-green bg-opacity-50 dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:bg-opacity-80 dark:text-p1-green dark:hover:border-p1-cyan dark:hover:text-p1-cyan dark:group-hover:border-p1-cyan mx-auto mt-1 w-full scale-95 space-x-3 rounded-2xl border-2 bg-gray-100 object-cover p-1 transition-transform duration-300 hover:scale-100 md:p-2">
                 <Link href="#" className="mx-auto justify-center">
                   <div className="grid w-full grid-cols-1 items-center gap-2 overflow-hidden rounded-lg xl:grid-cols-2">
                     <Image
@@ -356,25 +356,25 @@ export default function Home() {
                       className="w-full"
                     />
                     <div>
-                      <h2 className="spacing-1 text-xl font-bold text-p1-darkgreen xl:text-2xl dark:text-p1-cyan">
+                      <h2 className="spacing-1 text-p1-darkgreen dark:text-p1-cyan text-xl font-bold xl:text-2xl">
                         Collectors
                       </h2>
                       <p className="spacing-1 text-p1-darkgreen dark:text-p1-cyan"></p>
-                      <button className="w-full place-content-end rounded-md border border-p1-cyan bg-p1-green py-2 text-white hover:bg-p1-darkgreen dark:bg-p1-deepdarkgreen dark:hover:shadow-lg dark:hover:shadow-p1-darkgreen">
+                      <button className="border-p1-cyan bg-p1-green hover:bg-p1-darkgreen dark:bg-p1-deepdarkgreen dark:hover:shadow-p1-darkgreen w-full place-content-end rounded-md border py-2 text-white dark:hover:shadow-lg">
                         Explore Collection
                       </button>
                     </div>
-                  </div>{' '}
+                  </div>
                   <div className="mt-2 grid w-full grid-cols-3 items-center justify-between space-x-1 text-center md:mt-4 md:grid-cols-3">
                     <div>
-                      <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Items</p>
-                      <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
+                      <p className="text-p1-darkgreen dark:text-p1-cyan text-sm">Items</p>
+                      <p className="text-p1-deepdarkgreen dark:text-p1-cyan text-lg font-semibold">
                         10,000
                       </p>
                     </div>
                     <div>
-                      <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Floor Price</p>
-                      <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
+                      <p className="text-p1-darkgreen dark:text-p1-cyan text-sm">Floor Price</p>
+                      <p className="text-p1-deepdarkgreen dark:text-p1-cyan text-lg font-semibold">
                         <Image
                           className="relative inline-block w-8 px-1"
                           layout="intrinsic"
@@ -382,13 +382,13 @@ export default function Home() {
                           height={50}
                           src="/Logo/eth.png"
                           alt="eth"
-                        />{' '}
+                        />
                         15.2
                       </p>
                     </div>
                     <div>
-                      <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Total Volume</p>
-                      <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
+                      <p className="text-p1-darkgreen dark:text-p1-cyan text-sm">Total Volume</p>
+                      <p className="text-p1-deepdarkgreen dark:text-p1-cyan text-lg font-semibold">
                         25K
                       </p>
                     </div>
@@ -397,7 +397,7 @@ export default function Home() {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="group mx-auto mt-1 w-full scale-95 space-x-3 rounded-2xl border-2 border-p1-green bg-gray-100 bg-opacity-50 object-cover p-1 transition-transform duration-300 hover:scale-100 md:p-2 dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:bg-opacity-80 dark:text-p1-green dark:hover:border-p1-cyan dark:hover:text-p1-cyan dark:group-hover:border-p1-cyan">
+              <div className="group border-p1-green bg-opacity-50 dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:bg-opacity-80 dark:text-p1-green dark:hover:border-p1-cyan dark:hover:text-p1-cyan dark:group-hover:border-p1-cyan mx-auto mt-1 w-full scale-95 space-x-3 rounded-2xl border-2 bg-gray-100 object-cover p-1 transition-transform duration-300 hover:scale-100 md:p-2">
                 <Link href="#" className="mx-auto justify-center">
                   <div className="grid w-full grid-cols-1 items-center gap-2 overflow-hidden rounded-lg xl:grid-cols-2">
                     <Image
@@ -408,26 +408,26 @@ export default function Home() {
                       className="w-full"
                     />
                     <div>
-                      <h2 className="spacing-1 text-xl font-bold text-p1-darkgreen xl:text-2xl dark:text-p1-cyan">
+                      <h2 className="spacing-1 text-p1-darkgreen dark:text-p1-cyan text-xl font-bold xl:text-2xl">
                         Cars
                       </h2>
                       <p className="spacing-1 text-p1-darkgreen dark:text-p1-cyan"></p>
                       <p className="spacing-1 text-p1-darkgreen dark:text-p1-cyan"></p>
-                      <button className="w-full place-content-end rounded-md border border-p1-cyan bg-p1-green py-2 text-white hover:bg-p1-darkgreen dark:bg-p1-deepdarkgreen dark:hover:shadow-lg dark:hover:shadow-p1-darkgreen">
+                      <button className="border-p1-cyan bg-p1-green hover:bg-p1-darkgreen dark:bg-p1-deepdarkgreen dark:hover:shadow-p1-darkgreen w-full place-content-end rounded-md border py-2 text-white dark:hover:shadow-lg">
                         Explore Collection
                       </button>
                     </div>
-                  </div>{' '}
+                  </div>
                   <div className="mt-2 grid w-full grid-cols-3 items-center justify-between space-x-1 text-center md:mt-4 md:grid-cols-3">
                     <div>
-                      <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Items</p>
-                      <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
+                      <p className="text-p1-darkgreen dark:text-p1-cyan text-sm">Items</p>
+                      <p className="text-p1-deepdarkgreen dark:text-p1-cyan text-lg font-semibold">
                         10,000
                       </p>
                     </div>
                     <div>
-                      <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Floor Price</p>
-                      <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
+                      <p className="text-p1-darkgreen dark:text-p1-cyan text-sm">Floor Price</p>
+                      <p className="text-p1-deepdarkgreen dark:text-p1-cyan text-lg font-semibold">
                         <Image
                           className="relative inline-block w-8 px-1"
                           layout="intrinsic"
@@ -435,13 +435,13 @@ export default function Home() {
                           height={50}
                           src="/Logo/eth.png"
                           alt="eth"
-                        />{' '}
+                        />
                         15.2
                       </p>
                     </div>
                     <div>
-                      <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Total Volume</p>
-                      <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
+                      <p className="text-p1-darkgreen dark:text-p1-cyan text-sm">Total Volume</p>
+                      <p className="text-p1-deepdarkgreen dark:text-p1-cyan text-lg font-semibold">
                         25K
                       </p>
                     </div>
@@ -450,7 +450,7 @@ export default function Home() {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="group mx-auto mt-1 w-full scale-95 space-x-3 rounded-2xl border-2 border-p1-green bg-gray-100 bg-opacity-50 object-cover p-1 transition-transform duration-300 hover:scale-100 md:p-2 dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:bg-opacity-80 dark:text-p1-green dark:hover:border-p1-cyan dark:hover:text-p1-cyan dark:group-hover:border-p1-cyan">
+              <div className="group border-p1-green bg-opacity-50 dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:bg-opacity-80 dark:text-p1-green dark:hover:border-p1-cyan dark:hover:text-p1-cyan dark:group-hover:border-p1-cyan mx-auto mt-1 w-full scale-95 space-x-3 rounded-2xl border-2 bg-gray-100 object-cover p-1 transition-transform duration-300 hover:scale-100 md:p-2">
                 <Link href="#" className="mx-auto justify-center">
                   <div className="grid w-full grid-cols-1 items-center gap-2 overflow-hidden rounded-lg xl:grid-cols-2">
                     <Image
@@ -461,26 +461,26 @@ export default function Home() {
                       className="w-full"
                     />
                     <div>
-                      <h2 className="spacing-1 text-xl font-bold text-p1-darkgreen xl:text-2xl dark:text-p1-cyan">
+                      <h2 className="spacing-1 text-p1-darkgreen dark:text-p1-cyan text-xl font-bold xl:text-2xl">
                         Custom Lads
                       </h2>
                       <p className="spacing-1 text-p1-darkgreen dark:text-p1-cyan"></p>
                       <p className="spacing-1 text-p1-darkgreen dark:text-p1-cyan"></p>
-                      <button className="w-full place-content-end rounded-md border border-p1-cyan bg-p1-green py-2 text-white hover:bg-p1-darkgreen dark:bg-p1-deepdarkgreen dark:hover:shadow-lg dark:hover:shadow-p1-darkgreen">
+                      <button className="border-p1-cyan bg-p1-green hover:bg-p1-darkgreen dark:bg-p1-deepdarkgreen dark:hover:shadow-p1-darkgreen w-full place-content-end rounded-md border py-2 text-white dark:hover:shadow-lg">
                         Explore Collection
                       </button>
                     </div>
-                  </div>{' '}
+                  </div>
                   <div className="mt-2 grid w-full grid-cols-3 items-center justify-between space-x-1 text-center md:mt-4 md:grid-cols-3">
                     <div>
-                      <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Items</p>
-                      <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
+                      <p className="text-p1-darkgreen dark:text-p1-cyan text-sm">Items</p>
+                      <p className="text-p1-deepdarkgreen dark:text-p1-cyan text-lg font-semibold">
                         10,000
                       </p>
                     </div>
                     <div>
-                      <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Floor Price</p>
-                      <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
+                      <p className="text-p1-darkgreen dark:text-p1-cyan text-sm">Floor Price</p>
+                      <p className="text-p1-deepdarkgreen dark:text-p1-cyan text-lg font-semibold">
                         <Image
                           className="relative inline-block w-8 px-1"
                           layout="intrinsic"
@@ -488,13 +488,13 @@ export default function Home() {
                           height={50}
                           src="/Logo/eth.png"
                           alt="eth"
-                        />{' '}
+                        />
                         15.2
                       </p>
                     </div>
                     <div>
-                      <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Total Volume</p>
-                      <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
+                      <p className="text-p1-darkgreen dark:text-p1-cyan text-sm">Total Volume</p>
+                      <p className="text-p1-deepdarkgreen dark:text-p1-cyan text-lg font-semibold">
                         25K
                       </p>
                     </div>
@@ -503,7 +503,7 @@ export default function Home() {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="group mx-auto mt-1 w-full scale-95 space-x-3 rounded-2xl border-2 border-p1-green bg-gray-100 bg-opacity-50 object-cover p-1 transition-transform duration-300 hover:scale-100 md:p-2 dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:bg-opacity-80 dark:text-p1-green dark:hover:border-p1-cyan dark:hover:text-p1-cyan dark:group-hover:border-p1-cyan">
+              <div className="group border-p1-green bg-opacity-50 dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:bg-opacity-80 dark:text-p1-green dark:hover:border-p1-cyan dark:hover:text-p1-cyan dark:group-hover:border-p1-cyan mx-auto mt-1 w-full scale-95 space-x-3 rounded-2xl border-2 bg-gray-100 object-cover p-1 transition-transform duration-300 hover:scale-100 md:p-2">
                 <Link href="#" className="mx-auto justify-center">
                   <div className="grid w-full grid-cols-1 items-center gap-2 overflow-hidden rounded-lg xl:grid-cols-2">
                     <Image
@@ -514,26 +514,26 @@ export default function Home() {
                       className="w-full"
                     />
                     <div>
-                      <h2 className="spacing-1 text-xl font-bold text-p1-darkgreen xl:text-2xl dark:text-p1-cyan">
+                      <h2 className="spacing-1 text-p1-darkgreen dark:text-p1-cyan text-xl font-bold xl:text-2xl">
                         Awards
                       </h2>
                       <p className="spacing-1 text-p1-darkgreen dark:text-p1-cyan"></p>
                       <p className="spacing-1 text-p1-darkgreen dark:text-p1-cyan"></p>
-                      <button className="w-full place-content-end rounded-md border border-p1-cyan bg-p1-green py-2 text-white hover:bg-p1-darkgreen dark:bg-p1-deepdarkgreen dark:hover:shadow-lg dark:hover:shadow-p1-darkgreen">
+                      <button className="border-p1-cyan bg-p1-green hover:bg-p1-darkgreen dark:bg-p1-deepdarkgreen dark:hover:shadow-p1-darkgreen w-full place-content-end rounded-md border py-2 text-white dark:hover:shadow-lg">
                         Explore Collection
                       </button>
                     </div>
-                  </div>{' '}
+                  </div>
                   <div className="mt-2 grid w-full grid-cols-3 items-center justify-between space-x-1 text-center md:mt-4 md:grid-cols-3">
                     <div>
-                      <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Items</p>
-                      <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
+                      <p className="text-p1-darkgreen dark:text-p1-cyan text-sm">Items</p>
+                      <p className="text-p1-deepdarkgreen dark:text-p1-cyan text-lg font-semibold">
                         10,000
                       </p>
                     </div>
                     <div>
-                      <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Floor Price</p>
-                      <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
+                      <p className="text-p1-darkgreen dark:text-p1-cyan text-sm">Floor Price</p>
+                      <p className="text-p1-deepdarkgreen dark:text-p1-cyan text-lg font-semibold">
                         <Image
                           className="relative inline-block w-8 px-1"
                           layout="intrinsic"
@@ -541,13 +541,13 @@ export default function Home() {
                           height={50}
                           src="/Logo/eth.png"
                           alt="eth"
-                        />{' '}
+                        />
                         15.2
                       </p>
                     </div>
                     <div>
-                      <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Total Volume</p>
-                      <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
+                      <p className="text-p1-darkgreen dark:text-p1-cyan text-sm">Total Volume</p>
+                      <p className="text-p1-deepdarkgreen dark:text-p1-cyan text-lg font-semibold">
                         25K
                       </p>
                     </div>
@@ -556,7 +556,7 @@ export default function Home() {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="group mx-auto mt-1 w-full scale-95 space-x-3 rounded-2xl border-2 border-p1-green bg-gray-100 bg-opacity-50 object-cover p-1 transition-transform duration-300 hover:scale-100 md:p-2 dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:bg-opacity-80 dark:text-p1-green dark:hover:border-p1-cyan dark:hover:text-p1-cyan dark:group-hover:border-p1-cyan">
+              <div className="group border-p1-green bg-opacity-50 dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:bg-opacity-80 dark:text-p1-green dark:hover:border-p1-cyan dark:hover:text-p1-cyan dark:group-hover:border-p1-cyan mx-auto mt-1 w-full scale-95 space-x-3 rounded-2xl border-2 bg-gray-100 object-cover p-1 transition-transform duration-300 hover:scale-100 md:p-2">
                 <Link href="#" className="mx-auto justify-center">
                   <div className="grid w-full grid-cols-1 items-center gap-2 overflow-hidden rounded-lg xl:grid-cols-2">
                     <Image
@@ -567,26 +567,26 @@ export default function Home() {
                       className="w-full"
                     />
                     <div>
-                      <h2 className="spacing-1 text-xl font-bold text-p1-darkgreen xl:text-2xl dark:text-p1-cyan">
+                      <h2 className="spacing-1 text-p1-darkgreen dark:text-p1-cyan text-xl font-bold xl:text-2xl">
                         Licenses
                       </h2>
                       <p className="spacing-1 text-p1-darkgreen dark:text-p1-cyan"></p>
                       <p className="spacing-1 text-p1-darkgreen dark:text-p1-cyan"></p>
-                      <button className="w-full place-content-end rounded-md border border-p1-cyan bg-p1-green py-2 text-white hover:bg-p1-darkgreen dark:bg-p1-deepdarkgreen dark:hover:shadow-lg dark:hover:shadow-p1-darkgreen">
+                      <button className="border-p1-cyan bg-p1-green hover:bg-p1-darkgreen dark:bg-p1-deepdarkgreen dark:hover:shadow-p1-darkgreen w-full place-content-end rounded-md border py-2 text-white dark:hover:shadow-lg">
                         Explore Collection
                       </button>
                     </div>
-                  </div>{' '}
+                  </div>
                   <div className="mt-2 grid w-full grid-cols-3 items-center justify-between space-x-1 text-center md:mt-4 md:grid-cols-3">
                     <div>
-                      <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Items</p>
-                      <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
+                      <p className="text-p1-darkgreen dark:text-p1-cyan text-sm">Items</p>
+                      <p className="text-p1-deepdarkgreen dark:text-p1-cyan text-lg font-semibold">
                         10,000
                       </p>
                     </div>
                     <div>
-                      <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Floor Price</p>
-                      <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
+                      <p className="text-p1-darkgreen dark:text-p1-cyan text-sm">Floor Price</p>
+                      <p className="text-p1-deepdarkgreen dark:text-p1-cyan text-lg font-semibold">
                         <Image
                           className="relative inline-block w-8 px-1"
                           layout="intrinsic"
@@ -594,13 +594,13 @@ export default function Home() {
                           height={50}
                           src="/Logo/eth.png"
                           alt="eth"
-                        />{' '}
+                        />
                         15.2
                       </p>
                     </div>
                     <div>
-                      <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Total Volume</p>
-                      <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
+                      <p className="text-p1-darkgreen dark:text-p1-cyan text-sm">Total Volume</p>
+                      <p className="text-p1-deepdarkgreen dark:text-p1-cyan text-lg font-semibold">
                         25K
                       </p>
                     </div>
@@ -617,7 +617,7 @@ export default function Home() {
           <div className="flex grid-flow-row auto-rows-max space-x-2 px-2 md:px-10">
             <Link href={'#'} className="mx-auto w-80">
               <Image
-                className="rounded-3xl dark:ring-p1-darkgreen"
+                className="dark:ring-p1-darkgreen rounded-3xl"
                 width={1000}
                 height={1000}
                 src="/HeroNFT/RaceLads/RaceLads1.png"
@@ -648,7 +648,7 @@ export default function Home() {
             <p className="font-thing pt-1 text-xl md:px-2 md:text-2xl">Chain: Ethereum</p>
           </div>
 
-          <div className="flex grid-flow-row auto-rows-max justify-end space-x-4 pb-4 pt-2 md:space-x-8">
+          <div className="flex grid-flow-row auto-rows-max justify-end space-x-4 pt-2 pb-4 md:space-x-8">
             <div>
               <p className="text-xs font-semibold sm:text-sm md:text-2xl">9 ETH</p>
               <p>Total volume</p>
@@ -676,19 +676,19 @@ export default function Home() {
       <div id="2"></div>
       <div className="flex justify-center space-x-2 pt-2">
         <div>
-          <div className="mx-auto flex max-w-2xl overflow-hidden rounded-2xl border-2 border-p1-green bg-p2-white2 px-4 py-3 backdrop-blur-sm hover:border-p1-cyan focus:border-p1-cyan md:w-96 dark:bg-p1-deepdarkgreen dark:text-p1-cyan">
+          <div className="border-p1-green bg-p2-white2 hover:border-p1-cyan focus:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan mx-auto flex max-w-2xl overflow-hidden rounded-2xl border-2 px-4 py-3 backdrop-blur-sm md:w-96">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 192.904 192.904"
               width="16px"
-              className="mr-3 rotate-90 fill-gray-800 dark:fill-p1-cyan"
+              className="dark:fill-p1-cyan mr-3 rotate-90 fill-gray-800"
             >
               <path d="m190.707 180.101-47.078-47.077c11.702-14.072 18.752-32.142 18.752-51.831C162.381 36.423 125.959 0 81.191 0 36.422 0 0 36.423 0 81.193c0 44.767 36.422 81.187 81.191 81.187 19.688 0 37.759-7.049 51.831-18.751l47.079 47.078a7.474 7.474 0 0 0 5.303 2.197 7.498 7.498 0 0 0 5.303-12.803zM15 81.193C15 44.694 44.693 15 81.191 15c36.497 0 66.189 29.694 66.189 66.193 0 36.496-29.692 66.187-66.189 66.187C44.693 147.38 15 117.689 15 81.193z"></path>
             </svg>
             <input
               type="email"
               placeholder="Search Elementals..."
-              className="w-full bg-transparent text-xl text-p1-deepdarkgreen outline-none dark:text-p1-cyan"
+              className="text-p1-deepdarkgreen dark:text-p1-cyan w-full bg-transparent text-xl outline-none"
             />
           </div>
         </div>
@@ -704,35 +704,35 @@ export default function Home() {
             >
               <Link
                 href="#"
-                className="inline-block w-full place-content-center rounded-l-xl border-2 bg-p1-white p-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:border-p1-darkgreen hover:bg-p1-green hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                className="bg-p1-white text-p1-darkgreen hover:border-p1-darkgreen hover:bg-p1-green hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan inline-block w-full place-content-center rounded-l-xl border-2 p-2 text-center shadow-lg transition-all delay-75 duration-300 ease-in-out md:text-xl"
               >
                 Items
               </Link>
               <Link
                 href="#"
-                className="inline-block w-full place-content-center border-2 bg-p1-white p-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:border-p1-darkgreen hover:bg-p1-green hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                className="bg-p1-white text-p1-darkgreen hover:border-p1-darkgreen hover:bg-p1-green hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan inline-block w-full place-content-center border-2 p-2 text-center shadow-lg transition-all delay-75 duration-300 ease-in-out md:text-xl"
               >
                 Offers
               </Link>
               <Link
                 href="#"
-                className="inline-block w-full place-content-center border-2 bg-p1-white p-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:border-p1-darkgreen hover:bg-p1-green hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                className="bg-p1-white text-p1-darkgreen hover:border-p1-darkgreen hover:bg-p1-green hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan inline-block w-full place-content-center border-2 p-2 text-center shadow-lg transition-all delay-75 duration-300 ease-in-out md:text-xl"
               >
                 Analitics
               </Link>
 
               <Link
                 href="#"
-                className="inline-block w-full place-content-center border-2 bg-p1-white p-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:border-p1-darkgreen hover:bg-p1-green hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                className="bg-p1-white text-p1-darkgreen hover:border-p1-darkgreen hover:bg-p1-green hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan inline-block w-full place-content-center border-2 p-2 text-center shadow-lg transition-all delay-75 duration-300 ease-in-out md:text-xl"
               >
                 Activity
               </Link>
 
-              <form className="inline-block w-full place-content-center rounded-r-xl border-2 bg-p1-white p-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:border-p1-darkgreen hover:bg-p1-green hover:text-p1-darkgreen focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan">
+              <form className="bg-p1-white text-p1-darkgreen hover:border-p1-darkgreen hover:bg-p1-green hover:text-p1-darkgreen focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan inline-block w-full place-content-center rounded-r-xl border-2 p-2 text-center shadow-lg transition-all delay-75 duration-300 ease-in-out md:text-xl">
                 <label htmlFor="price" className="block w-full"></label>
                 <select
                   id="price"
-                  className="mx-auto flex max-w-2xl overflow-hidden border-p1-darkgreen bg-opacity-50 dark:bg-p1-deepdarkgreen dark:text-p1-green dark:accent-p1-darkgreen dark:hover:text-p1-cyan"
+                  className="border-p1-darkgreen bg-opacity-50 dark:bg-p1-deepdarkgreen dark:text-p1-green dark:accent-p1-darkgreen dark:hover:text-p1-cyan mx-auto flex max-w-2xl overflow-hidden"
                   defaultValue={'DEFAULT'}
                 >
                   <option value="DEFAULT" disabled>
@@ -763,26 +763,26 @@ export default function Home() {
             >
               <Link
                 href="#"
-                className="inline-block w-max place-content-center rounded-l-xl border-2 bg-p1-white p-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:border-p1-darkgreen hover:bg-p1-green hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                className="bg-p1-white text-p1-darkgreen hover:border-p1-darkgreen hover:bg-p1-green hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan inline-block w-max place-content-center rounded-l-xl border-2 p-2 text-center shadow-lg transition-all delay-75 duration-300 ease-in-out md:text-xl"
               >
                 All
               </Link>
               <Link
                 href="#"
-                className="inline-block w-max place-content-center border-2 bg-p1-white p-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:border-p1-darkgreen hover:bg-p1-green hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                className="bg-p1-white text-p1-darkgreen hover:border-p1-darkgreen hover:bg-p1-green hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan inline-block w-max place-content-center border-2 p-2 text-center shadow-lg transition-all delay-75 duration-300 ease-in-out md:text-xl"
               >
                 Listed
               </Link>
               <Link
                 href="#"
-                className="inline-block w-max place-content-center border-2 bg-p1-white p-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:border-p1-darkgreen hover:bg-p1-green hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                className="bg-p1-white text-p1-darkgreen hover:border-p1-darkgreen hover:bg-p1-green hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan inline-block w-max place-content-center border-2 p-2 text-center shadow-lg transition-all delay-75 duration-300 ease-in-out md:text-xl"
               >
                 On Auction
               </Link>
 
               <Link
                 href="#"
-                className="inline-block w-max place-content-center rounded-r-xl border-2 bg-p1-white p-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:border-p1-darkgreen hover:bg-p1-green hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                className="bg-p1-white text-p1-darkgreen hover:border-p1-darkgreen hover:bg-p1-green hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan inline-block w-max place-content-center rounded-r-xl border-2 p-2 text-center shadow-lg transition-all delay-75 duration-300 ease-in-out md:text-xl"
               >
                 Has Offers
               </Link>
@@ -799,7 +799,7 @@ export default function Home() {
           <div>
             <Link href={'#'} className="mx-auto justify-start">
               <Image
-                className="h-10 w-10 rounded-sm p-1 ring-p1-gray transition-all delay-75 duration-300 ease-in-out hover:bg-p1-green hover:bg-opacity-50 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:bg-p1-green"
+                className="ring-p1-gray hover:bg-p1-green hover:bg-opacity-50 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:hover:bg-p1-green h-10 w-10 rounded-sm p-1 transition-all delay-75 duration-300 ease-in-out dark:brightness-50"
                 width={480}
                 height={480}
                 src="/icon/2.png"
@@ -808,19 +808,19 @@ export default function Home() {
             </Link>
           </div>
           <span className="relative flex h-3 w-3 pt-4">
-            <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-p1-green opacity-75"></span>
-            <span className="relative inline-flex h-3 w-3 rounded-full bg-p1-green"></span>
+            <span className="bg-p1-green absolute inline-flex h-full w-full animate-ping rounded-full opacity-75"></span>
+            <span className="bg-p1-green relative inline-flex h-3 w-3 rounded-full"></span>
           </span>
-          <div className="place-content-center text-sm text-p1-darkgreen md:text-xl dark:text-p1-green">
+          <div className="text-p1-darkgreen dark:text-p1-green place-content-center text-sm md:text-xl">
             Live
           </div>
           <div className="flex grid-flow-row auto-rows-max justify-start space-x-2"></div>
           <div>
             <Link
               href="#"
-              className="place-content-center text-sm text-p1-darkgreen md:text-xl dark:text-p1-green"
+              className="text-p1-darkgreen dark:text-p1-green place-content-center text-sm md:text-xl"
             >
-              100 results{' '}
+              100 results
             </Link>
           </div>
         </div>
@@ -830,7 +830,7 @@ export default function Home() {
             <div className="w-10">
               <Link href={'#'} className="mx-auto justify-center">
                 <Image
-                  className="h-10 w-10 rounded-sm p-1 ring-p1-gray transition-all delay-75 duration-300 ease-in-out hover:bg-p1-darkgreen hover:bg-opacity-50 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:bg-p1-green"
+                  className="ring-p1-gray hover:bg-p1-darkgreen hover:bg-opacity-50 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:hover:bg-p1-green h-10 w-10 rounded-sm p-1 transition-all delay-75 duration-300 ease-in-out dark:brightness-50"
                   width={480}
                   height={480}
                   src="/icon/line.png"
@@ -841,7 +841,7 @@ export default function Home() {
             <div className="w-10">
               <Link href={'#'} className="mx-auto justify-center">
                 <Image
-                  className="h-10 w-10 rounded-sm p-1 ring-p1-gray transition-all delay-75 duration-300 ease-in-out hover:bg-p1-green hover:bg-opacity-50 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:bg-p1-green"
+                  className="ring-p1-gray hover:bg-p1-green hover:bg-opacity-50 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:hover:bg-p1-green h-10 w-10 rounded-sm p-1 transition-all delay-75 duration-300 ease-in-out dark:brightness-50"
                   width={480}
                   height={480}
                   src="/icon/16.png"
@@ -852,7 +852,7 @@ export default function Home() {
             <div className="w-10">
               <Link href={'#'} className="mx-auto justify-center">
                 <Image
-                  className="h-10 w-10 rounded-sm p-1 ring-p1-gray transition-all delay-75 duration-300 ease-in-out hover:bg-p1-green hover:bg-opacity-50 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:bg-p1-green"
+                  className="ring-p1-gray hover:bg-p1-green hover:bg-opacity-50 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:hover:bg-p1-green h-10 w-10 rounded-sm p-1 transition-all delay-75 duration-300 ease-in-out dark:brightness-50"
                   width={480}
                   height={480}
                   src="/icon/9.png"
@@ -863,7 +863,7 @@ export default function Home() {
             <div className="w-10">
               <Link href={'#'} className="mx-auto justify-center">
                 <Image
-                  className="h-10 w-10 rounded-sm p-1 ring-p1-gray transition-all delay-75 duration-300 ease-in-out hover:bg-p1-green hover:bg-opacity-50 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:bg-p1-green"
+                  className="ring-p1-gray hover:bg-p1-green hover:bg-opacity-50 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:hover:bg-p1-green h-10 w-10 rounded-sm p-1 transition-all delay-75 duration-300 ease-in-out dark:brightness-50"
                   width={480}
                   height={480}
                   src="/icon/4.png"
@@ -874,7 +874,7 @@ export default function Home() {
             <div className="w-10">
               <Link href={'#'} className="mx-auto justify-center">
                 <Image
-                  className="h-10 w-10 rounded-sm p-1 ring-p1-gray transition-all delay-75 duration-300 ease-in-out hover:bg-p1-green hover:bg-opacity-50 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:bg-p1-green"
+                  className="ring-p1-gray hover:bg-p1-green hover:bg-opacity-50 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:hover:bg-p1-green h-10 w-10 rounded-sm p-1 transition-all delay-75 duration-300 ease-in-out dark:brightness-50"
                   width={480}
                   height={480}
                   src="/icon/3.png"
@@ -890,19 +890,19 @@ export default function Home() {
 
       <div className="flex w-screen place-content-between gap-2 px-6">
         <div className="w-3/12 pt-2">
-          <div className="text-darkgreen mb-2 w-full rounded-2xl border border-p1-green bg-p1-white text-xl shadow-lg dark:bg-p1-deepdarkgreen">
+          <div className="text-darkgreen border-p1-green bg-p1-white dark:bg-p1-deepdarkgreen mb-2 w-full rounded-2xl border text-xl shadow-lg">
             <details className="m-2">
               <summary className="relative flex cursor-pointer justify-start py-2">
-                <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
+                <div className="text-p1-darkgreen dark:text-p1-green place-content-center px-4">
                   Price
                 </div>
               </summary>
-              <div className="pt-1 text-center text-p1-darkgreen lg:p-2 dark:text-p1-green">
-                <form className="inline-block w-full place-content-center pb-2 text-center text-p1-darkgreen hover:text-p1-darkgreen focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan">
+              <div className="text-p1-darkgreen dark:text-p1-green pt-1 text-center lg:p-2">
+                <form className="text-p1-darkgreen hover:text-p1-darkgreen focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan inline-block w-full place-content-center pb-2 text-center md:text-xl">
                   <label htmlFor="price" className="block w-full"></label>
                   <select
                     id="price"
-                    className="mx-auto flex w-full overflow-hidden rounded-t-xl border border-p1-green bg-p1-white bg-opacity-50 p-4 text-center hover:border-p1-green hover:bg-p2-white2 dark:bg-p1-deepdarkgreen dark:text-p1-green dark:accent-p1-darkgreen dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan"
+                    className="border-p1-green bg-p1-white bg-opacity-50 hover:border-p1-green hover:bg-p2-white2 dark:bg-p1-deepdarkgreen dark:text-p1-green dark:accent-p1-darkgreen dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan mx-auto flex w-full overflow-hidden rounded-t-xl border p-4 text-center"
                     defaultValue={'DEFAULT'}
                   >
                     <option value="DEFAULT" disabled>
@@ -920,7 +920,7 @@ export default function Home() {
                       <input
                         type="text"
                         id="price_min"
-                        className="block w-full border border-p1-green bg-p1-white p-3 text-center text-sm lining-nums text-p1-darkgreen hover:bg-p2-white2 focus:border-p1-darkgreen focus:ring-p1-darkgreen md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:placeholder-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan dark:focus:border-p1-green dark:focus:ring-p1-cyan"
+                        className="border-p1-green bg-p1-white text-p1-darkgreen hover:bg-p2-white2 focus:border-p1-darkgreen focus:ring-p1-darkgreen dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:placeholder-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan dark:focus:border-p1-green dark:focus:ring-p1-cyan block w-full border p-3 text-center text-sm lining-nums md:text-xl"
                         placeholder="Min"
                         required
                       />
@@ -932,7 +932,7 @@ export default function Home() {
                       <input
                         type="text"
                         id="price_max"
-                        className="block w-full border border-p1-green bg-p1-white p-3 text-center text-sm lining-nums text-p1-darkgreen hover:bg-p2-white2 focus:border-p1-darkgreen focus:ring-p1-darkgreen md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:placeholder-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan dark:focus:border-p1-green dark:focus:ring-p1-cyan"
+                        className="border-p1-green bg-p1-white text-p1-darkgreen hover:bg-p2-white2 focus:border-p1-darkgreen focus:ring-p1-darkgreen dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:placeholder-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan dark:focus:border-p1-green dark:focus:ring-p1-cyan block w-full border p-3 text-center text-sm lining-nums md:text-xl"
                         placeholder="Max"
                         required
                       />
@@ -942,7 +942,7 @@ export default function Home() {
                 <div>
                   <Link
                     href="#"
-                    className="relative flex place-content-center rounded-b-xl border border-p1-green bg-p1-white px-4 py-4 text-p1-darkgreen shadow-lg transition-all duration-300 ease-in-out hover:border-p1-darkgreen hover:bg-p2-white2 hover:text-p1-darkgreen hover:shadow-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan"
+                    className="border-p1-green bg-p1-white text-p1-darkgreen hover:border-p1-darkgreen hover:bg-p2-white2 hover:text-p1-darkgreen dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan relative flex place-content-center rounded-b-xl border px-4 py-4 shadow-lg transition-all duration-300 ease-in-out hover:shadow-xl"
                   >
                     <div className="px-4">Apply</div>
                   </Link>
@@ -951,21 +951,21 @@ export default function Home() {
             </details>
           </div>
 
-          <div className="text-darkgreen mb-2 w-full rounded-2xl border border-p1-green bg-p1-white text-xl shadow-lg dark:bg-p1-deepdarkgreen">
+          <div className="text-darkgreen border-p1-green bg-p1-white dark:bg-p1-deepdarkgreen mb-2 w-full rounded-2xl border text-xl shadow-lg">
             <details className="m-2">
               <summary className="relative flex cursor-pointer justify-start py-2">
-                <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
+                <div className="text-p1-darkgreen dark:text-p1-green place-content-center px-4">
                   Rarity rank
                 </div>
               </summary>
-              <div className="pt-1 text-center text-p1-darkgreen lg:p-2 dark:text-p1-green">
+              <div className="text-p1-darkgreen dark:text-p1-green pt-1 text-center lg:p-2">
                 <div className="inline-flex space-x-1 pb-2 md:space-x-2 xl:space-x-4 2xl:space-x-10">
                   <div>
                     <div>
                       <input
                         type="text"
                         id="price_min"
-                        className="block w-full rounded-tl-xl border border-p1-green bg-p1-white p-3 text-center text-sm lining-nums text-p1-darkgreen hover:bg-p2-white2 focus:border-p1-darkgreen focus:ring-p1-darkgreen md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:placeholder-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan dark:focus:border-p1-green dark:focus:ring-p1-cyan"
+                        className="border-p1-green bg-p1-white text-p1-darkgreen hover:bg-p2-white2 focus:border-p1-darkgreen focus:ring-p1-darkgreen dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:placeholder-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan dark:focus:border-p1-green dark:focus:ring-p1-cyan block w-full rounded-tl-xl border p-3 text-center text-sm lining-nums md:text-xl"
                         placeholder="Min"
                         required
                       />
@@ -977,7 +977,7 @@ export default function Home() {
                       <input
                         type="text"
                         id="price_max"
-                        className="block w-full rounded-tr-xl border border-p1-green bg-p1-white p-3 text-center text-sm lining-nums text-p1-darkgreen hover:bg-p2-white2 focus:border-p1-darkgreen focus:ring-p1-darkgreen md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:placeholder-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan dark:focus:border-p1-green dark:focus:ring-p1-cyan"
+                        className="border-p1-green bg-p1-white text-p1-darkgreen hover:bg-p2-white2 focus:border-p1-darkgreen focus:ring-p1-darkgreen dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:placeholder-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan dark:focus:border-p1-green dark:focus:ring-p1-cyan block w-full rounded-tr-xl border p-3 text-center text-sm lining-nums md:text-xl"
                         placeholder="Max"
                         required
                       />
@@ -987,7 +987,7 @@ export default function Home() {
                 <div>
                   <Link
                     href="#"
-                    className="relative flex place-content-center rounded-b-xl border border-p1-green bg-p1-white px-4 py-4 text-p1-darkgreen shadow-lg transition-all duration-300 ease-in-out hover:border-p1-darkgreen hover:bg-p2-white2 hover:text-p1-darkgreen hover:shadow-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan"
+                    className="border-p1-green bg-p1-white text-p1-darkgreen hover:border-p1-darkgreen hover:bg-p2-white2 hover:text-p1-darkgreen dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan relative flex place-content-center rounded-b-xl border px-4 py-4 shadow-lg transition-all duration-300 ease-in-out hover:shadow-xl"
                   >
                     <div className="px-4">Apply</div>
                   </Link>
@@ -996,29 +996,29 @@ export default function Home() {
             </details>
           </div>
 
-          <div className="text-darkgreen mb-2 w-full rounded-2xl border border-p1-green bg-p1-white text-xl shadow-lg dark:bg-p1-deepdarkgreen">
+          <div className="text-darkgreen border-p1-green bg-p1-white dark:bg-p1-deepdarkgreen mb-2 w-full rounded-2xl border text-xl shadow-lg">
             <details className="m-2">
               <summary className="relative flex cursor-pointer justify-start py-2">
-                <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
+                <div className="text-p1-darkgreen dark:text-p1-green place-content-center px-4">
                   Currency
                 </div>
               </summary>
-              <div className="pt-1 text-center text-p1-darkgreen dark:text-p1-green">
+              <div className="text-p1-darkgreen dark:text-p1-green pt-1 text-center">
                 <div className="flex justify-center pb-2">
                   <div>
-                    <div className="flex overflow-hidden rounded-2xl border border-p1-green bg-p2-white2 px-4 py-3 hover:border-p1-cyan focus:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan">
+                    <div className="border-p1-green bg-p2-white2 hover:border-p1-cyan focus:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan flex overflow-hidden rounded-2xl border px-4 py-3">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 192.904 192.904"
                         width="16px"
-                        className="mr-3 rotate-90 fill-gray-800 dark:fill-p1-cyan"
+                        className="dark:fill-p1-cyan mr-3 rotate-90 fill-gray-800"
                       >
                         <path d="m190.707 180.101-47.078-47.077c11.702-14.072 18.752-32.142 18.752-51.831C162.381 36.423 125.959 0 81.191 0 36.422 0 0 36.423 0 81.193c0 44.767 36.422 81.187 81.191 81.187 19.688 0 37.759-7.049 51.831-18.751l47.079 47.078a7.474 7.474 0 0 0 5.303 2.197 7.498 7.498 0 0 0 5.303-12.803zM15 81.193C15 44.694 44.693 15 81.191 15c36.497 0 66.189 29.694 66.189 66.193 0 36.496-29.692 66.187-66.189 66.187C44.693 147.38 15 117.689 15 81.193z"></path>
                       </svg>
                       <input
                         type="email"
                         placeholder="Search ..."
-                        className="w-full bg-transparent text-xl text-p1-deepdarkgreen outline-none dark:text-p1-cyan"
+                        className="text-p1-deepdarkgreen dark:text-p1-cyan w-full bg-transparent text-xl outline-none"
                       />
                     </div>
                   </div>
@@ -1032,12 +1032,12 @@ export default function Home() {
                     }}
                     type="checkbox"
                     value=""
-                    className="focus:ring-p1-cian h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                    className="focus:ring-p1-cian text-p1-darkgreen accent-p1-darkgreen dark:bg-p1-green dark:focus:ring-p1-green h-5 w-5 rounded border-gray-300 bg-gray-100 focus:ring-2 dark:border-gray-600 dark:ring-offset-gray-800"
                   />
                   <label
                     id="3"
                     htmlFor="checkbox_ETH"
-                    className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-p1-cyan"
+                    className="text-p1-darkgreen dark:text-p1-cyan ms-2 text-lg font-medium"
                   >
                     ETH
                   </label>
@@ -1051,12 +1051,12 @@ export default function Home() {
                     }}
                     type="checkbox"
                     value=""
-                    className="focus:ring-p1-cian h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                    className="focus:ring-p1-cian text-p1-darkgreen accent-p1-darkgreen dark:bg-p1-green dark:focus:ring-p1-green h-5 w-5 rounded border-gray-300 bg-gray-100 focus:ring-2 dark:border-gray-600 dark:ring-offset-gray-800"
                   />
                   <label
                     id="3"
                     htmlFor="checkbox_POL"
-                    className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-p1-cyan"
+                    className="text-p1-darkgreen dark:text-p1-cyan ms-2 text-lg font-medium"
                   >
                     POL
                   </label>
@@ -1065,36 +1065,36 @@ export default function Home() {
             </details>
           </div>
 
-          <div className="w-full place-content-center px-6 pb-4 pt-4 text-xl text-p1-darkgreen dark:text-p1-green">
+          <div className="text-p1-darkgreen dark:text-p1-green w-full place-content-center px-6 pt-4 pb-4 text-xl">
             Traits
           </div>
 
-          <div className="text-darkgreen mb-2 w-full rounded-2xl border border-p1-green bg-p1-white text-xl shadow-lg dark:bg-p1-deepdarkgreen">
+          <div className="text-darkgreen border-p1-green bg-p1-white dark:bg-p1-deepdarkgreen mb-2 w-full rounded-2xl border text-xl shadow-lg">
             <details className="m-2">
               <summary className="relative flex cursor-pointer justify-between py-2">
-                <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
+                <div className="text-p1-darkgreen dark:text-p1-green place-content-center px-4">
                   Slogan
                 </div>
-                <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
+                <div className="text-p1-darkgreen dark:text-p1-green place-content-center px-4">
                   8
                 </div>
               </summary>
-              <div className="pt-1 text-center text-p1-darkgreen dark:text-p1-green">
+              <div className="text-p1-darkgreen dark:text-p1-green pt-1 text-center">
                 <div className="flex justify-center pb-2">
                   <div>
-                    <div className="flex overflow-hidden rounded-2xl border border-p1-green bg-p2-white2 px-4 py-3 hover:border-p1-cyan focus:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan">
+                    <div className="border-p1-green bg-p2-white2 hover:border-p1-cyan focus:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan flex overflow-hidden rounded-2xl border px-4 py-3">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 192.904 192.904"
                         width="16px"
-                        className="mr-3 rotate-90 fill-gray-800 dark:fill-p1-cyan"
+                        className="dark:fill-p1-cyan mr-3 rotate-90 fill-gray-800"
                       >
                         <path d="m190.707 180.101-47.078-47.077c11.702-14.072 18.752-32.142 18.752-51.831C162.381 36.423 125.959 0 81.191 0 36.422 0 0 36.423 0 81.193c0 44.767 36.422 81.187 81.191 81.187 19.688 0 37.759-7.049 51.831-18.751l47.079 47.078a7.474 7.474 0 0 0 5.303 2.197 7.498 7.498 0 0 0 5.303-12.803zM15 81.193C15 44.694 44.693 15 81.191 15c36.497 0 66.189 29.694 66.189 66.193 0 36.496-29.692 66.187-66.189 66.187C44.693 147.38 15 117.689 15 81.193z"></path>
                       </svg>
                       <input
                         type="email"
                         placeholder="Search ..."
-                        className="w-full bg-transparent text-xl text-p1-deepdarkgreen outline-none dark:text-p1-cyan"
+                        className="text-p1-deepdarkgreen dark:text-p1-cyan w-full bg-transparent text-xl outline-none"
                       />
                     </div>
                   </div>
@@ -1108,16 +1108,16 @@ export default function Home() {
                     }}
                     type="checkbox"
                     value=""
-                    className="focus:ring-p1-cian h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                    className="focus:ring-p1-cian text-p1-darkgreen accent-p1-darkgreen dark:bg-p1-green dark:focus:ring-p1-green h-5 w-5 rounded border-gray-300 bg-gray-100 focus:ring-2 dark:border-gray-600 dark:ring-offset-gray-800"
                   />
                   <label
                     id="3"
                     htmlFor="checkbox_ETH"
-                    className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-p1-cyan"
+                    className="text-p1-darkgreen dark:text-p1-cyan ms-2 text-lg font-medium"
                   >
                     Always a champion
                   </label>
-                  <div className="px-4 text-p1-darkgreen dark:text-p1-green">46</div>
+                  <div className="text-p1-darkgreen dark:text-p1-green px-4">46</div>
                 </div>
 
                 <div className="flex place-content-between p-4">
@@ -1129,47 +1129,47 @@ export default function Home() {
                     }}
                     type="checkbox"
                     value=""
-                    className="focus:ring-p1-cian h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                    className="focus:ring-p1-cian text-p1-darkgreen accent-p1-darkgreen dark:bg-p1-green dark:focus:ring-p1-green h-5 w-5 rounded border-gray-300 bg-gray-100 focus:ring-2 dark:border-gray-600 dark:ring-offset-gray-800"
                   />
                   <label
                     id="3"
                     htmlFor="checkbox_POL"
-                    className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-p1-cyan"
+                    className="text-p1-darkgreen dark:text-p1-cyan ms-2 text-lg font-medium"
                   >
                     Drift till I die
                   </label>
-                  <div className="px-4 text-p1-darkgreen dark:text-p1-green">46</div>
+                  <div className="text-p1-darkgreen dark:text-p1-green px-4">46</div>
                 </div>
               </div>
             </details>
           </div>
 
-          <div className="text-darkgreen mb-2 w-full rounded-2xl border border-p1-green bg-p1-white text-xl shadow-lg dark:bg-p1-deepdarkgreen">
+          <div className="text-darkgreen border-p1-green bg-p1-white dark:bg-p1-deepdarkgreen mb-2 w-full rounded-2xl border text-xl shadow-lg">
             <details className="m-2">
               <summary className="relative flex cursor-pointer justify-between py-2">
-                <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
+                <div className="text-p1-darkgreen dark:text-p1-green place-content-center px-4">
                   Background
                 </div>
-                <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
+                <div className="text-p1-darkgreen dark:text-p1-green place-content-center px-4">
                   46
                 </div>
               </summary>
-              <div className="pt-1 text-center text-p1-darkgreen dark:text-p1-green">
+              <div className="text-p1-darkgreen dark:text-p1-green pt-1 text-center">
                 <div className="flex justify-center pb-2">
                   <div>
-                    <div className="flex overflow-hidden rounded-2xl border border-p1-green bg-p2-white2 px-4 py-3 hover:border-p1-cyan focus:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan">
+                    <div className="border-p1-green bg-p2-white2 hover:border-p1-cyan focus:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan flex overflow-hidden rounded-2xl border px-4 py-3">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 192.904 192.904"
                         width="16px"
-                        className="mr-3 rotate-90 fill-gray-800 dark:fill-p1-cyan"
+                        className="dark:fill-p1-cyan mr-3 rotate-90 fill-gray-800"
                       >
                         <path d="m190.707 180.101-47.078-47.077c11.702-14.072 18.752-32.142 18.752-51.831C162.381 36.423 125.959 0 81.191 0 36.422 0 0 36.423 0 81.193c0 44.767 36.422 81.187 81.191 81.187 19.688 0 37.759-7.049 51.831-18.751l47.079 47.078a7.474 7.474 0 0 0 5.303 2.197 7.498 7.498 0 0 0 5.303-12.803zM15 81.193C15 44.694 44.693 15 81.191 15c36.497 0 66.189 29.694 66.189 66.193 0 36.496-29.692 66.187-66.189 66.187C44.693 147.38 15 117.689 15 81.193z"></path>
                       </svg>
                       <input
                         type="email"
                         placeholder="Search ..."
-                        className="w-full bg-transparent text-xl text-p1-deepdarkgreen outline-none dark:text-p1-cyan"
+                        className="text-p1-deepdarkgreen dark:text-p1-cyan w-full bg-transparent text-xl outline-none"
                       />
                     </div>
                   </div>
@@ -1183,16 +1183,16 @@ export default function Home() {
                     }}
                     type="checkbox"
                     value=""
-                    className="focus:ring-p1-cian h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                    className="focus:ring-p1-cian text-p1-darkgreen accent-p1-darkgreen dark:bg-p1-green dark:focus:ring-p1-green h-5 w-5 rounded border-gray-300 bg-gray-100 focus:ring-2 dark:border-gray-600 dark:ring-offset-gray-800"
                   />
                   <label
                     id="3"
                     htmlFor="checkbox_ETH"
-                    className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-p1-cyan"
+                    className="text-p1-darkgreen dark:text-p1-cyan ms-2 text-lg font-medium"
                   >
                     Aquamarine
                   </label>
-                  <div className="px-4 text-p1-darkgreen dark:text-p1-green">44</div>
+                  <div className="text-p1-darkgreen dark:text-p1-green px-4">44</div>
                 </div>
                 <div className="flex place-content-between p-4">
                   <input
@@ -1203,47 +1203,47 @@ export default function Home() {
                     }}
                     type="checkbox"
                     value=""
-                    className="focus:ring-p1-cian h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                    className="focus:ring-p1-cian text-p1-darkgreen accent-p1-darkgreen dark:bg-p1-green dark:focus:ring-p1-green h-5 w-5 rounded border-gray-300 bg-gray-100 focus:ring-2 dark:border-gray-600 dark:ring-offset-gray-800"
                   />
                   <label
                     id="3"
                     htmlFor="checkbox_POL"
-                    className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-p1-cyan"
+                    className="text-p1-darkgreen dark:text-p1-cyan ms-2 text-lg font-medium"
                   >
                     Sky Blue
                   </label>
-                  <div className="px-4 text-p1-darkgreen dark:text-p1-green">46</div>
+                  <div className="text-p1-darkgreen dark:text-p1-green px-4">46</div>
                 </div>
               </div>
             </details>
           </div>
 
-          <div className="text-darkgreen mb-2 w-full rounded-2xl border border-p1-green bg-p1-white text-xl shadow-lg dark:bg-p1-deepdarkgreen">
+          <div className="text-darkgreen border-p1-green bg-p1-white dark:bg-p1-deepdarkgreen mb-2 w-full rounded-2xl border text-xl shadow-lg">
             <details className="m-2">
               <summary className="relative flex cursor-pointer justify-between py-2">
-                <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
+                <div className="text-p1-darkgreen dark:text-p1-green place-content-center px-4">
                   Skin
                 </div>
-                <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
+                <div className="text-p1-darkgreen dark:text-p1-green place-content-center px-4">
                   8
                 </div>
               </summary>
-              <div className="pt-1 text-center text-p1-darkgreen dark:text-p1-green">
+              <div className="text-p1-darkgreen dark:text-p1-green pt-1 text-center">
                 <div className="flex justify-center pb-2">
                   <div>
-                    <div className="flex overflow-hidden rounded-2xl border border-p1-green bg-p2-white2 px-4 py-3 hover:border-p1-cyan focus:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan">
+                    <div className="border-p1-green bg-p2-white2 hover:border-p1-cyan focus:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan flex overflow-hidden rounded-2xl border px-4 py-3">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 192.904 192.904"
                         width="16px"
-                        className="mr-3 rotate-90 fill-gray-800 dark:fill-p1-cyan"
+                        className="dark:fill-p1-cyan mr-3 rotate-90 fill-gray-800"
                       >
                         <path d="m190.707 180.101-47.078-47.077c11.702-14.072 18.752-32.142 18.752-51.831C162.381 36.423 125.959 0 81.191 0 36.422 0 0 36.423 0 81.193c0 44.767 36.422 81.187 81.191 81.187 19.688 0 37.759-7.049 51.831-18.751l47.079 47.078a7.474 7.474 0 0 0 5.303 2.197 7.498 7.498 0 0 0 5.303-12.803zM15 81.193C15 44.694 44.693 15 81.191 15c36.497 0 66.189 29.694 66.189 66.193 0 36.496-29.692 66.187-66.189 66.187C44.693 147.38 15 117.689 15 81.193z"></path>
                       </svg>
                       <input
                         type="email"
                         placeholder="Search ..."
-                        className="w-full bg-transparent text-xl text-p1-deepdarkgreen outline-none dark:text-p1-cyan"
+                        className="text-p1-deepdarkgreen dark:text-p1-cyan w-full bg-transparent text-xl outline-none"
                       />
                     </div>
                   </div>
@@ -1257,16 +1257,16 @@ export default function Home() {
                     }}
                     type="checkbox"
                     value=""
-                    className="focus:ring-p1-cian h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                    className="focus:ring-p1-cian text-p1-darkgreen accent-p1-darkgreen dark:bg-p1-green dark:focus:ring-p1-green h-5 w-5 rounded border-gray-300 bg-gray-100 focus:ring-2 dark:border-gray-600 dark:ring-offset-gray-800"
                   />
                   <label
                     id="3"
                     htmlFor="checkbox_ETH"
-                    className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-p1-cyan"
+                    className="text-p1-darkgreen dark:text-p1-cyan ms-2 text-lg font-medium"
                   >
                     Asian
                   </label>
-                  <div className="px-4 text-p1-darkgreen dark:text-p1-green">2345</div>
+                  <div className="text-p1-darkgreen dark:text-p1-green px-4">2345</div>
                 </div>
                 <div className="flex place-content-between p-4">
                   <input
@@ -1277,47 +1277,47 @@ export default function Home() {
                     }}
                     type="checkbox"
                     value=""
-                    className="focus:ring-p1-cian h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                    className="focus:ring-p1-cian text-p1-darkgreen accent-p1-darkgreen dark:bg-p1-green dark:focus:ring-p1-green h-5 w-5 rounded border-gray-300 bg-gray-100 focus:ring-2 dark:border-gray-600 dark:ring-offset-gray-800"
                   />
                   <label
                     id="3"
                     htmlFor="checkbox_POL"
-                    className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-p1-cyan"
+                    className="text-p1-darkgreen dark:text-p1-cyan ms-2 text-lg font-medium"
                   >
                     Arab
                   </label>
-                  <div className="px-4 text-p1-darkgreen dark:text-p1-green">1256</div>
+                  <div className="text-p1-darkgreen dark:text-p1-green px-4">1256</div>
                 </div>
               </div>
             </details>
           </div>
 
-          <div className="text-darkgreen mb-2 w-full rounded-2xl border border-p1-green bg-p1-white text-xl shadow-lg dark:bg-p1-deepdarkgreen">
+          <div className="text-darkgreen border-p1-green bg-p1-white dark:bg-p1-deepdarkgreen mb-2 w-full rounded-2xl border text-xl shadow-lg">
             <details className="m-2">
               <summary className="relative flex cursor-pointer justify-between py-2">
-                <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
+                <div className="text-p1-darkgreen dark:text-p1-green place-content-center px-4">
                   Eyes
                 </div>
-                <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
+                <div className="text-p1-darkgreen dark:text-p1-green place-content-center px-4">
                   8
                 </div>
               </summary>
-              <div className="pt-1 text-center text-p1-darkgreen dark:text-p1-green">
+              <div className="text-p1-darkgreen dark:text-p1-green pt-1 text-center">
                 <div className="flex justify-center pb-2">
                   <div>
-                    <div className="flex overflow-hidden rounded-2xl border border-p1-green bg-p2-white2 px-4 py-3 hover:border-p1-cyan focus:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan">
+                    <div className="border-p1-green bg-p2-white2 hover:border-p1-cyan focus:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan flex overflow-hidden rounded-2xl border px-4 py-3">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 192.904 192.904"
                         width="16px"
-                        className="mr-3 rotate-90 fill-gray-800 dark:fill-p1-cyan"
+                        className="dark:fill-p1-cyan mr-3 rotate-90 fill-gray-800"
                       >
                         <path d="m190.707 180.101-47.078-47.077c11.702-14.072 18.752-32.142 18.752-51.831C162.381 36.423 125.959 0 81.191 0 36.422 0 0 36.423 0 81.193c0 44.767 36.422 81.187 81.191 81.187 19.688 0 37.759-7.049 51.831-18.751l47.079 47.078a7.474 7.474 0 0 0 5.303 2.197 7.498 7.498 0 0 0 5.303-12.803zM15 81.193C15 44.694 44.693 15 81.191 15c36.497 0 66.189 29.694 66.189 66.193 0 36.496-29.692 66.187-66.189 66.187C44.693 147.38 15 117.689 15 81.193z"></path>
                       </svg>
                       <input
                         type="email"
                         placeholder="Search ..."
-                        className="w-full bg-transparent text-xl text-p1-deepdarkgreen outline-none dark:text-p1-cyan"
+                        className="text-p1-deepdarkgreen dark:text-p1-cyan w-full bg-transparent text-xl outline-none"
                       />
                     </div>
                   </div>
@@ -1331,16 +1331,16 @@ export default function Home() {
                     }}
                     type="checkbox"
                     value=""
-                    className="focus:ring-p1-cian h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                    className="focus:ring-p1-cian text-p1-darkgreen accent-p1-darkgreen dark:bg-p1-green dark:focus:ring-p1-green h-5 w-5 rounded border-gray-300 bg-gray-100 focus:ring-2 dark:border-gray-600 dark:ring-offset-gray-800"
                   />
                   <label
                     id="3"
                     htmlFor="checkbox_ETH"
-                    className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-p1-cyan"
+                    className="text-p1-darkgreen dark:text-p1-cyan ms-2 text-lg font-medium"
                   >
                     Normal
                   </label>
-                  <div className="px-4 text-p1-darkgreen dark:text-p1-green">2345</div>
+                  <div className="text-p1-darkgreen dark:text-p1-green px-4">2345</div>
                 </div>
                 <div className="flex place-content-between p-4">
                   <input
@@ -1351,47 +1351,47 @@ export default function Home() {
                     }}
                     type="checkbox"
                     value=""
-                    className="focus:ring-p1-cian h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                    className="focus:ring-p1-cian text-p1-darkgreen accent-p1-darkgreen dark:bg-p1-green dark:focus:ring-p1-green h-5 w-5 rounded border-gray-300 bg-gray-100 focus:ring-2 dark:border-gray-600 dark:ring-offset-gray-800"
                   />
                   <label
                     id="3"
                     htmlFor="checkbox_POL"
-                    className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-p1-cyan"
+                    className="text-p1-darkgreen dark:text-p1-cyan ms-2 text-lg font-medium"
                   >
                     Kind
                   </label>
-                  <div className="px-4 text-p1-darkgreen dark:text-p1-green">1256</div>
+                  <div className="text-p1-darkgreen dark:text-p1-green px-4">1256</div>
                 </div>
               </div>
             </details>
           </div>
 
-          <div className="text-darkgreen mb-2 w-full rounded-2xl border border-p1-green bg-p1-white text-xl shadow-lg dark:bg-p1-deepdarkgreen">
+          <div className="text-darkgreen border-p1-green bg-p1-white dark:bg-p1-deepdarkgreen mb-2 w-full rounded-2xl border text-xl shadow-lg">
             <details className="m-2">
               <summary className="relative flex cursor-pointer justify-between py-2">
-                <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
+                <div className="text-p1-darkgreen dark:text-p1-green place-content-center px-4">
                   Mouth
                 </div>
-                <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
+                <div className="text-p1-darkgreen dark:text-p1-green place-content-center px-4">
                   16
                 </div>
               </summary>
-              <div className="pt-1 text-center text-p1-darkgreen dark:text-p1-green">
+              <div className="text-p1-darkgreen dark:text-p1-green pt-1 text-center">
                 <div className="flex justify-center pb-2">
                   <div>
-                    <div className="flex overflow-hidden rounded-2xl border border-p1-green bg-p2-white2 px-4 py-3 hover:border-p1-cyan focus:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan">
+                    <div className="border-p1-green bg-p2-white2 hover:border-p1-cyan focus:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan flex overflow-hidden rounded-2xl border px-4 py-3">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 192.904 192.904"
                         width="16px"
-                        className="mr-3 rotate-90 fill-gray-800 dark:fill-p1-cyan"
+                        className="dark:fill-p1-cyan mr-3 rotate-90 fill-gray-800"
                       >
                         <path d="m190.707 180.101-47.078-47.077c11.702-14.072 18.752-32.142 18.752-51.831C162.381 36.423 125.959 0 81.191 0 36.422 0 0 36.423 0 81.193c0 44.767 36.422 81.187 81.191 81.187 19.688 0 37.759-7.049 51.831-18.751l47.079 47.078a7.474 7.474 0 0 0 5.303 2.197 7.498 7.498 0 0 0 5.303-12.803zM15 81.193C15 44.694 44.693 15 81.191 15c36.497 0 66.189 29.694 66.189 66.193 0 36.496-29.692 66.187-66.189 66.187C44.693 147.38 15 117.689 15 81.193z"></path>
                       </svg>
                       <input
                         type="email"
                         placeholder="Search ..."
-                        className="w-full bg-transparent text-xl text-p1-deepdarkgreen outline-none dark:text-p1-cyan"
+                        className="text-p1-deepdarkgreen dark:text-p1-cyan w-full bg-transparent text-xl outline-none"
                       />
                     </div>
                   </div>
@@ -1405,16 +1405,16 @@ export default function Home() {
                     }}
                     type="checkbox"
                     value=""
-                    className="focus:ring-p1-cian h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                    className="focus:ring-p1-cian text-p1-darkgreen accent-p1-darkgreen dark:bg-p1-green dark:focus:ring-p1-green h-5 w-5 rounded border-gray-300 bg-gray-100 focus:ring-2 dark:border-gray-600 dark:ring-offset-gray-800"
                   />
                   <label
                     id="3"
                     htmlFor="checkbox_ETH"
-                    className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-p1-cyan"
+                    className="text-p1-darkgreen dark:text-p1-cyan ms-2 text-lg font-medium"
                   >
                     Neutral
                   </label>
-                  <div className="px-4 text-p1-darkgreen dark:text-p1-green">4564</div>
+                  <div className="text-p1-darkgreen dark:text-p1-green px-4">4564</div>
                 </div>
                 <div className="flex place-content-between p-4">
                   <input
@@ -1425,47 +1425,47 @@ export default function Home() {
                     }}
                     type="checkbox"
                     value=""
-                    className="focus:ring-p1-cian h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                    className="focus:ring-p1-cian text-p1-darkgreen accent-p1-darkgreen dark:bg-p1-green dark:focus:ring-p1-green h-5 w-5 rounded border-gray-300 bg-gray-100 focus:ring-2 dark:border-gray-600 dark:ring-offset-gray-800"
                   />
                   <label
                     id="3"
                     htmlFor="checkbox_POL"
-                    className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-p1-cyan"
+                    className="text-p1-darkgreen dark:text-p1-cyan ms-2 text-lg font-medium"
                   >
                     Sad
                   </label>
-                  <div className="px-4 text-p1-darkgreen dark:text-p1-green">1256</div>
+                  <div className="text-p1-darkgreen dark:text-p1-green px-4">1256</div>
                 </div>
               </div>
             </details>
           </div>
 
-          <div className="text-darkgreen mb-2 w-full rounded-2xl border border-p1-green bg-p1-white text-xl shadow-lg dark:bg-p1-deepdarkgreen">
+          <div className="text-darkgreen border-p1-green bg-p1-white dark:bg-p1-deepdarkgreen mb-2 w-full rounded-2xl border text-xl shadow-lg">
             <details className="m-2">
               <summary className="relative flex cursor-pointer justify-between py-2">
-                <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
+                <div className="text-p1-darkgreen dark:text-p1-green place-content-center px-4">
                   Nose
                 </div>
-                <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
+                <div className="text-p1-darkgreen dark:text-p1-green place-content-center px-4">
                   4
                 </div>
               </summary>
-              <div className="pt-1 text-center text-p1-darkgreen dark:text-p1-green">
+              <div className="text-p1-darkgreen dark:text-p1-green pt-1 text-center">
                 <div className="flex justify-center pb-2">
                   <div>
-                    <div className="flex overflow-hidden rounded-2xl border border-p1-green bg-p2-white2 px-4 py-3 hover:border-p1-cyan focus:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan">
+                    <div className="border-p1-green bg-p2-white2 hover:border-p1-cyan focus:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan flex overflow-hidden rounded-2xl border px-4 py-3">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 192.904 192.904"
                         width="16px"
-                        className="mr-3 rotate-90 fill-gray-800 dark:fill-p1-cyan"
+                        className="dark:fill-p1-cyan mr-3 rotate-90 fill-gray-800"
                       >
                         <path d="m190.707 180.101-47.078-47.077c11.702-14.072 18.752-32.142 18.752-51.831C162.381 36.423 125.959 0 81.191 0 36.422 0 0 36.423 0 81.193c0 44.767 36.422 81.187 81.191 81.187 19.688 0 37.759-7.049 51.831-18.751l47.079 47.078a7.474 7.474 0 0 0 5.303 2.197 7.498 7.498 0 0 0 5.303-12.803zM15 81.193C15 44.694 44.693 15 81.191 15c36.497 0 66.189 29.694 66.189 66.193 0 36.496-29.692 66.187-66.189 66.187C44.693 147.38 15 117.689 15 81.193z"></path>
                       </svg>
                       <input
                         type="email"
                         placeholder="Search ..."
-                        className="w-full bg-transparent text-xl text-p1-deepdarkgreen outline-none dark:text-p1-cyan"
+                        className="text-p1-deepdarkgreen dark:text-p1-cyan w-full bg-transparent text-xl outline-none"
                       />
                     </div>
                   </div>
@@ -1479,16 +1479,16 @@ export default function Home() {
                     }}
                     type="checkbox"
                     value=""
-                    className="focus:ring-p1-cian h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                    className="focus:ring-p1-cian text-p1-darkgreen accent-p1-darkgreen dark:bg-p1-green dark:focus:ring-p1-green h-5 w-5 rounded border-gray-300 bg-gray-100 focus:ring-2 dark:border-gray-600 dark:ring-offset-gray-800"
                   />
                   <label
                     id="3"
                     htmlFor="checkbox_ETH"
-                    className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-p1-cyan"
+                    className="text-p1-darkgreen dark:text-p1-cyan ms-2 text-lg font-medium"
                   >
                     Normal
                   </label>
-                  <div className="px-4 text-p1-darkgreen dark:text-p1-green">1234</div>
+                  <div className="text-p1-darkgreen dark:text-p1-green px-4">1234</div>
                 </div>
                 <div className="flex place-content-between p-4">
                   <input
@@ -1499,47 +1499,47 @@ export default function Home() {
                     }}
                     type="checkbox"
                     value=""
-                    className="focus:ring-p1-cian h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                    className="focus:ring-p1-cian text-p1-darkgreen accent-p1-darkgreen dark:bg-p1-green dark:focus:ring-p1-green h-5 w-5 rounded border-gray-300 bg-gray-100 focus:ring-2 dark:border-gray-600 dark:ring-offset-gray-800"
                   />
                   <label
                     id="3"
                     htmlFor="checkbox_POL"
-                    className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-p1-cyan"
+                    className="text-p1-darkgreen dark:text-p1-cyan ms-2 text-lg font-medium"
                   >
                     Bulbous
                   </label>
-                  <div className="px-4 text-p1-darkgreen dark:text-p1-green">987</div>
+                  <div className="text-p1-darkgreen dark:text-p1-green px-4">987</div>
                 </div>
               </div>
             </details>
           </div>
 
-          <div className="text-darkgreen mb-2 w-full rounded-2xl border border-p1-green bg-p1-white text-xl shadow-lg dark:bg-p1-deepdarkgreen">
+          <div className="text-darkgreen border-p1-green bg-p1-white dark:bg-p1-deepdarkgreen mb-2 w-full rounded-2xl border text-xl shadow-lg">
             <details className="m-2">
               <summary className="relative flex cursor-pointer justify-between py-2">
-                <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
+                <div className="text-p1-darkgreen dark:text-p1-green place-content-center px-4">
                   Earring
                 </div>
-                <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
+                <div className="text-p1-darkgreen dark:text-p1-green place-content-center px-4">
                   7
                 </div>
               </summary>
-              <div className="pt-1 text-center text-p1-darkgreen dark:text-p1-green">
+              <div className="text-p1-darkgreen dark:text-p1-green pt-1 text-center">
                 <div className="flex justify-center pb-2">
                   <div>
-                    <div className="flex overflow-hidden rounded-2xl border border-p1-green bg-p2-white2 px-4 py-3 hover:border-p1-cyan focus:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan">
+                    <div className="border-p1-green bg-p2-white2 hover:border-p1-cyan focus:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan flex overflow-hidden rounded-2xl border px-4 py-3">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 192.904 192.904"
                         width="16px"
-                        className="mr-3 rotate-90 fill-gray-800 dark:fill-p1-cyan"
+                        className="dark:fill-p1-cyan mr-3 rotate-90 fill-gray-800"
                       >
                         <path d="m190.707 180.101-47.078-47.077c11.702-14.072 18.752-32.142 18.752-51.831C162.381 36.423 125.959 0 81.191 0 36.422 0 0 36.423 0 81.193c0 44.767 36.422 81.187 81.191 81.187 19.688 0 37.759-7.049 51.831-18.751l47.079 47.078a7.474 7.474 0 0 0 5.303 2.197 7.498 7.498 0 0 0 5.303-12.803zM15 81.193C15 44.694 44.693 15 81.191 15c36.497 0 66.189 29.694 66.189 66.193 0 36.496-29.692 66.187-66.189 66.187C44.693 147.38 15 117.689 15 81.193z"></path>
                       </svg>
                       <input
                         type="email"
                         placeholder="Search ..."
-                        className="w-full bg-transparent text-xl text-p1-deepdarkgreen outline-none dark:text-p1-cyan"
+                        className="text-p1-deepdarkgreen dark:text-p1-cyan w-full bg-transparent text-xl outline-none"
                       />
                     </div>
                   </div>
@@ -1553,16 +1553,16 @@ export default function Home() {
                     }}
                     type="checkbox"
                     value=""
-                    className="focus:ring-p1-cian h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                    className="focus:ring-p1-cian text-p1-darkgreen accent-p1-darkgreen dark:bg-p1-green dark:focus:ring-p1-green h-5 w-5 rounded border-gray-300 bg-gray-100 focus:ring-2 dark:border-gray-600 dark:ring-offset-gray-800"
                   />
                   <label
                     id="3"
                     htmlFor="checkbox_ETH"
-                    className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-p1-cyan"
+                    className="text-p1-darkgreen dark:text-p1-cyan ms-2 text-lg font-medium"
                   >
                     No Earring
                   </label>
-                  <div className="px-4 text-p1-darkgreen dark:text-p1-green">7356</div>
+                  <div className="text-p1-darkgreen dark:text-p1-green px-4">7356</div>
                 </div>
                 <div className="flex place-content-between p-4">
                   <input
@@ -1573,47 +1573,47 @@ export default function Home() {
                     }}
                     type="checkbox"
                     value=""
-                    className="focus:ring-p1-cian h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                    className="focus:ring-p1-cian text-p1-darkgreen accent-p1-darkgreen dark:bg-p1-green dark:focus:ring-p1-green h-5 w-5 rounded border-gray-300 bg-gray-100 focus:ring-2 dark:border-gray-600 dark:ring-offset-gray-800"
                   />
                   <label
                     id="3"
                     htmlFor="checkbox_POL"
-                    className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-p1-cyan"
+                    className="text-p1-darkgreen dark:text-p1-cyan ms-2 text-lg font-medium"
                   >
                     Gold Earring
                   </label>
-                  <div className="px-4 text-p1-darkgreen dark:text-p1-green">369</div>
+                  <div className="text-p1-darkgreen dark:text-p1-green px-4">369</div>
                 </div>
               </div>
             </details>
           </div>
 
-          <div className="text-darkgreen mb-2 w-full rounded-2xl border border-p1-green bg-p1-white text-xl shadow-lg dark:bg-p1-deepdarkgreen">
+          <div className="text-darkgreen border-p1-green bg-p1-white dark:bg-p1-deepdarkgreen mb-2 w-full rounded-2xl border text-xl shadow-lg">
             <details className="m-2">
               <summary className="relative flex cursor-pointer justify-between py-2">
-                <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
+                <div className="text-p1-darkgreen dark:text-p1-green place-content-center px-4">
                   Eye pads
                 </div>
-                <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
+                <div className="text-p1-darkgreen dark:text-p1-green place-content-center px-4">
                   3
                 </div>
               </summary>
-              <div className="pt-1 text-center text-p1-darkgreen dark:text-p1-green">
+              <div className="text-p1-darkgreen dark:text-p1-green pt-1 text-center">
                 <div className="flex justify-center pb-2">
                   <div>
-                    <div className="flex overflow-hidden rounded-2xl border border-p1-green bg-p2-white2 px-4 py-3 hover:border-p1-cyan focus:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan">
+                    <div className="border-p1-green bg-p2-white2 hover:border-p1-cyan focus:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan flex overflow-hidden rounded-2xl border px-4 py-3">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 192.904 192.904"
                         width="16px"
-                        className="mr-3 rotate-90 fill-gray-800 dark:fill-p1-cyan"
+                        className="dark:fill-p1-cyan mr-3 rotate-90 fill-gray-800"
                       >
                         <path d="m190.707 180.101-47.078-47.077c11.702-14.072 18.752-32.142 18.752-51.831C162.381 36.423 125.959 0 81.191 0 36.422 0 0 36.423 0 81.193c0 44.767 36.422 81.187 81.191 81.187 19.688 0 37.759-7.049 51.831-18.751l47.079 47.078a7.474 7.474 0 0 0 5.303 2.197 7.498 7.498 0 0 0 5.303-12.803zM15 81.193C15 44.694 44.693 15 81.191 15c36.497 0 66.189 29.694 66.189 66.193 0 36.496-29.692 66.187-66.189 66.187C44.693 147.38 15 117.689 15 81.193z"></path>
                       </svg>
                       <input
                         type="email"
                         placeholder="Search ..."
-                        className="w-full bg-transparent text-xl text-p1-deepdarkgreen outline-none dark:text-p1-cyan"
+                        className="text-p1-deepdarkgreen dark:text-p1-cyan w-full bg-transparent text-xl outline-none"
                       />
                     </div>
                   </div>
@@ -1627,16 +1627,16 @@ export default function Home() {
                     }}
                     type="checkbox"
                     value=""
-                    className="focus:ring-p1-cian h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                    className="focus:ring-p1-cian text-p1-darkgreen accent-p1-darkgreen dark:bg-p1-green dark:focus:ring-p1-green h-5 w-5 rounded border-gray-300 bg-gray-100 focus:ring-2 dark:border-gray-600 dark:ring-offset-gray-800"
                   />
                   <label
                     id="3"
                     htmlFor="checkbox_ETH"
-                    className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-p1-cyan"
+                    className="text-p1-darkgreen dark:text-p1-cyan ms-2 text-lg font-medium"
                   >
                     No Eye pads
                   </label>
-                  <div className="px-4 text-p1-darkgreen dark:text-p1-green">9896</div>
+                  <div className="text-p1-darkgreen dark:text-p1-green px-4">9896</div>
                 </div>
                 <div className="flex place-content-between p-4">
                   <input
@@ -1647,47 +1647,47 @@ export default function Home() {
                     }}
                     type="checkbox"
                     value=""
-                    className="focus:ring-p1-cian h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                    className="focus:ring-p1-cian text-p1-darkgreen accent-p1-darkgreen dark:bg-p1-green dark:focus:ring-p1-green h-5 w-5 rounded border-gray-300 bg-gray-100 focus:ring-2 dark:border-gray-600 dark:ring-offset-gray-800"
                   />
                   <label
                     id="3"
                     htmlFor="checkbox_POL"
-                    className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-p1-cyan"
+                    className="text-p1-darkgreen dark:text-p1-cyan ms-2 text-lg font-medium"
                   >
                     Bitcoin Pads
                   </label>
-                  <div className="px-4 text-p1-darkgreen dark:text-p1-green">369</div>
+                  <div className="text-p1-darkgreen dark:text-p1-green px-4">369</div>
                 </div>
               </div>
             </details>
           </div>
 
-          <div className="text-darkgreen mb-2 w-full rounded-2xl border border-p1-green bg-p1-white text-xl shadow-lg dark:bg-p1-deepdarkgreen">
+          <div className="text-darkgreen border-p1-green bg-p1-white dark:bg-p1-deepdarkgreen mb-2 w-full rounded-2xl border text-xl shadow-lg">
             <details className="m-2">
               <summary className="relative flex cursor-pointer justify-between py-2">
-                <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
-                  Shaving{' '}
+                <div className="text-p1-darkgreen dark:text-p1-green place-content-center px-4">
+                  Shaving
                 </div>
-                <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
+                <div className="text-p1-darkgreen dark:text-p1-green place-content-center px-4">
                   5
                 </div>
               </summary>
-              <div className="pt-1 text-center text-p1-darkgreen dark:text-p1-green">
+              <div className="text-p1-darkgreen dark:text-p1-green pt-1 text-center">
                 <div className="flex justify-center pb-2">
                   <div>
-                    <div className="flex overflow-hidden rounded-2xl border border-p1-green bg-p2-white2 px-4 py-3 hover:border-p1-cyan focus:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan">
+                    <div className="border-p1-green bg-p2-white2 hover:border-p1-cyan focus:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan flex overflow-hidden rounded-2xl border px-4 py-3">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 192.904 192.904"
                         width="16px"
-                        className="mr-3 rotate-90 fill-gray-800 dark:fill-p1-cyan"
+                        className="dark:fill-p1-cyan mr-3 rotate-90 fill-gray-800"
                       >
                         <path d="m190.707 180.101-47.078-47.077c11.702-14.072 18.752-32.142 18.752-51.831C162.381 36.423 125.959 0 81.191 0 36.422 0 0 36.423 0 81.193c0 44.767 36.422 81.187 81.191 81.187 19.688 0 37.759-7.049 51.831-18.751l47.079 47.078a7.474 7.474 0 0 0 5.303 2.197 7.498 7.498 0 0 0 5.303-12.803zM15 81.193C15 44.694 44.693 15 81.191 15c36.497 0 66.189 29.694 66.189 66.193 0 36.496-29.692 66.187-66.189 66.187C44.693 147.38 15 117.689 15 81.193z"></path>
                       </svg>
                       <input
                         type="email"
                         placeholder="Search ..."
-                        className="w-full bg-transparent text-xl text-p1-deepdarkgreen outline-none dark:text-p1-cyan"
+                        className="text-p1-deepdarkgreen dark:text-p1-cyan w-full bg-transparent text-xl outline-none"
                       />
                     </div>
                   </div>
@@ -1701,16 +1701,16 @@ export default function Home() {
                     }}
                     type="checkbox"
                     value=""
-                    className="focus:ring-p1-cian h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                    className="focus:ring-p1-cian text-p1-darkgreen accent-p1-darkgreen dark:bg-p1-green dark:focus:ring-p1-green h-5 w-5 rounded border-gray-300 bg-gray-100 focus:ring-2 dark:border-gray-600 dark:ring-offset-gray-800"
                   />
                   <label
                     id="3"
                     htmlFor="checkbox_ETH"
-                    className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-p1-cyan"
+                    className="text-p1-darkgreen dark:text-p1-cyan ms-2 text-lg font-medium"
                   >
                     Clean-Shaven
                   </label>
-                  <div className="px-4 text-p1-darkgreen dark:text-p1-green">5678</div>
+                  <div className="text-p1-darkgreen dark:text-p1-green px-4">5678</div>
                 </div>
                 <div className="flex place-content-between p-4">
                   <input
@@ -1721,47 +1721,47 @@ export default function Home() {
                     }}
                     type="checkbox"
                     value=""
-                    className="focus:ring-p1-cian h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                    className="focus:ring-p1-cian text-p1-darkgreen accent-p1-darkgreen dark:bg-p1-green dark:focus:ring-p1-green h-5 w-5 rounded border-gray-300 bg-gray-100 focus:ring-2 dark:border-gray-600 dark:ring-offset-gray-800"
                   />
                   <label
                     id="3"
                     htmlFor="checkbox_POL"
-                    className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-p1-cyan"
+                    className="text-p1-darkgreen dark:text-p1-cyan ms-2 text-lg font-medium"
                   >
                     Mustache & Beard
                   </label>
-                  <div className="px-4 text-p1-darkgreen dark:text-p1-green">789</div>
+                  <div className="text-p1-darkgreen dark:text-p1-green px-4">789</div>
                 </div>
               </div>
             </details>
           </div>
 
-          <div className="text-darkgreen mb-2 w-full rounded-2xl border border-p1-green bg-p1-white text-xl shadow-lg dark:bg-p1-deepdarkgreen">
+          <div className="text-darkgreen border-p1-green bg-p1-white dark:bg-p1-deepdarkgreen mb-2 w-full rounded-2xl border text-xl shadow-lg">
             <details className="m-2">
               <summary className="relative flex cursor-pointer justify-between py-2">
-                <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
+                <div className="text-p1-darkgreen dark:text-p1-green place-content-center px-4">
                   Face accessory
                 </div>
-                <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
+                <div className="text-p1-darkgreen dark:text-p1-green place-content-center px-4">
                   23
                 </div>
               </summary>
-              <div className="pt-1 text-center text-p1-darkgreen dark:text-p1-green">
+              <div className="text-p1-darkgreen dark:text-p1-green pt-1 text-center">
                 <div className="flex justify-center pb-2">
                   <div>
-                    <div className="flex overflow-hidden rounded-2xl border border-p1-green bg-p2-white2 px-4 py-3 hover:border-p1-cyan focus:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan">
+                    <div className="border-p1-green bg-p2-white2 hover:border-p1-cyan focus:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan flex overflow-hidden rounded-2xl border px-4 py-3">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 192.904 192.904"
                         width="16px"
-                        className="mr-3 rotate-90 fill-gray-800 dark:fill-p1-cyan"
+                        className="dark:fill-p1-cyan mr-3 rotate-90 fill-gray-800"
                       >
                         <path d="m190.707 180.101-47.078-47.077c11.702-14.072 18.752-32.142 18.752-51.831C162.381 36.423 125.959 0 81.191 0 36.422 0 0 36.423 0 81.193c0 44.767 36.422 81.187 81.191 81.187 19.688 0 37.759-7.049 51.831-18.751l47.079 47.078a7.474 7.474 0 0 0 5.303 2.197 7.498 7.498 0 0 0 5.303-12.803zM15 81.193C15 44.694 44.693 15 81.191 15c36.497 0 66.189 29.694 66.189 66.193 0 36.496-29.692 66.187-66.189 66.187C44.693 147.38 15 117.689 15 81.193z"></path>
                       </svg>
                       <input
                         type="email"
                         placeholder="Search ..."
-                        className="w-full bg-transparent text-xl text-p1-deepdarkgreen outline-none dark:text-p1-cyan"
+                        className="text-p1-deepdarkgreen dark:text-p1-cyan w-full bg-transparent text-xl outline-none"
                       />
                     </div>
                   </div>
@@ -1775,16 +1775,16 @@ export default function Home() {
                     }}
                     type="checkbox"
                     value=""
-                    className="focus:ring-p1-cian h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                    className="focus:ring-p1-cian text-p1-darkgreen accent-p1-darkgreen dark:bg-p1-green dark:focus:ring-p1-green h-5 w-5 rounded border-gray-300 bg-gray-100 focus:ring-2 dark:border-gray-600 dark:ring-offset-gray-800"
                   />
                   <label
                     id="3"
                     htmlFor="checkbox_ETH"
-                    className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-p1-cyan"
+                    className="text-p1-darkgreen dark:text-p1-cyan ms-2 text-lg font-medium"
                   >
-                    No Face Accessory{' '}
+                    No Face Accessory
                   </label>
-                  <div className="px-4 text-p1-darkgreen dark:text-p1-green">6780</div>
+                  <div className="text-p1-darkgreen dark:text-p1-green px-4">6780</div>
                 </div>
                 <div className="flex place-content-between p-4">
                   <input
@@ -1795,47 +1795,47 @@ export default function Home() {
                     }}
                     type="checkbox"
                     value=""
-                    className="focus:ring-p1-cian h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                    className="focus:ring-p1-cian text-p1-darkgreen accent-p1-darkgreen dark:bg-p1-green dark:focus:ring-p1-green h-5 w-5 rounded border-gray-300 bg-gray-100 focus:ring-2 dark:border-gray-600 dark:ring-offset-gray-800"
                   />
                   <label
                     id="3"
                     htmlFor="checkbox_POL"
-                    className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-p1-cyan"
+                    className="text-p1-darkgreen dark:text-p1-cyan ms-2 text-lg font-medium"
                   >
-                    Biege Balaclava{' '}
+                    Biege Balaclava
                   </label>
-                  <div className="px-4 text-p1-darkgreen dark:text-p1-green">789</div>
+                  <div className="text-p1-darkgreen dark:text-p1-green px-4">789</div>
                 </div>
               </div>
             </details>
           </div>
 
-          <div className="text-darkgreen mb-2 w-full rounded-2xl border border-p1-green bg-p1-white text-xl shadow-lg dark:bg-p1-deepdarkgreen">
+          <div className="text-darkgreen border-p1-green bg-p1-white dark:bg-p1-deepdarkgreen mb-2 w-full rounded-2xl border text-xl shadow-lg">
             <details className="m-2">
               <summary className="relative flex cursor-pointer justify-between py-2">
-                <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
+                <div className="text-p1-darkgreen dark:text-p1-green place-content-center px-4">
                   Clothes
                 </div>
-                <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
+                <div className="text-p1-darkgreen dark:text-p1-green place-content-center px-4">
                   179
                 </div>
               </summary>
-              <div className="pt-1 text-center text-p1-darkgreen dark:text-p1-green">
+              <div className="text-p1-darkgreen dark:text-p1-green pt-1 text-center">
                 <div className="flex justify-center pb-2">
                   <div>
-                    <div className="flex overflow-hidden rounded-2xl border border-p1-green bg-p2-white2 px-4 py-3 hover:border-p1-cyan focus:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan">
+                    <div className="border-p1-green bg-p2-white2 hover:border-p1-cyan focus:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan flex overflow-hidden rounded-2xl border px-4 py-3">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 192.904 192.904"
                         width="16px"
-                        className="mr-3 rotate-90 fill-gray-800 dark:fill-p1-cyan"
+                        className="dark:fill-p1-cyan mr-3 rotate-90 fill-gray-800"
                       >
                         <path d="m190.707 180.101-47.078-47.077c11.702-14.072 18.752-32.142 18.752-51.831C162.381 36.423 125.959 0 81.191 0 36.422 0 0 36.423 0 81.193c0 44.767 36.422 81.187 81.191 81.187 19.688 0 37.759-7.049 51.831-18.751l47.079 47.078a7.474 7.474 0 0 0 5.303 2.197 7.498 7.498 0 0 0 5.303-12.803zM15 81.193C15 44.694 44.693 15 81.191 15c36.497 0 66.189 29.694 66.189 66.193 0 36.496-29.692 66.187-66.189 66.187C44.693 147.38 15 117.689 15 81.193z"></path>
                       </svg>
                       <input
                         type="email"
                         placeholder="Search ..."
-                        className="w-full bg-transparent text-xl text-p1-deepdarkgreen outline-none dark:text-p1-cyan"
+                        className="text-p1-deepdarkgreen dark:text-p1-cyan w-full bg-transparent text-xl outline-none"
                       />
                     </div>
                   </div>
@@ -1849,16 +1849,16 @@ export default function Home() {
                     }}
                     type="checkbox"
                     value=""
-                    className="focus:ring-p1-cian h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                    className="focus:ring-p1-cian text-p1-darkgreen accent-p1-darkgreen dark:bg-p1-green dark:focus:ring-p1-green h-5 w-5 rounded border-gray-300 bg-gray-100 focus:ring-2 dark:border-gray-600 dark:ring-offset-gray-800"
                   />
                   <label
                     id="3"
                     htmlFor="checkbox_ETH"
-                    className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-p1-cyan"
+                    className="text-p1-darkgreen dark:text-p1-cyan ms-2 text-lg font-medium"
                   >
                     No Clothes
                   </label>
-                  <div className="px-4 text-p1-darkgreen dark:text-p1-green">55</div>
+                  <div className="text-p1-darkgreen dark:text-p1-green px-4">55</div>
                 </div>
                 <div className="flex place-content-between p-4">
                   <input
@@ -1869,47 +1869,47 @@ export default function Home() {
                     }}
                     type="checkbox"
                     value=""
-                    className="focus:ring-p1-cian h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                    className="focus:ring-p1-cian text-p1-darkgreen accent-p1-darkgreen dark:bg-p1-green dark:focus:ring-p1-green h-5 w-5 rounded border-gray-300 bg-gray-100 focus:ring-2 dark:border-gray-600 dark:ring-offset-gray-800"
                   />
                   <label
                     id="3"
                     htmlFor="checkbox_POL"
-                    className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-p1-cyan"
+                    className="text-p1-darkgreen dark:text-p1-cyan ms-2 text-lg font-medium"
                   >
                     Brown & Flesh Bomber
                   </label>
-                  <div className="px-4 text-p1-darkgreen dark:text-p1-green">54</div>
+                  <div className="text-p1-darkgreen dark:text-p1-green px-4">54</div>
                 </div>
               </div>
             </details>
           </div>
 
-          <div className="text-darkgreen mb-2 w-full rounded-2xl border border-p1-green bg-p1-white text-xl shadow-lg dark:bg-p1-deepdarkgreen">
+          <div className="text-darkgreen border-p1-green bg-p1-white dark:bg-p1-deepdarkgreen mb-2 w-full rounded-2xl border text-xl shadow-lg">
             <details className="m-2">
               <summary className="relative flex cursor-pointer justify-between py-2">
-                <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
+                <div className="text-p1-darkgreen dark:text-p1-green place-content-center px-4">
                   Head
                 </div>
-                <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
+                <div className="text-p1-darkgreen dark:text-p1-green place-content-center px-4">
                   215
                 </div>
               </summary>
-              <div className="pt-1 text-center text-p1-darkgreen dark:text-p1-green">
+              <div className="text-p1-darkgreen dark:text-p1-green pt-1 text-center">
                 <div className="flex justify-center pb-2">
                   <div>
-                    <div className="flex overflow-hidden rounded-2xl border border-p1-green bg-p2-white2 px-4 py-3 hover:border-p1-cyan focus:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan">
+                    <div className="border-p1-green bg-p2-white2 hover:border-p1-cyan focus:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan flex overflow-hidden rounded-2xl border px-4 py-3">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 192.904 192.904"
                         width="16px"
-                        className="mr-3 rotate-90 fill-gray-800 dark:fill-p1-cyan"
+                        className="dark:fill-p1-cyan mr-3 rotate-90 fill-gray-800"
                       >
                         <path d="m190.707 180.101-47.078-47.077c11.702-14.072 18.752-32.142 18.752-51.831C162.381 36.423 125.959 0 81.191 0 36.422 0 0 36.423 0 81.193c0 44.767 36.422 81.187 81.191 81.187 19.688 0 37.759-7.049 51.831-18.751l47.079 47.078a7.474 7.474 0 0 0 5.303 2.197 7.498 7.498 0 0 0 5.303-12.803zM15 81.193C15 44.694 44.693 15 81.191 15c36.497 0 66.189 29.694 66.189 66.193 0 36.496-29.692 66.187-66.189 66.187C44.693 147.38 15 117.689 15 81.193z"></path>
                       </svg>
                       <input
                         type="email"
                         placeholder="Search ..."
-                        className="w-full bg-transparent text-xl text-p1-deepdarkgreen outline-none dark:text-p1-cyan"
+                        className="text-p1-deepdarkgreen dark:text-p1-cyan w-full bg-transparent text-xl outline-none"
                       />
                     </div>
                   </div>
@@ -1923,16 +1923,16 @@ export default function Home() {
                     }}
                     type="checkbox"
                     value=""
-                    className="focus:ring-p1-cian h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                    className="focus:ring-p1-cian text-p1-darkgreen accent-p1-darkgreen dark:bg-p1-green dark:focus:ring-p1-green h-5 w-5 rounded border-gray-300 bg-gray-100 focus:ring-2 dark:border-gray-600 dark:ring-offset-gray-800"
                   />
                   <label
                     id="3"
                     htmlFor="checkbox_ETH"
-                    className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-p1-cyan"
+                    className="text-p1-darkgreen dark:text-p1-cyan ms-2 text-lg font-medium"
                   >
                     Bald
                   </label>
-                  <div className="px-4 text-p1-darkgreen dark:text-p1-green">125</div>
+                  <div className="text-p1-darkgreen dark:text-p1-green px-4">125</div>
                 </div>
                 <div className="flex place-content-between p-4">
                   <input
@@ -1943,47 +1943,47 @@ export default function Home() {
                     }}
                     type="checkbox"
                     value=""
-                    className="focus:ring-p1-cian h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                    className="focus:ring-p1-cian text-p1-darkgreen accent-p1-darkgreen dark:bg-p1-green dark:focus:ring-p1-green h-5 w-5 rounded border-gray-300 bg-gray-100 focus:ring-2 dark:border-gray-600 dark:ring-offset-gray-800"
                   />
                   <label
                     id="3"
                     htmlFor="checkbox_POL"
-                    className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-p1-cyan"
+                    className="text-p1-darkgreen dark:text-p1-cyan ms-2 text-lg font-medium"
                   >
                     Biege Closed Tinted Racing Helmet
                   </label>
-                  <div className="px-4 text-p1-darkgreen dark:text-p1-green">21</div>
+                  <div className="text-p1-darkgreen dark:text-p1-green px-4">21</div>
                 </div>
               </div>
             </details>
           </div>
 
-          <div className="text-darkgreen mb-2 w-full rounded-2xl border border-p1-green bg-p1-white text-xl shadow-lg dark:bg-p1-deepdarkgreen">
+          <div className="text-darkgreen border-p1-green bg-p1-white dark:bg-p1-deepdarkgreen mb-2 w-full rounded-2xl border text-xl shadow-lg">
             <details className="m-2">
               <summary className="relative flex cursor-pointer justify-between py-2">
-                <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
+                <div className="text-p1-darkgreen dark:text-p1-green place-content-center px-4">
                   Extra
                 </div>
-                <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
+                <div className="text-p1-darkgreen dark:text-p1-green place-content-center px-4">
                   5
                 </div>
               </summary>
-              <div className="pt-1 text-center text-p1-darkgreen dark:text-p1-green">
+              <div className="text-p1-darkgreen dark:text-p1-green pt-1 text-center">
                 <div className="flex justify-center pb-2">
                   <div>
-                    <div className="flex overflow-hidden rounded-2xl border border-p1-green bg-p2-white2 px-4 py-3 hover:border-p1-cyan focus:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan">
+                    <div className="border-p1-green bg-p2-white2 hover:border-p1-cyan focus:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan flex overflow-hidden rounded-2xl border px-4 py-3">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 192.904 192.904"
                         width="16px"
-                        className="mr-3 rotate-90 fill-gray-800 dark:fill-p1-cyan"
+                        className="dark:fill-p1-cyan mr-3 rotate-90 fill-gray-800"
                       >
                         <path d="m190.707 180.101-47.078-47.077c11.702-14.072 18.752-32.142 18.752-51.831C162.381 36.423 125.959 0 81.191 0 36.422 0 0 36.423 0 81.193c0 44.767 36.422 81.187 81.191 81.187 19.688 0 37.759-7.049 51.831-18.751l47.079 47.078a7.474 7.474 0 0 0 5.303 2.197 7.498 7.498 0 0 0 5.303-12.803zM15 81.193C15 44.694 44.693 15 81.191 15c36.497 0 66.189 29.694 66.189 66.193 0 36.496-29.692 66.187-66.189 66.187C44.693 147.38 15 117.689 15 81.193z"></path>
                       </svg>
                       <input
                         type="email"
                         placeholder="Search ..."
-                        className="w-full bg-transparent text-xl text-p1-deepdarkgreen outline-none dark:text-p1-cyan"
+                        className="text-p1-deepdarkgreen dark:text-p1-cyan w-full bg-transparent text-xl outline-none"
                       />
                     </div>
                   </div>
@@ -1997,16 +1997,16 @@ export default function Home() {
                     }}
                     type="checkbox"
                     value=""
-                    className="focus:ring-p1-cian h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                    className="focus:ring-p1-cian text-p1-darkgreen accent-p1-darkgreen dark:bg-p1-green dark:focus:ring-p1-green h-5 w-5 rounded border-gray-300 bg-gray-100 focus:ring-2 dark:border-gray-600 dark:ring-offset-gray-800"
                   />
                   <label
                     id="3"
                     htmlFor="checkbox_ETH"
-                    className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-p1-cyan"
+                    className="text-p1-darkgreen dark:text-p1-cyan ms-2 text-lg font-medium"
                   >
                     No Extra
                   </label>
-                  <div className="px-4 text-p1-darkgreen dark:text-p1-green">9876</div>
+                  <div className="text-p1-darkgreen dark:text-p1-green px-4">9876</div>
                 </div>
                 <div className="flex place-content-between p-4">
                   <input
@@ -2017,47 +2017,47 @@ export default function Home() {
                     }}
                     type="checkbox"
                     value=""
-                    className="focus:ring-p1-cian h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                    className="focus:ring-p1-cian text-p1-darkgreen accent-p1-darkgreen dark:bg-p1-green dark:focus:ring-p1-green h-5 w-5 rounded border-gray-300 bg-gray-100 focus:ring-2 dark:border-gray-600 dark:ring-offset-gray-800"
                   />
                   <label
                     id="3"
                     htmlFor="checkbox_POL"
-                    className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-p1-cyan"
+                    className="text-p1-darkgreen dark:text-p1-cyan ms-2 text-lg font-medium"
                   >
                     Albatross 1
                   </label>
-                  <div className="px-4 text-p1-darkgreen dark:text-p1-green">23</div>
+                  <div className="text-p1-darkgreen dark:text-p1-green px-4">23</div>
                 </div>
               </div>
             </details>
           </div>
 
-          <div className="text-darkgreen mb-2 w-full rounded-2xl border border-p1-green bg-p1-white text-xl shadow-lg dark:bg-p1-deepdarkgreen">
+          <div className="text-darkgreen border-p1-green bg-p1-white dark:bg-p1-deepdarkgreen mb-2 w-full rounded-2xl border text-xl shadow-lg">
             <details className="m-2">
               <summary className="relative flex cursor-pointer justify-between py-2">
-                <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
+                <div className="text-p1-darkgreen dark:text-p1-green place-content-center px-4">
                   Parrot
                 </div>
-                <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
+                <div className="text-p1-darkgreen dark:text-p1-green place-content-center px-4">
                   3
                 </div>
               </summary>
-              <div className="pt-1 text-center text-p1-darkgreen dark:text-p1-green">
+              <div className="text-p1-darkgreen dark:text-p1-green pt-1 text-center">
                 <div className="flex justify-center pb-2">
                   <div>
-                    <div className="flex overflow-hidden rounded-2xl border border-p1-green bg-p2-white2 px-4 py-3 hover:border-p1-cyan focus:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan">
+                    <div className="border-p1-green bg-p2-white2 hover:border-p1-cyan focus:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan flex overflow-hidden rounded-2xl border px-4 py-3">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 192.904 192.904"
                         width="16px"
-                        className="mr-3 rotate-90 fill-gray-800 dark:fill-p1-cyan"
+                        className="dark:fill-p1-cyan mr-3 rotate-90 fill-gray-800"
                       >
                         <path d="m190.707 180.101-47.078-47.077c11.702-14.072 18.752-32.142 18.752-51.831C162.381 36.423 125.959 0 81.191 0 36.422 0 0 36.423 0 81.193c0 44.767 36.422 81.187 81.191 81.187 19.688 0 37.759-7.049 51.831-18.751l47.079 47.078a7.474 7.474 0 0 0 5.303 2.197 7.498 7.498 0 0 0 5.303-12.803zM15 81.193C15 44.694 44.693 15 81.191 15c36.497 0 66.189 29.694 66.189 66.193 0 36.496-29.692 66.187-66.189 66.187C44.693 147.38 15 117.689 15 81.193z"></path>
                       </svg>
                       <input
                         type="email"
                         placeholder="Search ..."
-                        className="w-full bg-transparent text-xl text-p1-deepdarkgreen outline-none dark:text-p1-cyan"
+                        className="text-p1-deepdarkgreen dark:text-p1-cyan w-full bg-transparent text-xl outline-none"
                       />
                     </div>
                   </div>
@@ -2071,16 +2071,16 @@ export default function Home() {
                     }}
                     type="checkbox"
                     value=""
-                    className="focus:ring-p1-cian h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                    className="focus:ring-p1-cian text-p1-darkgreen accent-p1-darkgreen dark:bg-p1-green dark:focus:ring-p1-green h-5 w-5 rounded border-gray-300 bg-gray-100 focus:ring-2 dark:border-gray-600 dark:ring-offset-gray-800"
                   />
                   <label
                     id="3"
                     htmlFor="checkbox_ETH"
-                    className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-p1-cyan"
+                    className="text-p1-darkgreen dark:text-p1-cyan ms-2 text-lg font-medium"
                   >
                     No Parrot
                   </label>
-                  <div className="px-4 text-p1-darkgreen dark:text-p1-green">9956</div>
+                  <div className="text-p1-darkgreen dark:text-p1-green px-4">9956</div>
                 </div>
                 <div className="flex place-content-between p-4">
                   <input
@@ -2091,47 +2091,47 @@ export default function Home() {
                     }}
                     type="checkbox"
                     value=""
-                    className="focus:ring-p1-cian h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                    className="focus:ring-p1-cian text-p1-darkgreen accent-p1-darkgreen dark:bg-p1-green dark:focus:ring-p1-green h-5 w-5 rounded border-gray-300 bg-gray-100 focus:ring-2 dark:border-gray-600 dark:ring-offset-gray-800"
                   />
                   <label
                     id="3"
                     htmlFor="checkbox_POL"
-                    className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-p1-cyan"
+                    className="text-p1-darkgreen dark:text-p1-cyan ms-2 text-lg font-medium"
                   >
                     Green Parrot
                   </label>
-                  <div className="px-4 text-p1-darkgreen dark:text-p1-green">56</div>
+                  <div className="text-p1-darkgreen dark:text-p1-green px-4">56</div>
                 </div>
               </div>
             </details>
           </div>
 
-          <div className="text-darkgreen mb-2 w-full rounded-2xl border border-p1-green bg-p1-white text-xl shadow-lg dark:bg-p1-deepdarkgreen">
+          <div className="text-darkgreen border-p1-green bg-p1-white dark:bg-p1-deepdarkgreen mb-2 w-full rounded-2xl border text-xl shadow-lg">
             <details className="m-2">
               <summary className="relative flex cursor-pointer justify-between py-2">
-                <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
+                <div className="text-p1-darkgreen dark:text-p1-green place-content-center px-4">
                   Cupid&apos;s arrow
                 </div>
-                <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
+                <div className="text-p1-darkgreen dark:text-p1-green place-content-center px-4">
                   2
                 </div>
               </summary>
-              <div className="pt-1 text-center text-p1-darkgreen dark:text-p1-green">
+              <div className="text-p1-darkgreen dark:text-p1-green pt-1 text-center">
                 <div className="flex justify-center pb-2">
                   <div>
-                    <div className="flex overflow-hidden rounded-2xl border border-p1-green bg-p2-white2 px-4 py-3 hover:border-p1-cyan focus:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan">
+                    <div className="border-p1-green bg-p2-white2 hover:border-p1-cyan focus:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan flex overflow-hidden rounded-2xl border px-4 py-3">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 192.904 192.904"
                         width="16px"
-                        className="mr-3 rotate-90 fill-gray-800 dark:fill-p1-cyan"
+                        className="dark:fill-p1-cyan mr-3 rotate-90 fill-gray-800"
                       >
                         <path d="m190.707 180.101-47.078-47.077c11.702-14.072 18.752-32.142 18.752-51.831C162.381 36.423 125.959 0 81.191 0 36.422 0 0 36.423 0 81.193c0 44.767 36.422 81.187 81.191 81.187 19.688 0 37.759-7.049 51.831-18.751l47.079 47.078a7.474 7.474 0 0 0 5.303 2.197 7.498 7.498 0 0 0 5.303-12.803zM15 81.193C15 44.694 44.693 15 81.191 15c36.497 0 66.189 29.694 66.189 66.193 0 36.496-29.692 66.187-66.189 66.187C44.693 147.38 15 117.689 15 81.193z"></path>
                       </svg>
                       <input
                         type="email"
                         placeholder="Search ..."
-                        className="w-full bg-transparent text-xl text-p1-deepdarkgreen outline-none dark:text-p1-cyan"
+                        className="text-p1-deepdarkgreen dark:text-p1-cyan w-full bg-transparent text-xl outline-none"
                       />
                     </div>
                   </div>
@@ -2145,16 +2145,16 @@ export default function Home() {
                     }}
                     type="checkbox"
                     value=""
-                    className="focus:ring-p1-cian h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                    className="focus:ring-p1-cian text-p1-darkgreen accent-p1-darkgreen dark:bg-p1-green dark:focus:ring-p1-green h-5 w-5 rounded border-gray-300 bg-gray-100 focus:ring-2 dark:border-gray-600 dark:ring-offset-gray-800"
                   />
                   <label
                     id="3"
                     htmlFor="checkbox_ETH"
-                    className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-p1-cyan"
+                    className="text-p1-darkgreen dark:text-p1-cyan ms-2 text-lg font-medium"
                   >
                     No Cupid&apos;s arrow
                   </label>
-                  <div className="px-4 text-p1-darkgreen dark:text-p1-green">9986</div>
+                  <div className="text-p1-darkgreen dark:text-p1-green px-4">9986</div>
                 </div>
                 <div className="flex place-content-between p-4">
                   <input
@@ -2165,47 +2165,47 @@ export default function Home() {
                     }}
                     type="checkbox"
                     value=""
-                    className="focus:ring-p1-cian h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                    className="focus:ring-p1-cian text-p1-darkgreen accent-p1-darkgreen dark:bg-p1-green dark:focus:ring-p1-green h-5 w-5 rounded border-gray-300 bg-gray-100 focus:ring-2 dark:border-gray-600 dark:ring-offset-gray-800"
                   />
                   <label
                     id="3"
                     htmlFor="checkbox_POL"
-                    className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-p1-cyan"
+                    className="text-p1-darkgreen dark:text-p1-cyan ms-2 text-lg font-medium"
                   >
                     Cupid&apos;s arrow
                   </label>
-                  <div className="px-4 text-p1-darkgreen dark:text-p1-green">14</div>
+                  <div className="text-p1-darkgreen dark:text-p1-green px-4">14</div>
                 </div>
               </div>
             </details>
           </div>
 
-          <div className="text-darkgreen mb-2 w-full rounded-2xl border border-p1-green bg-p1-white text-xl shadow-lg dark:bg-p1-deepdarkgreen">
+          <div className="text-darkgreen border-p1-green bg-p1-white dark:bg-p1-deepdarkgreen mb-2 w-full rounded-2xl border text-xl shadow-lg">
             <details className="m-2">
               <summary className="relative flex cursor-pointer justify-between py-2">
-                <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
+                <div className="text-p1-darkgreen dark:text-p1-green place-content-center px-4">
                   Tatoo
                 </div>
-                <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
+                <div className="text-p1-darkgreen dark:text-p1-green place-content-center px-4">
                   2
                 </div>
               </summary>
-              <div className="pt-1 text-center text-p1-darkgreen dark:text-p1-green">
+              <div className="text-p1-darkgreen dark:text-p1-green pt-1 text-center">
                 <div className="flex justify-center pb-2">
                   <div>
-                    <div className="flex overflow-hidden rounded-2xl border border-p1-green bg-p2-white2 px-4 py-3 hover:border-p1-cyan focus:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan">
+                    <div className="border-p1-green bg-p2-white2 hover:border-p1-cyan focus:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan flex overflow-hidden rounded-2xl border px-4 py-3">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 192.904 192.904"
                         width="16px"
-                        className="mr-3 rotate-90 fill-gray-800 dark:fill-p1-cyan"
+                        className="dark:fill-p1-cyan mr-3 rotate-90 fill-gray-800"
                       >
                         <path d="m190.707 180.101-47.078-47.077c11.702-14.072 18.752-32.142 18.752-51.831C162.381 36.423 125.959 0 81.191 0 36.422 0 0 36.423 0 81.193c0 44.767 36.422 81.187 81.191 81.187 19.688 0 37.759-7.049 51.831-18.751l47.079 47.078a7.474 7.474 0 0 0 5.303 2.197 7.498 7.498 0 0 0 5.303-12.803zM15 81.193C15 44.694 44.693 15 81.191 15c36.497 0 66.189 29.694 66.189 66.193 0 36.496-29.692 66.187-66.189 66.187C44.693 147.38 15 117.689 15 81.193z"></path>
                       </svg>
                       <input
                         type="email"
                         placeholder="Search ..."
-                        className="w-full bg-transparent text-xl text-p1-deepdarkgreen outline-none dark:text-p1-cyan"
+                        className="text-p1-deepdarkgreen dark:text-p1-cyan w-full bg-transparent text-xl outline-none"
                       />
                     </div>
                   </div>
@@ -2219,16 +2219,16 @@ export default function Home() {
                     }}
                     type="checkbox"
                     value=""
-                    className="focus:ring-p1-cian h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                    className="focus:ring-p1-cian text-p1-darkgreen accent-p1-darkgreen dark:bg-p1-green dark:focus:ring-p1-green h-5 w-5 rounded border-gray-300 bg-gray-100 focus:ring-2 dark:border-gray-600 dark:ring-offset-gray-800"
                   />
                   <label
                     id="3"
                     htmlFor="checkbox_ETH"
-                    className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-p1-cyan"
+                    className="text-p1-darkgreen dark:text-p1-cyan ms-2 text-lg font-medium"
                   >
                     No Tatoo
                   </label>
-                  <div className="px-4 text-p1-darkgreen dark:text-p1-green">9986</div>
+                  <div className="text-p1-darkgreen dark:text-p1-green px-4">9986</div>
                 </div>
                 <div className="flex place-content-between p-4">
                   <input
@@ -2239,16 +2239,16 @@ export default function Home() {
                     }}
                     type="checkbox"
                     value=""
-                    className="focus:ring-p1-cian h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                    className="focus:ring-p1-cian text-p1-darkgreen accent-p1-darkgreen dark:bg-p1-green dark:focus:ring-p1-green h-5 w-5 rounded border-gray-300 bg-gray-100 focus:ring-2 dark:border-gray-600 dark:ring-offset-gray-800"
                   />
                   <label
                     id="3"
                     htmlFor="checkbox_POL"
-                    className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-p1-cyan"
+                    className="text-p1-darkgreen dark:text-p1-cyan ms-2 text-lg font-medium"
                   >
                     Tatoo
                   </label>
-                  <div className="px-4 text-p1-darkgreen dark:text-p1-green">14</div>
+                  <div className="text-p1-darkgreen dark:text-p1-green px-4">14</div>
                 </div>
               </div>
             </details>
@@ -2257,46 +2257,46 @@ export default function Home() {
         <div className="flex w-9/12 grid-flow-row flex-wrap place-content-start gap-2 pt-2">
           {/* ... карточка 1 ...15x10 */}
 
-          <div className="text-darkgreen w-full rounded-2xl border border-p1-green bg-p1-white text-xl shadow-lg dark:bg-p1-deepdarkgreen">
+          <div className="text-darkgreen border-p1-green bg-p1-white dark:bg-p1-deepdarkgreen w-full rounded-2xl border text-xl shadow-lg">
             <details className="m-2">
               <summary className="relative flex cursor-pointer justify-between py-2">
-                <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
+                <div className="text-p1-darkgreen dark:text-p1-green place-content-center px-4">
                   Карточки
                 </div>
-                <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
+                <div className="text-p1-darkgreen dark:text-p1-green place-content-center px-4">
                   4
                 </div>
               </summary>
-              <div className="pt-1 text-center text-p1-darkgreen dark:text-p1-green">
+              <div className="text-p1-darkgreen dark:text-p1-green pt-1 text-center">
                 <div className="flex justify-center pb-2">
                   <div>
-                    <div className="flex overflow-hidden rounded-2xl border border-p1-green bg-p2-white2 px-4 py-3 hover:border-p1-cyan focus:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan">
+                    <div className="border-p1-green bg-p2-white2 hover:border-p1-cyan focus:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan flex overflow-hidden rounded-2xl border px-4 py-3">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 192.904 192.904"
                         width="16px"
-                        className="mr-3 rotate-90 fill-gray-800 dark:fill-p1-cyan"
+                        className="dark:fill-p1-cyan mr-3 rotate-90 fill-gray-800"
                       >
                         <path d="m190.707 180.101-47.078-47.077c11.702-14.072 18.752-32.142 18.752-51.831C162.381 36.423 125.959 0 81.191 0 36.422 0 0 36.423 0 81.193c0 44.767 36.422 81.187 81.191 81.187 19.688 0 37.759-7.049 51.831-18.751l47.079 47.078a7.474 7.474 0 0 0 5.303 2.197 7.498 7.498 0 0 0 5.303-12.803zM15 81.193C15 44.694 44.693 15 81.191 15c36.497 0 66.189 29.694 66.189 66.193 0 36.496-29.692 66.187-66.189 66.187C44.693 147.38 15 117.689 15 81.193z"></path>
                       </svg>
                       <input
                         type="email"
                         placeholder="Search ..."
-                        className="w-full bg-transparent text-xl text-p1-deepdarkgreen outline-none dark:text-p1-cyan"
+                        className="text-p1-deepdarkgreen dark:text-p1-cyan w-full bg-transparent text-xl outline-none"
                       />
                     </div>
                   </div>
                 </div>
                 {/* ... карточка 1 ...15x10 */}
                 <div className="flex gap-4">
-                  <div className="group relative h-[14.5rem] w-[10rem] place-self-center overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-300 hover:shadow-lg hover:shadow-p1-cyan group-hover:shadow-sm dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
+                  <div className="group hover:shadow-p1-cyan dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen relative h-[14.5rem] w-[10rem] place-self-center overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-300 group-hover:shadow-sm hover:shadow-lg">
                     <div>
                       <path
                         d="M18.527 12.2062L12 16.1938L5.46875 12.2062L12 1L18.527 12.2062ZM12 17.4742L5.46875 13.4867L12 23L18.5312 13.4867L12 17.4742V17.4742Z"
                         fill="white"
                       ></path>
 
-                      <div className="group invisible absolute right-1 top-1 z-10 inline-block duration-300 ease-in-out group-hover:visible group-hover:opacity-100">
+                      <div className="group invisible absolute top-1 right-1 z-10 inline-block duration-300 ease-in-out group-hover:visible group-hover:opacity-100">
                         <Link
                           href={'#'}
                           className="z-50 grid w-6 place-content-center transition-all delay-75 duration-300 ease-in-out hover:scale-125"
@@ -2324,13 +2324,13 @@ export default function Home() {
                       </Link>
                     </div>
 
-                    <div className="w-full bg-p2-white2 bg-opacity-100 text-p1-darkgreen transition-transform duration-500 ease-in-out group-hover:translate-y-28 group-hover:bg-opacity-100 group-hover:shadow-xl group-hover:shadow-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:group-hover:text-p1-cyan dark:group-hover:shadow-p1-green">
+                    <div className="bg-p2-white2 bg-opacity-100 text-p1-darkgreen group-hover:bg-opacity-100 group-hover:shadow-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:group-hover:text-p1-cyan dark:group-hover:shadow-p1-green w-full transition-transform duration-500 ease-in-out group-hover:translate-y-28 group-hover:shadow-xl">
                       <div className="flex items-center justify-between">
                         <div className="px-1 pt-1 text-left text-sm font-bold">RaceLad</div>
                         <div className="px-1 pt-1 text-left text-sm font-bold"># 8888</div>
                       </div>
 
-                      <div className="px-1 pb-12 pt-1">
+                      <div className="px-1 pt-1 pb-12">
                         <div className="flex items-center justify-between">
                           <div className="text-center">
                             <p className="text-center text-xs">
@@ -2348,24 +2348,23 @@ export default function Home() {
                           </div>
                         </div>
                         <div className="space-x-4 text-left text-xs font-thin">
-                          {' '}
                           Last sale: 1000 WETH
                         </div>
                       </div>
                     </div>
 
                     <div className="flex items-center justify-between">
-                      <div className="absolute bottom-0 left-0 h-[2rem] w-[10rem] translate-y-full bg-p1-darkgreen bg-opacity-100 text-center text-p2-white2 shadow-sm shadow-p1-green transition-transform duration-500 ease-in-out hover:bg-p1-darkgreen group-hover:translate-y-0 dark:bg-p1-deepdarkgreen">
+                      <div className="bg-p1-darkgreen bg-opacity-100 text-p2-white2 shadow-p1-green hover:bg-p1-darkgreen dark:bg-p1-deepdarkgreen absolute bottom-0 left-0 h-[2rem] w-[10rem] translate-y-full text-center shadow-sm transition-transform duration-500 ease-in-out group-hover:translate-y-0">
                         <div
                           className="inline-flex h-[2rem] w-[10rem] justify-center text-sm"
                           role="group"
                         >
                           <Link
                             href="#"
-                            className="grid w-4/5 place-content-center rounded-bl-xl border border-p1-darkgreen bg-p1-darkgreen text-center text-sm shadow-lg shadow-p1-cyan transition-all duration-300 ease-in-out hover:border-p1-cyan hover:bg-p1-darkgreen hover:text-p1-white hover:shadow-2xl hover:shadow-p1-cyan md:text-3xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                            className="border-p1-darkgreen bg-p1-darkgreen shadow-p1-cyan hover:border-p1-cyan hover:bg-p1-darkgreen hover:text-p1-white hover:shadow-p1-cyan dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan grid w-4/5 place-content-center rounded-bl-xl border text-center text-sm shadow-lg transition-all duration-300 ease-in-out hover:shadow-2xl md:text-3xl"
                           >
                             <div className="grid grid-cols-2 items-center justify-between gap-2">
-                              <div className="leading-2 text-xs">Buy:</div>
+                              <div className="text-xs leading-2">Buy:</div>
                               <div className="text-center text-xs leading-3">
                                 <Image
                                   className="relative inline-block w-3 px-0.5"
@@ -2382,10 +2381,10 @@ export default function Home() {
 
                           <Link
                             href={'#'}
-                            className="grid w-1/5 place-content-center rounded-br-xl border border-p1-darkgreen bg-p1-darkgreen text-center text-lg font-semibold shadow-lg shadow-p1-cyan transition-all duration-300 ease-in-out hover:scale-75 hover:border-p1-cyan hover:bg-p1-darkgreen hover:text-p1-white hover:shadow-2xl hover:shadow-p1-cyan hover:ring-p1-cyan focus:scale-75 focus:border-p1-cyan focus:ring-p1-cyan md:text-3xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                            className="border-p1-darkgreen bg-p1-darkgreen shadow-p1-cyan hover:border-p1-cyan hover:bg-p1-darkgreen hover:text-p1-white hover:shadow-p1-cyan hover:ring-p1-cyan focus:border-p1-cyan focus:ring-p1-cyan dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan grid w-1/5 place-content-center rounded-br-xl border text-center text-lg font-semibold shadow-lg transition-all duration-300 ease-in-out hover:scale-75 hover:shadow-2xl focus:scale-75 md:text-3xl"
                           >
                             <Image
-                              className="bg-p1-darkgreenе inline-block h-5 w-5 dark:bg-p1-deepdarkgreen dark:hover:bg-p1-deepdarkgreen"
+                              className="bg-p1-darkgreenе dark:bg-p1-deepdarkgreen dark:hover:bg-p1-deepdarkgreen inline-block h-5 w-5"
                               width={480}
                               height={480}
                               src="/Logo/shopping-cart-white.png"
@@ -2398,14 +2397,14 @@ export default function Home() {
                   </div>
                   <div className="pb-10"> </div>
                   {/* ...карточка 2 ...21.5x15 */}
-                  <div className="group relative h-[21.5rem] w-[15rem] place-self-center overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-300 hover:shadow-lg hover:shadow-p1-cyan group-hover:shadow-sm dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
+                  <div className="group hover:shadow-p1-cyan dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen relative h-[21.5rem] w-[15rem] place-self-center overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-300 group-hover:shadow-sm hover:shadow-lg">
                     <div>
                       <path
                         d="M18.527 12.2062L12 16.1938L5.46875 12.2062L12 1L18.527 12.2062ZM12 17.4742L5.46875 13.4867L12 23L18.5312 13.4867L12 17.4742V17.4742Z"
                         fill="white"
                       ></path>
 
-                      <div className="group invisible absolute right-1 top-1 z-10 inline-block duration-300 ease-in-out group-hover:visible group-hover:opacity-100">
+                      <div className="group invisible absolute top-1 right-1 z-10 inline-block duration-300 ease-in-out group-hover:visible group-hover:opacity-100">
                         <Link
                           href={'#'}
                           className="z-50 grid w-8 place-content-center transition-all delay-75 duration-300 ease-in-out hover:scale-125"
@@ -2433,13 +2432,13 @@ export default function Home() {
                       </Link>
                     </div>
 
-                    <div className="w-full bg-p2-white2 bg-opacity-100 p-1 text-p1-darkgreen transition-transform duration-500 ease-in-out group-hover:translate-y-28 group-hover:bg-opacity-100 group-hover:shadow-xl group-hover:shadow-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:group-hover:text-p1-cyan dark:group-hover:shadow-p1-green">
+                    <div className="bg-p2-white2 bg-opacity-100 text-p1-darkgreen group-hover:bg-opacity-100 group-hover:shadow-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:group-hover:text-p1-cyan dark:group-hover:shadow-p1-green w-full p-1 transition-transform duration-500 ease-in-out group-hover:translate-y-28 group-hover:shadow-xl">
                       <div className="flex items-center justify-between pt-1">
                         <div className="px-2 text-left text-base font-bold">RaceLad</div>
                         <div className="px-2 text-left text-base font-bold"># 2222</div>
                       </div>
 
-                      <div className="px-2 pb-12 pt-2">
+                      <div className="px-2 pt-2 pb-12">
                         <div className="flex items-center justify-between">
                           <div className="text-center">
                             <p className="text-center text-base">
@@ -2461,14 +2460,14 @@ export default function Home() {
                     </div>
 
                     <div className="flex items-center justify-between">
-                      <div className="absolute bottom-0 left-0 h-[2.8rem] w-[15rem] translate-y-full bg-p1-darkgreen bg-opacity-100 text-center text-p2-white2 shadow-sm shadow-p1-green transition-transform duration-500 ease-in-out hover:bg-p1-darkgreen group-hover:translate-y-0 dark:bg-p1-deepdarkgreen">
+                      <div className="bg-p1-darkgreen bg-opacity-100 text-p2-white2 shadow-p1-green hover:bg-p1-darkgreen dark:bg-p1-deepdarkgreen absolute bottom-0 left-0 h-[2.8rem] w-[15rem] translate-y-full text-center shadow-sm transition-transform duration-500 ease-in-out group-hover:translate-y-0">
                         <div
                           className="inline-flex h-[2.8rem] w-[15rem] justify-center text-sm"
                           role="group"
                         >
                           <Link
                             href="#"
-                            className="grid w-4/5 place-content-center rounded-bl-xl border border-p1-darkgreen bg-p1-darkgreen text-center text-base shadow-lg shadow-p1-cyan transition-all duration-300 ease-in-out hover:border-p1-cyan hover:bg-p1-darkgreen hover:text-p1-white hover:shadow-2xl hover:shadow-p1-cyan md:text-3xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                            className="border-p1-darkgreen bg-p1-darkgreen shadow-p1-cyan hover:border-p1-cyan hover:bg-p1-darkgreen hover:text-p1-white hover:shadow-p1-cyan dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan grid w-4/5 place-content-center rounded-bl-xl border text-center text-base shadow-lg transition-all duration-300 ease-in-out hover:shadow-2xl md:text-3xl"
                           >
                             <div className="flex items-center justify-between space-x-4">
                               <div className="text-base leading-4">Buy:</div>
@@ -2488,10 +2487,10 @@ export default function Home() {
 
                           <Link
                             href={'#'}
-                            className="grid w-1/5 place-content-center rounded-br-xl border border-p1-darkgreen bg-p1-darkgreen text-center text-lg font-semibold shadow-lg shadow-p1-cyan transition-all duration-300 ease-in-out hover:scale-75 hover:border-p1-cyan hover:bg-p1-darkgreen hover:text-p1-white hover:shadow-2xl hover:shadow-p1-cyan hover:ring-p1-cyan focus:scale-75 focus:border-p1-cyan focus:ring-p1-cyan md:text-3xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                            className="border-p1-darkgreen bg-p1-darkgreen shadow-p1-cyan hover:border-p1-cyan hover:bg-p1-darkgreen hover:text-p1-white hover:shadow-p1-cyan hover:ring-p1-cyan focus:border-p1-cyan focus:ring-p1-cyan dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan grid w-1/5 place-content-center rounded-br-xl border text-center text-lg font-semibold shadow-lg transition-all duration-300 ease-in-out hover:scale-75 hover:shadow-2xl focus:scale-75 md:text-3xl"
                           >
                             <Image
-                              className="bg-p1-darkgreenе inline-block h-6 w-6 dark:bg-p1-deepdarkgreen dark:hover:bg-p1-deepdarkgreen"
+                              className="bg-p1-darkgreenе dark:bg-p1-deepdarkgreen dark:hover:bg-p1-deepdarkgreen inline-block h-6 w-6"
                               width={480}
                               height={480}
                               src="/Logo/shopping-cart-white.png"
@@ -2504,14 +2503,14 @@ export default function Home() {
                   </div>
                   <div className="pb-10"> </div>
                   {/* ...карточка 3 ...28x20 */}
-                  <div className="group relative h-[28rem] w-[20rem] place-self-center overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-300 hover:shadow-lg hover:shadow-p1-cyan group-hover:shadow-sm dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
+                  <div className="group hover:shadow-p1-cyan dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen relative h-[28rem] w-[20rem] place-self-center overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-300 group-hover:shadow-sm hover:shadow-lg">
                     <div>
                       <path
                         d="M18.527 12.2062L12 16.1938L5.46875 12.2062L12 1L18.527 12.2062ZM12 17.4742L5.46875 13.4867L12 23L18.5312 13.4867L12 17.4742V17.4742Z"
                         fill="white"
                       ></path>
 
-                      <div className="group invisible absolute right-1 top-1 z-10 inline-block duration-300 ease-in-out group-hover:visible group-hover:opacity-100">
+                      <div className="group invisible absolute top-1 right-1 z-10 inline-block duration-300 ease-in-out group-hover:visible group-hover:opacity-100">
                         <Link
                           href={'#'}
                           className="z-50 grid w-8 place-content-center transition-all delay-75 duration-300 ease-in-out hover:scale-125"
@@ -2539,13 +2538,13 @@ export default function Home() {
                       </Link>
                     </div>
 
-                    <div className="w-full bg-p2-white2 bg-opacity-100 p-1 text-p1-darkgreen transition-transform duration-500 ease-in-out group-hover:translate-y-28 group-hover:bg-opacity-100 group-hover:shadow-xl group-hover:shadow-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:group-hover:text-p1-cyan dark:group-hover:shadow-p1-green">
+                    <div className="bg-p2-white2 bg-opacity-100 text-p1-darkgreen group-hover:bg-opacity-100 group-hover:shadow-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:group-hover:text-p1-cyan dark:group-hover:shadow-p1-green w-full p-1 transition-transform duration-500 ease-in-out group-hover:translate-y-28 group-hover:shadow-xl">
                       <div className="flex items-center justify-between">
                         <div className="px-4 text-left text-xl font-bold">RaceLad</div>
                         <div className="px-4 text-left text-xl font-bold"># 3333</div>
                       </div>
 
-                      <div className="px-4 pb-12 pt-4">
+                      <div className="px-4 pt-4 pb-12">
                         <div className="flex items-center justify-between">
                           <div className="text-center">
                             <p className="text-center text-lg">
@@ -2567,14 +2566,14 @@ export default function Home() {
                     </div>
 
                     <div className="flex items-center justify-between">
-                      <div className="absolute bottom-0 left-0 w-full translate-y-full bg-p1-darkgreen bg-opacity-100 text-center text-p2-white2 shadow-sm shadow-p1-green transition-transform duration-500 ease-in-out hover:bg-p1-darkgreen group-hover:translate-y-0 dark:bg-p1-deepdarkgreen">
+                      <div className="bg-p1-darkgreen bg-opacity-100 text-p2-white2 shadow-p1-green hover:bg-p1-darkgreen dark:bg-p1-deepdarkgreen absolute bottom-0 left-0 w-full translate-y-full text-center shadow-sm transition-transform duration-500 ease-in-out group-hover:translate-y-0">
                         <div
                           className="inline-flex h-[3rem] w-[20rem] justify-center text-sm"
                           role="group"
                         >
                           <Link
                             href="#"
-                            className="grid w-4/5 place-content-center rounded-bl-xl border border-p1-darkgreen bg-p1-darkgreen text-center text-base shadow-lg shadow-p1-cyan transition-all duration-300 ease-in-out hover:border-p1-cyan hover:bg-p1-darkgreen hover:text-p1-white hover:shadow-2xl hover:shadow-p1-cyan md:text-3xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                            className="border-p1-darkgreen bg-p1-darkgreen shadow-p1-cyan hover:border-p1-cyan hover:bg-p1-darkgreen hover:text-p1-white hover:shadow-p1-cyan dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan grid w-4/5 place-content-center rounded-bl-xl border text-center text-base shadow-lg transition-all duration-300 ease-in-out hover:shadow-2xl md:text-3xl"
                           >
                             <div className="flex items-center justify-between space-x-4">
                               <div className="text-xl leading-5">Buy:</div>
@@ -2594,10 +2593,10 @@ export default function Home() {
 
                           <Link
                             href={'#'}
-                            className="grid w-1/5 place-content-center rounded-br-xl border border-p1-darkgreen bg-p1-darkgreen text-center text-lg font-semibold shadow-lg shadow-p1-cyan transition-all duration-300 ease-in-out hover:scale-75 hover:border-p1-cyan hover:bg-p1-darkgreen hover:text-p1-white hover:shadow-2xl hover:shadow-p1-cyan hover:ring-p1-cyan focus:scale-75 focus:border-p1-cyan focus:ring-p1-cyan md:text-3xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                            className="border-p1-darkgreen bg-p1-darkgreen shadow-p1-cyan hover:border-p1-cyan hover:bg-p1-darkgreen hover:text-p1-white hover:shadow-p1-cyan hover:ring-p1-cyan focus:border-p1-cyan focus:ring-p1-cyan dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan grid w-1/5 place-content-center rounded-br-xl border text-center text-lg font-semibold shadow-lg transition-all duration-300 ease-in-out hover:scale-75 hover:shadow-2xl focus:scale-75 md:text-3xl"
                           >
                             <Image
-                              className="bg-p1-darkgreenе inline-block h-7 w-7 dark:bg-p1-deepdarkgreen dark:hover:bg-p1-deepdarkgreen"
+                              className="bg-p1-darkgreenе dark:bg-p1-deepdarkgreen dark:hover:bg-p1-deepdarkgreen inline-block h-7 w-7"
                               width={480}
                               height={480}
                               src="/Logo/shopping-cart-white.png"
@@ -2610,14 +2609,14 @@ export default function Home() {
                   </div>
                   <div className="pb-10"> </div>
                   {/* ...карточка 4...39x28 */}
-                  <div className="group relative h-[39rem] w-[28rem] place-self-center overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-300 hover:shadow-lg hover:shadow-p1-cyan group-hover:shadow-sm dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
+                  <div className="group hover:shadow-p1-cyan dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen relative h-[39rem] w-[28rem] place-self-center overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-300 group-hover:shadow-sm hover:shadow-lg">
                     <div>
                       <path
                         d="M18.527 12.2062L12 16.1938L5.46875 12.2062L12 1L18.527 12.2062ZM12 17.4742L5.46875 13.4867L12 23L18.5312 13.4867L12 17.4742V17.4742Z"
                         fill="white"
                       ></path>
 
-                      <div className="group invisible absolute right-1 top-1 z-10 inline-block duration-300 ease-in-out group-hover:visible group-hover:opacity-100">
+                      <div className="group invisible absolute top-1 right-1 z-10 inline-block duration-300 ease-in-out group-hover:visible group-hover:opacity-100">
                         <Link
                           href={'#'}
                           className="z-50 grid w-8 place-content-center transition-all delay-75 duration-300 ease-in-out hover:scale-125"
@@ -2645,13 +2644,13 @@ export default function Home() {
                       </Link>
                     </div>
 
-                    <div className="w-full bg-p2-white2 bg-opacity-100 p-1 text-p1-darkgreen transition-transform duration-500 ease-in-out group-hover:translate-y-28 group-hover:bg-opacity-100 group-hover:shadow-xl group-hover:shadow-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:group-hover:text-p1-cyan dark:group-hover:shadow-p1-green">
+                    <div className="bg-p2-white2 bg-opacity-100 text-p1-darkgreen group-hover:bg-opacity-100 group-hover:shadow-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:group-hover:text-p1-cyan dark:group-hover:shadow-p1-green w-full p-1 transition-transform duration-500 ease-in-out group-hover:translate-y-28 group-hover:shadow-xl">
                       <div className="flex items-center justify-between">
                         <div className="px-4 pt-2 text-left text-3xl font-bold">RaceLad</div>
                         <div className="px-4 pt-2 text-left text-3xl font-bold"># 8888</div>
                       </div>
 
-                      <div className="px-4 pb-12 pt-6">
+                      <div className="px-4 pt-6 pb-12">
                         <div className="flex items-center justify-between">
                           <div className="text-center">
                             <p className="text-center text-3xl">
@@ -2668,22 +2667,19 @@ export default function Home() {
                             </p>
                           </div>
                         </div>
-                        <div className="pt-3 text-left text-xl font-thin">
-                          {' '}
-                          Last sale: 1000 WETH
-                        </div>
+                        <div className="pt-3 text-left text-xl font-thin">Last sale: 1000 WETH</div>
                       </div>
                     </div>
 
                     <div className="flex items-center justify-between">
-                      <div className="absolute bottom-0 left-0 w-full translate-y-full bg-p1-darkgreen bg-opacity-100 text-center text-p2-white2 shadow-sm shadow-p1-green transition-transform duration-500 ease-in-out hover:bg-p1-darkgreen group-hover:translate-y-0 dark:bg-p1-deepdarkgreen">
+                      <div className="bg-p1-darkgreen bg-opacity-100 text-p2-white2 shadow-p1-green hover:bg-p1-darkgreen dark:bg-p1-deepdarkgreen absolute bottom-0 left-0 w-full translate-y-full text-center shadow-sm transition-transform duration-500 ease-in-out group-hover:translate-y-0">
                         <div
                           className="inline-flex h-[4rem] w-[28rem] justify-center text-sm"
                           role="group"
                         >
                           <Link
                             href="#"
-                            className="grid w-4/5 place-content-center rounded-bl-xl border border-p1-darkgreen bg-p1-darkgreen text-center text-base shadow-xl shadow-p1-cyan transition-all duration-300 ease-in-out hover:border-p1-cyan hover:bg-p1-darkgreen hover:text-p1-white hover:shadow-2xl hover:shadow-p1-cyan md:text-3xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                            className="border-p1-darkgreen bg-p1-darkgreen shadow-p1-cyan hover:border-p1-cyan hover:bg-p1-darkgreen hover:text-p1-white hover:shadow-p1-cyan dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan grid w-4/5 place-content-center rounded-bl-xl border text-center text-base shadow-xl transition-all duration-300 ease-in-out hover:shadow-2xl md:text-3xl"
                           >
                             <div className="flex items-center justify-between space-x-4 pb-2">
                               <div className="text-2xl">Buy:</div>
@@ -2703,10 +2699,10 @@ export default function Home() {
 
                           <Link
                             href={'#'}
-                            className="grid w-1/5 place-content-center rounded-br-xl border border-p1-darkgreen bg-p1-darkgreen text-center text-lg font-semibold shadow-lg shadow-p1-cyan transition-all duration-300 ease-in-out hover:scale-75 hover:border-p1-cyan hover:bg-p1-darkgreen hover:text-p1-white hover:shadow-2xl hover:shadow-p1-cyan hover:ring-p1-cyan focus:scale-75 focus:border-p1-cyan focus:ring-p1-cyan md:text-3xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                            className="border-p1-darkgreen bg-p1-darkgreen shadow-p1-cyan hover:border-p1-cyan hover:bg-p1-darkgreen hover:text-p1-white hover:shadow-p1-cyan hover:ring-p1-cyan focus:border-p1-cyan focus:ring-p1-cyan dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan grid w-1/5 place-content-center rounded-br-xl border text-center text-lg font-semibold shadow-lg transition-all duration-300 ease-in-out hover:scale-75 hover:shadow-2xl focus:scale-75 md:text-3xl"
                           >
                             <Image
-                              className="bg-p1-darkgreenе inline-block h-9 w-9 dark:bg-p1-deepdarkgreen dark:hover:bg-p1-deepdarkgreen"
+                              className="bg-p1-darkgreenе dark:bg-p1-deepdarkgreen dark:hover:bg-p1-deepdarkgreen inline-block h-9 w-9"
                               width={480}
                               height={480}
                               src="/Logo/shopping-cart-white.png"
@@ -2716,38 +2712,38 @@ export default function Home() {
                         </div>
                       </div>
                     </div>
-                  </div>{' '}
+                  </div>
                 </div>
               </div>
             </details>
           </div>
 
-          <div className="text-darkgreen w-full rounded-2xl border border-p1-green bg-p1-white text-xl shadow-lg dark:bg-p1-deepdarkgreen">
+          <div className="text-darkgreen border-p1-green bg-p1-white dark:bg-p1-deepdarkgreen w-full rounded-2xl border text-xl shadow-lg">
             <details className="m-2">
               <summary className="relative flex cursor-pointer justify-between py-2">
-                <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
+                <div className="text-p1-darkgreen dark:text-p1-green place-content-center px-4">
                   Таблица 1
                 </div>
-                <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
+                <div className="text-p1-darkgreen dark:text-p1-green place-content-center px-4">
                   11 столбцов
                 </div>
               </summary>
-              <div className="pt-1 text-center text-p1-darkgreen dark:text-p1-green">
+              <div className="text-p1-darkgreen dark:text-p1-green pt-1 text-center">
                 <div className="flex justify-center pb-2">
                   <div>
-                    <div className="flex overflow-hidden rounded-2xl border border-p1-green bg-p2-white2 px-4 py-3 hover:border-p1-cyan focus:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan">
+                    <div className="border-p1-green bg-p2-white2 hover:border-p1-cyan focus:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan flex overflow-hidden rounded-2xl border px-4 py-3">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 192.904 192.904"
                         width="16px"
-                        className="mr-3 rotate-90 fill-gray-800 dark:fill-p1-cyan"
+                        className="dark:fill-p1-cyan mr-3 rotate-90 fill-gray-800"
                       >
                         <path d="m190.707 180.101-47.078-47.077c11.702-14.072 18.752-32.142 18.752-51.831C162.381 36.423 125.959 0 81.191 0 36.422 0 0 36.423 0 81.193c0 44.767 36.422 81.187 81.191 81.187 19.688 0 37.759-7.049 51.831-18.751l47.079 47.078a7.474 7.474 0 0 0 5.303 2.197 7.498 7.498 0 0 0 5.303-12.803zM15 81.193C15 44.694 44.693 15 81.191 15c36.497 0 66.189 29.694 66.189 66.193 0 36.496-29.692 66.187-66.189 66.187C44.693 147.38 15 117.689 15 81.193z"></path>
                       </svg>
                       <input
                         type="email"
                         placeholder="Search ..."
-                        className="w-full bg-transparent text-xl text-p1-deepdarkgreen outline-none dark:text-p1-cyan"
+                        className="text-p1-deepdarkgreen dark:text-p1-cyan w-full bg-transparent text-xl outline-none"
                       />
                     </div>
                   </div>
@@ -2756,8 +2752,8 @@ export default function Home() {
 
                 <div className="inline-block place-self-center p-1">
                   <div className="shadow-md sm:rounded-lg">
-                    <table className="relative overflow-hidden text-left text-xl text-p1-darkgreen dark:text-p1-green">
-                      <thead className="bg-gray-50 text-xs uppercase text-p1-darkgreen dark:bg-p1-deepdarkgreen dark:text-p1-green">
+                    <table className="text-p1-darkgreen dark:text-p1-green relative overflow-hidden text-left text-xl">
+                      <thead className="text-p1-darkgreen dark:bg-p1-deepdarkgreen dark:text-p1-green bg-gray-50 text-xs uppercase">
                         <tr>
                           <th scope="col" className="px-6 py-3">
                             Add to cart
@@ -2942,8 +2938,8 @@ export default function Home() {
                         </tr>
                       </thead>
                       <tbody>
-                        <tr className="border-b bg-white dark:border-p1-green dark:bg-p1-deepdarkgreen">
-                          <th scope="row" className="whitespace-nowrap px-6 py-4 font-medium">
+                        <tr className="dark:border-p1-green dark:bg-p1-deepdarkgreen border-b bg-white">
+                          <th scope="row" className="px-6 py-4 font-medium whitespace-nowrap">
                             <div className="flex items-center">
                               <input
                                 checked={check}
@@ -2953,16 +2949,15 @@ export default function Home() {
                                 }}
                                 type="checkbox"
                                 value=""
-                                className="focus:ring-p1-cian h-4 w-4 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                                className="focus:ring-p1-cian text-p1-darkgreen dark:accent-p1-deepdarkgreen dark:focus:ring-p1-green h-4 w-4 rounded border-gray-300 bg-gray-100 focus:ring-2 dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800"
                               />
                               <label
                                 htmlFor="checkbox "
-                                className="ms-2 text-sm font-medium text-p1-darkgreen dark:text-p1-green"
+                                className="text-p1-darkgreen dark:text-p1-green ms-2 text-sm font-medium"
                               ></label>
                             </div>
                           </th>
                           <td className="px-6 py-4">
-                            {' '}
                             <div className="relative">
                               <Link href="/card" className="mx-auto justify-center">
                                 <Image
@@ -2986,8 +2981,8 @@ export default function Home() {
                           <td className="px-6 py-4 text-right"> 2h ago</td>
                           <td className="px-6 py-4 text-right"> Сделать предложение</td>
                         </tr>
-                        <tr className="border-b bg-white dark:border-p1-green dark:bg-p1-deepdarkgreen">
-                          <th scope="row" className="whitespace-nowrap px-6 py-4 font-medium">
+                        <tr className="dark:border-p1-green dark:bg-p1-deepdarkgreen border-b bg-white">
+                          <th scope="row" className="px-6 py-4 font-medium whitespace-nowrap">
                             <div className="flex items-center">
                               <input
                                 checked={check}
@@ -2997,16 +2992,15 @@ export default function Home() {
                                 }}
                                 type="checkbox"
                                 value=""
-                                className="focus:ring-p1-cian h-4 w-4 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                                className="focus:ring-p1-cian text-p1-darkgreen dark:accent-p1-deepdarkgreen dark:focus:ring-p1-green h-4 w-4 rounded border-gray-300 bg-gray-100 focus:ring-2 dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800"
                               />
                               <label
                                 htmlFor="checkbox "
-                                className="ms-2 text-sm font-medium text-p1-darkgreen dark:text-p1-green"
+                                className="text-p1-darkgreen dark:text-p1-green ms-2 text-sm font-medium"
                               ></label>
                             </div>
                           </th>
                           <td className="px-6 py-4">
-                            {' '}
                             <div className="relative">
                               <Link href="/card" className="mx-auto justify-center">
                                 <Image
@@ -3038,32 +3032,32 @@ export default function Home() {
             </details>
           </div>
 
-          <div className="text-darkgreen w-full rounded-2xl border border-p1-green bg-p1-white text-xl shadow-lg dark:bg-p1-deepdarkgreen">
+          <div className="text-darkgreen border-p1-green bg-p1-white dark:bg-p1-deepdarkgreen w-full rounded-2xl border text-xl shadow-lg">
             <details className="m-2">
               <summary className="relative flex cursor-pointer justify-between py-2">
-                <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
+                <div className="text-p1-darkgreen dark:text-p1-green place-content-center px-4">
                   Таблица 2
                 </div>
-                <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
+                <div className="text-p1-darkgreen dark:text-p1-green place-content-center px-4">
                   5 слолбцов
                 </div>
               </summary>
-              <div className="pt-1 text-center text-p1-darkgreen dark:text-p1-green">
+              <div className="text-p1-darkgreen dark:text-p1-green pt-1 text-center">
                 <div className="flex justify-center pb-2">
                   <div>
-                    <div className="flex overflow-hidden rounded-2xl border border-p1-green bg-p2-white2 px-4 py-3 hover:border-p1-cyan focus:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan">
+                    <div className="border-p1-green bg-p2-white2 hover:border-p1-cyan focus:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan flex overflow-hidden rounded-2xl border px-4 py-3">
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
                         viewBox="0 0 192.904 192.904"
                         width="16px"
-                        className="mr-3 rotate-90 fill-gray-800 dark:fill-p1-cyan"
+                        className="dark:fill-p1-cyan mr-3 rotate-90 fill-gray-800"
                       >
                         <path d="m190.707 180.101-47.078-47.077c11.702-14.072 18.752-32.142 18.752-51.831C162.381 36.423 125.959 0 81.191 0 36.422 0 0 36.423 0 81.193c0 44.767 36.422 81.187 81.191 81.187 19.688 0 37.759-7.049 51.831-18.751l47.079 47.078a7.474 7.474 0 0 0 5.303 2.197 7.498 7.498 0 0 0 5.303-12.803zM15 81.193C15 44.694 44.693 15 81.191 15c36.497 0 66.189 29.694 66.189 66.193 0 36.496-29.692 66.187-66.189 66.187C44.693 147.38 15 117.689 15 81.193z"></path>
                       </svg>
                       <input
                         type="email"
                         placeholder="Search ..."
-                        className="w-full bg-transparent text-xl text-p1-deepdarkgreen outline-none dark:text-p1-cyan"
+                        className="text-p1-deepdarkgreen dark:text-p1-cyan w-full bg-transparent text-xl outline-none"
                       />
                     </div>
                   </div>
@@ -3072,8 +3066,8 @@ export default function Home() {
                 {/* Таблица 2*/}
                 <div className="justify-center place-self-center p-1 md:visible">
                   <div className="relative overflow-x-auto shadow-md sm:rounded-lg">
-                    <table className="w-full text-left text-xl text-p1-darkgreen dark:text-p1-green">
-                      <thead className="bg-gray-50 text-xs uppercase text-p1-darkgreen dark:bg-p1-deepdarkgreen dark:text-p1-green">
+                    <table className="text-p1-darkgreen dark:text-p1-green w-full text-left text-xl">
+                      <thead className="text-p1-darkgreen dark:bg-p1-deepdarkgreen dark:text-p1-green bg-gray-50 text-xs uppercase">
                         <tr>
                           <th scope="col" className="px-6 py-3">
                             Rank
@@ -3145,12 +3139,11 @@ export default function Home() {
                         </tr>
                       </thead>
                       <tbody>
-                        <tr className="border-b bg-white dark:border-p1-green dark:bg-p1-deepdarkgreen">
-                          <th scope="row" className="whitespace-nowrap px-6 py-4 font-medium">
+                        <tr className="dark:border-p1-green dark:bg-p1-deepdarkgreen border-b bg-white">
+                          <th scope="row" className="px-6 py-4 font-medium whitespace-nowrap">
                             1
                           </th>
                           <td className="px-6 py-4">
-                            {' '}
                             <div className="relative">
                               <Link href="/card" className="mx-auto justify-center">
                                 <Image
@@ -3167,12 +3160,11 @@ export default function Home() {
                           <td className="px-6 py-4">3 ETH</td>
                           <td className="px-6 py-4 text-right"> 125 ETH</td>
                         </tr>
-                        <tr className="border-b bg-white dark:border-p1-green dark:bg-p1-deepdarkgreen">
-                          <th scope="row" className="whitespace-nowrap px-6 py-4 font-medium">
+                        <tr className="dark:border-p1-green dark:bg-p1-deepdarkgreen border-b bg-white">
+                          <th scope="row" className="px-6 py-4 font-medium whitespace-nowrap">
                             2
                           </th>
                           <td className="px-6 py-4">
-                            {' '}
                             <div className="relative">
                               <Link href="/card" className="mx-auto justify-center">
                                 <Image
@@ -3189,12 +3181,11 @@ export default function Home() {
                           <td className="px-6 py-4">3 ETH</td>
                           <td className="px-6 py-4 text-right"> 125 ETH</td>
                         </tr>
-                        <tr className="border-b bg-white dark:border-p1-green dark:bg-p1-deepdarkgreen">
-                          <th scope="row" className="whitespace-nowrap px-6 py-4 font-medium">
+                        <tr className="dark:border-p1-green dark:bg-p1-deepdarkgreen border-b bg-white">
+                          <th scope="row" className="px-6 py-4 font-medium whitespace-nowrap">
                             2
                           </th>
                           <td className="px-6 py-4">
-                            {' '}
                             <div className="relative">
                               <Link href="/card" className="mx-auto justify-center">
                                 <Image

@@ -18,10 +18,10 @@ const Navbar = ({ open, setter }: { open: boolean; setter: Dispatch<SetStateActi
   ];
 
   return (
-    <nav className="sticky top-0 z-10 bg-white dark:bg-p1-darkgreen">
+    <nav className="dark:bg-p1-darkgreen sticky top-0 z-10 bg-white">
       <div className="mx-auto flex max-w-screen-xl flex-wrap items-center justify-between p-4">
         <Link href="/" className="items-center space-x-3 lg:hidden">
-          <span className="self-center whitespace-nowrap text-2xl font-semibold dark:text-white">
+          <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
             {t('home')}
             Домой
           </span>
@@ -29,7 +29,7 @@ const Navbar = ({ open, setter }: { open: boolean; setter: Dispatch<SetStateActi
         <button
           data-collapse-toggle="navbar-default"
           type="button"
-          className="inline-flex h-10 w-10 items-center justify-center rounded-lg p-2 text-sm text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 lg:hidden dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+          className="inline-flex h-10 w-10 items-center justify-center rounded-lg p-2 text-sm text-gray-500 hover:bg-gray-100 focus:ring-2 focus:ring-gray-200 focus:outline-none lg:hidden dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
           aria-controls="navbar-default"
           aria-expanded="false"
           onClick={() => {
@@ -57,12 +57,12 @@ const Navbar = ({ open, setter }: { open: boolean; setter: Dispatch<SetStateActi
           className={'mx-auto' + (open ? '' : ' hidden') + ' w-full lg:block lg:w-auto'}
           id="navbar-default"
         >
-          <ul className="mt-4 flex flex-col rounded-lg border border-gray-100 bg-gray-50 p-4 font-medium lg:mt-0 lg:flex-row lg:space-x-8 lg:border-0 lg:bg-white lg:p-0 rtl:space-x-reverse dark:bg-p1-deepdarkgreen lg:dark:bg-p1-deepdarkgreen">
+          <ul className="dark:bg-p1-deepdarkgreen lg:dark:bg-p1-deepdarkgreen mt-4 flex flex-col rounded-lg border border-gray-100 bg-gray-50 p-4 font-medium lg:mt-0 lg:flex-row lg:space-x-8 lg:border-0 lg:bg-white lg:p-0 rtl:space-x-reverse">
             {menuItems.map(({ name, url }) => (
               <li key={name}>
                 <Link
                   href={url}
-                  className="block bg-transparent px-3 py-2 text-slate-700 hover:text-p1-cyan focus:text-p1-cyan lg:p-0 dark:text-p1-gray lg:dark:text-p1-green"
+                  className="hover:text-p1-cyan focus:text-p1-cyan dark:text-p1-gray lg:dark:text-p1-green block bg-transparent px-3 py-2 text-slate-700 lg:p-0"
                   aria-current="page"
                 >
                   {name}

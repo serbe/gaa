@@ -8,7 +8,7 @@ export default function Page() {
     <div className="mx-auto max-w-7xl font-serif">
       <JumpButton points={jumpPoints} />
 
-      <div className="p-2 text-center text-xl font-bold text-p1-darkgreen drop-shadow-2xl md:text-4xl dark:text-p1-green dark:hover:text-p1-cyan">
+      <div className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan p-2 text-center text-xl font-bold drop-shadow-2xl md:text-4xl">
         Выгода участника
       </div>
       <div className="flex flex-wrap object-center px-2 md:flex-nowrap md:space-x-2">
@@ -16,7 +16,7 @@ export default function Page() {
           <div>
             <div className="md:pt-2" id="1"></div>
 
-            <div className="my-1 rounded-3xl border-2 border-p1-darkgreen p-6 text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:my-2 md:border-4 dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
+            <div className="border-p1-darkgreen text-p1-darkgreen hover:border-p2-orange dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan my-1 rounded-3xl border-2 p-6 hover:shadow-xl md:my-2 md:border-4">
               <p className="pb-3 text-center font-bold">Уникальные привилегии:</p>
               <p className="pb-5">Мероприятия: Участие в мероприятиях, концертах, выставках.</p>
               <p className="pb-5">Доступ в Priority Club</p>
@@ -27,7 +27,7 @@ export default function Page() {
             </div>
             <div className="md:pt-2" id="2"></div>
 
-            <div className="my-1 rounded-3xl border-2 border-p1-darkgreen p-6 text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:my-2 md:border-4 dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
+            <div className="border-p1-darkgreen text-p1-darkgreen hover:border-p2-orange dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan my-1 rounded-3xl border-2 p-6 hover:shadow-xl md:my-2 md:border-4">
               <p className="pb-3 text-center font-bold">Социальные привилегии:</p>
               <p className="pb-5">
                 Сообщества: Доступ к эксклюзивным чатам, форумам или группам в социальных сетях.
@@ -38,7 +38,7 @@ export default function Page() {
             </div>
             <div className="md:pt-2" id="3"></div>
 
-            <div className="my-1 rounded-3xl border-2 border-p1-darkgreen p-6 text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:my-2 md:border-4 dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
+            <div className="border-p1-darkgreen text-p1-darkgreen hover:border-p2-orange dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan my-1 rounded-3xl border-2 p-6 hover:shadow-xl md:my-2 md:border-4">
               <p className="pb-3 text-center font-bold">Персонализация:</p>
               <p className="pb-5">
                 Услуги на заказ: Возможность заказать уникальные произведения искусства или
@@ -53,7 +53,7 @@ export default function Page() {
           <div className="md:pt-2" id="4"></div>
 
           <div>
-            <div className="my-1 rounded-3xl border-2 border-p1-darkgreen p-6 text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:my-2 md:border-4 dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
+            <div className="border-p1-darkgreen text-p1-darkgreen hover:border-p2-orange dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan my-1 rounded-3xl border-2 p-6 hover:shadow-xl md:my-2 md:border-4">
               <p className="pb-3 text-center font-bold">Скидки и предложения:</p>
               <p className="pb-5">
                 Покупки: Скидки на товары и услуги, предлагаемые проектом или его партнерами.
@@ -62,13 +62,13 @@ export default function Page() {
             </div>
             <div className="md:pt-2" id="5"></div>
 
-            <div className="my-1 rounded-3xl border-2 border-p1-darkgreen p-6 text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:my-2 md:border-4 dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
+            <div className="border-p1-darkgreen text-p1-darkgreen hover:border-p2-orange dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan my-1 rounded-3xl border-2 p-6 hover:shadow-xl md:my-2 md:border-4">
               <p className="pb-3 text-center font-bold">Вознаграждения и бонусы:</p>
               <p className="pb-5">Airdrop: Бесплатное получение дополнительных токенов или NFT.</p>
             </div>
             <div className="md:pt-2" id="6"></div>
 
-            <div className="my-1 rounded-3xl border-2 border-p1-darkgreen p-6 text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:my-2 md:border-4 dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
+            <div className="border-p1-darkgreen text-p1-darkgreen hover:border-p2-orange dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan my-1 rounded-3xl border-2 p-6 hover:shadow-xl md:my-2 md:border-4">
               <p className="pb-3 text-center font-bold">Физические товары:</p>
               <p className="pb-5">
                 Коллекционные предметы: Получение физической версии произведения искусства или
@@ -80,7 +80,7 @@ export default function Page() {
             </div>
             <div className="md:pt-2" id="7"></div>
 
-            <div className="my-1 rounded-3xl border-2 border-p1-darkgreen p-6 text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:my-2 md:border-4 dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
+            <div className="border-p1-darkgreen text-p1-darkgreen hover:border-p2-orange dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan my-1 rounded-3xl border-2 p-6 hover:shadow-xl md:my-2 md:border-4">
               <p className="pb-3 text-center font-bold">Образовательные ресурсы:</p>
               <p className="pb-5">
                 Курсы и семинары: Доступ к обучающим материалам, вебинарам и мастер-классам.
@@ -91,7 +91,7 @@ export default function Page() {
           <div className="md:pt-2" id="8"></div>
 
           <div>
-            <div className="my-1 rounded-3xl border-2 border-p1-darkgreen p-6 text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:my-2 md:border-4 dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
+            <div className="border-p1-darkgreen text-p1-darkgreen hover:border-p2-orange dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan my-1 rounded-3xl border-2 p-6 hover:shadow-xl md:my-2 md:border-4">
               <p className="pb-3 text-center font-bold">Права голоса:</p>
               <p className="pb-5">DAO (децентрализованные автономные организации):</p>
               <p className="pb-5">
@@ -101,7 +101,7 @@ export default function Page() {
             </div>
             <div className="md:pt-2" id="9"></div>
 
-            <div className="my-1 rounded-3xl border-2 border-p1-darkgreen p-6 text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:my-2 md:border-4 dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
+            <div className="border-p1-darkgreen text-p1-darkgreen hover:border-p2-orange dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan my-1 rounded-3xl border-2 p-6 hover:shadow-xl md:my-2 md:border-4">
               <p className="pb-3 text-center font-bold">Децентрализованный портал:</p>
               <p className="pb-5">
                 Запускаем платформу с актуальными новостями автоспорта, фото и видео отчетами,
@@ -116,7 +116,7 @@ export default function Page() {
             </div>
             <div className="md:pt-2" id="10"></div>
 
-            <div className="my-1 rounded-3xl border-2 border-p1-darkgreen p-6 text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:my-2 md:border-4 dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
+            <div className="border-p1-darkgreen text-p1-darkgreen hover:border-p2-orange dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan my-1 rounded-3xl border-2 p-6 hover:shadow-xl md:my-2 md:border-4">
               <p className="pb-3 text-center font-bold">Инвестиционные возможности:</p>
               <p className="pb-5">
                 Доступ к ранним инвестициям: Возможность вкладывать в проекты на ранних стадиях или
