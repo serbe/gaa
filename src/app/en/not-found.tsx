@@ -5,7 +5,7 @@ export default async function NotFound() {
   const pathname = headerList.get('x-current-path');
 
   return (
-    <div className="bg-404 min-h-screen">
+    <div className="min-h-screen bg-404">
       <div className="pt-20 text-center text-5xl">Страница: {pathname} не найдена</div>
     </div>
   );

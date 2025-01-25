@@ -25,14 +25,14 @@ export default function Page() {
       <JumpButton points={jumpPoints} />
       <div className="text-base md:text-xl">
         <div className="flex flex-row justify-center">
-          <div className="text-p1-darkgreen basis-3/5 text-center">
-            <div className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan p-2 text-xl font-bold drop-shadow-2xl md:text-4xl">
+          <div className="basis-3/5 text-center text-p1-darkgreen">
+            <div className="p-2 text-xl font-bold text-p1-darkgreen drop-shadow-2xl md:text-4xl dark:text-p1-green dark:hover:text-p1-cyan">
               Изучи Web 3
             </div>
           </div>
         </div>
         <div className="flex flex-row p-2">
-          <div className="text-p1-darkgreen basis-4/10">
+          <div className="basis-4/10 text-p1-darkgreen">
             <div className="space-y-6 rounded-3xl p-2 md:my-5">
               <div className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
                 Собранная информация содержит ключевые основы направления развития мирового
@@ -48,11 +48,11 @@ export default function Page() {
         <div className="" id="1"></div>
 
         <div className="mx-auto flex max-w-full flex-row space-y-2 p-2">
-          <details className="open:bg-p1-greem border-p1-darkgreen open:ring-p1-green hover:border-p1-green dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:hover:border-p1-green dark:hover:text-p1-cyan rounded-3xl p-2 open:ring-1 open:md:border-4 open:md:shadow-lg dark:open:ring-white/10">
-            <summary className="text-lm text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan space-y-4 leading-6 font-semibold select-none">
+          <details className="open:bg-p1-greem rounded-3xl border-p1-darkgreen p-2 open:ring-1 open:ring-p1-green hover:border-p1-green open:md:border-4 open:md:shadow-lg dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:open:ring-white/10 dark:hover:border-p1-green dark:hover:text-p1-cyan">
+            <summary className="text-lm select-none space-y-4 font-semibold leading-6 text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
               Что такое Web 3?
             </summary>
-            <div className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan mt-3 text-base leading-6 md:text-xl">
+            <div className="mt-3 text-base leading-6 text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
               <p>
                 Web 3 (или Web 3.0) — это концепция следующего поколения интернета, которая
                 ориентирована на децентрализацию и использование блокчейн-технологий для создания
@@ -91,11 +91,11 @@ export default function Page() {
         <div className="" id="2"></div>
 
         <div className="mx-auto flex max-w-full flex-row space-y-2 p-2">
-          <details className="open:bg-p1-greem border-p1-darkgreen open:ring-p1-green hover:border-p1-green dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:hover:border-p1-green dark:hover:text-p1-cyan rounded-3xl p-2 open:ring-1 open:md:border-4 open:md:shadow-lg dark:open:ring-white/10">
-            <summary className="text-lm text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan space-y-4 leading-6 font-semibold select-none">
+          <details className="open:bg-p1-greem rounded-3xl border-p1-darkgreen p-2 open:ring-1 open:ring-p1-green hover:border-p1-green open:md:border-4 open:md:shadow-lg dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:open:ring-white/10 dark:hover:border-p1-green dark:hover:text-p1-cyan">
+            <summary className="text-lm select-none space-y-4 font-semibold leading-6 text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
               Для того чтобы лучше понять, что такое Web3 надо знать, что такое Web 1 и Web 2
             </summary>
-            <div className="text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan mt-3 text-base leading-6 md:text-xl">
+            <div className="mt-3 text-base leading-6 text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
               <p>Web-1</p>
               <div className="space-y-4 pb-5"></div>
               <div className="pb-5">
@@ -158,11 +158,11 @@ export default function Page() {
         <div className="" id="3"></div>
 
         <div className="mx-auto flex max-w-full flex-row space-y-2 p-2">
-          <details className="open:bg-p1-greem border-p1-darkgreen open:ring-p1-green hover:border-p1-green dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:hover:border-p1-green dark:hover:text-p1-cyan rounded-3xl p-2 open:ring-1 open:md:border-4 open:md:shadow-lg dark:open:ring-white/10">
-            <summary className="text-lm text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan space-y-4 leading-6 font-semibold select-none">
+          <details className="open:bg-p1-greem rounded-3xl border-p1-darkgreen p-2 open:ring-1 open:ring-p1-green hover:border-p1-green open:md:border-4 open:md:shadow-lg dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:open:ring-white/10 dark:hover:border-p1-green dark:hover:text-p1-cyan">
+            <summary className="text-lm select-none space-y-4 font-semibold leading-6 text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
               Web 2
             </summary>
-            <div className="text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan mt-3 text-base leading-6 md:text-xl">
+            <div className="mt-3 text-base leading-6 text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
               <p>
                 Web 2 (или Web 2.0) — это вторая эпоха развития интернета, начавшаяся в начале
                 2000-х годов. Web2 представляет собой переход от статических веб-страниц и
@@ -229,11 +229,11 @@ export default function Page() {
         <div className="" id="4"></div>
 
         <div className="mx-auto flex max-w-full flex-row space-y-2 p-2">
-          <details className="open:bg-p1-greem border-p1-darkgreen open:ring-p1-green hover:border-p1-green dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:hover:border-p1-green dark:hover:text-p1-cyan rounded-3xl p-2 open:ring-1 open:md:border-4 open:md:shadow-lg dark:open:ring-white/10">
-            <summary className="text-lm text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan space-y-4 leading-6 font-semibold select-none">
+          <details className="open:bg-p1-greem rounded-3xl border-p1-darkgreen p-2 open:ring-1 open:ring-p1-green hover:border-p1-green open:md:border-4 open:md:shadow-lg dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:open:ring-white/10 dark:hover:border-p1-green dark:hover:text-p1-cyan">
+            <summary className="text-lm select-none space-y-4 font-semibold leading-6 text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
               Децентрализация
             </summary>
-            <div className="text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan mt-3 text-base leading-6 md:text-xl">
+            <div className="mt-3 text-base leading-6 text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
               <p>
                 Децентрализация — это процесс распределения власти, управления и принятия решений от
                 центрального органа или единой точки контроля к более распределенной системе или
@@ -266,7 +266,7 @@ export default function Page() {
             </div>
             <div className="pb-5"> </div>
 
-            <div className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan pb-5">
+            <div className="pb-5 text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
               Преимущества децентрализации:
               <ul className="list-disc space-y-2 px-5 pt-3">
                 <li>
@@ -284,11 +284,11 @@ export default function Page() {
         </div>
         <div className="" id="5"></div>
         <div className="mx-auto flex max-w-full flex-row space-y-2 p-2">
-          <details className="open:bg-p1-greem border-p1-darkgreen open:ring-p1-green hover:border-p1-green dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:hover:border-p1-green dark:hover:text-p1-cyan rounded-3xl p-2 open:ring-1 open:md:border-4 open:md:shadow-lg dark:open:ring-white/10">
-            <summary className="text-lm text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan space-y-4 leading-6 font-semibold select-none">
+          <details className="open:bg-p1-greem rounded-3xl border-p1-darkgreen p-2 open:ring-1 open:ring-p1-green hover:border-p1-green open:md:border-4 open:md:shadow-lg dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:open:ring-white/10 dark:hover:border-p1-green dark:hover:text-p1-cyan">
+            <summary className="text-lm select-none space-y-4 font-semibold leading-6 text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
               Что такое блокчейн?
             </summary>
-            <div className="text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan mt-3 text-base leading-6 md:text-xl">
+            <div className="mt-3 text-base leading-6 text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
               <p>
                 Блокчейн (blockchain) — это распределенная и защищенная технология хранения данных,
                 представляющая собой цепочку блоков, каждый из которых содержит информацию. Эта
@@ -325,7 +325,7 @@ export default function Page() {
             </div>
             <div className="pb-5"> </div>
 
-            <div className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan pb-5">
+            <div className="pb-5 text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
               Как работает блокчейн:
               <ul className="list-disc space-y-2 px-5">
                 <li>
@@ -353,7 +353,7 @@ export default function Page() {
             </div>
             <div className="pb-5"> </div>
 
-            <div className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan pb-5">
+            <div className="pb-5 text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
               Примеры использования блокчейна:
               <ul className="list-disc space-y-2 px-5">
                 <li>
@@ -384,7 +384,7 @@ export default function Page() {
             </div>
             <div className="pb-5"> </div>
 
-            <div className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan pb-5">
+            <div className="pb-5 text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
               Преимущества блокчейна:
               <ul className="list-disc space-y-2 px-5">
                 <li>
@@ -405,7 +405,7 @@ export default function Page() {
               </ul>
             </div>
             <div className="pb-5"> </div>
-            <div className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan pb-5">
+            <div className="pb-5 text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
               Блокчейн — это мощная технология, которая открывает новые возможности для безопасного
               и децентрализованного хранения и обработки данных, находя применение во множестве
               отраслей, от финансов до управления цепочками поставок.
@@ -414,11 +414,11 @@ export default function Page() {
         </div>
         <div className="" id="6"></div>
         <div className="mx-auto flex max-w-full flex-row space-y-2 p-2">
-          <details className="open:bg-p1-greem border-p1-darkgreen open:ring-p1-green hover:border-p1-green dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:hover:border-p1-green dark:hover:text-p1-cyan rounded-3xl p-2 open:ring-1 open:md:border-4 open:md:shadow-lg dark:open:ring-white/10">
-            <summary className="text-lm text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan space-y-4 leading-6 font-semibold select-none">
+          <details className="open:bg-p1-greem rounded-3xl border-p1-darkgreen p-2 open:ring-1 open:ring-p1-green hover:border-p1-green open:md:border-4 open:md:shadow-lg dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:open:ring-white/10 dark:hover:border-p1-green dark:hover:text-p1-cyan">
+            <summary className="text-lm select-none space-y-4 font-semibold leading-6 text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
               Смарт-контракты
             </summary>
-            <div className="text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan mt-3 text-base leading-6 md:text-xl">
+            <div className="mt-3 text-base leading-6 text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
               <p>
                 Смарт-контракты (англ. smart contracts) — это самоисполняющиеся контракты с
                 условиями соглашения между покупателем и продавцом, написанными непосредственно в
@@ -455,7 +455,7 @@ export default function Page() {
             </div>
             <div className="pb-5"> </div>
 
-            <div className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan pb-5">
+            <div className="pb-5 text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
               Как работают смарт-контракты: :
               <ul className="list-disc space-y-2 px-5">
                 <li>
@@ -477,7 +477,7 @@ export default function Page() {
             </div>
             <div className="pb-5"> </div>
 
-            <div className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan pb-5">
+            <div className="pb-5 text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
               Примеры использования смарт-контрактов:
               <ul className="list-disc space-y-2 px-5">
                 <li>
@@ -511,7 +511,7 @@ export default function Page() {
             </div>
             <div className="pb-5"> </div>
 
-            <div className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan pb-5">
+            <div className="pb-5 text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
               Примеры платформ для создания смарт-контрактов:
               <ul className="list-disc space-y-2 px-5">
                 <li>
@@ -538,11 +538,11 @@ export default function Page() {
         </div>
         <div className="" id="7"></div>
         <div className="mx-auto flex max-w-full flex-row space-y-2 p-2">
-          <details className="open:bg-p1-greem border-p1-darkgreen open:ring-p1-green hover:border-p1-green dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:hover:border-p1-green dark:hover:text-p1-cyan rounded-3xl p-2 open:ring-1 open:md:border-4 open:md:shadow-lg dark:open:ring-white/10">
-            <summary className="text-lm text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan space-y-4 leading-6 font-semibold select-none">
+          <details className="open:bg-p1-greem rounded-3xl border-p1-darkgreen p-2 open:ring-1 open:ring-p1-green hover:border-p1-green open:md:border-4 open:md:shadow-lg dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:open:ring-white/10 dark:hover:border-p1-green dark:hover:text-p1-cyan">
+            <summary className="text-lm select-none space-y-4 font-semibold leading-6 text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
               ДАО (Децентрализованная автономная организация)
             </summary>
-            <div className="text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan mt-3 text-base leading-6 md:text-xl">
+            <div className="mt-3 text-base leading-6 text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
               <p>
                 ДАО (Децентрализованная автономная организация) — это организация, управляемая с
                 помощью блокчейн-технологий и смарт-контрактов, которая функционирует без
@@ -584,7 +584,7 @@ export default function Page() {
             </div>
             <div className="pb-5"> </div>
 
-            <div className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan pb-5">
+            <div className="pb-5 text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
               Примеры использования DAO:
               <ul className="list-disc space-y-2 px-5">
                 <li>
@@ -604,7 +604,7 @@ export default function Page() {
             </div>
             <div className="pb-5"> </div>
 
-            <div className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan pb-5">
+            <div className="pb-5 text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
               Примеры известных DAO:
               <ul className="list-disc space-y-2 px-5">
                 <li>
@@ -625,7 +625,7 @@ export default function Page() {
             </div>
             <div className="pb-5"> </div>
 
-            <div className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan pb-5">
+            <div className="pb-5 text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
               DAO представляет собой инновационный способ организации и управления, который
               использует возможности блокчейн-технологий для обеспечения прозрачности, безопасности
               и децентрализации.
@@ -634,11 +634,11 @@ export default function Page() {
         </div>
         <div className="" id="8"></div>
         <div className="mx-auto flex max-w-full flex-row space-y-2 p-2">
-          <details className="open:bg-p1-greem border-p1-darkgreen open:ring-p1-green hover:border-p1-green dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:hover:border-p1-green dark:hover:text-p1-cyan rounded-3xl p-2 open:ring-1 open:md:border-4 open:md:shadow-lg dark:open:ring-white/10">
-            <summary className="text-lm text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan space-y-4 leading-6 font-semibold select-none">
+          <details className="open:bg-p1-greem rounded-3xl border-p1-darkgreen p-2 open:ring-1 open:ring-p1-green hover:border-p1-green open:md:border-4 open:md:shadow-lg dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:open:ring-white/10 dark:hover:border-p1-green dark:hover:text-p1-cyan">
+            <summary className="text-lm select-none space-y-4 font-semibold leading-6 text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
               Организация хранения данных в децентрализованной сети по техологии IPFS
             </summary>
-            <div className="text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan mt-3 text-base leading-6 md:text-xl">
+            <div className="mt-3 text-base leading-6 text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
               <p>
                 IPFS (InterPlanetary File System, Межпланетная файловая система) — это
                 децентрализованная система хранения и обмена файлами, разработанная для создания
@@ -681,7 +681,7 @@ export default function Page() {
             </div>
             <div className="pb-5"> </div>
 
-            <div className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan pb-5">
+            <div className="pb-5 text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
               Преимущества IPFS:
               <ul className="list-disc space-y-2 px-5">
                 <li>
@@ -704,7 +704,7 @@ export default function Page() {
             </div>
             <div className="pb-5"> </div>
 
-            <div className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan pb-5">
+            <div className="pb-5 text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
               Примеры использования IPFS:
               <ul className="list-disc space-y-2 px-5">
                 <li>
@@ -728,7 +728,7 @@ export default function Page() {
             </div>
             <div className="pb-5"> </div>
 
-            <div className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan pb-5">
+            <div className="pb-5 text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
               IPFS представляет собой мощный инструмент для создания более децентрализованного,
               безопасного и эффективного интернета, позволяя пользователям хранить и обмениваться
               данными без необходимости в доверенных посредниках или центральных серверах.
@@ -737,11 +737,11 @@ export default function Page() {
         </div>
         <div className="" id="9"></div>
         <div className="mx-auto flex max-w-full flex-row space-y-2 p-2">
-          <details className="open:bg-p1-greem border-p1-darkgreen open:ring-p1-green hover:border-p1-green dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:hover:border-p1-green dark:hover:text-p1-cyan rounded-3xl p-2 open:ring-1 open:md:border-4 open:md:shadow-lg dark:open:ring-white/10">
-            <summary className="text-lm text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan space-y-4 leading-6 font-semibold select-none">
+          <details className="open:bg-p1-greem rounded-3xl border-p1-darkgreen p-2 open:ring-1 open:ring-p1-green hover:border-p1-green open:md:border-4 open:md:shadow-lg dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:open:ring-white/10 dark:hover:border-p1-green dark:hover:text-p1-cyan">
+            <summary className="text-lm select-none space-y-4 font-semibold leading-6 text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
               Организация хранения данных в децентрализованной сети по техологии Blockweave
             </summary>
-            <div className="text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan mt-3 text-base leading-6 md:text-xl">
+            <div className="mt-3 text-base leading-6 text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
               <p>
                 Blockweave — это уникальная структура хранения данных, используемая в сети Arweave.
                 Она отличается от традиционных блокчейнов тем, что каждый блок в сети не только
@@ -755,11 +755,11 @@ export default function Page() {
         </div>
         <div className="" id="10"></div>
         <div className="mx-auto flex max-w-full flex-row space-y-2 p-2">
-          <details className="open:bg-p1-greem border-p1-darkgreen open:ring-p1-green hover:border-p1-green dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:hover:border-p1-green dark:hover:text-p1-cyan rounded-3xl p-2 open:ring-1 open:md:border-4 open:md:shadow-lg dark:open:ring-white/10">
-            <summary className="text-lm text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan space-y-4 leading-6 font-semibold select-none">
+          <details className="open:bg-p1-greem rounded-3xl border-p1-darkgreen p-2 open:ring-1 open:ring-p1-green hover:border-p1-green open:md:border-4 open:md:shadow-lg dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:open:ring-white/10 dark:hover:border-p1-green dark:hover:text-p1-cyan">
+            <summary className="text-lm select-none space-y-4 font-semibold leading-6 text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
               Что такое токен?
             </summary>
-            <div className="text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan mt-3 text-base leading-6 md:text-xl">
+            <div className="mt-3 text-base leading-6 text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
               <p>
                 Токен — это цифровой актив, представляющий собой единицу стоимости или права,
                 созданный и управляемый с использованием блокчейн-технологий. Токены могут иметь
@@ -806,7 +806,7 @@ export default function Page() {
             </div>
             <div className="pb-5"> </div>
 
-            <div className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan pb-5">
+            <div className="pb-5 text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
               Примеры использования токенов:
               <ul className="list-disc space-y-2 px-5">
                 <li>
@@ -836,7 +836,7 @@ export default function Page() {
             </div>
             <div className="pb-5"> </div>
 
-            <div className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan pb-5">
+            <div className="pb-5 text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
               Преимущества токенов:
               <ul className="list-disc space-y-2 px-5">
                 <li>
@@ -860,7 +860,7 @@ export default function Page() {
             </div>
             <div className="pb-5"> </div>
 
-            <div className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan pb-5">
+            <div className="pb-5 text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
               Токены играют важную роль в экосистеме блокчейна и децентрализованных технологий,
               предоставляя новые возможности для финансовых операций, управления активами и создания
               новых бизнес-моделей.
@@ -869,8 +869,8 @@ export default function Page() {
         </div>
         <div className="" id="11"></div>
         <div className="mx-auto flex max-w-full flex-row space-y-2 p-2">
-          <details className="open:bg-p1-greem border-p1-darkgreen open:ring-p1-green hover:border-p1-green dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:hover:border-p1-green dark:hover:text-p1-cyan rounded-3xl p-2 open:ring-1 open:md:border-4 open:md:shadow-lg dark:open:ring-white/10">
-            <summary className="text-lm text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan space-y-4 leading-6 font-semibold select-none">
+          <details className="open:bg-p1-greem rounded-3xl border-p1-darkgreen p-2 open:ring-1 open:ring-p1-green hover:border-p1-green open:md:border-4 open:md:shadow-lg dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:open:ring-white/10 dark:hover:border-p1-green dark:hover:text-p1-cyan">
+            <summary className="text-lm select-none space-y-4 font-semibold leading-6 text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
               Что такое NFT?
             </summary>
             <div className="mt-3 text-base leading-6 md:text-xl">
@@ -881,7 +881,7 @@ export default function Page() {
                 биткоины или эфир, каждый NFT имеет уникальный идентификатор и не может быть обменен
                 на другой NFT на равных условиях.
               </p>
-              <div className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan space-y-4 pt-5">
+              <div className="space-y-4 pt-5 text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
                 <p>Основные характеристики NFT:</p>
 
                 <ul className="list-disc space-y-4 px-5">
@@ -909,7 +909,7 @@ export default function Page() {
                 </ul>
               </div>
               <div className="pb-5"></div>
-              <div className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan space-y-4 pt-5">
+              <div className="space-y-4 pt-5 text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
                 Примеры использования NFT:
                 <ul className="list-disc space-y-4 px-5 pt-4">
                   <li>
@@ -940,7 +940,7 @@ export default function Page() {
             </div>
             <div className="pb-5"> </div>
 
-            <div className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan pb-5">
+            <div className="pb-5 text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
               Преимущества NFT:
               <ul className="list-disc space-y-2 px-5">
                 <li>
@@ -958,7 +958,7 @@ export default function Page() {
               </ul>
             </div>
             <div className="pb-5"> </div>
-            <div className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan pb-5">
+            <div className="pb-5 text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
               Технологии и платформы:
               <ul className="list-disc space-y-2 px-5">
                 <li>
@@ -978,7 +978,7 @@ export default function Page() {
 
             <div className="pb-5"> </div>
 
-            <div className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan pb-5">
+            <div className="pb-5 text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
               NFT открывают новые возможности для цифрового мира, предоставляя способ оцифровывать,
               проверять и торговать уникальными цифровыми активами, что изменяет подход к
               собственности и монетизации контента в интернете.
@@ -987,11 +987,11 @@ export default function Page() {
         </div>
         <div className="" id="12"></div>
         <div className="mx-auto flex max-w-full flex-row space-y-2 p-2">
-          <details className="open:bg-p1-greem border-p1-darkgreen open:ring-p1-green hover:border-p1-green dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:hover:border-p1-green dark:hover:text-p1-cyan rounded-3xl p-2 open:ring-1 open:md:border-4 open:md:shadow-lg dark:open:ring-white/10">
-            <summary className="text-lm text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan space-y-4 leading-6 font-semibold select-none">
+          <details className="open:bg-p1-greem rounded-3xl border-p1-darkgreen p-2 open:ring-1 open:ring-p1-green hover:border-p1-green open:md:border-4 open:md:shadow-lg dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:open:ring-white/10 dark:hover:border-p1-green dark:hover:text-p1-cyan">
+            <summary className="text-lm select-none space-y-4 font-semibold leading-6 text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
               Каким образом хранится NFT и сведения о том, что я собственник?
             </summary>
-            <div className="text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan mt-3 text-base leading-6 md:text-xl">
+            <div className="mt-3 text-base leading-6 text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
               <p>
                 NFT (невзаимозаменяемые токены) представляют собой уникальные цифровые активы,
                 которые хранятся на блокчейне. Однако, в отличие от криптовалют, таких как биткоин
@@ -1001,7 +1001,7 @@ export default function Page() {
                 другие данные.
               </p>
             </div>
-            <div className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan space-y-4 pt-5">
+            <div className="space-y-4 pt-5 text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
               <p>Как хранится NFT:</p>
 
               <ul className="list-disc space-y-4 px-5">
@@ -1021,7 +1021,7 @@ export default function Page() {
               </ul>
             </div>
             <div className="pb-5"></div>
-            <div className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan space-y-4 pb-5">
+            <div className="space-y-4 pb-5 text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
               Сведения о собственности:
               <ul className="list-disc space-y-4 px-5 pt-2">
                 <li>
@@ -1041,7 +1041,7 @@ export default function Page() {
 
             <div className="pb-5"> </div>
 
-            <div className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan pb-5">
+            <div className="pb-5 text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
               Пример процесса:
               <ul className="list-disc space-y-2 px-5">
                 <li>
@@ -1080,11 +1080,11 @@ export default function Page() {
             </div>
             <div className="pb-5"> </div>
 
-            <div className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan pb-5">
+            <div className="pb-5 text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
               Децентрализованные системы хранения, такие как IPFS, более устойчивы к этим рискам,
               поскольку контент децентрализованно хранится на многих узлах сети.
             </div>
-            <div className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan pb-5">
+            <div className="pb-5 text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
               NFT и блокчейн обеспечивают надежный способ подтверждения права собственности на
               уникальные цифровые активы, а децентрализованные хранилища помогают хранить контент
               безопасно и доступно.
@@ -1093,11 +1093,11 @@ export default function Page() {
         </div>
         <div className="" id="13"></div>
         <div className="mx-auto flex max-w-full flex-row space-y-2 p-2">
-          <details className="open:bg-p1-greem border-p1-darkgreen open:ring-p1-green hover:border-p1-green dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:hover:border-p1-green dark:hover:text-p1-cyan rounded-3xl p-2 open:ring-1 open:md:border-4 open:md:shadow-lg dark:open:ring-white/10">
-            <summary className="text-lm text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan space-y-4 leading-6 font-semibold select-none">
+          <details className="open:bg-p1-greem rounded-3xl border-p1-darkgreen p-2 open:ring-1 open:ring-p1-green hover:border-p1-green open:md:border-4 open:md:shadow-lg dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:open:ring-white/10 dark:hover:border-p1-green dark:hover:text-p1-cyan">
+            <summary className="text-lm select-none space-y-4 font-semibold leading-6 text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
               Что такое метаданные?
             </summary>
-            <div className="text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan mt-3 text-base leading-6 md:text-xl">
+            <div className="mt-3 text-base leading-6 text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
               <p>
                 Метаданные — это данные, которые описывают и предоставляют информацию о других
                 данных. В контексте цифровых активов, таких как NFT, метаданные играют важную роль,
@@ -1105,7 +1105,7 @@ export default function Page() {
                 создания, и ссылки на связанный контент (например, изображения, видео, аудио).
               </p>
             </div>
-            <div className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan pt-3">
+            <div className="pt-3 text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
               <p>Метаданные в контексте NFT:</p>
               <div className="space-y-4 pb-5"></div>
               <p>
@@ -1132,7 +1132,7 @@ export default function Page() {
               </ul>
             </div>
             <div className="pb-5"></div>
-            <div className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan space-y-4 pb-5">
+            <div className="space-y-4 pb-5 text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
               Хранение метаданных:
               <p>
                 Метаданные для NFT могут храниться как на блокчейне, так и вне его, в зависимости от
@@ -1153,7 +1153,7 @@ export default function Page() {
 
             <div className="pb-5"> </div>
 
-            <div className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan pb-5">
+            <div className="pb-5 text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
               Использование метаданных:
               <ul className="list-disc space-y-2 px-5">
                 <li>
@@ -1164,7 +1164,7 @@ export default function Page() {
               </ul>
             </div>
             <div className="pb-5"> </div>
-            <div className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan pb-5">
+            <div className="pb-5 text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
               Преимущества использования метаданных:
               <ul className="list-disc space-y-2 px-5">
                 <li>
@@ -1188,7 +1188,7 @@ export default function Page() {
               </ul>
             </div>
             <div className="pb-5"> </div>
-            <div className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan pb-5">
+            <div className="pb-5 text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
               Метаданные играют ключевую роль в экосистеме NFT, обеспечивая богатую и
               структурированную информацию о цифровых активах, которая помогает пользователям и
               платформам взаимодействовать с этими активами более эффективно.
@@ -1197,11 +1197,11 @@ export default function Page() {
         </div>
         <div className="" id="14"></div>
         <div className="mx-auto flex max-w-full flex-row space-y-2 p-2">
-          <details className="open:bg-p1-greem border-p1-darkgreen open:ring-p1-green hover:border-p1-green dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:hover:border-p1-green dark:hover:text-p1-cyan rounded-3xl p-2 open:ring-1 open:md:border-4 open:md:shadow-lg dark:open:ring-white/10">
-            <summary className="text-lm text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan space-y-4 leading-6 font-semibold select-none">
+          <details className="open:bg-p1-greem rounded-3xl border-p1-darkgreen p-2 open:ring-1 open:ring-p1-green hover:border-p1-green open:md:border-4 open:md:shadow-lg dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:open:ring-white/10 dark:hover:border-p1-green dark:hover:text-p1-cyan">
+            <summary className="text-lm select-none space-y-4 font-semibold leading-6 text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
               Что такое MetaMask?
             </summary>
-            <div className="text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan mt-3 text-base leading-6 md:text-xl">
+            <div className="mt-3 text-base leading-6 text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
               <p>
                 MetaMask — это популярный криптовалютный кошелек и инструмент для взаимодействия с
                 блокчейном Ethereum, который позволяет пользователям управлять своими эфирами (ETH)
@@ -1210,7 +1210,7 @@ export default function Page() {
                 как мобильное приложение (для iOS и Android).
               </p>
             </div>
-            <div className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan pt-5">
+            <div className="pt-5 text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
               <p>Основные функции MetaMask:</p>
 
               <ul className="list-disc space-y-4 px-5">
@@ -1239,12 +1239,12 @@ export default function Page() {
               </ul>
             </div>
             <div className="pb-5"></div>
-            <div className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan space-y-4 pb-5">
+            <div className="space-y-4 pb-5 text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
               Мультибраузерная и мобильная поддержка:Расширения для популярных браузеров, что делает
               использование MetaMask удобным на настольных устройствах. Мобильное приложение для
               управления криптовалютами и взаимодействия с dApps на ходу.
             </div>
-            <div className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan space-y-4 pb-5">
+            <div className="space-y-4 pb-5 text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
               Как использовать MetaMask:
               <ul className="list-disc space-y-4 px-5">
                 <li>
@@ -1273,7 +1273,7 @@ export default function Page() {
 
             <div className="pb-5"> </div>
 
-            <div className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan pb-5">
+            <div className="pb-5 text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
               MetaMask является мощным инструментом для любого, кто хочет участвовать в экосистеме
               Ethereum. Он обеспечивает безопасное хранение криптовалюты, удобное взаимодействие с
               децентрализованными приложениями и простой способ управления цифровыми активами.

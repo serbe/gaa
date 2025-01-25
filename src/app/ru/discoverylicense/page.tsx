@@ -22,9 +22,9 @@ const Buttons = ({
             : 'bg-white') +
           ' px-4 py-2 text-sm font-medium' +
           (license == 0
-            ? 'text-p1-white ring-p2-orange dark:ring-p1-cyan z-10 ring-2'
+            ? 'z-10 text-p1-white ring-2 ring-p2-orange dark:ring-p1-cyan'
             : 'text-p1-darkgreen') +
-          ' text-p1-darkgreen hover:text-p1-darkgreen hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white'
+          ' text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white'
         }
         onClick={() => {
           setter(0);
@@ -40,9 +40,9 @@ const Buttons = ({
             : 'bg-white') +
           ' px-4 py-2 text-sm font-medium' +
           (license == 1
-            ? 'text-p1-white ring-p2-orange dark:ring-p1-cyan z-10 ring-2'
+            ? 'z-10 text-p1-white ring-2 ring-p2-orange dark:ring-p1-cyan'
             : 'text-p1-darkgreen') +
-          ' text-p1-darkgreen hover:text-p1-darkgreen hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white'
+          ' text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white'
         }
         onClick={() => {
           setter(1);
@@ -58,9 +58,9 @@ const Buttons = ({
             : 'bg-white') +
           ' px-4 py-2 text-sm font-medium' +
           (license == 2
-            ? 'text-p1-white ring-p2-orange dark:ring-p1-cyan z-10 ring-2'
+            ? 'z-10 text-p1-white ring-2 ring-p2-orange dark:ring-p1-cyan'
             : 'text-p1-darkgreen') +
-          ' text-p1-darkgreen hover:text-p1-darkgreen hover:bg-gray-100 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white'
+          ' text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white'
         }
         onClick={() => {
           setter(2);
@@ -89,41 +89,41 @@ export default function Page() {
             Страница исследователя
           </div>
         </div>
-        <div className="dark:hover:border-p1-darkgreen rounded-3xl border-amber-600 md:border-4 md:shadow-lg dark:border-amber-700">
+        <div className="rounded-3xl border-amber-600 md:border-4 md:shadow-lg dark:border-amber-700 dark:hover:border-p1-darkgreen">
           <div className="flex flex-wrap justify-center px-2 pt-2 md:flex-nowrap">
             <div>
-              <p className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan p-2 text-base md:text-xl">
+              <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
                 Promoter License NFT - невзаимозаменяемый токен, предоставляемый Промоутеру
                 (организатору) мероприятия.
               </p>
-              <p className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan p-2 text-base md:text-xl">
+              <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
                 Promoter License NFT предоставляет доступ к странице создания наград (Awards NFT).
               </p>
-              <p className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan p-2 text-base md:text-xl">
+              <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
                 Промоутер создает и передает NFT награды победителям.
               </p>
-              <p className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan p-2 text-base md:text-xl">
+              <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
                 Для получения Promoter License NFT необходимо зарегистрироваться и заполнить заявку:
               </p>
 
               <div className="my-2 justify-self-center">
                 <Link
                   href="/applicationform"
-                  className="border-p1-green bg-p1-white text-p1-darkgreen hover:border-p1-darkgreen hover:bg-p1-darkgreen hover:text-p1-white dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:border-p1-green dark:hover:bg-p1-green dark:hover:text-p1-deepdarkgreen inline-block place-content-center rounded-xl border-2 px-10 py-8 shadow-lg transition-all delay-75 duration-300 ease-in-out"
+                  className="inline-block place-content-center rounded-xl border-2 border-p1-green bg-p1-white px-10 py-8 text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:border-p1-darkgreen hover:bg-p1-darkgreen hover:text-p1-white dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:border-p1-green dark:hover:bg-p1-green dark:hover:text-p1-deepdarkgreen"
                 >
                   Форма заявки
                 </Link>
               </div>
-              <p className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan p-2 text-base md:text-xl">
+              <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
                 При положительном решении Промоутеру (организатору) предоставляется возможность
                 создания Promoter License NFT.
               </p>
-              <p className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan p-2 text-base md:text-xl">
+              <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
                 Данный токен имеет характеристику &quot;Burnable&quot; - собственник смарт-контракта
                 может уничтожить любой токен из коллекции.
               </p>
 
-              <p className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan p-2 text-base md:text-xl">
+              <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
                 Собственник смарт-контракта вправе уничтожить NFT в случае создания NFT, не
                 соответствующих правилам проекта.
               </p>
@@ -132,7 +132,7 @@ export default function Page() {
             <div className="m-1 place-items-center p-2">
               <div className="md:w-96">
                 <Image
-                  className="border-p2-orange dark:border-p1-green relative inline-block w-max rounded-3xl border-2 shadow-lg md:w-full"
+                  className="relative inline-block w-max rounded-3xl border-2 border-p2-orange shadow-lg md:w-full dark:border-p1-green"
                   width={4000}
                   height={4000}
                   src="/Licenses/Promoter Lic.png"
@@ -143,7 +143,7 @@ export default function Page() {
                   <div className="justify-self-center">
                     <Link
                       href="/license?license=promoter"
-                      className="border-p2-orange bg-p1-white text-p1-darkgreen hover:bg-p2-orange hover:text-p1-white dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:border-p2-orange inline-block rounded-xl border-2 px-10 py-8 shadow-lg transition-all delay-75 duration-300 ease-in-out dark:hover:bg-amber-600 dark:hover:text-amber-100"
+                      className="inline-block rounded-xl border-2 border-p2-orange bg-p1-white px-10 py-8 text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p2-orange hover:text-p1-white dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:border-p2-orange dark:hover:bg-amber-600 dark:hover:text-amber-100"
                     >
                       Создай NFT
                     </Link>
@@ -158,21 +158,21 @@ export default function Page() {
       {/* //National License */}
       <div id="national" className={license == 1 ? '' : 'hidden'}>
         <div className="flex flex-wrap justify-center self-center md:flex-nowrap md:justify-between">
-          <div className="text-p1-gray px-2 text-xl font-semibold md:pt-2 md:text-3xl dark:text-stone-500">
+          <div className="px-2 text-xl font-semibold text-p1-gray md:pt-2 md:text-3xl dark:text-stone-500">
             National License NFT
           </div>
-          <div className="text-p1-gray px-2 text-xl font-semibold md:pt-2 md:text-3xl dark:text-stone-500">
+          <div className="px-2 text-xl font-semibold text-p1-gray md:pt-2 md:text-3xl dark:text-stone-500">
             Страница исследователя
           </div>
         </div>
-        <div className="border-p1-gray dark:hover:border-p1-darkgreen rounded-3xl hover:shadow-lg md:border-4 dark:border-stone-500">
+        <div className="rounded-3xl border-p1-gray hover:shadow-lg md:border-4 dark:border-stone-500 dark:hover:border-p1-darkgreen">
           <div className="flex flex-wrap justify-center px-2 pt-2 md:flex-nowrap">
             <div>
-              <p className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan p-2 text-base md:text-xl">
+              <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
                 National License NFT - невзаимозаменяемый токен, предоставляемый лидерам
                 направлений.
               </p>
-              <div className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan p-2 text-base md:text-xl">
+              <div className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
                 National License NFT предоставляет доступ к:
                 <ul className="list-disc px-5">
                   <li>странице создания наград (Awards NFT)</li>
@@ -181,33 +181,33 @@ export default function Page() {
                 </ul>
               </div>
 
-              <p className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan p-2 text-base md:text-xl">
+              <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
                 National License NFT дает право принимать решения, связанные с организацией
                 мероприятий и проведением награждения спортсменов.
               </p>
 
-              <p className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan p-2 text-base md:text-xl">
+              <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
                 Для получения National License NFT необходимо зарегистрироваться и заполнить заявку:
               </p>
 
               <div className="my-2 justify-self-center">
                 <Link
                   href="/applicationform"
-                  className="border-p1-green bg-p1-white text-p1-darkgreen hover:border-p1-darkgreen hover:bg-p1-darkgreen hover:text-p1-white dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:border-p1-green dark:hover:bg-p1-green dark:hover:text-p1-deepdarkgreen inline-block place-content-center rounded-xl border-2 px-10 py-8 shadow-lg transition-all delay-75 duration-300 ease-in-out"
+                  className="inline-block place-content-center rounded-xl border-2 border-p1-green bg-p1-white px-10 py-8 text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:border-p1-darkgreen hover:bg-p1-darkgreen hover:text-p1-white dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:border-p1-green dark:hover:bg-p1-green dark:hover:text-p1-deepdarkgreen"
                 >
                   Форма заявки
                 </Link>
               </div>
-              <p className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan p-2 text-base md:text-xl">
+              <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
                 При положительном решении лидеру направления предоставляется возможность создания
                 National License NFT.
               </p>
-              <p className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan p-2 text-base md:text-xl">
+              <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
                 Данный токен имеет характеристику &quot;Burnable&quot; - собственник смарт-контракта
                 может уничтожить любой токен из коллекции.
               </p>
 
-              <p className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan p-2 text-base md:text-xl">
+              <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
                 Собственник смарт-контракта вправе уничтожить NFT в случае создания NFT, не
                 соответствующих правилам проекта.
               </p>
@@ -216,7 +216,7 @@ export default function Page() {
             <div className="m-1 place-items-center p-2">
               <div className="md:w-96">
                 <Image
-                  className="border-p2-orange dark:border-p1-green relative inline-block rounded-3xl border-2 shadow-lg md:w-full"
+                  className="relative inline-block rounded-3xl border-2 border-p2-orange shadow-lg md:w-full dark:border-p1-green"
                   width={4000}
                   height={4000}
                   src="/Licenses/National Lic.png"
@@ -227,7 +227,7 @@ export default function Page() {
                   <div className="justify-self-center">
                     <Link
                       href="/license?license=national"
-                      className="border-p2-orange bg-p1-white text-p1-darkgreen hover:bg-p2-orange hover:text-p1-white dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:border-p2-orange inline-block rounded-xl border-2 px-10 py-8 shadow-lg transition-all delay-75 duration-300 ease-in-out dark:hover:bg-amber-600 dark:hover:text-amber-100"
+                      className="inline-block rounded-xl border-2 border-p2-orange bg-p1-white px-10 py-8 text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p2-orange hover:text-p1-white dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:border-p2-orange dark:hover:bg-amber-600 dark:hover:text-amber-100"
                     >
                       Создай NFT
                     </Link>
@@ -242,21 +242,21 @@ export default function Page() {
       {/* //Global License */}
       <div id="global" className={license == 2 ? '' : 'hidden'}>
         <div className="flex flex-wrap justify-center self-center md:flex-nowrap md:justify-between">
-          <div className="text-p2-orange px-2 text-xl font-semibold md:pt-2 md:text-3xl">
+          <div className="px-2 text-xl font-semibold text-p2-orange md:pt-2 md:text-3xl">
             Global License NFT
           </div>
-          <div className="text-p2-orange px-2 text-xl font-semibold md:pt-2 md:text-3xl">
+          <div className="px-2 text-xl font-semibold text-p2-orange md:pt-2 md:text-3xl">
             Страница исследователя
           </div>
         </div>
-        <div className="border-p2-orange dark:hover:border-p1-darkgreen rounded-3xl md:border-4 md:shadow-lg">
+        <div className="rounded-3xl border-p2-orange md:border-4 md:shadow-lg dark:hover:border-p1-darkgreen">
           <div className="flex flex-wrap justify-center px-2 pt-2 md:flex-nowrap">
             <div>
-              <p className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan p-2 text-base md:text-xl">
+              <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
                 Global License NFT - невзаимозаменяемый токен, предоставляемый лидерам направлений и
                 организаторам мероприятий международного уровня.
               </p>
-              <div className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan p-2 text-base md:text-xl">
+              <div className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
                 Global License NFT предоставляет доступ к:
                 <ul className="list-disc px-5">
                   <li>странице создания наград (Awards NFT)</li>
@@ -267,33 +267,33 @@ export default function Page() {
                 </ul>
               </div>
 
-              <p className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan p-2 text-base md:text-xl">
+              <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
                 Global License NFT дает право принимать решения, связанные с организацией
                 мероприятий и проведением награждения спортсменов.
               </p>
 
-              <p className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan p-2 text-base md:text-xl">
+              <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
                 Для получения Global License NFT необходимо зарегистрироваться и заполнить заявку:
               </p>
 
               <div className="my-2 justify-self-center">
                 <Link
                   href="/applicationform"
-                  className="border-p1-green bg-p1-white text-p1-darkgreen hover:border-p1-darkgreen hover:bg-p1-darkgreen hover:text-p1-white dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:border-p1-green dark:hover:bg-p1-green dark:hover:text-p1-deepdarkgreen inline-block place-content-center rounded-xl border-2 px-10 py-8 shadow-lg transition-all delay-75 duration-300 ease-in-out"
+                  className="inline-block place-content-center rounded-xl border-2 border-p1-green bg-p1-white px-10 py-8 text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:border-p1-darkgreen hover:bg-p1-darkgreen hover:text-p1-white dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:border-p1-green dark:hover:bg-p1-green dark:hover:text-p1-deepdarkgreen"
                 >
                   Форма заявки
                 </Link>
               </div>
-              <p className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan p-2 text-base md:text-xl">
+              <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
                 При положительном решении лидеру направления предоставляется возможность создания
                 Global License NFT.
               </p>
-              <p className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan p-2 text-base md:text-xl">
+              <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
                 Данный токен имеет характеристику &quot;Burnable&quot; - собственник смарт-контракта
                 может уничтожить любой токен из коллекции.
               </p>
 
-              <p className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan p-2 text-base md:text-xl">
+              <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
                 Собственник смарт-контракта вправе уничтожить NFT в случае создания NFT, не
                 соответствующих правилам проекта.
               </p>
@@ -302,7 +302,7 @@ export default function Page() {
             <div className="m-1 place-items-center p-2">
               <div className="md:w-96">
                 <Image
-                  className="border-p2-orange dark:border-p1-green relative inline-block rounded-3xl border-2 shadow-lg md:w-full"
+                  className="relative inline-block rounded-3xl border-2 border-p2-orange shadow-lg md:w-full dark:border-p1-green"
                   width={2000}
                   height={2000}
                   src="/Licenses/Global Lic.png"
@@ -313,7 +313,7 @@ export default function Page() {
                   <div className="justify-self-center">
                     <Link
                       href="/license?license=national"
-                      className="border-p2-orange bg-p1-white text-p1-darkgreen hover:bg-p2-orange hover:text-p1-white dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:border-p2-orange inline-block rounded-xl border-2 px-10 py-8 shadow-lg transition-all delay-75 duration-300 ease-in-out dark:hover:bg-amber-600 dark:hover:text-amber-100"
+                      className="inline-block rounded-xl border-2 border-p2-orange bg-p1-white px-10 py-8 text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p2-orange hover:text-p1-white dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:border-p2-orange dark:hover:bg-amber-600 dark:hover:text-amber-100"
                     >
                       Создай NFT
                     </Link>
@@ -329,15 +329,15 @@ export default function Page() {
 
       <div
         id="1"
-        className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan px-2 text-center text-xl font-semibold md:pt-2 md:text-3xl"
+        className="px-2 text-center text-xl font-semibold text-p1-darkgreen md:pt-2 md:text-3xl dark:text-p1-green dark:hover:text-p1-cyan"
       >
         Способы получения
         <p className="px-2 text-center text-xl font-semibold md:pt-2 md:text-3xl">
           Promoter, National, Global License NFT
         </p>
       </div>
-      <div className="border-p1-darkgreen dark:border-p1-green dark:hover:border-p1-darkgreen m-2 rounded-3xl p-2 md:border-4 md:shadow-lg">
-        <div className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan pt-2 text-center text-base md:text-2xl">
+      <div className="m-2 rounded-3xl border-p1-darkgreen p-2 md:border-4 md:shadow-lg dark:border-p1-green dark:hover:border-p1-darkgreen">
+        <div className="pt-2 text-center text-base text-p1-darkgreen md:text-2xl dark:text-p1-green dark:hover:text-p1-cyan">
           Management GAA проводит верификацию и удостоверяет статус National License, Promoter
           License и Global License
         </div>
@@ -380,7 +380,7 @@ export default function Page() {
             <div>
               <Link
                 href="/applicationform"
-                className="border-p1-darkgreen bg-p1-white text-p1-darkgreen hover:bg-p1-green hover:text-p1-white dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:bg-p1-green dark:hover:text-p1-deepdarkgreen inline-block place-content-center rounded-xl border-2 p-2 text-center text-base shadow-lg transition-all delay-75 duration-300 ease-in-out md:text-xl"
+                className="inline-block place-content-center rounded-xl border-2 border-p1-darkgreen bg-p1-white p-2 text-center text-base text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p1-green hover:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:bg-p1-green dark:hover:text-p1-deepdarkgreen"
               >
                 Форма заявки
               </Link>
@@ -399,7 +399,7 @@ export default function Page() {
           <div></div>
           <div></div>
 
-          <div className="col-span-3 col-start-14 row-span-1">
+          <div className="col-start-14 col-span-3 row-span-1">
             <Image
               className="relative inline-block w-max"
               width={1000}
@@ -469,13 +469,13 @@ export default function Page() {
           </div>
         </div>
 
-        <div className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan pt-2 text-center text-base md:text-2xl">
+        <div className="pt-2 text-center text-base text-p1-darkgreen md:text-2xl dark:text-p1-green dark:hover:text-p1-cyan">
           Вектор развития направления определяют Management GAA, Global License и National License
         </div>
-        <div className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan pt-2 text-center text-base md:text-2xl">
+        <div className="pt-2 text-center text-base text-p1-darkgreen md:text-2xl dark:text-p1-green dark:hover:text-p1-cyan">
           Promoter License организует локальные мероприятия по разным направлениям
         </div>
-        <div className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan pt-2 text-center text-base md:text-2xl">
+        <div className="pt-2 text-center text-base text-p1-darkgreen md:text-2xl dark:text-p1-green dark:hover:text-p1-cyan">
           National License организует развитие направлений на локальном уровне
         </div>
       </div>

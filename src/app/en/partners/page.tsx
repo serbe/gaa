@@ -11,15 +11,15 @@ export default function Page() {
       <JumpButton points={jumpPoints} />
       <div id="1"></div>
       <section className="flex flex-wrap object-center px-2 md:flex-nowrap md:space-x-2 md:pt-4">
-        <div className="border-p1-darkgreen bg-p1-white dark:border-p1-green dark:bg-p1-deepdarkgreen mb-4 w-full rounded-3xl shadow-lg md:border-4">
+        <div className="mb-4 w-full rounded-3xl border-p1-darkgreen bg-p1-white shadow-lg md:border-4 dark:border-p1-green dark:bg-p1-deepdarkgreen">
           <div className="flex flex-row">
             <div className="mx-auto text-center md:p-2 md:text-xl lg:text-2xl">
               <div className="flex flex-row justify-center md:pb-2">
                 <div className="md:basis-3/5">
-                  <div className="text-p1-darkgreen dark:text-p1-cyan text-center text-2xl font-bold md:pt-2 md:text-4xl">
+                  <div className="text-center text-2xl font-bold text-p1-darkgreen md:pt-2 md:text-4xl dark:text-p1-cyan">
                     Partners
                   </div>
-                  <div className="text-p1-darkgreen dark:text-p1-green px-2 pt-2 text-center text-base drop-shadow-2xl md:text-2xl">
+                  <div className="px-2 pt-2 text-center text-base text-p1-darkgreen drop-shadow-2xl md:text-2xl dark:text-p1-green">
                     If you are interested in becoming a partner or a sponsor, please contact us.
                   </div>
                 </div>
@@ -31,15 +31,15 @@ export default function Page() {
                 </div>
                 <div className="basis-3/5">
                   <div className="rounded-3xl p-2 md:my-5">
-                    <div className="text-p1-darkgreen text-center text-2xl md:pb-5">
+                    <div className="text-center text-2xl text-p1-darkgreen md:pb-5">
                       <div className="place-content-center">
                         <div className="grid">
                           <div>
                             <Link
                               href="/contacts"
-                              className="border-p2-orange bg-p1-white text-p1-darkgreen hover:bg-p2-orange hover:text-p1-white dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:border-p1-cyan dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan inline-block rounded-xl border-2 px-10 py-8 shadow-lg transition-all delay-75 duration-300 ease-in-out"
+                              className="inline-block rounded-xl border-2 border-p2-orange bg-p1-white px-10 py-8 text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p2-orange hover:text-p1-white dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:border-p1-cyan dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan"
                             >
-                              Feedback
+                              Feedback{' '}
                             </Link>
                           </div>
                         </div>
@@ -54,7 +54,7 @@ export default function Page() {
               <div className="my-5">
                 <Link
                   href="#3"
-                  className="border-p2-orange bg-p1-white text-p1-darkgreen hover:bg-p2-orange hover:text-p1-white dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:border-p1-cyan dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan inline-block w-11/12 rounded-xl border-2 px-10 py-8 shadow-lg transition-all delay-75 duration-300 ease-in-out"
+                  className="inline-block w-11/12 rounded-xl border-2 border-p2-orange bg-p1-white px-10 py-8 text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p2-orange hover:text-p1-white dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:border-p1-cyan dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan"
                 >
                   Our partners
                 </Link>
@@ -62,7 +62,7 @@ export default function Page() {
               <div className="my-5">
                 <Link
                   href="#4"
-                  className="border-p2-orange bg-p1-white text-p1-darkgreen hover:bg-p2-orange hover:text-p1-white dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:border-p1-cyan dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan inline-block w-11/12 rounded-xl border-2 px-10 py-8 shadow-lg transition-all delay-75 duration-300 ease-in-out"
+                  className="inline-block w-11/12 rounded-xl border-2 border-p2-orange bg-p1-white px-10 py-8 text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p2-orange hover:text-p1-white dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:border-p1-cyan dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan"
                 >
                   Our sponsors
                 </Link>
@@ -73,13 +73,13 @@ export default function Page() {
           </div>
         </div>
         <div id="2"></div>
-        <div className="border-p2-orange bg-p1-white dark:bg-p1-deepdarkgreen w-full rounded-3xl shadow-lg md:mb-4 md:min-w-96 md:border-4 dark:border-amber-600">
+        <div className="w-full rounded-3xl border-p2-orange bg-p1-white shadow-lg md:mb-4 md:min-w-96 md:border-4 dark:border-amber-600 dark:bg-p1-deepdarkgreen">
           <div className="flex flex-row">
             <div className="mx-auto text-center md:p-2 md:text-xl lg:text-2xl">
-              <div className="text-p1-darkgreen text-center text-2xl font-bold md:pt-4 md:text-4xl dark:text-amber-600">
+              <div className="text-center text-2xl font-bold text-p1-darkgreen md:pt-4 md:text-4xl dark:text-amber-600">
                 If you want to support us,
               </div>
-              <div className="text-p1-darkgreen dark:text-p1-green px-2 pt-4 text-left text-base drop-shadow-2xl md:text-xl">
+              <div className="px-2 pt-4 text-left text-base text-p1-darkgreen drop-shadow-2xl md:text-xl dark:text-p1-green">
                 <p>
                   we invite you to take part in raising funds that will be used for the development
                   of project:
@@ -88,7 +88,7 @@ export default function Page() {
                 <p className="p-2"> - distribution of licenses;</p>
                 <p className="p-2"> - creating new NFT collections;</p>
                 <p className="p-2"> - hosting and server rental</p>
-                <div className="text-p1-darkgreen text-center text-2xl font-bold md:pt-4 md:text-2xl dark:text-amber-600">
+                <div className="text-center text-2xl font-bold text-p1-darkgreen md:pt-4 md:text-2xl dark:text-amber-600">
                   The first 100 participants in the collection will receive NFT rewards in an amount
                   depending on the size donations
                 </div>
@@ -101,7 +101,7 @@ export default function Page() {
               <div className="my-5">
                 <Link
                   href="#11"
-                  className="border-p2-orange bg-p1-white text-p1-darkgreen hover:bg-p2-orange hover:text-p1-white dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan inline-block w-11/12 rounded-xl border-2 px-10 py-8 shadow-lg transition-all delay-75 duration-300 ease-in-out dark:hover:border-amber-400 dark:hover:bg-amber-800 dark:hover:text-amber-200"
+                  className="inline-block w-11/12 rounded-xl border-2 border-p2-orange bg-p1-white px-10 py-8 text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p2-orange hover:text-p1-white dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:border-amber-400 dark:hover:bg-amber-800 dark:hover:text-amber-200"
                 >
                   Donate
                 </Link>
@@ -109,7 +109,7 @@ export default function Page() {
               <div className="my-5">
                 <Link
                   href="#12"
-                  className="text-p1-darkgreПартнерыПартнерами являются обладатели лицензий NFT Promoter, National, Globalen border-p2-orange bg-p1-white hover:bg-p2-orange hover:text-p1-white dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan inline-block w-11/12 rounded-xl border-2 px-10 py-8 shadow-lg transition-all delay-75 duration-300 ease-in-out dark:hover:border-amber-400 dark:hover:bg-amber-800 dark:hover:text-amber-200"
+                  className="text-p1-darkgreПартнерыПартнерами являются обладатели лицензий NFT Promoter, National, Globalen inline-block w-11/12 rounded-xl border-2 border-p2-orange bg-p1-white px-10 py-8 shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p2-orange hover:text-p1-white dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:border-amber-400 dark:hover:bg-amber-800 dark:hover:text-amber-200"
                 >
                   Participants table
                 </Link>
@@ -122,11 +122,11 @@ export default function Page() {
       <div id="3" className="pt-10"></div>
       <div className="flex flex-row justify-center md:pb-5">
         <div className="md:basis-5/5">
-          <div className="text-p1-darkgreen dark:text-p1-cyan text-center text-2xl font-bold md:pt-4 md:text-4xl">
+          <div className="text-center text-2xl font-bold text-p1-darkgreen md:pt-4 md:text-4xl dark:text-p1-cyan">
             Partners
           </div>
 
-          <div className="text-p1-darkgreen dark:text-p1-green text-center text-xl md:pt-4 md:text-2xl">
+          <div className="text-center text-xl text-p1-darkgreen md:pt-4 md:text-2xl dark:text-p1-green">
             <p>Partners are holders of NFT Promoter, National, Global licenses</p>
           </div>
         </div>
@@ -144,7 +144,7 @@ export default function Page() {
 
       <div className="flex flex-row justify-center md:pb-5">
         <div className="md:basis-3/5">
-          <div className="text-p1-darkgreen dark:text-p1-cyan text-center text-2xl font-bold md:pt-4 md:text-4xl">
+          <div className="text-center text-2xl font-bold text-p1-darkgreen md:pt-4 md:text-4xl dark:text-p1-cyan">
             Sponsors
           </div>
         </div>
@@ -152,10 +152,10 @@ export default function Page() {
       <div id="5"></div>
       <div className="flex flex-row justify-center md:pb-5">
         <div className="md:basis-3/5">
-          <div className="text-p1-darkgreen dark:text-p1-green text-center text-2xl font-bold md:pt-4 md:text-4xl">
-            Title Sponsor:
+          <div className="text-center text-2xl font-bold text-p1-darkgreen md:pt-4 md:text-4xl dark:text-p1-green">
+            Title Sponsor:{' '}
           </div>
-          <div className="text-p1-darkgreen dark:text-p1-green text-center text-xl md:pt-4 md:text-2xl">
+          <div className="text-center text-xl text-p1-darkgreen md:pt-4 md:text-2xl dark:text-p1-green">
             <p>
               Since our organization is decentralized, this status is determined by the holders NFT
               Promoter, National, Global and limited time period to cover all expenses for
@@ -173,10 +173,10 @@ export default function Page() {
             </p>
           </div>
           <div id="6"></div>
-          <div className="text-p1-darkgreen dark:text-p1-green text-center text-2xl font-bold md:pt-8 md:text-4xl">
-            General Sponsor:
+          <div className="text-center text-2xl font-bold text-p1-darkgreen md:pt-8 md:text-4xl dark:text-p1-green">
+            General Sponsor:{' '}
           </div>
-          <div className="text-p1-darkgreen dark:text-p1-green text-center text-xl md:pt-4 md:text-2xl">
+          <div className="text-center text-xl text-p1-darkgreen md:pt-4 md:text-2xl dark:text-p1-green">
             <p>
               This status is determined by NFT Promoter, National, Global holders and is limited
               temporary period to cover 50% of the costs of organizing and conducting a specific
@@ -190,10 +190,10 @@ export default function Page() {
             </p>
           </div>
           <div id="7"></div>
-          <div className="text-p1-darkgreen dark:text-p1-green text-center text-2xl font-bold md:pt-8 md:text-4xl">
+          <div className="text-center text-2xl font-bold text-p1-darkgreen md:pt-8 md:text-4xl dark:text-p1-green">
             Official Sponsor:
           </div>
-          <div className="text-p1-darkgreen dark:text-p1-green text-center text-xl md:pt-4 md:text-2xl">
+          <div className="text-center text-xl text-p1-darkgreen md:pt-4 md:text-2xl dark:text-p1-green">
             <p>
               This status is determined by NFT Promoter, National, Global holders and is limited
               temporary period to cover 25% of the costs of organizing and conducting a specific
@@ -207,10 +207,10 @@ export default function Page() {
             </p>
           </div>
           <div id="8"></div>
-          <div className="text-p1-darkgreen dark:text-p1-green text-center text-2xl font-bold md:pt-8 md:text-4xl">
+          <div className="text-center text-2xl font-bold text-p1-darkgreen md:pt-8 md:text-4xl dark:text-p1-green">
             Sponsor participant:
           </div>
-          <div className="text-p1-darkgreen dark:text-p1-green text-center text-xl md:pt-4 md:text-2xl">
+          <div className="text-center text-xl text-p1-darkgreen md:pt-4 md:text-2xl dark:text-p1-green">
             <p>
               This status is determined by NFT Promoter, National, Global holders and is limited
               temporary period to cover no more than 10% of the costs of organizing and conducting
@@ -224,10 +224,10 @@ export default function Page() {
             <p>The cost of placing a logo on the award is at least 1000 USDT</p>
           </div>
           <div id="9"></div>
-          <div className="text-p1-darkgreen dark:text-p1-green text-center text-2xl font-bold md:pt-8 md:text-4xl">
+          <div className="text-center text-2xl font-bold text-p1-darkgreen md:pt-8 md:text-4xl dark:text-p1-green">
             Information sponsor:
           </div>
-          <div className="text-p1-darkgreen dark:text-p1-green text-center text-xl md:pt-4 md:text-2xl">
+          <div className="text-center text-xl text-p1-darkgreen md:pt-4 md:text-2xl dark:text-p1-green">
             <p>
               This status is determined by NFT Promoter, National, Global holders and is limited
               temporary period for organizing and holding a specific event
@@ -240,10 +240,10 @@ export default function Page() {
             </p>
           </div>
           <div id="10"></div>
-          <div className="text-p1-darkgreen dark:text-p1-green text-center text-2xl font-bold md:pt-8 md:text-4xl">
-            Barter Sponsor:
+          <div className="text-center text-2xl font-bold text-p1-darkgreen md:pt-8 md:text-4xl dark:text-p1-green">
+            Barter Sponsor:{' '}
           </div>
-          <div className="text-p1-darkgreen dark:text-p1-green text-center text-xl md:pt-4 md:text-2xl">
+          <div className="text-center text-xl text-p1-darkgreen md:pt-4 md:text-2xl dark:text-p1-green">
             <p>
               This status is determined by NFT Promoter, National, Global holders and is limited
               temporary period of cooperation
@@ -264,8 +264,8 @@ export default function Page() {
       <div id="11" className="pt-10"></div>
       <div className="flex flex-row justify-center md:pb-5">
         <div className="md:basis-3/5">
-          <div className="text-p1-darkgreen dark:text-p1-cyan text-center text-2xl font-bold md:pt-4 md:text-4xl">
-            QR code to support the Project
+          <div className="text-center text-2xl font-bold text-p1-darkgreen md:pt-4 md:text-4xl dark:text-p1-cyan">
+            QR code to support the Project{' '}
           </div>
         </div>
       </div>
@@ -276,11 +276,11 @@ export default function Page() {
           </Link>
         </div>
       </div>
-      <div className="text-p1-darkgreen dark:text-p1-green text-center text-xl md:pt-4 md:text-2xl">
+      <div className="text-center text-xl text-p1-darkgreen md:pt-4 md:text-2xl dark:text-p1-green">
         <p>for now the link is to the site gaa.zone</p>
         <p>
           real support will be possible only after the deployment of smart contracts and the start
-          of the Project
+          of the Project{' '}
         </p>
       </div>
 
@@ -295,14 +295,14 @@ export default function Page() {
       <div id="12" className="pt-10"></div>
       <div className="flex flex-row justify-center md:pb-5">
         <div className="md:basis-3/5">
-          <div className="text-p1-darkgreen dark:text-p1-cyan text-center text-2xl font-bold md:pt-4 md:text-4xl">
-            Participants table
+          <div className="text-center text-2xl font-bold text-p1-darkgreen md:pt-4 md:text-4xl dark:text-p1-cyan">
+            Participants table{' '}
           </div>
         </div>
       </div>
 
       <div className="flex flex-row justify-center md:pb-5">
-        <div className="text-p1-green basis-5/6 p-2">
+        <div className="basis-5/6 p-2 text-p1-green">
           <div className="grid grid-cols-4 gap-4">
             <div>#</div>
             <div>Avatar</div>

@@ -5,11 +5,11 @@ import { Link } from '@/i18n/routing';
 export default function Page() {
   return (
     <div className="mx-auto max-w-7xl font-serif">
-      <div className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan pb-2 text-center text-2xl font-bold md:pt-4 md:text-4xl">
+      <div className="pb-2 text-center text-2xl font-bold text-p1-darkgreen md:pt-4 md:text-4xl dark:text-p1-green dark:hover:text-p1-cyan">
         Социальные сети
       </div>
 
-      <div className="border-p1-darkgreen text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan mx-5 grid grid-cols-1 place-items-center gap-2 rounded-3xl text-center md:grid-cols-2 md:border-4 md:p-5 md:shadow-lg xl:grid-cols-4">
+      <div className="mx-5 grid grid-cols-1 place-items-center gap-2 rounded-3xl border-p1-darkgreen text-center text-p1-darkgreen md:grid-cols-2 md:border-4 md:p-5 md:shadow-lg xl:grid-cols-4 dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
         <div className="flex flex-row">
           <div className="text-center">
             <div className="mx-auto justify-center rounded-3xl grayscale duration-500 hover:scale-105 hover:grayscale-0">
@@ -99,15 +99,15 @@ export default function Page() {
         </div>
       </div>
 
-      <div className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan pb-2 text-center text-2xl font-bold md:pt-4 md:text-4xl">
+      <div className="pb-2 text-center text-2xl font-bold text-p1-darkgreen md:pt-4 md:text-4xl dark:text-p1-green dark:hover:text-p1-cyan">
         Подпишись с помощью
       </div>
 
-      <div className="text-p1-darkgreen mx-5 grid grid-cols-1 place-items-center gap-2 rounded-3xl text-center md:grid-cols-2 md:p-5 xl:grid-cols-5">
+      <div className="mx-5 grid grid-cols-1 place-items-center gap-2 rounded-3xl text-center text-p1-darkgreen md:grid-cols-2 md:p-5 xl:grid-cols-5">
         <div className="flex flex-row">
           <button
             type="button"
-            className="me-2 mb-2 inline-flex items-center rounded-lg bg-[#3b5998] px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-[#3b5998]/90 focus:ring-4 focus:ring-[#3b5998]/50 focus:outline-none dark:focus:ring-[#3b5998]/55"
+            className="mb-2 me-2 inline-flex items-center rounded-lg bg-[#3b5998] px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-[#3b5998]/90 focus:outline-none focus:ring-4 focus:ring-[#3b5998]/50 dark:focus:ring-[#3b5998]/55"
           >
             <svg
               className="me-2 h-10 w-10"
@@ -128,7 +128,7 @@ export default function Page() {
         <div>
           <button
             type="button"
-            className="me-2 mb-2 inline-flex items-center rounded-lg bg-[#1da1f2] px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-[#1da1f2]/90 focus:ring-4 focus:ring-[#1da1f2]/50 focus:outline-none dark:focus:ring-[#1da1f2]/55"
+            className="mb-2 me-2 inline-flex items-center rounded-lg bg-[#1da1f2] px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-[#1da1f2]/90 focus:outline-none focus:ring-4 focus:ring-[#1da1f2]/50 dark:focus:ring-[#1da1f2]/55"
           >
             <svg
               className="me-2 h-10 w-10"
@@ -150,7 +150,7 @@ export default function Page() {
         <div>
           <button
             type="button"
-            className="me-2 mb-2 inline-flex items-center rounded-lg bg-[#24292F] px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-[#24292F]/90 focus:ring-4 focus:ring-[#24292F]/50 focus:outline-none dark:hover:bg-[#050708]/30 dark:focus:ring-gray-500"
+            className="mb-2 me-2 inline-flex items-center rounded-lg bg-[#24292F] px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-[#24292F]/90 focus:outline-none focus:ring-4 focus:ring-[#24292F]/50 dark:hover:bg-[#050708]/30 dark:focus:ring-gray-500"
           >
             <svg
               className="-ms-1 me-2 h-10 w-10"
@@ -172,7 +172,7 @@ export default function Page() {
         <div>
           <button
             type="button"
-            className="me-2 mb-2 inline-flex items-center rounded-lg bg-[#4285F4] px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-[#4285F4]/90 focus:ring-4 focus:ring-[#4285F4]/50 focus:outline-none dark:focus:ring-[#4285F4]/55"
+            className="mb-2 me-2 inline-flex items-center rounded-lg bg-[#4285F4] px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-[#4285F4]/90 focus:outline-none focus:ring-4 focus:ring-[#4285F4]/50 dark:focus:ring-[#4285F4]/55"
           >
             <svg
               className="-ms-1 me-2 h-10 w-10"
@@ -194,7 +194,7 @@ export default function Page() {
         <div>
           <button
             type="button"
-            className="me-2 mb-2 inline-flex items-center rounded-lg bg-[#050708] px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-[#050708]/90 focus:ring-4 focus:ring-[#050708]/50 focus:outline-none dark:hover:bg-[#050708]/30 dark:focus:ring-[#050708]/50"
+            className="mb-2 me-2 inline-flex items-center rounded-lg bg-[#050708] px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-[#050708]/90 focus:outline-none focus:ring-4 focus:ring-[#050708]/50 dark:hover:bg-[#050708]/30 dark:focus:ring-[#050708]/50"
           >
             <svg
               className="me-2 h-10 w-10"

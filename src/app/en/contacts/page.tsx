@@ -11,27 +11,24 @@ export default function Page() {
       <JumpButton points={jumpPoints} />
 
       <div className="p-2 text-base md:p-4 md:text-2xl">
-        <div className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan text-center font-bold drop-shadow-2xl md:text-4xl">
-          Our Contacts
+        <div className="text-center font-bold text-p1-darkgreen drop-shadow-2xl md:text-4xl dark:text-p1-green dark:hover:text-p1-cyan">
+        Our Contacts
         </div>
-        <div className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan text-center">
-          Feel free to write and call us.
-          <p> We really love communicating with our partners.</p>
+        <div className="text-center text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
+        Feel free to write and call us.          <p> We really love communicating with our partners.</p>
         </div>
 
-        <div className="border-p1-darkgreen hover:border-p1-green rounded-3xl p-2 text-xl md:m-5 md:border-4 md:p-6 md:hover:shadow-xl">
+        <div className="rounded-3xl border-p1-darkgreen p-2 text-xl hover:border-p1-green md:m-5 md:border-4 md:p-6 md:hover:shadow-xl">
           <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
             <div id="1">
-              <div className="font-regular text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan pb-3 text-center text-sm md:px-5 md:text-xl">
-                If you would like to promote your event using Web3, create NFT rewards or be a GAA
-                representative in your area, please fill out the application form and we will
-                contact you.
+              <div className="font-regular pb-3 text-center text-sm text-p1-darkgreen md:px-5 md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
+              If you would like to promote your event using Web3, create NFT rewards or be a GAA representative in your area, please fill out the application form and we will contact you.
                 <p>Click the button below</p>
               </div>
               <div className="grid">
                 <Link
                   href="/applicationform"
-                  className="border-p2-orange bg-p1-white text-p1-darkgreen hover:bg-p2-orange hover:text-p1-white dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:border-p1-cyan dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan inline-block w-full rounded-xl border-2 px-10 py-8 text-center shadow-lg transition-all delay-75 duration-300 ease-in-out"
+                  className="inline-block w-full rounded-xl border-2 border-p2-orange bg-p1-white px-10 py-8 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p2-orange hover:text-p1-white dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:border-p1-cyan dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan"
                 >
                   Application form
                 </Link>
@@ -41,14 +38,14 @@ export default function Page() {
               <div id="2">
                 <label
                   htmlFor="full_name"
-                  className="text-p1-darkgreen dark:text-p1-cyan block text-left text-sm font-medium"
+                  className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-cyan"
                 >
                   Full name
                 </label>
                 <input
                   type="text"
                   id="full_name"
-                  className="bg-p2-white2 text-p1-darkgreen focus:border-p1-green focus:ring-p1-green dark:text-p1-white dark:placeholder-p1-gray dark:focus:border-p1-green dark:focus:ring-p1-green block w-full rounded-lg border border-gray-300 p-3 text-sm md:p-2 md:text-lg dark:border-gray-600 dark:bg-gray-700"
+                  className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p1-green focus:ring-p1-green md:p-2 md:text-lg dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-p1-gray dark:focus:border-p1-green dark:focus:ring-p1-green"
                   placeholder="Ted Fox"
                   required
                 />
@@ -57,14 +54,13 @@ export default function Page() {
               <div>
                 <label
                   htmlFor="nic_name"
-                  className="text-p1-darkgreen dark:text-p1-cyan block text-left text-sm font-medium"
+                  className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-cyan"
                 >
-                  Nickname
-                </label>
+Nickname                </label>
                 <input
                   type="text"
                   id="nic_name"
-                  className="bg-p2-white2 text-p1-darkgreen focus:border-p1-green focus:ring-p1-green dark:text-p1-white dark:placeholder-p1-gray dark:focus:border-p1-green dark:focus:ring-p1-green block w-full rounded-lg border border-gray-300 p-3 text-sm md:p-2 md:text-lg dark:border-gray-600 dark:bg-gray-700"
+                  className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p1-green focus:ring-p1-green md:p-2 md:text-lg dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-p1-gray dark:focus:border-p1-green dark:focus:ring-p1-green"
                   placeholder="Nickname"
                   required
                 />
@@ -73,14 +69,14 @@ export default function Page() {
               <div>
                 <label
                   htmlFor="organization"
-                  className="text-p1-darkgreen dark:text-p1-cyan block text-left text-sm font-medium"
+                  className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-cyan"
                 >
                   Name of the organization/team
                 </label>
                 <input
                   type="text"
                   id="organization"
-                  className="bg-p2-white2 text-p1-darkgreen focus:border-p1-green focus:ring-p1-green dark:text-p1-white dark:placeholder-p1-gray dark:focus:border-p1-green dark:focus:ring-p1-green block w-full rounded-lg border border-gray-300 p-3 text-sm md:p-2 md:text-lg dark:border-gray-600 dark:bg-gray-700"
+                  className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p1-green focus:ring-p1-green md:p-2 md:text-lg dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-p1-gray dark:focus:border-p1-green dark:focus:ring-p1-green"
                   placeholder="Name of the organization/team"
                   required
                 />
@@ -89,14 +85,14 @@ export default function Page() {
               <div>
                 <label
                   htmlFor="email"
-                  className="text-p1-darkgreen dark:text-p1-cyan block text-left text-sm font-medium"
+                  className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-cyan"
                 >
                   E-mail
                 </label>
                 <input
                   type="email"
                   id="email"
-                  className="bg-p2-white2 text-p1-darkgreen focus:border-p1-green focus:ring-p1-green dark:text-p1-white dark:placeholder-p1-gray dark:focus:border-p1-green dark:focus:ring-p1-green block w-full rounded-lg border border-gray-300 p-3 text-sm md:p-2 md:text-lg dark:border-gray-600 dark:bg-gray-700"
+                  className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p1-green focus:ring-p1-green md:p-2 md:text-lg dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-p1-gray dark:focus:border-p1-green dark:focus:ring-p1-green"
                   placeholder="E-mail"
                   required
                 />
@@ -105,14 +101,14 @@ export default function Page() {
               <div>
                 <label
                   htmlFor="message"
-                  className="text-p1-darkgreen dark:text-p1-cyan mb-2 block text-sm font-medium"
+                  className="mb-2 block text-sm font-medium text-p1-darkgreen dark:text-p1-cyan"
                 >
                   {'Your questions, comments, suggestions...'}
                 </label>
                 <textarea
                   id="message"
                   rows={4}
-                  className="bg-p2-white2 text-p1-darkgreen block w-full rounded-lg border-2 border-gray-300 p-2.5 text-sm focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
+                  className="block w-full rounded-lg border-2 border-gray-300 bg-p2-white2 p-2.5 text-sm text-p1-darkgreen focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
                   placeholder="Your questions, comments, suggestions..."
                 ></textarea>
               </div>
@@ -126,26 +122,24 @@ export default function Page() {
                   }}
                   type="checkbox"
                   value=""
-                  className="focus:ring-p1-cian text-p1-darkgreen accent-p1-darkgreen dark:bg-p1-green dark:focus:ring-p1-green h-4 w-4 rounded border-gray-300 bg-gray-100 focus:ring-2 dark:border-gray-600 dark:ring-offset-gray-800"
+                  className="focus:ring-p1-cian h-4 w-4 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                 />
                 <label
                   id="3"
                   htmlFor="checkbox"
-                  className="text-p1-darkgreen dark:text-p1-cyan ms-2 text-lg font-medium"
+                  className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-p1-cyan"
                 >
-                  I agree to the processing of personal data.
-                </label>
+I agree to the processing of personal data.                </label>
               </div>
 
               <div className="pb-2"></div>
               <div className="grid">
-                <button className="border-p2-orange bg-p1-white text-p1-darkgreen hover:bg-p2-orange hover:text-p1-white dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:border-p1-cyan dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan inline-block w-full rounded-xl border-2 px-10 py-8 text-center shadow-lg transition-all delay-75 duration-300 ease-in-out">
-                  Send to GAA
-                </button>
+                <button className="inline-block w-full rounded-xl border-2 border-p2-orange bg-p1-white px-10 py-8 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p2-orange hover:text-p1-white dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:border-p1-cyan dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan">
+                Send to GAA                </button>
               </div>
             </div>
 
-            <div className="dark:text-p1-green dark:hover:text-p1-cyan pb-5">
+            <div className="pb-5 dark:text-p1-green dark:hover:text-p1-cyan">
               Our e-mail: info@gaa.zone
             </div>
           </div>

@@ -20,20 +20,20 @@ export default function Page() {
       <JumpButton points={jumpPoints} />
 
       <div className="flex flex-wrap justify-center space-x-2 object-center px-2 pt-5 md:flex-nowrap md:justify-between">
-        <div className="text-p2-orange text-xl font-semibold md:text-3xl dark:text-amber-600">
+        <div className="text-xl font-semibold text-p2-orange md:text-3xl dark:text-amber-600">
           CustomLads NFT
         </div>
-        <div className="text-p2-orange text-end text-xl font-semibold md:text-3xl dark:text-amber-600">
+        <div className="text-end text-xl font-semibold text-p2-orange md:text-3xl dark:text-amber-600">
           Страница создания NFT
         </div>
       </div>
 
       <div className="flex flex-wrap justify-center md:flex-nowrap">
-        <div className="border-p2-orange rounded-3xl md:border-4 md:hover:shadow-lg dark:border-amber-600">
+        <div className="rounded-3xl border-p2-orange md:border-4 md:hover:shadow-lg dark:border-amber-600">
           <div className="flex flex-row justify-center">
             <div className="mx-auto text-center md:text-xl lg:text-2xl">
               <div className="flex flex-row justify-center">
-                <div className="text-p1-darkgreen dark:text-p1-green p-2 text-base md:text-2xl md:font-semibold">
+                <div className="p-2 text-base text-p1-darkgreen md:text-2xl md:font-semibold dark:text-p1-green">
                   <p>Присоединяйтесь к нам</p>
                   <p>Получите своего героя CustomLad</p>
                 </div>
@@ -42,23 +42,23 @@ export default function Page() {
                 <div className="grid grid-cols-1 gap-1 md:grid-cols-2">
                   <div className="w-full md:w-3/5 md:place-self-center">
                     <Image
-                      className="border-p2-orange dark:border-p1-green relative inline-block w-3/5 rounded-3xl border-2 shadow-lg hover:drop-shadow-2xl md:min-w-full"
+                      className="relative inline-block w-3/5 rounded-3xl border-2 border-p2-orange shadow-lg hover:drop-shadow-2xl md:min-w-full dark:border-p1-green"
                       width={1000}
                       height={1000}
                       src="/HeroNFT/CustomLads/CustomLads1.png"
                       alt="CustomLads1"
                     />
                     <div className="space-y-2 pt-2">
-                      <button className="border-p2-orange bg-p1-white text-p1-darkgreen hover:bg-p2-orange hover:text-p1-white dark:border-p1-cyan dark:bg-p1-darkgreen dark:text-p1-cyan dark:hover:border-p2-orange inline-block w-full rounded-xl border-2 px-10 py-4 shadow-lg transition-all delay-75 duration-300 ease-in-out dark:hover:bg-amber-600 dark:hover:text-amber-100">
+                      <button className="inline-block w-full rounded-xl border-2 border-p2-orange bg-p1-white px-10 py-4 text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p2-orange hover:text-p1-white dark:border-p1-cyan dark:bg-p1-darkgreen dark:text-p1-cyan dark:hover:border-p2-orange dark:hover:bg-amber-600 dark:hover:text-amber-100">
                         Создать NFT
                       </button>
-                      <button className="border-p2-orange bg-p1-white text-p1-darkgreen hover:bg-p2-orange hover:text-p1-white dark:border-p1-cyan dark:bg-p1-darkgreen dark:text-p1-cyan dark:hover:border-p2-orange inline-block w-full rounded-xl border-2 px-10 py-4 shadow-lg transition-all delay-75 duration-300 ease-in-out dark:hover:bg-amber-600 dark:hover:text-amber-100">
+                      <button className="inline-block w-full rounded-xl border-2 border-p2-orange bg-p1-white px-10 py-4 text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p2-orange hover:text-p1-white dark:border-p1-cyan dark:bg-p1-darkgreen dark:text-p1-cyan dark:hover:border-p2-orange dark:hover:bg-amber-600 dark:hover:text-amber-100">
                         Сгенерировать изображения
                       </button>
                     </div>
                   </div>
 
-                  <div className="md:place-self-senter h-250 w-full overflow-y-auto pt-5 md:h-350">
+                  <div className="h-250 md:h-350 md:place-self-senter w-full overflow-y-auto pt-5">
                     <Swiper
                       direction={'vertical'}
                       spaceBetween={1}
@@ -77,7 +77,7 @@ export default function Page() {
                         <div className="inline-flex rounded-md shadow-sm" role="group">
                           <button
                             type="button"
-                            className="text-p2-red hover:bg-p2-red hover:text-p1-white focus:text-p1-white focus:ring-p3-red w-12 rounded-s-lg border-t border-b border-gray-200 bg-white px-4 py-2 text-sm font-medium focus:z-10 focus:ring-2 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                            className="w-12 rounded-s-lg border-b border-t border-gray-200 bg-white px-4 py-2 text-sm font-medium text-p2-red hover:bg-p2-red hover:text-p1-white focus:z-10 focus:text-p1-white focus:ring-2 focus:ring-p3-red dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
                           >
                             Х
                           </button>
@@ -89,7 +89,7 @@ export default function Page() {
                           </button>
                           <button
                             type="button"
-                            className="w-48 border-t border-b border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                            className="w-48 border-b border-t border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
                           >
                             фон
                           </button>
@@ -106,7 +106,7 @@ export default function Page() {
                         <div className="inline-flex rounded-md shadow-sm" role="group">
                           <button
                             type="button"
-                            className="text-p2-red hover:bg-p2-red hover:text-p1-white focus:text-p1-white focus:ring-p3-red w-12 rounded-s-lg border-t border-b border-gray-200 bg-white px-4 py-2 text-sm font-medium focus:z-10 focus:ring-2 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                            className="w-12 rounded-s-lg border-b border-t border-gray-200 bg-white px-4 py-2 text-sm font-medium text-p2-red hover:bg-p2-red hover:text-p1-white focus:z-10 focus:text-p1-white focus:ring-2 focus:ring-p3-red dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
                           >
                             Х
                           </button>
@@ -118,7 +118,7 @@ export default function Page() {
                           </button>
                           <button
                             type="button"
-                            className="w-48 border-t border-b border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                            className="w-48 border-b border-t border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
                           >
                             тело
                           </button>
@@ -135,7 +135,7 @@ export default function Page() {
                         <div className="inline-flex rounded-md shadow-sm" role="group">
                           <button
                             type="button"
-                            className="text-p2-red hover:bg-p2-red hover:text-p1-white focus:text-p1-white focus:ring-p3-red w-12 rounded-s-lg border-t border-b border-gray-200 bg-white px-4 py-2 text-sm font-medium focus:z-10 focus:ring-2 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                            className="w-12 rounded-s-lg border-b border-t border-gray-200 bg-white px-4 py-2 text-sm font-medium text-p2-red hover:bg-p2-red hover:text-p1-white focus:z-10 focus:text-p1-white focus:ring-2 focus:ring-p3-red dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
                           >
                             Х
                           </button>
@@ -147,7 +147,7 @@ export default function Page() {
                           </button>
                           <button
                             type="button"
-                            className="w-48 border-t border-b border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                            className="w-48 border-b border-t border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
                           >
                             глаза
                           </button>
@@ -164,7 +164,7 @@ export default function Page() {
                         <div className="inline-flex rounded-md shadow-sm" role="group">
                           <button
                             type="button"
-                            className="text-p2-red hover:bg-p2-red hover:text-p1-white focus:text-p1-white focus:ring-p3-red w-12 rounded-s-lg border-t border-b border-gray-200 bg-white px-4 py-2 text-sm font-medium focus:z-10 focus:ring-2 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                            className="w-12 rounded-s-lg border-b border-t border-gray-200 bg-white px-4 py-2 text-sm font-medium text-p2-red hover:bg-p2-red hover:text-p1-white focus:z-10 focus:text-p1-white focus:ring-2 focus:ring-p3-red dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
                           >
                             Х
                           </button>
@@ -176,7 +176,7 @@ export default function Page() {
                           </button>
                           <button
                             type="button"
-                            className="w-48 border-t border-b border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                            className="w-48 border-b border-t border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
                           >
                             рот
                           </button>
@@ -193,7 +193,7 @@ export default function Page() {
                         <div className="inline-flex rounded-md shadow-sm" role="group">
                           <button
                             type="button"
-                            className="text-p2-red hover:bg-p2-red hover:text-p1-white focus:text-p1-white focus:ring-p3-red w-12 rounded-s-lg border-t border-b border-gray-200 bg-white px-4 py-2 text-sm font-medium focus:z-10 focus:ring-2 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                            className="w-12 rounded-s-lg border-b border-t border-gray-200 bg-white px-4 py-2 text-sm font-medium text-p2-red hover:bg-p2-red hover:text-p1-white focus:z-10 focus:text-p1-white focus:ring-2 focus:ring-p3-red dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
                           >
                             Х
                           </button>
@@ -205,7 +205,7 @@ export default function Page() {
                           </button>
                           <button
                             type="button"
-                            className="w-48 border-t border-b border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                            className="w-48 border-b border-t border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
                           >
                             нос
                           </button>
@@ -222,7 +222,7 @@ export default function Page() {
                         <div className="inline-flex rounded-md shadow-sm" role="group">
                           <button
                             type="button"
-                            className="text-p2-red hover:bg-p2-red hover:text-p1-white focus:text-p1-white focus:ring-p3-red w-12 rounded-s-lg border-t border-b border-gray-200 bg-white px-4 py-2 text-sm font-medium focus:z-10 focus:ring-2 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                            className="w-12 rounded-s-lg border-b border-t border-gray-200 bg-white px-4 py-2 text-sm font-medium text-p2-red hover:bg-p2-red hover:text-p1-white focus:z-10 focus:text-p1-white focus:ring-2 focus:ring-p3-red dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
                           >
                             Х
                           </button>
@@ -234,7 +234,7 @@ export default function Page() {
                           </button>
                           <button
                             type="button"
-                            className="w-48 border-t border-b border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                            className="w-48 border-b border-t border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
                           >
                             усы борода
                           </button>
@@ -251,7 +251,7 @@ export default function Page() {
                         <div className="inline-flex rounded-md shadow-sm" role="group">
                           <button
                             type="button"
-                            className="text-p2-red hover:bg-p2-red hover:text-p1-white focus:text-p1-white focus:ring-p3-red w-12 rounded-s-lg border-t border-b border-gray-200 bg-white px-4 py-2 text-sm font-medium focus:z-10 focus:ring-2 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                            className="w-12 rounded-s-lg border-b border-t border-gray-200 bg-white px-4 py-2 text-sm font-medium text-p2-red hover:bg-p2-red hover:text-p1-white focus:z-10 focus:text-p1-white focus:ring-2 focus:ring-p3-red dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
                           >
                             Х
                           </button>
@@ -263,7 +263,7 @@ export default function Page() {
                           </button>
                           <button
                             type="button"
-                            className="w-48 border-t border-b border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                            className="w-48 border-b border-t border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
                           >
                             серьга в ухо
                           </button>
@@ -280,7 +280,7 @@ export default function Page() {
                         <div className="inline-flex rounded-md shadow-sm" role="group">
                           <button
                             type="button"
-                            className="text-p2-red hover:bg-p2-red hover:text-p1-white focus:text-p1-white focus:ring-p3-red w-12 rounded-s-lg border-t border-b border-gray-200 bg-white px-4 py-2 text-sm font-medium focus:z-10 focus:ring-2 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                            className="w-12 rounded-s-lg border-b border-t border-gray-200 bg-white px-4 py-2 text-sm font-medium text-p2-red hover:bg-p2-red hover:text-p1-white focus:z-10 focus:text-p1-white focus:ring-2 focus:ring-p3-red dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
                           >
                             Х
                           </button>
@@ -292,7 +292,7 @@ export default function Page() {
                           </button>
                           <button
                             type="button"
-                            className="w-48 border-t border-b border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                            className="w-48 border-b border-t border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
                           >
                             монеты на глаза
                           </button>
@@ -309,7 +309,7 @@ export default function Page() {
                         <div className="inline-flex rounded-md shadow-sm" role="group">
                           <button
                             type="button"
-                            className="text-p2-red hover:bg-p2-red hover:text-p1-white focus:text-p1-white focus:ring-p3-red w-12 rounded-s-lg border-t border-b border-gray-200 bg-white px-4 py-2 text-sm font-medium focus:z-10 focus:ring-2 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                            className="w-12 rounded-s-lg border-b border-t border-gray-200 bg-white px-4 py-2 text-sm font-medium text-p2-red hover:bg-p2-red hover:text-p1-white focus:z-10 focus:text-p1-white focus:ring-2 focus:ring-p3-red dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
                           >
                             Х
                           </button>
@@ -321,7 +321,7 @@ export default function Page() {
                           </button>
                           <button
                             type="button"
-                            className="w-48 border-t border-b border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                            className="w-48 border-b border-t border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
                           >
                             балаклава, маски, очки
                           </button>
@@ -338,7 +338,7 @@ export default function Page() {
                         <div className="inline-flex rounded-md shadow-sm" role="group">
                           <button
                             type="button"
-                            className="text-p2-red hover:bg-p2-red hover:text-p1-white focus:text-p1-white focus:ring-p3-red w-12 rounded-s-lg border-t border-b border-gray-200 bg-white px-4 py-2 text-sm font-medium focus:z-10 focus:ring-2 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                            className="w-12 rounded-s-lg border-b border-t border-gray-200 bg-white px-4 py-2 text-sm font-medium text-p2-red hover:bg-p2-red hover:text-p1-white focus:z-10 focus:text-p1-white focus:ring-2 focus:ring-p3-red dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
                           >
                             Х
                           </button>
@@ -350,7 +350,7 @@ export default function Page() {
                           </button>
                           <button
                             type="button"
-                            className="w-48 border-t border-b border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                            className="w-48 border-b border-t border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
                           >
                             броне жилет
                           </button>
@@ -367,7 +367,7 @@ export default function Page() {
                         <div className="inline-flex rounded-md shadow-sm" role="group">
                           <button
                             type="button"
-                            className="text-p2-red hover:bg-p2-red hover:text-p1-white focus:text-p1-white focus:ring-p3-red w-12 rounded-s-lg border-t border-b border-gray-200 bg-white px-4 py-2 text-sm font-medium focus:z-10 focus:ring-2 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                            className="w-12 rounded-s-lg border-b border-t border-gray-200 bg-white px-4 py-2 text-sm font-medium text-p2-red hover:bg-p2-red hover:text-p1-white focus:z-10 focus:text-p1-white focus:ring-2 focus:ring-p3-red dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
                           >
                             Х
                           </button>
@@ -379,7 +379,7 @@ export default function Page() {
                           </button>
                           <button
                             type="button"
-                            className="w-48 border-t border-b border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                            className="w-48 border-b border-t border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
                           >
                             верхняя одежда
                           </button>
@@ -396,7 +396,7 @@ export default function Page() {
                         <div className="inline-flex rounded-md shadow-sm" role="group">
                           <button
                             type="button"
-                            className="text-p2-red hover:bg-p2-red hover:text-p1-white focus:text-p1-white focus:ring-p3-red w-12 rounded-s-lg border-t border-b border-gray-200 bg-white px-4 py-2 text-sm font-medium focus:z-10 focus:ring-2 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                            className="w-12 rounded-s-lg border-b border-t border-gray-200 bg-white px-4 py-2 text-sm font-medium text-p2-red hover:bg-p2-red hover:text-p1-white focus:z-10 focus:text-p1-white focus:ring-2 focus:ring-p3-red dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
                           >
                             Х
                           </button>
@@ -408,7 +408,7 @@ export default function Page() {
                           </button>
                           <button
                             type="button"
-                            className="w-48 border-t border-b border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                            className="w-48 border-b border-t border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
                           >
                             прическа головной убор
                           </button>
@@ -425,7 +425,7 @@ export default function Page() {
                         <div className="inline-flex rounded-md shadow-sm" role="group">
                           <button
                             type="button"
-                            className="text-p2-red hover:bg-p2-red hover:text-p1-white focus:text-p1-white focus:ring-p3-red w-12 rounded-s-lg border-t border-b border-gray-200 bg-white px-4 py-2 text-sm font-medium focus:z-10 focus:ring-2 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                            className="w-12 rounded-s-lg border-b border-t border-gray-200 bg-white px-4 py-2 text-sm font-medium text-p2-red hover:bg-p2-red hover:text-p1-white focus:z-10 focus:text-p1-white focus:ring-2 focus:ring-p3-red dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
                           >
                             Х
                           </button>
@@ -437,7 +437,7 @@ export default function Page() {
                           </button>
                           <button
                             type="button"
-                            className="w-48 border-t border-b border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                            className="w-48 border-b border-t border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
                           >
                             нимб и альбатрос
                           </button>
@@ -454,7 +454,7 @@ export default function Page() {
                         <div className="inline-flex rounded-md shadow-sm" role="group">
                           <button
                             type="button"
-                            className="text-p2-red hover:bg-p2-red hover:text-p1-white focus:text-p1-white focus:ring-p3-red w-12 rounded-s-lg border-t border-b border-gray-200 bg-white px-4 py-2 text-sm font-medium focus:z-10 focus:ring-2 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                            className="w-12 rounded-s-lg border-b border-t border-gray-200 bg-white px-4 py-2 text-sm font-medium text-p2-red hover:bg-p2-red hover:text-p1-white focus:z-10 focus:text-p1-white focus:ring-2 focus:ring-p3-red dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
                           >
                             Х
                           </button>
@@ -466,7 +466,7 @@ export default function Page() {
                           </button>
                           <button
                             type="button"
-                            className="w-48 border-t border-b border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                            className="w-48 border-b border-t border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
                           >
                             попугай
                           </button>
@@ -483,7 +483,7 @@ export default function Page() {
                         <div className="inline-flex rounded-md shadow-sm" role="group">
                           <button
                             type="button"
-                            className="text-p2-red hover:bg-p2-red hover:text-p1-white focus:text-p1-white focus:ring-p3-red w-12 rounded-s-lg border-t border-b border-gray-200 bg-white px-4 py-2 text-sm font-medium focus:z-10 focus:ring-2 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                            className="w-12 rounded-s-lg border-b border-t border-gray-200 bg-white px-4 py-2 text-sm font-medium text-p2-red hover:bg-p2-red hover:text-p1-white focus:z-10 focus:text-p1-white focus:ring-2 focus:ring-p3-red dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
                           >
                             Х
                           </button>
@@ -495,7 +495,7 @@ export default function Page() {
                           </button>
                           <button
                             type="button"
-                            className="w-48 border-t border-b border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                            className="w-48 border-b border-t border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
                           >
                             стрела с сердцем
                           </button>
@@ -512,7 +512,7 @@ export default function Page() {
                         <div className="inline-flex rounded-md shadow-sm" role="group">
                           <button
                             type="button"
-                            className="text-p2-red hover:bg-p2-red hover:text-p1-white focus:text-p1-white focus:ring-p3-red w-12 rounded-s-lg border-t border-b border-gray-200 bg-white px-4 py-2 text-sm font-medium focus:z-10 focus:ring-2 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                            className="w-12 rounded-s-lg border-b border-t border-gray-200 bg-white px-4 py-2 text-sm font-medium text-p2-red hover:bg-p2-red hover:text-p1-white focus:z-10 focus:text-p1-white focus:ring-2 focus:ring-p3-red dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
                           >
                             Х
                           </button>
@@ -524,7 +524,7 @@ export default function Page() {
                           </button>
                           <button
                             type="button"
-                            className="w-48 border-t border-b border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                            className="w-48 border-b border-t border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
                           >
                             надписи
                           </button>
@@ -541,7 +541,7 @@ export default function Page() {
                         <div className="inline-flex rounded-md shadow-sm" role="group">
                           <button
                             type="button"
-                            className="text-p2-red hover:bg-p2-red hover:text-p1-white focus:text-p1-white focus:ring-p3-red w-12 rounded-s-lg border-t border-b border-gray-200 bg-white px-4 py-2 text-sm font-medium focus:z-10 focus:ring-2 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                            className="w-12 rounded-s-lg border-b border-t border-gray-200 bg-white px-4 py-2 text-sm font-medium text-p2-red hover:bg-p2-red hover:text-p1-white focus:z-10 focus:text-p1-white focus:ring-2 focus:ring-p3-red dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
                           >
                             Х
                           </button>
@@ -553,7 +553,7 @@ export default function Page() {
                           </button>
                           <button
                             type="button"
-                            className="w-48 border-t border-b border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                            className="w-48 border-b border-t border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
                           >
                             верхняя одежда
                           </button>
@@ -570,7 +570,7 @@ export default function Page() {
                         <div className="inline-flex rounded-md shadow-sm" role="group">
                           <button
                             type="button"
-                            className="text-p2-red hover:bg-p2-red hover:text-p1-white focus:text-p1-white focus:ring-p3-red w-12 rounded-s-lg border-t border-b border-gray-200 bg-white px-4 py-2 text-sm font-medium focus:z-10 focus:ring-2 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                            className="w-12 rounded-s-lg border-b border-t border-gray-200 bg-white px-4 py-2 text-sm font-medium text-p2-red hover:bg-p2-red hover:text-p1-white focus:z-10 focus:text-p1-white focus:ring-2 focus:ring-p3-red dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
                           >
                             Х
                           </button>
@@ -582,7 +582,7 @@ export default function Page() {
                           </button>
                           <button
                             type="button"
-                            className="w-48 border-t border-b border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                            className="w-48 border-b border-t border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
                           >
                             прическа головной убор
                           </button>
@@ -599,7 +599,7 @@ export default function Page() {
                         <div className="inline-flex rounded-md shadow-sm" role="group">
                           <button
                             type="button"
-                            className="text-p2-red hover:bg-p2-red hover:text-p1-white focus:text-p1-white focus:ring-p3-red w-12 rounded-s-lg border-t border-b border-gray-200 bg-white px-4 py-2 text-sm font-medium focus:z-10 focus:ring-2 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                            className="w-12 rounded-s-lg border-b border-t border-gray-200 bg-white px-4 py-2 text-sm font-medium text-p2-red hover:bg-p2-red hover:text-p1-white focus:z-10 focus:text-p1-white focus:ring-2 focus:ring-p3-red dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
                           >
                             Х
                           </button>
@@ -611,7 +611,7 @@ export default function Page() {
                           </button>
                           <button
                             type="button"
-                            className="w-48 border-t border-b border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                            className="w-48 border-b border-t border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
                           >
                             нимб и альбатрос
                           </button>
@@ -628,7 +628,7 @@ export default function Page() {
                         <div className="inline-flex rounded-md shadow-sm" role="group">
                           <button
                             type="button"
-                            className="text-p2-red hover:bg-p2-red hover:text-p1-white focus:text-p1-white focus:ring-p3-red w-12 rounded-s-lg border-t border-b border-gray-200 bg-white px-4 py-2 text-sm font-medium focus:z-10 focus:ring-2 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                            className="w-12 rounded-s-lg border-b border-t border-gray-200 bg-white px-4 py-2 text-sm font-medium text-p2-red hover:bg-p2-red hover:text-p1-white focus:z-10 focus:text-p1-white focus:ring-2 focus:ring-p3-red dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
                           >
                             Х
                           </button>
@@ -640,7 +640,7 @@ export default function Page() {
                           </button>
                           <button
                             type="button"
-                            className="w-48 border-t border-b border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                            className="w-48 border-b border-t border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
                           >
                             попугай
                           </button>
@@ -657,7 +657,7 @@ export default function Page() {
                         <div className="inline-flex rounded-md shadow-sm" role="group">
                           <button
                             type="button"
-                            className="text-p2-red hover:bg-p2-red hover:text-p1-white focus:text-p1-white focus:ring-p3-red w-12 rounded-s-lg border-t border-b border-gray-200 bg-white px-4 py-2 text-sm font-medium focus:z-10 focus:ring-2 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                            className="w-12 rounded-s-lg border-b border-t border-gray-200 bg-white px-4 py-2 text-sm font-medium text-p2-red hover:bg-p2-red hover:text-p1-white focus:z-10 focus:text-p1-white focus:ring-2 focus:ring-p3-red dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
                           >
                             Х
                           </button>
@@ -669,7 +669,7 @@ export default function Page() {
                           </button>
                           <button
                             type="button"
-                            className="w-48 border-t border-b border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                            className="w-48 border-b border-t border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
                           >
                             стрела с сердцем
                           </button>
@@ -686,7 +686,7 @@ export default function Page() {
                         <div className="inline-flex rounded-md shadow-sm" role="group">
                           <button
                             type="button"
-                            className="text-p2-red hover:bg-p2-red hover:text-p1-white focus:text-p1-white focus:ring-p3-red w-12 rounded-e-lg border-t border-b border-gray-200 bg-white px-4 py-2 text-sm font-medium focus:z-10 focus:ring-2 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                            className="w-12 rounded-e-lg border-b border-t border-gray-200 bg-white px-4 py-2 text-sm font-medium text-p2-red hover:bg-p2-red hover:text-p1-white focus:z-10 focus:text-p1-white focus:ring-2 focus:ring-p3-red dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
                           >
                             Х
                           </button>
@@ -698,7 +698,7 @@ export default function Page() {
                           </button>
                           <button
                             type="button"
-                            className="w-48 border-t border-b border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
+                            className="w-48 border-b border-t border-gray-200 bg-white px-4 py-2 text-sm font-medium text-gray-900 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:text-blue-700 focus:ring-2 focus:ring-blue-700 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-blue-500"
                           >
                             надписи
                           </button>
@@ -714,7 +714,7 @@ export default function Page() {
                     </Swiper>
                     <div id="2" className="pb-2 md:pb-5"></div>
 
-                    <button className="border-p2-orange bg-p1-white text-p1-darkgreen hover:bg-p2-orange hover:text-p1-white dark:border-p1-cyan dark:bg-p1-darkgreen dark:text-p1-cyan dark:hover:border-p2-orange inline-block w-3/5 rounded-xl border-2 px-10 py-4 shadow-lg transition-all delay-75 duration-300 ease-in-out dark:hover:bg-amber-600 dark:hover:text-amber-100">
+                    <button className="inline-block w-3/5 rounded-xl border-2 border-p2-orange bg-p1-white px-10 py-4 text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p2-orange hover:text-p1-white dark:border-p1-cyan dark:bg-p1-darkgreen dark:text-p1-cyan dark:hover:border-p2-orange dark:hover:bg-amber-600 dark:hover:text-amber-100">
                       Сброс
                     </button>
                   </div>
@@ -745,7 +745,7 @@ export default function Page() {
                     />
                   </div>
 
-                  <p className="text-p1-darkgreen dark:text-p1-green p-2 text-base md:text-2xl">
+                  <p className="p-2 text-base text-p1-darkgreen md:text-2xl dark:text-p1-green">
                     Максимальное количество: 10 CustomLads за транзакцию
                   </p>
 
@@ -760,7 +760,7 @@ export default function Page() {
 
       <div className="pb-5"></div>
 
-      <p className="text-p1-darkgreen p-5 text-2xl">
+      <p className="p-5 text-2xl text-p1-darkgreen">
         стрелки - перебор доступных элементов, Х-фиксация пустого слоя, по центру нажатие названия
         элемента - фиксация выбранного элемента, сброс - сброс всех настроек, случайное изображение
         - рандомайзер из доступных элементов, на странице должна быть проверка количества NFT в

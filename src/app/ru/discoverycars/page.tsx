@@ -20,33 +20,33 @@ export default function Page() {
           Страница исследователя
         </div>
       </div>
-      <div className="hover:border-p1-gray dark:hover:border-p1-green rounded-3xl border-cyan-700 md:border-4 md:shadow-lg">
+      <div className="rounded-3xl border-cyan-700 hover:border-p1-gray md:border-4 md:shadow-lg dark:hover:border-p1-green">
         <div className="flex flex-wrap justify-center px-2 pt-2 md:flex-nowrap">
           <div>
-            <p className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan p-2 text-base md:text-xl">
+            <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
               Невзаимозаменяемый токен, отражающий реальный коллекционный, спортивный,
               кастомизированный или раритетный автомобиль из национальной, корпоративной или частной
               коллекции.
             </p>
-            <p className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan p-2 text-base md:text-xl">
+            <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
               Каждый NFT содержит метаданные, хранящие информацию о коллекционном экземпляре, его
               описание и характеристики.
             </p>
-            <p className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan p-2 text-base md:text-xl">
+            <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
               При создании NFT есть возможность добавить медиаконтент.
             </p>
-            <p className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan p-2 text-base md:text-xl">
+            <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
               Для создания Cars NFT необходимо владеть хотя бы одним NFT из коллекций Drivers,
               Team&apos;s Members или Collectors.
             </p>
 
-            <p className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan p-2 text-base md:text-xl">
+            <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
               Данный токен имеет характеристику &quot;Burnable&quot; - собственник смарт-контракта
               может уничтожить любой токен из коллекции. Эта мера необходима для поддержания
               актуальности коллекции.
             </p>
 
-            <p className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan p-2 text-base md:text-xl">
+            <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
               Собственник смарт-контракта вправе уничтожить NFT в случае создания NFT, не
               соответствующих правилам проекта.
             </p>
@@ -69,7 +69,7 @@ export default function Page() {
                 onClick={() => {
                   setLider(0);
                 }}
-                className="bg-p2-white2 text-p1-darkgreen hover:text-p1-white focus:text-p1-white dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:focus:text-p1-cyan dark:focus:ring-p1-green rounded-l-xl border border-red-400 p-5 text-center text-sm font-medium shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-red-400 focus:z-10 focus:bg-red-400 focus:ring-2 focus:ring-red-400 md:p-4 dark:border dark:hover:bg-red-900 dark:hover:text-red-100"
+                className="rounded-l-xl border border-red-400 bg-p2-white2 p-5 text-center text-sm font-medium text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-red-400 hover:text-p1-white focus:z-10 focus:bg-red-400 focus:text-p1-white focus:ring-2 focus:ring-red-400 md:p-4 dark:border dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:bg-red-900 dark:hover:text-red-100 dark:focus:text-p1-cyan dark:focus:ring-p1-green"
               >
                 Drivers
               </Link>
@@ -78,7 +78,7 @@ export default function Page() {
                 onClick={() => {
                   setLider(1);
                 }}
-                className="border-p3-blue bg-p2-white2 text-p1-darkgreen hover:bg-p3-blue hover:text-p1-white focus:bg-p3-blue focus:text-p1-white focus:ring-p3-blue dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:bg-p3-violet dark:focus:ring-p3-blue border p-5 text-center text-sm font-medium shadow-lg transition-all delay-75 duration-300 ease-in-out focus:z-10 focus:ring-2 md:p-4 dark:border dark:hover:text-white dark:focus:text-white"
+                className="border border-p3-blue bg-p2-white2 p-5 text-center text-sm font-medium text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p3-blue hover:text-p1-white focus:z-10 focus:bg-p3-blue focus:text-p1-white focus:ring-2 focus:ring-p3-blue md:p-4 dark:border dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:bg-p3-violet dark:hover:text-white dark:focus:text-white dark:focus:ring-p3-blue"
               >
                 Team&apos;s Members
               </Link>
@@ -87,7 +87,7 @@ export default function Page() {
                 onClick={() => {
                   setLider(2);
                 }}
-                className="bg-p2-white2 text-p1-darkgreen hover:text-p1-white focus:text-p1-white dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan border border-stone-500 p-5 text-center text-sm font-medium shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-stone-500 focus:z-10 focus:bg-stone-500 focus:ring-2 focus:ring-stone-500 md:p-4 dark:border dark:hover:bg-stone-700 dark:hover:text-stone-100 dark:focus:text-white dark:focus:ring-stone-500"
+                className="border border-stone-500 bg-p2-white2 p-5 text-center text-sm font-medium text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-stone-500 hover:text-p1-white focus:z-10 focus:bg-stone-500 focus:text-p1-white focus:ring-2 focus:ring-stone-500 md:p-4 dark:border dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:bg-stone-700 dark:hover:text-stone-100 dark:focus:text-white dark:focus:ring-stone-500"
               >
                 Collectors
               </Link>
@@ -96,7 +96,7 @@ export default function Page() {
                 onClick={() => {
                   setLider(3);
                 }}
-                className="bg-p2-white2 text-p1-darkgreen hover:text-p1-white focus:text-p1-white dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan rounded-r-xl border border-cyan-700 p-5 text-center text-sm font-medium shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-cyan-700 focus:z-10 focus:bg-cyan-700 focus:ring-2 focus:ring-cyan-700 md:p-4 dark:border dark:hover:bg-cyan-900 dark:hover:text-white dark:focus:text-white dark:focus:ring-cyan-700"
+                className="rounded-r-xl border border-cyan-700 bg-p2-white2 p-5 text-center text-sm font-medium text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-cyan-700 hover:text-p1-white focus:z-10 focus:bg-cyan-700 focus:text-p1-white focus:ring-2 focus:ring-cyan-700 md:p-4 dark:border dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:bg-cyan-900 dark:hover:text-white dark:focus:text-white dark:focus:ring-cyan-700"
               >
                 Cars
               </Link>
@@ -106,7 +106,7 @@ export default function Page() {
                 <div className="justify-self-center">
                   <Link
                     href="/mintcars"
-                    className="bg-p2-white2 text-p1-darkgreen hover:text-p1-white dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan inline-block w-full place-content-center rounded-3xl border-2 border-cyan-700 px-10 py-8 text-center shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-cyan-700 dark:hover:bg-cyan-900 dark:hover:text-white dark:focus:text-white dark:focus:ring-cyan-700"
+                    className="inline-block w-full place-content-center rounded-3xl border-2 border-cyan-700 bg-p2-white2 px-10 py-8 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-cyan-700 hover:text-p1-white dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:bg-cyan-900 dark:hover:text-white dark:focus:text-white dark:focus:ring-cyan-700"
                   >
                     Создай NFT
                   </Link>
@@ -119,12 +119,12 @@ export default function Page() {
 
       <div className="md:pb-8"></div>
       <div id="2"></div>
-      <div className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan px-2 text-center text-xl font-semibold md:pt-10 md:text-3xl">
+      <div className="px-2 text-center text-xl font-semibold text-p1-darkgreen md:pt-10 md:text-3xl dark:text-p1-green dark:hover:text-p1-cyan">
         Способы получения Cars NFT
       </div>
 
-      <div className="border-p1-darkgreen dark:hover:border-p1-green h-max rounded-3xl p-2 md:border-4 md:shadow-lg">
-        <div className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan text-center text-base md:text-2xl">
+      <div className="h-max rounded-3xl border-p1-darkgreen p-2 md:border-4 md:shadow-lg dark:hover:border-p1-green">
+        <div className="text-center text-base text-p1-darkgreen md:text-2xl dark:text-p1-green dark:hover:text-p1-cyan">
           Только владельцы NFT из коллекций Drivers, Team&apos;s members, Collectors смогут
           оцифровать свои автомобили и создать Cars NFT
         </div>
@@ -181,7 +181,7 @@ export default function Page() {
           <div></div>
           <div></div>
 
-          <div className="text-centre text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan relative place-self-center text-3xl font-bold">
+          <div className="text-centre relative place-self-center text-3xl font-bold text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
             +
           </div>
           <div></div>
@@ -219,7 +219,7 @@ export default function Page() {
           <div></div>
         </div>
 
-        <div className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan pt-5 text-center text-base md:text-2xl">
+        <div className="pt-5 text-center text-base text-p1-darkgreen md:text-2xl dark:text-p1-green dark:hover:text-p1-cyan">
           Так мы планируем обеспечить прозрачность процесса
           <p className="text-center text-base md:text-2xl">и чистоту коллекции</p>
         </div>

@@ -32,7 +32,7 @@ export default function Home() {
             <div>
               <Link href={'#'} className="mx-auto justify-center">
                 <Image
-                  className="ring-p1-green hover:bg-p1-white hover:bg-opacity-50 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:hover:bg-p1-deepdarkgreen h-10 w-10 rounded-lg p-1 transition-all delay-75 duration-300 ease-in-out hover:ring-2"
+                  className="h-10 w-10 rounded-lg p-1 ring-p1-green transition-all delay-75 duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:ring-2 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:hover:bg-p1-deepdarkgreen"
                   width={480}
                   height={480}
                   src="/Logo/wallet-nft.png"
@@ -44,15 +44,15 @@ export default function Home() {
             <div className="group relative inline-block">
               <Link href={'#'} className="mx-auto justify-center">
                 <Image
-                  className="ring-p1-green hover:bg-p1-white hover:bg-opacity-50 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:hover:bg-p1-deepdarkgreen h-10 w-10 rounded-full p-1 transition-all delay-75 duration-300 ease-in-out hover:ring-2"
+                  className="h-10 w-10 rounded-full p-1 ring-p1-green transition-all delay-75 duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:ring-2 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:hover:bg-p1-deepdarkgreen"
                   width={480}
                   height={480}
                   src="/Logo/user.png"
                   alt="Bordered avatar"
                 />
 
-                <div className="bg-p1-cyan invisible absolute left-1/2 z-10 mt-2 w-40 -translate-x-1/2 transform rounded-xl bg-center p-4 text-gray-800 opacity-0 shadow-lg transition-all duration-300 group-hover:visible group-hover:opacity-100 md:w-52">
-                  <div className="border-p1-darkgreen text-p1-darkgreen hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen dark:border-p1-deepdarkgreen rounded-lg border-b p-1 text-xl font-semibold transition-all duration-300 ease-in-out md:px-3">
+                <div className="invisible absolute left-1/2 z-10 mt-2 w-40 -translate-x-1/2 transform rounded-xl bg-p1-cyan bg-center p-4 text-gray-800 opacity-0 shadow-lg transition-all duration-300 group-hover:visible group-hover:opacity-100 md:w-52">
+                  <div className="rounded-lg border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
                     <Link href={'/profile'} className="mx-auto justify-center">
                       <Image
                         className="h-10 w-10"
@@ -64,7 +64,7 @@ export default function Home() {
                       Profile
                     </Link>
                   </div>
-                  <div className="border-p1-darkgreen text-p1-darkgreen hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen dark:border-p1-deepdarkgreen rounded-lg border-b p-1 text-xl font-semibold transition-all duration-300 ease-in-out md:px-3">
+                  <div className="rounded-lg border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
                     <Link href={'/dashboard'} className="mx-auto justify-center">
                       <Image
                         className="h-10 w-10"
@@ -76,7 +76,7 @@ export default function Home() {
                       Dashboard
                     </Link>
                   </div>
-                  <div className="border-p1-darkgreen text-p1-darkgreen hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen dark:border-p1-deepdarkgreen rounded-lg border-b p-1 text-xl font-semibold transition-all duration-300 ease-in-out md:px-3">
+                  <div className="rounded-lg border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
                     <Link href={'/marketplace'} className="mx-auto justify-center">
                       <Image
                         className="h-10 w-10"
@@ -88,7 +88,7 @@ export default function Home() {
                       Marketplace
                     </Link>
                   </div>
-                  <div className="border-p1-darkgreen text-p1-darkgreen hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen dark:border-p1-deepdarkgreen rounded-lg border-b p-1 text-xl font-semibold transition-all duration-300 ease-in-out md:px-3">
+                  <div className="rounded-lg border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
                     <Link href={'/mynfts'} className="mx-auto justify-center">
                       <Image
                         className="h-10 w-10"
@@ -97,11 +97,11 @@ export default function Home() {
                         src="/icon/NFT-col.png"
                         alt="Bordered avatar"
                       />
-                      My NFT
+                      My NFT{' '}
                     </Link>
                   </div>
 
-                  <div className="border-p1-darkgreen text-p1-darkgreen hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen dark:border-p1-deepdarkgreen rounded-lg border-b p-1 text-xl font-semibold transition-all duration-300 ease-in-out md:px-3">
+                  <div className="rounded-lg border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
                     <Link href={'#'} className="mx-auto justify-center">
                       <Image
                         className="h-10 w-10"
@@ -114,7 +114,7 @@ export default function Home() {
                     </Link>
                   </div>
 
-                  <div className="border-p1-darkgreen text-p1-darkgreen hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen dark:border-p1-deepdarkgreen rounded-lg border-b p-1 text-xl font-semibold transition-all duration-300 ease-in-out md:px-3">
+                  <div className="rounded-lg border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
                     <Link href={'#'} className="mx-auto justify-center">
                       <Image
                         className="h-10 w-10"
@@ -132,7 +132,7 @@ export default function Home() {
             <div>
               <Link href={'#'} className="mx-auto justify-center">
                 <Image
-                  className="ring-p1-green hover:bg-p1-white hover:bg-opacity-50 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:hover:bg-p1-deepdarkgreen h-10 w-10 rounded-lg p-1 transition-all delay-75 duration-300 ease-in-out hover:ring-2"
+                  className="h-10 w-10 rounded-lg p-1 ring-p1-green transition-all delay-75 duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:ring-2 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:hover:bg-p1-deepdarkgreen"
                   width={480}
                   height={480}
                   src="/Logo/shopping-cart.png"
@@ -145,7 +145,7 @@ export default function Home() {
 
         {/* Поиск 1 */}
         <div className="">
-          <div className="border-p1-green bg-p2-white2 bg-opacity-50 mx-auto flex w-72 overflow-hidden rounded-xl px-4 py-3 backdrop-blur-lg md:-my-10 lg:w-80 xl:w-96">
+          <div className="mx-auto flex w-72 overflow-hidden rounded-xl border-p1-green bg-p2-white2 bg-opacity-50 px-4 py-3 backdrop-blur-lg md:-my-10 lg:w-80 xl:w-96">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 192.904 192.904"
@@ -164,7 +164,7 @@ export default function Home() {
         <div className="pb-6"> </div>
 
         {/* Слайдер коллекции 1 */}
-        <div className="bg-p1-white bg-opacity-0 dark:bg-p1-green dark:bg-opacity-0 w-full snap-x space-x-6 place-self-center overflow-x-auto rounded-3xl p-4">
+        <div className="w-full snap-x space-x-6 place-self-center overflow-x-auto rounded-3xl bg-p1-white bg-opacity-0 p-4 dark:bg-p1-green dark:bg-opacity-0">
           <Swiper
             autoplay={{
               delay: 9500,
@@ -183,7 +183,7 @@ export default function Home() {
             className="mySwyper place-items-center"
           >
             <SwiperSlide>
-              <div className="group border-p1-green bg-opacity-50 dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:bg-opacity-80 dark:text-p1-green dark:hover:border-p1-cyan dark:hover:text-p1-cyan dark:group-hover:border-p1-cyan mx-auto mt-1 w-full scale-95 space-x-3 rounded-2xl border-2 bg-gray-100 object-cover p-1 transition-transform duration-300 hover:scale-100 md:p-2">
+              <div className="group mx-auto mt-1 w-full scale-95 space-x-3 rounded-2xl border-2 border-p1-green bg-gray-100 bg-opacity-50 object-cover p-1 transition-transform duration-300 hover:scale-100 md:p-2 dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:bg-opacity-80 dark:text-p1-green dark:hover:border-p1-cyan dark:hover:text-p1-cyan dark:group-hover:border-p1-cyan">
                 <Link href="#" className="mx-auto justify-center">
                   <div className="grid w-full grid-cols-1 items-center gap-2 overflow-hidden rounded-lg xl:grid-cols-2">
                     <Image
@@ -194,26 +194,26 @@ export default function Home() {
                       className="w-full"
                     />
                     <div>
-                      <h2 className="spacing-1 text-p1-darkgreen dark:text-p1-cyan text-xl font-bold xl:text-2xl">
+                      <h2 className="spacing-1 text-xl font-bold text-p1-darkgreen xl:text-2xl dark:text-p1-cyan">
                         RaceLads
                       </h2>
                       <p className="spacing-1 text-p1-darkgreen dark:text-p1-cyan"></p>
                       <p className="spacing-1 text-p1-darkgreen dark:text-p1-cyan"></p>
-                      <button className="border-p1-cyan bg-p1-green hover:bg-p1-darkgreen dark:bg-p1-deepdarkgreen dark:hover:shadow-p1-darkgreen w-full place-content-end rounded-md border py-2 text-white dark:hover:shadow-lg">
+                      <button className="w-full place-content-end rounded-md border border-p1-cyan bg-p1-green py-2 text-white hover:bg-p1-darkgreen dark:bg-p1-deepdarkgreen dark:hover:shadow-lg dark:hover:shadow-p1-darkgreen">
                         Explore Collection
                       </button>
                     </div>
-                  </div>
+                  </div>{' '}
                   <div className="mt-2 grid w-full grid-cols-3 items-center justify-between space-x-1 text-center md:mt-4 md:grid-cols-3">
                     <div>
-                      <p className="text-p1-darkgreen dark:text-p1-cyan text-sm">Items</p>
-                      <p className="text-p1-deepdarkgreen dark:text-p1-cyan text-lg font-semibold">
+                      <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Items</p>
+                      <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
                         10,000
                       </p>
                     </div>
                     <div>
-                      <p className="text-p1-darkgreen dark:text-p1-cyan text-sm">Floor Price</p>
-                      <p className="text-p1-deepdarkgreen dark:text-p1-cyan text-lg font-semibold">
+                      <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Floor Price</p>
+                      <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
                         <Image
                           className="relative inline-block w-8 px-1"
                           layout="intrinsic"
@@ -221,13 +221,13 @@ export default function Home() {
                           height={50}
                           src="/Logo/eth.png"
                           alt="eth"
-                        />
+                        />{' '}
                         15.2
                       </p>
                     </div>
                     <div>
-                      <p className="text-p1-darkgreen dark:text-p1-cyan text-sm">Total Volume</p>
-                      <p className="text-p1-deepdarkgreen dark:text-p1-cyan text-lg font-semibold">
+                      <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Total Volume</p>
+                      <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
                         25K
                       </p>
                     </div>
@@ -237,7 +237,7 @@ export default function Home() {
             </SwiperSlide>
 
             <SwiperSlide>
-              <div className="group border-p1-green bg-opacity-50 dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:bg-opacity-80 dark:text-p1-green dark:hover:border-p1-cyan dark:hover:text-p1-cyan dark:group-hover:border-p1-cyan mx-auto mt-1 w-full scale-95 space-x-3 rounded-2xl border-2 bg-gray-100 object-cover p-1 transition-transform duration-300 hover:scale-100 md:p-2">
+              <div className="group mx-auto mt-1 w-full scale-95 space-x-3 rounded-2xl border-2 border-p1-green bg-gray-100 bg-opacity-50 object-cover p-1 transition-transform duration-300 hover:scale-100 md:p-2 dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:bg-opacity-80 dark:text-p1-green dark:hover:border-p1-cyan dark:hover:text-p1-cyan dark:group-hover:border-p1-cyan">
                 <Link href="#" className="mx-auto justify-center">
                   <div className="grid w-full grid-cols-1 items-center gap-2 overflow-hidden rounded-lg xl:grid-cols-2">
                     <Image
@@ -248,25 +248,25 @@ export default function Home() {
                       className="w-full"
                     />
                     <div>
-                      <h2 className="spacing-1 text-p1-darkgreen dark:text-p1-cyan text-xl font-bold xl:text-2xl">
+                      <h2 className="spacing-1 text-xl font-bold text-p1-darkgreen xl:text-2xl dark:text-p1-cyan">
                         Drivers
                       </h2>
                       <p className="spacing-1 text-p1-darkgreen dark:text-p1-cyan"></p>
-                      <button className="border-p1-cyan bg-p1-green hover:bg-p1-darkgreen dark:bg-p1-deepdarkgreen dark:hover:shadow-p1-darkgreen w-full place-content-end rounded-md border py-2 text-white dark:hover:shadow-lg">
+                      <button className="w-full place-content-end rounded-md border border-p1-cyan bg-p1-green py-2 text-white hover:bg-p1-darkgreen dark:bg-p1-deepdarkgreen dark:hover:shadow-lg dark:hover:shadow-p1-darkgreen">
                         Explore Collection
                       </button>
                     </div>
-                  </div>
+                  </div>{' '}
                   <div className="mt-2 grid w-full grid-cols-3 items-center justify-between space-x-1 text-center md:mt-4 md:grid-cols-3">
                     <div>
-                      <p className="text-p1-darkgreen dark:text-p1-cyan text-sm">Items</p>
-                      <p className="text-p1-deepdarkgreen dark:text-p1-cyan text-lg font-semibold">
+                      <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Items</p>
+                      <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
                         10,000
                       </p>
                     </div>
                     <div>
-                      <p className="text-p1-darkgreen dark:text-p1-cyan text-sm">Floor Price</p>
-                      <p className="text-p1-deepdarkgreen dark:text-p1-cyan text-lg font-semibold">
+                      <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Floor Price</p>
+                      <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
                         <Image
                           className="relative inline-block w-8 px-1"
                           layout="intrinsic"
@@ -274,13 +274,13 @@ export default function Home() {
                           height={50}
                           src="/Logo/eth.png"
                           alt="eth"
-                        />
+                        />{' '}
                         15.2
                       </p>
                     </div>
                     <div>
-                      <p className="text-p1-darkgreen dark:text-p1-cyan text-sm">Total Volume</p>
-                      <p className="text-p1-deepdarkgreen dark:text-p1-cyan text-lg font-semibold">
+                      <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Total Volume</p>
+                      <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
                         25K
                       </p>
                     </div>
@@ -289,7 +289,7 @@ export default function Home() {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="group border-p1-green bg-opacity-50 dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:bg-opacity-80 dark:text-p1-green dark:hover:border-p1-cyan dark:hover:text-p1-cyan dark:group-hover:border-p1-cyan mx-auto mt-1 w-full scale-95 space-x-3 rounded-2xl border-2 bg-gray-100 object-cover p-1 transition-transform duration-300 hover:scale-100 md:p-2">
+              <div className="group mx-auto mt-1 w-full scale-95 space-x-3 rounded-2xl border-2 border-p1-green bg-gray-100 bg-opacity-50 object-cover p-1 transition-transform duration-300 hover:scale-100 md:p-2 dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:bg-opacity-80 dark:text-p1-green dark:hover:border-p1-cyan dark:hover:text-p1-cyan dark:group-hover:border-p1-cyan">
                 <Link href="#" className="mx-auto justify-center">
                   <div className="grid w-full grid-cols-1 items-center gap-2 overflow-hidden rounded-lg xl:grid-cols-2">
                     <Image
@@ -300,26 +300,26 @@ export default function Home() {
                       className="w-full"
                     />
                     <div>
-                      <h2 className="spacing-1 text-p1-darkgreen dark:text-p1-cyan text-xl font-bold xl:text-2xl">
+                      <h2 className="spacing-1 text-xl font-bold text-p1-darkgreen xl:text-2xl dark:text-p1-cyan">
                         Team&apos;s Members
                       </h2>
 
                       <p className="spacing-1 text-p1-darkgreen dark:text-p1-cyan"></p>
-                      <button className="border-p1-cyan bg-p1-green hover:bg-p1-darkgreen dark:bg-p1-deepdarkgreen dark:hover:shadow-p1-darkgreen w-full place-content-end rounded-md border py-2 text-white dark:hover:shadow-lg">
+                      <button className="w-full place-content-end rounded-md border border-p1-cyan bg-p1-green py-2 text-white hover:bg-p1-darkgreen dark:bg-p1-deepdarkgreen dark:hover:shadow-lg dark:hover:shadow-p1-darkgreen">
                         Explore Collection
                       </button>
                     </div>
-                  </div>
+                  </div>{' '}
                   <div className="mt-2 grid w-full grid-cols-3 items-center justify-between space-x-1 text-center md:mt-4 md:grid-cols-3">
                     <div>
-                      <p className="text-p1-darkgreen dark:text-p1-cyan text-sm">Items</p>
-                      <p className="text-p1-deepdarkgreen dark:text-p1-cyan text-lg font-semibold">
+                      <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Items</p>
+                      <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
                         10,000
                       </p>
                     </div>
                     <div>
-                      <p className="text-p1-darkgreen dark:text-p1-cyan text-sm">Floor Price</p>
-                      <p className="text-p1-deepdarkgreen dark:text-p1-cyan text-lg font-semibold">
+                      <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Floor Price</p>
+                      <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
                         <Image
                           className="relative inline-block w-8 px-1"
                           layout="intrinsic"
@@ -327,13 +327,13 @@ export default function Home() {
                           height={50}
                           src="/Logo/eth.png"
                           alt="eth"
-                        />
+                        />{' '}
                         15.2
                       </p>
                     </div>
                     <div>
-                      <p className="text-p1-darkgreen dark:text-p1-cyan text-sm">Total Volume</p>
-                      <p className="text-p1-deepdarkgreen dark:text-p1-cyan text-lg font-semibold">
+                      <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Total Volume</p>
+                      <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
                         25K
                       </p>
                     </div>
@@ -342,7 +342,7 @@ export default function Home() {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="group border-p1-green bg-opacity-50 dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:bg-opacity-80 dark:text-p1-green dark:hover:border-p1-cyan dark:hover:text-p1-cyan dark:group-hover:border-p1-cyan mx-auto mt-1 w-full scale-95 space-x-3 rounded-2xl border-2 bg-gray-100 object-cover p-1 transition-transform duration-300 hover:scale-100 md:p-2">
+              <div className="group mx-auto mt-1 w-full scale-95 space-x-3 rounded-2xl border-2 border-p1-green bg-gray-100 bg-opacity-50 object-cover p-1 transition-transform duration-300 hover:scale-100 md:p-2 dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:bg-opacity-80 dark:text-p1-green dark:hover:border-p1-cyan dark:hover:text-p1-cyan dark:group-hover:border-p1-cyan">
                 <Link href="#" className="mx-auto justify-center">
                   <div className="grid w-full grid-cols-1 items-center gap-2 overflow-hidden rounded-lg xl:grid-cols-2">
                     <Image
@@ -353,25 +353,25 @@ export default function Home() {
                       className="w-full"
                     />
                     <div>
-                      <h2 className="spacing-1 text-p1-darkgreen dark:text-p1-cyan text-xl font-bold xl:text-2xl">
+                      <h2 className="spacing-1 text-xl font-bold text-p1-darkgreen xl:text-2xl dark:text-p1-cyan">
                         Collectors
                       </h2>
                       <p className="spacing-1 text-p1-darkgreen dark:text-p1-cyan"></p>
-                      <button className="border-p1-cyan bg-p1-green hover:bg-p1-darkgreen dark:bg-p1-deepdarkgreen dark:hover:shadow-p1-darkgreen w-full place-content-end rounded-md border py-2 text-white dark:hover:shadow-lg">
+                      <button className="w-full place-content-end rounded-md border border-p1-cyan bg-p1-green py-2 text-white hover:bg-p1-darkgreen dark:bg-p1-deepdarkgreen dark:hover:shadow-lg dark:hover:shadow-p1-darkgreen">
                         Explore Collection
                       </button>
                     </div>
-                  </div>
+                  </div>{' '}
                   <div className="mt-2 grid w-full grid-cols-3 items-center justify-between space-x-1 text-center md:mt-4 md:grid-cols-3">
                     <div>
-                      <p className="text-p1-darkgreen dark:text-p1-cyan text-sm">Items</p>
-                      <p className="text-p1-deepdarkgreen dark:text-p1-cyan text-lg font-semibold">
+                      <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Items</p>
+                      <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
                         10,000
                       </p>
                     </div>
                     <div>
-                      <p className="text-p1-darkgreen dark:text-p1-cyan text-sm">Floor Price</p>
-                      <p className="text-p1-deepdarkgreen dark:text-p1-cyan text-lg font-semibold">
+                      <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Floor Price</p>
+                      <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
                         <Image
                           className="relative inline-block w-8 px-1"
                           layout="intrinsic"
@@ -379,13 +379,13 @@ export default function Home() {
                           height={50}
                           src="/Logo/eth.png"
                           alt="eth"
-                        />
+                        />{' '}
                         15.2
                       </p>
                     </div>
                     <div>
-                      <p className="text-p1-darkgreen dark:text-p1-cyan text-sm">Total Volume</p>
-                      <p className="text-p1-deepdarkgreen dark:text-p1-cyan text-lg font-semibold">
+                      <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Total Volume</p>
+                      <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
                         25K
                       </p>
                     </div>
@@ -394,7 +394,7 @@ export default function Home() {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="group border-p1-green bg-opacity-50 dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:bg-opacity-80 dark:text-p1-green dark:hover:border-p1-cyan dark:hover:text-p1-cyan dark:group-hover:border-p1-cyan mx-auto mt-1 w-full scale-95 space-x-3 rounded-2xl border-2 bg-gray-100 object-cover p-1 transition-transform duration-300 hover:scale-100 md:p-2">
+              <div className="group mx-auto mt-1 w-full scale-95 space-x-3 rounded-2xl border-2 border-p1-green bg-gray-100 bg-opacity-50 object-cover p-1 transition-transform duration-300 hover:scale-100 md:p-2 dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:bg-opacity-80 dark:text-p1-green dark:hover:border-p1-cyan dark:hover:text-p1-cyan dark:group-hover:border-p1-cyan">
                 <Link href="#" className="mx-auto justify-center">
                   <div className="grid w-full grid-cols-1 items-center gap-2 overflow-hidden rounded-lg xl:grid-cols-2">
                     <Image
@@ -405,26 +405,26 @@ export default function Home() {
                       className="w-full"
                     />
                     <div>
-                      <h2 className="spacing-1 text-p1-darkgreen dark:text-p1-cyan text-xl font-bold xl:text-2xl">
+                      <h2 className="spacing-1 text-xl font-bold text-p1-darkgreen xl:text-2xl dark:text-p1-cyan">
                         Cars
                       </h2>
                       <p className="spacing-1 text-p1-darkgreen dark:text-p1-cyan"></p>
                       <p className="spacing-1 text-p1-darkgreen dark:text-p1-cyan"></p>
-                      <button className="border-p1-cyan bg-p1-green hover:bg-p1-darkgreen dark:bg-p1-deepdarkgreen dark:hover:shadow-p1-darkgreen w-full place-content-end rounded-md border py-2 text-white dark:hover:shadow-lg">
+                      <button className="w-full place-content-end rounded-md border border-p1-cyan bg-p1-green py-2 text-white hover:bg-p1-darkgreen dark:bg-p1-deepdarkgreen dark:hover:shadow-lg dark:hover:shadow-p1-darkgreen">
                         Explore Collection
                       </button>
                     </div>
-                  </div>
+                  </div>{' '}
                   <div className="mt-2 grid w-full grid-cols-3 items-center justify-between space-x-1 text-center md:mt-4 md:grid-cols-3">
                     <div>
-                      <p className="text-p1-darkgreen dark:text-p1-cyan text-sm">Items</p>
-                      <p className="text-p1-deepdarkgreen dark:text-p1-cyan text-lg font-semibold">
+                      <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Items</p>
+                      <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
                         10,000
                       </p>
                     </div>
                     <div>
-                      <p className="text-p1-darkgreen dark:text-p1-cyan text-sm">Floor Price</p>
-                      <p className="text-p1-deepdarkgreen dark:text-p1-cyan text-lg font-semibold">
+                      <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Floor Price</p>
+                      <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
                         <Image
                           className="relative inline-block w-8 px-1"
                           layout="intrinsic"
@@ -432,13 +432,13 @@ export default function Home() {
                           height={50}
                           src="/Logo/eth.png"
                           alt="eth"
-                        />
+                        />{' '}
                         15.2
                       </p>
                     </div>
                     <div>
-                      <p className="text-p1-darkgreen dark:text-p1-cyan text-sm">Total Volume</p>
-                      <p className="text-p1-deepdarkgreen dark:text-p1-cyan text-lg font-semibold">
+                      <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Total Volume</p>
+                      <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
                         25K
                       </p>
                     </div>
@@ -447,7 +447,7 @@ export default function Home() {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="group border-p1-green bg-opacity-50 dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:bg-opacity-80 dark:text-p1-green dark:hover:border-p1-cyan dark:hover:text-p1-cyan dark:group-hover:border-p1-cyan mx-auto mt-1 w-full scale-95 space-x-3 rounded-2xl border-2 bg-gray-100 object-cover p-1 transition-transform duration-300 hover:scale-100 md:p-2">
+              <div className="group mx-auto mt-1 w-full scale-95 space-x-3 rounded-2xl border-2 border-p1-green bg-gray-100 bg-opacity-50 object-cover p-1 transition-transform duration-300 hover:scale-100 md:p-2 dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:bg-opacity-80 dark:text-p1-green dark:hover:border-p1-cyan dark:hover:text-p1-cyan dark:group-hover:border-p1-cyan">
                 <Link href="#" className="mx-auto justify-center">
                   <div className="grid w-full grid-cols-1 items-center gap-2 overflow-hidden rounded-lg xl:grid-cols-2">
                     <Image
@@ -458,26 +458,26 @@ export default function Home() {
                       className="w-full"
                     />
                     <div>
-                      <h2 className="spacing-1 text-p1-darkgreen dark:text-p1-cyan text-xl font-bold xl:text-2xl">
+                      <h2 className="spacing-1 text-xl font-bold text-p1-darkgreen xl:text-2xl dark:text-p1-cyan">
                         Custom Lads
                       </h2>
                       <p className="spacing-1 text-p1-darkgreen dark:text-p1-cyan"></p>
                       <p className="spacing-1 text-p1-darkgreen dark:text-p1-cyan"></p>
-                      <button className="border-p1-cyan bg-p1-green hover:bg-p1-darkgreen dark:bg-p1-deepdarkgreen dark:hover:shadow-p1-darkgreen w-full place-content-end rounded-md border py-2 text-white dark:hover:shadow-lg">
+                      <button className="w-full place-content-end rounded-md border border-p1-cyan bg-p1-green py-2 text-white hover:bg-p1-darkgreen dark:bg-p1-deepdarkgreen dark:hover:shadow-lg dark:hover:shadow-p1-darkgreen">
                         Explore Collection
                       </button>
                     </div>
-                  </div>
+                  </div>{' '}
                   <div className="mt-2 grid w-full grid-cols-3 items-center justify-between space-x-1 text-center md:mt-4 md:grid-cols-3">
                     <div>
-                      <p className="text-p1-darkgreen dark:text-p1-cyan text-sm">Items</p>
-                      <p className="text-p1-deepdarkgreen dark:text-p1-cyan text-lg font-semibold">
+                      <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Items</p>
+                      <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
                         10,000
                       </p>
                     </div>
                     <div>
-                      <p className="text-p1-darkgreen dark:text-p1-cyan text-sm">Floor Price</p>
-                      <p className="text-p1-deepdarkgreen dark:text-p1-cyan text-lg font-semibold">
+                      <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Floor Price</p>
+                      <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
                         <Image
                           className="relative inline-block w-8 px-1"
                           layout="intrinsic"
@@ -485,13 +485,13 @@ export default function Home() {
                           height={50}
                           src="/Logo/eth.png"
                           alt="eth"
-                        />
+                        />{' '}
                         15.2
                       </p>
                     </div>
                     <div>
-                      <p className="text-p1-darkgreen dark:text-p1-cyan text-sm">Total Volume</p>
-                      <p className="text-p1-deepdarkgreen dark:text-p1-cyan text-lg font-semibold">
+                      <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Total Volume</p>
+                      <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
                         25K
                       </p>
                     </div>
@@ -500,7 +500,7 @@ export default function Home() {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="group border-p1-green bg-opacity-50 dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:bg-opacity-80 dark:text-p1-green dark:hover:border-p1-cyan dark:hover:text-p1-cyan dark:group-hover:border-p1-cyan mx-auto mt-1 w-full scale-95 space-x-3 rounded-2xl border-2 bg-gray-100 object-cover p-1 transition-transform duration-300 hover:scale-100 md:p-2">
+              <div className="group mx-auto mt-1 w-full scale-95 space-x-3 rounded-2xl border-2 border-p1-green bg-gray-100 bg-opacity-50 object-cover p-1 transition-transform duration-300 hover:scale-100 md:p-2 dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:bg-opacity-80 dark:text-p1-green dark:hover:border-p1-cyan dark:hover:text-p1-cyan dark:group-hover:border-p1-cyan">
                 <Link href="#" className="mx-auto justify-center">
                   <div className="grid w-full grid-cols-1 items-center gap-2 overflow-hidden rounded-lg xl:grid-cols-2">
                     <Image
@@ -511,26 +511,26 @@ export default function Home() {
                       className="w-full"
                     />
                     <div>
-                      <h2 className="spacing-1 text-p1-darkgreen dark:text-p1-cyan text-xl font-bold xl:text-2xl">
+                      <h2 className="spacing-1 text-xl font-bold text-p1-darkgreen xl:text-2xl dark:text-p1-cyan">
                         Awards
                       </h2>
                       <p className="spacing-1 text-p1-darkgreen dark:text-p1-cyan"></p>
                       <p className="spacing-1 text-p1-darkgreen dark:text-p1-cyan"></p>
-                      <button className="border-p1-cyan bg-p1-green hover:bg-p1-darkgreen dark:bg-p1-deepdarkgreen dark:hover:shadow-p1-darkgreen w-full place-content-end rounded-md border py-2 text-white dark:hover:shadow-lg">
+                      <button className="w-full place-content-end rounded-md border border-p1-cyan bg-p1-green py-2 text-white hover:bg-p1-darkgreen dark:bg-p1-deepdarkgreen dark:hover:shadow-lg dark:hover:shadow-p1-darkgreen">
                         Explore Collection
                       </button>
                     </div>
-                  </div>
+                  </div>{' '}
                   <div className="mt-2 grid w-full grid-cols-3 items-center justify-between space-x-1 text-center md:mt-4 md:grid-cols-3">
                     <div>
-                      <p className="text-p1-darkgreen dark:text-p1-cyan text-sm">Items</p>
-                      <p className="text-p1-deepdarkgreen dark:text-p1-cyan text-lg font-semibold">
+                      <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Items</p>
+                      <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
                         10,000
                       </p>
                     </div>
                     <div>
-                      <p className="text-p1-darkgreen dark:text-p1-cyan text-sm">Floor Price</p>
-                      <p className="text-p1-deepdarkgreen dark:text-p1-cyan text-lg font-semibold">
+                      <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Floor Price</p>
+                      <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
                         <Image
                           className="relative inline-block w-8 px-1"
                           layout="intrinsic"
@@ -538,13 +538,13 @@ export default function Home() {
                           height={50}
                           src="/Logo/eth.png"
                           alt="eth"
-                        />
+                        />{' '}
                         15.2
                       </p>
                     </div>
                     <div>
-                      <p className="text-p1-darkgreen dark:text-p1-cyan text-sm">Total Volume</p>
-                      <p className="text-p1-deepdarkgreen dark:text-p1-cyan text-lg font-semibold">
+                      <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Total Volume</p>
+                      <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
                         25K
                       </p>
                     </div>
@@ -553,7 +553,7 @@ export default function Home() {
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="group border-p1-green bg-opacity-50 dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:bg-opacity-80 dark:text-p1-green dark:hover:border-p1-cyan dark:hover:text-p1-cyan dark:group-hover:border-p1-cyan mx-auto mt-1 w-full scale-95 space-x-3 rounded-2xl border-2 bg-gray-100 object-cover p-1 transition-transform duration-300 hover:scale-100 md:p-2">
+              <div className="group mx-auto mt-1 w-full scale-95 space-x-3 rounded-2xl border-2 border-p1-green bg-gray-100 bg-opacity-50 object-cover p-1 transition-transform duration-300 hover:scale-100 md:p-2 dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:bg-opacity-80 dark:text-p1-green dark:hover:border-p1-cyan dark:hover:text-p1-cyan dark:group-hover:border-p1-cyan">
                 <Link href="#" className="mx-auto justify-center">
                   <div className="grid w-full grid-cols-1 items-center gap-2 overflow-hidden rounded-lg xl:grid-cols-2">
                     <Image
@@ -564,26 +564,26 @@ export default function Home() {
                       className="w-full"
                     />
                     <div>
-                      <h2 className="spacing-1 text-p1-darkgreen dark:text-p1-cyan text-xl font-bold xl:text-2xl">
+                      <h2 className="spacing-1 text-xl font-bold text-p1-darkgreen xl:text-2xl dark:text-p1-cyan">
                         Licenses
                       </h2>
                       <p className="spacing-1 text-p1-darkgreen dark:text-p1-cyan"></p>
                       <p className="spacing-1 text-p1-darkgreen dark:text-p1-cyan"></p>
-                      <button className="border-p1-cyan bg-p1-green hover:bg-p1-darkgreen dark:bg-p1-deepdarkgreen dark:hover:shadow-p1-darkgreen w-full place-content-end rounded-md border py-2 text-white dark:hover:shadow-lg">
+                      <button className="w-full place-content-end rounded-md border border-p1-cyan bg-p1-green py-2 text-white hover:bg-p1-darkgreen dark:bg-p1-deepdarkgreen dark:hover:shadow-lg dark:hover:shadow-p1-darkgreen">
                         Explore Collection
                       </button>
                     </div>
-                  </div>
+                  </div>{' '}
                   <div className="mt-2 grid w-full grid-cols-3 items-center justify-between space-x-1 text-center md:mt-4 md:grid-cols-3">
                     <div>
-                      <p className="text-p1-darkgreen dark:text-p1-cyan text-sm">Items</p>
-                      <p className="text-p1-deepdarkgreen dark:text-p1-cyan text-lg font-semibold">
+                      <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Items</p>
+                      <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
                         10,000
                       </p>
                     </div>
                     <div>
-                      <p className="text-p1-darkgreen dark:text-p1-cyan text-sm">Floor Price</p>
-                      <p className="text-p1-deepdarkgreen dark:text-p1-cyan text-lg font-semibold">
+                      <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Floor Price</p>
+                      <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
                         <Image
                           className="relative inline-block w-8 px-1"
                           layout="intrinsic"
@@ -591,13 +591,13 @@ export default function Home() {
                           height={50}
                           src="/Logo/eth.png"
                           alt="eth"
-                        />
+                        />{' '}
                         15.2
                       </p>
                     </div>
                     <div>
-                      <p className="text-p1-darkgreen dark:text-p1-cyan text-sm">Total Volume</p>
-                      <p className="text-p1-deepdarkgreen dark:text-p1-cyan text-lg font-semibold">
+                      <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Total Volume</p>
+                      <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
                         25K
                       </p>
                     </div>
@@ -614,7 +614,7 @@ export default function Home() {
           <div className="flex grid-flow-row auto-rows-max space-x-2 px-2 md:px-10">
             <Link href={'#'} className="mx-auto w-80">
               <Image
-                className="dark:ring-p1-darkgreen rounded-3xl"
+                className="rounded-3xl dark:ring-p1-darkgreen"
                 width={1000}
                 height={1000}
                 src="/HeroNFT/RaceLads/RaceLads1.png"
@@ -645,7 +645,7 @@ export default function Home() {
             <p className="font-thing pt-1 text-xl md:px-2 md:text-2xl">Chain: Ethereum</p>
           </div>
 
-          <div className="flex grid-flow-row auto-rows-max justify-end space-x-4 pt-2 pb-4 md:space-x-8">
+          <div className="flex grid-flow-row auto-rows-max justify-end space-x-4 pb-4 pt-2 md:space-x-8">
             <div>
               <p className="text-xs font-semibold sm:text-sm md:text-2xl">9 ETH</p>
               <p>Total volume</p>
@@ -673,19 +673,19 @@ export default function Home() {
       <div id="2"></div>
       <div className="flex justify-center space-x-2 pt-2">
         <div>
-          <div className="border-p1-green bg-p2-white2 hover:border-p1-cyan focus:border-p1-cyan dark:bg-p1-darkgreen dark:text-p1-cyan mx-auto flex max-w-2xl overflow-hidden rounded-2xl border-2 px-4 py-3 backdrop-blur-sm md:w-96">
+          <div className="mx-auto flex max-w-2xl overflow-hidden rounded-2xl border-2 border-p1-green bg-p2-white2 px-4 py-3 backdrop-blur-sm hover:border-p1-cyan focus:border-p1-cyan md:w-96 dark:bg-p1-darkgreen dark:text-p1-cyan">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 192.904 192.904"
               width="16px"
-              className="dark:fill-p1-cyan mr-3 rotate-90 fill-gray-800"
+              className="mr-3 rotate-90 fill-gray-800 dark:fill-p1-cyan"
             >
               <path d="m190.707 180.101-47.078-47.077c11.702-14.072 18.752-32.142 18.752-51.831C162.381 36.423 125.959 0 81.191 0 36.422 0 0 36.423 0 81.193c0 44.767 36.422 81.187 81.191 81.187 19.688 0 37.759-7.049 51.831-18.751l47.079 47.078a7.474 7.474 0 0 0 5.303 2.197 7.498 7.498 0 0 0 5.303-12.803zM15 81.193C15 44.694 44.693 15 81.191 15c36.497 0 66.189 29.694 66.189 66.193 0 36.496-29.692 66.187-66.189 66.187C44.693 147.38 15 117.689 15 81.193z"></path>
             </svg>
             <input
               type="email"
               placeholder="Search Elementals..."
-              className="text-p1-deepdarkgreen dark:text-p1-cyan w-full bg-transparent text-xl outline-none"
+              className="w-full bg-transparent text-xl text-p1-deepdarkgreen outline-none dark:text-p1-cyan"
             />
           </div>
         </div>
@@ -701,34 +701,34 @@ export default function Home() {
             >
               <Link
                 href="#"
-                className="bg-p1-white text-p1-darkgreen hover:border-p1-darkgreen hover:bg-p1-green hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan inline-block w-full place-content-center rounded-l-xl border-2 p-2 text-center shadow-lg transition-all delay-75 duration-300 ease-in-out md:text-xl"
+                className="inline-block w-full place-content-center rounded-l-xl border-2 bg-p1-white p-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:border-p1-darkgreen hover:bg-p1-green hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
               >
                 Все
               </Link>
               <Link
                 href="#"
-                className="bg-p1-white text-p1-darkgreen hover:border-p1-darkgreen hover:bg-p1-green hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan inline-block w-full place-content-center border-2 p-2 text-center shadow-lg transition-all delay-75 duration-300 ease-in-out md:text-xl"
+                className="inline-block w-full place-content-center border-2 bg-p1-white p-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:border-p1-darkgreen hover:bg-p1-green hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
               >
                 RaceLads
               </Link>
 
               <Link
                 href="#"
-                className="bg-p1-white text-p1-darkgreen hover:border-p1-darkgreen hover:bg-p1-green hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan inline-block w-full place-content-center border-2 p-2 text-center shadow-lg transition-all delay-75 duration-300 ease-in-out md:text-xl"
+                className="inline-block w-full place-content-center border-2 bg-p1-white p-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:border-p1-darkgreen hover:bg-p1-green hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
               >
                 Awards
               </Link>
               <Link
                 href="#"
-                className="bg-p1-white text-p1-darkgreen hover:border-p1-darkgreen hover:bg-p1-green hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan inline-block w-full place-content-center border-2 p-2 text-center shadow-lg transition-all delay-75 duration-300 ease-in-out md:text-xl"
+                className="inline-block w-full place-content-center border-2 bg-p1-white p-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:border-p1-darkgreen hover:bg-p1-green hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
               >
                 Licenses
               </Link>
-              <form className="bg-p1-white text-p1-darkgreen hover:border-p1-darkgreen hover:bg-p1-green hover:text-p1-darkgreen focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan inline-block w-full place-content-center rounded-xl border-2 p-2 text-center shadow-lg transition-all delay-75 duration-300 ease-in-out md:text-xl">
+              <form className="inline-block w-full place-content-center rounded-xl border-2 bg-p1-white p-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:border-p1-darkgreen hover:bg-p1-green hover:text-p1-darkgreen focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan">
                 <label htmlFor="price" className="block w-full"></label>
                 <select
                   id="price"
-                  className="border-p1-darkgreen bg-opacity-50 dark:bg-p1-deepdarkgreen dark:text-p1-green dark:accent-p1-darkgreen dark:hover:text-p1-cyan mx-auto flex max-w-2xl overflow-hidden"
+                  className="mx-auto flex max-w-2xl overflow-hidden border-p1-darkgreen bg-opacity-50 dark:bg-p1-deepdarkgreen dark:text-p1-green dark:accent-p1-darkgreen dark:hover:text-p1-cyan"
                   defaultValue={'DEFAULT'}
                 >
                   <option value="DEFAULT" disabled>
@@ -759,21 +759,21 @@ export default function Home() {
             >
               <Link
                 href="#"
-                className="bg-p1-white text-p1-darkgreen hover:border-p1-darkgreen hover:bg-p1-green hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan inline-block w-max place-content-center rounded-l-xl border-2 p-2 text-center shadow-lg transition-all delay-75 duration-300 ease-in-out md:text-xl"
+                className="inline-block w-max place-content-center rounded-l-xl border-2 bg-p1-white p-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:border-p1-darkgreen hover:bg-p1-green hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
               >
                 24H
               </Link>
 
               <Link
                 href="#"
-                className="bg-p1-white text-p1-darkgreen hover:border-p1-darkgreen hover:bg-p1-green hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan inline-block w-max place-content-center border-2 p-2 text-center shadow-lg transition-all delay-75 duration-300 ease-in-out md:text-xl"
+                className="inline-block w-max place-content-center border-2 bg-p1-white p-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:border-p1-darkgreen hover:bg-p1-green hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
               >
                 7D
               </Link>
 
               <Link
                 href="#"
-                className="bg-p1-white text-p1-darkgreen hover:border-p1-darkgreen hover:bg-p1-green hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan inline-block w-max place-content-center rounded-r-xl border-2 p-2 text-center shadow-lg transition-all delay-75 duration-300 ease-in-out md:text-xl"
+                className="inline-block w-max place-content-center rounded-r-xl border-2 bg-p1-white p-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:border-p1-darkgreen hover:bg-p1-green hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
               >
                 30D
               </Link>
@@ -785,27 +785,27 @@ export default function Home() {
       <div className="pb-4"></div>
 
       <div className="flex flex-wrap justify-center object-left md:flex-nowrap md:space-x-2 md:pt-5">
-        <div className="bg-p1-white dark:bg-p1-deepdarkgreen mb-4 shadow-lg">
+        <div className="mb-4 bg-p1-white shadow-lg dark:bg-p1-deepdarkgreen">
           <div className="text-centre flex flex-row place-content-around">
-            <div className="text-p1-darkgreen dark:text-p1-cyan grid grid-cols-1 p-2 text-center md:text-xl lg:text-2xl xl:grid-cols-2">
-              <div className="bg-p2-white2 text-p1-darkgreen dark:border-p1-darkgreen dark:bg-p1-deepdarkgreen dark:text-p1-green mt-2 rounded-3xl border-2 p-2">
+            <div className="grid grid-cols-1 p-2 text-center text-p1-darkgreen md:text-xl lg:text-2xl xl:grid-cols-2 dark:text-p1-cyan">
+              <div className="mt-2 rounded-3xl border-2 bg-p2-white2 p-2 text-p1-darkgreen dark:border-p1-darkgreen dark:bg-p1-deepdarkgreen dark:text-p1-green">
                 <div className="flex flex-wrap md:flex-nowrap md:justify-between">
                   <div className="px-2 text-xl font-semibold md:pt-2 md:text-3xl">Статистика</div>
                 </div>
                 <div className="mt-2 grid grid-cols-3 place-items-center gap-2 space-x-2 p-4 text-base md:text-xl">
-                  <div className="border-p1-darkgreen m-2 aspect-video w-full rounded-3xl border text-center md:pt-28">
+                  <div className="m-2 aspect-video w-full rounded-3xl border border-p1-darkgreen text-center md:pt-28">
                     Total Sales:
                   </div>
-                  <div className="border-p1-darkgreen m-2 aspect-video w-full rounded-3xl border md:pt-28">
+                  <div className="m-2 aspect-video w-full rounded-3xl border border-p1-darkgreen md:pt-28">
                     Total Volume:
                   </div>
-                  <div className="border-p1-darkgreen m-2 aspect-video w-full rounded-3xl border md:pt-28">
+                  <div className="m-2 aspect-video w-full rounded-3xl border border-p1-darkgreen md:pt-28">
                     RaceLads Sold:
                   </div>
                 </div>
               </div>
 
-              <div className="bg-p2-white2 text-p1-darkgreen dark:border-p1-darkgreen dark:bg-p1-deepdarkgreen dark:text-p1-green mt-2 rounded-3xl border-2 p-2">
+              <div className="mt-2 rounded-3xl border-2 bg-p2-white2 p-2 text-p1-darkgreen dark:border-p1-darkgreen dark:bg-p1-deepdarkgreen dark:text-p1-green">
                 <div className="flex flex-wrap justify-center self-center md:flex-nowrap md:justify-between">
                   <div className="px-2 text-xl font-semibold md:pt-2 md:text-3xl">RaceLads</div>
                 </div>
@@ -823,7 +823,7 @@ export default function Home() {
                     <div>Owners</div>
                   </div>
 
-                  <div className="border-p1-darkgreen m-2 aspect-video w-full rounded-3xl border">
+                  <div className="m-2 aspect-video w-full rounded-3xl border border-p1-darkgreen">
                     <div className="grid h-48 grid-cols-2 place-content-center gap-4">
                       <div className="">RaceLads</div>
                       <div>RARITY</div>
@@ -840,7 +840,7 @@ export default function Home() {
                       <div>TOTAL RaceLads</div>
                     </div>
                   </div>
-                  <div className="border-p1-darkgreen m-2 aspect-video w-full rounded-3xl border">
+                  <div className="m-2 aspect-video w-full rounded-3xl border border-p1-darkgreen">
                     <div className="grid h-48 grid-cols-2 place-content-center gap-4">
                       <div className="">RaceLads</div>
                       <div>RARITY</div>
@@ -860,7 +860,7 @@ export default function Home() {
                 </div>
               </div>
 
-              <div className="bg-p2-white2 text-p1-darkgreen dark:border-p1-darkgreen dark:bg-p1-deepdarkgreen dark:text-p1-green mt-2 rounded-3xl border-2 p-2">
+              <div className="mt-2 rounded-3xl border-2 bg-p2-white2 p-2 text-p1-darkgreen dark:border-p1-darkgreen dark:bg-p1-deepdarkgreen dark:text-p1-green">
                 <div className="flex flex-wrap justify-center self-center md:flex-nowrap md:justify-between">
                   <div className="px-2 text-xl font-semibold md:pt-2 md:text-3xl">
                     Лучшие продажи
@@ -868,19 +868,19 @@ export default function Home() {
                 </div>
 
                 <div className="mt-2 grid grid-cols-3 place-items-center gap-2 space-x-2 p-4 text-base md:text-xl">
-                  <div className="border-p1-darkgreen m-2 aspect-video w-full rounded-3xl border text-center md:pt-28">
+                  <div className="m-2 aspect-video w-full rounded-3xl border border-p1-darkgreen text-center md:pt-28">
                     ETH: USDT:
                   </div>
-                  <div className="border-p1-darkgreen m-2 aspect-video w-full rounded-3xl border md:pt-28">
+                  <div className="m-2 aspect-video w-full rounded-3xl border border-p1-darkgreen md:pt-28">
                     ETH: USDT:
                   </div>
-                  <div className="border-p1-darkgreen m-2 aspect-video w-full rounded-3xl border md:pt-28">
+                  <div className="m-2 aspect-video w-full rounded-3xl border border-p1-darkgreen md:pt-28">
                     ETH: USDT:
                   </div>
                 </div>
               </div>
 
-              <div className="bg-p2-white2 text-p1-darkgreen dark:border-p1-darkgreen dark:bg-p1-deepdarkgreen dark:text-p1-green mt-2 rounded-3xl border-2 p-2">
+              <div className="mt-2 rounded-3xl border-2 bg-p2-white2 p-2 text-p1-darkgreen dark:border-p1-darkgreen dark:bg-p1-deepdarkgreen dark:text-p1-green">
                 <div className="flex flex-wrap justify-center self-center md:flex-nowrap md:justify-between">
                   <div className="px-2 text-xl font-semibold md:pt-2 md:text-3xl">
                     Последние объявления:
@@ -888,19 +888,19 @@ export default function Home() {
                 </div>
 
                 <div className="mt-2 grid grid-cols-3 place-items-center gap-2 space-x-2 p-4 text-base md:text-xl">
-                  <div className="border-p1-darkgreen m-2 aspect-video w-full rounded-3xl border text-center md:pt-28">
+                  <div className="m-2 aspect-video w-full rounded-3xl border border-p1-darkgreen text-center md:pt-28">
                     ETH: USDT:
                   </div>
-                  <div className="border-p1-darkgreen m-2 aspect-video w-full rounded-3xl border md:pt-28">
+                  <div className="m-2 aspect-video w-full rounded-3xl border border-p1-darkgreen md:pt-28">
                     ETH: USDT:
                   </div>
-                  <div className="border-p1-darkgreen m-2 aspect-video w-full rounded-3xl border md:pt-28">
+                  <div className="m-2 aspect-video w-full rounded-3xl border border-p1-darkgreen md:pt-28">
                     ETH: USDT:
                   </div>
                 </div>
               </div>
 
-              <div className="bg-p2-white2 text-p1-darkgreen dark:border-p1-darkgreen dark:bg-p1-deepdarkgreen dark:text-p1-green mt-2 rounded-3xl border-2 p-2">
+              <div className="mt-2 rounded-3xl border-2 bg-p2-white2 p-2 text-p1-darkgreen dark:border-p1-darkgreen dark:bg-p1-deepdarkgreen dark:text-p1-green">
                 <div className="flex flex-wrap justify-center self-center md:flex-nowrap md:justify-between">
                   <div className="px-2 text-xl font-semibold md:pt-2 md:text-3xl">
                     Последние продажи:
@@ -908,15 +908,15 @@ export default function Home() {
                 </div>
 
                 <div className="mt-2 grid grid-cols-3 place-items-center gap-2 space-x-2 p-4 text-base md:text-xl">
-                  <div className="border-p1-darkgreen m-2 aspect-video w-full rounded-3xl border text-center md:pt-28">
+                  <div className="m-2 aspect-video w-full rounded-3xl border border-p1-darkgreen text-center md:pt-28">
                     ETH: USDT:
                     <p>времени назад:</p>
                   </div>
-                  <div className="border-p1-darkgreen m-2 aspect-video w-full rounded-3xl border md:pt-28">
+                  <div className="m-2 aspect-video w-full rounded-3xl border border-p1-darkgreen md:pt-28">
                     ETH: USDT:
                     <p>времени назад:</p>
                   </div>
-                  <div className="border-p1-darkgreen m-2 aspect-video w-full rounded-3xl border md:pt-28">
+                  <div className="m-2 aspect-video w-full rounded-3xl border border-p1-darkgreen md:pt-28">
                     ETH: USDT:
                     <p>времени назад:</p>
                   </div>

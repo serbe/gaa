@@ -22,7 +22,7 @@ export default function Page() {
             <div>
               <Link href={'#'} className="mx-auto justify-center">
                 <Image
-                  className="ring-p1-green hover:bg-p1-white hover:bg-opacity-50 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:hover:bg-p1-deepdarkgreen h-10 w-10 rounded-lg p-1 transition-all delay-75 duration-300 ease-in-out hover:ring-2"
+                  className="h-10 w-10 rounded-lg p-1 ring-p1-green transition-all delay-75 duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:ring-2 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:hover:bg-p1-deepdarkgreen"
                   width={480}
                   height={480}
                   src="/Logo/wallet-nft.png"
@@ -34,15 +34,15 @@ export default function Page() {
             <div className="group relative inline-block">
               <Link href={'#'} className="mx-auto justify-center">
                 <Image
-                  className="ring-p1-green hover:bg-p1-white hover:bg-opacity-50 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:hover:bg-p1-deepdarkgreen h-10 w-10 rounded-full p-1 transition-all delay-75 duration-300 ease-in-out hover:ring-2"
+                  className="h-10 w-10 rounded-full p-1 ring-p1-green transition-all delay-75 duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:ring-2 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:hover:bg-p1-deepdarkgreen"
                   width={480}
                   height={480}
                   src="/Logo/user.png"
                   alt="Bordered avatar"
                 />
 
-                <div className="bg-p1-cyan invisible absolute left-1/2 z-10 mt-2 w-40 -translate-x-1/2 transform rounded-xl bg-center p-4 text-gray-800 opacity-0 shadow-lg transition-all duration-300 group-hover:visible group-hover:opacity-100 md:w-52">
-                  <div className="border-p1-darkgreen text-p1-darkgreen hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen dark:border-p1-deepdarkgreen rounded-lg border-b p-1 text-xl font-semibold transition-all duration-300 ease-in-out md:px-3">
+                <div className="invisible absolute left-1/2 z-10 mt-2 w-40 -translate-x-1/2 transform rounded-xl bg-p1-cyan bg-center p-4 text-gray-800 opacity-0 shadow-lg transition-all duration-300 group-hover:visible group-hover:opacity-100 md:w-52">
+                  <div className="rounded-lg border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
                     <Link href={'/profile'} className="mx-auto justify-center">
                       <Image
                         className="h-10 w-10"
@@ -54,7 +54,7 @@ export default function Page() {
                       Profile
                     </Link>
                   </div>
-                  <div className="border-p1-darkgreen text-p1-darkgreen hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen dark:border-p1-deepdarkgreen rounded-lg border-b p-1 text-xl font-semibold transition-all duration-300 ease-in-out md:px-3">
+                  <div className="rounded-lg border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
                     <Link href={'/dashboard'} className="mx-auto justify-center">
                       <Image
                         className="h-10 w-10"
@@ -66,7 +66,7 @@ export default function Page() {
                       Dashboard
                     </Link>
                   </div>
-                  <div className="border-p1-darkgreen text-p1-darkgreen hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen dark:border-p1-deepdarkgreen rounded-lg border-b p-1 text-xl font-semibold transition-all duration-300 ease-in-out md:px-3">
+                  <div className="rounded-lg border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
                     <Link href={'/marketplace'} className="mx-auto justify-center">
                       <Image
                         className="h-10 w-10"
@@ -78,7 +78,7 @@ export default function Page() {
                       Marketplace
                     </Link>
                   </div>
-                  <div className="border-p1-darkgreen text-p1-darkgreen hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen dark:border-p1-deepdarkgreen rounded-lg border-b p-1 text-xl font-semibold transition-all duration-300 ease-in-out md:px-3">
+                  <div className="rounded-lg border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
                     <Link href={'/mynfts'} className="mx-auto justify-center">
                       <Image
                         className="h-10 w-10"
@@ -87,11 +87,11 @@ export default function Page() {
                         src="/icon/NFT-col.png"
                         alt="Bordered avatar"
                       />
-                      My NFT
+                      My NFT{' '}
                     </Link>
                   </div>
 
-                  <div className="border-p1-darkgreen text-p1-darkgreen hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen dark:border-p1-deepdarkgreen rounded-lg border-b p-1 text-xl font-semibold transition-all duration-300 ease-in-out md:px-3">
+                  <div className="rounded-lg border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
                     <Link href={'#'} className="mx-auto justify-center">
                       <Image
                         className="h-10 w-10"
@@ -104,7 +104,7 @@ export default function Page() {
                     </Link>
                   </div>
 
-                  <div className="border-p1-darkgreen text-p1-darkgreen hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen dark:border-p1-deepdarkgreen rounded-lg border-b p-1 text-xl font-semibold transition-all duration-300 ease-in-out md:px-3">
+                  <div className="rounded-lg border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
                     <Link href={'#'} className="mx-auto justify-center">
                       <Image
                         className="h-10 w-10"
@@ -122,7 +122,7 @@ export default function Page() {
             <div>
               <Link href={'#'} className="mx-auto justify-center">
                 <Image
-                  className="ring-p1-green hover:bg-p1-white hover:bg-opacity-50 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:hover:bg-p1-deepdarkgreen h-10 w-10 rounded-lg p-1 transition-all delay-75 duration-300 ease-in-out hover:ring-2"
+                  className="h-10 w-10 rounded-lg p-1 ring-p1-green transition-all delay-75 duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:ring-2 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:hover:bg-p1-deepdarkgreen"
                   width={480}
                   height={480}
                   src="/Logo/shopping-cart.png"
@@ -140,7 +140,7 @@ export default function Page() {
             <div className="w-10">
               <Link href={'#'} className="mx-auto justify-center">
                 <Image
-                  className="hover:bg-opacity-50 hover:ring-p1-green dark:ring-p1-green dark:hover:ring-p1-cyan h-10 w-10 rounded-xl p-0 transition-all delay-75 duration-300 ease-in-out hover:ring-1"
+                  className="h-10 w-10 rounded-xl p-0 transition-all delay-75 duration-300 ease-in-out hover:bg-opacity-50 hover:ring-1 hover:ring-p1-green dark:ring-p1-green dark:hover:ring-p1-cyan"
                   width={480}
                   height={480}
                   src="/icon/hand_shake_green.png"
@@ -152,15 +152,15 @@ export default function Page() {
               <div className="group relative inline-block">
                 <Link href={'#'} className="mx-auto justify-center">
                   <Image
-                    className="hover:bg-opacity-50 hover:ring-p1-green dark:ring-p1-green dark:hover:ring-p1-cyan h-10 w-10 rounded-xl p-1 transition-all delay-75 duration-300 ease-in-out hover:ring-1"
+                    className="h-10 w-10 rounded-xl p-1 transition-all delay-75 duration-300 ease-in-out hover:bg-opacity-50 hover:ring-1 hover:ring-p1-green dark:ring-p1-green dark:hover:ring-p1-cyan"
                     width={480}
                     height={480}
                     src="/icon/share_green.png"
                     alt="bt16"
                   />
 
-                  <div className="bg-p1-cyan invisible absolute left-1/2 z-10 mt-2 w-60 -translate-x-1/2 transform rounded-xl bg-center p-4 text-gray-800 opacity-0 shadow-lg transition-all duration-300 group-hover:visible group-hover:opacity-100 md:w-60">
-                    <div className="border-p1-darkgreen text-p1-darkgreen hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen dark:border-p1-deepdarkgreen rounded-lg border-b p-1 text-xl font-semibold transition-all duration-300 ease-in-out md:px-3">
+                  <div className="invisible absolute left-1/2 z-10 mt-2 w-60 -translate-x-1/2 transform rounded-xl bg-p1-cyan bg-center p-4 text-gray-800 opacity-0 shadow-lg transition-all duration-300 group-hover:visible group-hover:opacity-100 md:w-60">
+                    <div className="rounded-lg border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
                       <Link href={'#'} className="mx-auto justify-center">
                         <Image
                           className="h-10 w-10"
@@ -172,7 +172,7 @@ export default function Page() {
                         Copy Link
                       </Link>
                     </div>
-                    <div className="border-p1-darkgreen text-p1-darkgreen hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen dark:border-p1-deepdarkgreen rounded-lg border-b p-1 text-xl font-semibold transition-all duration-300 ease-in-out md:px-3">
+                    <div className="rounded-lg border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
                       <Link href={'#'} className="mx-auto justify-center">
                         <Image
                           className="h-10 w-10"
@@ -193,15 +193,15 @@ export default function Page() {
                 <div className="group relative inline-block">
                   <Link href={'#'} className="mx-auto justify-center">
                     <Image
-                      className="hover:bg-opacity-50 hover:ring-p1-green dark:ring-p1-green dark:hover:ring-p1-cyan h-10 w-10 rounded-xl p-1 transition-all delay-75 duration-300 ease-in-out hover:ring-1"
+                      className="h-10 w-10 rounded-xl p-1 transition-all delay-75 duration-300 ease-in-out hover:bg-opacity-50 hover:ring-1 hover:ring-p1-green dark:ring-p1-green dark:hover:ring-p1-cyan"
                       width={480}
                       height={480}
                       src="/icon/points_green.png"
                       alt="bt9"
                     />
 
-                    <div className="bg-p1-cyan invisible absolute left-1/2 z-10 mt-2 w-60 -translate-x-1/2 transform rounded-xl bg-center p-4 text-gray-800 opacity-0 shadow-lg transition-all duration-300 group-hover:visible group-hover:opacity-100 md:w-60">
-                      <div className="border-p1-darkgreen text-p1-darkgreen hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen dark:border-p1-deepdarkgreen rounded-lg border-b p-1 text-xl font-semibold transition-all duration-300 ease-in-out md:px-3">
+                    <div className="invisible absolute left-1/2 z-10 mt-2 w-60 -translate-x-1/2 transform rounded-xl bg-p1-cyan bg-center p-4 text-gray-800 opacity-0 shadow-lg transition-all duration-300 group-hover:visible group-hover:opacity-100 md:w-60">
+                      <div className="rounded-lg border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
                         <Link href={'#'} className="mx-auto justify-center">
                           <Image
                             className="h-10 w-10"
@@ -213,7 +213,7 @@ export default function Page() {
                           Refresh Metadata
                         </Link>
                       </div>
-                      <div className="border-p1-darkgreen text-p1-darkgreen hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen dark:border-p1-deepdarkgreen rounded-lg border-b p-1 text-xl font-semibold transition-all duration-300 ease-in-out md:px-3">
+                      <div className="rounded-lg border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
                         <Link href={'#'} className="mx-auto justify-center">
                           <Image
                             className="h-10 w-10"
@@ -236,47 +236,48 @@ export default function Page() {
           <div>
             <Link href={'#'} className="md: mx-auto">
               <Image
-                className="border-p1-gray dark:ring-p1-darkgreen -mt-10 w-40 rounded-full border-4 md:w-80"
+                className="-mt-10 w-40 rounded-full border-4 border-p1-gray md:w-80 dark:ring-p1-darkgreen"
                 width={1000}
                 height={1000}
                 src="/HeroNFT/RaceLads/RaceLads1.png"
                 alt="Bordered avatar"
               />
             </Link>
-            <div className="text-p1-darkgreen place-content-end">
+
+            <div className="place-content-end text-p1-darkgreen">
               <p className="text-3xl font-semibold md:px-10">Unnamed</p>
               <p className="font-thing text-2xl md:px-10">0 x6918...a442 </p>
               <p className="font-thing text-2xl md:px-10">Joined May 2024 </p>
             </div>
-          </div>
+          </div>{' '}
         </div>
         <div className="-my-4 place-items-start p-1">
           <div
             id="2"
-            className="bg-p1-white bg-opacity-30 my-8 w-full place-self-center rounded-2xl md:w-4/6 xl:-my-96 xl:w-2/6"
+            className="my-8 w-full place-self-center rounded-2xl bg-p1-white bg-opacity-30 md:w-4/6 xl:-my-96 xl:w-2/6"
           >
             <div className="flex flex-wrap justify-center md:flex-nowrap md:justify-between">
-              <div className="dark:text-p1-darkgreen px-2 text-2xl font-semibold text-stone-400 md:pt-2 md:text-4xl">
+              <div className="px-2 text-2xl font-semibold text-stone-400 md:pt-2 md:text-4xl dark:text-p1-darkgreen">
                 Profile
               </div>
-              <div className="dark:text-p1-darkgreen px-2 text-2xl font-semibold text-stone-400 md:pt-2 md:text-4xl">
+              <div className="px-2 text-2xl font-semibold text-stone-400 md:pt-2 md:text-4xl dark:text-p1-darkgreen">
                 Профиль
               </div>
             </div>
-            <div className="bg-p1-white bg-opacity-75 dark:bg-p1-deepdarkgreen m-4 rounded-3xl border-stone-400 p-4 md:border-4 md:shadow-lg dark:border-stone-900">
+            <div className="m-4 rounded-3xl border-stone-400 bg-p1-white bg-opacity-75 p-4 md:border-4 md:shadow-lg dark:border-stone-900 dark:bg-p1-deepdarkgreen">
               <div className="grid grid-cols-1 gap-4 md:w-full xl:grid-cols-2">
                 <div>
                   <div>
                     <label
                       htmlFor="email"
-                      className="text-p1-darkgreen dark:text-p1-green block text-left text-sm font-medium"
+                      className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-green"
                     >
                       email
                     </label>
                     <input
                       type="email"
                       id="email"
-                      className="bg-p2-white2 text-p1-darkgreen dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:placeholder-p1-green dark:focus:border-p1-cyan dark:focus:ring-p1-cyan block w-full rounded-xl border-2 border-gray-300 p-2.5 text-sm focus:border-blue-500 focus:ring-blue-500"
+                      className="block w-full rounded-xl border-2 border-gray-300 bg-p2-white2 p-2.5 text-sm text-p1-darkgreen focus:border-blue-500 focus:ring-blue-500 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:placeholder-p1-green dark:focus:border-p1-cyan dark:focus:ring-p1-cyan"
                       placeholder="e-mail"
                       required
                     />
@@ -285,14 +286,14 @@ export default function Page() {
                   <div>
                     <label
                       htmlFor="nic_name"
-                      className="text-p1-darkgreen dark:text-p1-green block text-left text-sm font-medium"
+                      className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-green"
                     >
                       Ник-Имя
                     </label>
                     <input
                       type="text"
                       id="nic_name"
-                      className="bg-p2-white2 text-p1-darkgreen dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:placeholder-p1-green dark:focus:border-p1-cyan dark:focus:ring-p1-cyan block w-full rounded-xl border-2 border-gray-300 p-2.5 text-sm focus:border-blue-500 focus:ring-blue-500"
+                      className="block w-full rounded-xl border-2 border-gray-300 bg-p2-white2 p-2.5 text-sm text-p1-darkgreen focus:border-blue-500 focus:ring-blue-500 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:placeholder-p1-green dark:focus:border-p1-cyan dark:focus:ring-p1-cyan"
                       placeholder="Ник-Имя"
                       required
                     />
@@ -303,14 +304,14 @@ export default function Page() {
                   <div>
                     <label
                       htmlFor="contry"
-                      className="text-p1-darkgreen dark:text-p1-green block text-left text-sm font-medium"
+                      className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-green"
                     >
                       Страна
                     </label>
                     <input
                       type="text"
                       id="contry"
-                      className="bg-p2-white2 text-p1-darkgreen dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:placeholder-p1-green dark:focus:border-p1-cyan dark:focus:ring-p1-cyan block w-full rounded-xl border-2 border-gray-300 p-2.5 text-sm focus:border-blue-500 focus:ring-blue-500"
+                      className="block w-full rounded-xl border-2 border-gray-300 bg-p2-white2 p-2.5 text-sm text-p1-darkgreen focus:border-blue-500 focus:ring-blue-500 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:placeholder-p1-green dark:focus:border-p1-cyan dark:focus:ring-p1-cyan"
                       placeholder="Страна"
                       required
                     />
@@ -319,14 +320,14 @@ export default function Page() {
                   <div>
                     <label
                       htmlFor="city"
-                      className="text-p1-darkgreen dark:text-p1-green block text-left text-sm font-medium"
+                      className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-green"
                     >
                       Город
                     </label>
                     <input
                       type="text"
                       id="city"
-                      className="bg-p2-white2 text-p1-darkgreen dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:placeholder-p1-green dark:focus:border-p1-cyan dark:focus:ring-p1-cyan block w-full rounded-xl border-2 border-gray-300 p-2.5 text-sm focus:border-blue-500 focus:ring-blue-500"
+                      className="block w-full rounded-xl border-2 border-gray-300 bg-p2-white2 p-2.5 text-sm text-p1-darkgreen focus:border-blue-500 focus:ring-blue-500 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:placeholder-p1-green dark:focus:border-p1-cyan dark:focus:ring-p1-cyan"
                       placeholder="Город"
                       required
                     />
@@ -335,19 +336,19 @@ export default function Page() {
                 <div>
                   <label
                     htmlFor="message"
-                    className="text-p1-darkgreen dark:text-p1-green mb-2 block text-left text-sm font-medium"
+                    className="mb-2 block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-green"
                   >
                     Описание
                   </label>
                   <textarea
                     id="message"
                     rows={4}
-                    className="bg-p2-white2 text-p1-darkgreen dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:placeholder-p1-green dark:focus:border-p1-cyan dark:focus:ring-p1-cyan block w-full rounded-xl border-2 border-gray-300 p-2.5 text-sm focus:border-blue-500 focus:ring-blue-500"
+                    className="block w-full rounded-xl border-2 border-gray-300 bg-p2-white2 p-2.5 text-sm text-p1-darkgreen focus:border-blue-500 focus:ring-blue-500 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:placeholder-p1-green dark:focus:border-p1-cyan dark:focus:ring-p1-cyan"
                     placeholder="Описание"
                   ></textarea>
                 </div>
 
-                <button className="bg-p2-white2 text-p1-darkgreen hover:text-p1-white dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan rounded-xl border-2 border-stone-400 px-4 py-2 shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-stone-400 md:mt-10">
+                <button className="rounded-xl border-2 border-stone-400 bg-p2-white2 px-4 py-2 text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-stone-400 hover:text-p1-white md:mt-10 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan">
                   Сохранить
                 </button>
               </div>

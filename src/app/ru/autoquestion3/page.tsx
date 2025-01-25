@@ -30,14 +30,14 @@ const ModalWindow = ({
       data-modal-placement="center-center"
       tabIndex={-1}
       aria-hidden={viewModal}
-      className={`fixed z-50 ${viewModal ? 'hidden' : ''} h-[calc(100%-1rem)] max-h-full w-full items-center justify-center overflow-x-hidden overflow-y-auto backdrop-blur-sm md:inset-0`}
+      className={`fixed z-50 ${viewModal ? 'hidden' : ''} h-[calc(100%-1rem)] max-h-full w-full items-center justify-center overflow-y-auto overflow-x-hidden backdrop-blur-sm md:inset-0`}
     >
       <div className="relative mx-auto my-auto max-h-full w-full p-4 md:w-3/5">
         {/* <!-- Modal content --> */}
-        <div className="border-p2-orange bg-p1-white dark:bg-p1-deepdarkgreen relative rounded-lg border-4 shadow md:rounded-3xl">
+        <div className="relative rounded-lg border-4 border-p2-orange bg-p1-white shadow md:rounded-3xl dark:bg-p1-deepdarkgreen">
           {/* <!-- Modal header --> */}
           <div className="flex items-center justify-between rounded-t border-b p-4 md:p-5 dark:border-gray-600">
-            <p className="text-p1-darkgreen dark:text-p1-cyan text-center font-serif text-base md:text-2xl">
+            <p className="text-center font-serif text-base text-p1-darkgreen md:text-2xl dark:text-p1-cyan">
               Тройная корона автоспорта — не официальный, но при этом достаточно ценный титул. Его
               присуждают пилоту, который на протяжении карьеры смог добиться абсолютных побед в трех
               гонках: 500 миль Индианаполиса, 24 часа Ле-Мана и Гран-при Монако. Это пока удалось
@@ -74,14 +74,14 @@ const ModalWindow = ({
             {/* здесь проверяется правильность ответа в данном случае верный пункт - 2 */}
             {answer == 3 ? <CorrectAnswer /> : <WrongAnswer />}
           </div>
-          <div className="text-p1-darkgreen dark:text-p1-green space-y-4 p-4 md:p-5 md:text-lg">
+          <div className="space-y-4 p-4 text-p1-darkgreen md:p-5 md:text-lg dark:text-p1-green">
             <p className="pb-5">
               Тацио Нуволари (Ле-Ман 1933, Гран-при Монако 1932, не хватает «Инди-500»)
             </p>
             <p className="pb-5">
               Джим Кларк (титул Ф-1 в 1963 и 1965, «Инди-500» 1965, не хватает Ле-Мана)
             </p>
-            <p className="text-p1-cyan pb-5">
+            <p className="pb-5 text-p1-cyan">
               Грэм Хилл — единственный в истории человек, выигравший все главные гонки мира.
               Англичанин пять раз побеждал в Монако (больше побед только у Айртона Сенны), в 1969-м
               объехал всех на овале Индианаполиса, а еще через три года поднялся на высшую ступеньку
@@ -114,7 +114,7 @@ const ModalWindow = ({
               onClick={() => {
                 setViewModal(!viewModal);
               }}
-              className="hover:bg-p2-orange hover:text-p1-white w-full rounded-lg border border-gray-200 bg-white px-5 py-2.5 text-sm font-medium text-gray-900 focus:z-10 focus:ring-4 focus:ring-gray-100 focus:outline-none dark:border-gray-600 dark:bg-gray-800 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white dark:focus:ring-gray-700"
+              className="w-full rounded-lg border border-gray-200 bg-white px-5 py-2.5 text-sm font-medium text-gray-900 hover:bg-p2-orange hover:text-p1-white focus:z-10 focus:outline-none focus:ring-4 focus:ring-gray-100 dark:border-gray-600 dark:bg-gray-800 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white dark:focus:ring-gray-700"
             >
               Закрыть
             </button>
@@ -132,10 +132,10 @@ export default function Page() {
   return (
     <div className="mx-auto max-w-7xl font-serif">
       <div className="flex flex-wrap justify-center self-center md:flex-nowrap md:justify-between">
-        <div className="text-p2-orange px-2 text-xl font-semibold md:pt-2 md:text-3xl">
+        <div className="px-2 text-xl font-semibold text-p2-orange md:pt-2 md:text-3xl">
           Racepoint
         </div>
-        <div className="text-p2-orange px-2 text-xl font-semibold md:pt-2 md:text-3xl">
+        <div className="px-2 text-xl font-semibold text-p2-orange md:pt-2 md:text-3xl">
           QUESTIONS
         </div>
       </div>
@@ -155,8 +155,8 @@ export default function Page() {
             />
           </Link>
         </div>
-        <div className="text-p2-orange px-2 text-xl font-semibold md:pt-2 md:text-3xl"></div>
-        <div className="text-p2-orange px-2 text-xl font-semibold md:pt-2 md:text-3xl"></div>
+        <div className="px-2 text-xl font-semibold text-p2-orange md:pt-2 md:text-3xl"></div>
+        <div className="px-2 text-xl font-semibold text-p2-orange md:pt-2 md:text-3xl"></div>
         <div className="w-1/5 md:w-1/12">
           <Link
             href="/autoquestion4"
@@ -172,14 +172,14 @@ export default function Page() {
           </Link>
         </div>
       </div>
-      <div className="text-p2-orange px-2 text-center text-xl font-semibold md:pt-2 md:text-3xl">
+      <div className="px-2 text-center text-xl font-semibold text-p2-orange md:pt-2 md:text-3xl">
         Автоспорт, автокультура
       </div>
 
       <div className="flex flex-row justify-center">
         <div className="md:w-3/5">
-          <div className="border-p2-orange place-items-center rounded-3xl p-2 md:border-4">
-            <div className="text-p1-darkgreen dark:text-p2-orange text-center font-serif text-base md:text-2xl">
+          <div className="place-items-center rounded-3xl border-p2-orange p-2 md:border-4">
+            <div className="text-center font-serif text-base text-p1-darkgreen md:text-2xl dark:text-p2-orange">
               Тройная корона автоспорта — не официальный, но при этом достаточно ценный титул. Его
               присуждают пилоту, который на протяжении карьеры смог добиться абсолютных побед в трех
               гонках: 500 миль Индианаполиса, 24 часа Ле-Мана и Гран-при Монако. Это пока удалось
@@ -187,7 +187,7 @@ export default function Page() {
             </div>
 
             <div className="pb-5"></div>
-            <ul className="bg-p1-white accent-p2-orange dark:bg-p1-deepdarkgreen w-full rounded-lg border border-gray-200 font-medium text-gray-900 dark:border-gray-600 dark:text-white">
+            <ul className="w-full rounded-lg border border-gray-200 bg-p1-white font-medium text-gray-900 accent-p2-orange dark:border-gray-600 dark:bg-p1-deepdarkgreen dark:text-white">
               <li className="w-full rounded-t-lg border-b border-gray-200 dark:border-gray-600">
                 <div
                   className="flex items-center ps-3"
@@ -200,11 +200,11 @@ export default function Page() {
                     type="radio"
                     value=""
                     name="list-radio"
-                    className="text-p2-orange dark:border-p2-orange h-5 w-5 border-gray-300 bg-gray-100 dark:bg-gray-600"
+                    className="h-5 w-5 border-gray-300 bg-gray-100 text-p2-orange dark:border-p2-orange dark:bg-gray-600"
                   />
                   <label
                     htmlFor="list-radio-eleven"
-                    className="text-p1-darkgreen ms-4 w-full py-3 font-serif text-base md:text-2xl dark:text-gray-300"
+                    className="ms-4 w-full py-3 font-serif text-base text-p1-darkgreen md:text-2xl dark:text-gray-300"
                   >
                     Тацио Нуволари
                   </label>
@@ -222,11 +222,11 @@ export default function Page() {
                     type="radio"
                     value=""
                     name="list-radio"
-                    className="text-p2-orange dark:border-p2-orange h-5 w-5 border-gray-300 bg-gray-100 dark:bg-gray-600"
+                    className="h-5 w-5 border-gray-300 bg-gray-100 text-p2-orange dark:border-p2-orange dark:bg-gray-600"
                   />
                   <label
                     htmlFor="list-radio-twelve"
-                    className="text-p1-darkgreen ms-4 w-full py-3 font-serif text-base md:text-2xl dark:text-gray-300"
+                    className="ms-4 w-full py-3 font-serif text-base text-p1-darkgreen md:text-2xl dark:text-gray-300"
                   >
                     Джим Кларк
                   </label>
@@ -244,11 +244,11 @@ export default function Page() {
                     type="radio"
                     value=""
                     name="list-radio"
-                    className="text-p2-orange dark:border-p2-orange h-5 w-5 border-gray-300 bg-gray-100 dark:bg-gray-600"
+                    className="h-5 w-5 border-gray-300 bg-gray-100 text-p2-orange dark:border-p2-orange dark:bg-gray-600"
                   />
                   <label
                     htmlFor="list-radio-thirteen"
-                    className="text-p1-darkgreen ms-4 w-full py-3 font-serif text-base md:text-2xl dark:text-gray-300"
+                    className="ms-4 w-full py-3 font-serif text-base text-p1-darkgreen md:text-2xl dark:text-gray-300"
                   >
                     Грэм Хилл
                   </label>
@@ -266,11 +266,11 @@ export default function Page() {
                     type="radio"
                     value=""
                     name="list-radio"
-                    className="text-p2-orange dark:border-p2-orange h-5 w-5 border-gray-300 bg-gray-100 dark:bg-gray-600"
+                    className="h-5 w-5 border-gray-300 bg-gray-100 text-p2-orange dark:border-p2-orange dark:bg-gray-600"
                   />
                   <label
                     htmlFor="list-radio-fourteen"
-                    className="text-p1-darkgreen ms-4 w-full py-3 font-serif text-base md:text-2xl dark:text-gray-300"
+                    className="ms-4 w-full py-3 font-serif text-base text-p1-darkgreen md:text-2xl dark:text-gray-300"
                   >
                     Брюс Макларен
                   </label>
@@ -285,7 +285,7 @@ export default function Page() {
               onClick={() => {
                 setViewModal(!viewModal);
               }}
-              className="border-p2-orange bg-p1-white text-p1-darkgreen hover:bg-p2-orange hover:text-p1-white dark:border-p1-cyan dark:bg-p1-darkgreen dark:text-p1-cyan dark:hover:border-p2-orange inline-block rounded-xl border-2 px-10 py-8 transition-all delay-75 duration-300 ease-in-out dark:hover:bg-amber-600 dark:hover:text-amber-100"
+              className="inline-block rounded-xl border-2 border-p2-orange bg-p1-white px-10 py-8 text-p1-darkgreen transition-all delay-75 duration-300 ease-in-out hover:bg-p2-orange hover:text-p1-white dark:border-p1-cyan dark:bg-p1-darkgreen dark:text-p1-cyan dark:hover:border-p2-orange dark:hover:bg-amber-600 dark:hover:text-amber-100"
             >
               Ответить
             </button>

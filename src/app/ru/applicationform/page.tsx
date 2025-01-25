@@ -7,12 +7,12 @@ export default function Page() {
 
   return (
     <div className="mx-auto max-w-7xl font-serif">
-      <div className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan px-2 text-center text-xl font-semibold md:pt-2 md:text-4xl">
+      <div className="px-2 text-center text-xl font-semibold text-p1-darkgreen md:pt-2 md:text-4xl dark:text-p1-green dark:hover:text-p1-cyan">
         Форма заявки
         <p>by Global Automotive Association</p>
       </div>
       <div className="flex flex-wrap place-content-center px-2 pt-5 md:flex-nowrap">
-        <div className="border-p1-gray bg-p1-white dark:border-p1-darkgreen dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan w-4/5 min-w-96 rounded-3xl md:border-4 md:shadow-lg">
+        <div className="w-4/5 min-w-96 rounded-3xl border-p1-gray bg-p1-white md:border-4 md:shadow-lg dark:border-p1-darkgreen dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
           <div className="place-self-center pt-5">
             <div className="place-self-center">
               <Image
@@ -37,13 +37,13 @@ export default function Page() {
                 alt="National"
               />
             </div>
-            <p className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan px-2 text-center text-xl font-semibold md:pt-2 md:text-4xl">
+            <p className="px-2 text-center text-xl font-semibold text-p1-darkgreen md:pt-2 md:text-4xl dark:text-p1-green dark:hover:text-p1-cyan">
               Выберите лицензии, которые Вы хотите получить
             </p>
 
             <div className="pb-3"></div>
 
-            <div className="accent-p1-green flex items-center">
+            <div className="flex items-center accent-p1-green">
               <input
                 checked={check}
                 id="checkbox"
@@ -52,18 +52,18 @@ export default function Page() {
                 }}
                 type="checkbox"
                 value=""
-                className="text-p1-darkgreen focus:ring-p1-green dark:focus:ring-p1-green mx-5 h-5 w-5 rounded border-gray-300 bg-gray-100 focus:ring-2 dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800"
+                className="mx-5 h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-p1-green"
               />
               <label
                 htmlFor="checkbox"
-                className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan ms-2 text-base font-medium md:text-xl"
+                className="ms-2 text-base font-medium text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan"
               >
                 Лицензия Промоутера
               </label>
             </div>
             <div className="pb-3"></div>
 
-            <div className="accent-p1-green flex items-center">
+            <div className="flex items-center accent-p1-green">
               <input
                 checked={check}
                 id="checkbox"
@@ -72,18 +72,18 @@ export default function Page() {
                 }}
                 type="checkbox"
                 value=""
-                className="text-p1-darkgreen focus:ring-p1-green dark:focus:ring-p1-green mx-5 h-5 w-5 rounded border-gray-300 bg-gray-100 focus:ring-2 dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800"
+                className="mx-5 h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-p1-green"
               />
               <label
                 htmlFor="checkbox"
-                className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan ms-2 text-base font-medium md:text-xl"
+                className="ms-2 text-base font-medium text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan"
               >
                 Национальная Лицензия
               </label>
             </div>
             <div className="pb-3"></div>
 
-            <div className="accent-p1-green flex items-center">
+            <div className="flex items-center accent-p1-green">
               <input
                 checked={check}
                 id="checkbox"
@@ -92,11 +92,11 @@ export default function Page() {
                 }}
                 type="checkbox"
                 value=""
-                className="text-p1-darkgreen focus:ring-p1-green dark:focus:ring-p1-green mx-5 h-5 w-5 rounded border-gray-300 bg-gray-100 focus:ring-2 dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800"
+                className="mx-5 h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-p1-green"
               />
               <label
                 htmlFor="checkbox"
-                className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan ms-2 text-base font-medium md:text-xl"
+                className="ms-2 text-base font-medium text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan"
               >
                 Глобальная лицензия
               </label>
@@ -107,14 +107,14 @@ export default function Page() {
             <div>
               <label
                 htmlFor="teamcountry"
-                className="text-p1-darkgreen dark:text-p1-cyan block px-5 text-left text-sm font-medium"
+                className="block px-5 text-left text-sm font-medium text-p1-darkgreen dark:text-p1-cyan"
               >
                 Страна
               </label>
               <input
                 type="text"
                 id="country"
-                className="bg-p2-white2 text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:text-p1-cyan dark:focus:border-p2-orange dark:focus:ring-p2-orange mx-5 block w-11/12 rounded-lg border border-gray-300 p-3 text-sm dark:border-gray-600 dark:bg-gray-700 dark:placeholder-gray-400"
+                className="mx-5 block w-11/12 rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-cyan dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
                 placeholder="Страна"
                 required
               />
@@ -124,14 +124,14 @@ export default function Page() {
             <div>
               <label
                 htmlFor="city"
-                className="text-p1-darkgreen dark:text-p1-cyan block px-5 text-left text-sm font-medium"
+                className="block px-5 text-left text-sm font-medium text-p1-darkgreen dark:text-p1-cyan"
               >
                 Город
               </label>
               <input
                 type="text"
                 id="city"
-                className="bg-p2-white2 text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:text-p1-cyan dark:focus:border-p2-orange dark:focus:ring-p2-orange mx-5 block w-11/12 rounded-lg border border-gray-300 p-3 text-sm dark:border-gray-600 dark:bg-gray-700 dark:placeholder-gray-400"
+                className="mx-5 block w-11/12 rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-cyan dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
                 placeholder="Город"
                 required
               />
@@ -141,21 +141,21 @@ export default function Page() {
             <div>
               <label
                 htmlFor="organization"
-                className="text-p1-darkgreen dark:text-p1-cyan block px-5 text-left text-sm font-medium"
+                className="block px-5 text-left text-sm font-medium text-p1-darkgreen dark:text-p1-cyan"
               >
                 Организация
               </label>
               <input
                 type="text"
                 id="organization"
-                className="bg-p2-white2 text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:text-p1-cyan dark:focus:border-p2-orange dark:focus:ring-p2-orange mx-5 block w-11/12 rounded-lg border border-gray-300 p-3 text-sm dark:border-gray-600 dark:bg-gray-700 dark:placeholder-gray-400"
+                className="mx-5 block w-11/12 rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-cyan dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
                 placeholder="Организация"
                 required
               />
             </div>
             <div className="pb-3"></div>
 
-            <p className="text-p1-darkgreen px-5 text-left text-xl font-semibold">
+            <p className="px-5 text-left text-xl font-semibold text-p1-darkgreen">
               Категория продвижения:
             </p>
 
@@ -170,11 +170,11 @@ export default function Page() {
                 }}
                 type="checkbox"
                 value=""
-                className="text-p1-darkgreen focus:ring-p1-green dark:focus:ring-p1-green mx-5 h-5 w-5 rounded border-gray-300 bg-gray-100 focus:ring-2 dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800"
+                className="mx-5 h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-p1-green"
               />
               <label
                 htmlFor="checkbox"
-                className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan ms-2 text-base font-medium md:text-xl"
+                className="ms-2 text-base font-medium text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan"
               >
                 Открытые колеса
               </label>
@@ -191,11 +191,11 @@ export default function Page() {
                 }}
                 type="checkbox"
                 value=""
-                className="text-p1-darkgreen focus:ring-p1-green dark:focus:ring-p1-green mx-5 h-5 w-5 rounded border-gray-300 bg-gray-100 focus:ring-2 dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800"
+                className="mx-5 h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-p1-green"
               />
               <label
                 htmlFor="checkbox"
-                className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan ms-2 text-base font-medium md:text-xl"
+                className="ms-2 text-base font-medium text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan"
               >
                 Драгрэйсинг
               </label>
@@ -211,11 +211,11 @@ export default function Page() {
                 }}
                 type="checkbox"
                 value=""
-                className="text-p1-darkgreen focus:ring-p1-green dark:focus:ring-p1-green mx-5 h-5 w-5 rounded border-gray-300 bg-gray-100 focus:ring-2 dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800"
+                className="mx-5 h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-p1-green"
               />
               <label
                 htmlFor="checkbox"
-                className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan ms-2 text-base font-medium md:text-xl"
+                className="ms-2 text-base font-medium text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan"
               >
                 Дрифт
               </label>
@@ -231,11 +231,11 @@ export default function Page() {
                 }}
                 type="checkbox"
                 value=""
-                className="text-p1-darkgreen focus:ring-p1-green dark:focus:ring-p1-green mx-5 h-5 w-5 rounded border-gray-300 bg-gray-100 focus:ring-2 dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800"
+                className="mx-5 h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-p1-green"
               />
               <label
                 htmlFor="checkbox"
-                className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan ms-2 text-base font-medium md:text-xl"
+                className="ms-2 text-base font-medium text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan"
               >
                 Кузовные гонки серийных автомобилей (TCR)
               </label>
@@ -251,11 +251,11 @@ export default function Page() {
                 }}
                 type="checkbox"
                 value=""
-                className="text-p1-darkgreen focus:ring-p1-green dark:focus:ring-p1-green mx-5 h-5 w-5 rounded border-gray-300 bg-gray-100 focus:ring-2 dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800"
+                className="mx-5 h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-p1-green"
               />
               <label
                 htmlFor="checkbox"
-                className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan ms-2 text-base font-medium md:text-xl"
+                className="ms-2 text-base font-medium text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan"
               >
                 Ралли
               </label>
@@ -271,11 +271,11 @@ export default function Page() {
                 }}
                 type="checkbox"
                 value=""
-                className="text-p1-darkgreen focus:ring-p1-green dark:focus:ring-p1-green mx-5 h-5 w-5 rounded border-gray-300 bg-gray-100 focus:ring-2 dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800"
+                className="mx-5 h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-p1-green"
               />
               <label
                 htmlFor="checkbox"
-                className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan ms-2 text-base font-medium md:text-xl"
+                className="ms-2 text-base font-medium text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan"
               >
                 Олдтаймер
               </label>
@@ -291,11 +291,11 @@ export default function Page() {
                 }}
                 type="checkbox"
                 value=""
-                className="text-p1-darkgreen focus:ring-p1-green dark:focus:ring-p1-green mx-5 h-5 w-5 rounded border-gray-300 bg-gray-100 focus:ring-2 dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800"
+                className="mx-5 h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-p1-green"
               />
               <label
                 htmlFor="checkbox"
-                className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan ms-2 text-base font-medium md:text-xl"
+                className="ms-2 text-base font-medium text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan"
               >
                 Стэнс
               </label>
@@ -311,11 +311,11 @@ export default function Page() {
                 }}
                 type="checkbox"
                 value=""
-                className="text-p1-darkgreen focus:ring-p1-green dark:focus:ring-p1-green mx-5 h-5 w-5 rounded border-gray-300 bg-gray-100 focus:ring-2 dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800"
+                className="mx-5 h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-p1-green"
               />
               <label
                 htmlFor="checkbox"
-                className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan ms-2 text-base font-medium md:text-xl"
+                className="ms-2 text-base font-medium text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan"
               >
                 Спортивные автомобили
               </label>
@@ -331,11 +331,11 @@ export default function Page() {
                 }}
                 type="checkbox"
                 value=""
-                className="text-p1-darkgreen focus:ring-p1-green dark:focus:ring-p1-green mx-5 h-5 w-5 rounded border-gray-300 bg-gray-100 focus:ring-2 dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800"
+                className="mx-5 h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-p1-green"
               />
               <label
                 htmlFor="checkbox"
-                className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan ms-2 text-base font-medium md:text-xl"
+                className="ms-2 text-base font-medium text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan"
               >
                 Раритетные автомобили
               </label>
@@ -351,11 +351,11 @@ export default function Page() {
                 }}
                 type="checkbox"
                 value=""
-                className="text-p1-darkgreen focus:ring-p1-green dark:focus:ring-p1-green mx-5 h-5 w-5 rounded border-gray-300 bg-gray-100 focus:ring-2 dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800"
+                className="mx-5 h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-p1-green"
               />
               <label
                 htmlFor="checkbox"
-                className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan ms-2 text-base font-medium md:text-xl"
+                className="ms-2 text-base font-medium text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan"
               >
                 Автозвук
               </label>
@@ -371,11 +371,11 @@ export default function Page() {
                 }}
                 type="checkbox"
                 value=""
-                className="text-p1-darkgreen focus:ring-p1-green dark:focus:ring-p1-green mx-5 h-5 w-5 rounded border-gray-300 bg-gray-100 focus:ring-2 dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800"
+                className="mx-5 h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-p1-green"
               />
               <label
                 htmlFor="checkbox"
-                className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan ms-2 text-base font-medium md:text-xl"
+                className="ms-2 text-base font-medium text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan"
               >
                 Картинг
               </label>
@@ -391,11 +391,11 @@ export default function Page() {
                 }}
                 type="checkbox"
                 value=""
-                className="text-p1-darkgreen focus:ring-p1-green dark:focus:ring-p1-green mx-5 h-5 w-5 rounded border-gray-300 bg-gray-100 focus:ring-2 dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800"
+                className="mx-5 h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-p1-green"
               />
               <label
                 htmlFor="checkbox"
-                className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan ms-2 text-base font-medium md:text-xl"
+                className="ms-2 text-base font-medium text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan"
               >
                 Симрэйсинг
               </label>
@@ -405,14 +405,14 @@ export default function Page() {
             <div>
               <label
                 htmlFor="answerCategoryPromote"
-                className="text-p1-darkgreen dark:text-p1-cyan block px-5 text-left text-sm font-medium"
+                className="block px-5 text-left text-sm font-medium text-p1-darkgreen dark:text-p1-cyan"
               >
                 Ваш ответ
               </label>
               <input
                 type="text"
                 id="organization"
-                className="bg-p2-white2 text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:text-p1-cyan dark:focus:border-p2-orange dark:focus:ring-p2-orange mx-5 block w-11/12 rounded-lg border border-gray-300 p-3 text-sm dark:border-gray-600 dark:bg-gray-700 dark:placeholder-gray-400"
+                className="mx-5 block w-11/12 rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-cyan dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
                 placeholder="Ваш ответ"
                 required
               />
@@ -420,7 +420,7 @@ export default function Page() {
 
             <div className="pb-3"></div>
 
-            <p className="text-p1-darkgreen px-5 text-left text-xl font-semibold">
+            <p className="px-5 text-left text-xl font-semibold text-p1-darkgreen">
               Чем Вы занимаетесь?
             </p>
             <div className="pb-3"></div>
@@ -434,11 +434,11 @@ export default function Page() {
                 }}
                 type="checkbox"
                 value=""
-                className="text-p1-darkgreen focus:ring-p1-green dark:focus:ring-p1-green mx-5 h-5 w-5 rounded border-gray-300 bg-gray-100 focus:ring-2 dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800"
+                className="mx-5 h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-p1-green"
               />
               <label
                 htmlFor="checkbox"
-                className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan ms-2 text-base font-medium md:text-xl"
+                className="ms-2 text-base font-medium text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan"
               >
                 Я смотрю гонки по телевизору, в Интернете
               </label>
@@ -455,11 +455,11 @@ export default function Page() {
                 }}
                 type="checkbox"
                 value=""
-                className="text-p1-darkgreen focus:ring-p1-green dark:focus:ring-p1-green mx-5 h-5 w-5 rounded border-gray-300 bg-gray-100 focus:ring-2 dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800"
+                className="mx-5 h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-p1-green"
               />
               <label
                 htmlFor="checkbox"
-                className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan ms-2 text-base font-medium md:text-xl"
+                className="ms-2 text-base font-medium text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan"
               >
                 Я участник команды
               </label>
@@ -476,11 +476,11 @@ export default function Page() {
                 }}
                 type="checkbox"
                 value=""
-                className="text-p1-darkgreen focus:ring-p1-green dark:focus:ring-p1-green mx-5 h-5 w-5 rounded border-gray-300 bg-gray-100 focus:ring-2 dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800"
+                className="mx-5 h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-p1-green"
               />
               <label
                 htmlFor="checkbox"
-                className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan ms-2 text-base font-medium md:text-xl"
+                className="ms-2 text-base font-medium text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan"
               >
                 Я водитель, пилот
               </label>
@@ -497,11 +497,11 @@ export default function Page() {
                 }}
                 type="checkbox"
                 value=""
-                className="text-p1-darkgreen focus:ring-p1-green dark:focus:ring-p1-green mx-5 h-5 w-5 rounded border-gray-300 bg-gray-100 focus:ring-2 dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800"
+                className="mx-5 h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-p1-green"
               />
               <label
                 htmlFor="checkbox"
-                className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan ms-2 text-base font-medium md:text-xl"
+                className="ms-2 text-base font-medium text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan"
               >
                 Я промоутер
               </label>
@@ -517,11 +517,11 @@ export default function Page() {
                 }}
                 type="checkbox"
                 value=""
-                className="text-p1-darkgreen focus:ring-p1-green dark:focus:ring-p1-green mx-5 h-5 w-5 rounded border-gray-300 bg-gray-100 focus:ring-2 dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800"
+                className="mx-5 h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-p1-green"
               />
               <label
                 htmlFor="checkbox"
-                className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan ms-2 text-base font-medium md:text-xl"
+                className="ms-2 text-base font-medium text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan"
               >
                 Я коллекционер автомобилей
               </label>
@@ -538,11 +538,11 @@ export default function Page() {
                 }}
                 type="checkbox"
                 value=""
-                className="text-p1-darkgreen focus:ring-p1-green dark:focus:ring-p1-green mx-5 h-5 w-5 rounded border-gray-300 bg-gray-100 focus:ring-2 dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800"
+                className="mx-5 h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-p1-green"
               />
               <label
                 htmlFor="checkbox"
-                className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan ms-2 text-base font-medium md:text-xl"
+                className="ms-2 text-base font-medium text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan"
               >
                 Я коллекционер NFT
               </label>
@@ -559,11 +559,11 @@ export default function Page() {
                 }}
                 type="checkbox"
                 value=""
-                className="text-p1-darkgreen focus:ring-p1-green dark:focus:ring-p1-green mx-5 h-5 w-5 rounded border-gray-300 bg-gray-100 focus:ring-2 dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800"
+                className="mx-5 h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-p1-green"
               />
               <label
                 htmlFor="checkbox"
-                className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan ms-2 text-base font-medium md:text-xl"
+                className="ms-2 text-base font-medium text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan"
               >
                 Мои дети в автоспортивной команде
               </label>
@@ -579,11 +579,11 @@ export default function Page() {
                 }}
                 type="checkbox"
                 value=""
-                className="text-p1-darkgreen focus:ring-p1-green dark:focus:ring-p1-green mx-5 h-5 w-5 rounded border-gray-300 bg-gray-100 focus:ring-2 dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800"
+                className="mx-5 h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-p1-green"
               />
               <label
                 htmlFor="checkbox"
-                className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan ms-2 text-base font-medium md:text-xl"
+                className="ms-2 text-base font-medium text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan"
               >
                 Я спонсор
               </label>
@@ -599,11 +599,11 @@ export default function Page() {
                 }}
                 type="checkbox"
                 value=""
-                className="text-p1-darkgreen focus:ring-p1-green dark:focus:ring-p1-green mx-5 h-5 w-5 rounded border-gray-300 bg-gray-100 focus:ring-2 dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800"
+                className="mx-5 h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-p1-green"
               />
               <label
                 htmlFor="checkbox"
-                className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan ms-2 text-base font-medium md:text-xl"
+                className="ms-2 text-base font-medium text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan"
               >
                 У меня есть бизнес по аренде автомобилей
               </label>
@@ -615,14 +615,14 @@ export default function Page() {
             <div>
               <label
                 htmlFor="answerwhattodo"
-                className="text-p1-darkgreen dark:text-p1-cyan block px-5 text-left text-sm font-medium"
+                className="block px-5 text-left text-sm font-medium text-p1-darkgreen dark:text-p1-cyan"
               >
                 Ваш ответ
               </label>
               <input
                 type="text"
                 id="answerwhattodo"
-                className="bg-p2-white2 text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:text-p1-cyan dark:focus:border-p2-orange dark:focus:ring-p2-orange mx-5 block w-11/12 rounded-lg border border-gray-300 p-3 text-sm dark:border-gray-600 dark:bg-gray-700 dark:placeholder-gray-400"
+                className="mx-5 block w-11/12 rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-cyan dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
                 placeholder="Ваш ответ"
                 required
               />
@@ -632,14 +632,14 @@ export default function Page() {
             <div>
               <label
                 htmlFor="fullname"
-                className="text-p1-darkgreen dark:text-p1-cyan block px-5 text-left text-sm font-medium"
+                className="block px-5 text-left text-sm font-medium text-p1-darkgreen dark:text-p1-cyan"
               >
                 ФИО
               </label>
               <input
                 type="text"
                 id="organization"
-                className="bg-p2-white2 text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:text-p1-cyan dark:focus:border-p2-orange dark:focus:ring-p2-orange mx-5 block w-11/12 rounded-lg border border-gray-300 p-3 text-sm dark:border-gray-600 dark:bg-gray-700 dark:placeholder-gray-400"
+                className="mx-5 block w-11/12 rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-cyan dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
                 placeholder="Иванов Иван Иванович"
                 required
               />
@@ -649,14 +649,14 @@ export default function Page() {
             <div>
               <label
                 htmlFor="nicname"
-                className="text-p1-darkgreen dark:text-p1-cyan block px-5 text-left text-sm font-medium"
+                className="block px-5 text-left text-sm font-medium text-p1-darkgreen dark:text-p1-cyan"
               >
                 Ник-Имя
               </label>
               <input
                 type="text"
                 id="nicname"
-                className="bg-p2-white2 text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:text-p1-cyan dark:focus:border-p2-orange dark:focus:ring-p2-orange mx-5 block w-11/12 rounded-lg border border-gray-300 p-3 text-sm dark:border-gray-600 dark:bg-gray-700 dark:placeholder-gray-400"
+                className="mx-5 block w-11/12 rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-cyan dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
                 placeholder="Ник-Имя"
                 required
               />
@@ -666,14 +666,14 @@ export default function Page() {
             <div>
               <label
                 htmlFor="birthday"
-                className="text-p1-darkgreen dark:text-p1-cyan block px-5 text-left text-sm font-medium"
+                className="block px-5 text-left text-sm font-medium text-p1-darkgreen dark:text-p1-cyan"
               >
                 Дата рождения
               </label>
               <input
                 type="date"
                 id="birthday"
-                className="bg-p2-white2 text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:text-p1-cyan dark:focus:border-p2-orange dark:focus:ring-p2-orange mx-5 block w-11/12 rounded-lg border border-gray-300 p-3 text-sm dark:border-gray-600 dark:bg-gray-700 dark:placeholder-gray-400"
+                className="mx-5 block w-11/12 rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-cyan dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
                 placeholder="Дата рождения"
                 required
               />
@@ -683,14 +683,14 @@ export default function Page() {
             <div>
               <label
                 htmlFor="tag"
-                className="text-p1-darkgreen dark:text-p1-cyan block px-5 text-left text-sm font-medium"
+                className="block px-5 text-left text-sm font-medium text-p1-darkgreen dark:text-p1-cyan"
               >
                 Хэш-Тэг
               </label>
               <input
                 type="text"
                 id="tag"
-                className="bg-p2-white2 text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:text-p1-cyan dark:focus:border-p2-orange dark:focus:ring-p2-orange mx-5 block w-11/12 rounded-lg border border-gray-300 p-3 text-sm dark:border-gray-600 dark:bg-gray-700 dark:placeholder-gray-400"
+                className="mx-5 block w-11/12 rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-cyan dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
                 placeholder="Хэш-Тэг"
                 required
               />
@@ -700,14 +700,14 @@ export default function Page() {
             <div>
               <label
                 htmlFor="skils"
-                className="text-p1-darkgreen dark:text-p1-cyan block px-5 text-left text-sm font-medium"
+                className="block px-5 text-left text-sm font-medium text-p1-darkgreen dark:text-p1-cyan"
               >
                 Навыки/Умения
               </label>
               <input
                 type="text"
                 id="skils"
-                className="bg-p2-white2 text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:text-p1-cyan dark:focus:border-p2-orange dark:focus:ring-p2-orange mx-5 block w-11/12 rounded-lg border border-gray-300 p-3 text-sm dark:border-gray-600 dark:bg-gray-700 dark:placeholder-gray-400"
+                className="mx-5 block w-11/12 rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-cyan dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
                 placeholder="Навыки/Умения"
                 required
               />
@@ -717,14 +717,14 @@ export default function Page() {
             <div>
               <label
                 htmlFor="phone"
-                className="text-p1-darkgreen dark:text-p1-cyan block px-5 text-left text-sm font-medium"
+                className="block px-5 text-left text-sm font-medium text-p1-darkgreen dark:text-p1-cyan"
               >
                 Номер телефона
               </label>
               <input
                 type="text"
                 id="phone"
-                className="bg-p2-white2 text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:text-p1-cyan dark:focus:border-p2-orange dark:focus:ring-p2-orange mx-5 block w-11/12 rounded-lg border border-gray-300 p-3 text-sm dark:border-gray-600 dark:bg-gray-700 dark:placeholder-gray-400"
+                className="mx-5 block w-11/12 rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-cyan dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
                 placeholder="Номер телефона"
                 required
               />
@@ -734,14 +734,14 @@ export default function Page() {
             <div>
               <label
                 htmlFor="email"
-                className="text-p1-darkgreen dark:text-p1-cyan block px-5 text-left text-sm font-medium"
+                className="block px-5 text-left text-sm font-medium text-p1-darkgreen dark:text-p1-cyan"
               >
                 Адрес электронной почты
               </label>
               <input
                 type="text"
                 id="email"
-                className="bg-p2-white2 text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:text-p1-cyan dark:focus:border-p2-orange dark:focus:ring-p2-orange mx-5 block w-11/12 rounded-lg border border-gray-300 p-3 text-sm dark:border-gray-600 dark:bg-gray-700 dark:placeholder-gray-400"
+                className="mx-5 block w-11/12 rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-cyan dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
                 placeholder="e-mail"
                 required
               />
@@ -750,14 +750,14 @@ export default function Page() {
             <div className="pt-2">
               <label
                 htmlFor="message"
-                className="text-p1-darkgreen dark:text-p1-cyan mx-5 mb-2 block text-left text-sm font-medium"
+                className="mx-5 mb-2 block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-cyan"
               >
                 Описание причин по которым Вы хотите присоединиться к GAA
               </label>
               <textarea
                 id="message"
                 rows={4}
-                className="bg-p2-white2 text-p1-darkgreen mx-5 block w-11/12 rounded-lg border-2 border-gray-300 p-2.5 text-sm focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
+                className="mx-5 block w-11/12 rounded-lg border-2 border-gray-300 bg-p2-white2 p-2.5 text-sm text-p1-darkgreen focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
                 placeholder="Описание причин по которым Вы хотите присоединиться к GAA"
               ></textarea>
             </div>
@@ -767,14 +767,14 @@ export default function Page() {
             <div>
               <label
                 htmlFor="site"
-                className="text-p1-darkgreen dark:text-p1-cyan block px-5 text-left text-sm font-medium"
+                className="block px-5 text-left text-sm font-medium text-p1-darkgreen dark:text-p1-cyan"
               >
                 Интернет сайт
               </label>
               <input
                 type="text"
                 id="site"
-                className="bg-p2-white2 text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:text-p1-cyan dark:focus:border-p2-orange dark:focus:ring-p2-orange mx-5 block w-11/12 rounded-lg border border-gray-300 p-3 text-sm dark:border-gray-600 dark:bg-gray-700 dark:placeholder-gray-400"
+                className="mx-5 block w-11/12 rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-cyan dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
                 placeholder="Интернет сайт www://"
                 required
               />
@@ -784,14 +784,14 @@ export default function Page() {
             <div>
               <label
                 htmlFor="Telegram"
-                className="text-p1-darkgreen dark:text-p1-cyan block px-5 text-left text-sm font-medium"
+                className="block px-5 text-left text-sm font-medium text-p1-darkgreen dark:text-p1-cyan"
               >
                 Telegram
               </label>
               <input
                 type="text"
                 id="Telegram"
-                className="bg-p2-white2 text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:text-p1-cyan dark:focus:border-p2-orange dark:focus:ring-p2-orange mx-5 block w-11/12 rounded-lg border border-gray-300 p-3 text-sm dark:border-gray-600 dark:bg-gray-700 dark:placeholder-gray-400"
+                className="mx-5 block w-11/12 rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-cyan dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
                 placeholder="Telegram"
                 required
               />
@@ -801,14 +801,14 @@ export default function Page() {
             <div>
               <label
                 htmlFor="YouTube"
-                className="text-p1-darkgreen dark:text-p1-cyan block px-5 text-left text-sm font-medium"
+                className="block px-5 text-left text-sm font-medium text-p1-darkgreen dark:text-p1-cyan"
               >
                 YouTube / RuTube
               </label>
               <input
                 type="text"
                 id="YouTube"
-                className="bg-p2-white2 text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:text-p1-cyan dark:focus:border-p2-orange dark:focus:ring-p2-orange mx-5 block w-11/12 rounded-lg border border-gray-300 p-3 text-sm dark:border-gray-600 dark:bg-gray-700 dark:placeholder-gray-400"
+                className="mx-5 block w-11/12 rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-cyan dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
                 placeholder="YouTube"
                 required
               />
@@ -821,7 +821,7 @@ export default function Page() {
                       htmlFor="dropzone-file"
                       className="flex h-full w-full cursor-pointer flex-col items-center justify-center rounded-lg border-2 border-dashed border-gray-300 bg-gray-50 hover:bg-gray-100 dark:border-gray-600 dark:bg-gray-700 dark:hover:border-gray-500 dark:hover:bg-gray-800"
                     >
-                      <div className="flex flex-col items-center justify-center pt-5 pb-6">
+                      <div className="flex flex-col items-center justify-center pb-6 pt-5">
                         <svg
                           className="mb-4 h-8 w-8 text-gray-500 dark:text-gray-400"
                           aria-hidden="true"
@@ -858,7 +858,7 @@ export default function Page() {
               <div className="pb-2"></div>
 
               <div className="grid md:px-5">
-                <button className="border-p1-green bg-p1-white text-p1-darkgreen hover:border-p1-darkgreen hover:bg-p1-darkgreen hover:text-p1-white dark:border-p1-cyan dark:bg-p1-green dark:text-p1-deepdarkgreen dark:hover:border-p1-green dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan mx-auto inline-block w-full place-content-center rounded-xl border-2 px-10 py-8 text-center shadow-lg transition-all delay-75 duration-300 ease-in-out">
+                <button className="mx-auto inline-block w-full place-content-center rounded-xl border-2 border-p1-green bg-p1-white px-10 py-8 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:border-p1-darkgreen hover:bg-p1-darkgreen hover:text-p1-white dark:border-p1-cyan dark:bg-p1-green dark:text-p1-deepdarkgreen dark:hover:border-p1-green dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan">
                   Отправить в GAA
                 </button>
               </div>

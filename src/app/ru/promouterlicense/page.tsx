@@ -9,16 +9,16 @@ export default function Page() {
   return (
     <div>
       <div className="grid grid-cols-2 gap-4">
-        <div className="text-p2-orange p-2 text-4xl font-semibold">Promoter License NFT</div>
-        <div className="text-p2-orange p-2 text-end text-4xl font-semibold">
+        <div className="p-2 text-4xl font-semibold text-p2-orange">Promoter License NFT</div>
+        <div className="p-2 text-end text-4xl font-semibold text-p2-orange">
           Страница создания NFT
         </div>
       </div>
       <div className="grid grid-cols-6 gap-4">
-        <div className="border-p2-orange text-p1-darkgreen col-span-4 col-start-2 w-full rounded-3xl border-4 text-center shadow-lg">
+        <div className="col-span-4 col-start-2 w-full rounded-3xl border-4 border-p2-orange text-center text-p1-darkgreen shadow-lg">
           <div>
-            <p className="text-p1-darkgreen text-2xl">Присоединяйтесь к нам</p>
-            <p className="text-p1-darkgreen pb-5 text-2xl">Получите NFT лицензию Промоутера</p>
+            <p className="text-2xl text-p1-darkgreen">Присоединяйтесь к нам</p>
+            <p className="pb-5 text-2xl text-p1-darkgreen">Получите NFT лицензию Промоутера</p>
             <div className="grid grid-cols-4 gap-4">
               <div className="pt-5">
                 Созданные вами NFT автоматически попадут в глобальную коллекцию GAA
@@ -26,7 +26,7 @@ export default function Page() {
               </div>
               <div className="col-span-2 col-start-2 w-full rounded-3xl text-center">
                 <Image
-                  className="border-p2-orange relative mb-4 inline-block w-max rounded-3xl border-2 shadow-lg"
+                  className="relative mb-4 inline-block w-max rounded-3xl border-2 border-p2-orange shadow-lg"
                   width={1000}
                   height={1000}
                   src="/Licenses/Promoter Lic.png"
@@ -35,19 +35,19 @@ export default function Page() {
                 <div className="inline-flex rounded-md shadow-sm" role="group">
                   <Link
                     href={'/promouterlicense'}
-                    className="text-p1-darkgreen hover:text-p1-darkgreen focus:bg-p2-orange focus:text-p1-white focus:ring-p2-orange dark:focus:ring-p2-orange w-full rounded-l-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium hover:bg-gray-100 focus:z-10 focus:ring-2 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white"
+                    className="w-full rounded-l-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-p2-orange focus:text-p1-white focus:ring-2 focus:ring-p2-orange dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange"
                   >
                     Promoter License
                   </Link>
                   <Link
                     href={'/nationallicense'}
-                    className="text-p1-darkgreen hover:text-p1-darkgreen focus:bg-p2-orange focus:text-p1-white focus:ring-p2-orange dark:focus:ring-p2-orange w-full border border-gray-200 bg-white px-4 py-2 text-sm font-medium hover:bg-gray-100 focus:z-10 focus:ring-2 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white"
+                    className="w-full border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-p2-orange focus:text-p1-white focus:ring-2 focus:ring-p2-orange dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange"
                   >
                     National License
                   </Link>
                   <Link
                     href={'/globallicense'}
-                    className="text-p1-darkgreen hover:text-p1-darkgreen focus:bg-p2-orange focus:text-p1-white focus:ring-p2-orange dark:focus:ring-p2-orange w-full rounded-r-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium hover:bg-gray-100 focus:z-10 focus:ring-2 dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white"
+                    className="w-full rounded-r-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-p2-orange focus:text-p1-white focus:ring-2 focus:ring-p2-orange dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange"
                   >
                     Global License
                   </Link>
@@ -85,10 +85,10 @@ export default function Page() {
                 className="h-2 w-3/5 cursor-pointer appearance-none rounded-lg bg-gray-200 dark:bg-gray-700"
               />
             </div>
-            <p className="text-p1-darkgreen pt-8 pb-8 text-2xl">
+            <p className="pb-8 pt-8 text-2xl text-p1-darkgreen">
               Максимум: 10 Promoter License NFT за транзакцию
             </p>
-            <button className="border-p1-darkgreen bg-p1-white text-p1-darkgreen hover:bg-p2-orange hover:text-p1-white rounded-3xl border-2 px-48 py-8 shadow-lg">
+            <button className="rounded-3xl border-2 border-p1-darkgreen bg-p1-white px-48 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">
               Создать NFT
             </button>
             <div className="pb-8"></div>
