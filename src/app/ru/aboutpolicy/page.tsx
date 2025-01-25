@@ -26,12 +26,12 @@ export default function Page() {
       <JumpButton points={jumpPoints} />
 
       <div className="p-2 text-xl md:p-2">
-        <div className="p-2 text-center text-xl font-bold text-p1-darkgreen drop-shadow-2xl md:text-4xl dark:text-p1-green dark:hover:text-p1-cyan">
+        <div className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan p-2 text-center text-xl font-bold drop-shadow-2xl md:text-4xl">
           Политика конфиденциальности
         </div>
         <div className="md:pt-2" id="1"></div>
 
-        <div className="rounded-3xl border-p1-darkgreen p-2 text-base text-p1-darkgreen hover:border-p1-gray hover:shadow-xl md:my-5 md:border-4 md:p-6 md:text-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
+        <div className="border-p1-darkgreen text-p1-darkgreen hover:border-p1-gray dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan rounded-3xl p-2 text-base hover:shadow-xl md:my-5 md:border-4 md:p-6 md:text-xl">
           <div className="pb-3 text-center font-bold">
             Политика в отношении обработки персональных данных
           </div>
@@ -425,12 +425,12 @@ export default function Page() {
         </div>
         <div className="md:pt-2" id="13"></div>
 
-        <div className="text-center text-xl font-bold text-p1-darkgreen drop-shadow-2xl md:text-4xl dark:text-p1-green dark:hover:text-p1-cyan">
+        <div className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan text-center text-xl font-bold drop-shadow-2xl md:text-4xl">
           <p> Политика конфиденциальности</p>
           <p> Cookie</p>
         </div>
 
-        <div className="rounded-3xl border-p1-darkgreen p-2 text-base text-p1-darkgreen hover:border-p1-gray hover:shadow-xl md:my-5 md:border-4 md:p-6 md:text-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
+        <div className="border-p1-darkgreen text-p1-darkgreen hover:border-p1-gray dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan rounded-3xl p-2 text-base hover:shadow-xl md:my-5 md:border-4 md:p-6 md:text-xl">
           <div className="pb-3 text-center font-bold">Уведомление об использовании Cookie</div>
           <div className="pb-5">
             Настройка блока, который позволяет посетителям выбирать и управлять Cookie-файлами на

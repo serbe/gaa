@@ -27,8 +27,8 @@ export default function Page() {
     <div className="mx-auto max-w-7xl font-serif">
       <JumpButton points={jumpPoints} />
 
-      <div className="p-2 text-center text-xl font-bold text-p1-darkgreen drop-shadow-2xl md:text-3xl dark:text-p1-green dark:hover:text-p1-cyan">
-        Roadmap{' '}
+      <div className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan p-2 text-center text-xl font-bold drop-shadow-2xl md:text-3xl">
+        Roadmap
       </div>
 
       <div className="flex flex-row justify-center pb-2">
@@ -36,7 +36,7 @@ export default function Page() {
         <div className="md:basis-3/5">
           <div
             id="1"
-            className="px-2 text-center text-base font-semibold text-p1-darkgreen md:pt-6 md:text-xl dark:text-p1-green dark:hover:text-p1-cyan"
+            className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan px-2 text-center text-base font-semibold md:pt-6 md:text-xl"
           >
             Origin and discussion of the idea of connecting people into a community through
             Blockchain and NFT technologies
@@ -50,7 +50,7 @@ export default function Page() {
           <Image width={150} height={600} src="/Hero/6.png" alt="Hero6" />
         </div>
         <div className="basis-4/5 md:basis-3/5">
-          <div className="space-y-4 rounded-3xl border-p1-darkgreen p-2 text-left text-base text-p1-darkgreen hover:border-p2-orange md:border-4 md:p-5 md:text-xl md:hover:shadow-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
+          <div className="border-p1-darkgreen text-p1-darkgreen hover:border-p2-orange dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan space-y-4 rounded-3xl p-2 text-left text-base md:border-4 md:p-5 md:text-xl md:hover:shadow-xl">
             <div className="pb-5">
               The realization of the global idea of Web3 is still at an early stage and has not yet
               received sufficient attention in society.
@@ -72,10 +72,10 @@ export default function Page() {
       </div>
 
       <div className="flex flex-row justify-center pb-2">
-        <div className="md:basis-5/5 md:basis-3/5">
+        <div className="md:basis-3/5">
           <div
             id="2"
-            className="px-2 text-center text-base font-semibold text-p1-darkgreen md:pt-4 md:text-xl dark:text-p1-green dark:hover:text-p1-cyan"
+            className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan px-2 text-center text-base font-semibold md:pt-4 md:text-xl"
           >
             Global Automotive Association
             <p>Project Startup </p>
@@ -85,7 +85,7 @@ export default function Page() {
 
       <div className="flex flex-row justify-center pb-2">
         <div className="md:basis-3/5">
-          <div className="space-y-4 rounded-3xl border-p1-darkgreen p-2 text-left text-base text-p1-darkgreen hover:border-p2-orange md:border-4 md:p-5 md:text-xl md:hover:shadow-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
+          <div className="border-p1-darkgreen text-p1-darkgreen hover:border-p2-orange dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan space-y-4 rounded-3xl p-2 text-left text-base md:border-4 md:p-5 md:text-xl md:hover:shadow-xl">
             Start of the development of a blockchain project capable of uniting people who are not
             indifferent to motorsports and automobile culture in general.
           </div>
@@ -93,19 +93,19 @@ export default function Page() {
       </div>
 
       <div className="flex flex-row justify-center pb-2">
-        <div className="md:basis-5/5 md:basis-3/5">
+        <div className="md:basis-3/5">
           <div
             id="3"
-            className="px-2 text-center text-base font-semibold text-p1-darkgreen md:pt-4 md:text-xl dark:text-p1-green dark:hover:text-p1-cyan"
+            className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan px-2 text-center text-base font-semibold md:pt-4 md:text-xl"
           >
-            Creating social network accounts{' '}
+            Creating social network accounts
           </div>
         </div>
       </div>
 
       <div className="flex flex-row justify-center pb-2">
         <div className="md:basis-3/5">
-          <div className="border-6 space-y-4 rounded-3xl border-p1-darkgreen p-2 text-left text-base text-p1-darkgreen hover:border-p2-orange md:border-4 md:text-xl md:hover:shadow-xl dark:text-p1-green dark:hover:border-p1-green">
+          <div className="border-p1-darkgreen text-p1-darkgreen hover:border-p2-orange dark:text-p1-green dark:hover:border-p1-green space-y-4 rounded-3xl border-6 p-2 text-left text-base md:border-4 md:text-xl md:hover:shadow-xl">
             <div className="grid grid-cols-2 gap-4">
               <div className="text-center">
                 <button className="mx-auto justify-center rounded-3xl duration-500 hover:scale-105">
@@ -161,7 +161,7 @@ export default function Page() {
         <div className="md:basis-3/5">
           <div
             id="4"
-            className="px-2 text-center text-base font-semibold text-p1-darkgreen md:pt-4 md:text-xl dark:text-p1-green dark:hover:text-p1-cyan"
+            className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan px-2 text-center text-base font-semibold md:pt-4 md:text-xl"
           >
             RaceLads NFT Collection
           </div>
@@ -170,14 +170,14 @@ export default function Page() {
 
       <div className="flex flex-row justify-center p-5">
         <div className="md:basis-3/5">
-          <div className="space-y-4 rounded-3xl border-p1-darkgreen p-2 text-left text-base text-p1-darkgreen hover:border-p2-orange md:border-4 md:p-5 md:text-xl md:hover:shadow-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
+          <div className="border-p1-darkgreen text-p1-darkgreen hover:border-p2-orange dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan space-y-4 rounded-3xl p-2 text-left text-base md:border-4 md:p-5 md:text-xl md:hover:shadow-xl">
             <div className="md:px-5">
               Development of the 1st generative NFT collection by GAA consisting of 10,000 digital
-              heroes.{' '}
+              heroes.
             </div>
             <div className="md:px-5">
               Each “RaceLad” is not just an image, but a unique character with different features
-              and captured on the blockchain.{' '}
+              and captured on the blockchain.
             </div>
           </div>
         </div>
@@ -187,22 +187,22 @@ export default function Page() {
         <div className="basis-5/5 md:basis-3/5">
           <div
             id="5"
-            className="px-2 text-center text-base font-semibold text-p1-darkgreen md:pt-4 md:text-xl dark:text-p1-green dark:hover:text-p1-cyan"
+            className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan px-2 text-center text-base font-semibold md:pt-4 md:text-xl"
           >
-            Internet portal{' '}
+            Internet portal
           </div>
         </div>
       </div>
 
       <div className="flex flex-row justify-center pb-2">
         <div className="md:basis-3/5">
-          <div className="space-y-4 rounded-3xl border-p1-darkgreen p-2 text-left text-base text-p1-darkgreen hover:border-p2-orange md:border-4 md:p-5 md:text-xl md:hover:shadow-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
+          <div className="border-p1-darkgreen text-p1-darkgreen hover:border-p2-orange dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan space-y-4 rounded-3xl p-2 text-left text-base md:border-4 md:p-5 md:text-xl md:hover:shadow-xl">
             <div className="px-4 pb-2">
-              Registration of the domain name gaa.zone.{' '}
+              Registration of the domain name gaa.zone.
               <p>
                 Development of a website, which will be a unique portal where everyone will be able
                 to:
-              </p>{' '}
+              </p>
             </div>
             <ul className="list-disc px-4 md:px-5">
               <li>be informed about the latest news</li>
@@ -229,7 +229,7 @@ export default function Page() {
         <div className="md:basis-3/5">
           <div
             id="6"
-            className="px-2 text-center text-base font-semibold text-p1-darkgreen md:pt-4 md:text-xl dark:text-p1-green dark:hover:text-p1-cyan"
+            className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan px-2 text-center text-base font-semibold md:pt-4 md:text-xl"
           >
             Services and social relevance
           </div>
@@ -238,7 +238,7 @@ export default function Page() {
 
       <div className="flex flex-row justify-center pb-2">
         <div className="md:basis-3/5">
-          <div className="space-y-4 rounded-3xl border-p1-darkgreen p-2 text-left text-base text-p1-darkgreen hover:border-p2-orange md:border-4 md:p-5 md:text-xl md:hover:shadow-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
+          <div className="border-p1-darkgreen text-p1-darkgreen hover:border-p2-orange dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan space-y-4 rounded-3xl p-2 text-left text-base md:border-4 md:p-5 md:text-xl md:hover:shadow-xl">
             <div className="px-4 pb-2">Services for project participants:</div>
             <ul className="list-disc px-4">
               <li>promoters</li>
@@ -264,7 +264,7 @@ export default function Page() {
         <div className="basis-4/5 md:basis-3/5">
           <div
             id="7"
-            className="px-2 text-center text-base font-semibold text-p1-darkgreen md:pt-4 md:text-xl dark:text-p1-green dark:hover:text-p1-cyan"
+            className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan px-2 text-center text-base font-semibold md:pt-4 md:text-xl"
           >
             Other collections
           </div>
@@ -273,21 +273,21 @@ export default function Page() {
 
       <div className="flex flex-row justify-center pb-2">
         <div className="md:basis-3/5">
-          <div className="sspace-y-4 rounded-3xl border-p1-darkgreen p-2 text-left text-base text-p1-darkgreen hover:border-p2-orange md:border-4 md:p-5 md:text-xl md:hover:shadow-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
+          <div className="sspace-y-4 border-p1-darkgreen text-p1-darkgreen hover:border-p2-orange dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan rounded-3xl p-2 text-left text-base md:border-4 md:p-5 md:text-xl md:hover:shadow-xl">
             <div className="px-4 pb-5">
-              The project envisages the release of several categories of NFT collections:{' '}
+              The project envisages the release of several categories of NFT collections:
             </div>
             <div className="px-4 pb-5">
-              Rarity / sports cars - everyone will be able to digitize their car fleet.{' '}
+              Rarity / sports cars - everyone will be able to digitize their car fleet.
             </div>
             <div className="px-4 pb-5">
-              Pilots, collectors and team members will be able to create their own unique NFTs.{' '}
+              Pilots, collectors and team members will be able to create their own unique NFTs.
             </div>
             <div className="px-4 pb-5">
               Awards - NFTs with metadata about the event, digital award image, video content.
             </div>
             <div className="px-4 pb-5">
-              Other collections that can bring closure to socially relevant community issues.{' '}
+              Other collections that can bring closure to socially relevant community issues.
             </div>
           </div>
         </div>
@@ -302,7 +302,7 @@ export default function Page() {
         <div className="md:basis-3/5">
           <div
             id="8"
-            className="px-2 text-center text-base font-semibold text-p1-darkgreen md:pt-4 md:text-xl dark:text-p1-green dark:hover:text-p1-cyan"
+            className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan px-2 text-center text-base font-semibold md:pt-4 md:text-xl"
           >
             Issuance of interchangeable tokens
           </div>
@@ -311,13 +311,13 @@ export default function Page() {
 
       <div className="flex flex-row justify-center pb-2">
         <div className="md:basis-3/5">
-          <div className="space-y-4 rounded-3xl border-p1-darkgreen p-2 text-left text-base text-p1-darkgreen hover:border-p2-orange md:border-4 md:p-5 md:text-xl md:hover:shadow-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
+          <div className="border-p1-darkgreen text-p1-darkgreen hover:border-p2-orange dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan space-y-4 rounded-3xl p-2 text-left text-base md:border-4 md:p-5 md:text-xl md:hover:shadow-xl">
             <div className="px-4 pb-5">
               Upon achievement of the primary goals, community participants (holders of NFTs from
               GAA collections) will decide on the need to issue a token in ERC20 format.
             </div>
             <div className="px-4 pb-5">
-              In this way we plan to provide additional opportunities for investors.{' '}
+              In this way we plan to provide additional opportunities for investors.
             </div>
           </div>
         </div>
@@ -327,7 +327,7 @@ export default function Page() {
         <div className="basis-5/5 md:basis-3/5">
           <div
             id="9"
-            className="px-2 text-center text-base font-semibold text-p1-darkgreen md:pt-4 md:text-xl dark:text-p1-green dark:hover:text-p1-cyan"
+            className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan px-2 text-center text-base font-semibold md:pt-4 md:text-xl"
           >
             Creation of a decentralized autonomous organization (DAO)
           </div>
@@ -335,16 +335,16 @@ export default function Page() {
       </div>
       <div className="flex flex-row justify-center pb-2">
         <div className="md:basis-3/5">
-          <div className="space-y-4 rounded-3xl border-p1-darkgreen p-2 text-left text-base text-p1-darkgreen hover:border-p2-orange md:border-4 md:p-5 md:text-xl md:hover:shadow-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
+          <div className="border-p1-darkgreen text-p1-darkgreen hover:border-p2-orange dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan space-y-4 rounded-3xl p-2 text-left text-base md:border-4 md:p-5 md:text-xl md:hover:shadow-xl">
             <div className="px-4 pb-5">
-              Provide direction leaders with Global Automotive Association (GAA) rights.{' '}
+              Provide direction leaders with Global Automotive Association (GAA) rights.
             </div>
             <div className="px-4 pb-5">
               Finding leaders in different areas and offering to join their efforts to build and
               strengthen the community.
             </div>
             <div className="px-4 pb-5">
-              Including leaders in the DAO by providing the appropriate NFT.{' '}
+              Including leaders in the DAO by providing the appropriate NFT.
             </div>
             <div className="px-4 pb-5">
               If you are a leader in a certain area in your region and would like to become part of
@@ -358,9 +358,9 @@ export default function Page() {
         <div className="md:basis-3/5">
           <div
             id="10"
-            className="px-2 text-center text-base font-semibold text-p1-darkgreen md:pt-4 md:text-xl dark:text-p1-green dark:hover:text-p1-cyan"
+            className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan px-2 text-center text-base font-semibold md:pt-4 md:text-xl"
           >
-            Facilitating the development of young talents{' '}
+            Facilitating the development of young talents
           </div>
         </div>
       </div>
@@ -368,7 +368,7 @@ export default function Page() {
       <div className="flex flex-row justify-center pb-2">
         <div className="md:basis-1/5"></div>
         <div className="basis-4/5 md:basis-3/5">
-          <div className="space-y-4 rounded-3xl border-p1-darkgreen p-2 text-left text-base text-p1-darkgreen hover:border-p2-orange md:border-4 md:p-5 md:text-xl md:hover:shadow-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
+          <div className="border-p1-darkgreen text-p1-darkgreen hover:border-p2-orange dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan space-y-4 rounded-3xl p-2 text-left text-base md:border-4 md:p-5 md:text-xl md:hover:shadow-xl">
             <div className="pb-5">
               Create a comfortable social environment for the organization to promote and support
               young talents.
@@ -382,18 +382,18 @@ export default function Page() {
         <div className="md:basis-3/5">
           <div
             id="11"
-            className="px-2 text-center text-base font-semibold text-p1-darkgreen md:pt-4 md:text-xl dark:text-p1-green dark:hover:text-p1-cyan"
+            className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan px-2 text-center text-base font-semibold md:pt-4 md:text-xl"
           >
-            Preservation of cultural values{' '}
+            Preservation of cultural values
           </div>
         </div>
       </div>
 
       <div className="flex flex-row justify-center pb-2">
         <div className="basis-4/5 md:basis-3/5">
-          <div className="space-y-4 rounded-3xl border-p1-darkgreen p-2 text-left text-base text-p1-darkgreen hover:border-p2-orange md:border-4 md:p-5 md:text-xl md:hover:shadow-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
+          <div className="border-p1-darkgreen text-p1-darkgreen hover:border-p2-orange dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan space-y-4 rounded-3xl p-2 text-left text-base md:border-4 md:p-5 md:text-xl md:hover:shadow-xl">
             <div className="md:px-5">
-              We help to preserve cultural values and monuments, support museums.{' '}
+              We help to preserve cultural values and monuments, support museums.
             </div>
           </div>
         </div>
@@ -409,17 +409,17 @@ export default function Page() {
         <div className="md:basis-3/5">
           <div
             id="12"
-            className="px-2 text-center text-base font-semibold text-p1-darkgreen md:pt-4 md:text-xl dark:text-p1-green dark:hover:text-p1-cyan"
+            className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan px-2 text-center text-base font-semibold md:pt-4 md:text-xl"
           >
-            Organizing and holding national motorsport and autocultural events{' '}
+            Organizing and holding national motorsport and autocultural events
           </div>
-          <div className="space-y-4 rounded-3xl border-p1-darkgreen p-2 text-left text-base text-p1-darkgreen hover:border-p2-orange md:border-4 md:p-5 md:text-xl md:hover:shadow-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
+          <div className="border-p1-darkgreen text-p1-darkgreen hover:border-p2-orange dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan space-y-4 rounded-3xl p-2 text-left text-base md:border-4 md:p-5 md:text-xl md:hover:shadow-xl">
             <div className="px-4 pb-5">
               Organizing and holding national motorsport and autocultural events uniting different
               styles and directions.
             </div>
             <div className="px-4 pb-5">
-              Creating a comfortable environment for the development of each of the directions.{' '}
+              Creating a comfortable environment for the development of each of the directions.
             </div>
           </div>
         </div>
@@ -429,11 +429,11 @@ export default function Page() {
         <div className="md:basis-3/5">
           <div
             id="13"
-            className="px-2 text-center text-base font-semibold text-p1-darkgreen md:pt-4 md:text-xl dark:text-p1-green dark:hover:text-p1-cyan"
+            className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan px-2 text-center text-base font-semibold md:pt-4 md:text-xl"
           >
-            Organization and holding of international motorsport and autocultural events{' '}
+            Organization and holding of international motorsport and autocultural events
           </div>
-          <div className="space-y-4 rounded-3xl border-p1-darkgreen p-2 text-left text-base text-p1-darkgreen hover:border-p2-orange md:border-4 md:p-5 md:text-xl md:hover:shadow-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
+          <div className="border-p1-darkgreen text-p1-darkgreen hover:border-p2-orange dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan space-y-4 rounded-3xl p-2 text-left text-base md:border-4 md:p-5 md:text-xl md:hover:shadow-xl">
             <div className="px-4 pb-5">
               Organization and holding of international motorsport and autocultural events uniting
               different styles and directions and creating a comfortable environment for each
@@ -447,11 +447,11 @@ export default function Page() {
         <div className="md:basis-3/5">
           <div
             id="14"
-            className="px-2 text-center text-base font-semibold text-p1-darkgreen md:pt-4 md:text-xl dark:text-p1-green dark:hover:text-p1-cyan"
+            className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan px-2 text-center text-base font-semibold md:pt-4 md:text-xl"
           >
             Organization and holding of regular international motorsport and autocultural events
           </div>
-          <div className="space-y-4 rounded-3xl border-p1-darkgreen p-2 text-left text-base text-p1-darkgreen hover:border-p2-orange md:border-4 md:p-5 md:text-xl md:hover:shadow-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
+          <div className="border-p1-darkgreen text-p1-darkgreen hover:border-p2-orange dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan space-y-4 rounded-3xl p-2 text-left text-base md:border-4 md:p-5 md:text-xl md:hover:shadow-xl">
             <div className="px-4 pb-5">
               Creating regular annual international motorsport and autocultural events, creating
               Granprix with high level of organization, creating a festival in autoculture and

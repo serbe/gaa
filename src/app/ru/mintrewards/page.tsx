@@ -10,21 +10,21 @@ export default function Page() {
     <div className="mx-auto max-w-7xl font-serif">
       <JumpButton points={jumpPoints} />
       <div className="flex flex-wrap justify-center md:flex-nowrap md:justify-between">
-        <div className="px-2 text-2xl font-semibold text-p2-orange md:pt-2 md:text-4xl dark:text-amber-700">
+        <div className="text-p2-orange px-2 text-2xl font-semibold md:pt-2 md:text-4xl dark:text-amber-700">
           Rewards NFT
         </div>
-        <div className="px-2 text-2xl font-semibold text-p2-orange md:pt-2 md:text-4xl dark:text-amber-700">
+        <div className="text-p2-orange px-2 text-2xl font-semibold md:pt-2 md:text-4xl dark:text-amber-700">
           Страница создания NFT
         </div>
       </div>
-      <section className="flex flex-wrap rounded-3xl border-p2-orange bg-p1-white p-2 md:flex-nowrap md:border-4 md:shadow-lg dark:border-amber-700 dark:bg-p1-deepdarkgreen">
+      <section className="border-p2-orange bg-p1-white dark:bg-p1-deepdarkgreen flex flex-wrap rounded-3xl p-2 md:flex-nowrap md:border-4 md:shadow-lg dark:border-amber-700">
         <div className="grid grid-cols-1 md:w-max md:grid-cols-2 md:gap-4">
           <div className="">
             <div className="text-center md:text-2xl lg:text-2xl">
               <div className="">
                 <div className="flex flex-wrap px-2 md:flex-nowrap">
                   <div className="">
-                    <div className="text-center text-base font-semibold text-p1-darkgreen md:text-xl dark:text-p1-green">
+                    <div className="text-p1-darkgreen dark:text-p1-green text-center text-base font-semibold md:text-xl">
                       <p>Присоединяйся к нам</p>
                       <p>Создавай NFT Награды</p>
                     </div>
@@ -33,7 +33,7 @@ export default function Page() {
                       <div className="grid-1 grid flex-wrap-reverse gap-2 md:w-full md:grid-cols-2">
                         <div className="place-items-center p-2">
                           <Image
-                            className="relative mb-4 inline-block w-max rounded-3xl border-2 border-p2-orange shadow-lg"
+                            className="border-p2-orange relative mb-4 inline-block w-max rounded-3xl border-2 shadow-lg"
                             width={1000}
                             height={1000}
                             src="/Hero/Rewards.png"
@@ -46,7 +46,7 @@ export default function Page() {
                             htmlFor="dropzone-file"
                             className="flex h-56 w-full cursor-pointer flex-col items-center justify-center rounded-3xl border-2 border-dashed border-gray-300 bg-gray-50 shadow-lg hover:bg-gray-100 dark:border-gray-600 dark:bg-gray-700 dark:hover:border-gray-500 dark:hover:bg-gray-800"
                           >
-                            <div className="flex flex-col items-center justify-center pb-6 pt-5">
+                            <div className="flex flex-col items-center justify-center pt-5 pb-6">
                               <svg
                                 className="mb-4 h-8 w-8 text-gray-500 dark:text-gray-400"
                                 aria-hidden="true"
@@ -85,7 +85,7 @@ export default function Page() {
                             htmlFor="dropzone-file"
                             className="flex h-56 w-full cursor-pointer flex-col items-center justify-center rounded-3xl border-2 border-dashed border-gray-300 bg-gray-50 shadow-lg hover:bg-gray-100 dark:border-gray-600 dark:bg-gray-700 dark:hover:border-gray-500 dark:hover:bg-gray-800"
                           >
-                            <div className="flex flex-col items-center justify-center pb-6 pt-5">
+                            <div className="flex flex-col items-center justify-center pt-5 pb-6">
                               <svg
                                 className="mb-4 h-8 w-8 text-gray-500 dark:text-gray-400"
                                 aria-hidden="true"
@@ -123,7 +123,7 @@ export default function Page() {
                             htmlFor="dropzone-file"
                             className="flex h-56 w-full cursor-pointer flex-col items-center justify-center rounded-3xl border-2 border-dashed border-gray-300 bg-gray-50 shadow-lg hover:bg-gray-100 dark:border-gray-600 dark:bg-gray-700 dark:hover:border-gray-500 dark:hover:bg-gray-800"
                           >
-                            <div className="flex flex-col items-center justify-center pb-6 pt-5">
+                            <div className="flex flex-col items-center justify-center pt-5 pb-6">
                               <svg
                                 className="mb-4 h-8 w-8 text-gray-500 dark:text-gray-400"
                                 aria-hidden="true"
@@ -161,19 +161,19 @@ export default function Page() {
 
                     <div className="md:w-full">
                       <p className="md:pb-10"></p>
-                      <p className="place-self-center pt-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green">
+                      <p className="text-p1-darkgreen dark:text-p1-green place-self-center pt-2 text-base md:text-xl">
                         Доступно для держателей NFT:
                       </p>
-                      <p className="place-self-center px-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green">
+                      <p className="text-p1-darkgreen dark:text-p1-green place-self-center px-2 text-base md:text-xl">
                         Promoter license
                       </p>
-                      <p className="place-self-center px-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green">
+                      <p className="text-p1-darkgreen dark:text-p1-green place-self-center px-2 text-base md:text-xl">
                         National license
                       </p>
-                      <p className="place-self-center text-base text-p1-darkgreen md:text-xl dark:text-p1-green">
+                      <p className="text-p1-darkgreen dark:text-p1-green place-self-center text-base md:text-xl">
                         Global license
                       </p>
-                      <p className="place-self-center text-base text-p1-darkgreen md:text-xl dark:text-p1-green">
+                      <p className="text-p1-darkgreen dark:text-p1-green place-self-center text-base md:text-xl">
                         Management GAA
                       </p>
                       <p className="md:pb-96"></p>
@@ -189,23 +189,23 @@ export default function Page() {
           <div id="2">
             <div className="flex flex-col object-right px-2 md:w-full">
               <div>
-                <p className="place-self-center text-base font-semibold text-p1-darkgreen md:text-xl dark:text-p1-green">
+                <p className="text-p1-darkgreen dark:text-p1-green place-self-center text-base font-semibold md:text-xl">
                   Добавить лого спонсоров на награды
                 </p>
               </div>
               <div className="grid-1 grid flex-wrap-reverse gap-2 md:w-full md:grid-cols-4">
-                <div className="flex items-center text-p1-white">
+                <div className="text-p1-white flex items-center">
                   <div className="place-items-center p-2">
                     <form className="mx-auto max-w-2xl">
                       <label
                         htmlFor="license"
-                        className="block w-full text-left text-sm font-medium text-p1-darkgreen dark:text-p1-green"
+                        className="text-p1-darkgreen dark:text-p1-green block w-full text-left text-sm font-medium"
                       >
                         Категория спонсора
                       </label>
                       <select
                         id="license"
-                        className="block w-full rounded-lg border-2 border-gray-300 bg-p2-white2 p-2.5 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder-gray-400 dark:focus:border-p1-green dark:focus:ring-p1-green"
+                        className="bg-p2-white2 text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:focus:border-p1-green dark:focus:ring-p1-green block w-full rounded-lg border-2 border-gray-300 p-2.5 text-sm dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder-gray-400"
                         defaultValue={'DEFAULT'}
                       >
                         <option value="DEFAULT" disabled>
@@ -223,7 +223,7 @@ export default function Page() {
                       htmlFor="dropzone-file"
                       className="flex h-56 w-full cursor-pointer flex-col items-center justify-center rounded-3xl border-2 border-dashed border-gray-300 bg-gray-50 shadow-lg hover:bg-gray-100 dark:border-gray-600 dark:bg-gray-700 dark:hover:border-gray-500 dark:hover:bg-gray-800"
                     >
-                      <div className="flex flex-col items-center justify-center pb-6 pt-5">
+                      <div className="flex flex-col items-center justify-center pt-5 pb-6">
                         <svg
                           className="mb-4 h-8 w-8 text-gray-500 dark:text-gray-400"
                           aria-hidden="true"
@@ -255,18 +255,18 @@ export default function Page() {
                     </label>
                   </div>
                 </div>
-                <div className="flex items-center text-p1-white">
+                <div className="text-p1-white flex items-center">
                   <div className="place-items-center p-2">
                     <form className="mx-auto max-w-2xl">
                       <label
                         htmlFor="license"
-                        className="block w-full text-left text-sm font-medium text-p1-darkgreen dark:text-p1-green"
+                        className="text-p1-darkgreen dark:text-p1-green block w-full text-left text-sm font-medium"
                       >
                         Категория спонсора
                       </label>
                       <select
                         id="license"
-                        className="block w-full rounded-lg border-2 border-gray-300 bg-p2-white2 p-2.5 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder-gray-400 dark:focus:border-p1-green dark:focus:ring-p1-green"
+                        className="bg-p2-white2 text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:focus:border-p1-green dark:focus:ring-p1-green block w-full rounded-lg border-2 border-gray-300 p-2.5 text-sm dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder-gray-400"
                         defaultValue={'DEFAULT'}
                       >
                         <option value="DEFAULT" disabled>
@@ -284,7 +284,7 @@ export default function Page() {
                       htmlFor="dropzone-file"
                       className="flex h-56 w-full cursor-pointer flex-col items-center justify-center rounded-3xl border-2 border-dashed border-gray-300 bg-gray-50 shadow-lg hover:bg-gray-100 dark:border-gray-600 dark:bg-gray-700 dark:hover:border-gray-500 dark:hover:bg-gray-800"
                     >
-                      <div className="flex flex-col items-center justify-center pb-6 pt-5">
+                      <div className="flex flex-col items-center justify-center pt-5 pb-6">
                         <svg
                           className="mb-4 h-8 w-8 text-gray-500 dark:text-gray-400"
                           aria-hidden="true"
@@ -316,18 +316,18 @@ export default function Page() {
                     </label>
                   </div>
                 </div>
-                <div className="flex items-center text-p1-white">
+                <div className="text-p1-white flex items-center">
                   <div className="place-items-center p-2">
                     <form className="mx-auto max-w-2xl">
                       <label
                         htmlFor="license"
-                        className="block w-full text-left text-sm font-medium text-p1-darkgreen dark:text-p1-green"
+                        className="text-p1-darkgreen dark:text-p1-green block w-full text-left text-sm font-medium"
                       >
                         Категория спонсора
                       </label>
                       <select
                         id="license"
-                        className="block w-full rounded-lg border-2 border-gray-300 bg-p2-white2 p-2.5 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder-gray-400 dark:focus:border-p1-green dark:focus:ring-p1-green"
+                        className="bg-p2-white2 text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:focus:border-p1-green dark:focus:ring-p1-green block w-full rounded-lg border-2 border-gray-300 p-2.5 text-sm dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder-gray-400"
                         defaultValue={'DEFAULT'}
                       >
                         <option value="DEFAULT" disabled>
@@ -345,7 +345,7 @@ export default function Page() {
                       htmlFor="dropzone-file"
                       className="flex h-56 w-full cursor-pointer flex-col items-center justify-center rounded-3xl border-2 border-dashed border-gray-300 bg-gray-50 shadow-lg hover:bg-gray-100 dark:border-gray-600 dark:bg-gray-700 dark:hover:border-gray-500 dark:hover:bg-gray-800"
                     >
-                      <div className="flex flex-col items-center justify-center pb-6 pt-5">
+                      <div className="flex flex-col items-center justify-center pt-5 pb-6">
                         <svg
                           className="mb-4 h-8 w-8 text-gray-500 dark:text-gray-400"
                           aria-hidden="true"
@@ -377,18 +377,18 @@ export default function Page() {
                     </label>
                   </div>
                 </div>
-                <div className="flex items-center text-p1-white">
+                <div className="text-p1-white flex items-center">
                   <div className="place-items-center p-2">
                     <form className="mx-auto max-w-2xl">
                       <label
                         htmlFor="license"
-                        className="block w-full text-left text-sm font-medium text-p1-darkgreen dark:text-p1-green"
+                        className="text-p1-darkgreen dark:text-p1-green block w-full text-left text-sm font-medium"
                       >
                         Категория спонсора
                       </label>
                       <select
                         id="license"
-                        className="block w-full rounded-lg border-2 border-gray-300 bg-p2-white2 p-2.5 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder-gray-400 dark:focus:border-p1-green dark:focus:ring-p1-green"
+                        className="bg-p2-white2 text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:focus:border-p1-green dark:focus:ring-p1-green block w-full rounded-lg border-2 border-gray-300 p-2.5 text-sm dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder-gray-400"
                         defaultValue={'DEFAULT'}
                       >
                         <option value="DEFAULT" disabled>
@@ -406,7 +406,7 @@ export default function Page() {
                       htmlFor="dropzone-file"
                       className="flex h-56 w-full cursor-pointer flex-col items-center justify-center rounded-3xl border-2 border-dashed border-gray-300 bg-gray-50 shadow-lg hover:bg-gray-100 dark:border-gray-600 dark:bg-gray-700 dark:hover:border-gray-500 dark:hover:bg-gray-800"
                     >
-                      <div className="flex flex-col items-center justify-center pb-6 pt-5">
+                      <div className="flex flex-col items-center justify-center pt-5 pb-6">
                         <svg
                           className="mb-4 h-8 w-8 text-gray-500 dark:text-gray-400"
                           aria-hidden="true"
@@ -440,14 +440,14 @@ export default function Page() {
                 </div>
               </div>
               <div>
-                <p className="place-self-center text-base font-semibold text-p1-darkgreen md:text-xl dark:text-p1-green">
+                <p className="text-p1-darkgreen dark:text-p1-green place-self-center text-base font-semibold md:text-xl">
                   Добавь медиаконтент о победителе
                 </p>
 
-                <p className="place-self-center px-2 text-base font-semibold text-p1-darkgreen md:pb-2 md:text-xl dark:text-p1-green">
+                <p className="text-p1-darkgreen dark:text-p1-green place-self-center px-2 text-base font-semibold md:pb-2 md:text-xl">
                   Cоздаём единую коллекцию наград
                 </p>
-                <p className="text-center text-xl text-p1-darkgreen md:text-left md:text-xl dark:text-p1-green">
+                <p className="text-p1-darkgreen dark:text-p1-green text-center text-xl md:text-left md:text-xl">
                   Заполни все поля - эти метаданные будут храниться в блокчейне
                 </p>
               </div>
@@ -456,14 +456,14 @@ export default function Page() {
                 <div>
                   <label
                     htmlFor="contry"
-                    className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-green"
+                    className="text-p1-darkgreen dark:text-p1-green block text-left text-sm font-medium"
                   >
                     Страна
                   </label>
                   <input
                     type="text"
                     id="contry"
-                    className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder-gray-400 dark:focus:border-p1-green dark:focus:ring-p1-green"
+                    className="bg-p2-white2 text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:focus:border-p1-green dark:focus:ring-p1-green block w-full rounded-lg border border-gray-300 p-3 text-sm dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder-gray-400"
                     placeholder="Страна"
                     required
                   />
@@ -473,14 +473,14 @@ export default function Page() {
                 <div>
                   <label
                     htmlFor="city"
-                    className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-green"
+                    className="text-p1-darkgreen dark:text-p1-green block text-left text-sm font-medium"
                   >
                     Город
                   </label>
                   <input
                     type="text"
                     id="city"
-                    className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder-gray-400 dark:focus:border-p1-green dark:focus:ring-p1-green"
+                    className="bg-p2-white2 text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:focus:border-p1-green dark:focus:ring-p1-green block w-full rounded-lg border border-gray-300 p-3 text-sm dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder-gray-400"
                     placeholder="Город"
                     required
                   />
@@ -490,14 +490,14 @@ export default function Page() {
                 <div>
                   <label
                     htmlFor="event"
-                    className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-green"
+                    className="text-p1-darkgreen dark:text-p1-green block text-left text-sm font-medium"
                   >
                     Официальное название мероприятия
                   </label>
                   <input
                     type="text"
                     id="event"
-                    className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder-gray-400 dark:focus:border-p1-green dark:focus:ring-p1-green"
+                    className="bg-p2-white2 text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:focus:border-p1-green dark:focus:ring-p1-green block w-full rounded-lg border border-gray-300 p-3 text-sm dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder-gray-400"
                     placeholder="Официальное название мероприятия"
                     required
                   />
@@ -507,13 +507,13 @@ export default function Page() {
                 <form className="mx-auto max-w-2xl">
                   <label
                     htmlFor="license"
-                    className="block w-full text-left text-sm font-medium text-p1-darkgreen dark:text-p1-green"
+                    className="text-p1-darkgreen dark:text-p1-green block w-full text-left text-sm font-medium"
                   >
                     Направление
                   </label>
                   <select
                     id="license"
-                    className="block w-full rounded-lg border-2 border-gray-300 bg-p2-white2 p-2.5 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder-gray-400 dark:focus:border-p1-green dark:focus:ring-p1-green"
+                    className="bg-p2-white2 text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:focus:border-p1-green dark:focus:ring-p1-green block w-full rounded-lg border-2 border-gray-300 p-2.5 text-sm dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder-gray-400"
                     defaultValue={'DEFAULT'}
                   >
                     <option value="DEFAULT" disabled>
@@ -535,14 +535,14 @@ export default function Page() {
                 <div>
                   <label
                     htmlFor="event_category"
-                    className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-green"
+                    className="text-p1-darkgreen dark:text-p1-green block text-left text-sm font-medium"
                   >
                     Официальное название соревнования/конкурса
                   </label>
                   <input
                     type="text"
                     id="competition"
-                    className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder-gray-400 dark:focus:border-p1-green dark:focus:ring-p1-green"
+                    className="bg-p2-white2 text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:focus:border-p1-green dark:focus:ring-p1-green block w-full rounded-lg border border-gray-300 p-3 text-sm dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder-gray-400"
                     placeholder="Официальное название соревнования/конкурса"
                     required
                   />
@@ -552,13 +552,13 @@ export default function Page() {
                 <form className="mx-auto max-w-2xl">
                   <label
                     htmlFor="license"
-                    className="block w-full text-left text-sm font-medium text-p1-darkgreen dark:text-p1-green"
+                    className="text-p1-darkgreen dark:text-p1-green block w-full text-left text-sm font-medium"
                   >
                     Категория: Соревнование/Конкурс
                   </label>
                   <select
                     id="license"
-                    className="block w-full rounded-lg border-2 border-gray-300 bg-p2-white2 p-2.5 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder-gray-400 dark:focus:border-p1-green dark:focus:ring-p1-green"
+                    className="bg-p2-white2 text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:focus:border-p1-green dark:focus:ring-p1-green block w-full rounded-lg border-2 border-gray-300 p-2.5 text-sm dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder-gray-400"
                     defaultValue={'DEFAULT'}
                   >
                     <option value="DEFAULT" disabled>
@@ -573,14 +573,14 @@ export default function Page() {
               <div>
                 <label
                   htmlFor="nomination"
-                  className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-green"
+                  className="text-p1-darkgreen dark:text-p1-green block text-left text-sm font-medium"
                 >
                   Номинация
                 </label>
                 <input
                   type="text"
                   id="nomination"
-                  className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder-gray-400 dark:focus:border-p1-green dark:focus:ring-p1-green"
+                  className="bg-p2-white2 text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:focus:border-p1-green dark:focus:ring-p1-green block w-full rounded-lg border border-gray-300 p-3 text-sm dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder-gray-400"
                   placeholder="Номинация"
                   required
                 />
@@ -590,13 +590,13 @@ export default function Page() {
                 <form className="mx-auto max-w-2xl">
                   <label
                     htmlFor="Reward_Category"
-                    className="block w-full text-left text-sm font-medium text-p1-darkgreen dark:text-p1-green"
+                    className="text-p1-darkgreen dark:text-p1-green block w-full text-left text-sm font-medium"
                   >
                     Категория награды
                   </label>
                   <select
                     id="Reward"
-                    className="block w-full rounded-lg border-2 border-gray-300 bg-p2-white2 p-2.5 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder-gray-400 dark:focus:border-p1-green dark:focus:ring-p1-green"
+                    className="bg-p2-white2 text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:focus:border-p1-green dark:focus:ring-p1-green block w-full rounded-lg border-2 border-gray-300 p-2.5 text-sm dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder-gray-400"
                     defaultValue={'DEFAULT'}
                   >
                     <option value="DEFAULT" disabled>
@@ -613,13 +613,13 @@ export default function Page() {
                 <form className="mx-auto max-w-2xl">
                   <label
                     htmlFor="license"
-                    className="block w-full text-left text-sm font-medium text-p1-darkgreen dark:text-p1-green"
+                    className="text-p1-darkgreen dark:text-p1-green block w-full text-left text-sm font-medium"
                   >
                     Занятое место
                   </label>
                   <select
                     id="Place_Victory"
-                    className="block w-full rounded-lg border-2 border-gray-300 bg-p2-white2 p-2.5 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder-gray-400 dark:focus:border-p1-green dark:focus:ring-p1-green"
+                    className="bg-p2-white2 text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:focus:border-p1-green dark:focus:ring-p1-green block w-full rounded-lg border-2 border-gray-300 p-2.5 text-sm dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder-gray-400"
                     defaultValue={'DEFAULT'}
                   >
                     <option value="DEFAULT" disabled>
@@ -636,33 +636,33 @@ export default function Page() {
               <div>
                 <label
                   htmlFor="Victory_day"
-                  className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-green"
+                  className="text-p1-darkgreen dark:text-p1-green block text-left text-sm font-medium"
                 >
                   День Победы
                 </label>
                 <input
                   type="date"
                   id="victory_day"
-                  className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder-gray-400 dark:focus:border-p1-green dark:focus:ring-p1-green"
+                  className="bg-p2-white2 text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:focus:border-p1-green dark:focus:ring-p1-green block w-full rounded-lg border border-gray-300 p-3 text-sm dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder-gray-400"
                   placeholder="День Победы"
                   required
                 />
               </div>
               <div className="pb-2"></div>
-              <p className="pt-5 text-left text-xl text-p1-darkgreen dark:text-p1-green">
+              <p className="text-p1-darkgreen dark:text-p1-green pt-5 text-left text-xl">
                 Сведения о победителе:
               </p>
               <div>
                 <label
                   htmlFor="full_name"
-                  className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-green"
+                  className="text-p1-darkgreen dark:text-p1-green block text-left text-sm font-medium"
                 >
                   Полное имя
                 </label>
                 <input
                   type="text"
                   id="full_name"
-                  className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder-gray-400 dark:focus:border-p1-green dark:focus:ring-p1-green"
+                  className="bg-p2-white2 text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:focus:border-p1-green dark:focus:ring-p1-green block w-full rounded-lg border border-gray-300 p-3 text-sm dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder-gray-400"
                   placeholder="Иванов Иван Иванович"
                   required
                 />
@@ -671,14 +671,14 @@ export default function Page() {
               <div>
                 <label
                   htmlFor="nic_name"
-                  className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-green"
+                  className="text-p1-darkgreen dark:text-p1-green block text-left text-sm font-medium"
                 >
                   Ник-Имя
                 </label>
                 <input
                   type="text"
                   id="nic_name"
-                  className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder-gray-400 dark:focus:border-p1-green dark:focus:ring-p1-green"
+                  className="bg-p2-white2 text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:focus:border-p1-green dark:focus:ring-p1-green block w-full rounded-lg border border-gray-300 p-3 text-sm dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder-gray-400"
                   placeholder="Ник-Имя"
                   required
                 />
@@ -687,14 +687,14 @@ export default function Page() {
               <div>
                 <label
                   htmlFor="birthday"
-                  className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-green"
+                  className="text-p1-darkgreen dark:text-p1-green block text-left text-sm font-medium"
                 >
                   Дата рождения
                 </label>
                 <input
                   type="date"
                   id="birthday"
-                  className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder-gray-400 dark:focus:border-p1-green dark:focus:ring-p1-green"
+                  className="bg-p2-white2 text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:focus:border-p1-green dark:focus:ring-p1-green block w-full rounded-lg border border-gray-300 p-3 text-sm dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder-gray-400"
                   placeholder="Дата рождения"
                   required
                 />
@@ -703,14 +703,14 @@ export default function Page() {
               <div>
                 <label
                   htmlFor="team"
-                  className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-green"
+                  className="text-p1-darkgreen dark:text-p1-green block text-left text-sm font-medium"
                 >
                   Название команды
                 </label>
                 <input
                   type="text"
                   id="team"
-                  className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder-gray-400 dark:focus:border-p1-green dark:focus:ring-p1-green"
+                  className="bg-p2-white2 text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:focus:border-p1-green dark:focus:ring-p1-green block w-full rounded-lg border border-gray-300 p-3 text-sm dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder-gray-400"
                   placeholder="Название команды"
                   required
                 />
@@ -719,14 +719,14 @@ export default function Page() {
               <div>
                 <label
                   htmlFor="tag"
-                  className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-green"
+                  className="text-p1-darkgreen dark:text-p1-green block text-left text-sm font-medium"
                 >
                   Хэш-Тэг
                 </label>
                 <input
                   type="text"
                   id="tag"
-                  className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder-gray-400 dark:focus:border-p1-green dark:focus:ring-p1-green"
+                  className="bg-p2-white2 text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:focus:border-p1-green dark:focus:ring-p1-green block w-full rounded-lg border border-gray-300 p-3 text-sm dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder-gray-400"
                   placeholder="Хэш-Тэг"
                   required
                 />
@@ -735,14 +735,14 @@ export default function Page() {
               <div>
                 <label
                   htmlFor="geolocation"
-                  className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-green"
+                  className="text-p1-darkgreen dark:text-p1-green block text-left text-sm font-medium"
                 >
                   Геолокация
                 </label>
                 <input
                   type="text"
                   id="geolocation"
-                  className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder-gray-400 dark:focus:border-p1-green dark:focus:ring-p1-green"
+                  className="bg-p2-white2 text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:focus:border-p1-green dark:focus:ring-p1-green block w-full rounded-lg border border-gray-300 p-3 text-sm dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder-gray-400"
                   placeholder="Геолокация"
                   required
                 />
@@ -752,19 +752,19 @@ export default function Page() {
               <div>
                 <label
                   htmlFor="message"
-                  className="mb-2 block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-green"
+                  className="text-p1-darkgreen dark:text-p1-green mb-2 block text-left text-sm font-medium"
                 >
                   Описание
                 </label>
                 <textarea
                   id="message"
                   rows={4}
-                  className="block w-full rounded-lg border-2 border-gray-300 bg-p2-white2 p-2.5 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
+                  className="bg-p2-white2 text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange block w-full rounded-lg border-2 border-gray-300 p-2.5 text-sm dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
                   placeholder="Описание"
                 ></textarea>
               </div>
               <div className="pb-5"></div>
-              <div className="flex items-center text-p1-white">
+              <div className="text-p1-white flex items-center">
                 <input
                   checked={check}
                   id="checkbox"
@@ -773,17 +773,17 @@ export default function Page() {
                   }}
                   type="checkbox"
                   value=""
-                  className="focus:ring-p1-cian h-4 w-4 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                  className="focus:ring-p1-cian text-p1-darkgreen dark:accent-p1-deepdarkgreen dark:focus:ring-p1-green h-4 w-4 rounded border-gray-300 bg-gray-100 focus:ring-2 dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800"
                 />
                 <label
                   htmlFor="checkbox"
-                  className="ms-2 text-sm font-medium text-p1-darkgreen dark:text-p1-green"
+                  className="text-p1-darkgreen dark:text-p1-green ms-2 text-sm font-medium"
                 >
                   Я согласен на обработку персональных данных.
                 </label>
               </div>
               <div className="pb-8"></div>
-              <button className="rounded-3xl border-2 border-p2-orange bg-p2-white2 px-20 py-8 text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p2-orange hover:text-p1-white dark:border-amber-800 dark:bg-amber-950 dark:text-amber-300 dark:hover:border-amber-700 dark:hover:bg-amber-900 dark:hover:text-amber-300">
+              <button className="border-p2-orange bg-p2-white2 text-p1-darkgreen hover:bg-p2-orange hover:text-p1-white rounded-3xl border-2 px-20 py-8 shadow-lg transition-all delay-75 duration-300 ease-in-out dark:border-amber-800 dark:bg-amber-950 dark:text-amber-300 dark:hover:border-amber-700 dark:hover:bg-amber-900 dark:hover:text-amber-300">
                 Создать NFT Награду
               </button>
               <div className="pb-8"></div>

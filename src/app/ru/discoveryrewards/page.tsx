@@ -12,45 +12,45 @@ export default function Page() {
 
       {/* //Rewards*/}
       <div className="flex flex-wrap justify-center self-center md:flex-nowrap md:justify-between">
-        <div className="px-2 text-xl font-semibold text-p1-darkgreen md:pt-2 md:text-3xl dark:text-p1-green">
+        <div className="text-p1-darkgreen dark:text-p1-green px-2 text-xl font-semibold md:pt-2 md:text-3xl">
           Awards NFT
         </div>
-        <div className="px-2 text-xl font-semibold text-p1-darkgreen md:pt-2 md:text-3xl dark:text-p1-green">
+        <div className="text-p1-darkgreen dark:text-p1-green px-2 text-xl font-semibold md:pt-2 md:text-3xl">
           Страница исследователя
         </div>
       </div>
       <div id="1"></div>
-      <div className="rounded-3xl border-p1-darkgreen hover:border-p1-gray md:border-4 md:shadow-lg dark:border-p1-green dark:hover:border-p1-darkgreen">
+      <div className="border-p1-darkgreen hover:border-p1-gray dark:border-p1-green dark:hover:border-p1-darkgreen rounded-3xl md:border-4 md:shadow-lg">
         <div className="flex flex-wrap justify-center px-2 pt-2 md:flex-nowrap">
           <div>
-            <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
+            <p className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan p-2 text-base md:text-xl">
               Невзаимозаменяемый токен (NFT награда), вручаемый Промоутером (Организатором) в рамках
               мероприятия (соревнования).
             </p>
-            <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
+            <p className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan p-2 text-base md:text-xl">
               Awards NFT можно коллекционировать, продавать, передавать.
             </p>
-            <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
+            <p className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan p-2 text-base md:text-xl">
               При создании NFT прикрепляется медиаконтент.
             </p>
-            <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
+            <p className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan p-2 text-base md:text-xl">
               Токен содержит ссылки на официальные документы: Итоговый протокол мероприятия, фото и
               видео контент.
             </p>
-            <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
+            <p className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan p-2 text-base md:text-xl">
               Все данные хранятся в IPFS сети и защищены от несанкционированного уничтожения.
             </p>
-            <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
+            <p className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan p-2 text-base md:text-xl">
               Доступ к созданию токена имеют держатели токенов Promoter license, National license,
               Global license и Management GAA.
             </p>
 
-            <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
+            <p className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan p-2 text-base md:text-xl">
               Данный токен имеет характеристику &quot;Burnable&quot; - собственник смарт-контракта
               может уничтожить любой токен из коллекции. Эта мера необходима для поддержания
               актуальности коллекции.
             </p>
-            <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
+            <p className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan p-2 text-base md:text-xl">
               Собственник смарт-контракта вправе уничтожить NFT в случае создания NFT, не
               соответствующих правилам проекта.
             </p>
@@ -59,7 +59,7 @@ export default function Page() {
           <div className="object-center p-2">
             <div className="">
               <Image
-                className="relative inline-block rounded-3xl border-2 border-p2-orange object-center shadow-lg dark:border-p1-green"
+                className="border-p2-orange dark:border-p1-green relative inline-block rounded-3xl border-2 object-center shadow-lg"
                 width={2000}
                 height={2000}
                 src="/Hero/Rewards.png"
@@ -71,20 +71,20 @@ export default function Page() {
               >
                 <Link
                   href="/discoveryrewards"
-                  className="w-full rounded-l-xl border border-gray-200 bg-white p-5 text-center text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-yellow-800 focus:text-p1-white focus:ring-2 focus:ring-yellow-800 md:text-xl dark:border-p1-green dark:bg-p1-darkgreen dark:text-p1-cyan dark:hover:border-gray-300 dark:hover:bg-amber-700 dark:hover:text-gray-100 dark:focus:bg-amber-700 dark:focus:text-p1-white dark:focus:ring-amber-900"
+                  className="text-p1-darkgreen hover:text-p1-darkgreen focus:text-p1-white dark:border-p1-green dark:bg-p1-darkgreen dark:text-p1-cyan dark:focus:text-p1-white w-full rounded-l-xl border border-gray-200 bg-white p-5 text-center text-sm font-medium hover:bg-gray-100 focus:z-10 focus:bg-yellow-800 focus:ring-2 focus:ring-yellow-800 md:text-xl dark:hover:border-gray-300 dark:hover:bg-amber-700 dark:hover:text-gray-100 dark:focus:bg-amber-700 dark:focus:ring-amber-900"
                 >
                   3 место
                 </Link>
                 <Link
                   href="/discoveryrewards"
-                  className="w-full border border-gray-200 bg-white p-5 text-center text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-p2-orange focus:text-p1-white focus:ring-2 focus:ring-p2-orange md:text-xl dark:border-p1-green dark:bg-p1-darkgreen dark:text-p1-cyan dark:hover:border-gray-300 dark:hover:bg-amber-600 dark:hover:text-amber-100 dark:focus:bg-amber-600 dark:focus:text-amber-100 dark:focus:ring-amber-600"
+                  className="text-p1-darkgreen hover:text-p1-darkgreen focus:bg-p2-orange focus:text-p1-white focus:ring-p2-orange dark:border-p1-green dark:bg-p1-darkgreen dark:text-p1-cyan w-full border border-gray-200 bg-white p-5 text-center text-sm font-medium hover:bg-gray-100 focus:z-10 focus:ring-2 md:text-xl dark:hover:border-gray-300 dark:hover:bg-amber-600 dark:hover:text-amber-100 dark:focus:bg-amber-600 dark:focus:text-amber-100 dark:focus:ring-amber-600"
                 >
                   1 место
                 </Link>
 
                 <Link
                   href="/discoveryrewards"
-                  className="w-full rounded-r-xl border border-gray-200 bg-white p-5 text-center text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-p1-gray focus:text-p1-white focus:ring-2 focus:ring-p1-gray md:text-xl dark:border-p1-green dark:bg-p1-darkgreen dark:text-p1-cyan dark:hover:border-gray-300 dark:hover:bg-gray-500 dark:hover:text-white dark:focus:bg-stone-600 dark:focus:text-stone-100 dark:focus:ring-stone-600"
+                  className="text-p1-darkgreen hover:text-p1-darkgreen focus:bg-p1-gray focus:text-p1-white focus:ring-p1-gray dark:border-p1-green dark:bg-p1-darkgreen dark:text-p1-cyan w-full rounded-r-xl border border-gray-200 bg-white p-5 text-center text-sm font-medium hover:bg-gray-100 focus:z-10 focus:ring-2 md:text-xl dark:hover:border-gray-300 dark:hover:bg-gray-500 dark:hover:text-white dark:focus:bg-stone-600 dark:focus:text-stone-100 dark:focus:ring-stone-600"
                 >
                   2 место
                 </Link>
@@ -94,11 +94,11 @@ export default function Page() {
               <form className="mx-auto max-w-2xl">
                 <label
                   htmlFor="license"
-                  className="block w-full text-left text-sm font-medium text-p1-darkgreen dark:text-p1-white"
+                  className="text-p1-darkgreen dark:text-p1-white block w-full text-left text-sm font-medium"
                 ></label>
                 <select
                   id="license"
-                  className="block w-full rounded-lg border-2 border-gray-300 bg-p2-white2 p-2.5 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:placeholder-p1-deepdarkgreen dark:focus:border-p1-green dark:focus:ring-p1-green"
+                  className="bg-p2-white2 text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:placeholder-p1-deepdarkgreen dark:focus:border-p1-green dark:focus:ring-p1-green block w-full rounded-lg border-2 border-gray-300 p-2.5 text-sm"
                   defaultValue={'DEFAULT'}
                 >
                   <option value="DEFAULT" disabled>
@@ -120,7 +120,7 @@ export default function Page() {
                 <div className="justify-self-center">
                   <Link
                     href="/mintrewards"
-                    className="inline-block w-full rounded-3xl border-2 border-p2-orange bg-p2-white2 px-10 py-8 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p2-orange hover:text-p1-white dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:border-p2-orange dark:hover:bg-amber-600 dark:hover:text-amber-100"
+                    className="border-p2-orange bg-p2-white2 text-p1-darkgreen hover:bg-p2-orange hover:text-p1-white dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:border-p2-orange inline-block w-full rounded-3xl border-2 px-10 py-8 text-center shadow-lg transition-all delay-75 duration-300 ease-in-out dark:hover:bg-amber-600 dark:hover:text-amber-100"
                   >
                     Создай NFT
                   </Link>
@@ -135,12 +135,12 @@ export default function Page() {
 
       {/* //Способы получения Rewards*/}
       <div id="3"></div>
-      <div className="px-2 text-center text-xl font-semibold text-p1-darkgreen md:pt-2 md:text-3xl dark:text-p1-green dark:hover:text-p1-cyan">
+      <div className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan px-2 text-center text-xl font-semibold md:pt-2 md:text-3xl">
         Способы получения Awards NFT
       </div>
 
-      <div className="m-2 rounded-3xl border-p1-darkgreen p-2 md:border-4 md:shadow-lg dark:border-p1-green dark:hover:border-p1-darkgreen">
-        <div className="pt-2 text-center text-base text-p1-darkgreen md:text-2xl dark:text-p1-green dark:hover:text-p1-cyan">
+      <div className="border-p1-darkgreen dark:border-p1-green dark:hover:border-p1-darkgreen m-2 rounded-3xl p-2 md:border-4 md:shadow-lg">
+        <div className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan pt-2 text-center text-base md:text-2xl">
           Награды могут создавать и вручать держатели NFT
           <p className="pb-2 text-center text-base md:text-2xl">
             Promoter license, National license, Global license, Management GAA
@@ -188,7 +188,7 @@ export default function Page() {
           </div>
           <div className="place-self-center">
             <Image
-              className="relative inline-block w-max rounded-3xl border-2 border-p2-orange shadow-lg"
+              className="border-p2-orange relative inline-block w-max rounded-3xl border-2 shadow-lg"
               width={4000}
               height={4000}
               src="/Hero/Rewards.png"
@@ -234,13 +234,13 @@ export default function Page() {
             />
           </div>
           <div></div>
-          <div className="text-centre relative place-self-center text-3xl font-bold text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
+          <div className="text-centre text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan relative place-self-center text-3xl font-bold">
             +
           </div>
           <div></div>
           <div></div>
           <div></div>
-          <div className="text-centre relative place-self-center text-3xl font-bold text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
+          <div className="text-centre text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan relative place-self-center text-3xl font-bold">
             +
           </div>
 
@@ -286,7 +286,7 @@ export default function Page() {
           <div></div>
           <div>
             <Image
-              className="relative inline-block w-max rounded-3xl border-2 border-p2-orange shadow-lg dark:border-p1-green"
+              className="border-p2-orange dark:border-p1-green relative inline-block w-max rounded-3xl border-2 shadow-lg"
               width={1000}
               height={1000}
               src="/HeroNFT/Drivers/Driver4.png"
@@ -295,7 +295,7 @@ export default function Page() {
           </div>
           <div>
             <Image
-              className="relative inline-block w-max rounded-3xl border-2 border-p2-orange shadow-lg dark:border-p1-green"
+              className="border-p2-orange dark:border-p1-green relative inline-block w-max rounded-3xl border-2 shadow-lg"
               width={1000}
               height={1000}
               src="/HeroNFT/Team's members/TeamMember1.png"
@@ -304,7 +304,7 @@ export default function Page() {
           </div>
           <div>
             <Image
-              className="relative inline-block w-max rounded-3xl border-2 border-p2-orange shadow-lg dark:border-p1-green"
+              className="border-p2-orange dark:border-p1-green relative inline-block w-max rounded-3xl border-2 shadow-lg"
               width={1000}
               height={1000}
               src="/HeroNFT/Collectors/Collector1.png"
@@ -313,7 +313,7 @@ export default function Page() {
           </div>
           <div>
             <Image
-              className="relative inline-block w-max rounded-3xl border-2 border-p2-orange shadow-lg dark:border-p1-green"
+              className="border-p2-orange dark:border-p1-green relative inline-block w-max rounded-3xl border-2 shadow-lg"
               width={1000}
               height={1000}
               src="/Cars/car.png"

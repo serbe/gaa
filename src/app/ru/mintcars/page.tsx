@@ -20,14 +20,14 @@ export default function Page() {
           Страница создания NFT
         </div>
       </div>
-      <section className="flex flex-wrap rounded-3xl border-cyan-700 bg-p1-white p-2 md:flex-nowrap md:border-4 md:shadow-lg dark:bg-p1-deepdarkgreen">
+      <section className="bg-p1-white dark:bg-p1-deepdarkgreen flex flex-wrap rounded-3xl border-cyan-700 p-2 md:flex-nowrap md:border-4 md:shadow-lg">
         <div className="grid grid-cols-1 md:w-max md:grid-cols-2 md:gap-4">
           <div className="">
             <div className="text-center md:text-2xl lg:text-2xl">
               <div className="">
                 <div className="flex flex-wrap px-2 pt-2 md:flex-nowrap">
                   <div className="">
-                    <div className="text-center text-base font-semibold text-p1-darkgreen md:text-xl dark:text-p1-green">
+                    <div className="text-p1-darkgreen dark:text-p1-green text-center text-base font-semibold md:text-xl">
                       <p>Присоединяйтесь к нам</p>
                       <p>Создай NFT спортивного/раритетного автомобиля</p>
                     </div>
@@ -42,7 +42,7 @@ export default function Page() {
                             src="/Cars/Car.png"
                             alt="Car"
                           />
-                          <button className="w-full rounded-3xl border-2 border-cyan-700 bg-p2-white2 p-8 text-center text-base font-normal text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-cyan-700 hover:text-p1-white md:px-1 md:py-2 md:text-xs dark:border-sky-800 dark:bg-sky-950 dark:text-sky-300 dark:hover:border-sky-700 dark:hover:bg-sky-900 dark:hover:text-sky-300">
+                          <button className="bg-p2-white2 text-p1-darkgreen hover:text-p1-white w-full rounded-3xl border-2 border-cyan-700 p-8 text-center text-base font-normal shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-cyan-700 md:px-1 md:py-2 md:text-xs dark:border-sky-800 dark:bg-sky-950 dark:text-sky-300 dark:hover:border-sky-700 dark:hover:bg-sky-900 dark:hover:text-sky-300">
                             Сгенерировать изображение
                           </button>
                         </div>
@@ -51,7 +51,7 @@ export default function Page() {
                             htmlFor="dropzone-file"
                             className="flex h-56 w-full cursor-pointer flex-col items-center justify-center rounded-3xl border-2 border-dashed border-gray-300 bg-gray-50 shadow-lg hover:bg-gray-100 dark:border-gray-600 dark:bg-gray-700 dark:hover:border-gray-500 dark:hover:bg-gray-800"
                           >
-                            <div className="flex flex-col items-center justify-center pb-6 pt-5">
+                            <div className="flex flex-col items-center justify-center pt-5 pb-6">
                               <svg
                                 className="mb-4 h-8 w-8 text-gray-500 dark:text-gray-400"
                                 aria-hidden="true"
@@ -89,7 +89,7 @@ export default function Page() {
                             htmlFor="dropzone-file"
                             className="flex h-56 w-full cursor-pointer flex-col items-center justify-center rounded-3xl border-2 border-dashed border-gray-300 bg-gray-50 shadow-lg hover:bg-gray-100 dark:border-gray-600 dark:bg-gray-700 dark:hover:border-gray-500 dark:hover:bg-gray-800"
                           >
-                            <div className="flex flex-col items-center justify-center pb-6 pt-5">
+                            <div className="flex flex-col items-center justify-center pt-5 pb-6">
                               <svg
                                 className="mb-4 h-8 w-8 text-gray-500 dark:text-gray-400"
                                 aria-hidden="true"
@@ -126,7 +126,7 @@ export default function Page() {
                         <div className="accent-sky-700">
                           <label
                             htmlFor="default-range"
-                            className="mb-2 mt-5 block text-2xl font-medium text-gray-900 dark:text-sky-300"
+                            className="mt-5 mb-2 block text-2xl font-medium text-gray-900 dark:text-sky-300"
                           >
                             {value}
                           </label>
@@ -145,21 +145,21 @@ export default function Page() {
                       </div>
                     </div>
                     <div id="1" className="md:w-full">
-                      <p className="p-2 pt-8 text-base text-p1-darkgreen md:text-2xl dark:text-p1-green">
+                      <p className="text-p1-darkgreen dark:text-p1-green p-2 pt-8 text-base md:text-2xl">
                         Максимальное количество: 100 Cars NFT за транзакцию
                       </p>
 
-                      <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green">
+                      <p className="text-p1-darkgreen dark:text-p1-green p-2 text-base md:text-xl">
                         Созданные Вами NFT автоматически попадут в глобальную коллекцию GAA
                       </p>
-                      <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green">
+                      <p className="text-p1-darkgreen dark:text-p1-green p-2 text-base md:text-xl">
                         это единый сборник мирового сообщества
                       </p>
-                      <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green">
+                      <p className="text-p1-darkgreen dark:text-p1-green p-2 text-base md:text-xl">
                         Если вы планируете раздать или продать свои NFT, вы можете сделать несколько
                         NFT одновременно
                       </p>
-                      <p className="px-2 pt-2 text-base font-semibold text-p1-darkgreen md:pb-72 md:text-2xl dark:text-p1-green">
+                      <p className="text-p1-darkgreen dark:text-p1-green px-2 pt-2 text-base font-semibold md:pb-72 md:text-2xl">
                         Это Ваш способ привлечения инвестиций
                       </p>
                     </div>
@@ -172,7 +172,7 @@ export default function Page() {
           <div>
             <div className="flex flex-col object-right p-2 md:w-full">
               <div id="2">
-                <p className="text-center text-xl text-p1-darkgreen md:text-left md:text-2xl dark:text-p1-green">
+                <p className="text-p1-darkgreen dark:text-p1-green text-center text-xl md:text-left md:text-2xl">
                   Заполни все поля - эти метаданные будут храниться в блокчейне
                 </p>
               </div>
@@ -180,14 +180,14 @@ export default function Page() {
               <div>
                 <label
                   htmlFor="car_category"
-                  className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-green"
+                  className="text-p1-darkgreen dark:text-p1-green block text-left text-sm font-medium"
                 >
                   Категория Авто
                 </label>
                 <input
                   type="text"
                   id="car_category"
-                  className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-gray-400 dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                  className="bg-p2-white2 text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:focus:border-p2-orange dark:focus:ring-p2-orange block w-full rounded-lg border border-gray-300 p-3 text-sm dark:border-gray-600 dark:bg-gray-700 dark:text-gray-400 dark:placeholder-gray-400"
                   placeholder="Дрифт/Dragster/Oldtimer/Stance/Sport/Rarity"
                   required
                 />
@@ -196,14 +196,14 @@ export default function Page() {
               <div>
                 <label
                   htmlFor="first_name"
-                  className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-green"
+                  className="text-p1-darkgreen dark:text-p1-green block text-left text-sm font-medium"
                 >
                   Самодельный или Оригональный
                 </label>
                 <input
                   type="text"
                   id="custom_orig"
-                  className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-gray-400 dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                  className="bg-p2-white2 text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:focus:border-p2-orange dark:focus:ring-p2-orange block w-full rounded-lg border border-gray-300 p-3 text-sm dark:border-gray-600 dark:bg-gray-700 dark:text-gray-400 dark:placeholder-gray-400"
                   placeholder="Самодельный или Оригональный"
                   required
                 />
@@ -212,14 +212,14 @@ export default function Page() {
               <div>
                 <label
                   htmlFor="full_name"
-                  className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-green"
+                  className="text-p1-darkgreen dark:text-p1-green block text-left text-sm font-medium"
                 >
                   Полное имя
                 </label>
                 <input
                   type="text"
                   id="full_name"
-                  className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-gray-400 dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                  className="bg-p2-white2 text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:focus:border-p2-orange dark:focus:ring-p2-orange block w-full rounded-lg border border-gray-300 p-3 text-sm dark:border-gray-600 dark:bg-gray-700 dark:text-gray-400 dark:placeholder-gray-400"
                   placeholder="Полное имя создателя/владельца"
                   required
                 />
@@ -229,14 +229,14 @@ export default function Page() {
               <div>
                 <label
                   htmlFor="nic_name"
-                  className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-green"
+                  className="text-p1-darkgreen dark:text-p1-green block text-left text-sm font-medium"
                 >
                   Ник-Имя
                 </label>
                 <input
                   type="text"
                   id="nic_name"
-                  className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-gray-400 dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                  className="bg-p2-white2 text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:focus:border-p2-orange dark:focus:ring-p2-orange block w-full rounded-lg border border-gray-300 p-3 text-sm dark:border-gray-600 dark:bg-gray-700 dark:text-gray-400 dark:placeholder-gray-400"
                   placeholder="Ник-Имя"
                   required
                 />
@@ -246,14 +246,14 @@ export default function Page() {
               <div>
                 <label
                   htmlFor="birthday"
-                  className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-green"
+                  className="text-p1-darkgreen dark:text-p1-green block text-left text-sm font-medium"
                 >
                   Дата рождения
                 </label>
                 <input
                   type="date"
                   id="birthday"
-                  className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-gray-400 dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                  className="bg-p2-white2 text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:focus:border-p2-orange dark:focus:ring-p2-orange block w-full rounded-lg border border-gray-300 p-3 text-sm dark:border-gray-600 dark:bg-gray-700 dark:text-gray-400 dark:placeholder-gray-400"
                   placeholder="Дата рождения"
                   required
                 />
@@ -263,14 +263,14 @@ export default function Page() {
               <div>
                 <label
                   htmlFor="brand"
-                  className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-green"
+                  className="text-p1-darkgreen dark:text-p1-green block text-left text-sm font-medium"
                 >
                   Марка авто
                 </label>
                 <input
                   type="text"
                   id="Brand"
-                  className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-gray-400 dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                  className="bg-p2-white2 text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:focus:border-p2-orange dark:focus:ring-p2-orange block w-full rounded-lg border border-gray-300 p-3 text-sm dark:border-gray-600 dark:bg-gray-700 dark:text-gray-400 dark:placeholder-gray-400"
                   placeholder="Марка авто"
                   required
                 />
@@ -279,14 +279,14 @@ export default function Page() {
               <div>
                 <label
                   htmlFor="model"
-                  className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-green"
+                  className="text-p1-darkgreen dark:text-p1-green block text-left text-sm font-medium"
                 >
                   Модель авто
                 </label>
                 <input
                   type="text"
                   id="model"
-                  className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-gray-400 dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                  className="bg-p2-white2 text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:focus:border-p2-orange dark:focus:ring-p2-orange block w-full rounded-lg border border-gray-300 p-3 text-sm dark:border-gray-600 dark:bg-gray-700 dark:text-gray-400 dark:placeholder-gray-400"
                   placeholder="Модель авто"
                   required
                 />
@@ -295,14 +295,14 @@ export default function Page() {
               <div>
                 <label
                   htmlFor="year_made"
-                  className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-green"
+                  className="text-p1-darkgreen dark:text-p1-green block text-left text-sm font-medium"
                 >
                   Год создания
                 </label>
                 <input
                   type="text"
                   id="contry"
-                  className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-gray-400 dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                  className="bg-p2-white2 text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:focus:border-p2-orange dark:focus:ring-p2-orange block w-full rounded-lg border border-gray-300 p-3 text-sm dark:border-gray-600 dark:bg-gray-700 dark:text-gray-400 dark:placeholder-gray-400"
                   placeholder="Год создания"
                   required
                 />
@@ -311,14 +311,14 @@ export default function Page() {
               <div>
                 <label
                   htmlFor="engine"
-                  className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-green"
+                  className="text-p1-darkgreen dark:text-p1-green block text-left text-sm font-medium"
                 >
                   Двигатель
                 </label>
                 <input
                   type="text"
                   id="engine"
-                  className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-gray-400 dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                  className="bg-p2-white2 text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:focus:border-p2-orange dark:focus:ring-p2-orange block w-full rounded-lg border border-gray-300 p-3 text-sm dark:border-gray-600 dark:bg-gray-700 dark:text-gray-400 dark:placeholder-gray-400"
                   placeholder="Двигатель"
                   required
                 />
@@ -327,14 +327,14 @@ export default function Page() {
               <div>
                 <label
                   htmlFor="hp"
-                  className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-green"
+                  className="text-p1-darkgreen dark:text-p1-green block text-left text-sm font-medium"
                 >
                   Лошадиных сил
                 </label>
                 <input
                   type="text"
                   id="contry"
-                  className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-gray-400 dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                  className="bg-p2-white2 text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:focus:border-p2-orange dark:focus:ring-p2-orange block w-full rounded-lg border border-gray-300 p-3 text-sm dark:border-gray-600 dark:bg-gray-700 dark:text-gray-400 dark:placeholder-gray-400"
                   placeholder="Лошадиных сил"
                   required
                 />
@@ -344,14 +344,14 @@ export default function Page() {
               <div>
                 <label
                   htmlFor="contry"
-                  className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-green"
+                  className="text-p1-darkgreen dark:text-p1-green block text-left text-sm font-medium"
                 >
                   Страна
                 </label>
                 <input
                   type="text"
                   id="contry"
-                  className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-gray-400 dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                  className="bg-p2-white2 text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:focus:border-p2-orange dark:focus:ring-p2-orange block w-full rounded-lg border border-gray-300 p-3 text-sm dark:border-gray-600 dark:bg-gray-700 dark:text-gray-400 dark:placeholder-gray-400"
                   placeholder="Страна"
                   required
                 />
@@ -360,14 +360,14 @@ export default function Page() {
               <div>
                 <label
                   htmlFor="first_name"
-                  className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-green"
+                  className="text-p1-darkgreen dark:text-p1-green block text-left text-sm font-medium"
                 >
                   Город
                 </label>
                 <input
                   type="text"
                   id="city"
-                  className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-gray-400 dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                  className="bg-p2-white2 text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:focus:border-p2-orange dark:focus:ring-p2-orange block w-full rounded-lg border border-gray-300 p-3 text-sm dark:border-gray-600 dark:bg-gray-700 dark:text-gray-400 dark:placeholder-gray-400"
                   placeholder="Город"
                   required
                 />
@@ -378,14 +378,14 @@ export default function Page() {
               <div>
                 <label
                   htmlFor="message"
-                  className="mb-2 block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-green"
+                  className="text-p1-darkgreen dark:text-p1-green mb-2 block text-left text-sm font-medium"
                 >
                   Описание
                 </label>
                 <textarea
                   id="message"
                   rows={4}
-                  className="block w-full rounded-lg border-2 border-gray-300 bg-p2-white2 p-2.5 text-sm text-p1-darkgreen focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 dark:text-gray-400 dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
+                  className="bg-p2-white2 text-p1-darkgreen block w-full rounded-lg border-2 border-gray-300 p-2.5 text-sm focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 dark:text-gray-400 dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
                   placeholder="Описание"
                 ></textarea>
               </div>
@@ -399,18 +399,18 @@ export default function Page() {
                   }}
                   type="checkbox"
                   value=""
-                  className="focus:ring-p1-cian h-4 w-4 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                  className="focus:ring-p1-cian text-p1-darkgreen dark:accent-p1-deepdarkgreen dark:focus:ring-p1-green h-4 w-4 rounded border-gray-300 bg-gray-100 focus:ring-2 dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800"
                 />
                 <label
                   htmlFor="checkbox"
-                  className="ms-2 text-sm font-medium text-p1-darkgreen dark:text-p1-green"
+                  className="text-p1-darkgreen dark:text-p1-green ms-2 text-sm font-medium"
                 >
                   Я согласен на обработку персональных данных.
                 </label>
               </div>
               <div id="3" className="pb-8"></div>
 
-              <button className="rounded-3xl border-2 border-p1-darkgreen bg-p2-white2 px-20 py-8 text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-cyan-700 hover:text-p1-white dark:border-sky-800 dark:bg-sky-950 dark:text-sky-300 dark:hover:border-sky-700 dark:hover:bg-sky-900 dark:hover:text-sky-300">
+              <button className="border-p1-darkgreen bg-p2-white2 text-p1-darkgreen hover:text-p1-white rounded-3xl border-2 px-20 py-8 shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-cyan-700 dark:border-sky-800 dark:bg-sky-950 dark:text-sky-300 dark:hover:border-sky-700 dark:hover:bg-sky-900 dark:hover:text-sky-300">
                 Создать NFT Автомобиля
               </button>
               <div className="pb-8"></div>

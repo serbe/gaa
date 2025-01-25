@@ -27,7 +27,7 @@ export default function Page() {
     <div className="mx-auto max-w-7xl font-serif">
       <JumpButton points={jumpPoints} />
 
-      <div className="p-2 text-center text-xl font-bold text-p1-darkgreen drop-shadow-2xl md:text-3xl dark:text-p1-green dark:hover:text-p1-cyan">
+      <div className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan p-2 text-center text-xl font-bold drop-shadow-2xl md:text-3xl">
         Дорожная карта
       </div>
 
@@ -36,7 +36,7 @@ export default function Page() {
         <div className="md:basis-3/5">
           <div
             id="1"
-            className="px-2 text-center text-base font-semibold text-p1-darkgreen md:pt-6 md:text-xl dark:text-p1-green dark:hover:text-p1-cyan"
+            className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan px-2 text-center text-base font-semibold md:pt-6 md:text-xl"
           >
             Зарождение и обсуждение идеи объединения людей в сообщество посредством технологий
             Blockchain и NFT
@@ -50,7 +50,7 @@ export default function Page() {
           <Image width={150} height={600} src="/Hero/6.png" alt="Hero6" />
         </div>
         <div className="basis-4/5 md:basis-3/5">
-          <div className="space-y-4 rounded-3xl border-p1-darkgreen p-2 text-left text-base text-p1-darkgreen hover:border-p2-orange md:border-4 md:p-5 md:text-xl md:hover:shadow-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
+          <div className="border-p1-darkgreen text-p1-darkgreen hover:border-p2-orange dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan space-y-4 rounded-3xl p-2 text-left text-base md:border-4 md:p-5 md:text-xl md:hover:shadow-xl">
             <div className="pb-5">
               Реализация глобальной идеи Web3 на сегодняшний день до сих пор находится на ранней
               стадии и еще не получила должного внимания в обществе.
@@ -72,10 +72,10 @@ export default function Page() {
       </div>
 
       <div className="flex flex-row justify-center pb-2">
-        <div className="md:basis-5/5 md:basis-3/5">
+        <div className="md:basis-3/5">
           <div
             id="2"
-            className="px-2 text-center text-base font-semibold text-p1-darkgreen md:pt-4 md:text-xl dark:text-p1-green dark:hover:text-p1-cyan"
+            className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan px-2 text-center text-base font-semibold md:pt-4 md:text-xl"
           >
             Начало проекта
             <p>&quot;Global Automotive Association&quot;</p>
@@ -85,7 +85,7 @@ export default function Page() {
 
       <div className="flex flex-row justify-center pb-2">
         <div className="md:basis-3/5">
-          <div className="space-y-4 rounded-3xl border-p1-darkgreen p-2 text-left text-base text-p1-darkgreen hover:border-p2-orange md:border-4 md:p-5 md:text-xl md:hover:shadow-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
+          <div className="border-p1-darkgreen text-p1-darkgreen hover:border-p2-orange dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan space-y-4 rounded-3xl p-2 text-left text-base md:border-4 md:p-5 md:text-xl md:hover:shadow-xl">
             Начало разработки блокчейн проекта, способного объединить людей, неравнодушных к
             автоспорту и автомобильной культуре в целом.
           </div>
@@ -93,10 +93,10 @@ export default function Page() {
       </div>
 
       <div className="flex flex-row justify-center pb-2">
-        <div className="md:basis-5/5 md:basis-3/5">
+        <div className="md:basis-3/5">
           <div
             id="3"
-            className="px-2 text-center text-base font-semibold text-p1-darkgreen md:pt-4 md:text-xl dark:text-p1-green dark:hover:text-p1-cyan"
+            className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan px-2 text-center text-base font-semibold md:pt-4 md:text-xl"
           >
             Регистрация в социальных сетях
           </div>
@@ -105,7 +105,7 @@ export default function Page() {
 
       <div className="flex flex-row justify-center pb-2">
         <div className="md:basis-3/5">
-          <div className="border-6 space-y-4 rounded-3xl border-p1-darkgreen p-2 text-left text-base text-p1-darkgreen hover:border-p2-orange md:border-4 md:text-xl md:hover:shadow-xl dark:text-p1-green dark:hover:border-p1-green">
+          <div className="border-p1-darkgreen text-p1-darkgreen hover:border-p2-orange dark:text-p1-green dark:hover:border-p1-green space-y-4 rounded-3xl border-6 p-2 text-left text-base md:border-4 md:text-xl md:hover:shadow-xl">
             <div className="grid grid-cols-2 gap-4">
               <div className="text-center">
                 <button className="mx-auto justify-center rounded-3xl duration-500 hover:scale-105">
@@ -161,7 +161,7 @@ export default function Page() {
         <div className="md:basis-3/5">
           <div
             id="4"
-            className="px-2 text-center text-base font-semibold text-p1-darkgreen md:pt-4 md:text-xl dark:text-p1-green dark:hover:text-p1-cyan"
+            className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan px-2 text-center text-base font-semibold md:pt-4 md:text-xl"
           >
             NFT коллекция RaceLads
           </div>
@@ -170,7 +170,7 @@ export default function Page() {
 
       <div className="flex flex-row justify-center p-5">
         <div className="md:basis-3/5">
-          <div className="space-y-4 rounded-3xl border-p1-darkgreen p-2 text-left text-base text-p1-darkgreen hover:border-p2-orange md:border-4 md:p-5 md:text-xl md:hover:shadow-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
+          <div className="border-p1-darkgreen text-p1-darkgreen hover:border-p2-orange dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan space-y-4 rounded-3xl p-2 text-left text-base md:border-4 md:p-5 md:text-xl md:hover:shadow-xl">
             <div className="md:px-5">
               Разработка 1-й генеративной NFT коллекции от GAA, состоящей из 10.000 цифровых героев.
             </div>
@@ -186,7 +186,7 @@ export default function Page() {
         <div className="basis-5/5 md:basis-3/5">
           <div
             id="5"
-            className="px-2 text-center text-base font-semibold text-p1-darkgreen md:pt-4 md:text-xl dark:text-p1-green dark:hover:text-p1-cyan"
+            className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan px-2 text-center text-base font-semibold md:pt-4 md:text-xl"
           >
             Интернет портал
           </div>
@@ -195,7 +195,7 @@ export default function Page() {
 
       <div className="flex flex-row justify-center pb-2">
         <div className="md:basis-3/5">
-          <div className="space-y-4 rounded-3xl border-p1-darkgreen p-2 text-left text-base text-p1-darkgreen hover:border-p2-orange md:border-4 md:p-5 md:text-xl md:hover:shadow-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
+          <div className="border-p1-darkgreen text-p1-darkgreen hover:border-p2-orange dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan space-y-4 rounded-3xl p-2 text-left text-base md:border-4 md:p-5 md:text-xl md:hover:shadow-xl">
             <div className="px-4 pb-2">
               Регистрация доменного имени и разработка сайта, где каждый сможет:
             </div>
@@ -224,7 +224,7 @@ export default function Page() {
         <div className="md:basis-3/5">
           <div
             id="6"
-            className="px-2 text-center text-base font-semibold text-p1-darkgreen md:pt-4 md:text-xl dark:text-p1-green dark:hover:text-p1-cyan"
+            className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan px-2 text-center text-base font-semibold md:pt-4 md:text-xl"
           >
             Сервисы и cоциальная значимость
           </div>
@@ -233,7 +233,7 @@ export default function Page() {
 
       <div className="flex flex-row justify-center pb-2">
         <div className="md:basis-3/5">
-          <div className="space-y-4 rounded-3xl border-p1-darkgreen p-2 text-left text-base text-p1-darkgreen hover:border-p2-orange md:border-4 md:p-5 md:text-xl md:hover:shadow-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
+          <div className="border-p1-darkgreen text-p1-darkgreen hover:border-p2-orange dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan space-y-4 rounded-3xl p-2 text-left text-base md:border-4 md:p-5 md:text-xl md:hover:shadow-xl">
             <div className="px-4 pb-2">Сервисы для участников проекта:</div>
             <ul className="list-disc px-4">
               <li>промоутеров</li>
@@ -258,7 +258,7 @@ export default function Page() {
         <div className="basis-4/5 md:basis-3/5">
           <div
             id="7"
-            className="px-2 text-center text-base font-semibold text-p1-darkgreen md:pt-4 md:text-xl dark:text-p1-green dark:hover:text-p1-cyan"
+            className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan px-2 text-center text-base font-semibold md:pt-4 md:text-xl"
           >
             Дополнительные коллекции
           </div>
@@ -267,7 +267,7 @@ export default function Page() {
 
       <div className="flex flex-row justify-center pb-2">
         <div className="md:basis-3/5">
-          <div className="sspace-y-4 rounded-3xl border-p1-darkgreen p-2 text-left text-base text-p1-darkgreen hover:border-p2-orange md:border-4 md:p-5 md:text-xl md:hover:shadow-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
+          <div className="sspace-y-4 border-p1-darkgreen text-p1-darkgreen hover:border-p2-orange dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan rounded-3xl p-2 text-left text-base md:border-4 md:p-5 md:text-xl md:hover:shadow-xl">
             <div className="px-4 pb-5">
               Проектом предусмотрен выпуск нескольких категорий NFT коллекций:
             </div>
@@ -297,7 +297,7 @@ export default function Page() {
         <div className="md:basis-3/5">
           <div
             id="8"
-            className="px-2 text-center text-base font-semibold text-p1-darkgreen md:pt-4 md:text-xl dark:text-p1-green dark:hover:text-p1-cyan"
+            className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan px-2 text-center text-base font-semibold md:pt-4 md:text-xl"
           >
             Выпуск взаимозаменяемых токенов
           </div>
@@ -306,7 +306,7 @@ export default function Page() {
 
       <div className="flex flex-row justify-center pb-2">
         <div className="md:basis-3/5">
-          <div className="space-y-4 rounded-3xl border-p1-darkgreen p-2 text-left text-base text-p1-darkgreen hover:border-p2-orange md:border-4 md:p-5 md:text-xl md:hover:shadow-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
+          <div className="border-p1-darkgreen text-p1-darkgreen hover:border-p2-orange dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan space-y-4 rounded-3xl p-2 text-left text-base md:border-4 md:p-5 md:text-xl md:hover:shadow-xl">
             <div className="px-4 pb-5">
               По достижению первоочередных целей участники сообщества (держатели NFT из коллекций
               GAA) примут решение (путем голосования) о необходимости выпуска токена в формате
@@ -323,7 +323,7 @@ export default function Page() {
         <div className="basis-5/5 md:basis-3/5">
           <div
             id="9"
-            className="px-2 text-center text-base font-semibold text-p1-darkgreen md:pt-4 md:text-xl dark:text-p1-green dark:hover:text-p1-cyan"
+            className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan px-2 text-center text-base font-semibold md:pt-4 md:text-xl"
           >
             Создание децентрализованной автономной организации (DAO)
           </div>
@@ -331,7 +331,7 @@ export default function Page() {
       </div>
       <div className="flex flex-row justify-center pb-2">
         <div className="md:basis-3/5">
-          <div className="space-y-4 rounded-3xl border-p1-darkgreen p-2 text-left text-base text-p1-darkgreen hover:border-p2-orange md:border-4 md:p-5 md:text-xl md:hover:shadow-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
+          <div className="border-p1-darkgreen text-p1-darkgreen hover:border-p2-orange dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan space-y-4 rounded-3xl p-2 text-left text-base md:border-4 md:p-5 md:text-xl md:hover:shadow-xl">
             <div className="px-4 pb-5">
               Предоставляем лидерам направлений права Global Automotive Association (GAA).
             </div>
@@ -354,7 +354,7 @@ export default function Page() {
         <div className="md:basis-3/5">
           <div
             id="10"
-            className="px-2 text-center text-base font-semibold text-p1-darkgreen md:pt-4 md:text-xl dark:text-p1-green dark:hover:text-p1-cyan"
+            className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan px-2 text-center text-base font-semibold md:pt-4 md:text-xl"
           >
             Содействие развитию молодых талантов
           </div>
@@ -364,7 +364,7 @@ export default function Page() {
       <div className="flex flex-row justify-center pb-2">
         <div className="md:basis-1/5"></div>
         <div className="basis-4/5 md:basis-3/5">
-          <div className="space-y-4 rounded-3xl border-p1-darkgreen p-2 text-left text-base text-p1-darkgreen hover:border-p2-orange md:border-4 md:p-5 md:text-xl md:hover:shadow-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
+          <div className="border-p1-darkgreen text-p1-darkgreen hover:border-p2-orange dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan space-y-4 rounded-3xl p-2 text-left text-base md:border-4 md:p-5 md:text-xl md:hover:shadow-xl">
             <div className="pb-5">
               Создаем комфортную социальную среду для организации содействия и поддержки молодых
               талантов.
@@ -378,7 +378,7 @@ export default function Page() {
         <div className="md:basis-3/5">
           <div
             id="11"
-            className="px-2 text-center text-base font-semibold text-p1-darkgreen md:pt-4 md:text-xl dark:text-p1-green dark:hover:text-p1-cyan"
+            className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan px-2 text-center text-base font-semibold md:pt-4 md:text-xl"
           >
             Сохранение культурных ценностей
           </div>
@@ -387,7 +387,7 @@ export default function Page() {
 
       <div className="flex flex-row justify-center pb-2">
         <div className="basis-4/5 md:basis-3/5">
-          <div className="space-y-4 rounded-3xl border-p1-darkgreen p-2 text-left text-base text-p1-darkgreen hover:border-p2-orange md:border-4 md:p-5 md:text-xl md:hover:shadow-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
+          <div className="border-p1-darkgreen text-p1-darkgreen hover:border-p2-orange dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan space-y-4 rounded-3xl p-2 text-left text-base md:border-4 md:p-5 md:text-xl md:hover:shadow-xl">
             <div className="md:px-5">
               Помогаем сохранять культурные ценности и памятники, поддерживаем музеи.
             </div>
@@ -405,11 +405,11 @@ export default function Page() {
         <div className="md:basis-3/5">
           <div
             id="12"
-            className="px-2 text-center text-base font-semibold text-p1-darkgreen md:pt-4 md:text-xl dark:text-p1-green dark:hover:text-p1-cyan"
+            className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan px-2 text-center text-base font-semibold md:pt-4 md:text-xl"
           >
             Организация и проведение национальных автоспортивных и автокультурных мероприятий
           </div>
-          <div className="space-y-4 rounded-3xl border-p1-darkgreen p-2 text-left text-base text-p1-darkgreen hover:border-p2-orange md:border-4 md:p-5 md:text-xl md:hover:shadow-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
+          <div className="border-p1-darkgreen text-p1-darkgreen hover:border-p2-orange dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan space-y-4 rounded-3xl p-2 text-left text-base md:border-4 md:p-5 md:text-xl md:hover:shadow-xl">
             <div className="px-4 pb-5">
               Организация и проведение национальных автоспортивных и автокультурных мероприятий,
               объединяющих разные стили и направления.
@@ -425,11 +425,11 @@ export default function Page() {
         <div className="md:basis-3/5">
           <div
             id="13"
-            className="px-2 text-center text-base font-semibold text-p1-darkgreen md:pt-4 md:text-xl dark:text-p1-green dark:hover:text-p1-cyan"
+            className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan px-2 text-center text-base font-semibold md:pt-4 md:text-xl"
           >
             Организация и проведение международных автоспортивных и автокультурных мероприятий
           </div>
-          <div className="space-y-4 rounded-3xl border-p1-darkgreen p-2 text-left text-base text-p1-darkgreen hover:border-p2-orange md:border-4 md:p-5 md:text-xl md:hover:shadow-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
+          <div className="border-p1-darkgreen text-p1-darkgreen hover:border-p2-orange dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan space-y-4 rounded-3xl p-2 text-left text-base md:border-4 md:p-5 md:text-xl md:hover:shadow-xl">
             <div className="px-4 pb-5">
               Организация и проведение международных автоспортивных и автокультурных мероприятий,
               объединяющих разные стили и направления.
@@ -442,12 +442,12 @@ export default function Page() {
         <div className="md:basis-3/5">
           <div
             id="14"
-            className="px-2 text-center text-base font-semibold text-p1-darkgreen md:pt-4 md:text-xl dark:text-p1-green dark:hover:text-p1-cyan"
+            className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan px-2 text-center text-base font-semibold md:pt-4 md:text-xl"
           >
             Организация и проведение регулярных международных автоспортивных и автокультурных
             мероприятий
           </div>
-          <div className="space-y-4 rounded-3xl border-p1-darkgreen p-2 text-left text-base text-p1-darkgreen hover:border-p2-orange md:border-4 md:p-5 md:text-xl md:hover:shadow-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
+          <div className="border-p1-darkgreen text-p1-darkgreen hover:border-p2-orange dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan space-y-4 rounded-3xl p-2 text-left text-base md:border-4 md:p-5 md:text-xl md:hover:shadow-xl">
             <div className="px-4 pb-5">
               Создание и проведение регулярных автоспортивных и автокультурных мероприятий высокого
               уровня организации.

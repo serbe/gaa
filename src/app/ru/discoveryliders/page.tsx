@@ -17,8 +17,8 @@ const Buttons = ({ lider, setter }: { lider: number; setter: (liderNumber: numbe
         id="button-drivers"
         className={
           'w-full rounded-l-2xl border ' +
-          (lider == 0 ? 'bg-red-400 text-p1-white dark:bg-red-900' : 'bg-white') +
-          ' rounded-l-xl border-red-400 bg-p2-white2 p-5 text-center text-sm font-medium text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-red-400 hover:text-p1-white focus:z-10 focus:bg-red-400 focus:text-p1-white focus:ring-2 focus:ring-red-400 md:p-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:bg-red-900 dark:hover:text-red-100 dark:focus:text-p1-cyan dark:focus:ring-p1-green'
+          (lider == 0 ? 'text-p1-white bg-red-400 dark:bg-red-900' : 'bg-white') +
+          ' bg-p2-white2 text-p1-darkgreen hover:text-p1-white focus:text-p1-white dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:focus:text-p1-cyan dark:focus:ring-p1-green rounded-l-xl border-red-400 p-5 text-center text-sm font-medium shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-red-400 focus:z-10 focus:bg-red-400 focus:ring-2 focus:ring-red-400 md:p-4 dark:hover:bg-red-900 dark:hover:text-red-100'
         }
         onClick={() => {
           setter(0);
@@ -31,7 +31,7 @@ const Buttons = ({ lider, setter }: { lider: number; setter: (liderNumber: numbe
         className={
           'w-full border ' +
           (lider == 1 ? 'bg-p3-blue text-p1-white dark:bg-p3-violet' : 'bg-white') +
-          ' border-p3-blue bg-p2-white2 p-5 text-center text-sm font-medium text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p3-blue hover:text-p1-white focus:z-10 focus:bg-p3-blue focus:text-p1-white focus:ring-2 focus:ring-p3-blue md:p-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:bg-p3-violet dark:hover:text-white dark:focus:text-white dark:focus:ring-p3-blue'
+          ' border-p3-blue bg-p2-white2 text-p1-darkgreen hover:bg-p3-blue hover:text-p1-white focus:bg-p3-blue focus:text-p1-white focus:ring-p3-blue dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:bg-p3-violet dark:focus:ring-p3-blue p-5 text-center text-sm font-medium shadow-lg transition-all delay-75 duration-300 ease-in-out focus:z-10 focus:ring-2 md:p-4 dark:hover:text-white dark:focus:text-white'
         }
         onClick={() => {
           setter(1);
@@ -43,8 +43,8 @@ const Buttons = ({ lider, setter }: { lider: number; setter: (liderNumber: numbe
         id="button-collectors"
         className={
           'w-full border ' +
-          (lider == 2 ? 'bg-stone-500 text-p1-white dark:bg-stone-700' : 'bg-white') +
-          ' border-stone-500 bg-p2-white2 p-5 text-center text-sm font-medium text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-stone-500 hover:text-p1-white focus:z-10 focus:bg-stone-500 focus:text-p1-white focus:ring-2 focus:ring-stone-500 md:p-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:bg-stone-700 dark:hover:text-stone-100 dark:focus:text-white dark:focus:ring-stone-500'
+          (lider == 2 ? 'text-p1-white bg-stone-500 dark:bg-stone-700' : 'bg-white') +
+          ' bg-p2-white2 text-p1-darkgreen hover:text-p1-white focus:text-p1-white dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan border-stone-500 p-5 text-center text-sm font-medium shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-stone-500 focus:z-10 focus:bg-stone-500 focus:ring-2 focus:ring-stone-500 md:p-4 dark:hover:bg-stone-700 dark:hover:text-stone-100 dark:focus:text-white dark:focus:ring-stone-500'
         }
         onClick={() => {
           setter(2);
@@ -56,8 +56,8 @@ const Buttons = ({ lider, setter }: { lider: number; setter: (liderNumber: numbe
         href="/discoverycars"
         className={
           'w-full rounded-r-2xl border ' +
-          (lider == 3 ? 'bg-cyan-700 text-p1-white dark:bg-cyan-900' : 'bg-white') +
-          ' rounded-r-xl border border-cyan-700 bg-p2-white2 p-5 text-center text-sm font-medium text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-cyan-700 hover:text-p1-white focus:z-10 focus:bg-cyan-700 focus:text-p1-white focus:ring-2 focus:ring-cyan-700 md:p-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:bg-cyan-900 dark:hover:text-white dark:focus:text-white dark:focus:ring-cyan-700'
+          (lider == 3 ? 'text-p1-white bg-cyan-700 dark:bg-cyan-900' : 'bg-white') +
+          ' bg-p2-white2 text-p1-darkgreen hover:text-p1-white focus:text-p1-white dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan rounded-r-xl border border-cyan-700 p-5 text-center text-sm font-medium shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-cyan-700 focus:z-10 focus:bg-cyan-700 focus:ring-2 focus:ring-cyan-700 md:p-4 dark:hover:bg-cyan-900 dark:hover:text-white dark:focus:text-white dark:focus:ring-cyan-700'
         }
       >
         Cars
@@ -88,28 +88,28 @@ export default function Page() {
             Страница исследователя
           </div>
         </div>
-        <div className="rounded-3xl border-red-400 hover:border-p1-gray md:border-4 md:shadow-lg dark:border-red-900 dark:hover:border-p1-green">
+        <div className="hover:border-p1-gray dark:hover:border-p1-green rounded-3xl border-red-400 md:border-4 md:shadow-lg dark:border-red-900">
           <div className="flex flex-wrap justify-center px-2 pt-2 md:flex-nowrap">
             <div>
-              <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
+              <p className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan p-2 text-base md:text-xl">
                 Невзаимозаменяемый токен, отражающий пилота спортивного автомобиля.
               </p>
-              <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
+              <p className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan p-2 text-base md:text-xl">
                 Каждый NFT содержит метаданные, хранящие информацию о гонщике.
               </p>
-              <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
+              <p className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan p-2 text-base md:text-xl">
                 По согласованию мы можем полностью скопировать внешность персоны.
               </p>
-              <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
+              <p className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan p-2 text-base md:text-xl">
                 Мы очень ценим вклад пилотов в развитие автоспорта и хотели бы запечатлеть каждого в
                 единой коллекции, будь то представитель кольцевых гонок или дисциплины дрифта.
               </p>
 
-              <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
+              <p className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan p-2 text-base md:text-xl">
                 Предполагается, что первоначальным владельцем NFT будет сам пилот. Позже по желанию
                 владельца токен может быть передан/продан любому человеку.
               </p>
-              <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
+              <p className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan p-2 text-base md:text-xl">
                 Это ваш способ привлечения инвестиций, за одну транзакцию вы сможете создать до 100
                 NFT - так мы планируем организовать поддержку пилотов и членов команд.
               </p>
@@ -119,7 +119,7 @@ export default function Page() {
               <div className="grid grid-cols-2 gap-2">
                 <div>
                   <Image
-                    className="relative inline-block w-max rounded-3xl border-2 border-p2-orange shadow-lg"
+                    className="border-p2-orange relative inline-block w-max rounded-3xl border-2 shadow-lg"
                     width={130}
                     height={130}
                     src="/HeroNFT/Drivers/Driver4.png"
@@ -128,7 +128,7 @@ export default function Page() {
                 </div>
                 <div>
                   <Image
-                    className="relative inline-block w-max rounded-3xl border-2 border-p2-orange shadow-lg"
+                    className="border-p2-orange relative inline-block w-max rounded-3xl border-2 shadow-lg"
                     width={130}
                     height={130}
                     src="/HeroNFT/Drivers/Driver3.png"
@@ -137,7 +137,7 @@ export default function Page() {
                 </div>
                 <div>
                   <Image
-                    className="relative inline-block w-max rounded-3xl border-2 border-p2-orange shadow-lg"
+                    className="border-p2-orange relative inline-block w-max rounded-3xl border-2 shadow-lg"
                     width={130}
                     height={130}
                     src="/HeroNFT/Drivers/Driver2.png"
@@ -146,7 +146,7 @@ export default function Page() {
                 </div>
                 <div>
                   <Image
-                    className="relative inline-block w-max rounded-3xl border-2 border-p2-orange shadow-lg"
+                    className="border-p2-orange relative inline-block w-max rounded-3xl border-2 shadow-lg"
                     width={150}
                     height={150}
                     src="/HeroNFT/Drivers/Driver1.png"
@@ -158,7 +158,7 @@ export default function Page() {
               <div className="m-1 justify-self-center p-5">
                 <Link
                   href="/mintdrivers"
-                  className="inline-block w-full place-content-center rounded-3xl border-2 border-red-400 bg-p2-white2 px-10 py-8 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-red-400 hover:text-p1-white dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:bg-red-900 dark:hover:text-p1-white"
+                  className="bg-p2-white2 text-p1-darkgreen hover:text-p1-white dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:text-p1-white inline-block w-full place-content-center rounded-3xl border-2 border-red-400 px-10 py-8 text-center shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-red-400 dark:hover:bg-red-900"
                 >
                   Создай NFT
                 </Link>
@@ -170,35 +170,35 @@ export default function Page() {
       {/* //Участники команд */}
       <div id="teammembers" className={lider == 1 ? '' : 'hidden'}>
         <div className="flex flex-wrap justify-center self-center md:flex-nowrap md:justify-between">
-          <div className="px-2 text-xl font-semibold text-p3-blue md:pt-2 md:text-3xl dark:text-blue-800">
+          <div className="text-p3-blue px-2 text-xl font-semibold md:pt-2 md:text-3xl dark:text-blue-800">
             Team&apos;s Members NFT
           </div>
-          <div className="px-2 text-xl font-semibold text-p3-blue md:pt-2 md:text-3xl dark:text-blue-800">
+          <div className="text-p3-blue px-2 text-xl font-semibold md:pt-2 md:text-3xl dark:text-blue-800">
             Страница исследователя
           </div>
         </div>
-        <div className="rounded-3xl border-p3-blue hover:border-p1-gray md:border-4 md:shadow-lg dark:border-blue-800 dark:hover:border-p1-green">
+        <div className="border-p3-blue hover:border-p1-gray dark:hover:border-p1-green rounded-3xl md:border-4 md:shadow-lg dark:border-blue-800">
           <div className="flex flex-wrap justify-center px-2 pt-2 md:flex-nowrap">
             <div>
-              <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
+              <p className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan p-2 text-base md:text-xl">
                 Невзаимозаменяемый токен, отражающий члена автоспортивной команды.
               </p>
-              <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
+              <p className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan p-2 text-base md:text-xl">
                 Каждый NFT содержит метаданные, хранящие информацию о персоне.
               </p>
-              <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
+              <p className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan p-2 text-base md:text-xl">
                 По согласованию мы можем полностью скопировать внешность персоны.
               </p>
-              <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
+              <p className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan p-2 text-base md:text-xl">
                 Участники автоспортивных команд вносят огромный вклад в развитие автоспорта, поэтому
                 мы бы хотели запечатлеть каждого из них в единой коллекции.
               </p>
 
-              <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
+              <p className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan p-2 text-base md:text-xl">
                 Предполагается, что первоначальным владельцем NFT будет сам член команды. Позже по
                 желанию владельца токен может быть передан/продан любому человеку.
               </p>
-              <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
+              <p className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan p-2 text-base md:text-xl">
                 Это ваш способ привлечения инвестиций, за одну транзакцию вы сможете создать до 100
                 NFT - так мы планируем организовать поддержку пилотов и членов команд.
               </p>
@@ -208,7 +208,7 @@ export default function Page() {
               <div className="grid grid-cols-2 gap-2">
                 <div>
                   <Image
-                    className="relative inline-block w-max rounded-3xl border-2 border-p2-orange shadow-lg"
+                    className="border-p2-orange relative inline-block w-max rounded-3xl border-2 shadow-lg"
                     width={130}
                     height={130}
                     src="/HeroNFT/Team's members/TeamMember1.png"
@@ -217,7 +217,7 @@ export default function Page() {
                 </div>
                 <div>
                   <Image
-                    className="relative inline-block w-max rounded-3xl border-2 border-p2-orange shadow-lg"
+                    className="border-p2-orange relative inline-block w-max rounded-3xl border-2 shadow-lg"
                     width={130}
                     height={130}
                     src="/HeroNFT/Team's members/TeamMember2.png"
@@ -226,7 +226,7 @@ export default function Page() {
                 </div>
                 <div>
                   <Image
-                    className="relative inline-block w-max rounded-3xl border-2 border-p2-orange shadow-lg"
+                    className="border-p2-orange relative inline-block w-max rounded-3xl border-2 shadow-lg"
                     width={130}
                     height={130}
                     src="/HeroNFT/Team's members/TeamMember3.png"
@@ -235,7 +235,7 @@ export default function Page() {
                 </div>
                 <div>
                   <Image
-                    className="relative inline-block w-max rounded-3xl border-2 border-p2-orange shadow-lg"
+                    className="border-p2-orange relative inline-block w-max rounded-3xl border-2 shadow-lg"
                     width={150}
                     height={150}
                     src="/HeroNFT/Team's members/TeamMember4.png"
@@ -248,7 +248,7 @@ export default function Page() {
                 <div className="justify-self-center">
                   <Link
                     href="/mintteammembers"
-                    className="inline-block w-full place-content-center rounded-3xl border-2 border-p3-blue bg-p2-white2 px-10 py-8 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p3-blue hover:text-p1-white dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:bg-p3-violet dark:hover:text-p1-white"
+                    className="border-p3-blue bg-p2-white2 text-p1-darkgreen hover:bg-p3-blue hover:text-p1-white dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:bg-p3-violet dark:hover:text-p1-white inline-block w-full place-content-center rounded-3xl border-2 px-10 py-8 text-center shadow-lg transition-all delay-75 duration-300 ease-in-out"
                   >
                     Создай NFT
                   </Link>
@@ -268,29 +268,29 @@ export default function Page() {
             Страница исследователя
           </div>
         </div>
-        <div className="rounded-3xl border-stone-500 hover:border-p1-gray md:border-4 md:shadow-lg dark:hover:border-p1-green">
+        <div className="hover:border-p1-gray dark:hover:border-p1-green rounded-3xl border-stone-500 md:border-4 md:shadow-lg">
           <div className="flex flex-wrap justify-center px-2 pt-2 md:flex-nowrap">
             <div>
-              <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
+              <p className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan p-2 text-base md:text-xl">
                 Невзаимозаменяемый токен, отражающий коллекционера спортивных, раритетных и редких
                 автомобилей.
               </p>
-              <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
+              <p className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan p-2 text-base md:text-xl">
                 Каждый NFT содержит метаданные, хранящие информацию о персоне.
               </p>
-              <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
+              <p className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan p-2 text-base md:text-xl">
                 По согласованию мы можем полностью скопировать внешность персоны.
               </p>
-              <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
+              <p className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan p-2 text-base md:text-xl">
                 Мы очень ценим вклад коллекционеров в историю автокультуры и автоспорта и хотели бы
                 запечатлеть историю каждого в единой коллекции.
               </p>
 
-              <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
+              <p className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan p-2 text-base md:text-xl">
                 Предполагается, что первоначальным владельцем NFT будет сам коллекционер. Позже по
                 желанию владельца токен может быть передан/продан любому человеку.
               </p>
-              <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
+              <p className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan p-2 text-base md:text-xl">
                 Это ваш способ привлечения инвестиций, за одну транзакцию вы сможете создать до 100
                 NFT, так мы планируем организовать поддержку коллекционеров и развитие направления.
               </p>
@@ -300,7 +300,7 @@ export default function Page() {
               <div className="grid grid-cols-2 gap-2">
                 <div>
                   <Image
-                    className="relative inline-block w-max rounded-3xl border-2 border-p2-orange shadow-lg"
+                    className="border-p2-orange relative inline-block w-max rounded-3xl border-2 shadow-lg"
                     width={130}
                     height={130}
                     src="/HeroNFT/Collectors/Collector1.png"
@@ -309,7 +309,7 @@ export default function Page() {
                 </div>
                 <div>
                   <Image
-                    className="relative inline-block w-max rounded-3xl border-2 border-p2-orange shadow-lg"
+                    className="border-p2-orange relative inline-block w-max rounded-3xl border-2 shadow-lg"
                     width={130}
                     height={130}
                     src="/HeroNFT/Collectors/Collector2.png"
@@ -318,7 +318,7 @@ export default function Page() {
                 </div>
                 <div>
                   <Image
-                    className="relative inline-block w-max rounded-3xl border-2 border-p2-orange shadow-lg"
+                    className="border-p2-orange relative inline-block w-max rounded-3xl border-2 shadow-lg"
                     width={130}
                     height={130}
                     src="/HeroNFT/Collectors/Collector3.png"
@@ -327,7 +327,7 @@ export default function Page() {
                 </div>
                 <div>
                   <Image
-                    className="relative inline-block w-max rounded-3xl border-2 border-p2-orange shadow-lg"
+                    className="border-p2-orange relative inline-block w-max rounded-3xl border-2 shadow-lg"
                     width={150}
                     height={150}
                     src="/HeroNFT/Collectors/Collector4.png"
@@ -340,7 +340,7 @@ export default function Page() {
                 <div className="justify-self-center">
                   <Link
                     href="/mintcollectors"
-                    className="inline-block w-full place-content-center rounded-3xl border-2 border-stone-500 bg-p2-white2 px-10 py-8 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-stone-500 hover:text-p1-white dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:bg-stone-700 dark:hover:text-p1-white"
+                    className="bg-p2-white2 text-p1-darkgreen hover:text-p1-white dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:text-p1-white inline-block w-full place-content-center rounded-3xl border-2 border-stone-500 px-10 py-8 text-center shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-stone-500 dark:hover:bg-stone-700"
                   >
                     Создай NFT
                   </Link>
@@ -355,22 +355,22 @@ export default function Page() {
       <div id="1"></div>
       <div>
         <div className="flex flex-wrap justify-center self-center md:flex-nowrap md:justify-between">
-          <div className="px-2 text-center text-xl font-semibold text-p1-darkgreen md:pt-2 md:text-3xl dark:text-p1-green dark:hover:text-p1-cyan">
+          <div className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan px-2 text-center text-xl font-semibold md:pt-2 md:text-3xl">
             Способы получения
           </div>
-          <div className="px-2 text-center text-xl font-semibold text-p1-darkgreen md:pt-2 md:text-3xl dark:text-p1-green dark:hover:text-p1-cyan">
+          <div className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan px-2 text-center text-xl font-semibold md:pt-2 md:text-3xl">
             Drivers, Team&apos;s Members, Collectors NFT
           </div>
         </div>
-        <div className="rounded-3xl border-p1-darkgreen p-2 md:border-4 md:shadow-lg dark:hover:border-p1-green">
-          <div className="px-2 pt-2 text-center text-base md:text-2xl dark:text-p1-green dark:hover:text-p1-cyan">
+        <div className="border-p1-darkgreen dark:hover:border-p1-green rounded-3xl p-2 md:border-4 md:shadow-lg">
+          <div className="dark:text-p1-green dark:hover:text-p1-cyan px-2 pt-2 text-center text-base md:text-2xl">
             Только верифицированные пользователи смогут создать NFT в коллекциях
           </div>
-          <div className="text-center text-base md:text-2xl dark:text-p1-green dark:hover:text-p1-cyan">
+          <div className="dark:text-p1-green dark:hover:text-p1-cyan text-center text-base md:text-2xl">
             Drivers, Team&apos;s Members, Collectors
           </div>
 
-          <div className="pb-5 text-center text-base md:text-2xl dark:text-p1-green dark:hover:text-p1-cyan">
+          <div className="dark:text-p1-green dark:hover:text-p1-cyan pb-5 text-center text-base md:text-2xl">
             Верифицировать статус пользователя могут держатели Promoter License, National License,
             Global License, Management GAA
           </div>
@@ -438,7 +438,7 @@ export default function Page() {
               <div>
                 <Link
                   href="/applicationform"
-                  className="inline-block place-content-center rounded-xl border-2 border-p1-darkgreen bg-p1-white p-2 text-center text-base text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p1-green hover:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:bg-p1-green dark:hover:text-p1-deepdarkgreen"
+                  className="border-p1-darkgreen bg-p1-white text-p1-darkgreen hover:bg-p1-green hover:text-p1-white dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:bg-p1-green dark:hover:text-p1-deepdarkgreen inline-block place-content-center rounded-xl border-2 p-2 text-center text-base shadow-lg transition-all delay-75 duration-300 ease-in-out md:text-xl"
                 >
                   Форма заявки
                 </Link>
@@ -454,7 +454,7 @@ export default function Page() {
               />
             </div>
 
-            <div className="col-start-15 col-span-3 row-span-1">
+            <div className="col-span-3 col-start-15 row-span-1">
               <Image
                 className="relative inline-block w-max"
                 width={1000}
@@ -494,7 +494,7 @@ export default function Page() {
             </div>
             <div>
               <Image
-                className="relative inline-block w-max rounded-3xl border-2 border-p2-orange shadow-lg dark:border-p1-green"
+                className="border-p2-orange dark:border-p1-green relative inline-block w-max rounded-3xl border-2 shadow-lg"
                 width={1000}
                 height={1000}
                 src="/HeroNFT/Drivers/Driver4.png"
@@ -503,7 +503,7 @@ export default function Page() {
             </div>
             <div>
               <Image
-                className="relative inline-block w-max rounded-3xl border-2 border-p2-orange shadow-lg dark:border-p1-green"
+                className="border-p2-orange dark:border-p1-green relative inline-block w-max rounded-3xl border-2 shadow-lg"
                 width={1000}
                 height={1000}
                 src="/HeroNFT/Team's members/TeamMember1.png"
@@ -512,7 +512,7 @@ export default function Page() {
             </div>
             <div>
               <Image
-                className="relative inline-block w-max rounded-3xl border-2 border-p2-orange shadow-lg dark:border-p1-green"
+                className="border-p2-orange dark:border-p1-green relative inline-block w-max rounded-3xl border-2 shadow-lg"
                 width={1000}
                 height={1000}
                 src="/HeroNFT/Collectors/Collector1.png"
@@ -521,11 +521,11 @@ export default function Page() {
             </div>
           </div>
 
-          <div className="p-2 text-center text-base md:text-2xl dark:text-p1-green dark:hover:text-p1-cyan">
+          <div className="dark:text-p1-green dark:hover:text-p1-cyan p-2 text-center text-base md:text-2xl">
             Любой желающий сможет приобрести NFT из коллекций на вторичном рынке - так мы
             поддерживаем активных участников направлений и их развитие
           </div>
-          <div className="p-2 text-center text-base md:text-2xl dark:text-p1-green dark:hover:text-p1-cyan">
+          <div className="dark:text-p1-green dark:hover:text-p1-cyan p-2 text-center text-base md:text-2xl">
             Это ваш способ идентификации и привлечения дополнительных инвестиций для вашего развития
           </div>
         </div>
