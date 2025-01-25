@@ -1617,7 +1617,7 @@ export default function Home() {
                   11 столбцов
                 </div>
               </summary>
-              <div className="pt-1 text-center text-p1-darkgreen dark:text-p1-green">
+              <div className="overflow-x-auto pt-1 text-center text-p1-darkgreen dark:text-p1-green">
                 <div className="flex justify-center pb-2">
                   <div>
                     <div className="flex overflow-hidden rounded-2xl border border-p1-green bg-p2-white2 px-4 py-3 hover:border-p1-cyan focus:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan">
@@ -1639,10 +1639,10 @@ export default function Home() {
                 </div>
                 {/* Таблица 1*/}
 
-                <div className="inline-block place-self-center p-1">
-                  <div className="shadow-md sm:rounded-lg">
-                    <table className="relative overflow-hidden text-left text-xl text-p1-darkgreen dark:text-p1-green">
-                      <thead className="bg-gray-50 text-xs uppercase text-p1-darkgreen dark:bg-p1-deepdarkgreen dark:text-p1-green">
+                <div className="inline-block h-96 place-self-center overflow-y-auto rounded border">
+                  <div className="relative shadow-md sm:rounded-lg">
+                    <table className="text-left text-xl text-p1-darkgreen dark:text-p1-green">
+                      <thead className="sticky top-0 z-10 bg-gray-50 text-xs uppercase text-p1-darkgreen dark:bg-p1-deepdarkgreen dark:text-p1-green">
                         <tr>
                           <th scope="col" className="px-6 py-3">
                             Add to cart
@@ -1905,6 +1905,110 @@ export default function Home() {
                                 <Image
                                   width={500}
                                   height={500}
+                                  src="/HeroNFT/RaceLads/RaceLads1.png"
+                                  alt="RaceLads"
+                                  className="h-[8rem] w-[8rem] object-cover transition-transform duration-500 ease-in-out hover:scale-105"
+                                />
+                              </Link>
+                            </div>
+                          </td>
+                          <td className="px-6 py-4">RaceLads</td>
+                          <td className="px-6 py-4">Joan</td>
+                          <td className="px-6 py-4 text-right"> 8888</td>
+                          <td className="px-6 py-4 text-right"> 15 ETH</td>
+                          <td className="px-6 py-4 text-right"> 0.25 ETH</td>
+                          <td className="px-6 py-4 text-right"> 0.15 ETH</td>
+                          <td className="px-6 py-4 text-right"> #77</td>
+                          <td className="px-6 py-4 text-right"> Jon </td>
+                          <td className="px-6 py-4 text-right"> 2h ago</td>
+                          <td className="px-6 py-4 text-right">
+                            {' '}
+                            <Link
+                              href="#"
+                              className="inline-block w-max place-content-center rounded-xl border-2 bg-p1-white p-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:border-p1-darkgreen hover:bg-p1-green hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                            >
+                              Сделать предложение
+                            </Link>
+                          </td>
+                        </tr>
+                        <tr className="border-b bg-white dark:border-p1-green dark:bg-p1-deepdarkgreen">
+                          <th scope="row" className="whitespace-nowrap px-6 py-4 font-medium">
+                            <div className="flex items-center">
+                              <input
+                                checked={check}
+                                id="checkbox"
+                                onChange={() => {
+                                  setCheck(!check);
+                                }}
+                                type="checkbox"
+                                value=""
+                                className="focus:ring-p1-cian h-4 w-4 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                              />
+                              <label
+                                htmlFor="checkbox "
+                                className="ms-2 text-sm font-medium text-p1-darkgreen dark:text-p1-green"
+                              ></label>
+                            </div>
+                          </th>
+                          <td className="px-6 py-4">
+                            {' '}
+                            <div className="relative">
+                              <Link href="/card" className="mx-auto justify-center">
+                                <Image
+                                  width={500}
+                                  height={500}
+                                  src="/HeroNFT/RaceLads/RaceLads1.png"
+                                  alt="RaceLads"
+                                  className="h-[8rem] w-[8rem] object-cover transition-transform duration-500 ease-in-out hover:scale-105"
+                                />
+                              </Link>
+                            </div>
+                          </td>
+                          <td className="px-6 py-4">RaceLads</td>
+                          <td className="px-6 py-4">Joan</td>
+                          <td className="px-6 py-4 text-right"> 8888</td>
+                          <td className="px-6 py-4 text-right"> 15 ETH</td>
+                          <td className="px-6 py-4 text-right"> 0.25 ETH</td>
+                          <td className="px-6 py-4 text-right"> 0.15 ETH</td>
+                          <td className="px-6 py-4 text-right"> #77</td>
+                          <td className="px-6 py-4 text-right"> Jon </td>
+                          <td className="px-6 py-4 text-right"> 2h ago</td>
+                          <td className="px-6 py-4 text-right">
+                            {' '}
+                            <Link
+                              href="#"
+                              className="inline-block w-max place-content-center rounded-xl border-2 bg-p1-white p-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:border-p1-darkgreen hover:bg-p1-green hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                            >
+                              Сделать предложение
+                            </Link>
+                          </td>
+                        </tr>
+                        <tr className="border-b bg-white dark:border-p1-green dark:bg-p1-deepdarkgreen">
+                          <th scope="row" className="whitespace-nowrap px-6 py-4 font-medium">
+                            <div className="flex items-center">
+                              <input
+                                checked={check}
+                                id="checkbox"
+                                onChange={() => {
+                                  setCheck(!check);
+                                }}
+                                type="checkbox"
+                                value=""
+                                className="focus:ring-p1-cian h-4 w-4 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                              />
+                              <label
+                                htmlFor="checkbox "
+                                className="ms-2 text-sm font-medium text-p1-darkgreen dark:text-p1-green"
+                              ></label>
+                            </div>
+                          </th>
+                          <td className="px-6 py-4">
+                            {' '}
+                            <div className="relative">
+                              <Link href="/card" className="mx-auto justify-center">
+                                <Image
+                                  width={500}
+                                  height={500}
                                   src="/HeroNFT/Drivers/Driver4.png"
                                   alt="Drivers"
                                   className="h-[8rem] w-[8rem] object-cover transition-transform duration-500 ease-in-out hover:scale-105"
@@ -1950,7 +2054,7 @@ export default function Home() {
                   5 слолбцов
                 </div>
               </summary>
-              <div className="pt-1 text-center text-p1-darkgreen dark:text-p1-green">
+              <div className="overflow-x-auto pt-1 text-center text-p1-darkgreen dark:text-p1-green">
                 <div className="flex justify-center pb-2">
                   <div>
                     <div className="flex overflow-hidden rounded-2xl border border-p1-green bg-p2-white2 px-4 py-3 hover:border-p1-cyan focus:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan">
@@ -1972,10 +2076,10 @@ export default function Home() {
                 </div>
 
                 {/* Таблица 2*/}
-                <div className="justify-center place-self-center p-1 md:visible">
-                  <div className="relative overflow-x-auto shadow-md sm:rounded-lg">
+                <div className="inline-block h-96 place-self-center overflow-y-auto rounded border">
+                  <div className="relative shadow-md sm:rounded-lg">
                     <table className="w-full text-left text-xl text-p1-darkgreen dark:text-p1-green">
-                      <thead className="bg-gray-50 text-xs uppercase text-p1-darkgreen dark:bg-p1-deepdarkgreen dark:text-p1-green">
+                      <thead className="sticky top-0 z-10 bg-gray-50 text-xs uppercase text-p1-darkgreen dark:bg-p1-deepdarkgreen dark:text-p1-green">
                         <tr>
                           <th scope="col" className="px-6 py-3">
                             Rank
@@ -2512,7 +2616,7 @@ export default function Home() {
                   12 столбцов
                 </div>
               </summary>
-              <div className="pt-1 text-center text-p1-darkgreen dark:text-p1-green">
+              <div className="overflow-x-auto pt-1 text-center text-p1-darkgreen dark:text-p1-green">
                 <div className="flex justify-center pb-2">
                   <div>
                     <div className="flex overflow-hidden rounded-2xl border border-p1-green bg-p2-white2 px-4 py-3 hover:border-p1-cyan focus:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan">
@@ -2532,7 +2636,7 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-                <div className="grid h-1/5 grid-cols-1 place-content-center p-1 text-sm sm:px-2 md:px-4 lg:grid-cols-2 lg:px-6 lg:text-base xl:px-2 xl:text-lg 2xl:-mt-16 2xl:px-10 2xl:text-xl">
+                <div className="grid h-1/5 grid-cols-1 place-content-center p-1 text-sm sm:px-2 md:px-4 lg:grid-cols-2 lg:px-6 lg:text-base xl:px-2 xl:text-lg 2xl:px-10 2xl:text-xl">
                   <div className="flex grid-flow-row auto-rows-max justify-center space-x-2 lg:justify-start">
                     <div>
                       <div
@@ -2623,10 +2727,10 @@ export default function Home() {
                 </div>
                 {/* Таблица награждения*/}
 
-                <div className="inline-block place-self-center p-1">
-                  <div className="shadow-md sm:rounded-lg">
-                    <table className="relative overflow-hidden text-left text-xl text-p1-darkgreen dark:text-p1-green">
-                      <thead className="bg-gray-50 text-xs uppercase text-p1-darkgreen dark:bg-p1-deepdarkgreen dark:text-p1-green">
+                <div className="inline-block h-96 place-self-center overflow-y-auto rounded border">
+                  <div className="relative shadow-md sm:rounded-lg">
+                    <table className="text-left text-xl text-p1-darkgreen dark:text-p1-green">
+                      <thead className="sticky top-0 z-10 bg-gray-50 text-xs uppercase text-p1-darkgreen dark:bg-p1-deepdarkgreen dark:text-p1-green">
                         <tr>
                           <th scope="col" className="px-6 py-3">
                             Add to cart
@@ -2920,6 +3024,231 @@ export default function Home() {
                             </Link>
                           </td>
                         </tr>
+                        <tr className="border-b bg-white dark:border-p1-green dark:bg-p1-deepdarkgreen">
+                          <th scope="row" className="whitespace-nowrap px-6 py-4 font-medium">
+                            <div className="flex items-center">
+                              <input
+                                checked={check}
+                                id="checkbox"
+                                onChange={() => {
+                                  setCheck(!check);
+                                }}
+                                type="checkbox"
+                                value=""
+                                className="focus:ring-p1-cian h-4 w-4 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                              />
+                              <label
+                                htmlFor="checkbox "
+                                className="ms-2 text-sm font-medium text-p1-darkgreen dark:text-p1-green"
+                              ></label>
+                            </div>
+                          </th>
+                          <td className="">
+                            {' '}
+                            <div className="relative">
+                              <Link href="/card" className="mx-auto justify-center">
+                                <Image
+                                  width={500}
+                                  height={500}
+                                  src="/Hero/Rewards.png"
+                                  alt="Award"
+                                  className="h-[8rem] w-[8rem] object-cover transition-transform duration-500 ease-in-out hover:scale-105"
+                                />
+                              </Link>
+                            </div>
+                          </td>
+                          <td className="px-6 py-4">Award</td>
+                          <td className="px-6 py-4">8888</td>
+                          <td className="px-6 py-4 text-right"> 1 этап РДС ГП 2025</td>
+                          <td className="px-6 py-4 text-right"> Абсолютный зачет</td>
+                          <td className="px-6 py-4 text-right"> Название команды</td>
+                          <td className="">
+                            {' '}
+                            <div className="relative">
+                              <Link href="/card" className="mx-auto justify-center">
+                                <Image
+                                  width={500}
+                                  height={500}
+                                  src="/HeroNFT/RaceLads/RaceLads1.png"
+                                  alt="RaceLads"
+                                  className="h-[8rem] w-[8rem] object-cover transition-transform duration-500 ease-in-out hover:scale-105"
+                                />
+                              </Link>
+                            </div>
+                          </td>
+                          <td className="px-6 py-4 text-right"> Иванов Иван Иванович</td>
+                          <td className="px-6 py-4 text-right"> mail@mail.com</td>
+
+                          <td className="px-6 py-4 text-right"> 0х1234...5678</td>
+                          <td className="px-6 py-4 text-right">
+                            {' '}
+                            <Link
+                              href="#"
+                              className="inline-block w-max place-content-center rounded-xl border-2 bg-p1-white p-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:border-p1-darkgreen hover:bg-p1-green hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                            >
+                              Отправить
+                            </Link>
+                          </td>
+                          <td className="px-6 py-4 text-right">
+                            {' '}
+                            <Link
+                              href="#"
+                              className="inline-block w-max place-content-center rounded-xl border-2 bg-p1-white p-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:border-p2-red hover:bg-p2-red hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p2-red dark:hover:text-p1-white dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                            >
+                              Delete
+                            </Link>
+                          </td>
+                        </tr>
+                        <tr className="border-b bg-white dark:border-p1-green dark:bg-p1-deepdarkgreen">
+                          <th scope="row" className="whitespace-nowrap px-6 py-4 font-medium">
+                            <div className="flex items-center">
+                              <input
+                                checked={check}
+                                id="checkbox"
+                                onChange={() => {
+                                  setCheck(!check);
+                                }}
+                                type="checkbox"
+                                value=""
+                                className="focus:ring-p1-cian h-4 w-4 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                              />
+                              <label
+                                htmlFor="checkbox "
+                                className="ms-2 text-sm font-medium text-p1-darkgreen dark:text-p1-green"
+                              ></label>
+                            </div>
+                          </th>
+                          <td className="">
+                            {' '}
+                            <div className="relative">
+                              <Link href="/card" className="mx-auto justify-center">
+                                <Image
+                                  width={500}
+                                  height={500}
+                                  src="/Hero/Rewards.png"
+                                  alt="Award"
+                                  className="h-[8rem] w-[8rem] object-cover transition-transform duration-500 ease-in-out hover:scale-105"
+                                />
+                              </Link>
+                            </div>
+                          </td>
+                          <td className="px-6 py-4">Award</td>
+                          <td className="px-6 py-4">8888</td>
+                          <td className="px-6 py-4 text-right"> 1 этап РДС ГП 2025</td>
+                          <td className="px-6 py-4 text-right"> Абсолютный зачет</td>
+                          <td className="px-6 py-4 text-right"> Название команды</td>
+                          <td className="">
+                            {' '}
+                            <div className="relative">
+                              <Link href="/card" className="mx-auto justify-center">
+                                <Image
+                                  width={500}
+                                  height={500}
+                                  src="/HeroNFT/RaceLads/RaceLads1.png"
+                                  alt="RaceLads"
+                                  className="h-[8rem] w-[8rem] object-cover transition-transform duration-500 ease-in-out hover:scale-105"
+                                />
+                              </Link>
+                            </div>
+                          </td>
+                          <td className="px-6 py-4 text-right"> Иванов Иван Иванович</td>
+                          <td className="px-6 py-4 text-right"> mail@mail.com</td>
+
+                          <td className="px-6 py-4 text-right"> 0х1234...5678</td>
+                          <td className="px-6 py-4 text-right">
+                            {' '}
+                            <Link
+                              href="#"
+                              className="inline-block w-max place-content-center rounded-xl border-2 bg-p1-white p-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:border-p1-darkgreen hover:bg-p1-green hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                            >
+                              Отправить
+                            </Link>
+                          </td>
+                          <td className="px-6 py-4 text-right">
+                            {' '}
+                            <Link
+                              href="#"
+                              className="inline-block w-max place-content-center rounded-xl border-2 bg-p1-white p-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:border-p2-red hover:bg-p2-red hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p2-red dark:hover:text-p1-white dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                            >
+                              Delete
+                            </Link>
+                          </td>
+                        </tr>
+                        <tr className="border-b bg-white dark:border-p1-green dark:bg-p1-deepdarkgreen">
+                          <th scope="row" className="whitespace-nowrap px-6 py-4 font-medium">
+                            <div className="flex items-center">
+                              <input
+                                checked={check}
+                                id="checkbox"
+                                onChange={() => {
+                                  setCheck(!check);
+                                }}
+                                type="checkbox"
+                                value=""
+                                className="focus:ring-p1-cian h-4 w-4 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                              />
+                              <label
+                                htmlFor="checkbox "
+                                className="ms-2 text-sm font-medium text-p1-darkgreen dark:text-p1-green"
+                              ></label>
+                            </div>
+                          </th>
+                          <td className="">
+                            {' '}
+                            <div className="relative">
+                              <Link href="/card" className="mx-auto justify-center">
+                                <Image
+                                  width={500}
+                                  height={500}
+                                  src="/Hero/Rewards.png"
+                                  alt="Award"
+                                  className="h-[8rem] w-[8rem] object-cover transition-transform duration-500 ease-in-out hover:scale-105"
+                                />
+                              </Link>
+                            </div>
+                          </td>
+                          <td className="px-6 py-4">Award</td>
+                          <td className="px-6 py-4">8888</td>
+                          <td className="px-6 py-4 text-right"> 1 этап РДС ГП 2025</td>
+                          <td className="px-6 py-4 text-right"> Абсолютный зачет</td>
+                          <td className="px-6 py-4 text-right"> Название команды</td>
+                          <td className="">
+                            {' '}
+                            <div className="relative">
+                              <Link href="/card" className="mx-auto justify-center">
+                                <Image
+                                  width={500}
+                                  height={500}
+                                  src="/HeroNFT/RaceLads/RaceLads1.png"
+                                  alt="RaceLads"
+                                  className="h-[8rem] w-[8rem] object-cover transition-transform duration-500 ease-in-out hover:scale-105"
+                                />
+                              </Link>
+                            </div>
+                          </td>
+                          <td className="px-6 py-4 text-right"> Иванов Иван Иванович</td>
+                          <td className="px-6 py-4 text-right"> mail@mail.com</td>
+
+                          <td className="px-6 py-4 text-right"> 0х1234...5678</td>
+                          <td className="px-6 py-4 text-right">
+                            {' '}
+                            <Link
+                              href="#"
+                              className="inline-block w-max place-content-center rounded-xl border-2 bg-p1-white p-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:border-p1-darkgreen hover:bg-p1-green hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                            >
+                              Отправить
+                            </Link>
+                          </td>
+                          <td className="px-6 py-4 text-right">
+                            {' '}
+                            <Link
+                              href="#"
+                              className="inline-block w-max place-content-center rounded-xl border-2 bg-p1-white p-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:border-p2-red hover:bg-p2-red hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p2-red dark:hover:text-p1-white dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                            >
+                              Delete
+                            </Link>
+                          </td>
+                        </tr>
                       </tbody>
                     </table>
                   </div>
@@ -3096,6 +3425,207 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
+              </div>
+            </details>
+          </div>
+
+          {/* ..Страница проба... */}
+          <div className="text-darkgreen mb-2 w-full rounded-2xl border border-p1-green bg-p1-white text-xl shadow-lg dark:bg-p1-deepdarkgreen">
+            <details className="m-2">
+              <summary className="relative flex cursor-pointer justify-between py-2">
+                <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
+                  Таблица проба
+                </div>
+                <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
+                  12 столбцов
+                </div>
+              </summary>
+              <div className="h-40 overflow-x-auto">
+                <table className="min-w-full divide-y-2 divide-gray-200 bg-white text-sm">
+                  <thead className="sticky top-0 ltr:text-left rtl:text-right">
+                    <tr>
+                      <th className="fixed inset-y-0 start-0 bg-white px-4 py-2">
+                        <label htmlFor="SelectAll" className="sr-only">
+                          Select All
+                        </label>
+
+                        <input
+                          type="checkbox"
+                          id="SelectAll"
+                          className="size-5 rounded border-gray-300"
+                        />
+                      </th>
+                      <th className="whitespace-nowrap px-4 py-2 font-medium text-gray-900">
+                        Name
+                      </th>
+                      <th className="whitespace-nowrap px-4 py-2 font-medium text-gray-900">
+                        Date of Birth
+                      </th>
+                      <th className="whitespace-nowrap px-4 py-2 font-medium text-gray-900">
+                        Role
+                      </th>
+                      <th className="whitespace-nowrap px-4 py-2 font-medium text-gray-900">
+                        Salary
+                      </th>
+                    </tr>
+                  </thead>
+
+                  <tbody className="divide-y divide-gray-200">
+                    <tr>
+                      <td className="sticky inset-y-0 start-0 bg-white px-4 py-2">
+                        <label className="sr-only" htmlFor="Row1">
+                          Row 1
+                        </label>
+
+                        <input
+                          className="size-5 rounded border-gray-300"
+                          type="checkbox"
+                          id="Row1"
+                        />
+                      </td>
+                      <td className="whitespace-nowrap px-4 py-2 font-medium text-gray-900">
+                        John Doe
+                      </td>
+                      <td className="whitespace-nowrap px-4 py-2 text-gray-700">24/05/1995</td>
+                      <td className="whitespace-nowrap px-4 py-2 text-gray-700">Web Developer</td>
+                      <td className="whitespace-nowrap px-4 py-2 text-gray-700">$120,000</td>
+                    </tr>
+
+                    <tr>
+                      <td className="sticky inset-y-0 start-0 bg-white px-4 py-2">
+                        <label className="sr-only" htmlFor="Row2">
+                          Row 2
+                        </label>
+
+                        <input
+                          className="size-5 rounded border-gray-300"
+                          type="checkbox"
+                          id="Row2"
+                        />
+                      </td>
+                      <td className="whitespace-nowrap px-4 py-2 font-medium text-gray-900">
+                        Jane Doe
+                      </td>
+                      <td className="whitespace-nowrap px-4 py-2 text-gray-700">04/11/1980</td>
+                      <td className="whitespace-nowrap px-4 py-2 text-gray-700">Web Designer</td>
+                      <td className="whitespace-nowrap px-4 py-2 text-gray-700">$100,000</td>
+                    </tr>
+                    <tr>
+                      <td className="sticky inset-y-0 start-0 bg-white px-4 py-2">
+                        <label className="sr-only" htmlFor="Row2">
+                          Row 2
+                        </label>
+
+                        <input
+                          className="size-5 rounded border-gray-300"
+                          type="checkbox"
+                          id="Row2"
+                        />
+                      </td>
+                      <td className="whitespace-nowrap px-4 py-2 font-medium text-gray-900">
+                        Jane Doe
+                      </td>
+                      <td className="whitespace-nowrap px-4 py-2 text-gray-700">04/11/1980</td>
+                      <td className="whitespace-nowrap px-4 py-2 text-gray-700">Web Designer</td>
+                      <td className="whitespace-nowrap px-4 py-2 text-gray-700">$100,000</td>
+                    </tr>
+                    <tr>
+                      <td className="sticky inset-y-0 start-0 bg-white px-4 py-2">
+                        <label className="sr-only" htmlFor="Row2">
+                          Row 2
+                        </label>
+
+                        <input
+                          className="size-5 rounded border-gray-300"
+                          type="checkbox"
+                          id="Row2"
+                        />
+                      </td>
+                      <td className="whitespace-nowrap px-4 py-2 font-medium text-gray-900">
+                        Jane Doe
+                      </td>
+                      <td className="whitespace-nowrap px-4 py-2 text-gray-700">04/11/1980</td>
+                      <td className="whitespace-nowrap px-4 py-2 text-gray-700">Web Designer</td>
+                      <td className="whitespace-nowrap px-4 py-2 text-gray-700">$100,000</td>
+                    </tr>
+                    <tr>
+                      <td className="sticky inset-y-0 start-0 bg-white px-4 py-2">
+                        <label className="sr-only" htmlFor="Row2">
+                          Row 2
+                        </label>
+
+                        <input
+                          className="size-5 rounded border-gray-300"
+                          type="checkbox"
+                          id="Row2"
+                        />
+                      </td>
+                      <td className="whitespace-nowrap px-4 py-2 font-medium text-gray-900">
+                        Jane Doe
+                      </td>
+                      <td className="whitespace-nowrap px-4 py-2 text-gray-700">04/11/1980</td>
+                      <td className="whitespace-nowrap px-4 py-2 text-gray-700">Web Designer</td>
+                      <td className="whitespace-nowrap px-4 py-2 text-gray-700">$100,000</td>
+                    </tr>
+                    <tr>
+                      <td className="sticky inset-y-0 start-0 bg-white px-4 py-2">
+                        <label className="sr-only" htmlFor="Row2">
+                          Row 2
+                        </label>
+
+                        <input
+                          className="size-5 rounded border-gray-300"
+                          type="checkbox"
+                          id="Row2"
+                        />
+                      </td>
+                      <td className="whitespace-nowrap px-4 py-2 font-medium text-gray-900">
+                        Jane Doe
+                      </td>
+                      <td className="whitespace-nowrap px-4 py-2 text-gray-700">04/11/1980</td>
+                      <td className="whitespace-nowrap px-4 py-2 text-gray-700">Web Designer</td>
+                      <td className="whitespace-nowrap px-4 py-2 text-gray-700">$100,000</td>
+                    </tr>
+                    <tr>
+                      <td className="sticky inset-y-0 start-0 bg-white px-4 py-2">
+                        <label className="sr-only" htmlFor="Row2">
+                          Row 2
+                        </label>
+
+                        <input
+                          className="size-5 rounded border-gray-300"
+                          type="checkbox"
+                          id="Row2"
+                        />
+                      </td>
+                      <td className="whitespace-nowrap px-4 py-2 font-medium text-gray-900">
+                        Jane Doe
+                      </td>
+                      <td className="whitespace-nowrap px-4 py-2 text-gray-700">04/11/1980</td>
+                      <td className="whitespace-nowrap px-4 py-2 text-gray-700">Web Designer</td>
+                      <td className="whitespace-nowrap px-4 py-2 text-gray-700">$100,000</td>
+                    </tr>
+                    <tr>
+                      <td className="sticky inset-y-0 start-0 bg-white px-4 py-2">
+                        <label className="sr-only" htmlFor="Row3">
+                          Row 3
+                        </label>
+
+                        <input
+                          className="size-5 rounded border-gray-300"
+                          type="checkbox"
+                          id="Row3"
+                        />
+                      </td>
+                      <td className="whitespace-nowrap px-4 py-2 font-medium text-gray-900">
+                        Gary Barlow
+                      </td>
+                      <td className="whitespace-nowrap px-4 py-2 text-gray-700">24/05/1995</td>
+                      <td className="whitespace-nowrap px-4 py-2 text-gray-700">Singer</td>
+                      <td className="whitespace-nowrap px-4 py-2 text-gray-700">$20,000</td>
+                    </tr>
+                  </tbody>
+                </table>
               </div>
             </details>
           </div>

@@ -66,14 +66,14 @@ export default function EnglishPage() {
           className="mb-4 rounded-3xl border-p1-darkgreen bg-p1-white shadow-lg md:border-4 dark:border-p1-green dark:bg-p1-deepdarkgreen"
         >
           <div className="text-centre flex flex-row">
-            <div className="place-content-center p-2 text-center text-p1-darkgreen md:text-xl lg:text-2xl dark:text-p1-cyan">
+            <div className="place-content-center p-2 text-center text-p1-darkgreen md:text-xl lg:text-2xl dark:text-p1-green">
               <div className="pt-2">Service</div>
               <div className="pb-5">for creating NFT rewards on the website</div>
               <Link
                 href="/applicationform"
                 className="inline-block place-content-center rounded-xl border-2 border-p1-green bg-p1-white px-10 py-8 text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:border-p1-darkgreen hover:bg-p1-darkgreen hover:text-p1-white dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan"
               >
-               Application form
+                Application form
               </Link>
               <div className="place-items-centre mt-5 grid grid-cols-3 gap-2 p-4">
                 <Image width={1000} height={1200} src="/Licenses/Promoter.png" alt="Promoter" />
@@ -82,11 +82,11 @@ export default function EnglishPage() {
 
                 <Image width={1000} height={1200} src="/Licenses/Global.png" alt="Global" />
 
-                <div className="pt-2 text-center text-sm text-p1-darkgreen lg:text-xl dark:text-p1-cyan">
-                All awards in one collection
+                <div className="pt-2 text-center text-sm text-p1-darkgreen lg:text-xl dark:text-p1-green">
+                  All awards in one collection
                 </div>
-                <div className="pt-2 text-center text-sm text-p1-darkgreen lg:text-xl dark:text-p1-cyan">
-                Secure storage of media content in IPFS network
+                <div className="pt-2 text-center text-sm text-p1-darkgreen lg:text-xl dark:text-p1-green">
+                  Secure storage of media content in IPFS network
                 </div>
                 <Image
                   width={1000}

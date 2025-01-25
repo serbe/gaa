@@ -1192,7 +1192,7 @@ export default function Home() {
 
                       <Link
                         href={'#'}
-                        className="hover:bg-p2-white grid w-1/5 place-content-center rounded-r-xl border-b-2 border-r-2 border-t-2 border-p1-darkgreen bg-p1-white text-center text-lg font-semibold shadow-lg transition-all duration-300 ease-in-out hover:border-p1-darkgreen hover:bg-p2-white2 hover:shadow-xl hover:ring-p1-cyan focus:scale-95 focus:border-l-2 focus:border-p1-darkgreen focus:shadow-lg focus:shadow-p1-green focus:ring-p1-cyan md:text-3xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-darkgreen dark:focus:text-p1-cyan"
+                        className="hover:bg-p2-white grid w-1/5 place-content-center rounded-r-xl border-b-2 border-r-2 border-t-2 border-p1-darkgreen bg-p1-white text-center text-lg font-semibold shadow-lg transition-all duration-300 ease-in-out hover:border-p1-darkgreen hover:bg-p2-white2 hover:shadow-xl hover:ring-p1-cyan focus:scale-95 focus:border-l-2 focus:border-p1-darkgreen focus:bg-p1-darkgreen focus:shadow-lg focus:ring-p1-cyan md:text-3xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-darkgreen dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
                       >
                         <Image
                           className="bg-p1-darkgreenе inline-block h-7 w-7 dark:bg-p1-deepdarkgreen dark:hover:bg-p1-deepdarkgreen"
@@ -1291,10 +1291,10 @@ export default function Home() {
                     </div>
                   </summary>
                   {/* Таблица Listings*/}
-                  <div className="h-80 place-content-center overflow-x-auto overflow-y-auto p-1 md:visible">
+                  <div className="relative h-80 place-content-center overflow-x-auto overflow-y-auto md:visible">
                     <div className="relative shadow-md sm:rounded-lg">
                       <table className="w-full pb-2 text-left text-xl text-p1-darkgreen dark:text-p1-green">
-                        <thead className="bg-gray-50 text-xs uppercase text-p1-darkgreen dark:bg-p1-deepdarkgreen dark:text-p1-green">
+                        <thead className="sticky top-0 z-10 bg-gray-50 text-xs uppercase text-p1-darkgreen dark:bg-p1-deepdarkgreen dark:text-p1-green">
                           <tr className="caption-top">
                             <th scope="col" className="px-2 py-3">
                               <div className="flex place-content-center"> Price</div>
@@ -2040,10 +2040,10 @@ export default function Home() {
                   </summary>
                   <div className="pl-4 pt-1 text-p1-darkgreen dark:text-p1-green">
                     {/* Таблица Offers*/}
-                    <div className="h-72 place-content-center overflow-x-auto overflow-y-auto p-1 md:visible">
+                    <div className="h-72 place-content-center overflow-x-auto overflow-y-auto md:visible">
                       <div className="relative shadow-md sm:rounded-lg">
                         <table className="w-full pb-2 text-left text-xl text-p1-darkgreen dark:text-p1-green">
-                          <thead className="bg-gray-50 text-xs uppercase text-p1-darkgreen dark:bg-p1-deepdarkgreen dark:text-p1-green">
+                          <thead className="sticky top-0 z-10 bg-gray-50 text-xs uppercase text-p1-darkgreen dark:bg-p1-deepdarkgreen dark:text-p1-green">
                             <tr className="caption-top">
                               <th scope="col" className="px-2 py-3">
                                 <div className="flex place-content-center"> Price</div>
@@ -2066,6 +2066,442 @@ export default function Home() {
                             </tr>
                           </thead>
                           <tbody className="place-content-center">
+                            <tr className="border-b bg-white text-base lining-nums dark:border-p1-green dark:bg-p1-deepdarkgreen">
+                              <th
+                                scope="row"
+                                className="place-content-center whitespace-nowrap px-2 py-2 text-right font-medium"
+                              >
+                                2,7475 ETH
+                              </th>
+                              <td className="px-2 py-2">
+                                {' '}
+                                <div className="relative text-right">$ 9 012,43</div>
+                              </td>
+                              <td className="px-2 py-2 text-center">8</td>
+                              <td className="px-2 py-2 text-center">100% below</td>
+
+                              <td className="px-2 py-2 text-center">in 17 days</td>
+                              <td className="px-2 py-2 text-left">
+                                <div className="group relative">
+                                  <div>
+                                    <Link
+                                      href={'#'}
+                                      className="mx-auto justify-start text-left text-p1-green hover:text-p1-cyan"
+                                    >
+                                      JeamBeam
+                                    </Link>
+                                  </div>
+                                  <div className="invisible absolute -left-1.5 top-0 z-50 -translate-x-full transform place-content-start opacity-0 shadow-lg transition-all duration-300 group-hover:visible group-hover:opacity-100">
+                                    <div className="w-64 rounded-xl text-xl shadow-lg">
+                                      <div className="group mx-auto mt-1 w-full place-self-start rounded-lg border-2 border-p1-green bg-p2-white2 bg-opacity-100 object-cover p-1 transition-transform duration-300 hover:scale-100 md:p-2 dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:text-p1-cyan dark:group-hover:border-p1-cyan">
+                                        <Link href="#" className="mx-auto">
+                                          <div className="inline-flex place-content-start space-x-2">
+                                            <Image
+                                              width={480}
+                                              height={480}
+                                              src="/HeroNFT/RaceLads/RaceLads1.png"
+                                              alt="RaceLad"
+                                              className="w-12 rounded-lg"
+                                            />
+                                            <div className="font-semibold text-p1-darkgreen">
+                                              {' '}
+                                              JeamBeam
+                                              <div className="text-base font-thin lining-nums text-p1-darkgreen">
+                                                {' '}
+                                                0x010a...0369
+                                              </div>
+                                            </div>
+                                          </div>{' '}
+                                        </Link>
+
+                                        <div className="grid w-full grid-cols-3 items-center text-center">
+                                          <div>
+                                            <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">
+                                              collected
+                                            </p>
+                                            <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
+                                              105
+                                            </p>
+                                          </div>
+                                          <div>
+                                            <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">
+                                              created
+                                            </p>
+                                            <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
+                                              15
+                                            </p>
+                                          </div>
+                                          <div>
+                                            <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">
+                                              sold
+                                            </p>
+                                            <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
+                                              12
+                                            </p>
+                                          </div>
+                                        </div>
+                                        <div className="inline-flex place-content-center space-x-1">
+                                          <Link href="#" className="mx-auto">
+                                            <Image
+                                              width={480}
+                                              height={480}
+                                              src="/HeroNFT/RaceLads/RaceLads2.png"
+                                              alt="RaceLad"
+                                              className="w-20 rounded-lg"
+                                            />
+                                          </Link>
+                                          <Link href="#" className="mx-auto">
+                                            <Image
+                                              width={480}
+                                              height={480}
+                                              src="/HeroNFT/RaceLads/RaceLads3.png"
+                                              alt="RaceLad"
+                                              className="w-20 rounded-lg"
+                                            />
+                                          </Link>
+                                          <Link href="#" className="mx-auto">
+                                            <Image
+                                              width={480}
+                                              height={480}
+                                              src="/HeroNFT/RaceLads/RaceLads4.png"
+                                              alt="RaceLad"
+                                              className="w-20 rounded-lg"
+                                            />
+                                          </Link>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr className="border-b bg-white text-base lining-nums dark:border-p1-green dark:bg-p1-deepdarkgreen">
+                              <th
+                                scope="row"
+                                className="place-content-center whitespace-nowrap px-2 py-2 text-right font-medium"
+                              >
+                                2,7475 ETH
+                              </th>
+                              <td className="px-2 py-2">
+                                {' '}
+                                <div className="relative text-right">$ 9 012,43</div>
+                              </td>
+                              <td className="px-2 py-2 text-center">8</td>
+                              <td className="px-2 py-2 text-center">100% below</td>
+
+                              <td className="px-2 py-2 text-center">in 17 days</td>
+                              <td className="px-2 py-2 text-left">
+                                <div className="group relative">
+                                  <div>
+                                    <Link
+                                      href={'#'}
+                                      className="mx-auto justify-start text-left text-p1-green hover:text-p1-cyan"
+                                    >
+                                      JeamBeam
+                                    </Link>
+                                  </div>
+                                  <div className="invisible absolute -left-1.5 top-0 z-50 -translate-x-full transform place-content-start opacity-0 shadow-lg transition-all duration-300 group-hover:visible group-hover:opacity-100">
+                                    <div className="w-64 rounded-xl text-xl shadow-lg">
+                                      <div className="group mx-auto mt-1 w-full place-self-start rounded-lg border-2 border-p1-green bg-p2-white2 bg-opacity-100 object-cover p-1 transition-transform duration-300 hover:scale-100 md:p-2 dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:text-p1-cyan dark:group-hover:border-p1-cyan">
+                                        <Link href="#" className="mx-auto">
+                                          <div className="inline-flex place-content-start space-x-2">
+                                            <Image
+                                              width={480}
+                                              height={480}
+                                              src="/HeroNFT/RaceLads/RaceLads1.png"
+                                              alt="RaceLad"
+                                              className="w-12 rounded-lg"
+                                            />
+                                            <div className="font-semibold text-p1-darkgreen">
+                                              {' '}
+                                              JeamBeam
+                                              <div className="text-base font-thin lining-nums text-p1-darkgreen">
+                                                {' '}
+                                                0x010a...0369
+                                              </div>
+                                            </div>
+                                          </div>{' '}
+                                        </Link>
+
+                                        <div className="grid w-full grid-cols-3 items-center text-center">
+                                          <div>
+                                            <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">
+                                              collected
+                                            </p>
+                                            <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
+                                              105
+                                            </p>
+                                          </div>
+                                          <div>
+                                            <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">
+                                              created
+                                            </p>
+                                            <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
+                                              15
+                                            </p>
+                                          </div>
+                                          <div>
+                                            <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">
+                                              sold
+                                            </p>
+                                            <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
+                                              12
+                                            </p>
+                                          </div>
+                                        </div>
+                                        <div className="inline-flex place-content-center space-x-1">
+                                          <Link href="#" className="mx-auto">
+                                            <Image
+                                              width={480}
+                                              height={480}
+                                              src="/HeroNFT/RaceLads/RaceLads2.png"
+                                              alt="RaceLad"
+                                              className="w-20 rounded-lg"
+                                            />
+                                          </Link>
+                                          <Link href="#" className="mx-auto">
+                                            <Image
+                                              width={480}
+                                              height={480}
+                                              src="/HeroNFT/RaceLads/RaceLads3.png"
+                                              alt="RaceLad"
+                                              className="w-20 rounded-lg"
+                                            />
+                                          </Link>
+                                          <Link href="#" className="mx-auto">
+                                            <Image
+                                              width={480}
+                                              height={480}
+                                              src="/HeroNFT/RaceLads/RaceLads4.png"
+                                              alt="RaceLad"
+                                              className="w-20 rounded-lg"
+                                            />
+                                          </Link>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr className="border-b bg-white text-base lining-nums dark:border-p1-green dark:bg-p1-deepdarkgreen">
+                              <th
+                                scope="row"
+                                className="place-content-center whitespace-nowrap px-2 py-2 text-right font-medium"
+                              >
+                                2,7475 ETH
+                              </th>
+                              <td className="px-2 py-2">
+                                {' '}
+                                <div className="relative text-right">$ 9 012,43</div>
+                              </td>
+                              <td className="px-2 py-2 text-center">8</td>
+                              <td className="px-2 py-2 text-center">100% below</td>
+
+                              <td className="px-2 py-2 text-center">in 17 days</td>
+                              <td className="px-2 py-2 text-left">
+                                <div className="group relative">
+                                  <div>
+                                    <Link
+                                      href={'#'}
+                                      className="mx-auto justify-start text-left text-p1-green hover:text-p1-cyan"
+                                    >
+                                      JeamBeam
+                                    </Link>
+                                  </div>
+                                  <div className="invisible absolute -left-1.5 top-0 z-50 -translate-x-full transform place-content-start opacity-0 shadow-lg transition-all duration-300 group-hover:visible group-hover:opacity-100">
+                                    <div className="w-64 rounded-xl text-xl shadow-lg">
+                                      <div className="group mx-auto mt-1 w-full place-self-start rounded-lg border-2 border-p1-green bg-p2-white2 bg-opacity-100 object-cover p-1 transition-transform duration-300 hover:scale-100 md:p-2 dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:text-p1-cyan dark:group-hover:border-p1-cyan">
+                                        <Link href="#" className="mx-auto">
+                                          <div className="inline-flex place-content-start space-x-2">
+                                            <Image
+                                              width={480}
+                                              height={480}
+                                              src="/HeroNFT/RaceLads/RaceLads1.png"
+                                              alt="RaceLad"
+                                              className="w-12 rounded-lg"
+                                            />
+                                            <div className="font-semibold text-p1-darkgreen">
+                                              {' '}
+                                              JeamBeam
+                                              <div className="text-base font-thin lining-nums text-p1-darkgreen">
+                                                {' '}
+                                                0x010a...0369
+                                              </div>
+                                            </div>
+                                          </div>{' '}
+                                        </Link>
+
+                                        <div className="grid w-full grid-cols-3 items-center text-center">
+                                          <div>
+                                            <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">
+                                              collected
+                                            </p>
+                                            <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
+                                              105
+                                            </p>
+                                          </div>
+                                          <div>
+                                            <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">
+                                              created
+                                            </p>
+                                            <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
+                                              15
+                                            </p>
+                                          </div>
+                                          <div>
+                                            <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">
+                                              sold
+                                            </p>
+                                            <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
+                                              12
+                                            </p>
+                                          </div>
+                                        </div>
+                                        <div className="inline-flex place-content-center space-x-1">
+                                          <Link href="#" className="mx-auto">
+                                            <Image
+                                              width={480}
+                                              height={480}
+                                              src="/HeroNFT/RaceLads/RaceLads2.png"
+                                              alt="RaceLad"
+                                              className="w-20 rounded-lg"
+                                            />
+                                          </Link>
+                                          <Link href="#" className="mx-auto">
+                                            <Image
+                                              width={480}
+                                              height={480}
+                                              src="/HeroNFT/RaceLads/RaceLads3.png"
+                                              alt="RaceLad"
+                                              className="w-20 rounded-lg"
+                                            />
+                                          </Link>
+                                          <Link href="#" className="mx-auto">
+                                            <Image
+                                              width={480}
+                                              height={480}
+                                              src="/HeroNFT/RaceLads/RaceLads4.png"
+                                              alt="RaceLad"
+                                              className="w-20 rounded-lg"
+                                            />
+                                          </Link>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </td>
+                            </tr>
+                            <tr className="border-b bg-white text-base lining-nums dark:border-p1-green dark:bg-p1-deepdarkgreen">
+                              <th
+                                scope="row"
+                                className="place-content-center whitespace-nowrap px-2 py-2 text-right font-medium"
+                              >
+                                2,7475 ETH
+                              </th>
+                              <td className="px-2 py-2">
+                                {' '}
+                                <div className="relative text-right">$ 9 012,43</div>
+                              </td>
+                              <td className="px-2 py-2 text-center">8</td>
+                              <td className="px-2 py-2 text-center">100% below</td>
+
+                              <td className="px-2 py-2 text-center">in 17 days</td>
+                              <td className="px-2 py-2 text-left">
+                                <div className="group relative">
+                                  <div>
+                                    <Link
+                                      href={'#'}
+                                      className="mx-auto justify-start text-left text-p1-green hover:text-p1-cyan"
+                                    >
+                                      JeamBeam
+                                    </Link>
+                                  </div>
+                                  <div className="invisible absolute -left-1.5 top-0 z-50 -translate-x-full transform place-content-start opacity-0 shadow-lg transition-all duration-300 group-hover:visible group-hover:opacity-100">
+                                    <div className="w-64 rounded-xl text-xl shadow-lg">
+                                      <div className="group mx-auto mt-1 w-full place-self-start rounded-lg border-2 border-p1-green bg-p2-white2 bg-opacity-100 object-cover p-1 transition-transform duration-300 hover:scale-100 md:p-2 dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:text-p1-cyan dark:group-hover:border-p1-cyan">
+                                        <Link href="#" className="mx-auto">
+                                          <div className="inline-flex place-content-start space-x-2">
+                                            <Image
+                                              width={480}
+                                              height={480}
+                                              src="/HeroNFT/RaceLads/RaceLads1.png"
+                                              alt="RaceLad"
+                                              className="w-12 rounded-lg"
+                                            />
+                                            <div className="font-semibold text-p1-darkgreen">
+                                              {' '}
+                                              JeamBeam
+                                              <div className="text-base font-thin lining-nums text-p1-darkgreen">
+                                                {' '}
+                                                0x010a...0369
+                                              </div>
+                                            </div>
+                                          </div>{' '}
+                                        </Link>
+
+                                        <div className="grid w-full grid-cols-3 items-center text-center">
+                                          <div>
+                                            <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">
+                                              collected
+                                            </p>
+                                            <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
+                                              105
+                                            </p>
+                                          </div>
+                                          <div>
+                                            <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">
+                                              created
+                                            </p>
+                                            <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
+                                              15
+                                            </p>
+                                          </div>
+                                          <div>
+                                            <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">
+                                              sold
+                                            </p>
+                                            <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
+                                              12
+                                            </p>
+                                          </div>
+                                        </div>
+                                        <div className="inline-flex place-content-center space-x-1">
+                                          <Link href="#" className="mx-auto">
+                                            <Image
+                                              width={480}
+                                              height={480}
+                                              src="/HeroNFT/RaceLads/RaceLads2.png"
+                                              alt="RaceLad"
+                                              className="w-20 rounded-lg"
+                                            />
+                                          </Link>
+                                          <Link href="#" className="mx-auto">
+                                            <Image
+                                              width={480}
+                                              height={480}
+                                              src="/HeroNFT/RaceLads/RaceLads3.png"
+                                              alt="RaceLad"
+                                              className="w-20 rounded-lg"
+                                            />
+                                          </Link>
+                                          <Link href="#" className="mx-auto">
+                                            <Image
+                                              width={480}
+                                              height={480}
+                                              src="/HeroNFT/RaceLads/RaceLads4.png"
+                                              alt="RaceLad"
+                                              className="w-20 rounded-lg"
+                                            />
+                                          </Link>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </td>
+                            </tr>
                             <tr className="border-b bg-white text-base lining-nums dark:border-p1-green dark:bg-p1-deepdarkgreen">
                               <th
                                 scope="row"
@@ -2263,10 +2699,10 @@ export default function Home() {
                 </div>
 
                 {/* Item Activity*/}
-                <div className="h-72 place-content-center overflow-x-auto overflow-y-auto p-1 md:visible">
+                <div className="h-72 place-content-center overflow-x-auto overflow-y-auto md:visible">
                   <div className="relative shadow-md sm:rounded-lg">
                     <table className="w-full pb-2 text-left text-xl text-p1-darkgreen dark:text-p1-green">
-                      <thead className="bg-gray-50 text-xs uppercase text-p1-darkgreen dark:bg-p1-deepdarkgreen dark:text-p1-green">
+                      <thead className="sticky top-0 z-10 h-full bg-gray-100 text-xs uppercase text-p1-darkgreen dark:bg-p1-deepdarkgreen dark:text-p1-green">
                         <tr className="caption-top">
                           <th scope="col" className="px-2 py-3">
                             <div className="flex place-content-start"> Event_logo</div>
