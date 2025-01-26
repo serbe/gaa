@@ -50,39 +50,38 @@ export default function Page() {
         <div className="mx-auto flex max-w-full flex-row space-y-2 p-2">
           <details className="open:bg-p1-greem rounded-3xl border-p1-darkgreen p-2 open:ring-1 open:ring-p1-green hover:border-p1-green open:md:border-4 open:md:shadow-lg dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:open:ring-white/10 dark:hover:border-p1-green dark:hover:text-p1-cyan">
             <summary className="text-lm select-none space-y-4 font-semibold leading-6 text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
-              Что такое Web 3?
+              What is Web3?
             </summary>
             <div className="mt-3 text-base leading-6 text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
               <p>
-                Web 3 (или Web 3.0) — это концепция следующего поколения интернета, которая
-                ориентирована на децентрализацию и использование блокчейн-технологий для создания
-                более открытой и защищенной сети. В отличие от Web 2.0, который характеризуется
-                централизованными платформами и сервисами, Web3 предполагает использование
-                децентрализованных приложений (dApps), умных контрактов и криптовалют для выполнения
-                различных функций в интернете.
+                Web3 (or Web 3.0) is a concept for the next generation of the internet, focused on
+                decentralization and the use of blockchain technologies to create a more open and
+                secure network. Unlike Web 2.0, which is characterized by centralized platforms and
+                services, Web3 envisions the use of decentralized applications (dApps), smart
+                contracts, and cryptocurrencies to perform various functions on the internet.
               </p>
               <div className="space-y-4 pb-5"></div>
-              <div className="pb-5">Основные характеристики Web3:</div>
+              <div className="pb-5">Key Characteristics of Web3:</div>
               <ul className="list-disc space-y-4 px-5">
                 <li>
-                  Децентрализация: Управление и данные хранятся на распределенных сетях, а не на
-                  серверах, принадлежащих одной компании.
+                  Decentralization: Management and data are stored on distributed networks rather
+                  than on servers owned by a single company.
                 </li>
                 <li>
-                  Блокчейн: Использование блокчейн-технологий для обеспечения прозрачности и
-                  безопасности транзакций.
+                  Blockchain: The use of blockchain technologies ensures transparency and security
+                  in transactions.
                 </li>
                 <li>
-                  Умные контракты: Автоматизированные контракты, которые исполняются автоматически
-                  при выполнении определенных условий.
+                  Smart Contracts: Automated contracts that execute automatically when certain
+                  conditions are met.
                 </li>
                 <li>
-                  Криптовалюты и токены: Использование цифровых валют для расчетов и токенов для
-                  управления и владения активами.
+                  Cryptocurrencies and Tokens: The use of digital currencies for transactions and
+                  tokens for governance and asset ownership.
                 </li>
                 <li>
-                  Идентичность и конфиденциальность: У пользователей больше контроля над своей
-                  цифровой идентичностью и личными данными.
+                  Identity and Privacy: Users have greater control over their digital identity and
+                  personal data.
                 </li>
               </ul>
             </div>
@@ -93,65 +92,63 @@ export default function Page() {
         <div className="mx-auto flex max-w-full flex-row space-y-2 p-2">
           <details className="open:bg-p1-greem rounded-3xl border-p1-darkgreen p-2 open:ring-1 open:ring-p1-green hover:border-p1-green open:md:border-4 open:md:shadow-lg dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:open:ring-white/10 dark:hover:border-p1-green dark:hover:text-p1-cyan">
             <summary className="text-lm select-none space-y-4 font-semibold leading-6 text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
-              Для того чтобы лучше понять, что такое Web3 надо знать, что такое Web 1 и Web 2
+              In order to better understand what Web3 is, you need to know what Web 1 and Web 2 are.{' '}
             </summary>
             <div className="mt-3 text-base leading-6 text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
               <p>Web-1</p>
               <div className="space-y-4 pb-5"></div>
               <div className="pb-5">
-                Web 1 (или Web 1.0) — это первая эпоха развития интернета, охватывающая период
-                примерно с 1990 по начало 2000-х годов. В этот период интернет представлял собой в
-                основном статические веб-страницы, которые пользователи могли просматривать, но не
-                взаимодействовать с ними так, как это возможно в более поздних версиях интернета.
-                Основные характеристики Web1 включают:
+                Web 1 (or Web 1.0) refers to the first era of internet development, covering the
+                period from approximately 1990 to the early 2000s. During this time, the internet
+                primarily consisted of static web pages that users could view but not interact with
+                as they can in later versions of the web. The main characteristics of Web1 include:
+                Key Characteristics of Web1:
               </div>
               <ul className="list-disc space-y-4 px-5">
                 <li>
-                  Статический контент: Большинство веб-сайтов состояли из статических HTML-страниц,
-                  которые редко обновлялись. Контент создавался и публиковался веб-мастерами и не
-                  позволял пользователям взаимодействовать с ним или вносить изменения.
+                  Static Content: Most websites were composed of static HTML pages that were rarely
+                  updated. Content was created and published by webmasters, and users could not
+                  interact with it or make changes.
                 </li>
                 <li>
-                  Простые веб-технологии: Основными технологиями были HTML (HyperText Markup
-                  Language) для разметки страниц и HTTP (HyperText Transfer Protocol) для передачи
-                  данных по сети. CSS (Cascading Style Sheets) использовались для стилизации
-                  страниц, но их возможности были ограничены.
+                  Basic Web Technologies: The primary technologies were HTML (HyperText Markup
+                  Language) for page structure and HTTP (HyperText Transfer Protocol) for data
+                  transmission over the network. CSS (Cascading Style Sheets) was used for styling
+                  pages, but its capabilities were limited.
                 </li>
                 <li>
-                  Однонаправленное общение: Веб-сайты в основном предоставляли информацию
-                  пользователям, но не обеспечивали интерактивности. Пользователи могли только
-                  потреблять контент, но не могли вносить свой вклад или взаимодействовать с другими
-                  пользователями через сайт.
+                  One-Way Communication: Websites mainly provided information to users without
+                  offering interactivity. Users could only consume content but could not contribute
+                  to it or interact with others through the site.
                 </li>
                 <li>
-                  Отсутствие социальных медиа: В этот период не существовало социальных сетей или
-                  других платформ для пользовательского взаимодействия и создания контента.
-                  Большинство сайтов были личными страницами, сайтами компаний или базами данных
-                  информации.
+                  Absence of Social Media: During this period, there were no social networks or
+                  other platforms for user interaction and content creation. Most websites were
+                  personal pages, company sites, or information databases.
                 </li>
                 <li>
-                  Навигация через порталы и каталоги: Сайты, такие как Yahoo!, предоставляли
-                  каталоги веб-страниц, упрощая пользователям поиск информации. Поисковые системы,
-                  такие как AltaVista и Lycos, начали появляться, но их возможности были ограничены
-                  по сравнению с современными поисковыми системами.
+                  Navigation Through Portals and Directories: Sites like Yahoo! provided directories
+                  of web pages, making it easier for users to find information. Search engines like
+                  AltaVista and Lycos began to emerge, but their capabilities were limited compared
+                  to modern search engines.
                 </li>
               </ul>
             </div>
             <div className="pb-5"> </div>
 
-            <div className="pb-5"> Примеры типичных сайтов Web1:</div>
+            <div className="pb-5"> Examples of Typical Web1 Sites:</div>
             <ul className="list-disc space-y-2 px-5">
-              <li> Информационные порталы: Yahoo!, AOL.</li>
-              <li>Первые поисковые системы: AltaVista, Lycos.</li>
-              <li>Первые коммерческие сайты: Amazon, eBay (в ранние годы).</li>
-              <li>Личные страницы и блоги: Geocities, Angelfire.</li>
+              <li> Information Portals: Yahoo!, AOL.</li>
+              <li>Early Search Engines: AltaVista, Lycos.</li>
+              <li>Early Commercial Sites: Amazon, eBay (в ранние годы).</li>
+              <li>Personal Pages and Blogs: Geocities, Angelfire.</li>
             </ul>
             <div className="pb-5"> </div>
 
             <div className="pb-5">
-              Web1 был важным этапом в развитии интернета, заложившим основу для последующего
-              перехода к Web 2.0 и дальнейшему развитию интерактивного и социально ориентированного
-              интернета.
+              Web1 was an important stage in the development of the internet, laying the foundation
+              for the subsequent transition to Web 2.0 and the further evolution of an interactive
+              and socially oriented web.
             </div>
           </details>
         </div>
@@ -164,65 +161,63 @@ export default function Page() {
             </summary>
             <div className="mt-3 text-base leading-6 text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
               <p>
-                Web 2 (или Web 2.0) — это вторая эпоха развития интернета, начавшаяся в начале
-                2000-х годов. Web2 представляет собой переход от статических веб-страниц и
-                однонаправленного взаимодействия (характерных для Web1) к более динамичным и
-                интерактивным веб-приложениям.
+                Web 2 (or Web 2.0) is the second era of internet development, which began in the
+                early 2000s. Web2 represents a transition from static web pages and one-way
+                interaction (typical of Web1) to more dynamic and interactive web applications.
               </p>
               <div className="space-y-4 pb-5"></div>
-              <div className="pb-5">Основные характеристики Web2 включают:</div>
+              <div className="pb-5">Key Characteristics of Web2:</div>
               <ul className="list-disc space-y-4 px-5">
                 <li>
-                  Динамический контент и интерактивность: В отличие от статических страниц Web1,
-                  сайты Web2 содержат динамический контент, который может изменяться в реальном
-                  времени. Пользователи могут взаимодействовать с сайтами и друг с другом через
-                  комментарии, лайки, форумы и другие механизмы.
+                  Dynamic Content and Interactivity: Unlike the static pages of Web1, Web2 sites
+                  feature dynamic content that can change in real-time. Users can interact with
+                  websites and with each other through comments, likes, forums, and other
+                  mechanisms.
                 </li>
                 <li>
-                  Социальные сети и создание пользовательского контента: Web2 характеризуется ростом
-                  социальных медиа платформ, таких как Facebook, Twitter, Instagram, и YouTube. Эти
-                  платформы позволяют пользователям создавать и делиться контентом, а также
-                  взаимодействовать друг с другом.
+                  Social Networks and User-Generated Content: Web2 is characterized by the growth of
+                  social media platforms like Facebook, Twitter, Instagram, and YouTube. These
+                  platforms allow users to create and share content, as well as interact with one
+                  another.
                 </li>
                 <li>
-                  Веб-приложения: Web2 включает развитие сложных веб-приложений, таких как Google
-                  Docs, которые предоставляют функциональность, сравнимую с настольным программным
-                  обеспечением, но работают в браузере.
+                  Web Applications: Web2 includes the development of complex web applications, such
+                  as Google Docs, which offer functionality comparable to desktop software but run
+                  within a browser.
                 </li>
                 <li>
-                  Ajax и JavaScript: Технологии, такие как Ajax (Asynchronous JavaScript and XML),
-                  JavaScript, и более современные фреймворки (например, React, Angular), позволяют
-                  создавать более отзывчивые и интерактивные пользовательские интерфейсы.
+                  Ajax and JavaScript: Technologies like Ajax (Asynchronous JavaScript and XML),
+                  JavaScript, and more modern frameworks (e.g., React, Angular) enable the creation
+                  of more responsive and interactive user interfaces.
                 </li>
                 <li>
-                  API и Mashup: Web2 активно использует API (Application Programming Interface) для
-                  интеграции различных сервисов и данных. Это позволяет создавать mashup-приложения,
-                  комбинирующие данные и функциональность из разных источников.
+                  APIs and Mashups: Web2 heavily utilizes APIs (Application Programming Interfaces)
+                  for integrating various services and data. This allows for the creation of mashup
+                  applications that combine data and functionality from different sources.
                 </li>
                 <li>
-                  Совместное использование и коллаборация: Платформы, такие как Wikipedia и
-                  различные онлайн-редакторы, позволяют пользователям совместно работать над
-                  контентом, внося изменения и дополнения в реальном времени.
+                  Collaboration and Sharing: Platforms like Wikipedia and various online editors
+                  enable users to collaborate on content, making changes and additions in real-time.
                 </li>
               </ul>
             </div>
             <div className="pb-5"> </div>
 
-            <div className="pb-5">Примеры типичных сайтов и приложений Web2:</div>
+            <div className="pb-5">Examples of Typical Web2 Sites and Applications:</div>
             <ul className="list-disc space-y-2 px-5">
-              <li>Социальные сети: Facebook, Twitter, LinkedIn, Instagram.</li>
-              <li>Платформы для обмена видео: YouTube, Vimeo.</li>
-              <li>Блоги и платформы для публикации: WordPress, Medium.</li>
-              <li>Совместные онлайн-инструменты: Google Docs, Trello, Slack.</li>
-              <li>Электронная коммерция: Amazon, eBay.</li>
+              <li>Social Networks: Facebook, Twitter, LinkedIn, Instagram.</li>
+              <li>Video Sharing Platforms: YouTube, Vimeo.</li>
+              <li>Blogging and Publishing Platforms: WordPress, Medium.</li>
+              <li>Collaborative Online Tools: Google Docs, Trello, Slack.</li>
+              <li>E-commerce: Amazon, eBay.</li>
             </ul>
             <div className="pb-5"> </div>
 
             <div className="pb-5">
-              Web2 принес значительные изменения в способах взаимодействия пользователей с
-              интернетом, сделав его более интерактивным, социальным и ориентированным на
-              пользовательский контент. Этот этап развития интернета заложил основу для дальнейшего
-              прогресса, который мы видим в концепции Web3.
+              Web2 brought significant changes to how users interact with the internet, making it
+              more interactive, social, and focused on user-generated content. This stage of
+              internet development laid the groundwork for the further advancements we see in the
+              concept of Web3.
             </div>
           </details>
         </div>
@@ -231,51 +226,52 @@ export default function Page() {
         <div className="mx-auto flex max-w-full flex-row space-y-2 p-2">
           <details className="open:bg-p1-greem rounded-3xl border-p1-darkgreen p-2 open:ring-1 open:ring-p1-green hover:border-p1-green open:md:border-4 open:md:shadow-lg dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:open:ring-white/10 dark:hover:border-p1-green dark:hover:text-p1-cyan">
             <summary className="text-lm select-none space-y-4 font-semibold leading-6 text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
-              Децентрализация
+              Decentralization
             </summary>
             <div className="mt-3 text-base leading-6 text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
               <p>
-                Децентрализация — это процесс распределения власти, управления и принятия решений от
-                центрального органа или единой точки контроля к более распределенной системе или
-                сети. В контексте информационных технологий и блокчейн-технологий децентрализация
-                имеет несколько ключевых аспектов:
+                Decentralization is the process of distributing power, management, and
+                decision-making away from a central authority or single point of control to a more
+                distributed system or network. In the context of information technology and
+                blockchain technologies, decentralization has several key aspects:
               </p>
               <div className="space-y-4 pb-5"></div>
-
+              <div className="pb-5">Key Aspects of Decentralization:</div>
               <ul className="list-disc space-y-4 px-5">
                 <li>
-                  Технологическая децентрализация: В этой модели данные и вычислительные ресурсы
-                  распределяются по множеству узлов или серверов, а не хранятся и обрабатываются на
-                  одном центральном сервере. Примером является блокчейн, где информация
-                  распределяется по сети узлов, каждый из которых хранит копию всей цепочки блоков.
+                  Technological Decentralization: In this model, data and computational resources
+                  are distributed across multiple nodes or servers rather than being stored and
+                  processed on a single central server. An example is blockchain, where information
+                  is distributed across a network of nodes, each of which stores a copy of the
+                  entire blockchain.
                 </li>
                 <li>
-                  Организационная децентрализация: В этой модели принятие решений и управление
-                  распределяются между многими участниками или организациями, а не сосредоточены в
-                  одной компании или группе. Примером является децентрализованная автономная
-                  организация (DAO), где участники коллективно принимают решения через
-                  смарт-контракты.
+                  Organizational Decentralization: In this model, decision-making and management are
+                  distributed among many participants or organizations rather than being
+                  concentrated in a single company or group. An example is a Decentralized
+                  Autonomous Organization (DAO), where participants collectively make decisions
+                  through smart contracts.
                 </li>
                 <li>
-                  Децентрализация власти: Это процесс распределения полномочий и ответственности
-                  между различными уровнями управления или группами. В контексте государств это
-                  может означать передачу власти от центрального правительства к региональным или
-                  местным органам власти.
+                  Decentralization of Power: This is the process of distributing authority and
+                  responsibility across different levels of governance or groups. In the context of
+                  states, this might mean transferring power from the central government to regional
+                  or local authorities.
                 </li>
               </ul>
             </div>
             <div className="pb-5"> </div>
 
             <div className="pb-5 text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
-              Преимущества децентрализации:
+              Advantages of Decentralization:
               <ul className="list-disc space-y-2 px-5 pt-3">
                 <li>
-                  Повышенная безопасность: Распределение данных и процессов снижает риск взлома или
-                  отказа системы, так как нет единой точки отказа.
+                  Increased Security: Distributing data and processes reduces the risk of hacking or
+                  system failure, as there is no single point of failure.
                 </li>
                 <li>
-                  Прозрачность и доверие: В децентрализованных системах транзакции и процессы часто
-                  открыты и проверяемы всеми участниками, что повышает доверие.
+                  Transparency and Trust: In decentralized systems, transactions and processes are
+                  often open and verifiable by all participants, which increases trust.
                 </li>
               </ul>
             </div>
@@ -286,129 +282,127 @@ export default function Page() {
         <div className="mx-auto flex max-w-full flex-row space-y-2 p-2">
           <details className="open:bg-p1-greem rounded-3xl border-p1-darkgreen p-2 open:ring-1 open:ring-p1-green hover:border-p1-green open:md:border-4 open:md:shadow-lg dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:open:ring-white/10 dark:hover:border-p1-green dark:hover:text-p1-cyan">
             <summary className="text-lm select-none space-y-4 font-semibold leading-6 text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
-              Что такое блокчейн?
+              What is blockchain?
             </summary>
             <div className="mt-3 text-base leading-6 text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
               <p>
-                Блокчейн (blockchain) — это распределенная и защищенная технология хранения данных,
-                представляющая собой цепочку блоков, каждый из которых содержит информацию. Эта
-                информация может включать данные о транзакциях, смарт-контрактах или любых других
-                событиях, которые должны быть зафиксированы и защищены от изменений. Основные
-                особенности блокчейна включают децентрализацию, неизменяемость и безопасность.
+                Blockchain is a distributed and secure data storage technology that consists of a
+                chain of blocks, each containing information. This information can include
+                transaction data, smart contracts, or any other events that need to be recorded and
+                protected from modification. The main features of blockchain include
+                decentralization, immutability, and security.
               </p>
               <div className="space-y-4 pb-5"></div>
-              <p>Основные характеристики блокчейна:</p>
+              <p>Key Characteristics of Blockchain:</p>
               <div className="pb-5"></div>
 
               <ul className="list-disc space-y-4 px-5">
                 <li>
-                  Децентрализация: Данные в блокчейне хранятся на множестве узлов (компьютеров),
-                  которые образуют сеть. Все узлы имеют копию всей цепочки блоков, что исключает
-                  необходимость в центральном органе контроля и повышает устойчивость системы.
+                  Decentralization: Data in a blockchain is stored across multiple nodes (computers)
+                  that form a network. All nodes have a copy of the entire blockchain, eliminating
+                  the need for a central authority and increasing the system&apos;s resilience.
                 </li>
                 <li>
-                  Неизменяемость: Каждый блок содержит хеш предыдущего блока, что делает невозможным
-                  изменение информации в блоке без изменения всех последующих блоков. Это
-                  обеспечивает целостность и надежность данных, записанных в блокчейн.
+                  Immutability: Each block contains the hash of the previous block, making it
+                  impossible to alter information in a block without changing all subsequent blocks.
+                  This ensures the integrity and reliability of the data recorded in the blockchain.
                 </li>
                 <li>
-                  Прозрачность и проверяемость: В публичных блокчейнах данные доступны всем
-                  участникам сети, что обеспечивает прозрачность. Любой желающий может проверить
-                  транзакции и убедиться в их подлинности.
+                  Transparency and Verifiability: In public blockchains, data is accessible to all
+                  network participants, ensuring transparency. Anyone can verify transactions and
+                  confirm their authenticity.
                 </li>
                 <li>
-                  Безопасность: Блокчейн использует криптографические методы для защиты данных и
-                  обеспечения их аутентичности. Сложные математические алгоритмы защищают данные от
-                  несанкционированного доступа и изменений.
+                  Security: Blockchain uses cryptographic methods to protect data and ensure its
+                  authenticity. Complex mathematical algorithms safeguard the data from unauthorized
+                  access and alterations.
                 </li>
               </ul>
             </div>
             <div className="pb-5"> </div>
 
             <div className="pb-5 text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
-              Как работает блокчейн:
+              How Blockchain Works:
               <ul className="list-disc space-y-2 px-5">
                 <li>
-                  Создание транзакции: Пользователь создает транзакцию, которая включает информацию,
-                  такую как перевод криптовалюты, данные смарт-контракта или любое другое событие.
+                  Transaction Creation: A user initiates a transaction, which includes information
+                  such as cryptocurrency transfer, smart contract data, or any other event.
                 </li>
                 <li>
-                  Проверка транзакции: Транзакция передается в сеть, где она проверяется узлами на
-                  предмет правильности и соответствия правилам консенсуса (например, Proof of Work
-                  или Proof of Stake).
+                  Transaction Verification: The transaction is broadcast to the network, where it is
+                  verified by nodes for correctness and compliance with consensus rules (e.g., Proof
+                  of Work or Proof of Stake).
                 </li>
                 <li>
-                  Добавление в блок: Проверенные транзакции объединяются в блоки. Каждый блок
-                  содержит хеш предыдущего блока, создавая таким образом цепочку.
+                  Block Formation: Verified transactions are grouped into blocks. Each block
+                  contains the hash of the previous block, forming a chain.
                 </li>
                 <li>
-                  Закрепление блока: После того как блок создан и подтвержден узлами, он добавляется
-                  к цепочке блоков, и информация становится неизменяемой.
+                  Block Confirmation: Once a block is created and confirmed by the nodes, it is
+                  added to the blockchain, and the information becomes immutable.
                 </li>
                 <li>
-                  Распределение и синхронизация: Обновленный блокчейн передается всем узлам сети,
-                  которые обновляют свои копии цепочки блоков.
+                  Distribution and Synchronization: The updated blockchain is distributed to all
+                  nodes in the network, which then update their copies of the blockchain.
                 </li>
               </ul>
             </div>
             <div className="pb-5"> </div>
 
             <div className="pb-5 text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
-              Примеры использования блокчейна:
+              Examples of Blockchain Use Cases:
               <ul className="list-disc space-y-2 px-5">
                 <li>
-                  Криптовалюты: Самым известным применением блокчейна являются криптовалюты, такие
-                  как Bitcoin и Ethereum. Они используют блокчейн для децентрализованного и
-                  безопасного учета транзакций.
+                  Cryptocurrencies: The most well-known application of blockchain is in
+                  cryptocurrencies such as Bitcoin and Ethereum, which use blockchain for
+                  decentralized and secure transaction accounting.
                 </li>
                 <li>
-                  Смарт-контракты: Платформы, такие как Ethereum, используют блокчейн для выполнения
-                  смарт-контрактов, которые автоматически выполняются при соблюдении заранее
-                  определенных условий.
+                  Smart Contracts: Platforms like Ethereum use blockchain to execute smart contracts
+                  that automatically perform actions when predefined conditions are met.
                 </li>
                 <li>
-                  Управление цепочками поставок: Блокчейн может использоваться для отслеживания
-                  движения товаров по цепочке поставок, обеспечивая прозрачность и аутентичность
-                  данных.
+                  Supply Chain Management: Blockchain can be used to track the movement of goods in
+                  supply chains, ensuring transparency and data authenticity.
                 </li>
                 <li>
-                  Децентрализованные приложения (dApps): Приложения, работающие на блокчейне,
-                  обеспечивают децентрализованное выполнение различных функций без необходимости в
-                  центральном сервере.
+                  Decentralized Applications (dApps): Applications running on blockchain provide
+                  decentralized execution of various functions without the need for a central
+                  server.
                 </li>
                 <li>
-                  Голосование: Блокчейн может использоваться для проведения безопасных и прозрачных
-                  голосований, исключая возможность фальсификаций.
+                  Voting: Blockchain can be used to conduct secure and transparent voting,
+                  eliminating the possibility of fraud.
                 </li>
               </ul>
             </div>
             <div className="pb-5"> </div>
 
             <div className="pb-5 text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
-              Преимущества блокчейна:
+              Advantages of Blockchain:
               <ul className="list-disc space-y-2 px-5">
                 <li>
-                  Устойчивость к взломам: Децентрализованная природа блокчейна делает его устойчивым
-                  к атакам, так как нет единой точки отказа.
+                  Resilience to Hacking: The decentralized nature of blockchain makes it resistant
+                  to attacks, as there is no single point of failure.
                 </li>
                 <li>
-                  Прозрачность: Все участники сети могут видеть данные и проверять их подлинность.
+                  Transparency: All network participants can view data and verify its authenticity.
                 </li>
                 <li>
-                  Снижение затрат: Блокчейн устраняет необходимость в посредниках, что может снизить
-                  операционные расходы.
+                  Cost Reduction: Blockchain eliminates the need for intermediaries, which can
+                  reduce operational costs.
                 </li>
                 <li>
-                  Автоматизация: Смарт-контракты и децентрализованные приложения могут
-                  автоматизировать множество процессов, делая их быстрее и надежнее.
+                  Automation: Smart contracts and decentralized applications can automate many
+                  processes, making them faster and more reliable.
                 </li>
               </ul>
             </div>
             <div className="pb-5"> </div>
             <div className="pb-5 text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
-              Блокчейн — это мощная технология, которая открывает новые возможности для безопасного
-              и децентрализованного хранения и обработки данных, находя применение во множестве
-              отраслей, от финансов до управления цепочками поставок.
+              Blockchain is a powerful technology that opens up new possibilities for secure and
+              decentralized data storage and processing, finding applications in various industries,
+              from finance to supply chain management.
             </div>
           </details>
         </div>
@@ -416,123 +410,123 @@ export default function Page() {
         <div className="mx-auto flex max-w-full flex-row space-y-2 p-2">
           <details className="open:bg-p1-greem rounded-3xl border-p1-darkgreen p-2 open:ring-1 open:ring-p1-green hover:border-p1-green open:md:border-4 open:md:shadow-lg dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:open:ring-white/10 dark:hover:border-p1-green dark:hover:text-p1-cyan">
             <summary className="text-lm select-none space-y-4 font-semibold leading-6 text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
-              Смарт-контракты
+              Smart contracts{' '}
             </summary>
             <div className="mt-3 text-base leading-6 text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
               <p>
-                Смарт-контракты (англ. smart contracts) — это самоисполняющиеся контракты с
-                условиями соглашения между покупателем и продавцом, написанными непосредственно в
-                строках кода. Эти контракты существуют на блокчейне и автоматически выполняются,
-                когда определенные условия соблюдаются. Смарт-контракты обеспечивают прозрачность,
-                безопасность и автоматизацию процессов, устраняя необходимость в посредниках.
+                Smart contracts are self-executing contracts with the terms of the agreement between
+                buyer and seller directly written into lines of code. These contracts exist on a
+                blockchain and are automatically executed when predefined conditions are met. Smart
+                contracts provide transparency, security, and automation of processes, eliminating
+                the need for intermediaries.
               </p>
               <div className="space-y-4 pb-5"></div>
-              <p>Основные характеристики смарт-контрактов:</p>
+              <p> Key Characteristics of Smart Contracts:</p>
               <div className="pb-5"></div>
 
               <ul className="list-disc space-y-4 px-5">
                 <li>
-                  Автономность: Смарт-контракты исполняются автоматически без необходимости
-                  вмешательства человека, как только выполнены заранее определенные условия.
+                  Autonomy: Smart contracts execute automatically without the need for human
+                  intervention once predefined conditions are met.
                 </li>
                 <li>
-                  Децентрализация: Они работают на блокчейне, что означает, что они не
-                  контролируются одной центральной организацией или сервером.
+                  Decentralization: They operate on a blockchain, meaning they are not controlled by
+                  a single central organization or server.
                 </li>
                 <li>
-                  Прозрачность: Все участники сети могут проверить условия контракта и его
-                  выполнение, что увеличивает доверие и снижает риски мошенничества.
+                  Transparency: All network participants can verify the contract terms and its
+                  execution, increasing trust and reducing the risk of fraud.
                 </li>
                 <li>
-                  Неизменяемость: После развертывания на блокчейне смарт-контракт не может быть
-                  изменен, что обеспечивает надежность и неизменность условий.
+                  Immutability: Once deployed on the blockchain, a smart contract cannot be altered,
+                  ensuring the reliability and constancy of the contract terms.
                 </li>
                 <li>
-                  Безопасность: Код и транзакции защищены криптографией, что делает их устойчивыми к
-                  взломам и манипуляциям.
+                  Security: The code and transactions are protected by cryptography, making them
+                  resistant to hacking and manipulation.
                 </li>
               </ul>
             </div>
             <div className="pb-5"> </div>
 
             <div className="pb-5 text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
-              Как работают смарт-контракты: :
+              How Smart Contracts Work:
               <ul className="list-disc space-y-2 px-5">
                 <li>
-                  Создание и развертывание: Смарт-контракт создается разработчиком с использованием
-                  языка программирования, такого как Solidity для Ethereum. Затем он развертывается
-                  на блокчейне.
+                  Creation and Deployment: A smart contract is created by a developer using a
+                  programming language such as Solidity for Ethereum. It is then deployed on the
+                  blockchain.
                 </li>
                 <li>
-                  Выполнение условий: Смарт-контракт содержит логические условия (например,
-                  &quot;если-это-то-то&quot;), которые проверяются и выполняются автоматически при
-                  соблюдении определенных условий.
+                  Condition Execution: The smart contract contains logical conditions (e.g.,
+                  &quot;if this, then that&quot;) that are automatically checked and executed when
+                  certain conditions are met.
                 </li>
                 <li>
-                  Автоматическое исполнение: Если условия соблюдены, смарт-контракт выполняет
-                  запрограммированные действия, такие как перевод средств, регистрация данных или
-                  запуск других смарт-контрактов.
+                  Automatic Execution: If the conditions are fulfilled, the smart contract performs
+                  programmed actions, such as transferring funds, recording data, or triggering
+                  other smart contracts.
                 </li>
               </ul>
             </div>
             <div className="pb-5"> </div>
 
             <div className="pb-5 text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
-              Примеры использования смарт-контрактов:
+              Examples of Smart Contract Uses:
               <ul className="list-disc space-y-2 px-5">
                 <li>
-                  Финансовые услуги: Смарт-контракты могут автоматизировать процессы, такие как
-                  кредитование, страхование и торговля активами. Например, DeFi (децентрализованные
-                  финансы) используют смарт-контракты для создания финансовых продуктов без
-                  необходимости в традиционных финансовых учреждениях.
+                  Financial Services: Smart contracts can automate processes such as lending,
+                  insurance, and asset trading. For example, decentralized finance (DeFi) uses smart
+                  contracts to create financial products without the need for traditional financial
+                  institutions.
                 </li>
                 <li>
-                  Логистика и управление цепочками поставок: Смарт-контракты могут отслеживать
-                  движение товаров, автоматизировать платежи и управлять поставками на основе
-                  предопределенных условий.
+                  Logistics and Supply Chain Management: Smart contracts can track the movement of
+                  goods, automate payments, and manage supplies based on predefined conditions.
                 </li>
                 <li>
-                  Управление цифровыми активами: Смарт-контракты могут использоваться для создания и
-                  управления токенами, включая NFT (невзаимозаменяемые токены), которые представляют
-                  собой уникальные цифровые объекты, такие как произведения искусства, коллекционные
-                  предметы и виртуальная недвижимость.
+                  Digital Asset Management: Smart contracts can be used to create and manage tokens,
+                  including NFTs (non-fungible tokens), which represent unique digital objects like
+                  artwork, collectibles, and virtual real estate.
                 </li>
                 <li>
-                  Управление организациями: Децентрализованные автономные организации (DAO)
-                  используют смарт-контракты для принятия коллективных решений и управления
-                  ресурсами организации на основе голосования участников.
+                  Organizational Governance: Decentralized Autonomous Organizations (DAOs) use smart
+                  contracts to make collective decisions and manage organizational resources based
+                  on member voting.
                 </li>
                 <li>
-                  Юридические соглашения: Смарт-контракты могут автоматизировать выполнение
-                  юридических соглашений, таких как аренда недвижимости или контракты на оказание
-                  услуг.
+                  Legal Agreements: Smart contracts can automate the execution of legal agreements
+                  such as real estate leases or service contracts. услуг.
                 </li>
               </ul>
             </div>
             <div className="pb-5"> </div>
 
             <div className="pb-5 text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
-              Примеры платформ для создания смарт-контрактов:
+              Examples of Smart Contract Platforms:
               <ul className="list-disc space-y-2 px-5">
                 <li>
-                  Ethereum: Самая известная и широко используемая платформа для создания
-                  смарт-контрактов. Использует язык программирования Solidity.
+                  Ethereum: The most well-known and widely used platform for creating smart
+                  contracts. It uses the Solidity programming language.
                 </li>
                 <li>
-                  EOS: Платформа, ориентированная на высокую производительность и масштабируемость
-                  смарт-контрактов.
+                  EOS: A platform focused on high performance and scalability for smart contracts.
                 </li>
                 <li>
-                  Tron: Платформа, предназначенная для создания децентрализованных приложений и
-                  смарт-контрактов, с акцентом на мультимедийные приложения.
+                  Tron: A platform designed for creating decentralized applications and smart
+                  contracts with an emphasis on multimedia applications.
                 </li>
                 <li>
-                  Cardano: Платформа, известная своим научным подходом к разработке и безопасностью
-                  смарт-контрактов. Смарт-контракты революционизируют множество отраслей,
-                  автоматизируя процессы и создавая новые возможности для взаимодействия без
-                  посредников.
+                  Cardano: A platform known for its scientific approach to development and smart
+                  contract security.
                 </li>
               </ul>
+            </div>
+            <div className="pb-5"> </div>
+
+            <div className="pb-5 text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
+              Smart contracts are revolutionizing various industries by automating processes and
+              creating new opportunities for interaction without intermediaries.
             </div>
           </details>
         </div>
@@ -540,95 +534,93 @@ export default function Page() {
         <div className="mx-auto flex max-w-full flex-row space-y-2 p-2">
           <details className="open:bg-p1-greem rounded-3xl border-p1-darkgreen p-2 open:ring-1 open:ring-p1-green hover:border-p1-green open:md:border-4 open:md:shadow-lg dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:open:ring-white/10 dark:hover:border-p1-green dark:hover:text-p1-cyan">
             <summary className="text-lm select-none space-y-4 font-semibold leading-6 text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
-              ДАО (Децентрализованная автономная организация)
+              DAO Decentralized Autonomous Organization
             </summary>
             <div className="mt-3 text-base leading-6 text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
               <p>
-                ДАО (Децентрализованная автономная организация) — это организация, управляемая с
-                помощью блокчейн-технологий и смарт-контрактов, которая функционирует без
-                центрального управления. В DAO решения принимаются коллективно участниками
-                организации, часто посредством голосования с использованием токенов.
+                A Decentralized Autonomous Organization (DAO) is an organization managed through
+                blockchain technology and smart contracts, operating without central control. In a
+                DAO, decisions are made collectively by the organization’s participants, often
+                through voting using tokens.
               </p>
               <div className="space-y-4 pb-5"></div>
-              <p>Основные характеристики и принципы DAO включают:</p>
+              <p>Key Characteristics and Principles of DAOs:</p>
               <div className="pb-5"></div>
 
               <ul className="list-disc space-y-4 px-5">
                 <li>
-                  Децентрализованное управление: В DAO нет единого управляющего органа или
-                  централизованного управления. Вся деятельность организации контролируется и
-                  управляется коллективно участниками через смарт-контракты.
+                  Decentralized Management: A DAO does not have a single governing body or
+                  centralized control. All organizational activities are managed collectively by
+                  participants through smart contracts.
                 </li>
                 <li>
-                  Прозрачность и открытость: Все действия и транзакции DAO записываются в блокчейн,
-                  что делает их прозрачными и проверяемыми для всех участников. Это повышает доверие
-                  между участниками, так как все действия можно проверить.
+                  Transparency and Openness: All actions and transactions of a DAO are recorded on
+                  the blockchain, making them transparent and verifiable for all participants. This
+                  increases trust among members, as all activities can be audited.
                 </li>
                 <li>
-                  Смарт-контракты: Основой функционирования DAO являются смарт-контракты —
-                  автоматизированные программы, которые исполняются при выполнении определенных
-                  условий. Эти контракты прописывают правила и процедуры работы DAO и гарантируют их
-                  соблюдение без необходимости в центральном посреднике.
+                  Smart Contracts: The core of a DAO’s functionality is its smart
+                  contracts—automated programs that execute when certain conditions are met. These
+                  contracts define the rules and procedures for the DAO and ensure compliance
+                  without the need for a central intermediary.
                 </li>
                 <li>
-                  Голосование и участие: Участники DAO часто имеют право голоса пропорционально
-                  количеству принадлежащих им токенов. Голосование может использоваться для принятия
-                  решений о развитии проекта, распределении ресурсов и других важных вопросах.
+                  Voting and Participation: DAO members typically have voting rights proportional to
+                  the number of tokens they hold. Voting can be used to make decisions about project
+                  development, resource allocation, and other significant issues.
                 </li>
                 <li>
-                  Автономность: DAO функционируют автономно, следуя заложенным в смарт-контрактах
-                  правилам. Это минимизирует необходимость вмешательства людей и снижает риск
-                  человеческих ошибок или злоупотреблений.
+                  Autonomy: DAOs operate autonomously by adhering to the rules encoded in smart
+                  contracts. This minimizes the need for human intervention and reduces the risk of
+                  human error or misuse.
                 </li>
               </ul>
             </div>
             <div className="pb-5"> </div>
 
             <div className="pb-5 text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
-              Примеры использования DAO:
+              Examples of DAO Use Cases:
               <ul className="list-disc space-y-2 px-5">
                 <li>
-                  Финансовые проекты: DAO могут управлять фондами и инвестициями, распределяя
-                  средства по проектам на основе коллективного голосования.
+                  Financial Projects: DAOs can manage funds and investments, allocating resources to
+                  projects based on collective voting.
                 </li>
                 <li>
-                  Социальные и благотворительные проекты: Участники могут совместно управлять
-                  благотворительными фондами и распределять помощь на основе голосования.
+                  Social and Charitable Projects: Members can jointly manage charitable funds and
+                  distribute aid through voting mechanisms.
                 </li>
                 <li>
-                  Децентрализованные платформы: Управление децентрализованными приложениями и
-                  сервисами, такими как платформы для обмена контентом или социальные сети, может
-                  осуществляться через DAO.
+                  Decentralized Platforms: Management of decentralized applications and services,
+                  such as content-sharing platforms or social networks, can be conducted through
+                  DAOs.
                 </li>
               </ul>
             </div>
             <div className="pb-5"> </div>
 
             <div className="pb-5 text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
-              Примеры известных DAO:
+              Notable Examples of DAOs:
               <ul className="list-disc space-y-2 px-5">
                 <li>
-                  The DAO: Один из первых и самых известных примеров DAO, созданный в 2016 году на
-                  платформе Ethereum. Он собрал значительные средства через краудфандинг, но вскоре
-                  столкнулся с уязвимостью, которая привела к хакерской атаке и значительным
-                  потерям.
+                  The DAO: One of the first and most well-known examples, created in 2016 on the
+                  Ethereum platform. It raised significant funds through crowdfunding but soon faced
+                  a vulnerability that led to a hacker attack and substantial losses.
                 </li>
                 <li>
-                  MakerDAO: Платформа, управляющая стейблкоином DAI. Участники могут голосовать за
-                  изменения в протоколе и параметрах системы, таких как процентные ставки.
+                  MakerDAO: A platform managing the stablecoin DAI. Participants can vote on changes
+                  to the protocol and system parameters, such as interest rates.
                 </li>
                 <li>
-                  Aragon: Платформа, предоставляющая инструменты для создания и управления DAO,
-                  включая интерфейсы для голосования и управления активами.
+                  Aragon: A platform providing tools for creating and managing DAOs, including
+                  interfaces for voting and asset management.
                 </li>
               </ul>
             </div>
             <div className="pb-5"> </div>
 
             <div className="pb-5 text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
-              DAO представляет собой инновационный способ организации и управления, который
-              использует возможности блокчейн-технологий для обеспечения прозрачности, безопасности
-              и децентрализации.
+              DAOs represent an innovative approach to organization and management, leveraging
+              blockchain technology to ensure transparency, security, and decentralization.
             </div>
           </details>
         </div>
@@ -636,102 +628,98 @@ export default function Page() {
         <div className="mx-auto flex max-w-full flex-row space-y-2 p-2">
           <details className="open:bg-p1-greem rounded-3xl border-p1-darkgreen p-2 open:ring-1 open:ring-p1-green hover:border-p1-green open:md:border-4 open:md:shadow-lg dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:open:ring-white/10 dark:hover:border-p1-green dark:hover:text-p1-cyan">
             <summary className="text-lm select-none space-y-4 font-semibold leading-6 text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
-              Организация хранения данных в децентрализованной сети по техологии IPFS
+              Organization of data storage in a decentralized network using IPFS technology
             </summary>
             <div className="mt-3 text-base leading-6 text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
               <p>
-                IPFS (InterPlanetary File System, Межпланетная файловая система) — это
-                децентрализованная система хранения и обмена файлами, разработанная для создания
-                более устойчивого и доступного интернета. IPFS использует P2P (peer-to-peer)
-                технологию для распределенного хранения данных, что обеспечивает надежность,
-                скорость и устойчивость к цензуре.
+                IPFS (InterPlanetary File System) is a decentralized file storage and sharing system
+                designed to create a more resilient and accessible internet. IPFS uses peer-to-peer
+                (P2P) technology for distributed data storage, which ensures reliability, speed, and
+                resistance to censorship.
               </p>
               <div className="space-y-4 pb-5"></div>
-              <p>Основные особенности и принципы IPFS включают:</p>
+              <p>Key Features and Principles of IPFS:</p>
               <div className="pb-5"></div>
 
               <ul className="list-disc space-y-4 px-5">
                 <li>
-                  Децентрализованное хранилище: В отличие от традиционных централизованных серверов,
-                  IPFS использует распределенную сеть узлов, где каждый узел может хранить и
-                  передавать данные. Это делает систему более устойчивой к сбоям и атакам.
+                  Decentralized Storage: Unlike traditional centralized servers, IPFS employs a
+                  distributed network of nodes where each node can store and transmit data. This
+                  makes the system more resilient to failures and attacks.
                 </li>
                 <li>
-                  Контент-адресация: В IPFS файлы идентифицируются и запрашиваются по их
-                  содержимому, а не по их местоположению. Каждому файлу или фрагменту данных
-                  присваивается уникальный хеш, который используется для его поиска и извлечения.
-                  Если содержимое файла изменится, изменится и его хеш.
+                  Content Addressing: In IPFS, files are identified and retrieved by their content
+                  rather than their location. Each file or data fragment is assigned a unique hash
+                  used to search for and retrieve it. If the content of the file changes, its hash
+                  changes as well.
                 </li>
                 <li>
-                  P2P-сеть: IPFS использует P2P-сеть для обмена данными между узлами. Узлы могут
-                  запрашивать, хранить и передавать файлы друг другу, что повышает общую скорость и
-                  эффективность сети.
+                  P2P Network: IPFS utilizes a P2P network to exchange data between nodes. Nodes can
+                  request, store, and transfer files to one another, enhancing the overall speed and
+                  efficiency of the network.
                 </li>
                 <li>
-                  Версионирование и иммутабельность: IPFS поддерживает версионирование данных, что
-                  позволяет хранить и отслеживать изменения файлов со временем. Также данные в IPFS
-                  являются неизменяемыми (иммутабельными), что гарантирует их целостность.
+                  Versioning and Immutability: IPFS supports data versioning, allowing files to be
+                  stored and tracked over time. Data in IPFS is immutable, ensuring its integrity.
                 </li>
                 <li>
-                  Снижение нагрузки на серверы: За счет распределенного хранения и кеширования
-                  данных на узлах, IPFS снижает нагрузку на центральные серверы и увеличивает
-                  доступность контента.
+                  Reduced Server Load: By distributing storage and caching data across nodes, IPFS
+                  reduces the load on central servers and increases content availability.
                 </li>
               </ul>
             </div>
             <div className="pb-5"> </div>
 
             <div className="pb-5 text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
-              Преимущества IPFS:
+              Advantages of IPFS:
               <ul className="list-disc space-y-2 px-5">
                 <li>
-                  Устойчивость к сбоям: Данные дублируются и распределяются по множеству узлов, что
-                  делает систему устойчивой к отказам и потерям данных.
+                  Fault Tolerance: Data is duplicated and distributed across multiple nodes, making
+                  the system resilient to failures and data loss.
                 </li>
                 <li>
-                  Скорость и эффективность: Контент может быть извлечен из ближайших узлов, что
-                  уменьшает задержки и повышает скорость загрузки.
+                  Speed and Efficiency: Content can be retrieved from the nearest nodes, reducing
+                  latency and increasing download speed.
                 </li>
                 <li>
-                  Устойчивость к цензуре: Децентрализованная природа IPFS затрудняет контроль или
-                  блокировку доступа к информации.
+                  Censorship Resistance: The decentralized nature of IPFS makes it difficult to
+                  control or block access to information.
                 </li>
                 <li>
-                  Экономия ресурсов: За счет распределенного хранения и обмена данными IPFS может
-                  снизить затраты на инфраструктуру.
+                  Resource Efficiency: Distributed storage and data exchange in IPFS can lower
+                  infrastructure costs.
                 </li>
               </ul>
             </div>
             <div className="pb-5"> </div>
 
             <div className="pb-5 text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
-              Примеры использования IPFS:
+              Examples of IPFS Use Cases:
               <ul className="list-disc space-y-2 px-5">
                 <li>
-                  Децентрализованные приложения (dApps): Многие блокчейн-приложения используют IPFS
-                  для хранения данных, таких как смарт-контракты, метаданные и пользовательский
-                  контент.
+                  Decentralized Applications (dApps): Many blockchain applications use IPFS to store
+                  data such as smart contracts, metadata, and user content.
                 </li>
                 <li>
-                  Хранение и передача больших файлов: IPFS подходит для хранения и передачи больших
-                  объемов данных, таких как мультимедийные файлы, научные данные и архивы.
+                  Large File Storage and Transfer: IPFS is suitable for storing and transmitting
+                  large volumes of data, including multimedia files, scientific data, and archives.
                 </li>
                 <li>
-                  Обеспечение устойчивости сайтов: Веб-сайты могут быть развернуты на IPFS, чтобы
-                  повысить их доступность и защиту от атак.
+                  Website Resilience: Websites can be deployed on IPFS to enhance their availability
+                  and protect against attacks.
                 </li>
                 <li>
-                  Хранение данных в блокчейн-проектах: Проекты, такие как Filecoin, используют IPFS
-                  для обеспечения децентрализованного хранилища данных с экономическими стимулами.
+                  Data Storage in Blockchain Projects: Projects like Filecoin use IPFS to provide
+                  decentralized data storage with economic incentives.
                 </li>
               </ul>
             </div>
             <div className="pb-5"> </div>
 
             <div className="pb-5 text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
-              IPFS представляет собой мощный инструмент для создания более децентрализованного,
-              безопасного и эффективного интернета, позволяя пользователям хранить и обмениваться
-              данными без необходимости в доверенных посредниках или центральных серверах.
+              IPFS is a powerful tool for creating a more decentralized, secure, and efficient
+              internet, allowing users to store and share data without relying on trusted
+              intermediaries or central servers.
             </div>
           </details>
         </div>
@@ -739,16 +727,16 @@ export default function Page() {
         <div className="mx-auto flex max-w-full flex-row space-y-2 p-2">
           <details className="open:bg-p1-greem rounded-3xl border-p1-darkgreen p-2 open:ring-1 open:ring-p1-green hover:border-p1-green open:md:border-4 open:md:shadow-lg dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:open:ring-white/10 dark:hover:border-p1-green dark:hover:text-p1-cyan">
             <summary className="text-lm select-none space-y-4 font-semibold leading-6 text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
-              Организация хранения данных в децентрализованной сети по техологии Blockweave
+              Organization of data storage in a decentralized network using Blockweave technology
             </summary>
             <div className="mt-3 text-base leading-6 text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
               <p>
-                Blockweave — это уникальная структура хранения данных, используемая в сети Arweave.
-                Она отличается от традиционных блокчейнов тем, что каждый блок в сети не только
-                ссылается на предыдущий блок, но и на случайные более старые блоки. Это переплетение
-                (weaving) блоков обеспечивает более эффективное и долговременное хранение данных.
-                Такой подход позволяет снизить требования к хранению для узлов сети и обеспечивает
-                устойчивость к потерям данных, делая сеть более надежной и масштабируемой.
+                Blockweave is a unique data storage structure used in the Arweave network. It
+                differs from traditional blockchains in that each block in the network not only
+                references the previous block but also references random older blocks. This
+                &quot;weaving&quot; of blocks ensures more efficient and long-term data storage.
+                This approach reduces the storage requirements for network nodes and provides
+                resilience against data loss, making the network more reliable and scalable.
               </p>
             </div>
           </details>
@@ -757,113 +745,119 @@ export default function Page() {
         <div className="mx-auto flex max-w-full flex-row space-y-2 p-2">
           <details className="open:bg-p1-greem rounded-3xl border-p1-darkgreen p-2 open:ring-1 open:ring-p1-green hover:border-p1-green open:md:border-4 open:md:shadow-lg dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:open:ring-white/10 dark:hover:border-p1-green dark:hover:text-p1-cyan">
             <summary className="text-lm select-none space-y-4 font-semibold leading-6 text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
-              Что такое токен?
+              What is a token?
             </summary>
             <div className="mt-3 text-base leading-6 text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
               <p>
-                Токен — это цифровой актив, представляющий собой единицу стоимости или права,
-                созданный и управляемый с использованием блокчейн-технологий. Токены могут иметь
-                различные функции и применения, от финансовых инструментов до представления прав на
-                активы или доступа к услугам.
+                A token is a digital asset representing a unit of value or a right, created and
+                managed using blockchain technology. Tokens can have various functions and
+                applications, ranging from financial instruments to representing ownership rights or
+                access to services.
               </p>
               <div className="space-y-4 pb-5"></div>
-              <p>Основные виды токенов:</p>
+              <p>Main Types of Tokens:</p>
               <div className="pb-5"></div>
-
+              <p>Fungible Tokens:</p>
+              <div className="pb-5"></div>
               <ul className="list-disc px-5">
-                <li>Фунгибельные токены (Fungible Tokens):</li>
+                <li>
+                  Cryptocurrencies: Examples include Bitcoin (BTC) and Ethereum (ETH), which are
+                  interchangeable and can be used for exchanges and payments.
+                </li>
+                <li>
+                  Stablecoins: Tokens pegged to the value of traditional currencies, such as USDT
+                  (Tether), USDC, and DAI, providing price stability.
+                </li>
               </ul>
               <div className="pb-5"></div>
-              <div className="pb-5">
-                Криптовалюты: Примеры включают Bitcoin (BTC), Ethereum (ETH), которые являются
-                взаимозаменяемыми и могут использоваться для обмена и платежей.
-              </div>
-              <div className="pb-5">
-                Стейблкоины: Токены, привязанные к стоимости традиционных валют, таких как USDT
-                (Tether), USDC, DAI, обеспечивающие стабильность цен.
-              </div>
+              <div className="pb-5">Non-Fungible Tokens (NFTs):</div>
 
               <ul className="list-disc space-y-4 px-5">
                 <li>
-                  Невзаимозаменяемые токены (Non-Fungible Tokens, NFT): Коллекционные предметы и
-                  цифровое искусство: Каждый токен уникален и не может быть заменен другим на равных
-                  условиях. Примеры включают цифровые произведения искусства, виртуальные игровые
-                  предметы и коллекционные карточки.
-                </li>
-                <li>
-                  Утилитарные токены (Utility Tokens):Доступ к услугам и продуктам: Эти токены
-                  предоставляют доступ к определенным услугам или продуктам на платформе. Например,
-                  токены, используемые для оплаты транзакционных сборов или доступа к дополнительным
-                  функциям в децентрализованных приложениях (dApps).
-                </li>
-                <li>
-                  Безопасные токены (Security Tokens):Инвестиционные инструменты: Представляют собой
-                  доли в реальных активах, таких как акции компаний, недвижимость или другие
-                  финансовые инструменты. Эти токены подлежат регулированию, как и традиционные
-                  ценные бумаги.
+                  Collectibles and Digital Art: Each token is unique and cannot be replaced with
+                  another on an equal basis. Examples include digital artworks, virtual gaming
+                  items, and collectible cards.
                 </li>
               </ul>
             </div>
             <div className="pb-5"> </div>
 
+            <div className="pb-5">Utility Tokens:</div>
+
+            <ul className="list-disc space-y-4 px-5">
+              <li>
+                Access to Services and Products: These tokens grant access to specific services or
+                products on a platform. For example, tokens used to pay transaction fees or access
+                additional features in decentralized applications (dApps).
+              </li>
+            </ul>
+            <div className="pb-5"> </div>
+
+            <div className="pb-5">Security Tokens:</div>
+
+            <ul className="list-disc space-y-4 px-5">
+              <li>
+                Investment Instruments: Represent shares in real assets like company stock, real
+                estate, or other financial instruments. These tokens are subject to regulation
+                similar to traditional securities.
+              </li>
+            </ul>
+            <div className="pb-5"> </div>
+
             <div className="pb-5 text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
-              Примеры использования токенов:
+              Examples of Token Usage:
               <ul className="list-disc space-y-2 px-5">
                 <li>
-                  Финансовые транзакции: Криптовалюты используются для быстрых и дешевых транзакций
-                  по всему миру без необходимости в банках или посредниках.
+                  Financial Transactions: Cryptocurrencies enable fast and low-cost transactions
+                  globally without the need for banks or intermediaries.
                 </li>
                 <li>
-                  Коллекционирование и искусство: NFT позволяют художникам и коллекционерам
-                  торговать уникальными цифровыми произведениями искусства и предметами
-                  коллекционирования.
+                  Collecting and Art: NFTs allow artists and collectors to trade unique digital
+                  artworks and collectible items.
                 </li>
                 <li>
-                  Голосование и управление: В децентрализованных автономных организациях (DAO)
-                  токены могут использоваться для голосования и принятия решений коллективно.
+                  Voting and Governance: In decentralized autonomous organizations (DAOs), tokens
+                  can be used for voting and collective decision-making.
                 </li>
                 <li>
-                  Доступ к услугам: Утилитарные токены могут предоставлять доступ к премиум-функциям
-                  на платформе или к определенным сервисам, таким как облачное хранилище или
-                  программное обеспечение.
+                  Access to Services: Utility tokens can provide access to premium features on a
+                  platform or specific services like cloud storage or software.
                 </li>
                 <li>
-                  Инвестиции и владение активами: Безопасные токены позволяют инвесторам приобретать
-                  и торговать долями в реальных активах, таких как недвижимость или доли в бизнесе,
-                  с помощью блокчейна.
+                  Investments and Asset Ownership: Security tokens allow investors to buy and trade
+                  shares in real assets, such as real estate or business equity, via blockchain.
                 </li>
               </ul>
             </div>
             <div className="pb-5"> </div>
 
             <div className="pb-5 text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
-              Преимущества токенов:
+              Advantages of Tokens:
               <ul className="list-disc space-y-2 px-5">
                 <li>
-                  Быстрые и дешевые транзакции: Токены позволяют проводить транзакции быстро и с
-                  низкими издержками по сравнению с традиционными финансовыми системами.
+                  Fast and Low-Cost Transactions: Tokens enable quick transactions with lower costs
+                  compared to traditional financial systems.
                 </li>
                 <li>
-                  Прозрачность и безопасность: Токены и их транзакции записываются в блокчейн, что
-                  обеспечивает прозрачность и защиту от подделок и мошенничества.
+                  Transparency and Security: Tokens and their transactions are recorded on the
+                  blockchain, ensuring transparency and protection against fraud and counterfeiting.
                 </li>
                 <li>
-                  Децентрализация: Использование токенов позволяет исключить посредников и
-                  централизованные органы управления, что делает системы более устойчивыми и
-                  независимыми.
+                  Decentralization: The use of tokens removes intermediaries and centralized
+                  control, making systems more resilient and independent.
                 </li>
                 <li>
-                  Глобальный доступ: Токены могут быть использованы в любой точке мира, что упрощает
-                  международные транзакции и доступ к услугам.
+                  Global Access: Tokens can be used anywhere in the world, simplifying international
+                  transactions and access to services.
                 </li>
               </ul>
             </div>
             <div className="pb-5"> </div>
 
             <div className="pb-5 text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
-              Токены играют важную роль в экосистеме блокчейна и децентрализованных технологий,
-              предоставляя новые возможности для финансовых операций, управления активами и создания
-              новых бизнес-моделей.
+              Tokens play a crucial role in the blockchain and decentralized technology ecosystem,
+              offering new opportunities for financial operations, asset management, and the
+              creation of innovative business models.
             </div>
           </details>
         </div>
@@ -871,69 +865,65 @@ export default function Page() {
         <div className="mx-auto flex max-w-full flex-row space-y-2 p-2">
           <details className="open:bg-p1-greem rounded-3xl border-p1-darkgreen p-2 open:ring-1 open:ring-p1-green hover:border-p1-green open:md:border-4 open:md:shadow-lg dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:open:ring-white/10 dark:hover:border-p1-green dark:hover:text-p1-cyan">
             <summary className="text-lm select-none space-y-4 font-semibold leading-6 text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
-              Что такое NFT?
+              What is NFT?
             </summary>
             <div className="mt-3 text-base leading-6 md:text-xl">
               <p className="pb:5 text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
-                NFT (Non-Fungible Token, невзаимозаменяемый токен) — это уникальный цифровой актив,
-                который представляет собой право собственности или доступ к определенному
-                уникальному объекту или контенту. В отличие от взаимозаменяемых токенов, таких как
-                биткоины или эфир, каждый NFT имеет уникальный идентификатор и не может быть обменен
-                на другой NFT на равных условиях.
+                NFT (Non-Fungible Token) is a digital asset that represents a unique ownership of a
+                specific object or content that uses blockchain to confirm its uniqueness and
+                authenticity. Unlike fungible tokens such as cryptocurrencies, each NFT has unique
+                characteristics and cannot be replaced by another NFT on equal terms.
               </p>
               <div className="space-y-4 pt-5 text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
-                <p>Основные характеристики NFT:</p>
+                <p>Main Characteristics of NFTs:</p>
 
                 <ul className="list-disc space-y-4 px-5">
                   <li>
-                    Уникальность: Каждый NFT имеет уникальный идентификатор и метаданные, которые
-                    отличают его от других токенов. Эти метаданные могут включать информацию о
-                    создателе, владельце, истории продаж и других атрибутах.
+                    Uniqueness: Each NFT has a unique identifier and metadata that distinguishes it
+                    from other tokens. This metadata may contain information about the creator,
+                    owner, sales history, and other attributes.
                   </li>
                   <li>
-                    Невзаимозаменяемость: NFT не могут быть обменены на другие NFT на основе
-                    равенства. Это делает их идеальными для представления уникальных предметов,
-                    таких как произведения искусства, коллекционные предметы, игровые предметы и
-                    т.д.
+                    Non-fungibility: NFTs cannot be exchanged for other NFTs based on equality. This
+                    makes them ideal for presenting unique items, such as artwork, collectibles,
+                    gaming items and etc.
                   </li>
 
                   <li>
-                    Цифровая собственность: Владелец NFT имеет право собственности на связанный
-                    цифровой актив, который может быть проверен и подтвержден через блокчейн.
+                    Digital Property: The NFT owner has ownership of the associated a digital asset
+                    that can be verified and verified via the blockchain.
                   </li>
                   <li>
-                    Прозрачность и проверяемость: Вся история транзакций и изменений владельца NFT
-                    записывается в блокчейн, что делает их подлинность и происхождение легко
-                    проверяемыми.
+                    Transparency and Verifiability: Entire transaction and change history of the NFT
+                    owner recorded on the blockchain, making their authenticity and provenance easy
+                    verifiable.
                   </li>
                 </ul>
               </div>
               <div className="pb-5"></div>
               <div className="space-y-4 pt-5 text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
-                Примеры использования NFT:
+                Examples of using NFTs:{' '}
                 <ul className="list-disc space-y-4 px-5 pt-4">
                   <li>
-                    Цифровое искусство: Художники создают и продают свои произведения в виде NFT,
-                    предоставляя покупателям уникальные и проверяемые права на цифровое искусство.
+                    Digital Art: Artists create and sell their works as NFTs, giving buyers unique
+                    and verifiable rights to digital art.
                   </li>
                   <li>
-                    Коллекционные предметы: NFT используются для создания и торговли цифровыми
-                    коллекционными предметами, такими как карточки, мемы и другие уникальные
-                    цифровые объекты.
+                    Collectibles: NFTs are used to create and trade digital collectibles such as
+                    cards, memes and other unique digital objects.
                   </li>
                   <li>
-                    Игровые предметы: В видеоиграх NFT могут представлять уникальные игровые
-                    предметы, персонажей или виртуальную недвижимость, которые могут быть проданы
-                    или обменены между игроками.
+                    In-Game Items: In video games, NFTs can represent unique in-game items. items,
+                    characters or virtual real estate that can be sold or exchanged between players.
                   </li>
                   <li>
-                    Музыка и видео: Музыканты и кинематографисты могут выпускать свои произведения в
-                    виде NFT, предоставляя эксклюзивный доступ или право собственности на контент.
+                    Music and Video: Musicians and filmmakers can release their works in as an NFT,
+                    providing exclusive access or ownership of the content.
                   </li>
                   <li>
-                    Виртуальные миры и метавселенные: Виртуальные объекты, недвижимость и другие
-                    элементы в метавселенных могут быть представлены в виде NFT, что позволяет
-                    пользователям владеть и торговать виртуальными активами.
+                    Virtual worlds and metaverses: Virtual objects, real estate and others items in
+                    metaverses can be represented as NFTs, allowing users to own and trade virtual
+                    assets.
                   </li>
                 </ul>
               </div>
@@ -941,47 +931,43 @@ export default function Page() {
             <div className="pb-5"> </div>
 
             <div className="pb-5 text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
-              Преимущества NFT:
+              NFT benefits:{' '}
               <ul className="list-disc space-y-2 px-5">
                 <li>
-                  Подлинность и право собственности: NFT позволяют легко проверять подлинность и
-                  право собственности на цифровые активы.
+                  Authenticity and Ownership: NFTs make it easy to verify authenticity and ownership
+                  of digital assets.
                 </li>
                 <li>
-                  Монетизация цифрового контента: Создатели контента могут получать вознаграждение
-                  за свою работу, продавая свои произведения в виде NFT.
+                  Digital Content Monetization: Content Creators Can Earn Rewards for their work by
+                  selling their creations as NFTs.
                 </li>
                 <li>
-                  Прозрачность и доверие: Блокчейн обеспечивает прозрачность и безопасность всех
-                  транзакций с NFT.
+                  Transparency and Trust: Blockchain ensures transparency and security for everyone
+                  NFT transactions.
                 </li>
               </ul>
             </div>
             <div className="pb-5"> </div>
             <div className="pb-5 text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
-              Технологии и платформы:
+              Technologies and platforms:{' '}
               <ul className="list-disc space-y-2 px-5">
                 <li>
-                  Ethereum: Самая популярная платформа для создания и торговли NFT благодаря
-                  стандарту ERC-721 и ERC-1155, который поддерживает уникальные и взаимозаменяемые
-                  токены.
+                  Ethereum: The most popular platform for creating and trading NFTs thanks to
+                  standard ERC-721 and ERC-1155, which supports unique and interchangeable tokens.
                 </li>
                 <li>
-                  Solana: Быстрая и масштабируемая блокчейн-платформа, также используемая для
-                  создания NFT.
+                  Solana: A fast and scalable blockchain platform also used for creating NFTs.
                 </li>
-                <li>
-                  Flow: Блокчейн, специально разработанный для приложений и игр, поддерживающих NFT.
-                </li>
+                <li>Flow: A blockchain specifically designed for NFT-enabled apps and games. </li>
               </ul>
             </div>
 
             <div className="pb-5"> </div>
 
             <div className="pb-5 text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
-              NFT открывают новые возможности для цифрового мира, предоставляя способ оцифровывать,
-              проверять и торговать уникальными цифровыми активами, что изменяет подход к
-              собственности и монетизации контента в интернете.
+              NFTs open up new possibilities for the digital world by providing a way to digitize,
+              verify and trade unique digital assets, changing the way ownership and monetization of
+              content on the Internet.
             </div>
           </details>
         </div>
@@ -989,52 +975,50 @@ export default function Page() {
         <div className="mx-auto flex max-w-full flex-row space-y-2 p-2">
           <details className="open:bg-p1-greem rounded-3xl border-p1-darkgreen p-2 open:ring-1 open:ring-p1-green hover:border-p1-green open:md:border-4 open:md:shadow-lg dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:open:ring-white/10 dark:hover:border-p1-green dark:hover:text-p1-cyan">
             <summary className="text-lm select-none space-y-4 font-semibold leading-6 text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
-              Каким образом хранится NFT и сведения о том, что я собственник?
+              How is the NFT and ownership information stored?
             </summary>
             <div className="mt-3 text-base leading-6 text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
               <p>
-                NFT (невзаимозаменяемые токены) представляют собой уникальные цифровые активы,
-                которые хранятся на блокчейне. Однако, в отличие от криптовалют, таких как биткоин
-                или эфир, NFT обычно не содержат саму цифровую картину, видео или другой контент, с
-                которым они связаны. Вместо этого они содержат ссылки и метаданные, которые
-                указывают на местоположение этого контента, а также информацию о собственности и
-                другие данные.
+                NFTs (non-fungible tokens) are unique digital assets which are stored on the
+                blockchain. However, unlike cryptocurrencies such as Bitcoin or ether, NFTs
+                typically do not contain the digital painting, video, or other content itself, with
+                with which they are connected. Instead, they contain links and metadata that
+                indicate the location of this content, as well as ownership and other data.
               </p>
             </div>
             <div className="space-y-4 pt-5 text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
-              <p>Как хранится NFT:</p>
+              <p>How the NFT is stored:</p>
 
               <ul className="list-disc space-y-4 px-5">
                 <li>
-                  Хранение на блокчейне:NFT состоит из записи на блокчейне, содержащей уникальный
-                  идентификатор токена, метаданные и ссылку на цифровой актив. Метаданные могут
-                  включать информацию о создателе, дате создания, описании, характеристиках и ссылке
-                  на сам контент.
+                  Blockchain storage: An NFT consists of a blockchain record containing a unique
+                  token identifier, metadata and link to the digital asset. Metadata can include
+                  information about the creator, creation date, description, characteristics and
+                  link on the content itself.
                 </li>
                 <li>
-                  Хранение контента вне блокчейна:Сам цифровой контент (например, изображение,
-                  видео, аудио) часто хранится вне блокчейна из-за больших размеров файлов и
-                  ограничений на хранение данных в блокчейне. Чаще всего контент хранится в
-                  децентрализованных хранилищах, таких как IPFS (InterPlanetary File System), или на
-                  централизованных серверах.
+                  Storing content off-chain: The digital content itself (e.g. image, video, audio)
+                  are often stored off-chain due to large file sizes and restrictions on storing
+                  data on the blockchain. Most often, content is stored in decentralized storage,
+                  such as IPFS (InterPlanetary File System), or on centralized servers.
                 </li>
               </ul>
             </div>
             <div className="pb-5"></div>
             <div className="space-y-4 pb-5 text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
-              Сведения о собственности:
+              Property details:{' '}
               <ul className="list-disc space-y-4 px-5 pt-2">
                 <li>
-                  Запись о собственности:Владелец NFT записан в блокчейн, что обеспечивает
-                  неизменяемость и проверяемость записи о собственности. Приобретение NFT
-                  осуществляется через транзакцию на блокчейне, которая регистрирует смену владельца
-                  токена.
+                  Record of ownership: The owner of the NFT is recorded in the blockchain, which
+                  ensures immutability and verifiability of property records. Purchasing NFTs
+                  carried out through a transaction on the blockchain that registers the change of
+                  ownership token
                 </li>
                 <li>
-                  Проверка собственности:Любой пользователь может проверить владельца NFT,
-                  просматривая информацию на блокчейне через публичные блокчейн-эксплореры, такие
-                  как Etherscan для Ethereum.NFT содержит уникальный идентификатор и адрес текущего
-                  владельца, что позволяет легко проверить подлинность и текущего владельца токена.
+                  Ownership Verification: Any user can verify the owner of an NFT. viewing
+                  information on the blockchain through public blockchain explorers such as like
+                  Etherscan for Ethereum.NFT contains a unique identifier and address of the current
+                  owner, making it easy to verify the authenticity and current owner of the token.
                 </li>
               </ul>
             </div>
@@ -1042,52 +1026,51 @@ export default function Page() {
             <div className="pb-5"> </div>
 
             <div className="pb-5 text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
-              Пример процесса:
+              Example Process:{' '}
               <ul className="list-disc space-y-2 px-5">
                 <li>
-                  Создание NFT: Художник или создатель контента создает цифровое произведение
-                  искусства. Он загружает контент в децентрализованное хранилище, такое как IPFS, и
-                  получает уникальный хэш (идентификатор) файла. Затем он создает NFT на платформе,
-                  такой как OpenSea или Rarible, и включает в метаданные токена ссылку на IPFS-хэш и
-                  другую необходимую информацию.
+                  NFT creation: An artist or content creator creates a digital piece art. It uploads
+                  content to decentralized storage such as IPFS, and gets a unique hash (identifier)
+                  ​​of the file. He then creates the NFT on the platform, such as OpenSea or
+                  Rarible, and includes a link to the IPFS hash in the token metadata and other
+                  necessary information.
                 </li>
                 <li>
-                  Покупка и передача NFT: Покупатель находит интересующий его NFT на маркетплейсе и
-                  покупает его. Транзакция регистрируется на блокчейне, и запись о собственности
-                  обновляется, указывая на нового владельца. Новый владелец может хранить NFT в
-                  своем криптовалютном кошельке, таком как MetaMask, и управлять им через
-                  совместимые платформы.
+                  Purchase and transfer of NFTs: The buyer finds the NFT he is interested in on the
+                  marketplace and buys it. The transaction is recorded on the blockchain and the
+                  ownership record is updated to indicate the new owner. The new owner can store the
+                  NFT in your cryptocurrency wallet, such as MetaMask, and manage it through
+                  compatible platforms.
                 </li>
               </ul>
             </div>
             <div className="pb-5"> </div>
             <div className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
-              Безопасность и долговечность:
+              Safety and durability:
               <ul className="list-disc space-y-2 px-5">
                 <li>
-                  Информация о собственности и транзакции надежно защищены и неизменяемы благодаря
-                  криптографическим механизмам
+                  Property information and transactions are securely protected and immutable thanks
+                  to cryptographic mechanisms
                 </li>
               </ul>
               <div className="pb-5"> </div>
-              <div className="">Проблемы с хранением вне блокчейна:</div>
+              <div className="">Problems with off-chain storage:</div>
               <ul className="list-disc space-y-2 px-5">
                 <li>
-                  Хранение контента вне блокчейна может создавать риски, если центральный сервер
-                  выйдет из строя или если ссылки на контент перестанут работать.
+                  Storing content off-chain can create risks if the central server will fail or if
+                  links to content stop working.
                 </li>
               </ul>
             </div>
             <div className="pb-5"> </div>
 
             <div className="pb-5 text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
-              Децентрализованные системы хранения, такие как IPFS, более устойчивы к этим рискам,
-              поскольку контент децентрализованно хранится на многих узлах сети.
+              Decentralized storage systems such as IPFS are more resilient to these risks. since
+              the content is decentralized across many network nodes.
             </div>
             <div className="pb-5 text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
-              NFT и блокчейн обеспечивают надежный способ подтверждения права собственности на
-              уникальные цифровые активы, а децентрализованные хранилища помогают хранить контент
-              безопасно и доступно.
+              NFTs and blockchain provide a reliable way to prove ownership of unique digital
+              assets, and decentralized storage helps store content safe and accessible.
             </div>
           </details>
         </div>
@@ -1095,58 +1078,56 @@ export default function Page() {
         <div className="mx-auto flex max-w-full flex-row space-y-2 p-2">
           <details className="open:bg-p1-greem rounded-3xl border-p1-darkgreen p-2 open:ring-1 open:ring-p1-green hover:border-p1-green open:md:border-4 open:md:shadow-lg dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:open:ring-white/10 dark:hover:border-p1-green dark:hover:text-p1-cyan">
             <summary className="text-lm select-none space-y-4 font-semibold leading-6 text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
-              Что такое метаданные?
+              What is metadata?
             </summary>
             <div className="mt-3 text-base leading-6 text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
               <p>
-                Метаданные — это данные, которые описывают и предоставляют информацию о других
-                данных. В контексте цифровых активов, таких как NFT, метаданные играют важную роль,
-                предоставляя подробности о самом активе, такие как название, описание, автор, дата
-                создания, и ссылки на связанный контент (например, изображения, видео, аудио).
+                Metadata refers to data that describes and provides information about other data. In
+                the context of digital assets like NFTs, metadata plays a crucial role by providing
+                details about the asset itself, such as its title, description, creator, creation
+                date, and links to associated content (e.g., images, videos, audio).
               </p>
             </div>
             <div className="pt-3 text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
-              <p>Метаданные в контексте NFT:</p>
+              <p>Metadata in the Context of NFTs:</p>
               <div className="space-y-4 pb-5"></div>
               <p>
-                Для NFT метаданные часто хранятся в формате JSON и могут включать следующие
-                элементы:
+                For NFTs, metadata is often stored in JSON format and can include the following
+                elements:
               </p>
               <div className="pb-5"></div>
 
               <ul className="list-disc space-y-4 px-5">
-                <li>Название (name):Название цифрового актива или произведения искусства.</li>
-                <li>Описание (description):Краткое описание или история актива.</li>
+                <li>Name: The title of the digital asset or artwork.</li>
+                <li>Description: A brief description or story about the asset.</li>
                 <li>
-                  Изображение (image):Ссылка на изображение или видео, представляющее актив. Часто
-                  эта ссылка указывает на ресурс, хранящийся в децентрализованной сети, такой как
-                  IPFS.
+                  Image: A link to an image or video representing the asset. This link often points
+                  to a resource stored in a decentralized network, such as IPFS.
                 </li>
                 <li>
-                  Атрибуты (attributes):Дополнительные характеристики или свойства актива, которые
-                  могут быть использованы, например, в игровых NFT для описания уровней,
-                  способностей и т.д.
+                  Attributes: Additional characteristics or properties of the asset, which can be
+                  used, for example, in gaming NFTs to describe levels, abilities, etc.
                 </li>
-                <li>Создатель (creator):Информация о создателе или авторе актива.</li>
-                <li>Дата создания (creation_date):Дата и время создания актива.</li>
+                <li>Creator: Information about the creator or author of the asset.</li>
+                <li>Creation Date: The date and time when the asset was created.</li>
               </ul>
             </div>
             <div className="pb-5"></div>
             <div className="space-y-4 pb-5 text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
-              Хранение метаданных:
+              Storage of Metadata:
               <p>
-                Метаданные для NFT могут храниться как на блокчейне, так и вне его, в зависимости от
-                платформы и требований:
+                Metadata for NFTs can be stored both on and off the blockchain, depending on the
+                platform and requirements:
               </p>
               <ul className="list-disc space-y-4 px-5">
                 <li>
-                  На блокчейне:Включение метаданных прямо в смарт-контракт может быть дорогостоящим
-                  из-за ограничений на размер данных и высоких транзакционных издержек.
+                  On-Chain: Including metadata directly in the smart contract can be costly due to
+                  data size limitations and high transaction fees.
                 </li>
                 <li>
-                  Вне блокчейна:Часто метаданные хранятся в децентрализованных системах хранения,
-                  таких как IPFS, Arweave или других платформах. В блокчейне хранится ссылка (URI)
-                  на метаданные, что обеспечивает доступ к ним.
+                  Off-Chain: Metadata is often stored in decentralized storage systems, such as
+                  IPFS, Arweave, or other platforms. The blockchain typically stores a link (URI) to
+                  the metadata, which ensures access to it.
                 </li>
               </ul>
             </div>
@@ -1154,44 +1135,44 @@ export default function Page() {
             <div className="pb-5"> </div>
 
             <div className="pb-5 text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
-              Использование метаданных:
+              Use of Metadata:
               <ul className="list-disc space-y-2 px-5">
                 <li>
-                  Метаданные используются для отображения информации о NFT на различных платформах и
-                  в кошельках. При просмотре NFT платформа или приложение запрашивает метаданные по
-                  URI и отображает информацию и связанный контент пользователю.
+                  Metadata is used to display information about NFTs on various platforms and
+                  wallets. When viewing an NFT, the platform or application retrieves metadata via
+                  the URI and displays the information and associated content to the user.
                 </li>
               </ul>
             </div>
             <div className="pb-5"> </div>
             <div className="pb-5 text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
-              Преимущества использования метаданных:
+              Benefits of Using Metadata:
               <ul className="list-disc space-y-2 px-5">
                 <li>
-                  Дополнительная информация:Метаданные предоставляют подробную информацию о цифровом
-                  активе, что делает его более понятным и привлекательным для потенциальных
-                  покупателей и коллекционеров.
+                  Additional Information: Metadata provides detailed information about the digital
+                  asset, making it more understandable and attractive to potential buyers and
+                  collectors.
                 </li>
                 <li>
-                  Структурированность:Метаданные организуют информацию в структурированном формате,
-                  что облегчает обработку и отображение данных.
+                  Structured Format: Metadata organizes information in a structured format, making
+                  it easier to process and display data.
                 </li>
                 <li>
-                  Гибкость:Возможность добавления различных атрибутов и характеристик делает NFT
-                  более универсальными и пригодными для различных применений, таких как игры,
-                  коллекционирование и искусство.
+                  Flexibility: The ability to add various attributes and characteristics makes NFTs
+                  more versatile and suitable for different applications, such as gaming,
+                  collecting, and art.
                 </li>
                 <li>
-                  Совместимость:Стандарты метаданных, такие как формат JSON, обеспечивают
-                  совместимость с различными платформами и сервисами.
+                  Compatibility: Metadata standards, such as the JSON format, ensure compatibility
+                  with different platforms and services.
                 </li>
               </ul>
             </div>
             <div className="pb-5"> </div>
             <div className="pb-5 text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
-              Метаданные играют ключевую роль в экосистеме NFT, обеспечивая богатую и
-              структурированную информацию о цифровых активах, которая помогает пользователям и
-              платформам взаимодействовать с этими активами более эффективно.
+              Metadata plays a key role in the NFT ecosystem by providing rich and structured
+              information about digital assets, which helps users and platforms interact with these
+              assets more effectively.
             </div>
           </details>
         </div>
@@ -1199,74 +1180,72 @@ export default function Page() {
         <div className="mx-auto flex max-w-full flex-row space-y-2 p-2">
           <details className="open:bg-p1-greem rounded-3xl border-p1-darkgreen p-2 open:ring-1 open:ring-p1-green hover:border-p1-green open:md:border-4 open:md:shadow-lg dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:open:ring-white/10 dark:hover:border-p1-green dark:hover:text-p1-cyan">
             <summary className="text-lm select-none space-y-4 font-semibold leading-6 text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
-              Что такое MetaMask?
+              What is MetaMask?
             </summary>
             <div className="mt-3 text-base leading-6 text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
               <p>
-                MetaMask — это популярный криптовалютный кошелек и инструмент для взаимодействия с
-                блокчейном Ethereum, который позволяет пользователям управлять своими эфирами (ETH)
-                и токенами, а также взаимодействовать с децентрализованными приложениями (dApps).
-                MetaMask доступен как расширение для браузера (например, Chrome, Firefox, Brave) и
-                как мобильное приложение (для iOS и Android).
+                MetaMask is a popular cryptocurrency wallet and tool for interacting with the
+                Ethereum blockchain. It allows users to manage their Ether (ETH) and tokens, as well
+                as interact with decentralized applications (dApps). MetaMask is available as a
+                browser extension (e.g., Chrome, Firefox, Brave) and as a mobile app (for iOS and
+                Android).
               </p>
             </div>
             <div className="pt-5 text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
-              <p>Основные функции MetaMask:</p>
+              <p>Main Features of MetaMask:</p>
 
               <ul className="list-disc space-y-4 px-5">
                 <li>
-                  Управление криптовалютами: Хранение и управление Ethereum (ETH) и токенами
-                  стандарта ERC-20 и ERC-721. Отправка и получение криптовалюты. Поддержка
-                  нескольких адресов (аккаунтов).
+                  Cryptocurrency management: Storage and management of Ethereum (ETH) and tokens
+                  ERC-20 and ERC-721 standards. Sending and receiving cryptocurrency. Support
+                  several addresses (accounts).
                 </li>
                 <li>
-                  Интеракция с dApps:Интеграция с децентрализованными приложениями, что позволяет
-                  пользователям легко взаимодействовать с DeFi протоколами, NFT платформами, играми
-                  и другими сервисами на блокчейне Ethereum. Возможность подключения к dApps
-                  напрямую через браузерное расширение или мобильное приложение.
+                  Interaction with dApps: Integration with decentralized applications, which allows
+                  It’s easy for users to interact with DeFi protocols, NFT platforms, games and
+                  other services on the Ethereum blockchain. Ability to connect to dApps directly
+                  through a browser extension or mobile application.
                 </li>
                 <li>
-                  Безопасность:Приватные ключи хранятся локально на устройстве пользователя и
-                  защищены паролем. Возможность создания резервных копий и восстановления кошелька с
-                  помощью сид-фразы (seed Поддержка аппаратных кошельков, таких как Ledger и Trezor,
-                  для для дополнительной безопасности.
+                  Security:Private keys are stored locally on the user&apos;s device and password
+                  protected. Ability to create backups and restore wallets from using a seed phrase
+                  (seed Supports hardware wallets such as Ledger and Trezor, for for additional
+                  security.
                 </li>
                 <li>
-                  Пользовательский интерфейс:Удобный и интуитивно понятный интерфейс для управления
-                  активами и взаимодействия с dApps. Поддержка кастомизации и добавления
-                  пользовательских токенов.
+                  User Interface: User-friendly and intuitive interface for control assets and
+                  interaction with dApps. Customization and addition support user tokens.
                 </li>
               </ul>
             </div>
             <div className="pb-5"></div>
             <div className="space-y-4 pb-5 text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
-              Мультибраузерная и мобильная поддержка:Расширения для популярных браузеров, что делает
-              использование MetaMask удобным на настольных устройствах. Мобильное приложение для
-              управления криптовалютами и взаимодействия с dApps на ходу.
+              Multi-browser and mobile support: Extensions for popular browsers that make Using
+              MetaMask is convenient on desktop devices. Mobile application for manage
+              cryptocurrencies and interact with dApps on the go.
             </div>
             <div className="space-y-4 pb-5 text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
-              Как использовать MetaMask:
+              How to use MetaMask:{' '}
               <ul className="list-disc space-y-4 px-5">
                 <li>
-                  Установка и настройка:Скачать и установить расширение для браузера или мобильное
-                  приложение MetaMask. Создать новый кошелек, следуя инструкциям, и сохранить
-                  сид-фразу в безопасном месте. Установить пароль для защиты кошелька.
+                  Installation and configuration: Download and install the browser or mobile
+                  extension MetaMask application. Create a new wallet following the instructions and
+                  save seed phrase in a safe place. Set a password to protect your wallet.
                 </li>
                 <li>
-                  Пополнение кошелька:Получить адрес своего кошелька и использовать его для
-                  получения ETH или других токенов. Пополнить кошелек, отправив криптовалюту на этот
-                  адрес.
+                  Wallet replenishment: Get your wallet address and use it to receiving ETH or other
+                  tokens. Top up your wallet by sending cryptocurrency to this addr
                 </li>
                 <li>
-                  Интеракция с dApps:Подключить MetaMask к поддерживаемому dApp, нажав кнопку
-                  &quot;Connect&quot; или аналогичную в интерфейсе dApp. Авторизовать MetaMask для
-                  взаимодействия с dApp и подтверждать транзакции, используя кошелек.
+                  Interaction with dApps: Connect MetaMask to a supported dApp by clicking a button
+                  &quot;Connect&quot; or similar in the dApp interface. Authorize MetaMask for
+                  interact with the dApp and confirm transactions using the wallet.
                 </li>
                 <li>
-                  Отправка и получение криптовалюты:Для отправки криптовалюты выбрать
-                  &quot;Send&quot;, указать адрес получателя и сумму, затем подтвердить транзакцию.
-                  Для получения криптовалюты использовать свой адрес кошелька и передать его
-                  отправителю.
+                  Sending and receiving cryptocurrency: To send cryptocurrency, select
+                  &quot;Send&quot;, indicate the recipient&apos;s address and amount, then confirm
+                  the transaction. To receive cryptocurrency, use your wallet address and transfer
+                  it to the sender.
                 </li>
               </ul>
             </div>
@@ -1274,9 +1253,9 @@ export default function Page() {
             <div className="pb-5"> </div>
 
             <div className="pb-5 text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
-              MetaMask является мощным инструментом для любого, кто хочет участвовать в экосистеме
-              Ethereum. Он обеспечивает безопасное хранение криптовалюты, удобное взаимодействие с
-              децентрализованными приложениями и простой способ управления цифровыми активами.
+              MetaMask is a powerful tool for anyone who wants to participate in the ecosystem
+              Ethereum. It provides secure storage of cryptocurrency, convenient interaction with
+              decentralized applications and an easy way to manage digital assets.
             </div>
           </details>
         </div>
