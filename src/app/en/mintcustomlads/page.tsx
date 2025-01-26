@@ -24,7 +24,8 @@ export default function Page() {
           CustomLads NFT
         </div>
         <div className="text-end text-xl font-semibold text-p2-orange md:text-3xl dark:text-amber-600">
-        NFT creation page        </div>
+          NFT creation page{' '}
+        </div>
       </div>
 
       <div className="flex flex-wrap justify-center md:flex-nowrap">
@@ -33,8 +34,8 @@ export default function Page() {
             <div className="mx-auto text-center md:text-xl lg:text-2xl">
               <div className="flex flex-row justify-center">
                 <div className="p-2 text-base text-p1-darkgreen md:text-2xl md:font-semibold dark:text-p1-green">
-                  <p>Присоединяйтесь к нам</p>
-                  <p>Получите своего героя CustomLad</p>
+                  <p>Join us</p>
+                  <p>Get your hero CustomLad</p>
                 </div>
               </div>
               <div id="1" className="flex flex-wrap place-content-center md:flex-nowrap">
@@ -49,10 +50,10 @@ export default function Page() {
                     />
                     <div className="space-y-2 pt-2">
                       <button className="inline-block w-full rounded-xl border-2 border-p2-orange bg-p1-white px-10 py-4 text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p2-orange hover:text-p1-white dark:border-p1-cyan dark:bg-p1-darkgreen dark:text-p1-cyan dark:hover:border-p2-orange dark:hover:bg-amber-600 dark:hover:text-amber-100">
-                        Создать NFT
+                        Mint NFT
                       </button>
                       <button className="inline-block w-full rounded-xl border-2 border-p2-orange bg-p1-white px-10 py-4 text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p2-orange hover:text-p1-white dark:border-p1-cyan dark:bg-p1-darkgreen dark:text-p1-cyan dark:hover:border-p2-orange dark:hover:bg-amber-600 dark:hover:text-amber-100">
-                        Сгенерировать изображения
+                        Generate images
                       </button>
                     </div>
                   </div>
@@ -714,7 +715,7 @@ export default function Page() {
                     <div id="2" className="pb-2 md:pb-5"></div>
 
                     <button className="inline-block w-3/5 rounded-xl border-2 border-p2-orange bg-p1-white px-10 py-4 text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p2-orange hover:text-p1-white dark:border-p1-cyan dark:bg-p1-darkgreen dark:text-p1-cyan dark:hover:border-p2-orange dark:hover:bg-amber-600 dark:hover:text-amber-100">
-                      Сброс
+                      Reset
                     </button>
                   </div>
                 </div>
@@ -745,7 +746,7 @@ export default function Page() {
                   </div>
 
                   <p className="p-2 text-base text-p1-darkgreen md:text-2xl dark:text-p1-green">
-                    Максимальное количество: 10 CustomLads за транзакцию
+                    Maximum quantity: 10 CustomLads per transaction{' '}
                   </p>
 
                   <div className="pb-8"></div>

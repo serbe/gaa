@@ -15,7 +15,7 @@ export default function Page() {
           RaceLads NFT
         </div>
         <div className="px-2 text-xl font-semibold text-p1-darkgreen md:pt-2 md:text-3xl dark:text-p1-green dark:hover:text-p1-cyan">
-          Страница исследователя
+          Discoverer page{' '}
         </div>
       </div>
       <div id="1"></div>
@@ -24,30 +24,29 @@ export default function Page() {
         <div className="flex flex-wrap justify-center space-x-2 px-2 md:flex-nowrap">
           <div>
             <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
-              Невзаимозаменяемый токен, представляющий коллекцию из 10.000 уникальных цифровых
-              героев, вдохновленных любовью к автомобилям и запечатленных в Blockchain.
+              A non-fungible token representing a collection of 10,000 unique digital heroes
+              inspired by the love of cars and imprinted on the Blockchain.
             </p>
             <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
-              Коллекция, призванная внести свой вклад в развитие и популяризацию автокультуры и
-              автоспорта.
+              A collection designed to contribute to the development and popularization of car
+              culture and motorsport.
             </p>
             <div className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
-              Приобретая героя из коллекции ты становишься членом большого дружного сообщества!
+              By purchasing a hero from the collection, you become a member of a large friendly
+              community!{' '}
               <ul className="list-disc p-5 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
+                <li className="pb-2">attend motorsport events, exhibitions, lectures, parties</li>
                 <li className="pb-2">
-                  посещай автоспортивные мероприятия, выставки, лекции, вечеринки
-                </li>
-                <li className="pb-2">
-                  участвуй в виртуальных гонках и других захватывающих онлайн событиях
+                  take part in virtual races and other exciting online events
                 </li>
                 <li className="">
-                  принимай участие в ключевых голосованиях, определяющих развитие сообщества
+                  take part in key votes that determine the development of the community
                 </li>
               </ul>
             </div>
             <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
-              Любой RaceLad по желанию держателя может быть передан/продан любому участнику
-              сообщества.
+              Any RaceLad, at the request of the holder, can be transferred/sold to any participant
+              communities.
             </p>
           </div>
           <div id="2"></div>
@@ -97,7 +96,7 @@ export default function Page() {
                   href="/mintracelads"
                   className="inline-block w-full rounded-3xl border-2 border-p2-orange bg-p2-white2 px-10 py-8 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p2-orange hover:text-p1-white dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:border-p2-orange dark:hover:bg-amber-600 dark:hover:text-amber-100"
                 >
-                  Создай своего RaceLad!
+                  Create your own RaceLad!{' '}
                 </Link>
               </div>
             </div>
@@ -109,13 +108,13 @@ export default function Page() {
       <div id="3"></div>
 
       <div className="place-self-center pt-2 text-center text-2xl font-bold text-p1-darkgreen md:pt-2 md:text-3xl dark:text-p1-green dark:hover:text-p1-cyan">
-        Способы получения RaceLads NFT
+        Ways to get RaceLads NFT{' '}
       </div>
 
       <div className="rounded-3xl border-p1-darkgreen p-2 md:border-4 md:shadow-lg dark:border-p1-green dark:text-p1-green dark:hover:border-p1-darkgreen dark:hover:text-p1-cyan">
         <div className="pb-5 text-center text-base text-p1-darkgreen md:text-2xl dark:text-p1-green dark:hover:text-p1-cyan">
-          Любой желающий может получить своего персонажа (RaceLad) в период публичного минта или
-          приобрести на вторичном рынке позднее
+          Anyone can get their own character (RaceLad) during the public mint or purchase on the
+          secondary market later
         </div>
 
         <div className="grid grid-cols-6 gap-1">

@@ -16,7 +16,7 @@ export default function Page() {
           Awards NFT
         </div>
         <div className="px-2 text-xl font-semibold text-p1-darkgreen md:pt-2 md:text-3xl dark:text-p1-green">
-          Страница исследователя
+          Discoverer page
         </div>
       </div>
       <div id="1"></div>
@@ -24,35 +24,35 @@ export default function Page() {
         <div className="flex flex-wrap justify-center px-2 pt-2 md:flex-nowrap">
           <div>
             <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
-              Невзаимозаменяемый токен (NFT награда), вручаемый Промоутером (Организатором) в рамках
-              мероприятия (соревнования).
+              Non-fungible token (NFT reward), awarded by the Promoter (Organizer) as part of events
+              (competitions).
             </p>
             <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
-              Awards NFT можно коллекционировать, продавать, передавать.
+              Awards NFTs can be collected, sold, transferred.{' '}
             </p>
             <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
-              При создании NFT прикрепляется медиаконтент.
+              When an NFT is created, media content is attached.{' '}
             </p>
             <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
-              Токен содержит ссылки на официальные документы: Итоговый протокол мероприятия, фото и
-              видео контент.
+              The token contains links to official documents: Final protocol of the event, photos
+              and video content.
             </p>
             <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
-              Все данные хранятся в IPFS сети и защищены от несанкционированного уничтожения.
+              All data is stored in an IPFS network and is protected from unauthorized destruction.{' '}
             </p>
             <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
-              Доступ к созданию токена имеют держатели токенов Promoter license, National license,
-              Global license и Management GAA.
+              Promoter license, National license, token holders have access to token creation.
+              Global license and Management GAA.
             </p>
 
             <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
-              Данный токен имеет характеристику &quot;Burnable&quot; - собственник смарт-контракта
-              может уничтожить любой токен из коллекции. Эта мера необходима для поддержания
-              актуальности коллекции.
+              This token has the characteristic &quot;Burnable&quot; - owner of the smart contract
+              can destroy any token from the collection. This measure is necessary to maintain
+              relevance of the collection.
             </p>
             <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
-              Собственник смарт-контракта вправе уничтожить NFT в случае создания NFT, не
-              соответствующих правилам проекта.
+              The owner of the smart contract has the right to destroy the NFT if the NFT is
+              created, not complying with the project rules.
             </p>
           </div>
           <div id="2"></div>
@@ -102,17 +102,17 @@ export default function Page() {
                   defaultValue={'DEFAULT'}
                 >
                   <option value="DEFAULT" disabled>
-                    Выберите направления
+                    Select directions{' '}
                   </option>
-                  <option value="Drift">Дрифт</option>
-                  <option value="Dragracing">Драгрэйсинг</option>
-                  <option value="Rally">Ралли</option>
-                  <option value="OpenWheels">Открытые колеса</option>
-                  <option value="TCR">Кузовные гонки</option>
-                  <option value="Oldtimer">Олдтаймер</option>
-                  <option value="Stance">Стэнс</option>
-                  <option value="AutoSound">Авто Звук</option>
-                  <option value="Simracing">Симрэйсинг</option>
+                  <option value="Drift">Drift</option>
+                  <option value="Dragracing">Drag Racing</option>
+                  <option value="Rally">Rally</option>
+                  <option value="OpenWheels">Open wheels</option>
+                  <option value="TCR">TCR</option>
+                  <option value="Oldtimer">Oldtimer</option>
+                  <option value="Stance">Stans</option>
+                  <option value="AutoSound">Auto Sound</option>
+                  <option value="Simracing">Sim Racing</option>
                 </select>
               </form>
 
@@ -122,7 +122,7 @@ export default function Page() {
                     href="/mintrewards"
                     className="inline-block w-full rounded-3xl border-2 border-p2-orange bg-p2-white2 px-10 py-8 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p2-orange hover:text-p1-white dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:border-p2-orange dark:hover:bg-amber-600 dark:hover:text-amber-100"
                   >
-                    Создай NFT
+                    Mint NFT
                   </Link>
                 </div>
               </div>
@@ -136,12 +136,12 @@ export default function Page() {
       {/* //Способы получения Rewards*/}
       <div id="3"></div>
       <div className="px-2 text-center text-xl font-semibold text-p1-darkgreen md:pt-2 md:text-3xl dark:text-p1-green dark:hover:text-p1-cyan">
-        Способы получения Awards NFT
+        Ways to get Awards NFT{' '}
       </div>
 
       <div className="m-2 rounded-3xl border-p1-darkgreen p-2 md:border-4 md:shadow-lg dark:border-p1-green dark:hover:border-p1-darkgreen">
         <div className="pt-2 text-center text-base text-p1-darkgreen md:text-2xl dark:text-p1-green dark:hover:text-p1-cyan">
-          Награды могут создавать и вручать держатели NFT
+          Rewards can be created and awarded by NFT holders{' '}
           <p className="pb-2 text-center text-base md:text-2xl">
             Promoter license, National license, Global license, Management GAA
           </p>
