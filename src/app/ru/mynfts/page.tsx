@@ -28,7 +28,7 @@ export default function Home() {
           {/* кошелек, профиль, корзина */}
           <div className="flex justify-end space-x-6 px-2 md:px-10">
             <div>
-              <Link href={'#'} className="mx-auto justify-center">
+              <Link href="#" className="mx-auto justify-center">
                 <Image
                   className="h-10 w-10 rounded-lg p-1 ring-p1-green transition-all delay-75 duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:ring-2 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:hover:bg-p1-deepdarkgreen"
                   width={480}
@@ -40,7 +40,7 @@ export default function Home() {
             </div>
 
             <div className="group relative inline-block">
-              <Link href={'#'} className="mx-auto justify-center">
+              <Link href="#" className="mx-auto justify-center">
                 <Image
                   className="h-10 w-10 rounded-full p-1 ring-p1-green transition-all delay-75 duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:ring-2 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:hover:bg-p1-deepdarkgreen"
                   width={480}
@@ -95,12 +95,12 @@ export default function Home() {
                         src="/icon/NFT-col.png"
                         alt="Bordered avatar"
                       />
-                      My NFT{' '}
+                      My NFT
                     </Link>
                   </div>
 
                   <div className="rounded-lg border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
-                    <Link href={'#'} className="mx-auto justify-center">
+                    <Link href="#" className="mx-auto justify-center">
                       <Image
                         className="h-10 w-10"
                         width={480}
@@ -113,7 +113,7 @@ export default function Home() {
                   </div>
 
                   <div className="rounded-lg border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
-                    <Link href={'#'} className="mx-auto justify-center">
+                    <Link href="#" className="mx-auto justify-center">
                       <Image
                         className="h-10 w-10"
                         width={480}
@@ -128,7 +128,7 @@ export default function Home() {
               </Link>
             </div>
             <div>
-              <Link href={'#'} className="mx-auto justify-center">
+              <Link href="#" className="mx-auto justify-center">
                 <Image
                   className="h-10 w-10 rounded-lg p-1 ring-p1-green transition-all delay-75 duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:ring-2 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:hover:bg-p1-deepdarkgreen"
                   width={480}
@@ -166,7 +166,7 @@ export default function Home() {
         <div className="flex justify-end space-x-6 px-2 pt-4 md:px-10">
           <div className="inline-flex w-full justify-end space-x-6 rounded-md" role="group">
             <div className="w-10">
-              <Link href={'#'} className="mx-auto justify-center">
+              <Link href="#" className="mx-auto justify-center">
                 <Image
                   className="h-10 w-10 rounded-xl p-0 transition-all delay-75 duration-300 ease-in-out hover:bg-opacity-50 hover:ring-1 hover:ring-p1-green dark:ring-p1-green dark:hover:ring-p1-cyan"
                   width={480}
@@ -178,7 +178,7 @@ export default function Home() {
             </div>
             <div className="w-10">
               <div className="group relative inline-block">
-                <Link href={'#'} className="mx-auto justify-center">
+                <Link href="#" className="mx-auto justify-center">
                   <Image
                     className="h-10 w-10 rounded-xl p-1 transition-all delay-75 duration-300 ease-in-out hover:bg-opacity-50 hover:ring-1 hover:ring-p1-green dark:ring-p1-green dark:hover:ring-p1-cyan"
                     width={480}
@@ -189,7 +189,7 @@ export default function Home() {
 
                   <div className="invisible absolute left-1/2 z-10 mt-2 w-60 -translate-x-1/2 transform rounded-xl bg-p1-cyan bg-center p-4 text-gray-800 opacity-0 shadow-lg transition-all duration-300 group-hover:visible group-hover:opacity-100 md:w-60">
                     <div className="rounded-lg border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
-                      <Link href={'#'} className="mx-auto justify-center">
+                      <Link href="#" className="mx-auto justify-center">
                         <Image
                           className="h-10 w-10"
                           width={480}
@@ -201,7 +201,7 @@ export default function Home() {
                       </Link>
                     </div>
                     <div className="rounded-lg border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
-                      <Link href={'#'} className="mx-auto justify-center">
+                      <Link href="#" className="mx-auto justify-center">
                         <Image
                           className="h-10 w-10"
                           width={480}
@@ -219,7 +219,7 @@ export default function Home() {
             <div className="w-10">
               <div className="w-10">
                 <div className="group relative inline-block">
-                  <Link href={'#'} className="mx-auto justify-center">
+                  <Link href="#" className="mx-auto justify-center">
                     <Image
                       className="h-10 w-10 rounded-xl p-1 transition-all delay-75 duration-300 ease-in-out hover:bg-opacity-50 hover:ring-1 hover:ring-p1-green dark:ring-p1-green dark:hover:ring-p1-cyan"
                       width={480}
@@ -230,7 +230,7 @@ export default function Home() {
 
                     <div className="invisible absolute left-1/2 z-10 mt-2 w-60 -translate-x-1/2 transform rounded-xl bg-p1-cyan bg-center p-4 text-gray-800 opacity-0 shadow-lg transition-all duration-300 group-hover:visible group-hover:opacity-100 md:w-60">
                       <div className="rounded-lg border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
-                        <Link href={'#'} className="mx-auto justify-center">
+                        <Link href="#" className="mx-auto justify-center">
                           <Image
                             className="h-10 w-10"
                             width={480}
@@ -242,7 +242,7 @@ export default function Home() {
                         </Link>
                       </div>
                       <div className="rounded-lg border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
-                        <Link href={'#'} className="mx-auto justify-center">
+                        <Link href="#" className="mx-auto justify-center">
                           <Image
                             className="h-10 w-10"
                             width={480}
@@ -263,7 +263,7 @@ export default function Home() {
 
         <div className="grid h-80 grid-cols-1 place-items-start p-1 md:grid-cols-1 xl:grid-cols-2">
           <div className="flex grid-flow-row auto-rows-max space-x-2 px-2 md:px-10">
-            <Link href={'#'} className="mx-auto w-80">
+            <Link href="#" className="mx-auto w-80">
               <Image
                 className="rounded-full border-4 border-p1-gray dark:ring-p1-darkgreen"
                 width={1000}
@@ -281,7 +281,6 @@ export default function Home() {
         <div className="grid h-1/5 grid-cols-1 space-x-2 p-1 md:grid-cols-2">
           <div className="grid h-1/5 grid-cols-1 space-x-2 p-1 md:grid-cols-2">
             <div>
-              {' '}
               <p className="font-thing text-2xl md:px-10">0 x6918...a442 </p>
             </div>
 
@@ -296,7 +295,7 @@ export default function Home() {
             <div className="rounded-2xl hover:bg-p1-green hover:bg-opacity-20">
               <Link href="#" className="">
                 <p className="font-thing pt-1 text-xl lining-nums md:px-2 md:text-2xl">
-                  Collected:{' '}
+                  Collected:
                 </p>
                 <p className="font-thing pt-1 text-xl lining-nums md:px-2 md:text-2xl">10.000 </p>
               </Link>
@@ -304,7 +303,7 @@ export default function Home() {
             <div className="rounded-2xl hover:bg-p1-green hover:bg-opacity-20">
               <Link href="#" className="">
                 <p className="font-thing pt-1 text-xl lining-nums md:px-2 md:text-2xl">
-                  Offers_made:{' '}
+                  Offers_made:
                 </p>
                 <p className="font-thing pt-1 text-xl lining-nums md:px-2 md:text-2xl">55 </p>
               </Link>
@@ -331,9 +330,7 @@ export default function Home() {
             </div>
             <div className="rounded-2xl hover:bg-p1-green hover:bg-opacity-20">
               <Link href="#" className="">
-                <p className="font-thing pt-1 text-xl lining-nums md:px-2 md:text-2xl">
-                  Activity:{' '}
-                </p>
+                <p className="font-thing pt-1 text-xl lining-nums md:px-2 md:text-2xl">Activity:</p>
                 <p className="font-thing pt-1 text-xl lining-nums md:px-2 md:text-2xl">888 </p>
               </Link>
             </div>
@@ -343,7 +340,7 @@ export default function Home() {
             <div className="rounded-2xl hover:bg-p1-green hover:bg-opacity-20">
               <Link href="#" className="">
                 <p className="font-thing pt-1 text-xl lining-nums md:px-2 md:text-2xl">
-                  Offers_received:{' '}
+                  Offers_received:
                 </p>
                 <p className="font-thing pt-1 text-xl lining-nums md:px-2 md:text-2xl">88 </p>
               </Link>
@@ -351,7 +348,7 @@ export default function Home() {
             <div className="rounded-2xl hover:bg-p1-green hover:bg-opacity-20">
               <Link href="#" className="">
                 <p className="font-thing pt-1 text-xl lining-nums md:px-2 md:text-2xl">
-                  Active_listings:{' '}
+                  Active_listings:
                 </p>
                 <p className="font-thing pt-1 text-xl lining-nums md:px-2 md:text-2xl">78 </p>
               </Link>
@@ -359,7 +356,7 @@ export default function Home() {
             <div className="rounded-2xl hover:bg-p1-green hover:bg-opacity-20">
               <Link href="#" className="">
                 <p className="font-thing pt-1 text-xl lining-nums md:px-2 md:text-2xl">
-                  Inactive_listings:{' '}
+                  Inactive_listings:
                 </p>
                 <p className="font-thing pt-1 text-xl lining-nums md:px-2 md:text-2xl">369 </p>
               </Link>
@@ -492,7 +489,7 @@ export default function Home() {
       <div className="grid grid-cols-2 justify-between p-1 md:grid-cols-2 2xl:grid-cols-2">
         <div className="flex justify-start space-x-1 md:px-10">
           <div>
-            <Link href={'#'} className="mx-auto justify-start">
+            <Link href="#" className="mx-auto justify-start">
               <Image
                 className="h-10 w-10 rounded-sm p-1 ring-p1-gray transition-all delay-75 duration-300 ease-in-out hover:bg-p1-green hover:bg-opacity-50 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:bg-p1-green"
                 width={480}
@@ -515,7 +512,7 @@ export default function Home() {
               href="#"
               className="place-content-center text-sm text-p1-darkgreen md:text-xl dark:text-p1-green"
             >
-              100 results{' '}
+              100 results
             </Link>
           </div>
         </div>
@@ -523,7 +520,7 @@ export default function Home() {
         <div className="flex justify-end md:px-10">
           <div className="inline-flex w-full justify-end rounded-md" role="group">
             <div className="w-10">
-              <Link href={'#'} className="mx-auto justify-center">
+              <Link href="#" className="mx-auto justify-center">
                 <Image
                   className="h-10 w-10 rounded-sm p-1 ring-p1-gray transition-all delay-75 duration-300 ease-in-out hover:bg-p1-darkgreen hover:bg-opacity-50 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:bg-p1-green"
                   width={480}
@@ -534,7 +531,7 @@ export default function Home() {
               </Link>
             </div>
             <div className="w-10">
-              <Link href={'#'} className="mx-auto justify-center">
+              <Link href="#" className="mx-auto justify-center">
                 <Image
                   className="h-10 w-10 rounded-sm p-1 ring-p1-gray transition-all delay-75 duration-300 ease-in-out hover:bg-p1-green hover:bg-opacity-50 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:bg-p1-green"
                   width={480}
@@ -545,7 +542,7 @@ export default function Home() {
               </Link>
             </div>
             <div className="w-10">
-              <Link href={'#'} className="mx-auto justify-center">
+              <Link href="#" className="mx-auto justify-center">
                 <Image
                   className="h-10 w-10 rounded-sm p-1 ring-p1-gray transition-all delay-75 duration-300 ease-in-out hover:bg-p1-green hover:bg-opacity-50 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:bg-p1-green"
                   width={480}
@@ -556,7 +553,7 @@ export default function Home() {
               </Link>
             </div>
             <div className="w-10">
-              <Link href={'#'} className="mx-auto justify-center">
+              <Link href="#" className="mx-auto justify-center">
                 <Image
                   className="h-10 w-10 rounded-sm p-1 ring-p1-gray transition-all delay-75 duration-300 ease-in-out hover:bg-p1-green hover:bg-opacity-50 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:bg-p1-green"
                   width={480}
@@ -567,7 +564,7 @@ export default function Home() {
               </Link>
             </div>
             <div className="w-10">
-              <Link href={'#'} className="mx-auto justify-center">
+              <Link href="#" className="mx-auto justify-center">
                 <Image
                   className="h-10 w-10 rounded-sm p-1 ring-p1-gray transition-all delay-75 duration-300 ease-in-out hover:bg-p1-green hover:bg-opacity-50 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:bg-p1-green"
                   width={480}
@@ -1182,7 +1179,7 @@ export default function Home() {
 
                       <div className="group invisible absolute right-1 top-1 z-10 inline-block duration-300 ease-in-out group-hover:visible group-hover:opacity-100">
                         <Link
-                          href={'#'}
+                          href="#"
                           className="z-50 grid w-6 place-content-center transition-all delay-75 duration-300 ease-in-out hover:scale-125"
                         >
                           <Image
@@ -1232,7 +1229,6 @@ export default function Home() {
                           </div>
                         </div>
                         <div className="space-x-4 text-left text-xs font-thin">
-                          {' '}
                           Last sale: 1000 WETH
                         </div>
                       </div>
@@ -1265,7 +1261,7 @@ export default function Home() {
                           </Link>
 
                           <Link
-                            href={'#'}
+                            href="#"
                             className="grid w-1/5 place-content-center rounded-br-xl border border-p1-darkgreen bg-p1-darkgreen text-center text-lg font-semibold shadow-lg shadow-p1-cyan transition-all duration-300 ease-in-out hover:scale-75 hover:border-p1-cyan hover:bg-p1-darkgreen hover:text-p1-white hover:shadow-2xl hover:shadow-p1-cyan hover:ring-p1-cyan focus:scale-75 focus:border-p1-cyan focus:ring-p1-cyan md:text-3xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
                           >
                             <Image
@@ -1291,7 +1287,7 @@ export default function Home() {
 
                       <div className="group invisible absolute right-1 top-1 z-10 inline-block duration-300 ease-in-out group-hover:visible group-hover:opacity-100">
                         <Link
-                          href={'#'}
+                          href="#"
                           className="z-50 grid w-8 place-content-center transition-all delay-75 duration-300 ease-in-out hover:scale-125"
                         >
                           <Image
@@ -1371,7 +1367,7 @@ export default function Home() {
                           </Link>
 
                           <Link
-                            href={'#'}
+                            href="#"
                             className="grid w-1/5 place-content-center rounded-br-xl border border-p1-darkgreen bg-p1-darkgreen text-center text-lg font-semibold shadow-lg shadow-p1-cyan transition-all duration-300 ease-in-out hover:scale-75 hover:border-p1-cyan hover:bg-p1-darkgreen hover:text-p1-white hover:shadow-2xl hover:shadow-p1-cyan hover:ring-p1-cyan focus:scale-75 focus:border-p1-cyan focus:ring-p1-cyan md:text-3xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
                           >
                             <Image
@@ -1397,7 +1393,7 @@ export default function Home() {
 
                       <div className="group invisible absolute right-1 top-1 z-10 inline-block duration-300 ease-in-out group-hover:visible group-hover:opacity-100">
                         <Link
-                          href={'#'}
+                          href="#"
                           className="z-50 grid w-8 place-content-center transition-all delay-75 duration-300 ease-in-out hover:scale-125"
                         >
                           <Image
@@ -1477,7 +1473,7 @@ export default function Home() {
                           </Link>
 
                           <Link
-                            href={'#'}
+                            href="#"
                             className="grid w-1/5 place-content-center rounded-br-xl border border-p1-darkgreen bg-p1-darkgreen text-center text-lg font-semibold shadow-lg shadow-p1-cyan transition-all duration-300 ease-in-out hover:scale-75 hover:border-p1-cyan hover:bg-p1-darkgreen hover:text-p1-white hover:shadow-2xl hover:shadow-p1-cyan hover:ring-p1-cyan focus:scale-75 focus:border-p1-cyan focus:ring-p1-cyan md:text-3xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
                           >
                             <Image
@@ -1503,7 +1499,7 @@ export default function Home() {
 
                       <div className="group invisible absolute right-1 top-1 z-10 inline-block duration-300 ease-in-out group-hover:visible group-hover:opacity-100">
                         <Link
-                          href={'#'}
+                          href="#"
                           className="z-50 grid w-8 place-content-center transition-all delay-75 duration-300 ease-in-out hover:scale-125"
                         >
                           <Image
@@ -1552,10 +1548,7 @@ export default function Home() {
                             </p>
                           </div>
                         </div>
-                        <div className="pt-3 text-left text-xl font-thin">
-                          {' '}
-                          Last sale: 1000 WETH
-                        </div>
+                        <div className="pt-3 text-left text-xl font-thin">Last sale: 1000 WETH</div>
                       </div>
                     </div>
 
@@ -1586,7 +1579,7 @@ export default function Home() {
                           </Link>
 
                           <Link
-                            href={'#'}
+                            href="#"
                             className="grid w-1/5 place-content-center rounded-br-xl border border-p1-darkgreen bg-p1-darkgreen text-center text-lg font-semibold shadow-lg shadow-p1-cyan transition-all duration-300 ease-in-out hover:scale-75 hover:border-p1-cyan hover:bg-p1-darkgreen hover:text-p1-white hover:shadow-2xl hover:shadow-p1-cyan hover:ring-p1-cyan focus:scale-75 focus:border-p1-cyan focus:ring-p1-cyan md:text-3xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
                           >
                             <Image
@@ -1600,7 +1593,7 @@ export default function Home() {
                         </div>
                       </div>
                     </div>
-                  </div>{' '}
+                  </div>
                 </div>
               </div>
             </details>
@@ -1847,7 +1840,6 @@ export default function Home() {
                             </div>
                           </th>
                           <td className="px-6 py-4">
-                            {' '}
                             <div className="relative">
                               <Link href="/card" className="mx-auto justify-center">
                                 <Image
@@ -1870,7 +1862,6 @@ export default function Home() {
                           <td className="px-6 py-4 text-right"> Jon </td>
                           <td className="px-6 py-4 text-right"> 2h ago</td>
                           <td className="px-6 py-4 text-right">
-                            {' '}
                             <Link
                               href="#"
                               className="inline-block w-max place-content-center rounded-xl border-2 bg-p1-white p-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:border-p1-darkgreen hover:bg-p1-green hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
@@ -1899,7 +1890,6 @@ export default function Home() {
                             </div>
                           </th>
                           <td className="px-6 py-4">
-                            {' '}
                             <div className="relative">
                               <Link href="/card" className="mx-auto justify-center">
                                 <Image
@@ -1922,7 +1912,6 @@ export default function Home() {
                           <td className="px-6 py-4 text-right"> Jon </td>
                           <td className="px-6 py-4 text-right"> 2h ago</td>
                           <td className="px-6 py-4 text-right">
-                            {' '}
                             <Link
                               href="#"
                               className="inline-block w-max place-content-center rounded-xl border-2 bg-p1-white p-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:border-p1-darkgreen hover:bg-p1-green hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
@@ -1951,7 +1940,6 @@ export default function Home() {
                             </div>
                           </th>
                           <td className="px-6 py-4">
-                            {' '}
                             <div className="relative">
                               <Link href="/card" className="mx-auto justify-center">
                                 <Image
@@ -1974,7 +1962,6 @@ export default function Home() {
                           <td className="px-6 py-4 text-right"> Jon </td>
                           <td className="px-6 py-4 text-right"> 2h ago</td>
                           <td className="px-6 py-4 text-right">
-                            {' '}
                             <Link
                               href="#"
                               className="inline-block w-max place-content-center rounded-xl border-2 bg-p1-white p-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:border-p1-darkgreen hover:bg-p1-green hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
@@ -2003,7 +1990,6 @@ export default function Home() {
                             </div>
                           </th>
                           <td className="px-6 py-4">
-                            {' '}
                             <div className="relative">
                               <Link href="/card" className="mx-auto justify-center">
                                 <Image
@@ -2026,7 +2012,6 @@ export default function Home() {
                           <td className="px-6 py-4 text-right"> Tsar </td>
                           <td className="px-6 py-4 text-right"> 2h ago</td>
                           <td className="px-6 py-4 text-right">
-                            {' '}
                             <Link
                               href="#"
                               className="inline-block w-max place-content-center rounded-xl border-2 bg-p1-white p-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:border-p1-darkgreen hover:bg-p1-green hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
@@ -2156,7 +2141,6 @@ export default function Home() {
                             1
                           </th>
                           <td className="px-6 py-4">
-                            {' '}
                             <div className="relative">
                               <Link href="/card" className="mx-auto justify-center">
                                 <Image
@@ -2178,7 +2162,6 @@ export default function Home() {
                             2
                           </th>
                           <td className="px-6 py-4">
-                            {' '}
                             <div className="relative">
                               <Link href="/card" className="mx-auto justify-center">
                                 <Image
@@ -2200,7 +2183,6 @@ export default function Home() {
                             2
                           </th>
                           <td className="px-6 py-4">
-                            {' '}
                             <div className="relative">
                               <Link href="/card" className="mx-auto justify-center">
                                 <Image
@@ -2440,7 +2422,7 @@ export default function Home() {
 
                         <div className="group invisible absolute right-1 top-1 z-10 inline-block duration-300 ease-in-out group-hover:visible group-hover:opacity-100">
                           <Link
-                            href={'#'}
+                            href="#"
                             className="z-50 grid w-6 place-content-center transition-all delay-75 duration-300 ease-in-out hover:scale-125"
                           >
                             <Image
@@ -2479,7 +2461,6 @@ export default function Home() {
                             </div>
                           </div>
                           <div className="space-x-4 text-left text-xs font-thin">
-                            {' '}
                             Дата: 21.01.2025
                           </div>
                         </div>
@@ -2525,7 +2506,7 @@ export default function Home() {
 
                         <div className="group invisible absolute right-1 top-1 z-10 inline-block duration-300 ease-in-out group-hover:visible group-hover:opacity-100">
                           <Link
-                            href={'#'}
+                            href="#"
                             className="z-50 grid w-6 place-content-center transition-all delay-75 duration-300 ease-in-out hover:scale-125"
                           >
                             <Image
@@ -2564,7 +2545,6 @@ export default function Home() {
                             </div>
                           </div>
                           <div className="space-x-4 text-left text-xs font-thin">
-                            {' '}
                             Дата: 21.01.2025
                           </div>
                         </div>
@@ -2835,7 +2815,7 @@ export default function Home() {
                           </th>
                           <th scope="col" className="px-6 py-3">
                             <div className="flex items-center">
-                              Название команды{' '}
+                              Название команды
                               <Link href="#">
                                 <svg
                                   className="ms-1.5 h-3 w-3"
@@ -2969,7 +2949,6 @@ export default function Home() {
                             </div>
                           </th>
                           <td className="">
-                            {' '}
                             <div className="relative">
                               <Link href="/card" className="mx-auto justify-center">
                                 <Image
@@ -2988,7 +2967,6 @@ export default function Home() {
                           <td className="px-6 py-4 text-right"> Абсолютный зачет</td>
                           <td className="px-6 py-4 text-right"> Название команды</td>
                           <td className="">
-                            {' '}
                             <div className="relative">
                               <Link href="/card" className="mx-auto justify-center">
                                 <Image
@@ -3006,7 +2984,6 @@ export default function Home() {
 
                           <td className="px-6 py-4 text-right"> 0х1234...5678</td>
                           <td className="px-6 py-4 text-right">
-                            {' '}
                             <Link
                               href="#"
                               className="inline-block w-max place-content-center rounded-xl border-2 bg-p1-white p-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:border-p1-darkgreen hover:bg-p1-green hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
@@ -3015,7 +2992,6 @@ export default function Home() {
                             </Link>
                           </td>
                           <td className="px-6 py-4 text-right">
-                            {' '}
                             <Link
                               href="#"
                               className="inline-block w-max place-content-center rounded-xl border-2 bg-p1-white p-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:border-p2-red hover:bg-p2-red hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p2-red dark:hover:text-p1-white dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
@@ -3044,7 +3020,6 @@ export default function Home() {
                             </div>
                           </th>
                           <td className="">
-                            {' '}
                             <div className="relative">
                               <Link href="/card" className="mx-auto justify-center">
                                 <Image
@@ -3063,7 +3038,6 @@ export default function Home() {
                           <td className="px-6 py-4 text-right"> Абсолютный зачет</td>
                           <td className="px-6 py-4 text-right"> Название команды</td>
                           <td className="">
-                            {' '}
                             <div className="relative">
                               <Link href="/card" className="mx-auto justify-center">
                                 <Image
@@ -3081,7 +3055,6 @@ export default function Home() {
 
                           <td className="px-6 py-4 text-right"> 0х1234...5678</td>
                           <td className="px-6 py-4 text-right">
-                            {' '}
                             <Link
                               href="#"
                               className="inline-block w-max place-content-center rounded-xl border-2 bg-p1-white p-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:border-p1-darkgreen hover:bg-p1-green hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
@@ -3090,7 +3063,6 @@ export default function Home() {
                             </Link>
                           </td>
                           <td className="px-6 py-4 text-right">
-                            {' '}
                             <Link
                               href="#"
                               className="inline-block w-max place-content-center rounded-xl border-2 bg-p1-white p-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:border-p2-red hover:bg-p2-red hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p2-red dark:hover:text-p1-white dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
@@ -3119,7 +3091,6 @@ export default function Home() {
                             </div>
                           </th>
                           <td className="">
-                            {' '}
                             <div className="relative">
                               <Link href="/card" className="mx-auto justify-center">
                                 <Image
@@ -3138,7 +3109,6 @@ export default function Home() {
                           <td className="px-6 py-4 text-right"> Абсолютный зачет</td>
                           <td className="px-6 py-4 text-right"> Название команды</td>
                           <td className="">
-                            {' '}
                             <div className="relative">
                               <Link href="/card" className="mx-auto justify-center">
                                 <Image
@@ -3156,7 +3126,6 @@ export default function Home() {
 
                           <td className="px-6 py-4 text-right"> 0х1234...5678</td>
                           <td className="px-6 py-4 text-right">
-                            {' '}
                             <Link
                               href="#"
                               className="inline-block w-max place-content-center rounded-xl border-2 bg-p1-white p-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:border-p1-darkgreen hover:bg-p1-green hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
@@ -3165,7 +3134,6 @@ export default function Home() {
                             </Link>
                           </td>
                           <td className="px-6 py-4 text-right">
-                            {' '}
                             <Link
                               href="#"
                               className="inline-block w-max place-content-center rounded-xl border-2 bg-p1-white p-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:border-p2-red hover:bg-p2-red hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p2-red dark:hover:text-p1-white dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
@@ -3194,7 +3162,6 @@ export default function Home() {
                             </div>
                           </th>
                           <td className="">
-                            {' '}
                             <div className="relative">
                               <Link href="/card" className="mx-auto justify-center">
                                 <Image
@@ -3213,7 +3180,6 @@ export default function Home() {
                           <td className="px-6 py-4 text-right"> Абсолютный зачет</td>
                           <td className="px-6 py-4 text-right"> Название команды</td>
                           <td className="">
-                            {' '}
                             <div className="relative">
                               <Link href="/card" className="mx-auto justify-center">
                                 <Image
@@ -3231,7 +3197,6 @@ export default function Home() {
 
                           <td className="px-6 py-4 text-right"> 0х1234...5678</td>
                           <td className="px-6 py-4 text-right">
-                            {' '}
                             <Link
                               href="#"
                               className="inline-block w-max place-content-center rounded-xl border-2 bg-p1-white p-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:border-p1-darkgreen hover:bg-p1-green hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
@@ -3240,7 +3205,6 @@ export default function Home() {
                             </Link>
                           </td>
                           <td className="px-6 py-4 text-right">
-                            {' '}
                             <Link
                               href="#"
                               className="inline-block w-max place-content-center rounded-xl border-2 bg-p1-white p-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:border-p2-red hover:bg-p2-red hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p2-red dark:hover:text-p1-white dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
@@ -3266,7 +3230,7 @@ export default function Home() {
 
                       <div className="group invisible absolute right-1 top-1 z-10 inline-block duration-300 ease-in-out group-hover:visible group-hover:opacity-100">
                         <Link
-                          href={'#'}
+                          href="#"
                           className="z-50 grid w-6 place-content-center transition-all delay-75 duration-300 ease-in-out hover:scale-125"
                         >
                           <Image
@@ -3305,7 +3269,6 @@ export default function Home() {
                           </div>
                         </div>
                         <div className="space-x-4 text-left text-xs font-thin">
-                          {' '}
                           Дата: 21.01.2025
                         </div>
                       </div>
@@ -3351,7 +3314,7 @@ export default function Home() {
 
                       <div className="group invisible absolute right-1 top-1 z-10 inline-block duration-300 ease-in-out group-hover:visible group-hover:opacity-100">
                         <Link
-                          href={'#'}
+                          href="#"
                           className="z-50 grid w-6 place-content-center transition-all delay-75 duration-300 ease-in-out hover:scale-125"
                         >
                           <Image
@@ -3390,7 +3353,6 @@ export default function Home() {
                           </div>
                         </div>
                         <div className="space-x-4 text-left text-xs font-thin">
-                          {' '}
                           Дата: 21.01.2025
                         </div>
                       </div>

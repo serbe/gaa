@@ -31,7 +31,7 @@ export default function Home() {
           {/* кошелек, профиль, корзина */}
           <div className="flex justify-end space-x-6 px-2 md:px-10">
             <div>
-              <Link href={'#'} className="mx-auto justify-center">
+              <Link href="#" className="mx-auto justify-center">
                 <Image
                   className="h-10 w-10 rounded-lg p-1 ring-p1-green transition-all delay-75 duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:ring-2 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:hover:bg-p1-deepdarkgreen"
                   width={480}
@@ -43,7 +43,7 @@ export default function Home() {
             </div>
 
             <div className="group relative inline-block">
-              <Link href={'#'} className="mx-auto justify-center">
+              <Link href="#" className="mx-auto justify-center">
                 <Image
                   className="h-10 w-10 rounded-full p-1 ring-p1-green transition-all delay-75 duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:ring-2 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:hover:bg-p1-deepdarkgreen"
                   width={480}
@@ -98,12 +98,12 @@ export default function Home() {
                         src="/icon/NFT-col.png"
                         alt="Bordered avatar"
                       />
-                      My NFT{' '}
+                      My NFT
                     </Link>
                   </div>
 
                   <div className="rounded-lg border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
-                    <Link href={'#'} className="mx-auto justify-center">
+                    <Link href="#" className="mx-auto justify-center">
                       <Image
                         className="h-10 w-10"
                         width={480}
@@ -116,7 +116,7 @@ export default function Home() {
                   </div>
 
                   <div className="rounded-lg border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
-                    <Link href={'#'} className="mx-auto justify-center">
+                    <Link href="#" className="mx-auto justify-center">
                       <Image
                         className="h-10 w-10"
                         width={480}
@@ -131,7 +131,7 @@ export default function Home() {
               </Link>
             </div>
             <div>
-              <Link href={'#'} className="mx-auto justify-center">
+              <Link href="#" className="mx-auto justify-center">
                 <Image
                   className="h-10 w-10 rounded-lg p-1 ring-p1-green transition-all delay-75 duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:ring-2 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:hover:bg-p1-deepdarkgreen"
                   width={480}
@@ -172,7 +172,7 @@ export default function Home() {
             <div className="grid grid-cols-2 justify-between md:grid-cols-2 2xl:grid-cols-2">
               <div className="flex justify-start space-x-1 md:px-10">
                 <div className="w-10 transition-all delay-75 duration-300 ease-in-out hover:scale-125">
-                  <Link href={'#'}>
+                  <Link href="#">
                     <Image
                       className="p-1"
                       width={480}
@@ -195,8 +195,7 @@ export default function Home() {
                   <div className="w-7 text-xl text-p1-green">10</div>
                   <div className="w-10">
                     <div className="transition-all delay-75 duration-300 ease-in-out hover:scale-125">
-                      {' '}
-                      <Link href={'#'} className="">
+                      <Link href="#" className="">
                         <Image
                           className="p-1"
                           width={480}
@@ -211,7 +210,7 @@ export default function Home() {
               </div>
             </div>
             <div className="flex grid-flow-row auto-rows-max space-x-2 px-2 md:px-4">
-              <Link href={'#'} className="mx-auto w-full">
+              <Link href="#" className="mx-auto w-full">
                 <Image
                   className="rounded-3xl dark:ring-p1-darkgreen"
                   width={1000}
@@ -225,7 +224,6 @@ export default function Home() {
               <div className="text-darkgreen w-full rounded-2xl border border-p1-green bg-p1-white text-xl shadow-lg dark:bg-p1-deepdarkgreen">
                 <details className="m-2">
                   <summary className="relative flex cursor-pointer justify-start py-2">
-                    {' '}
                     <div className="px-2">
                       <Image
                         className="h-10 w-10 transition-all duration-300 ease-in-out hover:scale-125"
@@ -234,7 +232,7 @@ export default function Home() {
                         src="/icon/description_green.png"
                         alt="ph"
                       />
-                    </div>{' '}
+                    </div>
                     <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
                       Description
                     </div>
@@ -243,7 +241,7 @@ export default function Home() {
                     <div className="group relative">
                       <div>
                         <Link
-                          href={'#'}
+                          href="#"
                           className="mx-auto justify-start text-2xl text-p1-green hover:text-p1-cyan"
                         >
                           by Global Automotive Association
@@ -262,14 +260,12 @@ export default function Home() {
                                   className="w-12 rounded-lg"
                                 />
                                 <div className="font-semibold text-p1-darkgreen">
-                                  {' '}
                                   GAA
                                   <div className="text-base font-thin lining-nums text-p1-darkgreen">
-                                    {' '}
                                     0x010a...0369
                                   </div>
                                 </div>
-                              </div>{' '}
+                              </div>
                             </Link>
 
                             <div className="grid w-full grid-cols-3 items-center text-center lining-nums">
@@ -339,7 +335,7 @@ export default function Home() {
                     <p>
                       – это революционный блокчейн-проект, который объединяет всех любителей
                       автоспорта и автомобилей в сильное и активное сообщество, нацеленное на
-                      популяризацию автомобильной культуры.{' '}
+                      популяризацию автомобильной культуры.
                     </p>
                   </div>
                 </details>
@@ -349,7 +345,6 @@ export default function Home() {
               <div className="text-darkgreen w-full rounded-2xl border border-p1-green bg-p1-white text-xl shadow-lg dark:bg-p1-deepdarkgreen">
                 <details className="m-2">
                   <summary className="relative flex cursor-pointer justify-start py-2">
-                    {' '}
                     <div className="px-2">
                       <Image
                         className="h-10 w-10 transition-all duration-300 ease-in-out hover:scale-125"
@@ -358,7 +353,7 @@ export default function Home() {
                         src="/icon/traits_green.png"
                         alt="ph"
                       />
-                    </div>{' '}
+                    </div>
                     <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
                       Traits
                     </div>
@@ -525,7 +520,6 @@ export default function Home() {
               <div className="text-darkgreen w-full rounded-2xl border border-p1-green bg-p1-white text-xl shadow-lg dark:bg-p1-deepdarkgreen">
                 <details className="m-2">
                   <summary className="relative flex cursor-pointer justify-start py-2">
-                    {' '}
                     <div className="px-2">
                       <Image
                         className="h-10 w-10 transition-all duration-300 ease-in-out hover:scale-125"
@@ -534,7 +528,7 @@ export default function Home() {
                         src="/icon/about_green.png"
                         alt="ph"
                       />
-                    </div>{' '}
+                    </div>
                     <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
                       Description
                     </div>
@@ -543,7 +537,7 @@ export default function Home() {
                     <div className="group relative">
                       <div>
                         <Link
-                          href={'#'}
+                          href="#"
                           className="mx-auto justify-start text-2xl text-p1-green hover:text-p1-cyan"
                         >
                           by Global Automotive Association
@@ -559,7 +553,6 @@ export default function Home() {
               <div className="text-darkgreen w-full rounded-2xl border border-p1-green bg-p1-white text-xl shadow-lg dark:bg-p1-deepdarkgreen">
                 <details className="m-2">
                   <summary className="relative flex cursor-pointer justify-start py-2">
-                    {' '}
                     <div className="px-2">
                       <Image
                         className="h-10 w-10 transition-all duration-300 ease-in-out hover:scale-125"
@@ -568,7 +561,7 @@ export default function Home() {
                         src="/icon/detail_green.png"
                         alt="ph"
                       />
-                    </div>{' '}
+                    </div>
                     <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
                       Detail
                     </div>
@@ -606,7 +599,7 @@ export default function Home() {
                   <div className="group relative">
                     <div>
                       <Link
-                        href={'#'}
+                        href="#"
                         className="mx-auto justify-start text-2xl text-p1-green hover:text-p1-cyan"
                       >
                         RaceLads
@@ -634,7 +627,7 @@ export default function Home() {
                                   Explore Collection
                                 </button>
                               </div>
-                            </div>{' '}
+                            </div>
                             <div className="mt-2 grid w-full grid-cols-3 items-center justify-between space-x-1 text-center md:mt-4 md:grid-cols-3">
                               <div>
                                 <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Items</p>
@@ -654,7 +647,7 @@ export default function Home() {
                                     height={50}
                                     src="/Logo/eth.png"
                                     alt="eth"
-                                  />{' '}
+                                  />
                                   15.2
                                 </p>
                               </div>
@@ -674,7 +667,7 @@ export default function Home() {
                   </div>
                   <div className="">
                     <div className="group relative">
-                      <Link href={'#'} className="mx-auto justify-start">
+                      <Link href="#" className="mx-auto justify-start">
                         <Image
                           className="h-7 w-7 rounded-sm p-1 transition-all delay-75 duration-300 ease-in-out"
                           width={480}
@@ -687,7 +680,6 @@ export default function Home() {
                         <div className="w-72 rounded-lg text-base">
                           <details className="mb-2 border-b border-gray-600">
                             <summary className="relative flex cursor-pointer justify-start py-1">
-                              {' '}
                               <div className="px-2">
                                 <Image
                                   className="h-6 w-6"
@@ -696,7 +688,7 @@ export default function Home() {
                                   src="/icon/chek_green.png"
                                   alt="bt2"
                                 />
-                              </div>{' '}
+                              </div>
                               <div className="text-p1-darkgreen dark:text-p1-cyan">
                                 Bedged Collectiob
                               </div>
@@ -739,7 +731,7 @@ export default function Home() {
                 <div className="flex justify-end md:px-10">
                   <div className="inline-flex w-full justify-end space-x-6 rounded-md" role="group">
                     <div className="w-10">
-                      <Link href={'#'} className="mx-auto justify-center">
+                      <Link href="#" className="mx-auto justify-center">
                         <Image
                           className="h-10 w-10 rounded-xl p-0 transition-all delay-75 duration-300 ease-in-out hover:bg-opacity-50 hover:ring-1 hover:ring-p1-green dark:ring-p1-green dark:hover:ring-p1-cyan"
                           width={480}
@@ -751,7 +743,7 @@ export default function Home() {
                     </div>
                     <div className="w-10">
                       <div className="group relative inline-block">
-                        <Link href={'#'} className="mx-auto justify-center">
+                        <Link href="#" className="mx-auto justify-center">
                           <Image
                             className="h-10 w-10 rounded-xl p-1 transition-all delay-75 duration-300 ease-in-out hover:bg-opacity-50 hover:ring-1 hover:ring-p1-green dark:ring-p1-green dark:hover:ring-p1-cyan"
                             width={480}
@@ -762,7 +754,7 @@ export default function Home() {
 
                           <div className="invisible absolute left-1/2 z-10 mt-2 w-60 -translate-x-1/2 transform rounded-xl bg-p1-cyan bg-center p-4 text-gray-800 opacity-0 shadow-lg transition-all duration-300 group-hover:visible group-hover:opacity-100 md:w-60">
                             <div className="rounded-lg border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
-                              <Link href={'#'} className="mx-auto justify-center">
+                              <Link href="#" className="mx-auto justify-center">
                                 <Image
                                   className="h-10 w-10"
                                   width={480}
@@ -774,7 +766,7 @@ export default function Home() {
                               </Link>
                             </div>
                             <div className="rounded-lg border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
-                              <Link href={'#'} className="mx-auto justify-center">
+                              <Link href="#" className="mx-auto justify-center">
                                 <Image
                                   className="h-10 w-10"
                                   width={480}
@@ -792,7 +784,7 @@ export default function Home() {
                     <div className="w-10">
                       <div className="w-10">
                         <div className="group relative inline-block">
-                          <Link href={'#'} className="mx-auto justify-center">
+                          <Link href="#" className="mx-auto justify-center">
                             <Image
                               className="h-10 w-10 rounded-xl p-1 transition-all delay-75 duration-300 ease-in-out hover:bg-opacity-50 hover:ring-1 hover:ring-p1-green dark:ring-p1-green dark:hover:ring-p1-cyan"
                               width={480}
@@ -803,7 +795,7 @@ export default function Home() {
 
                             <div className="invisible absolute left-1/2 z-10 mt-2 w-60 -translate-x-1/2 transform rounded-xl bg-p1-cyan bg-center p-4 text-gray-800 opacity-0 shadow-lg transition-all duration-300 group-hover:visible group-hover:opacity-100 md:w-60">
                               <div className="rounded-lg border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
-                                <Link href={'#'} className="mx-auto justify-center">
+                                <Link href="#" className="mx-auto justify-center">
                                   <Image
                                     className="h-10 w-10"
                                     width={480}
@@ -815,7 +807,7 @@ export default function Home() {
                                 </Link>
                               </div>
                               <div className="rounded-lg border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
-                                <Link href={'#'} className="mx-auto justify-center">
+                                <Link href="#" className="mx-auto justify-center">
                                   <Image
                                     className="h-10 w-10"
                                     width={480}
@@ -847,8 +839,7 @@ export default function Home() {
                     </div>
                     <div className="">
                       <div className="mx-auto justify-start px-3 text-2xl text-p1-darkgreen dark:text-p1-green">
-                        {' '}
-                        JohnDoe{' '}
+                        JohnDoe
                       </div>
                     </div>
                   </div>
@@ -888,7 +879,7 @@ export default function Home() {
                     <div className="group relative">
                       <div>
                         <Link
-                          href={'#'}
+                          href="#"
                           className="mx-auto justify-start text-2xl text-p1-green hover:text-p1-cyan"
                         >
                           JeamBeam
@@ -907,14 +898,12 @@ export default function Home() {
                                   className="w-12 rounded-lg"
                                 />
                                 <div className="font-semibold text-p1-darkgreen">
-                                  {' '}
                                   JeamBeam
                                   <div className="text-base font-thin lining-nums text-p1-darkgreen">
-                                    {' '}
                                     0x010a...0369
                                   </div>
                                 </div>
-                              </div>{' '}
+                              </div>
                             </Link>
 
                             <div className="grid w-full grid-cols-3 items-center text-center">
@@ -1005,7 +994,7 @@ export default function Home() {
                   <div className="flex justify-start">
                     <div className="group relative">
                       <Link
-                        href={'#'}
+                        href="#"
                         className="mx-auto justify-start text-2xl text-p1-green hover:text-p1-cyan"
                       >
                         <div className="inline-flex space-x-2">
@@ -1035,7 +1024,6 @@ export default function Home() {
                               <tbody>
                                 <tr>
                                   <td>
-                                    {' '}
                                     <Link href="#" className="mx-auto">
                                       <div className="inline-flex place-content-start space-x-2">
                                         <Image
@@ -1046,20 +1034,17 @@ export default function Home() {
                                           className="w-12 rounded-full"
                                         />
                                         <div className="font-semibold text-p1-darkgreen">
-                                          {' '}
                                           JeamBeam
                                           <div className="text-base font-thin lining-nums text-p1-darkgreen">
-                                            {' '}
                                             0x010a...0369
                                           </div>
                                         </div>
-                                      </div>{' '}
+                                      </div>
                                     </Link>
                                   </td>
                                 </tr>
                                 <tr>
                                   <td>
-                                    {' '}
                                     <Link href="#" className="mx-auto">
                                       <div className="inline-flex place-content-start space-x-2">
                                         <Image
@@ -1070,20 +1055,17 @@ export default function Home() {
                                           className="w-12 rounded-full"
                                         />
                                         <div className="font-semibold text-p1-darkgreen">
-                                          {' '}
                                           JeamBeam
                                           <div className="text-base font-thin lining-nums text-p1-darkgreen">
-                                            {' '}
                                             0x010a...0369
                                           </div>
                                         </div>
-                                      </div>{' '}
+                                      </div>
                                     </Link>
                                   </td>
                                 </tr>
                                 <tr>
                                   <td>
-                                    {' '}
                                     <Link href="#" className="mx-auto">
                                       <div className="inline-flex place-content-start space-x-2">
                                         <Image
@@ -1094,14 +1076,12 @@ export default function Home() {
                                           className="w-12 rounded-full"
                                         />
                                         <div className="font-semibold text-p1-darkgreen">
-                                          {' '}
                                           JeamBeam
                                           <div className="text-base font-thin lining-nums text-p1-darkgreen">
-                                            {' '}
                                             0x010a...0369
                                           </div>
                                         </div>
-                                      </div>{' '}
+                                      </div>
                                     </Link>
                                   </td>
                                 </tr>
@@ -1180,7 +1160,6 @@ export default function Home() {
 
               <div className="my-5 grid grid-cols-1 place-content-around gap-4 2xl:grid-cols-3">
                 <div className="basis-1/2">
-                  {' '}
                   <div className="relative flex place-content-center">
                     <div className="apace-x-4 inline-flex w-full justify-center rounded-l-xl xl:text-xl">
                       <Link
@@ -1191,7 +1170,7 @@ export default function Home() {
                       </Link>
 
                       <Link
-                        href={'#'}
+                        href="#"
                         className="hover:bg-p2-white grid w-1/5 place-content-center rounded-r-xl border-b-2 border-r-2 border-t-2 border-p1-darkgreen bg-p1-white text-center text-lg font-semibold shadow-lg transition-all duration-300 ease-in-out hover:border-p1-darkgreen hover:bg-p2-white2 hover:shadow-xl hover:ring-p1-cyan focus:scale-95 focus:border-l-2 focus:border-p1-darkgreen focus:bg-p1-darkgreen focus:shadow-lg focus:ring-p1-cyan md:text-3xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-darkgreen dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
                       >
                         <Image
@@ -1206,7 +1185,6 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="basis-1/2">
-                  {' '}
                   <div>
                     <Link
                       href="#"
@@ -1226,7 +1204,6 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="basis-1/2">
-                  {' '}
                   <div>
                     <Link
                       href="#"
@@ -1276,7 +1253,6 @@ export default function Home() {
               <div className="text-darkgreen w-full rounded-2xl border border-p1-green bg-p1-white text-xl shadow-lg dark:bg-p1-deepdarkgreen">
                 <details className="m-2">
                   <summary className="relative flex cursor-pointer justify-start py-2">
-                    {' '}
                     <div className="px-2">
                       <Image
                         className="h-10 w-10 transition-all duration-300 ease-in-out hover:scale-125"
@@ -1285,7 +1261,7 @@ export default function Home() {
                         src="/icon/listings_green.png"
                         alt="ph"
                       />
-                    </div>{' '}
+                    </div>
                     <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
                       Listings
                     </div>
@@ -1325,7 +1301,6 @@ export default function Home() {
                               2,7475 ETH
                             </th>
                             <td className="px-2 py-2">
-                              {' '}
                               <div className="relative text-right">$ 9 012,43</div>
                             </td>
                             <td className="px-2 py-2 text-center">1</td>
@@ -1334,7 +1309,7 @@ export default function Home() {
                               <div className="group relative">
                                 <div>
                                   <Link
-                                    href={'#'}
+                                    href="#"
                                     className="mx-auto justify-start text-left text-p1-green hover:text-p1-cyan"
                                   >
                                     JeamBeam
@@ -1353,14 +1328,12 @@ export default function Home() {
                                             className="w-12 rounded-lg"
                                           />
                                           <div className="font-semibold text-p1-darkgreen">
-                                            {' '}
                                             JeamBeam
                                             <div className="text-base font-thin lining-nums text-p1-darkgreen">
-                                              {' '}
                                               0x010a...0369
                                             </div>
                                           </div>
-                                        </div>{' '}
+                                        </div>
                                       </Link>
 
                                       <div className="grid w-full grid-cols-3 items-center text-center">
@@ -1441,7 +1414,6 @@ export default function Home() {
                               2,7475 ETH
                             </th>
                             <td className="px-2 py-2">
-                              {' '}
                               <div className="relative text-right">$ 9 012,43</div>
                             </td>
                             <td className="px-2 py-2 text-center">1</td>
@@ -1450,7 +1422,7 @@ export default function Home() {
                               <div className="group relative">
                                 <div>
                                   <Link
-                                    href={'#'}
+                                    href="#"
                                     className="mx-auto justify-start text-left text-p1-green hover:text-p1-cyan"
                                   >
                                     JeamBeam
@@ -1469,14 +1441,12 @@ export default function Home() {
                                             className="w-12 rounded-lg"
                                           />
                                           <div className="font-semibold text-p1-darkgreen">
-                                            {' '}
                                             JeamBeam
                                             <div className="text-base font-thin lining-nums text-p1-darkgreen">
-                                              {' '}
                                               0x010a...0369
                                             </div>
                                           </div>
-                                        </div>{' '}
+                                        </div>
                                       </Link>
 
                                       <div className="grid w-full grid-cols-3 items-center text-center">
@@ -1557,7 +1527,6 @@ export default function Home() {
                               2,7475 ETH
                             </th>
                             <td className="px-2 py-2">
-                              {' '}
                               <div className="relative text-right">$ 9 012,43</div>
                             </td>
                             <td className="px-2 py-2 text-center">1</td>
@@ -1566,7 +1535,7 @@ export default function Home() {
                               <div className="group relative">
                                 <div>
                                   <Link
-                                    href={'#'}
+                                    href="#"
                                     className="mx-auto justify-start text-left text-p1-green hover:text-p1-cyan"
                                   >
                                     JeamBeam
@@ -1585,14 +1554,12 @@ export default function Home() {
                                             className="w-12 rounded-lg"
                                           />
                                           <div className="font-semibold text-p1-darkgreen">
-                                            {' '}
                                             JeamBeam
                                             <div className="text-base font-thin lining-nums text-p1-darkgreen">
-                                              {' '}
                                               0x010a...0369
                                             </div>
                                           </div>
-                                        </div>{' '}
+                                        </div>
                                       </Link>
 
                                       <div className="grid w-full grid-cols-3 items-center text-center">
@@ -1673,7 +1640,6 @@ export default function Home() {
                               2,7475 ETH
                             </th>
                             <td className="px-2 py-2">
-                              {' '}
                               <div className="relative text-right">$ 9 012,43</div>
                             </td>
                             <td className="px-2 py-2 text-center">1</td>
@@ -1682,7 +1648,7 @@ export default function Home() {
                               <div className="group relative">
                                 <div>
                                   <Link
-                                    href={'#'}
+                                    href="#"
                                     className="mx-auto justify-start text-left text-p1-green hover:text-p1-cyan"
                                   >
                                     JeamBeam
@@ -1701,14 +1667,12 @@ export default function Home() {
                                             className="w-12 rounded-lg"
                                           />
                                           <div className="font-semibold text-p1-darkgreen">
-                                            {' '}
                                             JeamBeam
                                             <div className="text-base font-thin lining-nums text-p1-darkgreen">
-                                              {' '}
                                               0x010a...0369
                                             </div>
                                           </div>
-                                        </div>{' '}
+                                        </div>
                                       </Link>
 
                                       <div className="grid w-full grid-cols-3 items-center text-center">
@@ -1789,7 +1753,6 @@ export default function Home() {
                               2,7475 ETH
                             </th>
                             <td className="px-2 py-2">
-                              {' '}
                               <div className="relative text-right">$ 9 012,43</div>
                             </td>
                             <td className="px-2 py-2 text-center">1</td>
@@ -1798,7 +1761,7 @@ export default function Home() {
                               <div className="group relative">
                                 <div>
                                   <Link
-                                    href={'#'}
+                                    href="#"
                                     className="mx-auto justify-start text-left text-p1-green hover:text-p1-cyan"
                                   >
                                     JeamBeam
@@ -1817,14 +1780,12 @@ export default function Home() {
                                             className="w-12 rounded-lg"
                                           />
                                           <div className="font-semibold text-p1-darkgreen">
-                                            {' '}
                                             JeamBeam
                                             <div className="text-base font-thin lining-nums text-p1-darkgreen">
-                                              {' '}
                                               0x010a...0369
                                             </div>
                                           </div>
-                                        </div>{' '}
+                                        </div>
                                       </Link>
 
                                       <div className="grid w-full grid-cols-3 items-center text-center">
@@ -1905,7 +1866,6 @@ export default function Home() {
                               2,7475 ETH
                             </th>
                             <td className="px-2 py-2">
-                              {' '}
                               <div className="relative text-right">$ 9 012,43</div>
                             </td>
                             <td className="px-2 py-2 text-center">1</td>
@@ -1914,7 +1874,7 @@ export default function Home() {
                               <div className="group relative">
                                 <div>
                                   <Link
-                                    href={'#'}
+                                    href="#"
                                     className="mx-auto justify-start text-left text-p1-green hover:text-p1-cyan"
                                   >
                                     JeamBeam
@@ -1933,14 +1893,12 @@ export default function Home() {
                                             className="w-12 rounded-lg"
                                           />
                                           <div className="font-semibold text-p1-darkgreen">
-                                            {' '}
                                             JeamBeam
                                             <div className="text-base font-thin lining-nums text-p1-darkgreen">
-                                              {' '}
                                               0x010a...0369
                                             </div>
                                           </div>
-                                        </div>{' '}
+                                        </div>
                                       </Link>
 
                                       <div className="grid w-full grid-cols-3 items-center text-center">
@@ -2024,7 +1982,6 @@ export default function Home() {
               <div className="text-darkgreen w-full rounded-2xl border border-p1-green bg-p1-white text-xl shadow-lg dark:bg-p1-deepdarkgreen">
                 <details className="m-2">
                   <summary className="relative flex cursor-pointer justify-start py-2">
-                    {' '}
                     <div className="px-2">
                       <Image
                         className="h-10 w-10 transition-all duration-300 ease-in-out hover:scale-125"
@@ -2033,7 +1990,7 @@ export default function Home() {
                         src="/icon/offers_green.png"
                         alt="ph"
                       />
-                    </div>{' '}
+                    </div>
                     <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
                       Offers
                     </div>
@@ -2074,7 +2031,6 @@ export default function Home() {
                                 2,7475 ETH
                               </th>
                               <td className="px-2 py-2">
-                                {' '}
                                 <div className="relative text-right">$ 9 012,43</div>
                               </td>
                               <td className="px-2 py-2 text-center">8</td>
@@ -2085,7 +2041,7 @@ export default function Home() {
                                 <div className="group relative">
                                   <div>
                                     <Link
-                                      href={'#'}
+                                      href="#"
                                       className="mx-auto justify-start text-left text-p1-green hover:text-p1-cyan"
                                     >
                                       JeamBeam
@@ -2104,14 +2060,12 @@ export default function Home() {
                                               className="w-12 rounded-lg"
                                             />
                                             <div className="font-semibold text-p1-darkgreen">
-                                              {' '}
                                               JeamBeam
                                               <div className="text-base font-thin lining-nums text-p1-darkgreen">
-                                                {' '}
                                                 0x010a...0369
                                               </div>
                                             </div>
-                                          </div>{' '}
+                                          </div>
                                         </Link>
 
                                         <div className="grid w-full grid-cols-3 items-center text-center">
@@ -2183,7 +2137,6 @@ export default function Home() {
                                 2,7475 ETH
                               </th>
                               <td className="px-2 py-2">
-                                {' '}
                                 <div className="relative text-right">$ 9 012,43</div>
                               </td>
                               <td className="px-2 py-2 text-center">8</td>
@@ -2194,7 +2147,7 @@ export default function Home() {
                                 <div className="group relative">
                                   <div>
                                     <Link
-                                      href={'#'}
+                                      href="#"
                                       className="mx-auto justify-start text-left text-p1-green hover:text-p1-cyan"
                                     >
                                       JeamBeam
@@ -2213,14 +2166,12 @@ export default function Home() {
                                               className="w-12 rounded-lg"
                                             />
                                             <div className="font-semibold text-p1-darkgreen">
-                                              {' '}
                                               JeamBeam
                                               <div className="text-base font-thin lining-nums text-p1-darkgreen">
-                                                {' '}
                                                 0x010a...0369
                                               </div>
                                             </div>
-                                          </div>{' '}
+                                          </div>
                                         </Link>
 
                                         <div className="grid w-full grid-cols-3 items-center text-center">
@@ -2292,7 +2243,6 @@ export default function Home() {
                                 2,7475 ETH
                               </th>
                               <td className="px-2 py-2">
-                                {' '}
                                 <div className="relative text-right">$ 9 012,43</div>
                               </td>
                               <td className="px-2 py-2 text-center">8</td>
@@ -2303,7 +2253,7 @@ export default function Home() {
                                 <div className="group relative">
                                   <div>
                                     <Link
-                                      href={'#'}
+                                      href="#"
                                       className="mx-auto justify-start text-left text-p1-green hover:text-p1-cyan"
                                     >
                                       JeamBeam
@@ -2322,14 +2272,12 @@ export default function Home() {
                                               className="w-12 rounded-lg"
                                             />
                                             <div className="font-semibold text-p1-darkgreen">
-                                              {' '}
                                               JeamBeam
                                               <div className="text-base font-thin lining-nums text-p1-darkgreen">
-                                                {' '}
                                                 0x010a...0369
                                               </div>
                                             </div>
-                                          </div>{' '}
+                                          </div>
                                         </Link>
 
                                         <div className="grid w-full grid-cols-3 items-center text-center">
@@ -2401,7 +2349,6 @@ export default function Home() {
                                 2,7475 ETH
                               </th>
                               <td className="px-2 py-2">
-                                {' '}
                                 <div className="relative text-right">$ 9 012,43</div>
                               </td>
                               <td className="px-2 py-2 text-center">8</td>
@@ -2412,7 +2359,7 @@ export default function Home() {
                                 <div className="group relative">
                                   <div>
                                     <Link
-                                      href={'#'}
+                                      href="#"
                                       className="mx-auto justify-start text-left text-p1-green hover:text-p1-cyan"
                                     >
                                       JeamBeam
@@ -2431,14 +2378,12 @@ export default function Home() {
                                               className="w-12 rounded-lg"
                                             />
                                             <div className="font-semibold text-p1-darkgreen">
-                                              {' '}
                                               JeamBeam
                                               <div className="text-base font-thin lining-nums text-p1-darkgreen">
-                                                {' '}
                                                 0x010a...0369
                                               </div>
                                             </div>
-                                          </div>{' '}
+                                          </div>
                                         </Link>
 
                                         <div className="grid w-full grid-cols-3 items-center text-center">
@@ -2510,7 +2455,6 @@ export default function Home() {
                                 2,7475 ETH
                               </th>
                               <td className="px-2 py-2">
-                                {' '}
                                 <div className="relative text-right">$ 9 012,43</div>
                               </td>
                               <td className="px-2 py-2 text-center">8</td>
@@ -2521,7 +2465,7 @@ export default function Home() {
                                 <div className="group relative">
                                   <div>
                                     <Link
-                                      href={'#'}
+                                      href="#"
                                       className="mx-auto justify-start text-left text-p1-green hover:text-p1-cyan"
                                     >
                                       JeamBeam
@@ -2540,14 +2484,12 @@ export default function Home() {
                                               className="w-12 rounded-lg"
                                             />
                                             <div className="font-semibold text-p1-darkgreen">
-                                              {' '}
                                               JeamBeam
                                               <div className="text-base font-thin lining-nums text-p1-darkgreen">
-                                                {' '}
                                                 0x010a...0369
                                               </div>
                                             </div>
-                                          </div>{' '}
+                                          </div>
                                         </Link>
 
                                         <div className="grid w-full grid-cols-3 items-center text-center">
@@ -2630,7 +2572,6 @@ export default function Home() {
           <div className="text-darkgreen w-full rounded-2xl border border-p1-green bg-p1-white text-xl shadow-lg dark:bg-p1-deepdarkgreen">
             <details className="m-2">
               <summary className="relative flex cursor-pointer justify-start py-2">
-                {' '}
                 <div className="px-2">
                   <Image
                     className="h-10 w-10 transition-all duration-300 ease-in-out hover:scale-125"
@@ -2639,7 +2580,7 @@ export default function Home() {
                     src="/icon/top_down-arrow_green.png"
                     alt="ph"
                   />
-                </div>{' '}
+                </div>
                 <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
                   Item Activity
                 </div>
@@ -2740,7 +2681,6 @@ export default function Home() {
                             />
                           </th>
                           <td className="px-2 py-2">
-                            {' '}
                             <div className="relative text-left">Transfer</div>
                           </td>
                           <td className="px-2 py-2 text-left"> ...</td>
@@ -2748,7 +2688,7 @@ export default function Home() {
                             <div className="group relative">
                               <div>
                                 <Link
-                                  href={'#'}
+                                  href="#"
                                   className="mx-auto justify-start text-left text-p1-green hover:text-p1-cyan"
                                 >
                                   JeamBeam
@@ -2767,14 +2707,12 @@ export default function Home() {
                                           className="w-12 rounded-lg"
                                         />
                                         <div className="font-semibold text-p1-darkgreen">
-                                          {' '}
                                           JeamBeam
                                           <div className="text-base font-thin lining-nums text-p1-darkgreen">
-                                            {' '}
                                             0x010a...0369
                                           </div>
                                         </div>
-                                      </div>{' '}
+                                      </div>
                                     </Link>
 
                                     <div className="grid w-full grid-cols-3 items-center text-center">
@@ -2842,7 +2780,7 @@ export default function Home() {
                             <div className="group relative">
                               <div>
                                 <Link
-                                  href={'#'}
+                                  href="#"
                                   className="mx-auto justify-start text-left text-p1-green hover:text-p1-cyan"
                                 >
                                   JeamBeam
@@ -2861,14 +2799,12 @@ export default function Home() {
                                           className="w-12 rounded-lg"
                                         />
                                         <div className="font-semibold text-p1-darkgreen">
-                                          {' '}
                                           JeamBeam
                                           <div className="text-base font-thin lining-nums text-p1-darkgreen">
-                                            {' '}
                                             0x010a...0369
                                           </div>
                                         </div>
-                                      </div>{' '}
+                                      </div>
                                     </Link>
 
                                     <div className="grid w-full grid-cols-3 items-center text-center">
@@ -2935,7 +2871,7 @@ export default function Home() {
                             <div className="group relative">
                               <div>
                                 <Link
-                                  href={'#'}
+                                  href="#"
                                   className="mx-auto justify-start text-left text-p1-green hover:text-p1-cyan"
                                 >
                                   4d ago
@@ -2947,13 +2883,12 @@ export default function Home() {
                                     <Link href="#" className="mx-auto">
                                       <div className="inline-flex place-content-start space-x-2">
                                         <div className="font-semibold text-p1-darkgreen">
-                                          {' '}
                                           на страницу Etherscan
                                           <div className="text-base font-thin lining-nums text-p1-darkgreen">
                                             Transaction Details
                                           </div>
                                         </div>
-                                      </div>{' '}
+                                      </div>
                                     </Link>
                                   </div>
                                 </div>
@@ -2975,7 +2910,6 @@ export default function Home() {
                             />
                           </th>
                           <td className="px-2 py-2">
-                            {' '}
                             <div className="relative text-left">Sale</div>
                           </td>
                           <td className="px-2 py-2 text-left">2,8413 WETH</td>
@@ -2983,7 +2917,7 @@ export default function Home() {
                             <div className="group relative">
                               <div>
                                 <Link
-                                  href={'#'}
+                                  href="#"
                                   className="mx-auto justify-start text-left text-p1-green hover:text-p1-cyan"
                                 >
                                   JeamBeam
@@ -3002,14 +2936,12 @@ export default function Home() {
                                           className="w-12 rounded-lg"
                                         />
                                         <div className="font-semibold text-p1-darkgreen">
-                                          {' '}
                                           JeamBeam
                                           <div className="text-base font-thin lining-nums text-p1-darkgreen">
-                                            {' '}
                                             0x010a...0369
                                           </div>
                                         </div>
-                                      </div>{' '}
+                                      </div>
                                     </Link>
 
                                     <div className="grid w-full grid-cols-3 items-center text-center">
@@ -3077,7 +3009,7 @@ export default function Home() {
                             <div className="group relative">
                               <div>
                                 <Link
-                                  href={'#'}
+                                  href="#"
                                   className="mx-auto justify-start text-left text-p1-green hover:text-p1-cyan"
                                 >
                                   JeamBeam
@@ -3096,14 +3028,12 @@ export default function Home() {
                                           className="w-12 rounded-lg"
                                         />
                                         <div className="font-semibold text-p1-darkgreen">
-                                          {' '}
                                           JeamBeam
                                           <div className="text-base font-thin lining-nums text-p1-darkgreen">
-                                            {' '}
                                             0x010a...0369
                                           </div>
                                         </div>
-                                      </div>{' '}
+                                      </div>
                                     </Link>
 
                                     <div className="grid w-full grid-cols-3 items-center text-center">
@@ -3170,7 +3100,7 @@ export default function Home() {
                             <div className="group relative">
                               <div>
                                 <Link
-                                  href={'#'}
+                                  href="#"
                                   className="mx-auto justify-start text-left text-p1-green hover:text-p1-cyan"
                                 >
                                   4d ago
@@ -3182,13 +3112,12 @@ export default function Home() {
                                     <Link href="#" className="mx-auto">
                                       <div className="inline-flex place-content-start space-x-2">
                                         <div className="font-semibold text-p1-darkgreen">
-                                          {' '}
                                           на страницу Etherscan
                                           <div className="text-base font-thin lining-nums text-p1-darkgreen">
                                             Transaction Details
                                           </div>
                                         </div>
-                                      </div>{' '}
+                                      </div>
                                     </Link>
                                   </div>
                                 </div>
@@ -3210,7 +3139,6 @@ export default function Home() {
                             />
                           </th>
                           <td className="px-2 py-2">
-                            {' '}
                             <div className="relative text-left">Mint</div>
                           </td>
                           <td className="px-2 py-2 text-left">0,03 ETH</td>
@@ -3218,7 +3146,7 @@ export default function Home() {
                             <div className="group relative">
                               <div>
                                 <Link
-                                  href={'#'}
+                                  href="#"
                                   className="mx-auto justify-start text-left text-p1-green hover:text-p1-cyan"
                                 >
                                   NulAdress
@@ -3237,14 +3165,12 @@ export default function Home() {
                                           className="w-12 rounded-lg"
                                         />
                                         <div className="font-semibold text-p1-darkgreen">
-                                          {' '}
                                           JeamBeam
                                           <div className="text-base font-thin lining-nums text-p1-darkgreen">
-                                            {' '}
                                             0x010a...0369
                                           </div>
                                         </div>
-                                      </div>{' '}
+                                      </div>
                                     </Link>
 
                                     <div className="grid w-full grid-cols-3 items-center text-center">
@@ -3312,7 +3238,7 @@ export default function Home() {
                             <div className="group relative">
                               <div>
                                 <Link
-                                  href={'#'}
+                                  href="#"
                                   className="mx-auto justify-start text-left text-p1-green hover:text-p1-cyan"
                                 >
                                   JeamBeam
@@ -3331,14 +3257,12 @@ export default function Home() {
                                           className="w-12 rounded-lg"
                                         />
                                         <div className="font-semibold text-p1-darkgreen">
-                                          {' '}
                                           JeamBeam
                                           <div className="text-base font-thin lining-nums text-p1-darkgreen">
-                                            {' '}
                                             0x010a...0369
                                           </div>
                                         </div>
-                                      </div>{' '}
+                                      </div>
                                     </Link>
 
                                     <div className="grid w-full grid-cols-3 items-center text-center">
@@ -3405,7 +3329,7 @@ export default function Home() {
                             <div className="group relative">
                               <div>
                                 <Link
-                                  href={'#'}
+                                  href="#"
                                   className="mx-auto justify-start text-left text-p1-green hover:text-p1-cyan"
                                 >
                                   4d ago
@@ -3417,13 +3341,12 @@ export default function Home() {
                                     <Link href="#" className="mx-auto">
                                       <div className="inline-flex place-content-start space-x-2">
                                         <div className="font-semibold text-p1-darkgreen">
-                                          {' '}
                                           на страницу Etherscan
                                           <div className="text-base font-thin lining-nums text-p1-darkgreen">
                                             Transaction Details
                                           </div>
                                         </div>
-                                      </div>{' '}
+                                      </div>
                                     </Link>
                                   </div>
                                 </div>
@@ -3445,7 +3368,6 @@ export default function Home() {
                             />
                           </th>
                           <td className="px-2 py-2">
-                            {' '}
                             <div className="relative text-left">Airdrop</div>
                           </td>
                           <td className="px-2 py-2 text-left">...</td>
@@ -3453,7 +3375,7 @@ export default function Home() {
                             <div className="group relative">
                               <div>
                                 <Link
-                                  href={'#'}
+                                  href="#"
                                   className="mx-auto justify-start text-left text-p1-green hover:text-p1-cyan"
                                 >
                                   NulAdress
@@ -3472,14 +3394,12 @@ export default function Home() {
                                           className="w-12 rounded-lg"
                                         />
                                         <div className="font-semibold text-p1-darkgreen">
-                                          {' '}
                                           JeamBeam
                                           <div className="text-base font-thin lining-nums text-p1-darkgreen">
-                                            {' '}
                                             0x010a...0369
                                           </div>
                                         </div>
-                                      </div>{' '}
+                                      </div>
                                     </Link>
 
                                     <div className="grid w-full grid-cols-3 items-center text-center">
@@ -3547,7 +3467,7 @@ export default function Home() {
                             <div className="group relative">
                               <div>
                                 <Link
-                                  href={'#'}
+                                  href="#"
                                   className="mx-auto justify-start text-left text-p1-green hover:text-p1-cyan"
                                 >
                                   JeamBeam
@@ -3566,14 +3486,12 @@ export default function Home() {
                                           className="w-12 rounded-lg"
                                         />
                                         <div className="font-semibold text-p1-darkgreen">
-                                          {' '}
                                           JeamBeam
                                           <div className="text-base font-thin lining-nums text-p1-darkgreen">
-                                            {' '}
                                             0x010a...0369
                                           </div>
                                         </div>
-                                      </div>{' '}
+                                      </div>
                                     </Link>
 
                                     <div className="grid w-full grid-cols-3 items-center text-center">
@@ -3640,7 +3558,7 @@ export default function Home() {
                             <div className="group relative">
                               <div>
                                 <Link
-                                  href={'#'}
+                                  href="#"
                                   className="mx-auto justify-start text-left text-p1-green hover:text-p1-cyan"
                                 >
                                   4d ago
@@ -3652,13 +3570,12 @@ export default function Home() {
                                     <Link href="#" className="mx-auto">
                                       <div className="inline-flex place-content-start space-x-2">
                                         <div className="font-semibold text-p1-darkgreen">
-                                          {' '}
                                           на страницу Etherscan
                                           <div className="text-base font-thin lining-nums text-p1-darkgreen">
                                             Transaction Details
                                           </div>
                                         </div>
-                                      </div>{' '}
+                                      </div>
                                     </Link>
                                   </div>
                                 </div>
@@ -3722,7 +3639,7 @@ export default function Home() {
 
                           <div className="group invisible absolute right-1 top-1 z-10 inline-block duration-300 ease-in-out group-hover:visible group-hover:opacity-100">
                             <Link
-                              href={'#'}
+                              href="#"
                               className="z-50 grid w-8 place-content-center transition-all delay-75 duration-300 ease-in-out hover:scale-125"
                             >
                               <Image
@@ -3772,7 +3689,6 @@ export default function Home() {
                               </div>
                             </div>
                             <div className="text-left text-base font-thin">
-                              {' '}
                               Last sale: 1000 WETH
                             </div>
                           </div>
@@ -3805,7 +3721,7 @@ export default function Home() {
                               </Link>
 
                               <Link
-                                href={'#'}
+                                href="#"
                                 className="grid w-1/5 place-content-center rounded-br-xl border border-p1-darkgreen bg-p1-darkgreen text-center text-lg font-semibold shadow-lg shadow-p1-cyan transition-all duration-300 ease-in-out hover:scale-75 hover:border-p1-cyan hover:bg-p1-darkgreen hover:text-p1-white hover:shadow-2xl hover:shadow-p1-cyan hover:ring-p1-cyan focus:scale-75 focus:border-p1-cyan focus:ring-p1-cyan md:text-3xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
                               >
                                 <Image
@@ -3831,7 +3747,7 @@ export default function Home() {
 
                           <div className="group invisible absolute right-1 top-1 z-10 inline-block duration-300 ease-in-out group-hover:visible group-hover:opacity-100">
                             <Link
-                              href={'#'}
+                              href="#"
                               className="z-50 grid w-8 place-content-center transition-all delay-75 duration-300 ease-in-out hover:scale-125"
                             >
                               <Image
@@ -3881,7 +3797,6 @@ export default function Home() {
                               </div>
                             </div>
                             <div className="text-left text-base font-thin">
-                              {' '}
                               Last sale: 1000 WETH
                             </div>
                           </div>
@@ -3914,7 +3829,7 @@ export default function Home() {
                               </Link>
 
                               <Link
-                                href={'#'}
+                                href="#"
                                 className="grid w-1/5 place-content-center rounded-br-xl border border-p1-darkgreen bg-p1-darkgreen text-center text-lg font-semibold shadow-lg shadow-p1-cyan transition-all duration-300 ease-in-out hover:scale-75 hover:border-p1-cyan hover:bg-p1-darkgreen hover:text-p1-white hover:shadow-2xl hover:shadow-p1-cyan hover:ring-p1-cyan focus:scale-75 focus:border-p1-cyan focus:ring-p1-cyan md:text-3xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
                               >
                                 <Image
@@ -3940,7 +3855,7 @@ export default function Home() {
 
                           <div className="group invisible absolute right-1 top-1 z-10 inline-block duration-300 ease-in-out group-hover:visible group-hover:opacity-100">
                             <Link
-                              href={'#'}
+                              href="#"
                               className="z-50 grid w-8 place-content-center transition-all delay-75 duration-300 ease-in-out hover:scale-125"
                             >
                               <Image
@@ -3990,7 +3905,6 @@ export default function Home() {
                               </div>
                             </div>
                             <div className="text-left text-base font-thin">
-                              {' '}
                               Last sale: 1000 WETH
                             </div>
                           </div>
@@ -4023,7 +3937,7 @@ export default function Home() {
                               </Link>
 
                               <Link
-                                href={'#'}
+                                href="#"
                                 className="grid w-1/5 place-content-center rounded-br-xl border border-p1-darkgreen bg-p1-darkgreen text-center text-lg font-semibold shadow-lg shadow-p1-cyan transition-all duration-300 ease-in-out hover:scale-75 hover:border-p1-cyan hover:bg-p1-darkgreen hover:text-p1-white hover:shadow-2xl hover:shadow-p1-cyan hover:ring-p1-cyan focus:scale-75 focus:border-p1-cyan focus:ring-p1-cyan md:text-3xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
                               >
                                 <Image
@@ -4049,7 +3963,7 @@ export default function Home() {
 
                           <div className="group invisible absolute right-1 top-1 z-10 inline-block duration-300 ease-in-out group-hover:visible group-hover:opacity-100">
                             <Link
-                              href={'#'}
+                              href="#"
                               className="z-50 grid w-8 place-content-center transition-all delay-75 duration-300 ease-in-out hover:scale-125"
                             >
                               <Image
@@ -4099,7 +4013,6 @@ export default function Home() {
                               </div>
                             </div>
                             <div className="text-left text-base font-thin">
-                              {' '}
                               Last sale: 1000 WETH
                             </div>
                           </div>
@@ -4132,7 +4045,7 @@ export default function Home() {
                               </Link>
 
                               <Link
-                                href={'#'}
+                                href="#"
                                 className="grid w-1/5 place-content-center rounded-br-xl border border-p1-darkgreen bg-p1-darkgreen text-center text-lg font-semibold shadow-lg shadow-p1-cyan transition-all duration-300 ease-in-out hover:scale-75 hover:border-p1-cyan hover:bg-p1-darkgreen hover:text-p1-white hover:shadow-2xl hover:shadow-p1-cyan hover:ring-p1-cyan focus:scale-75 focus:border-p1-cyan focus:ring-p1-cyan md:text-3xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
                               >
                                 <Image
@@ -4158,7 +4071,7 @@ export default function Home() {
 
                           <div className="group invisible absolute right-1 top-1 z-10 inline-block duration-300 ease-in-out group-hover:visible group-hover:opacity-100">
                             <Link
-                              href={'#'}
+                              href="#"
                               className="z-50 grid w-8 place-content-center transition-all delay-75 duration-300 ease-in-out hover:scale-125"
                             >
                               <Image
@@ -4208,7 +4121,6 @@ export default function Home() {
                               </div>
                             </div>
                             <div className="text-left text-base font-thin">
-                              {' '}
                               Last sale: 1000 WETH
                             </div>
                           </div>
@@ -4241,7 +4153,7 @@ export default function Home() {
                               </Link>
 
                               <Link
-                                href={'#'}
+                                href="#"
                                 className="grid w-1/5 place-content-center rounded-br-xl border border-p1-darkgreen bg-p1-darkgreen text-center text-lg font-semibold shadow-lg shadow-p1-cyan transition-all duration-300 ease-in-out hover:scale-75 hover:border-p1-cyan hover:bg-p1-darkgreen hover:text-p1-white hover:shadow-2xl hover:shadow-p1-cyan hover:ring-p1-cyan focus:scale-75 focus:border-p1-cyan focus:ring-p1-cyan md:text-3xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
                               >
                                 <Image
@@ -4267,7 +4179,7 @@ export default function Home() {
 
                           <div className="group invisible absolute right-1 top-1 z-10 inline-block duration-300 ease-in-out group-hover:visible group-hover:opacity-100">
                             <Link
-                              href={'#'}
+                              href="#"
                               className="z-50 grid w-8 place-content-center transition-all delay-75 duration-300 ease-in-out hover:scale-125"
                             >
                               <Image
@@ -4317,7 +4229,6 @@ export default function Home() {
                               </div>
                             </div>
                             <div className="text-left text-base font-thin">
-                              {' '}
                               Last sale: 1000 WETH
                             </div>
                           </div>
@@ -4350,7 +4261,7 @@ export default function Home() {
                               </Link>
 
                               <Link
-                                href={'#'}
+                                href="#"
                                 className="grid w-1/5 place-content-center rounded-br-xl border border-p1-darkgreen bg-p1-darkgreen text-center text-lg font-semibold shadow-lg shadow-p1-cyan transition-all duration-300 ease-in-out hover:scale-75 hover:border-p1-cyan hover:bg-p1-darkgreen hover:text-p1-white hover:shadow-2xl hover:shadow-p1-cyan hover:ring-p1-cyan focus:scale-75 focus:border-p1-cyan focus:ring-p1-cyan md:text-3xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
                               >
                                 <Image
@@ -4376,7 +4287,7 @@ export default function Home() {
 
                           <div className="group invisible absolute right-1 top-1 z-10 inline-block duration-300 ease-in-out group-hover:visible group-hover:opacity-100">
                             <Link
-                              href={'#'}
+                              href="#"
                               className="z-50 grid w-8 place-content-center transition-all delay-75 duration-300 ease-in-out hover:scale-125"
                             >
                               <Image
@@ -4426,7 +4337,6 @@ export default function Home() {
                               </div>
                             </div>
                             <div className="text-left text-base font-thin">
-                              {' '}
                               Last sale: 1000 WETH
                             </div>
                           </div>
@@ -4459,7 +4369,7 @@ export default function Home() {
                               </Link>
 
                               <Link
-                                href={'#'}
+                                href="#"
                                 className="grid w-1/5 place-content-center rounded-br-xl border border-p1-darkgreen bg-p1-darkgreen text-center text-lg font-semibold shadow-lg shadow-p1-cyan transition-all duration-300 ease-in-out hover:scale-75 hover:border-p1-cyan hover:bg-p1-darkgreen hover:text-p1-white hover:shadow-2xl hover:shadow-p1-cyan hover:ring-p1-cyan focus:scale-75 focus:border-p1-cyan focus:ring-p1-cyan md:text-3xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
                               >
                                 <Image
@@ -4485,7 +4395,7 @@ export default function Home() {
 
                           <div className="group invisible absolute right-1 top-1 z-10 inline-block duration-300 ease-in-out group-hover:visible group-hover:opacity-100">
                             <Link
-                              href={'#'}
+                              href="#"
                               className="z-50 grid w-8 place-content-center transition-all delay-75 duration-300 ease-in-out hover:scale-125"
                             >
                               <Image
@@ -4535,7 +4445,6 @@ export default function Home() {
                               </div>
                             </div>
                             <div className="text-left text-base font-thin">
-                              {' '}
                               Last sale: 1000 WETH
                             </div>
                           </div>
@@ -4568,7 +4477,7 @@ export default function Home() {
                               </Link>
 
                               <Link
-                                href={'#'}
+                                href="#"
                                 className="grid w-1/5 place-content-center rounded-br-xl border border-p1-darkgreen bg-p1-darkgreen text-center text-lg font-semibold shadow-lg shadow-p1-cyan transition-all duration-300 ease-in-out hover:scale-75 hover:border-p1-cyan hover:bg-p1-darkgreen hover:text-p1-white hover:shadow-2xl hover:shadow-p1-cyan hover:ring-p1-cyan focus:scale-75 focus:border-p1-cyan focus:ring-p1-cyan md:text-3xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
                               >
                                 <Image
@@ -4599,7 +4508,6 @@ export default function Home() {
         <div className="text-darkgreen w-full rounded-2xl border border-p1-green bg-p1-white text-xl shadow-lg dark:bg-p1-deepdarkgreen">
           <details className="m-2">
             <summary className="relative flex cursor-pointer justify-start py-2">
-              {' '}
               <div className="px-2">
                 <Image
                   className="h-10 w-10 transition-all duration-300 ease-in-out hover:scale-125"
@@ -4608,7 +4516,7 @@ export default function Home() {
                   src="/icon/more.png"
                   alt="ph"
                 />
-              </div>{' '}
+              </div>
               <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
                 More Collections By GAA
               </div>
@@ -4654,7 +4562,7 @@ export default function Home() {
                               Explore Collection
                             </button>
                           </div>
-                        </div>{' '}
+                        </div>
                         <div className="mt-2 grid w-full grid-cols-3 items-center justify-between space-x-1 text-center md:mt-4 md:grid-cols-3">
                           <div>
                             <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Items</p>
@@ -4674,7 +4582,7 @@ export default function Home() {
                                 height={50}
                                 src="/Logo/eth.png"
                                 alt="eth"
-                              />{' '}
+                              />
                               15.2
                             </p>
                           </div>
@@ -4711,7 +4619,7 @@ export default function Home() {
                               Explore Collection
                             </button>
                           </div>
-                        </div>{' '}
+                        </div>
                         <div className="mt-2 grid w-full grid-cols-3 items-center justify-between space-x-1 text-center md:mt-4 md:grid-cols-3">
                           <div>
                             <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Items</p>
@@ -4731,7 +4639,7 @@ export default function Home() {
                                 height={50}
                                 src="/Logo/eth.png"
                                 alt="eth"
-                              />{' '}
+                              />
                               15.2
                             </p>
                           </div>
@@ -4768,7 +4676,7 @@ export default function Home() {
                               Explore Collection
                             </button>
                           </div>
-                        </div>{' '}
+                        </div>
                         <div className="mt-2 grid w-full grid-cols-3 items-center justify-between space-x-1 text-center md:mt-4 md:grid-cols-3">
                           <div>
                             <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Items</p>
@@ -4788,7 +4696,7 @@ export default function Home() {
                                 height={50}
                                 src="/Logo/eth.png"
                                 alt="eth"
-                              />{' '}
+                              />
                               15.2
                             </p>
                           </div>
@@ -4824,7 +4732,7 @@ export default function Home() {
                               Explore Collection
                             </button>
                           </div>
-                        </div>{' '}
+                        </div>
                         <div className="mt-2 grid w-full grid-cols-3 items-center justify-between space-x-1 text-center md:mt-4 md:grid-cols-3">
                           <div>
                             <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Items</p>
@@ -4844,7 +4752,7 @@ export default function Home() {
                                 height={50}
                                 src="/Logo/eth.png"
                                 alt="eth"
-                              />{' '}
+                              />
                               15.2
                             </p>
                           </div>
@@ -4881,7 +4789,7 @@ export default function Home() {
                               Explore Collection
                             </button>
                           </div>
-                        </div>{' '}
+                        </div>
                         <div className="mt-2 grid w-full grid-cols-3 items-center justify-between space-x-1 text-center md:mt-4 md:grid-cols-3">
                           <div>
                             <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Items</p>
@@ -4901,7 +4809,7 @@ export default function Home() {
                                 height={50}
                                 src="/Logo/eth.png"
                                 alt="eth"
-                              />{' '}
+                              />
                               15.2
                             </p>
                           </div>
@@ -4938,7 +4846,7 @@ export default function Home() {
                               Explore Collection
                             </button>
                           </div>
-                        </div>{' '}
+                        </div>
                         <div className="mt-2 grid w-full grid-cols-3 items-center justify-between space-x-1 text-center md:mt-4 md:grid-cols-3">
                           <div>
                             <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Items</p>
@@ -4958,7 +4866,7 @@ export default function Home() {
                                 height={50}
                                 src="/Logo/eth.png"
                                 alt="eth"
-                              />{' '}
+                              />
                               15.2
                             </p>
                           </div>
@@ -4995,7 +4903,7 @@ export default function Home() {
                               Explore Collection
                             </button>
                           </div>
-                        </div>{' '}
+                        </div>
                         <div className="mt-2 grid w-full grid-cols-3 items-center justify-between space-x-1 text-center md:mt-4 md:grid-cols-3">
                           <div>
                             <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Items</p>
@@ -5015,7 +4923,7 @@ export default function Home() {
                                 height={50}
                                 src="/Logo/eth.png"
                                 alt="eth"
-                              />{' '}
+                              />
                               15.2
                             </p>
                           </div>
@@ -5052,7 +4960,7 @@ export default function Home() {
                               Explore Collection
                             </button>
                           </div>
-                        </div>{' '}
+                        </div>
                         <div className="mt-2 grid w-full grid-cols-3 items-center justify-between space-x-1 text-center md:mt-4 md:grid-cols-3">
                           <div>
                             <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Items</p>
@@ -5072,7 +4980,7 @@ export default function Home() {
                                 height={50}
                                 src="/Logo/eth.png"
                                 alt="eth"
-                              />{' '}
+                              />
                               15.2
                             </p>
                           </div>

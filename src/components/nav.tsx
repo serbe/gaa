@@ -23,7 +23,6 @@ const Navbar = ({ open, setter }: { open: boolean; setter: Dispatch<SetStateActi
         <Link href="/" className="items-center space-x-3 lg:hidden">
           <span className="self-center whitespace-nowrap text-2xl font-semibold dark:text-white">
             {t('home')}
-            Домой
           </span>
         </Link>
         <button

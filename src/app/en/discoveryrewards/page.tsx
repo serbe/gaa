@@ -28,17 +28,17 @@ export default function Page() {
               (competitions).
             </p>
             <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
-              Awards NFTs can be collected, sold, transferred.{' '}
+              Awards NFTs can be collected, sold, transferred.
             </p>
             <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
-              When an NFT is created, media content is attached.{' '}
+              When an NFT is created, media content is attached.
             </p>
             <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
               The token contains links to official documents: Final protocol of the event, photos
               and video content.
             </p>
             <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
-              All data is stored in an IPFS network and is protected from unauthorized destruction.{' '}
+              All data is stored in an IPFS network and is protected from unauthorized destruction.
             </p>
             <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
               Promoter license, National license, token holders have access to token creation.
@@ -102,7 +102,7 @@ export default function Page() {
                   defaultValue={'DEFAULT'}
                 >
                   <option value="DEFAULT" disabled>
-                    Select directions{' '}
+                    Select directions
                   </option>
                   <option value="Drift">Drift</option>
                   <option value="Dragracing">Drag Racing</option>
@@ -136,12 +136,12 @@ export default function Page() {
       {/* //Способы получения Rewards*/}
       <div id="3"></div>
       <div className="px-2 text-center text-xl font-semibold text-p1-darkgreen md:pt-2 md:text-3xl dark:text-p1-green dark:hover:text-p1-cyan">
-        Ways to get Awards NFT{' '}
+        Ways to get Awards NFT
       </div>
 
       <div className="m-2 rounded-3xl border-p1-darkgreen p-2 md:border-4 md:shadow-lg dark:border-p1-green dark:hover:border-p1-darkgreen">
         <div className="pt-2 text-center text-base text-p1-darkgreen md:text-2xl dark:text-p1-green dark:hover:text-p1-cyan">
-          Rewards can be created and awarded by NFT holders{' '}
+          Rewards can be created and awarded by NFT holders
           <p className="pb-2 text-center text-base md:text-2xl">
             Promoter license, National license, Global license, Management GAA
           </p>

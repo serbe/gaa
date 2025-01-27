@@ -28,7 +28,7 @@ export default function Page() {
       <JumpButton points={jumpPoints} />
 
       <div className="p-2 text-center text-xl font-bold text-p1-darkgreen drop-shadow-2xl md:text-3xl dark:text-p1-green dark:hover:text-p1-cyan">
-        Roadmap{' '}
+        Roadmap
       </div>
 
       <div className="flex flex-row justify-center pb-2">
@@ -98,7 +98,7 @@ export default function Page() {
             id="3"
             className="px-2 text-center text-base font-semibold text-p1-darkgreen md:pt-4 md:text-xl dark:text-p1-green dark:hover:text-p1-cyan"
           >
-            Creating social network accounts{' '}
+            Creating social network accounts
           </div>
         </div>
       </div>
@@ -173,11 +173,11 @@ export default function Page() {
           <div className="space-y-4 rounded-3xl border-p1-darkgreen p-2 text-left text-base text-p1-darkgreen hover:border-p2-orange md:border-4 md:p-5 md:text-xl md:hover:shadow-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
             <div className="md:px-5">
               Development of the 1st generative NFT collection by GAA consisting of 10,000 digital
-              heroes.{' '}
+              heroes.
             </div>
             <div className="md:px-5">
               Each “RaceLad” is not just an image, but a unique character with different features
-              and captured on the blockchain.{' '}
+              and captured on the blockchain.
             </div>
           </div>
         </div>
@@ -189,7 +189,7 @@ export default function Page() {
             id="5"
             className="px-2 text-center text-base font-semibold text-p1-darkgreen md:pt-4 md:text-xl dark:text-p1-green dark:hover:text-p1-cyan"
           >
-            Internet portal{' '}
+            Internet portal
           </div>
         </div>
       </div>
@@ -198,11 +198,11 @@ export default function Page() {
         <div className="md:basis-3/5">
           <div className="space-y-4 rounded-3xl border-p1-darkgreen p-2 text-left text-base text-p1-darkgreen hover:border-p2-orange md:border-4 md:p-5 md:text-xl md:hover:shadow-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
             <div className="px-4 pb-2">
-              Registration of the domain name gaa.zone.{' '}
+              Registration of the domain name gaa.zone.
               <p>
                 Development of a website, which will be a unique portal where everyone will be able
                 to:
-              </p>{' '}
+              </p>
             </div>
             <ul className="list-disc px-4 md:px-5">
               <li>be informed about the latest news</li>
@@ -275,19 +275,19 @@ export default function Page() {
         <div className="md:basis-3/5">
           <div className="sspace-y-4 rounded-3xl border-p1-darkgreen p-2 text-left text-base text-p1-darkgreen hover:border-p2-orange md:border-4 md:p-5 md:text-xl md:hover:shadow-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
             <div className="px-4 pb-5">
-              The project envisages the release of several categories of NFT collections:{' '}
+              The project envisages the release of several categories of NFT collections:
             </div>
             <div className="px-4 pb-5">
-              Rarity / sports cars - everyone will be able to digitize their car fleet.{' '}
+              Rarity / sports cars - everyone will be able to digitize their car fleet.
             </div>
             <div className="px-4 pb-5">
-              Pilots, collectors and team members will be able to create their own unique NFTs.{' '}
+              Pilots, collectors and team members will be able to create their own unique NFTs.
             </div>
             <div className="px-4 pb-5">
               Awards - NFTs with metadata about the event, digital award image, video content.
             </div>
             <div className="px-4 pb-5">
-              Other collections that can bring closure to socially relevant community issues.{' '}
+              Other collections that can bring closure to socially relevant community issues.
             </div>
           </div>
         </div>
@@ -317,7 +317,7 @@ export default function Page() {
               GAA collections) will decide on the need to issue a token in ERC20 format.
             </div>
             <div className="px-4 pb-5">
-              In this way we plan to provide additional opportunities for investors.{' '}
+              In this way we plan to provide additional opportunities for investors.
             </div>
           </div>
         </div>
@@ -337,14 +337,14 @@ export default function Page() {
         <div className="md:basis-3/5">
           <div className="space-y-4 rounded-3xl border-p1-darkgreen p-2 text-left text-base text-p1-darkgreen hover:border-p2-orange md:border-4 md:p-5 md:text-xl md:hover:shadow-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
             <div className="px-4 pb-5">
-              Provide direction leaders with Global Automotive Association (GAA) rights.{' '}
+              Provide direction leaders with Global Automotive Association (GAA) rights.
             </div>
             <div className="px-4 pb-5">
               Finding leaders in different areas and offering to join their efforts to build and
               strengthen the community.
             </div>
             <div className="px-4 pb-5">
-              Including leaders in the DAO by providing the appropriate NFT.{' '}
+              Including leaders in the DAO by providing the appropriate NFT.
             </div>
             <div className="px-4 pb-5">
               If you are a leader in a certain area in your region and would like to become part of
@@ -360,7 +360,7 @@ export default function Page() {
             id="10"
             className="px-2 text-center text-base font-semibold text-p1-darkgreen md:pt-4 md:text-xl dark:text-p1-green dark:hover:text-p1-cyan"
           >
-            Facilitating the development of young talents{' '}
+            Facilitating the development of young talents
           </div>
         </div>
       </div>
@@ -384,7 +384,7 @@ export default function Page() {
             id="11"
             className="px-2 text-center text-base font-semibold text-p1-darkgreen md:pt-4 md:text-xl dark:text-p1-green dark:hover:text-p1-cyan"
           >
-            Preservation of cultural values{' '}
+            Preservation of cultural values
           </div>
         </div>
       </div>
@@ -393,7 +393,7 @@ export default function Page() {
         <div className="basis-4/5 md:basis-3/5">
           <div className="space-y-4 rounded-3xl border-p1-darkgreen p-2 text-left text-base text-p1-darkgreen hover:border-p2-orange md:border-4 md:p-5 md:text-xl md:hover:shadow-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
             <div className="md:px-5">
-              We help to preserve cultural values and monuments, support museums.{' '}
+              We help to preserve cultural values and monuments, support museums.
             </div>
           </div>
         </div>
@@ -411,7 +411,7 @@ export default function Page() {
             id="12"
             className="px-2 text-center text-base font-semibold text-p1-darkgreen md:pt-4 md:text-xl dark:text-p1-green dark:hover:text-p1-cyan"
           >
-            Organizing and holding national motorsport and autocultural events{' '}
+            Organizing and holding national motorsport and autocultural events
           </div>
           <div className="space-y-4 rounded-3xl border-p1-darkgreen p-2 text-left text-base text-p1-darkgreen hover:border-p2-orange md:border-4 md:p-5 md:text-xl md:hover:shadow-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
             <div className="px-4 pb-5">
@@ -419,7 +419,7 @@ export default function Page() {
               styles and directions.
             </div>
             <div className="px-4 pb-5">
-              Creating a comfortable environment for the development of each of the directions.{' '}
+              Creating a comfortable environment for the development of each of the directions.
             </div>
           </div>
         </div>
@@ -431,7 +431,7 @@ export default function Page() {
             id="13"
             className="px-2 text-center text-base font-semibold text-p1-darkgreen md:pt-4 md:text-xl dark:text-p1-green dark:hover:text-p1-cyan"
           >
-            Organization and holding of international motorsport and autocultural events{' '}
+            Organization and holding of international motorsport and autocultural events
           </div>
           <div className="space-y-4 rounded-3xl border-p1-darkgreen p-2 text-left text-base text-p1-darkgreen hover:border-p2-orange md:border-4 md:p-5 md:text-xl md:hover:shadow-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
             <div className="px-4 pb-5">

@@ -30,7 +30,7 @@ export default function Home() {
           {/* кошелек, профиль, корзина */}
           <div className="flex justify-end space-x-6 px-2 md:px-10">
             <div>
-              <Link href={'#'} className="mx-auto justify-center">
+              <Link href="#" className="mx-auto justify-center">
                 <Image
                   className="h-10 w-10 rounded-lg p-1 ring-p1-green transition-all delay-75 duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:ring-2 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:hover:bg-p1-deepdarkgreen"
                   width={480}
@@ -42,7 +42,7 @@ export default function Home() {
             </div>
 
             <div className="group relative inline-block">
-              <Link href={'#'} className="mx-auto justify-center">
+              <Link href="#" className="mx-auto justify-center">
                 <Image
                   className="h-10 w-10 rounded-full p-1 ring-p1-green transition-all delay-75 duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:ring-2 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:hover:bg-p1-deepdarkgreen"
                   width={480}
@@ -97,12 +97,12 @@ export default function Home() {
                         src="/icon/NFT-col.png"
                         alt="Bordered avatar"
                       />
-                      My NFT{' '}
+                      My NFT
                     </Link>
                   </div>
 
                   <div className="rounded-lg border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
-                    <Link href={'#'} className="mx-auto justify-center">
+                    <Link href="#" className="mx-auto justify-center">
                       <Image
                         className="h-10 w-10"
                         width={480}
@@ -115,7 +115,7 @@ export default function Home() {
                   </div>
 
                   <div className="rounded-lg border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
-                    <Link href={'#'} className="mx-auto justify-center">
+                    <Link href="#" className="mx-auto justify-center">
                       <Image
                         className="h-10 w-10"
                         width={480}
@@ -130,7 +130,7 @@ export default function Home() {
               </Link>
             </div>
             <div>
-              <Link href={'#'} className="mx-auto justify-center">
+              <Link href="#" className="mx-auto justify-center">
                 <Image
                   className="h-10 w-10 rounded-lg p-1 ring-p1-green transition-all delay-75 duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:ring-2 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:hover:bg-p1-deepdarkgreen"
                   width={480}
@@ -203,7 +203,7 @@ export default function Home() {
                         Explore Collection
                       </button>
                     </div>
-                  </div>{' '}
+                  </div>
                   <div className="mt-2 grid w-full grid-cols-3 items-center justify-between space-x-1 text-center md:mt-4 md:grid-cols-3">
                     <div>
                       <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Items</p>
@@ -221,7 +221,7 @@ export default function Home() {
                           height={50}
                           src="/Logo/eth.png"
                           alt="eth"
-                        />{' '}
+                        />
                         15.2
                       </p>
                     </div>
@@ -256,7 +256,7 @@ export default function Home() {
                         Explore Collection
                       </button>
                     </div>
-                  </div>{' '}
+                  </div>
                   <div className="mt-2 grid w-full grid-cols-3 items-center justify-between space-x-1 text-center md:mt-4 md:grid-cols-3">
                     <div>
                       <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Items</p>
@@ -274,7 +274,7 @@ export default function Home() {
                           height={50}
                           src="/Logo/eth.png"
                           alt="eth"
-                        />{' '}
+                        />
                         15.2
                       </p>
                     </div>
@@ -309,7 +309,7 @@ export default function Home() {
                         Explore Collection
                       </button>
                     </div>
-                  </div>{' '}
+                  </div>
                   <div className="mt-2 grid w-full grid-cols-3 items-center justify-between space-x-1 text-center md:mt-4 md:grid-cols-3">
                     <div>
                       <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Items</p>
@@ -327,7 +327,7 @@ export default function Home() {
                           height={50}
                           src="/Logo/eth.png"
                           alt="eth"
-                        />{' '}
+                        />
                         15.2
                       </p>
                     </div>
@@ -361,7 +361,7 @@ export default function Home() {
                         Explore Collection
                       </button>
                     </div>
-                  </div>{' '}
+                  </div>
                   <div className="mt-2 grid w-full grid-cols-3 items-center justify-between space-x-1 text-center md:mt-4 md:grid-cols-3">
                     <div>
                       <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Items</p>
@@ -379,7 +379,7 @@ export default function Home() {
                           height={50}
                           src="/Logo/eth.png"
                           alt="eth"
-                        />{' '}
+                        />
                         15.2
                       </p>
                     </div>
@@ -414,7 +414,7 @@ export default function Home() {
                         Explore Collection
                       </button>
                     </div>
-                  </div>{' '}
+                  </div>
                   <div className="mt-2 grid w-full grid-cols-3 items-center justify-between space-x-1 text-center md:mt-4 md:grid-cols-3">
                     <div>
                       <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Items</p>
@@ -432,7 +432,7 @@ export default function Home() {
                           height={50}
                           src="/Logo/eth.png"
                           alt="eth"
-                        />{' '}
+                        />
                         15.2
                       </p>
                     </div>
@@ -467,7 +467,7 @@ export default function Home() {
                         Explore Collection
                       </button>
                     </div>
-                  </div>{' '}
+                  </div>
                   <div className="mt-2 grid w-full grid-cols-3 items-center justify-between space-x-1 text-center md:mt-4 md:grid-cols-3">
                     <div>
                       <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Items</p>
@@ -485,7 +485,7 @@ export default function Home() {
                           height={50}
                           src="/Logo/eth.png"
                           alt="eth"
-                        />{' '}
+                        />
                         15.2
                       </p>
                     </div>
@@ -520,7 +520,7 @@ export default function Home() {
                         Explore Collection
                       </button>
                     </div>
-                  </div>{' '}
+                  </div>
                   <div className="mt-2 grid w-full grid-cols-3 items-center justify-between space-x-1 text-center md:mt-4 md:grid-cols-3">
                     <div>
                       <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Items</p>
@@ -538,7 +538,7 @@ export default function Home() {
                           height={50}
                           src="/Logo/eth.png"
                           alt="eth"
-                        />{' '}
+                        />
                         15.2
                       </p>
                     </div>
@@ -573,7 +573,7 @@ export default function Home() {
                         Explore Collection
                       </button>
                     </div>
-                  </div>{' '}
+                  </div>
                   <div className="mt-2 grid w-full grid-cols-3 items-center justify-between space-x-1 text-center md:mt-4 md:grid-cols-3">
                     <div>
                       <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Items</p>
@@ -591,7 +591,7 @@ export default function Home() {
                           height={50}
                           src="/Logo/eth.png"
                           alt="eth"
-                        />{' '}
+                        />
                         15.2
                       </p>
                     </div>
@@ -612,7 +612,7 @@ export default function Home() {
 
         <div className="grid h-80 grid-cols-1 place-items-start p-1 md:grid-cols-1 xl:grid-cols-2">
           <div className="flex grid-flow-row auto-rows-max space-x-2 px-2 md:px-10">
-            <Link href={'#'} className="mx-auto w-80">
+            <Link href="#" className="mx-auto w-80">
               <Image
                 className="rounded-3xl dark:ring-p1-darkgreen"
                 width={1000}

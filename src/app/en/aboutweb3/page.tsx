@@ -92,7 +92,7 @@ export default function Page() {
         <div className="mx-auto flex max-w-full flex-row space-y-2 p-2">
           <details className="open:bg-p1-greem rounded-3xl border-p1-darkgreen p-2 open:ring-1 open:ring-p1-green hover:border-p1-green open:md:border-4 open:md:shadow-lg dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:open:ring-white/10 dark:hover:border-p1-green dark:hover:text-p1-cyan">
             <summary className="text-lm select-none space-y-4 font-semibold leading-6 text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
-              In order to better understand what Web3 is, you need to know what Web 1 and Web 2 are.{' '}
+              In order to better understand what Web3 is, you need to know what Web 1 and Web 2 are.
             </summary>
             <div className="mt-3 text-base leading-6 text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
               <p>Web-1</p>
@@ -410,7 +410,7 @@ export default function Page() {
         <div className="mx-auto flex max-w-full flex-row space-y-2 p-2">
           <details className="open:bg-p1-greem rounded-3xl border-p1-darkgreen p-2 open:ring-1 open:ring-p1-green hover:border-p1-green open:md:border-4 open:md:shadow-lg dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:open:ring-white/10 dark:hover:border-p1-green dark:hover:text-p1-cyan">
             <summary className="text-lm select-none space-y-4 font-semibold leading-6 text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
-              Smart contracts{' '}
+              Smart contracts
             </summary>
             <div className="mt-3 text-base leading-6 text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
               <p>
@@ -902,7 +902,7 @@ export default function Page() {
               </div>
               <div className="pb-5"></div>
               <div className="space-y-4 pt-5 text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
-                Examples of using NFTs:{' '}
+                Examples of using NFTs:
                 <ul className="list-disc space-y-4 px-5 pt-4">
                   <li>
                     Digital Art: Artists create and sell their works as NFTs, giving buyers unique
@@ -931,7 +931,7 @@ export default function Page() {
             <div className="pb-5"> </div>
 
             <div className="pb-5 text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
-              NFT benefits:{' '}
+              NFT benefits:
               <ul className="list-disc space-y-2 px-5">
                 <li>
                   Authenticity and Ownership: NFTs make it easy to verify authenticity and ownership
@@ -949,7 +949,7 @@ export default function Page() {
             </div>
             <div className="pb-5"> </div>
             <div className="pb-5 text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
-              Technologies and platforms:{' '}
+              Technologies and platforms:
               <ul className="list-disc space-y-2 px-5">
                 <li>
                   Ethereum: The most popular platform for creating and trading NFTs thanks to
@@ -1006,7 +1006,7 @@ export default function Page() {
             </div>
             <div className="pb-5"></div>
             <div className="space-y-4 pb-5 text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
-              Property details:{' '}
+              Property details:
               <ul className="list-disc space-y-4 px-5 pt-2">
                 <li>
                   Record of ownership: The owner of the NFT is recorded in the blockchain, which
@@ -1026,7 +1026,7 @@ export default function Page() {
             <div className="pb-5"> </div>
 
             <div className="pb-5 text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
-              Example Process:{' '}
+              Example Process:
               <ul className="list-disc space-y-2 px-5">
                 <li>
                   NFT creation: An artist or content creator creates a digital piece art. It uploads
@@ -1225,7 +1225,7 @@ export default function Page() {
               cryptocurrencies and interact with dApps on the go.
             </div>
             <div className="space-y-4 pb-5 text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
-              How to use MetaMask:{' '}
+              How to use MetaMask:
               <ul className="list-disc space-y-4 px-5">
                 <li>
                   Installation and configuration: Download and install the browser or mobile

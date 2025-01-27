@@ -32,7 +32,7 @@ export default function Page() {
               description and characteristics.
             </p>
             <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
-              When creating an NFT, you have the option to add media content.{' '}
+              When creating an NFT, you have the option to add media content.
             </p>
             <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
               To create a Cars NFT, you must own at least one NFT from the Drivers collections.
@@ -119,7 +119,7 @@ export default function Page() {
       <div className="md:pb-8"></div>
       <div id="2"></div>
       <div className="px-2 text-center text-xl font-semibold text-p1-darkgreen md:pt-10 md:text-3xl dark:text-p1-green dark:hover:text-p1-cyan">
-        Ways to get Cars NFT{' '}
+        Ways to get Cars NFT
       </div>
 
       <div className="h-max rounded-3xl border-p1-darkgreen p-2 md:border-4 md:shadow-lg dark:hover:border-p1-green">
@@ -219,7 +219,7 @@ export default function Page() {
         </div>
 
         <div className="pt-5 text-center text-base text-p1-darkgreen md:text-2xl dark:text-p1-green dark:hover:text-p1-cyan">
-          This is how we plan to ensure transparency of the process{' '}
+          This is how we plan to ensure transparency of the process
           <p className="text-center text-base md:text-2xl">and cleanliness of the collection</p>
         </div>
       </div>

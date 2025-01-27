@@ -410,7 +410,7 @@ export default function Page() {
           <div className="pb-5">Date of Publication: June 1, 2024</div>
           <div className="pb-5">Published by: Administration</div>
           <div className="pb-5">
-            Administration: Decentralized Autonomous Organization Global Automotive Association{' '}
+            Administration: Decentralized Autonomous Organization Global Automotive Association
           </div>
         </div>
         <div className="md:pt-2" id="13"></div>

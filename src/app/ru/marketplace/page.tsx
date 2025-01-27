@@ -2,6 +2,7 @@
 
 import Image from 'next/image';
 import { Link } from '@/i18n/routing';
+// import Link from 'next/link'
 import { Autoplay, Mousewheel, Navigation } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { useState } from 'react';
@@ -14,25 +15,19 @@ import 'swiper/css/navigation';
 import 'swiper/css/scrollbar';
 import 'swiper/css/pagination';
 
+const changeArea = (visibleArea: string): string => {
+  if (visibleArea == '') {
+    return 'hidden';
+  }
+  return '';
+};
+
 export default function Home() {
   const [check, setCheck] = useState(false);
+  const [visibleArea, setVisibleArea] = useState('');
   const jumpPoints = ['1', '2', '3'];
   const { width } = useWindowDimensions();
   const cardWidth = 288;
-  const button = document.getElementById('toggleButton');
-  const area = document.getElementById('toggleArea');
-
-  {
-    /*   button.addEventListener('click', () => {
-    // Проверяем, есть ли атрибут hidden
-    if (area.hasAttribute('hidden')) {
-      area.removeAttribute('hidden'); // Убираем hidden
-    } else {
-      area.setAttribute('hidden', ''); // Добавляем hidden
-    }
-  });
-*/
-  }
 
   return (
     <div className="mx-auto w-full font-serif">
@@ -48,7 +43,7 @@ export default function Home() {
             {/* кошелек, профиль, корзина */}
             <div className="flex justify-end space-x-6 px-2 md:px-10">
               <div>
-                <Link href={'#'} className="mx-auto justify-center">
+                <Link href="#" className="mx-auto justify-center">
                   <Image
                     className="h-10 w-10 rounded-lg p-1 ring-p1-green transition-all delay-75 duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:ring-2 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:hover:bg-p1-deepdarkgreen"
                     width={480}
@@ -60,7 +55,7 @@ export default function Home() {
               </div>
 
               <div className="group relative inline-block">
-                <Link href={'#'} className="mx-auto justify-center">
+                <Link href="#" className="mx-auto justify-center">
                   <Image
                     className="h-10 w-10 rounded-full p-1 ring-p1-green transition-all delay-75 duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:ring-2 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:hover:bg-p1-deepdarkgreen"
                     width={480}
@@ -115,12 +110,12 @@ export default function Home() {
                           src="/icon/NFT-col.png"
                           alt="Bordered avatar"
                         />
-                        My NFT{' '}
+                        My NFT
                       </Link>
                     </div>
 
                     <div className="rounded-lg border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
-                      <Link href={'#'} className="mx-auto justify-center">
+                      <Link href="#" className="mx-auto justify-center">
                         <Image
                           className="h-10 w-10"
                           width={480}
@@ -133,7 +128,7 @@ export default function Home() {
                     </div>
 
                     <div className="rounded-lg border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
-                      <Link href={'#'} className="mx-auto justify-center">
+                      <Link href="#" className="mx-auto justify-center">
                         <Image
                           className="h-10 w-10"
                           width={480}
@@ -148,7 +143,7 @@ export default function Home() {
                 </Link>
               </div>
               <div>
-                <Link href={'#'} className="mx-auto justify-center">
+                <Link href="#" className="mx-auto justify-center">
                   <Image
                     className="h-10 w-10 rounded-lg p-1 ring-p1-green transition-all delay-75 duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:ring-2 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:hover:bg-p1-deepdarkgreen"
                     width={480}
@@ -221,7 +216,7 @@ export default function Home() {
                           Explore Collection
                         </button>
                       </div>
-                    </div>{' '}
+                    </div>
                     <div className="mt-2 grid w-full grid-cols-3 items-center justify-between space-x-1 text-center md:mt-4 md:grid-cols-3">
                       <div>
                         <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Items</p>
@@ -239,7 +234,7 @@ export default function Home() {
                             height={50}
                             src="/Logo/eth.png"
                             alt="eth"
-                          />{' '}
+                          />
                           15.2
                         </p>
                       </div>
@@ -274,7 +269,7 @@ export default function Home() {
                           Explore Collection
                         </button>
                       </div>
-                    </div>{' '}
+                    </div>
                     <div className="mt-2 grid w-full grid-cols-3 items-center justify-between space-x-1 text-center md:mt-4 md:grid-cols-3">
                       <div>
                         <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Items</p>
@@ -292,7 +287,7 @@ export default function Home() {
                             height={50}
                             src="/Logo/eth.png"
                             alt="eth"
-                          />{' '}
+                          />
                           15.2
                         </p>
                       </div>
@@ -327,7 +322,7 @@ export default function Home() {
                           Explore Collection
                         </button>
                       </div>
-                    </div>{' '}
+                    </div>
                     <div className="mt-2 grid w-full grid-cols-3 items-center justify-between space-x-1 text-center md:mt-4 md:grid-cols-3">
                       <div>
                         <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Items</p>
@@ -345,7 +340,7 @@ export default function Home() {
                             height={50}
                             src="/Logo/eth.png"
                             alt="eth"
-                          />{' '}
+                          />
                           15.2
                         </p>
                       </div>
@@ -379,7 +374,7 @@ export default function Home() {
                           Explore Collection
                         </button>
                       </div>
-                    </div>{' '}
+                    </div>
                     <div className="mt-2 grid w-full grid-cols-3 items-center justify-between space-x-1 text-center md:mt-4 md:grid-cols-3">
                       <div>
                         <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Items</p>
@@ -397,7 +392,7 @@ export default function Home() {
                             height={50}
                             src="/Logo/eth.png"
                             alt="eth"
-                          />{' '}
+                          />
                           15.2
                         </p>
                       </div>
@@ -432,7 +427,7 @@ export default function Home() {
                           Explore Collection
                         </button>
                       </div>
-                    </div>{' '}
+                    </div>
                     <div className="mt-2 grid w-full grid-cols-3 items-center justify-between space-x-1 text-center md:mt-4 md:grid-cols-3">
                       <div>
                         <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Items</p>
@@ -450,7 +445,7 @@ export default function Home() {
                             height={50}
                             src="/Logo/eth.png"
                             alt="eth"
-                          />{' '}
+                          />
                           15.2
                         </p>
                       </div>
@@ -485,7 +480,7 @@ export default function Home() {
                           Explore Collection
                         </button>
                       </div>
-                    </div>{' '}
+                    </div>
                     <div className="mt-2 grid w-full grid-cols-3 items-center justify-between space-x-1 text-center md:mt-4 md:grid-cols-3">
                       <div>
                         <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Items</p>
@@ -503,7 +498,7 @@ export default function Home() {
                             height={50}
                             src="/Logo/eth.png"
                             alt="eth"
-                          />{' '}
+                          />
                           15.2
                         </p>
                       </div>
@@ -538,7 +533,7 @@ export default function Home() {
                           Explore Collection
                         </button>
                       </div>
-                    </div>{' '}
+                    </div>
                     <div className="mt-2 grid w-full grid-cols-3 items-center justify-between space-x-1 text-center md:mt-4 md:grid-cols-3">
                       <div>
                         <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Items</p>
@@ -556,7 +551,7 @@ export default function Home() {
                             height={50}
                             src="/Logo/eth.png"
                             alt="eth"
-                          />{' '}
+                          />
                           15.2
                         </p>
                       </div>
@@ -591,7 +586,7 @@ export default function Home() {
                           Explore Collection
                         </button>
                       </div>
-                    </div>{' '}
+                    </div>
                     <div className="mt-2 grid w-full grid-cols-3 items-center justify-between space-x-1 text-center md:mt-4 md:grid-cols-3">
                       <div>
                         <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Items</p>
@@ -609,7 +604,7 @@ export default function Home() {
                             height={50}
                             src="/Logo/eth.png"
                             alt="eth"
-                          />{' '}
+                          />
                           15.2
                         </p>
                       </div>
@@ -630,7 +625,7 @@ export default function Home() {
 
           <div className="grid h-80 grid-cols-1 place-items-start p-1 md:grid-cols-1 xl:grid-cols-2">
             <div className="flex grid-flow-row auto-rows-max space-x-2 px-2 md:px-10">
-              <Link href={'#'} className="mx-auto w-80">
+              <Link href="#" className="mx-auto w-80">
                 <Image
                   className="rounded-3xl dark:ring-p1-darkgreen"
                   width={1000}
@@ -813,10 +808,12 @@ export default function Home() {
           <div className="flex justify-start space-x-1 md:px-10">
             <div>
               <button
-                href={'#area1'}
                 data-target="area1"
                 className="toggle-btn mx-auto justify-start"
                 id="toggleButton"
+                onClick={() => {
+                  setVisibleArea(changeArea(visibleArea));
+                }}
               >
                 <Image
                   className="h-10 w-10 rounded-sm p-1 ring-p1-gray transition-all delay-75 duration-300 ease-in-out hover:bg-p1-green hover:bg-opacity-50 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:bg-p1-green"
@@ -840,7 +837,7 @@ export default function Home() {
                 href="#"
                 className="place-content-center text-sm text-p1-darkgreen md:text-xl dark:text-p1-green"
               >
-                100 results{' '}
+                100 results
               </Link>
             </div>
           </div>
@@ -848,7 +845,7 @@ export default function Home() {
           <div className="flex justify-end md:px-10">
             <div className="inline-flex w-full justify-end rounded-md" role="group">
               <div className="w-10">
-                <Link href={'#'} className="mx-auto justify-center">
+                <Link href="#" className="mx-auto justify-center">
                   <Image
                     className="h-10 w-10 rounded-sm p-1 ring-p1-gray transition-all delay-75 duration-300 ease-in-out hover:bg-p1-darkgreen hover:bg-opacity-50 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:bg-p1-green"
                     width={480}
@@ -859,7 +856,7 @@ export default function Home() {
                 </Link>
               </div>
               <div className="w-10">
-                <Link href={'#'} className="mx-auto justify-center">
+                <Link href="#" className="mx-auto justify-center">
                   <Image
                     className="h-10 w-10 rounded-sm p-1 ring-p1-gray transition-all delay-75 duration-300 ease-in-out hover:bg-p1-green hover:bg-opacity-50 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:bg-p1-green"
                     width={480}
@@ -870,7 +867,7 @@ export default function Home() {
                 </Link>
               </div>
               <div className="w-10">
-                <Link href={'#'} className="mx-auto justify-center">
+                <Link href="#" className="mx-auto justify-center">
                   <Image
                     className="h-10 w-10 rounded-sm p-1 ring-p1-gray transition-all delay-75 duration-300 ease-in-out hover:bg-p1-green hover:bg-opacity-50 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:bg-p1-green"
                     width={480}
@@ -881,7 +878,7 @@ export default function Home() {
                 </Link>
               </div>
               <div className="w-10">
-                <Link href={'#'} className="mx-auto justify-center">
+                <Link href="#" className="mx-auto justify-center">
                   <Image
                     className="h-10 w-10 rounded-sm p-1 ring-p1-gray transition-all delay-75 duration-300 ease-in-out hover:bg-p1-green hover:bg-opacity-50 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:bg-p1-green"
                     width={480}
@@ -892,7 +889,7 @@ export default function Home() {
                 </Link>
               </div>
               <div className="w-10">
-                <Link href={'#'} className="mx-auto justify-center">
+                <Link href="#" className="mx-auto justify-center">
                   <Image
                     className="h-10 w-10 rounded-sm p-1 ring-p1-gray transition-all delay-75 duration-300 ease-in-out hover:bg-p1-green hover:bg-opacity-50 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:bg-p1-green"
                     width={480}
@@ -909,7 +906,7 @@ export default function Home() {
         <div className="pb-4"> </div>
 
         <div className="flex w-screen place-content-between gap-2 px-6">
-          <div id="toggleArea" className="w-3/12 pt-2">
+          <div id="toggleArea" className={`w-3/12 pt-2 ${visibleArea}`}>
             <div className="text-darkgreen mb-2 w-full rounded-2xl border border-p1-green bg-p1-white text-xl shadow-lg dark:bg-p1-deepdarkgreen">
               <details className="m-2">
                 <summary className="relative flex cursor-pointer justify-start py-2">
@@ -1686,7 +1683,7 @@ export default function Home() {
               <details className="m-2">
                 <summary className="relative flex cursor-pointer justify-between py-2">
                   <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
-                    Shaving{' '}
+                    Shaving
                   </div>
                   <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
                     5
@@ -1802,7 +1799,7 @@ export default function Home() {
                       htmlFor="checkbox_ETH"
                       className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-p1-cyan"
                     >
-                      No Face Accessory{' '}
+                      No Face Accessory
                     </label>
                     <div className="px-4 text-p1-darkgreen dark:text-p1-green">6780</div>
                   </div>
@@ -1822,7 +1819,7 @@ export default function Home() {
                       htmlFor="checkbox_POL"
                       className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-p1-cyan"
                     >
-                      Biege Balaclava{' '}
+                      Biege Balaclava
                     </label>
                     <div className="px-4 text-p1-darkgreen dark:text-p1-green">789</div>
                   </div>
@@ -2311,14 +2308,22 @@ export default function Home() {
                   <div className="flex gap-4">
                     <div className="group relative h-[14.5rem] w-[10rem] place-self-center overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-300 hover:shadow-lg hover:shadow-p1-cyan group-hover:shadow-sm dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
                       <div>
-                        <path
-                          d="M18.527 12.2062L12 16.1938L5.46875 12.2062L12 1L18.527 12.2062ZM12 17.4742L5.46875 13.4867L12 23L18.5312 13.4867L12 17.4742V17.4742Z"
-                          fill="white"
-                        ></path>
+                        <svg
+                          className="ms-1.5 h-3 w-3"
+                          aria-hidden="true"
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="currentColor"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M18.527 12.2062L12 16.1938L5.46875 12.2062L12 1L18.527 12.2062ZM12 17.4742L5.46875 13.4867L12 23L18.5312 13.4867L12 17.4742V17.4742Z"
+                            fill="white"
+                          ></path>
+                        </svg>
 
                         <div className="group invisible absolute right-1 top-1 z-10 inline-block duration-300 ease-in-out group-hover:visible group-hover:opacity-100">
                           <Link
-                            href={'#'}
+                            href="#"
                             className="z-50 grid w-6 place-content-center transition-all delay-75 duration-300 ease-in-out hover:scale-125"
                           >
                             <Image
@@ -2368,7 +2373,6 @@ export default function Home() {
                             </div>
                           </div>
                           <div className="space-x-4 text-left text-xs font-thin">
-                            {' '}
                             Last sale: 1000 WETH
                           </div>
                         </div>
@@ -2401,7 +2405,7 @@ export default function Home() {
                             </Link>
 
                             <Link
-                              href={'#'}
+                              href="#"
                               className="grid w-1/5 place-content-center rounded-br-xl border border-p1-darkgreen bg-p1-darkgreen text-center text-lg font-semibold shadow-lg shadow-p1-cyan transition-all duration-300 ease-in-out hover:scale-75 hover:border-p1-cyan hover:bg-p1-darkgreen hover:text-p1-white hover:shadow-2xl hover:shadow-p1-cyan hover:ring-p1-cyan focus:scale-75 focus:border-p1-cyan focus:ring-p1-cyan md:text-3xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
                             >
                               <Image
@@ -2420,14 +2424,22 @@ export default function Home() {
                     {/* ...карточка 2 ...21.5x15 */}
                     <div className="group relative h-[21.5rem] w-[15rem] place-self-center overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-300 hover:shadow-lg hover:shadow-p1-cyan group-hover:shadow-sm dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
                       <div>
-                        <path
-                          d="M18.527 12.2062L12 16.1938L5.46875 12.2062L12 1L18.527 12.2062ZM12 17.4742L5.46875 13.4867L12 23L18.5312 13.4867L12 17.4742V17.4742Z"
-                          fill="white"
-                        ></path>
+                        <svg
+                          className="ms-1.5 h-3 w-3"
+                          aria-hidden="true"
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="currentColor"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M18.527 12.2062L12 16.1938L5.46875 12.2062L12 1L18.527 12.2062ZM12 17.4742L5.46875 13.4867L12 23L18.5312 13.4867L12 17.4742V17.4742Z"
+                            fill="white"
+                          ></path>
+                        </svg>
 
                         <div className="group invisible absolute right-1 top-1 z-10 inline-block duration-300 ease-in-out group-hover:visible group-hover:opacity-100">
                           <Link
-                            href={'#'}
+                            href="#"
                             className="z-50 grid w-8 place-content-center transition-all delay-75 duration-300 ease-in-out hover:scale-125"
                           >
                             <Image
@@ -2507,7 +2519,7 @@ export default function Home() {
                             </Link>
 
                             <Link
-                              href={'#'}
+                              href="#"
                               className="grid w-1/5 place-content-center rounded-br-xl border border-p1-darkgreen bg-p1-darkgreen text-center text-lg font-semibold shadow-lg shadow-p1-cyan transition-all duration-300 ease-in-out hover:scale-75 hover:border-p1-cyan hover:bg-p1-darkgreen hover:text-p1-white hover:shadow-2xl hover:shadow-p1-cyan hover:ring-p1-cyan focus:scale-75 focus:border-p1-cyan focus:ring-p1-cyan md:text-3xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
                             >
                               <Image
@@ -2526,14 +2538,22 @@ export default function Home() {
                     {/* ...карточка 3 ...28x20 */}
                     <div className="group relative h-[28rem] w-[20rem] place-self-center overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-300 hover:shadow-lg hover:shadow-p1-cyan group-hover:shadow-sm dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
                       <div>
-                        <path
-                          d="M18.527 12.2062L12 16.1938L5.46875 12.2062L12 1L18.527 12.2062ZM12 17.4742L5.46875 13.4867L12 23L18.5312 13.4867L12 17.4742V17.4742Z"
-                          fill="white"
-                        ></path>
+                        <svg
+                          className="ms-1.5 h-3 w-3"
+                          aria-hidden="true"
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="currentColor"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M18.527 12.2062L12 16.1938L5.46875 12.2062L12 1L18.527 12.2062ZM12 17.4742L5.46875 13.4867L12 23L18.5312 13.4867L12 17.4742V17.4742Z"
+                            fill="white"
+                          ></path>
+                        </svg>
 
                         <div className="group invisible absolute right-1 top-1 z-10 inline-block duration-300 ease-in-out group-hover:visible group-hover:opacity-100">
                           <Link
-                            href={'#'}
+                            href="#"
                             className="z-50 grid w-8 place-content-center transition-all delay-75 duration-300 ease-in-out hover:scale-125"
                           >
                             <Image
@@ -2613,7 +2633,7 @@ export default function Home() {
                             </Link>
 
                             <Link
-                              href={'#'}
+                              href="#"
                               className="grid w-1/5 place-content-center rounded-br-xl border border-p1-darkgreen bg-p1-darkgreen text-center text-lg font-semibold shadow-lg shadow-p1-cyan transition-all duration-300 ease-in-out hover:scale-75 hover:border-p1-cyan hover:bg-p1-darkgreen hover:text-p1-white hover:shadow-2xl hover:shadow-p1-cyan hover:ring-p1-cyan focus:scale-75 focus:border-p1-cyan focus:ring-p1-cyan md:text-3xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
                             >
                               <Image
@@ -2632,14 +2652,22 @@ export default function Home() {
                     {/* ...карточка 4...39x28 */}
                     <div className="group relative h-[39rem] w-[28rem] place-self-center overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-300 hover:shadow-lg hover:shadow-p1-cyan group-hover:shadow-sm dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
                       <div>
-                        <path
-                          d="M18.527 12.2062L12 16.1938L5.46875 12.2062L12 1L18.527 12.2062ZM12 17.4742L5.46875 13.4867L12 23L18.5312 13.4867L12 17.4742V17.4742Z"
-                          fill="white"
-                        ></path>
+                        <svg
+                          className="ms-1.5 h-3 w-3"
+                          aria-hidden="true"
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="currentColor"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M18.527 12.2062L12 16.1938L5.46875 12.2062L12 1L18.527 12.2062ZM12 17.4742L5.46875 13.4867L12 23L18.5312 13.4867L12 17.4742V17.4742Z"
+                            fill="white"
+                          ></path>
+                        </svg>
 
                         <div className="group invisible absolute right-1 top-1 z-10 inline-block duration-300 ease-in-out group-hover:visible group-hover:opacity-100">
                           <Link
-                            href={'#'}
+                            href="#"
                             className="z-50 grid w-8 place-content-center transition-all delay-75 duration-300 ease-in-out hover:scale-125"
                           >
                             <Image
@@ -2689,7 +2717,6 @@ export default function Home() {
                             </div>
                           </div>
                           <div className="pt-3 text-left text-xl font-thin">
-                            {' '}
                             Last sale: 1000 WETH
                           </div>
                         </div>
@@ -2722,7 +2749,7 @@ export default function Home() {
                             </Link>
 
                             <Link
-                              href={'#'}
+                              href="#"
                               className="grid w-1/5 place-content-center rounded-br-xl border border-p1-darkgreen bg-p1-darkgreen text-center text-lg font-semibold shadow-lg shadow-p1-cyan transition-all duration-300 ease-in-out hover:scale-75 hover:border-p1-cyan hover:bg-p1-darkgreen hover:text-p1-white hover:shadow-2xl hover:shadow-p1-cyan hover:ring-p1-cyan focus:scale-75 focus:border-p1-cyan focus:ring-p1-cyan md:text-3xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
                             >
                               <Image
@@ -2736,7 +2763,7 @@ export default function Home() {
                           </div>
                         </div>
                       </div>
-                    </div>{' '}
+                    </div>
                   </div>
                 </div>
               </details>
@@ -2982,7 +3009,6 @@ export default function Home() {
                               </div>
                             </th>
                             <td className="px-6 py-4">
-                              {' '}
                               <div className="relative">
                                 <Link href="/card" className="mx-auto justify-center">
                                   <Image
@@ -3026,7 +3052,6 @@ export default function Home() {
                               </div>
                             </th>
                             <td className="px-6 py-4">
-                              {' '}
                               <div className="relative">
                                 <Link href="/card" className="mx-auto justify-center">
                                   <Image
@@ -3170,7 +3195,6 @@ export default function Home() {
                               1
                             </th>
                             <td className="px-6 py-4">
-                              {' '}
                               <div className="relative">
                                 <Link href="/card" className="mx-auto justify-center">
                                   <Image
@@ -3192,7 +3216,6 @@ export default function Home() {
                               2
                             </th>
                             <td className="px-6 py-4">
-                              {' '}
                               <div className="relative">
                                 <Link href="/card" className="mx-auto justify-center">
                                   <Image
@@ -3214,7 +3237,6 @@ export default function Home() {
                               2
                             </th>
                             <td className="px-6 py-4">
-                              {' '}
                               <div className="relative">
                                 <Link href="/card" className="mx-auto justify-center">
                                   <Image

@@ -92,13 +92,13 @@ export default function Page() {
           <div className="flex flex-wrap justify-center px-2 pt-2 md:flex-nowrap">
             <div>
               <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
-                A non-fungible token representing the driver of a sports car.{' '}
+                A non-fungible token representing the driver of a sports car.
               </p>
               <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
-                Each NFT contains metadata that stores information about the racer.{' '}
+                Each NFT contains metadata that stores information about the racer.
               </p>
               <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
-                By agreement, we can completely copy a person’s appearance.{' '}
+                By agreement, we can completely copy a person’s appearance.
               </p>
               <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
                 We really appreciate the contribution of pilots to the development of motorsport and
@@ -182,7 +182,7 @@ export default function Page() {
           <div className="flex flex-wrap justify-center px-2 pt-2 md:flex-nowrap">
             <div>
               <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
-                A non-fungible token representing a member of a motorsports team.{' '}
+                A non-fungible token representing a member of a motorsports team.
               </p>
               <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
                 Each NFT contains metadata that stores information about a person.
@@ -276,14 +276,14 @@ export default function Page() {
                 A non-fungible token representing a collector of sports, vintage and rare cars.
               </p>
               <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
-                Each NFT contains metadata that stores information about a person.{' '}
+                Each NFT contains metadata that stores information about a person.
               </p>
               <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
-                By agreement, we can completely copy a person’s appearance.{' '}
+                By agreement, we can completely copy a person’s appearance.
               </p>
               <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
                 We really appreciate the contribution of collectors to the history of auto culture
-                and motorsport and would like capture everyone's story in a single collection.
+                and motorsport and would like capture everyone&apos;s story in a single collection.
               </p>
 
               <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
@@ -365,14 +365,14 @@ export default function Page() {
         </div>
         <div className="rounded-3xl border-p1-darkgreen p-2 md:border-4 md:shadow-lg dark:hover:border-p1-green">
           <div className="px-2 pt-2 text-center text-base md:text-2xl dark:text-p1-green dark:hover:text-p1-cyan">
-            Only verified users will be able to create NFTs in collections{' '}
+            Only verified users will be able to create NFTs in collections
           </div>
           <div className="text-center text-base md:text-2xl dark:text-p1-green dark:hover:text-p1-cyan">
             Drivers, Team&apos;s Members, Collectors
           </div>
 
           <div className="pb-5 text-center text-base md:text-2xl dark:text-p1-green dark:hover:text-p1-cyan">
-            The user's status can be verified by holders of a Promoter License, Local License,
+            The user&apos;s status can be verified by holders of a Promoter License, Local License,
             Global License, or Management GAA.
           </div>
 
@@ -441,7 +441,7 @@ export default function Page() {
                   href="/applicationform"
                   className="inline-block place-content-center rounded-xl border-2 border-p1-darkgreen bg-p1-white p-2 text-center text-base text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p1-green hover:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:bg-p1-green dark:hover:text-p1-deepdarkgreen"
                 >
-                  Application form{' '}
+                  Application form
                 </Link>
               </div>
             </div>
@@ -523,12 +523,12 @@ export default function Page() {
           </div>
 
           <div className="p-2 text-center text-base md:text-2xl dark:text-p1-green dark:hover:text-p1-cyan">
-            Anyone can purchase NFTs from collections on the secondary market - that's how we We
-            support active participants in areas and their development
+            Anyone can purchase NFTs from collections on the secondary market - that&apos;s how we
+            We support active participants in areas and their development
           </div>
           <div className="p-2 text-center text-base md:text-2xl dark:text-p1-green dark:hover:text-p1-cyan">
             This is your way of identifying and attracting additional investments for your
-            development{' '}
+            development
           </div>
         </div>
       </div>

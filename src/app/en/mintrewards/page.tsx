@@ -14,7 +14,7 @@ export default function Page() {
           Awards NFT
         </div>
         <div className="px-2 text-2xl font-semibold text-p2-orange md:pt-2 md:text-4xl dark:text-amber-700">
-          NFT creation page{' '}
+          NFT creation page
         </div>
       </div>
       <section className="flex flex-wrap rounded-3xl border-p2-orange bg-p1-white p-2 md:flex-nowrap md:border-4 md:shadow-lg dark:border-amber-700 dark:bg-p1-deepdarkgreen">

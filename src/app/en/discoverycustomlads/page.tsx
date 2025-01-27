@@ -36,7 +36,7 @@ export default function Page() {
               hero in a legal way.
             </p>
             <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
-              This collection will only be available to NFT holders from the RaceLads collection.{' '}
+              This collection will only be available to NFT holders from the RaceLads collection.
             </p>
             <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
               10 levels of access to rare elements are determined by the presence of the
@@ -103,13 +103,13 @@ export default function Page() {
       <div className="pb-8"></div>
       <div id="3"></div>
       <div className="px-2 text-center text-xl font-semibold text-p1-darkgreen md:pt-2 md:text-3xl dark:text-p1-green">
-        Ways to get CustomLads NFT{' '}
+        Ways to get CustomLads NFT
       </div>
 
       <div className="m-2 rounded-3xl border-p1-darkgreen p-2 md:border-4 md:shadow-lg dark:border-p1-green dark:hover:border-p1-darkgreen">
         <div className="pb-2 text-center text-base text-p1-darkgreen md:text-2xl dark:text-p1-green dark:hover:text-p1-cyan">
           Any NFT owner from the RaceLads collection can collect a character from the CustomLads
-          collection{' '}
+          collection
         </div>
 
         <div className="grid grid-cols-6 gap-1">

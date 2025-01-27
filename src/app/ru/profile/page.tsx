@@ -20,7 +20,7 @@ export default function Page() {
           {/* кошелек, профиль, корзина */}
           <div className="flex justify-end space-x-6 px-2 md:px-32">
             <div>
-              <Link href={'#'} className="mx-auto justify-center">
+              <Link href="#" className="mx-auto justify-center">
                 <Image
                   className="h-10 w-10 rounded-lg p-1 ring-p1-green transition-all delay-75 duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:ring-2 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:hover:bg-p1-deepdarkgreen"
                   width={480}
@@ -32,7 +32,7 @@ export default function Page() {
             </div>
 
             <div className="group relative inline-block">
-              <Link href={'#'} className="mx-auto justify-center">
+              <Link href="#" className="mx-auto justify-center">
                 <Image
                   className="h-10 w-10 rounded-full p-1 ring-p1-green transition-all delay-75 duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:ring-2 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:hover:bg-p1-deepdarkgreen"
                   width={480}
@@ -87,12 +87,12 @@ export default function Page() {
                         src="/icon/NFT-col.png"
                         alt="Bordered avatar"
                       />
-                      My NFT{' '}
+                      My NFT
                     </Link>
                   </div>
 
                   <div className="rounded-lg border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
-                    <Link href={'#'} className="mx-auto justify-center">
+                    <Link href="#" className="mx-auto justify-center">
                       <Image
                         className="h-10 w-10"
                         width={480}
@@ -105,7 +105,7 @@ export default function Page() {
                   </div>
 
                   <div className="rounded-lg border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
-                    <Link href={'#'} className="mx-auto justify-center">
+                    <Link href="#" className="mx-auto justify-center">
                       <Image
                         className="h-10 w-10"
                         width={480}
@@ -120,7 +120,7 @@ export default function Page() {
               </Link>
             </div>
             <div>
-              <Link href={'#'} className="mx-auto justify-center">
+              <Link href="#" className="mx-auto justify-center">
                 <Image
                   className="h-10 w-10 rounded-lg p-1 ring-p1-green transition-all delay-75 duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:ring-2 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:hover:bg-p1-deepdarkgreen"
                   width={480}
@@ -138,7 +138,7 @@ export default function Page() {
         <div className="flex justify-end space-x-6 px-2 pt-4 md:px-32">
           <div className="inline-flex w-full justify-end space-x-6 rounded-md" role="group">
             <div className="w-10">
-              <Link href={'#'} className="mx-auto justify-center">
+              <Link href="#" className="mx-auto justify-center">
                 <Image
                   className="h-10 w-10 rounded-xl p-0 transition-all delay-75 duration-300 ease-in-out hover:bg-opacity-50 hover:ring-1 hover:ring-p1-green dark:ring-p1-green dark:hover:ring-p1-cyan"
                   width={480}
@@ -150,7 +150,7 @@ export default function Page() {
             </div>
             <div className="w-10">
               <div className="group relative inline-block">
-                <Link href={'#'} className="mx-auto justify-center">
+                <Link href="#" className="mx-auto justify-center">
                   <Image
                     className="h-10 w-10 rounded-xl p-1 transition-all delay-75 duration-300 ease-in-out hover:bg-opacity-50 hover:ring-1 hover:ring-p1-green dark:ring-p1-green dark:hover:ring-p1-cyan"
                     width={480}
@@ -161,7 +161,7 @@ export default function Page() {
 
                   <div className="invisible absolute left-1/2 z-10 mt-2 w-60 -translate-x-1/2 transform rounded-xl bg-p1-cyan bg-center p-4 text-gray-800 opacity-0 shadow-lg transition-all duration-300 group-hover:visible group-hover:opacity-100 md:w-60">
                     <div className="rounded-lg border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
-                      <Link href={'#'} className="mx-auto justify-center">
+                      <Link href="#" className="mx-auto justify-center">
                         <Image
                           className="h-10 w-10"
                           width={480}
@@ -173,7 +173,7 @@ export default function Page() {
                       </Link>
                     </div>
                     <div className="rounded-lg border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
-                      <Link href={'#'} className="mx-auto justify-center">
+                      <Link href="#" className="mx-auto justify-center">
                         <Image
                           className="h-10 w-10"
                           width={480}
@@ -191,7 +191,7 @@ export default function Page() {
             <div className="w-10">
               <div className="w-10">
                 <div className="group relative inline-block">
-                  <Link href={'#'} className="mx-auto justify-center">
+                  <Link href="#" className="mx-auto justify-center">
                     <Image
                       className="h-10 w-10 rounded-xl p-1 transition-all delay-75 duration-300 ease-in-out hover:bg-opacity-50 hover:ring-1 hover:ring-p1-green dark:ring-p1-green dark:hover:ring-p1-cyan"
                       width={480}
@@ -202,7 +202,7 @@ export default function Page() {
 
                     <div className="invisible absolute left-1/2 z-10 mt-2 w-60 -translate-x-1/2 transform rounded-xl bg-p1-cyan bg-center p-4 text-gray-800 opacity-0 shadow-lg transition-all duration-300 group-hover:visible group-hover:opacity-100 md:w-60">
                       <div className="rounded-lg border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
-                        <Link href={'#'} className="mx-auto justify-center">
+                        <Link href="#" className="mx-auto justify-center">
                           <Image
                             className="h-10 w-10"
                             width={480}
@@ -214,7 +214,7 @@ export default function Page() {
                         </Link>
                       </div>
                       <div className="rounded-lg border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
-                        <Link href={'#'} className="mx-auto justify-center">
+                        <Link href="#" className="mx-auto justify-center">
                           <Image
                             className="h-10 w-10"
                             width={480}
@@ -234,7 +234,7 @@ export default function Page() {
         </div>
         <div className="flex space-x-2 px-2 md:px-10">
           <div>
-            <Link href={'#'} className="md: mx-auto">
+            <Link href="#" className="md: mx-auto">
               <Image
                 className="-mt-10 w-40 rounded-full border-4 border-p1-gray md:w-80 dark:ring-p1-darkgreen"
                 width={1000}
@@ -249,7 +249,7 @@ export default function Page() {
               <p className="font-thing text-2xl md:px-10">0 x6918...a442 </p>
               <p className="font-thing text-2xl md:px-10">Joined May 2024 </p>
             </div>
-          </div>{' '}
+          </div>
         </div>
         <div className="-my-4 place-items-start p-1">
           <div

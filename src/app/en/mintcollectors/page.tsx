@@ -17,7 +17,7 @@ export default function Page() {
           Collectors NFT
         </div>
         <div className="px-2 text-2xl font-semibold text-stone-500 md:pt-2 md:text-4xl">
-          NFT creation page{' '}
+          NFT creation page
         </div>
       </div>
       <section className="flex flex-wrap rounded-3xl border-stone-500 bg-p1-white p-2 md:flex-nowrap md:border-4 md:shadow-lg dark:border-stone-700 dark:bg-p1-deepdarkgreen dark:hover:border-stone-800">

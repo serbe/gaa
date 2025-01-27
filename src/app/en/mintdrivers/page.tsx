@@ -17,7 +17,7 @@ export default function Page() {
           Drivers NFT
         </div>
         <div className="px-2 text-2xl font-semibold text-red-400 md:pt-2 md:text-4xl dark:text-red-400">
-          NFT creation page{' '}
+          NFT creation page
         </div>
       </div>
       <section className="flex flex-wrap rounded-3xl border-red-400 bg-p1-white p-2 md:flex-nowrap md:border-4 md:shadow-lg dark:border-red-900 dark:bg-p1-deepdarkgreen">

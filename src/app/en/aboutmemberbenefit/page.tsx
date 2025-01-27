@@ -30,10 +30,10 @@ export default function Page() {
             <div className="my-1 rounded-3xl border-2 border-p1-darkgreen p-6 text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:my-2 md:border-4 dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
               <p className="pb-3 text-center font-bold">Social privileges:</p>
               <p className="pb-5">
-                Communities: Access to exclusive chats, forums or social media groups.{' '}
+                Communities: Access to exclusive chats, forums or social media groups.
               </p>
               <p className="pb-5">
-                Networking Events: Participate in private networking events and meetings.{' '}
+                Networking Events: Participate in private networking events and meetings.
               </p>
             </div>
             <div className="md:pt-2" id="3"></div>
@@ -54,7 +54,7 @@ export default function Page() {
             <div className="my-1 rounded-3xl border-2 border-p1-darkgreen p-6 text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:my-2 md:border-4 dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
               <p className="pb-3 text-center font-bold">Discounts and offers:</p>
               <p className="pb-5">
-                Shopping: Discounts on goods and services offered by the project or its partners.{' '}
+                Shopping: Discounts on goods and services offered by the project or its partners.
               </p>
               <p className="pb-5">VIP services: Access to premium services and services.</p>
             </div>
@@ -78,7 +78,7 @@ export default function Page() {
             <div className="my-1 rounded-3xl border-2 border-p1-darkgreen p-6 text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:my-2 md:border-4 dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
               <p className="pb-3 text-center font-bold">Educational Resources:</p>
               <p className="pb-5">
-                Courses and seminars: Access to training materials, webinars and master classes.{' '}
+                Courses and seminars: Access to training materials, webinars and master classes.
               </p>
               <p className="pb-5">Master classes with leading pilots.</p>
             </div>

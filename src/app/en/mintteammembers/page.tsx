@@ -16,7 +16,7 @@ export default function Page() {
           Team&apos;s members NFT
         </div>
         <div className="px-2 text-2xl font-semibold text-p3-blue md:pt-2 md:text-4xl dark:text-p2-blue">
-          NFT creation page{' '}
+          NFT creation page
         </div>
       </div>
       <section className="flex flex-wrap rounded-3xl border-p3-blue bg-p1-white p-2 md:flex-nowrap md:border-4 md:shadow-lg dark:border-p2-blue dark:bg-p1-deepdarkgreen dark:hover:border-p3-violet">

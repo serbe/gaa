@@ -29,7 +29,7 @@ export default function Page() {
       <div className="w-full place-self-center rounded-3xl border-p1-darkgreen text-center text-p1-darkgreen md:w-3/5 md:border-4 md:shadow-lg dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
         <div>
           <div className="text-base md:pt-2 md:text-2xl">
-          Generative collection
+            Generative collection
             <h2 className="text-base md:pb-2 md:text-2xl">RaceLads NFT</h2>
           </div>
           <Image
@@ -46,13 +46,13 @@ export default function Page() {
               href="/discoveryracelads"
               className="rounded-l-xl border-2 border-p1-darkgreen bg-p2-white2 p-2 text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p1-darkgreen hover:text-p1-white focus:z-10 focus:bg-p1-darkgreen focus:text-p1-white focus:ring-2 focus:ring-p1-darkgreen md:p-5 dark:border-p1-green dark:bg-p1-darkgreen dark:text-p1-cyan dark:hover:border-p1-green dark:hover:bg-p1-green dark:hover:text-p1-deepdarkgreen"
             >
-             Read more
+              Read more
             </Link>
             <Link
               href="/mintracelads"
               className="rounded-r-xl border-2 border-p2-orange bg-p2-white2 p-2 text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p2-orange hover:text-p1-white hover:ring-p2-orange focus:bg-p2-orange focus:text-p1-white focus:ring-2 focus:ring-p2-orange md:p-5 dark:border-p1-green dark:bg-p1-darkgreen dark:text-p1-cyan dark:hover:border-p2-orange dark:hover:bg-amber-600 dark:hover:text-amber-100"
             >
-             Create NFT
+              Create NFT
             </Link>
           </div>
           <div className="pb-4 md:pt-4"></div>
@@ -124,7 +124,7 @@ export default function Page() {
               href="/mintteammembers"
               className="rounded-r-xl border-2 border-p3-blue bg-p2-white2 p-2 text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p3-blue hover:text-p1-white focus:z-10 focus:bg-p3-blue focus:text-p1-white focus:ring-2 focus:ring-p3-blue md:p-5 dark:border-p1-green dark:bg-p1-darkgreen dark:text-p1-cyan dark:hover:bg-p3-violet dark:hover:text-white dark:focus:text-white dark:focus:ring-p3-blue"
             >
-             Create NFT
+              Create NFT
             </Link>
           </div>
         </div>
@@ -139,7 +139,7 @@ export default function Page() {
           />
 
           <p className="p-2 text-base">
-          Owners of rare, sports and unique cars who have joined Web3
+            Owners of rare, sports and unique cars who have joined Web3
           </p>
           <div className="py-5">
             <Link
@@ -155,7 +155,7 @@ export default function Page() {
               href="/mintcollectors"
               className="rounded-r-xl border-2 border-stone-500 bg-p2-white2 p-2 text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-stone-500 hover:text-p1-white focus:z-10 focus:bg-stone-500 focus:text-p1-white focus:ring-2 focus:ring-stone-500 md:p-5 dark:border-p1-green dark:bg-p1-darkgreen dark:text-p1-cyan dark:hover:bg-stone-700 dark:hover:text-stone-100 dark:focus:text-white dark:focus:ring-stone-500"
             >
-             Create NFT
+              Create NFT
             </Link>
           </div>
         </div>
@@ -169,9 +169,7 @@ export default function Page() {
             src="/Cars/Car.png"
             alt="Car"
           />
-          <p className="p-2 text-base">
-          Rare, unique and sports cars from private collections
-          </p>
+          <p className="p-2 text-base">Rare, unique and sports cars from private collections</p>
           <div className="py-5">
             <Link
               href="/discoverycars"
@@ -183,7 +181,7 @@ export default function Page() {
               href="/mintcars"
               className="rounded-r-xl border-2 border-cyan-700 bg-p2-white2 p-2 text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-cyan-700 hover:text-p1-white focus:z-10 focus:bg-cyan-700 focus:text-p1-white focus:ring-2 focus:ring-cyan-700 md:p-5 dark:border-p1-green dark:bg-p1-darkgreen dark:text-p1-cyan dark:hover:bg-cyan-900 dark:hover:text-white dark:focus:text-white dark:focus:ring-cyan-700"
             >
-             Create NFT
+              Create NFT
             </Link>
           </div>
         </div>
@@ -203,7 +201,8 @@ export default function Page() {
       <div className="w-full place-self-center rounded-3xl border-p1-darkgreen text-center text-p1-darkgreen md:w-3/5 md:border-4 md:shadow-lg dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
         <div>
           <p className="text-base md:pt-2 md:text-2xl">
-          Assemble your hero from ready-made elements of the collection          </p>
+            Assemble your hero from ready-made elements of the collection
+          </p>
           <h2 className="pb-2 text-2xl">RaceLads </h2>
 
           <Image
@@ -214,8 +213,11 @@ export default function Page() {
             alt="CustomLads1"
           />
           <p className="pt-2 text-base md:pt-2 md:text-2xl">
-          For RaceLads Collection NFT holders only          </p>
-          <p className="pb-2 text-base md:text-2xl">Who is your character - it's up to you to decide!</p>
+            For RaceLads Collection NFT holders only
+          </p>
+          <p className="pb-2 text-base md:text-2xl">
+            Who is your character - it&apos;s up to you to decide!
+          </p>
           <div className="inline-flex rounded-md shadow-sm md:place-self-center">
             <Link
               href="/discoverycustomlads"
@@ -254,7 +256,8 @@ export default function Page() {
             alt="Rewards"
           />
           <p className="pt-2 text-base md:px-10 md:text-2xl">
-          NFT rewards contain metadata about the event, athlete and media content          </p>
+            NFT rewards contain metadata about the event, athlete and media content
+          </p>
           <div className="inline-flex rounded-md pt-5 shadow-sm md:place-self-center">
             <Link
               href="/discoveryrewards"
@@ -282,7 +285,8 @@ export default function Page() {
       >
         Licenses
         <p className="pb-2 text-center text-xl font-bold md:pb-5 md:text-4xl">
-        NFTs that give preferences to their holders        </p>
+          NFTs that give preferences to their holders
+        </p>
       </div>
       <div className="m-5 grid grid-cols-1 gap-2 place-self-center rounded-3xl border-p1-darkgreen p-5 text-center text-p1-darkgreen md:grid-cols-3 md:border-4 md:shadow-lg dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
         <div className="mb-4 mt-4">
@@ -312,7 +316,7 @@ export default function Page() {
             }}
             className="rounded-r-xl border-2 border-amber-600 bg-p2-white2 p-2 text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-amber-600 hover:text-p1-white focus:z-10 focus:bg-amber-600 focus:text-p1-white focus:ring-2 focus:ring-amber-600 md:p-5 dark:border-p1-green dark:bg-p1-darkgreen dark:text-p1-cyan dark:hover:border-amber-600 dark:hover:bg-amber-800 dark:hover:text-white dark:focus:text-white dark:focus:ring-amber-600"
           >
-           Create NFT
+            Create NFT
           </Link>
         </div>
         <div className="mb-5 mt-5">
@@ -326,7 +330,8 @@ export default function Page() {
             alt="NationalLic"
           />
           <p className="pb-8 text-xl">
-          Provides a voice in the development of the GAA at local level          </p>
+            Provides a voice in the development of the GAA at local level
+          </p>
           <Link
             href="/discoverylicense"
             onClick={() => {
@@ -343,7 +348,7 @@ export default function Page() {
             }}
             className="rounded-r-xl border-2 border-p1-gray bg-p2-white2 p-2 text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p1-gray hover:text-p1-white focus:z-10 focus:bg-p1-gray focus:text-p1-white focus:ring-2 focus:ring-p1-gray md:p-5 dark:border-p1-green dark:bg-p1-darkgreen dark:text-p1-cyan dark:hover:border-gray-300 dark:hover:bg-gray-500 dark:hover:text-white dark:focus:text-white dark:focus:ring-p1-gray"
           >
-           Create NFT
+            Create NFT
           </Link>
         </div>
 
@@ -359,7 +364,8 @@ export default function Page() {
           />
 
           <p className="pb-8 text-xl">
-          Provides a voice in the development of the GAA at international level          </p>
+            Provides a voice in the development of the GAA at international level
+          </p>
           <Link
             href="/discoverylicense"
             onClick={() => {
@@ -376,7 +382,7 @@ export default function Page() {
             }}
             className="rounded-r-xl border-2 border-p2-orange bg-p2-white2 p-2 text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p2-orange hover:text-p1-white hover:ring-p2-orange focus:bg-p2-orange focus:text-p1-white focus:ring-2 focus:ring-p2-orange md:p-5 dark:border-p1-green dark:bg-p1-darkgreen dark:text-p1-cyan dark:hover:border-p2-orange dark:hover:bg-amber-600 dark:hover:text-amber-100"
           >
-           Create NFT
+            Create NFT
           </Link>
           <div className="pb-4"></div>
         </div>

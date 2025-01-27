@@ -84,7 +84,7 @@ export default function Page() {
               Promoter License NFT
             </div>
             <div className="px-2 text-xl font-semibold text-amber-600 md:pt-2 md:text-3xl">
-              NFT creation page{' '}
+              NFT creation page
             </div>
           </div>
           <div className="flex flex-wrap justify-center space-x-2 px-2 md:flex-nowrap">
@@ -152,7 +152,7 @@ export default function Page() {
                       />
                     </div>
                     <p className="p-2 text-center text-base text-p1-darkgreen md:pb-8 md:text-2xl dark:text-p1-green dark:hover:text-p1-cyan">
-                      Maximum: 10 Promoter License NFTs per transaction{' '}
+                      Maximum: 10 Promoter License NFTs per transaction
                     </p>
                     <div className="place-self-center">
                       <button className="inline-block rounded-xl border-2 border-p2-orange bg-p1-white px-10 py-8 text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p2-orange hover:text-p1-white dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:border-p2-orange dark:hover:bg-amber-600 dark:hover:text-amber-100">

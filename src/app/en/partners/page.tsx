@@ -39,7 +39,7 @@ export default function Page() {
                               href="/contacts"
                               className="inline-block rounded-xl border-2 border-p2-orange bg-p1-white px-10 py-8 text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p2-orange hover:text-p1-white dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:border-p1-cyan dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan"
                             >
-                              Feedback{' '}
+                              Feedback
                             </Link>
                           </div>
                         </div>
@@ -153,7 +153,7 @@ export default function Page() {
       <div className="flex flex-row justify-center md:pb-5">
         <div className="md:basis-3/5">
           <div className="text-center text-2xl font-bold text-p1-darkgreen md:pt-4 md:text-4xl dark:text-p1-green">
-            Title Sponsor:{' '}
+            Title Sponsor:
           </div>
           <div className="text-center text-xl text-p1-darkgreen md:pt-4 md:text-2xl dark:text-p1-green">
             <p>
@@ -174,7 +174,7 @@ export default function Page() {
           </div>
           <div id="6"></div>
           <div className="text-center text-2xl font-bold text-p1-darkgreen md:pt-8 md:text-4xl dark:text-p1-green">
-            General Sponsor:{' '}
+            General Sponsor:
           </div>
           <div className="text-center text-xl text-p1-darkgreen md:pt-4 md:text-2xl dark:text-p1-green">
             <p>
@@ -241,7 +241,7 @@ export default function Page() {
           </div>
           <div id="10"></div>
           <div className="text-center text-2xl font-bold text-p1-darkgreen md:pt-8 md:text-4xl dark:text-p1-green">
-            Barter Sponsor:{' '}
+            Barter Sponsor:
           </div>
           <div className="text-center text-xl text-p1-darkgreen md:pt-4 md:text-2xl dark:text-p1-green">
             <p>
@@ -265,7 +265,7 @@ export default function Page() {
       <div className="flex flex-row justify-center md:pb-5">
         <div className="md:basis-3/5">
           <div className="text-center text-2xl font-bold text-p1-darkgreen md:pt-4 md:text-4xl dark:text-p1-cyan">
-            QR code to support the Project{' '}
+            QR code to support the Project
           </div>
         </div>
       </div>
@@ -280,7 +280,7 @@ export default function Page() {
         <p>for now the link is to the site gaa.zone</p>
         <p>
           real support will be possible only after the deployment of smart contracts and the start
-          of the Project{' '}
+          of the Project
         </p>
       </div>
 
@@ -296,7 +296,7 @@ export default function Page() {
       <div className="flex flex-row justify-center md:pb-5">
         <div className="md:basis-3/5">
           <div className="text-center text-2xl font-bold text-p1-darkgreen md:pt-4 md:text-4xl dark:text-p1-cyan">
-            Participants table{' '}
+            Participants table
           </div>
         </div>
       </div>

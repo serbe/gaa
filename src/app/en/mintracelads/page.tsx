@@ -15,7 +15,7 @@ export default function Page() {
           RaceLads NFT
         </div>
         <div className="px-5 text-right text-xl font-bold text-p2-orange md:pt-2 md:text-4xl dark:text-amber-600">
-          NFT creation page{' '}
+          NFT creation page
         </div>
       </div>
       <div className="flex flex-wrap justify-center md:flex-nowrap">
@@ -25,7 +25,7 @@ export default function Page() {
               Join us
             </p>
             <p className="px-2 pb-2 text-center text-base text-p1-darkgreen md:text-2xl dark:text-p1-green">
-              Get your RaceLad hero{' '}
+              Get your RaceLad hero
             </p>
             <Image
               className="mb-4 flex w-4/5 place-self-center rounded-3xl border-2 border-p2-orange md:w-2/5 md:shadow-lg dark:border-amber-600"
@@ -59,7 +59,7 @@ export default function Page() {
               Maximum quantity:
             </p>
             <p className="pb-2 text-center text-base text-p1-darkgreen md:pb-2 md:text-xl dark:text-p1-green">
-              10 RaceLads per transaction{' '}
+              10 RaceLads per transaction
             </p>
             <div className="place-self-center">
               <button className="inline-block w-full rounded-xl border-2 border-p2-orange bg-p1-white px-10 py-8 text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p2-orange hover:text-p1-white dark:border-p1-cyan dark:bg-p1-darkgreen dark:text-p1-cyan dark:hover:border-p2-orange dark:hover:bg-amber-600 dark:hover:text-amber-100">

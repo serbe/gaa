@@ -24,7 +24,7 @@ export default function Page() {
           CustomLads NFT
         </div>
         <div className="text-end text-xl font-semibold text-p2-orange md:text-3xl dark:text-amber-600">
-          NFT creation page{' '}
+          NFT creation page
         </div>
       </div>
 
@@ -746,7 +746,7 @@ export default function Page() {
                   </div>
 
                   <p className="p-2 text-base text-p1-darkgreen md:text-2xl dark:text-p1-green">
-                    Maximum quantity: 10 CustomLads per transaction{' '}
+                    Maximum quantity: 10 CustomLads per transaction
                   </p>
 
                   <div className="pb-8"></div>

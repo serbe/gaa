@@ -138,7 +138,7 @@ export default function Page() {
             id="1"
             className="p-2 text-center text-xl font-bold text-p1-darkgreen drop-shadow-2xl md:text-3xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan"
           >
-            Our ambitious goals:{' '}
+            Our ambitious goals:
           </div>
         </div>
       </div>
@@ -150,7 +150,7 @@ export default function Page() {
             className="space-y-4 rounded-3xl border-p1-darkgreen p-6 text-left text-base text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:border-4 md:text-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan"
           >
             <p className="pt-2 text-center text-xl font-bold md:text-2xl">
-              Creating an active community:{' '}
+              Creating an active community:
             </p>
             <p>
               We unite fans of motorsport and automotive culture in social networks and messengers
@@ -231,7 +231,7 @@ export default function Page() {
               </p>
               <ul className="list-disc space-y-3 px-5">
                 <li className="text-left text-base md:text-xl">
-                  participate in virtual races and other exciting online events.{' '}
+                  participate in virtual races and other exciting online events.
                 </li>
                 <li className="text-left text-base md:text-xl">
                   participate in key votes that influence the development of our community.
@@ -420,7 +420,7 @@ export default function Page() {
           <div>
             <div className="my-5 space-y-2 rounded-3xl border-p1-darkgreen p-6 text-left text-base text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:border-4 md:text-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
               <p className="text-center text-xl font-bold md:text-2xl">
-                We also plan to release other unique collections for:{' '}
+                We also plan to release other unique collections for:
               </p>
               <ul className="list-disc space-y-3 px-5">
                 <li className="text-left text-base md:text-xl">pilots</li>
@@ -432,23 +432,23 @@ export default function Page() {
                   fleet and creation of NFTs in a single global collection
                 </li>
                 <li className="text-left text-base md:text-xl">
-                  awarding winners and runner-ups (cups, medals){' '}
+                  awarding winners and runner-ups (cups, medals)
                 </li>
                 <li className="text-left text-base md:text-xl">issuing digital licenses</li>
               </ul>
               <p className="text-center text-2xl font-bold">
-                The uniqueness of the collections lies in{' '}
+                The uniqueness of the collections lies in
               </p>
               <ul className="list-disc space-y-3 px-5">
                 <li className="text-left text-base md:text-xl">
-                  limited issue of unique objects of digital art{' '}
+                  limited issue of unique objects of digital art
                 </li>
                 <li className="text-left text-base md:text-xl">
                   belonging of the collection to the Motorsport and Automotive Culture Community
-                  Project{' '}
+                  Project
                 </li>
                 <li className="text-left text-base md:text-xl">
-                  a limited list of digital art collections.{' '}
+                  a limited list of digital art collections.
                 </li>
               </ul>
             </div>
@@ -481,7 +481,7 @@ export default function Page() {
                 unified digital art collections
               </p>
               <p className="text-left text-base md:text-xl">
-                Create, donate, sell NFTs by designation:{' '}
+                Create, donate, sell NFTs by designation:
               </p>
               <ul className="list-disc space-y-3 px-5">
                 <li className="text-left text-base md:text-xl">Pilots</li>
@@ -668,12 +668,12 @@ export default function Page() {
                 Unique privileges
               </p>
               <p className="text-left text-base md:text-xl">
-                Provide our members with exclusive perks:{' '}
+                Provide our members with exclusive perks:
               </p>
               <ul className="list-disc space-y-3 px-5">
                 <li className="text-left text-base md:text-xl">event tickets</li>
                 <li className="text-left text-base md:text-xl">
-                  participation in autograph and photo sessions{' '}
+                  participation in autograph and photo sessions
                 </li>
                 <li className="text-left text-base md:text-xl">
                   participation in lectures and excursions
@@ -693,7 +693,7 @@ export default function Page() {
               <p className="text-left text-base md:text-xl">
                 We organize events such as drifting, races, car shows and parties under the GAA
                 brand with the participation of athletes and influencers (bloggers) with various
-                awards (including digital).{' '}
+                awards (including digital).
               </p>
               <p className="text-left text-base md:text-xl">
                 Our community members will be able to apply and vote on event format, judges,
@@ -714,11 +714,11 @@ export default function Page() {
                   keep up to date with the latest news
                 </li>
                 <li className="text-left text-base md:text-xl">
-                  familiarize themselves with the results of events{' '}
+                  familiarize themselves with the results of events
                 </li>
                 <li className="text-left text-base md:text-xl">take part in voting</li>
                 <li className="text-left text-base md:text-xl">
-                  purchase NFTs from our collections{' '}
+                  purchase NFTs from our collections
                 </li>
                 <li className="text-left text-base md:text-xl">enjoy photos and videos </li>
                 <li className="text-left text-base md:text-xl">upload your content</li>
