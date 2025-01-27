@@ -2,8 +2,8 @@ import { dirname } from 'path';
 import { fileURLToPath } from 'url';
 import { FlatCompat } from '@eslint/eslintrc';
 import js from '@eslint/js';
-import typescriptEslintEslintPlugin from '@typescript-eslint/eslint-plugin';
-import tsParser from '@typescript-eslint/parser';
+// import typescriptEslintEslintPlugin from '@typescript-eslint/eslint-plugin';
+// import tsParser from '@typescript-eslint/parser';
 import prettier from 'eslint-plugin-prettier';
 import tailwind from 'eslint-plugin-tailwindcss';
 
@@ -43,28 +43,35 @@ const eslintConfig = [
       ],
     },
   },
-  ...compat.extends('plugin:@typescript-eslint/recommended', 'prettier').map((config) => ({
-    ...config,
-    files: ['**/*.+(ts|tsx)'],
-  })),
+  // ...compat.extends('plugin:@typescript-eslint/recommended', 'prettier').map((config) => ({
+  //   ...config,
+  //   files: ['**/*.+(ts|tsx)'],
+  // })),
+  // {
+  //   files: ['**/*.+(ts|tsx)'],
+  //   plugins: {
+  //     '@typescript-eslint': typescriptEslintEslintPlugin,
+  //   },
+  //   languageOptions: {
+  //     parser: tsParser,
+  //   },
+  //   rules: {
+  //     '@typescript-eslint/explicit-function-return-type': 'off',
+  //     '@typescript-eslint/explicit-module-boundary-types': 'off',
+  //     'no-use-before-define': [0],
+  //     '@typescript-eslint/no-use-before-define': [1],
+  //     '@typescript-eslint/no-explicit-any': 'off',
+  //     '@typescript-eslint/no-var-requires': 'off',
+  //   },
+  // },
+  ...tailwind.configs['flat/recommended'],
   {
-    files: ['**/*.+(ts|tsx)'],
-    plugins: {
-      '@typescript-eslint': typescriptEslintEslintPlugin,
-    },
-    languageOptions: {
-      parser: tsParser,
-    },
-    rules: {
-      '@typescript-eslint/explicit-function-return-type': 'off',
-      '@typescript-eslint/explicit-module-boundary-types': 'off',
-      'no-use-before-define': [0],
-      '@typescript-eslint/no-use-before-define': [1],
-      '@typescript-eslint/no-explicit-any': 'off',
-      '@typescript-eslint/no-var-requires': 'off',
+    settings: {
+      tailwindcss: {
+        callees: ['mySwyper'],
+      },
     },
   },
-  ...tailwind.configs['flat/recommended'],
 ];
 
 export default eslintConfig;

@@ -133,7 +133,7 @@ export default function Page() {
       </div>
 
       <div className="flex flex-row justify-center p-2">
-        <div className="md:basis-5/5">
+        <div className="md:basis-5">
           <div
             id="1"
             className="p-2 text-center text-xl font-bold text-p1-darkgreen drop-shadow-2xl md:text-3xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan"
@@ -144,7 +144,7 @@ export default function Page() {
       </div>
 
       <div className="flex flex-row justify-center">
-        <div className="mb-5 mt-5 text-p1-darkgreen md:basis-4/6">
+        <div className="my-5 text-p1-darkgreen md:basis-4/6">
           <div
             id="2"
             className="space-y-4 rounded-3xl border-p1-darkgreen p-6 text-left text-base text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:border-4 md:text-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan"
@@ -541,7 +541,7 @@ export default function Page() {
         <div className="md:basis-1/6"></div>
       </div>
       <div id="9" className="md:pt-2"></div>
-      <div className="md:place-self-senter rounden-3xl w-fulloverflow-x-auto snap-x pb-5 pt-5 md:h-full">
+      <div className="md:place-self-center rounden-3xl w-fulloverflow-x-auto snap-x py-5 md:h-full">
         <Swiper
           autoplay={{
             delay: 5500,
@@ -557,7 +557,7 @@ export default function Page() {
             clickable: true,
           }}
           loop={true}
-          className="mySwyper h-full w-full md:w-4/5"
+          className="mySwyper size-full md:w-4/5"
         >
           <SwiperSlide>
             <div>

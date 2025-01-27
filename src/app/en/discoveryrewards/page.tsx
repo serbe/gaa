@@ -98,7 +98,7 @@ export default function Page() {
                 ></label>
                 <select
                   id="license"
-                  className="block w-full rounded-lg border-2 border-gray-300 bg-p2-white2 p-2.5 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:placeholder-p1-deepdarkgreen dark:focus:border-p1-green dark:focus:ring-p1-green"
+                  className="block w-full rounded-lg border-2 border-gray-300 bg-p2-white2 p-2.5 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:placeholder:text-p1-deepdarkgreen dark:focus:border-p1-green dark:focus:ring-p1-green"
                   defaultValue={'DEFAULT'}
                 >
                   <option value="DEFAULT" disabled>
@@ -234,13 +234,13 @@ export default function Page() {
             />
           </div>
           <div></div>
-          <div className="text-centre relative place-self-center text-3xl font-bold text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
+          <div className="relative place-self-center text-center text-3xl font-bold text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
             +
           </div>
           <div></div>
           <div></div>
           <div></div>
-          <div className="text-centre relative place-self-center text-3xl font-bold text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
+          <div className="relative place-self-center text-center text-3xl font-bold text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
             +
           </div>
 

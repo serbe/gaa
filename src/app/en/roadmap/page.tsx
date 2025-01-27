@@ -72,7 +72,7 @@ export default function Page() {
       </div>
 
       <div className="flex flex-row justify-center pb-2">
-        <div className="md:basis-5/5 md:basis-3/5">
+        <div className="md:basis-3/5">
           <div
             id="2"
             className="px-2 text-center text-base font-semibold text-p1-darkgreen md:pt-4 md:text-xl dark:text-p1-green dark:hover:text-p1-cyan"
@@ -93,7 +93,7 @@ export default function Page() {
       </div>
 
       <div className="flex flex-row justify-center pb-2">
-        <div className="md:basis-5/5 md:basis-3/5">
+        <div className="md:basis-3/5">
           <div
             id="3"
             className="px-2 text-center text-base font-semibold text-p1-darkgreen md:pt-4 md:text-xl dark:text-p1-green dark:hover:text-p1-cyan"
@@ -105,7 +105,7 @@ export default function Page() {
 
       <div className="flex flex-row justify-center pb-2">
         <div className="md:basis-3/5">
-          <div className="border-6 space-y-4 rounded-3xl border-p1-darkgreen p-2 text-left text-base text-p1-darkgreen hover:border-p2-orange md:border-4 md:text-xl md:hover:shadow-xl dark:text-p1-green dark:hover:border-p1-green">
+          <div className="space-y-4 rounded-3xl border-4 border-p1-darkgreen p-2 text-left text-base text-p1-darkgreen hover:border-p2-orange md:border-4 md:text-xl md:hover:shadow-xl dark:text-p1-green dark:hover:border-p1-green">
             <div className="grid grid-cols-2 gap-4">
               <div className="text-center">
                 <button className="mx-auto justify-center rounded-3xl duration-500 hover:scale-105">
@@ -184,7 +184,7 @@ export default function Page() {
       </div>
 
       <div className="flex flex-row justify-center pb-2">
-        <div className="basis-5/5 md:basis-3/5">
+        <div className="basis-5 md:basis-3/5">
           <div
             id="5"
             className="px-2 text-center text-base font-semibold text-p1-darkgreen md:pt-4 md:text-xl dark:text-p1-green dark:hover:text-p1-cyan"
@@ -273,7 +273,7 @@ export default function Page() {
 
       <div className="flex flex-row justify-center pb-2">
         <div className="md:basis-3/5">
-          <div className="sspace-y-4 rounded-3xl border-p1-darkgreen p-2 text-left text-base text-p1-darkgreen hover:border-p2-orange md:border-4 md:p-5 md:text-xl md:hover:shadow-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
+          <div className="space-y-4 rounded-3xl border-p1-darkgreen p-2 text-left text-base text-p1-darkgreen hover:border-p2-orange md:border-4 md:p-5 md:text-xl md:hover:shadow-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
             <div className="px-4 pb-5">
               The project envisages the release of several categories of NFT collections:
             </div>
@@ -324,7 +324,7 @@ export default function Page() {
       </div>
 
       <div className="flex flex-row justify-center pb-2">
-        <div className="basis-5/5 md:basis-3/5">
+        <div className="basis-5 md:basis-3/5">
           <div
             id="9"
             className="px-2 text-center text-base font-semibold text-p1-darkgreen md:pt-4 md:text-xl dark:text-p1-green dark:hover:text-p1-cyan"
@@ -467,7 +467,7 @@ export default function Page() {
         <Image width={700} height={600} src="/Cars/OpenWheels.png" alt="OpenWheels" />
       </div>
       <div className="flex flex-row p-5">
-        <div className="basis-5/5">
+        <div className="basis-5">
           <Image width={1900} height={200} src="/Hero/Compose1.png" alt="Compose1" />
         </div>
       </div>

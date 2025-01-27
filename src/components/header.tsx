@@ -56,7 +56,7 @@ const Header = () => {
                 onClick={() => {
                   switchTheme();
                 }}
-                className="h-6 w-6 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700"
+                className="size-6 rounded-lg hover:bg-gray-100 dark:hover:bg-gray-700"
               >
                 <svg
                   className="block fill-violet-700 dark:hidden"

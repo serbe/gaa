@@ -44,7 +44,7 @@ export default function Home() {
               <div>
                 <a href="#" className="mx-auto justify-center">
                   <Image
-                    className="h-10 w-10 rounded-lg p-1 ring-p1-green transition-all delay-75 duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:ring-2 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:hover:bg-p1-deepdarkgreen"
+                    className="size-10 rounded-lg p-1 ring-p1-green transition-all delay-75 duration-300 ease-in-out hover:bg-p1-white/50 hover:ring-2 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:hover:bg-p1-deepdarkgreen"
                     width={480}
                     height={480}
                     src="/Logo/wallet-nft.png"
@@ -56,18 +56,18 @@ export default function Home() {
               <div className="group relative inline-block">
                 <div className="mx-auto justify-center">
                   <Image
-                    className="h-10 w-10 rounded-full p-1 ring-p1-green transition-all delay-75 duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:ring-2 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:hover:bg-p1-deepdarkgreen"
+                    className="size-10 rounded-full p-1 ring-p1-green transition-all delay-75 duration-300 ease-in-out hover:bg-p1-white/50 hover:ring-2 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:hover:bg-p1-deepdarkgreen"
                     width={480}
                     height={480}
                     src="/Logo/user.png"
                     alt="Bordered avatar"
                   />
 
-                  <div className="invisible absolute left-1/2 z-10 mt-2 w-40 -translate-x-1/2 transform rounded-xl bg-p1-cyan bg-center p-4 text-gray-800 opacity-0 shadow-lg transition-all duration-300 group-hover:visible group-hover:opacity-100 md:w-52">
-                    <div className="rounded-lg border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
+                  <div className="invisible absolute left-1/2 z-10 mt-2 w-40 -translate-x-1/2 rounded-xl bg-p1-cyan bg-center p-4 text-gray-800 opacity-0 shadow-lg transition-all duration-300 group-hover:visible group-hover:opacity-100 md:w-52">
+                    <div className="rounded-lg border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white/50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
                       <Link href="/profile" className="mx-auto justify-center">
                         <Image
-                          className="h-10 w-10"
+                          className="size-10"
                           width={480}
                           height={480}
                           src="/icon/NFT_user_green.png"
@@ -76,10 +76,10 @@ export default function Home() {
                         Profile
                       </Link>
                     </div>
-                    <div className="rounded-lg border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
+                    <div className="rounded-lg border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white/50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
                       <Link href="/dashboard" className="mx-auto justify-center">
                         <Image
-                          className="h-10 w-10"
+                          className="size-10"
                           width={480}
                           height={480}
                           src="/icon/more.png"
@@ -88,10 +88,10 @@ export default function Home() {
                         Dashboard
                       </Link>
                     </div>
-                    <div className="rounded-lg border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
+                    <div className="rounded-lg border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white/50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
                       <Link href="/marketplace" className="mx-auto justify-center">
                         <Image
-                          className="h-10 w-10"
+                          className="size-10"
                           width={480}
                           height={480}
                           src="/Logo/shopping-cart.png"
@@ -100,10 +100,10 @@ export default function Home() {
                         Marketplace
                       </Link>
                     </div>
-                    <div className="rounded-lg border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
+                    <div className="rounded-lg border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white/50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
                       <Link href="/mynfts" className="mx-auto justify-center">
                         <Image
-                          className="h-10 w-10"
+                          className="size-10"
                           width={480}
                           height={480}
                           src="/icon/NFT-col.png"
@@ -113,10 +113,10 @@ export default function Home() {
                       </Link>
                     </div>
 
-                    <div className="rounded-lg border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
+                    <div className="rounded-lg border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white/50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
                       <Link href="#" className="mx-auto justify-center">
                         <Image
-                          className="h-10 w-10"
+                          className="size-10"
                           width={480}
                           height={480}
                           src="/icon/view_green.png"
@@ -126,10 +126,10 @@ export default function Home() {
                       </Link>
                     </div>
 
-                    <div className="rounded-lg border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
+                    <div className="rounded-lg border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white/50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
                       <Link href="#" className="mx-auto justify-center">
                         <Image
-                          className="h-10 w-10"
+                          className="size-10"
                           width={480}
                           height={480}
                           src="/icon/hand_shake_green.png"
@@ -144,7 +144,7 @@ export default function Home() {
               <div>
                 <Link href="#" className="mx-auto justify-center">
                   <Image
-                    className="h-10 w-10 rounded-lg p-1 ring-p1-green transition-all delay-75 duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:ring-2 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:hover:bg-p1-deepdarkgreen"
+                    className="size-10 rounded-lg p-1 ring-p1-green transition-all delay-75 duration-300 ease-in-out hover:bg-p1-white/50 hover:ring-2 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:hover:bg-p1-deepdarkgreen"
                     width={480}
                     height={480}
                     src="/Logo/shopping-cart.png"
@@ -157,7 +157,7 @@ export default function Home() {
 
           {/* Поиск 1 */}
           <div className="">
-            <div className="mx-auto flex w-72 overflow-hidden rounded-xl border-p1-green bg-p2-white2 bg-opacity-50 px-4 py-3 backdrop-blur-lg md:-my-10 lg:w-80 xl:w-96">
+            <div className="mx-auto flex w-72 overflow-hidden rounded-xl border-p1-green bg-p2-white2/50 px-4 py-3 backdrop-blur-lg md:-my-10 lg:w-80 xl:w-96">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 viewBox="0 0 192.904 192.904"
@@ -176,7 +176,7 @@ export default function Home() {
           <div className="pb-6"> </div>
 
           {/* Слайдер коллекции 1 */}
-          <div className="w-full snap-x space-x-6 place-self-center overflow-x-auto rounded-3xl bg-p1-white bg-opacity-0 p-4 dark:bg-p1-green dark:bg-opacity-0">
+          <div className="w-full snap-x space-x-6 place-self-center overflow-x-auto rounded-3xl bg-p1-white/0 p-4 dark:bg-p1-green/0">
             <Swiper
               autoplay={{
                 delay: 9500,
@@ -195,7 +195,7 @@ export default function Home() {
               className="mySwyper place-items-center"
             >
               <SwiperSlide>
-                <div className="group mx-auto mt-1 w-full scale-95 space-x-3 rounded-2xl border-2 border-p1-green bg-gray-100 bg-opacity-50 object-cover p-1 transition-transform duration-300 hover:scale-100 md:p-2 dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:bg-opacity-80 dark:text-p1-green dark:hover:border-p1-cyan dark:hover:text-p1-cyan dark:group-hover:border-p1-cyan">
+                <div className="group mx-auto mt-1 w-full scale-95 space-x-3 rounded-2xl border-2 border-p1-green bg-gray-100/50 object-cover p-1 transition-transform duration-300 hover:scale-100 md:p-2 dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:bg-opacity-80 dark:text-p1-green dark:hover:border-p1-cyan dark:hover:text-p1-cyan dark:group-hover:border-p1-cyan">
                   <Link href="#" className="mx-auto justify-center">
                     <div className="grid w-full grid-cols-1 items-center gap-2 overflow-hidden rounded-lg xl:grid-cols-2">
                       <Image
@@ -248,7 +248,7 @@ export default function Home() {
               </SwiperSlide>
 
               <SwiperSlide>
-                <div className="group mx-auto mt-1 w-full scale-95 space-x-3 rounded-2xl border-2 border-p1-green bg-gray-100 bg-opacity-50 object-cover p-1 transition-transform duration-300 hover:scale-100 md:p-2 dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:bg-opacity-80 dark:text-p1-green dark:hover:border-p1-cyan dark:hover:text-p1-cyan dark:group-hover:border-p1-cyan">
+                <div className="group mx-auto mt-1 w-full scale-95 space-x-3 rounded-2xl border-2 border-p1-green bg-gray-100/50 object-cover p-1 transition-transform duration-300 hover:scale-100 md:p-2 dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:bg-opacity-80 dark:text-p1-green dark:hover:border-p1-cyan dark:hover:text-p1-cyan dark:group-hover:border-p1-cyan">
                   <Link href="#" className="mx-auto justify-center">
                     <div className="grid w-full grid-cols-1 items-center gap-2 overflow-hidden rounded-lg xl:grid-cols-2">
                       <Image
@@ -299,7 +299,7 @@ export default function Home() {
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className="group mx-auto mt-1 w-full scale-95 space-x-3 rounded-2xl border-2 border-p1-green bg-gray-100 bg-opacity-50 object-cover p-1 transition-transform duration-300 hover:scale-100 md:p-2 dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:bg-opacity-80 dark:text-p1-green dark:hover:border-p1-cyan dark:hover:text-p1-cyan dark:group-hover:border-p1-cyan">
+                <div className="group mx-auto mt-1 w-full scale-95 space-x-3 rounded-2xl border-2 border-p1-green bg-gray-100/50 object-cover p-1 transition-transform duration-300 hover:scale-100 md:p-2 dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:bg-opacity-80 dark:text-p1-green dark:hover:border-p1-cyan dark:hover:text-p1-cyan dark:group-hover:border-p1-cyan">
                   <Link href="#" className="mx-auto justify-center">
                     <div className="grid w-full grid-cols-1 items-center gap-2 overflow-hidden rounded-lg xl:grid-cols-2">
                       <Image
@@ -351,7 +351,7 @@ export default function Home() {
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className="group mx-auto mt-1 w-full scale-95 space-x-3 rounded-2xl border-2 border-p1-green bg-gray-100 bg-opacity-50 object-cover p-1 transition-transform duration-300 hover:scale-100 md:p-2 dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:bg-opacity-80 dark:text-p1-green dark:hover:border-p1-cyan dark:hover:text-p1-cyan dark:group-hover:border-p1-cyan">
+                <div className="group mx-auto mt-1 w-full scale-95 space-x-3 rounded-2xl border-2 border-p1-green bg-gray-100/50 object-cover p-1 transition-transform duration-300 hover:scale-100 md:p-2 dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:bg-opacity-80 dark:text-p1-green dark:hover:border-p1-cyan dark:hover:text-p1-cyan dark:group-hover:border-p1-cyan">
                   <Link href="#" className="mx-auto justify-center">
                     <div className="grid w-full grid-cols-1 items-center gap-2 overflow-hidden rounded-lg xl:grid-cols-2">
                       <Image
@@ -402,7 +402,7 @@ export default function Home() {
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className="group mx-auto mt-1 w-full scale-95 space-x-3 rounded-2xl border-2 border-p1-green bg-gray-100 bg-opacity-50 object-cover p-1 transition-transform duration-300 hover:scale-100 md:p-2 dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:bg-opacity-80 dark:text-p1-green dark:hover:border-p1-cyan dark:hover:text-p1-cyan dark:group-hover:border-p1-cyan">
+                <div className="group mx-auto mt-1 w-full scale-95 space-x-3 rounded-2xl border-2 border-p1-green bg-gray-100/50 object-cover p-1 transition-transform duration-300 hover:scale-100 md:p-2 dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:bg-opacity-80 dark:text-p1-green dark:hover:border-p1-cyan dark:hover:text-p1-cyan dark:group-hover:border-p1-cyan">
                   <Link href="#" className="mx-auto justify-center">
                     <div className="grid w-full grid-cols-1 items-center gap-2 overflow-hidden rounded-lg xl:grid-cols-2">
                       <Image
@@ -454,7 +454,7 @@ export default function Home() {
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className="group mx-auto mt-1 w-full scale-95 space-x-3 rounded-2xl border-2 border-p1-green bg-gray-100 bg-opacity-50 object-cover p-1 transition-transform duration-300 hover:scale-100 md:p-2 dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:bg-opacity-80 dark:text-p1-green dark:hover:border-p1-cyan dark:hover:text-p1-cyan dark:group-hover:border-p1-cyan">
+                <div className="group mx-auto mt-1 w-full scale-95 space-x-3 rounded-2xl border-2 border-p1-green bg-gray-100/50 object-cover p-1 transition-transform duration-300 hover:scale-100 md:p-2 dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:bg-opacity-80 dark:text-p1-green dark:hover:border-p1-cyan dark:hover:text-p1-cyan dark:group-hover:border-p1-cyan">
                   <Link href="#" className="mx-auto justify-center">
                     <div className="grid w-full grid-cols-1 items-center gap-2 overflow-hidden rounded-lg xl:grid-cols-2">
                       <Image
@@ -506,7 +506,7 @@ export default function Home() {
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className="group mx-auto mt-1 w-full scale-95 space-x-3 rounded-2xl border-2 border-p1-green bg-gray-100 bg-opacity-50 object-cover p-1 transition-transform duration-300 hover:scale-100 md:p-2 dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:bg-opacity-80 dark:text-p1-green dark:hover:border-p1-cyan dark:hover:text-p1-cyan dark:group-hover:border-p1-cyan">
+                <div className="group mx-auto mt-1 w-full scale-95 space-x-3 rounded-2xl border-2 border-p1-green bg-gray-100/50 object-cover p-1 transition-transform duration-300 hover:scale-100 md:p-2 dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:bg-opacity-80 dark:text-p1-green dark:hover:border-p1-cyan dark:hover:text-p1-cyan dark:group-hover:border-p1-cyan">
                   <Link href="#" className="mx-auto justify-center">
                     <div className="grid w-full grid-cols-1 items-center gap-2 overflow-hidden rounded-lg xl:grid-cols-2">
                       <Image
@@ -558,7 +558,7 @@ export default function Home() {
                 </div>
               </SwiperSlide>
               <SwiperSlide>
-                <div className="group mx-auto mt-1 w-full scale-95 space-x-3 rounded-2xl border-2 border-p1-green bg-gray-100 bg-opacity-50 object-cover p-1 transition-transform duration-300 hover:scale-100 md:p-2 dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:bg-opacity-80 dark:text-p1-green dark:hover:border-p1-cyan dark:hover:text-p1-cyan dark:group-hover:border-p1-cyan">
+                <div className="group mx-auto mt-1 w-full scale-95 space-x-3 rounded-2xl border-2 border-p1-green bg-gray-100/50 object-cover p-1 transition-transform duration-300 hover:scale-100 md:p-2 dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:bg-opacity-80 dark:text-p1-green dark:hover:border-p1-cyan dark:hover:text-p1-cyan dark:group-hover:border-p1-cyan">
                   <Link href="#" className="mx-auto justify-center">
                     <div className="grid w-full grid-cols-1 items-center gap-2 overflow-hidden rounded-lg xl:grid-cols-2">
                       <Image
@@ -807,7 +807,7 @@ export default function Home() {
                 }}
               >
                 <Image
-                  className="h-10 w-10 rounded-sm p-1 ring-p1-gray transition-all delay-75 duration-300 ease-in-out hover:bg-p1-green hover:bg-opacity-50 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:bg-p1-green"
+                  className="size-10 rounded-sm p-1 ring-p1-gray transition-all delay-75 duration-300 ease-in-out hover:bg-p1-green hover:bg-opacity-50 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:bg-p1-green"
                   width={480}
                   height={480}
                   src="/icon/2.png"
@@ -815,9 +815,9 @@ export default function Home() {
                 />
               </button>
             </div>
-            <span className="relative flex h-3 w-3 pt-4">
-              <span className="absolute inline-flex h-full w-full animate-ping rounded-full bg-p1-green opacity-75"></span>
-              <span className="relative inline-flex h-3 w-3 rounded-full bg-p1-green"></span>
+            <span className="relative flex size-3 pt-4">
+              <span className="absolute inline-flex size-full animate-ping rounded-full bg-p1-green opacity-75"></span>
+              <span className="relative inline-flex size-3 rounded-full bg-p1-green"></span>
             </span>
             <div className="place-content-center text-sm text-p1-darkgreen md:text-xl dark:text-p1-green">
               Live
@@ -838,7 +838,7 @@ export default function Home() {
               <div className="w-10">
                 <Link href="#" className="mx-auto justify-center">
                   <Image
-                    className="h-10 w-10 rounded-sm p-1 ring-p1-gray transition-all delay-75 duration-300 ease-in-out hover:bg-p1-darkgreen hover:bg-opacity-50 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:bg-p1-green"
+                    className="size-10 rounded-sm p-1 ring-p1-gray transition-all delay-75 duration-300 ease-in-out hover:bg-p1-darkgreen hover:bg-opacity-50 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:bg-p1-green"
                     width={480}
                     height={480}
                     src="/icon/line.png"
@@ -849,7 +849,7 @@ export default function Home() {
               <div className="w-10">
                 <Link href="#" className="mx-auto justify-center">
                   <Image
-                    className="h-10 w-10 rounded-sm p-1 ring-p1-gray transition-all delay-75 duration-300 ease-in-out hover:bg-p1-green hover:bg-opacity-50 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:bg-p1-green"
+                    className="size-10 rounded-sm p-1 ring-p1-gray transition-all delay-75 duration-300 ease-in-out hover:bg-p1-green hover:bg-opacity-50 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:bg-p1-green"
                     width={480}
                     height={480}
                     src="/icon/16.png"
@@ -860,7 +860,7 @@ export default function Home() {
               <div className="w-10">
                 <Link href="#" className="mx-auto justify-center">
                   <Image
-                    className="h-10 w-10 rounded-sm p-1 ring-p1-gray transition-all delay-75 duration-300 ease-in-out hover:bg-p1-green hover:bg-opacity-50 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:bg-p1-green"
+                    className="size-10 rounded-sm p-1 ring-p1-gray transition-all delay-75 duration-300 ease-in-out hover:bg-p1-green hover:bg-opacity-50 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:bg-p1-green"
                     width={480}
                     height={480}
                     src="/icon/9.png"
@@ -871,7 +871,7 @@ export default function Home() {
               <div className="w-10">
                 <Link href="#" className="mx-auto justify-center">
                   <Image
-                    className="h-10 w-10 rounded-sm p-1 ring-p1-gray transition-all delay-75 duration-300 ease-in-out hover:bg-p1-green hover:bg-opacity-50 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:bg-p1-green"
+                    className="size-10 rounded-sm p-1 ring-p1-gray transition-all delay-75 duration-300 ease-in-out hover:bg-p1-green hover:bg-opacity-50 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:bg-p1-green"
                     width={480}
                     height={480}
                     src="/icon/4.png"
@@ -882,7 +882,7 @@ export default function Home() {
               <div className="w-10">
                 <Link href="#" className="mx-auto justify-center">
                   <Image
-                    className="h-10 w-10 rounded-sm p-1 ring-p1-gray transition-all delay-75 duration-300 ease-in-out hover:bg-p1-green hover:bg-opacity-50 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:bg-p1-green"
+                    className="size-10 rounded-sm p-1 ring-p1-gray transition-all delay-75 duration-300 ease-in-out hover:bg-p1-green hover:bg-opacity-50 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:bg-p1-green"
                     width={480}
                     height={480}
                     src="/icon/3.png"
@@ -898,7 +898,7 @@ export default function Home() {
 
         <div className="flex w-screen place-content-between gap-2 px-6">
           <div id="toggleArea" className={`w-3/12 pt-2 ${visibleArea}`}>
-            <div className="text-darkgreen mb-2 w-full rounded-2xl border border-p1-green bg-p1-white text-xl shadow-lg dark:bg-p1-deepdarkgreen">
+            <div className="text-p1-darkgreen mb-2 w-full rounded-2xl border border-p1-green bg-p1-white text-xl shadow-lg dark:bg-p1-deepdarkgreen">
               <details className="m-2">
                 <summary className="relative flex cursor-pointer justify-start py-2">
                   <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
@@ -928,7 +928,7 @@ export default function Home() {
                         <input
                           type="text"
                           id="price_min"
-                          className="block w-full border border-p1-green bg-p1-white p-3 text-center text-sm lining-nums text-p1-darkgreen hover:bg-p2-white2 focus:border-p1-darkgreen focus:ring-p1-darkgreen md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:placeholder-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan dark:focus:border-p1-green dark:focus:ring-p1-cyan"
+                          className="block w-full border border-p1-green bg-p1-white p-3 text-center text-sm lining-nums text-p1-darkgreen hover:bg-p2-white2 focus:border-p1-darkgreen focus:ring-p1-darkgreen md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:placeholder:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan dark:focus:border-p1-green dark:focus:ring-p1-cyan"
                           placeholder="Min"
                           required
                         />
@@ -940,7 +940,7 @@ export default function Home() {
                         <input
                           type="text"
                           id="price_max"
-                          className="block w-full border border-p1-green bg-p1-white p-3 text-center text-sm lining-nums text-p1-darkgreen hover:bg-p2-white2 focus:border-p1-darkgreen focus:ring-p1-darkgreen md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:placeholder-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan dark:focus:border-p1-green dark:focus:ring-p1-cyan"
+                          className="block w-full border border-p1-green bg-p1-white p-3 text-center text-sm lining-nums text-p1-darkgreen hover:bg-p2-white2 focus:border-p1-darkgreen focus:ring-p1-darkgreen md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:placeholder:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan dark:focus:border-p1-green dark:focus:ring-p1-cyan"
                           placeholder="Max"
                           required
                         />
@@ -950,7 +950,7 @@ export default function Home() {
                   <div>
                     <Link
                       href="#"
-                      className="relative flex place-content-center rounded-b-xl border border-p1-green bg-p1-white px-4 py-4 text-p1-darkgreen shadow-lg transition-all duration-300 ease-in-out hover:border-p1-darkgreen hover:bg-p2-white2 hover:text-p1-darkgreen hover:shadow-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan"
+                      className="relative flex place-content-center rounded-b-xl border border-p1-green bg-p1-white p-4 text-p1-darkgreen shadow-lg transition-all duration-300 ease-in-out hover:border-p1-darkgreen hover:bg-p2-white2 hover:text-p1-darkgreen hover:shadow-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan"
                     >
                       <div className="px-4">Apply</div>
                     </Link>
@@ -959,7 +959,7 @@ export default function Home() {
               </details>
             </div>
 
-            <div className="text-darkgreen mb-2 w-full rounded-2xl border border-p1-green bg-p1-white text-xl shadow-lg dark:bg-p1-deepdarkgreen">
+            <div className="text-p1-darkgreen mb-2 w-full rounded-2xl border border-p1-green bg-p1-white text-xl shadow-lg dark:bg-p1-deepdarkgreen">
               <details className="m-2">
                 <summary className="relative flex cursor-pointer justify-start py-2">
                   <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
@@ -973,7 +973,7 @@ export default function Home() {
                         <input
                           type="text"
                           id="price_min"
-                          className="block w-full rounded-tl-xl border border-p1-green bg-p1-white p-3 text-center text-sm lining-nums text-p1-darkgreen hover:bg-p2-white2 focus:border-p1-darkgreen focus:ring-p1-darkgreen md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:placeholder-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan dark:focus:border-p1-green dark:focus:ring-p1-cyan"
+                          className="block w-full rounded-tl-xl border border-p1-green bg-p1-white p-3 text-center text-sm lining-nums text-p1-darkgreen hover:bg-p2-white2 focus:border-p1-darkgreen focus:ring-p1-darkgreen md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:placeholder:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan dark:focus:border-p1-green dark:focus:ring-p1-cyan"
                           placeholder="Min"
                           required
                         />
@@ -985,7 +985,7 @@ export default function Home() {
                         <input
                           type="text"
                           id="price_max"
-                          className="block w-full rounded-tr-xl border border-p1-green bg-p1-white p-3 text-center text-sm lining-nums text-p1-darkgreen hover:bg-p2-white2 focus:border-p1-darkgreen focus:ring-p1-darkgreen md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:placeholder-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan dark:focus:border-p1-green dark:focus:ring-p1-cyan"
+                          className="block w-full rounded-tr-xl border border-p1-green bg-p1-white p-3 text-center text-sm lining-nums text-p1-darkgreen hover:bg-p2-white2 focus:border-p1-darkgreen focus:ring-p1-darkgreen md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:placeholder:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan dark:focus:border-p1-green dark:focus:ring-p1-cyan"
                           placeholder="Max"
                           required
                         />
@@ -995,7 +995,7 @@ export default function Home() {
                   <div>
                     <Link
                       href="#"
-                      className="relative flex place-content-center rounded-b-xl border border-p1-green bg-p1-white px-4 py-4 text-p1-darkgreen shadow-lg transition-all duration-300 ease-in-out hover:border-p1-darkgreen hover:bg-p2-white2 hover:text-p1-darkgreen hover:shadow-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan"
+                      className="relative flex place-content-center rounded-b-xl border border-p1-green bg-p1-white p-4 text-p1-darkgreen shadow-lg transition-all duration-300 ease-in-out hover:border-p1-darkgreen hover:bg-p2-white2 hover:text-p1-darkgreen hover:shadow-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan"
                     >
                       <div className="px-4">Apply</div>
                     </Link>
@@ -1004,7 +1004,7 @@ export default function Home() {
               </details>
             </div>
 
-            <div className="text-darkgreen mb-2 w-full rounded-2xl border border-p1-green bg-p1-white text-xl shadow-lg dark:bg-p1-deepdarkgreen">
+            <div className="text-p1-darkgreen mb-2 w-full rounded-2xl border border-p1-green bg-p1-white text-xl shadow-lg dark:bg-p1-deepdarkgreen">
               <details className="m-2">
                 <summary className="relative flex cursor-pointer justify-start py-2">
                   <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
@@ -1040,7 +1040,7 @@ export default function Home() {
                       }}
                       type="checkbox"
                       value=""
-                      className="focus:ring-p1-cian h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                      className="focus:ring-p1-cyan size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                     />
                     <label
                       id="3"
@@ -1059,7 +1059,7 @@ export default function Home() {
                       }}
                       type="checkbox"
                       value=""
-                      className="focus:ring-p1-cian h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                      className="focus:ring-p1-cyan size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                     />
                     <label
                       id="3"
@@ -1073,11 +1073,11 @@ export default function Home() {
               </details>
             </div>
 
-            <div className="w-full place-content-center px-6 pb-4 pt-4 text-xl text-p1-darkgreen dark:text-p1-green">
+            <div className="w-full place-content-center px-6 py-4 text-xl text-p1-darkgreen dark:text-p1-green">
               Traits
             </div>
 
-            <div className="text-darkgreen mb-2 w-full rounded-2xl border border-p1-green bg-p1-white text-xl shadow-lg dark:bg-p1-deepdarkgreen">
+            <div className="text-p1-darkgreen mb-2 w-full rounded-2xl border border-p1-green bg-p1-white text-xl shadow-lg dark:bg-p1-deepdarkgreen">
               <details className="m-2">
                 <summary className="relative flex cursor-pointer justify-between py-2">
                   <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
@@ -1116,7 +1116,7 @@ export default function Home() {
                       }}
                       type="checkbox"
                       value=""
-                      className="focus:ring-p1-cian h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                      className="focus:ring-p1-cyan size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                     />
                     <label
                       id="3"
@@ -1137,7 +1137,7 @@ export default function Home() {
                       }}
                       type="checkbox"
                       value=""
-                      className="focus:ring-p1-cian h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                      className="focus:ring-p1-cyan size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                     />
                     <label
                       id="3"
@@ -1152,7 +1152,7 @@ export default function Home() {
               </details>
             </div>
 
-            <div className="text-darkgreen mb-2 w-full rounded-2xl border border-p1-green bg-p1-white text-xl shadow-lg dark:bg-p1-deepdarkgreen">
+            <div className="text-p1-darkgreen mb-2 w-full rounded-2xl border border-p1-green bg-p1-white text-xl shadow-lg dark:bg-p1-deepdarkgreen">
               <details className="m-2">
                 <summary className="relative flex cursor-pointer justify-between py-2">
                   <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
@@ -1191,7 +1191,7 @@ export default function Home() {
                       }}
                       type="checkbox"
                       value=""
-                      className="focus:ring-p1-cian h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                      className="focus:ring-p1-cyan size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                     />
                     <label
                       id="3"
@@ -1211,7 +1211,7 @@ export default function Home() {
                       }}
                       type="checkbox"
                       value=""
-                      className="focus:ring-p1-cian h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                      className="focus:ring-p1-cyan size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                     />
                     <label
                       id="3"
@@ -1226,7 +1226,7 @@ export default function Home() {
               </details>
             </div>
 
-            <div className="text-darkgreen mb-2 w-full rounded-2xl border border-p1-green bg-p1-white text-xl shadow-lg dark:bg-p1-deepdarkgreen">
+            <div className="text-p1-darkgreen mb-2 w-full rounded-2xl border border-p1-green bg-p1-white text-xl shadow-lg dark:bg-p1-deepdarkgreen">
               <details className="m-2">
                 <summary className="relative flex cursor-pointer justify-between py-2">
                   <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
@@ -1265,7 +1265,7 @@ export default function Home() {
                       }}
                       type="checkbox"
                       value=""
-                      className="focus:ring-p1-cian h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                      className="focus:ring-p1-cyan size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                     />
                     <label
                       id="3"
@@ -1285,7 +1285,7 @@ export default function Home() {
                       }}
                       type="checkbox"
                       value=""
-                      className="focus:ring-p1-cian h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                      className="focus:ring-p1-cyan size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                     />
                     <label
                       id="3"
@@ -1300,7 +1300,7 @@ export default function Home() {
               </details>
             </div>
 
-            <div className="text-darkgreen mb-2 w-full rounded-2xl border border-p1-green bg-p1-white text-xl shadow-lg dark:bg-p1-deepdarkgreen">
+            <div className="text-p1-darkgreen mb-2 w-full rounded-2xl border border-p1-green bg-p1-white text-xl shadow-lg dark:bg-p1-deepdarkgreen">
               <details className="m-2">
                 <summary className="relative flex cursor-pointer justify-between py-2">
                   <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
@@ -1339,7 +1339,7 @@ export default function Home() {
                       }}
                       type="checkbox"
                       value=""
-                      className="focus:ring-p1-cian h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                      className="focus:ring-p1-cyan size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                     />
                     <label
                       id="3"
@@ -1359,7 +1359,7 @@ export default function Home() {
                       }}
                       type="checkbox"
                       value=""
-                      className="focus:ring-p1-cian h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                      className="focus:ring-p1-cyan size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                     />
                     <label
                       id="3"
@@ -1374,7 +1374,7 @@ export default function Home() {
               </details>
             </div>
 
-            <div className="text-darkgreen mb-2 w-full rounded-2xl border border-p1-green bg-p1-white text-xl shadow-lg dark:bg-p1-deepdarkgreen">
+            <div className="text-p1-darkgreen mb-2 w-full rounded-2xl border border-p1-green bg-p1-white text-xl shadow-lg dark:bg-p1-deepdarkgreen">
               <details className="m-2">
                 <summary className="relative flex cursor-pointer justify-between py-2">
                   <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
@@ -1413,7 +1413,7 @@ export default function Home() {
                       }}
                       type="checkbox"
                       value=""
-                      className="focus:ring-p1-cian h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                      className="focus:ring-p1-cyan size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                     />
                     <label
                       id="3"
@@ -1433,7 +1433,7 @@ export default function Home() {
                       }}
                       type="checkbox"
                       value=""
-                      className="focus:ring-p1-cian h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                      className="focus:ring-p1-cyan size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                     />
                     <label
                       id="3"
@@ -1448,7 +1448,7 @@ export default function Home() {
               </details>
             </div>
 
-            <div className="text-darkgreen mb-2 w-full rounded-2xl border border-p1-green bg-p1-white text-xl shadow-lg dark:bg-p1-deepdarkgreen">
+            <div className="text-p1-darkgreen mb-2 w-full rounded-2xl border border-p1-green bg-p1-white text-xl shadow-lg dark:bg-p1-deepdarkgreen">
               <details className="m-2">
                 <summary className="relative flex cursor-pointer justify-between py-2">
                   <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
@@ -1487,7 +1487,7 @@ export default function Home() {
                       }}
                       type="checkbox"
                       value=""
-                      className="focus:ring-p1-cian h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                      className="focus:ring-p1-cyan size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                     />
                     <label
                       id="3"
@@ -1507,7 +1507,7 @@ export default function Home() {
                       }}
                       type="checkbox"
                       value=""
-                      className="focus:ring-p1-cian h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                      className="focus:ring-p1-cyan size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                     />
                     <label
                       id="3"
@@ -1522,7 +1522,7 @@ export default function Home() {
               </details>
             </div>
 
-            <div className="text-darkgreen mb-2 w-full rounded-2xl border border-p1-green bg-p1-white text-xl shadow-lg dark:bg-p1-deepdarkgreen">
+            <div className="text-p1-darkgreen mb-2 w-full rounded-2xl border border-p1-green bg-p1-white text-xl shadow-lg dark:bg-p1-deepdarkgreen">
               <details className="m-2">
                 <summary className="relative flex cursor-pointer justify-between py-2">
                   <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
@@ -1561,7 +1561,7 @@ export default function Home() {
                       }}
                       type="checkbox"
                       value=""
-                      className="focus:ring-p1-cian h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                      className="focus:ring-p1-cyan size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                     />
                     <label
                       id="3"
@@ -1581,7 +1581,7 @@ export default function Home() {
                       }}
                       type="checkbox"
                       value=""
-                      className="focus:ring-p1-cian h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                      className="focus:ring-p1-cyan size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                     />
                     <label
                       id="3"
@@ -1596,7 +1596,7 @@ export default function Home() {
               </details>
             </div>
 
-            <div className="text-darkgreen mb-2 w-full rounded-2xl border border-p1-green bg-p1-white text-xl shadow-lg dark:bg-p1-deepdarkgreen">
+            <div className="text-p1-darkgreen mb-2 w-full rounded-2xl border border-p1-green bg-p1-white text-xl shadow-lg dark:bg-p1-deepdarkgreen">
               <details className="m-2">
                 <summary className="relative flex cursor-pointer justify-between py-2">
                   <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
@@ -1635,7 +1635,7 @@ export default function Home() {
                       }}
                       type="checkbox"
                       value=""
-                      className="focus:ring-p1-cian h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                      className="focus:ring-p1-cyan size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                     />
                     <label
                       id="3"
@@ -1655,7 +1655,7 @@ export default function Home() {
                       }}
                       type="checkbox"
                       value=""
-                      className="focus:ring-p1-cian h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                      className="focus:ring-p1-cyan size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                     />
                     <label
                       id="3"
@@ -1670,7 +1670,7 @@ export default function Home() {
               </details>
             </div>
 
-            <div className="text-darkgreen mb-2 w-full rounded-2xl border border-p1-green bg-p1-white text-xl shadow-lg dark:bg-p1-deepdarkgreen">
+            <div className="text-p1-darkgreen mb-2 w-full rounded-2xl border border-p1-green bg-p1-white text-xl shadow-lg dark:bg-p1-deepdarkgreen">
               <details className="m-2">
                 <summary className="relative flex cursor-pointer justify-between py-2">
                   <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
@@ -1709,7 +1709,7 @@ export default function Home() {
                       }}
                       type="checkbox"
                       value=""
-                      className="focus:ring-p1-cian h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                      className="focus:ring-p1-cyan size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                     />
                     <label
                       id="3"
@@ -1729,7 +1729,7 @@ export default function Home() {
                       }}
                       type="checkbox"
                       value=""
-                      className="focus:ring-p1-cian h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                      className="focus:ring-p1-cyan size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                     />
                     <label
                       id="3"
@@ -1744,7 +1744,7 @@ export default function Home() {
               </details>
             </div>
 
-            <div className="text-darkgreen mb-2 w-full rounded-2xl border border-p1-green bg-p1-white text-xl shadow-lg dark:bg-p1-deepdarkgreen">
+            <div className="text-p1-darkgreen mb-2 w-full rounded-2xl border border-p1-green bg-p1-white text-xl shadow-lg dark:bg-p1-deepdarkgreen">
               <details className="m-2">
                 <summary className="relative flex cursor-pointer justify-between py-2">
                   <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
@@ -1783,7 +1783,7 @@ export default function Home() {
                       }}
                       type="checkbox"
                       value=""
-                      className="focus:ring-p1-cian h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                      className="focus:ring-p1-cyan size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                     />
                     <label
                       id="3"
@@ -1803,7 +1803,7 @@ export default function Home() {
                       }}
                       type="checkbox"
                       value=""
-                      className="focus:ring-p1-cian h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                      className="focus:ring-p1-cyan size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                     />
                     <label
                       id="3"
@@ -1818,7 +1818,7 @@ export default function Home() {
               </details>
             </div>
 
-            <div className="text-darkgreen mb-2 w-full rounded-2xl border border-p1-green bg-p1-white text-xl shadow-lg dark:bg-p1-deepdarkgreen">
+            <div className="text-p1-darkgreen mb-2 w-full rounded-2xl border border-p1-green bg-p1-white text-xl shadow-lg dark:bg-p1-deepdarkgreen">
               <details className="m-2">
                 <summary className="relative flex cursor-pointer justify-between py-2">
                   <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
@@ -1857,7 +1857,7 @@ export default function Home() {
                       }}
                       type="checkbox"
                       value=""
-                      className="focus:ring-p1-cian h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                      className="focus:ring-p1-cyan size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                     />
                     <label
                       id="3"
@@ -1877,7 +1877,7 @@ export default function Home() {
                       }}
                       type="checkbox"
                       value=""
-                      className="focus:ring-p1-cian h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                      className="focus:ring-p1-cyan size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                     />
                     <label
                       id="3"
@@ -1892,7 +1892,7 @@ export default function Home() {
               </details>
             </div>
 
-            <div className="text-darkgreen mb-2 w-full rounded-2xl border border-p1-green bg-p1-white text-xl shadow-lg dark:bg-p1-deepdarkgreen">
+            <div className="text-p1-darkgreen mb-2 w-full rounded-2xl border border-p1-green bg-p1-white text-xl shadow-lg dark:bg-p1-deepdarkgreen">
               <details className="m-2">
                 <summary className="relative flex cursor-pointer justify-between py-2">
                   <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
@@ -1931,7 +1931,7 @@ export default function Home() {
                       }}
                       type="checkbox"
                       value=""
-                      className="focus:ring-p1-cian h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                      className="focus:ring-p1-cyan size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                     />
                     <label
                       id="3"
@@ -1951,7 +1951,7 @@ export default function Home() {
                       }}
                       type="checkbox"
                       value=""
-                      className="focus:ring-p1-cian h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                      className="focus:ring-p1-cyan size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                     />
                     <label
                       id="3"
@@ -1966,7 +1966,7 @@ export default function Home() {
               </details>
             </div>
 
-            <div className="text-darkgreen mb-2 w-full rounded-2xl border border-p1-green bg-p1-white text-xl shadow-lg dark:bg-p1-deepdarkgreen">
+            <div className="text-p1-darkgreen mb-2 w-full rounded-2xl border border-p1-green bg-p1-white text-xl shadow-lg dark:bg-p1-deepdarkgreen">
               <details className="m-2">
                 <summary className="relative flex cursor-pointer justify-between py-2">
                   <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
@@ -2005,7 +2005,7 @@ export default function Home() {
                       }}
                       type="checkbox"
                       value=""
-                      className="focus:ring-p1-cian h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                      className="focus:ring-p1-cyan size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                     />
                     <label
                       id="3"
@@ -2025,7 +2025,7 @@ export default function Home() {
                       }}
                       type="checkbox"
                       value=""
-                      className="focus:ring-p1-cian h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                      className="focus:ring-p1-cyan size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                     />
                     <label
                       id="3"
@@ -2040,7 +2040,7 @@ export default function Home() {
               </details>
             </div>
 
-            <div className="text-darkgreen mb-2 w-full rounded-2xl border border-p1-green bg-p1-white text-xl shadow-lg dark:bg-p1-deepdarkgreen">
+            <div className="text-p1-darkgreen mb-2 w-full rounded-2xl border border-p1-green bg-p1-white text-xl shadow-lg dark:bg-p1-deepdarkgreen">
               <details className="m-2">
                 <summary className="relative flex cursor-pointer justify-between py-2">
                   <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
@@ -2079,7 +2079,7 @@ export default function Home() {
                       }}
                       type="checkbox"
                       value=""
-                      className="focus:ring-p1-cian h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                      className="focus:ring-p1-cyan size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                     />
                     <label
                       id="3"
@@ -2099,7 +2099,7 @@ export default function Home() {
                       }}
                       type="checkbox"
                       value=""
-                      className="focus:ring-p1-cian h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                      className="focus:ring-p1-cyan size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                     />
                     <label
                       id="3"
@@ -2114,7 +2114,7 @@ export default function Home() {
               </details>
             </div>
 
-            <div className="text-darkgreen mb-2 w-full rounded-2xl border border-p1-green bg-p1-white text-xl shadow-lg dark:bg-p1-deepdarkgreen">
+            <div className="text-p1-darkgreen mb-2 w-full rounded-2xl border border-p1-green bg-p1-white text-xl shadow-lg dark:bg-p1-deepdarkgreen">
               <details className="m-2">
                 <summary className="relative flex cursor-pointer justify-between py-2">
                   <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
@@ -2153,7 +2153,7 @@ export default function Home() {
                       }}
                       type="checkbox"
                       value=""
-                      className="focus:ring-p1-cian h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                      className="focus:ring-p1-cyan size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                     />
                     <label
                       id="3"
@@ -2173,7 +2173,7 @@ export default function Home() {
                       }}
                       type="checkbox"
                       value=""
-                      className="focus:ring-p1-cian h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                      className="focus:ring-p1-cyan size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                     />
                     <label
                       id="3"
@@ -2188,7 +2188,7 @@ export default function Home() {
               </details>
             </div>
 
-            <div className="text-darkgreen mb-2 w-full rounded-2xl border border-p1-green bg-p1-white text-xl shadow-lg dark:bg-p1-deepdarkgreen">
+            <div className="text-p1-darkgreen mb-2 w-full rounded-2xl border border-p1-green bg-p1-white text-xl shadow-lg dark:bg-p1-deepdarkgreen">
               <details className="m-2">
                 <summary className="relative flex cursor-pointer justify-between py-2">
                   <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
@@ -2227,7 +2227,7 @@ export default function Home() {
                       }}
                       type="checkbox"
                       value=""
-                      className="focus:ring-p1-cian h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                      className="focus:ring-p1-cyan size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                     />
                     <label
                       id="3"
@@ -2247,7 +2247,7 @@ export default function Home() {
                       }}
                       type="checkbox"
                       value=""
-                      className="focus:ring-p1-cian h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                      className="focus:ring-p1-cyan size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                     />
                     <label
                       id="3"
@@ -2265,7 +2265,7 @@ export default function Home() {
           <div className="flex w-9/12 grid-flow-row flex-wrap place-content-start gap-2 pt-2">
             {/* ... карточка 1 ...15x10 */}
 
-            <div className="text-darkgreen w-full rounded-2xl border border-p1-green bg-p1-white text-xl shadow-lg dark:bg-p1-deepdarkgreen">
+            <div className="text-p1-darkgreen w-full rounded-2xl border border-p1-green bg-p1-white text-xl shadow-lg dark:bg-p1-deepdarkgreen">
               <details className="m-2">
                 <summary className="relative flex cursor-pointer justify-between py-2">
                   <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
@@ -2297,10 +2297,10 @@ export default function Home() {
                   </div>
                   {/* ... карточка 1 ...15x10 */}
                   <div className="flex gap-4">
-                    <div className="group relative h-[14.5rem] w-[10rem] place-self-center overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-300 hover:shadow-lg hover:shadow-p1-cyan group-hover:shadow-sm dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
+                    <div className="group relative h-[14.5rem] w-40 place-self-center overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-300 hover:shadow-lg hover:shadow-p1-cyan group-hover:shadow-sm dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
                       <div>
                         <svg
-                          className="ms-1.5 h-3 w-3"
+                          className="ms-1.5 size-3"
                           aria-hidden="true"
                           xmlns="http://www.w3.org/2000/svg"
                           fill="currentColor"
@@ -2335,12 +2335,12 @@ export default function Home() {
                             height={500}
                             src="/HeroNFT/RaceLads/RaceLads1.png"
                             alt="RaceLads"
-                            className="h-[10rem] w-[10rem] object-cover transition-transform duration-500 ease-in-out group-hover:scale-150"
+                            className="size-40 object-cover transition-transform duration-500 ease-in-out group-hover:scale-150"
                           />
                         </Link>
                       </div>
 
-                      <div className="w-full bg-p2-white2 bg-opacity-100 text-p1-darkgreen transition-transform duration-500 ease-in-out group-hover:translate-y-28 group-hover:bg-opacity-100 group-hover:shadow-xl group-hover:shadow-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:group-hover:text-p1-cyan dark:group-hover:shadow-p1-green">
+                      <div className="w-full bg-p2-white2/100 text-p1-darkgreen transition-transform duration-500 ease-in-out group-hover:translate-y-28 group-hover:shadow-xl group-hover:shadow-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:group-hover:text-p1-cyan dark:group-hover:shadow-p1-green">
                         <div className="flex items-center justify-between">
                           <div className="px-1 pt-1 text-left text-sm font-bold">RaceLad</div>
                           <div className="px-1 pt-1 text-left text-sm font-bold"># 8888</div>
@@ -2369,11 +2369,8 @@ export default function Home() {
                       </div>
 
                       <div className="flex items-center justify-between">
-                        <div className="absolute bottom-0 left-0 h-[2rem] w-[10rem] translate-y-full bg-p1-darkgreen bg-opacity-100 text-center text-p2-white2 shadow-sm shadow-p1-green transition-transform duration-500 ease-in-out hover:bg-p1-darkgreen group-hover:translate-y-0 dark:bg-p1-deepdarkgreen">
-                          <div
-                            className="inline-flex h-[2rem] w-[10rem] justify-center text-sm"
-                            role="group"
-                          >
+                        <div className="absolute bottom-0 left-0 h-8 w-40 translate-y-full bg-p1-darkgreen/100 text-center text-p2-white2 shadow-sm shadow-p1-green transition-transform duration-500 ease-in-out hover:bg-p1-darkgreen group-hover:translate-y-0 dark:bg-p1-deepdarkgreen">
+                          <div className="inline-flex h-8 w-40 justify-center text-sm" role="group">
                             <Link
                               href="#"
                               className="grid w-4/5 place-content-center rounded-bl-xl border border-p1-darkgreen bg-p1-darkgreen text-center text-sm shadow-lg shadow-p1-cyan transition-all duration-300 ease-in-out hover:border-p1-cyan hover:bg-p1-darkgreen hover:text-p1-white hover:shadow-2xl hover:shadow-p1-cyan md:text-3xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
@@ -2398,7 +2395,7 @@ export default function Home() {
                               className="grid w-1/5 place-content-center rounded-br-xl border border-p1-darkgreen bg-p1-darkgreen text-center text-lg font-semibold shadow-lg shadow-p1-cyan transition-all duration-300 ease-in-out hover:scale-75 hover:border-p1-cyan hover:bg-p1-darkgreen hover:text-p1-white hover:shadow-2xl hover:shadow-p1-cyan hover:ring-p1-cyan focus:scale-75 focus:border-p1-cyan focus:ring-p1-cyan md:text-3xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
                             >
                               <Image
-                                className="bg-p1-darkgreenе inline-block h-5 w-5 dark:bg-p1-deepdarkgreen dark:hover:bg-p1-deepdarkgreen"
+                                className="bg-p1-darkgreen inline-block size-5 dark:bg-p1-deepdarkgreen dark:hover:bg-p1-deepdarkgreen"
                                 width={480}
                                 height={480}
                                 src="/Logo/shopping-cart-white.png"
@@ -2411,10 +2408,10 @@ export default function Home() {
                     </div>
                     <div className="pb-10"> </div>
                     {/* ...карточка 2 ...21.5x15 */}
-                    <div className="group relative h-[21.5rem] w-[15rem] place-self-center overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-300 hover:shadow-lg hover:shadow-p1-cyan group-hover:shadow-sm dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
+                    <div className="group relative h-[21.5rem] w-60 place-self-center overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-300 hover:shadow-lg hover:shadow-p1-cyan group-hover:shadow-sm dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
                       <div>
                         <svg
-                          className="ms-1.5 h-3 w-3"
+                          className="ms-1.5 size-3"
                           aria-hidden="true"
                           xmlns="http://www.w3.org/2000/svg"
                           fill="currentColor"
@@ -2449,12 +2446,12 @@ export default function Home() {
                             height={500}
                             src="/HeroNFT/RaceLads/RaceLads1.png"
                             alt="RaceLads"
-                            className="h-[15rem] w-[15rem] object-cover transition-transform duration-500 ease-in-out group-hover:scale-150"
+                            className="size-60 object-cover transition-transform duration-500 ease-in-out group-hover:scale-150"
                           />
                         </Link>
                       </div>
 
-                      <div className="w-full bg-p2-white2 bg-opacity-100 p-1 text-p1-darkgreen transition-transform duration-500 ease-in-out group-hover:translate-y-28 group-hover:bg-opacity-100 group-hover:shadow-xl group-hover:shadow-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:group-hover:text-p1-cyan dark:group-hover:shadow-p1-green">
+                      <div className="w-full bg-p2-white2/100 p-1 text-p1-darkgreen transition-transform duration-500 ease-in-out group-hover:translate-y-28 group-hover:shadow-xl group-hover:shadow-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:group-hover:text-p1-cyan dark:group-hover:shadow-p1-green">
                         <div className="flex items-center justify-between pt-1">
                           <div className="px-2 text-left text-base font-bold">RaceLad</div>
                           <div className="px-2 text-left text-base font-bold"># 2222</div>
@@ -2481,9 +2478,9 @@ export default function Home() {
                       </div>
 
                       <div className="flex items-center justify-between">
-                        <div className="absolute bottom-0 left-0 h-[2.8rem] w-[15rem] translate-y-full bg-p1-darkgreen bg-opacity-100 text-center text-p2-white2 shadow-sm shadow-p1-green transition-transform duration-500 ease-in-out hover:bg-p1-darkgreen group-hover:translate-y-0 dark:bg-p1-deepdarkgreen">
+                        <div className="absolute bottom-0 left-0 h-[2.8rem] w-60 translate-y-full bg-p1-darkgreen/100 text-center text-p2-white2 shadow-sm shadow-p1-green transition-transform duration-500 ease-in-out hover:bg-p1-darkgreen group-hover:translate-y-0 dark:bg-p1-deepdarkgreen">
                           <div
-                            className="inline-flex h-[2.8rem] w-[15rem] justify-center text-sm"
+                            className="inline-flex h-[2.8rem] w-60 justify-center text-sm"
                             role="group"
                           >
                             <Link
@@ -2510,7 +2507,7 @@ export default function Home() {
                               className="grid w-1/5 place-content-center rounded-br-xl border border-p1-darkgreen bg-p1-darkgreen text-center text-lg font-semibold shadow-lg shadow-p1-cyan transition-all duration-300 ease-in-out hover:scale-75 hover:border-p1-cyan hover:bg-p1-darkgreen hover:text-p1-white hover:shadow-2xl hover:shadow-p1-cyan hover:ring-p1-cyan focus:scale-75 focus:border-p1-cyan focus:ring-p1-cyan md:text-3xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
                             >
                               <Image
-                                className="bg-p1-darkgreenе inline-block h-6 w-6 dark:bg-p1-deepdarkgreen dark:hover:bg-p1-deepdarkgreen"
+                                className="bg-p1-darkgreen inline-block size-6 dark:bg-p1-deepdarkgreen dark:hover:bg-p1-deepdarkgreen"
                                 width={480}
                                 height={480}
                                 src="/Logo/shopping-cart-white.png"
@@ -2523,10 +2520,10 @@ export default function Home() {
                     </div>
                     <div className="pb-10"> </div>
                     {/* ...карточка 3 ...28x20 */}
-                    <div className="group relative h-[28rem] w-[20rem] place-self-center overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-300 hover:shadow-lg hover:shadow-p1-cyan group-hover:shadow-sm dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
+                    <div className="group relative h-[28rem] w-80 place-self-center overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-300 hover:shadow-lg hover:shadow-p1-cyan group-hover:shadow-sm dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
                       <div>
                         <svg
-                          className="ms-1.5 h-3 w-3"
+                          className="ms-1.5 size-3"
                           aria-hidden="true"
                           xmlns="http://www.w3.org/2000/svg"
                           fill="currentColor"
@@ -2561,12 +2558,12 @@ export default function Home() {
                             height={500}
                             src="/HeroNFT/RaceLads/RaceLads1.png"
                             alt="RaceLads"
-                            className="h-[20rem] w-[20rem] object-cover transition-transform duration-500 ease-in-out group-hover:scale-150"
+                            className="size-80 object-cover transition-transform duration-500 ease-in-out group-hover:scale-150"
                           />
                         </Link>
                       </div>
 
-                      <div className="w-full bg-p2-white2 bg-opacity-100 p-1 text-p1-darkgreen transition-transform duration-500 ease-in-out group-hover:translate-y-28 group-hover:bg-opacity-100 group-hover:shadow-xl group-hover:shadow-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:group-hover:text-p1-cyan dark:group-hover:shadow-p1-green">
+                      <div className="w-full bg-p2-white2/100 p-1 text-p1-darkgreen transition-transform duration-500 ease-in-out group-hover:translate-y-28 group-hover:shadow-xl group-hover:shadow-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:group-hover:text-p1-cyan dark:group-hover:shadow-p1-green">
                         <div className="flex items-center justify-between">
                           <div className="px-4 text-left text-xl font-bold">RaceLad</div>
                           <div className="px-4 text-left text-xl font-bold"># 3333</div>
@@ -2593,9 +2590,9 @@ export default function Home() {
                       </div>
 
                       <div className="flex items-center justify-between">
-                        <div className="absolute bottom-0 left-0 w-full translate-y-full bg-p1-darkgreen bg-opacity-100 text-center text-p2-white2 shadow-sm shadow-p1-green transition-transform duration-500 ease-in-out hover:bg-p1-darkgreen group-hover:translate-y-0 dark:bg-p1-deepdarkgreen">
+                        <div className="absolute bottom-0 left-0 w-full translate-y-full bg-p1-darkgreen/100 text-center text-p2-white2 shadow-sm shadow-p1-green transition-transform duration-500 ease-in-out hover:bg-p1-darkgreen group-hover:translate-y-0 dark:bg-p1-deepdarkgreen">
                           <div
-                            className="inline-flex h-[3rem] w-[20rem] justify-center text-sm"
+                            className="inline-flex h-12 w-80 justify-center text-sm"
                             role="group"
                           >
                             <Link
@@ -2622,7 +2619,7 @@ export default function Home() {
                               className="grid w-1/5 place-content-center rounded-br-xl border border-p1-darkgreen bg-p1-darkgreen text-center text-lg font-semibold shadow-lg shadow-p1-cyan transition-all duration-300 ease-in-out hover:scale-75 hover:border-p1-cyan hover:bg-p1-darkgreen hover:text-p1-white hover:shadow-2xl hover:shadow-p1-cyan hover:ring-p1-cyan focus:scale-75 focus:border-p1-cyan focus:ring-p1-cyan md:text-3xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
                             >
                               <Image
-                                className="bg-p1-darkgreenе inline-block h-7 w-7 dark:bg-p1-deepdarkgreen dark:hover:bg-p1-deepdarkgreen"
+                                className="bg-p1-darkgreen inline-block size-7 dark:bg-p1-deepdarkgreen dark:hover:bg-p1-deepdarkgreen"
                                 width={480}
                                 height={480}
                                 src="/Logo/shopping-cart-white.png"
@@ -2638,7 +2635,7 @@ export default function Home() {
                     <div className="group relative h-[39rem] w-[28rem] place-self-center overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-300 hover:shadow-lg hover:shadow-p1-cyan group-hover:shadow-sm dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
                       <div>
                         <svg
-                          className="ms-1.5 h-3 w-3"
+                          className="ms-1.5 size-3"
                           aria-hidden="true"
                           xmlns="http://www.w3.org/2000/svg"
                           fill="currentColor"
@@ -2673,12 +2670,12 @@ export default function Home() {
                             height={500}
                             src="/HeroNFT/RaceLads/RaceLads1.png"
                             alt="RaceLads"
-                            className="h-[28rem] w-[28rem] object-cover transition-transform duration-500 ease-in-out group-hover:scale-150"
+                            className="size-[28rem] object-cover transition-transform duration-500 ease-in-out group-hover:scale-150"
                           />
                         </Link>
                       </div>
 
-                      <div className="w-full bg-p2-white2 bg-opacity-100 p-1 text-p1-darkgreen transition-transform duration-500 ease-in-out group-hover:translate-y-28 group-hover:bg-opacity-100 group-hover:shadow-xl group-hover:shadow-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:group-hover:text-p1-cyan dark:group-hover:shadow-p1-green">
+                      <div className="w-full bg-p2-white2/100 p-1 text-p1-darkgreen transition-transform duration-500 ease-in-out group-hover:translate-y-28 group-hover:shadow-xl group-hover:shadow-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:group-hover:text-p1-cyan dark:group-hover:shadow-p1-green">
                         <div className="flex items-center justify-between">
                           <div className="px-4 pt-2 text-left text-3xl font-bold">RaceLad</div>
                           <div className="px-4 pt-2 text-left text-3xl font-bold"># 8888</div>
@@ -2707,9 +2704,9 @@ export default function Home() {
                       </div>
 
                       <div className="flex items-center justify-between">
-                        <div className="absolute bottom-0 left-0 w-full translate-y-full bg-p1-darkgreen bg-opacity-100 text-center text-p2-white2 shadow-sm shadow-p1-green transition-transform duration-500 ease-in-out hover:bg-p1-darkgreen group-hover:translate-y-0 dark:bg-p1-deepdarkgreen">
+                        <div className="absolute bottom-0 left-0 w-full translate-y-full bg-p1-darkgreen/100 text-center text-p2-white2 shadow-sm shadow-p1-green transition-transform duration-500 ease-in-out hover:bg-p1-darkgreen group-hover:translate-y-0 dark:bg-p1-deepdarkgreen">
                           <div
-                            className="inline-flex h-[4rem] w-[28rem] justify-center text-sm"
+                            className="inline-flex h-16 w-[28rem] justify-center text-sm"
                             role="group"
                           >
                             <Link
@@ -2736,7 +2733,7 @@ export default function Home() {
                               className="grid w-1/5 place-content-center rounded-br-xl border border-p1-darkgreen bg-p1-darkgreen text-center text-lg font-semibold shadow-lg shadow-p1-cyan transition-all duration-300 ease-in-out hover:scale-75 hover:border-p1-cyan hover:bg-p1-darkgreen hover:text-p1-white hover:shadow-2xl hover:shadow-p1-cyan hover:ring-p1-cyan focus:scale-75 focus:border-p1-cyan focus:ring-p1-cyan md:text-3xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
                             >
                               <Image
-                                className="bg-p1-darkgreenе inline-block h-9 w-9 dark:bg-p1-deepdarkgreen dark:hover:bg-p1-deepdarkgreen"
+                                className="bg-p1-darkgreen inline-block size-9 dark:bg-p1-deepdarkgreen dark:hover:bg-p1-deepdarkgreen"
                                 width={480}
                                 height={480}
                                 src="/Logo/shopping-cart-white.png"
@@ -2752,7 +2749,7 @@ export default function Home() {
               </details>
             </div>
 
-            <div className="text-darkgreen mb-2 w-full rounded-2xl border border-p1-green bg-p1-white text-xl shadow-lg dark:bg-p1-deepdarkgreen">
+            <div className="text-p1-darkgreen mb-2 w-full rounded-2xl border border-p1-green bg-p1-white text-xl shadow-lg dark:bg-p1-deepdarkgreen">
               <details className="m-2">
                 <summary className="relative flex cursor-pointer justify-between py-2">
                   <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
@@ -2797,7 +2794,7 @@ export default function Home() {
                                 Item
                                 <Link href="#">
                                   <svg
-                                    className="ms-1.5 h-3 w-3"
+                                    className="ms-1.5 size-3"
                                     aria-hidden="true"
                                     xmlns="http://www.w3.org/2000/svg"
                                     fill="currentColor"
@@ -2813,7 +2810,7 @@ export default function Home() {
                                 Collection
                                 <Link href="#">
                                   <svg
-                                    className="ms-1.5 h-3 w-3"
+                                    className="ms-1.5 size-3"
                                     aria-hidden="true"
                                     xmlns="http://www.w3.org/2000/svg"
                                     fill="currentColor"
@@ -2829,7 +2826,7 @@ export default function Home() {
                                 Name
                                 <Link href="#">
                                   <svg
-                                    className="ms-1.5 h-3 w-3"
+                                    className="ms-1.5 size-3"
                                     aria-hidden="true"
                                     xmlns="http://www.w3.org/2000/svg"
                                     fill="currentColor"
@@ -2845,7 +2842,7 @@ export default function Home() {
                                 Number #
                                 <Link href="#">
                                   <svg
-                                    className="ms-1.5 h-3 w-3"
+                                    className="ms-1.5 size-3"
                                     aria-hidden="true"
                                     xmlns="http://www.w3.org/2000/svg"
                                     fill="currentColor"
@@ -2861,7 +2858,7 @@ export default function Home() {
                                 Current Price
                                 <Link href="#">
                                   <svg
-                                    className="ms-1.5 h-3 w-3"
+                                    className="ms-1.5 size-3"
                                     aria-hidden="true"
                                     xmlns="http://www.w3.org/2000/svg"
                                     fill="currentColor"
@@ -2878,7 +2875,7 @@ export default function Home() {
                                 Best Offer
                                 <Link href="#">
                                   <svg
-                                    className="ms-1.5 h-3 w-3"
+                                    className="ms-1.5 size-3"
                                     aria-hidden="true"
                                     xmlns="http://www.w3.org/2000/svg"
                                     fill="currentColor"
@@ -2894,7 +2891,7 @@ export default function Home() {
                                 Last Sale
                                 <Link href="#">
                                   <svg
-                                    className="ms-1.5 h-3 w-3"
+                                    className="ms-1.5 size-3"
                                     aria-hidden="true"
                                     xmlns="http://www.w3.org/2000/svg"
                                     fill="currentColor"
@@ -2910,7 +2907,7 @@ export default function Home() {
                                 Rarity
                                 <Link href="#">
                                   <svg
-                                    className="ms-1.5 h-3 w-3"
+                                    className="ms-1.5 size-3"
                                     aria-hidden="true"
                                     xmlns="http://www.w3.org/2000/svg"
                                     fill="currentColor"
@@ -2926,7 +2923,7 @@ export default function Home() {
                                 Owner
                                 <Link href="#">
                                   <svg
-                                    className="ms-1.5 h-3 w-3"
+                                    className="ms-1.5 size-3"
                                     aria-hidden="true"
                                     xmlns="http://www.w3.org/2000/svg"
                                     fill="currentColor"
@@ -2942,7 +2939,7 @@ export default function Home() {
                                 Time Listed
                                 <Link href="#">
                                   <svg
-                                    className="ms-1.5 h-3 w-3"
+                                    className="ms-1.5 size-3"
                                     aria-hidden="true"
                                     xmlns="http://www.w3.org/2000/svg"
                                     fill="currentColor"
@@ -2958,7 +2955,7 @@ export default function Home() {
                                 Make Offer
                                 <Link href="#">
                                   <svg
-                                    className="ms-1.5 h-3 w-3"
+                                    className="ms-1.5 size-3"
                                     aria-hidden="true"
                                     xmlns="http://www.w3.org/2000/svg"
                                     fill="currentColor"
@@ -2983,7 +2980,7 @@ export default function Home() {
                                   }}
                                   type="checkbox"
                                   value=""
-                                  className="focus:ring-p1-cian h-4 w-4 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                                  className="focus:ring-p1-cyan size-4 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                                 />
                                 <label
                                   htmlFor="checkbox "
@@ -2999,7 +2996,7 @@ export default function Home() {
                                     height={500}
                                     src="/HeroNFT/RaceLads/RaceLads1.png"
                                     alt="RaceLads"
-                                    className="h-[8rem] w-[8rem] object-cover transition-transform duration-500 ease-in-out hover:scale-105"
+                                    className="size-32 object-cover transition-transform duration-500 ease-in-out hover:scale-105"
                                   />
                                 </Link>
                               </div>
@@ -3026,7 +3023,7 @@ export default function Home() {
                                   }}
                                   type="checkbox"
                                   value=""
-                                  className="focus:ring-p1-cian h-4 w-4 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                                  className="focus:ring-p1-cyan size-4 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                                 />
                                 <label
                                   htmlFor="checkbox "
@@ -3042,7 +3039,7 @@ export default function Home() {
                                     height={500}
                                     src="/HeroNFT/Drivers/Driver4.png"
                                     alt="Drivers"
-                                    className="h-[8rem] w-[8rem] object-cover transition-transform duration-500 ease-in-out hover:scale-105"
+                                    className="size-32 object-cover transition-transform duration-500 ease-in-out hover:scale-105"
                                   />
                                 </Link>
                               </div>
@@ -3066,7 +3063,7 @@ export default function Home() {
               </details>
             </div>
 
-            <div className="text-darkgreen mb-2 w-full rounded-2xl border border-p1-green bg-p1-white text-xl shadow-lg dark:bg-p1-deepdarkgreen">
+            <div className="text-p1-darkgreen mb-2 w-full rounded-2xl border border-p1-green bg-p1-white text-xl shadow-lg dark:bg-p1-deepdarkgreen">
               <details className="m-2">
                 <summary className="relative flex cursor-pointer justify-between py-2">
                   <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
@@ -3111,7 +3108,7 @@ export default function Home() {
                                 Image Collection
                                 <Link href="#">
                                   <svg
-                                    className="ms-1.5 h-3 w-3"
+                                    className="ms-1.5 size-3"
                                     aria-hidden="true"
                                     xmlns="http://www.w3.org/2000/svg"
                                     fill="currentColor"
@@ -3127,7 +3124,7 @@ export default function Home() {
                                 Collection
                                 <Link href="#">
                                   <svg
-                                    className="ms-1.5 h-3 w-3"
+                                    className="ms-1.5 size-3"
                                     aria-hidden="true"
                                     xmlns="http://www.w3.org/2000/svg"
                                     fill="currentColor"
@@ -3143,7 +3140,7 @@ export default function Home() {
                                 Floor price
                                 <Link href="#">
                                   <svg
-                                    className="ms-1.5 h-3 w-3"
+                                    className="ms-1.5 size-3"
                                     aria-hidden="true"
                                     xmlns="http://www.w3.org/2000/svg"
                                     fill="currentColor"
@@ -3159,7 +3156,7 @@ export default function Home() {
                                 Volume
                                 <Link href="#">
                                   <svg
-                                    className="ms-1.5 h-3 w-3"
+                                    className="ms-1.5 size-3"
                                     aria-hidden="true"
                                     xmlns="http://www.w3.org/2000/svg"
                                     fill="currentColor"
@@ -3185,7 +3182,7 @@ export default function Home() {
                                     height={500}
                                     src="/HeroNFT/RaceLads/RaceLads1.png"
                                     alt="RaceLads"
-                                    className="h-[8rem] w-[8rem] object-cover transition-transform duration-500 ease-in-out group-hover:scale-150"
+                                    className="size-32 object-cover transition-transform duration-500 ease-in-out group-hover:scale-150"
                                   />
                                 </Link>
                               </div>
@@ -3206,7 +3203,7 @@ export default function Home() {
                                     height={500}
                                     src="/HeroNFT/Drivers/Driver4.png"
                                     alt="Drivers"
-                                    className="h-[8rem] w-[8rem] object-cover transition-transform duration-500 ease-in-out group-hover:scale-150"
+                                    className="size-32 object-cover transition-transform duration-500 ease-in-out group-hover:scale-150"
                                   />
                                 </Link>
                               </div>
@@ -3227,7 +3224,7 @@ export default function Home() {
                                     height={500}
                                     src="/HeroNFT/Drivers/Driver4.png"
                                     alt="Drivers"
-                                    className="h-[8rem] w-[8rem] object-cover transition-transform duration-500 ease-in-out group-hover:scale-150"
+                                    className="size-32 object-cover transition-transform duration-500 ease-in-out group-hover:scale-150"
                                   />
                                 </Link>
                               </div>

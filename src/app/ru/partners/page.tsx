@@ -122,7 +122,7 @@ export default function Page() {
       <div className="md:pb-96"></div>
       <div id="3" className="pt-10"></div>
       <div className="flex flex-row justify-center md:pb-5">
-        <div className="md:basis-5/5">
+        <div className="md:basis-5">
           <div className="text-center text-2xl font-bold text-p1-darkgreen md:pt-4 md:text-4xl dark:text-p1-cyan">
             Партнеры
           </div>

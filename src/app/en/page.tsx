@@ -23,7 +23,7 @@ export default function EnglishPage() {
               </div>
               <div className="md:p-4">
                 <Image
-                  className="object-centre relative mb-4 inline-block w-3/5 rounded-3xl border-2 border-p2-orange shadow-lg md:w-full"
+                  className="relative mb-4 inline-block w-3/5 rounded-3xl border-2 border-p2-orange object-center shadow-lg md:w-full"
                   width={700}
                   height={700}
                   src="/HeroNFT/RaceLads/RaceLads1.png"
@@ -65,7 +65,7 @@ export default function EnglishPage() {
           id="2"
           className="mb-4 rounded-3xl border-p1-darkgreen bg-p1-white shadow-lg md:border-4 dark:border-p1-green dark:bg-p1-deepdarkgreen"
         >
-          <div className="text-centre flex flex-row">
+          <div className="flex flex-row text-center">
             <div className="place-content-center p-2 text-center text-p1-darkgreen md:text-xl lg:text-2xl dark:text-p1-green">
               <div className="pt-2">Service</div>
               <div className="pb-5">for creating NFT rewards on the website</div>
@@ -75,7 +75,7 @@ export default function EnglishPage() {
               >
                 Application form
               </Link>
-              <div className="place-items-centre mt-5 grid grid-cols-3 gap-2 p-4">
+              <div className="mt-5 grid grid-cols-3 place-items-center gap-2 p-4">
                 <Image width={1000} height={1200} src="/Licenses/Promoter.png" alt="Promoter" />
 
                 <Image width={1000} height={1200} src="/Licenses/Local.png" alt="Local" />

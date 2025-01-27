@@ -30,7 +30,7 @@ export default function Page() {
                     </div>
                     <div id="1"></div>
                     <div className="z-10 rounded-3xl border-2 bg-amber-500 md:sticky md:top-16 dark:border-amber-700 dark:bg-amber-950">
-                      <div className="grid-1 grid flex-wrap-reverse gap-2 md:w-full md:grid-cols-2">
+                      <div className="grid grid-cols-1 flex-wrap-reverse gap-2 md:w-full md:grid-cols-2">
                         <div className="place-items-center p-2">
                           <Image
                             className="relative mb-4 inline-block w-max rounded-3xl border-2 border-p2-orange shadow-lg"
@@ -48,7 +48,7 @@ export default function Page() {
                           >
                             <div className="flex flex-col items-center justify-center pb-6 pt-5">
                               <svg
-                                className="mb-4 h-8 w-8 text-gray-500 dark:text-gray-400"
+                                className="mb-4 size-8 text-gray-500 dark:text-gray-400"
                                 aria-hidden="true"
                                 xmlns="http://www.w3.org/2000/svg"
                                 fill="none"
@@ -64,7 +64,7 @@ export default function Page() {
                               </svg>
 
                               <p className="mb-2 text-sm text-gray-500 dark:text-gray-400">
-                                <span className="font-regular">
+                                <span className="font-bold">
                                   Добавь медиаконтент: момент победы
                                 </span>
                               </p>
@@ -87,7 +87,7 @@ export default function Page() {
                           >
                             <div className="flex flex-col items-center justify-center pb-6 pt-5">
                               <svg
-                                className="mb-4 h-8 w-8 text-gray-500 dark:text-gray-400"
+                                className="mb-4 size-8 text-gray-500 dark:text-gray-400"
                                 aria-hidden="true"
                                 xmlns="http://www.w3.org/2000/svg"
                                 fill="none"
@@ -102,7 +102,7 @@ export default function Page() {
                                 />
                               </svg>
                               <p className="mb-2 text-sm text-gray-500 dark:text-gray-400">
-                                <span className="font-regular">
+                                <span className="font-bold">
                                   Добавь медиаконтент: Победитель на подиуме награждения
                                 </span>
                               </p>
@@ -125,7 +125,7 @@ export default function Page() {
                           >
                             <div className="flex flex-col items-center justify-center pb-6 pt-5">
                               <svg
-                                className="mb-4 h-8 w-8 text-gray-500 dark:text-gray-400"
+                                className="mb-4 size-8 text-gray-500 dark:text-gray-400"
                                 aria-hidden="true"
                                 xmlns="http://www.w3.org/2000/svg"
                                 fill="none"
@@ -140,7 +140,7 @@ export default function Page() {
                                 />
                               </svg>
                               <p className="mb-2 text-sm text-gray-500 dark:text-gray-400">
-                                <span className="font-regular">
+                                <span className="font-bold">
                                   Добавь файл: Финальный отчет / Протокол соревнования
                                 </span>
                               </p>
@@ -193,7 +193,7 @@ export default function Page() {
                   Добавить лого спонсоров на награды
                 </p>
               </div>
-              <div className="grid-1 grid flex-wrap-reverse gap-2 md:w-full md:grid-cols-4">
+              <div className="grid grid-cols-1 flex-wrap-reverse gap-2 md:w-full md:grid-cols-4">
                 <div className="flex items-center text-p1-white">
                   <div className="place-items-center p-2">
                     <form className="mx-auto max-w-2xl">
@@ -205,7 +205,7 @@ export default function Page() {
                       </label>
                       <select
                         id="license"
-                        className="block w-full rounded-lg border-2 border-gray-300 bg-p2-white2 p-2.5 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder-gray-400 dark:focus:border-p1-green dark:focus:ring-p1-green"
+                        className="block w-full rounded-lg border-2 border-gray-300 bg-p2-white2 p-2.5 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder:text-gray-400 dark:focus:border-p1-green dark:focus:ring-p1-green"
                         defaultValue={'DEFAULT'}
                       >
                         <option value="DEFAULT" disabled>
@@ -225,7 +225,7 @@ export default function Page() {
                     >
                       <div className="flex flex-col items-center justify-center pb-6 pt-5">
                         <svg
-                          className="mb-4 h-8 w-8 text-gray-500 dark:text-gray-400"
+                          className="mb-4 size-8 text-gray-500 dark:text-gray-400"
                           aria-hidden="true"
                           xmlns="http://www.w3.org/2000/svg"
                           fill="none"
@@ -241,7 +241,7 @@ export default function Page() {
                         </svg>
 
                         <p className="mb-2 text-center text-sm text-gray-500 dark:text-gray-400">
-                          <span className="font-regular">&quot;Логотип спонсора&quot;</span>
+                          <span className="font-bold">&quot;Логотип спонсора&quot;</span>
                         </p>
 
                         <p className="mb-2 text-center text-sm text-gray-500 dark:text-gray-400">
@@ -266,7 +266,7 @@ export default function Page() {
                       </label>
                       <select
                         id="license"
-                        className="block w-full rounded-lg border-2 border-gray-300 bg-p2-white2 p-2.5 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder-gray-400 dark:focus:border-p1-green dark:focus:ring-p1-green"
+                        className="block w-full rounded-lg border-2 border-gray-300 bg-p2-white2 p-2.5 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder:text-gray-400 dark:focus:border-p1-green dark:focus:ring-p1-green"
                         defaultValue={'DEFAULT'}
                       >
                         <option value="DEFAULT" disabled>
@@ -286,7 +286,7 @@ export default function Page() {
                     >
                       <div className="flex flex-col items-center justify-center pb-6 pt-5">
                         <svg
-                          className="mb-4 h-8 w-8 text-gray-500 dark:text-gray-400"
+                          className="mb-4 size-8 text-gray-500 dark:text-gray-400"
                           aria-hidden="true"
                           xmlns="http://www.w3.org/2000/svg"
                           fill="none"
@@ -302,7 +302,7 @@ export default function Page() {
                         </svg>
 
                         <p className="mb-2 text-center text-sm text-gray-500 dark:text-gray-400">
-                          <span className="font-regular">&quot;Логотип спонсора&quot;</span>
+                          <span className="font-bold">&quot;Логотип спонсора&quot;</span>
                         </p>
 
                         <p className="mb-2 text-center text-sm text-gray-500 dark:text-gray-400">
@@ -327,7 +327,7 @@ export default function Page() {
                       </label>
                       <select
                         id="license"
-                        className="block w-full rounded-lg border-2 border-gray-300 bg-p2-white2 p-2.5 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder-gray-400 dark:focus:border-p1-green dark:focus:ring-p1-green"
+                        className="block w-full rounded-lg border-2 border-gray-300 bg-p2-white2 p-2.5 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder:text-gray-400 dark:focus:border-p1-green dark:focus:ring-p1-green"
                         defaultValue={'DEFAULT'}
                       >
                         <option value="DEFAULT" disabled>
@@ -347,7 +347,7 @@ export default function Page() {
                     >
                       <div className="flex flex-col items-center justify-center pb-6 pt-5">
                         <svg
-                          className="mb-4 h-8 w-8 text-gray-500 dark:text-gray-400"
+                          className="mb-4 size-8 text-gray-500 dark:text-gray-400"
                           aria-hidden="true"
                           xmlns="http://www.w3.org/2000/svg"
                           fill="none"
@@ -363,7 +363,7 @@ export default function Page() {
                         </svg>
 
                         <p className="mb-2 text-center text-sm text-gray-500 dark:text-gray-400">
-                          <span className="font-regular">&quot;Логотип спонсора&quot;</span>
+                          <span className="font-bold">&quot;Логотип спонсора&quot;</span>
                         </p>
 
                         <p className="mb-2 text-center text-sm text-gray-500 dark:text-gray-400">
@@ -388,7 +388,7 @@ export default function Page() {
                       </label>
                       <select
                         id="license"
-                        className="block w-full rounded-lg border-2 border-gray-300 bg-p2-white2 p-2.5 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder-gray-400 dark:focus:border-p1-green dark:focus:ring-p1-green"
+                        className="block w-full rounded-lg border-2 border-gray-300 bg-p2-white2 p-2.5 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder:text-gray-400 dark:focus:border-p1-green dark:focus:ring-p1-green"
                         defaultValue={'DEFAULT'}
                       >
                         <option value="DEFAULT" disabled>
@@ -408,7 +408,7 @@ export default function Page() {
                     >
                       <div className="flex flex-col items-center justify-center pb-6 pt-5">
                         <svg
-                          className="mb-4 h-8 w-8 text-gray-500 dark:text-gray-400"
+                          className="mb-4 size-8 text-gray-500 dark:text-gray-400"
                           aria-hidden="true"
                           xmlns="http://www.w3.org/2000/svg"
                           fill="none"
@@ -424,7 +424,7 @@ export default function Page() {
                         </svg>
 
                         <p className="mb-2 text-center text-sm text-gray-500 dark:text-gray-400">
-                          <span className="font-regular">&quot;Логотип спонсора&quot;</span>
+                          <span className="font-bold">&quot;Логотип спонсора&quot;</span>
                         </p>
 
                         <p className="mb-2 text-center text-sm text-gray-500 dark:text-gray-400">
@@ -463,7 +463,7 @@ export default function Page() {
                   <input
                     type="text"
                     id="contry"
-                    className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder-gray-400 dark:focus:border-p1-green dark:focus:ring-p1-green"
+                    className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder:text-gray-400 dark:focus:border-p1-green dark:focus:ring-p1-green"
                     placeholder="Страна"
                     required
                   />
@@ -480,7 +480,7 @@ export default function Page() {
                   <input
                     type="text"
                     id="city"
-                    className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder-gray-400 dark:focus:border-p1-green dark:focus:ring-p1-green"
+                    className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder:text-gray-400 dark:focus:border-p1-green dark:focus:ring-p1-green"
                     placeholder="Город"
                     required
                   />
@@ -497,7 +497,7 @@ export default function Page() {
                   <input
                     type="text"
                     id="event"
-                    className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder-gray-400 dark:focus:border-p1-green dark:focus:ring-p1-green"
+                    className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder:text-gray-400 dark:focus:border-p1-green dark:focus:ring-p1-green"
                     placeholder="Официальное название мероприятия"
                     required
                   />
@@ -513,7 +513,7 @@ export default function Page() {
                   </label>
                   <select
                     id="license"
-                    className="block w-full rounded-lg border-2 border-gray-300 bg-p2-white2 p-2.5 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder-gray-400 dark:focus:border-p1-green dark:focus:ring-p1-green"
+                    className="block w-full rounded-lg border-2 border-gray-300 bg-p2-white2 p-2.5 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder:text-gray-400 dark:focus:border-p1-green dark:focus:ring-p1-green"
                     defaultValue={'DEFAULT'}
                   >
                     <option value="DEFAULT" disabled>
@@ -542,7 +542,7 @@ export default function Page() {
                   <input
                     type="text"
                     id="competition"
-                    className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder-gray-400 dark:focus:border-p1-green dark:focus:ring-p1-green"
+                    className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder:text-gray-400 dark:focus:border-p1-green dark:focus:ring-p1-green"
                     placeholder="Официальное название соревнования/конкурса"
                     required
                   />
@@ -558,7 +558,7 @@ export default function Page() {
                   </label>
                   <select
                     id="license"
-                    className="block w-full rounded-lg border-2 border-gray-300 bg-p2-white2 p-2.5 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder-gray-400 dark:focus:border-p1-green dark:focus:ring-p1-green"
+                    className="block w-full rounded-lg border-2 border-gray-300 bg-p2-white2 p-2.5 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder:text-gray-400 dark:focus:border-p1-green dark:focus:ring-p1-green"
                     defaultValue={'DEFAULT'}
                   >
                     <option value="DEFAULT" disabled>
@@ -580,7 +580,7 @@ export default function Page() {
                 <input
                   type="text"
                   id="nomination"
-                  className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder-gray-400 dark:focus:border-p1-green dark:focus:ring-p1-green"
+                  className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder:text-gray-400 dark:focus:border-p1-green dark:focus:ring-p1-green"
                   placeholder="Номинация"
                   required
                 />
@@ -596,7 +596,7 @@ export default function Page() {
                   </label>
                   <select
                     id="Reward"
-                    className="block w-full rounded-lg border-2 border-gray-300 bg-p2-white2 p-2.5 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder-gray-400 dark:focus:border-p1-green dark:focus:ring-p1-green"
+                    className="block w-full rounded-lg border-2 border-gray-300 bg-p2-white2 p-2.5 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder:text-gray-400 dark:focus:border-p1-green dark:focus:ring-p1-green"
                     defaultValue={'DEFAULT'}
                   >
                     <option value="DEFAULT" disabled>
@@ -619,7 +619,7 @@ export default function Page() {
                   </label>
                   <select
                     id="Place_Victory"
-                    className="block w-full rounded-lg border-2 border-gray-300 bg-p2-white2 p-2.5 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder-gray-400 dark:focus:border-p1-green dark:focus:ring-p1-green"
+                    className="block w-full rounded-lg border-2 border-gray-300 bg-p2-white2 p-2.5 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder:text-gray-400 dark:focus:border-p1-green dark:focus:ring-p1-green"
                     defaultValue={'DEFAULT'}
                   >
                     <option value="DEFAULT" disabled>
@@ -643,7 +643,7 @@ export default function Page() {
                 <input
                   type="date"
                   id="victory_day"
-                  className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder-gray-400 dark:focus:border-p1-green dark:focus:ring-p1-green"
+                  className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder:text-gray-400 dark:focus:border-p1-green dark:focus:ring-p1-green"
                   placeholder="День Победы"
                   required
                 />
@@ -662,7 +662,7 @@ export default function Page() {
                 <input
                   type="text"
                   id="full_name"
-                  className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder-gray-400 dark:focus:border-p1-green dark:focus:ring-p1-green"
+                  className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder:text-gray-400 dark:focus:border-p1-green dark:focus:ring-p1-green"
                   placeholder="Иванов Иван Иванович"
                   required
                 />
@@ -678,7 +678,7 @@ export default function Page() {
                 <input
                   type="text"
                   id="nic_name"
-                  className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder-gray-400 dark:focus:border-p1-green dark:focus:ring-p1-green"
+                  className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder:text-gray-400 dark:focus:border-p1-green dark:focus:ring-p1-green"
                   placeholder="Ник-Имя"
                   required
                 />
@@ -694,7 +694,7 @@ export default function Page() {
                 <input
                   type="date"
                   id="birthday"
-                  className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder-gray-400 dark:focus:border-p1-green dark:focus:ring-p1-green"
+                  className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder:text-gray-400 dark:focus:border-p1-green dark:focus:ring-p1-green"
                   placeholder="Дата рождения"
                   required
                 />
@@ -710,7 +710,7 @@ export default function Page() {
                 <input
                   type="text"
                   id="team"
-                  className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder-gray-400 dark:focus:border-p1-green dark:focus:ring-p1-green"
+                  className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder:text-gray-400 dark:focus:border-p1-green dark:focus:ring-p1-green"
                   placeholder="Название команды"
                   required
                 />
@@ -726,7 +726,7 @@ export default function Page() {
                 <input
                   type="text"
                   id="tag"
-                  className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder-gray-400 dark:focus:border-p1-green dark:focus:ring-p1-green"
+                  className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder:text-gray-400 dark:focus:border-p1-green dark:focus:ring-p1-green"
                   placeholder="Хэш-Тэг"
                   required
                 />
@@ -742,7 +742,7 @@ export default function Page() {
                 <input
                   type="text"
                   id="geolocation"
-                  className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder-gray-400 dark:focus:border-p1-green dark:focus:ring-p1-green"
+                  className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder:text-gray-400 dark:focus:border-p1-green dark:focus:ring-p1-green"
                   placeholder="Геолокация"
                   required
                 />
@@ -759,7 +759,7 @@ export default function Page() {
                 <textarea
                   id="message"
                   rows={4}
-                  className="block w-full rounded-lg border-2 border-gray-300 bg-p2-white2 p-2.5 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
+                  className="block w-full rounded-lg border-2 border-gray-300 bg-p2-white2 p-2.5 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder:text-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
                   placeholder="Описание"
                 ></textarea>
               </div>
@@ -773,7 +773,7 @@ export default function Page() {
                   }}
                   type="checkbox"
                   value=""
-                  className="focus:ring-p1-cian h-4 w-4 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                  className="size-4 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                 />
                 <label
                   htmlFor="checkbox"

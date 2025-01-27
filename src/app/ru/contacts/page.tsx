@@ -22,7 +22,7 @@ export default function Page() {
         <div className="rounded-3xl border-p1-darkgreen p-2 text-xl hover:border-p1-green md:m-5 md:border-4 md:p-6 md:hover:shadow-xl">
           <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
             <div id="1">
-              <div className="font-regular pb-3 text-center text-sm text-p1-darkgreen md:px-5 md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
+              <div className="font-bold pb-3 text-center text-sm text-p1-darkgreen md:px-5 md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
                 Если вы хотите продвигать свое мероприятие с помощью Web3, создавать награды NFT или
                 быть представителем GAA в вашем регионе, заполните форму заявки, и мы свяжемся с
                 вами.
@@ -48,7 +48,7 @@ export default function Page() {
                 <input
                   type="text"
                   id="full_name"
-                  className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p1-green focus:ring-p1-green md:p-2 md:text-lg dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-p1-gray dark:focus:border-p1-green dark:focus:ring-p1-green"
+                  className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p1-green focus:ring-p1-green md:p-2 md:text-lg dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder:text-p1-gray dark:focus:border-p1-green dark:focus:ring-p1-green"
                   placeholder="Иванов Иван Иванович"
                   required
                 />
@@ -64,7 +64,7 @@ export default function Page() {
                 <input
                   type="text"
                   id="nic_name"
-                  className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p1-green focus:ring-p1-green md:p-2 md:text-lg dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-p1-gray dark:focus:border-p1-green dark:focus:ring-p1-green"
+                  className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p1-green focus:ring-p1-green md:p-2 md:text-lg dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder:text-p1-gray dark:focus:border-p1-green dark:focus:ring-p1-green"
                   placeholder="Ник-Имя"
                   required
                 />
@@ -80,7 +80,7 @@ export default function Page() {
                 <input
                   type="text"
                   id="organization"
-                  className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p1-green focus:ring-p1-green md:p-2 md:text-lg dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-p1-gray dark:focus:border-p1-green dark:focus:ring-p1-green"
+                  className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p1-green focus:ring-p1-green md:p-2 md:text-lg dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder:text-p1-gray dark:focus:border-p1-green dark:focus:ring-p1-green"
                   placeholder="Название организации/команды"
                   required
                 />
@@ -96,7 +96,7 @@ export default function Page() {
                 <input
                   type="email"
                   id="email"
-                  className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p1-green focus:ring-p1-green md:p-2 md:text-lg dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder-p1-gray dark:focus:border-p1-green dark:focus:ring-p1-green"
+                  className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p1-green focus:ring-p1-green md:p-2 md:text-lg dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder:text-p1-gray dark:focus:border-p1-green dark:focus:ring-p1-green"
                   placeholder="Электронная почта"
                   required
                 />
@@ -112,7 +112,7 @@ export default function Page() {
                 <textarea
                   id="message"
                   rows={4}
-                  className="block w-full rounded-lg border-2 border-gray-300 bg-p2-white2 p-2.5 text-sm text-p1-darkgreen focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
+                  className="block w-full rounded-lg border-2 border-gray-300 bg-p2-white2 p-2.5 text-sm text-p1-darkgreen focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder:text-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
                   placeholder="Ваши вопросы, комментарии, предложения ..."
                 ></textarea>
               </div>
@@ -126,7 +126,7 @@ export default function Page() {
                   }}
                   type="checkbox"
                   value=""
-                  className="focus:ring-p1-cian h-4 w-4 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                  className="focus:ring-p1-cyan size-4 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                 />
                 <label
                   id="3"

@@ -85,7 +85,7 @@ export default function Page() {
                 className="h-2 w-3/5 cursor-pointer appearance-none rounded-lg bg-gray-200 dark:bg-gray-700"
               />
             </div>
-            <p className="pb-8 pt-8 text-2xl text-p1-darkgreen">
+            <p className="py-8 text-2xl text-p1-darkgreen">
               Максимум: 10 Promoter License NFT за транзакцию
             </p>
             <button className="rounded-3xl border-2 border-p1-darkgreen bg-p1-white px-48 py-8 text-p1-darkgreen shadow-lg hover:bg-p2-orange hover:text-p1-white">

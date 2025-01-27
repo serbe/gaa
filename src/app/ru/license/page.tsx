@@ -100,7 +100,7 @@ export default function Page() {
 
                       <div className="flex flex-wrap justify-center md:flex-nowrap">
                         <div className="w-full md:w-1/3">
-                          <div className="place-self-center text-p1-darkgreen md:pb-5 md:pt-5 dark:text-p1-green dark:hover:text-p1-cyan">
+                          <div className="place-self-center text-p1-darkgreen md:py-5 dark:text-p1-green dark:hover:text-p1-cyan">
                             <p>
                               Созданные вами NFT автоматически попадут в глобальную коллекцию GAA
                             </p>
@@ -190,7 +190,7 @@ export default function Page() {
 
                       <div className="flex flex-wrap justify-center md:flex-nowrap">
                         <div className="w-full md:w-1/3">
-                          <div className="place-self-center text-p1-darkgreen md:pb-5 md:pt-5 dark:text-p1-green dark:hover:text-p1-cyan">
+                          <div className="place-self-center text-p1-darkgreen md:py-5 dark:text-p1-green dark:hover:text-p1-cyan">
                             <p>
                               Созданные вами NFT автоматически попадут в глобальную коллекцию GAA
                             </p>
@@ -260,7 +260,7 @@ export default function Page() {
 
                       <div className="flex flex-wrap justify-center md:flex-nowrap">
                         <div className="w-full md:w-1/3">
-                          <div className="place-self-center text-p1-darkgreen md:pb-5 md:pt-5 dark:text-p1-green dark:hover:text-p1-cyan">
+                          <div className="place-self-center text-p1-darkgreen md:py-5 dark:text-p1-green dark:hover:text-p1-cyan">
                             <p>
                               Созданные вами NFT автоматически попадут в глобальную коллекцию GAA
                             </p>

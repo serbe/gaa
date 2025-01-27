@@ -24,7 +24,7 @@ export default function RussianPage() {
               </div>
               <div className="md:p-4">
                 <Image
-                  className="object-centre relative mb-4 inline-block w-3/5 rounded-3xl border-2 border-p2-orange shadow-lg md:w-full"
+                  className="object-center relative mb-4 inline-block w-3/5 rounded-3xl border-2 border-p2-orange shadow-lg md:w-full"
                   width={700}
                   height={700}
                   src="/HeroNFT/RaceLads/RaceLads1.png"
@@ -66,7 +66,7 @@ export default function RussianPage() {
           id="2"
           className="mb-4 rounded-3xl border-p1-darkgreen bg-p1-white shadow-lg md:border-4 dark:border-p1-green dark:bg-p1-deepdarkgreen"
         >
-          <div className="text-centre flex flex-row">
+          <div className="text-center flex flex-row">
             <div className="place-content-center p-2 text-center text-p1-darkgreen md:text-xl lg:text-2xl dark:text-p1-green">
               <div className="pt-2">Сервис</div>
               <div className="pb-5">создания NFT наград на сайте</div>
@@ -76,7 +76,7 @@ export default function RussianPage() {
               >
                 Форма заявки
               </Link>
-              <div className="place-items-centre mt-5 grid grid-cols-3 gap-2 p-4">
+              <div className="place-items-center mt-5 grid grid-cols-3 gap-2 p-4">
                 <Image width={1000} height={1200} src="/Licenses/Promoter.png" alt="Promoter" />
 
                 <Image width={1000} height={1200} src="/Licenses/National.png" alt="National" />

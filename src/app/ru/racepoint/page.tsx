@@ -91,7 +91,7 @@ export default function Page() {
       <div id="3" className="md:pt-2"></div>
 
       <div className="flex flex-row justify-center pb-5">
-        <div className="md:basis-5/5">
+        <div className="md:basis-5">
           <div className="rounded-3xl border-p2-orange p-2 md:my-5 md:space-y-6 md:border-4 md:p-6 md:hover:shadow-2xl dark:border-amber-600">
             <div className="text-center text-xl text-p1-darkgreen md:text-2xl dark:text-amber-600">
               Ежедневная награда
@@ -216,7 +216,7 @@ export default function Page() {
       <div id="5" className="md:pt-2"></div>
 
       <div className="flex flex-row justify-center pb-5">
-        <div className="basis-5/5">
+        <div className="basis-5">
           <div className="rounded-3xl border-p2-orange p-2 md:my-5 md:space-y-6 md:border-4 md:p-6 md:hover:shadow-2xl dark:border-amber-600">
             <div className="pb-2 text-center text-sm font-semibold text-p1-darkgreen md:text-2xl dark:text-amber-600">
               Участвуй в опросах и викторинах и зарабатывай Racepoints
@@ -275,7 +275,7 @@ export default function Page() {
       <div id="6" className="md:pt-2"></div>
 
       <div className="flex flex-row justify-center pb-5">
-        <div className="basis-5/5">
+        <div className="basis-5">
           <div className="rounded-3xl border-p2-orange p-2 md:my-5 md:space-y-6 md:border-4 md:p-6 md:hover:shadow-2xl dark:border-amber-600">
             <div className="pb-2 text-center text-sm font-semibold text-p1-darkgreen md:text-2xl dark:text-amber-600">
               Отвечай на вопросы, связанные с миром автоспорта и автокультуры и зарабатывай
@@ -347,7 +347,7 @@ export default function Page() {
       <div id="7" className="md:pt-2"></div>
 
       <div className="flex flex-row place-self-center pb-5">
-        <div className="basis-5/5">
+        <div className="basis-5">
           <div className="rounded-3xl border-p2-orange md:my-5 md:space-y-6 md:border-4 md:p-6 md:hover:shadow-2xl dark:border-amber-600">
             <div className="pb-2 text-center text-sm font-semibold text-p1-darkgreen md:text-2xl dark:text-amber-600">
               Получай тематические карточки и зарабатывай Racepoints
@@ -405,7 +405,7 @@ export default function Page() {
               Самые активные получат преимущества при создании NFT:
             </div>
 
-            <ol className="list space-y-4 p-4 pb-5 text-center text-2xl text-p1-darkgreen dark:text-amber-600">
+            <ol className="space-y-4 p-4 pb-5 text-center text-2xl text-p1-darkgreen dark:text-amber-600">
               <li>Уровень 1 = -10% </li>
               <li>Уровень 2 = -20% </li>
               <li>Уровень 3 = -30% </li>

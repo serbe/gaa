@@ -52,7 +52,7 @@ export default function Page() {
                 }}
                 type="checkbox"
                 value=""
-                className="mx-5 h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                className="mx-5 size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-p1-green"
               />
               <label
                 htmlFor="checkbox"
@@ -72,7 +72,7 @@ export default function Page() {
                 }}
                 type="checkbox"
                 value=""
-                className="mx-5 h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                className="mx-5 size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-p1-green"
               />
               <label
                 htmlFor="checkbox"
@@ -92,7 +92,7 @@ export default function Page() {
                 }}
                 type="checkbox"
                 value=""
-                className="mx-5 h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                className="mx-5 size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-p1-green"
               />
               <label
                 htmlFor="checkbox"
@@ -114,7 +114,7 @@ export default function Page() {
               <input
                 type="text"
                 id="country"
-                className="mx-5 block w-11/12 rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-cyan dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                className="mx-5 block w-11/12 rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-cyan dark:placeholder:text-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
                 placeholder="Страна"
                 required
               />
@@ -131,7 +131,7 @@ export default function Page() {
               <input
                 type="text"
                 id="city"
-                className="mx-5 block w-11/12 rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-cyan dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                className="mx-5 block w-11/12 rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-cyan dark:placeholder:text-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
                 placeholder="Город"
                 required
               />
@@ -148,7 +148,7 @@ export default function Page() {
               <input
                 type="text"
                 id="organization"
-                className="mx-5 block w-11/12 rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-cyan dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                className="mx-5 block w-11/12 rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-cyan dark:placeholder:text-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
                 placeholder="Организация"
                 required
               />
@@ -170,7 +170,7 @@ export default function Page() {
                 }}
                 type="checkbox"
                 value=""
-                className="mx-5 h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                className="mx-5 size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-p1-green"
               />
               <label
                 htmlFor="checkbox"
@@ -191,7 +191,7 @@ export default function Page() {
                 }}
                 type="checkbox"
                 value=""
-                className="mx-5 h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                className="mx-5 size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-p1-green"
               />
               <label
                 htmlFor="checkbox"
@@ -211,7 +211,7 @@ export default function Page() {
                 }}
                 type="checkbox"
                 value=""
-                className="mx-5 h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                className="mx-5 size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-p1-green"
               />
               <label
                 htmlFor="checkbox"
@@ -231,7 +231,7 @@ export default function Page() {
                 }}
                 type="checkbox"
                 value=""
-                className="mx-5 h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                className="mx-5 size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-p1-green"
               />
               <label
                 htmlFor="checkbox"
@@ -251,7 +251,7 @@ export default function Page() {
                 }}
                 type="checkbox"
                 value=""
-                className="mx-5 h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                className="mx-5 size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-p1-green"
               />
               <label
                 htmlFor="checkbox"
@@ -271,7 +271,7 @@ export default function Page() {
                 }}
                 type="checkbox"
                 value=""
-                className="mx-5 h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                className="mx-5 size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-p1-green"
               />
               <label
                 htmlFor="checkbox"
@@ -291,7 +291,7 @@ export default function Page() {
                 }}
                 type="checkbox"
                 value=""
-                className="mx-5 h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                className="mx-5 size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-p1-green"
               />
               <label
                 htmlFor="checkbox"
@@ -311,7 +311,7 @@ export default function Page() {
                 }}
                 type="checkbox"
                 value=""
-                className="mx-5 h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                className="mx-5 size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-p1-green"
               />
               <label
                 htmlFor="checkbox"
@@ -331,7 +331,7 @@ export default function Page() {
                 }}
                 type="checkbox"
                 value=""
-                className="mx-5 h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                className="mx-5 size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-p1-green"
               />
               <label
                 htmlFor="checkbox"
@@ -351,7 +351,7 @@ export default function Page() {
                 }}
                 type="checkbox"
                 value=""
-                className="mx-5 h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                className="mx-5 size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-p1-green"
               />
               <label
                 htmlFor="checkbox"
@@ -371,7 +371,7 @@ export default function Page() {
                 }}
                 type="checkbox"
                 value=""
-                className="mx-5 h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                className="mx-5 size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-p1-green"
               />
               <label
                 htmlFor="checkbox"
@@ -391,7 +391,7 @@ export default function Page() {
                 }}
                 type="checkbox"
                 value=""
-                className="mx-5 h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                className="mx-5 size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-p1-green"
               />
               <label
                 htmlFor="checkbox"
@@ -412,7 +412,7 @@ export default function Page() {
               <input
                 type="text"
                 id="organization"
-                className="mx-5 block w-11/12 rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-cyan dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                className="mx-5 block w-11/12 rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-cyan dark:placeholder:text-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
                 placeholder="Ваш ответ"
                 required
               />
@@ -434,7 +434,7 @@ export default function Page() {
                 }}
                 type="checkbox"
                 value=""
-                className="mx-5 h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                className="mx-5 size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-p1-green"
               />
               <label
                 htmlFor="checkbox"
@@ -455,7 +455,7 @@ export default function Page() {
                 }}
                 type="checkbox"
                 value=""
-                className="mx-5 h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                className="mx-5 size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-p1-green"
               />
               <label
                 htmlFor="checkbox"
@@ -476,7 +476,7 @@ export default function Page() {
                 }}
                 type="checkbox"
                 value=""
-                className="mx-5 h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                className="mx-5 size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-p1-green"
               />
               <label
                 htmlFor="checkbox"
@@ -497,7 +497,7 @@ export default function Page() {
                 }}
                 type="checkbox"
                 value=""
-                className="mx-5 h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                className="mx-5 size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-p1-green"
               />
               <label
                 htmlFor="checkbox"
@@ -517,7 +517,7 @@ export default function Page() {
                 }}
                 type="checkbox"
                 value=""
-                className="mx-5 h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                className="mx-5 size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-p1-green"
               />
               <label
                 htmlFor="checkbox"
@@ -538,7 +538,7 @@ export default function Page() {
                 }}
                 type="checkbox"
                 value=""
-                className="mx-5 h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                className="mx-5 size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-p1-green"
               />
               <label
                 htmlFor="checkbox"
@@ -559,7 +559,7 @@ export default function Page() {
                 }}
                 type="checkbox"
                 value=""
-                className="mx-5 h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                className="mx-5 size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-p1-green"
               />
               <label
                 htmlFor="checkbox"
@@ -579,7 +579,7 @@ export default function Page() {
                 }}
                 type="checkbox"
                 value=""
-                className="mx-5 h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                className="mx-5 size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-p1-green"
               />
               <label
                 htmlFor="checkbox"
@@ -599,7 +599,7 @@ export default function Page() {
                 }}
                 type="checkbox"
                 value=""
-                className="mx-5 h-5 w-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                className="mx-5 size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:ring-offset-gray-800 dark:focus:ring-p1-green"
               />
               <label
                 htmlFor="checkbox"
@@ -622,7 +622,7 @@ export default function Page() {
               <input
                 type="text"
                 id="answerwhattodo"
-                className="mx-5 block w-11/12 rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-cyan dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                className="mx-5 block w-11/12 rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-cyan dark:placeholder:text-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
                 placeholder="Ваш ответ"
                 required
               />
@@ -639,7 +639,7 @@ export default function Page() {
               <input
                 type="text"
                 id="organization"
-                className="mx-5 block w-11/12 rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-cyan dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                className="mx-5 block w-11/12 rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-cyan dark:placeholder:text-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
                 placeholder="Иванов Иван Иванович"
                 required
               />
@@ -656,7 +656,7 @@ export default function Page() {
               <input
                 type="text"
                 id="nicname"
-                className="mx-5 block w-11/12 rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-cyan dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                className="mx-5 block w-11/12 rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-cyan dark:placeholder:text-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
                 placeholder="Ник-Имя"
                 required
               />
@@ -673,7 +673,7 @@ export default function Page() {
               <input
                 type="date"
                 id="birthday"
-                className="mx-5 block w-11/12 rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-cyan dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                className="mx-5 block w-11/12 rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-cyan dark:placeholder:text-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
                 placeholder="Дата рождения"
                 required
               />
@@ -690,7 +690,7 @@ export default function Page() {
               <input
                 type="text"
                 id="tag"
-                className="mx-5 block w-11/12 rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-cyan dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                className="mx-5 block w-11/12 rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-cyan dark:placeholder:text-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
                 placeholder="Хэш-Тэг"
                 required
               />
@@ -707,7 +707,7 @@ export default function Page() {
               <input
                 type="text"
                 id="skils"
-                className="mx-5 block w-11/12 rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-cyan dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                className="mx-5 block w-11/12 rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-cyan dark:placeholder:text-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
                 placeholder="Навыки/Умения"
                 required
               />
@@ -724,7 +724,7 @@ export default function Page() {
               <input
                 type="text"
                 id="phone"
-                className="mx-5 block w-11/12 rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-cyan dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                className="mx-5 block w-11/12 rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-cyan dark:placeholder:text-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
                 placeholder="Номер телефона"
                 required
               />
@@ -741,7 +741,7 @@ export default function Page() {
               <input
                 type="text"
                 id="email"
-                className="mx-5 block w-11/12 rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-cyan dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                className="mx-5 block w-11/12 rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-cyan dark:placeholder:text-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
                 placeholder="e-mail"
                 required
               />
@@ -757,7 +757,7 @@ export default function Page() {
               <textarea
                 id="message"
                 rows={4}
-                className="mx-5 block w-11/12 rounded-lg border-2 border-gray-300 bg-p2-white2 p-2.5 text-sm text-p1-darkgreen focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
+                className="mx-5 block w-11/12 rounded-lg border-2 border-gray-300 bg-p2-white2 p-2.5 text-sm text-p1-darkgreen focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder:text-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
                 placeholder="Описание причин по которым Вы хотите присоединиться к GAA"
               ></textarea>
             </div>
@@ -774,7 +774,7 @@ export default function Page() {
               <input
                 type="text"
                 id="site"
-                className="mx-5 block w-11/12 rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-cyan dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                className="mx-5 block w-11/12 rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-cyan dark:placeholder:text-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
                 placeholder="Интернет сайт www://"
                 required
               />
@@ -791,7 +791,7 @@ export default function Page() {
               <input
                 type="text"
                 id="Telegram"
-                className="mx-5 block w-11/12 rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-cyan dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                className="mx-5 block w-11/12 rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-cyan dark:placeholder:text-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
                 placeholder="Telegram"
                 required
               />
@@ -808,7 +808,7 @@ export default function Page() {
               <input
                 type="text"
                 id="YouTube"
-                className="mx-5 block w-11/12 rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-cyan dark:placeholder-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                className="mx-5 block w-11/12 rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-cyan dark:placeholder:text-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
                 placeholder="YouTube"
                 required
               />
@@ -819,11 +819,11 @@ export default function Page() {
                   <div className="mx-5 block w-full items-center justify-center">
                     <label
                       htmlFor="dropzone-file"
-                      className="flex h-full w-full cursor-pointer flex-col items-center justify-center rounded-lg border-2 border-dashed border-gray-300 bg-gray-50 hover:bg-gray-100 dark:border-gray-600 dark:bg-gray-700 dark:hover:border-gray-500 dark:hover:bg-gray-800"
+                      className="flex size-full cursor-pointer flex-col items-center justify-center rounded-lg border-2 border-dashed border-gray-300 bg-gray-50 hover:bg-gray-100 dark:border-gray-600 dark:bg-gray-700 dark:hover:border-gray-500 dark:hover:bg-gray-800"
                     >
                       <div className="flex flex-col items-center justify-center pb-6 pt-5">
                         <svg
-                          className="mb-4 h-8 w-8 text-gray-500 dark:text-gray-400"
+                          className="mb-4 size-8 text-gray-500 dark:text-gray-400"
                           aria-hidden="true"
                           xmlns="http://www.w3.org/2000/svg"
                           fill="none"

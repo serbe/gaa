@@ -109,7 +109,7 @@ export default function Page() {
               <div className="my-5">
                 <Link
                   href="#12"
-                  className="text-p1-darkgreПартнерыПартнерами являются обладатели лицензий NFT Promoter, National, Globalen inline-block w-11/12 rounded-xl border-2 border-p2-orange bg-p1-white px-10 py-8 shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p2-orange hover:text-p1-white dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:border-amber-400 dark:hover:bg-amber-800 dark:hover:text-amber-200"
+                  className="inline-block w-11/12 rounded-xl border-2 border-p2-orange bg-p1-white px-10 py-8 text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p2-orange hover:text-p1-white dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:border-amber-400 dark:hover:bg-amber-800 dark:hover:text-amber-200"
                 >
                   Participants table
                 </Link>
@@ -121,7 +121,7 @@ export default function Page() {
       <div className="md:pb-96"></div>
       <div id="3" className="pt-10"></div>
       <div className="flex flex-row justify-center md:pb-5">
-        <div className="md:basis-5/5">
+        <div className="md:basis-5">
           <div className="text-center text-2xl font-bold text-p1-darkgreen md:pt-4 md:text-4xl dark:text-p1-cyan">
             Partners
           </div>

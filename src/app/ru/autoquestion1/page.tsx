@@ -32,7 +32,7 @@ function ModalWindow({
       aria-hidden={viewModal}
       className={`fixed z-50 ${viewModal ? 'hidden' : ''} h-[calc(100%-1rem)] max-h-full w-full items-center justify-center overflow-y-auto overflow-x-hidden backdrop-blur-sm md:inset-0`}
     >
-      <div className="relative mx-auto my-auto max-h-full w-full p-4 md:w-3/5">
+      <div className="relative m-auto max-h-full w-full p-4 md:w-3/5">
         {/* <!-- Modal content --> */}
         <div className="relative rounded-lg border-4 border-p2-orange bg-p1-white shadow md:rounded-3xl dark:bg-p1-deepdarkgreen">
           {/* <!-- Modal header --> */}
@@ -42,14 +42,14 @@ function ModalWindow({
             </p>
             <button
               type="button"
-              className="ms-auto inline-flex h-8 w-8 items-center justify-center rounded-lg bg-transparent text-sm text-gray-400 hover:bg-gray-200 hover:text-gray-900 dark:hover:bg-gray-600 dark:hover:text-white"
+              className="ms-auto inline-flex size-8 items-center justify-center rounded-lg bg-transparent text-sm text-gray-400 hover:bg-gray-200 hover:text-gray-900 dark:hover:bg-gray-600 dark:hover:text-white"
               data-modal-hide="question-modal"
               onClick={() => {
                 setViewModal(!viewModal);
               }}
             >
               <svg
-                className="h-3 w-3"
+                className="size-3"
                 aria-hidden="true"
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -184,7 +184,7 @@ export default function Page() {
                     type="radio"
                     value=""
                     name="list-radio"
-                    className="h-5 w-5 border-gray-300 bg-gray-100 text-p2-orange dark:border-p2-orange dark:bg-gray-600"
+                    className="size-5 border-gray-300 bg-gray-100 text-p2-orange dark:border-p2-orange dark:bg-gray-600"
                   />
                   <label
                     htmlFor="list-radio-eleven"
@@ -207,7 +207,7 @@ export default function Page() {
                     type="radio"
                     value=""
                     name="list-radio"
-                    className="h-5 w-5 border-gray-300 bg-gray-100 text-p2-orange dark:border-p2-orange dark:bg-gray-600"
+                    className="size-5 border-gray-300 bg-gray-100 text-p2-orange dark:border-p2-orange dark:bg-gray-600"
                   />
                   <label
                     htmlFor="list-radio-twelve"
@@ -229,7 +229,7 @@ export default function Page() {
                     type="radio"
                     value=""
                     name="list-radio"
-                    className="h-5 w-5 border-gray-300 bg-gray-100 text-p2-orange dark:border-p2-orange dark:bg-gray-600"
+                    className="size-5 border-gray-300 bg-gray-100 text-p2-orange dark:border-p2-orange dark:bg-gray-600"
                   />
                   <label
                     htmlFor="list-radio-thirteen"
@@ -251,7 +251,7 @@ export default function Page() {
                     type="radio"
                     value=""
                     name="list-radio"
-                    className="h-5 w-5 border-gray-300 bg-gray-100 text-p2-orange dark:border-p2-orange dark:bg-gray-600"
+                    className="size-5 border-gray-300 bg-gray-100 text-p2-orange dark:border-p2-orange dark:bg-gray-600"
                   />
                   <label
                     htmlFor="list-radio-fourteen"

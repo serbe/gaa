@@ -79,7 +79,7 @@ export default function Page() {
             alt="Driver4"
           />
 
-          <p className="pb-2 pt-2 text-base">Racing car and racing drivers who have joined Web3</p>
+          <p className="py-2 text-base">Racing car and racing drivers who have joined Web3</p>
           <div className="py-5">
             <Link
               href="/discoveryliders"
@@ -232,7 +232,7 @@ export default function Page() {
               Create NFT
             </Link>
           </div>
-          <div className="pb-4 pt-4"></div>
+          <div className="py-4"></div>
         </div>
       </div>
       <div className="md:h-96"> </div>
@@ -272,7 +272,7 @@ export default function Page() {
               Create NFT
             </Link>
           </div>
-          <div className="pb-4 pt-4"></div>
+          <div className="py-4"></div>
         </div>
       </div>
       <div className="md:h-96"> </div>
@@ -289,7 +289,7 @@ export default function Page() {
         </p>
       </div>
       <div className="m-5 grid grid-cols-1 gap-2 place-self-center rounded-3xl border-p1-darkgreen p-5 text-center text-p1-darkgreen md:grid-cols-3 md:border-4 md:shadow-lg dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
-        <div className="mb-4 mt-4">
+        <div className="my-4">
           <p className="pb-2 text-2xl">Promoter License</p>
           <Image
             className="relative mb-4 inline-block w-3/5 rounded-3xl border-2 border-amber-600 shadow-lg md:w-4/5"
@@ -319,7 +319,7 @@ export default function Page() {
             Create NFT
           </Link>
         </div>
-        <div className="mb-5 mt-5">
+        <div className="my-5">
           <p className="pb-2 text-2xl">Local License</p>
 
           <Image
@@ -352,7 +352,7 @@ export default function Page() {
           </Link>
         </div>
 
-        <div className="mb-5 mt-5">
+        <div className="my-5">
           <p className="pb-2 text-2xl">Global License</p>
 
           <Image
