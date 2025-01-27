@@ -30,7 +30,7 @@ export default function Page() {
                     </div>
                     <div id="1"></div>
                     <div className="z-10 rounded-3xl border-2 bg-amber-500 md:sticky md:top-16 dark:border-amber-700 dark:bg-amber-950">
-                      <div className="grid-cols-1 grid flex-wrap-reverse gap-2 md:w-full md:grid-cols-2">
+                      <div className="grid grid-cols-1 flex-wrap-reverse gap-2 md:w-full md:grid-cols-2">
                         <div className="place-items-center p-2">
                           <Image
                             className="relative mb-4 inline-block w-max rounded-3xl border-2 border-p2-orange shadow-lg"
@@ -193,7 +193,7 @@ export default function Page() {
                   Добавить лого спонсоров на награды
                 </p>
               </div>
-              <div className="grid-cols-1 grid flex-wrap-reverse gap-2 md:w-full md:grid-cols-4">
+              <div className="grid grid-cols-1 flex-wrap-reverse gap-2 md:w-full md:grid-cols-4">
                 <div className="flex items-center text-p1-white">
                   <div className="place-items-center p-2">
                     <form className="mx-auto max-w-2xl">
@@ -773,7 +773,7 @@ export default function Page() {
                   }}
                   type="checkbox"
                   value=""
-                  className="focus:ring-p1-cyan size-4 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                  className="size-4 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                 />
                 <label
                   htmlFor="checkbox"

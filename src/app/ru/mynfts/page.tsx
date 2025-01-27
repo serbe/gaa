@@ -580,7 +580,7 @@ export default function Home() {
 
       <div className="flex w-screen place-content-between gap-2 px-6">
         <div className="w-3/12 pt-2">
-          <div className="text-p1-darkgreen mb-2 w-full rounded-2xl border border-p1-green bg-p1-white text-xl shadow-lg dark:bg-p1-deepdarkgreen">
+          <div className="mb-2 w-full rounded-2xl border border-p1-green bg-p1-white text-xl text-p1-darkgreen shadow-lg dark:bg-p1-deepdarkgreen">
             <details className="m-2">
               <summary className="relative flex cursor-pointer justify-start py-2">
                 <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
@@ -641,7 +641,7 @@ export default function Home() {
             </details>
           </div>
 
-          <div className="text-p1-darkgreen mb-2 w-full rounded-2xl border border-p1-green bg-p1-white text-xl shadow-lg dark:bg-p1-deepdarkgreen">
+          <div className="mb-2 w-full rounded-2xl border border-p1-green bg-p1-white text-xl text-p1-darkgreen shadow-lg dark:bg-p1-deepdarkgreen">
             <details className="m-2">
               <summary className="relative flex cursor-pointer justify-start py-2">
                 <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
@@ -686,7 +686,7 @@ export default function Home() {
             </details>
           </div>
 
-          <div className="text-p1-darkgreen mb-2 w-full rounded-2xl border border-p1-green bg-p1-white text-xl shadow-lg dark:bg-p1-deepdarkgreen">
+          <div className="mb-2 w-full rounded-2xl border border-p1-green bg-p1-white text-xl text-p1-darkgreen shadow-lg dark:bg-p1-deepdarkgreen">
             <details className="m-2">
               <summary className="relative flex cursor-pointer justify-start py-2">
                 <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
@@ -722,7 +722,7 @@ export default function Home() {
                     }}
                     type="checkbox"
                     value=""
-                    className="focus:ring-p1-cyan size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                    className="size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                   />
                   <label
                     id="3"
@@ -741,7 +741,7 @@ export default function Home() {
                     }}
                     type="checkbox"
                     value=""
-                    className="focus:ring-p1-cyan size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                    className="size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                   />
                   <label
                     id="3"
@@ -759,7 +759,7 @@ export default function Home() {
             Traits
           </div>
 
-          <div className="text-p1-darkgreen mb-2 w-full rounded-2xl border border-p1-green bg-p1-white text-xl shadow-lg dark:bg-p1-deepdarkgreen">
+          <div className="mb-2 w-full rounded-2xl border border-p1-green bg-p1-white text-xl text-p1-darkgreen shadow-lg dark:bg-p1-deepdarkgreen">
             <details className="m-2">
               <summary className="relative flex cursor-pointer justify-between py-2">
                 <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
@@ -798,7 +798,7 @@ export default function Home() {
                     }}
                     type="checkbox"
                     value=""
-                    className="focus:ring-p1-cyan size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                    className="size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                   />
                   <label
                     id="3"
@@ -818,7 +818,7 @@ export default function Home() {
                     }}
                     type="checkbox"
                     value=""
-                    className="focus:ring-p1-cyan size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                    className="size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                   />
                   <label
                     id="3"
@@ -833,7 +833,7 @@ export default function Home() {
             </details>
           </div>
 
-          <div className="text-p1-darkgreen mb-2 w-full rounded-2xl border border-p1-green bg-p1-white text-xl shadow-lg dark:bg-p1-deepdarkgreen">
+          <div className="mb-2 w-full rounded-2xl border border-p1-green bg-p1-white text-xl text-p1-darkgreen shadow-lg dark:bg-p1-deepdarkgreen">
             <details className="m-2">
               <summary className="relative flex cursor-pointer justify-between py-2">
                 <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
@@ -872,7 +872,7 @@ export default function Home() {
                     }}
                     type="checkbox"
                     value=""
-                    className="focus:ring-p1-cyan size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                    className="size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                   />
                   <label
                     id="3"
@@ -892,7 +892,7 @@ export default function Home() {
                     }}
                     type="checkbox"
                     value=""
-                    className="focus:ring-p1-cyan size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                    className="size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                   />
                   <label
                     id="3"
@@ -907,7 +907,7 @@ export default function Home() {
             </details>
           </div>
 
-          <div className="text-p1-darkgreen mb-2 w-full rounded-2xl border border-p1-green bg-p1-white text-xl shadow-lg dark:bg-p1-deepdarkgreen">
+          <div className="mb-2 w-full rounded-2xl border border-p1-green bg-p1-white text-xl text-p1-darkgreen shadow-lg dark:bg-p1-deepdarkgreen">
             <details className="m-2">
               <summary className="relative flex cursor-pointer justify-between py-2">
                 <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
@@ -946,7 +946,7 @@ export default function Home() {
                     }}
                     type="checkbox"
                     value=""
-                    className="focus:ring-p1-cyan size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                    className="size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                   />
                   <label
                     id="3"
@@ -966,7 +966,7 @@ export default function Home() {
                     }}
                     type="checkbox"
                     value=""
-                    className="focus:ring-p1-cyan size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                    className="size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                   />
                   <label
                     id="3"
@@ -985,7 +985,7 @@ export default function Home() {
             For Promoter/Local/Global licenses
           </div>
 
-          <div className="text-p1-darkgreen mb-2 w-full rounded-2xl border border-p1-green bg-p1-white text-xl shadow-lg dark:bg-p1-deepdarkgreen">
+          <div className="mb-2 w-full rounded-2xl border border-p1-green bg-p1-white text-xl text-p1-darkgreen shadow-lg dark:bg-p1-deepdarkgreen">
             <details className="m-2">
               <summary className="relative flex cursor-pointer justify-between py-2">
                 <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
@@ -1024,7 +1024,7 @@ export default function Home() {
                     }}
                     type="checkbox"
                     value=""
-                    className="focus:ring-p1-cyan size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                    className="size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                   />
                   <label
                     id="3"
@@ -1045,7 +1045,7 @@ export default function Home() {
                     }}
                     type="checkbox"
                     value=""
-                    className="focus:ring-p1-cyan size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                    className="size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                   />
                   <label
                     id="3"
@@ -1060,7 +1060,7 @@ export default function Home() {
             </details>
           </div>
 
-          <div className="text-p1-darkgreen mb-2 w-full rounded-2xl border border-p1-green bg-p1-white text-xl shadow-lg dark:bg-p1-deepdarkgreen">
+          <div className="mb-2 w-full rounded-2xl border border-p1-green bg-p1-white text-xl text-p1-darkgreen shadow-lg dark:bg-p1-deepdarkgreen">
             <details className="m-2">
               <summary className="relative flex cursor-pointer justify-between py-2">
                 <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
@@ -1099,7 +1099,7 @@ export default function Home() {
                     }}
                     type="checkbox"
                     value=""
-                    className="focus:ring-p1-cyan size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                    className="size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                   />
                   <label
                     id="3"
@@ -1119,7 +1119,7 @@ export default function Home() {
                     }}
                     type="checkbox"
                     value=""
-                    className="focus:ring-p1-cyan size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                    className="size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                   />
                   <label
                     id="3"
@@ -1138,7 +1138,7 @@ export default function Home() {
         <div className="flex w-9/12 grid-flow-row flex-wrap place-content-start gap-2 pt-2">
           {/* ... карточка 1 ...15x10 */}
 
-          <div className="text-p1-darkgreen mb-2 w-full rounded-2xl border border-p1-green bg-p1-white text-xl shadow-lg dark:bg-p1-deepdarkgreen">
+          <div className="mb-2 w-full rounded-2xl border border-p1-green bg-p1-white text-xl text-p1-darkgreen shadow-lg dark:bg-p1-deepdarkgreen">
             <details className="m-2">
               <summary className="relative flex cursor-pointer justify-between py-2">
                 <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
@@ -1262,7 +1262,7 @@ export default function Home() {
                             className="grid w-1/5 place-content-center rounded-br-xl border border-p1-darkgreen bg-p1-darkgreen text-center text-lg font-semibold shadow-lg shadow-p1-cyan transition-all duration-300 ease-in-out hover:scale-75 hover:border-p1-cyan hover:bg-p1-darkgreen hover:text-p1-white hover:shadow-2xl hover:shadow-p1-cyan hover:ring-p1-cyan focus:scale-75 focus:border-p1-cyan focus:ring-p1-cyan md:text-3xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
                           >
                             <Image
-                              className="bg-p1-darkgreen inline-block size-5 dark:bg-p1-deepdarkgreen dark:hover:bg-p1-deepdarkgreen"
+                              className="inline-block size-5 bg-p1-darkgreen dark:bg-p1-deepdarkgreen dark:hover:bg-p1-deepdarkgreen"
                               width={480}
                               height={480}
                               src="/Logo/shopping-cart-white.png"
@@ -1368,7 +1368,7 @@ export default function Home() {
                             className="grid w-1/5 place-content-center rounded-br-xl border border-p1-darkgreen bg-p1-darkgreen text-center text-lg font-semibold shadow-lg shadow-p1-cyan transition-all duration-300 ease-in-out hover:scale-75 hover:border-p1-cyan hover:bg-p1-darkgreen hover:text-p1-white hover:shadow-2xl hover:shadow-p1-cyan hover:ring-p1-cyan focus:scale-75 focus:border-p1-cyan focus:ring-p1-cyan md:text-3xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
                           >
                             <Image
-                              className="bg-p1-darkgreen inline-block size-6 dark:bg-p1-deepdarkgreen dark:hover:bg-p1-deepdarkgreen"
+                              className="inline-block size-6 bg-p1-darkgreen dark:bg-p1-deepdarkgreen dark:hover:bg-p1-deepdarkgreen"
                               width={480}
                               height={480}
                               src="/Logo/shopping-cart-white.png"
@@ -1471,7 +1471,7 @@ export default function Home() {
                             className="grid w-1/5 place-content-center rounded-br-xl border border-p1-darkgreen bg-p1-darkgreen text-center text-lg font-semibold shadow-lg shadow-p1-cyan transition-all duration-300 ease-in-out hover:scale-75 hover:border-p1-cyan hover:bg-p1-darkgreen hover:text-p1-white hover:shadow-2xl hover:shadow-p1-cyan hover:ring-p1-cyan focus:scale-75 focus:border-p1-cyan focus:ring-p1-cyan md:text-3xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
                           >
                             <Image
-                              className="bg-p1-darkgreen inline-block size-7 dark:bg-p1-deepdarkgreen dark:hover:bg-p1-deepdarkgreen"
+                              className="inline-block size-7 bg-p1-darkgreen dark:bg-p1-deepdarkgreen dark:hover:bg-p1-deepdarkgreen"
                               width={480}
                               height={480}
                               src="/Logo/shopping-cart-white.png"
@@ -1577,7 +1577,7 @@ export default function Home() {
                             className="grid w-1/5 place-content-center rounded-br-xl border border-p1-darkgreen bg-p1-darkgreen text-center text-lg font-semibold shadow-lg shadow-p1-cyan transition-all duration-300 ease-in-out hover:scale-75 hover:border-p1-cyan hover:bg-p1-darkgreen hover:text-p1-white hover:shadow-2xl hover:shadow-p1-cyan hover:ring-p1-cyan focus:scale-75 focus:border-p1-cyan focus:ring-p1-cyan md:text-3xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
                           >
                             <Image
-                              className="bg-p1-darkgreen inline-block size-9 dark:bg-p1-deepdarkgreen dark:hover:bg-p1-deepdarkgreen"
+                              className="inline-block size-9 bg-p1-darkgreen dark:bg-p1-deepdarkgreen dark:hover:bg-p1-deepdarkgreen"
                               width={480}
                               height={480}
                               src="/Logo/shopping-cart-white.png"
@@ -1594,7 +1594,7 @@ export default function Home() {
           </div>
 
           {/* ...Таблица 1... */}
-          <div className="text-p1-darkgreen mb-2 w-full rounded-2xl border border-p1-green bg-p1-white text-xl shadow-lg dark:bg-p1-deepdarkgreen">
+          <div className="mb-2 w-full rounded-2xl border border-p1-green bg-p1-white text-xl text-p1-darkgreen shadow-lg dark:bg-p1-deepdarkgreen">
             <details className="m-2">
               <summary className="relative flex cursor-pointer justify-between py-2">
                 <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
@@ -1825,7 +1825,7 @@ export default function Home() {
                                 }}
                                 type="checkbox"
                                 value=""
-                                className="focus:ring-p1-cyan size-4 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                                className="size-4 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                               />
                               <label
                                 htmlFor="checkbox "
@@ -1875,7 +1875,7 @@ export default function Home() {
                                 }}
                                 type="checkbox"
                                 value=""
-                                className="focus:ring-p1-cyan size-4 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                                className="size-4 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                               />
                               <label
                                 htmlFor="checkbox "
@@ -1925,7 +1925,7 @@ export default function Home() {
                                 }}
                                 type="checkbox"
                                 value=""
-                                className="focus:ring-p1-cyan size-4 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                                className="size-4 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                               />
                               <label
                                 htmlFor="checkbox "
@@ -1975,7 +1975,7 @@ export default function Home() {
                                 }}
                                 type="checkbox"
                                 value=""
-                                className="focus:ring-p1-cyan size-4 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                                className="size-4 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                               />
                               <label
                                 htmlFor="checkbox "
@@ -2023,7 +2023,7 @@ export default function Home() {
           </div>
 
           {/* ...Таблица 2... */}
-          <div className="text-p1-darkgreen mb-2 w-full rounded-2xl border border-p1-green bg-p1-white text-xl shadow-lg dark:bg-p1-deepdarkgreen">
+          <div className="mb-2 w-full rounded-2xl border border-p1-green bg-p1-white text-xl text-p1-darkgreen shadow-lg dark:bg-p1-deepdarkgreen">
             <details className="m-2">
               <summary className="relative flex cursor-pointer justify-between py-2">
                 <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
@@ -2202,7 +2202,7 @@ export default function Home() {
           </div>
 
           {/* ....Promoter/Local/Global Licenses ... Добавить лого спонсора.. */}
-          <div className="text-p1-darkgreen mb-2 w-full rounded-2xl border border-p1-green bg-p1-white text-xl shadow-lg dark:bg-p1-deepdarkgreen">
+          <div className="mb-2 w-full rounded-2xl border border-p1-green bg-p1-white text-xl text-p1-darkgreen shadow-lg dark:bg-p1-deepdarkgreen">
             <details className="m-2">
               <summary className="relative flex cursor-pointer justify-between py-2">
                 <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
@@ -2242,7 +2242,7 @@ export default function Home() {
                   <div className="md:basis-5">
                     <div className="pt-2 text-left">
                       Эмблемы и категории спонсоров
-                      <div className="place-items-center mt-5 grid grid-cols-2 gap-2 p-4 md:grid-cols-1 xl:grid-cols-4">
+                      <div className="mt-5 grid grid-cols-2 place-items-center gap-2 p-4 md:grid-cols-1 xl:grid-cols-4">
                         <div className="row-span-2 md:col-span-2">
                           <div>
                             <label
@@ -2574,7 +2574,7 @@ export default function Home() {
           <div></div>
 
           {/* ..Страница награждения... */}
-          <div className="text-p1-darkgreen mb-2 w-full rounded-2xl border border-p1-green bg-p1-white text-xl shadow-lg dark:bg-p1-deepdarkgreen">
+          <div className="mb-2 w-full rounded-2xl border border-p1-green bg-p1-white text-xl text-p1-darkgreen shadow-lg dark:bg-p1-deepdarkgreen">
             <details className="m-2">
               <summary className="relative flex cursor-pointer justify-between py-2">
                 <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
@@ -2711,7 +2711,7 @@ export default function Home() {
                                 }}
                                 type="checkbox"
                                 value=""
-                                className="focus:ring-p1-cyan size-4 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                                className="size-4 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                               />
                               <label
                                 htmlFor="checkbox "
@@ -2928,7 +2928,7 @@ export default function Home() {
                                 }}
                                 type="checkbox"
                                 value=""
-                                className="focus:ring-p1-cyan size-4 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                                className="size-4 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                               />
                               <label
                                 htmlFor="checkbox "
@@ -2999,7 +2999,7 @@ export default function Home() {
                                 }}
                                 type="checkbox"
                                 value=""
-                                className="focus:ring-p1-cyan size-4 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                                className="size-4 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                               />
                               <label
                                 htmlFor="checkbox "
@@ -3070,7 +3070,7 @@ export default function Home() {
                                 }}
                                 type="checkbox"
                                 value=""
-                                className="focus:ring-p1-cyan size-4 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                                className="size-4 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                               />
                               <label
                                 htmlFor="checkbox "
@@ -3141,7 +3141,7 @@ export default function Home() {
                                 }}
                                 type="checkbox"
                                 value=""
-                                className="focus:ring-p1-cyan size-4 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                                className="size-4 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                               />
                               <label
                                 htmlFor="checkbox "
@@ -3374,7 +3374,7 @@ export default function Home() {
           </div>
 
           {/* ..Страница проба... */}
-          <div className="text-p1-darkgreen mb-2 w-full rounded-2xl border border-p1-green bg-p1-white text-xl shadow-lg dark:bg-p1-deepdarkgreen">
+          <div className="mb-2 w-full rounded-2xl border border-p1-green bg-p1-white text-xl text-p1-darkgreen shadow-lg dark:bg-p1-deepdarkgreen">
             <details className="m-2">
               <summary className="relative flex cursor-pointer justify-between py-2">
                 <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">

@@ -786,7 +786,7 @@ export default function Home() {
 
       <div className="flex flex-wrap justify-center object-left md:flex-nowrap md:space-x-2 md:pt-5">
         <div className="mb-4 bg-p1-white shadow-lg dark:bg-p1-deepdarkgreen">
-          <div className="text-center flex flex-row place-content-around">
+          <div className="flex flex-row place-content-around text-center">
             <div className="grid grid-cols-1 p-2 text-center text-p1-darkgreen md:text-xl lg:text-2xl xl:grid-cols-2 dark:text-p1-cyan">
               <div className="mt-2 rounded-3xl border-2 bg-p2-white2 p-2 text-p1-darkgreen dark:border-p1-darkgreen dark:bg-p1-deepdarkgreen dark:text-p1-green">
                 <div className="flex flex-wrap md:flex-nowrap md:justify-between">

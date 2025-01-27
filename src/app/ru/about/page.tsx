@@ -541,7 +541,7 @@ export default function Page() {
         <div className="md:basis-1/6"></div>
       </div>
       <div id="9" className="md:pt-2"></div>
-      <div className="md:place-self-center rounden-3xl w-fulloverflow-x-auto snap-x py-5 md:h-full">
+      <div className="rounden-3xl w-fulloverflow-x-auto snap-x py-5 md:h-full md:place-self-center">
         <Swiper
           autoplay={{
             delay: 5500,

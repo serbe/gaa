@@ -58,7 +58,7 @@ export default function Page() {
                     </div>
                   </div>
 
-                  <div className="h-250 md:h-350 md:place-self-center w-full overflow-y-auto pt-5">
+                  <div className="h-250 md:h-350 w-full overflow-y-auto pt-5 md:place-self-center">
                     <Swiper
                       direction={'vertical'}
                       spaceBetween={1}

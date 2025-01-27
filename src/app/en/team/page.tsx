@@ -29,7 +29,7 @@ export default function Page() {
 
               <div className="mx-auto flex max-w-full flex-row justify-center space-y-2 p-2">
                 <details className="rounded-3xl p-2 text-center open:ring-1 open:ring-black/5 dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:hover:border-p1-green dark:hover:text-p1-cyan">
-                  <summary className="text-lg select-none space-y-4 font-semibold leading-6 text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
+                  <summary className="select-none space-y-4 text-lg font-semibold leading-6 text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
                     Mikhail Starodub
                     <p>Founder & President</p>
                   </summary>
@@ -60,7 +60,7 @@ export default function Page() {
 
               <div className="mx-auto flex max-w-full flex-row justify-center space-y-2 p-2">
                 <details className="rounded-3xl p-2 text-center open:ring-1 open:ring-black/5 dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:hover:border-p1-green dark:hover:text-p1-cyan">
-                  <summary className="text-lg select-none space-y-4 font-semibold leading-6 text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
+                  <summary className="select-none space-y-4 text-lg font-semibold leading-6 text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
                     Andrew Laus
                     <p>Co-Founder & Vice President</p>
                   </summary>
@@ -88,7 +88,7 @@ export default function Page() {
 
               <div className="mx-auto flex max-w-full flex-row justify-center space-y-2 p-2">
                 <details className="rounded-3xl p-2 text-center open:ring-1 open:ring-black/5 dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:hover:border-p1-green dark:hover:text-p1-cyan">
-                  <summary className="text-lg select-none space-y-4 font-semibold leading-6 text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
+                  <summary className="select-none space-y-4 text-lg font-semibold leading-6 text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
                     David Aghajanyan
                     <p>Co-Founder, CFO & IRO</p>
                   </summary>
@@ -118,7 +118,7 @@ export default function Page() {
               />
               <div className="mx-auto flex max-w-full flex-row justify-center space-y-2 p-2">
                 <details className="rounded-3xl p-2 text-center open:ring-1 open:ring-black/5 dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:hover:border-p1-green dark:hover:text-p1-cyan">
-                  <summary className="text-lg select-none space-y-4 font-semibold leading-6 text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
+                  <summary className="select-none space-y-4 text-lg font-semibold leading-6 text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
                     Valery Kostikov
                     <p>Co-Founder & Software developer</p>
                   </summary>
@@ -145,7 +145,7 @@ export default function Page() {
 
               <div className="mx-auto flex max-w-full flex-row justify-center space-y-2 p-2">
                 <details className="rounded-3xl p-2 text-center open:ring-1 open:ring-black/5 dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:hover:border-p1-green dark:hover:text-p1-cyan">
-                  <summary className="text-lg select-none space-y-4 font-semibold leading-6 text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
+                  <summary className="select-none space-y-4 text-lg font-semibold leading-6 text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
                     Lada Lehman
                     <p>Artist</p>
                   </summary>
@@ -174,7 +174,7 @@ export default function Page() {
 
               <div className="mx-auto flex max-w-full flex-row justify-center space-y-2 p-2">
                 <details className="rounded-3xl p-2 text-center open:ring-1 open:ring-black/5 dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:hover:border-p1-green dark:hover:text-p1-cyan">
-                  <summary className="text-lg select-none space-y-4 font-semibold leading-6 text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
+                  <summary className="select-none space-y-4 text-lg font-semibold leading-6 text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
                     Herman Benkovsky
                     <p>Co-Founder & CMO</p>
                   </summary>

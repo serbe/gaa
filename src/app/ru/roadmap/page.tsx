@@ -72,7 +72,7 @@ export default function Page() {
       </div>
 
       <div className="flex flex-row justify-center pb-2">
-        <div className="md:basis-5 md:basis-3/5">
+        <div className="md:basis-3/5 md:basis-5">
           <div
             id="2"
             className="px-2 text-center text-base font-semibold text-p1-darkgreen md:pt-4 md:text-xl dark:text-p1-green dark:hover:text-p1-cyan"
@@ -93,7 +93,7 @@ export default function Page() {
       </div>
 
       <div className="flex flex-row justify-center pb-2">
-        <div className="md:basis-5 md:basis-3/5">
+        <div className="md:basis-3/5 md:basis-5">
           <div
             id="3"
             className="px-2 text-center text-base font-semibold text-p1-darkgreen md:pt-4 md:text-xl dark:text-p1-green dark:hover:text-p1-cyan"

@@ -32,7 +32,7 @@ export default function Page() {
                     </div>
 
                     <div className="z-10 rounded-3xl border-2 bg-p3-blue py-5 md:sticky md:top-16 dark:border-p3-blue dark:bg-p3-black">
-                      <div className="grid-cols-1 grid flex-wrap-reverse gap-2 md:w-full md:grid-cols-3">
+                      <div className="grid grid-cols-1 flex-wrap-reverse gap-2 md:w-full md:grid-cols-3">
                         <div className="place-items-center p-2">
                           <Image
                             className="relative mb-4 inline-block w-max rounded-3xl border-2 border-p3-blue shadow-lg"
@@ -319,7 +319,7 @@ export default function Page() {
                   }}
                   type="checkbox"
                   value=""
-                  className="focus:ring-p1-cyan size-4 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                  className="size-4 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                 />
                 <label
                   htmlFor="checkbox"

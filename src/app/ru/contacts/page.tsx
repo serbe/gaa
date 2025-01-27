@@ -22,7 +22,7 @@ export default function Page() {
         <div className="rounded-3xl border-p1-darkgreen p-2 text-xl hover:border-p1-green md:m-5 md:border-4 md:p-6 md:hover:shadow-xl">
           <div className="grid grid-cols-1 gap-4 md:grid-cols-2">
             <div id="1">
-              <div className="font-bold pb-3 text-center text-sm text-p1-darkgreen md:px-5 md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
+              <div className="pb-3 text-center text-sm font-bold text-p1-darkgreen md:px-5 md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
                 Если вы хотите продвигать свое мероприятие с помощью Web3, создавать награды NFT или
                 быть представителем GAA в вашем регионе, заполните форму заявки, и мы свяжемся с
                 вами.
@@ -126,7 +126,7 @@ export default function Page() {
                   }}
                   type="checkbox"
                   value=""
-                  className="focus:ring-p1-cyan size-4 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                  className="size-4 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                 />
                 <label
                   id="3"

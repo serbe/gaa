@@ -181,7 +181,7 @@ export default function Page() {
           <div></div>
           <div></div>
 
-          <div className="text-center relative place-self-center text-3xl font-bold text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
+          <div className="relative place-self-center text-center text-3xl font-bold text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
             +
           </div>
           <div></div>
