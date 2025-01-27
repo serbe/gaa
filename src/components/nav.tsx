@@ -1,10 +1,12 @@
 'use client';
-import { useTranslations } from 'next-intl';
+import { useLocale, useTranslations } from 'next-intl';
 import { Link } from '@/i18n/routing';
 import { Dispatch, SetStateAction, useState } from 'react';
 
-const Navbar = ({ open, setter }: { open: boolean; setter: Dispatch<SetStateAction<boolean>> }) => {
-  const t = useTranslations('Nav');
+function Navbar({ open, setter }: { open: boolean; setter: Dispatch<SetStateAction<boolean>> }) {
+  const locale = useLocale();
+  console.log(locale);
+  const t = useTranslations('Navbar');
 
   const menuItems = [
     { name: t('about'), url: '/about' },
@@ -73,7 +75,7 @@ const Navbar = ({ open, setter }: { open: boolean; setter: Dispatch<SetStateActi
       </div>
     </nav>
   );
-};
+}
 
 const Nav = () => {
   const [open, setOpen] = useState(false);

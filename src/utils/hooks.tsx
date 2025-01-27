@@ -1,6 +1,12 @@
 import { useState, useEffect, Dispatch, SetStateAction } from 'react';
 
 function getWindowDimensions() {
+  const isClient = typeof window === 'object';
+
+  if (!isClient) {
+    return { width: 0, height: 0 };
+  }
+
   const { innerWidth: width, innerHeight: height } = window;
   return {
     width,

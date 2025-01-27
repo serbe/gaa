@@ -2,7 +2,6 @@
 
 import Image from 'next/image';
 import { Link } from '@/i18n/routing';
-// import Link from 'next/link'
 import { Autoplay, Mousewheel, Navigation } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { useState } from 'react';
@@ -43,7 +42,7 @@ export default function Home() {
             {/* кошелек, профиль, корзина */}
             <div className="flex justify-end space-x-6 px-2 md:px-10">
               <div>
-                <Link href="#" className="mx-auto justify-center">
+                <a href="#" className="mx-auto justify-center">
                   <Image
                     className="h-10 w-10 rounded-lg p-1 ring-p1-green transition-all delay-75 duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:ring-2 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:hover:bg-p1-deepdarkgreen"
                     width={480}
@@ -51,11 +50,11 @@ export default function Home() {
                     src="/Logo/wallet-nft.png"
                     alt="Bordered avatar"
                   />
-                </Link>
+                </a>
               </div>
 
               <div className="group relative inline-block">
-                <Link href="#" className="mx-auto justify-center">
+                <div className="mx-auto justify-center">
                   <Image
                     className="h-10 w-10 rounded-full p-1 ring-p1-green transition-all delay-75 duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:ring-2 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:hover:bg-p1-deepdarkgreen"
                     width={480}
@@ -66,7 +65,7 @@ export default function Home() {
 
                   <div className="invisible absolute left-1/2 z-10 mt-2 w-40 -translate-x-1/2 transform rounded-xl bg-p1-cyan bg-center p-4 text-gray-800 opacity-0 shadow-lg transition-all duration-300 group-hover:visible group-hover:opacity-100 md:w-52">
                     <div className="rounded-lg border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
-                      <Link href={'/profile'} className="mx-auto justify-center">
+                      <Link href="/profile" className="mx-auto justify-center">
                         <Image
                           className="h-10 w-10"
                           width={480}
@@ -78,7 +77,7 @@ export default function Home() {
                       </Link>
                     </div>
                     <div className="rounded-lg border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
-                      <Link href={'/dashboard'} className="mx-auto justify-center">
+                      <Link href="/dashboard" className="mx-auto justify-center">
                         <Image
                           className="h-10 w-10"
                           width={480}
@@ -90,7 +89,7 @@ export default function Home() {
                       </Link>
                     </div>
                     <div className="rounded-lg border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
-                      <Link href={'/marketplace'} className="mx-auto justify-center">
+                      <Link href="/marketplace" className="mx-auto justify-center">
                         <Image
                           className="h-10 w-10"
                           width={480}
@@ -102,7 +101,7 @@ export default function Home() {
                       </Link>
                     </div>
                     <div className="rounded-lg border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white hover:bg-opacity-50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
-                      <Link href={'/mynfts'} className="mx-auto justify-center">
+                      <Link href="/mynfts" className="mx-auto justify-center">
                         <Image
                           className="h-10 w-10"
                           width={480}
@@ -140,7 +139,7 @@ export default function Home() {
                       </Link>
                     </div>
                   </div>
-                </Link>
+                </div>
               </div>
               <div>
                 <Link href="#" className="mx-auto justify-center">
@@ -229,7 +228,6 @@ export default function Home() {
                         <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
                           <Image
                             className="relative inline-block w-8 px-1"
-                            layout="intrinsic"
                             width={50}
                             height={50}
                             src="/Logo/eth.png"
@@ -282,7 +280,6 @@ export default function Home() {
                         <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
                           <Image
                             className="relative inline-block w-8 px-1"
-                            layout="intrinsic"
                             width={50}
                             height={50}
                             src="/Logo/eth.png"
@@ -335,7 +332,6 @@ export default function Home() {
                         <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
                           <Image
                             className="relative inline-block w-8 px-1"
-                            layout="intrinsic"
                             width={50}
                             height={50}
                             src="/Logo/eth.png"
@@ -387,7 +383,6 @@ export default function Home() {
                         <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
                           <Image
                             className="relative inline-block w-8 px-1"
-                            layout="intrinsic"
                             width={50}
                             height={50}
                             src="/Logo/eth.png"
@@ -440,7 +435,6 @@ export default function Home() {
                         <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
                           <Image
                             className="relative inline-block w-8 px-1"
-                            layout="intrinsic"
                             width={50}
                             height={50}
                             src="/Logo/eth.png"
@@ -493,7 +487,6 @@ export default function Home() {
                         <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
                           <Image
                             className="relative inline-block w-8 px-1"
-                            layout="intrinsic"
                             width={50}
                             height={50}
                             src="/Logo/eth.png"
@@ -546,7 +539,6 @@ export default function Home() {
                         <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
                           <Image
                             className="relative inline-block w-8 px-1"
-                            layout="intrinsic"
                             width={50}
                             height={50}
                             src="/Logo/eth.png"
@@ -599,7 +591,6 @@ export default function Home() {
                         <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
                           <Image
                             className="relative inline-block w-8 px-1"
-                            layout="intrinsic"
                             width={50}
                             height={50}
                             src="/Logo/eth.png"
@@ -2362,7 +2353,6 @@ export default function Home() {
                                 Price:
                                 <Image
                                   className="relative inline-block w-4 space-x-4 px-1"
-                                  layout="intrinsic"
                                   width={50}
                                   height={50}
                                   src="/Logo/eth1.png"
@@ -2393,7 +2383,6 @@ export default function Home() {
                                 <div className="text-center text-xs leading-3">
                                   <Image
                                     className="relative inline-block w-3 px-0.5"
-                                    layout="intrinsic"
                                     width={50}
                                     height={50}
                                     src="/Logo/eth1.png"
@@ -2478,7 +2467,6 @@ export default function Home() {
                                 Price:
                                 <Image
                                   className="relative inline-block w-5 space-x-4 px-1"
-                                  layout="intrinsic"
                                   width={50}
                                   height={50}
                                   src="/Logo/eth1.png"
@@ -2507,7 +2495,6 @@ export default function Home() {
                                 <p className="text-center text-base leading-3">
                                   <Image
                                     className="relative inline-block w-5 px-1"
-                                    layout="intrinsic"
                                     width={50}
                                     height={50}
                                     src="/Logo/eth1.png"
@@ -2592,7 +2579,6 @@ export default function Home() {
                                 Price:
                                 <Image
                                   className="relative inline-block w-6 px-1"
-                                  layout="intrinsic"
                                   width={50}
                                   height={50}
                                   src="/Logo/eth1.png"
@@ -2621,7 +2607,6 @@ export default function Home() {
                                 <p className="text-center text-lg leading-3">
                                   <Image
                                     className="relative inline-block w-5 px-1"
-                                    layout="intrinsic"
                                     width={50}
                                     height={50}
                                     src="/Logo/eth1.png"
@@ -2706,7 +2691,6 @@ export default function Home() {
                                 Price:
                                 <Image
                                   className="relative inline-block w-7 px-1"
-                                  layout="intrinsic"
                                   width={50}
                                   height={50}
                                   src="/Logo/eth1.png"
@@ -2737,7 +2721,6 @@ export default function Home() {
                                 <p className="text-center text-xl">
                                   <Image
                                     className="relative inline-block w-6 px-1"
-                                    layout="intrinsic"
                                     width={50}
                                     height={50}
                                     src="/Logo/eth1.png"
