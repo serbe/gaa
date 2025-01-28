@@ -29,7 +29,7 @@ export default function Home() {
   const cardWidth = 288;
 
   return (
-    <div className="mx-auto w-full font-serif">
+    <div className="font-serif">
       <JumpButton points={jumpPoints} />
 
       <div className="space-y-4 p-4">
@@ -896,7 +896,7 @@ export default function Home() {
 
         <div className="pb-4"> </div>
 
-        <div className="flex w-screen place-content-between gap-2 px-6">
+        <div className="flex place-content-center gap-2 px-6">
           <div id="toggleArea" className={`w-3/12 pt-2 ${visibleArea}`}>
             <div className="mb-2 w-full rounded-2xl border border-p1-green bg-p1-white text-xl text-p1-darkgreen shadow-lg dark:bg-p1-deepdarkgreen">
               <details className="m-2">
@@ -2262,7 +2262,7 @@ export default function Home() {
               </details>
             </div>
           </div>
-          <div className="flex w-9/12 grid-flow-row flex-wrap place-content-start gap-2 pt-2">
+          <div className="flex w-full grid-flow-row flex-wrap place-content-start gap-2 pt-2">
             {/* ... карточка 1 ...15x10 */}
 
             <div className="w-full rounded-2xl border border-p1-green bg-p1-white text-xl text-p1-darkgreen shadow-lg dark:bg-p1-deepdarkgreen">
