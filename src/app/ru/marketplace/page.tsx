@@ -21,6 +21,8 @@ const changeArea = (visibleArea: string): string => {
   return '';
 };
 
+
+
 export default function Home() {
   const [check, setCheck] = useState(false);
   const [visibleArea, setVisibleArea] = useState('');
@@ -836,7 +838,14 @@ export default function Home() {
           <div className="flex justify-end md:px-10">
             <div className="inline-flex w-full justify-end rounded-md" role="group">
               <div className="w-10">
-                <Link href="#" className="mx-auto justify-center">
+              <button
+                data-target="area2"
+                className="toggle-btn mx-auto justify-start"
+                id="toggleButton2"
+                onClick={() => {
+                  setVisibleArea(changeArea(visibleArea));
+                }}
+              >
                   <Image
                     className="size-10 rounded-sm p-1 ring-p1-gray transition-all delay-75 duration-300 ease-in-out hover:bg-p1-darkgreen hover:bg-opacity-50 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:bg-p1-green"
                     width={480}
@@ -844,7 +853,7 @@ export default function Home() {
                     src="/icon/line.png"
                     alt="line"
                   />
-                </Link>
+                </button>
               </div>
               <div className="w-10">
                 <Link href="#" className="mx-auto justify-center">
@@ -896,9 +905,9 @@ export default function Home() {
 
         <div className="pb-4"> </div>
 
-        <div className="inset-0 flex max-w-full place-content-center gap-2 px-6">
+        <div className="flex max-w-full place-content-center gap-2 px-6">
            {/* ... левый блок */}
-          <div id="toggleArea" className={`w-3/12  gap-2 pt-2 ${visibleArea}`}>
+          <div id="area1" className={`w-3/12  gap-2 pt-2 ${visibleArea}`}>
             <div className="mb-2 w-full rounded-2xl border border-p1-green bg-p1-white text-xl text-p1-darkgreen shadow-lg dark:bg-p1-deepdarkgreen">
               <details className="m-2">
                 <summary className="relative flex cursor-pointer justify-start py-2">
@@ -2266,6 +2275,300 @@ export default function Home() {
 
              {/* ... правый блок */}
           <div className="relative flex w-full max-w-full grid-flow-row flex-wrap place-content-start gap-2 overflow-hidden pt-2">
+           
+            {/* ...Строки  Таблица */}
+            <div id="area2" className={`inline-block h-96 w-full place-self-center overflow-x-auto overflow-y-auto rounded border ${visibleArea}`}>
+
+                  <div className="relative shadow-md sm:rounded-lg">
+                    <table className="text-left text-xl text-p1-darkgreen dark:text-p1-green">
+                      <thead className="sticky top-0 z-10 bg-gray-50 text-xs uppercase text-p1-darkgreen dark:bg-p1-deepdarkgreen dark:text-p1-green">
+                        <tr>
+                            <th scope="col" className="px-6 py-3">
+                              Add to cart
+                            </th>
+                            <th scope="col" className="px-6 py-3">
+                              <div className="flex w-32 items-center">
+                                Item
+                                <Link href="#">
+                                  <svg
+                                    className="ms-1.5 size-3"
+                                    aria-hidden="true"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    fill="currentColor"
+                                    viewBox="0 0 24 24"
+                                  >
+                                    <path d="M8.574 11.024h6.852a2.075 2.075 0 0 0 1.847-1.086 1.9 1.9 0 0 0-.11-1.986L13.736 2.9a2.122 2.122 0 0 0-3.472 0L6.837 7.952a1.9 1.9 0 0 0-.11 1.986 2.074 2.074 0 0 0 1.847 1.086Zm6.852 1.952H8.574a2.072 2.072 0 0 0-1.847 1.087 1.9 1.9 0 0 0 .11 1.985l3.426 5.05a2.123 2.123 0 0 0 3.472 0l3.427-5.05a1.9 1.9 0 0 0 .11-1.985 2.074 2.074 0 0 0-1.846-1.087Z" />
+                                  </svg>
+                                </Link>
+                              </div>
+                            </th>
+                            <th scope="col" className="px-6 py-3">
+                              <div className="flex items-center">
+                                Collection
+                                <Link href="#">
+                                  <svg
+                                    className="ms-1.5 size-3"
+                                    aria-hidden="true"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    fill="currentColor"
+                                    viewBox="0 0 24 24"
+                                  >
+                                    <path d="M8.574 11.024h6.852a2.075 2.075 0 0 0 1.847-1.086 1.9 1.9 0 0 0-.11-1.986L13.736 2.9a2.122 2.122 0 0 0-3.472 0L6.837 7.952a1.9 1.9 0 0 0-.11 1.986 2.074 2.074 0 0 0 1.847 1.086Zm6.852 1.952H8.574a2.072 2.072 0 0 0-1.847 1.087 1.9 1.9 0 0 0 .11 1.985l3.426 5.05a2.123 2.123 0 0 0 3.472 0l3.427-5.05a1.9 1.9 0 0 0 .11-1.985 2.074 2.074 0 0 0-1.846-1.087Z" />
+                                  </svg>
+                                </Link>
+                              </div>
+                            </th>
+                            <th scope="col" className="px-6 py-3">
+                              <div className="flex items-center">
+                                Name
+                                <Link href="#">
+                                  <svg
+                                    className="ms-1.5 size-3"
+                                    aria-hidden="true"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    fill="currentColor"
+                                    viewBox="0 0 24 24"
+                                  >
+                                    <path d="M8.574 11.024h6.852a2.075 2.075 0 0 0 1.847-1.086 1.9 1.9 0 0 0-.11-1.986L13.736 2.9a2.122 2.122 0 0 0-3.472 0L6.837 7.952a1.9 1.9 0 0 0-.11 1.986 2.074 2.074 0 0 0 1.847 1.086Zm6.852 1.952H8.574a2.072 2.072 0 0 0-1.847 1.087 1.9 1.9 0 0 0 .11 1.985l3.426 5.05a2.123 2.123 0 0 0 3.472 0l3.427-5.05a1.9 1.9 0 0 0 .11-1.985 2.074 2.074 0 0 0-1.846-1.087Z" />
+                                  </svg>
+                                </Link>
+                              </div>
+                            </th>
+                            <th scope="col" className="px-6 py-3">
+                              <div className="flex items-center">
+                                Number #
+                                <Link href="#">
+                                  <svg
+                                    className="ms-1.5 size-3"
+                                    aria-hidden="true"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    fill="currentColor"
+                                    viewBox="0 0 24 24"
+                                  >
+                                    <path d="M8.574 11.024h6.852a2.075 2.075 0 0 0 1.847-1.086 1.9 1.9 0 0 0-.11-1.986L13.736 2.9a2.122 2.122 0 0 0-3.472 0L6.837 7.952a1.9 1.9 0 0 0-.11 1.986 2.074 2.074 0 0 0 1.847 1.086Zm6.852 1.952H8.574a2.072 2.072 0 0 0-1.847 1.087 1.9 1.9 0 0 0 .11 1.985l3.426 5.05a2.123 2.123 0 0 0 3.472 0l3.427-5.05a1.9 1.9 0 0 0 .11-1.985 2.074 2.074 0 0 0-1.846-1.087Z" />
+                                  </svg>
+                                </Link>
+                              </div>
+                            </th>
+                            <th scope="col" className="px-6 py-3">
+                              <div className="flex items-center">
+                                Current Price
+                                <Link href="#">
+                                  <svg
+                                    className="ms-1.5 size-3"
+                                    aria-hidden="true"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    fill="currentColor"
+                                    viewBox="0 0 24 24"
+                                  >
+                                    <path d="M8.574 11.024h6.852a2.075 2.075 0 0 0 1.847-1.086 1.9 1.9 0 0 0-.11-1.986L13.736 2.9a2.122 2.122 0 0 0-3.472 0L6.837 7.952a1.9 1.9 0 0 0-.11 1.986 2.074 2.074 0 0 0 1.847 1.086Zm6.852 1.952H8.574a2.072 2.072 0 0 0-1.847 1.087 1.9 1.9 0 0 0 .11 1.985l3.426 5.05a2.123 2.123 0 0 0 3.472 0l3.427-5.05a1.9 1.9 0 0 0 .11-1.985 2.074 2.074 0 0 0-1.846-1.087Z" />
+                                  </svg>
+                                </Link>
+                              </div>
+                            </th>
+
+                            <th scope="col" className="px-6 py-3">
+                              <div className="flex items-center">
+                                Best Offer
+                                <Link href="#">
+                                  <svg
+                                    className="ms-1.5 size-3"
+                                    aria-hidden="true"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    fill="currentColor"
+                                    viewBox="0 0 24 24"
+                                  >
+                                    <path d="M8.574 11.024h6.852a2.075 2.075 0 0 0 1.847-1.086 1.9 1.9 0 0 0-.11-1.986L13.736 2.9a2.122 2.122 0 0 0-3.472 0L6.837 7.952a1.9 1.9 0 0 0-.11 1.986 2.074 2.074 0 0 0 1.847 1.086Zm6.852 1.952H8.574a2.072 2.072 0 0 0-1.847 1.087 1.9 1.9 0 0 0 .11 1.985l3.426 5.05a2.123 2.123 0 0 0 3.472 0l3.427-5.05a1.9 1.9 0 0 0 .11-1.985 2.074 2.074 0 0 0-1.846-1.087Z" />
+                                  </svg>
+                                </Link>
+                              </div>
+                            </th>
+                            <th scope="col" className="px-6 py-3">
+                              <div className="flex items-center">
+                                Last Sale
+                                <Link href="#">
+                                  <svg
+                                    className="ms-1.5 size-3"
+                                    aria-hidden="true"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    fill="currentColor"
+                                    viewBox="0 0 24 24"
+                                  >
+                                    <path d="M8.574 11.024h6.852a2.075 2.075 0 0 0 1.847-1.086 1.9 1.9 0 0 0-.11-1.986L13.736 2.9a2.122 2.122 0 0 0-3.472 0L6.837 7.952a1.9 1.9 0 0 0-.11 1.986 2.074 2.074 0 0 0 1.847 1.086Zm6.852 1.952H8.574a2.072 2.072 0 0 0-1.847 1.087 1.9 1.9 0 0 0 .11 1.985l3.426 5.05a2.123 2.123 0 0 0 3.472 0l3.427-5.05a1.9 1.9 0 0 0 .11-1.985 2.074 2.074 0 0 0-1.846-1.087Z" />
+                                  </svg>
+                                </Link>
+                              </div>
+                            </th>
+                            <th scope="col" className="px-6 py-3">
+                              <div className="flex items-center">
+                                Rarity
+                                <Link href="#">
+                                  <svg
+                                    className="ms-1.5 size-3"
+                                    aria-hidden="true"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    fill="currentColor"
+                                    viewBox="0 0 24 24"
+                                  >
+                                    <path d="M8.574 11.024h6.852a2.075 2.075 0 0 0 1.847-1.086 1.9 1.9 0 0 0-.11-1.986L13.736 2.9a2.122 2.122 0 0 0-3.472 0L6.837 7.952a1.9 1.9 0 0 0-.11 1.986 2.074 2.074 0 0 0 1.847 1.086Zm6.852 1.952H8.574a2.072 2.072 0 0 0-1.847 1.087 1.9 1.9 0 0 0 .11 1.985l3.426 5.05a2.123 2.123 0 0 0 3.472 0l3.427-5.05a1.9 1.9 0 0 0 .11-1.985 2.074 2.074 0 0 0-1.846-1.087Z" />
+                                  </svg>
+                                </Link>
+                              </div>
+                            </th>
+                            <th scope="col" className="px-6 py-3">
+                              <div className="flex items-center">
+                                Owner
+                                <Link href="#">
+                                  <svg
+                                    className="ms-1.5 size-3"
+                                    aria-hidden="true"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    fill="currentColor"
+                                    viewBox="0 0 24 24"
+                                  >
+                                    <path d="M8.574 11.024h6.852a2.075 2.075 0 0 0 1.847-1.086 1.9 1.9 0 0 0-.11-1.986L13.736 2.9a2.122 2.122 0 0 0-3.472 0L6.837 7.952a1.9 1.9 0 0 0-.11 1.986 2.074 2.074 0 0 0 1.847 1.086Zm6.852 1.952H8.574a2.072 2.072 0 0 0-1.847 1.087 1.9 1.9 0 0 0 .11 1.985l3.426 5.05a2.123 2.123 0 0 0 3.472 0l3.427-5.05a1.9 1.9 0 0 0 .11-1.985 2.074 2.074 0 0 0-1.846-1.087Z" />
+                                  </svg>
+                                </Link>
+                              </div>
+                            </th>
+                            <th scope="col" className="px-6 py-3">
+                              <div className="flex items-center">
+                                Time Listed
+                                <Link href="#">
+                                  <svg
+                                    className="ms-1.5 size-3"
+                                    aria-hidden="true"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    fill="currentColor"
+                                    viewBox="0 0 24 24"
+                                  >
+                                    <path d="M8.574 11.024h6.852a2.075 2.075 0 0 0 1.847-1.086 1.9 1.9 0 0 0-.11-1.986L13.736 2.9a2.122 2.122 0 0 0-3.472 0L6.837 7.952a1.9 1.9 0 0 0-.11 1.986 2.074 2.074 0 0 0 1.847 1.086Zm6.852 1.952H8.574a2.072 2.072 0 0 0-1.847 1.087 1.9 1.9 0 0 0 .11 1.985l3.426 5.05a2.123 2.123 0 0 0 3.472 0l3.427-5.05a1.9 1.9 0 0 0 .11-1.985 2.074 2.074 0 0 0-1.846-1.087Z" />
+                                  </svg>
+                                </Link>
+                              </div>
+                            </th>
+                            <th scope="col" className="px-6 py-3">
+                              <div className="flex items-center">
+                                Make Offer
+                                <Link href="#">
+                                  <svg
+                                    className="ms-1.5 size-3"
+                                    aria-hidden="true"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    fill="currentColor"
+                                    viewBox="0 0 24 24"
+                                  >
+                                    <path d="M8.574 11.024h6.852a2.075 2.075 0 0 0 1.847-1.086 1.9 1.9 0 0 0-.11-1.986L13.736 2.9a2.122 2.122 0 0 0-3.472 0L6.837 7.952a1.9 1.9 0 0 0-.11 1.986 2.074 2.074 0 0 0 1.847 1.086Zm6.852 1.952H8.574a2.072 2.072 0 0 0-1.847 1.087 1.9 1.9 0 0 0 .11 1.985l3.426 5.05a2.123 2.123 0 0 0 3.472 0l3.427-5.05a1.9 1.9 0 0 0 .11-1.985 2.074 2.074 0 0 0-1.846-1.087Z" />
+                                  </svg>
+                                </Link>
+                              </div>
+                            </th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr className="border-b bg-white dark:border-p1-green dark:bg-p1-deepdarkgreen">
+                            <th scope="row" className="whitespace-nowrap px-6 py-4 font-medium">
+                              <div className="flex items-center">
+                                <input
+                                  checked={check}
+                                  id="checkbox"
+                                  onChange={() => {
+                                    setCheck(!check);
+                                  }}
+                                  type="checkbox"
+                                  value=""
+                                  className="size-4 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                                />
+                                <label
+                                  htmlFor="checkbox "
+                                  className="ms-2 text-sm font-medium text-p1-darkgreen dark:text-p1-green"
+                                ></label>
+                              </div>
+                            </th>
+                            <td className="px-6 py-4">
+                              <div className="relative">
+                                <Link href="/card" className="mx-auto justify-center">
+                                  <Image
+                                    width={500}
+                                    height={500}
+                                    src="/HeroNFT/RaceLads/RaceLads1.png"
+                                    alt="RaceLads"
+                                    className="size-32 object-cover transition-transform duration-500 ease-in-out hover:scale-105"
+                                  />
+                                </Link>
+                              </div>
+                            </td>
+                            <td className="px-6 py-4">RaceLads</td>
+                            <td className="px-6 py-4">Joan</td>
+                            <td className="px-6 py-4 text-right"> 8888</td>
+                            <td className="px-6 py-4 text-right"> 15 ETH</td>
+                            <td className="px-6 py-4 text-right"> 0.25 ETH</td>
+                            <td className="px-6 py-4 text-right"> 0.15 ETH</td>
+                            <td className="px-6 py-4 text-right"> #77</td>
+                            <td className="px-6 py-4 text-right"> Jon </td>
+                            <td className="px-6 py-4 text-right"> 2h ago</td>
+                            <td className="px-6 py-4 text-right"> Сделать предложение</td>
+                          </tr>
+                          <tr className="border-b bg-white dark:border-p1-green dark:bg-p1-deepdarkgreen">
+                            <th scope="row" className="whitespace-nowrap px-6 py-4 font-medium">
+                              <div className="flex items-center">
+                                <input
+                                  checked={check}
+                                  id="checkbox"
+                                  onChange={() => {
+                                    setCheck(!check);
+                                  }}
+                                  type="checkbox"
+                                  value=""
+                                  className="size-4 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                                />
+                                <label
+                                  htmlFor="checkbox "
+                                  className="ms-2 text-sm font-medium text-p1-darkgreen dark:text-p1-green"
+                                ></label>
+                              </div>
+                            </th>
+                            <td className="px-6 py-4">
+                              <div className="relative">
+                                <Link href="/card" className="mx-auto justify-center">
+                                  <Image
+                                    width={500}
+                                    height={500}
+                                    src="/HeroNFT/Drivers/Driver4.png"
+                                    alt="Drivers"
+                                    className="size-32 object-cover transition-transform duration-500 ease-in-out hover:scale-105"
+                                  />
+                                </Link>
+                              </div>
+                            </td>
+                            <td className="px-6 py-4">RaceLads</td>
+                            <td className="px-6 py-4">3 ETH</td>
+                            <td className="px-6 py-4 text-right"> 8888</td>
+                            <td className="px-6 py-4 text-right"> 15 ETH</td>
+                            <td className="px-6 py-4 text-right"> 0.25 ETH</td>
+                            <td className="px-6 py-4 text-right"> 0.15 ETH</td>
+                            <td className="px-6 py-4 text-right"> #88</td>
+                            <td className="px-6 py-4 text-right"> Tsar </td>
+                            <td className="px-6 py-4 text-right"> 2h ago</td>
+                            <td className="px-6 py-4 text-right"> Сделать предложение</td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+           
+ {/* ... маленькие карточки  ... */}
+<div id="area3" className=''> Маленькие карточки </div>
+
+ {/* ... средние карточки  ... */}
+ <div id="area4" className=''> средние карточки</div>
+
+  {/* ... большие карточки  ... */}
+  <div id="area5" className=''> большие карточки</div>
+
+    {/* ... большие карточки  ... */}
+    <div id="area6" className=''> разного формата карточки</div>
+
             {/* ... карточка 1 ...15x10 */}
 
             <div className="w-full rounded-2xl border border-p1-green bg-p1-white text-xl text-p1-darkgreen shadow-lg dark:bg-p1-deepdarkgreen">
