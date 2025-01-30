@@ -187,32 +187,7 @@ export default function Home() {
                     alt="bt16"
                   />
 
-                  <div className="invisible absolute left-1/2 z-10 mt-2 w-60 -translate-x-1/2 rounded-xl bg-p1-cyan bg-center p-4 text-gray-800 opacity-0 shadow-lg transition-all duration-300 group-hover:visible group-hover:opacity-100 md:w-60">
-                    <div className="rounded-lg border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white/50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
-                      <Link href="#" className="mx-auto justify-center">
-                        <Image
-                          className="size-10"
-                          width={480}
-                          height={480}
-                          src="/icon/copy_link_green.png"
-                          alt="bt9"
-                        />
-                        Copy Link
-                      </Link>
-                    </div>
-                    <div className="rounded-lg border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white/50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
-                      <Link href="#" className="mx-auto justify-center">
-                        <Image
-                          className="size-10"
-                          width={480}
-                          height={480}
-                          src="/logo/twitterlogobird_green.png"
-                          alt="bt9"
-                        />
-                        Share on Twitter
-                      </Link>
-                    </div>
-                  </div>
+              
                 </Link>
               </div>
             </div>
@@ -2238,12 +2213,13 @@ export default function Home() {
                   Информация о спонсорах мероприятия для размещения на Наградах
                 </div>
 
-                <div className="flex flex-row justify-start pb-5">
-                  <div className="md:basis-5">
-                    <div className="pt-2 text-left">
+                <div className="inline-block pb-5">
+                  <div className="place-items-start md:basis-5">
+                    <div className="text-lef pt-2">
                       Эмблемы и категории спонсоров
-                      <div className="mt-5 grid grid-cols-2 place-items-center gap-2 p-4 md:grid-cols-1 xl:grid-cols-4">
-                        <div className="row-span-2 md:col-span-2">
+                      <div className=''>
+                      <div className="mt-5 grid grid-cols-1 gap-2 p-4 md:grid-cols-2 md:place-items-end xl:grid-cols-4">
+                        <div className="col-span-2 md:row-span-2">
                           <div>
                             <label
                               htmlFor="year"
@@ -2400,7 +2376,7 @@ export default function Home() {
                         >
                           +
                         </Link>
-                      </div>
+                      </div></div>
                     </div>
                   </div>
                 </div>

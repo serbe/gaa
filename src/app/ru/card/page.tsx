@@ -516,39 +516,7 @@ export default function Home() {
                 </details>
               </div>
             </div>
-            <div className="place-content-start px-2 py-1">
-              <div className="w-full rounded-2xl border border-p1-green bg-p1-white text-xl text-p1-darkgreen shadow-lg dark:bg-p1-deepdarkgreen">
-                <details className="m-2">
-                  <summary className="relative flex cursor-pointer justify-start py-2">
-                    <div className="px-2">
-                      <Image
-                        className="size-10 transition-all duration-300 ease-in-out hover:scale-125"
-                        width={480}
-                        height={480}
-                        src="/icon/about_green.png"
-                        alt="ph"
-                      />
-                    </div>
-                    <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
-                      Description
-                    </div>
-                  </summary>
-                  <div className="pl-4 pt-1 text-p1-darkgreen dark:text-p1-green">
-                    <div className="group relative">
-                      <div>
-                        <Link
-                          href="#"
-                          className="mx-auto justify-start text-2xl text-p1-green hover:text-p1-cyan"
-                        >
-                          by Global Automotive Association
-                        </Link>
-                      </div>
-                    </div>
-                  </div>
-                  <div>111</div>
-                </details>
-              </div>
-            </div>
+        
             <div className="place-content-start px-2 py-1">
               <div className="w-full rounded-2xl border border-p1-green bg-p1-white text-xl text-p1-darkgreen shadow-lg dark:bg-p1-deepdarkgreen">
                 <details className="m-2">
@@ -752,32 +720,7 @@ export default function Home() {
                             alt="bt16"
                           />
 
-                          <div className="invisible absolute left-1/2 z-10 mt-2 w-60 -translate-x-1/2 rounded-xl bg-p1-cyan bg-center p-4 text-gray-800 opacity-0 shadow-lg transition-all duration-300 group-hover:visible group-hover:opacity-100 md:w-60">
-                            <div className="rounded-lg border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white/50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
-                              <Link href="#" className="mx-auto justify-center">
-                                <Image
-                                  className="size-10"
-                                  width={480}
-                                  height={480}
-                                  src="/icon/copy_link_green.png"
-                                  alt="bt9"
-                                />
-                                Copy Link
-                              </Link>
-                            </div>
-                            <div className="rounded-lg border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white/50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
-                              <Link href="#" className="mx-auto justify-center">
-                                <Image
-                                  className="size-10"
-                                  width={480}
-                                  height={480}
-                                  src="/logo/twitterlogobird_green.png"
-                                  alt="bt9"
-                                />
-                                Share on Twitter
-                              </Link>
-                            </div>
-                          </div>
+                  
                         </Link>
                       </div>
                     </div>
@@ -1092,22 +1035,7 @@ export default function Home() {
                       </div>
                     </div>
                   </div>
-                  <div className="flex justify-start">
-                    <div className="justify-start text-xl text-p1-darkgreen dark:text-p1-green">
-                      <div className="">
-                        <Image
-                          className="size-7 p-0 transition-all delay-75 duration-300 ease-in-out hover:scale-125"
-                          width={480}
-                          height={480}
-                          src="/icon/pfps.png"
-                          alt="pfps"
-                        />
-                      </div>
-                    </div>
-                    <div className="justify-start px-2 text-xl text-p1-darkgreen dark:text-p1-green">
-                      <div className=""> PFPs</div>
-                    </div>
-                  </div>
+          
                 </div>
               </div>
             </div>
@@ -1161,20 +1089,20 @@ export default function Home() {
               <div className="my-5 grid grid-cols-1 place-content-around gap-4 2xl:grid-cols-3">
                 <div className="basis-1/2">
                   <div className="relative flex place-content-center">
-                    <div className="inline-flex w-full justify-center space-x-4 rounded-l-xl xl:text-xl">
+                    <div className="inline-flex h-20 w-full place-content-center rounded-l-xl xl:text-xl">
                       <Link
                         href="#"
-                        className="grid w-4/5 place-content-center rounded-l-xl border-2 border-p1-green bg-p1-white p-4 text-p1-darkgreen shadow-lg transition-all duration-300 ease-in-out hover:border-p1-darkgreen hover:bg-p2-white2 hover:text-p1-darkgreen hover:shadow-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan"
+                        className="relative flex w-4/5 place-content-center rounded-l-xl border-2 border-p1-green bg-p1-white p-4 text-p1-darkgreen shadow-lg transition-all duration-300 ease-in-out hover:border-p1-darkgreen hover:bg-p2-white2 hover:text-p1-darkgreen hover:shadow-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan"
                       >
-                        <div className="text-xl leading-3">Buy:</div>
+                        <div className="place-self-center text-center text-xl leading-3">Buy:</div>
                       </Link>
 
                       <Link
                         href="#"
-                        className="grid w-1/5 place-content-center rounded-r-xl border-y-2 border-r-2 border-p1-darkgreen bg-p1-white text-center text-lg font-semibold shadow-lg transition-all duration-300 ease-in-out hover:border-p1-darkgreen hover:bg-p2-white2 hover:shadow-xl hover:ring-p1-cyan focus:scale-95 focus:border-l-2 focus:border-p1-darkgreen focus:bg-p1-darkgreen focus:shadow-lg focus:ring-p1-cyan md:text-3xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-darkgreen dark:focus:text-p1-cyan"
+                        className="grid w-1/5 place-content-center rounded-r-xl border-y-2 border-r-2 border-p1-green bg-p1-white text-center text-lg font-semibold shadow-lg transition-all duration-300 ease-in-out hover:border-p1-darkgreen hover:bg-p2-white2 hover:shadow-xl hover:ring-p1-cyan focus:scale-95 focus:border-l-2 focus:border-p1-darkgreen focus:bg-p1-darkgreen focus:shadow-lg focus:ring-p1-cyan md:text-3xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-darkgreen dark:focus:text-p1-cyan"
                       >
                         <Image
-                          className="inline-block size-7 bg-p1-darkgreen dark:bg-p1-deepdarkgreen dark:hover:bg-p1-deepdarkgreen"
+                          className="inline-block size-7 focus:bg-p1-darkgreen dark:hover:bg-p1-deepdarkgreen"
                           width={480}
                           height={480}
                           src="/Logo/shopping-cart.png"
@@ -1185,29 +1113,31 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="basis-1/2">
-                  <div>
+                <div className="relative place-content-center">
+                <div className="inline-block w-full place-content-center rounded-l-xl xl:text-xl">
+
                     <Link
                       href="#"
-                      className="relative flex place-content-center rounded-xl border-2 border-p1-green bg-p1-white p-4 text-p1-darkgreen shadow-lg transition-all duration-300 ease-in-out hover:border-p1-darkgreen hover:bg-p2-white2 hover:text-p1-darkgreen hover:shadow-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan"
+                      className="relative flex h-20 place-content-center rounded-xl border-2 border-p1-green bg-p1-white p-4 text-p1-darkgreen shadow-lg transition-all duration-300 ease-in-out hover:border-p1-darkgreen hover:bg-p2-white2 hover:text-p1-darkgreen hover:shadow-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan"
                     >
                       <div>
                         <Image
-                          className="size-7 transition-all duration-300 ease-in-out hover:scale-125"
+                          className="size-7 place-self-center transition-all duration-300 ease-in-out hover:scale-125"
                           width={480}
                           height={480}
                           src="/icon/offer_green.png"
                           alt="offer"
                         />
                       </div>
-                      <div className="px-4">Sale</div>
+                      <div className="place-self-center px-4">Sale</div>
                     </Link>
-                  </div>
+                  </div> </div>
                 </div>
                 <div className="basis-1/2">
                   <div>
                     <Link
                       href="#"
-                      className="relative flex place-content-center rounded-xl border-2 border-p1-green bg-p1-white p-4 text-p1-darkgreen shadow-lg transition-all duration-300 ease-in-out hover:border-p1-darkgreen hover:bg-p2-white2 hover:text-p1-darkgreen hover:shadow-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan"
+                      className="relative flex h-20 place-content-center rounded-xl border-2 border-p1-green bg-p1-white p-4 text-p1-darkgreen shadow-lg transition-all duration-300 ease-in-out hover:border-p1-darkgreen hover:bg-p2-white2 hover:text-p1-darkgreen hover:shadow-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan"
                     >
                       <div>
                         <Image
@@ -1218,7 +1148,7 @@ export default function Home() {
                           alt="offer"
                         />
                       </div>
-                      <div className="px-4">Сделать предложение</div>
+                      <div className="place-self-center px-4">Сделать предложение</div>
                     </Link>
                   </div>
                 </div>
