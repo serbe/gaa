@@ -541,7 +541,7 @@ export default function Page() {
         <div className="md:basis-1/6"></div>
       </div>
       <div id="9" className="md:pt-2"></div>
-      <div className="rounden-3xl w-fulloverflow-x-auto snap-x py-5 md:h-full md:place-self-center">
+      <div className="w-full snap-x overflow-x-auto rounded-3xl md:w-4/5 md:place-self-center dark:border-p1-darkgreen dark:hover:border-p1-green">
         <Swiper
           autoplay={{
             delay: 5500,
@@ -557,7 +557,7 @@ export default function Page() {
             clickable: true,
           }}
           loop={true}
-          className="mySwyper size-full md:w-4/5"
+          className="mySwyper"
         >
           <SwiperSlide>
             <div>

@@ -16,7 +16,7 @@ function Navbar({ open, setter }: { open: boolean; setter: Dispatch<SetStateActi
     { name: t('racepoint'), url: '/racepoint' },
     { name: t('partners'), url: '/partners' },
     { name: t('socials'), url: '/socials' },
-    { name: t('dashboard'), url: '/dashboard' },
+    { name: t('marketplace'), url: '/marketplace' },
   ];
 
   return (
