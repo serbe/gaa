@@ -16,17 +16,17 @@ export default function Page() {
       <div className="flex flex-row justify-center pb-5">
         <div className="md:basis-3/5">
           <div className="rounded-3xl border-p2-orange px-2 md:my-5 md:space-y-6 md:border-4 md:p-6 md:hover:shadow-2xl dark:border-amber-600 dark:text-amber-600">
-            <div className="px-2 text-center text-xl text-p1-darkgreen md:pb-5 md:text-2xl dark:text-amber-600">
+            <div className="pt-2 text-center text-xl text-p1-darkgreen md:pb-5 md:text-2xl dark:text-amber-600">
               Racepoints - наша внутренняя система накопления &quot;очков&quot; на аккаунт.
             </div>
-            <div className="px-2 text-center text-xl text-p1-darkgreen md:pb-5 md:text-2xl dark:text-amber-600">
+            <div className="px-2 pt-4 text-center text-base text-p1-darkgreen md:pb-5 md:text-xl dark:text-amber-600">
               Создана система рейтинга по аналогии с автоспортом, информация выведена на доску
               почета на сайте (больше Racepoints = выше твое место в общем зачете).
             </div>
-            <div className="text-center text-2xl text-p1-darkgreen dark:text-amber-600">
+            <div className="text-center text-lg font-bold text-p1-darkgreen md:text-2xl dark:text-amber-600">
               Как зарабатывать:
             </div>
-            <ol className="list-decimal space-y-4 p-4 pb-5 text-p1-darkgreen dark:text-amber-600">
+            <ol className="list-decimal space-y-4 p-4 pb-5 text-base text-p1-darkgreen md:text-xl dark:text-amber-600">
               <li>
                 Заходить на сайт и решать квизы, которые обновляются раз в неделю, 1 аккаунт = один
                 квиз в неделю.
@@ -52,10 +52,10 @@ export default function Page() {
       <div className="flex flex-row justify-center pb-5">
         <div className="md:basis-3/5">
           <div className="rounded-3xl border-p2-orange p-2 md:my-5 md:space-y-6 md:border-4 md:p-6 md:hover:shadow-2xl dark:border-amber-600">
-            <div className="text-center text-xl text-p1-darkgreen md:text-2xl dark:text-amber-600">
+            <div className="pt-2 text-center text-xl font-bold text-p1-darkgreen md:text-2xl dark:text-amber-600">
               Приветственный бонус:
             </div>
-            <div className="text-center text-p1-darkgreen dark:text-amber-600">
+            <div className="text-center text-base text-p1-darkgreen md:text-xl dark:text-amber-600">
               Получи 100 приветственных Racepoints за регистрацию на сайте!
             </div>
           </div>
@@ -66,10 +66,10 @@ export default function Page() {
       <div className="flex flex-row justify-center pb-5">
         <div className="md:basis-3/5">
           <div className="rounded-3xl border-p2-orange p-2 md:my-5 md:space-y-6 md:border-4 md:p-6 md:hover:shadow-2xl dark:border-amber-600">
-            <div className="text-center text-xl text-p1-darkgreen md:text-2xl dark:text-amber-600">
+            <div className="text-center text-xl font-bold text-p1-darkgreen md:text-2xl dark:text-amber-600">
               Мы ценим конфиденциальность:
             </div>
-            <div className="text-center text-p1-darkgreen dark:text-amber-600">
+            <div className="text-center text-base text-p1-darkgreen md:text-xl dark:text-amber-600">
               Для регистрации достаточно Web3 кошелька (MetaMask и т.д.) или e-mail.
             </div>
             <div className="flex flex-row justify-center pb-5">
@@ -93,10 +93,10 @@ export default function Page() {
       <div className="flex flex-row justify-center pb-5">
         <div className="">
           <div className="rounded-3xl border-p2-orange p-2 md:my-5 md:space-y-6 md:border-4 md:p-6 md:hover:shadow-2xl dark:border-amber-600">
-            <div className="text-center text-xl text-p1-darkgreen md:text-2xl dark:text-amber-600">
+            <div className="text-center text-xl font-bold text-p1-darkgreen md:text-2xl dark:text-amber-600">
               Ежедневная награда
             </div>
-            <div className="text-center text-p1-darkgreen dark:text-amber-600">
+            <div className="text-center text-base text-p1-darkgreen md:text-xl dark:text-amber-600">
               Зарабатывай Racepoints ежедневно за посещение сайта!
             </div>
             <div className="flex flex-row justify-center pb-5">
@@ -154,10 +154,10 @@ export default function Page() {
       <div className="flex flex-row justify-center pb-5">
         <div className="md:basis-3/5">
           <div className="rounded-3xl border-p2-orange p-6 md:my-5 md:space-y-6 md:border-4 md:hover:shadow-2xl dark:border-amber-600">
-            <div className="text-center text-xl text-p1-darkgreen md:text-2xl dark:text-amber-600">
+            <div className="text-center text-xl font-bold text-p1-darkgreen md:text-2xl dark:text-amber-600">
               Реферальная программа
             </div>
-            <div className="text-center text-p1-darkgreen dark:text-amber-600">
+            <div className="text-center text-base text-p1-darkgreen md:text-xl dark:text-amber-600">
               Пригласи друга по реферальной ссылке - получи Racepoints.
             </div>
             <div className="flex flex-row justify-center pb-5">
@@ -374,10 +374,10 @@ export default function Page() {
       <div className="flex flex-row justify-center pb-5">
         <div className="md:basis-3/5">
           <div className="rounded-3xl border-p2-orange p-2 md:my-5 md:space-y-3 md:border-4 md:p-6 md:hover:shadow-2xl dark:border-amber-600">
-            <div className="pb-2 text-center text-2xl text-p1-darkgreen dark:text-amber-600">
+            <div className="pb-2 text-center text-2xl font-bold text-p1-darkgreen dark:text-amber-600">
               Racepoints начисляются за:
             </div>
-            <ul className="list-disc pb-2 text-p1-darkgreen md:px-5 dark:text-amber-600">
+            <ul className="list-disc pb-2 text-base text-p1-darkgreen md:px-5 md:text-xl dark:text-amber-600">
               <li> правильные ответы в викторинах</li>
               <li> пройденные опросы </li>
               <li> реферальную программу </li>
@@ -398,14 +398,14 @@ export default function Page() {
       <div className="flex flex-row justify-center pb-5">
         <div className="md:basis-3/5">
           <div className="rounded-3xl border-p2-orange p-6 md:my-5 md:space-y-6 md:border-4 md:hover:shadow-2xl dark:border-amber-600">
-            <div className="text-center text-2xl text-p1-darkgreen dark:text-amber-600">
+            <div className="text-center text-xl font-bold text-p1-darkgreen md:text-2xl dark:text-amber-600">
               Вашу активность мы оцениваем очками Racepoints!
             </div>
-            <div className="text-center text-2xl text-p1-darkgreen dark:text-amber-600">
+            <div className="text-center text-xl text-p1-darkgreen md:text-2xl dark:text-amber-600">
               Самые активные получат преимущества при создании NFT:
             </div>
 
-            <ol className="space-y-4 p-4 pb-5 text-center text-2xl text-p1-darkgreen dark:text-amber-600">
+            <ol className="space-y-4 p-4 pb-5 text-center text-xl text-p1-darkgreen md:text-2xl dark:text-amber-600">
               <li>Уровень 1 = -10% </li>
               <li>Уровень 2 = -20% </li>
               <li>Уровень 3 = -30% </li>
@@ -426,7 +426,7 @@ export default function Page() {
       <div className="flex flex-row justify-center pb-5">
         <div className="md:basis-3/5">
           <div className="rounded-3xl border-p2-orange p-6 md:my-5 md:space-y-6 md:border-4 md:hover:shadow-2xl dark:border-amber-600">
-            <ul className="list-disc space-y-3 px-5 text-p1-darkgreen dark:text-amber-600">
+            <ul className="list-disc space-y-3 px-5 text-base text-p1-darkgreen md:text-xl dark:text-amber-600">
               <li>среди всех зарегистрированных на сайте</li>
               <li>среди 10% самых активных пользователей зарегистрированных на сайте</li>
               <li>среди активных пользователей, продвигающих проект</li>
