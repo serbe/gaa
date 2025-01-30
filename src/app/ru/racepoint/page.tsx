@@ -73,13 +73,13 @@ export default function Page() {
               Для регистрации достаточно Web3 кошелька (MetaMask и т.д.) или e-mail.
             </div>
             <div className="flex flex-row justify-center pb-5">
-              <div className="basis-2/5 scale-95 duration-500 hover:scale-100">
-                <Link href={'/wallet'} className="mx-auto hover:drop-shadow-2xl">
+              <div className="basis-1/5 scale-95 duration-300 hover:scale-100">
+                <Link href={'/wallet'} className="mx-auto">
                   <Image
-                    className="relative mb-4 inline-block w-max rounded-xl border-2 border-p2-orange md:rounded-3xl"
+                    className="relative mb-4 inline-block"
                     width={1000}
                     height={1000}
-                    src="/Logo/ruWeb3Wallet.png"
+                    src="/Logo/wallet-nft.png"
                     alt="wallet"
                   />
                 </Link>
@@ -91,7 +91,7 @@ export default function Page() {
       <div id="3" className="md:pt-2"></div>
 
       <div className="flex flex-row justify-center pb-5">
-        <div className="md:basis-5">
+        <div className="">
           <div className="rounded-3xl border-p2-orange p-2 md:my-5 md:space-y-6 md:border-4 md:p-6 md:hover:shadow-2xl dark:border-amber-600">
             <div className="text-center text-xl text-p1-darkgreen md:text-2xl dark:text-amber-600">
               Ежедневная награда
@@ -216,7 +216,7 @@ export default function Page() {
       <div id="5" className="md:pt-2"></div>
 
       <div className="flex flex-row justify-center pb-5">
-        <div className="basis-5">
+        <div className="w-full">
           <div className="rounded-3xl border-p2-orange p-2 md:my-5 md:space-y-6 md:border-4 md:p-6 md:hover:shadow-2xl dark:border-amber-600">
             <div className="pb-2 text-center text-sm font-semibold text-p1-darkgreen md:text-2xl dark:text-amber-600">
               Участвуй в опросах и викторинах и зарабатывай Racepoints
@@ -275,7 +275,7 @@ export default function Page() {
       <div id="6" className="md:pt-2"></div>
 
       <div className="flex flex-row justify-center pb-5">
-        <div className="basis-5">
+        <div className="w-full">
           <div className="rounded-3xl border-p2-orange p-2 md:my-5 md:space-y-6 md:border-4 md:p-6 md:hover:shadow-2xl dark:border-amber-600">
             <div className="pb-2 text-center text-sm font-semibold text-p1-darkgreen md:text-2xl dark:text-amber-600">
               Отвечай на вопросы, связанные с миром автоспорта и автокультуры и зарабатывай
@@ -347,7 +347,7 @@ export default function Page() {
       <div id="7" className="md:pt-2"></div>
 
       <div className="flex flex-row place-self-center pb-5">
-        <div className="basis-5">
+        <div className="w-full">
           <div className="rounded-3xl border-p2-orange md:my-5 md:space-y-6 md:border-4 md:p-6 md:hover:shadow-2xl dark:border-amber-600">
             <div className="pb-2 text-center text-sm font-semibold text-p1-darkgreen md:text-2xl dark:text-amber-600">
               Получай тематические карточки и зарабатывай Racepoints
@@ -447,7 +447,7 @@ export default function Page() {
 
       <div id="13" className="md:pt-2"></div>
 
-      <div className="basis-1/5 place-self-center">
+      <div className="w-20 basis-1/5 place-self-center md:w-40">
         <Image width={150} height={150} src="/Hero/12.png" alt="Hero12" />
       </div>
     </div>
