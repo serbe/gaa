@@ -790,14 +790,14 @@ export default function Home() {
         <div className="grid grid-cols-2 justify-between p-1 md:grid-cols-2 2xl:grid-cols-2">
           <div className="flex justify-start space-x-1 md:px-10">
             <div>
-              <button
-                data-target="area1"
-                className="mx-auto justify-start"
-                id="toggleButton"
-                onClick={() => {
-                  setVisibleArea(1);
-                }}
-              >
+            <button
+                  data-target="area1"
+                  className="mx-auto justify-start"
+                  id="toggleButton1"
+                  onClick={() => {
+                    setVisibleArea(1);
+                  }}
+                >
                 <Image
                   className="size-10 rounded-sm p-1 ring-p1-gray transition-all delay-75 duration-300 ease-in-out hover:bg-p1-green/50 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:bg-p1-green"
                   width={480}
@@ -2293,6 +2293,7 @@ export default function Home() {
 
           {/* ... правый блок */}
           <div className="relative flex w-full max-w-full grid-flow-row flex-wrap place-content-start gap-2 overflow-hidden pt-2">
+          
             {/* ...Строки  Таблица */}
             <div
               id="area2"
@@ -2578,23 +2579,432 @@ export default function Home() {
 
             {/* ... маленькие карточки  ... */}
             <div id="area3" className={`${visibleArea == 3 ? '' : 'hidden'}`}>
-              Маленькие карточки{' '}
+            <div className="flex gap-4">
+            <div className="group relative h-[14.5rem] w-40 place-self-center overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-300 hover:shadow-lg hover:shadow-p1-cyan group-hover:shadow-sm dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
+                      <div>
+                        <div className="group invisible absolute right-1 top-1 z-10 inline-block duration-300 ease-in-out group-hover:visible group-hover:opacity-100">
+                          <Link
+                            href="#"
+                            className="z-50 grid w-6 place-content-center transition-all delay-75 duration-300 ease-in-out hover:scale-125"
+                          >
+                            <Image
+                              className="p-1"
+                              width={480}
+                              height={480}
+                              src="/Logo/heart-red.png"
+                              alt="Bordered avatar"
+                            />
+                          </Link>
+                        </div>
+                      </div>
+
+                      <div className="relative">
+                        <Link href="/card" className="mx-auto justify-center">
+                          <Image
+                            width={500}
+                            height={500}
+                            src="/HeroNFT/RaceLads/RaceLads1.png"
+                            alt="RaceLads"
+                            className="size-40 object-cover transition-transform duration-500 ease-in-out group-hover:scale-150"
+                          />
+                        </Link>
+                      </div>
+
+                      <div className="w-full bg-p2-white2/100 text-p1-darkgreen transition-transform duration-500 ease-in-out group-hover:translate-y-28 group-hover:shadow-xl group-hover:shadow-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:group-hover:text-p1-cyan dark:group-hover:shadow-p1-green">
+                        <div className="flex items-center justify-between">
+                          <div className="px-1 pt-1 text-left text-sm font-bold">RaceLad</div>
+                          <div className="px-1 pt-1 text-left text-sm font-bold"># 8888</div>
+                        </div>
+
+                        <div className="px-1 pb-12 pt-1">
+                          <div className="flex items-center justify-between">
+                            <div className="text-center">
+                              <p className="text-center text-xs">
+                                Price:
+                                <Image
+                                  className="relative inline-block w-4 space-x-4 px-1"
+                                  layout="intrinsic"
+                                  width={50}
+                                  height={50}
+                                  src="/Logo/eth1.png"
+                                  alt="eth"
+                                />
+                                0.001
+                              </p>
+                            </div>
+                          </div>
+                          <div className="space-x-4 text-left text-xs font-thin">
+                            Last sale: 1000 WETH
+                          </div>
+                        </div>
+                      </div>
+
+                      <div className="flex items-center justify-between">
+                        <div className="absolute bottom-0 left-0 h-8 w-40 translate-y-full bg-p1-darkgreen/100 text-center text-p2-white2 shadow-sm shadow-p1-green transition-transform duration-500 ease-in-out hover:bg-p1-darkgreen group-hover:translate-y-0 dark:bg-p1-deepdarkgreen">
+                          <div className="inline-flex h-8 w-40 justify-center text-sm" role="group">
+                            <Link
+                              href="#"
+                              className="grid w-4/5 place-content-center rounded-bl-xl border border-p1-darkgreen bg-p1-darkgreen text-center text-sm shadow-lg shadow-p1-cyan transition-all duration-300 ease-in-out hover:border-p1-cyan hover:bg-p1-darkgreen hover:text-p1-white hover:shadow-2xl hover:shadow-p1-cyan md:text-3xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                            >
+                              <div className="grid grid-cols-2 items-center justify-between gap-2">
+                                <div className="leading-2 text-xs">Buy:</div>
+                                <div className="text-center text-xs leading-3">
+                                  <Image
+                                    className="relative inline-block w-3 px-0.5"
+                                    layout="intrinsic"
+                                    width={50}
+                                    height={50}
+                                    src="/Logo/eth1.png"
+                                    alt="eth"
+                                  />
+                                  0.001
+                                </div>
+                              </div>
+                            </Link>
+
+                            <Link
+                              href="#"
+                              className="grid w-1/5 place-content-center rounded-br-xl border border-p1-darkgreen bg-p1-darkgreen text-center text-lg font-semibold shadow-lg shadow-p1-cyan transition-all duration-300 ease-in-out hover:scale-75 hover:border-p1-cyan hover:bg-p1-darkgreen hover:text-p1-white hover:shadow-2xl hover:shadow-p1-cyan hover:ring-p1-cyan focus:scale-75 focus:border-p1-cyan focus:ring-p1-cyan md:text-3xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                            >
+                              <Image
+                                className="inline-block size-5 bg-p1-darkgreen dark:bg-p1-deepdarkgreen dark:hover:bg-p1-deepdarkgreen"
+                                width={480}
+                                height={480}
+                                src="/Logo/shopping-cart-white.png"
+                                alt="Bordered avatar"
+                              />
+                            </Link>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    </div>
             </div>
 
             {/* ... средние карточки  ... */}
             <div id="area4" className={`${visibleArea == 4 ? '' : 'hidden'}`}>
-              средние карточки
+            <div className="flex gap-4">
+
+            <div className="group relative h-[21.5rem] w-60 place-self-center overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-300 hover:shadow-lg hover:shadow-p1-cyan group-hover:shadow-sm dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
+                      <div>
+                    
+                        <div className="group invisible absolute right-1 top-1 z-10 inline-block duration-300 ease-in-out group-hover:visible group-hover:opacity-100">
+                          <Link
+                            href="#"
+                            className="z-50 grid w-8 place-content-center transition-all delay-75 duration-300 ease-in-out hover:scale-125"
+                          >
+                            <Image
+                              className="p-1"
+                              width={480}
+                              height={480}
+                              src="/Logo/heart-red.png"
+                              alt="Bordered avatar"
+                            />
+                          </Link>
+                        </div>
+                      </div>
+
+                      <div className="relative">
+                        <Link href="/card" className="mx-auto justify-center">
+                          <Image
+                            width={500}
+                            height={500}
+                            src="/HeroNFT/RaceLads/RaceLads1.png"
+                            alt="RaceLads"
+                            className="size-60 object-cover transition-transform duration-500 ease-in-out group-hover:scale-150"
+                          />
+                        </Link>
+                      </div>
+
+                      <div className="w-full bg-p2-white2/100 p-1 text-p1-darkgreen transition-transform duration-500 ease-in-out group-hover:translate-y-28 group-hover:shadow-xl group-hover:shadow-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:group-hover:text-p1-cyan dark:group-hover:shadow-p1-green">
+                        <div className="flex items-center justify-between pt-1">
+                          <div className="px-2 text-left text-base font-bold">RaceLad</div>
+                          <div className="px-2 text-left text-base font-bold"># 2222</div>
+                        </div>
+
+                        <div className="px-2 pb-12 pt-2">
+                          <div className="flex items-center justify-between">
+                            <div className="text-center">
+                              <p className="text-center text-base">
+                                Price:
+                                <Image
+                                  className="relative inline-block w-5 space-x-4 px-1"
+                                  layout="intrinsic"
+                                  width={50}
+                                  height={50}
+                                  src="/Logo/eth1.png"
+                                  alt="eth"
+                                />
+                                0.001
+                              </p>
+                            </div>
+                          </div>
+                          <div className="text-left text-base font-thin"> Last sale: 1000 WETH</div>
+                        </div>
+                      </div>
+
+                      <div className="flex items-center justify-between">
+                        <div className="absolute bottom-0 left-0 h-[2.8rem] w-60 translate-y-full bg-p1-darkgreen/100 text-center text-p2-white2 shadow-sm shadow-p1-green transition-transform duration-500 ease-in-out hover:bg-p1-darkgreen group-hover:translate-y-0 dark:bg-p1-deepdarkgreen">
+                          <div
+                            className="inline-flex h-[2.8rem] w-60 justify-center text-sm"
+                            role="group"
+                          >
+                            <Link
+                              href="#"
+                              className="grid w-4/5 place-content-center rounded-bl-xl border border-p1-darkgreen bg-p1-darkgreen text-center text-base shadow-lg shadow-p1-cyan transition-all duration-300 ease-in-out hover:border-p1-cyan hover:bg-p1-darkgreen hover:text-p1-white hover:shadow-2xl hover:shadow-p1-cyan md:text-3xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                            >
+                              <div className="flex items-center justify-between space-x-4">
+                                <div className="text-base leading-4">Buy:</div>
+                                <p className="text-center text-base leading-3">
+                                  <Image
+                                    className="relative inline-block w-5 px-1"
+                                    layout="intrinsic"
+                                    width={50}
+                                    height={50}
+                                    src="/Logo/eth1.png"
+                                    alt="eth"
+                                  />
+                                  0.001
+                                </p>
+                              </div>
+                            </Link>
+
+                            <Link
+                              href="#"
+                              className="grid w-1/5 place-content-center rounded-br-xl border border-p1-darkgreen bg-p1-darkgreen text-center text-lg font-semibold shadow-lg shadow-p1-cyan transition-all duration-300 ease-in-out hover:scale-75 hover:border-p1-cyan hover:bg-p1-darkgreen hover:text-p1-white hover:shadow-2xl hover:shadow-p1-cyan hover:ring-p1-cyan focus:scale-75 focus:border-p1-cyan focus:ring-p1-cyan md:text-3xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                            >
+                              <Image
+                                className="inline-block size-6 bg-p1-darkgreen dark:bg-p1-deepdarkgreen dark:hover:bg-p1-deepdarkgreen"
+                                width={480}
+                                height={480}
+                                src="/Logo/shopping-cart-white.png"
+                                alt="Bordered avatar"
+                              />
+                            </Link>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
             </div>
+            </div>
+
 
             {/* ... большие карточки  ... */}
             <div id="area5" className={`${visibleArea == 5 ? '' : 'hidden'}`}>
-              большие карточки
+            <div className="flex gap-4">
+            <div className="group relative h-[28rem] w-80 place-self-center overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-300 hover:shadow-lg hover:shadow-p1-cyan group-hover:shadow-sm dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
+                      <div>
+                 
+                        <div className="group invisible absolute right-1 top-1 z-10 inline-block duration-300 ease-in-out group-hover:visible group-hover:opacity-100">
+                          <Link
+                            href="#"
+                            className="z-50 grid w-10 place-content-center transition-all delay-75 duration-300 ease-in-out hover:scale-125"
+                          >
+                            <Image
+                              className="p-1"
+                              width={480}
+                              height={480}
+                              src="/Logo/heart-red.png"
+                              alt="Bordered avatar"
+                            />
+                          </Link>
+                        </div>
+                      </div>
+
+                      <div className="relative">
+                        <Link href="/card" className="mx-auto justify-center">
+                          <Image
+                            width={500}
+                            height={500}
+                            src="/HeroNFT/RaceLads/RaceLads1.png"
+                            alt="RaceLads"
+                            className="size-80 object-cover transition-transform duration-500 ease-in-out group-hover:scale-150"
+                          />
+                        </Link>
+                      </div>
+
+                      <div className="w-full bg-p2-white2/100 p-1 text-p1-darkgreen transition-transform duration-500 ease-in-out group-hover:translate-y-28 group-hover:shadow-xl group-hover:shadow-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:group-hover:text-p1-cyan dark:group-hover:shadow-p1-green">
+                        <div className="flex items-center justify-between">
+                          <div className="px-4 text-left text-xl font-bold">RaceLad</div>
+                          <div className="px-4 text-left text-xl font-bold"># 3333</div>
+                        </div>
+
+                        <div className="px-4 pb-12 pt-4">
+                          <div className="flex items-center justify-between">
+                            <div className="text-center">
+                              <p className="text-center text-lg">
+                                Price:
+                                <Image
+                                  className="relative inline-block w-6 px-1"
+                                  layout="intrinsic"
+                                  width={50}
+                                  height={50}
+                                  src="/Logo/eth1.png"
+                                  alt="eth"
+                                />
+                                0.001
+                              </p>
+                            </div>
+                          </div>
+                          <div className="text-left text-lg font-thin"> Last sale: 1000 WETH</div>
+                        </div>
+                      </div>
+
+                      <div className="flex items-center justify-between">
+                        <div className="absolute bottom-0 left-0 w-full translate-y-full bg-p1-darkgreen/100 text-center text-p2-white2 shadow-sm shadow-p1-green transition-transform duration-500 ease-in-out hover:bg-p1-darkgreen group-hover:translate-y-0 dark:bg-p1-deepdarkgreen">
+                          <div
+                            className="inline-flex h-12 w-80 justify-center text-sm"
+                            role="group"
+                          >
+                            <Link
+                              href="#"
+                              className="grid w-4/5 place-content-center rounded-bl-xl border border-p1-darkgreen bg-p1-darkgreen text-center text-base shadow-lg shadow-p1-cyan transition-all duration-300 ease-in-out hover:border-p1-cyan hover:bg-p1-darkgreen hover:text-p1-white hover:shadow-2xl hover:shadow-p1-cyan md:text-3xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                            >
+                              <div className="flex items-center justify-between space-x-4">
+                                <div className="text-xl leading-5">Buy:</div>
+                                <p className="text-center text-lg leading-3">
+                                  <Image
+                                    className="relative inline-block w-5 px-1"
+                                    layout="intrinsic"
+                                    width={50}
+                                    height={50}
+                                    src="/Logo/eth1.png"
+                                    alt="eth"
+                                  />
+                                  0.001
+                                </p>
+                              </div>
+                            </Link>
+
+                            <Link
+                              href="#"
+                              className="grid w-1/5 place-content-center rounded-br-xl border border-p1-darkgreen bg-p1-darkgreen text-center text-lg font-semibold shadow-lg shadow-p1-cyan transition-all duration-300 ease-in-out hover:scale-75 hover:border-p1-cyan hover:bg-p1-darkgreen hover:text-p1-white hover:shadow-2xl hover:shadow-p1-cyan hover:ring-p1-cyan focus:scale-75 focus:border-p1-cyan focus:ring-p1-cyan md:text-3xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                            >
+                              <Image
+                                className="inline-block size-7 bg-p1-darkgreen dark:bg-p1-deepdarkgreen dark:hover:bg-p1-deepdarkgreen"
+                                width={480}
+                                height={480}
+                                src="/Logo/shopping-cart-white.png"
+                                alt="Bordered avatar"
+                              />
+                            </Link>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+</div>
             </div>
 
-            {/* ... большие карточки  ... */}
+            {/* ... самые большие карточки  ... */}
             <div id="area6" className={`${visibleArea == 6 ? '' : 'hidden'}`}>
-              разного формата карточки
+            <div className="flex gap-4">
+
+            <div className="group relative h-[39rem] w-[28rem] place-self-center overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-300 hover:shadow-lg hover:shadow-p1-cyan group-hover:shadow-sm dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
+                      <div>
+                      
+                        <div className="group invisible absolute right-1 top-1 z-10 inline-block duration-300 ease-in-out group-hover:visible group-hover:opacity-100">
+                          <Link
+                            href="#"
+                            className="z-50 grid w-12 place-content-center transition-all delay-75 duration-300 ease-in-out hover:scale-125"
+                          >
+                            <Image
+                              className="p-1"
+                              width={1000}
+                              height={1000}
+                              src="/Logo/heart-red.png"
+                              alt="Bordered avatar"
+                            />
+                          </Link>
+                        </div>
+                      </div>
+
+                      <div className="relative">
+                        <Link href="/card" className="mx-auto justify-center">
+                          <Image
+                            width={500}
+                            height={500}
+                            src="/HeroNFT/RaceLads/RaceLads1.png"
+                            alt="RaceLads"
+                            className="size-[28rem] object-cover transition-transform duration-500 ease-in-out group-hover:scale-150"
+                          />
+                        </Link>
+                      </div>
+
+                      <div className="w-full bg-p2-white2/100 p-1 text-p1-darkgreen transition-transform duration-500 ease-in-out group-hover:translate-y-28 group-hover:shadow-xl group-hover:shadow-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:group-hover:text-p1-cyan dark:group-hover:shadow-p1-green">
+                        <div className="flex items-center justify-between">
+                          <div className="px-4 pt-2 text-left text-3xl font-bold">RaceLad</div>
+                          <div className="px-4 pt-2 text-left text-3xl font-bold"># 8888</div>
+                        </div>
+
+                        <div className="px-4 pb-12 pt-6">
+                          <div className="flex items-center justify-between">
+                            <div className="text-center">
+                              <p className="text-center text-3xl">
+                                Price:
+                                <Image
+                                  className="relative inline-block w-7 px-1"
+                                  layout="intrinsic"
+                                  width={50}
+                                  height={50}
+                                  src="/Logo/eth1.png"
+                                  alt="eth"
+                                />
+                                0.001
+                              </p>
+                            </div>
+                          </div>
+                          <div className="pt-3 text-left text-xl font-thin">
+                            Last sale: 1000 WETH
+                          </div>
+                        </div>
+                      </div>
+
+                      <div className="flex items-center justify-between">
+                        <div className="absolute bottom-0 left-0 w-full translate-y-full bg-p1-darkgreen/100 text-center text-p2-white2 shadow-sm shadow-p1-green transition-transform duration-500 ease-in-out hover:bg-p1-darkgreen group-hover:translate-y-0 dark:bg-p1-deepdarkgreen">
+                          <div
+                            className="inline-flex h-16 w-[28rem] justify-center text-sm"
+                            role="group"
+                          >
+                            <Link
+                              href="#"
+                              className="grid w-4/5 place-content-center rounded-bl-xl border border-p1-darkgreen bg-p1-darkgreen text-center text-base shadow-xl shadow-p1-cyan transition-all duration-300 ease-in-out hover:border-p1-cyan hover:bg-p1-darkgreen hover:text-p1-white hover:shadow-2xl hover:shadow-p1-cyan md:text-3xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                            >
+                              <div className="flex items-center justify-between space-x-4 pb-2">
+                                <div className="text-2xl">Buy:</div>
+                                <p className="text-center text-xl">
+                                  <Image
+                                    className="relative inline-block w-6 px-1"
+                                    layout="intrinsic"
+                                    width={50}
+                                    height={50}
+                                    src="/Logo/eth1.png"
+                                    alt="eth"
+                                  />
+                                  0.001
+                                </p>
+                              </div>
+                            </Link>
+
+                            <Link
+                              href="#"
+                              className="grid w-1/5 place-content-center rounded-br-xl border border-p1-darkgreen bg-p1-darkgreen text-center text-lg font-semibold shadow-lg shadow-p1-cyan transition-all duration-300 ease-in-out hover:scale-75 hover:border-p1-cyan hover:bg-p1-darkgreen hover:text-p1-white hover:shadow-2xl hover:shadow-p1-cyan hover:ring-p1-cyan focus:scale-75 focus:border-p1-cyan focus:ring-p1-cyan md:text-3xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                            >
+                              <Image
+                                className="inline-block size-9 bg-p1-darkgreen dark:bg-p1-deepdarkgreen dark:hover:bg-p1-deepdarkgreen"
+                                width={480}
+                                height={480}
+                                src="/Logo/shopping-cart-white.png"
+                                alt="Bordered avatar"
+                              />
+                            </Link>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
             </div>
+            </div>
+
 
             {/* ... карточка 1 ...15x10 */}
 
