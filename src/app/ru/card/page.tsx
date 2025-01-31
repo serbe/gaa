@@ -516,7 +516,7 @@ export default function Home() {
                 </details>
               </div>
             </div>
-        
+
             <div className="place-content-start px-2 py-1">
               <div className="w-full rounded-2xl border border-p1-green bg-p1-white text-xl text-p1-darkgreen shadow-lg dark:bg-p1-deepdarkgreen">
                 <details className="m-2">
@@ -719,8 +719,6 @@ export default function Home() {
                             src="/icon/share_green.png"
                             alt="bt16"
                           />
-
-                  
                         </Link>
                       </div>
                     </div>
@@ -1035,7 +1033,6 @@ export default function Home() {
                       </div>
                     </div>
                   </div>
-          
                 </div>
               </div>
             </div>
@@ -1113,25 +1110,25 @@ export default function Home() {
                   </div>
                 </div>
                 <div className="basis-1/2">
-                <div className="relative place-content-center">
-                <div className="inline-block w-full place-content-center rounded-l-xl xl:text-xl">
-
-                    <Link
-                      href="#"
-                      className="relative flex h-20 place-content-center rounded-xl border-2 border-p1-green bg-p1-white p-4 text-p1-darkgreen shadow-lg transition-all duration-300 ease-in-out hover:border-p1-darkgreen hover:bg-p2-white2 hover:text-p1-darkgreen hover:shadow-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan"
-                    >
-                      <div>
-                        <Image
-                          className="size-7 place-self-center transition-all duration-300 ease-in-out hover:scale-125"
-                          width={480}
-                          height={480}
-                          src="/icon/offer_green.png"
-                          alt="offer"
-                        />
-                      </div>
-                      <div className="place-self-center px-4">Sale</div>
-                    </Link>
-                  </div> </div>
+                  <div className="relative place-content-center">
+                    <div className="inline-block w-full place-content-center rounded-l-xl xl:text-xl">
+                      <Link
+                        href="#"
+                        className="relative flex h-20 place-content-center rounded-xl border-2 border-p1-green bg-p1-white p-4 text-p1-darkgreen shadow-lg transition-all duration-300 ease-in-out hover:border-p1-darkgreen hover:bg-p2-white2 hover:text-p1-darkgreen hover:shadow-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan"
+                      >
+                        <div>
+                          <Image
+                            className="size-7 place-self-center transition-all duration-300 ease-in-out hover:scale-125"
+                            width={480}
+                            height={480}
+                            src="/icon/offer_green.png"
+                            alt="offer"
+                          />
+                        </div>
+                        <div className="place-self-center px-4">Sale</div>
+                      </Link>
+                    </div>{' '}
+                  </div>
                 </div>
                 <div className="basis-1/2">
                   <div>

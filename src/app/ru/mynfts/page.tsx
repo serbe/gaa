@@ -186,8 +186,6 @@ export default function Home() {
                     src="/icon/share_green.png"
                     alt="bt16"
                   />
-
-              
                 </Link>
               </div>
             </div>
@@ -267,7 +265,7 @@ export default function Home() {
 
         <div className="grid h-1/5 grid-cols-1 p-1 2xl:grid-cols-2">
           <div className="flex grid-flow-row auto-rows-max justify-start space-x-2 pb-4 pt-2 text-center md:space-x-4">
-            <div className="rounded-2xl hover:bg-p1-green hover:bg-opacity-20">
+            <div className="rounded-2xl hover:bg-p1-green/20">
               <Link href="#" className="">
                 <p className="font-thing pt-1 text-xl lining-nums md:px-2 md:text-2xl">
                   Collected:
@@ -275,7 +273,7 @@ export default function Home() {
                 <p className="font-thing pt-1 text-xl lining-nums md:px-2 md:text-2xl">10.000 </p>
               </Link>
             </div>
-            <div className="rounded-2xl hover:bg-p1-green hover:bg-opacity-20">
+            <div className="rounded-2xl hover:bg-p1-green/20">
               <Link href="#" className="">
                 <p className="font-thing pt-1 text-xl lining-nums md:px-2 md:text-2xl">
                   Offers_made:
@@ -283,19 +281,19 @@ export default function Home() {
                 <p className="font-thing pt-1 text-xl lining-nums md:px-2 md:text-2xl">55 </p>
               </Link>
             </div>
-            <div className="rounded-2xl hover:bg-p1-green hover:bg-opacity-20">
+            <div className="rounded-2xl hover:bg-p1-green/20">
               <Link href="#" className="">
                 <p className="font-thing pt-1 text-xl lining-nums md:px-2 md:text-2xl">Deals: </p>
                 <p className="font-thing pt-1 text-xl lining-nums md:px-2 md:text-2xl">23 </p>
               </Link>
             </div>
-            <div className="rounded-2xl hover:bg-p1-green hover:bg-opacity-20">
+            <div className="rounded-2xl hover:bg-p1-green/20">
               <Link href="#" className="">
                 <p className="font-thing pt-1 text-xl lining-nums md:px-2 md:text-2xl">Created: </p>
                 <p className="font-thing pt-1 text-xl lining-nums md:px-2 md:text-2xl">9988 </p>
               </Link>
             </div>
-            <div className="rounded-2xl hover:bg-p1-green hover:bg-opacity-20">
+            <div className="rounded-2xl hover:bg-p1-green/20">
               <Link href="#" className="">
                 <p className="font-thing pt-1 text-xl lining-nums md:px-2 md:text-2xl">
                   Favorited:
@@ -303,7 +301,7 @@ export default function Home() {
                 <p className="font-thing pt-1 text-xl lining-nums md:px-2 md:text-2xl">77 </p>
               </Link>
             </div>
-            <div className="rounded-2xl hover:bg-p1-green hover:bg-opacity-20">
+            <div className="rounded-2xl hover:bg-p1-green/20">
               <Link href="#" className="">
                 <p className="font-thing pt-1 text-xl lining-nums md:px-2 md:text-2xl">Activity:</p>
                 <p className="font-thing pt-1 text-xl lining-nums md:px-2 md:text-2xl">888 </p>
@@ -312,7 +310,7 @@ export default function Home() {
           </div>
 
           <div className="flex grid-flow-row auto-rows-max justify-end space-x-2 pb-4 pt-2 text-center md:space-x-4">
-            <div className="rounded-2xl hover:bg-p1-green hover:bg-opacity-20">
+            <div className="rounded-2xl hover:bg-p1-green/20">
               <Link href="#" className="">
                 <p className="font-thing pt-1 text-xl lining-nums md:px-2 md:text-2xl">
                   Offers_received:
@@ -320,7 +318,7 @@ export default function Home() {
                 <p className="font-thing pt-1 text-xl lining-nums md:px-2 md:text-2xl">88 </p>
               </Link>
             </div>
-            <div className="rounded-2xl hover:bg-p1-green hover:bg-opacity-20">
+            <div className="rounded-2xl hover:bg-p1-green/20">
               <Link href="#" className="">
                 <p className="font-thing pt-1 text-xl lining-nums md:px-2 md:text-2xl">
                   Active_listings:
@@ -328,7 +326,7 @@ export default function Home() {
                 <p className="font-thing pt-1 text-xl lining-nums md:px-2 md:text-2xl">78 </p>
               </Link>
             </div>
-            <div className="rounded-2xl hover:bg-p1-green hover:bg-opacity-20">
+            <div className="rounded-2xl hover:bg-p1-green/20">
               <Link href="#" className="">
                 <p className="font-thing pt-1 text-xl lining-nums md:px-2 md:text-2xl">
                   Inactive_listings:
@@ -336,7 +334,7 @@ export default function Home() {
                 <p className="font-thing pt-1 text-xl lining-nums md:px-2 md:text-2xl">369 </p>
               </Link>
             </div>
-            <div className="rounded-2xl hover:bg-p1-green hover:bg-opacity-20">
+            <div className="rounded-2xl hover:bg-p1-green/20">
               <Link href="#" className="">
                 <p className="font-thing pt-1 text-xl lining-nums md:px-2 md:text-2xl">Hidden: </p>
                 <p className="font-thing pt-1 text-xl lining-nums md:px-2 md:text-2xl">45 </p>
@@ -466,7 +464,7 @@ export default function Home() {
           <div>
             <Link href="#" className="mx-auto justify-start">
               <Image
-                className="size-10 rounded-sm p-1 ring-p1-gray transition-all delay-75 duration-300 ease-in-out hover:bg-p1-green hover:bg-opacity-50 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:bg-p1-green"
+                className="size-10 rounded-sm p-1 ring-p1-gray transition-all delay-75 duration-300 ease-in-out hover:bg-p1-green/50 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:bg-p1-green"
                 width={480}
                 height={480}
                 src="/icon/2.png"
@@ -497,7 +495,7 @@ export default function Home() {
             <div className="w-10">
               <Link href="#" className="mx-auto justify-center">
                 <Image
-                  className="size-10 rounded-sm p-1 ring-p1-gray transition-all delay-75 duration-300 ease-in-out hover:bg-p1-darkgreen hover:bg-opacity-50 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:bg-p1-green"
+                  className="size-10 rounded-sm p-1 ring-p1-gray transition-all delay-75 duration-300 ease-in-out hover:bg-p1-darkgreen/50 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:bg-p1-green"
                   width={480}
                   height={480}
                   src="/icon/line.png"
@@ -508,7 +506,7 @@ export default function Home() {
             <div className="w-10">
               <Link href="#" className="mx-auto justify-center">
                 <Image
-                  className="size-10 rounded-sm p-1 ring-p1-gray transition-all delay-75 duration-300 ease-in-out hover:bg-p1-green hover:bg-opacity-50 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:bg-p1-green"
+                  className="size-10 rounded-sm p-1 ring-p1-gray transition-all delay-75 duration-300 ease-in-out hover:bg-p1-green/50 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:bg-p1-green"
                   width={480}
                   height={480}
                   src="/icon/16.png"
@@ -519,7 +517,7 @@ export default function Home() {
             <div className="w-10">
               <Link href="#" className="mx-auto justify-center">
                 <Image
-                  className="size-10 rounded-sm p-1 ring-p1-gray transition-all delay-75 duration-300 ease-in-out hover:bg-p1-green hover:bg-opacity-50 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:bg-p1-green"
+                  className="size-10 rounded-sm p-1 ring-p1-gray transition-all delay-75 duration-300 ease-in-out hover:bg-p1-green/50 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:bg-p1-green"
                   width={480}
                   height={480}
                   src="/icon/9.png"
@@ -530,7 +528,7 @@ export default function Home() {
             <div className="w-10">
               <Link href="#" className="mx-auto justify-center">
                 <Image
-                  className="size-10 rounded-sm p-1 ring-p1-gray transition-all delay-75 duration-300 ease-in-out hover:bg-p1-green hover:bg-opacity-50 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:bg-p1-green"
+                  className="size-10 rounded-sm p-1 ring-p1-gray transition-all delay-75 duration-300 ease-in-out hover:bg-p1-green/50 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:bg-p1-green"
                   width={480}
                   height={480}
                   src="/icon/4.png"
@@ -541,7 +539,7 @@ export default function Home() {
             <div className="w-10">
               <Link href="#" className="mx-auto justify-center">
                 <Image
-                  className="size-10 rounded-sm p-1 ring-p1-gray transition-all delay-75 duration-300 ease-in-out hover:bg-p1-green hover:bg-opacity-50 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:bg-p1-green"
+                  className="size-10 rounded-sm p-1 ring-p1-gray transition-all delay-75 duration-300 ease-in-out hover:bg-p1-green/50 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:bg-p1-green"
                   width={480}
                   height={480}
                   src="/icon/3.png"
@@ -2217,166 +2215,167 @@ export default function Home() {
                   <div className="place-items-start md:basis-5">
                     <div className="text-lef pt-2">
                       Эмблемы и категории спонсоров
-                      <div className=''>
-                      <div className="mt-5 grid grid-cols-1 gap-2 p-4 md:grid-cols-2 md:place-items-end xl:grid-cols-4">
-                        <div className="col-span-2 md:row-span-2">
-                          <div>
-                            <label
-                              htmlFor="year"
-                              className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-green"
-                            >
-                              Год
-                            </label>
-                            <input
-                              type="text"
-                              id="year"
-                              className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder:text-gray-400 dark:focus:border-p1-green dark:focus:ring-p1-green"
-                              placeholder="Год"
-                              required
-                            />
-                          </div>
-                          <div>
-                            <label
-                              htmlFor="contry"
-                              className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-green"
-                            >
-                              Страна
-                            </label>
-                            <input
-                              type="text"
-                              id="contry"
-                              className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder:text-gray-400 dark:focus:border-p1-green dark:focus:ring-p1-green"
-                              placeholder="Страна"
-                              required
-                            />
-                          </div>
-                          <div className="pb-2"></div>
+                      <div className="">
+                        <div className="mt-5 grid grid-cols-1 gap-2 p-4 md:grid-cols-2 md:place-items-end xl:grid-cols-4">
+                          <div className="col-span-2 md:row-span-2">
+                            <div>
+                              <label
+                                htmlFor="year"
+                                className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-green"
+                              >
+                                Год
+                              </label>
+                              <input
+                                type="text"
+                                id="year"
+                                className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder:text-gray-400 dark:focus:border-p1-green dark:focus:ring-p1-green"
+                                placeholder="Год"
+                                required
+                              />
+                            </div>
+                            <div>
+                              <label
+                                htmlFor="contry"
+                                className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-green"
+                              >
+                                Страна
+                              </label>
+                              <input
+                                type="text"
+                                id="contry"
+                                className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder:text-gray-400 dark:focus:border-p1-green dark:focus:ring-p1-green"
+                                placeholder="Страна"
+                                required
+                              />
+                            </div>
+                            <div className="pb-2"></div>
 
-                          <div>
-                            <label
-                              htmlFor="city"
-                              className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-green"
-                            >
-                              Город
-                            </label>
-                            <input
-                              type="text"
-                              id="city"
-                              className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder:text-gray-400 dark:focus:border-p1-green dark:focus:ring-p1-green"
-                              placeholder="Город"
-                              required
-                            />
-                          </div>
+                            <div>
+                              <label
+                                htmlFor="city"
+                                className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-green"
+                              >
+                                Город
+                              </label>
+                              <input
+                                type="text"
+                                id="city"
+                                className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder:text-gray-400 dark:focus:border-p1-green dark:focus:ring-p1-green"
+                                placeholder="Город"
+                                required
+                              />
+                            </div>
 
-                          <div className="pb-2"></div>
-                          <div>
-                            <label
-                              htmlFor="event"
-                              className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-green"
-                            >
-                              Официальное название мероприятия
-                            </label>
-                            <input
-                              type="text"
-                              id="event"
-                              className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder:text-gray-400 dark:focus:border-p1-green dark:focus:ring-p1-green"
-                              placeholder="Официальное название мероприятия"
-                              required
-                            />
+                            <div className="pb-2"></div>
+                            <div>
+                              <label
+                                htmlFor="event"
+                                className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-green"
+                              >
+                                Официальное название мероприятия
+                              </label>
+                              <input
+                                type="text"
+                                id="event"
+                                className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder:text-gray-400 dark:focus:border-p1-green dark:focus:ring-p1-green"
+                                placeholder="Официальное название мероприятия"
+                                required
+                              />
+                            </div>
+                            <div className="pb-2"></div>
+                            <div>
+                              <label
+                                htmlFor="event_category"
+                                className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-green"
+                              >
+                                Официальное название соревнования/конкурса
+                              </label>
+                              <input
+                                type="text"
+                                id="competition"
+                                className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder:text-gray-400 dark:focus:border-p1-green dark:focus:ring-p1-green"
+                                placeholder="Официальное название соревнования/конкурса"
+                                required
+                              />
+                            </div>
                           </div>
-                          <div className="pb-2"></div>
-                          <div>
-                            <label
-                              htmlFor="event_category"
-                              className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-green"
-                            >
-                              Официальное название соревнования/конкурса
-                            </label>
-                            <input
-                              type="text"
-                              id="competition"
-                              className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder:text-gray-400 dark:focus:border-p1-green dark:focus:ring-p1-green"
-                              placeholder="Официальное название соревнования/конкурса"
-                              required
-                            />
-                          </div>
-                        </div>
-                        <div className="text-base">
-                          <form className="mx-auto max-w-2xl">
-                            <label
-                              htmlFor="license"
-                              className="block w-full text-left text-sm font-medium text-p1-darkgreen dark:text-p1-green"
-                            >
-                              Категория спонсора
-                            </label>
-                            <select
-                              id="license"
-                              className="block w-full rounded-lg border-2 border-gray-300 bg-p2-white2 p-2.5 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder:text-gray-400 dark:focus:border-p1-green dark:focus:ring-p1-green"
-                              defaultValue={'DEFAULT'}
-                            >
-                              <option value="DEFAULT" disabled>
+                          <div className="text-base">
+                            <form className="mx-auto max-w-2xl">
+                              <label
+                                htmlFor="license"
+                                className="block w-full text-left text-sm font-medium text-p1-darkgreen dark:text-p1-green"
+                              >
                                 Категория спонсора
-                              </option>
-                              <option value="Title_Sponsor">Титульный спонсор</option>
-                              <option value="General_Sponsor">Генеральный спонсор</option>
-                              <option value="Official_Sponsor">Официальный спонсор</option>
-                              <option value="Sponsor_participant">Спонсор участник</option>
-                              <option value="Information_Sponsor">Информационный спонсор</option>
-                              <option value="Barter_sponsor ">Бартерный спонсор</option>
-                            </select>
-                          </form>
-                          <div className="place-items-center p-2">
-                            <label
-                              htmlFor="dropzone-file"
-                              className="flex h-56 w-full cursor-pointer flex-col items-center justify-center rounded-3xl border-2 border-dashed border-gray-300 bg-gray-50 shadow-lg hover:bg-gray-100 dark:border-gray-600 dark:bg-gray-700 dark:hover:border-gray-500 dark:hover:bg-gray-800"
+                              </label>
+                              <select
+                                id="license"
+                                className="block w-full rounded-lg border-2 border-gray-300 bg-p2-white2 p-2.5 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder:text-gray-400 dark:focus:border-p1-green dark:focus:ring-p1-green"
+                                defaultValue={'DEFAULT'}
+                              >
+                                <option value="DEFAULT" disabled>
+                                  Категория спонсора
+                                </option>
+                                <option value="Title_Sponsor">Титульный спонсор</option>
+                                <option value="General_Sponsor">Генеральный спонсор</option>
+                                <option value="Official_Sponsor">Официальный спонсор</option>
+                                <option value="Sponsor_participant">Спонсор участник</option>
+                                <option value="Information_Sponsor">Информационный спонсор</option>
+                                <option value="Barter_sponsor ">Бартерный спонсор</option>
+                              </select>
+                            </form>
+                            <div className="place-items-center p-2">
+                              <label
+                                htmlFor="dropzone-file"
+                                className="flex h-56 w-full cursor-pointer flex-col items-center justify-center rounded-3xl border-2 border-dashed border-gray-300 bg-gray-50 shadow-lg hover:bg-gray-100 dark:border-gray-600 dark:bg-gray-700 dark:hover:border-gray-500 dark:hover:bg-gray-800"
+                              >
+                                <div className="flex flex-col items-center justify-center pb-6 pt-5">
+                                  <svg
+                                    className="mb-4 size-8 text-gray-500 dark:text-gray-400"
+                                    aria-hidden="true"
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    fill="none"
+                                    viewBox="0 0 20 16"
+                                  >
+                                    <path
+                                      stroke="currentColor"
+                                      strokeLinecap="round"
+                                      strokeLinejoin="round"
+                                      strokeWidth="2"
+                                      d="M13 13h3a3 3 0 0 0 0-6h-.025A5.56 5.56 0 0 0 16 6.5 5.5 5.5 0 0 0 5.207 5.021C5.137 5.017 5.071 5 5 5a4 4 0 0 0 0 8h2.167M10 15V6m0 0L8 8m2-2 2 2"
+                                    />
+                                  </svg>
+
+                                  <p className="mb-2 text-sm text-gray-500 dark:text-gray-400">
+                                    <span className="font-bold">&quot;Логотип спонсора&quot;</span>
+                                  </p>
+
+                                  <p className="mb-2 text-sm text-gray-500 dark:text-gray-400">
+                                    <span className="font-semibold">Click to upload</span> or drag
+                                    and drop
+                                  </p>
+                                  <p className="text-xs text-gray-500 dark:text-gray-400">
+                                    SVG, PNG, JPG or GIF (MAX. 800x400px)
+                                  </p>
+                                </div>
+                                <input id="dropzone-file" type="file" className="hidden" />
+                              </label>
+                            </div>
+                            <Link
+                              href="#"
+                              className="inline-block w-full place-content-center rounded-xl border-2 border-p1-darkgreen bg-p1-white p-2 text-center text-base text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p1-green hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
                             >
-                              <div className="flex flex-col items-center justify-center pb-6 pt-5">
-                                <svg
-                                  className="mb-4 size-8 text-gray-500 dark:text-gray-400"
-                                  aria-hidden="true"
-                                  xmlns="http://www.w3.org/2000/svg"
-                                  fill="none"
-                                  viewBox="0 0 20 16"
-                                >
-                                  <path
-                                    stroke="currentColor"
-                                    strokeLinecap="round"
-                                    strokeLinejoin="round"
-                                    strokeWidth="2"
-                                    d="M13 13h3a3 3 0 0 0 0-6h-.025A5.56 5.56 0 0 0 16 6.5 5.5 5.5 0 0 0 5.207 5.021C5.137 5.017 5.071 5 5 5a4 4 0 0 0 0 8h2.167M10 15V6m0 0L8 8m2-2 2 2"
-                                  />
-                                </svg>
-
-                                <p className="mb-2 text-sm text-gray-500 dark:text-gray-400">
-                                  <span className="font-bold">&quot;Логотип спонсора&quot;</span>
-                                </p>
-
-                                <p className="mb-2 text-sm text-gray-500 dark:text-gray-400">
-                                  <span className="font-semibold">Click to upload</span> or drag and
-                                  drop
-                                </p>
-                                <p className="text-xs text-gray-500 dark:text-gray-400">
-                                  SVG, PNG, JPG or GIF (MAX. 800x400px)
-                                </p>
-                              </div>
-                              <input id="dropzone-file" type="file" className="hidden" />
-                            </label>
+                              Добавить
+                            </Link>
                           </div>
+
                           <Link
                             href="#"
                             className="inline-block w-full place-content-center rounded-xl border-2 border-p1-darkgreen bg-p1-white p-2 text-center text-base text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p1-green hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
                           >
-                            Добавить
+                            +
                           </Link>
                         </div>
-
-                        <Link
-                          href="#"
-                          className="inline-block w-full place-content-center rounded-xl border-2 border-p1-darkgreen bg-p1-white p-2 text-center text-base text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p1-green hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
-                        >
-                          +
-                        </Link>
-                      </div></div>
+                      </div>
                     </div>
                   </div>
                 </div>

@@ -813,7 +813,7 @@ export default function Page() {
                   />
                 </div>
                 <div className="flex flex-row justify-end">
-                  <div className="basis- 4/5">
+                  <div className="basis-4/5">
                     <Image
                       className="relative inline-block w-max items-end"
                       width={1000}
