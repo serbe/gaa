@@ -17,29 +17,32 @@ export default function Page() {
         <div className="md:basis-3/5">
           <div className="rounded-3xl border-p2-orange px-2 md:my-5 md:space-y-6 md:border-4 md:p-6 md:hover:shadow-2xl dark:border-amber-600 dark:text-amber-600">
             <div className="pt-2 text-center text-xl text-p1-darkgreen md:pb-5 md:text-2xl dark:text-amber-600">
-              Racepoints - наша внутренняя система накопления &quot;очков&quot; на аккаунт.
-            </div>
+            Racepoints is our internal system for accumulating “points”; on the account.            </div>
             <div className="px-2 pt-4 text-center text-base text-p1-darkgreen md:pb-5 md:text-xl dark:text-amber-600">
-              Создана система рейтинга по аналогии с автоспортом, информация выведена на доску
-              почета на сайте (больше Racepoints = выше твое место в общем зачете).
+            A rating system has been created by analogy with motorsport, information is displayed on the board
+            honor on the website (more Racepoints = higher your place in the overall standings).
             </div>
             <div className="text-center text-lg font-bold text-p1-darkgreen md:text-2xl dark:text-amber-600">
-              Как зарабатывать:
+            How to earn:
+
             </div>
             <ol className="list-decimal space-y-4 p-4 pb-5 text-base text-p1-darkgreen md:text-xl dark:text-amber-600">
               <li>
-                Заходить на сайт и решать квизы, которые обновляются раз в неделю, 1 аккаунт = один
-                квиз в неделю.
+               
+Go to the site and solve quizzes that are updated once a week, 1 account = one
+                quiz per week.
               </li>
               <li>
-                Владеть NFT из наших коллекций и получать Racepoints по нажатию кнопки на сайте раз
-                в неделю. Больше NFT = больше Racepoints.
+              Own NFTs from our collections and receive Racepoints with the click of a button on the site once
+              per week. More NFTs = more Racepoints.
               </li>
               <li>
-                Приглашать друзей (реферральная ссылка) проходить квизы и получать за это
+   
+Invite friends (referral link) to take quizzes and get paid for it
                 Racepoints.
               </li>
-              <li>Принимать участие в онлайн гонках (автосимуляторы).</li>
+              <li>
+              Take part in online races (car simulators).</li>
             </ol>
           </div>
         </div>
@@ -53,11 +56,11 @@ export default function Page() {
         <div className="md:basis-3/5">
           <div className="rounded-3xl border-p2-orange p-2 md:my-5 md:space-y-6 md:border-4 md:p-6 md:hover:shadow-2xl dark:border-amber-600">
             <div className="pt-2 text-center text-xl font-bold text-p1-darkgreen md:text-2xl dark:text-amber-600">
-              Приветственный бонус:
+            Welcome Bonus:
             </div>
             <div className="text-center text-base text-p1-darkgreen md:text-xl dark:text-amber-600">
-              Получи 100 приветственных Racepoints за регистрацию на сайте!
-            </div>
+
+            Get 100 Welcome Racepoints for registering on the site!            </div>
           </div>
         </div>
       </div>
@@ -67,11 +70,10 @@ export default function Page() {
         <div className="md:basis-3/5">
           <div className="rounded-3xl border-p2-orange p-2 md:my-5 md:space-y-6 md:border-4 md:p-6 md:hover:shadow-2xl dark:border-amber-600">
             <div className="text-center text-xl font-bold text-p1-darkgreen md:text-2xl dark:text-amber-600">
-              Мы ценим конфиденциальность:
+            We value privacy:
             </div>
             <div className="text-center text-base text-p1-darkgreen md:text-xl dark:text-amber-600">
-              Для регистрации достаточно Web3 кошелька (MetaMask и т.д.) или e-mail.
-            </div>
+            To register, a Web3 wallet (MetaMask, etc.) or e-mail is enough.            </div>
             <div className="flex flex-row justify-center pb-5">
               <div className="basis-1/5 scale-95 duration-300 hover:scale-100">
                 <Link href={'/wallet'} className="mx-auto">
@@ -94,10 +96,10 @@ export default function Page() {
         <div className="">
           <div className="rounded-3xl border-p2-orange p-2 md:my-5 md:space-y-6 md:border-4 md:p-6 md:hover:shadow-2xl dark:border-amber-600">
             <div className="text-center text-xl font-bold text-p1-darkgreen md:text-2xl dark:text-amber-600">
-              Ежедневная награда
+            Daily reward
             </div>
             <div className="text-center text-base text-p1-darkgreen md:text-xl dark:text-amber-600">
-              Зарабатывай Racepoints ежедневно за посещение сайта!
+            Earn Racepoints daily for visiting the site!
             </div>
             <div className="flex flex-row justify-center pb-5">
               <div className="basis-3/5 scale-95 duration-500 hover:scale-100">
@@ -155,10 +157,10 @@ export default function Page() {
         <div className="md:basis-3/5">
           <div className="rounded-3xl border-p2-orange p-6 md:my-5 md:space-y-6 md:border-4 md:hover:shadow-2xl dark:border-amber-600">
             <div className="text-center text-xl font-bold text-p1-darkgreen md:text-2xl dark:text-amber-600">
-              Реферальная программа
+            Referral program
             </div>
             <div className="text-center text-base text-p1-darkgreen md:text-xl dark:text-amber-600">
-              Пригласи друга по реферальной ссылке - получи Racepoints.
+            Invite a friend using your referral link and get Racepoints.
             </div>
             <div className="flex flex-row justify-center pb-5">
               <div className="basis-3/5 scale-95 duration-500 hover:scale-100">
@@ -206,11 +208,10 @@ export default function Page() {
       <div className="flex flex-row justify-center pb-5">
         <div className="md:basis-3/5">
           <div className="text-center text-xl font-bold text-p2-orange md:pb-4 md:text-4xl dark:text-amber-600">
-            Участвуй
+          Take part 
           </div>
           <div className="text-center text-xl font-bold text-p2-orange md:pb-4 md:text-4xl dark:text-amber-600">
-            в опросах и викторинах
-          </div>
+          in surveys and quizzes          </div>
         </div>
       </div>
       <div id="5" className="md:pt-2"></div>
@@ -219,8 +220,7 @@ export default function Page() {
         <div className="w-full">
           <div className="rounded-3xl border-p2-orange p-2 md:my-5 md:space-y-6 md:border-4 md:p-6 md:hover:shadow-2xl dark:border-amber-600">
             <div className="pb-2 text-center text-sm font-semibold text-p1-darkgreen md:text-2xl dark:text-amber-600">
-              Участвуй в опросах и викторинах и зарабатывай Racepoints
-            </div>
+            Take part in surveys and quizzes and earn Racepoints            </div>
 
             <div className="flex flex-row justify-center pb-5">
               <div className="basis-3/5 scale-95 duration-500 hover:scale-100">
@@ -278,7 +278,8 @@ export default function Page() {
         <div className="w-full">
           <div className="rounded-3xl border-p2-orange p-2 md:my-5 md:space-y-6 md:border-4 md:p-6 md:hover:shadow-2xl dark:border-amber-600">
             <div className="pb-2 text-center text-sm font-semibold text-p1-darkgreen md:text-2xl dark:text-amber-600">
-              Отвечай на вопросы, связанные с миром автоспорта и автокультуры и зарабатывай
+             
+Answer questions related to the world of motorsport and auto culture and earn money
               Racepoints
             </div>
 
@@ -350,7 +351,7 @@ export default function Page() {
         <div className="w-full">
           <div className="rounded-3xl border-p2-orange md:my-5 md:space-y-6 md:border-4 md:p-6 md:hover:shadow-2xl dark:border-amber-600">
             <div className="pb-2 text-center text-sm font-semibold text-p1-darkgreen md:text-2xl dark:text-amber-600">
-              Получай тематические карточки и зарабатывай Racepoints
+            Get themed cards and earn Racepoints
             </div>
 
             <div className="flex flex-row place-content-center pb-5">
@@ -375,12 +376,14 @@ export default function Page() {
         <div className="md:basis-3/5">
           <div className="rounded-3xl border-p2-orange p-2 md:my-5 md:space-y-3 md:border-4 md:p-6 md:hover:shadow-2xl dark:border-amber-600">
             <div className="pb-2 text-center text-2xl font-bold text-p1-darkgreen dark:text-amber-600">
-              Racepoints начисляются за:
+            Racepoints are awarded for:
             </div>
             <ul className="list-disc pb-2 text-base text-p1-darkgreen md:px-5 md:text-xl dark:text-amber-600">
-              <li> правильные ответы в викторинах</li>
-              <li> пройденные опросы </li>
-              <li> реферальную программу </li>
+              <li> 
+              correct answers in quizzes</li>
+              <li> completed surveys
+              </li>
+              <li> referral program </li>
             </ul>
           </div>
         </div>
@@ -399,16 +402,15 @@ export default function Page() {
         <div className="md:basis-3/5">
           <div className="rounded-3xl border-p2-orange p-6 md:my-5 md:space-y-6 md:border-4 md:hover:shadow-2xl dark:border-amber-600">
             <div className="text-center text-xl font-bold text-p1-darkgreen md:text-2xl dark:text-amber-600">
-              Вашу активность мы оцениваем очками Racepoints!
-            </div>
+            We evaluate your activity with Racepoints!            </div>
             <div className="text-center text-xl text-p1-darkgreen md:text-2xl dark:text-amber-600">
-              Самые активные получат преимущества при создании NFT:
+            The most active ones will receive benefits when creating NFTs:
             </div>
 
             <ol className="space-y-4 p-4 pb-5 text-center text-xl text-p1-darkgreen md:text-2xl dark:text-amber-600">
-              <li>Уровень 1 = -10% </li>
-              <li>Уровень 2 = -20% </li>
-              <li>Уровень 3 = -30% </li>
+              <li>Level 1 = -10% </li>
+              <li>Level 2 = -20% </li>
+              <li>Level 3 = -30% </li>
             </ol>
           </div>
         </div>
@@ -418,8 +420,7 @@ export default function Page() {
       <div className="flex flex-row justify-center pb-5">
         <div className="md:basis-3/5">
           <div className="text-center text-4xl font-bold text-p2-orange md:pt-4 md:text-4xl">
-            Розыгрыши RaceLads NFT
-          </div>
+          RaceLads NFT Giveaways          </div>
         </div>
       </div>
 
@@ -427,16 +428,20 @@ export default function Page() {
         <div className="md:basis-3/5">
           <div className="rounded-3xl border-p2-orange p-6 md:my-5 md:space-y-6 md:border-4 md:hover:shadow-2xl dark:border-amber-600">
             <ul className="list-disc space-y-3 px-5 text-base text-p1-darkgreen md:text-xl dark:text-amber-600">
-              <li>среди всех зарегистрированных на сайте</li>
-              <li>среди 10% самых активных пользователей зарегистрированных на сайте</li>
-              <li>среди активных пользователей, продвигающих проект</li>
-              <li>среди пилотов и членов команд автоспортивного и автокультурного сообщества</li>
-              <li>среди промоутеров автоспортивных и автокультурных мероприятий</li>
-              <li>среди партнеров</li>
+              <li>among all registered on the site</li>
+              <li>among the 10% of the most active users registered on the site
+              </li>
+              <li>among active users promoting the project
+              </li>
+              <li>among pilots and team members of the motorsports and autocultural community</li>
+              <li>among promoters of motorsport and autocultural events
+              </li>
+              <li>among partners
+              </li>
               <div className="pb-5"></div>
             </ul>
             <div className="pb-5 text-center text-xl text-p1-darkgreen md:text-2xl dark:text-amber-600">
-              Ваша активная позиция в развитии Global Automotive Association повышает шансы!
+            Your active position in the development of the Global Automotive Association increases your chances!
             </div>
           </div>
         </div>
