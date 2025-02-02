@@ -3008,251 +3008,254 @@ export default function Home() {
                         </div>
                       </div>
                     </div>
-            </div>
+            </div>     
             </div>
 
-
- {/* ... Analitics  ... */}
+             {/* ... Analitics  ... */}
  <div id="area7" className={`${visibleArea == 7 ? '' : 'hidden'}`}>
+ <div> 
+<div className="grid h-1/5 grid-cols-1 place-content-center p-1 text-sm sm:px-2 md:px-4 lg:grid-cols-2 lg:px-6 lg:text-base xl:px-2 xl:text-lg 2xl:px-10 2xl:text-xl">
+       <div className="flex grid-flow-row auto-rows-max place-content-center space-x-2 lg:justify-start">
+         <div>
+           <div
+             className="inline-flex w-full justify-center rounded-md pt-1 shadow-sm"
+             role="group"
+           >
+             <Link
+               href="#"
+               className="inline-block w-full place-content-center rounded-l-xl border-2 bg-p1-white p-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:border-p1-darkgreen hover:bg-p1-green hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+             >
+               Все
+             </Link>
+             <Link
+               href="#"
+               className="inline-block w-full place-content-center border-2 bg-p1-white p-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:border-p1-darkgreen hover:bg-p1-green hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+             >
+               RaceLads
+             </Link>
 
- <div className="grid h-1/5 grid-cols-1 place-content-center p-1 text-sm sm:px-2 md:px-4 lg:grid-cols-2 lg:px-6 lg:text-base xl:px-2 xl:text-lg 2xl:px-10 2xl:text-xl">
-        <div className="flex grid-flow-row auto-rows-max justify-center space-x-2 lg:justify-start">
-          <div>
-            <div
-              className="inline-flex w-full justify-center rounded-md pt-1 shadow-sm"
-              role="group"
-            >
-              <Link
-                href="#"
-                className="inline-block w-full place-content-center rounded-l-xl border-2 bg-p1-white p-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:border-p1-darkgreen hover:bg-p1-green hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
-              >
-                Все
-              </Link>
-              <Link
-                href="#"
-                className="inline-block w-full place-content-center border-2 bg-p1-white p-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:border-p1-darkgreen hover:bg-p1-green hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
-              >
-                RaceLads
-              </Link>
+             <Link
+               href="#"
+               className="inline-block w-full place-content-center border-2 bg-p1-white p-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:border-p1-darkgreen hover:bg-p1-green hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+             >
+               Awards
+             </Link>
+             <Link
+               href="#"
+               className="inline-block w-full place-content-center border-2 bg-p1-white p-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:border-p1-darkgreen hover:bg-p1-green hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+             >
+               Licenses
+             </Link>
+             <form className="inline-block w-full place-content-center rounded-r-xl border-2 bg-p1-white p-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:border-p1-darkgreen hover:bg-p1-green hover:text-p1-darkgreen focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan">
+               <label htmlFor="price" className="block w-full"></label>
+               <select
+                 id="price"
+                 className="mx-auto flex max-w-2xl overflow-hidden border-p1-darkgreen bg-p1-white hover:bg-p1-white hover:text-p1-darkgreen dark:bg-p1-deepdarkgreen dark:text-p1-green dark:accent-p1-darkgreen dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan"
+                 defaultValue={'DEFAULT'}
+               >
+                 <option value="DEFAULT" disabled>
+                   Все
+                 </option>
+                 <option value="Price_low_to_high">Все</option>
+                 <option value="Price_high_to_low">RaceLads</option>
+                 <option value="Recently_listedr">Drivers</option>
+                 <option value="Best_offer">Team&apos;s Members</option>
+                 <option value="Highest_last_sale">Collectors</option>
+                 <option value="Recently_sold">Cars</option>
 
-              <Link
-                href="#"
-                className="inline-block w-full place-content-center border-2 bg-p1-white p-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:border-p1-darkgreen hover:bg-p1-green hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
-              >
-                Awards
-              </Link>
-              <Link
-                href="#"
-                className="inline-block w-full place-content-center border-2 bg-p1-white p-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:border-p1-darkgreen hover:bg-p1-green hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
-              >
-                Licenses
-              </Link>
-              <form className="inline-block w-full place-content-center rounded-xl border-2 bg-p1-white p-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:border-p1-darkgreen hover:bg-p1-green hover:text-p1-darkgreen focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan">
-                <label htmlFor="price" className="block w-full"></label>
-                <select
-                  id="price"
-                  className="mx-auto flex max-w-2xl overflow-hidden border-p1-darkgreen bg-opacity-50 dark:bg-p1-deepdarkgreen dark:text-p1-green dark:accent-p1-darkgreen dark:hover:text-p1-cyan"
-                  defaultValue={'DEFAULT'}
-                >
-                  <option value="DEFAULT" disabled>
-                    Все
-                  </option>
-                  <option value="Price_low_to_high">Все</option>
-                  <option value="Price_high_to_low">RaceLads</option>
-                  <option value="Recently_listedr">Drivers</option>
-                  <option value="Best_offer">Team&apos;s Members</option>
-                  <option value="Highest_last_sale">Collectors</option>
-                  <option value="Recently_sold">Cars</option>
+                 <option value="Most_viewed">CustomLads</option>
 
-                  <option value="Most_viewed">CustomLads</option>
+                 <option value="Most_favorited">Awards</option>
+                 <option value="Ending_soon">Licenses</option>
+               </select>
+             </form>
+           </div>
+         </div>
+       </div>
 
-                  <option value="Most_favorited">Awards</option>
-                  <option value="Ending_soon">Licenses</option>
-                </select>
-              </form>
-            </div>
-          </div>
-        </div>
+       <div className="flex flex-auto grid-flow-row auto-rows-max justify-center space-x-8 lg:justify-end">
+         <div className="">
+           <div
+             className="inline-flex w-full flex-auto justify-center rounded-md pt-1 shadow-sm"
+             role="group"
+           >
+             <Link
+               href="#"
+               className="inline-block w-max place-content-center rounded-l-xl border-2 bg-p1-white p-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:border-p1-darkgreen hover:bg-p1-green hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+             >
+               24H
+             </Link>
 
-        <div className="flex flex-auto grid-flow-row auto-rows-max justify-center space-x-8 lg:justify-end">
-          <div className="">
-            <div
-              className="inline-flex w-full flex-auto justify-center rounded-md pt-1 shadow-sm"
-              role="group"
-            >
-              <Link
-                href="#"
-                className="inline-block w-max place-content-center rounded-l-xl border-2 bg-p1-white p-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:border-p1-darkgreen hover:bg-p1-green hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
-              >
-                24H
-              </Link>
+             <Link
+               href="#"
+               className="inline-block w-max place-content-center border-2 bg-p1-white p-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:border-p1-darkgreen hover:bg-p1-green hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+             >
+               7D
+             </Link>
 
-              <Link
-                href="#"
-                className="inline-block w-max place-content-center border-2 bg-p1-white p-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:border-p1-darkgreen hover:bg-p1-green hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
-              >
-                7D
-              </Link>
+             <Link
+               href="#"
+               className="inline-block w-max place-content-center rounded-r-xl border-2 bg-p1-white p-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:border-p1-darkgreen hover:bg-p1-green hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+             >
+               30D
+             </Link>
+           </div>
+         </div>
+       </div>
+     </div>
+     </div>
 
-              <Link
-                href="#"
-                className="inline-block w-max place-content-center rounded-r-xl border-2 bg-p1-white p-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:border-p1-darkgreen hover:bg-p1-green hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
-              >
-                30D
-              </Link>
-            </div>
-          </div>
-        </div>
-      </div>
-      </div>
+     <div className="pb-4"></div>
 
-      <div className="pb-4"></div>
+     <div className="flex flex-wrap place-content-center object-left md:flex-nowrap md:space-x-2 md:pt-5">
+       <div className="mb-4 bg-p1-white shadow-lg dark:bg-p1-deepdarkgreen">
+         <div className="flex flex-row place-content-around text-center">
+           <div className="grid grid-cols-1 p-2 text-center text-p1-darkgreen md:text-xl lg:text-2xl xl:grid-cols-2 dark:text-p1-cyan">
+             <div className="mt-2 rounded-3xl border-2 bg-p2-white2 p-2 text-p1-darkgreen dark:border-p1-darkgreen dark:bg-p1-deepdarkgreen dark:text-p1-green">
+               <div className="flex flex-wrap md:flex-nowrap md:justify-between">
+                 <div className="px-2 text-xl font-semibold md:pt-2 md:text-3xl">Статистика</div>
+               </div>
+               <div className="mt-2 grid grid-cols-3 place-items-center gap-2 space-x-2 p-4 text-base md:text-xl">
+                 <div className="m-2 aspect-video w-full rounded-3xl border border-p1-darkgreen text-center md:pt-28">
+                   Total Sales:
+                 </div>
+                 <div className="m-2 aspect-video w-full rounded-3xl border border-p1-darkgreen md:pt-28">
+                   Total Volume:
+                 </div>
+                 <div className="m-2 aspect-video w-full rounded-3xl border border-p1-darkgreen md:pt-28">
+                   RaceLads Sold:
+                 </div>
+               </div>
+             </div>
 
-      <div className="flex flex-wrap justify-center object-left md:flex-nowrap md:space-x-2 md:pt-5">
-        <div className="mb-4 bg-p1-white shadow-lg dark:bg-p1-deepdarkgreen">
-          <div className="flex flex-row place-content-around text-center">
-            <div className="grid grid-cols-1 p-2 text-center text-p1-darkgreen md:text-xl lg:text-2xl xl:grid-cols-2 dark:text-p1-cyan">
-              <div className="mt-2 rounded-3xl border-2 bg-p2-white2 p-2 text-p1-darkgreen dark:border-p1-darkgreen dark:bg-p1-deepdarkgreen dark:text-p1-green">
-                <div className="flex flex-wrap md:flex-nowrap md:justify-between">
-                  <div className="px-2 text-xl font-semibold md:pt-2 md:text-3xl">Статистика</div>
-                </div>
-                <div className="mt-2 grid grid-cols-3 place-items-center gap-2 space-x-2 p-4 text-base md:text-xl">
-                  <div className="m-2 aspect-video w-full rounded-3xl border border-p1-darkgreen text-center md:pt-28">
-                    Total Sales:
-                  </div>
-                  <div className="m-2 aspect-video w-full rounded-3xl border border-p1-darkgreen md:pt-28">
-                    Total Volume:
-                  </div>
-                  <div className="m-2 aspect-video w-full rounded-3xl border border-p1-darkgreen md:pt-28">
-                    RaceLads Sold:
-                  </div>
-                </div>
-              </div>
+             <div className="mt-2 rounded-3xl border-2 bg-p2-white2 p-2 text-p1-darkgreen dark:border-p1-darkgreen dark:bg-p1-deepdarkgreen dark:text-p1-green">
+               <div className="flex flex-wrap justify-center self-center md:flex-nowrap md:justify-between">
+                 <div className="px-2 text-xl font-semibold md:pt-2 md:text-3xl">RaceLads</div>
+               </div>
+               <section></section>
 
-              <div className="mt-2 rounded-3xl border-2 bg-p2-white2 p-2 text-p1-darkgreen dark:border-p1-darkgreen dark:bg-p1-deepdarkgreen dark:text-p1-green">
-                <div className="flex flex-wrap justify-center self-center md:flex-nowrap md:justify-between">
-                  <div className="px-2 text-xl font-semibold md:pt-2 md:text-3xl">RaceLads</div>
-                </div>
-                <section></section>
+               <div className="mt-2 grid grid-cols-3 place-items-start gap-4 space-x-2 p-4 text-base">
+                 <div className="grid h-48 grid-cols-2 place-content-center gap-4">
+                   <div className="text-3xl font-semibold"></div>
+                   <div></div>
+                   <div></div>
+                   <div></div>
+                   <div></div>
+                   <div></div>
+                   <div className="">Total</div>
+                   <div>Owners</div>
+                 </div>
 
-                <div className="mt-2 grid grid-cols-3 place-items-start gap-4 space-x-2 p-4 text-base">
-                  <div className="grid h-48 grid-cols-2 place-content-center gap-4">
-                    <div className="text-3xl font-semibold"></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div></div>
-                    <div className="">Total</div>
-                    <div>Owners</div>
-                  </div>
+                 <div className="m-2 aspect-video w-full rounded-3xl border border-p1-darkgreen">
+                   <div className="grid h-48 grid-cols-2 place-content-center gap-4">
+                     <div className="">RaceLads</div>
+                     <div>RARITY</div>
+                     <div></div>
+                     <div></div>
+                     <div></div>
+                     <div></div>
+                     <div></div>
+                     <div></div>
+                     <div></div>
 
-                  <div className="m-2 aspect-video w-full rounded-3xl border border-p1-darkgreen">
-                    <div className="grid h-48 grid-cols-2 place-content-center gap-4">
-                      <div className="">RaceLads</div>
-                      <div>RARITY</div>
-                      <div></div>
-                      <div></div>
-                      <div></div>
-                      <div></div>
-                      <div></div>
-                      <div></div>
-                      <div></div>
+                     <div></div>
+                     <div className="">FLOOR PRICE:</div>
+                     <div>TOTAL RaceLads</div>
+                   </div>
+                 </div>
+                 <div className="m-2 aspect-video w-full rounded-3xl border border-p1-darkgreen">
+                   <div className="grid h-48 grid-cols-2 place-content-center gap-4">
+                     <div className="">RaceLads</div>
+                     <div>RARITY</div>
+                     <div></div>
+                     <div></div>
+                     <div></div>
+                     <div></div>
+                     <div></div>
+                     <div></div>
+                     <div></div>
 
-                      <div></div>
-                      <div className="">FLOOR PRICE:</div>
-                      <div>TOTAL RaceLads</div>
-                    </div>
-                  </div>
-                  <div className="m-2 aspect-video w-full rounded-3xl border border-p1-darkgreen">
-                    <div className="grid h-48 grid-cols-2 place-content-center gap-4">
-                      <div className="">RaceLads</div>
-                      <div>RARITY</div>
-                      <div></div>
-                      <div></div>
-                      <div></div>
-                      <div></div>
-                      <div></div>
-                      <div></div>
-                      <div></div>
+                     <div></div>
+                     <div className="">FLOOR PRICE:</div>
+                     <div>TOTAL RaceLads</div>
+                   </div>
+                 </div>
+               </div>
+             </div>
 
-                      <div></div>
-                      <div className="">FLOOR PRICE:</div>
-                      <div>TOTAL RaceLads</div>
-                    </div>
-                  </div>
-                </div>
-              </div>
+             <div className="mt-2 rounded-3xl border-2 bg-p2-white2 p-2 text-p1-darkgreen dark:border-p1-darkgreen dark:bg-p1-deepdarkgreen dark:text-p1-green">
+               <div className="flex flex-wrap justify-center self-center md:flex-nowrap md:justify-between">
+                 <div className="px-2 text-xl font-semibold md:pt-2 md:text-3xl">
+                   Лучшие продажи
+                 </div>
+               </div>
 
-              <div className="mt-2 rounded-3xl border-2 bg-p2-white2 p-2 text-p1-darkgreen dark:border-p1-darkgreen dark:bg-p1-deepdarkgreen dark:text-p1-green">
-                <div className="flex flex-wrap justify-center self-center md:flex-nowrap md:justify-between">
-                  <div className="px-2 text-xl font-semibold md:pt-2 md:text-3xl">
-                    Лучшие продажи
-                  </div>
-                </div>
+               <div className="mt-2 grid grid-cols-3 place-items-center gap-2 space-x-2 p-4 text-base md:text-xl">
+                 <div className="m-2 aspect-video w-full rounded-3xl border border-p1-darkgreen text-center md:pt-28">
+                   ETH: USDT:
+                 </div>
+                 <div className="m-2 aspect-video w-full rounded-3xl border border-p1-darkgreen md:pt-28">
+                   ETH: USDT:
+                 </div>
+                 <div className="m-2 aspect-video w-full rounded-3xl border border-p1-darkgreen md:pt-28">
+                   ETH: USDT:
+                 </div>
+               </div>
+             </div>
 
-                <div className="mt-2 grid grid-cols-3 place-items-center gap-2 space-x-2 p-4 text-base md:text-xl">
-                  <div className="m-2 aspect-video w-full rounded-3xl border border-p1-darkgreen text-center md:pt-28">
-                    ETH: USDT:
-                  </div>
-                  <div className="m-2 aspect-video w-full rounded-3xl border border-p1-darkgreen md:pt-28">
-                    ETH: USDT:
-                  </div>
-                  <div className="m-2 aspect-video w-full rounded-3xl border border-p1-darkgreen md:pt-28">
-                    ETH: USDT:
-                  </div>
-                </div>
-              </div>
+             <div className="mt-2 rounded-3xl border-2 bg-p2-white2 p-2 text-p1-darkgreen dark:border-p1-darkgreen dark:bg-p1-deepdarkgreen dark:text-p1-green">
+               <div className="flex flex-wrap justify-center self-center md:flex-nowrap md:justify-between">
+                 <div className="px-2 text-xl font-semibold md:pt-2 md:text-3xl">
+                   Последние объявления:
+                 </div>
+               </div>
 
-              <div className="mt-2 rounded-3xl border-2 bg-p2-white2 p-2 text-p1-darkgreen dark:border-p1-darkgreen dark:bg-p1-deepdarkgreen dark:text-p1-green">
-                <div className="flex flex-wrap justify-center self-center md:flex-nowrap md:justify-between">
-                  <div className="px-2 text-xl font-semibold md:pt-2 md:text-3xl">
-                    Последние объявления:
-                  </div>
-                </div>
+               <div className="mt-2 grid grid-cols-3 place-items-center gap-2 space-x-2 p-4 text-base md:text-xl">
+                 <div className="m-2 aspect-video w-full rounded-3xl border border-p1-darkgreen text-center md:pt-28">
+                   ETH: USDT:
+                 </div>
+                 <div className="m-2 aspect-video w-full rounded-3xl border border-p1-darkgreen md:pt-28">
+                   ETH: USDT:
+                 </div>
+                 <div className="m-2 aspect-video w-full rounded-3xl border border-p1-darkgreen md:pt-28">
+                   ETH: USDT:
+                 </div>
+               </div>
+             </div>
 
-                <div className="mt-2 grid grid-cols-3 place-items-center gap-2 space-x-2 p-4 text-base md:text-xl">
-                  <div className="m-2 aspect-video w-full rounded-3xl border border-p1-darkgreen text-center md:pt-28">
-                    ETH: USDT:
-                  </div>
-                  <div className="m-2 aspect-video w-full rounded-3xl border border-p1-darkgreen md:pt-28">
-                    ETH: USDT:
-                  </div>
-                  <div className="m-2 aspect-video w-full rounded-3xl border border-p1-darkgreen md:pt-28">
-                    ETH: USDT:
-                  </div>
-                </div>
-              </div>
+             <div className="mt-2 rounded-3xl border-2 bg-p2-white2 p-2 text-p1-darkgreen dark:border-p1-darkgreen dark:bg-p1-deepdarkgreen dark:text-p1-green">
+               <div className="flex flex-wrap justify-center self-center md:flex-nowrap md:justify-between">
+                 <div className="px-2 text-xl font-semibold md:pt-2 md:text-3xl">
+                   Последние продажи:
+                 </div>
+               </div>
 
-              <div className="mt-2 rounded-3xl border-2 bg-p2-white2 p-2 text-p1-darkgreen dark:border-p1-darkgreen dark:bg-p1-deepdarkgreen dark:text-p1-green">
-                <div className="flex flex-wrap justify-center self-center md:flex-nowrap md:justify-between">
-                  <div className="px-2 text-xl font-semibold md:pt-2 md:text-3xl">
-                    Последние продажи:
-                  </div>
-                </div>
+               <div className="mt-2 grid grid-cols-3 place-items-center gap-2 space-x-2 p-4 text-base md:text-xl">
+                 <div className="m-2 aspect-video w-full rounded-3xl border border-p1-darkgreen text-center md:pt-28">
+                   ETH: USDT:
+                   <p>времени назад:</p>
+                 </div>
+                 <div className="m-2 aspect-video w-full rounded-3xl border border-p1-darkgreen md:pt-28">
+                   ETH: USDT:
+                   <p>времени назад:</p>
+                 </div>
+                 <div className="m-2 aspect-video w-full rounded-3xl border border-p1-darkgreen md:pt-28">
+                   ETH: USDT:
+                   <p>времени назад:</p>
+                 </div>
+               </div>
+             </div>
+             <div id="2" className="pb-8"></div>
 
-                <div className="mt-2 grid grid-cols-3 place-items-center gap-2 space-x-2 p-4 text-base md:text-xl">
-                  <div className="m-2 aspect-video w-full rounded-3xl border border-p1-darkgreen text-center md:pt-28">
-                    ETH: USDT:
-                    <p>времени назад:</p>
-                  </div>
-                  <div className="m-2 aspect-video w-full rounded-3xl border border-p1-darkgreen md:pt-28">
-                    ETH: USDT:
-                    <p>времени назад:</p>
-                  </div>
-                  <div className="m-2 aspect-video w-full rounded-3xl border border-p1-darkgreen md:pt-28">
-                    ETH: USDT:
-                    <p>времени назад:</p>
-                  </div>
-                </div>
-              </div>
-              <div id="2" className="pb-8"></div>
+             <div className="pb-4"></div>
+           </div>
+         </div>
+       </div>
+     </div>
+    </div>
 
-              <div className="pb-4"></div>
-            </div>
-          </div>
-        </div>
-      </div>
+
+
 
 
             {/* ... карточка 1 ...15x10 */}
