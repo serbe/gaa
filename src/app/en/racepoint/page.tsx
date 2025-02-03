@@ -17,32 +17,29 @@ export default function Page() {
         <div className="md:basis-3/5">
           <div className="rounded-3xl border-p2-orange px-2 md:my-5 md:space-y-6 md:border-4 md:p-6 md:hover:shadow-2xl dark:border-amber-600 dark:text-amber-600">
             <div className="pt-2 text-center text-xl text-p1-darkgreen md:pb-5 md:text-2xl dark:text-amber-600">
-            Racepoints is our internal system for accumulating “points”; on the account.            </div>
+              Racepoints is our internal system for accumulating “points”; on the account.
+            </div>
             <div className="px-2 pt-4 text-center text-base text-p1-darkgreen md:pb-5 md:text-xl dark:text-amber-600">
-            A rating system has been created by analogy with motorsport, information is displayed on the board
-            honor on the website (more Racepoints = higher your place in the overall standings).
+              A rating system has been created by analogy with motorsport, information is displayed
+              on the board honor on the website (more Racepoints = higher your place in the overall
+              standings).
             </div>
             <div className="text-center text-lg font-bold text-p1-darkgreen md:text-2xl dark:text-amber-600">
-            How to earn:
-
+              How to earn:
             </div>
             <ol className="list-decimal space-y-4 p-4 pb-5 text-base text-p1-darkgreen md:text-xl dark:text-amber-600">
               <li>
-               
-Go to the site and solve quizzes that are updated once a week, 1 account = one
-                quiz per week.
+                Go to the site and solve quizzes that are updated once a week, 1 account = one quiz
+                per week.
               </li>
               <li>
-              Own NFTs from our collections and receive Racepoints with the click of a button on the site once
-              per week. More NFTs = more Racepoints.
+                Own NFTs from our collections and receive Racepoints with the click of a button on
+                the site once per week. More NFTs = more Racepoints.
               </li>
               <li>
-   
-Invite friends (referral link) to take quizzes and get paid for it
-                Racepoints.
+                Invite friends (referral link) to take quizzes and get paid for it Racepoints.
               </li>
-              <li>
-              Take part in online races (car simulators).</li>
+              <li>Take part in online races (car simulators).</li>
             </ol>
           </div>
         </div>
@@ -56,11 +53,11 @@ Invite friends (referral link) to take quizzes and get paid for it
         <div className="md:basis-3/5">
           <div className="rounded-3xl border-p2-orange p-2 md:my-5 md:space-y-6 md:border-4 md:p-6 md:hover:shadow-2xl dark:border-amber-600">
             <div className="pt-2 text-center text-xl font-bold text-p1-darkgreen md:text-2xl dark:text-amber-600">
-            Welcome Bonus:
+              Welcome Bonus:
             </div>
             <div className="text-center text-base text-p1-darkgreen md:text-xl dark:text-amber-600">
-
-            Get 100 Welcome Racepoints for registering on the site!            </div>
+              Get 100 Welcome Racepoints for registering on the site!
+            </div>
           </div>
         </div>
       </div>
@@ -70,10 +67,11 @@ Invite friends (referral link) to take quizzes and get paid for it
         <div className="md:basis-3/5">
           <div className="rounded-3xl border-p2-orange p-2 md:my-5 md:space-y-6 md:border-4 md:p-6 md:hover:shadow-2xl dark:border-amber-600">
             <div className="text-center text-xl font-bold text-p1-darkgreen md:text-2xl dark:text-amber-600">
-            We value privacy:
+              We value privacy:
             </div>
             <div className="text-center text-base text-p1-darkgreen md:text-xl dark:text-amber-600">
-            To register, a Web3 wallet (MetaMask, etc.) or e-mail is enough.            </div>
+              To register, a Web3 wallet (MetaMask, etc.) or e-mail is enough.
+            </div>
             <div className="flex flex-row justify-center pb-5">
               <div className="basis-1/5 scale-95 duration-300 hover:scale-100">
                 <Link href={'/wallet'} className="mx-auto">
@@ -96,10 +94,10 @@ Invite friends (referral link) to take quizzes and get paid for it
         <div className="">
           <div className="rounded-3xl border-p2-orange p-2 md:my-5 md:space-y-6 md:border-4 md:p-6 md:hover:shadow-2xl dark:border-amber-600">
             <div className="text-center text-xl font-bold text-p1-darkgreen md:text-2xl dark:text-amber-600">
-            Daily reward
+              Daily reward
             </div>
             <div className="text-center text-base text-p1-darkgreen md:text-xl dark:text-amber-600">
-            Earn Racepoints daily for visiting the site!
+              Earn Racepoints daily for visiting the site!
             </div>
             <div className="flex flex-row justify-center pb-5">
               <div className="basis-3/5 scale-95 duration-500 hover:scale-100">
@@ -157,10 +155,10 @@ Invite friends (referral link) to take quizzes and get paid for it
         <div className="md:basis-3/5">
           <div className="rounded-3xl border-p2-orange p-6 md:my-5 md:space-y-6 md:border-4 md:hover:shadow-2xl dark:border-amber-600">
             <div className="text-center text-xl font-bold text-p1-darkgreen md:text-2xl dark:text-amber-600">
-            Referral program
+              Referral program
             </div>
             <div className="text-center text-base text-p1-darkgreen md:text-xl dark:text-amber-600">
-            Invite a friend using your referral link and get Racepoints.
+              Invite a friend using your referral link and get Racepoints.
             </div>
             <div className="flex flex-row justify-center pb-5">
               <div className="basis-3/5 scale-95 duration-500 hover:scale-100">
@@ -208,10 +206,11 @@ Invite friends (referral link) to take quizzes and get paid for it
       <div className="flex flex-row justify-center pb-5">
         <div className="md:basis-3/5">
           <div className="text-center text-xl font-bold text-p2-orange md:pb-4 md:text-4xl dark:text-amber-600">
-          Take part 
+            Take part
           </div>
           <div className="text-center text-xl font-bold text-p2-orange md:pb-4 md:text-4xl dark:text-amber-600">
-          in surveys and quizzes          </div>
+            in surveys and quizzes
+          </div>
         </div>
       </div>
       <div id="5" className="md:pt-2"></div>
@@ -220,7 +219,8 @@ Invite friends (referral link) to take quizzes and get paid for it
         <div className="w-full">
           <div className="rounded-3xl border-p2-orange p-2 md:my-5 md:space-y-6 md:border-4 md:p-6 md:hover:shadow-2xl dark:border-amber-600">
             <div className="pb-2 text-center text-sm font-semibold text-p1-darkgreen md:text-2xl dark:text-amber-600">
-            Take part in surveys and quizzes and earn Racepoints            </div>
+              Take part in surveys and quizzes and earn Racepoints
+            </div>
 
             <div className="flex flex-row justify-center pb-5">
               <div className="basis-3/5 scale-95 duration-500 hover:scale-100">
@@ -278,8 +278,7 @@ Invite friends (referral link) to take quizzes and get paid for it
         <div className="w-full">
           <div className="rounded-3xl border-p2-orange p-2 md:my-5 md:space-y-6 md:border-4 md:p-6 md:hover:shadow-2xl dark:border-amber-600">
             <div className="pb-2 text-center text-sm font-semibold text-p1-darkgreen md:text-2xl dark:text-amber-600">
-             
-Answer questions related to the world of motorsport and auto culture and earn money
+              Answer questions related to the world of motorsport and auto culture and earn money
               Racepoints
             </div>
 
@@ -351,7 +350,7 @@ Answer questions related to the world of motorsport and auto culture and earn mo
         <div className="w-full">
           <div className="rounded-3xl border-p2-orange md:my-5 md:space-y-6 md:border-4 md:p-6 md:hover:shadow-2xl dark:border-amber-600">
             <div className="pb-2 text-center text-sm font-semibold text-p1-darkgreen md:text-2xl dark:text-amber-600">
-            Get themed cards and earn Racepoints
+              Get themed cards and earn Racepoints
             </div>
 
             <div className="flex flex-row place-content-center pb-5">
@@ -376,13 +375,11 @@ Answer questions related to the world of motorsport and auto culture and earn mo
         <div className="md:basis-3/5">
           <div className="rounded-3xl border-p2-orange p-2 md:my-5 md:space-y-3 md:border-4 md:p-6 md:hover:shadow-2xl dark:border-amber-600">
             <div className="pb-2 text-center text-2xl font-bold text-p1-darkgreen dark:text-amber-600">
-            Racepoints are awarded for:
+              Racepoints are awarded for:
             </div>
             <ul className="list-disc pb-2 text-base text-p1-darkgreen md:px-5 md:text-xl dark:text-amber-600">
-              <li> 
-              correct answers in quizzes</li>
-              <li> completed surveys
-              </li>
+              <li>correct answers in quizzes</li>
+              <li> completed surveys</li>
               <li> referral program </li>
             </ul>
           </div>
@@ -402,9 +399,10 @@ Answer questions related to the world of motorsport and auto culture and earn mo
         <div className="md:basis-3/5">
           <div className="rounded-3xl border-p2-orange p-6 md:my-5 md:space-y-6 md:border-4 md:hover:shadow-2xl dark:border-amber-600">
             <div className="text-center text-xl font-bold text-p1-darkgreen md:text-2xl dark:text-amber-600">
-            We evaluate your activity with Racepoints!            </div>
+              We evaluate your activity with Racepoints!
+            </div>
             <div className="text-center text-xl text-p1-darkgreen md:text-2xl dark:text-amber-600">
-            The most active ones will receive benefits when creating NFTs:
+              The most active ones will receive benefits when creating NFTs:
             </div>
 
             <ol className="space-y-4 p-4 pb-5 text-center text-xl text-p1-darkgreen md:text-2xl dark:text-amber-600">
@@ -420,7 +418,8 @@ Answer questions related to the world of motorsport and auto culture and earn mo
       <div className="flex flex-row justify-center pb-5">
         <div className="md:basis-3/5">
           <div className="text-center text-4xl font-bold text-p2-orange md:pt-4 md:text-4xl">
-          RaceLads NFT Giveaways          </div>
+            RaceLads NFT Giveaways
+          </div>
         </div>
       </div>
 
@@ -429,19 +428,16 @@ Answer questions related to the world of motorsport and auto culture and earn mo
           <div className="rounded-3xl border-p2-orange p-6 md:my-5 md:space-y-6 md:border-4 md:hover:shadow-2xl dark:border-amber-600">
             <ul className="list-disc space-y-3 px-5 text-base text-p1-darkgreen md:text-xl dark:text-amber-600">
               <li>among all registered on the site</li>
-              <li>among the 10% of the most active users registered on the site
-              </li>
-              <li>among active users promoting the project
-              </li>
+              <li>among the 10% of the most active users registered on the site</li>
+              <li>among active users promoting the project</li>
               <li>among pilots and team members of the motorsports and autocultural community</li>
-              <li>among promoters of motorsport and autocultural events
-              </li>
-              <li>among partners
-              </li>
+              <li>among promoters of motorsport and autocultural events</li>
+              <li>among partners</li>
               <div className="pb-5"></div>
             </ul>
             <div className="pb-5 text-center text-xl text-p1-darkgreen md:text-2xl dark:text-amber-600">
-            Your active position in the development of the Global Automotive Association increases your chances!
+              Your active position in the development of the Global Automotive Association increases
+              your chances!
             </div>
           </div>
         </div>

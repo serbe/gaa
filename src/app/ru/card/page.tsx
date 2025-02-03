@@ -610,7 +610,6 @@ export default function Home() {
                                 <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
                                   <Image
                                     className="relative inline-block w-8 px-1"
-                                    layout="intrinsic"
                                     width={50}
                                     height={50}
                                     src="/Logo/eth.png"
@@ -1127,7 +1126,7 @@ export default function Home() {
                         </div>
                         <div className="place-self-center px-4">Sale</div>
                       </Link>
-                    </div>{' '}
+                    </div>
                   </div>
                 </div>
                 <div className="basis-1/2">
@@ -3605,7 +3604,6 @@ export default function Home() {
                                   Price:
                                   <Image
                                     className="relative inline-block w-5 space-x-4 px-1"
-                                    layout="intrinsic"
                                     width={50}
                                     height={50}
                                     src="/Logo/eth1.png"
@@ -3636,7 +3634,6 @@ export default function Home() {
                                   <p className="text-center text-base leading-3">
                                     <Image
                                       className="relative inline-block w-5 px-1"
-                                      layout="intrinsic"
                                       width={50}
                                       height={50}
                                       src="/Logo/eth1.png"
@@ -3713,7 +3710,6 @@ export default function Home() {
                                   Price:
                                   <Image
                                     className="relative inline-block w-5 space-x-4 px-1"
-                                    layout="intrinsic"
                                     width={50}
                                     height={50}
                                     src="/Logo/eth1.png"
@@ -3744,7 +3740,6 @@ export default function Home() {
                                   <p className="text-center text-base leading-3">
                                     <Image
                                       className="relative inline-block w-5 px-1"
-                                      layout="intrinsic"
                                       width={50}
                                       height={50}
                                       src="/Logo/eth1.png"
@@ -3821,7 +3816,6 @@ export default function Home() {
                                   Price:
                                   <Image
                                     className="relative inline-block w-5 space-x-4 px-1"
-                                    layout="intrinsic"
                                     width={50}
                                     height={50}
                                     src="/Logo/eth1.png"
@@ -3852,7 +3846,6 @@ export default function Home() {
                                   <p className="text-center text-base leading-3">
                                     <Image
                                       className="relative inline-block w-5 px-1"
-                                      layout="intrinsic"
                                       width={50}
                                       height={50}
                                       src="/Logo/eth1.png"
@@ -3929,7 +3922,6 @@ export default function Home() {
                                   Price:
                                   <Image
                                     className="relative inline-block w-5 space-x-4 px-1"
-                                    layout="intrinsic"
                                     width={50}
                                     height={50}
                                     src="/Logo/eth1.png"
@@ -3960,7 +3952,6 @@ export default function Home() {
                                   <p className="text-center text-base leading-3">
                                     <Image
                                       className="relative inline-block w-5 px-1"
-                                      layout="intrinsic"
                                       width={50}
                                       height={50}
                                       src="/Logo/eth1.png"
@@ -4037,7 +4028,6 @@ export default function Home() {
                                   Price:
                                   <Image
                                     className="relative inline-block w-5 space-x-4 px-1"
-                                    layout="intrinsic"
                                     width={50}
                                     height={50}
                                     src="/Logo/eth1.png"
@@ -4068,7 +4058,6 @@ export default function Home() {
                                   <p className="text-center text-base leading-3">
                                     <Image
                                       className="relative inline-block w-5 px-1"
-                                      layout="intrinsic"
                                       width={50}
                                       height={50}
                                       src="/Logo/eth1.png"
@@ -4145,7 +4134,6 @@ export default function Home() {
                                   Price:
                                   <Image
                                     className="relative inline-block w-5 space-x-4 px-1"
-                                    layout="intrinsic"
                                     width={50}
                                     height={50}
                                     src="/Logo/eth1.png"
@@ -4176,7 +4164,6 @@ export default function Home() {
                                   <p className="text-center text-base leading-3">
                                     <Image
                                       className="relative inline-block w-5 px-1"
-                                      layout="intrinsic"
                                       width={50}
                                       height={50}
                                       src="/Logo/eth1.png"
@@ -4253,7 +4240,6 @@ export default function Home() {
                                   Price:
                                   <Image
                                     className="relative inline-block w-5 space-x-4 px-1"
-                                    layout="intrinsic"
                                     width={50}
                                     height={50}
                                     src="/Logo/eth1.png"
@@ -4284,7 +4270,6 @@ export default function Home() {
                                   <p className="text-center text-base leading-3">
                                     <Image
                                       className="relative inline-block w-5 px-1"
-                                      layout="intrinsic"
                                       width={50}
                                       height={50}
                                       src="/Logo/eth1.png"
@@ -4361,7 +4346,6 @@ export default function Home() {
                                   Price:
                                   <Image
                                     className="relative inline-block w-5 space-x-4 px-1"
-                                    layout="intrinsic"
                                     width={50}
                                     height={50}
                                     src="/Logo/eth1.png"
@@ -4392,7 +4376,6 @@ export default function Home() {
                                   <p className="text-center text-base leading-3">
                                     <Image
                                       className="relative inline-block w-5 px-1"
-                                      layout="intrinsic"
                                       width={50}
                                       height={50}
                                       src="/Logo/eth1.png"
@@ -4504,7 +4487,6 @@ export default function Home() {
                             <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
                               <Image
                                 className="relative inline-block w-8 px-1"
-                                layout="intrinsic"
                                 width={50}
                                 height={50}
                                 src="/Logo/eth.png"
@@ -4561,7 +4543,6 @@ export default function Home() {
                             <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
                               <Image
                                 className="relative inline-block w-8 px-1"
-                                layout="intrinsic"
                                 width={50}
                                 height={50}
                                 src="/Logo/eth.png"
@@ -4618,7 +4599,6 @@ export default function Home() {
                             <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
                               <Image
                                 className="relative inline-block w-8 px-1"
-                                layout="intrinsic"
                                 width={50}
                                 height={50}
                                 src="/Logo/eth.png"
@@ -4674,7 +4654,6 @@ export default function Home() {
                             <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
                               <Image
                                 className="relative inline-block w-8 px-1"
-                                layout="intrinsic"
                                 width={50}
                                 height={50}
                                 src="/Logo/eth.png"
@@ -4731,7 +4710,6 @@ export default function Home() {
                             <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
                               <Image
                                 className="relative inline-block w-8 px-1"
-                                layout="intrinsic"
                                 width={50}
                                 height={50}
                                 src="/Logo/eth.png"
@@ -4788,7 +4766,6 @@ export default function Home() {
                             <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
                               <Image
                                 className="relative inline-block w-8 px-1"
-                                layout="intrinsic"
                                 width={50}
                                 height={50}
                                 src="/Logo/eth.png"
@@ -4845,7 +4822,6 @@ export default function Home() {
                             <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
                               <Image
                                 className="relative inline-block w-8 px-1"
-                                layout="intrinsic"
                                 width={50}
                                 height={50}
                                 src="/Logo/eth.png"
@@ -4902,7 +4878,6 @@ export default function Home() {
                             <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
                               <Image
                                 className="relative inline-block w-8 px-1"
-                                layout="intrinsic"
                                 width={50}
                                 height={50}
                                 src="/Logo/eth.png"

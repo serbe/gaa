@@ -216,7 +216,6 @@ export default function Home() {
                       <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
                         <Image
                           className="relative inline-block w-8 px-1"
-                          layout="intrinsic"
                           width={50}
                           height={50}
                           src="/Logo/eth.png"
@@ -269,7 +268,6 @@ export default function Home() {
                       <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
                         <Image
                           className="relative inline-block w-8 px-1"
-                          layout="intrinsic"
                           width={50}
                           height={50}
                           src="/Logo/eth.png"
@@ -322,7 +320,6 @@ export default function Home() {
                       <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
                         <Image
                           className="relative inline-block w-8 px-1"
-                          layout="intrinsic"
                           width={50}
                           height={50}
                           src="/Logo/eth.png"
@@ -374,7 +371,6 @@ export default function Home() {
                       <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
                         <Image
                           className="relative inline-block w-8 px-1"
-                          layout="intrinsic"
                           width={50}
                           height={50}
                           src="/Logo/eth.png"
@@ -427,7 +423,6 @@ export default function Home() {
                       <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
                         <Image
                           className="relative inline-block w-8 px-1"
-                          layout="intrinsic"
                           width={50}
                           height={50}
                           src="/Logo/eth.png"
@@ -480,7 +475,6 @@ export default function Home() {
                       <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
                         <Image
                           className="relative inline-block w-8 px-1"
-                          layout="intrinsic"
                           width={50}
                           height={50}
                           src="/Logo/eth.png"
@@ -533,7 +527,6 @@ export default function Home() {
                       <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
                         <Image
                           className="relative inline-block w-8 px-1"
-                          layout="intrinsic"
                           width={50}
                           height={50}
                           src="/Logo/eth.png"
@@ -586,7 +579,6 @@ export default function Home() {
                       <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
                         <Image
                           className="relative inline-block w-8 px-1"
-                          layout="intrinsic"
                           width={50}
                           height={50}
                           src="/Logo/eth.png"
@@ -628,8 +620,8 @@ export default function Home() {
             <div>
               <div>
                 <p className="text-3xl font-semibold md:px-10">RaceLads</p>
-                <p className="font-thing text-2xl md:px-10">Polygon zkEVM </p>
-                <p className="font-thing text-2xl md:px-10">Designed by GAA </p>
+                <p className="text-2xl font-thin md:px-10">Polygon zkEVM </p>
+                <p className="text-2xl font-thin md:px-10">Designed by GAA </p>
               </div>
             </div>
           </div>
@@ -637,12 +629,12 @@ export default function Home() {
         <div className="grid h-1/5 grid-cols-1 p-1 2xl:grid-cols-2">
           <div className="flex grid-flow-row auto-rows-max justify-start space-x-2 pt-2 md:space-x-2">
             <div>
-              <p className="font-thing pt-1 text-xl md:px-10 md:text-2xl">Items: 10.000 </p>
+              <p className="pt-1 text-xl font-thin md:px-10 md:text-2xl">Items: 10.000 </p>
             </div>
-            <p className="font-thing pt-1 text-xl md:px-2 md:text-2xl">Created: Feb 2025 </p>
+            <p className="pt-1 text-xl font-thin md:px-2 md:text-2xl">Created: Feb 2025 </p>
 
-            <p className="font-thing pt-1 text-xl md:px-2 md:text-2xl">Creator earnings: 7.5%</p>
-            <p className="font-thing pt-1 text-xl md:px-2 md:text-2xl">Chain: Ethereum</p>
+            <p className="pt-1 text-xl font-thin md:px-2 md:text-2xl">Creator earnings: 7.5%</p>
+            <p className="pt-1 text-xl font-thin md:px-2 md:text-2xl">Chain: Ethereum</p>
           </div>
 
           <div className="flex grid-flow-row auto-rows-max justify-end space-x-4 pb-4 pt-2 md:space-x-8">

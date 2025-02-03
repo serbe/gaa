@@ -254,11 +254,11 @@ export default function Home() {
         <div className="grid h-1/5 grid-cols-1 space-x-2 p-1 md:grid-cols-2">
           <div className="grid h-1/5 grid-cols-1 space-x-2 p-1 md:grid-cols-2">
             <div>
-              <p className="font-thing text-2xl md:px-10">0 x6918...a442 </p>
+              <p className="text-2xl font-thin md:px-10">0 x6918...a442 </p>
             </div>
 
             <div>
-              <p className="font-thing text-2xl md:px-10">Joined May 2024 </p>
+              <p className="text-2xl font-thin md:px-10">Joined May 2024 </p>
             </div>
           </div>
         </div>
@@ -267,44 +267,40 @@ export default function Home() {
           <div className="flex grid-flow-row auto-rows-max justify-start space-x-2 pb-4 pt-2 text-center md:space-x-4">
             <div className="rounded-2xl hover:bg-p1-green/20">
               <Link href="#" className="">
-                <p className="font-thing pt-1 text-xl lining-nums md:px-2 md:text-2xl">
-                  Collected:
-                </p>
-                <p className="font-thing pt-1 text-xl lining-nums md:px-2 md:text-2xl">10.000 </p>
+                <p className="pt-1 text-xl font-thin lining-nums md:px-2 md:text-2xl">Collected:</p>
+                <p className="pt-1 text-xl font-thin lining-nums md:px-2 md:text-2xl">10.000 </p>
               </Link>
             </div>
             <div className="rounded-2xl hover:bg-p1-green/20">
               <Link href="#" className="">
-                <p className="font-thing pt-1 text-xl lining-nums md:px-2 md:text-2xl">
+                <p className="pt-1 text-xl font-thin lining-nums md:px-2 md:text-2xl">
                   Offers_made:
                 </p>
-                <p className="font-thing pt-1 text-xl lining-nums md:px-2 md:text-2xl">55 </p>
+                <p className="pt-1 text-xl font-thin lining-nums md:px-2 md:text-2xl">55 </p>
               </Link>
             </div>
             <div className="rounded-2xl hover:bg-p1-green/20">
               <Link href="#" className="">
-                <p className="font-thing pt-1 text-xl lining-nums md:px-2 md:text-2xl">Deals: </p>
-                <p className="font-thing pt-1 text-xl lining-nums md:px-2 md:text-2xl">23 </p>
+                <p className="pt-1 text-xl font-thin lining-nums md:px-2 md:text-2xl">Deals: </p>
+                <p className="pt-1 text-xl font-thin lining-nums md:px-2 md:text-2xl">23 </p>
               </Link>
             </div>
             <div className="rounded-2xl hover:bg-p1-green/20">
               <Link href="#" className="">
-                <p className="font-thing pt-1 text-xl lining-nums md:px-2 md:text-2xl">Created: </p>
-                <p className="font-thing pt-1 text-xl lining-nums md:px-2 md:text-2xl">9988 </p>
+                <p className="pt-1 text-xl font-thin lining-nums md:px-2 md:text-2xl">Created: </p>
+                <p className="pt-1 text-xl font-thin lining-nums md:px-2 md:text-2xl">9988 </p>
               </Link>
             </div>
             <div className="rounded-2xl hover:bg-p1-green/20">
               <Link href="#" className="">
-                <p className="font-thing pt-1 text-xl lining-nums md:px-2 md:text-2xl">
-                  Favorited:
-                </p>
-                <p className="font-thing pt-1 text-xl lining-nums md:px-2 md:text-2xl">77 </p>
+                <p className="pt-1 text-xl font-thin lining-nums md:px-2 md:text-2xl">Favorited:</p>
+                <p className="pt-1 text-xl font-thin lining-nums md:px-2 md:text-2xl">77 </p>
               </Link>
             </div>
             <div className="rounded-2xl hover:bg-p1-green/20">
               <Link href="#" className="">
-                <p className="font-thing pt-1 text-xl lining-nums md:px-2 md:text-2xl">Activity:</p>
-                <p className="font-thing pt-1 text-xl lining-nums md:px-2 md:text-2xl">888 </p>
+                <p className="pt-1 text-xl font-thin lining-nums md:px-2 md:text-2xl">Activity:</p>
+                <p className="pt-1 text-xl font-thin lining-nums md:px-2 md:text-2xl">888 </p>
               </Link>
             </div>
           </div>
@@ -312,32 +308,32 @@ export default function Home() {
           <div className="flex grid-flow-row auto-rows-max justify-end space-x-2 pb-4 pt-2 text-center md:space-x-4">
             <div className="rounded-2xl hover:bg-p1-green/20">
               <Link href="#" className="">
-                <p className="font-thing pt-1 text-xl lining-nums md:px-2 md:text-2xl">
+                <p className="pt-1 text-xl font-thin lining-nums md:px-2 md:text-2xl">
                   Offers_received:
                 </p>
-                <p className="font-thing pt-1 text-xl lining-nums md:px-2 md:text-2xl">88 </p>
+                <p className="pt-1 text-xl font-thin lining-nums md:px-2 md:text-2xl">88 </p>
               </Link>
             </div>
             <div className="rounded-2xl hover:bg-p1-green/20">
               <Link href="#" className="">
-                <p className="font-thing pt-1 text-xl lining-nums md:px-2 md:text-2xl">
+                <p className="pt-1 text-xl font-thin lining-nums md:px-2 md:text-2xl">
                   Active_listings:
                 </p>
-                <p className="font-thing pt-1 text-xl lining-nums md:px-2 md:text-2xl">78 </p>
+                <p className="pt-1 text-xl font-thin lining-nums md:px-2 md:text-2xl">78 </p>
               </Link>
             </div>
             <div className="rounded-2xl hover:bg-p1-green/20">
               <Link href="#" className="">
-                <p className="font-thing pt-1 text-xl lining-nums md:px-2 md:text-2xl">
+                <p className="pt-1 text-xl font-thin lining-nums md:px-2 md:text-2xl">
                   Inactive_listings:
                 </p>
-                <p className="font-thing pt-1 text-xl lining-nums md:px-2 md:text-2xl">369 </p>
+                <p className="pt-1 text-xl font-thin lining-nums md:px-2 md:text-2xl">369 </p>
               </Link>
             </div>
             <div className="rounded-2xl hover:bg-p1-green/20">
               <Link href="#" className="">
-                <p className="font-thing pt-1 text-xl lining-nums md:px-2 md:text-2xl">Hidden: </p>
-                <p className="font-thing pt-1 text-xl lining-nums md:px-2 md:text-2xl">45 </p>
+                <p className="pt-1 text-xl font-thin lining-nums md:px-2 md:text-2xl">Hidden: </p>
+                <p className="pt-1 text-xl font-thin lining-nums md:px-2 md:text-2xl">45 </p>
               </Link>
             </div>
           </div>
@@ -1191,7 +1187,6 @@ export default function Home() {
                               Price:
                               <Image
                                 className="relative inline-block w-4 space-x-4 px-1"
-                                layout="intrinsic"
                                 width={50}
                                 height={50}
                                 src="/Logo/eth1.png"
@@ -1219,7 +1214,6 @@ export default function Home() {
                               <div className="text-center text-xs leading-3">
                                 <Image
                                   className="relative inline-block w-3 px-0.5"
-                                  layout="intrinsic"
                                   width={50}
                                   height={50}
                                   src="/Logo/eth1.png"
@@ -1296,7 +1290,6 @@ export default function Home() {
                               Price:
                               <Image
                                 className="relative inline-block w-5 space-x-4 px-1"
-                                layout="intrinsic"
                                 width={50}
                                 height={50}
                                 src="/Logo/eth1.png"
@@ -1325,7 +1318,6 @@ export default function Home() {
                               <p className="text-center text-base leading-3">
                                 <Image
                                   className="relative inline-block w-5 px-1"
-                                  layout="intrinsic"
                                   width={50}
                                   height={50}
                                   src="/Logo/eth1.png"
@@ -1402,7 +1394,6 @@ export default function Home() {
                               Price:
                               <Image
                                 className="relative inline-block w-6 px-1"
-                                layout="intrinsic"
                                 width={50}
                                 height={50}
                                 src="/Logo/eth1.png"
@@ -1428,7 +1419,6 @@ export default function Home() {
                               <p className="text-center text-lg leading-3">
                                 <Image
                                   className="relative inline-block w-5 px-1"
-                                  layout="intrinsic"
                                   width={50}
                                   height={50}
                                   src="/Logo/eth1.png"
@@ -1505,7 +1495,6 @@ export default function Home() {
                               Price:
                               <Image
                                 className="relative inline-block w-7 px-1"
-                                layout="intrinsic"
                                 width={50}
                                 height={50}
                                 src="/Logo/eth1.png"
@@ -1534,7 +1523,6 @@ export default function Home() {
                               <p className="text-center text-xl">
                                 <Image
                                   className="relative inline-block w-6 px-1"
-                                  layout="intrinsic"
                                   width={50}
                                   height={50}
                                   src="/Logo/eth1.png"
@@ -2213,7 +2201,7 @@ export default function Home() {
 
                 <div className="inline-block pb-5">
                   <div className="place-items-start md:basis-5">
-                    <div className="text-lef pt-2">
+                    <div className="pt-2 text-left">
                       Эмблемы и категории спонсоров
                       <div className="">
                         <div className="mt-5 grid grid-cols-1 gap-2 p-4 md:grid-cols-2 md:place-items-end xl:grid-cols-4">
@@ -2447,7 +2435,6 @@ export default function Home() {
                                 <div className="text-center text-xs leading-3">
                                   <Image
                                     className="relative inline-block w-5 px-0.5"
-                                    layout="intrinsic"
                                     width={50}
                                     height={50}
                                     src="/icon/del.png"
@@ -2528,7 +2515,6 @@ export default function Home() {
                                 <div className="text-center text-xs leading-3">
                                   <Image
                                     className="relative inline-block w-5 px-0.5"
-                                    layout="intrinsic"
                                     width={50}
                                     height={50}
                                     src="/icon/del.png"
@@ -3249,7 +3235,6 @@ export default function Home() {
                               <div className="text-center text-xs leading-3">
                                 <Image
                                   className="relative inline-block w-5 px-0.5"
-                                  layout="intrinsic"
                                   width={50}
                                   height={50}
                                   src="/icon/del.png"
@@ -3330,7 +3315,6 @@ export default function Home() {
                               <div className="text-center text-xs leading-3">
                                 <Image
                                   className="relative inline-block w-5 px-0.5"
-                                  layout="intrinsic"
                                   width={50}
                                   height={50}
                                   src="/icon/del.png"
