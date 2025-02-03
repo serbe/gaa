@@ -8,7 +8,6 @@ import { useState } from 'react';
 import { JumpButton } from '@/components/jumpButton';
 import { useWindowDimensions } from '@/utils/hooks';
 
-
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -1106,7 +1105,7 @@ export default function Home() {
               </details>
             </div>
 
-            <div className="w-full place-content-center px-6 py-4 text-xl text-p1-darkgreen dark:text-p1-green">
+            <div className="w-full place-content-center px-6 py-4 text-xl font-bold text-p1-darkgreen dark:text-p1-green">
               Traits
             </div>
             <div className="">
