@@ -1,11 +1,9 @@
 'use client';
-import { useLocale, useTranslations } from 'next-intl';
+import { useTranslations } from 'next-intl';
 import { Link } from '@/i18n/routing';
 import { Dispatch, SetStateAction, useState } from 'react';
 
 function Navbar({ open, setter }: { open: boolean; setter: Dispatch<SetStateAction<boolean>> }) {
-  const locale = useLocale();
-  console.log(locale);
   const t = useTranslations('Navbar');
 
   const menuItems = [
