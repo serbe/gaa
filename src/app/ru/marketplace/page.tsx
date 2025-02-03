@@ -8,6 +8,7 @@ import { useState } from 'react';
 import { JumpButton } from '@/components/jumpButton';
 import { useWindowDimensions } from '@/utils/hooks';
 
+
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -1108,1190 +1109,1192 @@ export default function Home() {
             <div className="w-full place-content-center px-6 py-4 text-xl text-p1-darkgreen dark:text-p1-green">
               Traits
             </div>
-            <div className="snap-y">
-              <div className="mb-2 w-full rounded-2xl border border-p1-green bg-p1-white text-xl text-p1-darkgreen shadow-lg dark:bg-p1-deepdarkgreen">
-                <details className="m-2">
-                  <summary className="relative flex cursor-pointer justify-between py-2">
-                    <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
-                      Slogan
-                    </div>
-                    <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
-                      8
-                    </div>
-                  </summary>
-                  <div className="pt-1 text-center text-p1-darkgreen dark:text-p1-green">
-                    <div className="flex justify-center pb-2">
-                      <div>
-                        <div className="flex overflow-hidden rounded-2xl border border-p1-green bg-p2-white2 px-4 py-3 hover:border-p1-cyan focus:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan">
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            viewBox="0 0 192.904 192.904"
-                            width="16px"
-                            className="mr-3 rotate-90 fill-gray-800 dark:fill-p1-cyan"
-                          >
-                            <path d="m190.707 180.101-47.078-47.077c11.702-14.072 18.752-32.142 18.752-51.831C162.381 36.423 125.959 0 81.191 0 36.422 0 0 36.423 0 81.193c0 44.767 36.422 81.187 81.191 81.187 19.688 0 37.759-7.049 51.831-18.751l47.079 47.078a7.474 7.474 0 0 0 5.303 2.197 7.498 7.498 0 0 0 5.303-12.803zM15 81.193C15 44.694 44.693 15 81.191 15c36.497 0 66.189 29.694 66.189 66.193 0 36.496-29.692 66.187-66.189 66.187C44.693 147.38 15 117.689 15 81.193z"></path>
-                          </svg>
-                          <input
-                            type="email"
-                            placeholder="Search ..."
-                            className="w-full bg-transparent text-xl text-p1-deepdarkgreen outline-none dark:text-p1-cyan"
-                          />
+            <div className="">
+              <div className="h-96 w-full resize-y snap-y scroll-mt-4 place-self-start overflow-auto scroll-smooth">
+                <div className="mb-2 w-full snap-start rounded-2xl border border-p1-green bg-p1-white text-xl text-p1-darkgreen shadow-lg dark:bg-p1-deepdarkgreen">
+                  <details className="m-2">
+                    <summary className="relative flex cursor-pointer justify-between py-2">
+                      <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
+                        Slogan
+                      </div>
+                      <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
+                        8
+                      </div>
+                    </summary>
+                    <div className="pt-1 text-center text-p1-darkgreen dark:text-p1-green">
+                      <div className="flex justify-center pb-2">
+                        <div>
+                          <div className="flex overflow-hidden rounded-2xl border border-p1-green bg-p2-white2 px-4 py-3 hover:border-p1-cyan focus:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 192.904 192.904"
+                              width="16px"
+                              className="mr-3 rotate-90 fill-gray-800 dark:fill-p1-cyan"
+                            >
+                              <path d="m190.707 180.101-47.078-47.077c11.702-14.072 18.752-32.142 18.752-51.831C162.381 36.423 125.959 0 81.191 0 36.422 0 0 36.423 0 81.193c0 44.767 36.422 81.187 81.191 81.187 19.688 0 37.759-7.049 51.831-18.751l47.079 47.078a7.474 7.474 0 0 0 5.303 2.197 7.498 7.498 0 0 0 5.303-12.803zM15 81.193C15 44.694 44.693 15 81.191 15c36.497 0 66.189 29.694 66.189 66.193 0 36.496-29.692 66.187-66.189 66.187C44.693 147.38 15 117.689 15 81.193z"></path>
+                            </svg>
+                            <input
+                              type="email"
+                              placeholder="Search ..."
+                              className="w-full bg-transparent text-xl text-p1-deepdarkgreen outline-none dark:text-p1-cyan"
+                            />
+                          </div>
                         </div>
                       </div>
-                    </div>
-                    <div className="flex place-content-between p-4">
-                      <input
-                        checked={check}
-                        id="checkbox_ETH"
-                        onChange={() => {
-                          setCheck(!check);
-                        }}
-                        type="checkbox"
-                        value=""
-                        className="size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
-                      />
-                      <label
-                        id="3"
-                        htmlFor="checkbox_ETH"
-                        className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-p1-cyan"
-                      >
-                        Always a champion
-                      </label>
-                      <div className="px-4 text-p1-darkgreen dark:text-p1-green">46</div>
-                    </div>
+                      <div className="flex place-content-between p-4">
+                        <input
+                          checked={check}
+                          id="checkbox_ETH"
+                          onChange={() => {
+                            setCheck(!check);
+                          }}
+                          type="checkbox"
+                          value=""
+                          className="size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                        />
+                        <label
+                          id="3"
+                          htmlFor="checkbox_ETH"
+                          className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-p1-cyan"
+                        >
+                          Always a champion
+                        </label>
+                        <div className="px-4 text-p1-darkgreen dark:text-p1-green">46</div>
+                      </div>
 
-                    <div className="flex place-content-between p-4">
-                      <input
-                        checked={check}
-                        id="checkbox_POL"
-                        onChange={() => {
-                          setCheck(!check);
-                        }}
-                        type="checkbox"
-                        value=""
-                        className="size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
-                      />
-                      <label
-                        id="3"
-                        htmlFor="checkbox_POL"
-                        className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-p1-cyan"
-                      >
-                        Drift till I die
-                      </label>
-                      <div className="px-4 text-p1-darkgreen dark:text-p1-green">46</div>
-                    </div>
-                  </div>
-                </details>
-              </div>
-
-              <div className="mb-2 w-full rounded-2xl border border-p1-green bg-p1-white text-xl text-p1-darkgreen shadow-lg dark:bg-p1-deepdarkgreen">
-                <details className="m-2">
-                  <summary className="relative flex cursor-pointer justify-between py-2">
-                    <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
-                      Background
-                    </div>
-                    <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
-                      46
-                    </div>
-                  </summary>
-                  <div className="pt-1 text-center text-p1-darkgreen dark:text-p1-green">
-                    <div className="flex justify-center pb-2">
-                      <div>
-                        <div className="flex overflow-hidden rounded-2xl border border-p1-green bg-p2-white2 px-4 py-3 hover:border-p1-cyan focus:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan">
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            viewBox="0 0 192.904 192.904"
-                            width="16px"
-                            className="mr-3 rotate-90 fill-gray-800 dark:fill-p1-cyan"
-                          >
-                            <path d="m190.707 180.101-47.078-47.077c11.702-14.072 18.752-32.142 18.752-51.831C162.381 36.423 125.959 0 81.191 0 36.422 0 0 36.423 0 81.193c0 44.767 36.422 81.187 81.191 81.187 19.688 0 37.759-7.049 51.831-18.751l47.079 47.078a7.474 7.474 0 0 0 5.303 2.197 7.498 7.498 0 0 0 5.303-12.803zM15 81.193C15 44.694 44.693 15 81.191 15c36.497 0 66.189 29.694 66.189 66.193 0 36.496-29.692 66.187-66.189 66.187C44.693 147.38 15 117.689 15 81.193z"></path>
-                          </svg>
-                          <input
-                            type="email"
-                            placeholder="Search ..."
-                            className="w-full bg-transparent text-xl text-p1-deepdarkgreen outline-none dark:text-p1-cyan"
-                          />
-                        </div>
+                      <div className="flex place-content-between p-4">
+                        <input
+                          checked={check}
+                          id="checkbox_POL"
+                          onChange={() => {
+                            setCheck(!check);
+                          }}
+                          type="checkbox"
+                          value=""
+                          className="size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                        />
+                        <label
+                          id="3"
+                          htmlFor="checkbox_POL"
+                          className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-p1-cyan"
+                        >
+                          Drift till I die
+                        </label>
+                        <div className="px-4 text-p1-darkgreen dark:text-p1-green">46</div>
                       </div>
                     </div>
-                    <div className="flex place-content-between p-4">
-                      <input
-                        checked={check}
-                        id="checkbox_ETH"
-                        onChange={() => {
-                          setCheck(!check);
-                        }}
-                        type="checkbox"
-                        value=""
-                        className="size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
-                      />
-                      <label
-                        id="3"
-                        htmlFor="checkbox_ETH"
-                        className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-p1-cyan"
-                      >
-                        Aquamarine
-                      </label>
-                      <div className="px-4 text-p1-darkgreen dark:text-p1-green">44</div>
-                    </div>
-                    <div className="flex place-content-between p-4">
-                      <input
-                        checked={check}
-                        id="checkbox_POL"
-                        onChange={() => {
-                          setCheck(!check);
-                        }}
-                        type="checkbox"
-                        value=""
-                        className="size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
-                      />
-                      <label
-                        id="3"
-                        htmlFor="checkbox_POL"
-                        className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-p1-cyan"
-                      >
-                        Sky Blue
-                      </label>
-                      <div className="px-4 text-p1-darkgreen dark:text-p1-green">46</div>
-                    </div>
-                  </div>
-                </details>
-              </div>
+                  </details>
+                </div>
 
-              <div className="mb-2 w-full rounded-2xl border border-p1-green bg-p1-white text-xl text-p1-darkgreen shadow-lg dark:bg-p1-deepdarkgreen">
-                <details className="m-2">
-                  <summary className="relative flex cursor-pointer justify-between py-2">
-                    <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
-                      Skin
-                    </div>
-                    <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
-                      8
-                    </div>
-                  </summary>
-                  <div className="pt-1 text-center text-p1-darkgreen dark:text-p1-green">
-                    <div className="flex justify-center pb-2">
-                      <div>
-                        <div className="flex overflow-hidden rounded-2xl border border-p1-green bg-p2-white2 px-4 py-3 hover:border-p1-cyan focus:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan">
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            viewBox="0 0 192.904 192.904"
-                            width="16px"
-                            className="mr-3 rotate-90 fill-gray-800 dark:fill-p1-cyan"
-                          >
-                            <path d="m190.707 180.101-47.078-47.077c11.702-14.072 18.752-32.142 18.752-51.831C162.381 36.423 125.959 0 81.191 0 36.422 0 0 36.423 0 81.193c0 44.767 36.422 81.187 81.191 81.187 19.688 0 37.759-7.049 51.831-18.751l47.079 47.078a7.474 7.474 0 0 0 5.303 2.197 7.498 7.498 0 0 0 5.303-12.803zM15 81.193C15 44.694 44.693 15 81.191 15c36.497 0 66.189 29.694 66.189 66.193 0 36.496-29.692 66.187-66.189 66.187C44.693 147.38 15 117.689 15 81.193z"></path>
-                          </svg>
-                          <input
-                            type="email"
-                            placeholder="Search ..."
-                            className="w-full bg-transparent text-xl text-p1-deepdarkgreen outline-none dark:text-p1-cyan"
-                          />
+                <div className="mb-2 w-full snap-start rounded-2xl border border-p1-green bg-p1-white text-xl text-p1-darkgreen shadow-lg dark:bg-p1-deepdarkgreen">
+                  <details className="m-2">
+                    <summary className="relative flex cursor-pointer justify-between py-2">
+                      <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
+                        Background
+                      </div>
+                      <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
+                        46
+                      </div>
+                    </summary>
+                    <div className="pt-1 text-center text-p1-darkgreen dark:text-p1-green">
+                      <div className="flex justify-center pb-2">
+                        <div>
+                          <div className="flex overflow-hidden rounded-2xl border border-p1-green bg-p2-white2 px-4 py-3 hover:border-p1-cyan focus:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 192.904 192.904"
+                              width="16px"
+                              className="mr-3 rotate-90 fill-gray-800 dark:fill-p1-cyan"
+                            >
+                              <path d="m190.707 180.101-47.078-47.077c11.702-14.072 18.752-32.142 18.752-51.831C162.381 36.423 125.959 0 81.191 0 36.422 0 0 36.423 0 81.193c0 44.767 36.422 81.187 81.191 81.187 19.688 0 37.759-7.049 51.831-18.751l47.079 47.078a7.474 7.474 0 0 0 5.303 2.197 7.498 7.498 0 0 0 5.303-12.803zM15 81.193C15 44.694 44.693 15 81.191 15c36.497 0 66.189 29.694 66.189 66.193 0 36.496-29.692 66.187-66.189 66.187C44.693 147.38 15 117.689 15 81.193z"></path>
+                            </svg>
+                            <input
+                              type="email"
+                              placeholder="Search ..."
+                              className="w-full bg-transparent text-xl text-p1-deepdarkgreen outline-none dark:text-p1-cyan"
+                            />
+                          </div>
                         </div>
                       </div>
-                    </div>
-                    <div className="flex place-content-between p-4">
-                      <input
-                        checked={check}
-                        id="checkbox_ETH"
-                        onChange={() => {
-                          setCheck(!check);
-                        }}
-                        type="checkbox"
-                        value=""
-                        className="size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
-                      />
-                      <label
-                        id="3"
-                        htmlFor="checkbox_ETH"
-                        className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-p1-cyan"
-                      >
-                        Asian
-                      </label>
-                      <div className="px-4 text-p1-darkgreen dark:text-p1-green">2345</div>
-                    </div>
-                    <div className="flex place-content-between p-4">
-                      <input
-                        checked={check}
-                        id="checkbox_POL"
-                        onChange={() => {
-                          setCheck(!check);
-                        }}
-                        type="checkbox"
-                        value=""
-                        className="size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
-                      />
-                      <label
-                        id="3"
-                        htmlFor="checkbox_POL"
-                        className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-p1-cyan"
-                      >
-                        Arab
-                      </label>
-                      <div className="px-4 text-p1-darkgreen dark:text-p1-green">1256</div>
-                    </div>
-                  </div>
-                </details>
-              </div>
-
-              <div className="mb-2 w-full rounded-2xl border border-p1-green bg-p1-white text-xl text-p1-darkgreen shadow-lg dark:bg-p1-deepdarkgreen">
-                <details className="m-2">
-                  <summary className="relative flex cursor-pointer justify-between py-2">
-                    <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
-                      Eyes
-                    </div>
-                    <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
-                      8
-                    </div>
-                  </summary>
-                  <div className="pt-1 text-center text-p1-darkgreen dark:text-p1-green">
-                    <div className="flex justify-center pb-2">
-                      <div>
-                        <div className="flex overflow-hidden rounded-2xl border border-p1-green bg-p2-white2 px-4 py-3 hover:border-p1-cyan focus:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan">
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            viewBox="0 0 192.904 192.904"
-                            width="16px"
-                            className="mr-3 rotate-90 fill-gray-800 dark:fill-p1-cyan"
-                          >
-                            <path d="m190.707 180.101-47.078-47.077c11.702-14.072 18.752-32.142 18.752-51.831C162.381 36.423 125.959 0 81.191 0 36.422 0 0 36.423 0 81.193c0 44.767 36.422 81.187 81.191 81.187 19.688 0 37.759-7.049 51.831-18.751l47.079 47.078a7.474 7.474 0 0 0 5.303 2.197 7.498 7.498 0 0 0 5.303-12.803zM15 81.193C15 44.694 44.693 15 81.191 15c36.497 0 66.189 29.694 66.189 66.193 0 36.496-29.692 66.187-66.189 66.187C44.693 147.38 15 117.689 15 81.193z"></path>
-                          </svg>
-                          <input
-                            type="email"
-                            placeholder="Search ..."
-                            className="w-full bg-transparent text-xl text-p1-deepdarkgreen outline-none dark:text-p1-cyan"
-                          />
-                        </div>
+                      <div className="flex place-content-between p-4">
+                        <input
+                          checked={check}
+                          id="checkbox_ETH"
+                          onChange={() => {
+                            setCheck(!check);
+                          }}
+                          type="checkbox"
+                          value=""
+                          className="size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                        />
+                        <label
+                          id="3"
+                          htmlFor="checkbox_ETH"
+                          className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-p1-cyan"
+                        >
+                          Aquamarine
+                        </label>
+                        <div className="px-4 text-p1-darkgreen dark:text-p1-green">44</div>
+                      </div>
+                      <div className="flex place-content-between p-4">
+                        <input
+                          checked={check}
+                          id="checkbox_POL"
+                          onChange={() => {
+                            setCheck(!check);
+                          }}
+                          type="checkbox"
+                          value=""
+                          className="size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                        />
+                        <label
+                          id="3"
+                          htmlFor="checkbox_POL"
+                          className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-p1-cyan"
+                        >
+                          Sky Blue
+                        </label>
+                        <div className="px-4 text-p1-darkgreen dark:text-p1-green">46</div>
                       </div>
                     </div>
-                    <div className="flex place-content-between p-4">
-                      <input
-                        checked={check}
-                        id="checkbox_ETH"
-                        onChange={() => {
-                          setCheck(!check);
-                        }}
-                        type="checkbox"
-                        value=""
-                        className="size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
-                      />
-                      <label
-                        id="3"
-                        htmlFor="checkbox_ETH"
-                        className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-p1-cyan"
-                      >
-                        Normal
-                      </label>
-                      <div className="px-4 text-p1-darkgreen dark:text-p1-green">2345</div>
-                    </div>
-                    <div className="flex place-content-between p-4">
-                      <input
-                        checked={check}
-                        id="checkbox_POL"
-                        onChange={() => {
-                          setCheck(!check);
-                        }}
-                        type="checkbox"
-                        value=""
-                        className="size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
-                      />
-                      <label
-                        id="3"
-                        htmlFor="checkbox_POL"
-                        className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-p1-cyan"
-                      >
-                        Kind
-                      </label>
-                      <div className="px-4 text-p1-darkgreen dark:text-p1-green">1256</div>
-                    </div>
-                  </div>
-                </details>
-              </div>
+                  </details>
+                </div>
 
-              <div className="mb-2 w-full rounded-2xl border border-p1-green bg-p1-white text-xl text-p1-darkgreen shadow-lg dark:bg-p1-deepdarkgreen">
-                <details className="m-2">
-                  <summary className="relative flex cursor-pointer justify-between py-2">
-                    <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
-                      Mouth
-                    </div>
-                    <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
-                      16
-                    </div>
-                  </summary>
-                  <div className="pt-1 text-center text-p1-darkgreen dark:text-p1-green">
-                    <div className="flex justify-center pb-2">
-                      <div>
-                        <div className="flex overflow-hidden rounded-2xl border border-p1-green bg-p2-white2 px-4 py-3 hover:border-p1-cyan focus:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan">
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            viewBox="0 0 192.904 192.904"
-                            width="16px"
-                            className="mr-3 rotate-90 fill-gray-800 dark:fill-p1-cyan"
-                          >
-                            <path d="m190.707 180.101-47.078-47.077c11.702-14.072 18.752-32.142 18.752-51.831C162.381 36.423 125.959 0 81.191 0 36.422 0 0 36.423 0 81.193c0 44.767 36.422 81.187 81.191 81.187 19.688 0 37.759-7.049 51.831-18.751l47.079 47.078a7.474 7.474 0 0 0 5.303 2.197 7.498 7.498 0 0 0 5.303-12.803zM15 81.193C15 44.694 44.693 15 81.191 15c36.497 0 66.189 29.694 66.189 66.193 0 36.496-29.692 66.187-66.189 66.187C44.693 147.38 15 117.689 15 81.193z"></path>
-                          </svg>
-                          <input
-                            type="email"
-                            placeholder="Search ..."
-                            className="w-full bg-transparent text-xl text-p1-deepdarkgreen outline-none dark:text-p1-cyan"
-                          />
+                <div className="mb-2 w-full snap-start rounded-2xl border border-p1-green bg-p1-white text-xl text-p1-darkgreen shadow-lg dark:bg-p1-deepdarkgreen">
+                  <details className="m-2">
+                    <summary className="relative flex cursor-pointer justify-between py-2">
+                      <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
+                        Skin
+                      </div>
+                      <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
+                        8
+                      </div>
+                    </summary>
+                    <div className="pt-1 text-center text-p1-darkgreen dark:text-p1-green">
+                      <div className="flex justify-center pb-2">
+                        <div>
+                          <div className="flex overflow-hidden rounded-2xl border border-p1-green bg-p2-white2 px-4 py-3 hover:border-p1-cyan focus:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 192.904 192.904"
+                              width="16px"
+                              className="mr-3 rotate-90 fill-gray-800 dark:fill-p1-cyan"
+                            >
+                              <path d="m190.707 180.101-47.078-47.077c11.702-14.072 18.752-32.142 18.752-51.831C162.381 36.423 125.959 0 81.191 0 36.422 0 0 36.423 0 81.193c0 44.767 36.422 81.187 81.191 81.187 19.688 0 37.759-7.049 51.831-18.751l47.079 47.078a7.474 7.474 0 0 0 5.303 2.197 7.498 7.498 0 0 0 5.303-12.803zM15 81.193C15 44.694 44.693 15 81.191 15c36.497 0 66.189 29.694 66.189 66.193 0 36.496-29.692 66.187-66.189 66.187C44.693 147.38 15 117.689 15 81.193z"></path>
+                            </svg>
+                            <input
+                              type="email"
+                              placeholder="Search ..."
+                              className="w-full bg-transparent text-xl text-p1-deepdarkgreen outline-none dark:text-p1-cyan"
+                            />
+                          </div>
                         </div>
                       </div>
-                    </div>
-                    <div className="flex place-content-between p-4">
-                      <input
-                        checked={check}
-                        id="checkbox_ETH"
-                        onChange={() => {
-                          setCheck(!check);
-                        }}
-                        type="checkbox"
-                        value=""
-                        className="size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
-                      />
-                      <label
-                        id="3"
-                        htmlFor="checkbox_ETH"
-                        className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-p1-cyan"
-                      >
-                        Neutral
-                      </label>
-                      <div className="px-4 text-p1-darkgreen dark:text-p1-green">4564</div>
-                    </div>
-                    <div className="flex place-content-between p-4">
-                      <input
-                        checked={check}
-                        id="checkbox_POL"
-                        onChange={() => {
-                          setCheck(!check);
-                        }}
-                        type="checkbox"
-                        value=""
-                        className="size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
-                      />
-                      <label
-                        id="3"
-                        htmlFor="checkbox_POL"
-                        className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-p1-cyan"
-                      >
-                        Sad
-                      </label>
-                      <div className="px-4 text-p1-darkgreen dark:text-p1-green">1256</div>
-                    </div>
-                  </div>
-                </details>
-              </div>
-
-              <div className="mb-2 w-full rounded-2xl border border-p1-green bg-p1-white text-xl text-p1-darkgreen shadow-lg dark:bg-p1-deepdarkgreen">
-                <details className="m-2">
-                  <summary className="relative flex cursor-pointer justify-between py-2">
-                    <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
-                      Nose
-                    </div>
-                    <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
-                      4
-                    </div>
-                  </summary>
-                  <div className="pt-1 text-center text-p1-darkgreen dark:text-p1-green">
-                    <div className="flex justify-center pb-2">
-                      <div>
-                        <div className="flex overflow-hidden rounded-2xl border border-p1-green bg-p2-white2 px-4 py-3 hover:border-p1-cyan focus:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan">
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            viewBox="0 0 192.904 192.904"
-                            width="16px"
-                            className="mr-3 rotate-90 fill-gray-800 dark:fill-p1-cyan"
-                          >
-                            <path d="m190.707 180.101-47.078-47.077c11.702-14.072 18.752-32.142 18.752-51.831C162.381 36.423 125.959 0 81.191 0 36.422 0 0 36.423 0 81.193c0 44.767 36.422 81.187 81.191 81.187 19.688 0 37.759-7.049 51.831-18.751l47.079 47.078a7.474 7.474 0 0 0 5.303 2.197 7.498 7.498 0 0 0 5.303-12.803zM15 81.193C15 44.694 44.693 15 81.191 15c36.497 0 66.189 29.694 66.189 66.193 0 36.496-29.692 66.187-66.189 66.187C44.693 147.38 15 117.689 15 81.193z"></path>
-                          </svg>
-                          <input
-                            type="email"
-                            placeholder="Search ..."
-                            className="w-full bg-transparent text-xl text-p1-deepdarkgreen outline-none dark:text-p1-cyan"
-                          />
-                        </div>
+                      <div className="flex place-content-between p-4">
+                        <input
+                          checked={check}
+                          id="checkbox_ETH"
+                          onChange={() => {
+                            setCheck(!check);
+                          }}
+                          type="checkbox"
+                          value=""
+                          className="size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                        />
+                        <label
+                          id="3"
+                          htmlFor="checkbox_ETH"
+                          className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-p1-cyan"
+                        >
+                          Asian
+                        </label>
+                        <div className="px-4 text-p1-darkgreen dark:text-p1-green">2345</div>
+                      </div>
+                      <div className="flex place-content-between p-4">
+                        <input
+                          checked={check}
+                          id="checkbox_POL"
+                          onChange={() => {
+                            setCheck(!check);
+                          }}
+                          type="checkbox"
+                          value=""
+                          className="size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                        />
+                        <label
+                          id="3"
+                          htmlFor="checkbox_POL"
+                          className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-p1-cyan"
+                        >
+                          Arab
+                        </label>
+                        <div className="px-4 text-p1-darkgreen dark:text-p1-green">1256</div>
                       </div>
                     </div>
-                    <div className="flex place-content-between p-4">
-                      <input
-                        checked={check}
-                        id="checkbox_ETH"
-                        onChange={() => {
-                          setCheck(!check);
-                        }}
-                        type="checkbox"
-                        value=""
-                        className="size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
-                      />
-                      <label
-                        id="3"
-                        htmlFor="checkbox_ETH"
-                        className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-p1-cyan"
-                      >
-                        Normal
-                      </label>
-                      <div className="px-4 text-p1-darkgreen dark:text-p1-green">1234</div>
-                    </div>
-                    <div className="flex place-content-between p-4">
-                      <input
-                        checked={check}
-                        id="checkbox_POL"
-                        onChange={() => {
-                          setCheck(!check);
-                        }}
-                        type="checkbox"
-                        value=""
-                        className="size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
-                      />
-                      <label
-                        id="3"
-                        htmlFor="checkbox_POL"
-                        className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-p1-cyan"
-                      >
-                        Bulbous
-                      </label>
-                      <div className="px-4 text-p1-darkgreen dark:text-p1-green">987</div>
-                    </div>
-                  </div>
-                </details>
-              </div>
+                  </details>
+                </div>
 
-              <div className="mb-2 w-full rounded-2xl border border-p1-green bg-p1-white text-xl text-p1-darkgreen shadow-lg dark:bg-p1-deepdarkgreen">
-                <details className="m-2">
-                  <summary className="relative flex cursor-pointer justify-between py-2">
-                    <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
-                      Earring
-                    </div>
-                    <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
-                      7
-                    </div>
-                  </summary>
-                  <div className="pt-1 text-center text-p1-darkgreen dark:text-p1-green">
-                    <div className="flex justify-center pb-2">
-                      <div>
-                        <div className="flex overflow-hidden rounded-2xl border border-p1-green bg-p2-white2 px-4 py-3 hover:border-p1-cyan focus:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan">
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            viewBox="0 0 192.904 192.904"
-                            width="16px"
-                            className="mr-3 rotate-90 fill-gray-800 dark:fill-p1-cyan"
-                          >
-                            <path d="m190.707 180.101-47.078-47.077c11.702-14.072 18.752-32.142 18.752-51.831C162.381 36.423 125.959 0 81.191 0 36.422 0 0 36.423 0 81.193c0 44.767 36.422 81.187 81.191 81.187 19.688 0 37.759-7.049 51.831-18.751l47.079 47.078a7.474 7.474 0 0 0 5.303 2.197 7.498 7.498 0 0 0 5.303-12.803zM15 81.193C15 44.694 44.693 15 81.191 15c36.497 0 66.189 29.694 66.189 66.193 0 36.496-29.692 66.187-66.189 66.187C44.693 147.38 15 117.689 15 81.193z"></path>
-                          </svg>
-                          <input
-                            type="email"
-                            placeholder="Search ..."
-                            className="w-full bg-transparent text-xl text-p1-deepdarkgreen outline-none dark:text-p1-cyan"
-                          />
+                <div className="mb-2 w-full snap-start rounded-2xl border border-p1-green bg-p1-white text-xl text-p1-darkgreen shadow-lg dark:bg-p1-deepdarkgreen">
+                  <details className="m-2">
+                    <summary className="relative flex cursor-pointer justify-between py-2">
+                      <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
+                        Eyes
+                      </div>
+                      <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
+                        8
+                      </div>
+                    </summary>
+                    <div className="pt-1 text-center text-p1-darkgreen dark:text-p1-green">
+                      <div className="flex justify-center pb-2">
+                        <div>
+                          <div className="flex overflow-hidden rounded-2xl border border-p1-green bg-p2-white2 px-4 py-3 hover:border-p1-cyan focus:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 192.904 192.904"
+                              width="16px"
+                              className="mr-3 rotate-90 fill-gray-800 dark:fill-p1-cyan"
+                            >
+                              <path d="m190.707 180.101-47.078-47.077c11.702-14.072 18.752-32.142 18.752-51.831C162.381 36.423 125.959 0 81.191 0 36.422 0 0 36.423 0 81.193c0 44.767 36.422 81.187 81.191 81.187 19.688 0 37.759-7.049 51.831-18.751l47.079 47.078a7.474 7.474 0 0 0 5.303 2.197 7.498 7.498 0 0 0 5.303-12.803zM15 81.193C15 44.694 44.693 15 81.191 15c36.497 0 66.189 29.694 66.189 66.193 0 36.496-29.692 66.187-66.189 66.187C44.693 147.38 15 117.689 15 81.193z"></path>
+                            </svg>
+                            <input
+                              type="email"
+                              placeholder="Search ..."
+                              className="w-full bg-transparent text-xl text-p1-deepdarkgreen outline-none dark:text-p1-cyan"
+                            />
+                          </div>
                         </div>
                       </div>
-                    </div>
-                    <div className="flex place-content-between p-4">
-                      <input
-                        checked={check}
-                        id="checkbox_ETH"
-                        onChange={() => {
-                          setCheck(!check);
-                        }}
-                        type="checkbox"
-                        value=""
-                        className="size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
-                      />
-                      <label
-                        id="3"
-                        htmlFor="checkbox_ETH"
-                        className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-p1-cyan"
-                      >
-                        No Earring
-                      </label>
-                      <div className="px-4 text-p1-darkgreen dark:text-p1-green">7356</div>
-                    </div>
-                    <div className="flex place-content-between p-4">
-                      <input
-                        checked={check}
-                        id="checkbox_POL"
-                        onChange={() => {
-                          setCheck(!check);
-                        }}
-                        type="checkbox"
-                        value=""
-                        className="size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
-                      />
-                      <label
-                        id="3"
-                        htmlFor="checkbox_POL"
-                        className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-p1-cyan"
-                      >
-                        Gold Earring
-                      </label>
-                      <div className="px-4 text-p1-darkgreen dark:text-p1-green">369</div>
-                    </div>
-                  </div>
-                </details>
-              </div>
-
-              <div className="mb-2 w-full rounded-2xl border border-p1-green bg-p1-white text-xl text-p1-darkgreen shadow-lg dark:bg-p1-deepdarkgreen">
-                <details className="m-2">
-                  <summary className="relative flex cursor-pointer justify-between py-2">
-                    <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
-                      Eye pads
-                    </div>
-                    <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
-                      3
-                    </div>
-                  </summary>
-                  <div className="pt-1 text-center text-p1-darkgreen dark:text-p1-green">
-                    <div className="flex justify-center pb-2">
-                      <div>
-                        <div className="flex overflow-hidden rounded-2xl border border-p1-green bg-p2-white2 px-4 py-3 hover:border-p1-cyan focus:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan">
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            viewBox="0 0 192.904 192.904"
-                            width="16px"
-                            className="mr-3 rotate-90 fill-gray-800 dark:fill-p1-cyan"
-                          >
-                            <path d="m190.707 180.101-47.078-47.077c11.702-14.072 18.752-32.142 18.752-51.831C162.381 36.423 125.959 0 81.191 0 36.422 0 0 36.423 0 81.193c0 44.767 36.422 81.187 81.191 81.187 19.688 0 37.759-7.049 51.831-18.751l47.079 47.078a7.474 7.474 0 0 0 5.303 2.197 7.498 7.498 0 0 0 5.303-12.803zM15 81.193C15 44.694 44.693 15 81.191 15c36.497 0 66.189 29.694 66.189 66.193 0 36.496-29.692 66.187-66.189 66.187C44.693 147.38 15 117.689 15 81.193z"></path>
-                          </svg>
-                          <input
-                            type="email"
-                            placeholder="Search ..."
-                            className="w-full bg-transparent text-xl text-p1-deepdarkgreen outline-none dark:text-p1-cyan"
-                          />
-                        </div>
+                      <div className="flex place-content-between p-4">
+                        <input
+                          checked={check}
+                          id="checkbox_ETH"
+                          onChange={() => {
+                            setCheck(!check);
+                          }}
+                          type="checkbox"
+                          value=""
+                          className="size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                        />
+                        <label
+                          id="3"
+                          htmlFor="checkbox_ETH"
+                          className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-p1-cyan"
+                        >
+                          Normal
+                        </label>
+                        <div className="px-4 text-p1-darkgreen dark:text-p1-green">2345</div>
+                      </div>
+                      <div className="flex place-content-between p-4">
+                        <input
+                          checked={check}
+                          id="checkbox_POL"
+                          onChange={() => {
+                            setCheck(!check);
+                          }}
+                          type="checkbox"
+                          value=""
+                          className="size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                        />
+                        <label
+                          id="3"
+                          htmlFor="checkbox_POL"
+                          className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-p1-cyan"
+                        >
+                          Kind
+                        </label>
+                        <div className="px-4 text-p1-darkgreen dark:text-p1-green">1256</div>
                       </div>
                     </div>
-                    <div className="flex place-content-between p-4">
-                      <input
-                        checked={check}
-                        id="checkbox_ETH"
-                        onChange={() => {
-                          setCheck(!check);
-                        }}
-                        type="checkbox"
-                        value=""
-                        className="size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
-                      />
-                      <label
-                        id="3"
-                        htmlFor="checkbox_ETH"
-                        className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-p1-cyan"
-                      >
-                        No Eye pads
-                      </label>
-                      <div className="px-4 text-p1-darkgreen dark:text-p1-green">9896</div>
-                    </div>
-                    <div className="flex place-content-between p-4">
-                      <input
-                        checked={check}
-                        id="checkbox_POL"
-                        onChange={() => {
-                          setCheck(!check);
-                        }}
-                        type="checkbox"
-                        value=""
-                        className="size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
-                      />
-                      <label
-                        id="3"
-                        htmlFor="checkbox_POL"
-                        className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-p1-cyan"
-                      >
-                        Bitcoin Pads
-                      </label>
-                      <div className="px-4 text-p1-darkgreen dark:text-p1-green">369</div>
-                    </div>
-                  </div>
-                </details>
-              </div>
+                  </details>
+                </div>
 
-              <div className="mb-2 w-full rounded-2xl border border-p1-green bg-p1-white text-xl text-p1-darkgreen shadow-lg dark:bg-p1-deepdarkgreen">
-                <details className="m-2">
-                  <summary className="relative flex cursor-pointer justify-between py-2">
-                    <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
-                      Shaving
-                    </div>
-                    <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
-                      5
-                    </div>
-                  </summary>
-                  <div className="pt-1 text-center text-p1-darkgreen dark:text-p1-green">
-                    <div className="flex justify-center pb-2">
-                      <div>
-                        <div className="flex overflow-hidden rounded-2xl border border-p1-green bg-p2-white2 px-4 py-3 hover:border-p1-cyan focus:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan">
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            viewBox="0 0 192.904 192.904"
-                            width="16px"
-                            className="mr-3 rotate-90 fill-gray-800 dark:fill-p1-cyan"
-                          >
-                            <path d="m190.707 180.101-47.078-47.077c11.702-14.072 18.752-32.142 18.752-51.831C162.381 36.423 125.959 0 81.191 0 36.422 0 0 36.423 0 81.193c0 44.767 36.422 81.187 81.191 81.187 19.688 0 37.759-7.049 51.831-18.751l47.079 47.078a7.474 7.474 0 0 0 5.303 2.197 7.498 7.498 0 0 0 5.303-12.803zM15 81.193C15 44.694 44.693 15 81.191 15c36.497 0 66.189 29.694 66.189 66.193 0 36.496-29.692 66.187-66.189 66.187C44.693 147.38 15 117.689 15 81.193z"></path>
-                          </svg>
-                          <input
-                            type="email"
-                            placeholder="Search ..."
-                            className="w-full bg-transparent text-xl text-p1-deepdarkgreen outline-none dark:text-p1-cyan"
-                          />
+                <div className="mb-2 w-full snap-start rounded-2xl border border-p1-green bg-p1-white text-xl text-p1-darkgreen shadow-lg dark:bg-p1-deepdarkgreen">
+                  <details className="m-2">
+                    <summary className="relative flex cursor-pointer justify-between py-2">
+                      <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
+                        Mouth
+                      </div>
+                      <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
+                        16
+                      </div>
+                    </summary>
+                    <div className="pt-1 text-center text-p1-darkgreen dark:text-p1-green">
+                      <div className="flex justify-center pb-2">
+                        <div>
+                          <div className="flex overflow-hidden rounded-2xl border border-p1-green bg-p2-white2 px-4 py-3 hover:border-p1-cyan focus:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 192.904 192.904"
+                              width="16px"
+                              className="mr-3 rotate-90 fill-gray-800 dark:fill-p1-cyan"
+                            >
+                              <path d="m190.707 180.101-47.078-47.077c11.702-14.072 18.752-32.142 18.752-51.831C162.381 36.423 125.959 0 81.191 0 36.422 0 0 36.423 0 81.193c0 44.767 36.422 81.187 81.191 81.187 19.688 0 37.759-7.049 51.831-18.751l47.079 47.078a7.474 7.474 0 0 0 5.303 2.197 7.498 7.498 0 0 0 5.303-12.803zM15 81.193C15 44.694 44.693 15 81.191 15c36.497 0 66.189 29.694 66.189 66.193 0 36.496-29.692 66.187-66.189 66.187C44.693 147.38 15 117.689 15 81.193z"></path>
+                            </svg>
+                            <input
+                              type="email"
+                              placeholder="Search ..."
+                              className="w-full bg-transparent text-xl text-p1-deepdarkgreen outline-none dark:text-p1-cyan"
+                            />
+                          </div>
                         </div>
                       </div>
-                    </div>
-                    <div className="flex place-content-between p-4">
-                      <input
-                        checked={check}
-                        id="checkbox_ETH"
-                        onChange={() => {
-                          setCheck(!check);
-                        }}
-                        type="checkbox"
-                        value=""
-                        className="size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
-                      />
-                      <label
-                        id="3"
-                        htmlFor="checkbox_ETH"
-                        className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-p1-cyan"
-                      >
-                        Clean-Shaven
-                      </label>
-                      <div className="px-4 text-p1-darkgreen dark:text-p1-green">5678</div>
-                    </div>
-                    <div className="flex place-content-between p-4">
-                      <input
-                        checked={check}
-                        id="checkbox_POL"
-                        onChange={() => {
-                          setCheck(!check);
-                        }}
-                        type="checkbox"
-                        value=""
-                        className="size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
-                      />
-                      <label
-                        id="3"
-                        htmlFor="checkbox_POL"
-                        className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-p1-cyan"
-                      >
-                        Mustache & Beard
-                      </label>
-                      <div className="px-4 text-p1-darkgreen dark:text-p1-green">789</div>
-                    </div>
-                  </div>
-                </details>
-              </div>
-
-              <div className="mb-2 w-full rounded-2xl border border-p1-green bg-p1-white text-xl text-p1-darkgreen shadow-lg dark:bg-p1-deepdarkgreen">
-                <details className="m-2">
-                  <summary className="relative flex cursor-pointer justify-between py-2">
-                    <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
-                      Face accessory
-                    </div>
-                    <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
-                      23
-                    </div>
-                  </summary>
-                  <div className="pt-1 text-center text-p1-darkgreen dark:text-p1-green">
-                    <div className="flex justify-center pb-2">
-                      <div>
-                        <div className="flex overflow-hidden rounded-2xl border border-p1-green bg-p2-white2 px-4 py-3 hover:border-p1-cyan focus:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan">
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            viewBox="0 0 192.904 192.904"
-                            width="16px"
-                            className="mr-3 rotate-90 fill-gray-800 dark:fill-p1-cyan"
-                          >
-                            <path d="m190.707 180.101-47.078-47.077c11.702-14.072 18.752-32.142 18.752-51.831C162.381 36.423 125.959 0 81.191 0 36.422 0 0 36.423 0 81.193c0 44.767 36.422 81.187 81.191 81.187 19.688 0 37.759-7.049 51.831-18.751l47.079 47.078a7.474 7.474 0 0 0 5.303 2.197 7.498 7.498 0 0 0 5.303-12.803zM15 81.193C15 44.694 44.693 15 81.191 15c36.497 0 66.189 29.694 66.189 66.193 0 36.496-29.692 66.187-66.189 66.187C44.693 147.38 15 117.689 15 81.193z"></path>
-                          </svg>
-                          <input
-                            type="email"
-                            placeholder="Search ..."
-                            className="w-full bg-transparent text-xl text-p1-deepdarkgreen outline-none dark:text-p1-cyan"
-                          />
-                        </div>
+                      <div className="flex place-content-between p-4">
+                        <input
+                          checked={check}
+                          id="checkbox_ETH"
+                          onChange={() => {
+                            setCheck(!check);
+                          }}
+                          type="checkbox"
+                          value=""
+                          className="size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                        />
+                        <label
+                          id="3"
+                          htmlFor="checkbox_ETH"
+                          className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-p1-cyan"
+                        >
+                          Neutral
+                        </label>
+                        <div className="px-4 text-p1-darkgreen dark:text-p1-green">4564</div>
+                      </div>
+                      <div className="flex place-content-between p-4">
+                        <input
+                          checked={check}
+                          id="checkbox_POL"
+                          onChange={() => {
+                            setCheck(!check);
+                          }}
+                          type="checkbox"
+                          value=""
+                          className="size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                        />
+                        <label
+                          id="3"
+                          htmlFor="checkbox_POL"
+                          className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-p1-cyan"
+                        >
+                          Sad
+                        </label>
+                        <div className="px-4 text-p1-darkgreen dark:text-p1-green">1256</div>
                       </div>
                     </div>
-                    <div className="flex place-content-between p-4">
-                      <input
-                        checked={check}
-                        id="checkbox_ETH"
-                        onChange={() => {
-                          setCheck(!check);
-                        }}
-                        type="checkbox"
-                        value=""
-                        className="size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
-                      />
-                      <label
-                        id="3"
-                        htmlFor="checkbox_ETH"
-                        className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-p1-cyan"
-                      >
-                        No Face Accessory
-                      </label>
-                      <div className="px-4 text-p1-darkgreen dark:text-p1-green">6780</div>
-                    </div>
-                    <div className="flex place-content-between p-4">
-                      <input
-                        checked={check}
-                        id="checkbox_POL"
-                        onChange={() => {
-                          setCheck(!check);
-                        }}
-                        type="checkbox"
-                        value=""
-                        className="size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
-                      />
-                      <label
-                        id="3"
-                        htmlFor="checkbox_POL"
-                        className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-p1-cyan"
-                      >
-                        Biege Balaclava
-                      </label>
-                      <div className="px-4 text-p1-darkgreen dark:text-p1-green">789</div>
-                    </div>
-                  </div>
-                </details>
-              </div>
+                  </details>
+                </div>
 
-              <div className="mb-2 w-full rounded-2xl border border-p1-green bg-p1-white text-xl text-p1-darkgreen shadow-lg dark:bg-p1-deepdarkgreen">
-                <details className="m-2">
-                  <summary className="relative flex cursor-pointer justify-between py-2">
-                    <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
-                      Clothes
-                    </div>
-                    <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
-                      179
-                    </div>
-                  </summary>
-                  <div className="pt-1 text-center text-p1-darkgreen dark:text-p1-green">
-                    <div className="flex justify-center pb-2">
-                      <div>
-                        <div className="flex overflow-hidden rounded-2xl border border-p1-green bg-p2-white2 px-4 py-3 hover:border-p1-cyan focus:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan">
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            viewBox="0 0 192.904 192.904"
-                            width="16px"
-                            className="mr-3 rotate-90 fill-gray-800 dark:fill-p1-cyan"
-                          >
-                            <path d="m190.707 180.101-47.078-47.077c11.702-14.072 18.752-32.142 18.752-51.831C162.381 36.423 125.959 0 81.191 0 36.422 0 0 36.423 0 81.193c0 44.767 36.422 81.187 81.191 81.187 19.688 0 37.759-7.049 51.831-18.751l47.079 47.078a7.474 7.474 0 0 0 5.303 2.197 7.498 7.498 0 0 0 5.303-12.803zM15 81.193C15 44.694 44.693 15 81.191 15c36.497 0 66.189 29.694 66.189 66.193 0 36.496-29.692 66.187-66.189 66.187C44.693 147.38 15 117.689 15 81.193z"></path>
-                          </svg>
-                          <input
-                            type="email"
-                            placeholder="Search ..."
-                            className="w-full bg-transparent text-xl text-p1-deepdarkgreen outline-none dark:text-p1-cyan"
-                          />
+                <div className="mb-2 w-full snap-start rounded-2xl border border-p1-green bg-p1-white text-xl text-p1-darkgreen shadow-lg dark:bg-p1-deepdarkgreen">
+                  <details className="m-2">
+                    <summary className="relative flex cursor-pointer justify-between py-2">
+                      <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
+                        Nose
+                      </div>
+                      <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
+                        4
+                      </div>
+                    </summary>
+                    <div className="pt-1 text-center text-p1-darkgreen dark:text-p1-green">
+                      <div className="flex justify-center pb-2">
+                        <div>
+                          <div className="flex overflow-hidden rounded-2xl border border-p1-green bg-p2-white2 px-4 py-3 hover:border-p1-cyan focus:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 192.904 192.904"
+                              width="16px"
+                              className="mr-3 rotate-90 fill-gray-800 dark:fill-p1-cyan"
+                            >
+                              <path d="m190.707 180.101-47.078-47.077c11.702-14.072 18.752-32.142 18.752-51.831C162.381 36.423 125.959 0 81.191 0 36.422 0 0 36.423 0 81.193c0 44.767 36.422 81.187 81.191 81.187 19.688 0 37.759-7.049 51.831-18.751l47.079 47.078a7.474 7.474 0 0 0 5.303 2.197 7.498 7.498 0 0 0 5.303-12.803zM15 81.193C15 44.694 44.693 15 81.191 15c36.497 0 66.189 29.694 66.189 66.193 0 36.496-29.692 66.187-66.189 66.187C44.693 147.38 15 117.689 15 81.193z"></path>
+                            </svg>
+                            <input
+                              type="email"
+                              placeholder="Search ..."
+                              className="w-full bg-transparent text-xl text-p1-deepdarkgreen outline-none dark:text-p1-cyan"
+                            />
+                          </div>
                         </div>
                       </div>
-                    </div>
-                    <div className="flex place-content-between p-4">
-                      <input
-                        checked={check}
-                        id="checkbox_ETH"
-                        onChange={() => {
-                          setCheck(!check);
-                        }}
-                        type="checkbox"
-                        value=""
-                        className="size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
-                      />
-                      <label
-                        id="3"
-                        htmlFor="checkbox_ETH"
-                        className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-p1-cyan"
-                      >
-                        No Clothes
-                      </label>
-                      <div className="px-4 text-p1-darkgreen dark:text-p1-green">55</div>
-                    </div>
-                    <div className="flex place-content-between p-4">
-                      <input
-                        checked={check}
-                        id="checkbox_POL"
-                        onChange={() => {
-                          setCheck(!check);
-                        }}
-                        type="checkbox"
-                        value=""
-                        className="size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
-                      />
-                      <label
-                        id="3"
-                        htmlFor="checkbox_POL"
-                        className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-p1-cyan"
-                      >
-                        Brown & Flesh Bomber
-                      </label>
-                      <div className="px-4 text-p1-darkgreen dark:text-p1-green">54</div>
-                    </div>
-                  </div>
-                </details>
-              </div>
-
-              <div className="mb-2 w-full rounded-2xl border border-p1-green bg-p1-white text-xl text-p1-darkgreen shadow-lg dark:bg-p1-deepdarkgreen">
-                <details className="m-2">
-                  <summary className="relative flex cursor-pointer justify-between py-2">
-                    <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
-                      Head
-                    </div>
-                    <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
-                      215
-                    </div>
-                  </summary>
-                  <div className="pt-1 text-center text-p1-darkgreen dark:text-p1-green">
-                    <div className="flex justify-center pb-2">
-                      <div>
-                        <div className="flex overflow-hidden rounded-2xl border border-p1-green bg-p2-white2 px-4 py-3 hover:border-p1-cyan focus:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan">
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            viewBox="0 0 192.904 192.904"
-                            width="16px"
-                            className="mr-3 rotate-90 fill-gray-800 dark:fill-p1-cyan"
-                          >
-                            <path d="m190.707 180.101-47.078-47.077c11.702-14.072 18.752-32.142 18.752-51.831C162.381 36.423 125.959 0 81.191 0 36.422 0 0 36.423 0 81.193c0 44.767 36.422 81.187 81.191 81.187 19.688 0 37.759-7.049 51.831-18.751l47.079 47.078a7.474 7.474 0 0 0 5.303 2.197 7.498 7.498 0 0 0 5.303-12.803zM15 81.193C15 44.694 44.693 15 81.191 15c36.497 0 66.189 29.694 66.189 66.193 0 36.496-29.692 66.187-66.189 66.187C44.693 147.38 15 117.689 15 81.193z"></path>
-                          </svg>
-                          <input
-                            type="email"
-                            placeholder="Search ..."
-                            className="w-full bg-transparent text-xl text-p1-deepdarkgreen outline-none dark:text-p1-cyan"
-                          />
-                        </div>
+                      <div className="flex place-content-between p-4">
+                        <input
+                          checked={check}
+                          id="checkbox_ETH"
+                          onChange={() => {
+                            setCheck(!check);
+                          }}
+                          type="checkbox"
+                          value=""
+                          className="size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                        />
+                        <label
+                          id="3"
+                          htmlFor="checkbox_ETH"
+                          className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-p1-cyan"
+                        >
+                          Normal
+                        </label>
+                        <div className="px-4 text-p1-darkgreen dark:text-p1-green">1234</div>
+                      </div>
+                      <div className="flex place-content-between p-4">
+                        <input
+                          checked={check}
+                          id="checkbox_POL"
+                          onChange={() => {
+                            setCheck(!check);
+                          }}
+                          type="checkbox"
+                          value=""
+                          className="size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                        />
+                        <label
+                          id="3"
+                          htmlFor="checkbox_POL"
+                          className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-p1-cyan"
+                        >
+                          Bulbous
+                        </label>
+                        <div className="px-4 text-p1-darkgreen dark:text-p1-green">987</div>
                       </div>
                     </div>
-                    <div className="flex place-content-between p-4">
-                      <input
-                        checked={check}
-                        id="checkbox_ETH"
-                        onChange={() => {
-                          setCheck(!check);
-                        }}
-                        type="checkbox"
-                        value=""
-                        className="size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
-                      />
-                      <label
-                        id="3"
-                        htmlFor="checkbox_ETH"
-                        className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-p1-cyan"
-                      >
-                        Bald
-                      </label>
-                      <div className="px-4 text-p1-darkgreen dark:text-p1-green">125</div>
-                    </div>
-                    <div className="flex place-content-between p-4">
-                      <input
-                        checked={check}
-                        id="checkbox_POL"
-                        onChange={() => {
-                          setCheck(!check);
-                        }}
-                        type="checkbox"
-                        value=""
-                        className="size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
-                      />
-                      <label
-                        id="3"
-                        htmlFor="checkbox_POL"
-                        className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-p1-cyan"
-                      >
-                        Biege Closed Tinted Racing Helmet
-                      </label>
-                      <div className="px-4 text-p1-darkgreen dark:text-p1-green">21</div>
-                    </div>
-                  </div>
-                </details>
-              </div>
+                  </details>
+                </div>
 
-              <div className="mb-2 w-full rounded-2xl border border-p1-green bg-p1-white text-xl text-p1-darkgreen shadow-lg dark:bg-p1-deepdarkgreen">
-                <details className="m-2">
-                  <summary className="relative flex cursor-pointer justify-between py-2">
-                    <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
-                      Extra
-                    </div>
-                    <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
-                      5
-                    </div>
-                  </summary>
-                  <div className="pt-1 text-center text-p1-darkgreen dark:text-p1-green">
-                    <div className="flex justify-center pb-2">
-                      <div>
-                        <div className="flex overflow-hidden rounded-2xl border border-p1-green bg-p2-white2 px-4 py-3 hover:border-p1-cyan focus:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan">
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            viewBox="0 0 192.904 192.904"
-                            width="16px"
-                            className="mr-3 rotate-90 fill-gray-800 dark:fill-p1-cyan"
-                          >
-                            <path d="m190.707 180.101-47.078-47.077c11.702-14.072 18.752-32.142 18.752-51.831C162.381 36.423 125.959 0 81.191 0 36.422 0 0 36.423 0 81.193c0 44.767 36.422 81.187 81.191 81.187 19.688 0 37.759-7.049 51.831-18.751l47.079 47.078a7.474 7.474 0 0 0 5.303 2.197 7.498 7.498 0 0 0 5.303-12.803zM15 81.193C15 44.694 44.693 15 81.191 15c36.497 0 66.189 29.694 66.189 66.193 0 36.496-29.692 66.187-66.189 66.187C44.693 147.38 15 117.689 15 81.193z"></path>
-                          </svg>
-                          <input
-                            type="email"
-                            placeholder="Search ..."
-                            className="w-full bg-transparent text-xl text-p1-deepdarkgreen outline-none dark:text-p1-cyan"
-                          />
+                <div className="mb-2 w-full snap-start rounded-2xl border border-p1-green bg-p1-white text-xl text-p1-darkgreen shadow-lg dark:bg-p1-deepdarkgreen">
+                  <details className="m-2">
+                    <summary className="relative flex cursor-pointer justify-between py-2">
+                      <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
+                        Earring
+                      </div>
+                      <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
+                        7
+                      </div>
+                    </summary>
+                    <div className="pt-1 text-center text-p1-darkgreen dark:text-p1-green">
+                      <div className="flex justify-center pb-2">
+                        <div>
+                          <div className="flex overflow-hidden rounded-2xl border border-p1-green bg-p2-white2 px-4 py-3 hover:border-p1-cyan focus:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 192.904 192.904"
+                              width="16px"
+                              className="mr-3 rotate-90 fill-gray-800 dark:fill-p1-cyan"
+                            >
+                              <path d="m190.707 180.101-47.078-47.077c11.702-14.072 18.752-32.142 18.752-51.831C162.381 36.423 125.959 0 81.191 0 36.422 0 0 36.423 0 81.193c0 44.767 36.422 81.187 81.191 81.187 19.688 0 37.759-7.049 51.831-18.751l47.079 47.078a7.474 7.474 0 0 0 5.303 2.197 7.498 7.498 0 0 0 5.303-12.803zM15 81.193C15 44.694 44.693 15 81.191 15c36.497 0 66.189 29.694 66.189 66.193 0 36.496-29.692 66.187-66.189 66.187C44.693 147.38 15 117.689 15 81.193z"></path>
+                            </svg>
+                            <input
+                              type="email"
+                              placeholder="Search ..."
+                              className="w-full bg-transparent text-xl text-p1-deepdarkgreen outline-none dark:text-p1-cyan"
+                            />
+                          </div>
                         </div>
                       </div>
-                    </div>
-                    <div className="flex place-content-between p-4">
-                      <input
-                        checked={check}
-                        id="checkbox_ETH"
-                        onChange={() => {
-                          setCheck(!check);
-                        }}
-                        type="checkbox"
-                        value=""
-                        className="size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
-                      />
-                      <label
-                        id="3"
-                        htmlFor="checkbox_ETH"
-                        className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-p1-cyan"
-                      >
-                        No Extra
-                      </label>
-                      <div className="px-4 text-p1-darkgreen dark:text-p1-green">9876</div>
-                    </div>
-                    <div className="flex place-content-between p-4">
-                      <input
-                        checked={check}
-                        id="checkbox_POL"
-                        onChange={() => {
-                          setCheck(!check);
-                        }}
-                        type="checkbox"
-                        value=""
-                        className="size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
-                      />
-                      <label
-                        id="3"
-                        htmlFor="checkbox_POL"
-                        className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-p1-cyan"
-                      >
-                        Albatross 1
-                      </label>
-                      <div className="px-4 text-p1-darkgreen dark:text-p1-green">23</div>
-                    </div>
-                  </div>
-                </details>
-              </div>
-
-              <div className="mb-2 w-full rounded-2xl border border-p1-green bg-p1-white text-xl text-p1-darkgreen shadow-lg dark:bg-p1-deepdarkgreen">
-                <details className="m-2">
-                  <summary className="relative flex cursor-pointer justify-between py-2">
-                    <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
-                      Parrot
-                    </div>
-                    <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
-                      3
-                    </div>
-                  </summary>
-                  <div className="pt-1 text-center text-p1-darkgreen dark:text-p1-green">
-                    <div className="flex justify-center pb-2">
-                      <div>
-                        <div className="flex overflow-hidden rounded-2xl border border-p1-green bg-p2-white2 px-4 py-3 hover:border-p1-cyan focus:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan">
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            viewBox="0 0 192.904 192.904"
-                            width="16px"
-                            className="mr-3 rotate-90 fill-gray-800 dark:fill-p1-cyan"
-                          >
-                            <path d="m190.707 180.101-47.078-47.077c11.702-14.072 18.752-32.142 18.752-51.831C162.381 36.423 125.959 0 81.191 0 36.422 0 0 36.423 0 81.193c0 44.767 36.422 81.187 81.191 81.187 19.688 0 37.759-7.049 51.831-18.751l47.079 47.078a7.474 7.474 0 0 0 5.303 2.197 7.498 7.498 0 0 0 5.303-12.803zM15 81.193C15 44.694 44.693 15 81.191 15c36.497 0 66.189 29.694 66.189 66.193 0 36.496-29.692 66.187-66.189 66.187C44.693 147.38 15 117.689 15 81.193z"></path>
-                          </svg>
-                          <input
-                            type="email"
-                            placeholder="Search ..."
-                            className="w-full bg-transparent text-xl text-p1-deepdarkgreen outline-none dark:text-p1-cyan"
-                          />
-                        </div>
+                      <div className="flex place-content-between p-4">
+                        <input
+                          checked={check}
+                          id="checkbox_ETH"
+                          onChange={() => {
+                            setCheck(!check);
+                          }}
+                          type="checkbox"
+                          value=""
+                          className="size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                        />
+                        <label
+                          id="3"
+                          htmlFor="checkbox_ETH"
+                          className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-p1-cyan"
+                        >
+                          No Earring
+                        </label>
+                        <div className="px-4 text-p1-darkgreen dark:text-p1-green">7356</div>
+                      </div>
+                      <div className="flex place-content-between p-4">
+                        <input
+                          checked={check}
+                          id="checkbox_POL"
+                          onChange={() => {
+                            setCheck(!check);
+                          }}
+                          type="checkbox"
+                          value=""
+                          className="size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                        />
+                        <label
+                          id="3"
+                          htmlFor="checkbox_POL"
+                          className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-p1-cyan"
+                        >
+                          Gold Earring
+                        </label>
+                        <div className="px-4 text-p1-darkgreen dark:text-p1-green">369</div>
                       </div>
                     </div>
-                    <div className="flex place-content-between p-4">
-                      <input
-                        checked={check}
-                        id="checkbox_ETH"
-                        onChange={() => {
-                          setCheck(!check);
-                        }}
-                        type="checkbox"
-                        value=""
-                        className="size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
-                      />
-                      <label
-                        id="3"
-                        htmlFor="checkbox_ETH"
-                        className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-p1-cyan"
-                      >
-                        No Parrot
-                      </label>
-                      <div className="px-4 text-p1-darkgreen dark:text-p1-green">9956</div>
-                    </div>
-                    <div className="flex place-content-between p-4">
-                      <input
-                        checked={check}
-                        id="checkbox_POL"
-                        onChange={() => {
-                          setCheck(!check);
-                        }}
-                        type="checkbox"
-                        value=""
-                        className="size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
-                      />
-                      <label
-                        id="3"
-                        htmlFor="checkbox_POL"
-                        className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-p1-cyan"
-                      >
-                        Green Parrot
-                      </label>
-                      <div className="px-4 text-p1-darkgreen dark:text-p1-green">56</div>
-                    </div>
-                  </div>
-                </details>
-              </div>
+                  </details>
+                </div>
 
-              <div className="mb-2 w-full rounded-2xl border border-p1-green bg-p1-white text-xl text-p1-darkgreen shadow-lg dark:bg-p1-deepdarkgreen">
-                <details className="m-2">
-                  <summary className="relative flex cursor-pointer justify-between py-2">
-                    <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
-                      Cupid&apos;s arrow
-                    </div>
-                    <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
-                      2
-                    </div>
-                  </summary>
-                  <div className="pt-1 text-center text-p1-darkgreen dark:text-p1-green">
-                    <div className="flex justify-center pb-2">
-                      <div>
-                        <div className="flex overflow-hidden rounded-2xl border border-p1-green bg-p2-white2 px-4 py-3 hover:border-p1-cyan focus:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan">
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            viewBox="0 0 192.904 192.904"
-                            width="16px"
-                            className="mr-3 rotate-90 fill-gray-800 dark:fill-p1-cyan"
-                          >
-                            <path d="m190.707 180.101-47.078-47.077c11.702-14.072 18.752-32.142 18.752-51.831C162.381 36.423 125.959 0 81.191 0 36.422 0 0 36.423 0 81.193c0 44.767 36.422 81.187 81.191 81.187 19.688 0 37.759-7.049 51.831-18.751l47.079 47.078a7.474 7.474 0 0 0 5.303 2.197 7.498 7.498 0 0 0 5.303-12.803zM15 81.193C15 44.694 44.693 15 81.191 15c36.497 0 66.189 29.694 66.189 66.193 0 36.496-29.692 66.187-66.189 66.187C44.693 147.38 15 117.689 15 81.193z"></path>
-                          </svg>
-                          <input
-                            type="email"
-                            placeholder="Search ..."
-                            className="w-full bg-transparent text-xl text-p1-deepdarkgreen outline-none dark:text-p1-cyan"
-                          />
+                <div className="mb-2 w-full snap-start rounded-2xl border border-p1-green bg-p1-white text-xl text-p1-darkgreen shadow-lg dark:bg-p1-deepdarkgreen">
+                  <details className="m-2">
+                    <summary className="relative flex cursor-pointer justify-between py-2">
+                      <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
+                        Eye pads
+                      </div>
+                      <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
+                        3
+                      </div>
+                    </summary>
+                    <div className="pt-1 text-center text-p1-darkgreen dark:text-p1-green">
+                      <div className="flex justify-center pb-2">
+                        <div>
+                          <div className="flex overflow-hidden rounded-2xl border border-p1-green bg-p2-white2 px-4 py-3 hover:border-p1-cyan focus:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 192.904 192.904"
+                              width="16px"
+                              className="mr-3 rotate-90 fill-gray-800 dark:fill-p1-cyan"
+                            >
+                              <path d="m190.707 180.101-47.078-47.077c11.702-14.072 18.752-32.142 18.752-51.831C162.381 36.423 125.959 0 81.191 0 36.422 0 0 36.423 0 81.193c0 44.767 36.422 81.187 81.191 81.187 19.688 0 37.759-7.049 51.831-18.751l47.079 47.078a7.474 7.474 0 0 0 5.303 2.197 7.498 7.498 0 0 0 5.303-12.803zM15 81.193C15 44.694 44.693 15 81.191 15c36.497 0 66.189 29.694 66.189 66.193 0 36.496-29.692 66.187-66.189 66.187C44.693 147.38 15 117.689 15 81.193z"></path>
+                            </svg>
+                            <input
+                              type="email"
+                              placeholder="Search ..."
+                              className="w-full bg-transparent text-xl text-p1-deepdarkgreen outline-none dark:text-p1-cyan"
+                            />
+                          </div>
                         </div>
                       </div>
+                      <div className="flex place-content-between p-4">
+                        <input
+                          checked={check}
+                          id="checkbox_ETH"
+                          onChange={() => {
+                            setCheck(!check);
+                          }}
+                          type="checkbox"
+                          value=""
+                          className="size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                        />
+                        <label
+                          id="3"
+                          htmlFor="checkbox_ETH"
+                          className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-p1-cyan"
+                        >
+                          No Eye pads
+                        </label>
+                        <div className="px-4 text-p1-darkgreen dark:text-p1-green">9896</div>
+                      </div>
+                      <div className="flex place-content-between p-4">
+                        <input
+                          checked={check}
+                          id="checkbox_POL"
+                          onChange={() => {
+                            setCheck(!check);
+                          }}
+                          type="checkbox"
+                          value=""
+                          className="size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                        />
+                        <label
+                          id="3"
+                          htmlFor="checkbox_POL"
+                          className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-p1-cyan"
+                        >
+                          Bitcoin Pads
+                        </label>
+                        <div className="px-4 text-p1-darkgreen dark:text-p1-green">369</div>
+                      </div>
                     </div>
-                    <div className="flex place-content-between p-4">
-                      <input
-                        checked={check}
-                        id="checkbox_ETH"
-                        onChange={() => {
-                          setCheck(!check);
-                        }}
-                        type="checkbox"
-                        value=""
-                        className="size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
-                      />
-                      <label
-                        id="3"
-                        htmlFor="checkbox_ETH"
-                        className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-p1-cyan"
-                      >
-                        No Cupid&apos;s arrow
-                      </label>
-                      <div className="px-4 text-p1-darkgreen dark:text-p1-green">9986</div>
+                  </details>
+                </div>
+
+                <div className="mb-2 w-full snap-start rounded-2xl border border-p1-green bg-p1-white text-xl text-p1-darkgreen shadow-lg dark:bg-p1-deepdarkgreen">
+                  <details className="m-2">
+                    <summary className="relative flex cursor-pointer justify-between py-2">
+                      <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
+                        Shaving
+                      </div>
+                      <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
+                        5
+                      </div>
+                    </summary>
+                    <div className="pt-1 text-center text-p1-darkgreen dark:text-p1-green">
+                      <div className="flex justify-center pb-2">
+                        <div>
+                          <div className="flex overflow-hidden rounded-2xl border border-p1-green bg-p2-white2 px-4 py-3 hover:border-p1-cyan focus:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 192.904 192.904"
+                              width="16px"
+                              className="mr-3 rotate-90 fill-gray-800 dark:fill-p1-cyan"
+                            >
+                              <path d="m190.707 180.101-47.078-47.077c11.702-14.072 18.752-32.142 18.752-51.831C162.381 36.423 125.959 0 81.191 0 36.422 0 0 36.423 0 81.193c0 44.767 36.422 81.187 81.191 81.187 19.688 0 37.759-7.049 51.831-18.751l47.079 47.078a7.474 7.474 0 0 0 5.303 2.197 7.498 7.498 0 0 0 5.303-12.803zM15 81.193C15 44.694 44.693 15 81.191 15c36.497 0 66.189 29.694 66.189 66.193 0 36.496-29.692 66.187-66.189 66.187C44.693 147.38 15 117.689 15 81.193z"></path>
+                            </svg>
+                            <input
+                              type="email"
+                              placeholder="Search ..."
+                              className="w-full bg-transparent text-xl text-p1-deepdarkgreen outline-none dark:text-p1-cyan"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                      <div className="flex place-content-between p-4">
+                        <input
+                          checked={check}
+                          id="checkbox_ETH"
+                          onChange={() => {
+                            setCheck(!check);
+                          }}
+                          type="checkbox"
+                          value=""
+                          className="size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                        />
+                        <label
+                          id="3"
+                          htmlFor="checkbox_ETH"
+                          className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-p1-cyan"
+                        >
+                          Clean-Shaven
+                        </label>
+                        <div className="px-4 text-p1-darkgreen dark:text-p1-green">5678</div>
+                      </div>
+                      <div className="flex place-content-between p-4">
+                        <input
+                          checked={check}
+                          id="checkbox_POL"
+                          onChange={() => {
+                            setCheck(!check);
+                          }}
+                          type="checkbox"
+                          value=""
+                          className="size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                        />
+                        <label
+                          id="3"
+                          htmlFor="checkbox_POL"
+                          className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-p1-cyan"
+                        >
+                          Mustache & Beard
+                        </label>
+                        <div className="px-4 text-p1-darkgreen dark:text-p1-green">789</div>
+                      </div>
                     </div>
-                    <div className="flex place-content-between p-4">
-                      <input
-                        checked={check}
-                        id="checkbox_POL"
-                        onChange={() => {
-                          setCheck(!check);
-                        }}
-                        type="checkbox"
-                        value=""
-                        className="size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
-                      />
-                      <label
-                        id="3"
-                        htmlFor="checkbox_POL"
-                        className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-p1-cyan"
-                      >
+                  </details>
+                </div>
+
+                <div className="mb-2 w-full snap-start rounded-2xl border border-p1-green bg-p1-white text-xl text-p1-darkgreen shadow-lg dark:bg-p1-deepdarkgreen">
+                  <details className="m-2">
+                    <summary className="relative flex cursor-pointer justify-between py-2">
+                      <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
+                        Face accessory
+                      </div>
+                      <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
+                        23
+                      </div>
+                    </summary>
+                    <div className="pt-1 text-center text-p1-darkgreen dark:text-p1-green">
+                      <div className="flex justify-center pb-2">
+                        <div>
+                          <div className="flex overflow-hidden rounded-2xl border border-p1-green bg-p2-white2 px-4 py-3 hover:border-p1-cyan focus:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 192.904 192.904"
+                              width="16px"
+                              className="mr-3 rotate-90 fill-gray-800 dark:fill-p1-cyan"
+                            >
+                              <path d="m190.707 180.101-47.078-47.077c11.702-14.072 18.752-32.142 18.752-51.831C162.381 36.423 125.959 0 81.191 0 36.422 0 0 36.423 0 81.193c0 44.767 36.422 81.187 81.191 81.187 19.688 0 37.759-7.049 51.831-18.751l47.079 47.078a7.474 7.474 0 0 0 5.303 2.197 7.498 7.498 0 0 0 5.303-12.803zM15 81.193C15 44.694 44.693 15 81.191 15c36.497 0 66.189 29.694 66.189 66.193 0 36.496-29.692 66.187-66.189 66.187C44.693 147.38 15 117.689 15 81.193z"></path>
+                            </svg>
+                            <input
+                              type="email"
+                              placeholder="Search ..."
+                              className="w-full bg-transparent text-xl text-p1-deepdarkgreen outline-none dark:text-p1-cyan"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                      <div className="flex place-content-between p-4">
+                        <input
+                          checked={check}
+                          id="checkbox_ETH"
+                          onChange={() => {
+                            setCheck(!check);
+                          }}
+                          type="checkbox"
+                          value=""
+                          className="size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                        />
+                        <label
+                          id="3"
+                          htmlFor="checkbox_ETH"
+                          className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-p1-cyan"
+                        >
+                          No Face Accessory
+                        </label>
+                        <div className="px-4 text-p1-darkgreen dark:text-p1-green">6780</div>
+                      </div>
+                      <div className="flex place-content-between p-4">
+                        <input
+                          checked={check}
+                          id="checkbox_POL"
+                          onChange={() => {
+                            setCheck(!check);
+                          }}
+                          type="checkbox"
+                          value=""
+                          className="size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                        />
+                        <label
+                          id="3"
+                          htmlFor="checkbox_POL"
+                          className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-p1-cyan"
+                        >
+                          Biege Balaclava
+                        </label>
+                        <div className="px-4 text-p1-darkgreen dark:text-p1-green">789</div>
+                      </div>
+                    </div>
+                  </details>
+                </div>
+
+                <div className="mb-2 w-full snap-start rounded-2xl border border-p1-green bg-p1-white text-xl text-p1-darkgreen shadow-lg dark:bg-p1-deepdarkgreen">
+                  <details className="m-2">
+                    <summary className="relative flex cursor-pointer justify-between py-2">
+                      <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
+                        Clothes
+                      </div>
+                      <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
+                        179
+                      </div>
+                    </summary>
+                    <div className="pt-1 text-center text-p1-darkgreen dark:text-p1-green">
+                      <div className="flex justify-center pb-2">
+                        <div>
+                          <div className="flex overflow-hidden rounded-2xl border border-p1-green bg-p2-white2 px-4 py-3 hover:border-p1-cyan focus:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 192.904 192.904"
+                              width="16px"
+                              className="mr-3 rotate-90 fill-gray-800 dark:fill-p1-cyan"
+                            >
+                              <path d="m190.707 180.101-47.078-47.077c11.702-14.072 18.752-32.142 18.752-51.831C162.381 36.423 125.959 0 81.191 0 36.422 0 0 36.423 0 81.193c0 44.767 36.422 81.187 81.191 81.187 19.688 0 37.759-7.049 51.831-18.751l47.079 47.078a7.474 7.474 0 0 0 5.303 2.197 7.498 7.498 0 0 0 5.303-12.803zM15 81.193C15 44.694 44.693 15 81.191 15c36.497 0 66.189 29.694 66.189 66.193 0 36.496-29.692 66.187-66.189 66.187C44.693 147.38 15 117.689 15 81.193z"></path>
+                            </svg>
+                            <input
+                              type="email"
+                              placeholder="Search ..."
+                              className="w-full bg-transparent text-xl text-p1-deepdarkgreen outline-none dark:text-p1-cyan"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                      <div className="flex place-content-between p-4">
+                        <input
+                          checked={check}
+                          id="checkbox_ETH"
+                          onChange={() => {
+                            setCheck(!check);
+                          }}
+                          type="checkbox"
+                          value=""
+                          className="size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                        />
+                        <label
+                          id="3"
+                          htmlFor="checkbox_ETH"
+                          className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-p1-cyan"
+                        >
+                          No Clothes
+                        </label>
+                        <div className="px-4 text-p1-darkgreen dark:text-p1-green">55</div>
+                      </div>
+                      <div className="flex place-content-between p-4">
+                        <input
+                          checked={check}
+                          id="checkbox_POL"
+                          onChange={() => {
+                            setCheck(!check);
+                          }}
+                          type="checkbox"
+                          value=""
+                          className="size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                        />
+                        <label
+                          id="3"
+                          htmlFor="checkbox_POL"
+                          className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-p1-cyan"
+                        >
+                          Brown & Flesh Bomber
+                        </label>
+                        <div className="px-4 text-p1-darkgreen dark:text-p1-green">54</div>
+                      </div>
+                    </div>
+                  </details>
+                </div>
+
+                <div className="mb-2 w-full snap-start rounded-2xl border border-p1-green bg-p1-white text-xl text-p1-darkgreen shadow-lg dark:bg-p1-deepdarkgreen">
+                  <details className="m-2">
+                    <summary className="relative flex cursor-pointer justify-between py-2">
+                      <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
+                        Head
+                      </div>
+                      <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
+                        215
+                      </div>
+                    </summary>
+                    <div className="pt-1 text-center text-p1-darkgreen dark:text-p1-green">
+                      <div className="flex justify-center pb-2">
+                        <div>
+                          <div className="flex overflow-hidden rounded-2xl border border-p1-green bg-p2-white2 px-4 py-3 hover:border-p1-cyan focus:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 192.904 192.904"
+                              width="16px"
+                              className="mr-3 rotate-90 fill-gray-800 dark:fill-p1-cyan"
+                            >
+                              <path d="m190.707 180.101-47.078-47.077c11.702-14.072 18.752-32.142 18.752-51.831C162.381 36.423 125.959 0 81.191 0 36.422 0 0 36.423 0 81.193c0 44.767 36.422 81.187 81.191 81.187 19.688 0 37.759-7.049 51.831-18.751l47.079 47.078a7.474 7.474 0 0 0 5.303 2.197 7.498 7.498 0 0 0 5.303-12.803zM15 81.193C15 44.694 44.693 15 81.191 15c36.497 0 66.189 29.694 66.189 66.193 0 36.496-29.692 66.187-66.189 66.187C44.693 147.38 15 117.689 15 81.193z"></path>
+                            </svg>
+                            <input
+                              type="email"
+                              placeholder="Search ..."
+                              className="w-full bg-transparent text-xl text-p1-deepdarkgreen outline-none dark:text-p1-cyan"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                      <div className="flex place-content-between p-4">
+                        <input
+                          checked={check}
+                          id="checkbox_ETH"
+                          onChange={() => {
+                            setCheck(!check);
+                          }}
+                          type="checkbox"
+                          value=""
+                          className="size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                        />
+                        <label
+                          id="3"
+                          htmlFor="checkbox_ETH"
+                          className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-p1-cyan"
+                        >
+                          Bald
+                        </label>
+                        <div className="px-4 text-p1-darkgreen dark:text-p1-green">125</div>
+                      </div>
+                      <div className="flex place-content-between p-4">
+                        <input
+                          checked={check}
+                          id="checkbox_POL"
+                          onChange={() => {
+                            setCheck(!check);
+                          }}
+                          type="checkbox"
+                          value=""
+                          className="size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                        />
+                        <label
+                          id="3"
+                          htmlFor="checkbox_POL"
+                          className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-p1-cyan"
+                        >
+                          Biege Closed Tinted Racing Helmet
+                        </label>
+                        <div className="px-4 text-p1-darkgreen dark:text-p1-green">21</div>
+                      </div>
+                    </div>
+                  </details>
+                </div>
+
+                <div className="mb-2 w-full snap-start rounded-2xl border border-p1-green bg-p1-white text-xl text-p1-darkgreen shadow-lg dark:bg-p1-deepdarkgreen">
+                  <details className="m-2">
+                    <summary className="relative flex cursor-pointer justify-between py-2">
+                      <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
+                        Extra
+                      </div>
+                      <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
+                        5
+                      </div>
+                    </summary>
+                    <div className="pt-1 text-center text-p1-darkgreen dark:text-p1-green">
+                      <div className="flex justify-center pb-2">
+                        <div>
+                          <div className="flex overflow-hidden rounded-2xl border border-p1-green bg-p2-white2 px-4 py-3 hover:border-p1-cyan focus:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 192.904 192.904"
+                              width="16px"
+                              className="mr-3 rotate-90 fill-gray-800 dark:fill-p1-cyan"
+                            >
+                              <path d="m190.707 180.101-47.078-47.077c11.702-14.072 18.752-32.142 18.752-51.831C162.381 36.423 125.959 0 81.191 0 36.422 0 0 36.423 0 81.193c0 44.767 36.422 81.187 81.191 81.187 19.688 0 37.759-7.049 51.831-18.751l47.079 47.078a7.474 7.474 0 0 0 5.303 2.197 7.498 7.498 0 0 0 5.303-12.803zM15 81.193C15 44.694 44.693 15 81.191 15c36.497 0 66.189 29.694 66.189 66.193 0 36.496-29.692 66.187-66.189 66.187C44.693 147.38 15 117.689 15 81.193z"></path>
+                            </svg>
+                            <input
+                              type="email"
+                              placeholder="Search ..."
+                              className="w-full bg-transparent text-xl text-p1-deepdarkgreen outline-none dark:text-p1-cyan"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                      <div className="flex place-content-between p-4">
+                        <input
+                          checked={check}
+                          id="checkbox_ETH"
+                          onChange={() => {
+                            setCheck(!check);
+                          }}
+                          type="checkbox"
+                          value=""
+                          className="size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                        />
+                        <label
+                          id="3"
+                          htmlFor="checkbox_ETH"
+                          className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-p1-cyan"
+                        >
+                          No Extra
+                        </label>
+                        <div className="px-4 text-p1-darkgreen dark:text-p1-green">9876</div>
+                      </div>
+                      <div className="flex place-content-between p-4">
+                        <input
+                          checked={check}
+                          id="checkbox_POL"
+                          onChange={() => {
+                            setCheck(!check);
+                          }}
+                          type="checkbox"
+                          value=""
+                          className="size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                        />
+                        <label
+                          id="3"
+                          htmlFor="checkbox_POL"
+                          className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-p1-cyan"
+                        >
+                          Albatross 1
+                        </label>
+                        <div className="px-4 text-p1-darkgreen dark:text-p1-green">23</div>
+                      </div>
+                    </div>
+                  </details>
+                </div>
+
+                <div className="mb-2 w-full snap-start rounded-2xl border border-p1-green bg-p1-white text-xl text-p1-darkgreen shadow-lg dark:bg-p1-deepdarkgreen">
+                  <details className="m-2">
+                    <summary className="relative flex cursor-pointer justify-between py-2">
+                      <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
+                        Parrot
+                      </div>
+                      <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
+                        3
+                      </div>
+                    </summary>
+                    <div className="pt-1 text-center text-p1-darkgreen dark:text-p1-green">
+                      <div className="flex justify-center pb-2">
+                        <div>
+                          <div className="flex overflow-hidden rounded-2xl border border-p1-green bg-p2-white2 px-4 py-3 hover:border-p1-cyan focus:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 192.904 192.904"
+                              width="16px"
+                              className="mr-3 rotate-90 fill-gray-800 dark:fill-p1-cyan"
+                            >
+                              <path d="m190.707 180.101-47.078-47.077c11.702-14.072 18.752-32.142 18.752-51.831C162.381 36.423 125.959 0 81.191 0 36.422 0 0 36.423 0 81.193c0 44.767 36.422 81.187 81.191 81.187 19.688 0 37.759-7.049 51.831-18.751l47.079 47.078a7.474 7.474 0 0 0 5.303 2.197 7.498 7.498 0 0 0 5.303-12.803zM15 81.193C15 44.694 44.693 15 81.191 15c36.497 0 66.189 29.694 66.189 66.193 0 36.496-29.692 66.187-66.189 66.187C44.693 147.38 15 117.689 15 81.193z"></path>
+                            </svg>
+                            <input
+                              type="email"
+                              placeholder="Search ..."
+                              className="w-full bg-transparent text-xl text-p1-deepdarkgreen outline-none dark:text-p1-cyan"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                      <div className="flex place-content-between p-4">
+                        <input
+                          checked={check}
+                          id="checkbox_ETH"
+                          onChange={() => {
+                            setCheck(!check);
+                          }}
+                          type="checkbox"
+                          value=""
+                          className="size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                        />
+                        <label
+                          id="3"
+                          htmlFor="checkbox_ETH"
+                          className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-p1-cyan"
+                        >
+                          No Parrot
+                        </label>
+                        <div className="px-4 text-p1-darkgreen dark:text-p1-green">9956</div>
+                      </div>
+                      <div className="flex place-content-between p-4">
+                        <input
+                          checked={check}
+                          id="checkbox_POL"
+                          onChange={() => {
+                            setCheck(!check);
+                          }}
+                          type="checkbox"
+                          value=""
+                          className="size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                        />
+                        <label
+                          id="3"
+                          htmlFor="checkbox_POL"
+                          className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-p1-cyan"
+                        >
+                          Green Parrot
+                        </label>
+                        <div className="px-4 text-p1-darkgreen dark:text-p1-green">56</div>
+                      </div>
+                    </div>
+                  </details>
+                </div>
+
+                <div className="mb-2 w-full snap-start rounded-2xl border border-p1-green bg-p1-white text-xl text-p1-darkgreen shadow-lg dark:bg-p1-deepdarkgreen">
+                  <details className="m-2">
+                    <summary className="relative flex cursor-pointer justify-between py-2">
+                      <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
                         Cupid&apos;s arrow
-                      </label>
-                      <div className="px-4 text-p1-darkgreen dark:text-p1-green">14</div>
-                    </div>
-                  </div>
-                </details>
-              </div>
-
-              <div className="mb-2 w-full rounded-2xl border border-p1-green bg-p1-white text-xl text-p1-darkgreen shadow-lg dark:bg-p1-deepdarkgreen">
-                <details className="m-2">
-                  <summary className="relative flex cursor-pointer justify-between py-2">
-                    <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
-                      Tatoo
-                    </div>
-                    <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
-                      2
-                    </div>
-                  </summary>
-                  <div className="pt-1 text-center text-p1-darkgreen dark:text-p1-green">
-                    <div className="flex justify-center pb-2">
-                      <div>
-                        <div className="flex overflow-hidden rounded-2xl border border-p1-green bg-p2-white2 px-4 py-3 hover:border-p1-cyan focus:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan">
-                          <svg
-                            xmlns="http://www.w3.org/2000/svg"
-                            viewBox="0 0 192.904 192.904"
-                            width="16px"
-                            className="mr-3 rotate-90 fill-gray-800 dark:fill-p1-cyan"
-                          >
-                            <path d="m190.707 180.101-47.078-47.077c11.702-14.072 18.752-32.142 18.752-51.831C162.381 36.423 125.959 0 81.191 0 36.422 0 0 36.423 0 81.193c0 44.767 36.422 81.187 81.191 81.187 19.688 0 37.759-7.049 51.831-18.751l47.079 47.078a7.474 7.474 0 0 0 5.303 2.197 7.498 7.498 0 0 0 5.303-12.803zM15 81.193C15 44.694 44.693 15 81.191 15c36.497 0 66.189 29.694 66.189 66.193 0 36.496-29.692 66.187-66.189 66.187C44.693 147.38 15 117.689 15 81.193z"></path>
-                          </svg>
-                          <input
-                            type="email"
-                            placeholder="Search ..."
-                            className="w-full bg-transparent text-xl text-p1-deepdarkgreen outline-none dark:text-p1-cyan"
-                          />
+                      </div>
+                      <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
+                        2
+                      </div>
+                    </summary>
+                    <div className="pt-1 text-center text-p1-darkgreen dark:text-p1-green">
+                      <div className="flex justify-center pb-2">
+                        <div>
+                          <div className="flex overflow-hidden rounded-2xl border border-p1-green bg-p2-white2 px-4 py-3 hover:border-p1-cyan focus:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 192.904 192.904"
+                              width="16px"
+                              className="mr-3 rotate-90 fill-gray-800 dark:fill-p1-cyan"
+                            >
+                              <path d="m190.707 180.101-47.078-47.077c11.702-14.072 18.752-32.142 18.752-51.831C162.381 36.423 125.959 0 81.191 0 36.422 0 0 36.423 0 81.193c0 44.767 36.422 81.187 81.191 81.187 19.688 0 37.759-7.049 51.831-18.751l47.079 47.078a7.474 7.474 0 0 0 5.303 2.197 7.498 7.498 0 0 0 5.303-12.803zM15 81.193C15 44.694 44.693 15 81.191 15c36.497 0 66.189 29.694 66.189 66.193 0 36.496-29.692 66.187-66.189 66.187C44.693 147.38 15 117.689 15 81.193z"></path>
+                            </svg>
+                            <input
+                              type="email"
+                              placeholder="Search ..."
+                              className="w-full bg-transparent text-xl text-p1-deepdarkgreen outline-none dark:text-p1-cyan"
+                            />
+                          </div>
                         </div>
                       </div>
+                      <div className="flex place-content-between p-4">
+                        <input
+                          checked={check}
+                          id="checkbox_ETH"
+                          onChange={() => {
+                            setCheck(!check);
+                          }}
+                          type="checkbox"
+                          value=""
+                          className="size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                        />
+                        <label
+                          id="3"
+                          htmlFor="checkbox_ETH"
+                          className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-p1-cyan"
+                        >
+                          No Cupid&apos;s arrow
+                        </label>
+                        <div className="px-4 text-p1-darkgreen dark:text-p1-green">9986</div>
+                      </div>
+                      <div className="flex place-content-between p-4">
+                        <input
+                          checked={check}
+                          id="checkbox_POL"
+                          onChange={() => {
+                            setCheck(!check);
+                          }}
+                          type="checkbox"
+                          value=""
+                          className="size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                        />
+                        <label
+                          id="3"
+                          htmlFor="checkbox_POL"
+                          className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-p1-cyan"
+                        >
+                          Cupid&apos;s arrow
+                        </label>
+                        <div className="px-4 text-p1-darkgreen dark:text-p1-green">14</div>
+                      </div>
                     </div>
-                    <div className="flex place-content-between p-4">
-                      <input
-                        checked={check}
-                        id="checkbox_ETH"
-                        onChange={() => {
-                          setCheck(!check);
-                        }}
-                        type="checkbox"
-                        value=""
-                        className="size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
-                      />
-                      <label
-                        id="3"
-                        htmlFor="checkbox_ETH"
-                        className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-p1-cyan"
-                      >
-                        No Tatoo
-                      </label>
-                      <div className="px-4 text-p1-darkgreen dark:text-p1-green">9986</div>
-                    </div>
-                    <div className="flex place-content-between p-4">
-                      <input
-                        checked={check}
-                        id="checkbox_POL"
-                        onChange={() => {
-                          setCheck(!check);
-                        }}
-                        type="checkbox"
-                        value=""
-                        className="size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
-                      />
-                      <label
-                        id="3"
-                        htmlFor="checkbox_POL"
-                        className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-p1-cyan"
-                      >
+                  </details>
+                </div>
+
+                <div className="mb-2 w-full snap-start rounded-2xl border border-p1-green bg-p1-white text-xl text-p1-darkgreen shadow-lg dark:bg-p1-deepdarkgreen">
+                  <details className="m-2">
+                    <summary className="relative flex cursor-pointer justify-between py-2">
+                      <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
                         Tatoo
-                      </label>
-                      <div className="px-4 text-p1-darkgreen dark:text-p1-green">14</div>
+                      </div>
+                      <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
+                        2
+                      </div>
+                    </summary>
+                    <div className="pt-1 text-center text-p1-darkgreen dark:text-p1-green">
+                      <div className="flex justify-center pb-2">
+                        <div>
+                          <div className="flex overflow-hidden rounded-2xl border border-p1-green bg-p2-white2 px-4 py-3 hover:border-p1-cyan focus:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan">
+                            <svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 0 192.904 192.904"
+                              width="16px"
+                              className="mr-3 rotate-90 fill-gray-800 dark:fill-p1-cyan"
+                            >
+                              <path d="m190.707 180.101-47.078-47.077c11.702-14.072 18.752-32.142 18.752-51.831C162.381 36.423 125.959 0 81.191 0 36.422 0 0 36.423 0 81.193c0 44.767 36.422 81.187 81.191 81.187 19.688 0 37.759-7.049 51.831-18.751l47.079 47.078a7.474 7.474 0 0 0 5.303 2.197 7.498 7.498 0 0 0 5.303-12.803zM15 81.193C15 44.694 44.693 15 81.191 15c36.497 0 66.189 29.694 66.189 66.193 0 36.496-29.692 66.187-66.189 66.187C44.693 147.38 15 117.689 15 81.193z"></path>
+                            </svg>
+                            <input
+                              type="email"
+                              placeholder="Search ..."
+                              className="w-full bg-transparent text-xl text-p1-deepdarkgreen outline-none dark:text-p1-cyan"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                      <div className="flex place-content-between p-4">
+                        <input
+                          checked={check}
+                          id="checkbox_ETH"
+                          onChange={() => {
+                            setCheck(!check);
+                          }}
+                          type="checkbox"
+                          value=""
+                          className="size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                        />
+                        <label
+                          id="3"
+                          htmlFor="checkbox_ETH"
+                          className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-p1-cyan"
+                        >
+                          No Tatoo
+                        </label>
+                        <div className="px-4 text-p1-darkgreen dark:text-p1-green">9986</div>
+                      </div>
+                      <div className="flex place-content-between p-4">
+                        <input
+                          checked={check}
+                          id="checkbox_POL"
+                          onChange={() => {
+                            setCheck(!check);
+                          }}
+                          type="checkbox"
+                          value=""
+                          className="size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                        />
+                        <label
+                          id="3"
+                          htmlFor="checkbox_POL"
+                          className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-p1-cyan"
+                        >
+                          Tatoo
+                        </label>
+                        <div className="px-4 text-p1-darkgreen dark:text-p1-green">14</div>
+                      </div>
                     </div>
-                  </div>
-                </details>
+                  </details>
+                </div>
               </div>
             </div>
           </div>
