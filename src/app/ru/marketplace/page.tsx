@@ -930,8 +930,8 @@ export default function Home() {
         <div className="flex max-w-full place-content-center gap-2 px-6">
           {/* ... левый блок */}
           <div id="area1" className={`w-3/12  gap-2 pt-2 ${visibleArea1 == true ? '' : 'hidden'}`}>
-            <div className="mb-2 w-full rounded-2xl border border-p1-green bg-p1-white text-xl text-p1-darkgreen shadow-lg dark:bg-p1-deepdarkgreen">
-              <details className="m-2">
+            <div className="w-full snap-start border-b border-p1-green border-opacity-30 bg-p1-white text-xl text-p1-darkgreen hover:border-p1-green hover:bg-p1-green hover:bg-opacity-5 dark:bg-p1-deepdarkgreen">
+              <details className="">
                 <summary className="relative flex cursor-pointer justify-start py-2">
                   <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
                     Price
@@ -991,8 +991,8 @@ export default function Home() {
               </details>
             </div>
 
-            <div className="mb-2 w-full rounded-2xl border border-p1-green bg-p1-white text-xl text-p1-darkgreen shadow-lg dark:bg-p1-deepdarkgreen">
-              <details className="m-2">
+            <div className="w-full snap-start border-b border-p1-green border-opacity-30 bg-p1-white text-xl text-p1-darkgreen hover:border-p1-green hover:bg-p1-green hover:bg-opacity-5 dark:bg-p1-deepdarkgreen">
+              <details className="">
                 <summary className="relative flex cursor-pointer justify-start py-2">
                   <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
                     Rarity rank
@@ -1036,8 +1036,8 @@ export default function Home() {
               </details>
             </div>
 
-            <div className="mb-2 w-full rounded-2xl border border-p1-green bg-p1-white text-xl text-p1-darkgreen shadow-lg dark:bg-p1-deepdarkgreen">
-              <details className="m-2">
+            <div className="w-full snap-start border-b border-p1-green border-opacity-30 bg-p1-white text-xl text-p1-darkgreen hover:border-p1-green hover:bg-p1-green hover:bg-opacity-5 dark:bg-p1-deepdarkgreen">
+              <details className="">
                 <summary className="relative flex cursor-pointer justify-start py-2">
                   <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
                     Currency
@@ -1110,8 +1110,8 @@ export default function Home() {
             </div>
             <div className="">
               <div className="h-96 w-full resize-y snap-y scroll-mt-4 place-self-start overflow-auto scroll-smooth">
-                <div className="mb-2 w-full snap-start rounded-2xl border border-p1-green bg-p1-white text-xl text-p1-darkgreen shadow-lg dark:bg-p1-deepdarkgreen">
-                  <details className="m-2">
+                <div className="w-full snap-start border-b border-p1-green border-opacity-30 bg-p1-white text-xl text-p1-darkgreen hover:border-p1-green hover:bg-p1-green hover:bg-opacity-5 dark:bg-p1-deepdarkgreen">
+                  <details className="">
                     <summary className="relative flex cursor-pointer justify-between py-2">
                       <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
                         Slogan
@@ -1185,8 +1185,8 @@ export default function Home() {
                   </details>
                 </div>
 
-                <div className="mb-2 w-full snap-start rounded-2xl border border-p1-green bg-p1-white text-xl text-p1-darkgreen shadow-lg dark:bg-p1-deepdarkgreen">
-                  <details className="m-2">
+                <div className="w-full snap-start border-b border-p1-green border-opacity-30 bg-p1-white text-xl text-p1-darkgreen hover:border-p1-green hover:bg-p1-green hover:bg-opacity-5 dark:bg-p1-deepdarkgreen">
+                  <details className="">
                     <summary className="relative flex cursor-pointer justify-between py-2">
                       <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
                         Background
@@ -1259,8 +1259,8 @@ export default function Home() {
                   </details>
                 </div>
 
-                <div className="mb-2 w-full snap-start rounded-2xl border border-p1-green bg-p1-white text-xl text-p1-darkgreen shadow-lg dark:bg-p1-deepdarkgreen">
-                  <details className="m-2">
+                <div className="w-full snap-start border-b border-p1-green border-opacity-30 bg-p1-white text-xl text-p1-darkgreen hover:border-p1-green hover:bg-p1-green hover:bg-opacity-5 dark:bg-p1-deepdarkgreen">
+                  <details className="">
                     <summary className="relative flex cursor-pointer justify-between py-2">
                       <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
                         Skin
@@ -1333,8 +1333,8 @@ export default function Home() {
                   </details>
                 </div>
 
-                <div className="mb-2 w-full snap-start rounded-2xl border border-p1-green bg-p1-white text-xl text-p1-darkgreen shadow-lg dark:bg-p1-deepdarkgreen">
-                  <details className="m-2">
+                <div className="w-full snap-start border-b border-p1-green border-opacity-30 bg-p1-white text-xl text-p1-darkgreen hover:border-p1-green hover:bg-p1-green hover:bg-opacity-5 dark:bg-p1-deepdarkgreen">
+                  <details className="">
                     <summary className="relative flex cursor-pointer justify-between py-2">
                       <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
                         Eyes
@@ -1407,8 +1407,8 @@ export default function Home() {
                   </details>
                 </div>
 
-                <div className="mb-2 w-full snap-start rounded-2xl border border-p1-green bg-p1-white text-xl text-p1-darkgreen shadow-lg dark:bg-p1-deepdarkgreen">
-                  <details className="m-2">
+                <div className="w-full snap-start border-b border-p1-green border-opacity-30 bg-p1-white text-xl text-p1-darkgreen hover:border-p1-green hover:bg-p1-green hover:bg-opacity-5 dark:bg-p1-deepdarkgreen">
+                  <details className="">
                     <summary className="relative flex cursor-pointer justify-between py-2">
                       <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
                         Mouth
@@ -1481,8 +1481,8 @@ export default function Home() {
                   </details>
                 </div>
 
-                <div className="mb-2 w-full snap-start rounded-2xl border border-p1-green bg-p1-white text-xl text-p1-darkgreen shadow-lg dark:bg-p1-deepdarkgreen">
-                  <details className="m-2">
+                <div className="w-full snap-start border-b border-p1-green border-opacity-30 bg-p1-white text-xl text-p1-darkgreen hover:border-p1-green hover:bg-p1-green hover:bg-opacity-5 dark:bg-p1-deepdarkgreen">
+                  <details className="">
                     <summary className="relative flex cursor-pointer justify-between py-2">
                       <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
                         Nose
@@ -1555,8 +1555,8 @@ export default function Home() {
                   </details>
                 </div>
 
-                <div className="mb-2 w-full snap-start rounded-2xl border border-p1-green bg-p1-white text-xl text-p1-darkgreen shadow-lg dark:bg-p1-deepdarkgreen">
-                  <details className="m-2">
+                <div className="w-full snap-start border-b border-p1-green border-opacity-30 bg-p1-white text-xl text-p1-darkgreen hover:border-p1-green hover:bg-p1-green hover:bg-opacity-5 dark:bg-p1-deepdarkgreen">
+                  <details className="">
                     <summary className="relative flex cursor-pointer justify-between py-2">
                       <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
                         Earring
@@ -1629,8 +1629,8 @@ export default function Home() {
                   </details>
                 </div>
 
-                <div className="mb-2 w-full snap-start rounded-2xl border border-p1-green bg-p1-white text-xl text-p1-darkgreen shadow-lg dark:bg-p1-deepdarkgreen">
-                  <details className="m-2">
+                <div className="w-full snap-start border-b border-p1-green border-opacity-30 bg-p1-white text-xl text-p1-darkgreen hover:border-p1-green hover:bg-p1-green hover:bg-opacity-5 dark:bg-p1-deepdarkgreen">
+                  <details className="">
                     <summary className="relative flex cursor-pointer justify-between py-2">
                       <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
                         Eye pads
@@ -1703,8 +1703,8 @@ export default function Home() {
                   </details>
                 </div>
 
-                <div className="mb-2 w-full snap-start rounded-2xl border border-p1-green bg-p1-white text-xl text-p1-darkgreen shadow-lg dark:bg-p1-deepdarkgreen">
-                  <details className="m-2">
+                <div className="w-full snap-start border-b border-p1-green border-opacity-30 bg-p1-white text-xl text-p1-darkgreen hover:border-p1-green hover:bg-p1-green hover:bg-opacity-5 dark:bg-p1-deepdarkgreen">
+                  <details className="">
                     <summary className="relative flex cursor-pointer justify-between py-2">
                       <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
                         Shaving
@@ -1777,8 +1777,8 @@ export default function Home() {
                   </details>
                 </div>
 
-                <div className="mb-2 w-full snap-start rounded-2xl border border-p1-green bg-p1-white text-xl text-p1-darkgreen shadow-lg dark:bg-p1-deepdarkgreen">
-                  <details className="m-2">
+                <div className="w-full snap-start border-b border-p1-green border-opacity-30 bg-p1-white text-xl text-p1-darkgreen hover:border-p1-green hover:bg-p1-green hover:bg-opacity-5 dark:bg-p1-deepdarkgreen">
+                  <details className="">
                     <summary className="relative flex cursor-pointer justify-between py-2">
                       <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
                         Face accessory
@@ -1851,8 +1851,8 @@ export default function Home() {
                   </details>
                 </div>
 
-                <div className="mb-2 w-full snap-start rounded-2xl border border-p1-green bg-p1-white text-xl text-p1-darkgreen shadow-lg dark:bg-p1-deepdarkgreen">
-                  <details className="m-2">
+                <div className="w-full snap-start border-b border-p1-green border-opacity-30 bg-p1-white text-xl text-p1-darkgreen hover:border-p1-green hover:bg-p1-green hover:bg-opacity-5 dark:bg-p1-deepdarkgreen">
+                  <details className="">
                     <summary className="relative flex cursor-pointer justify-between py-2">
                       <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
                         Clothes
@@ -1925,8 +1925,8 @@ export default function Home() {
                   </details>
                 </div>
 
-                <div className="mb-2 w-full snap-start rounded-2xl border border-p1-green bg-p1-white text-xl text-p1-darkgreen shadow-lg dark:bg-p1-deepdarkgreen">
-                  <details className="m-2">
+                <div className="w-full snap-start border-b border-p1-green border-opacity-30 bg-p1-white text-xl text-p1-darkgreen hover:border-p1-green hover:bg-p1-green hover:bg-opacity-5 dark:bg-p1-deepdarkgreen">
+                  <details className="">
                     <summary className="relative flex cursor-pointer justify-between py-2">
                       <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
                         Head
@@ -1999,8 +1999,8 @@ export default function Home() {
                   </details>
                 </div>
 
-                <div className="mb-2 w-full snap-start rounded-2xl border border-p1-green bg-p1-white text-xl text-p1-darkgreen shadow-lg dark:bg-p1-deepdarkgreen">
-                  <details className="m-2">
+                <div className="w-full snap-start border-b border-p1-green border-opacity-30 bg-p1-white text-xl text-p1-darkgreen hover:border-p1-green hover:bg-p1-green hover:bg-opacity-5 dark:bg-p1-deepdarkgreen">
+                  <details className="">
                     <summary className="relative flex cursor-pointer justify-between py-2">
                       <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
                         Extra
@@ -2073,8 +2073,8 @@ export default function Home() {
                   </details>
                 </div>
 
-                <div className="mb-2 w-full snap-start rounded-2xl border border-p1-green bg-p1-white text-xl text-p1-darkgreen shadow-lg dark:bg-p1-deepdarkgreen">
-                  <details className="m-2">
+                <div className="w-full snap-start border-b border-p1-green border-opacity-30 bg-p1-white text-xl text-p1-darkgreen hover:border-p1-green hover:bg-p1-green hover:bg-opacity-5 dark:bg-p1-deepdarkgreen">
+                  <details className="">
                     <summary className="relative flex cursor-pointer justify-between py-2">
                       <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
                         Parrot
@@ -2147,8 +2147,8 @@ export default function Home() {
                   </details>
                 </div>
 
-                <div className="mb-2 w-full snap-start rounded-2xl border border-p1-green bg-p1-white text-xl text-p1-darkgreen shadow-lg dark:bg-p1-deepdarkgreen">
-                  <details className="m-2">
+                <div className="w-full snap-start border-b border-p1-green border-opacity-30 bg-p1-white text-xl text-p1-darkgreen hover:border-p1-green hover:bg-p1-green hover:bg-opacity-5 dark:bg-p1-deepdarkgreen">
+                  <details className="">
                     <summary className="relative flex cursor-pointer justify-between py-2">
                       <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
                         Cupid&apos;s arrow
@@ -2221,8 +2221,8 @@ export default function Home() {
                   </details>
                 </div>
 
-                <div className="mb-2 w-full snap-start rounded-2xl border border-p1-green bg-p1-white text-xl text-p1-darkgreen shadow-lg dark:bg-p1-deepdarkgreen">
-                  <details className="m-2">
+                <div className="w-full snap-start border-b border-p1-green border-opacity-30 bg-p1-white text-xl text-p1-darkgreen hover:border-p1-green hover:bg-p1-green hover:bg-opacity-5 dark:bg-p1-deepdarkgreen">
+                  <details className="">
                     <summary className="relative flex cursor-pointer justify-between py-2">
                       <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
                         Tatoo
@@ -3241,7 +3241,7 @@ export default function Home() {
             {/* ... карточка 1 ...15x10 */}
 
             <div className="w-full rounded-2xl border border-p1-green bg-p1-white text-xl text-p1-darkgreen shadow-lg dark:bg-p1-deepdarkgreen">
-              <details className="m-2">
+              <details className="">
                 <summary className="relative flex cursor-pointer justify-between py-2">
                   <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
                     Карточки
@@ -3723,7 +3723,7 @@ export default function Home() {
 
             {/* ... таблица кнопка 1 ...15x10 */}
             <div className="w-full rounded-2xl border border-p1-green bg-p1-white text-xl text-p1-darkgreen shadow-lg dark:bg-p1-deepdarkgreen">
-              <details className="m-2">
+              <details className="">
                 <summary className="relative flex cursor-pointer justify-between py-2">
                   <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
                     Таблица 1
@@ -4039,7 +4039,7 @@ export default function Home() {
             {/* ... таблица кнопка 2 ...15x10 */}
 
             <div className="w-full rounded-2xl border border-p1-green bg-p1-white text-xl text-p1-darkgreen shadow-lg dark:bg-p1-deepdarkgreen">
-              <details className="m-2">
+              <details className="">
                 <summary className="relative flex cursor-pointer justify-between py-2">
                   <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
                     Таблица 2
