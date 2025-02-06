@@ -982,7 +982,7 @@ export default function Home() {
                   <div>
                     <Link
                       href="#"
-                      className="relative flex place-content-center rounded-b-xl border border-p1-green bg-p1-white p-4 text-p1-darkgreen shadow-lg transition-all duration-300 ease-in-out hover:border-p1-darkgreen hover:bg-p2-white2 hover:text-p1-darkgreen hover:shadow-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan"
+                      className="relative flex place-content-center rounded-b-xl border border-p1-green bg-p1-white p-4 text-p1-darkgreen transition-all duration-300 ease-in-out hover:border-p1-darkgreen hover:bg-p2-white2 hover:text-p1-darkgreen hover:shadow-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan"
                     >
                       <div className="px-4">Apply</div>
                     </Link>
@@ -1027,7 +1027,7 @@ export default function Home() {
                   <div>
                     <Link
                       href="#"
-                      className="relative flex place-content-center rounded-b-xl border border-p1-green bg-p1-white p-4 text-p1-darkgreen shadow-lg transition-all duration-300 ease-in-out hover:border-p1-darkgreen hover:bg-p2-white2 hover:text-p1-darkgreen hover:shadow-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan"
+                      className="relative flex place-content-center rounded-b-xl border border-p1-green bg-p1-white p-4 text-p1-darkgreen transition-all duration-300 ease-in-out hover:border-p1-darkgreen hover:bg-p2-white2 hover:text-p1-darkgreen hover:shadow-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan"
                     >
                       <div className="px-4">Apply</div>
                     </Link>
@@ -2305,9 +2305,9 @@ export default function Home() {
               id="area2"
               className={`inline-block h-96 w-max place-self-start overflow-auto rounded border ${currentVisibleArea == 2 ? '' : 'hidden'}`}
             >
-              <div className="relative shadow-md sm:rounded-lg">
+              <div className="relative sm:rounded-lg">
                 <table className="text-left text-xl text-p1-darkgreen dark:text-p1-green">
-                  <thead className="sticky top-0 z-10 bg-gray-50 text-xs uppercase text-p1-darkgreen dark:bg-p1-deepdarkgreen dark:text-p1-green">
+                  <thead className="sticky top-0 z-10 bg-p1-green bg-opacity-5 text-xs uppercase text-p1-darkgreen dark:bg-p1-deepdarkgreen dark:text-p1-green">
                     <tr>
                       <th scope="col" className="px-6 py-3">
                         Add to cart
@@ -2492,7 +2492,7 @@ export default function Home() {
                     </tr>
                   </thead>
                   <tbody>
-                    <tr className="border-b bg-white dark:border-p1-green dark:bg-p1-deepdarkgreen">
+                    <tr className="border-b border-p1-green border-opacity-25 bg-p1-white dark:border-p1-green dark:bg-p1-deepdarkgreen">
                       <th scope="row" className="whitespace-nowrap px-6 py-4 font-medium">
                         <div className="flex items-center">
                           <input
@@ -2535,7 +2535,7 @@ export default function Home() {
                       <td className="px-6 py-4 text-right"> 2h ago</td>
                       <td className="px-6 py-4 text-right"> Сделать предложение</td>
                     </tr>
-                    <tr className="border-b bg-white dark:border-p1-green dark:bg-p1-deepdarkgreen">
+                    <tr className="border-b bg-p1-white dark:border-p1-green dark:bg-p1-deepdarkgreen">
                       <th scope="row" className="whitespace-nowrap px-6 py-4 font-medium">
                         <div className="flex items-center">
                           <input
@@ -3757,7 +3757,7 @@ export default function Home() {
                   <div className="inline-block h-96 w-full place-self-center overflow-auto rounded border">
                     <div className="relative shadow-md sm:rounded-lg">
                       <table className="text-left text-xl text-p1-darkgreen dark:text-p1-green">
-                        <thead className="sticky top-0 z-10 bg-gray-50 text-xs uppercase text-p1-darkgreen dark:bg-p1-deepdarkgreen dark:text-p1-green">
+                        <thead className="sticky top-0 z-10 bg-p1-white text-xs uppercase text-p1-darkgreen dark:bg-p1-deepdarkgreen dark:text-p1-green">
                           <tr>
                             <th scope="col" className="px-6 py-3">
                               Add to cart
@@ -3942,7 +3942,7 @@ export default function Home() {
                           </tr>
                         </thead>
                         <tbody>
-                          <tr className="border-b bg-white dark:border-p1-green dark:bg-p1-deepdarkgreen">
+                          <tr className="border-b bg-p1-white dark:border-p1-green dark:bg-p1-deepdarkgreen">
                             <th scope="row" className="whitespace-nowrap px-6 py-4 font-medium">
                               <div className="flex items-center">
                                 <input
