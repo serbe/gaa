@@ -246,8 +246,8 @@ export default function Page() {
 
             <div className="place-content-end text-p1-darkgreen">
               <p className="text-3xl font-semibold md:px-10">Unnamed</p>
-              <p className="font-thin text-2xl md:px-10">0 x6918...a442 </p>
-              <p className="font-thin text-2xl md:px-10">Joined May 2024 </p>
+              <p className="text-2xl font-thin md:px-10">0 x6918...a442 </p>
+              <p className="text-2xl font-thin md:px-10">Joined May 2024 </p>
             </div>
           </div>
         </div>
