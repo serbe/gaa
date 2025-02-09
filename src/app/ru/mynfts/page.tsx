@@ -1587,7 +1587,7 @@ export default function Home() {
                 </div>
                 {/* Таблица 1  содержимое*/}
 
-                <div className="inline-block h-96 place-self-center overflow-y-auto rounded border">
+                <div className="custom-scrollbar inline-block h-96 place-self-center overflow-y-auto rounded border">
                   <div className="relative shadow-md sm:rounded-lg">
                     <table className="text-left text-xl text-p1-darkgreen dark:text-p1-green">
                       <thead className="sticky top-0 z-10 bg-gray-50 text-xs uppercase text-p1-darkgreen dark:bg-p1-deepdarkgreen dark:text-p1-green">

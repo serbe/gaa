@@ -327,8 +327,8 @@ export default function Page() {
             className="relative mb-4 inline-block w-3/5 rounded-3xl border-2 border-p1-gray shadow-lg md:w-4/5"
             width={1000}
             height={1000}
-            src="/Licenses/National Lic.png"
-            alt="NationalLic"
+            src="/Licenses/Local Lic.png"
+            alt="Local Lic"
           />
           <p className="text-xm pb-8">
             Предоставляет право голоса по развитию GAA на национальном и локальном уровнях

@@ -723,21 +723,25 @@ export default function Home() {
                 className="inline-flex w-full justify-center rounded-md pt-1 shadow-sm"
                 role="group"
               >
-                <Link
-                  href="#"
-                  className="inline-block w-full place-content-center rounded-l-xl border-2 bg-p1-white px-1 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen hover:border-opacity-15 hover:bg-p1-green hover:bg-opacity-25 hover:text-p1-darkgreen focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                <button
+                  data-target="area4"
+                  className="inline-block w-max place-content-center rounded-l-xl border bg-p1-white px-1 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen hover:border-opacity-15 hover:bg-p1-cyan hover:bg-opacity-25 hover:text-p1-darkgreen focus:border-p1-darkgreen focus:border-opacity-20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                  id="toggleButton4"
+                  onClick={() => {
+                    setCurrentVisibleArea(4);
+                  }}
                 >
                   Items
-                </Link>
+                </button>
                 <Link
                   href="#"
-                  className="inline-block w-full place-content-center border-2 bg-p1-white px-1 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen hover:border-opacity-15 hover:bg-p1-green hover:bg-opacity-25 hover:text-p1-darkgreen focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                  className="inline-block w-max place-content-center border bg-p1-white px-1 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen hover:border-opacity-15 hover:bg-p1-cyan hover:bg-opacity-25 hover:text-p1-darkgreen focus:border-p1-darkgreen focus:border-opacity-20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
                 >
                   Offers
                 </Link>
                 <button
                   data-target="area7"
-                  className="inline-block w-full place-content-center border-2 bg-p1-white px-1 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen hover:border-opacity-15 hover:bg-p1-green hover:bg-opacity-25 hover:text-p1-darkgreen focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                  className="inline-block w-max place-content-center border bg-p1-white px-1 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen hover:border-opacity-15 hover:bg-p1-cyan hover:bg-opacity-25 hover:text-p1-darkgreen focus:border-p1-darkgreen focus:border-opacity-20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
                   id="toggleButton7"
                   onClick={() => {
                     setCurrentVisibleArea(7);
@@ -748,7 +752,7 @@ export default function Home() {
 
                 <button
                   data-target="area9"
-                  className="inline-block w-full place-content-center border-2 bg-p1-white px-1 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen hover:border-opacity-15 hover:bg-p1-green hover:bg-opacity-25 hover:text-p1-darkgreen focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                  className="inline-block w-max place-content-center border bg-p1-white px-1 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen hover:border-opacity-15 hover:bg-p1-cyan hover:bg-opacity-25 hover:text-p1-darkgreen focus:border-p1-darkgreen focus:border-opacity-20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
                   id="toggleButton9"
                   onClick={() => {
                     setCurrentVisibleArea(9);
@@ -757,11 +761,11 @@ export default function Home() {
                   Activity
                 </button>
 
-                <form className="inline-block w-full place-content-center rounded-r-xl border-2 bg-p1-white py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen hover:border-opacity-15 hover:bg-p1-green hover:bg-opacity-25 hover:text-p1-darkgreen focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan">
-                  <label htmlFor="price" className="block w-full"></label>
+                <form className="inline-block w-max place-content-center rounded-r-xl border bg-p1-white px-1 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen hover:border-opacity-15 hover:bg-p1-cyan hover:bg-opacity-25 hover:text-p1-darkgreen focus:border-p1-darkgreen focus:border-opacity-20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan">
+                  <label htmlFor="price" className="block"></label>
                   <select
                     id="price"
-                    className="mx-auto flex max-w-2xl overflow-hidden border-p1-darkgreen bg-p1-white hover:border-opacity-15 hover:bg-p1-green hover:bg-p1-white hover:bg-opacity-25 hover:text-p1-darkgreen dark:bg-p1-deepdarkgreen dark:text-p1-green dark:accent-p1-darkgreen dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan"
+                    className="mx-auto flex overflow-hidden rounded-r-xl bg-p1-white hover:border-opacity-15 hover:bg-p1-green hover:bg-p1-white hover:bg-opacity-25 hover:text-p1-darkgreen dark:bg-p1-deepdarkgreen dark:text-p1-green dark:accent-p1-darkgreen dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan"
                     defaultValue={'DEFAULT'}
                   >
                     <option value="DEFAULT" disabled>
@@ -792,26 +796,26 @@ export default function Home() {
               >
                 <Link
                   href="#"
-                  className="inline-block w-max place-content-center rounded-l-xl border-2 bg-p1-white px-4 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen hover:border-opacity-15 hover:bg-p1-green hover:bg-opacity-25 hover:text-p1-darkgreen focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                  className="inline-block w-max place-content-center rounded-l-xl border bg-p1-white px-1 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen hover:border-opacity-15 hover:bg-p1-cyan hover:bg-opacity-25 hover:text-p1-darkgreen focus:border-p1-darkgreen focus:border-opacity-20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
                 >
                   All
                 </Link>
                 <Link
                   href="#"
-                  className="inline-block w-max place-content-center border-2 bg-p1-white px-1 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen hover:border-opacity-15 hover:bg-p1-green hover:bg-opacity-25 hover:text-p1-darkgreen focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                  className="inline-block w-max place-content-center border bg-p1-white px-1 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen hover:border-opacity-15 hover:bg-p1-cyan hover:bg-opacity-25 hover:text-p1-darkgreen focus:border-p1-darkgreen focus:border-opacity-20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
                 >
                   Listed
                 </Link>
                 <Link
                   href="#"
-                  className="inline-block w-max place-content-center border-2 bg-p1-white px-1 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen hover:border-opacity-15 hover:bg-p1-green hover:bg-opacity-25 hover:text-p1-darkgreen focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                  className="inline-block w-max place-content-center border bg-p1-white px-1 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen hover:border-opacity-15 hover:bg-p1-cyan hover:bg-opacity-25 hover:text-p1-darkgreen focus:border-p1-darkgreen focus:border-opacity-20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
                 >
                   On Auction
                 </Link>
 
                 <Link
                   href="#"
-                  className="inline-block w-max place-content-center rounded-r-xl border-2 bg-p1-white px-1 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen hover:border-opacity-15 hover:bg-p1-green hover:bg-opacity-25 hover:text-p1-darkgreen focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                  className="inline-block w-max place-content-center rounded-r-xl border bg-p1-white px-1 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen hover:border-opacity-15 hover:bg-p1-cyan hover:bg-opacity-25 hover:text-p1-darkgreen focus:border-p1-darkgreen focus:border-opacity-20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
                 >
                   Has Offers
                 </Link>
@@ -827,13 +831,13 @@ export default function Home() {
             <div>
               <button
                 data-target="area1"
-                className="mx-auto justify-start"
+                className="focus:bg-shadow-lg mx-auto justify-start rounded transition-all delay-75 duration-100 ease-in-out hover:bg-p1-cyan/50 hover:shadow-lg dark:shadow-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:brightness-90"
                 onClick={() => {
                   setVisibleArea1(!visibleArea1);
                 }}
               >
                 <Image
-                  className="size-10 rounded-lg p-1 ring-p1-gray transition-all delay-75 duration-100 ease-in-out hover:bg-p1-green/50 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:bg-p1-green"
+                  className="size-10 p-1"
                   width={480}
                   height={480}
                   src="/icon/2.png"
@@ -849,11 +853,8 @@ export default function Home() {
               Live
             </div>
             <div className="flex grid-flow-row auto-rows-max justify-start space-x-2"></div>
-            <div>
-              <Link
-                href="#"
-                className="place-content-center text-sm text-p1-darkgreen md:text-xl dark:text-p1-green"
-              >
+            <div className="place-content-center">
+              <Link href="#" className="text-sm text-p1-darkgreen md:text-xl dark:text-p1-green">
                 100 results
               </Link>
             </div>
@@ -864,14 +865,14 @@ export default function Home() {
               <div className="w-10">
                 <button
                   data-target="area2"
-                  className="mx-auto justify-start"
+                  className="focus:bg-shadow-lg mx-auto justify-start rounded transition-all delay-75 duration-100 ease-in-out hover:bg-p1-cyan/50 hover:shadow-lg focus:bg-p1-cyan/50 focus:hover:shadow-lg dark:shadow-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:brightness-90 dark:focus:brightness-90"
                   id="toggleButton2"
                   onClick={() => {
                     setCurrentVisibleArea(2);
                   }}
                 >
                   <Image
-                    className="size-10 rounded-lg p-1 ring-p1-gray transition-all delay-75 duration-100 ease-in-out hover:bg-p1-darkgreen/50 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:bg-p1-green"
+                    className="size-10 p-1"
                     width={480}
                     height={480}
                     src="/icon/line.png"
@@ -882,14 +883,14 @@ export default function Home() {
               <div className="w-10">
                 <button
                   data-target="area3"
-                  className="mx-auto justify-start"
+                  className="focus:bg-shadow-lg mx-auto justify-start rounded transition-all delay-75 duration-100 ease-in-out hover:bg-p1-cyan/50 hover:shadow-lg focus:bg-p1-cyan/50 focus:hover:shadow-lg dark:shadow-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:brightness-90 dark:focus:brightness-90"
                   id="toggleButton3"
                   onClick={() => {
                     setCurrentVisibleArea(3);
                   }}
                 >
                   <Image
-                    className="size-10 rounded-lg p-1 ring-p1-gray transition-all delay-75 duration-100 ease-in-out hover:bg-p1-green/50 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:bg-p1-green"
+                    className="size-10 p-1"
                     width={480}
                     height={480}
                     src="/icon/16.png"
@@ -900,14 +901,14 @@ export default function Home() {
               <div className="w-10">
                 <button
                   data-target="area4"
-                  className="mx-auto justify-start"
+                  className="focus:bg-shadow-lg mx-auto justify-start rounded transition-all delay-75 duration-100 ease-in-out hover:bg-p1-cyan/50 hover:shadow-lg focus:bg-p1-cyan/50 focus:hover:shadow-lg dark:shadow-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:brightness-90 dark:focus:brightness-90"
                   id="toggleButton4"
                   onClick={() => {
                     setCurrentVisibleArea(4);
                   }}
                 >
                   <Image
-                    className="size-10 rounded-lg p-1 ring-p1-gray transition-all delay-75 duration-100 ease-in-out hover:bg-p1-green/50 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:bg-p1-green"
+                    className="size-10 p-1"
                     width={480}
                     height={480}
                     src="/icon/9.png"
@@ -918,14 +919,14 @@ export default function Home() {
               <div className="w-10">
                 <button
                   data-target="area5"
-                  className="mx-auto justify-start"
+                  className="focus:bg-shadow-lg mx-auto justify-start rounded transition-all delay-75 duration-100 ease-in-out hover:bg-p1-cyan/50 hover:shadow-lg focus:bg-p1-cyan/50 focus:hover:shadow-lg dark:shadow-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:brightness-90 dark:focus:brightness-90"
                   id="toggleButton5"
                   onClick={() => {
                     setCurrentVisibleArea(5);
                   }}
                 >
                   <Image
-                    className="size-10 rounded-lg p-1 ring-p1-gray transition-all delay-75 duration-100 ease-in-out hover:bg-p1-green/50 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:bg-p1-green"
+                    className="size-10 p-1"
                     width={480}
                     height={480}
                     src="/icon/4.png"
@@ -936,14 +937,14 @@ export default function Home() {
               <div className="w-10">
                 <button
                   data-target="area6"
-                  className="mx-auto justify-start"
+                  className="focus:bg-shadow-lg mx-auto justify-start rounded transition-all delay-75 duration-100 ease-in-out hover:bg-p1-cyan/50 hover:shadow-lg focus:bg-p1-cyan/50 focus:hover:shadow-lg dark:shadow-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:brightness-90 dark:focus:brightness-90"
                   id="toggleButton6"
                   onClick={() => {
                     setCurrentVisibleArea(6);
                   }}
                 >
                   <Image
-                    className="size-10 rounded-lg p-1 ring-p1-gray transition-all delay-75 duration-100 ease-in-out hover:bg-p1-green/50 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:bg-p1-green"
+                    className="size-10 p-1"
                     width={480}
                     height={480}
                     src="/icon/3.png"
@@ -954,18 +955,18 @@ export default function Home() {
               <div className="w-10">
                 <button
                   data-target="area8"
-                  className="mx-auto justify-start"
+                  className="focus:bg-shadow-lg mx-auto justify-start rounded transition-all delay-75 duration-100 ease-in-out hover:bg-p1-cyan/50 hover:shadow-lg focus:bg-p1-cyan/50 focus:hover:shadow-lg dark:shadow-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:brightness-90 dark:focus:brightness-90"
                   id="toggleButton6"
                   onClick={() => {
                     setCurrentVisibleArea(8);
                   }}
                 >
                   <Image
-                    className="size-10 rounded-lg p-1 ring-p1-gray transition-all delay-75 duration-100 ease-in-out hover:bg-p1-green/50 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:bg-p1-green"
+                    className="size-10 p-1"
                     width={480}
                     height={480}
-                    src="/icon/3.png"
-                    alt="bt3"
+                    src="/icon/1.png"
+                    alt="bt1"
                   />
                 </button>
               </div>
@@ -980,17 +981,15 @@ export default function Home() {
           <div id="area1" className={`w-3/12  gap-2 pt-2 ${visibleArea1 == true ? '' : 'hidden'}`}>
             <div className="w-full snap-start border-b border-p1-green border-opacity-30 bg-p1-white text-xl text-p1-darkgreen hover:border-p1-green hover:bg-p1-green hover:bg-opacity-5 dark:bg-p1-deepdarkgreen">
               <details className="">
-                <summary className="relative flex cursor-pointer justify-start py-2">
-                  <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
-                    Price
-                  </div>
+                <summary className="relative flex cursor-pointer justify-start py-2 text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
+                  <div className="place-content-center px-4">Price</div>
                 </summary>
                 <div className="pt-1 text-center text-p1-darkgreen lg:p-2 dark:text-p1-green">
                   <form className="inline-block w-full place-content-center pb-2 text-center text-p1-darkgreen hover:text-p1-darkgreen focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan">
                     <label htmlFor="price" className="block w-full"></label>
                     <select
                       id="price"
-                      className="mx-auto flex w-full overflow-hidden rounded-t-xl border border-p1-green bg-p1-white/50 p-4 text-center hover:border-p1-green hover:bg-p2-white2 dark:bg-p1-deepdarkgreen dark:text-p1-green dark:accent-p1-darkgreen dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan"
+                      className="mx-auto flex w-full overflow-hidden border-t border-p1-green bg-p1-white/50 p-1 text-center hover:border-p1-green hover:bg-p1-cyan hover:bg-opacity-10 dark:bg-p1-deepdarkgreen dark:text-p1-green dark:accent-p1-darkgreen dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan"
                       defaultValue={'DEFAULT'}
                     >
                       <option value="DEFAULT" disabled>
@@ -1008,7 +1007,7 @@ export default function Home() {
                         <input
                           type="text"
                           id="price_min"
-                          className="block w-full border border-p1-green bg-p1-white p-3 text-center text-sm lining-nums text-p1-darkgreen hover:bg-p2-white2 focus:border-p1-darkgreen focus:ring-p1-darkgreen md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:placeholder:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan dark:focus:border-p1-green dark:focus:ring-p1-cyan"
+                          className="block w-full border-b border-p1-green bg-p1-white p-1 text-center text-sm lining-nums text-p1-darkgreen hover:bg-p2-white2 focus:border-p1-darkgreen focus:ring-p1-darkgreen md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:placeholder:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan dark:focus:border-p1-green dark:focus:ring-p1-cyan"
                           placeholder="Min"
                           required
                         />
@@ -1020,7 +1019,7 @@ export default function Home() {
                         <input
                           type="text"
                           id="price_max"
-                          className="block w-full border border-p1-green bg-p1-white p-3 text-center text-sm lining-nums text-p1-darkgreen hover:bg-p2-white2 focus:border-p1-darkgreen focus:ring-p1-darkgreen md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:placeholder:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan dark:focus:border-p1-green dark:focus:ring-p1-cyan"
+                          className="block w-full border-b border-p1-green bg-p1-white p-1 text-center text-sm lining-nums text-p1-darkgreen hover:bg-p2-white2 focus:border-p1-darkgreen focus:ring-p1-darkgreen md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:placeholder:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan dark:focus:border-p1-green dark:focus:ring-p1-cyan"
                           placeholder="Max"
                           required
                         />
@@ -1030,7 +1029,7 @@ export default function Home() {
                   <div>
                     <Link
                       href="#"
-                      className="relative flex place-content-center rounded-b-xl border border-p1-green bg-p1-white p-4 text-p1-darkgreen transition-all duration-300 ease-in-out hover:border-p1-darkgreen hover:bg-p2-white2 hover:text-p1-darkgreen hover:shadow-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan"
+                      className="relative flex place-content-center rounded-b-xl border border-p1-green bg-p1-white p-2 text-p1-darkgreen transition-all duration-300 ease-in-out hover:border-p1-darkgreen hover:bg-p1-cyan hover:bg-opacity-10 hover:text-p1-darkgreen hover:shadow-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan"
                     >
                       <div className="px-4">Apply</div>
                     </Link>
@@ -1041,10 +1040,8 @@ export default function Home() {
 
             <div className="w-full snap-start border-b border-p1-green border-opacity-30 bg-p1-white text-xl text-p1-darkgreen hover:border-p1-green hover:bg-p1-green hover:bg-opacity-5 dark:bg-p1-deepdarkgreen">
               <details className="">
-                <summary className="relative flex cursor-pointer justify-start py-2">
-                  <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
-                    Rarity rank
-                  </div>
+                <summary className="relative flex cursor-pointer justify-start py-2 text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
+                  <div className="place-content-center px-4">Rarity rank</div>
                 </summary>
                 <div className="pt-1 text-center text-p1-darkgreen lg:p-2 dark:text-p1-green">
                   <div className="inline-flex space-x-1 pb-2 md:space-x-2 xl:space-x-4 2xl:space-x-10">
@@ -1053,7 +1050,7 @@ export default function Home() {
                         <input
                           type="text"
                           id="price_min"
-                          className="block w-full rounded-tl-xl border border-p1-green bg-p1-white p-3 text-center text-sm lining-nums text-p1-darkgreen hover:bg-p2-white2 focus:border-p1-darkgreen focus:ring-p1-darkgreen md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:placeholder:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan dark:focus:border-p1-green dark:focus:ring-p1-cyan"
+                          className="block w-full border-b border-p1-green bg-p1-white p-1 text-center text-sm lining-nums text-p1-darkgreen hover:bg-p2-white2 focus:border-p1-darkgreen focus:ring-p1-darkgreen md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:placeholder:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan dark:focus:border-p1-green dark:focus:ring-p1-cyan"
                           placeholder="Min"
                           required
                         />
@@ -1065,7 +1062,7 @@ export default function Home() {
                         <input
                           type="text"
                           id="price_max"
-                          className="block w-full rounded-tr-xl border border-p1-green bg-p1-white p-3 text-center text-sm lining-nums text-p1-darkgreen hover:bg-p2-white2 focus:border-p1-darkgreen focus:ring-p1-darkgreen md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:placeholder:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan dark:focus:border-p1-green dark:focus:ring-p1-cyan"
+                          className="block w-full border-b border-p1-green bg-p1-white p-1 text-center text-sm lining-nums text-p1-darkgreen hover:bg-p2-white2 focus:border-p1-darkgreen focus:ring-p1-darkgreen md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:placeholder:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan dark:focus:border-p1-green dark:focus:ring-p1-cyan"
                           placeholder="Max"
                           required
                         />
@@ -1075,7 +1072,7 @@ export default function Home() {
                   <div>
                     <Link
                       href="#"
-                      className="relative flex place-content-center rounded-b-xl border border-p1-green bg-p1-white p-4 text-p1-darkgreen transition-all duration-300 ease-in-out hover:border-p1-darkgreen hover:bg-p2-white2 hover:text-p1-darkgreen hover:shadow-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan"
+                      className="relative flex place-content-center rounded-b-xl border border-p1-green bg-p1-white p-2 text-p1-darkgreen transition-all duration-300 ease-in-out hover:border-p1-darkgreen hover:bg-p1-cyan hover:bg-opacity-10 hover:text-p1-darkgreen hover:shadow-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan"
                     >
                       <div className="px-4">Apply</div>
                     </Link>
@@ -1086,10 +1083,8 @@ export default function Home() {
 
             <div className="w-full snap-start border-b border-p1-green border-opacity-30 bg-p1-white text-xl text-p1-darkgreen hover:border-p1-green hover:bg-p1-green hover:bg-opacity-5 dark:bg-p1-deepdarkgreen">
               <details className="">
-                <summary className="relative flex cursor-pointer justify-start py-2">
-                  <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
-                    Currency
-                  </div>
+                <summary className="relative flex cursor-pointer justify-start py-2 text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
+                  <div className="place-content-center px-4">Currency</div>
                 </summary>
                 <div className="pt-1 text-center text-p1-darkgreen dark:text-p1-green">
                   <div className="flex justify-center pb-2">
@@ -1114,14 +1109,15 @@ export default function Home() {
                   <div className="flex items-center p-4">
                     <input
                       checked={check}
-                      id="checkbox_ETH"
+                      id="checkbox"
                       onChange={() => {
                         setCheck(!check);
                       }}
                       type="checkbox"
                       value=""
-                      className="size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                      className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                     />
+
                     <label
                       id="3"
                       htmlFor="checkbox_ETH"
@@ -1133,13 +1129,13 @@ export default function Home() {
                   <div className="flex items-center p-4">
                     <input
                       checked={check}
-                      id="checkbox_POL"
+                      id="checkbox"
                       onChange={() => {
                         setCheck(!check);
                       }}
                       type="checkbox"
                       value=""
-                      className="size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                      className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                     />
                     <label
                       id="3"
@@ -1152,7 +1148,7 @@ export default function Home() {
                 </div>
               </details>
             </div>
-
+            {/* Тraits*/}
             <div className="w-full place-content-center px-6 py-4 text-xl font-bold text-p1-darkgreen dark:text-p1-green">
               Traits
             </div>
@@ -1160,13 +1156,9 @@ export default function Home() {
               <div className="h-96 w-full resize-y snap-y scroll-mt-4 place-self-start overflow-auto scroll-smooth">
                 <div className="w-full snap-start border-b border-p1-green border-opacity-30 bg-p1-white text-xl text-p1-darkgreen hover:border-p1-green hover:bg-p1-green hover:bg-opacity-5 dark:bg-p1-deepdarkgreen">
                   <details className="">
-                    <summary className="relative flex cursor-pointer justify-between py-2">
-                      <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
-                        Slogan
-                      </div>
-                      <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
-                        8
-                      </div>
+                    <summary className="relative flex cursor-pointer justify-start justify-between py-2 text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
+                      <div className="place-content-center px-4">Slogan</div>
+                      <div className="place-content-center px-4">8</div>
                     </summary>
                     <div className="pt-1 text-center text-p1-darkgreen dark:text-p1-green">
                       <div className="flex justify-center pb-2">
@@ -1191,13 +1183,13 @@ export default function Home() {
                       <div className="flex place-content-between p-4">
                         <input
                           checked={check}
-                          id="checkbox_ETH"
+                          id="checkbox"
                           onChange={() => {
                             setCheck(!check);
                           }}
                           type="checkbox"
                           value=""
-                          className="size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                          className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                         />
                         <label
                           id="3"
@@ -1212,13 +1204,13 @@ export default function Home() {
                       <div className="flex place-content-between p-4">
                         <input
                           checked={check}
-                          id="checkbox_POL"
+                          id="checkbox"
                           onChange={() => {
                             setCheck(!check);
                           }}
                           type="checkbox"
                           value=""
-                          className="size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                          className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                         />
                         <label
                           id="3"
@@ -1235,13 +1227,9 @@ export default function Home() {
 
                 <div className="w-full snap-start border-b border-p1-green border-opacity-30 bg-p1-white text-xl text-p1-darkgreen hover:border-p1-green hover:bg-p1-green hover:bg-opacity-5 dark:bg-p1-deepdarkgreen">
                   <details className="">
-                    <summary className="relative flex cursor-pointer justify-between py-2">
-                      <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
-                        Background
-                      </div>
-                      <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
-                        46
-                      </div>
+                    <summary className="relative flex cursor-pointer justify-start justify-between py-2 text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
+                      <div className="place-content-center px-4">Background</div>
+                      <div className="place-content-center px-4">46</div>
                     </summary>
                     <div className="pt-1 text-center text-p1-darkgreen dark:text-p1-green">
                       <div className="flex justify-center pb-2">
@@ -1266,13 +1254,13 @@ export default function Home() {
                       <div className="flex place-content-between p-4">
                         <input
                           checked={check}
-                          id="checkbox_ETH"
+                          id="checkbox"
                           onChange={() => {
                             setCheck(!check);
                           }}
                           type="checkbox"
                           value=""
-                          className="size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                          className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                         />
                         <label
                           id="3"
@@ -1286,13 +1274,13 @@ export default function Home() {
                       <div className="flex place-content-between p-4">
                         <input
                           checked={check}
-                          id="checkbox_POL"
+                          id="checkbox"
                           onChange={() => {
                             setCheck(!check);
                           }}
                           type="checkbox"
                           value=""
-                          className="size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                          className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                         />
                         <label
                           id="3"
@@ -1309,13 +1297,9 @@ export default function Home() {
 
                 <div className="w-full snap-start border-b border-p1-green border-opacity-30 bg-p1-white text-xl text-p1-darkgreen hover:border-p1-green hover:bg-p1-green hover:bg-opacity-5 dark:bg-p1-deepdarkgreen">
                   <details className="">
-                    <summary className="relative flex cursor-pointer justify-between py-2">
-                      <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
-                        Skin
-                      </div>
-                      <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
-                        8
-                      </div>
+                    <summary className="relative flex cursor-pointer justify-start justify-between py-2 text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
+                      <div className="place-content-center px-4">Skin</div>
+                      <div className="place-content-center px-4">8</div>
                     </summary>
                     <div className="pt-1 text-center text-p1-darkgreen dark:text-p1-green">
                       <div className="flex justify-center pb-2">
@@ -1340,13 +1324,13 @@ export default function Home() {
                       <div className="flex place-content-between p-4">
                         <input
                           checked={check}
-                          id="checkbox_ETH"
+                          id="checkbox"
                           onChange={() => {
                             setCheck(!check);
                           }}
                           type="checkbox"
                           value=""
-                          className="size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                          className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                         />
                         <label
                           id="3"
@@ -1360,13 +1344,13 @@ export default function Home() {
                       <div className="flex place-content-between p-4">
                         <input
                           checked={check}
-                          id="checkbox_POL"
+                          id="checkbox"
                           onChange={() => {
                             setCheck(!check);
                           }}
                           type="checkbox"
                           value=""
-                          className="size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                          className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                         />
                         <label
                           id="3"
@@ -1383,13 +1367,9 @@ export default function Home() {
 
                 <div className="w-full snap-start border-b border-p1-green border-opacity-30 bg-p1-white text-xl text-p1-darkgreen hover:border-p1-green hover:bg-p1-green hover:bg-opacity-5 dark:bg-p1-deepdarkgreen">
                   <details className="">
-                    <summary className="relative flex cursor-pointer justify-between py-2">
-                      <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
-                        Eyes
-                      </div>
-                      <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
-                        8
-                      </div>
+                    <summary className="relative flex cursor-pointer justify-start justify-between py-2 text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
+                      <div className="place-content-center px-4">Eyes</div>
+                      <div className="place-content-center px-4">8</div>
                     </summary>
                     <div className="pt-1 text-center text-p1-darkgreen dark:text-p1-green">
                       <div className="flex justify-center pb-2">
@@ -1414,13 +1394,13 @@ export default function Home() {
                       <div className="flex place-content-between p-4">
                         <input
                           checked={check}
-                          id="checkbox_ETH"
+                          id="checkbox"
                           onChange={() => {
                             setCheck(!check);
                           }}
                           type="checkbox"
                           value=""
-                          className="size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                          className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                         />
                         <label
                           id="3"
@@ -1434,13 +1414,13 @@ export default function Home() {
                       <div className="flex place-content-between p-4">
                         <input
                           checked={check}
-                          id="checkbox_POL"
+                          id="checkbox"
                           onChange={() => {
                             setCheck(!check);
                           }}
                           type="checkbox"
                           value=""
-                          className="size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                          className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                         />
                         <label
                           id="3"
@@ -1457,13 +1437,9 @@ export default function Home() {
 
                 <div className="w-full snap-start border-b border-p1-green border-opacity-30 bg-p1-white text-xl text-p1-darkgreen hover:border-p1-green hover:bg-p1-green hover:bg-opacity-5 dark:bg-p1-deepdarkgreen">
                   <details className="">
-                    <summary className="relative flex cursor-pointer justify-between py-2">
-                      <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
-                        Mouth
-                      </div>
-                      <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
-                        16
-                      </div>
+                    <summary className="relative flex cursor-pointer justify-start justify-between py-2 text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
+                      <div className="place-content-center px-4">Mouth</div>
+                      <div className="place-content-center px-4">16</div>
                     </summary>
                     <div className="pt-1 text-center text-p1-darkgreen dark:text-p1-green">
                       <div className="flex justify-center pb-2">
@@ -1488,13 +1464,13 @@ export default function Home() {
                       <div className="flex place-content-between p-4">
                         <input
                           checked={check}
-                          id="checkbox_ETH"
+                          id="checkbox"
                           onChange={() => {
                             setCheck(!check);
                           }}
                           type="checkbox"
                           value=""
-                          className="size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                          className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                         />
                         <label
                           id="3"
@@ -1508,13 +1484,13 @@ export default function Home() {
                       <div className="flex place-content-between p-4">
                         <input
                           checked={check}
-                          id="checkbox_POL"
+                          id="checkbox"
                           onChange={() => {
                             setCheck(!check);
                           }}
                           type="checkbox"
                           value=""
-                          className="size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                          className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                         />
                         <label
                           id="3"
@@ -1531,13 +1507,9 @@ export default function Home() {
 
                 <div className="w-full snap-start border-b border-p1-green border-opacity-30 bg-p1-white text-xl text-p1-darkgreen hover:border-p1-green hover:bg-p1-green hover:bg-opacity-5 dark:bg-p1-deepdarkgreen">
                   <details className="">
-                    <summary className="relative flex cursor-pointer justify-between py-2">
-                      <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
-                        Nose
-                      </div>
-                      <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
-                        4
-                      </div>
+                    <summary className="relative flex cursor-pointer justify-start justify-between py-2 text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
+                      <div className="place-content-center px-4">Nose</div>
+                      <div className="place-content-center px-4">4</div>
                     </summary>
                     <div className="pt-1 text-center text-p1-darkgreen dark:text-p1-green">
                       <div className="flex justify-center pb-2">
@@ -1562,13 +1534,13 @@ export default function Home() {
                       <div className="flex place-content-between p-4">
                         <input
                           checked={check}
-                          id="checkbox_ETH"
+                          id="checkbox"
                           onChange={() => {
                             setCheck(!check);
                           }}
                           type="checkbox"
                           value=""
-                          className="size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                          className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                         />
                         <label
                           id="3"
@@ -1582,13 +1554,13 @@ export default function Home() {
                       <div className="flex place-content-between p-4">
                         <input
                           checked={check}
-                          id="checkbox_POL"
+                          id="checkbox"
                           onChange={() => {
                             setCheck(!check);
                           }}
                           type="checkbox"
                           value=""
-                          className="size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                          className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                         />
                         <label
                           id="3"
@@ -1605,13 +1577,9 @@ export default function Home() {
 
                 <div className="w-full snap-start border-b border-p1-green border-opacity-30 bg-p1-white text-xl text-p1-darkgreen hover:border-p1-green hover:bg-p1-green hover:bg-opacity-5 dark:bg-p1-deepdarkgreen">
                   <details className="">
-                    <summary className="relative flex cursor-pointer justify-between py-2">
-                      <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
-                        Earring
-                      </div>
-                      <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
-                        7
-                      </div>
+                    <summary className="relative flex cursor-pointer justify-start justify-between py-2 text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
+                      <div className="place-content-center px-4">Earring</div>
+                      <div className="place-content-center px-4">7</div>
                     </summary>
                     <div className="pt-1 text-center text-p1-darkgreen dark:text-p1-green">
                       <div className="flex justify-center pb-2">
@@ -1636,13 +1604,13 @@ export default function Home() {
                       <div className="flex place-content-between p-4">
                         <input
                           checked={check}
-                          id="checkbox_ETH"
+                          id="checkbox"
                           onChange={() => {
                             setCheck(!check);
                           }}
                           type="checkbox"
                           value=""
-                          className="size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                          className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                         />
                         <label
                           id="3"
@@ -1656,13 +1624,13 @@ export default function Home() {
                       <div className="flex place-content-between p-4">
                         <input
                           checked={check}
-                          id="checkbox_POL"
+                          id="checkbox"
                           onChange={() => {
                             setCheck(!check);
                           }}
                           type="checkbox"
                           value=""
-                          className="size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                          className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                         />
                         <label
                           id="3"
@@ -1679,13 +1647,9 @@ export default function Home() {
 
                 <div className="w-full snap-start border-b border-p1-green border-opacity-30 bg-p1-white text-xl text-p1-darkgreen hover:border-p1-green hover:bg-p1-green hover:bg-opacity-5 dark:bg-p1-deepdarkgreen">
                   <details className="">
-                    <summary className="relative flex cursor-pointer justify-between py-2">
-                      <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
-                        Eye pads
-                      </div>
-                      <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
-                        3
-                      </div>
+                    <summary className="relative flex cursor-pointer justify-start justify-between py-2 text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
+                      <div className="place-content-center px-4">Eye pads</div>
+                      <div className="place-content-center px-4">3</div>
                     </summary>
                     <div className="pt-1 text-center text-p1-darkgreen dark:text-p1-green">
                       <div className="flex justify-center pb-2">
@@ -1710,13 +1674,13 @@ export default function Home() {
                       <div className="flex place-content-between p-4">
                         <input
                           checked={check}
-                          id="checkbox_ETH"
+                          id="checkbox"
                           onChange={() => {
                             setCheck(!check);
                           }}
                           type="checkbox"
                           value=""
-                          className="size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                          className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                         />
                         <label
                           id="3"
@@ -1730,13 +1694,13 @@ export default function Home() {
                       <div className="flex place-content-between p-4">
                         <input
                           checked={check}
-                          id="checkbox_POL"
+                          id="checkbox"
                           onChange={() => {
                             setCheck(!check);
                           }}
                           type="checkbox"
                           value=""
-                          className="size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                          className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                         />
                         <label
                           id="3"
@@ -1753,13 +1717,9 @@ export default function Home() {
 
                 <div className="w-full snap-start border-b border-p1-green border-opacity-30 bg-p1-white text-xl text-p1-darkgreen hover:border-p1-green hover:bg-p1-green hover:bg-opacity-5 dark:bg-p1-deepdarkgreen">
                   <details className="">
-                    <summary className="relative flex cursor-pointer justify-between py-2">
-                      <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
-                        Shaving
-                      </div>
-                      <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
-                        5
-                      </div>
+                    <summary className="relative flex cursor-pointer justify-start justify-between py-2 text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
+                      <div className="place-content-center px-4">Shaving</div>
+                      <div className="place-content-center px-4">5</div>
                     </summary>
                     <div className="pt-1 text-center text-p1-darkgreen dark:text-p1-green">
                       <div className="flex justify-center pb-2">
@@ -1784,13 +1744,13 @@ export default function Home() {
                       <div className="flex place-content-between p-4">
                         <input
                           checked={check}
-                          id="checkbox_ETH"
+                          id="checkbox"
                           onChange={() => {
                             setCheck(!check);
                           }}
                           type="checkbox"
                           value=""
-                          className="size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                          className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                         />
                         <label
                           id="3"
@@ -1804,13 +1764,13 @@ export default function Home() {
                       <div className="flex place-content-between p-4">
                         <input
                           checked={check}
-                          id="checkbox_POL"
+                          id="checkbox"
                           onChange={() => {
                             setCheck(!check);
                           }}
                           type="checkbox"
                           value=""
-                          className="size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                          className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                         />
                         <label
                           id="3"
@@ -1827,13 +1787,9 @@ export default function Home() {
 
                 <div className="w-full snap-start border-b border-p1-green border-opacity-30 bg-p1-white text-xl text-p1-darkgreen hover:border-p1-green hover:bg-p1-green hover:bg-opacity-5 dark:bg-p1-deepdarkgreen">
                   <details className="">
-                    <summary className="relative flex cursor-pointer justify-between py-2">
-                      <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
-                        Face accessory
-                      </div>
-                      <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
-                        23
-                      </div>
+                    <summary className="relative flex cursor-pointer justify-start justify-between py-2 text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
+                      <div className="place-content-center px-4">Face accessory</div>
+                      <div className="place-content-center px-4">23</div>
                     </summary>
                     <div className="pt-1 text-center text-p1-darkgreen dark:text-p1-green">
                       <div className="flex justify-center pb-2">
@@ -1858,13 +1814,13 @@ export default function Home() {
                       <div className="flex place-content-between p-4">
                         <input
                           checked={check}
-                          id="checkbox_ETH"
+                          id="checkbox"
                           onChange={() => {
                             setCheck(!check);
                           }}
                           type="checkbox"
                           value=""
-                          className="size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                          className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                         />
                         <label
                           id="3"
@@ -1878,13 +1834,13 @@ export default function Home() {
                       <div className="flex place-content-between p-4">
                         <input
                           checked={check}
-                          id="checkbox_POL"
+                          id="checkbox"
                           onChange={() => {
                             setCheck(!check);
                           }}
                           type="checkbox"
                           value=""
-                          className="size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                          className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                         />
                         <label
                           id="3"
@@ -1901,13 +1857,9 @@ export default function Home() {
 
                 <div className="w-full snap-start border-b border-p1-green border-opacity-30 bg-p1-white text-xl text-p1-darkgreen hover:border-p1-green hover:bg-p1-green hover:bg-opacity-5 dark:bg-p1-deepdarkgreen">
                   <details className="">
-                    <summary className="relative flex cursor-pointer justify-between py-2">
-                      <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
-                        Clothes
-                      </div>
-                      <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
-                        179
-                      </div>
+                    <summary className="relative flex cursor-pointer justify-start justify-between py-2 text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
+                      <div className="place-content-center px-4">Clothes</div>
+                      <div className="place-content-center px-4">179</div>
                     </summary>
                     <div className="pt-1 text-center text-p1-darkgreen dark:text-p1-green">
                       <div className="flex justify-center pb-2">
@@ -1932,13 +1884,13 @@ export default function Home() {
                       <div className="flex place-content-between p-4">
                         <input
                           checked={check}
-                          id="checkbox_ETH"
+                          id="checkbox"
                           onChange={() => {
                             setCheck(!check);
                           }}
                           type="checkbox"
                           value=""
-                          className="size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                          className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                         />
                         <label
                           id="3"
@@ -1952,13 +1904,13 @@ export default function Home() {
                       <div className="flex place-content-between p-4">
                         <input
                           checked={check}
-                          id="checkbox_POL"
+                          id="checkbox"
                           onChange={() => {
                             setCheck(!check);
                           }}
                           type="checkbox"
                           value=""
-                          className="size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                          className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                         />
                         <label
                           id="3"
@@ -1975,13 +1927,9 @@ export default function Home() {
 
                 <div className="w-full snap-start border-b border-p1-green border-opacity-30 bg-p1-white text-xl text-p1-darkgreen hover:border-p1-green hover:bg-p1-green hover:bg-opacity-5 dark:bg-p1-deepdarkgreen">
                   <details className="">
-                    <summary className="relative flex cursor-pointer justify-between py-2">
-                      <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
-                        Head
-                      </div>
-                      <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
-                        215
-                      </div>
+                    <summary className="relative flex cursor-pointer justify-start justify-between py-2 text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
+                      <div className="place-content-center px-4">Head</div>
+                      <div className="place-content-center px-4">215</div>
                     </summary>
                     <div className="pt-1 text-center text-p1-darkgreen dark:text-p1-green">
                       <div className="flex justify-center pb-2">
@@ -2006,13 +1954,13 @@ export default function Home() {
                       <div className="flex place-content-between p-4">
                         <input
                           checked={check}
-                          id="checkbox_ETH"
+                          id="checkbox"
                           onChange={() => {
                             setCheck(!check);
                           }}
                           type="checkbox"
                           value=""
-                          className="size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                          className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                         />
                         <label
                           id="3"
@@ -2026,13 +1974,13 @@ export default function Home() {
                       <div className="flex place-content-between p-4">
                         <input
                           checked={check}
-                          id="checkbox_POL"
+                          id="checkbox"
                           onChange={() => {
                             setCheck(!check);
                           }}
                           type="checkbox"
                           value=""
-                          className="size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                          className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                         />
                         <label
                           id="3"
@@ -2049,13 +1997,9 @@ export default function Home() {
 
                 <div className="w-full snap-start border-b border-p1-green border-opacity-30 bg-p1-white text-xl text-p1-darkgreen hover:border-p1-green hover:bg-p1-green hover:bg-opacity-5 dark:bg-p1-deepdarkgreen">
                   <details className="">
-                    <summary className="relative flex cursor-pointer justify-between py-2">
-                      <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
-                        Extra
-                      </div>
-                      <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
-                        5
-                      </div>
+                    <summary className="relative flex cursor-pointer justify-start justify-between py-2 text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
+                      <div className="place-content-center px-4">Extra</div>
+                      <div className="place-content-center px-4">5</div>
                     </summary>
                     <div className="pt-1 text-center text-p1-darkgreen dark:text-p1-green">
                       <div className="flex justify-center pb-2">
@@ -2080,13 +2024,13 @@ export default function Home() {
                       <div className="flex place-content-between p-4">
                         <input
                           checked={check}
-                          id="checkbox_ETH"
+                          id="checkbox"
                           onChange={() => {
                             setCheck(!check);
                           }}
                           type="checkbox"
                           value=""
-                          className="size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                          className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                         />
                         <label
                           id="3"
@@ -2100,13 +2044,13 @@ export default function Home() {
                       <div className="flex place-content-between p-4">
                         <input
                           checked={check}
-                          id="checkbox_POL"
+                          id="checkbox"
                           onChange={() => {
                             setCheck(!check);
                           }}
                           type="checkbox"
                           value=""
-                          className="size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                          className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                         />
                         <label
                           id="3"
@@ -2123,13 +2067,9 @@ export default function Home() {
 
                 <div className="w-full snap-start border-b border-p1-green border-opacity-30 bg-p1-white text-xl text-p1-darkgreen hover:border-p1-green hover:bg-p1-green hover:bg-opacity-5 dark:bg-p1-deepdarkgreen">
                   <details className="">
-                    <summary className="relative flex cursor-pointer justify-between py-2">
-                      <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
-                        Parrot
-                      </div>
-                      <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
-                        3
-                      </div>
+                    <summary className="relative flex cursor-pointer justify-start justify-between py-2 text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
+                      <div className="place-content-center px-4">Parrot</div>
+                      <div className="place-content-center px-4">3</div>
                     </summary>
                     <div className="pt-1 text-center text-p1-darkgreen dark:text-p1-green">
                       <div className="flex justify-center pb-2">
@@ -2154,13 +2094,13 @@ export default function Home() {
                       <div className="flex place-content-between p-4">
                         <input
                           checked={check}
-                          id="checkbox_ETH"
+                          id="checkbox"
                           onChange={() => {
                             setCheck(!check);
                           }}
                           type="checkbox"
                           value=""
-                          className="size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                          className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                         />
                         <label
                           id="3"
@@ -2174,13 +2114,13 @@ export default function Home() {
                       <div className="flex place-content-between p-4">
                         <input
                           checked={check}
-                          id="checkbox_POL"
+                          id="checkbox"
                           onChange={() => {
                             setCheck(!check);
                           }}
                           type="checkbox"
                           value=""
-                          className="size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                          className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                         />
                         <label
                           id="3"
@@ -2197,13 +2137,9 @@ export default function Home() {
 
                 <div className="w-full snap-start border-b border-p1-green border-opacity-30 bg-p1-white text-xl text-p1-darkgreen hover:border-p1-green hover:bg-p1-green hover:bg-opacity-5 dark:bg-p1-deepdarkgreen">
                   <details className="">
-                    <summary className="relative flex cursor-pointer justify-between py-2">
-                      <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
-                        Cupid&apos;s arrow
-                      </div>
-                      <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
-                        2
-                      </div>
+                    <summary className="relative flex cursor-pointer justify-start justify-between py-2 text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
+                      <div className="place-content-center px-4">Cupid&apos;s arrow</div>
+                      <div className="place-content-center px-4">2</div>
                     </summary>
                     <div className="pt-1 text-center text-p1-darkgreen dark:text-p1-green">
                       <div className="flex justify-center pb-2">
@@ -2228,13 +2164,13 @@ export default function Home() {
                       <div className="flex place-content-between p-4">
                         <input
                           checked={check}
-                          id="checkbox_ETH"
+                          id="checkbox"
                           onChange={() => {
                             setCheck(!check);
                           }}
                           type="checkbox"
                           value=""
-                          className="size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                          className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                         />
                         <label
                           id="3"
@@ -2248,13 +2184,13 @@ export default function Home() {
                       <div className="flex place-content-between p-4">
                         <input
                           checked={check}
-                          id="checkbox_POL"
+                          id="checkbox"
                           onChange={() => {
                             setCheck(!check);
                           }}
                           type="checkbox"
                           value=""
-                          className="size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                          className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                         />
                         <label
                           id="3"
@@ -2271,13 +2207,9 @@ export default function Home() {
 
                 <div className="w-full snap-start border-b border-p1-green border-opacity-30 bg-p1-white text-xl text-p1-darkgreen hover:border-p1-green hover:bg-p1-green hover:bg-opacity-5 dark:bg-p1-deepdarkgreen">
                   <details className="">
-                    <summary className="relative flex cursor-pointer justify-between py-2">
-                      <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
-                        Tatoo
-                      </div>
-                      <div className="place-content-center px-4 text-p1-darkgreen dark:text-p1-green">
-                        2
-                      </div>
+                    <summary className="relative flex cursor-pointer justify-start justify-between py-2 text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
+                      <div className="place-content-center px-4">Tatoo</div>
+                      <div className="place-content-center px-4">2</div>
                     </summary>
                     <div className="pt-1 text-center text-p1-darkgreen dark:text-p1-green">
                       <div className="flex justify-center pb-2">
@@ -2302,13 +2234,13 @@ export default function Home() {
                       <div className="flex place-content-between p-4">
                         <input
                           checked={check}
-                          id="checkbox_ETH"
+                          id="checkbox"
                           onChange={() => {
                             setCheck(!check);
                           }}
                           type="checkbox"
                           value=""
-                          className="size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                          className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                         />
                         <label
                           id="3"
@@ -2322,13 +2254,13 @@ export default function Home() {
                       <div className="flex place-content-between p-4">
                         <input
                           checked={check}
-                          id="checkbox_POL"
+                          id="checkbox"
                           onChange={() => {
                             setCheck(!check);
                           }}
                           type="checkbox"
                           value=""
-                          className="size-5 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                          className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                         />
                         <label
                           id="3"
@@ -2348,35 +2280,25 @@ export default function Home() {
 
           {/* ... правый блок */}
           <div className="relative flex w-full max-w-full grid-flow-row flex-wrap justify-center gap-2 overflow-hidden pt-2">
-            {/* ...Строки  Таблица Analitics*/}
+            {/* ...Строки  Items Таблица */}
             <div
               id="area2"
-              className={`inline-block h-96 w-max place-self-start overflow-auto rounded border ${currentVisibleArea == 2 ? '' : 'hidden'}`}
+              className={`inline-block h-96 w-max resize-y snap-y  snap-start place-self-start overflow-auto rounded border ${currentVisibleArea == 2 ? '' : 'hidden'}`}
             >
-              <div className="relative sm:rounded-lg">
+              <div className="relative snap-start scroll-smooth">
                 <table className="text-left text-xl text-p1-darkgreen dark:text-p1-green">
-                  <thead className="sticky top-0 z-10 bg-p1-green bg-opacity-5 text-xs uppercase text-p1-darkgreen dark:bg-p1-deepdarkgreen dark:text-p1-green">
+                  <thead className="z-2 sticky top-0 border-b border-p1-green border-opacity-30 bg-p1-white bg-opacity-100 text-xs uppercase text-p1-darkgreen dark:bg-p1-deepdarkgreen dark:text-p1-green">
                     <tr>
-                      <th scope="col" className="px-6 py-3">
+                      <th scope="col" className="p-2 text-center">
                         Add to cart
                       </th>
                       <th scope="col" className="px-6 py-3">
-                        <div className="flex w-32 items-center">
+                        <div className="flex items-center">
                           Item
-                          <Link href="#">
-                            <svg
-                              className="ms-1.5 size-3"
-                              aria-hidden="true"
-                              xmlns="http://www.w3.org/2000/svg"
-                              fill="currentColor"
-                              viewBox="0 0 24 24"
-                            >
-                              <path d="M8.574 11.024h6.852a2.075 2.075 0 0 0 1.847-1.086 1.9 1.9 0 0 0-.11-1.986L13.736 2.9a2.122 2.122 0 0 0-3.472 0L6.837 7.952a1.9 1.9 0 0 0-.11 1.986 2.074 2.074 0 0 0 1.847 1.086Zm6.852 1.952H8.574a2.072 2.072 0 0 0-1.847 1.087 1.9 1.9 0 0 0 .11 1.985l3.426 5.05a2.123 2.123 0 0 0 3.472 0l3.427-5.05a1.9 1.9 0 0 0 .11-1.985 2.074 2.074 0 0 0-1.846-1.087Z" />
-                            </svg>
-                          </Link>
+                          <Link href="#"></Link>
                         </div>
                       </th>
-                      <th scope="col" className="px-6 py-3">
+                      <th scope="col" className="p-2">
                         <div className="flex items-center">
                           Collection
                           <Link href="#">
@@ -2392,7 +2314,7 @@ export default function Home() {
                           </Link>
                         </div>
                       </th>
-                      <th scope="col" className="px-6 py-3">
+                      <th scope="col" className="p-2">
                         <div className="flex items-center">
                           Name
                           <Link href="#">
@@ -2408,9 +2330,9 @@ export default function Home() {
                           </Link>
                         </div>
                       </th>
-                      <th scope="col" className="px-6 py-3">
+                      <th scope="col" className="p-2">
                         <div className="flex items-center">
-                          Number #
+                          Number#
                           <Link href="#">
                             <svg
                               className="ms-1.5 size-3"
@@ -2424,7 +2346,7 @@ export default function Home() {
                           </Link>
                         </div>
                       </th>
-                      <th scope="col" className="px-6 py-3">
+                      <th scope="col" className="p-2">
                         <div className="flex items-center">
                           Current Price
                           <Link href="#">
@@ -2441,7 +2363,7 @@ export default function Home() {
                         </div>
                       </th>
 
-                      <th scope="col" className="px-6 py-3">
+                      <th scope="col" className="p-2">
                         <div className="flex items-center">
                           Best Offer
                           <Link href="#">
@@ -2457,7 +2379,7 @@ export default function Home() {
                           </Link>
                         </div>
                       </th>
-                      <th scope="col" className="px-6 py-3">
+                      <th scope="col" className="p-2">
                         <div className="flex items-center">
                           Last Sale
                           <Link href="#">
@@ -2473,7 +2395,7 @@ export default function Home() {
                           </Link>
                         </div>
                       </th>
-                      <th scope="col" className="px-6 py-3">
+                      <th scope="col" className="p-2">
                         <div className="flex items-center">
                           Rarity
                           <Link href="#">
@@ -2489,7 +2411,7 @@ export default function Home() {
                           </Link>
                         </div>
                       </th>
-                      <th scope="col" className="px-6 py-3">
+                      <th scope="col" className="p-2">
                         <div className="flex items-center">
                           Owner
                           <Link href="#">
@@ -2505,7 +2427,7 @@ export default function Home() {
                           </Link>
                         </div>
                       </th>
-                      <th scope="col" className="px-6 py-3">
+                      <th scope="col" className="p-2">
                         <div className="flex items-center">
                           Time Listed
                           <Link href="#">
@@ -2521,7 +2443,7 @@ export default function Home() {
                           </Link>
                         </div>
                       </th>
-                      <th scope="col" className="px-6 py-3">
+                      <th scope="col" className="p-2">
                         <div className="flex items-center">
                           Make Offer
                           <Link href="#">
@@ -2539,9 +2461,9 @@ export default function Home() {
                       </th>
                     </tr>
                   </thead>
-                  <tbody>
-                    <tr className="border-b bg-p1-white hover:bg-p1-cyan hover:bg-opacity-5 dark:border-p1-green dark:bg-p1-deepdarkgreen">
-                      <th scope="row" className="whitespace-nowrap px-6 py-4 font-medium">
+                  <tbody className="z-1 w-full scroll-mt-4 place-self-start overflow-auto scroll-smooth text-lg">
+                    <tr className="border-b border-p1-green border-opacity-30 bg-p1-white lining-nums hover:bg-p1-cyan hover:bg-opacity-5 dark:border-p1-green dark:bg-p1-deepdarkgreen">
+                      <th scope="row" className="whitespace-nowrap p-2 font-medium">
                         <div className="flex items-center">
                           <input
                             checked={check}
@@ -2555,11 +2477,11 @@ export default function Home() {
                           />
                           <label
                             htmlFor="checkbox "
-                            className="ms-2 text-sm font-medium text-p1-darkgreen dark:text-p1-green"
+                            className="ms-2 font-medium text-p1-darkgreen dark:text-p1-green"
                           ></label>
                         </div>
                       </th>
-                      <td className="px-6 py-4">
+                      <td className="p-2">
                         <div className="relative">
                           <Link href="/card" className="mx-auto justify-center">
                             <Image
@@ -2567,24 +2489,33 @@ export default function Home() {
                               height={500}
                               src="/HeroNFT/RaceLads/RaceLads1.png"
                               alt="RaceLads"
-                              className="size-16 object-cover transition-transform duration-500 ease-in-out hover:scale-105"
+                              className="-z-1 size-16 object-cover transition-transform duration-500 ease-in-out hover:scale-105"
                             />
                           </Link>
                         </div>
                       </td>
-                      <td className="px-6 py-4">RaceLads</td>
-                      <td className="px-6 py-4">Joan</td>
-                      <td className="px-6 py-4 text-right"> 8888</td>
-                      <td className="px-6 py-4 text-right"> 15 ETH</td>
-                      <td className="px-6 py-4 text-right"> 0.25 ETH</td>
-                      <td className="px-6 py-4 text-right"> 0.15 ETH</td>
-                      <td className="px-6 py-4 text-right"> #77</td>
-                      <td className="px-6 py-4 text-right"> Jon </td>
-                      <td className="px-6 py-4 text-right"> 2h ago</td>
-                      <td className="px-6 py-4 text-right"> Сделать предложение</td>
+                      <td className="p-2">RaceLads</td>
+                      <td className="p-2">Joan</td>
+                      <td className="p-2"> 8888</td>
+                      <td className="p-2"> 15 ETH</td>
+                      <td className="p-2"> 0.25 ETH</td>
+                      <td className="p-2"> 0.15 ETH</td>
+                      <td className="p-2"> #77</td>
+                      <td className="p-2"> Jon </td>
+                      <td className="p-2"> 2h ago</td>
+                      <td className="p-2">
+                        <div className="">
+                          <Link
+                            href="#"
+                            className="inline-block w-max place-content-start rounded-xl border bg-p1-white py-2 text-center text-base text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen hover:border-opacity-15 hover:bg-p1-cyan hover:bg-opacity-25 hover:text-p1-darkgreen focus:border-p1-darkgreen focus:border-opacity-20 focus:bg-p1-cyan focus:text-p1-white lg:px-1 xl:px-1 2xl:px-2 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                          >
+                            Сделать предложение
+                          </Link>
+                        </div>
+                      </td>
                     </tr>
-                    <tr className="border-b bg-p1-white hover:bg-p1-cyan hover:bg-opacity-5 dark:border-p1-green dark:bg-p1-deepdarkgreen">
-                      <th scope="row" className="whitespace-nowrap px-6 py-4 font-medium">
+                    <tr className="border-b border-p1-green border-opacity-30 bg-p1-white lining-nums hover:bg-p1-cyan hover:bg-opacity-5 dark:border-p1-green dark:bg-p1-deepdarkgreen">
+                      <th scope="row" className="whitespace-nowrap p-2 font-medium">
                         <div className="flex items-center">
                           <input
                             checked={check}
@@ -2598,33 +2529,406 @@ export default function Home() {
                           />
                           <label
                             htmlFor="checkbox "
-                            className="ms-2 text-sm font-medium text-p1-darkgreen dark:text-p1-green"
+                            className="ms-2 font-medium text-p1-darkgreen dark:text-p1-green"
                           ></label>
                         </div>
                       </th>
-                      <td className="px-6 py-4">
+                      <td className="p-2">
                         <div className="relative">
                           <Link href="/card" className="mx-auto justify-center">
                             <Image
                               width={500}
                               height={500}
-                              src="/HeroNFT/Drivers/Driver4.png"
-                              alt="Drivers"
-                              className="size-16 object-cover transition-transform duration-500 ease-in-out hover:scale-105"
+                              src="/HeroNFT/RaceLads/RaceLads1.png"
+                              alt="RaceLads"
+                              className="-z-1 size-16 object-cover transition-transform duration-500 ease-in-out hover:scale-105"
                             />
                           </Link>
                         </div>
                       </td>
-                      <td className="px-6 py-4">RaceLads</td>
-                      <td className="px-6 py-4">3 ETH</td>
-                      <td className="px-6 py-4 text-right"> 8888</td>
-                      <td className="px-6 py-4 text-right"> 15 ETH</td>
-                      <td className="px-6 py-4 text-right"> 0.25 ETH</td>
-                      <td className="px-6 py-4 text-right"> 0.15 ETH</td>
-                      <td className="px-6 py-4 text-right"> #88</td>
-                      <td className="px-6 py-4 text-right"> Tsar </td>
-                      <td className="px-6 py-4 text-right"> 2h ago</td>
-                      <td className="px-6 py-4 text-right"> Сделать предложение</td>
+                      <td className="p-2">RaceLads</td>
+                      <td className="p-2">Joan</td>
+                      <td className="p-2"> 8888</td>
+                      <td className="p-2"> 15 ETH</td>
+                      <td className="p-2"> 0.25 ETH</td>
+                      <td className="p-2"> 0.15 ETH</td>
+                      <td className="p-2"> #77</td>
+                      <td className="p-2"> Jon </td>
+                      <td className="p-2"> 2h ago</td>
+                      <td className="p-2">
+                        <div className="">
+                          <Link
+                            href="#"
+                            className="inline-block w-max place-content-start rounded-xl border bg-p1-white py-2 text-center text-base text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen hover:border-opacity-15 hover:bg-p1-cyan hover:bg-opacity-25 hover:text-p1-darkgreen focus:border-p1-darkgreen focus:border-opacity-20 focus:bg-p1-cyan focus:text-p1-white lg:px-1 xl:px-1 2xl:px-2 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                          >
+                            Сделать предложение
+                          </Link>
+                        </div>
+                      </td>
+                    </tr>{' '}
+                    <tr className="border-b border-p1-green border-opacity-30 bg-p1-white lining-nums hover:bg-p1-cyan hover:bg-opacity-5 dark:border-p1-green dark:bg-p1-deepdarkgreen">
+                      <th scope="row" className="whitespace-nowrap p-2 font-medium">
+                        <div className="flex items-center">
+                          <input
+                            checked={check}
+                            id="checkbox"
+                            onChange={() => {
+                              setCheck(!check);
+                            }}
+                            type="checkbox"
+                            value=""
+                            className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                          />
+                          <label
+                            htmlFor="checkbox "
+                            className="ms-2 font-medium text-p1-darkgreen dark:text-p1-green"
+                          ></label>
+                        </div>
+                      </th>
+                      <td className="p-2">
+                        <div className="relative">
+                          <Link href="/card" className="mx-auto justify-center">
+                            <Image
+                              width={500}
+                              height={500}
+                              src="/HeroNFT/RaceLads/RaceLads1.png"
+                              alt="RaceLads"
+                              className="-z-1 size-16 object-cover transition-transform duration-500 ease-in-out hover:scale-105"
+                            />
+                          </Link>
+                        </div>
+                      </td>
+                      <td className="p-2">RaceLads</td>
+                      <td className="p-2">Joan</td>
+                      <td className="p-2"> 8888</td>
+                      <td className="p-2"> 15 ETH</td>
+                      <td className="p-2"> 0.25 ETH</td>
+                      <td className="p-2"> 0.15 ETH</td>
+                      <td className="p-2"> #77</td>
+                      <td className="p-2"> Jon </td>
+                      <td className="p-2"> 2h ago</td>
+                      <td className="p-2">
+                        <div className="">
+                          <Link
+                            href="#"
+                            className="inline-block w-max place-content-start rounded-xl border bg-p1-white py-2 text-center text-base text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen hover:border-opacity-15 hover:bg-p1-cyan hover:bg-opacity-25 hover:text-p1-darkgreen focus:border-p1-darkgreen focus:border-opacity-20 focus:bg-p1-cyan focus:text-p1-white lg:px-1 xl:px-1 2xl:px-2 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                          >
+                            Сделать предложение
+                          </Link>
+                        </div>
+                      </td>
+                    </tr>{' '}
+                    <tr className="border-b border-p1-green border-opacity-30 bg-p1-white lining-nums hover:bg-p1-cyan hover:bg-opacity-5 dark:border-p1-green dark:bg-p1-deepdarkgreen">
+                      <th scope="row" className="whitespace-nowrap p-2 font-medium">
+                        <div className="flex items-center">
+                          <input
+                            checked={check}
+                            id="checkbox"
+                            onChange={() => {
+                              setCheck(!check);
+                            }}
+                            type="checkbox"
+                            value=""
+                            className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                          />
+                          <label
+                            htmlFor="checkbox "
+                            className="ms-2 font-medium text-p1-darkgreen dark:text-p1-green"
+                          ></label>
+                        </div>
+                      </th>
+                      <td className="p-2">
+                        <div className="relative">
+                          <Link href="/card" className="mx-auto justify-center">
+                            <Image
+                              width={500}
+                              height={500}
+                              src="/HeroNFT/RaceLads/RaceLads1.png"
+                              alt="RaceLads"
+                              className="-z-1 size-16 object-cover transition-transform duration-500 ease-in-out hover:scale-105"
+                            />
+                          </Link>
+                        </div>
+                      </td>
+                      <td className="p-2">RaceLads</td>
+                      <td className="p-2">Joan</td>
+                      <td className="p-2"> 8888</td>
+                      <td className="p-2"> 15 ETH</td>
+                      <td className="p-2"> 0.25 ETH</td>
+                      <td className="p-2"> 0.15 ETH</td>
+                      <td className="p-2"> #77</td>
+                      <td className="p-2"> Jon </td>
+                      <td className="p-2"> 2h ago</td>
+                      <td className="p-2">
+                        <div className="">
+                          <Link
+                            href="#"
+                            className="inline-block w-max place-content-start rounded-xl border bg-p1-white py-2 text-center text-base text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen hover:border-opacity-15 hover:bg-p1-cyan hover:bg-opacity-25 hover:text-p1-darkgreen focus:border-p1-darkgreen focus:border-opacity-20 focus:bg-p1-cyan focus:text-p1-white lg:px-1 xl:px-1 2xl:px-2 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                          >
+                            Сделать предложение
+                          </Link>
+                        </div>
+                      </td>
+                    </tr>{' '}
+                    <tr className="border-b border-p1-green border-opacity-30 bg-p1-white lining-nums hover:bg-p1-cyan hover:bg-opacity-5 dark:border-p1-green dark:bg-p1-deepdarkgreen">
+                      <th scope="row" className="whitespace-nowrap p-2 font-medium">
+                        <div className="flex items-center">
+                          <input
+                            checked={check}
+                            id="checkbox"
+                            onChange={() => {
+                              setCheck(!check);
+                            }}
+                            type="checkbox"
+                            value=""
+                            className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                          />
+                          <label
+                            htmlFor="checkbox "
+                            className="ms-2 font-medium text-p1-darkgreen dark:text-p1-green"
+                          ></label>
+                        </div>
+                      </th>
+                      <td className="p-2">
+                        <div className="relative">
+                          <Link href="/card" className="mx-auto justify-center">
+                            <Image
+                              width={500}
+                              height={500}
+                              src="/HeroNFT/RaceLads/RaceLads1.png"
+                              alt="RaceLads"
+                              className="-z-1 size-16 object-cover transition-transform duration-500 ease-in-out hover:scale-105"
+                            />
+                          </Link>
+                        </div>
+                      </td>
+                      <td className="p-2">RaceLads</td>
+                      <td className="p-2">Joan</td>
+                      <td className="p-2"> 8888</td>
+                      <td className="p-2"> 15 ETH</td>
+                      <td className="p-2"> 0.25 ETH</td>
+                      <td className="p-2"> 0.15 ETH</td>
+                      <td className="p-2"> #77</td>
+                      <td className="p-2"> Jon </td>
+                      <td className="p-2"> 2h ago</td>
+                      <td className="p-2">
+                        <div className="">
+                          <Link
+                            href="#"
+                            className="inline-block w-max place-content-start rounded-xl border bg-p1-white py-2 text-center text-base text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen hover:border-opacity-15 hover:bg-p1-cyan hover:bg-opacity-25 hover:text-p1-darkgreen focus:border-p1-darkgreen focus:border-opacity-20 focus:bg-p1-cyan focus:text-p1-white lg:px-1 xl:px-1 2xl:px-2 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                          >
+                            Сделать предложение
+                          </Link>
+                        </div>
+                      </td>
+                    </tr>{' '}
+                    <tr className="border-b border-p1-green border-opacity-30 bg-p1-white lining-nums hover:bg-p1-cyan hover:bg-opacity-5 dark:border-p1-green dark:bg-p1-deepdarkgreen">
+                      <th scope="row" className="whitespace-nowrap p-2 font-medium">
+                        <div className="flex items-center">
+                          <input
+                            checked={check}
+                            id="checkbox"
+                            onChange={() => {
+                              setCheck(!check);
+                            }}
+                            type="checkbox"
+                            value=""
+                            className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                          />
+                          <label
+                            htmlFor="checkbox "
+                            className="ms-2 font-medium text-p1-darkgreen dark:text-p1-green"
+                          ></label>
+                        </div>
+                      </th>
+                      <td className="p-2">
+                        <div className="relative">
+                          <Link href="/card" className="mx-auto justify-center">
+                            <Image
+                              width={500}
+                              height={500}
+                              src="/HeroNFT/RaceLads/RaceLads1.png"
+                              alt="RaceLads"
+                              className="-z-1 size-16 object-cover transition-transform duration-500 ease-in-out hover:scale-105"
+                            />
+                          </Link>
+                        </div>
+                      </td>
+                      <td className="p-2">RaceLads</td>
+                      <td className="p-2">Joan</td>
+                      <td className="p-2"> 8888</td>
+                      <td className="p-2"> 15 ETH</td>
+                      <td className="p-2"> 0.25 ETH</td>
+                      <td className="p-2"> 0.15 ETH</td>
+                      <td className="p-2"> #77</td>
+                      <td className="p-2"> Jon </td>
+                      <td className="p-2"> 2h ago</td>
+                      <td className="p-2">
+                        <div className="">
+                          <Link
+                            href="#"
+                            className="inline-block w-max place-content-start rounded-xl border bg-p1-white py-2 text-center text-base text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen hover:border-opacity-15 hover:bg-p1-cyan hover:bg-opacity-25 hover:text-p1-darkgreen focus:border-p1-darkgreen focus:border-opacity-20 focus:bg-p1-cyan focus:text-p1-white lg:px-1 xl:px-1 2xl:px-2 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                          >
+                            Сделать предложение
+                          </Link>
+                        </div>
+                      </td>
+                    </tr>{' '}
+                    <tr className="border-b border-p1-green border-opacity-30 bg-p1-white lining-nums hover:bg-p1-cyan hover:bg-opacity-5 dark:border-p1-green dark:bg-p1-deepdarkgreen">
+                      <th scope="row" className="whitespace-nowrap p-2 font-medium">
+                        <div className="flex items-center">
+                          <input
+                            checked={check}
+                            id="checkbox"
+                            onChange={() => {
+                              setCheck(!check);
+                            }}
+                            type="checkbox"
+                            value=""
+                            className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                          />
+                          <label
+                            htmlFor="checkbox "
+                            className="ms-2 font-medium text-p1-darkgreen dark:text-p1-green"
+                          ></label>
+                        </div>
+                      </th>
+                      <td className="p-2">
+                        <div className="relative">
+                          <Link href="/card" className="mx-auto justify-center">
+                            <Image
+                              width={500}
+                              height={500}
+                              src="/HeroNFT/RaceLads/RaceLads1.png"
+                              alt="RaceLads"
+                              className="-z-1 size-16 object-cover transition-transform duration-500 ease-in-out hover:scale-105"
+                            />
+                          </Link>
+                        </div>
+                      </td>
+                      <td className="p-2">RaceLads</td>
+                      <td className="p-2">Joan</td>
+                      <td className="p-2"> 8888</td>
+                      <td className="p-2"> 15 ETH</td>
+                      <td className="p-2"> 0.25 ETH</td>
+                      <td className="p-2"> 0.15 ETH</td>
+                      <td className="p-2"> #77</td>
+                      <td className="p-2"> Jon </td>
+                      <td className="p-2"> 2h ago</td>
+                      <td className="p-2">
+                        <div className="">
+                          <Link
+                            href="#"
+                            className="inline-block w-max place-content-start rounded-xl border bg-p1-white py-2 text-center text-base text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen hover:border-opacity-15 hover:bg-p1-cyan hover:bg-opacity-25 hover:text-p1-darkgreen focus:border-p1-darkgreen focus:border-opacity-20 focus:bg-p1-cyan focus:text-p1-white lg:px-1 xl:px-1 2xl:px-2 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                          >
+                            Сделать предложение
+                          </Link>
+                        </div>
+                      </td>
+                    </tr>{' '}
+                    <tr className="border-b border-p1-green border-opacity-30 bg-p1-white lining-nums hover:bg-p1-cyan hover:bg-opacity-5 dark:border-p1-green dark:bg-p1-deepdarkgreen">
+                      <th scope="row" className="whitespace-nowrap p-2 font-medium">
+                        <div className="flex items-center">
+                          <input
+                            checked={check}
+                            id="checkbox"
+                            onChange={() => {
+                              setCheck(!check);
+                            }}
+                            type="checkbox"
+                            value=""
+                            className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                          />
+                          <label
+                            htmlFor="checkbox "
+                            className="ms-2 font-medium text-p1-darkgreen dark:text-p1-green"
+                          ></label>
+                        </div>
+                      </th>
+                      <td className="p-2">
+                        <div className="relative">
+                          <Link href="/card" className="mx-auto justify-center">
+                            <Image
+                              width={500}
+                              height={500}
+                              src="/HeroNFT/RaceLads/RaceLads1.png"
+                              alt="RaceLads"
+                              className="-z-1 size-16 object-cover transition-transform duration-500 ease-in-out hover:scale-105"
+                            />
+                          </Link>
+                        </div>
+                      </td>
+                      <td className="p-2">RaceLads</td>
+                      <td className="p-2">Joan</td>
+                      <td className="p-2"> 8888</td>
+                      <td className="p-2"> 15 ETH</td>
+                      <td className="p-2"> 0.25 ETH</td>
+                      <td className="p-2"> 0.15 ETH</td>
+                      <td className="p-2"> #77</td>
+                      <td className="p-2"> Jon </td>
+                      <td className="p-2"> 2h ago</td>
+                      <td className="p-2">
+                        <div className="">
+                          <Link
+                            href="#"
+                            className="inline-block w-max place-content-start rounded-xl border bg-p1-white py-2 text-center text-base text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen hover:border-opacity-15 hover:bg-p1-cyan hover:bg-opacity-25 hover:text-p1-darkgreen focus:border-p1-darkgreen focus:border-opacity-20 focus:bg-p1-cyan focus:text-p1-white lg:px-1 xl:px-1 2xl:px-2 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                          >
+                            Сделать предложение
+                          </Link>
+                        </div>
+                      </td>
+                    </tr>{' '}
+                    <tr className="border-b border-p1-green border-opacity-30 bg-p1-white lining-nums hover:bg-p1-cyan hover:bg-opacity-5 dark:border-p1-green dark:bg-p1-deepdarkgreen">
+                      <th scope="row" className="whitespace-nowrap p-2 font-medium">
+                        <div className="flex items-center">
+                          <input
+                            checked={check}
+                            id="checkbox"
+                            onChange={() => {
+                              setCheck(!check);
+                            }}
+                            type="checkbox"
+                            value=""
+                            className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                          />
+                          <label
+                            htmlFor="checkbox "
+                            className="ms-2 font-medium text-p1-darkgreen dark:text-p1-green"
+                          ></label>
+                        </div>
+                      </th>
+                      <td className="p-2">
+                        <div className="relative">
+                          <Link href="/card" className="mx-auto justify-center">
+                            <Image
+                              width={500}
+                              height={500}
+                              src="/HeroNFT/RaceLads/RaceLads1.png"
+                              alt="RaceLads"
+                              className="-z-1 size-16 object-cover transition-transform duration-500 ease-in-out hover:scale-105"
+                            />
+                          </Link>
+                        </div>
+                      </td>
+                      <td className="p-2">RaceLads</td>
+                      <td className="p-2">Joan</td>
+                      <td className="p-2"> 8888</td>
+                      <td className="p-2"> 15 ETH</td>
+                      <td className="p-2"> 0.25 ETH</td>
+                      <td className="p-2"> 0.15 ETH</td>
+                      <td className="p-2"> #77</td>
+                      <td className="p-2"> Jon </td>
+                      <td className="p-2"> 2h ago</td>
+                      <td className="p-2">
+                        <div className="">
+                          <Link
+                            href="#"
+                            className="inline-block w-max place-content-start rounded-xl border bg-p1-white py-2 text-center text-base text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen hover:border-opacity-15 hover:bg-p1-cyan hover:bg-opacity-25 hover:text-p1-darkgreen focus:border-p1-darkgreen focus:border-opacity-20 focus:bg-p1-cyan focus:text-p1-white lg:px-1 xl:px-1 2xl:px-2 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                          >
+                            Сделать предложение
+                          </Link>
+                        </div>
+                      </td>
                     </tr>
                   </tbody>
                 </table>
@@ -2634,31 +2938,18 @@ export default function Home() {
             {/* ...Строки  Таблица Activity*/}
             <div
               id="area9"
-              className={`inline-block size-max  place-self-start overflow-auto rounded border ${currentVisibleArea == 9 ? '' : 'hidden'}`}
+              className={`inline-block  size-max  place-self-start overflow-auto rounded border ${currentVisibleArea == 9 ? '' : 'hidden'}`}
             >
-              <div className="columns-1 gap-8 md:columns-2">
+              <div className="columns-1 gap-24 md:columns-2 dark:border-p1-green">
                 <div className="relative sm:rounded-lg">
                   <table className="text-left text-xl text-p1-darkgreen dark:text-p1-green">
-                    <thead className="sticky top-0 z-10 border-b-2 border-p1-green border-opacity-20 bg-p1-white text-xs uppercase text-p1-darkgreen dark:bg-p1-deepdarkgreen dark:text-p1-green">
+                    <thead className="z-1 sticky top-0 border-b-2 border-p1-green border-opacity-20 bg-p1-white text-xs uppercase text-p1-darkgreen dark:bg-p1-deepdarkgreen dark:text-p1-green">
                       <tr>
                         <th scope="col" className="p-2">
                           Rank
                         </th>
                         <th scope="col" className="p-2">
-                          <div className="flex w-32 items-center">
-                            Image Collection
-                            <Link href="#">
-                              <svg
-                                className="ms-1.5 size-3"
-                                aria-hidden="true"
-                                xmlns="http://www.w3.org/2000/svg"
-                                fill="currentColor"
-                                viewBox="0 0 24 24"
-                              >
-                                <path d="M8.574 11.024h6.852a2.075 2.075 0 0 0 1.847-1.086 1.9 1.9 0 0 0-.11-1.986L13.736 2.9a2.122 2.122 0 0 0-3.472 0L6.837 7.952a1.9 1.9 0 0 0-.11 1.986 2.074 2.074 0 0 0 1.847 1.086Zm6.852 1.952H8.574a2.072 2.072 0 0 0-1.847 1.087 1.9 1.9 0 0 0 .11 1.985l3.426 5.05a2.123 2.123 0 0 0 3.472 0l3.427-5.05a1.9 1.9 0 0 0 .11-1.985 2.074 2.074 0 0 0-1.846-1.087Z" />
-                              </svg>
-                            </Link>
-                          </div>
+                          <div className="flex w-32 items-center">Image</div>
                         </th>
                         <th scope="col" className="p-2">
                           <div className="flex items-center">
@@ -2711,7 +3002,7 @@ export default function Home() {
                       </tr>
                     </thead>
                     <tbody>
-                      <tr className="border-b-2 bg-p1-white hover:bg-p1-cyan hover:bg-opacity-5 dark:border-p1-green dark:bg-p1-deepdarkgreen">
+                      <tr className="border-b-2 bg-p1-white hover:bg-p1-cyan hover:bg-opacity-5 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:hover:text-p1-cyan">
                         <td className="px-4 py-2 lining-nums">1</td>
                         <td className="p-2">
                           <div className="relative">
@@ -2730,110 +3021,94 @@ export default function Home() {
                         <td className="px-6 py-4 lining-nums">12.3</td>
                         <td className="px-6 py-4 text-right lining-nums"> 8888</td>
                       </tr>
-                      <tr className="border-b-2 bg-p1-white hover:bg-p1-cyan hover:bg-opacity-5 dark:border-p1-green dark:bg-p1-deepdarkgreen">
-                        <td className="px-4 py-2 lining-nums">1</td>
+                      <tr className="border-b-2 bg-p1-white hover:bg-p1-cyan hover:bg-opacity-5 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:hover:text-p1-cyan">
+                        <td className="px-4 py-2 lining-nums">2</td>
                         <td className="p-2">
                           <div className="relative">
                             <Link href="/card" className="mx-auto justify-center">
                               <Image
                                 width={500}
                                 height={500}
-                                src="/HeroNFT/RaceLads/RaceLads1.png"
-                                alt="RaceLads"
+                                src="/HeroNFT/Drivers/Driver4.png"
+                                alt="Drivers"
                                 className="size-16 object-cover transition-transform duration-500 ease-in-out hover:scale-105"
                               />
                             </Link>
                           </div>
                         </td>
-                        <td className="px-6 py-4">RaceLads</td>
+                        <td className="px-6 py-4">Drivers</td>
                         <td className="px-6 py-4 lining-nums">12.3</td>
                         <td className="px-6 py-4 text-right lining-nums"> 8888</td>
                       </tr>
-                      <tr className="border-b-2 bg-p1-white hover:bg-p1-cyan hover:bg-opacity-5 dark:border-p1-green dark:bg-p1-deepdarkgreen">
-                        <td className="px-4 py-2 lining-nums">1</td>
+                      <tr className="border-b-2 bg-p1-white hover:bg-p1-cyan hover:bg-opacity-5 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:hover:text-p1-cyan">
+                        <td className="px-4 py-2 lining-nums">3</td>
                         <td className="p-2">
                           <div className="relative">
                             <Link href="/card" className="mx-auto justify-center">
                               <Image
                                 width={500}
                                 height={500}
-                                src="/HeroNFT/RaceLads/RaceLads1.png"
+                                src="/HeroNFT/Team's members/TeamMember1.png"
                                 alt="RaceLads"
                                 className="size-16 object-cover transition-transform duration-500 ease-in-out hover:scale-105"
                               />
                             </Link>
                           </div>
                         </td>
-                        <td className="px-6 py-4">RaceLads</td>
+                        <td className="px-6 py-4">Team's members</td>
                         <td className="px-6 py-4 lining-nums">12.3</td>
                         <td className="px-6 py-4 text-right lining-nums"> 8888</td>
                       </tr>
-                      <tr className="border-b-2 bg-p1-white hover:bg-p1-cyan hover:bg-opacity-5 dark:border-p1-green dark:bg-p1-deepdarkgreen">
-                        <td className="px-4 py-2 lining-nums">1</td>
+                      <tr className="border-b-2 bg-p1-white hover:bg-p1-cyan hover:bg-opacity-5 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:hover:text-p1-cyan">
+                        <td className="px-4 py-2 lining-nums">4</td>
                         <td className="p-2">
                           <div className="relative">
                             <Link href="/card" className="mx-auto justify-center">
                               <Image
                                 width={500}
                                 height={500}
-                                src="/HeroNFT/RaceLads/RaceLads1.png"
-                                alt="RaceLads"
+                                src="/HeroNFT/Collectors/Collector1.png"
+                                alt="Collectors"
                                 className="size-16 object-cover transition-transform duration-500 ease-in-out hover:scale-105"
                               />
                             </Link>
                           </div>
                         </td>
-                        <td className="px-6 py-4">RaceLads</td>
+                        <td className="px-6 py-4">Collectors</td>
                         <td className="px-6 py-4 lining-nums">12.3</td>
                         <td className="px-6 py-4 text-right lining-nums"> 8888</td>
                       </tr>
-                      <tr className="border-b-2 bg-p1-white hover:bg-p1-cyan hover:bg-opacity-5 dark:border-p1-green dark:bg-p1-deepdarkgreen">
-                        <td className="px-4 py-2 lining-nums">1</td>
+                      <tr className="border-b-2 bg-p1-white hover:bg-p1-cyan hover:bg-opacity-5 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:hover:text-p1-cyan">
+                        <td className="px-4 py-2 lining-nums">5</td>
                         <td className="p-2">
                           <div className="relative">
                             <Link href="/card" className="mx-auto justify-center">
                               <Image
                                 width={500}
                                 height={500}
-                                src="/HeroNFT/RaceLads/RaceLads1.png"
-                                alt="RaceLads"
+                                src="/Cars/Car.png"
+                                alt="Cars"
                                 className="size-16 object-cover transition-transform duration-500 ease-in-out hover:scale-105"
                               />
                             </Link>
                           </div>
                         </td>
-                        <td className="px-6 py-4">RaceLads</td>
+                        <td className="px-6 py-4">Cars</td>
                         <td className="px-6 py-4 lining-nums">12.3</td>
                         <td className="px-6 py-4 text-right lining-nums"> 8888</td>
                       </tr>
-                    
-                  
-                    
                     </tbody>
                   </table>
                 </div>
                 <div className="relative sm:rounded-lg">
                   <table className="text-left text-xl text-p1-darkgreen dark:text-p1-green">
-                    <thead className="sticky top-0 z-10 border-b-2 border-p1-green border-opacity-20 bg-p1-white text-xs uppercase text-p1-darkgreen dark:bg-p1-deepdarkgreen dark:text-p1-green">
+                    <thead className="z-1 sticky top-0 border-b-2 border-p1-green border-opacity-20 bg-p1-white text-xs uppercase text-p1-darkgreen dark:bg-p1-deepdarkgreen dark:text-p1-green">
                       <tr>
                         <th scope="col" className="p-2">
                           Rank
                         </th>
                         <th scope="col" className="p-2">
-                          <div className="flex w-32 items-center">
-                            Image Collection
-                            <Link href="#">
-                              <svg
-                                className="ms-1.5 size-3"
-                                aria-hidden="true"
-                                xmlns="http://www.w3.org/2000/svg"
-                                fill="currentColor"
-                                viewBox="0 0 24 24"
-                              >
-                                <path d="M8.574 11.024h6.852a2.075 2.075 0 0 0 1.847-1.086 1.9 1.9 0 0 0-.11-1.986L13.736 2.9a2.122 2.122 0 0 0-3.472 0L6.837 7.952a1.9 1.9 0 0 0-.11 1.986 2.074 2.074 0 0 0 1.847 1.086Zm6.852 1.952H8.574a2.072 2.072 0 0 0-1.847 1.087 1.9 1.9 0 0 0 .11 1.985l3.426 5.05a2.123 2.123 0 0 0 3.472 0l3.427-5.05a1.9 1.9 0 0 0 .11-1.985 2.074 2.074 0 0 0-1.846-1.087Z" />
-                              </svg>
-                            </Link>
-                          </div>
+                          <div className="flex w-32 items-center">Image</div>
                         </th>
                         <th scope="col" className="p-2">
                           <div className="flex items-center">
@@ -2886,7 +3161,7 @@ export default function Home() {
                       </tr>
                     </thead>
                     <tbody>
-                      <tr className="border-b-2 bg-p1-white hover:bg-p1-cyan hover:bg-opacity-5 dark:border-p1-green dark:bg-p1-deepdarkgreen">
+                      <tr className="border-b-2 bg-p1-white hover:bg-p1-cyan hover:bg-opacity-5 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:hover:text-p1-cyan">
                         <td className="px-4 py-2 lining-nums">1</td>
                         <td className="p-2">
                           <div className="relative">
@@ -2894,96 +3169,93 @@ export default function Home() {
                               <Image
                                 width={500}
                                 height={500}
-                                src="/HeroNFT/RaceLads/RaceLads1.png"
+                                src="/HeroNFT/CustomLads/CustomLads1.png"
                                 alt="RaceLads"
                                 className="size-16 object-cover transition-transform duration-500 ease-in-out hover:scale-105"
                               />
                             </Link>
                           </div>
                         </td>
-                        <td className="px-6 py-4">RaceLads</td>
+                        <td className="px-6 py-4">CustomLads</td>
                         <td className="px-6 py-4 lining-nums">12.3</td>
                         <td className="px-6 py-4 text-right lining-nums"> 8888</td>
                       </tr>
-                      <tr className="border-b-2 bg-p1-white hover:bg-p1-cyan hover:bg-opacity-5 dark:border-p1-green dark:bg-p1-deepdarkgreen">
-                        <td className="px-4 py-2 lining-nums">1</td>
+                      <tr className="border-b-2 bg-p1-white hover:bg-p1-cyan hover:bg-opacity-5 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:hover:text-p1-cyan">
+                        <td className="px-4 py-2 lining-nums">2</td>
                         <td className="p-2">
                           <div className="relative">
                             <Link href="/card" className="mx-auto justify-center">
                               <Image
                                 width={500}
                                 height={500}
-                                src="/HeroNFT/RaceLads/RaceLads1.png"
-                                alt="RaceLads"
+                                src="/Hero/Rewards.png"
+                                alt="Rewards"
                                 className="size-16 object-cover transition-transform duration-500 ease-in-out hover:scale-105"
                               />
                             </Link>
                           </div>
                         </td>
-                        <td className="px-6 py-4">RaceLads</td>
+                        <td className="px-6 py-4">Drivers</td>
                         <td className="px-6 py-4 lining-nums">12.3</td>
                         <td className="px-6 py-4 text-right lining-nums"> 8888</td>
                       </tr>
-                      <tr className="border-b-2 bg-p1-white hover:bg-p1-cyan hover:bg-opacity-5 dark:border-p1-green dark:bg-p1-deepdarkgreen">
-                        <td className="px-4 py-2 lining-nums">1</td>
+                      <tr className="border-b-2 bg-p1-white hover:bg-p1-cyan hover:bg-opacity-5 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:hover:text-p1-cyan">
+                        <td className="px-4 py-2 lining-nums">3</td>
                         <td className="p-2">
                           <div className="relative">
                             <Link href="/card" className="mx-auto justify-center">
                               <Image
                                 width={500}
                                 height={500}
-                                src="/HeroNFT/RaceLads/RaceLads1.png"
-                                alt="RaceLads"
+                                src="/Licenses/Promoter Lic.png"
+                                alt="Promoter Lic"
                                 className="size-16 object-cover transition-transform duration-500 ease-in-out hover:scale-105"
                               />
                             </Link>
                           </div>
                         </td>
-                        <td className="px-6 py-4">RaceLads</td>
+                        <td className="px-6 py-4">Promoter License</td>
                         <td className="px-6 py-4 lining-nums">12.3</td>
                         <td className="px-6 py-4 text-right lining-nums"> 8888</td>
                       </tr>
-                      <tr className="border-b-2 bg-p1-white hover:bg-p1-cyan hover:bg-opacity-5 dark:border-p1-green dark:bg-p1-deepdarkgreen">
-                        <td className="px-4 py-2 lining-nums">1</td>
+                      <tr className="border-b-2 bg-p1-white hover:bg-p1-cyan hover:bg-opacity-5 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:hover:text-p1-cyan">
+                        <td className="px-4 py-2 lining-nums">4</td>
                         <td className="p-2">
                           <div className="relative">
                             <Link href="/card" className="mx-auto justify-center">
                               <Image
                                 width={500}
                                 height={500}
-                                src="/HeroNFT/RaceLads/RaceLads1.png"
-                                alt="RaceLads"
+                                src="/Licenses/Local Lic.png"
+                                alt="Local Lic"
                                 className="size-16 object-cover transition-transform duration-500 ease-in-out hover:scale-105"
                               />
                             </Link>
                           </div>
                         </td>
-                        <td className="px-6 py-4">RaceLads</td>
+                        <td className="px-6 py-4">Local License</td>
                         <td className="px-6 py-4 lining-nums">12.3</td>
                         <td className="px-6 py-4 text-right lining-nums"> 8888</td>
                       </tr>
-                      <tr className="border-b-2 bg-p1-white hover:bg-p1-cyan hover:bg-opacity-5 dark:border-p1-green dark:bg-p1-deepdarkgreen">
-                        <td className="px-4 py-2 lining-nums">1</td>
+                      <tr className="border-b-2 bg-p1-white hover:bg-p1-cyan hover:bg-opacity-5 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:hover:text-p1-cyan">
+                        <td className="px-4 py-2 lining-nums">5</td>
                         <td className="p-2">
                           <div className="relative">
                             <Link href="/card" className="mx-auto justify-center">
                               <Image
                                 width={500}
                                 height={500}
-                                src="/HeroNFT/RaceLads/RaceLads1.png"
-                                alt="RaceLads"
+                                src="/Licenses/Global Lic.png"
+                                alt="Global Lic"
                                 className="size-16 object-cover transition-transform duration-500 ease-in-out hover:scale-105"
                               />
                             </Link>
                           </div>
                         </td>
-                        <td className="px-6 py-4">RaceLads</td>
+                        <td className="px-6 py-4">Global License</td>
                         <td className="px-6 py-4 lining-nums">12.3</td>
                         <td className="px-6 py-4 text-right lining-nums"> 8888</td>
                       </tr>
-                    
-                  
-                    
                     </tbody>
                   </table>
                 </div>
@@ -3441,39 +3713,39 @@ export default function Home() {
                   <div className="flex grid-flow-row auto-rows-max place-content-center space-x-2 lg:justify-start">
                     <div>
                       <div
-                        className="inline-flex w-full justify-center rounded-md pt-1 shadow-sm"
+                        className="inline-flex w-full justify-center rounded-md shadow-sm"
                         role="group"
                       >
                         <Link
                           href="#"
-                          className="inline-block w-full place-content-center rounded-l-xl border-2 bg-p1-white p-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen hover:border-opacity-15 hover:bg-p1-green hover:bg-opacity-25 hover:text-p1-darkgreen focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                          className="inline-block w-max place-content-center rounded-l-xl border bg-p1-white px-1 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen hover:border-opacity-15 hover:bg-p1-cyan hover:bg-opacity-25 hover:text-p1-darkgreen focus:border-p1-darkgreen focus:border-opacity-20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
                         >
                           Все
                         </Link>
                         <Link
                           href="#"
-                          className="inline-block w-full place-content-center border-2 bg-p1-white p-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen hover:border-opacity-15 hover:bg-p1-green hover:bg-opacity-25 hover:text-p1-darkgreen focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                          className="inline-block w-max place-content-center border bg-p1-white px-1 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen hover:border-opacity-15 hover:bg-p1-cyan hover:bg-opacity-25 hover:text-p1-darkgreen focus:border-p1-darkgreen focus:border-opacity-20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
                         >
                           RaceLads
                         </Link>
 
                         <Link
                           href="#"
-                          className="inline-block w-full place-content-center border-2 bg-p1-white p-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen hover:border-opacity-15 hover:bg-p1-green hover:bg-opacity-25 hover:text-p1-darkgreen focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                          className="inline-block w-max place-content-center border bg-p1-white px-1 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen hover:border-opacity-15 hover:bg-p1-cyan hover:bg-opacity-25 hover:text-p1-darkgreen focus:border-p1-darkgreen focus:border-opacity-20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
                         >
                           Awards
                         </Link>
                         <Link
                           href="#"
-                          className="inline-block w-full place-content-center border-2 bg-p1-white p-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen hover:border-opacity-15 hover:bg-p1-green hover:bg-opacity-25 hover:text-p1-darkgreen focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                          className="inline-block w-max place-content-center border bg-p1-white px-1 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen hover:border-opacity-15 hover:bg-p1-cyan hover:bg-opacity-25 hover:text-p1-darkgreen focus:border-p1-darkgreen focus:border-opacity-20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
                         >
                           Licenses
                         </Link>
-                        <form className="inline-block w-full place-content-center rounded-r-xl border-2 bg-p1-white p-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen hover:border-opacity-15 hover:bg-p1-green hover:bg-opacity-25 hover:text-p1-darkgreen focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan">
+                        <form className="inline-block w-max place-content-center rounded-r-xl border bg-p1-white px-1 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen hover:border-opacity-15 hover:bg-p1-cyan hover:bg-opacity-25 hover:text-p1-darkgreen focus:border-p1-darkgreen focus:border-opacity-20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan">
                           <label htmlFor="price" className="block w-full"></label>
                           <select
                             id="price"
-                            className="mx-auto flex max-w-2xl overflow-hidden border-p1-darkgreen bg-p1-white hover:border-p1-darkgreen hover:border-opacity-15 hover:bg-p1-green hover:bg-opacity-5 hover:text-p1-darkgreen dark:bg-p1-deepdarkgreen dark:text-p1-green dark:accent-p1-darkgreen dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan"
+                            className="mx-auto flex max-w-2xl overflow-hidden rounded-r-xl border-p1-darkgreen bg-p1-white hover:border-p1-darkgreen hover:border-opacity-15 hover:bg-p1-green hover:bg-opacity-5 hover:text-p1-darkgreen dark:bg-p1-deepdarkgreen dark:text-p1-green dark:accent-p1-darkgreen dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan"
                             defaultValue={'DEFAULT'}
                           >
                             <option value="DEFAULT" disabled>
@@ -3499,26 +3771,26 @@ export default function Home() {
                   <div className="flex flex-auto grid-flow-row auto-rows-max justify-center space-x-8 lg:justify-end">
                     <div className="">
                       <div
-                        className="inline-flex w-full flex-auto justify-center rounded-md pt-1 shadow-sm"
+                        className="inline-flex w-full flex-auto justify-center rounded-md shadow-sm"
                         role="group"
                       >
                         <Link
                           href="#"
-                          className="inline-block w-max place-content-center rounded-l-xl border-2 bg-p1-white p-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen hover:border-opacity-15 hover:bg-p1-green hover:bg-opacity-25 hover:text-p1-darkgreen focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                          className="inline-block w-max place-content-center rounded-l-xl border bg-p1-white px-1 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen hover:border-opacity-15 hover:bg-p1-cyan hover:bg-opacity-25 hover:text-p1-darkgreen focus:border-p1-darkgreen focus:border-opacity-20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
                         >
                           24H
                         </Link>
 
                         <Link
                           href="#"
-                          className="inline-block w-max place-content-center border-2 bg-p1-white p-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen hover:border-opacity-15 hover:bg-p1-green hover:bg-opacity-25 hover:text-p1-darkgreen focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                          className="inline-block w-max place-content-center border bg-p1-white px-1 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen hover:border-opacity-15 hover:bg-p1-cyan hover:bg-opacity-25 hover:text-p1-darkgreen focus:border-p1-darkgreen focus:border-opacity-20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
                         >
                           7D
                         </Link>
 
                         <Link
                           href="#"
-                          className="inline-block w-max place-content-center rounded-r-xl border-2 bg-p1-white p-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen hover:border-opacity-15 hover:bg-p1-green hover:bg-opacity-25 hover:text-p1-darkgreen focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                          className="inline-block w-max place-content-center rounded-r-xl border bg-p1-white px-1 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen hover:border-opacity-15 hover:bg-p1-cyan hover:bg-opacity-25 hover:text-p1-darkgreen focus:border-p1-darkgreen focus:border-opacity-20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
                         >
                           30D
                         </Link>
@@ -3531,10 +3803,10 @@ export default function Home() {
               <div className="pb-4"></div>
 
               <div className="flex flex-wrap place-content-center object-left md:flex-nowrap md:space-x-2 md:pt-5">
-                <div className="mb-4 bg-p1-white shadow-lg dark:bg-p1-deepdarkgreen">
+                <div className="mb-4 bg-p1-white dark:bg-p1-deepdarkgreen">
                   <div className="flex flex-row place-content-around text-center">
-                    <div className="grid grid-cols-1 p-2 text-center text-p1-darkgreen md:text-xl lg:text-2xl xl:grid-cols-2 dark:text-p1-cyan">
-                      <div className="mt-2 rounded-3xl border-2 bg-p2-white2 p-2 text-p1-darkgreen dark:border-p1-darkgreen dark:bg-p1-deepdarkgreen dark:text-p1-green">
+                    <div className="grid grid-cols-1 gap-4 p-2 text-center text-p1-darkgreen md:text-xl lg:text-2xl xl:grid-cols-2 dark:text-p1-cyan">
+                      <div className="mt-2 rounded-lg border-2 bg-p1-white p-2 text-p1-darkgreen dark:border-p1-darkgreen dark:bg-p1-deepdarkgreen dark:text-p1-green">
                         <div className="flex flex-wrap md:flex-nowrap md:justify-between">
                           <div className="px-2 text-xl font-semibold md:pt-2 md:text-3xl">
                             Статистика
@@ -3553,7 +3825,7 @@ export default function Home() {
                         </div>
                       </div>
 
-                      <div className="mt-2 rounded-3xl border-2 bg-p2-white2 p-2 text-p1-darkgreen dark:border-p1-darkgreen dark:bg-p1-deepdarkgreen dark:text-p1-green">
+                      <div className="mt-2 rounded-lg border-2 bg-p1-white p-2 text-p1-darkgreen dark:border-p1-darkgreen dark:bg-p1-deepdarkgreen dark:text-p1-green">
                         <div className="flex flex-wrap justify-center self-center md:flex-nowrap md:justify-between">
                           <div className="px-2 text-xl font-semibold md:pt-2 md:text-3xl">
                             RaceLads
@@ -3610,7 +3882,7 @@ export default function Home() {
                         </div>
                       </div>
 
-                      <div className="mt-2 rounded-3xl border-2 bg-p2-white2 p-2 text-p1-darkgreen dark:border-p1-darkgreen dark:bg-p1-deepdarkgreen dark:text-p1-green">
+                      <div className="mt-2 rounded-lg border-2 bg-p1-white p-2 text-p1-darkgreen dark:border-p1-darkgreen dark:bg-p1-deepdarkgreen dark:text-p1-green">
                         <div className="flex flex-wrap justify-center self-center md:flex-nowrap md:justify-between">
                           <div className="px-2 text-xl font-semibold md:pt-2 md:text-3xl">
                             Лучшие продажи
@@ -3630,7 +3902,7 @@ export default function Home() {
                         </div>
                       </div>
 
-                      <div className="mt-2 rounded-3xl border-2 bg-p2-white2 p-2 text-p1-darkgreen dark:border-p1-darkgreen dark:bg-p1-deepdarkgreen dark:text-p1-green">
+                      <div className="mt-2 rounded-lg border-2 bg-p1-white p-2 text-p1-darkgreen dark:border-p1-darkgreen dark:bg-p1-deepdarkgreen dark:text-p1-green">
                         <div className="flex flex-wrap justify-center self-center md:flex-nowrap md:justify-between">
                           <div className="px-2 text-xl font-semibold md:pt-2 md:text-3xl">
                             Последние объявления:
@@ -3650,7 +3922,7 @@ export default function Home() {
                         </div>
                       </div>
 
-                      <div className="mt-2 rounded-3xl border-2 bg-p2-white2 p-2 text-p1-darkgreen dark:border-p1-darkgreen dark:bg-p1-deepdarkgreen dark:text-p1-green">
+                      <div className="mt-2 rounded-lg border-2 bg-p1-white p-2 text-p1-darkgreen dark:border-p1-darkgreen dark:bg-p1-deepdarkgreen dark:text-p1-green">
                         <div className="flex flex-wrap justify-center self-center md:flex-nowrap md:justify-between">
                           <div className="px-2 text-xl font-semibold md:pt-2 md:text-3xl">
                             Последние продажи:
