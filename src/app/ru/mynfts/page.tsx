@@ -6,7 +6,6 @@ import { Link } from '@/i18n/routing';
 import { useState } from 'react';
 import { JumpButton } from '@/components/jumpButton';
 
-
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -18,7 +17,6 @@ export default function Home() {
   const [visibleArea1, setVisibleArea1] = useState(true);
   const [currentVisibleArea, setCurrentVisibleArea] = useState(2);
   const jumpPoints = ['1', '2', '3'];
-
 
   return (
     <div className="mx-auto w-full font-serif">
@@ -2561,8 +2559,6 @@ export default function Home() {
 
             {/* ... Analitics  ... */}
             <div id="area7" className={`${currentVisibleArea == 7 ? '' : 'hidden'}`}>
-           
-
               <div className="pb-4"></div>
 
               <div className="flex flex-wrap place-content-center object-left md:flex-nowrap md:space-x-2 md:pt-5">
