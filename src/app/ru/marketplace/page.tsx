@@ -2634,123 +2634,359 @@ export default function Home() {
             {/* ...Строки  Таблица Activity*/}
             <div
               id="area9"
-              className={`inline-block h-96 w-max place-self-start overflow-auto rounded border ${currentVisibleArea == 9 ? '' : 'hidden'}`}
+              className={`inline-block size-max  place-self-start overflow-auto rounded border ${currentVisibleArea == 9 ? '' : 'hidden'}`}
             >
-              <div className="relative sm:rounded-lg">
-                <table className="text-left text-xl text-p1-darkgreen dark:text-p1-green">
-                  <thead className="sticky top-0 z-10 bg-p1-green bg-opacity-5 text-xs uppercase text-p1-darkgreen dark:bg-p1-deepdarkgreen dark:text-p1-green">
-                    <tr>
-                      <th scope="col" className="px-6 py-3">
-                        Rank
-                      </th>
-                      <th scope="col" className="px-6 py-3">
-                        <div className="flex w-32 items-center">
-                          Image Collection
-                          <Link href="#">
-                            <svg
-                              className="ms-1.5 size-3"
-                              aria-hidden="true"
-                              xmlns="http://www.w3.org/2000/svg"
-                              fill="currentColor"
-                              viewBox="0 0 24 24"
-                            >
-                              <path d="M8.574 11.024h6.852a2.075 2.075 0 0 0 1.847-1.086 1.9 1.9 0 0 0-.11-1.986L13.736 2.9a2.122 2.122 0 0 0-3.472 0L6.837 7.952a1.9 1.9 0 0 0-.11 1.986 2.074 2.074 0 0 0 1.847 1.086Zm6.852 1.952H8.574a2.072 2.072 0 0 0-1.847 1.087 1.9 1.9 0 0 0 .11 1.985l3.426 5.05a2.123 2.123 0 0 0 3.472 0l3.427-5.05a1.9 1.9 0 0 0 .11-1.985 2.074 2.074 0 0 0-1.846-1.087Z" />
-                            </svg>
-                          </Link>
-                        </div>
-                      </th>
-                      <th scope="col" className="px-6 py-3">
-                        <div className="flex items-center">
-                          Collection
-                          <Link href="#">
-                            <svg
-                              className="ms-1.5 size-3"
-                              aria-hidden="true"
-                              xmlns="http://www.w3.org/2000/svg"
-                              fill="currentColor"
-                              viewBox="0 0 24 24"
-                            >
-                              <path d="M8.574 11.024h6.852a2.075 2.075 0 0 0 1.847-1.086 1.9 1.9 0 0 0-.11-1.986L13.736 2.9a2.122 2.122 0 0 0-3.472 0L6.837 7.952a1.9 1.9 0 0 0-.11 1.986 2.074 2.074 0 0 0 1.847 1.086Zm6.852 1.952H8.574a2.072 2.072 0 0 0-1.847 1.087 1.9 1.9 0 0 0 .11 1.985l3.426 5.05a2.123 2.123 0 0 0 3.472 0l3.427-5.05a1.9 1.9 0 0 0 .11-1.985 2.074 2.074 0 0 0-1.846-1.087Z" />
-                            </svg>
-                          </Link>
-                        </div>
-                      </th>
-                      <th scope="col" className="px-6 py-3">
-                        <div className="flex items-center">
-                          Floor price
-                          <Link href="#">
-                            <svg
-                              className="ms-1.5 size-3"
-                              aria-hidden="true"
-                              xmlns="http://www.w3.org/2000/svg"
-                              fill="currentColor"
-                              viewBox="0 0 24 24"
-                            >
-                              <path d="M8.574 11.024h6.852a2.075 2.075 0 0 0 1.847-1.086 1.9 1.9 0 0 0-.11-1.986L13.736 2.9a2.122 2.122 0 0 0-3.472 0L6.837 7.952a1.9 1.9 0 0 0-.11 1.986 2.074 2.074 0 0 0 1.847 1.086Zm6.852 1.952H8.574a2.072 2.072 0 0 0-1.847 1.087 1.9 1.9 0 0 0 .11 1.985l3.426 5.05a2.123 2.123 0 0 0 3.472 0l3.427-5.05a1.9 1.9 0 0 0 .11-1.985 2.074 2.074 0 0 0-1.846-1.087Z" />
-                            </svg>
-                          </Link>
-                        </div>
-                      </th>
-                      <th scope="col" className="px-6 py-3">
-                        <div className="flex items-center">
-                          Volume
-                          <Link href="#">
-                            <svg
-                              className="ms-1.5 size-3"
-                              aria-hidden="true"
-                              xmlns="http://www.w3.org/2000/svg"
-                              fill="currentColor"
-                              viewBox="0 0 24 24"
-                            >
-                              <path d="M8.574 11.024h6.852a2.075 2.075 0 0 0 1.847-1.086 1.9 1.9 0 0 0-.11-1.986L13.736 2.9a2.122 2.122 0 0 0-3.472 0L6.837 7.952a1.9 1.9 0 0 0-.11 1.986 2.074 2.074 0 0 0 1.847 1.086Zm6.852 1.952H8.574a2.072 2.072 0 0 0-1.847 1.087 1.9 1.9 0 0 0 .11 1.985l3.426 5.05a2.123 2.123 0 0 0 3.472 0l3.427-5.05a1.9 1.9 0 0 0 .11-1.985 2.074 2.074 0 0 0-1.846-1.087Z" />
-                            </svg>
-                          </Link>
-                        </div>
-                      </th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr className="border-b bg-p1-white hover:bg-p1-cyan hover:bg-opacity-5 dark:border-p1-green dark:bg-p1-deepdarkgreen">
-                      <td className="px-6 py-4">1</td>
-                      <td className="px-6 py-4">
-                        <div className="relative">
-                          <Link href="/card" className="mx-auto justify-center">
-                            <Image
-                              width={500}
-                              height={500}
-                              src="/HeroNFT/RaceLads/RaceLads1.png"
-                              alt="RaceLads"
-                              className="size-16 object-cover transition-transform duration-500 ease-in-out hover:scale-105"
-                            />
-                          </Link>
-                        </div>
-                      </td>
-                      <td className="px-6 py-4">RaceLads</td>
-                      <td className="px-6 py-4">Joan</td>
-                      <td className="px-6 py-4 text-right"> 8888</td>
-                    </tr>
-                    <tr className="border-b bg-p1-white hover:bg-p1-cyan hover:bg-opacity-5 dark:border-p1-green dark:bg-p1-deepdarkgreen">
-                      <td className="px-6 py-4">2</td>
-
-                      <td className="px-6 py-4">
-                        <div className="relative">
-                          <Link href="/card" className="mx-auto justify-center">
-                            <Image
-                              width={500}
-                              height={500}
-                              src="/HeroNFT/Drivers/Driver4.png"
-                              alt="Drivers"
-                              className="size-16 object-cover transition-transform duration-500 ease-in-out hover:scale-105"
-                            />
-                          </Link>
-                        </div>
-                      </td>
-                      <td className="px-6 py-4">RaceLads</td>
-                      <td className="px-6 py-4">3 ETH</td>
-                      <td className="px-6 py-4 text-right"> 8888</td>
-                    </tr>
-                  </tbody>
-                </table>
+              <div className="columns-1 gap-8 md:columns-2">
+                <div className="relative sm:rounded-lg">
+                  <table className="text-left text-xl text-p1-darkgreen dark:text-p1-green">
+                    <thead className="sticky top-0 z-10 border-b-2 border-p1-green border-opacity-20 bg-p1-white text-xs uppercase text-p1-darkgreen dark:bg-p1-deepdarkgreen dark:text-p1-green">
+                      <tr>
+                        <th scope="col" className="p-2">
+                          Rank
+                        </th>
+                        <th scope="col" className="p-2">
+                          <div className="flex w-32 items-center">
+                            Image Collection
+                            <Link href="#">
+                              <svg
+                                className="ms-1.5 size-3"
+                                aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg"
+                                fill="currentColor"
+                                viewBox="0 0 24 24"
+                              >
+                                <path d="M8.574 11.024h6.852a2.075 2.075 0 0 0 1.847-1.086 1.9 1.9 0 0 0-.11-1.986L13.736 2.9a2.122 2.122 0 0 0-3.472 0L6.837 7.952a1.9 1.9 0 0 0-.11 1.986 2.074 2.074 0 0 0 1.847 1.086Zm6.852 1.952H8.574a2.072 2.072 0 0 0-1.847 1.087 1.9 1.9 0 0 0 .11 1.985l3.426 5.05a2.123 2.123 0 0 0 3.472 0l3.427-5.05a1.9 1.9 0 0 0 .11-1.985 2.074 2.074 0 0 0-1.846-1.087Z" />
+                              </svg>
+                            </Link>
+                          </div>
+                        </th>
+                        <th scope="col" className="p-2">
+                          <div className="flex items-center">
+                            Collection
+                            <Link href="#">
+                              <svg
+                                className="ms-1.5 size-3"
+                                aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg"
+                                fill="currentColor"
+                                viewBox="0 0 24 24"
+                              >
+                                <path d="M8.574 11.024h6.852a2.075 2.075 0 0 0 1.847-1.086 1.9 1.9 0 0 0-.11-1.986L13.736 2.9a2.122 2.122 0 0 0-3.472 0L6.837 7.952a1.9 1.9 0 0 0-.11 1.986 2.074 2.074 0 0 0 1.847 1.086Zm6.852 1.952H8.574a2.072 2.072 0 0 0-1.847 1.087 1.9 1.9 0 0 0 .11 1.985l3.426 5.05a2.123 2.123 0 0 0 3.472 0l3.427-5.05a1.9 1.9 0 0 0 .11-1.985 2.074 2.074 0 0 0-1.846-1.087Z" />
+                              </svg>
+                            </Link>
+                          </div>
+                        </th>
+                        <th scope="col" className="p-2">
+                          <div className="flex items-center">
+                            Floor price
+                            <Link href="#">
+                              <svg
+                                className="ms-1.5 size-3"
+                                aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg"
+                                fill="currentColor"
+                                viewBox="0 0 24 24"
+                              >
+                                <path d="M8.574 11.024h6.852a2.075 2.075 0 0 0 1.847-1.086 1.9 1.9 0 0 0-.11-1.986L13.736 2.9a2.122 2.122 0 0 0-3.472 0L6.837 7.952a1.9 1.9 0 0 0-.11 1.986 2.074 2.074 0 0 0 1.847 1.086Zm6.852 1.952H8.574a2.072 2.072 0 0 0-1.847 1.087 1.9 1.9 0 0 0 .11 1.985l3.426 5.05a2.123 2.123 0 0 0 3.472 0l3.427-5.05a1.9 1.9 0 0 0 .11-1.985 2.074 2.074 0 0 0-1.846-1.087Z" />
+                              </svg>
+                            </Link>
+                          </div>
+                        </th>
+                        <th scope="col" className="p-2">
+                          <div className="flex items-center">
+                            Volume
+                            <Link href="#">
+                              <svg
+                                className="ms-1.5 size-3"
+                                aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg"
+                                fill="currentColor"
+                                viewBox="0 0 24 24"
+                              >
+                                <path d="M8.574 11.024h6.852a2.075 2.075 0 0 0 1.847-1.086 1.9 1.9 0 0 0-.11-1.986L13.736 2.9a2.122 2.122 0 0 0-3.472 0L6.837 7.952a1.9 1.9 0 0 0-.11 1.986 2.074 2.074 0 0 0 1.847 1.086Zm6.852 1.952H8.574a2.072 2.072 0 0 0-1.847 1.087 1.9 1.9 0 0 0 .11 1.985l3.426 5.05a2.123 2.123 0 0 0 3.472 0l3.427-5.05a1.9 1.9 0 0 0 .11-1.985 2.074 2.074 0 0 0-1.846-1.087Z" />
+                              </svg>
+                            </Link>
+                          </div>
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr className="border-b-2 bg-p1-white hover:bg-p1-cyan hover:bg-opacity-5 dark:border-p1-green dark:bg-p1-deepdarkgreen">
+                        <td className="px-4 py-2 lining-nums">1</td>
+                        <td className="p-2">
+                          <div className="relative">
+                            <Link href="/card" className="mx-auto justify-center">
+                              <Image
+                                width={500}
+                                height={500}
+                                src="/HeroNFT/RaceLads/RaceLads1.png"
+                                alt="RaceLads"
+                                className="size-16 object-cover transition-transform duration-500 ease-in-out hover:scale-105"
+                              />
+                            </Link>
+                          </div>
+                        </td>
+                        <td className="px-6 py-4">RaceLads</td>
+                        <td className="px-6 py-4 lining-nums">12.3</td>
+                        <td className="px-6 py-4 text-right lining-nums"> 8888</td>
+                      </tr>
+                      <tr className="border-b-2 bg-p1-white hover:bg-p1-cyan hover:bg-opacity-5 dark:border-p1-green dark:bg-p1-deepdarkgreen">
+                        <td className="px-4 py-2 lining-nums">1</td>
+                        <td className="p-2">
+                          <div className="relative">
+                            <Link href="/card" className="mx-auto justify-center">
+                              <Image
+                                width={500}
+                                height={500}
+                                src="/HeroNFT/RaceLads/RaceLads1.png"
+                                alt="RaceLads"
+                                className="size-16 object-cover transition-transform duration-500 ease-in-out hover:scale-105"
+                              />
+                            </Link>
+                          </div>
+                        </td>
+                        <td className="px-6 py-4">RaceLads</td>
+                        <td className="px-6 py-4 lining-nums">12.3</td>
+                        <td className="px-6 py-4 text-right lining-nums"> 8888</td>
+                      </tr>
+                      <tr className="border-b-2 bg-p1-white hover:bg-p1-cyan hover:bg-opacity-5 dark:border-p1-green dark:bg-p1-deepdarkgreen">
+                        <td className="px-4 py-2 lining-nums">1</td>
+                        <td className="p-2">
+                          <div className="relative">
+                            <Link href="/card" className="mx-auto justify-center">
+                              <Image
+                                width={500}
+                                height={500}
+                                src="/HeroNFT/RaceLads/RaceLads1.png"
+                                alt="RaceLads"
+                                className="size-16 object-cover transition-transform duration-500 ease-in-out hover:scale-105"
+                              />
+                            </Link>
+                          </div>
+                        </td>
+                        <td className="px-6 py-4">RaceLads</td>
+                        <td className="px-6 py-4 lining-nums">12.3</td>
+                        <td className="px-6 py-4 text-right lining-nums"> 8888</td>
+                      </tr>
+                      <tr className="border-b-2 bg-p1-white hover:bg-p1-cyan hover:bg-opacity-5 dark:border-p1-green dark:bg-p1-deepdarkgreen">
+                        <td className="px-4 py-2 lining-nums">1</td>
+                        <td className="p-2">
+                          <div className="relative">
+                            <Link href="/card" className="mx-auto justify-center">
+                              <Image
+                                width={500}
+                                height={500}
+                                src="/HeroNFT/RaceLads/RaceLads1.png"
+                                alt="RaceLads"
+                                className="size-16 object-cover transition-transform duration-500 ease-in-out hover:scale-105"
+                              />
+                            </Link>
+                          </div>
+                        </td>
+                        <td className="px-6 py-4">RaceLads</td>
+                        <td className="px-6 py-4 lining-nums">12.3</td>
+                        <td className="px-6 py-4 text-right lining-nums"> 8888</td>
+                      </tr>
+                      <tr className="border-b-2 bg-p1-white hover:bg-p1-cyan hover:bg-opacity-5 dark:border-p1-green dark:bg-p1-deepdarkgreen">
+                        <td className="px-4 py-2 lining-nums">1</td>
+                        <td className="p-2">
+                          <div className="relative">
+                            <Link href="/card" className="mx-auto justify-center">
+                              <Image
+                                width={500}
+                                height={500}
+                                src="/HeroNFT/RaceLads/RaceLads1.png"
+                                alt="RaceLads"
+                                className="size-16 object-cover transition-transform duration-500 ease-in-out hover:scale-105"
+                              />
+                            </Link>
+                          </div>
+                        </td>
+                        <td className="px-6 py-4">RaceLads</td>
+                        <td className="px-6 py-4 lining-nums">12.3</td>
+                        <td className="px-6 py-4 text-right lining-nums"> 8888</td>
+                      </tr>
+                    
+                  
+                    
+                    </tbody>
+                  </table>
+                </div>
+                <div className="relative sm:rounded-lg">
+                  <table className="text-left text-xl text-p1-darkgreen dark:text-p1-green">
+                    <thead className="sticky top-0 z-10 border-b-2 border-p1-green border-opacity-20 bg-p1-white text-xs uppercase text-p1-darkgreen dark:bg-p1-deepdarkgreen dark:text-p1-green">
+                      <tr>
+                        <th scope="col" className="p-2">
+                          Rank
+                        </th>
+                        <th scope="col" className="p-2">
+                          <div className="flex w-32 items-center">
+                            Image Collection
+                            <Link href="#">
+                              <svg
+                                className="ms-1.5 size-3"
+                                aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg"
+                                fill="currentColor"
+                                viewBox="0 0 24 24"
+                              >
+                                <path d="M8.574 11.024h6.852a2.075 2.075 0 0 0 1.847-1.086 1.9 1.9 0 0 0-.11-1.986L13.736 2.9a2.122 2.122 0 0 0-3.472 0L6.837 7.952a1.9 1.9 0 0 0-.11 1.986 2.074 2.074 0 0 0 1.847 1.086Zm6.852 1.952H8.574a2.072 2.072 0 0 0-1.847 1.087 1.9 1.9 0 0 0 .11 1.985l3.426 5.05a2.123 2.123 0 0 0 3.472 0l3.427-5.05a1.9 1.9 0 0 0 .11-1.985 2.074 2.074 0 0 0-1.846-1.087Z" />
+                              </svg>
+                            </Link>
+                          </div>
+                        </th>
+                        <th scope="col" className="p-2">
+                          <div className="flex items-center">
+                            Collection
+                            <Link href="#">
+                              <svg
+                                className="ms-1.5 size-3"
+                                aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg"
+                                fill="currentColor"
+                                viewBox="0 0 24 24"
+                              >
+                                <path d="M8.574 11.024h6.852a2.075 2.075 0 0 0 1.847-1.086 1.9 1.9 0 0 0-.11-1.986L13.736 2.9a2.122 2.122 0 0 0-3.472 0L6.837 7.952a1.9 1.9 0 0 0-.11 1.986 2.074 2.074 0 0 0 1.847 1.086Zm6.852 1.952H8.574a2.072 2.072 0 0 0-1.847 1.087 1.9 1.9 0 0 0 .11 1.985l3.426 5.05a2.123 2.123 0 0 0 3.472 0l3.427-5.05a1.9 1.9 0 0 0 .11-1.985 2.074 2.074 0 0 0-1.846-1.087Z" />
+                              </svg>
+                            </Link>
+                          </div>
+                        </th>
+                        <th scope="col" className="p-2">
+                          <div className="flex items-center">
+                            Floor price
+                            <Link href="#">
+                              <svg
+                                className="ms-1.5 size-3"
+                                aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg"
+                                fill="currentColor"
+                                viewBox="0 0 24 24"
+                              >
+                                <path d="M8.574 11.024h6.852a2.075 2.075 0 0 0 1.847-1.086 1.9 1.9 0 0 0-.11-1.986L13.736 2.9a2.122 2.122 0 0 0-3.472 0L6.837 7.952a1.9 1.9 0 0 0-.11 1.986 2.074 2.074 0 0 0 1.847 1.086Zm6.852 1.952H8.574a2.072 2.072 0 0 0-1.847 1.087 1.9 1.9 0 0 0 .11 1.985l3.426 5.05a2.123 2.123 0 0 0 3.472 0l3.427-5.05a1.9 1.9 0 0 0 .11-1.985 2.074 2.074 0 0 0-1.846-1.087Z" />
+                              </svg>
+                            </Link>
+                          </div>
+                        </th>
+                        <th scope="col" className="p-2">
+                          <div className="flex items-center">
+                            Volume
+                            <Link href="#">
+                              <svg
+                                className="ms-1.5 size-3"
+                                aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg"
+                                fill="currentColor"
+                                viewBox="0 0 24 24"
+                              >
+                                <path d="M8.574 11.024h6.852a2.075 2.075 0 0 0 1.847-1.086 1.9 1.9 0 0 0-.11-1.986L13.736 2.9a2.122 2.122 0 0 0-3.472 0L6.837 7.952a1.9 1.9 0 0 0-.11 1.986 2.074 2.074 0 0 0 1.847 1.086Zm6.852 1.952H8.574a2.072 2.072 0 0 0-1.847 1.087 1.9 1.9 0 0 0 .11 1.985l3.426 5.05a2.123 2.123 0 0 0 3.472 0l3.427-5.05a1.9 1.9 0 0 0 .11-1.985 2.074 2.074 0 0 0-1.846-1.087Z" />
+                              </svg>
+                            </Link>
+                          </div>
+                        </th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr className="border-b-2 bg-p1-white hover:bg-p1-cyan hover:bg-opacity-5 dark:border-p1-green dark:bg-p1-deepdarkgreen">
+                        <td className="px-4 py-2 lining-nums">1</td>
+                        <td className="p-2">
+                          <div className="relative">
+                            <Link href="/card" className="mx-auto justify-center">
+                              <Image
+                                width={500}
+                                height={500}
+                                src="/HeroNFT/RaceLads/RaceLads1.png"
+                                alt="RaceLads"
+                                className="size-16 object-cover transition-transform duration-500 ease-in-out hover:scale-105"
+                              />
+                            </Link>
+                          </div>
+                        </td>
+                        <td className="px-6 py-4">RaceLads</td>
+                        <td className="px-6 py-4 lining-nums">12.3</td>
+                        <td className="px-6 py-4 text-right lining-nums"> 8888</td>
+                      </tr>
+                      <tr className="border-b-2 bg-p1-white hover:bg-p1-cyan hover:bg-opacity-5 dark:border-p1-green dark:bg-p1-deepdarkgreen">
+                        <td className="px-4 py-2 lining-nums">1</td>
+                        <td className="p-2">
+                          <div className="relative">
+                            <Link href="/card" className="mx-auto justify-center">
+                              <Image
+                                width={500}
+                                height={500}
+                                src="/HeroNFT/RaceLads/RaceLads1.png"
+                                alt="RaceLads"
+                                className="size-16 object-cover transition-transform duration-500 ease-in-out hover:scale-105"
+                              />
+                            </Link>
+                          </div>
+                        </td>
+                        <td className="px-6 py-4">RaceLads</td>
+                        <td className="px-6 py-4 lining-nums">12.3</td>
+                        <td className="px-6 py-4 text-right lining-nums"> 8888</td>
+                      </tr>
+                      <tr className="border-b-2 bg-p1-white hover:bg-p1-cyan hover:bg-opacity-5 dark:border-p1-green dark:bg-p1-deepdarkgreen">
+                        <td className="px-4 py-2 lining-nums">1</td>
+                        <td className="p-2">
+                          <div className="relative">
+                            <Link href="/card" className="mx-auto justify-center">
+                              <Image
+                                width={500}
+                                height={500}
+                                src="/HeroNFT/RaceLads/RaceLads1.png"
+                                alt="RaceLads"
+                                className="size-16 object-cover transition-transform duration-500 ease-in-out hover:scale-105"
+                              />
+                            </Link>
+                          </div>
+                        </td>
+                        <td className="px-6 py-4">RaceLads</td>
+                        <td className="px-6 py-4 lining-nums">12.3</td>
+                        <td className="px-6 py-4 text-right lining-nums"> 8888</td>
+                      </tr>
+                      <tr className="border-b-2 bg-p1-white hover:bg-p1-cyan hover:bg-opacity-5 dark:border-p1-green dark:bg-p1-deepdarkgreen">
+                        <td className="px-4 py-2 lining-nums">1</td>
+                        <td className="p-2">
+                          <div className="relative">
+                            <Link href="/card" className="mx-auto justify-center">
+                              <Image
+                                width={500}
+                                height={500}
+                                src="/HeroNFT/RaceLads/RaceLads1.png"
+                                alt="RaceLads"
+                                className="size-16 object-cover transition-transform duration-500 ease-in-out hover:scale-105"
+                              />
+                            </Link>
+                          </div>
+                        </td>
+                        <td className="px-6 py-4">RaceLads</td>
+                        <td className="px-6 py-4 lining-nums">12.3</td>
+                        <td className="px-6 py-4 text-right lining-nums"> 8888</td>
+                      </tr>
+                      <tr className="border-b-2 bg-p1-white hover:bg-p1-cyan hover:bg-opacity-5 dark:border-p1-green dark:bg-p1-deepdarkgreen">
+                        <td className="px-4 py-2 lining-nums">1</td>
+                        <td className="p-2">
+                          <div className="relative">
+                            <Link href="/card" className="mx-auto justify-center">
+                              <Image
+                                width={500}
+                                height={500}
+                                src="/HeroNFT/RaceLads/RaceLads1.png"
+                                alt="RaceLads"
+                                className="size-16 object-cover transition-transform duration-500 ease-in-out hover:scale-105"
+                              />
+                            </Link>
+                          </div>
+                        </td>
+                        <td className="px-6 py-4">RaceLads</td>
+                        <td className="px-6 py-4 lining-nums">12.3</td>
+                        <td className="px-6 py-4 text-right lining-nums"> 8888</td>
+                      </tr>
+                    
+                  
+                    
+                    </tbody>
+                  </table>
+                </div>
               </div>
             </div>
 
@@ -3444,8 +3680,6 @@ export default function Home() {
                 </div>
               </div>
             </div>
-
-     
           </div>
         </div>
 

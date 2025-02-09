@@ -1105,7 +1105,7 @@ export default function Home() {
         </div>
 
         <div className="flex w-9/12 grid-flow-row flex-wrap place-content-start gap-2 pt-2">
-          {/* ... карточка 1 ...15x10 */}
+          {/* ... карточки ... */}
 
           <div className="mb-2 w-full rounded-2xl border border-p1-green bg-p1-white text-xl text-p1-darkgreen shadow-lg dark:bg-p1-deepdarkgreen">
             <details className="m-2">
@@ -1554,7 +1554,7 @@ export default function Home() {
             </details>
           </div>
 
-          {/* ...Таблица 1... */}
+          {/* ...Таблица 1... кнопка*/}
           <div className="mb-2 w-full rounded-2xl border border-p1-green bg-p1-white text-xl text-p1-darkgreen shadow-lg dark:bg-p1-deepdarkgreen">
             <details className="m-2">
               <summary className="relative flex cursor-pointer justify-between py-2">
@@ -1585,7 +1585,7 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-                {/* Таблица 1*/}
+                {/* Таблица 1  содержимое*/}
 
                 <div className="inline-block h-96 place-self-center overflow-y-auto rounded border">
                   <div className="relative shadow-md sm:rounded-lg">
