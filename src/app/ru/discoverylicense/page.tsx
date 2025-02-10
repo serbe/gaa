@@ -399,7 +399,7 @@ export default function Page() {
           <div></div>
           <div></div>
 
-          <div className="col-start-14 col-span-3 row-span-1">
+          <div className="col-span-3 col-start-13 row-span-1">
             <Image
               className="relative inline-block w-max"
               width={1000}

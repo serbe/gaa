@@ -53,8 +53,8 @@ export default function Home() {
                     alt="Bordered avatar"
                   />
 
-                  <div className="m-0.1 invisible absolute left-9 z-10 mt-2 w-72 -translate-x-1/2 rounded-xl bg-p1-white bg-opacity-30 bg-center p-4 text-gray-800 opacity-0 shadow-xl backdrop-blur-lg transition-all duration-100 group-hover:visible group-hover:border-opacity-70 group-hover:bg-opacity-30 group-hover:opacity-100 md:w-80">
-                    <div className="rounded-md border-2 border-p1-darkgreen border-opacity-50 bg-p1-cyan bg-opacity-100">
+                  <div className="invisible absolute left-9 z-10 m-0.5 mt-2 w-72 -translate-x-1/2 rounded-xl bg-p1-white/30 bg-center p-4 text-gray-800 opacity-0 shadow-xl backdrop-blur-lg transition-all duration-100 group-hover:visible group-hover:border-opacity-70 group-hover:bg-opacity-30 group-hover:opacity-100 md:w-80">
+                    <div className="rounded-md border-2 border-p1-darkgreen/50 bg-p1-cyan/100">
                       <div className="border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white/50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
                         <Link href="/profile" className="mx-auto flex flex-row justify-start">
                           <Image
@@ -247,7 +247,7 @@ export default function Home() {
               <div className="rounded-2xl hover:bg-p1-green/20">
                 <Link href="#" className="">
                   <p className="pt-1 text-xl font-thin lining-nums md:px-2 md:text-2xl">
-                    Created:{' '}
+                    Created:
                   </p>
                   <p className="pt-1 text-xl font-thin lining-nums md:px-2 md:text-2xl">9988 </p>
                 </Link>
@@ -336,7 +336,7 @@ export default function Home() {
               >
                 <button
                   data-target="area4"
-                  className="inline-block w-max place-content-center rounded-l-xl border bg-p1-white px-1 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen hover:border-opacity-15 hover:bg-p1-cyan hover:bg-opacity-25 hover:text-p1-darkgreen focus:border-p1-darkgreen focus:border-opacity-20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                  className="inline-block w-max place-content-center rounded-l-xl border bg-p1-white px-1 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen/15 hover:bg-p1-cyan/25 hover:text-p1-darkgreen focus:border-p1-darkgreen/20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
                   id="toggleButton4"
                   onClick={() => {
                     setCurrentVisibleArea(4);
@@ -346,13 +346,13 @@ export default function Home() {
                 </button>
                 <Link
                   href="#"
-                  className="inline-block w-max place-content-center border bg-p1-white px-1 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen hover:border-opacity-15 hover:bg-p1-cyan hover:bg-opacity-25 hover:text-p1-darkgreen focus:border-p1-darkgreen focus:border-opacity-20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                  className="inline-block w-max place-content-center border bg-p1-white px-1 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen/15 hover:bg-p1-cyan/25 hover:text-p1-darkgreen focus:border-p1-darkgreen/20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
                 >
                   RaceLads
                 </Link>
                 <button
                   data-target="area7"
-                  className="inline-block w-max place-content-center border bg-p1-white px-1 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen hover:border-opacity-15 hover:bg-p1-cyan hover:bg-opacity-25 hover:text-p1-darkgreen focus:border-p1-darkgreen focus:border-opacity-20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                  className="inline-block w-max place-content-center border bg-p1-white px-1 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen/15 hover:bg-p1-cyan/25 hover:text-p1-darkgreen focus:border-p1-darkgreen/20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
                   id="toggleButton7"
                   onClick={() => {
                     setCurrentVisibleArea(7);
@@ -363,7 +363,7 @@ export default function Home() {
 
                 <button
                   data-target="area9"
-                  className="inline-block w-max place-content-center border bg-p1-white px-1 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen hover:border-opacity-15 hover:bg-p1-cyan hover:bg-opacity-25 hover:text-p1-darkgreen focus:border-p1-darkgreen focus:border-opacity-20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                  className="inline-block w-max place-content-center border bg-p1-white px-1 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen/15 hover:bg-p1-cyan/25 hover:text-p1-darkgreen focus:border-p1-darkgreen/20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
                   id="toggleButton9"
                   onClick={() => {
                     setCurrentVisibleArea(9);
@@ -372,11 +372,11 @@ export default function Home() {
                   Licenses
                 </button>
 
-                <form className="inline-block w-max place-content-center rounded-r-xl border bg-p1-white px-1 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen hover:border-opacity-15 hover:bg-p1-cyan hover:bg-opacity-25 hover:text-p1-darkgreen focus:border-p1-darkgreen focus:border-opacity-20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan">
+                <form className="inline-block w-max place-content-center rounded-r-xl border bg-p1-white px-1 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen/15 hover:bg-p1-cyan/25 hover:text-p1-darkgreen focus:border-p1-darkgreen/20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan">
                   <label htmlFor="price" className="block"></label>
                   <select
                     id="price"
-                    className="mx-auto flex overflow-hidden rounded-r-xl bg-p1-white hover:border-opacity-15 hover:bg-p1-green hover:bg-p1-white hover:bg-opacity-25 hover:text-p1-darkgreen dark:bg-p1-deepdarkgreen dark:text-p1-green dark:accent-p1-darkgreen dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan"
+                    className="mx-auto flex overflow-hidden rounded-r-xl bg-p1-white hover:border-opacity-15 hover:bg-p1-white/25 hover:text-p1-darkgreen dark:bg-p1-deepdarkgreen dark:text-p1-green dark:accent-p1-darkgreen dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan"
                     defaultValue={'DEFAULT'}
                   >
                     <option value="DEFAULT" disabled>
@@ -401,20 +401,20 @@ export default function Home() {
               >
                 <Link
                   href="#"
-                  className="inline-block w-max place-content-center rounded-l-xl border bg-p1-white px-1 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen hover:border-opacity-15 hover:bg-p1-cyan hover:bg-opacity-25 hover:text-p1-darkgreen focus:border-p1-darkgreen focus:border-opacity-20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                  className="inline-block w-max place-content-center rounded-l-xl border bg-p1-white px-1 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen/15 hover:bg-p1-cyan/25 hover:text-p1-darkgreen focus:border-p1-darkgreen/20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
                 >
                   24H
                 </Link>
                 <Link
                   href="#"
-                  className="inline-block w-max place-content-center border bg-p1-white px-1 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen hover:border-opacity-15 hover:bg-p1-cyan hover:bg-opacity-25 hover:text-p1-darkgreen focus:border-p1-darkgreen focus:border-opacity-20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                  className="inline-block w-max place-content-center border bg-p1-white px-1 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen/15 hover:bg-p1-cyan/25 hover:text-p1-darkgreen focus:border-p1-darkgreen/20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
                 >
                   7D
                 </Link>
 
                 <Link
                   href="#"
-                  className="inline-block w-max place-content-center rounded-r-xl border bg-p1-white px-1 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen hover:border-opacity-15 hover:bg-p1-cyan hover:bg-opacity-25 hover:text-p1-darkgreen focus:border-p1-darkgreen focus:border-opacity-20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                  className="inline-block w-max place-content-center rounded-r-xl border bg-p1-white px-1 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen/15 hover:bg-p1-cyan/25 hover:text-p1-darkgreen focus:border-p1-darkgreen/20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
                 >
                   30D
                 </Link>
@@ -430,7 +430,7 @@ export default function Home() {
             <div>
               <button
                 data-target="area1"
-                className="focus:bg-shadow-lg mx-auto justify-start rounded transition-all delay-75 duration-100 ease-in-out hover:bg-p1-cyan/50 hover:shadow-lg dark:shadow-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:brightness-90"
+                className="mx-auto justify-start rounded transition-all delay-75 duration-100 ease-in-out hover:bg-p1-cyan/50 hover:shadow-lg focus:shadow-lg dark:shadow-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:brightness-90"
                 onClick={() => {
                   setVisibleArea1(!visibleArea1);
                 }}
@@ -464,7 +464,7 @@ export default function Home() {
               <div className="w-10">
                 <button
                   data-target="area2"
-                  className="focus:bg-shadow-lg mx-auto justify-start rounded transition-all delay-75 duration-100 ease-in-out hover:bg-p1-cyan/50 hover:shadow-lg focus:bg-p1-cyan/50 focus:hover:shadow-lg dark:shadow-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:brightness-90 dark:focus:brightness-90"
+                  className="mx-auto justify-start rounded transition-all delay-75 duration-100 ease-in-out hover:bg-p1-cyan/50 hover:shadow-lg focus:bg-p1-cyan/50 focus:shadow-lg focus:hover:shadow-lg dark:shadow-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:brightness-90 dark:focus:brightness-90"
                   id="toggleButton2"
                   onClick={() => {
                     setCurrentVisibleArea(2);
@@ -482,7 +482,7 @@ export default function Home() {
               <div className="w-10">
                 <button
                   data-target="area3"
-                  className="focus:bg-shadow-lg mx-auto justify-start rounded transition-all delay-75 duration-100 ease-in-out hover:bg-p1-cyan/50 hover:shadow-lg focus:bg-p1-cyan/50 focus:hover:shadow-lg dark:shadow-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:brightness-90 dark:focus:brightness-90"
+                  className="mx-auto justify-start rounded transition-all delay-75 duration-100 ease-in-out hover:bg-p1-cyan/50 hover:shadow-lg focus:bg-p1-cyan/50 focus:shadow-lg focus:hover:shadow-lg dark:shadow-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:brightness-90 dark:focus:brightness-90"
                   id="toggleButton3"
                   onClick={() => {
                     setCurrentVisibleArea(3);
@@ -500,7 +500,7 @@ export default function Home() {
               <div className="w-10">
                 <button
                   data-target="area4"
-                  className="focus:bg-shadow-lg mx-auto justify-start rounded transition-all delay-75 duration-100 ease-in-out hover:bg-p1-cyan/50 hover:shadow-lg focus:bg-p1-cyan/50 focus:hover:shadow-lg dark:shadow-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:brightness-90 dark:focus:brightness-90"
+                  className="mx-auto justify-start rounded transition-all delay-75 duration-100 ease-in-out hover:bg-p1-cyan/50 hover:shadow-lg focus:bg-p1-cyan/50 focus:shadow-lg focus:hover:shadow-lg dark:shadow-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:brightness-90 dark:focus:brightness-90"
                   id="toggleButton4"
                   onClick={() => {
                     setCurrentVisibleArea(4);
@@ -518,7 +518,7 @@ export default function Home() {
               <div className="w-10">
                 <button
                   data-target="area5"
-                  className="focus:bg-shadow-lg mx-auto justify-start rounded transition-all delay-75 duration-100 ease-in-out hover:bg-p1-cyan/50 hover:shadow-lg focus:bg-p1-cyan/50 focus:hover:shadow-lg dark:shadow-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:brightness-90 dark:focus:brightness-90"
+                  className="mx-auto justify-start rounded transition-all delay-75 duration-100 ease-in-out hover:bg-p1-cyan/50 hover:shadow-lg focus:bg-p1-cyan/50 focus:shadow-lg focus:hover:shadow-lg dark:shadow-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:brightness-90 dark:focus:brightness-90"
                   id="toggleButton5"
                   onClick={() => {
                     setCurrentVisibleArea(5);
@@ -536,7 +536,7 @@ export default function Home() {
               <div className="w-10">
                 <button
                   data-target="area6"
-                  className="focus:bg-shadow-lg mx-auto justify-start rounded transition-all delay-75 duration-100 ease-in-out hover:bg-p1-cyan/50 hover:shadow-lg focus:bg-p1-cyan/50 focus:hover:shadow-lg dark:shadow-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:brightness-90 dark:focus:brightness-90"
+                  className="mx-auto justify-start rounded transition-all delay-75 duration-100 ease-in-out hover:bg-p1-cyan/50 hover:shadow-lg focus:bg-p1-cyan/50 focus:shadow-lg focus:hover:shadow-lg dark:shadow-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:brightness-90 dark:focus:brightness-90"
                   id="toggleButton6"
                   onClick={() => {
                     setCurrentVisibleArea(6);
@@ -554,7 +554,7 @@ export default function Home() {
               <div className="w-10">
                 <button
                   data-target="area8"
-                  className="focus:bg-shadow-lg mx-auto justify-start rounded transition-all delay-75 duration-100 ease-in-out hover:bg-p1-cyan/50 hover:shadow-lg focus:bg-p1-cyan/50 focus:hover:shadow-lg dark:shadow-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:brightness-90 dark:focus:brightness-90"
+                  className="mx-auto justify-start rounded transition-all delay-75 duration-100 ease-in-out hover:bg-p1-cyan/50 hover:shadow-lg focus:bg-p1-cyan/50 focus:shadow-lg focus:hover:shadow-lg dark:shadow-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:brightness-90 dark:focus:brightness-90"
                   id="toggleButton6"
                   onClick={() => {
                     setCurrentVisibleArea(8);
@@ -578,7 +578,7 @@ export default function Home() {
         <div className="flex max-w-full place-content-center gap-2 px-6">
           {/* ... левый блок */}
           <div id="area1" className={`w-3/12  gap-2 pt-2 ${visibleArea1 == true ? '' : 'hidden'}`}>
-            <div className="w-full snap-start border-b border-p1-green border-opacity-30 bg-p1-white text-xl text-p1-darkgreen hover:border-p1-green hover:bg-p1-green hover:bg-opacity-5 dark:bg-p1-deepdarkgreen">
+            <div className="w-full snap-start border-b border-p1-green/30 bg-p1-white text-xl text-p1-darkgreen hover:border-p1-green hover:bg-p1-green/5 dark:bg-p1-deepdarkgreen">
               <details className="">
                 <summary className="relative flex cursor-pointer justify-start py-2 text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
                   <div className="place-content-center px-4">Price</div>
@@ -588,7 +588,7 @@ export default function Home() {
                     <label htmlFor="price" className="block w-full"></label>
                     <select
                       id="price"
-                      className="mx-auto flex w-full overflow-hidden border-t border-p1-green bg-p1-white/50 p-1 text-center hover:border-p1-green hover:bg-p1-cyan hover:bg-opacity-10 dark:bg-p1-deepdarkgreen dark:text-p1-green dark:accent-p1-darkgreen dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan"
+                      className="mx-auto flex w-full overflow-hidden border-t border-p1-green bg-p1-white/50 p-1 text-center hover:border-p1-green hover:bg-p1-cyan/10 dark:bg-p1-deepdarkgreen dark:text-p1-green dark:accent-p1-darkgreen dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan"
                       defaultValue={'DEFAULT'}
                     >
                       <option value="DEFAULT" disabled>
@@ -628,7 +628,7 @@ export default function Home() {
                   <div>
                     <Link
                       href="#"
-                      className="relative flex place-content-center rounded-b-xl border border-p1-green bg-p1-white p-2 text-p1-darkgreen transition-all duration-300 ease-in-out hover:border-p1-darkgreen hover:bg-p1-cyan hover:bg-opacity-10 hover:text-p1-darkgreen hover:shadow-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan"
+                      className="relative flex place-content-center rounded-b-xl border border-p1-green bg-p1-white p-2 text-p1-darkgreen transition-all duration-300 ease-in-out hover:border-p1-darkgreen hover:bg-p1-cyan/10 hover:text-p1-darkgreen hover:shadow-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan"
                     >
                       <div className="px-4">Apply</div>
                     </Link>
@@ -637,7 +637,7 @@ export default function Home() {
               </details>
             </div>
 
-            <div className="w-full snap-start border-b border-p1-green border-opacity-30 bg-p1-white text-xl text-p1-darkgreen hover:border-p1-green hover:bg-p1-green hover:bg-opacity-5 dark:bg-p1-deepdarkgreen">
+            <div className="w-full snap-start border-b border-p1-green/30 bg-p1-white text-xl text-p1-darkgreen hover:border-p1-green hover:bg-p1-green/5 dark:bg-p1-deepdarkgreen">
               <details className="">
                 <summary className="relative flex cursor-pointer justify-start py-2 text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
                   <div className="place-content-center px-4">Rarity rank</div>
@@ -671,7 +671,7 @@ export default function Home() {
                   <div>
                     <Link
                       href="#"
-                      className="relative flex place-content-center rounded-b-xl border border-p1-green bg-p1-white p-2 text-p1-darkgreen transition-all duration-300 ease-in-out hover:border-p1-darkgreen hover:bg-p1-cyan hover:bg-opacity-10 hover:text-p1-darkgreen hover:shadow-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan"
+                      className="relative flex place-content-center rounded-b-xl border border-p1-green bg-p1-white p-2 text-p1-darkgreen transition-all duration-300 ease-in-out hover:border-p1-darkgreen hover:bg-p1-cyan/10 hover:text-p1-darkgreen hover:shadow-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan"
                     >
                       <div className="px-4">Apply</div>
                     </Link>
@@ -680,7 +680,7 @@ export default function Home() {
               </details>
             </div>
 
-            <div className="w-full snap-start border-b border-p1-green border-opacity-30 bg-p1-white text-xl text-p1-darkgreen hover:border-p1-green hover:bg-p1-green hover:bg-opacity-5 dark:bg-p1-deepdarkgreen">
+            <div className="w-full snap-start border-b border-p1-green/30 bg-p1-white text-xl text-p1-darkgreen hover:border-p1-green hover:bg-p1-green/5 dark:bg-p1-deepdarkgreen">
               <details className="">
                 <summary className="relative flex cursor-pointer justify-start py-2 text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
                   <div className="place-content-center px-4">Currency</div>
@@ -753,9 +753,9 @@ export default function Home() {
             </div>
             <div className="">
               <div className="w-full resize-y snap-y scroll-mt-4 place-self-start overflow-auto scroll-smooth">
-                <div className="w-full snap-start border-b border-p1-green border-opacity-30 bg-p1-white text-xl text-p1-darkgreen hover:border-p1-green hover:bg-p1-green hover:bg-opacity-5 dark:bg-p1-deepdarkgreen">
+                <div className="w-full snap-start border-b border-p1-green/30 bg-p1-white text-xl text-p1-darkgreen hover:border-p1-green hover:bg-p1-green/5 dark:bg-p1-deepdarkgreen">
                   <details className="">
-                    <summary className="relative flex cursor-pointer justify-start justify-between py-2 text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
+                    <summary className="relative flex cursor-pointer justify-between py-2 text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
                       <div className="place-content-center px-4">Витрина Showcase</div>
                       <div className="place-content-center px-4">46</div>
                     </summary>
@@ -824,9 +824,9 @@ export default function Home() {
                   </details>
                 </div>
 
-                <div className="w-full snap-start border-b border-p1-green border-opacity-30 bg-p1-white text-xl text-p1-darkgreen hover:border-p1-green hover:bg-p1-green hover:bg-opacity-5 dark:bg-p1-deepdarkgreen">
+                <div className="w-full snap-start border-b border-p1-green/30 bg-p1-white text-xl text-p1-darkgreen hover:border-p1-green hover:bg-p1-green/5 dark:bg-p1-deepdarkgreen">
                   <details className="">
-                    <summary className="relative flex cursor-pointer justify-start justify-between py-2 text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
+                    <summary className="relative flex cursor-pointer justify-between py-2 text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
                       <div className="place-content-center px-4">Для продажи For sale</div>
                       <div className="place-content-center px-4">46</div>
                     </summary>
@@ -894,9 +894,9 @@ export default function Home() {
                   </details>
                 </div>
 
-                <div className="w-full snap-start border-b border-p1-green border-opacity-30 bg-p1-white text-xl text-p1-darkgreen hover:border-p1-green hover:bg-p1-green hover:bg-opacity-5 dark:bg-p1-deepdarkgreen">
+                <div className="w-full snap-start border-b border-p1-green/30 bg-p1-white text-xl text-p1-darkgreen hover:border-p1-green hover:bg-p1-green/5 dark:bg-p1-deepdarkgreen">
                   <details className="">
-                    <summary className="relative flex cursor-pointer justify-start justify-between py-2 text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
+                    <summary className="relative flex cursor-pointer justify-between py-2 text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
                       <div className="place-content-center px-4">Awards</div>
                       <div className="place-content-center px-4">8</div>
                     </summary>
@@ -971,7 +971,7 @@ export default function Home() {
             </div>
             <div className="">
               <div className="w-full resize-y snap-y scroll-mt-4 place-self-start overflow-auto scroll-smooth">
-                <div className="w-full snap-start border-b border-p1-green border-opacity-30 bg-p1-white text-xl text-p1-darkgreen hover:border-p1-green hover:bg-p1-green hover:bg-opacity-5 dark:bg-p1-deepdarkgreen">
+                <div className="w-full snap-start border-b border-p1-green/30 bg-p1-white text-xl text-p1-darkgreen hover:border-p1-green hover:bg-p1-green/5 dark:bg-p1-deepdarkgreen">
                   <details className="">
                     <summary
                       data-target="area11"
@@ -1049,7 +1049,7 @@ export default function Home() {
                   </details>
                 </div>
 
-                <div className="w-full snap-start border-b border-p1-green border-opacity-30 bg-p1-white text-xl text-p1-darkgreen hover:border-p1-green hover:bg-p1-green hover:bg-opacity-5 dark:bg-p1-deepdarkgreen">
+                <div className="w-full snap-start border-b border-p1-green/30 bg-p1-white text-xl text-p1-darkgreen hover:border-p1-green hover:bg-p1-green/5 dark:bg-p1-deepdarkgreen">
                   <details className="">
                     <summary
                       data-target="area12"
@@ -1057,7 +1057,7 @@ export default function Home() {
                       onClick={() => {
                         setCurrentVisibleArea(12);
                       }}
-                      className="relative flex cursor-pointer justify-start justify-between py-2 text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan"
+                      className="relative flex cursor-pointer justify-between py-2 text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan"
                     >
                       <div className="place-content-center px-4">Страница награждения</div>
                       <div className="place-content-center px-4">46</div>
@@ -1138,7 +1138,7 @@ export default function Home() {
             >
               <div className="relative snap-start scroll-smooth">
                 <table className="text-left text-xl text-p1-darkgreen dark:text-p1-green">
-                  <thead className="z-2 sticky top-0 border-b border-p1-green border-opacity-30 bg-p1-white bg-opacity-100 text-xs uppercase text-p1-darkgreen dark:bg-p1-deepdarkgreen dark:text-p1-green">
+                  <thead className="sticky top-0 z-20 border-b border-p1-green/30 bg-p1-white/100 text-xs uppercase text-p1-darkgreen dark:bg-p1-deepdarkgreen dark:text-p1-green">
                     <tr>
                       <th scope="col" className="p-2 text-center">
                         Add to cart
@@ -1312,8 +1312,8 @@ export default function Home() {
                       </th>
                     </tr>
                   </thead>
-                  <tbody className="z-1 w-full scroll-mt-4 place-self-start overflow-auto scroll-smooth text-lg">
-                    <tr className="border-b border-p1-green border-opacity-30 bg-p1-white lining-nums hover:bg-p1-cyan hover:bg-opacity-5 dark:border-p1-green dark:bg-p1-deepdarkgreen">
+                  <tbody className="z-10 w-full scroll-mt-4 place-self-start overflow-auto scroll-smooth text-lg">
+                    <tr className="border-b border-p1-green/30 bg-p1-white lining-nums hover:bg-p1-cyan/5 dark:border-p1-green dark:bg-p1-deepdarkgreen">
                       <th scope="row" className="whitespace-nowrap p-2 font-medium">
                         <div className="flex items-center">
                           <input
@@ -1340,7 +1340,7 @@ export default function Home() {
                               height={500}
                               src="/HeroNFT/RaceLads/RaceLads1.png"
                               alt="RaceLads"
-                              className="-z-1 size-16 object-cover transition-transform duration-500 ease-in-out hover:scale-105"
+                              className="-z-10 size-16 object-cover transition-transform duration-500 ease-in-out hover:scale-105"
                             />
                           </Link>
                         </div>
@@ -1358,14 +1358,14 @@ export default function Home() {
                         <div className="">
                           <Link
                             href="#"
-                            className="inline-block w-max place-content-start rounded-xl border bg-p1-white py-2 text-center text-base text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen hover:border-opacity-15 hover:bg-p1-cyan hover:bg-opacity-25 hover:text-p1-darkgreen focus:border-p1-darkgreen focus:border-opacity-20 focus:bg-p1-cyan focus:text-p1-white lg:px-1 xl:px-1 2xl:px-2 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                            className="inline-block w-max place-content-start rounded-xl border bg-p1-white py-2 text-center text-base text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen/15 hover:bg-p1-cyan/25 hover:text-p1-darkgreen focus:border-p1-darkgreen/20 focus:bg-p1-cyan focus:text-p1-white lg:px-1 xl:px-1 2xl:px-2 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
                           >
                             Сделать предложение
                           </Link>
                         </div>
                       </td>
                     </tr>
-                    <tr className="border-b border-p1-green border-opacity-30 bg-p1-white lining-nums hover:bg-p1-cyan hover:bg-opacity-5 dark:border-p1-green dark:bg-p1-deepdarkgreen">
+                    <tr className="border-b border-p1-green/30 bg-p1-white lining-nums hover:bg-p1-cyan/5 dark:border-p1-green dark:bg-p1-deepdarkgreen">
                       <th scope="row" className="whitespace-nowrap p-2 font-medium">
                         <div className="flex items-center">
                           <input
@@ -1392,7 +1392,7 @@ export default function Home() {
                               height={500}
                               src="/HeroNFT/RaceLads/RaceLads1.png"
                               alt="RaceLads"
-                              className="-z-1 size-16 object-cover transition-transform duration-500 ease-in-out hover:scale-105"
+                              className="-z-10 size-16 object-cover transition-transform duration-500 ease-in-out hover:scale-105"
                             />
                           </Link>
                         </div>
@@ -1410,14 +1410,14 @@ export default function Home() {
                         <div className="">
                           <Link
                             href="#"
-                            className="inline-block w-max place-content-start rounded-xl border bg-p1-white py-2 text-center text-base text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen hover:border-opacity-15 hover:bg-p1-cyan hover:bg-opacity-25 hover:text-p1-darkgreen focus:border-p1-darkgreen focus:border-opacity-20 focus:bg-p1-cyan focus:text-p1-white lg:px-1 xl:px-1 2xl:px-2 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                            className="inline-block w-max place-content-start rounded-xl border bg-p1-white py-2 text-center text-base text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen/15 hover:bg-p1-cyan/25 hover:text-p1-darkgreen focus:border-p1-darkgreen/20 focus:bg-p1-cyan focus:text-p1-white lg:px-1 xl:px-1 2xl:px-2 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
                           >
                             Сделать предложение
                           </Link>
                         </div>
                       </td>
-                    </tr>{' '}
-                    <tr className="border-b border-p1-green border-opacity-30 bg-p1-white lining-nums hover:bg-p1-cyan hover:bg-opacity-5 dark:border-p1-green dark:bg-p1-deepdarkgreen">
+                    </tr>
+                    <tr className="border-b border-p1-green/30 bg-p1-white lining-nums hover:bg-p1-cyan/5 dark:border-p1-green dark:bg-p1-deepdarkgreen">
                       <th scope="row" className="whitespace-nowrap p-2 font-medium">
                         <div className="flex items-center">
                           <input
@@ -1444,7 +1444,7 @@ export default function Home() {
                               height={500}
                               src="/HeroNFT/RaceLads/RaceLads1.png"
                               alt="RaceLads"
-                              className="-z-1 size-16 object-cover transition-transform duration-500 ease-in-out hover:scale-105"
+                              className="-z-10 size-16 object-cover transition-transform duration-500 ease-in-out hover:scale-105"
                             />
                           </Link>
                         </div>
@@ -1462,14 +1462,14 @@ export default function Home() {
                         <div className="">
                           <Link
                             href="#"
-                            className="inline-block w-max place-content-start rounded-xl border bg-p1-white py-2 text-center text-base text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen hover:border-opacity-15 hover:bg-p1-cyan hover:bg-opacity-25 hover:text-p1-darkgreen focus:border-p1-darkgreen focus:border-opacity-20 focus:bg-p1-cyan focus:text-p1-white lg:px-1 xl:px-1 2xl:px-2 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                            className="inline-block w-max place-content-start rounded-xl border bg-p1-white py-2 text-center text-base text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen/15 hover:bg-p1-cyan/25 hover:text-p1-darkgreen focus:border-p1-darkgreen/20 focus:bg-p1-cyan focus:text-p1-white lg:px-1 xl:px-1 2xl:px-2 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
                           >
                             Сделать предложение
                           </Link>
                         </div>
                       </td>
-                    </tr>{' '}
-                    <tr className="border-b border-p1-green border-opacity-30 bg-p1-white lining-nums hover:bg-p1-cyan hover:bg-opacity-5 dark:border-p1-green dark:bg-p1-deepdarkgreen">
+                    </tr>
+                    <tr className="border-b border-p1-green/30 bg-p1-white lining-nums hover:bg-p1-cyan/5 dark:border-p1-green dark:bg-p1-deepdarkgreen">
                       <th scope="row" className="whitespace-nowrap p-2 font-medium">
                         <div className="flex items-center">
                           <input
@@ -1496,7 +1496,7 @@ export default function Home() {
                               height={500}
                               src="/HeroNFT/RaceLads/RaceLads1.png"
                               alt="RaceLads"
-                              className="-z-1 size-16 object-cover transition-transform duration-500 ease-in-out hover:scale-105"
+                              className="-z-10 size-16 object-cover transition-transform duration-500 ease-in-out hover:scale-105"
                             />
                           </Link>
                         </div>
@@ -1514,14 +1514,14 @@ export default function Home() {
                         <div className="">
                           <Link
                             href="#"
-                            className="inline-block w-max place-content-start rounded-xl border bg-p1-white py-2 text-center text-base text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen hover:border-opacity-15 hover:bg-p1-cyan hover:bg-opacity-25 hover:text-p1-darkgreen focus:border-p1-darkgreen focus:border-opacity-20 focus:bg-p1-cyan focus:text-p1-white lg:px-1 xl:px-1 2xl:px-2 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                            className="inline-block w-max place-content-start rounded-xl border bg-p1-white py-2 text-center text-base text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen/15 hover:bg-p1-cyan/25 hover:text-p1-darkgreen focus:border-p1-darkgreen/20 focus:bg-p1-cyan focus:text-p1-white lg:px-1 xl:px-1 2xl:px-2 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
                           >
                             Сделать предложение
                           </Link>
                         </div>
                       </td>
-                    </tr>{' '}
-                    <tr className="border-b border-p1-green border-opacity-30 bg-p1-white lining-nums hover:bg-p1-cyan hover:bg-opacity-5 dark:border-p1-green dark:bg-p1-deepdarkgreen">
+                    </tr>
+                    <tr className="border-b border-p1-green/30 bg-p1-white lining-nums hover:bg-p1-cyan/5 dark:border-p1-green dark:bg-p1-deepdarkgreen">
                       <th scope="row" className="whitespace-nowrap p-2 font-medium">
                         <div className="flex items-center">
                           <input
@@ -1548,7 +1548,7 @@ export default function Home() {
                               height={500}
                               src="/HeroNFT/RaceLads/RaceLads1.png"
                               alt="RaceLads"
-                              className="-z-1 size-16 object-cover transition-transform duration-500 ease-in-out hover:scale-105"
+                              className="-z-10 size-16 object-cover transition-transform duration-500 ease-in-out hover:scale-105"
                             />
                           </Link>
                         </div>
@@ -1566,14 +1566,14 @@ export default function Home() {
                         <div className="">
                           <Link
                             href="#"
-                            className="inline-block w-max place-content-start rounded-xl border bg-p1-white py-2 text-center text-base text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen hover:border-opacity-15 hover:bg-p1-cyan hover:bg-opacity-25 hover:text-p1-darkgreen focus:border-p1-darkgreen focus:border-opacity-20 focus:bg-p1-cyan focus:text-p1-white lg:px-1 xl:px-1 2xl:px-2 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                            className="inline-block w-max place-content-start rounded-xl border bg-p1-white py-2 text-center text-base text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen/15 hover:bg-p1-cyan/25 hover:text-p1-darkgreen focus:border-p1-darkgreen/20 focus:bg-p1-cyan focus:text-p1-white lg:px-1 xl:px-1 2xl:px-2 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
                           >
                             Сделать предложение
                           </Link>
                         </div>
                       </td>
-                    </tr>{' '}
-                    <tr className="border-b border-p1-green border-opacity-30 bg-p1-white lining-nums hover:bg-p1-cyan hover:bg-opacity-5 dark:border-p1-green dark:bg-p1-deepdarkgreen">
+                    </tr>
+                    <tr className="border-b border-p1-green/30 bg-p1-white lining-nums hover:bg-p1-cyan/5 dark:border-p1-green dark:bg-p1-deepdarkgreen">
                       <th scope="row" className="whitespace-nowrap p-2 font-medium">
                         <div className="flex items-center">
                           <input
@@ -1600,7 +1600,7 @@ export default function Home() {
                               height={500}
                               src="/HeroNFT/RaceLads/RaceLads1.png"
                               alt="RaceLads"
-                              className="-z-1 size-16 object-cover transition-transform duration-500 ease-in-out hover:scale-105"
+                              className="-z-10 size-16 object-cover transition-transform duration-500 ease-in-out hover:scale-105"
                             />
                           </Link>
                         </div>
@@ -1618,14 +1618,14 @@ export default function Home() {
                         <div className="">
                           <Link
                             href="#"
-                            className="inline-block w-max place-content-start rounded-xl border bg-p1-white py-2 text-center text-base text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen hover:border-opacity-15 hover:bg-p1-cyan hover:bg-opacity-25 hover:text-p1-darkgreen focus:border-p1-darkgreen focus:border-opacity-20 focus:bg-p1-cyan focus:text-p1-white lg:px-1 xl:px-1 2xl:px-2 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                            className="inline-block w-max place-content-start rounded-xl border bg-p1-white py-2 text-center text-base text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen/15 hover:bg-p1-cyan/25 hover:text-p1-darkgreen focus:border-p1-darkgreen/20 focus:bg-p1-cyan focus:text-p1-white lg:px-1 xl:px-1 2xl:px-2 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
                           >
                             Сделать предложение
                           </Link>
                         </div>
                       </td>
-                    </tr>{' '}
-                    <tr className="border-b border-p1-green border-opacity-30 bg-p1-white lining-nums hover:bg-p1-cyan hover:bg-opacity-5 dark:border-p1-green dark:bg-p1-deepdarkgreen">
+                    </tr>
+                    <tr className="border-b border-p1-green/30 bg-p1-white lining-nums hover:bg-p1-cyan/5 dark:border-p1-green dark:bg-p1-deepdarkgreen">
                       <th scope="row" className="whitespace-nowrap p-2 font-medium">
                         <div className="flex items-center">
                           <input
@@ -1652,7 +1652,7 @@ export default function Home() {
                               height={500}
                               src="/HeroNFT/RaceLads/RaceLads1.png"
                               alt="RaceLads"
-                              className="-z-1 size-16 object-cover transition-transform duration-500 ease-in-out hover:scale-105"
+                              className="-z-10 size-16 object-cover transition-transform duration-500 ease-in-out hover:scale-105"
                             />
                           </Link>
                         </div>
@@ -1670,14 +1670,14 @@ export default function Home() {
                         <div className="">
                           <Link
                             href="#"
-                            className="inline-block w-max place-content-start rounded-xl border bg-p1-white py-2 text-center text-base text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen hover:border-opacity-15 hover:bg-p1-cyan hover:bg-opacity-25 hover:text-p1-darkgreen focus:border-p1-darkgreen focus:border-opacity-20 focus:bg-p1-cyan focus:text-p1-white lg:px-1 xl:px-1 2xl:px-2 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                            className="inline-block w-max place-content-start rounded-xl border bg-p1-white py-2 text-center text-base text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen/15 hover:bg-p1-cyan/25 hover:text-p1-darkgreen focus:border-p1-darkgreen/20 focus:bg-p1-cyan focus:text-p1-white lg:px-1 xl:px-1 2xl:px-2 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
                           >
                             Сделать предложение
                           </Link>
                         </div>
                       </td>
-                    </tr>{' '}
-                    <tr className="border-b border-p1-green border-opacity-30 bg-p1-white lining-nums hover:bg-p1-cyan hover:bg-opacity-5 dark:border-p1-green dark:bg-p1-deepdarkgreen">
+                    </tr>
+                    <tr className="border-b border-p1-green/30 bg-p1-white lining-nums hover:bg-p1-cyan/5 dark:border-p1-green dark:bg-p1-deepdarkgreen">
                       <th scope="row" className="whitespace-nowrap p-2 font-medium">
                         <div className="flex items-center">
                           <input
@@ -1704,7 +1704,7 @@ export default function Home() {
                               height={500}
                               src="/HeroNFT/RaceLads/RaceLads1.png"
                               alt="RaceLads"
-                              className="-z-1 size-16 object-cover transition-transform duration-500 ease-in-out hover:scale-105"
+                              className="-z-10 size-16 object-cover transition-transform duration-500 ease-in-out hover:scale-105"
                             />
                           </Link>
                         </div>
@@ -1722,14 +1722,14 @@ export default function Home() {
                         <div className="">
                           <Link
                             href="#"
-                            className="inline-block w-max place-content-start rounded-xl border bg-p1-white py-2 text-center text-base text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen hover:border-opacity-15 hover:bg-p1-cyan hover:bg-opacity-25 hover:text-p1-darkgreen focus:border-p1-darkgreen focus:border-opacity-20 focus:bg-p1-cyan focus:text-p1-white lg:px-1 xl:px-1 2xl:px-2 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                            className="inline-block w-max place-content-start rounded-xl border bg-p1-white py-2 text-center text-base text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen/15 hover:bg-p1-cyan/25 hover:text-p1-darkgreen focus:border-p1-darkgreen/20 focus:bg-p1-cyan focus:text-p1-white lg:px-1 xl:px-1 2xl:px-2 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
                           >
                             Сделать предложение
                           </Link>
                         </div>
                       </td>
-                    </tr>{' '}
-                    <tr className="border-b border-p1-green border-opacity-30 bg-p1-white lining-nums hover:bg-p1-cyan hover:bg-opacity-5 dark:border-p1-green dark:bg-p1-deepdarkgreen">
+                    </tr>
+                    <tr className="border-b border-p1-green/30 bg-p1-white lining-nums hover:bg-p1-cyan/5 dark:border-p1-green dark:bg-p1-deepdarkgreen">
                       <th scope="row" className="whitespace-nowrap p-2 font-medium">
                         <div className="flex items-center">
                           <input
@@ -1756,7 +1756,7 @@ export default function Home() {
                               height={500}
                               src="/HeroNFT/RaceLads/RaceLads1.png"
                               alt="RaceLads"
-                              className="-z-1 size-16 object-cover transition-transform duration-500 ease-in-out hover:scale-105"
+                              className="-z-10 size-16 object-cover transition-transform duration-500 ease-in-out hover:scale-105"
                             />
                           </Link>
                         </div>
@@ -1774,7 +1774,7 @@ export default function Home() {
                         <div className="">
                           <Link
                             href="#"
-                            className="inline-block w-max place-content-start rounded-xl border bg-p1-white py-2 text-center text-base text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen hover:border-opacity-15 hover:bg-p1-cyan hover:bg-opacity-25 hover:text-p1-darkgreen focus:border-p1-darkgreen focus:border-opacity-20 focus:bg-p1-cyan focus:text-p1-white lg:px-1 xl:px-1 2xl:px-2 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                            className="inline-block w-max place-content-start rounded-xl border bg-p1-white py-2 text-center text-base text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen/15 hover:bg-p1-cyan/25 hover:text-p1-darkgreen focus:border-p1-darkgreen/20 focus:bg-p1-cyan focus:text-p1-white lg:px-1 xl:px-1 2xl:px-2 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
                           >
                             Сделать предложение
                           </Link>
@@ -1794,7 +1794,7 @@ export default function Home() {
               <div className="columns-1 gap-24 md:columns-2 dark:border-p1-green">
                 <div className="relative sm:rounded-lg">
                   <table className="text-left text-xl text-p1-darkgreen dark:text-p1-green">
-                    <thead className="z-1 sticky top-0 border-b-2 border-p1-green border-opacity-20 bg-p1-white text-xs uppercase text-p1-darkgreen dark:bg-p1-deepdarkgreen dark:text-p1-green">
+                    <thead className="sticky top-0 z-10 border-b-2 border-p1-green/20 bg-p1-white text-xs uppercase text-p1-darkgreen dark:bg-p1-deepdarkgreen dark:text-p1-green">
                       <tr>
                         <th scope="col" className="p-2">
                           Rank
@@ -1853,7 +1853,7 @@ export default function Home() {
                       </tr>
                     </thead>
                     <tbody>
-                      <tr className="border-b-2 bg-p1-white hover:bg-p1-cyan hover:bg-opacity-5 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:hover:text-p1-cyan">
+                      <tr className="border-b-2 bg-p1-white hover:bg-p1-cyan/5 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:hover:text-p1-cyan">
                         <td className="px-4 py-2 lining-nums">1</td>
                         <td className="p-2">
                           <div className="relative">
@@ -1872,7 +1872,7 @@ export default function Home() {
                         <td className="px-6 py-4 lining-nums">12.3</td>
                         <td className="px-6 py-4 text-right lining-nums"> 8888</td>
                       </tr>
-                      <tr className="border-b-2 bg-p1-white hover:bg-p1-cyan hover:bg-opacity-5 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:hover:text-p1-cyan">
+                      <tr className="border-b-2 bg-p1-white hover:bg-p1-cyan/5 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:hover:text-p1-cyan">
                         <td className="px-4 py-2 lining-nums">2</td>
                         <td className="p-2">
                           <div className="relative">
@@ -1891,7 +1891,7 @@ export default function Home() {
                         <td className="px-6 py-4 lining-nums">12.3</td>
                         <td className="px-6 py-4 text-right lining-nums"> 8888</td>
                       </tr>
-                      <tr className="border-b-2 bg-p1-white hover:bg-p1-cyan hover:bg-opacity-5 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:hover:text-p1-cyan">
+                      <tr className="border-b-2 bg-p1-white hover:bg-p1-cyan/5 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:hover:text-p1-cyan">
                         <td className="px-4 py-2 lining-nums">3</td>
                         <td className="p-2">
                           <div className="relative">
@@ -1910,7 +1910,7 @@ export default function Home() {
                         <td className="px-6 py-4 lining-nums">12.3</td>
                         <td className="px-6 py-4 text-right lining-nums"> 8888</td>
                       </tr>
-                      <tr className="border-b-2 bg-p1-white hover:bg-p1-cyan hover:bg-opacity-5 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:hover:text-p1-cyan">
+                      <tr className="border-b-2 bg-p1-white hover:bg-p1-cyan/5 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:hover:text-p1-cyan">
                         <td className="px-4 py-2 lining-nums">4</td>
                         <td className="p-2">
                           <div className="relative">
@@ -1929,7 +1929,7 @@ export default function Home() {
                         <td className="px-6 py-4 lining-nums">12.3</td>
                         <td className="px-6 py-4 text-right lining-nums"> 8888</td>
                       </tr>
-                      <tr className="border-b-2 bg-p1-white hover:bg-p1-cyan hover:bg-opacity-5 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:hover:text-p1-cyan">
+                      <tr className="border-b-2 bg-p1-white hover:bg-p1-cyan/5 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:hover:text-p1-cyan">
                         <td className="px-4 py-2 lining-nums">5</td>
                         <td className="p-2">
                           <div className="relative">
@@ -1953,7 +1953,7 @@ export default function Home() {
                 </div>
                 <div className="relative sm:rounded-lg">
                   <table className="text-left text-xl text-p1-darkgreen dark:text-p1-green">
-                    <thead className="z-1 sticky top-0 border-b-2 border-p1-green border-opacity-20 bg-p1-white text-xs uppercase text-p1-darkgreen dark:bg-p1-deepdarkgreen dark:text-p1-green">
+                    <thead className="sticky top-0 z-10 border-b-2 border-p1-green/20 bg-p1-white text-xs uppercase text-p1-darkgreen dark:bg-p1-deepdarkgreen dark:text-p1-green">
                       <tr>
                         <th scope="col" className="p-2">
                           Rank
@@ -2012,7 +2012,7 @@ export default function Home() {
                       </tr>
                     </thead>
                     <tbody>
-                      <tr className="border-b-2 bg-p1-white hover:bg-p1-cyan hover:bg-opacity-5 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:hover:text-p1-cyan">
+                      <tr className="border-b-2 bg-p1-white hover:bg-p1-cyan/5 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:hover:text-p1-cyan">
                         <td className="px-4 py-2 lining-nums">1</td>
                         <td className="p-2">
                           <div className="relative">
@@ -2031,7 +2031,7 @@ export default function Home() {
                         <td className="px-6 py-4 lining-nums">12.3</td>
                         <td className="px-6 py-4 text-right lining-nums"> 8888</td>
                       </tr>
-                      <tr className="border-b-2 bg-p1-white hover:bg-p1-cyan hover:bg-opacity-5 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:hover:text-p1-cyan">
+                      <tr className="border-b-2 bg-p1-white hover:bg-p1-cyan/5 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:hover:text-p1-cyan">
                         <td className="px-4 py-2 lining-nums">2</td>
                         <td className="p-2">
                           <div className="relative">
@@ -2050,7 +2050,7 @@ export default function Home() {
                         <td className="px-6 py-4 lining-nums">12.3</td>
                         <td className="px-6 py-4 text-right lining-nums"> 8888</td>
                       </tr>
-                      <tr className="border-b-2 bg-p1-white hover:bg-p1-cyan hover:bg-opacity-5 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:hover:text-p1-cyan">
+                      <tr className="border-b-2 bg-p1-white hover:bg-p1-cyan/5 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:hover:text-p1-cyan">
                         <td className="px-4 py-2 lining-nums">3</td>
                         <td className="p-2">
                           <div className="relative">
@@ -2069,7 +2069,7 @@ export default function Home() {
                         <td className="px-6 py-4 lining-nums">12.3</td>
                         <td className="px-6 py-4 text-right lining-nums"> 8888</td>
                       </tr>
-                      <tr className="border-b-2 bg-p1-white hover:bg-p1-cyan hover:bg-opacity-5 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:hover:text-p1-cyan">
+                      <tr className="border-b-2 bg-p1-white hover:bg-p1-cyan/5 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:hover:text-p1-cyan">
                         <td className="px-4 py-2 lining-nums">4</td>
                         <td className="p-2">
                           <div className="relative">
@@ -2088,7 +2088,7 @@ export default function Home() {
                         <td className="px-6 py-4 lining-nums">12.3</td>
                         <td className="px-6 py-4 text-right lining-nums"> 8888</td>
                       </tr>
-                      <tr className="border-b-2 bg-p1-white hover:bg-p1-cyan hover:bg-opacity-5 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:hover:text-p1-cyan">
+                      <tr className="border-b-2 bg-p1-white hover:bg-p1-cyan/5 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:hover:text-p1-cyan">
                         <td className="px-4 py-2 lining-nums">5</td>
                         <td className="p-2">
                           <div className="relative">
@@ -2182,7 +2182,7 @@ export default function Home() {
                           className="grid w-4/5 place-content-center rounded-bl-xl border border-p1-darkgreen bg-p1-darkgreen text-center text-sm shadow-lg shadow-p1-cyan transition-all duration-300 ease-in-out hover:border-p1-cyan hover:bg-p1-darkgreen hover:text-p1-white hover:shadow-2xl hover:shadow-p1-cyan md:text-3xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
                         >
                           <div className="grid grid-cols-2 items-center justify-between gap-2">
-                            <div className="leading-2 text-xs">Buy:</div>
+                            <div className="text-xs leading-3">Buy:</div>
                             <div className="text-center text-xs leading-3">
                               <Image
                                 className="relative inline-block w-3 px-0.5"
@@ -2955,7 +2955,7 @@ export default function Home() {
                               className="grid w-full place-content-center rounded-bl-xl border border-p1-darkgreen bg-p2-orange text-center text-sm shadow-lg shadow-p2-red transition-all duration-300 ease-in-out hover:border-p1-cyan hover:bg-p2-red hover:text-p1-white hover:shadow-2xl hover:shadow-p2-red md:text-3xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:border-p1-cyan dark:hover:bg-p2-red dark:hover:text-p1-cyan dark:focus:border-p2-red dark:focus:bg-p2-red dark:focus:text-p1-cyan"
                             >
                               <div className="grid grid-cols-2 items-center justify-between gap-2">
-                                <div className="leading-2 text-base">Delite</div>
+                                <div className="text-base leading-3">Delite</div>
                                 <div className="text-center text-xs leading-3">
                                   <Image
                                     className="relative inline-block w-5 px-0.5"
@@ -3035,7 +3035,7 @@ export default function Home() {
                               className="grid w-full place-content-center rounded-bl-xl border border-p1-darkgreen bg-p2-orange text-center text-sm shadow-lg shadow-p2-red transition-all duration-300 ease-in-out hover:border-p1-cyan hover:bg-p2-red hover:text-p1-white hover:shadow-2xl hover:shadow-p2-red md:text-3xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:border-p1-cyan dark:hover:bg-p2-red dark:hover:text-p1-cyan dark:focus:border-p2-red dark:focus:bg-p2-red dark:focus:text-p1-cyan"
                             >
                               <div className="grid grid-cols-2 items-center justify-between gap-2">
-                                <div className="leading-2 text-base">Delite</div>
+                                <div className="text-base leading-3">Delite</div>
                                 <div className="text-center text-xs leading-3">
                                   <Image
                                     className="relative inline-block w-5 px-0.5"
@@ -3640,7 +3640,7 @@ export default function Home() {
                               className="grid w-full place-content-center rounded-bl-xl border border-p1-darkgreen bg-p2-orange text-center text-sm shadow-lg shadow-p2-red transition-all duration-300 ease-in-out hover:border-p1-cyan hover:bg-p2-red hover:text-p1-white hover:shadow-2xl hover:shadow-p2-red md:text-3xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:border-p1-cyan dark:hover:bg-p2-red dark:hover:text-p1-cyan dark:focus:border-p2-red dark:focus:bg-p2-red dark:focus:text-p1-cyan"
                             >
                               <div className="grid grid-cols-2 items-center justify-between gap-2">
-                                <div className="leading-2 text-base">Delite</div>
+                                <div className="text-base leading-3">Delite</div>
                                 <div className="text-center text-xs leading-3">
                                   <Image
                                     className="relative inline-block w-5 px-0.5"
@@ -3720,7 +3720,7 @@ export default function Home() {
                               className="grid w-full place-content-center rounded-bl-xl border border-p1-darkgreen bg-p2-orange text-center text-sm shadow-lg shadow-p2-red transition-all duration-300 ease-in-out hover:border-p1-cyan hover:bg-p2-red hover:text-p1-white hover:shadow-2xl hover:shadow-p2-red md:text-3xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:border-p1-cyan dark:hover:bg-p2-red dark:hover:text-p1-cyan dark:focus:border-p2-red dark:focus:bg-p2-red dark:focus:text-p1-cyan"
                             >
                               <div className="grid grid-cols-2 items-center justify-between gap-2">
-                                <div className="leading-2 text-base">Delite</div>
+                                <div className="text-base leading-3">Delite</div>
                                 <div className="text-center text-xs leading-3">
                                   <Image
                                     className="relative inline-block w-5 px-0.5"

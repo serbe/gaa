@@ -300,7 +300,7 @@ export default function Page() {
             alt="PromoterLic"
           />
 
-          <p className="text-xm pb-8">Предоставляет доступ на страницу создания NFT наград</p>
+          <p className="pb-8 text-xl">Предоставляет доступ на страницу создания NFT наград</p>
           <Link
             href="/discoverylicense"
             onClick={() => {
@@ -330,7 +330,7 @@ export default function Page() {
             src="/Licenses/Local Lic.png"
             alt="Local Lic"
           />
-          <p className="text-xm pb-8">
+          <p className="pb-8 text-xl">
             Предоставляет право голоса по развитию GAA на национальном и локальном уровнях
           </p>
           <Link
@@ -364,7 +364,7 @@ export default function Page() {
             alt="GlobalLic"
           />
 
-          <p className="text-xm pb-8">
+          <p className="pb-8 text-xl">
             Предоставляет право голоса по развитию GAA на международном уровне
           </p>
           <Link

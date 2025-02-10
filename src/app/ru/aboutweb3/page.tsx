@@ -32,7 +32,7 @@ export default function Page() {
           </div>
         </div>
         <div className="flex flex-row p-2">
-          <div className="basis-4/10 text-p1-darkgreen">
+          <div className="basis-4/12 text-p1-darkgreen">
             <div className="space-y-6 rounded-3xl p-2 md:my-5">
               <div className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
                 Собранная информация содержит ключевые основы направления развития мирового

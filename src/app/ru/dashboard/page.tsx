@@ -194,11 +194,11 @@ export default function Home() {
                       className="w-full"
                     />
                     <div>
-                      <h2 className="spacing-1 text-xl font-bold text-p1-darkgreen xl:text-2xl dark:text-p1-cyan">
+                      <h2 className="text-xl font-bold text-p1-darkgreen xl:text-2xl dark:text-p1-cyan">
                         RaceLads
                       </h2>
-                      <p className="spacing-1 text-p1-darkgreen dark:text-p1-cyan"></p>
-                      <p className="spacing-1 text-p1-darkgreen dark:text-p1-cyan"></p>
+                      <p className="text-p1-darkgreen dark:text-p1-cyan"></p>
+                      <p className="text-p1-darkgreen dark:text-p1-cyan"></p>
                       <button className="w-full place-content-end rounded-md border border-p1-cyan bg-p1-green py-2 text-white hover:bg-p1-darkgreen dark:bg-p1-deepdarkgreen dark:hover:shadow-lg dark:hover:shadow-p1-darkgreen">
                         Explore Collection
                       </button>
@@ -247,10 +247,10 @@ export default function Home() {
                       className="w-full"
                     />
                     <div>
-                      <h2 className="spacing-1 text-xl font-bold text-p1-darkgreen xl:text-2xl dark:text-p1-cyan">
+                      <h2 className="text-xl font-bold text-p1-darkgreen xl:text-2xl dark:text-p1-cyan">
                         Drivers
                       </h2>
-                      <p className="spacing-1 text-p1-darkgreen dark:text-p1-cyan"></p>
+                      <p className="text-p1-darkgreen dark:text-p1-cyan"></p>
                       <button className="w-full place-content-end rounded-md border border-p1-cyan bg-p1-green py-2 text-white hover:bg-p1-darkgreen dark:bg-p1-deepdarkgreen dark:hover:shadow-lg dark:hover:shadow-p1-darkgreen">
                         Explore Collection
                       </button>
@@ -298,11 +298,11 @@ export default function Home() {
                       className="w-full"
                     />
                     <div>
-                      <h2 className="spacing-1 text-xl font-bold text-p1-darkgreen xl:text-2xl dark:text-p1-cyan">
+                      <h2 className="text-xl font-bold text-p1-darkgreen xl:text-2xl dark:text-p1-cyan">
                         Team&apos;s Members
                       </h2>
 
-                      <p className="spacing-1 text-p1-darkgreen dark:text-p1-cyan"></p>
+                      <p className="text-p1-darkgreen dark:text-p1-cyan"></p>
                       <button className="w-full place-content-end rounded-md border border-p1-cyan bg-p1-green py-2 text-white hover:bg-p1-darkgreen dark:bg-p1-deepdarkgreen dark:hover:shadow-lg dark:hover:shadow-p1-darkgreen">
                         Explore Collection
                       </button>
@@ -350,10 +350,10 @@ export default function Home() {
                       className="w-full"
                     />
                     <div>
-                      <h2 className="spacing-1 text-xl font-bold text-p1-darkgreen xl:text-2xl dark:text-p1-cyan">
+                      <h2 className="text-xl font-bold text-p1-darkgreen xl:text-2xl dark:text-p1-cyan">
                         Collectors
                       </h2>
-                      <p className="spacing-1 text-p1-darkgreen dark:text-p1-cyan"></p>
+                      <p className="text-p1-darkgreen dark:text-p1-cyan"></p>
                       <button className="w-full place-content-end rounded-md border border-p1-cyan bg-p1-green py-2 text-white hover:bg-p1-darkgreen dark:bg-p1-deepdarkgreen dark:hover:shadow-lg dark:hover:shadow-p1-darkgreen">
                         Explore Collection
                       </button>
@@ -401,11 +401,11 @@ export default function Home() {
                       className="w-full"
                     />
                     <div>
-                      <h2 className="spacing-1 text-xl font-bold text-p1-darkgreen xl:text-2xl dark:text-p1-cyan">
+                      <h2 className="text-xl font-bold text-p1-darkgreen xl:text-2xl dark:text-p1-cyan">
                         Cars
                       </h2>
-                      <p className="spacing-1 text-p1-darkgreen dark:text-p1-cyan"></p>
-                      <p className="spacing-1 text-p1-darkgreen dark:text-p1-cyan"></p>
+                      <p className="text-p1-darkgreen dark:text-p1-cyan"></p>
+                      <p className="text-p1-darkgreen dark:text-p1-cyan"></p>
                       <button className="w-full place-content-end rounded-md border border-p1-cyan bg-p1-green py-2 text-white hover:bg-p1-darkgreen dark:bg-p1-deepdarkgreen dark:hover:shadow-lg dark:hover:shadow-p1-darkgreen">
                         Explore Collection
                       </button>
@@ -453,11 +453,11 @@ export default function Home() {
                       className="w-full"
                     />
                     <div>
-                      <h2 className="spacing-1 text-xl font-bold text-p1-darkgreen xl:text-2xl dark:text-p1-cyan">
+                      <h2 className="text-xl font-bold text-p1-darkgreen xl:text-2xl dark:text-p1-cyan">
                         Custom Lads
                       </h2>
-                      <p className="spacing-1 text-p1-darkgreen dark:text-p1-cyan"></p>
-                      <p className="spacing-1 text-p1-darkgreen dark:text-p1-cyan"></p>
+                      <p className="text-p1-darkgreen dark:text-p1-cyan"></p>
+                      <p className="text-p1-darkgreen dark:text-p1-cyan"></p>
                       <button className="w-full place-content-end rounded-md border border-p1-cyan bg-p1-green py-2 text-white hover:bg-p1-darkgreen dark:bg-p1-deepdarkgreen dark:hover:shadow-lg dark:hover:shadow-p1-darkgreen">
                         Explore Collection
                       </button>
@@ -505,11 +505,11 @@ export default function Home() {
                       className="w-full"
                     />
                     <div>
-                      <h2 className="spacing-1 text-xl font-bold text-p1-darkgreen xl:text-2xl dark:text-p1-cyan">
+                      <h2 className="text-xl font-bold text-p1-darkgreen xl:text-2xl dark:text-p1-cyan">
                         Awards
                       </h2>
-                      <p className="spacing-1 text-p1-darkgreen dark:text-p1-cyan"></p>
-                      <p className="spacing-1 text-p1-darkgreen dark:text-p1-cyan"></p>
+                      <p className="text-p1-darkgreen dark:text-p1-cyan"></p>
+                      <p className="text-p1-darkgreen dark:text-p1-cyan"></p>
                       <button className="w-full place-content-end rounded-md border border-p1-cyan bg-p1-green py-2 text-white hover:bg-p1-darkgreen dark:bg-p1-deepdarkgreen dark:hover:shadow-lg dark:hover:shadow-p1-darkgreen">
                         Explore Collection
                       </button>
@@ -557,11 +557,11 @@ export default function Home() {
                       className="w-full"
                     />
                     <div>
-                      <h2 className="spacing-1 text-xl font-bold text-p1-darkgreen xl:text-2xl dark:text-p1-cyan">
+                      <h2 className="text-xl font-bold text-p1-darkgreen xl:text-2xl dark:text-p1-cyan">
                         Licenses
                       </h2>
-                      <p className="spacing-1 text-p1-darkgreen dark:text-p1-cyan"></p>
-                      <p className="spacing-1 text-p1-darkgreen dark:text-p1-cyan"></p>
+                      <p className="text-p1-darkgreen dark:text-p1-cyan"></p>
+                      <p className="text-p1-darkgreen dark:text-p1-cyan"></p>
                       <button className="w-full place-content-end rounded-md border border-p1-cyan bg-p1-green py-2 text-white hover:bg-p1-darkgreen dark:bg-p1-deepdarkgreen dark:hover:shadow-lg dark:hover:shadow-p1-darkgreen">
                         Explore Collection
                       </button>

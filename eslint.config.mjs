@@ -69,6 +69,8 @@ const eslintConfig = [
     settings: {
       tailwindcss: {
         callees: ['mySwyper'],
+        removeDuplicates: true,
+        whitelist: ['mySwyper'],
       },
     },
   },

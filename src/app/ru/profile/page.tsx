@@ -45,8 +45,8 @@ export default function Page() {
                     alt="Bordered avatar"
                   />
 
-                  <div className="m-0.1 invisible absolute left-9 z-10 mt-2 w-72 -translate-x-1/2 rounded-xl bg-p1-white bg-opacity-30 bg-center p-4 text-gray-800 opacity-0 shadow-xl backdrop-blur-lg transition-all duration-100 group-hover:visible group-hover:border-opacity-70 group-hover:bg-opacity-30 group-hover:opacity-100 md:w-80">
-                    <div className="rounded-md border-2 border-p1-darkgreen border-opacity-50 bg-p1-cyan bg-opacity-100">
+                  <div className="invisible absolute left-9 z-10 m-0.5 mt-2 w-72 -translate-x-1/2 rounded-xl bg-p1-white/30 bg-center p-4 text-gray-800 opacity-0 shadow-xl backdrop-blur-lg transition-all duration-100 group-hover:visible group-hover:border-opacity-70 group-hover:bg-opacity-30 group-hover:opacity-100 md:w-80">
+                    <div className="rounded-md border-2 border-p1-darkgreen/50 bg-p1-cyan/100">
                       <div className="border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white/50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
                         <Link href="/profile" className="mx-auto flex flex-row justify-start">
                           <Image
@@ -188,7 +188,7 @@ export default function Page() {
         <div className="-my-4 place-items-start p-1">
           <div
             id="2"
-            className="my-8 w-full place-self-center rounded-2xl bg-p1-white bg-opacity-30 md:w-4/6 xl:-my-96 xl:w-2/6"
+            className="my-8 w-full place-self-center rounded-2xl bg-p1-white/30 md:w-4/6 xl:-my-96 xl:w-2/6"
           >
             <div className="flex flex-wrap justify-center md:flex-nowrap md:justify-between">
               <div className="px-2 text-2xl font-semibold text-stone-400 md:pt-2 md:text-4xl dark:text-p1-darkgreen">
@@ -198,7 +198,7 @@ export default function Page() {
                 Профиль
               </div>
             </div>
-            <div className="m-4 rounded-3xl border-stone-400 bg-p1-white bg-opacity-75 p-4 md:border-4 md:shadow-lg dark:border-stone-900 dark:bg-p1-deepdarkgreen">
+            <div className="m-4 rounded-3xl border-stone-400 bg-p1-white/75 p-4 md:border-4 md:shadow-lg dark:border-stone-900 dark:bg-p1-deepdarkgreen">
               <div className="grid grid-cols-1 gap-4 md:w-full xl:grid-cols-2">
                 <div>
                   <div>
