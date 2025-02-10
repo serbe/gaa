@@ -31,109 +31,123 @@ export default function Home() {
           {/* кошелек, профиль, корзина */}
           <div className="flex justify-end space-x-6 px-2 md:px-10">
             <div>
-              <Link href="#" className="mx-auto justify-center">
+              <a href="#" className="mx-auto justify-center">
                 <Image
-                  className="size-10 rounded-lg p-1 ring-p1-green transition-all delay-75 duration-300 ease-in-out hover:bg-p1-white/50 hover:ring-2 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:hover:bg-p1-deepdarkgreen"
+                  className="size-10 rounded-lg p-1 ring-p1-green transition-all delay-75 duration-100 ease-in-out hover:bg-p1-white/50 hover:ring-2 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:hover:bg-p1-deepdarkgreen"
                   width={480}
                   height={480}
                   src="/Logo/wallet-nft.png"
                   alt="Bordered avatar"
                 />
-              </Link>
+              </a>
             </div>
 
             <div className="group relative inline-block">
-              <Link href="#" className="mx-auto justify-center">
+              <div className="mx-auto justify-center">
                 <Image
-                  className="size-10 rounded-full p-1 ring-p1-green transition-all delay-75 duration-300 ease-in-out hover:bg-p1-white/50 hover:ring-2 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:hover:bg-p1-deepdarkgreen"
+                  className="size-10 rounded-full p-1 ring-p1-green transition-all delay-75 duration-100 ease-in-out hover:bg-p1-white/50 hover:ring-2 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:hover:bg-p1-deepdarkgreen"
                   width={480}
                   height={480}
                   src="/Logo/user.png"
                   alt="Bordered avatar"
                 />
 
-                <div className="invisible absolute left-1/2 z-10 mt-2 w-40 -translate-x-1/2 rounded-xl bg-p1-cyan bg-center p-4 text-gray-800 opacity-0 shadow-lg transition-all duration-300 group-hover:visible group-hover:opacity-100 md:w-52">
-                  <div className="rounded-lg border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white/50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
-                    <Link href={'/profile'} className="mx-auto justify-center">
-                      <Image
-                        className="size-10"
-                        width={480}
-                        height={480}
-                        src="/icon/NFT_user_green.png"
-                        alt="Bordered avatar"
-                      />
-                      Profile
-                    </Link>
-                  </div>
-                  <div className="rounded-lg border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white/50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
-                    <Link href={'/dashboard'} className="mx-auto justify-center">
-                      <Image
-                        className="size-10"
-                        width={480}
-                        height={480}
-                        src="/icon/more.png"
-                        alt="Bordered avatar"
-                      />
-                      Dashboard
-                    </Link>
-                  </div>
-                  <div className="rounded-lg border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white/50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
-                    <Link href={'/marketplace'} className="mx-auto justify-center">
-                      <Image
-                        className="size-10"
-                        width={480}
-                        height={480}
-                        src="/Logo/shopping-cart.png"
-                        alt="Bordered avatar"
-                      />
-                      Marketplace
-                    </Link>
-                  </div>
-                  <div className="rounded-lg border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white/50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
-                    <Link href={'/mynfts'} className="mx-auto justify-center">
-                      <Image
-                        className="size-10"
-                        width={480}
-                        height={480}
-                        src="/icon/NFT-col.png"
-                        alt="Bordered avatar"
-                      />
-                      My NFT
-                    </Link>
-                  </div>
+                <div className="invisible absolute left-9 z-10 m-0.5 mt-2 w-72 -translate-x-1/2 rounded-xl bg-p1-white/30 bg-center p-4 text-gray-800 opacity-0 shadow-xl backdrop-blur-lg transition-all duration-100 group-hover:visible group-hover:border-opacity-70 group-hover:bg-opacity-30 group-hover:opacity-100 md:w-80">
+                  <div className="rounded-md border-2 border-p1-darkgreen/50 bg-p1-cyan/30 dark:bg-p1-cyan/100">
+                    <div className="border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white/50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
+                      <Link href="/profile" className="mx-auto flex flex-row justify-start">
+                        <Image
+                          className="size-6 self-center"
+                          width={480}
+                          height={480}
+                          src="/icon/NFT_user_green.png"
+                          alt="Bordered avatar"
+                        />
 
-                  <div className="rounded-lg border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white/50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
-                    <Link href="#" className="mx-auto justify-center">
-                      <Image
-                        className="size-10"
-                        width={480}
-                        height={480}
-                        src="/icon/view_green.png"
-                        alt="Bordered avatar"
-                      />
-                      Watchlist
-                    </Link>
-                  </div>
-
-                  <div className="rounded-lg border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white/50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
-                    <Link href="#" className="mx-auto justify-center">
-                      <Image
-                        className="size-10"
-                        width={480}
-                        height={480}
-                        src="/icon/hand_shake_green.png"
-                        alt="Bordered avatar"
-                      />
-                      Deals
-                    </Link>
+                        <div className="self-center px-2">Profile </div>
+                      </Link>
+                    </div>
+                    <div className="border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white/50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
+                      <Link href="/mynfts" className="mx-auto flex flex-row justify-start">
+                        <Image
+                          className="size-6 self-center"
+                          width={480}
+                          height={480}
+                          src="/icon/NFT-col.png"
+                          alt="Bordered avatar"
+                        />
+                        <div className="self-center px-2"> My NFT </div>
+                      </Link>
+                    </div>
+                    <div className="border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white/50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
+                      <Link href="#" className="mx-auto flex flex-row justify-start">
+                        <Image
+                          className="size-6 self-center"
+                          width={480}
+                          height={480}
+                          src="/icon/view_green.png"
+                          alt="Bordered avatar"
+                        />
+                        <div className="self-center px-2"> Watchlist</div>
+                      </Link>
+                    </div>
+                    <div className="border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white/50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
+                      <Link href="#" className="mx-auto flex flex-row justify-start">
+                        <Image
+                          className="size-6 self-center"
+                          width={480}
+                          height={480}
+                          src="/icon/hand_shake_green.png"
+                          alt="Bordered avatar"
+                        />
+                        <div className="self-center px-2"> Deals</div>
+                      </Link>
+                    </div>
+                    <div className="border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white/50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
+                      <Link href="#" className="mx-auto flex flex-row justify-start">
+                        <Image
+                          className="size-6 self-center"
+                          width={480}
+                          height={480}
+                          src="/icon/refresh_green.png"
+                          alt="bt9"
+                        />
+                        <div className="self-center px-2"> Refresh Metadata</div>
+                      </Link>
+                    </div>
+                    <div className="border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white/50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
+                      <Link href="#" className="mx-auto flex flex-row justify-start">
+                        <Image
+                          className="size-6 self-center"
+                          width={480}
+                          height={480}
+                          src="/icon/description_green.png"
+                          alt="bt9"
+                        />
+                        <div className="self-center px-2"> Report</div>
+                      </Link>
+                    </div>
                   </div>
                 </div>
-              </Link>
+              </div>
+            </div>
+            <div className="w-10">
+              <div className="group relative inline-block">
+                <Link href="#" className="mx-auto">
+                  <Image
+                    className="size-10 rounded-lg p-1 ring-p1-green transition-all delay-75 duration-100 ease-in-out hover:bg-p1-white/50 hover:ring-2 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:hover:bg-p1-deepdarkgreen"
+                    width={480}
+                    height={480}
+                    src="/icon/share_green.png"
+                    alt="bt16"
+                  />
+                </Link>
+              </div>
             </div>
             <div>
               <Link href="#" className="mx-auto justify-center">
                 <Image
-                  className="size-10 rounded-lg p-1 ring-p1-green transition-all delay-75 duration-300 ease-in-out hover:bg-p1-white/50 hover:ring-2 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:hover:bg-p1-deepdarkgreen"
+                  className="size-10 rounded-lg p-1 ring-p1-green transition-all delay-75 duration-100 ease-in-out hover:bg-p1-white/50 hover:ring-2 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:hover:bg-p1-deepdarkgreen"
                   width={480}
                   height={480}
                   src="/Logo/shopping-cart.png"
@@ -695,76 +709,7 @@ export default function Home() {
                   </div>
                 </div>
 
-                <div className="flex justify-end md:px-10">
-                  <div className="inline-flex w-full justify-end space-x-6 rounded-md" role="group">
-                    <div className="w-10">
-                      <Link href="#" className="mx-auto justify-center">
-                        <Image
-                          className="size-10 rounded-xl p-0 transition-all delay-75 duration-300 ease-in-out hover:ring-1 hover:ring-p1-green dark:ring-p1-green dark:hover:ring-p1-cyan"
-                          width={480}
-                          height={480}
-                          src="/icon/hand_shake_green.png"
-                          alt="line"
-                        />
-                      </Link>
-                    </div>
-                    <div className="w-10">
-                      <div className="group relative inline-block">
-                        <Link href="#" className="mx-auto justify-center">
-                          <Image
-                            className="size-10 rounded-xl p-1 transition-all delay-75 duration-300 ease-in-out hover:ring-1 hover:ring-p1-green dark:ring-p1-green dark:hover:ring-p1-cyan"
-                            width={480}
-                            height={480}
-                            src="/icon/share_green.png"
-                            alt="bt16"
-                          />
-                        </Link>
-                      </div>
-                    </div>
-                    <div className="w-10">
-                      <div className="w-10">
-                        <div className="group relative inline-block">
-                          <Link href="#" className="mx-auto justify-center">
-                            <Image
-                              className="size-10 rounded-xl p-1 transition-all delay-75 duration-300 ease-in-out hover:ring-1 hover:ring-p1-green dark:ring-p1-green dark:hover:ring-p1-cyan"
-                              width={480}
-                              height={480}
-                              src="/icon/points_green.png"
-                              alt="bt9"
-                            />
-
-                            <div className="invisible absolute left-1/2 z-10 mt-2 w-60 -translate-x-1/2 rounded-xl bg-p1-cyan bg-center p-4 text-gray-800 opacity-0 shadow-lg transition-all duration-300 group-hover:visible group-hover:opacity-100 md:w-60">
-                              <div className="rounded-lg border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white/50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
-                                <Link href="#" className="mx-auto justify-center">
-                                  <Image
-                                    className="size-10"
-                                    width={480}
-                                    height={480}
-                                    src="/icon/refresh_green.png"
-                                    alt="bt9"
-                                  />
-                                  Refresh Metadata
-                                </Link>
-                              </div>
-                              <div className="rounded-lg border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white/50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
-                                <Link href="#" className="mx-auto justify-center">
-                                  <Image
-                                    className="size-10"
-                                    width={480}
-                                    height={480}
-                                    src="/icon/description_green.png"
-                                    alt="bt9"
-                                  />
-                                  Report
-                                </Link>
-                              </div>
-                            </div>
-                          </Link>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+                <div className="flex justify-end md:px-10"></div>
               </div>
             </div>
 

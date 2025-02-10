@@ -128,18 +128,6 @@ export default function Home() {
                           <div className="self-center px-2"> Report</div>
                         </Link>
                       </div>
-                      <div className="border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white/50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
-                        <Link href="#" className="mx-auto flex flex-row justify-start">
-                          <Image
-                            className="size-6 self-center"
-                            width={480}
-                            height={480}
-                            src="/icon/share_green.png"
-                            alt="bt16"
-                          />
-                          <div className="self-center px-2"> Share</div>
-                        </Link>
-                      </div>
                     </div>
                   </div>
                 </div>
@@ -246,9 +234,7 @@ export default function Home() {
               </div>
               <div className="rounded-2xl hover:bg-p1-green/20">
                 <Link href="#" className="">
-                  <p className="pt-1 text-xl font-thin lining-nums md:px-2 md:text-2xl">
-                    Created:
-                  </p>
+                  <p className="pt-1 text-xl font-thin lining-nums md:px-2 md:text-2xl">Created:</p>
                   <p className="pt-1 text-xl font-thin lining-nums md:px-2 md:text-2xl">9988 </p>
                 </Link>
               </div>
