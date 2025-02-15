@@ -55,7 +55,7 @@ export default function Home() {
 
                   <div className="invisible absolute left-9 z-10 m-0.5 mt-2 w-72 -translate-x-1/2 rounded-xl bg-p1-white/30 bg-center p-4 text-gray-800 opacity-0 shadow-xl backdrop-blur-lg transition-all duration-100 group-hover:visible group-hover:border-opacity-70 group-hover:bg-opacity-30 group-hover:opacity-100 md:w-80">
                     <div className="rounded-md border-2 border-p1-darkgreen/50 bg-p1-cyan/100">
-                      <div className="border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white/50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
+                      <div className="border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-100 ease-in-out hover:bg-p1-white/50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
                         <Link href="/profile" className="mx-auto flex flex-row justify-start">
                           <Image
                             className="size-6 self-center"
@@ -68,7 +68,7 @@ export default function Home() {
                           <div className="self-center px-2">Profile </div>
                         </Link>
                       </div>
-                      <div className="border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white/50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
+                      <div className="border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-100 ease-in-out hover:bg-p1-white/50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
                         <Link href="/mynfts" className="mx-auto flex flex-row justify-start">
                           <Image
                             className="size-6 self-center"
@@ -80,7 +80,7 @@ export default function Home() {
                           <div className="self-center px-2"> My NFT </div>
                         </Link>
                       </div>
-                      <div className="border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white/50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
+                      <div className="border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-100 ease-in-out hover:bg-p1-white/50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
                         <Link href="#" className="mx-auto flex flex-row justify-start">
                           <Image
                             className="size-6 self-center"
@@ -92,7 +92,7 @@ export default function Home() {
                           <div className="self-center px-2"> Watchlist</div>
                         </Link>
                       </div>
-                      <div className="border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white/50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
+                      <div className="border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-100 ease-in-out hover:bg-p1-white/50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
                         <Link href="#" className="mx-auto flex flex-row justify-start">
                           <Image
                             className="size-6 self-center"
@@ -104,7 +104,7 @@ export default function Home() {
                           <div className="self-center px-2"> Deals</div>
                         </Link>
                       </div>
-                      <div className="border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white/50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
+                      <div className="border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-100 ease-in-out hover:bg-p1-white/50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
                         <Link href="#" className="mx-auto flex flex-row justify-start">
                           <Image
                             className="size-6 self-center"
@@ -116,7 +116,7 @@ export default function Home() {
                           <div className="self-center px-2"> Refresh Metadata</div>
                         </Link>
                       </div>
-                      <div className="border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white/50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
+                      <div className="border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-100 ease-in-out hover:bg-p1-white/50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
                         <Link href="#" className="mx-auto flex flex-row justify-start">
                           <Image
                             className="size-6 self-center"
@@ -614,7 +614,7 @@ export default function Home() {
                   <div>
                     <Link
                       href="#"
-                      className="relative flex place-content-center rounded-b-xl border border-p1-green bg-p1-white p-2 text-p1-darkgreen transition-all duration-300 ease-in-out hover:border-p1-darkgreen hover:bg-p1-cyan/10 hover:text-p1-darkgreen hover:shadow-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan"
+                      className="relative flex place-content-center rounded-b-xl border border-p1-green bg-p1-white p-2 text-p1-darkgreen transition-all duration-100 ease-in-out hover:border-p1-darkgreen hover:bg-p1-cyan/10 hover:text-p1-darkgreen hover:shadow-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan"
                     >
                       <div className="px-4">Apply</div>
                     </Link>
@@ -657,7 +657,7 @@ export default function Home() {
                   <div>
                     <Link
                       href="#"
-                      className="relative flex place-content-center rounded-b-xl border border-p1-green bg-p1-white p-2 text-p1-darkgreen transition-all duration-300 ease-in-out hover:border-p1-darkgreen hover:bg-p1-cyan/10 hover:text-p1-darkgreen hover:shadow-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan"
+                      className="relative flex place-content-center rounded-b-xl border border-p1-green bg-p1-white p-2 text-p1-darkgreen transition-all duration-100 ease-in-out hover:border-p1-darkgreen hover:bg-p1-cyan/10 hover:text-p1-darkgreen hover:shadow-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan"
                     >
                       <div className="px-4">Apply</div>
                     </Link>
@@ -734,7 +734,7 @@ export default function Home() {
               </details>
             </div>
             {/* Тraits*/}
-            <div className="w-full place-content-center px-6 py-4 text-xl font-bold text-p1-darkgreen dark:text-p1-green">
+            <div className="w-full place-content-center p-2 text-xl font-bold text-p1-darkgreen dark:text-p1-green">
               Traits
             </div>
             <div className="">
@@ -952,7 +952,7 @@ export default function Home() {
               </div>
             </div>
             {/* For Promoter/Local/Global licenses*/}
-            <div className="w-full place-content-center px-6 py-4 text-xl font-bold text-p1-darkgreen dark:text-p1-green">
+            <div className="w-full place-content-center p-2 text-xl font-bold text-p1-darkgreen dark:text-p1-green">
               For Promoter/Local/Global licenses
             </div>
             <div className="">
@@ -1854,9 +1854,9 @@ export default function Home() {
                             </Link>
                           </div>
                         </td>
-                        <td className="px-6 py-4">RaceLads</td>
-                        <td className="px-6 py-4 lining-nums">12.3</td>
-                        <td className="px-6 py-4 text-right lining-nums"> 8888</td>
+                        <td className="p-2">RaceLads</td>
+                        <td className="p-2 lining-nums">12.3</td>
+                        <td className="p-2 text-right lining-nums"> 8888</td>
                       </tr>
                       <tr className="border-b-2 bg-p1-white hover:bg-p1-cyan/5 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:hover:text-p1-cyan">
                         <td className="px-4 py-2 lining-nums">2</td>
@@ -1873,9 +1873,9 @@ export default function Home() {
                             </Link>
                           </div>
                         </td>
-                        <td className="px-6 py-4">Drivers</td>
-                        <td className="px-6 py-4 lining-nums">12.3</td>
-                        <td className="px-6 py-4 text-right lining-nums"> 8888</td>
+                        <td className="p-2">Drivers</td>
+                        <td className="p-2 lining-nums">12.3</td>
+                        <td className="p-2 text-right lining-nums"> 8888</td>
                       </tr>
                       <tr className="border-b-2 bg-p1-white hover:bg-p1-cyan/5 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:hover:text-p1-cyan">
                         <td className="px-4 py-2 lining-nums">3</td>
@@ -1892,9 +1892,9 @@ export default function Home() {
                             </Link>
                           </div>
                         </td>
-                        <td className="px-6 py-4">Team's members</td>
-                        <td className="px-6 py-4 lining-nums">12.3</td>
-                        <td className="px-6 py-4 text-right lining-nums"> 8888</td>
+                        <td className="p-2">Team's members</td>
+                        <td className="p-2 lining-nums">12.3</td>
+                        <td className="p-2 text-right lining-nums"> 8888</td>
                       </tr>
                       <tr className="border-b-2 bg-p1-white hover:bg-p1-cyan/5 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:hover:text-p1-cyan">
                         <td className="px-4 py-2 lining-nums">4</td>
@@ -1911,9 +1911,9 @@ export default function Home() {
                             </Link>
                           </div>
                         </td>
-                        <td className="px-6 py-4">Collectors</td>
-                        <td className="px-6 py-4 lining-nums">12.3</td>
-                        <td className="px-6 py-4 text-right lining-nums"> 8888</td>
+                        <td className="p-2">Collectors</td>
+                        <td className="p-2 lining-nums">12.3</td>
+                        <td className="p-2 text-right lining-nums"> 8888</td>
                       </tr>
                       <tr className="border-b-2 bg-p1-white hover:bg-p1-cyan/5 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:hover:text-p1-cyan">
                         <td className="px-4 py-2 lining-nums">5</td>
@@ -1930,9 +1930,9 @@ export default function Home() {
                             </Link>
                           </div>
                         </td>
-                        <td className="px-6 py-4">Cars</td>
-                        <td className="px-6 py-4 lining-nums">12.3</td>
-                        <td className="px-6 py-4 text-right lining-nums"> 8888</td>
+                        <td className="p-2">Cars</td>
+                        <td className="p-2 lining-nums">12.3</td>
+                        <td className="p-2 text-right lining-nums"> 8888</td>
                       </tr>
                     </tbody>
                   </table>
@@ -2013,9 +2013,9 @@ export default function Home() {
                             </Link>
                           </div>
                         </td>
-                        <td className="px-6 py-4">CustomLads</td>
-                        <td className="px-6 py-4 lining-nums">12.3</td>
-                        <td className="px-6 py-4 text-right lining-nums"> 8888</td>
+                        <td className="p-2">CustomLads</td>
+                        <td className="p-2 lining-nums">12.3</td>
+                        <td className="p-2 text-right lining-nums"> 8888</td>
                       </tr>
                       <tr className="border-b-2 bg-p1-white hover:bg-p1-cyan/5 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:hover:text-p1-cyan">
                         <td className="px-4 py-2 lining-nums">2</td>
@@ -2032,9 +2032,9 @@ export default function Home() {
                             </Link>
                           </div>
                         </td>
-                        <td className="px-6 py-4">Drivers</td>
-                        <td className="px-6 py-4 lining-nums">12.3</td>
-                        <td className="px-6 py-4 text-right lining-nums"> 8888</td>
+                        <td className="p-2">Drivers</td>
+                        <td className="p-2 lining-nums">12.3</td>
+                        <td className="p-2 text-right lining-nums"> 8888</td>
                       </tr>
                       <tr className="border-b-2 bg-p1-white hover:bg-p1-cyan/5 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:hover:text-p1-cyan">
                         <td className="px-4 py-2 lining-nums">3</td>
@@ -2051,9 +2051,9 @@ export default function Home() {
                             </Link>
                           </div>
                         </td>
-                        <td className="px-6 py-4">Promoter License</td>
-                        <td className="px-6 py-4 lining-nums">12.3</td>
-                        <td className="px-6 py-4 text-right lining-nums"> 8888</td>
+                        <td className="p-2">Promoter License</td>
+                        <td className="p-2 lining-nums">12.3</td>
+                        <td className="p-2 text-right lining-nums"> 8888</td>
                       </tr>
                       <tr className="border-b-2 bg-p1-white hover:bg-p1-cyan/5 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:hover:text-p1-cyan">
                         <td className="px-4 py-2 lining-nums">4</td>
@@ -2070,9 +2070,9 @@ export default function Home() {
                             </Link>
                           </div>
                         </td>
-                        <td className="px-6 py-4">Local License</td>
-                        <td className="px-6 py-4 lining-nums">12.3</td>
-                        <td className="px-6 py-4 text-right lining-nums"> 8888</td>
+                        <td className="p-2">Local License</td>
+                        <td className="p-2 lining-nums">12.3</td>
+                        <td className="p-2 text-right lining-nums"> 8888</td>
                       </tr>
                       <tr className="border-b-2 bg-p1-white hover:bg-p1-cyan/5 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:hover:text-p1-cyan">
                         <td className="px-4 py-2 lining-nums">5</td>
@@ -2089,9 +2089,9 @@ export default function Home() {
                             </Link>
                           </div>
                         </td>
-                        <td className="px-6 py-4">Global License</td>
-                        <td className="px-6 py-4 lining-nums">12.3</td>
-                        <td className="px-6 py-4 text-right lining-nums"> 8888</td>
+                        <td className="p-2">Global License</td>
+                        <td className="p-2 lining-nums">12.3</td>
+                        <td className="p-2 text-right lining-nums"> 8888</td>
                       </tr>
                     </tbody>
                   </table>
@@ -2102,9 +2102,9 @@ export default function Home() {
             {/* ... маленькие карточки  ... */}
             <div id="area3" className={`${currentVisibleArea == 3 ? '' : 'hidden'}`}>
               <div className="flex gap-4">
-                <div className="group relative h-[14.5rem] w-40 place-self-center overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-300 hover:shadow-lg hover:shadow-p1-cyan group-hover:shadow-sm dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
+                <div className="group relative h-[14.5rem] w-40 place-self-center overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-100 hover:shadow-lg hover:shadow-p1-cyan group-hover:shadow-sm dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
                   <div>
-                    <div className="group invisible absolute right-1 top-1 z-10 inline-block duration-300 ease-in-out group-hover:visible group-hover:opacity-100">
+                    <div className="group invisible absolute right-1 top-1 z-10 inline-block duration-100 ease-in-out group-hover:visible group-hover:opacity-100">
                       <Link
                         href="#"
                         className="z-50 grid w-6 place-content-center transition-all delay-75 duration-100 ease-in-out hover:scale-125"
@@ -2165,7 +2165,7 @@ export default function Home() {
                       <div className="inline-flex h-8 w-40 justify-center text-sm" role="group">
                         <Link
                           href="#"
-                          className="grid w-4/5 place-content-center rounded-bl-xl border border-p1-darkgreen bg-p1-darkgreen text-center text-sm shadow-lg shadow-p1-cyan transition-all duration-300 ease-in-out hover:border-p1-cyan hover:bg-p1-darkgreen hover:text-p1-white hover:shadow-2xl hover:shadow-p1-cyan md:text-3xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                          className="grid w-4/5 place-content-center rounded-bl-xl border border-p1-darkgreen bg-p1-darkgreen text-center text-sm shadow-lg shadow-p1-cyan transition-all duration-100 ease-in-out hover:border-p1-cyan hover:bg-p1-darkgreen hover:text-p1-white hover:shadow-2xl hover:shadow-p1-cyan md:text-3xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
                         >
                           <div className="grid grid-cols-2 items-center justify-between gap-2">
                             <div className="text-xs leading-3">Buy:</div>
@@ -2184,7 +2184,7 @@ export default function Home() {
 
                         <Link
                           href="#"
-                          className="grid w-1/5 place-content-center rounded-br-xl border border-p1-darkgreen bg-p1-darkgreen text-center text-lg font-semibold shadow-lg shadow-p1-cyan transition-all duration-300 ease-in-out hover:scale-75 hover:border-p1-cyan hover:bg-p1-darkgreen hover:text-p1-white hover:shadow-2xl hover:shadow-p1-cyan hover:ring-p1-cyan focus:scale-75 focus:border-p1-cyan focus:ring-p1-cyan md:text-3xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                          className="grid w-1/5 place-content-center rounded-br-xl border border-p1-darkgreen bg-p1-darkgreen text-center text-lg font-semibold shadow-lg shadow-p1-cyan transition-all duration-100 ease-in-out hover:scale-75 hover:border-p1-cyan hover:bg-p1-darkgreen hover:text-p1-white hover:shadow-2xl hover:shadow-p1-cyan hover:ring-p1-cyan focus:scale-75 focus:border-p1-cyan focus:ring-p1-cyan md:text-3xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
                         >
                           <Image
                             className="inline-block size-5 bg-p1-darkgreen dark:bg-p1-deepdarkgreen dark:hover:bg-p1-deepdarkgreen"
@@ -2204,9 +2204,9 @@ export default function Home() {
             {/* ... средние карточки  ... */}
             <div id="area4" className={`${currentVisibleArea == 4 ? '' : 'hidden'}`}>
               <div className="flex gap-4">
-                <div className="group relative h-[21.5rem] w-60 place-self-center overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-300 hover:shadow-lg hover:shadow-p1-cyan group-hover:shadow-sm dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
+                <div className="group relative h-[21.5rem] w-60 place-self-center overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-100 hover:shadow-lg hover:shadow-p1-cyan group-hover:shadow-sm dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
                   <div>
-                    <div className="group invisible absolute right-1 top-1 z-10 inline-block duration-300 ease-in-out group-hover:visible group-hover:opacity-100">
+                    <div className="group invisible absolute right-1 top-1 z-10 inline-block duration-100 ease-in-out group-hover:visible group-hover:opacity-100">
                       <Link
                         href="#"
                         className="z-50 grid w-8 place-content-center transition-all delay-75 duration-100 ease-in-out hover:scale-125"
@@ -2268,7 +2268,7 @@ export default function Home() {
                       >
                         <Link
                           href="#"
-                          className="grid w-4/5 place-content-center rounded-bl-xl border border-p1-darkgreen bg-p1-darkgreen text-center text-base shadow-lg shadow-p1-cyan transition-all duration-300 ease-in-out hover:border-p1-cyan hover:bg-p1-darkgreen hover:text-p1-white hover:shadow-2xl hover:shadow-p1-cyan md:text-3xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                          className="grid w-4/5 place-content-center rounded-bl-xl border border-p1-darkgreen bg-p1-darkgreen text-center text-base shadow-lg shadow-p1-cyan transition-all duration-100 ease-in-out hover:border-p1-cyan hover:bg-p1-darkgreen hover:text-p1-white hover:shadow-2xl hover:shadow-p1-cyan md:text-3xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
                         >
                           <div className="flex items-center justify-between space-x-4">
                             <div className="text-base leading-4">Buy:</div>
@@ -2287,7 +2287,7 @@ export default function Home() {
 
                         <Link
                           href="#"
-                          className="grid w-1/5 place-content-center rounded-br-xl border border-p1-darkgreen bg-p1-darkgreen text-center text-lg font-semibold shadow-lg shadow-p1-cyan transition-all duration-300 ease-in-out hover:scale-75 hover:border-p1-cyan hover:bg-p1-darkgreen hover:text-p1-white hover:shadow-2xl hover:shadow-p1-cyan hover:ring-p1-cyan focus:scale-75 focus:border-p1-cyan focus:ring-p1-cyan md:text-3xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                          className="grid w-1/5 place-content-center rounded-br-xl border border-p1-darkgreen bg-p1-darkgreen text-center text-lg font-semibold shadow-lg shadow-p1-cyan transition-all duration-100 ease-in-out hover:scale-75 hover:border-p1-cyan hover:bg-p1-darkgreen hover:text-p1-white hover:shadow-2xl hover:shadow-p1-cyan hover:ring-p1-cyan focus:scale-75 focus:border-p1-cyan focus:ring-p1-cyan md:text-3xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
                         >
                           <Image
                             className="inline-block size-6 bg-p1-darkgreen dark:bg-p1-deepdarkgreen dark:hover:bg-p1-deepdarkgreen"
@@ -2307,9 +2307,9 @@ export default function Home() {
             {/* ... большие карточки  ... */}
             <div id="area5" className={`${currentVisibleArea == 5 ? '' : 'hidden'}`}>
               <div className="flex gap-4">
-                <div className="group relative h-[28rem] w-80 place-self-center overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-300 hover:shadow-lg hover:shadow-p1-cyan group-hover:shadow-sm dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
+                <div className="group relative h-[28rem] w-80 place-self-center overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-100 hover:shadow-lg hover:shadow-p1-cyan group-hover:shadow-sm dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
                   <div>
-                    <div className="group invisible absolute right-1 top-1 z-10 inline-block duration-300 ease-in-out group-hover:visible group-hover:opacity-100">
+                    <div className="group invisible absolute right-1 top-1 z-10 inline-block duration-100 ease-in-out group-hover:visible group-hover:opacity-100">
                       <Link
                         href="#"
                         className="z-50 grid w-10 place-content-center transition-all delay-75 duration-100 ease-in-out hover:scale-125"
@@ -2368,7 +2368,7 @@ export default function Home() {
                       <div className="inline-flex h-12 w-80 justify-center text-sm" role="group">
                         <Link
                           href="#"
-                          className="grid w-4/5 place-content-center rounded-bl-xl border border-p1-darkgreen bg-p1-darkgreen text-center text-base shadow-lg shadow-p1-cyan transition-all duration-300 ease-in-out hover:border-p1-cyan hover:bg-p1-darkgreen hover:text-p1-white hover:shadow-2xl hover:shadow-p1-cyan md:text-3xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                          className="grid w-4/5 place-content-center rounded-bl-xl border border-p1-darkgreen bg-p1-darkgreen text-center text-base shadow-lg shadow-p1-cyan transition-all duration-100 ease-in-out hover:border-p1-cyan hover:bg-p1-darkgreen hover:text-p1-white hover:shadow-2xl hover:shadow-p1-cyan md:text-3xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
                         >
                           <div className="flex items-center justify-between space-x-4">
                             <div className="text-xl leading-5">Buy:</div>
@@ -2387,7 +2387,7 @@ export default function Home() {
 
                         <Link
                           href="#"
-                          className="grid w-1/5 place-content-center rounded-br-xl border border-p1-darkgreen bg-p1-darkgreen text-center text-lg font-semibold shadow-lg shadow-p1-cyan transition-all duration-300 ease-in-out hover:scale-75 hover:border-p1-cyan hover:bg-p1-darkgreen hover:text-p1-white hover:shadow-2xl hover:shadow-p1-cyan hover:ring-p1-cyan focus:scale-75 focus:border-p1-cyan focus:ring-p1-cyan md:text-3xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                          className="grid w-1/5 place-content-center rounded-br-xl border border-p1-darkgreen bg-p1-darkgreen text-center text-lg font-semibold shadow-lg shadow-p1-cyan transition-all duration-100 ease-in-out hover:scale-75 hover:border-p1-cyan hover:bg-p1-darkgreen hover:text-p1-white hover:shadow-2xl hover:shadow-p1-cyan hover:ring-p1-cyan focus:scale-75 focus:border-p1-cyan focus:ring-p1-cyan md:text-3xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
                         >
                           <Image
                             className="inline-block size-7 bg-p1-darkgreen dark:bg-p1-deepdarkgreen dark:hover:bg-p1-deepdarkgreen"
@@ -2407,9 +2407,9 @@ export default function Home() {
             {/* ... самые большие карточки  ... */}
             <div id="area6" className={`${currentVisibleArea == 6 ? '' : 'hidden'}`}>
               <div className="flex gap-4">
-                <div className="group relative h-[39rem] w-[28rem] place-self-center overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-300 hover:shadow-lg hover:shadow-p1-cyan group-hover:shadow-sm dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
+                <div className="group relative h-[39rem] w-[28rem] place-self-center overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-100 hover:shadow-lg hover:shadow-p1-cyan group-hover:shadow-sm dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
                   <div>
-                    <div className="group invisible absolute right-1 top-1 z-10 inline-block duration-300 ease-in-out group-hover:visible group-hover:opacity-100">
+                    <div className="group invisible absolute right-1 top-1 z-10 inline-block duration-100 ease-in-out group-hover:visible group-hover:opacity-100">
                       <Link
                         href="#"
                         className="z-50 grid w-12 place-content-center transition-all delay-75 duration-100 ease-in-out hover:scale-125"
@@ -2471,7 +2471,7 @@ export default function Home() {
                       >
                         <Link
                           href="#"
-                          className="grid w-4/5 place-content-center rounded-bl-xl border border-p1-darkgreen bg-p1-darkgreen text-center text-base shadow-xl shadow-p1-cyan transition-all duration-300 ease-in-out hover:border-p1-cyan hover:bg-p1-darkgreen hover:text-p1-white hover:shadow-2xl hover:shadow-p1-cyan md:text-3xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                          className="grid w-4/5 place-content-center rounded-bl-xl border border-p1-darkgreen bg-p1-darkgreen text-center text-base shadow-xl shadow-p1-cyan transition-all duration-100 ease-in-out hover:border-p1-cyan hover:bg-p1-darkgreen hover:text-p1-white hover:shadow-2xl hover:shadow-p1-cyan md:text-3xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
                         >
                           <div className="flex items-center justify-between space-x-4 pb-2">
                             <div className="text-2xl">Buy:</div>
@@ -2490,7 +2490,7 @@ export default function Home() {
 
                         <Link
                           href="#"
-                          className="grid w-1/5 place-content-center rounded-br-xl border border-p1-darkgreen bg-p1-darkgreen text-center text-lg font-semibold shadow-lg shadow-p1-cyan transition-all duration-300 ease-in-out hover:scale-75 hover:border-p1-cyan hover:bg-p1-darkgreen hover:text-p1-white hover:shadow-2xl hover:shadow-p1-cyan hover:ring-p1-cyan focus:scale-75 focus:border-p1-cyan focus:ring-p1-cyan md:text-3xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                          className="grid w-1/5 place-content-center rounded-br-xl border border-p1-darkgreen bg-p1-darkgreen text-center text-lg font-semibold shadow-lg shadow-p1-cyan transition-all duration-100 ease-in-out hover:scale-75 hover:border-p1-cyan hover:bg-p1-darkgreen hover:text-p1-white hover:shadow-2xl hover:shadow-p1-cyan hover:ring-p1-cyan focus:scale-75 focus:border-p1-cyan focus:ring-p1-cyan md:text-3xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
                         >
                           <Image
                             className="inline-block size-9 bg-p1-darkgreen dark:bg-p1-deepdarkgreen dark:hover:bg-p1-deepdarkgreen"
@@ -2510,9 +2510,9 @@ export default function Home() {
             {/* ...  карточки ,без подписи  ... */}
             <div id="area8" className={`${currentVisibleArea == 8 ? '' : 'hidden'}`}>
               <div className="flex gap-4">
-                <div className="group relative w-80 place-self-center overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-300 hover:shadow-lg hover:shadow-p1-cyan group-hover:shadow-sm dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
+                <div className="group relative w-80 place-self-center overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-100 hover:shadow-lg hover:shadow-p1-cyan group-hover:shadow-sm dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
                   <div>
-                    <div className="group invisible absolute right-1 top-1 z-10 inline-block duration-300 ease-in-out group-hover:visible group-hover:opacity-100">
+                    <div className="group invisible absolute right-1 top-1 z-10 inline-block duration-100 ease-in-out group-hover:visible group-hover:opacity-100">
                       <Link
                         href="#"
                         className="z-50 grid w-10 place-content-center transition-all delay-75 duration-100 ease-in-out hover:scale-105"
@@ -2860,7 +2860,7 @@ export default function Home() {
                             </div>
                             <Link
                               href="#"
-                              className="inline-block w-full place-content-center rounded-xl border-2 border-p1-darkgreen bg-p1-white p-2 text-center text-base text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p1-green hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                              className="inline-block w-full place-content-center rounded-xl border-2 border-p1-darkgreen bg-p1-white p-2 text-center text-base text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:bg-p1-green hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
                             >
                               Добавить
                             </Link>
@@ -2868,7 +2868,7 @@ export default function Home() {
 
                           <Link
                             href="#"
-                            className="inline-block w-full place-content-center rounded-xl border-2 border-p1-darkgreen bg-p1-white p-2 text-center text-base text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p1-green hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                            className="inline-block w-full place-content-center rounded-xl border-2 border-p1-darkgreen bg-p1-white p-2 text-center text-base text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:bg-p1-green hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
                           >
                             +
                           </Link>
@@ -2880,17 +2880,17 @@ export default function Home() {
                 <div className="flex grid-flow-row gap-4">
                   <div className="pt-1 text-center text-p1-darkgreen dark:text-p1-green">
                     {/* ... карточка 1 ...15x10 */}
-                    <div className="group relative h-[14.5rem] w-40 place-self-center overflow-hidden rounded-xl bg-white object-cover lining-nums shadow-lg transition-transform duration-300 hover:shadow-lg hover:shadow-p1-cyan group-hover:shadow-sm dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
+                    <div className="group relative h-[14.5rem] w-40 place-self-center overflow-hidden rounded-xl bg-white object-cover lining-nums shadow-lg transition-transform duration-100 hover:shadow-lg hover:shadow-p1-cyan group-hover:shadow-sm dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
                       <div>
                         <path
                           d="M18.527 12.2062L12 16.1938L5.46875 12.2062L12 1L18.527 12.2062ZM12 17.4742L5.46875 13.4867L12 23L18.5312 13.4867L12 17.4742V17.4742Z"
                           fill="white"
                         ></path>
 
-                        <div className="group invisible absolute right-1 top-1 z-10 inline-block duration-300 ease-in-out group-hover:visible group-hover:opacity-100">
+                        <div className="group invisible absolute right-1 top-1 z-10 inline-block duration-100 ease-in-out group-hover:visible group-hover:opacity-100">
                           <Link
                             href="#"
-                            className="z-50 grid w-6 place-content-center transition-all delay-75 duration-300 ease-in-out hover:scale-125"
+                            className="z-50 grid w-6 place-content-center transition-all delay-75 duration-100 ease-in-out hover:scale-125"
                           >
                             <Image
                               className="p-1"
@@ -2938,7 +2938,7 @@ export default function Home() {
                           <div className="inline-flex h-8 w-40 justify-center text-sm" role="group">
                             <Link
                               href="#"
-                              className="grid w-full place-content-center rounded-bl-xl border border-p1-darkgreen bg-p2-orange text-center text-sm shadow-lg shadow-p2-red transition-all duration-300 ease-in-out hover:border-p1-cyan hover:bg-p2-red hover:text-p1-white hover:shadow-2xl hover:shadow-p2-red md:text-3xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:border-p1-cyan dark:hover:bg-p2-red dark:hover:text-p1-cyan dark:focus:border-p2-red dark:focus:bg-p2-red dark:focus:text-p1-cyan"
+                              className="grid w-full place-content-center rounded-bl-xl border border-p1-darkgreen bg-p2-orange text-center text-sm shadow-lg shadow-p2-red transition-all duration-100 ease-in-out hover:border-p1-cyan hover:bg-p2-red hover:text-p1-white hover:shadow-2xl hover:shadow-p2-red md:text-3xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:border-p1-cyan dark:hover:bg-p2-red dark:hover:text-p1-cyan dark:focus:border-p2-red dark:focus:bg-p2-red dark:focus:text-p1-cyan"
                             >
                               <div className="grid grid-cols-2 items-center justify-between gap-2">
                                 <div className="text-base leading-3">Delite</div>
@@ -2960,17 +2960,17 @@ export default function Home() {
                   </div>
                   <div className="pt-1 text-center text-p1-darkgreen dark:text-p1-green">
                     {/* ... карточка 1 ...15x10 */}
-                    <div className="group relative h-[14.5rem] w-40 place-self-center overflow-hidden rounded-xl bg-white object-cover lining-nums shadow-lg transition-transform duration-300 hover:shadow-lg hover:shadow-p1-cyan group-hover:shadow-sm dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
+                    <div className="group relative h-[14.5rem] w-40 place-self-center overflow-hidden rounded-xl bg-white object-cover lining-nums shadow-lg transition-transform duration-100 hover:shadow-lg hover:shadow-p1-cyan group-hover:shadow-sm dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
                       <div>
                         <path
                           d="M18.527 12.2062L12 16.1938L5.46875 12.2062L12 1L18.527 12.2062ZM12 17.4742L5.46875 13.4867L12 23L18.5312 13.4867L12 17.4742V17.4742Z"
                           fill="white"
                         ></path>
 
-                        <div className="group invisible absolute right-1 top-1 z-10 inline-block duration-300 ease-in-out group-hover:visible group-hover:opacity-100">
+                        <div className="group invisible absolute right-1 top-1 z-10 inline-block duration-100 ease-in-out group-hover:visible group-hover:opacity-100">
                           <Link
                             href="#"
-                            className="z-50 grid w-6 place-content-center transition-all delay-75 duration-300 ease-in-out hover:scale-125"
+                            className="z-50 grid w-6 place-content-center transition-all delay-75 duration-100 ease-in-out hover:scale-125"
                           >
                             <Image
                               className="p-1"
@@ -3018,7 +3018,7 @@ export default function Home() {
                           <div className="inline-flex h-8 w-40 justify-center text-sm" role="group">
                             <Link
                               href="#"
-                              className="grid w-full place-content-center rounded-bl-xl border border-p1-darkgreen bg-p2-orange text-center text-sm shadow-lg shadow-p2-red transition-all duration-300 ease-in-out hover:border-p1-cyan hover:bg-p2-red hover:text-p1-white hover:shadow-2xl hover:shadow-p2-red md:text-3xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:border-p1-cyan dark:hover:bg-p2-red dark:hover:text-p1-cyan dark:focus:border-p2-red dark:focus:bg-p2-red dark:focus:text-p1-cyan"
+                              className="grid w-full place-content-center rounded-bl-xl border border-p1-darkgreen bg-p2-orange text-center text-sm shadow-lg shadow-p2-red transition-all duration-100 ease-in-out hover:border-p1-cyan hover:bg-p2-red hover:text-p1-white hover:shadow-2xl hover:shadow-p2-red md:text-3xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:border-p1-cyan dark:hover:bg-p2-red dark:hover:text-p1-cyan dark:focus:border-p2-red dark:focus:bg-p2-red dark:focus:text-p1-cyan"
                             >
                               <div className="grid grid-cols-2 items-center justify-between gap-2">
                                 <div className="text-base leading-3">Delite</div>
@@ -3043,21 +3043,22 @@ export default function Home() {
             </div>
 
             {/* ...Страница награждения*/}
+
             <div
               id="area12"
-              className={`inline-block  place-self-start overflow-auto  ${currentVisibleArea == 12 ? '' : 'hidden'}`}
+              className={`inline-block  size-max  place-self-start overflow-auto rounded border    ${currentVisibleArea == 12 ? '' : 'hidden'}`}
             >
-              <div className="mb-2 w-full border-p1-green bg-p1-white text-xl text-p1-darkgreen dark:bg-p1-deepdarkgreen">
-                <div className="overflow-x-auto pt-1 text-center text-p1-darkgreen dark:text-p1-green">
+              <div className="border-p1-green bg-p1-white text-xl text-p1-darkgreen dark:bg-p1-deepdarkgreen">
+                <div className="text-center text-p1-darkgreen dark:text-p1-green">
                   {/* Таблица награждения*/}
 
-                  <div className="inline-block place-self-center">
-                    <div className="relative shadow-md sm:rounded-lg">
+                  <div className="dark:border-p1-green">
+                    <div className="relative h-96 snap-start overflow-auto scroll-smooth">
                       <table className="text-left text-xl text-p1-darkgreen dark:text-p1-green">
-                        <thead className="sticky top-0 z-10 bg-gray-50 text-xs uppercase text-p1-darkgreen dark:bg-p1-deepdarkgreen dark:text-p1-green">
+                        <thead className="sticky top-0 z-20 border-b border-p1-green/30 bg-p1-white/100 text-xs uppercase text-p1-darkgreen dark:bg-p1-deepdarkgreen dark:text-p1-green">
                           <tr>
-                            <th scope="col" className="px-6 py-3">
-                              Add to cart
+                            <th scope="col" className="p-2 text-center">
+                              choose
                               <div className="flex items-center">
                                 <input
                                   checked={check}
@@ -3067,11 +3068,11 @@ export default function Home() {
                                   }}
                                   type="checkbox"
                                   value=""
-                                  className="size-4 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                                  className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                                 />
                                 <label
                                   htmlFor="checkbox "
-                                  className="ms-2 text-sm font-medium text-p1-darkgreen dark:text-p1-green"
+                                  className="ms-2 font-medium text-p1-darkgreen dark:text-p1-green"
                                 ></label>
                               </div>
                             </th>
@@ -3272,26 +3273,24 @@ export default function Home() {
                             </th>
                           </tr>
                         </thead>
-                        <tbody>
-                          <tr className="border-b bg-white dark:border-p1-green dark:bg-p1-deepdarkgreen">
-                            <th scope="row" className="whitespace-nowrap px-6 py-4 font-medium">
-                              <div className="flex items-center">
-                                <input
-                                  checked={check}
-                                  id="checkbox"
-                                  onChange={() => {
-                                    setCheck(!check);
-                                  }}
-                                  type="checkbox"
-                                  value=""
-                                  className="size-4 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
-                                />
-                                <label
-                                  htmlFor="checkbox "
-                                  className="ms-2 text-sm font-medium text-p1-darkgreen dark:text-p1-green"
-                                ></label>
-                              </div>
-                            </th>
+                        <tbody className="z-10 w-full snap-y scroll-mt-4 place-self-start overflow-auto scroll-smooth text-lg">
+                          <tr className="w-full snap-start border-b border-p1-green/30 bg-p1-white text-xl text-p1-darkgreen hover:border-p1-green hover:bg-p1-green/5 dark:bg-p1-deepdarkgreen">
+                            <div className="flex items-center">
+                              <input
+                                checked={check}
+                                id="checkbox"
+                                onChange={() => {
+                                  setCheck(!check);
+                                }}
+                                type="checkbox"
+                                value=""
+                                className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                              />
+                              <label
+                                htmlFor="checkbox "
+                                className="ms-2 font-medium text-p1-darkgreen dark:text-p1-green"
+                              ></label>
+                            </div>
                             <td className="">
                               <div className="relative">
                                 <Link href="/card" className="mx-auto justify-center">
@@ -3305,11 +3304,11 @@ export default function Home() {
                                 </Link>
                               </div>
                             </td>
-                            <td className="px-6 py-4">Award</td>
-                            <td className="px-6 py-4">8888</td>
-                            <td className="px-6 py-4 text-right"> 1 этап РДС ГП 2025</td>
-                            <td className="px-6 py-4 text-right"> Абсолютный зачет</td>
-                            <td className="px-6 py-4 text-right"> Название команды</td>
+                            <td className="p-2 text-center">Award</td>
+                            <td className="p-2 text-center">8888</td>
+                            <td className="p-2 text-center"> 1 этап РДС ГП 2025</td>
+                            <td className="p-2 text-center"> Абсолютный зачет</td>
+                            <td className="p-2 text-center"> Название команды</td>
                             <td className="">
                               <div className="relative">
                                 <Link href="/card" className="mx-auto justify-center">
@@ -3323,29 +3322,29 @@ export default function Home() {
                                 </Link>
                               </div>
                             </td>
-                            <td className="px-6 py-4 text-right"> Иванов Иван Иванович</td>
-                            <td className="px-6 py-4 text-right"> mail@mail.com</td>
+                            <td className="p-2 text-center"> Иванов Иван Иванович</td>
+                            <td className="p-2 text-center"> mail@mail.com</td>
 
-                            <td className="px-6 py-4 text-right"> 0х1234...5678</td>
-                            <td className="px-6 py-4 text-right">
+                            <td className="p-2 text-center"> 0х1234...5678</td>
+                            <td className="p-2 text-center">
                               <Link
                                 href="#"
-                                className="inline-block w-max place-content-center rounded-xl border-2 bg-p1-white p-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:border-p1-darkgreen hover:bg-p1-green hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                                className="inline-block w-max place-content-center rounded-xl border-2 bg-p1-white p-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen hover:bg-p1-green hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
                               >
                                 Отправить
                               </Link>
                             </td>
-                            <td className="px-6 py-4 text-right">
+                            <td className="p-2 text-center">
                               <Link
                                 href="#"
-                                className="inline-block w-max place-content-center rounded-xl border-2 bg-p1-white p-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:border-p2-red hover:bg-p2-red hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p2-red dark:hover:text-p1-white dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                                className="inline-block w-max place-content-center rounded-xl border-2 bg-p1-white p-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p2-red hover:bg-p2-red hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p2-red dark:hover:text-p1-white dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
                               >
                                 Delete
                               </Link>
                             </td>
                           </tr>
-                          <tr className="border-b bg-white dark:border-p1-green dark:bg-p1-deepdarkgreen">
-                            <th scope="row" className="whitespace-nowrap px-6 py-4 font-medium">
+                          <tr className="w-full snap-start border-b border-p1-green/30 bg-p1-white text-xl text-p1-darkgreen hover:border-p1-green hover:bg-p1-green/5 dark:bg-p1-deepdarkgreen">
+                            <th scope="row" className="whitespace-nowrap p-2 font-medium">
                               <div className="flex items-center">
                                 <input
                                   checked={check}
@@ -3355,11 +3354,11 @@ export default function Home() {
                                   }}
                                   type="checkbox"
                                   value=""
-                                  className="size-4 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                                  className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                                 />
                                 <label
                                   htmlFor="checkbox "
-                                  className="ms-2 text-sm font-medium text-p1-darkgreen dark:text-p1-green"
+                                  className="ms-2 font-medium text-p1-darkgreen dark:text-p1-green"
                                 ></label>
                               </div>
                             </th>
@@ -3376,11 +3375,11 @@ export default function Home() {
                                 </Link>
                               </div>
                             </td>
-                            <td className="px-6 py-4">Award</td>
-                            <td className="px-6 py-4">8888</td>
-                            <td className="px-6 py-4 text-right"> 1 этап РДС ГП 2025</td>
-                            <td className="px-6 py-4 text-right"> Абсолютный зачет</td>
-                            <td className="px-6 py-4 text-right"> Название команды</td>
+                            <td className="p-2 text-center">Award</td>
+                            <td className="p-2 text-center">8888</td>
+                            <td className="p-2 text-center"> 1 этап РДС ГП 2025</td>
+                            <td className="p-2 text-center"> Абсолютный зачет</td>
+                            <td className="p-2 text-center"> Название команды</td>
                             <td className="">
                               <div className="relative">
                                 <Link href="/card" className="mx-auto justify-center">
@@ -3394,29 +3393,29 @@ export default function Home() {
                                 </Link>
                               </div>
                             </td>
-                            <td className="px-6 py-4 text-right"> Иванов Иван Иванович</td>
-                            <td className="px-6 py-4 text-right"> mail@mail.com</td>
+                            <td className="p-2 text-center"> Иванов Иван Иванович</td>
+                            <td className="p-2 text-center"> mail@mail.com</td>
 
-                            <td className="px-6 py-4 text-right"> 0х1234...5678</td>
-                            <td className="px-6 py-4 text-right">
+                            <td className="p-2 text-center"> 0х1234...5678</td>
+                            <td className="p-2 text-center">
                               <Link
                                 href="#"
-                                className="inline-block w-max place-content-center rounded-xl border-2 bg-p1-white p-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:border-p1-darkgreen hover:bg-p1-green hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                                className="inline-block w-max place-content-center rounded-xl border-2 bg-p1-white p-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen hover:bg-p1-green hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
                               >
                                 Отправить
                               </Link>
                             </td>
-                            <td className="px-6 py-4 text-right">
+                            <td className="p-2 text-center">
                               <Link
                                 href="#"
-                                className="inline-block w-max place-content-center rounded-xl border-2 bg-p1-white p-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:border-p2-red hover:bg-p2-red hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p2-red dark:hover:text-p1-white dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                                className="inline-block w-max place-content-center rounded-xl border-2 bg-p1-white p-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p2-red hover:bg-p2-red hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p2-red dark:hover:text-p1-white dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
                               >
                                 Delete
                               </Link>
                             </td>
                           </tr>
-                          <tr className="border-b bg-white dark:border-p1-green dark:bg-p1-deepdarkgreen">
-                            <th scope="row" className="whitespace-nowrap px-6 py-4 font-medium">
+                          <tr className="w-full snap-start border-b border-p1-green/30 bg-p1-white text-xl text-p1-darkgreen hover:border-p1-green hover:bg-p1-green/5 dark:bg-p1-deepdarkgreen">
+                            <th scope="row" className="whitespace-nowrap p-2 font-medium">
                               <div className="flex items-center">
                                 <input
                                   checked={check}
@@ -3426,11 +3425,11 @@ export default function Home() {
                                   }}
                                   type="checkbox"
                                   value=""
-                                  className="size-4 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                                  className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                                 />
                                 <label
                                   htmlFor="checkbox "
-                                  className="ms-2 text-sm font-medium text-p1-darkgreen dark:text-p1-green"
+                                  className="ms-2 font-medium text-p1-darkgreen dark:text-p1-green"
                                 ></label>
                               </div>
                             </th>
@@ -3447,11 +3446,11 @@ export default function Home() {
                                 </Link>
                               </div>
                             </td>
-                            <td className="px-6 py-4">Award</td>
-                            <td className="px-6 py-4">8888</td>
-                            <td className="px-6 py-4 text-right"> 1 этап РДС ГП 2025</td>
-                            <td className="px-6 py-4 text-right"> Абсолютный зачет</td>
-                            <td className="px-6 py-4 text-right"> Название команды</td>
+                            <td className="p-2 text-center">Award</td>
+                            <td className="p-2 text-center">8888</td>
+                            <td className="p-2 text-center"> 1 этап РДС ГП 2025</td>
+                            <td className="p-2 text-center"> Абсолютный зачет</td>
+                            <td className="p-2 text-center"> Название команды</td>
                             <td className="">
                               <div className="relative">
                                 <Link href="/card" className="mx-auto justify-center">
@@ -3465,29 +3464,29 @@ export default function Home() {
                                 </Link>
                               </div>
                             </td>
-                            <td className="px-6 py-4 text-right"> Иванов Иван Иванович</td>
-                            <td className="px-6 py-4 text-right"> mail@mail.com</td>
+                            <td className="p-2 text-center"> Иванов Иван Иванович</td>
+                            <td className="p-2 text-center"> mail@mail.com</td>
 
-                            <td className="px-6 py-4 text-right"> 0х1234...5678</td>
-                            <td className="px-6 py-4 text-right">
+                            <td className="p-2 text-center"> 0х1234...5678</td>
+                            <td className="p-2 text-center">
                               <Link
                                 href="#"
-                                className="inline-block w-max place-content-center rounded-xl border-2 bg-p1-white p-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:border-p1-darkgreen hover:bg-p1-green hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                                className="inline-block w-max place-content-center rounded-xl border-2 bg-p1-white p-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen hover:bg-p1-green hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
                               >
                                 Отправить
                               </Link>
                             </td>
-                            <td className="px-6 py-4 text-right">
+                            <td className="p-2 text-center">
                               <Link
                                 href="#"
-                                className="inline-block w-max place-content-center rounded-xl border-2 bg-p1-white p-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:border-p2-red hover:bg-p2-red hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p2-red dark:hover:text-p1-white dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                                className="inline-block w-max place-content-center rounded-xl border-2 bg-p1-white p-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p2-red hover:bg-p2-red hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p2-red dark:hover:text-p1-white dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
                               >
                                 Delete
                               </Link>
                             </td>
                           </tr>
-                          <tr className="border-b bg-white dark:border-p1-green dark:bg-p1-deepdarkgreen">
-                            <th scope="row" className="whitespace-nowrap px-6 py-4 font-medium">
+                          <tr className="w-full snap-start border-b border-p1-green/30 bg-p1-white text-xl text-p1-darkgreen hover:border-p1-green hover:bg-p1-green/5 dark:bg-p1-deepdarkgreen">
+                            <th scope="row" className="whitespace-nowrap p-2 font-medium">
                               <div className="flex items-center">
                                 <input
                                   checked={check}
@@ -3497,11 +3496,11 @@ export default function Home() {
                                   }}
                                   type="checkbox"
                                   value=""
-                                  className="size-4 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                                  className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                                 />
                                 <label
                                   htmlFor="checkbox "
-                                  className="ms-2 text-sm font-medium text-p1-darkgreen dark:text-p1-green"
+                                  className="ms-2 font-medium text-p1-darkgreen dark:text-p1-green"
                                 ></label>
                               </div>
                             </th>
@@ -3518,11 +3517,11 @@ export default function Home() {
                                 </Link>
                               </div>
                             </td>
-                            <td className="px-6 py-4">Award</td>
-                            <td className="px-6 py-4">8888</td>
-                            <td className="px-6 py-4 text-right"> 1 этап РДС ГП 2025</td>
-                            <td className="px-6 py-4 text-right"> Абсолютный зачет</td>
-                            <td className="px-6 py-4 text-right"> Название команды</td>
+                            <td className="p-2 text-center">Award</td>
+                            <td className="p-2 text-center">8888</td>
+                            <td className="p-2 text-center"> 1 этап РДС ГП 2025</td>
+                            <td className="p-2 text-center"> Абсолютный зачет</td>
+                            <td className="p-2 text-center"> Название команды</td>
                             <td className="">
                               <div className="relative">
                                 <Link href="/card" className="mx-auto justify-center">
@@ -3536,22 +3535,306 @@ export default function Home() {
                                 </Link>
                               </div>
                             </td>
-                            <td className="px-6 py-4 text-right"> Иванов Иван Иванович</td>
-                            <td className="px-6 py-4 text-right"> mail@mail.com</td>
+                            <td className="p-2 text-center"> Иванов Иван Иванович</td>
+                            <td className="p-2 text-center"> mail@mail.com</td>
 
-                            <td className="px-6 py-4 text-right"> 0х1234...5678</td>
-                            <td className="px-6 py-4 text-right">
+                            <td className="p-2 text-center"> 0х1234...5678</td>
+                            <td className="p-2 text-center">
                               <Link
                                 href="#"
-                                className="inline-block w-max place-content-center rounded-xl border-2 bg-p1-white p-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:border-p1-darkgreen hover:bg-p1-green hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                                className="inline-block w-max place-content-center rounded-xl border-2 bg-p1-white p-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen hover:bg-p1-green hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
                               >
                                 Отправить
                               </Link>
                             </td>
-                            <td className="px-6 py-4 text-right">
+                            <td className="p-2 text-center">
                               <Link
                                 href="#"
-                                className="inline-block w-max place-content-center rounded-xl border-2 bg-p1-white p-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:border-p2-red hover:bg-p2-red hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p2-red dark:hover:text-p1-white dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                                className="inline-block w-max place-content-center rounded-xl border-2 bg-p1-white p-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p2-red hover:bg-p2-red hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p2-red dark:hover:text-p1-white dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                              >
+                                Delete
+                              </Link>
+                            </td>
+                          </tr>
+                          <tr className="w-full snap-start border-b border-p1-green/30 bg-p1-white text-xl text-p1-darkgreen hover:border-p1-green hover:bg-p1-green/5 dark:bg-p1-deepdarkgreen">
+                            <th scope="row" className="whitespace-nowrap p-2 font-medium">
+                              <div className="flex items-center">
+                                <input
+                                  checked={check}
+                                  id="checkbox"
+                                  onChange={() => {
+                                    setCheck(!check);
+                                  }}
+                                  type="checkbox"
+                                  value=""
+                                  className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                                />
+                                <label
+                                  htmlFor="checkbox "
+                                  className="ms-2 font-medium text-p1-darkgreen dark:text-p1-green"
+                                ></label>
+                              </div>
+                            </th>
+                            <td className="">
+                              <div className="relative">
+                                <Link href="/card" className="mx-auto justify-center">
+                                  <Image
+                                    width={500}
+                                    height={500}
+                                    src="/Hero/Rewards.png"
+                                    alt="Award"
+                                    className="size-32 object-cover transition-transform duration-500 ease-in-out hover:scale-105"
+                                  />
+                                </Link>
+                              </div>
+                            </td>
+                            <td className="p-2 text-center">Award</td>
+                            <td className="p-2 text-center">8888</td>
+                            <td className="p-2 text-center"> 1 этап РДС ГП 2025</td>
+                            <td className="p-2 text-center"> Абсолютный зачет</td>
+                            <td className="p-2 text-center"> Название команды</td>
+                            <td className="">
+                              <div className="relative">
+                                <Link href="/card" className="mx-auto justify-center">
+                                  <Image
+                                    width={500}
+                                    height={500}
+                                    src="/HeroNFT/RaceLads/RaceLads1.png"
+                                    alt="RaceLads"
+                                    className="size-32 object-cover transition-transform duration-500 ease-in-out hover:scale-105"
+                                  />
+                                </Link>
+                              </div>
+                            </td>
+                            <td className="p-2 text-center"> Иванов Иван Иванович</td>
+                            <td className="p-2 text-center"> mail@mail.com</td>
+
+                            <td className="p-2 text-center"> 0х1234...5678</td>
+                            <td className="p-2 text-center">
+                              <Link
+                                href="#"
+                                className="inline-block w-max place-content-center rounded-xl border-2 bg-p1-white p-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen hover:bg-p1-green hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                              >
+                                Отправить
+                              </Link>
+                            </td>
+                            <td className="p-2 text-center">
+                              <Link
+                                href="#"
+                                className="inline-block w-max place-content-center rounded-xl border-2 bg-p1-white p-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p2-red hover:bg-p2-red hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p2-red dark:hover:text-p1-white dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                              >
+                                Delete
+                              </Link>
+                            </td>
+                          </tr>
+                          <tr className="w-full snap-start border-b border-p1-green/30 bg-p1-white text-xl text-p1-darkgreen hover:border-p1-green hover:bg-p1-green/5 dark:bg-p1-deepdarkgreen">
+                            <th scope="row" className="whitespace-nowrap p-2 font-medium">
+                              <div className="flex items-center">
+                                <input
+                                  checked={check}
+                                  id="checkbox"
+                                  onChange={() => {
+                                    setCheck(!check);
+                                  }}
+                                  type="checkbox"
+                                  value=""
+                                  className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                                />
+                                <label
+                                  htmlFor="checkbox "
+                                  className="ms-2 font-medium text-p1-darkgreen dark:text-p1-green"
+                                ></label>
+                              </div>
+                            </th>
+                            <td className="">
+                              <div className="relative">
+                                <Link href="/card" className="mx-auto justify-center">
+                                  <Image
+                                    width={500}
+                                    height={500}
+                                    src="/Hero/Rewards.png"
+                                    alt="Award"
+                                    className="size-32 object-cover transition-transform duration-500 ease-in-out hover:scale-105"
+                                  />
+                                </Link>
+                              </div>
+                            </td>
+                            <td className="p-2 text-center">Award</td>
+                            <td className="p-2 text-center">8888</td>
+                            <td className="p-2 text-center"> 1 этап РДС ГП 2025</td>
+                            <td className="p-2 text-center"> Абсолютный зачет</td>
+                            <td className="p-2 text-center"> Название команды</td>
+                            <td className="">
+                              <div className="relative">
+                                <Link href="/card" className="mx-auto justify-center">
+                                  <Image
+                                    width={500}
+                                    height={500}
+                                    src="/HeroNFT/RaceLads/RaceLads1.png"
+                                    alt="RaceLads"
+                                    className="size-32 object-cover transition-transform duration-500 ease-in-out hover:scale-105"
+                                  />
+                                </Link>
+                              </div>
+                            </td>
+                            <td className="p-2 text-center"> Иванов Иван Иванович</td>
+                            <td className="p-2 text-center"> mail@mail.com</td>
+
+                            <td className="p-2 text-center"> 0х1234...5678</td>
+                            <td className="p-2 text-center">
+                              <Link
+                                href="#"
+                                className="inline-block w-max place-content-center rounded-xl border-2 bg-p1-white p-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen hover:bg-p1-green hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                              >
+                                Отправить
+                              </Link>
+                            </td>
+                            <td className="p-2 text-center">
+                              <Link
+                                href="#"
+                                className="inline-block w-max place-content-center rounded-xl border-2 bg-p1-white p-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p2-red hover:bg-p2-red hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p2-red dark:hover:text-p1-white dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                              >
+                                Delete
+                              </Link>
+                            </td>
+                          </tr>
+                          <tr className="w-full snap-start border-b border-p1-green/30 bg-p1-white text-xl text-p1-darkgreen hover:border-p1-green hover:bg-p1-green/5 dark:bg-p1-deepdarkgreen">
+                            <th scope="row" className="whitespace-nowrap p-2 font-medium">
+                              <div className="flex items-center">
+                                <input
+                                  checked={check}
+                                  id="checkbox"
+                                  onChange={() => {
+                                    setCheck(!check);
+                                  }}
+                                  type="checkbox"
+                                  value=""
+                                  className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                                />
+                                <label
+                                  htmlFor="checkbox "
+                                  className="ms-2 font-medium text-p1-darkgreen dark:text-p1-green"
+                                ></label>
+                              </div>
+                            </th>
+                            <td className="">
+                              <div className="relative">
+                                <Link href="/card" className="mx-auto justify-center">
+                                  <Image
+                                    width={500}
+                                    height={500}
+                                    src="/Hero/Rewards.png"
+                                    alt="Award"
+                                    className="size-32 object-cover transition-transform duration-500 ease-in-out hover:scale-105"
+                                  />
+                                </Link>
+                              </div>
+                            </td>
+                            <td className="p-2 text-center">Award</td>
+                            <td className="p-2 text-center">8888</td>
+                            <td className="p-2 text-center"> 1 этап РДС ГП 2025</td>
+                            <td className="p-2 text-center"> Абсолютный зачет</td>
+                            <td className="p-2 text-center"> Название команды</td>
+                            <td className="">
+                              <div className="relative">
+                                <Link href="/card" className="mx-auto justify-center">
+                                  <Image
+                                    width={500}
+                                    height={500}
+                                    src="/HeroNFT/RaceLads/RaceLads1.png"
+                                    alt="RaceLads"
+                                    className="size-32 object-cover transition-transform duration-500 ease-in-out hover:scale-105"
+                                  />
+                                </Link>
+                              </div>
+                            </td>
+                            <td className="p-2 text-center"> Иванов Иван Иванович</td>
+                            <td className="p-2 text-center"> mail@mail.com</td>
+
+                            <td className="p-2 text-center"> 0х1234...5678</td>
+                            <td className="p-2 text-center">
+                              <Link
+                                href="#"
+                                className="inline-block w-max place-content-center rounded-xl border-2 bg-p1-white p-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen hover:bg-p1-green hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                              >
+                                Отправить
+                              </Link>
+                            </td>
+                            <td className="p-2 text-center">
+                              <Link
+                                href="#"
+                                className="inline-block w-max place-content-center rounded-xl border-2 bg-p1-white p-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p2-red hover:bg-p2-red hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p2-red dark:hover:text-p1-white dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                              >
+                                Delete
+                              </Link>
+                            </td>
+                          </tr>
+                          <tr className="w-full snap-start border-b border-p1-green/30 bg-p1-white text-xl text-p1-darkgreen hover:border-p1-green hover:bg-p1-green/5 dark:bg-p1-deepdarkgreen">
+                            <th scope="row" className="whitespace-nowrap p-2 font-medium">
+                              <div className="flex items-center">
+                                <input
+                                  checked={check}
+                                  id="checkbox"
+                                  onChange={() => {
+                                    setCheck(!check);
+                                  }}
+                                  type="checkbox"
+                                  value=""
+                                  className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                                />
+                                <label
+                                  htmlFor="checkbox "
+                                  className="ms-2 font-medium text-p1-darkgreen dark:text-p1-green"
+                                ></label>
+                              </div>
+                            </th>
+                            <td className="">
+                              <div className="relative">
+                                <Link href="/card" className="mx-auto justify-center">
+                                  <Image
+                                    width={500}
+                                    height={500}
+                                    src="/Hero/Rewards.png"
+                                    alt="Award"
+                                    className="size-32 object-cover transition-transform duration-500 ease-in-out hover:scale-105"
+                                  />
+                                </Link>
+                              </div>
+                            </td>
+                            <td className="p-2 text-center">Award</td>
+                            <td className="p-2 text-center">8888</td>
+                            <td className="p-2 text-center"> 1 этап РДС ГП 2025</td>
+                            <td className="p-2 text-center"> Абсолютный зачет</td>
+                            <td className="p-2 text-center"> Название команды</td>
+                            <td className="">
+                              <div className="relative">
+                                <Link href="/card" className="mx-auto justify-center">
+                                  <Image
+                                    width={500}
+                                    height={500}
+                                    src="/HeroNFT/RaceLads/RaceLads1.png"
+                                    alt="RaceLads"
+                                    className="size-32 object-cover transition-transform duration-500 ease-in-out hover:scale-105"
+                                  />
+                                </Link>
+                              </div>
+                            </td>
+                            <td className="p-2 text-center"> Иванов Иван Иванович</td>
+                            <td className="p-2 text-center"> mail@mail.com</td>
+
+                            <td className="p-2 text-center"> 0х1234...5678</td>
+                            <td className="p-2 text-center">
+                              <Link
+                                href="#"
+                                className="inline-block w-max place-content-center rounded-xl border-2 bg-p1-white p-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen hover:bg-p1-green hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                              >
+                                Отправить
+                              </Link>
+                            </td>
+                            <td className="p-2 text-center">
+                              <Link
+                                href="#"
+                                className="inline-block w-max place-content-center rounded-xl border-2 bg-p1-white p-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p2-red hover:bg-p2-red hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p2-red dark:hover:text-p1-white dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
                               >
                                 Delete
                               </Link>
@@ -3565,17 +3848,17 @@ export default function Home() {
                 <div className="flex grid-flow-row gap-4">
                   <div className="pt-1 text-center text-p1-darkgreen dark:text-p1-green">
                     {/* ... карточка 1 ...15x10 */}
-                    <div className="group relative h-[14.5rem] w-40 place-self-center overflow-hidden rounded-xl bg-white object-cover lining-nums shadow-lg transition-transform duration-300 hover:shadow-lg hover:shadow-p1-cyan group-hover:shadow-sm dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
+                    <div className="group relative h-[14.5rem] w-40 place-self-center overflow-hidden rounded-xl bg-white object-cover lining-nums shadow-lg transition-transform duration-100 hover:shadow-lg hover:shadow-p1-cyan group-hover:shadow-sm dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
                       <div>
                         <path
                           d="M18.527 12.2062L12 16.1938L5.46875 12.2062L12 1L18.527 12.2062ZM12 17.4742L5.46875 13.4867L12 23L18.5312 13.4867L12 17.4742V17.4742Z"
                           fill="white"
                         ></path>
 
-                        <div className="group invisible absolute right-1 top-1 z-10 inline-block duration-300 ease-in-out group-hover:visible group-hover:opacity-100">
+                        <div className="group invisible absolute right-1 top-1 z-10 inline-block duration-100 ease-in-out group-hover:visible group-hover:opacity-100">
                           <Link
                             href="#"
-                            className="z-50 grid w-6 place-content-center transition-all delay-75 duration-300 ease-in-out hover:scale-125"
+                            className="z-50 grid w-6 place-content-center transition-all delay-75 duration-100 ease-in-out hover:scale-125"
                           >
                             <Image
                               className="p-1"
@@ -3623,7 +3906,7 @@ export default function Home() {
                           <div className="inline-flex h-8 w-40 justify-center text-sm" role="group">
                             <Link
                               href="#"
-                              className="grid w-full place-content-center rounded-bl-xl border border-p1-darkgreen bg-p2-orange text-center text-sm shadow-lg shadow-p2-red transition-all duration-300 ease-in-out hover:border-p1-cyan hover:bg-p2-red hover:text-p1-white hover:shadow-2xl hover:shadow-p2-red md:text-3xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:border-p1-cyan dark:hover:bg-p2-red dark:hover:text-p1-cyan dark:focus:border-p2-red dark:focus:bg-p2-red dark:focus:text-p1-cyan"
+                              className="grid w-full place-content-center rounded-bl-xl border border-p1-darkgreen bg-p2-orange text-center text-sm shadow-lg shadow-p2-red transition-all duration-100 ease-in-out hover:border-p1-cyan hover:bg-p2-red hover:text-p1-white hover:shadow-2xl hover:shadow-p2-red md:text-3xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:border-p1-cyan dark:hover:bg-p2-red dark:hover:text-p1-cyan dark:focus:border-p2-red dark:focus:bg-p2-red dark:focus:text-p1-cyan"
                             >
                               <div className="grid grid-cols-2 items-center justify-between gap-2">
                                 <div className="text-base leading-3">Delite</div>
@@ -3645,17 +3928,17 @@ export default function Home() {
                   </div>
                   <div className="pt-1 text-center text-p1-darkgreen dark:text-p1-green">
                     {/* ... карточка 1 ...15x10 */}
-                    <div className="group relative h-[14.5rem] w-40 place-self-center overflow-hidden rounded-xl bg-white object-cover lining-nums shadow-lg transition-transform duration-300 hover:shadow-lg hover:shadow-p1-cyan group-hover:shadow-sm dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
+                    <div className="group relative h-[14.5rem] w-40 place-self-center overflow-hidden rounded-xl bg-white object-cover lining-nums shadow-lg transition-transform duration-100 hover:shadow-lg hover:shadow-p1-cyan group-hover:shadow-sm dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
                       <div>
                         <path
                           d="M18.527 12.2062L12 16.1938L5.46875 12.2062L12 1L18.527 12.2062ZM12 17.4742L5.46875 13.4867L12 23L18.5312 13.4867L12 17.4742V17.4742Z"
                           fill="white"
                         ></path>
 
-                        <div className="group invisible absolute right-1 top-1 z-10 inline-block duration-300 ease-in-out group-hover:visible group-hover:opacity-100">
+                        <div className="group invisible absolute right-1 top-1 z-10 inline-block duration-100 ease-in-out group-hover:visible group-hover:opacity-100">
                           <Link
                             href="#"
-                            className="z-50 grid w-6 place-content-center transition-all delay-75 duration-300 ease-in-out hover:scale-125"
+                            className="z-50 grid w-6 place-content-center transition-all delay-75 duration-100 ease-in-out hover:scale-125"
                           >
                             <Image
                               className="p-1"
@@ -3703,7 +3986,7 @@ export default function Home() {
                           <div className="inline-flex h-8 w-40 justify-center text-sm" role="group">
                             <Link
                               href="#"
-                              className="grid w-full place-content-center rounded-bl-xl border border-p1-darkgreen bg-p2-orange text-center text-sm shadow-lg shadow-p2-red transition-all duration-300 ease-in-out hover:border-p1-cyan hover:bg-p2-red hover:text-p1-white hover:shadow-2xl hover:shadow-p2-red md:text-3xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:border-p1-cyan dark:hover:bg-p2-red dark:hover:text-p1-cyan dark:focus:border-p2-red dark:focus:bg-p2-red dark:focus:text-p1-cyan"
+                              className="grid w-full place-content-center rounded-bl-xl border border-p1-darkgreen bg-p2-orange text-center text-sm shadow-lg shadow-p2-red transition-all duration-100 ease-in-out hover:border-p1-cyan hover:bg-p2-red hover:text-p1-white hover:shadow-2xl hover:shadow-p2-red md:text-3xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:border-p1-cyan dark:hover:bg-p2-red dark:hover:text-p1-cyan dark:focus:border-p2-red dark:focus:bg-p2-red dark:focus:text-p1-cyan"
                             >
                               <div className="grid grid-cols-2 items-center justify-between gap-2">
                                 <div className="text-base leading-3">Delite</div>
