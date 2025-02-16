@@ -2739,7 +2739,7 @@ export default function Home() {
                     <div className="pt-2 text-left">
                       Эмблемы и категории спонсоров
                       <div className="">
-                        <div className="mt-5 grid grid-cols-1 gap-2 p-4 md:grid-cols-2 md:place-items-end xl:grid-cols-4">
+                        <div className="mt-5 grid grid-cols-1 gap-2 p-4 md:grid-cols-4 md:place-items-end xl:grid-cols-6">
                           <div className="col-span-2 md:row-span-2">
                             <div>
                               <label
@@ -2885,18 +2885,11 @@ export default function Home() {
                             </div>
                             <Link
                               href="#"
-                              className="inline-block w-full place-content-center rounded-xl border-2 border-p1-darkgreen bg-p1-white p-2 text-center text-base text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:bg-p1-green hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                              className="inline-block w-full place-content-center rounded-xl border bg-p1-white px-1 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen/15 hover:bg-p1-cyan/25 hover:text-p1-darkgreen focus:border-p1-darkgreen/20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
                             >
                               Добавить
                             </Link>
                           </div>
-
-                          <Link
-                            href="#"
-                            className="inline-block w-full place-content-center rounded-xl border-2 border-p1-darkgreen bg-p1-white p-2 text-center text-base text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:bg-p1-green hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
-                          >
-                            +
-                          </Link>
                         </div>
                       </div>
                     </div>
@@ -3361,22 +3354,24 @@ export default function Home() {
                         </thead>
                         <tbody className="z-10 w-full snap-y scroll-mt-4 place-self-start overflow-auto scroll-smooth text-lg">
                           <tr className="w-full snap-start border-b border-p1-green/30 bg-p1-white text-xl text-p1-darkgreen hover:border-p1-green hover:bg-p1-green/5 dark:bg-p1-deepdarkgreen">
-                            <div className="flex items-center">
-                              <input
-                                checked={check}
-                                id="checkbox"
-                                onChange={() => {
-                                  setCheck(!check);
-                                }}
-                                type="checkbox"
-                                value=""
-                                className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
-                              />
-                              <label
-                                htmlFor="checkbox "
-                                className="ms-2 font-medium text-p1-darkgreen dark:text-p1-green"
-                              ></label>
-                            </div>
+                            <th scope="row" className="whitespace-nowrap p-2 font-medium">
+                              <div className="flex items-center">
+                                <input
+                                  checked={check}
+                                  id="checkbox"
+                                  onChange={() => {
+                                    setCheck(!check);
+                                  }}
+                                  type="checkbox"
+                                  value=""
+                                  className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                                />
+                                <label
+                                  htmlFor="checkbox "
+                                  className="ms-2 font-medium text-p1-darkgreen dark:text-p1-green"
+                                ></label>
+                              </div>
+                            </th>
                             <td className="">
                               <div className="relative">
                                 <Link href="/card" className="mx-auto justify-center">
