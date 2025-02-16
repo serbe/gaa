@@ -568,13 +568,11 @@ export default function Home() {
               <details className="">
                 <summary className="relative flex cursor-pointer justify-start py-2 text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
                   <div className="place-content-center px-4">Price</div>
-                </summary>
-                <div className="pt-1 text-center text-p1-darkgreen lg:p-2 dark:text-p1-green">
                   <form className="inline-block w-full place-content-center pb-2 text-center text-p1-darkgreen hover:text-p1-darkgreen focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan">
                     <label htmlFor="price" className="block w-full"></label>
                     <select
                       id="price"
-                      className="mx-auto flex w-full overflow-hidden border-t border-p1-green bg-p1-white/50 p-1 text-center hover:border-p1-green hover:bg-p1-cyan/10 dark:bg-p1-deepdarkgreen dark:text-p1-green dark:accent-p1-darkgreen dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan"
+                      className="mx-auto flex w-full overflow-hidden border-p1-green bg-p1-white/50 p-1 text-center hover:border-p1-green hover:bg-p1-cyan/10 dark:bg-p1-deepdarkgreen dark:text-p1-green dark:accent-p1-darkgreen dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan"
                       defaultValue={'DEFAULT'}
                     >
                       <option value="DEFAULT" disabled>
@@ -586,31 +584,35 @@ export default function Home() {
                       <option value="Best_offer">POL</option>
                     </select>
                   </form>
-                  <div className="inline-flex space-x-1 pb-2 md:space-x-2 xl:space-x-4 2xl:space-x-10">
+                    <div className="inline-flex space-x-1">
                     <div className="">
                       <div>
                         <input
                           type="text"
                           id="price_min"
-                          className="block w-full border-b border-p1-green bg-p1-white p-1 text-center text-sm lining-nums text-p1-darkgreen hover:bg-p2-white2 focus:border-p1-darkgreen focus:ring-p1-darkgreen md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:placeholder:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan dark:focus:border-p1-green dark:focus:ring-p1-cyan"
+                          className="block w-full border-b border-p1-green bg-p1-white text-center text-sm lining-nums text-p1-darkgreen hover:bg-p2-white2 focus:border-p1-darkgreen focus:ring-p1-darkgreen md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:placeholder:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan dark:focus:border-p1-green dark:focus:ring-p1-cyan"
                           placeholder="Min"
                           required
                         />
                       </div>
                     </div>
-                    <div className="place-content-center px-2">to</div>
+                    <div className="place-content-center">to</div>
                     <div className="">
                       <div>
                         <input
                           type="text"
                           id="price_max"
-                          className="block w-full border-b border-p1-green bg-p1-white p-1 text-center text-sm lining-nums text-p1-darkgreen hover:bg-p2-white2 focus:border-p1-darkgreen focus:ring-p1-darkgreen md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:placeholder:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan dark:focus:border-p1-green dark:focus:ring-p1-cyan"
+                          className="block w-full border-b border-p1-green bg-p1-white text-center text-sm lining-nums text-p1-darkgreen hover:bg-p2-white2 focus:border-p1-darkgreen focus:ring-p1-darkgreen md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:placeholder:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan dark:focus:border-p1-green dark:focus:ring-p1-cyan"
                           placeholder="Max"
                           required
                         />
                       </div>
                     </div>
                   </div>
+                </summary>
+                <div className="pt-1 text-center text-p1-darkgreen lg:p-2 dark:text-p1-green">
+                  
+                
                   <div>
                     <Link
                       href="#"
@@ -3048,33 +3050,97 @@ export default function Home() {
               id="area12"
               className={`inline-block  size-max  place-self-start overflow-auto rounded border    ${currentVisibleArea == 12 ? '' : 'hidden'}`}
             >
+              <div className="sticky top-0 grid h-1/5 grid-cols-1 place-content-center p-1 text-sm sm:px-2 md:px-4 lg:grid-cols-2 lg:px-6 lg:text-base xl:px-2 xl:text-lg 2xl:px-10 2xl:text-xl">
+                <div className="flex grid-flow-row auto-rows-max justify-center space-x-2 lg:justify-start">
+                  <div>
+                    <div
+                      className="inline-flex w-full justify-center rounded-md pt-1 shadow-sm"
+                      role="group"
+                    >
+                      <button
+                        data-target="area12"
+                        className="inline-block w-max place-content-center rounded-l-xl border bg-p1-white px-1 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen/15 hover:bg-p1-cyan/25 hover:text-p1-darkgreen focus:border-p1-darkgreen/20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                        id="toggleButton21"
+                        onClick={() => {
+                          setCurrentVisibleArea(12);
+                        }}
+                      >
+                        Выбрать все
+                      </button>
+                      <Link
+                        href="#"
+                        className="inline-block w-max place-content-center border bg-p1-white px-1 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen/15 hover:bg-p1-cyan/25 hover:text-p1-darkgreen focus:border-p1-darkgreen/20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                      >
+                        Отправить
+                      </Link>
+                      <button
+                        data-target="area12"
+                        className="inline-block w-max place-content-center border bg-p1-white px-1 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen/15 hover:bg-p1-cyan/25 hover:text-p1-darkgreen focus:border-p1-darkgreen/20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                        id="toggleButton22"
+                        onClick={() => {
+                          setCurrentVisibleArea(12);
+                        }}
+                      >
+                        Редактировать
+                      </button>
+
+                      <button
+                        data-target="area12"
+                        className="inline-block w-max place-content-center rounded-r-xl border bg-p1-white px-1 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen/15 hover:bg-p1-cyan/25 hover:text-p1-darkgreen focus:border-p1-darkgreen/20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                        id="toggleButton23"
+                        onClick={() => {
+                          setCurrentVisibleArea(12);
+                        }}
+                      >
+                        Licenses
+                      </button>
+
+                    
+                    </div>
+                  </div>
+                </div>
+
+                <div className="flex flex-auto grid-flow-row auto-rows-max justify-center space-x-8 lg:justify-end">
+                  <div className="">
+                    <div
+                      className="inline-flex w-full flex-auto justify-center rounded-md pt-1 shadow-sm"
+                      role="group"
+                    >
+                      <Link
+                        href="#"
+                        className="inline-block w-max place-content-center rounded-l-xl border bg-p1-white px-1 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen/15 hover:bg-p1-cyan/25 hover:text-p1-darkgreen focus:border-p1-darkgreen/20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                      >
+                        NFT
+                      </Link>
+                      <Link
+                        href="#"
+                        className="inline-block w-max place-content-center border bg-p1-white px-1 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen/15 hover:bg-p1-cyan/25 hover:text-p1-darkgreen focus:border-p1-darkgreen/20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                      >
+                        Ready to be NFT
+                      </Link>
+
+                      <Link
+                        href="#"
+                        className="inline-block w-max place-content-center rounded-r-xl border bg-p1-white px-1 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen/15 hover:bg-p1-cyan/25 hover:text-p1-darkgreen focus:border-p1-darkgreen/20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                      >
+                        Not All data
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+              </div>
               <div className="border-p1-green bg-p1-white text-xl text-p1-darkgreen dark:bg-p1-deepdarkgreen">
                 <div className="text-center text-p1-darkgreen dark:text-p1-green">
                   {/* Таблица награждения*/}
 
                   <div className="dark:border-p1-green">
-                    <div className="relative h-96 snap-start overflow-auto scroll-smooth">
+                    <div className="relative h-96 resize-y overflow-auto scroll-smooth">
                       <table className="text-left text-xl text-p1-darkgreen dark:text-p1-green">
-                        <thead className="sticky top-0 z-20 border-b border-p1-green/30 bg-p1-white/100 text-xs uppercase text-p1-darkgreen dark:bg-p1-deepdarkgreen dark:text-p1-green">
+                        <thead className="sticky top-0 z-10 border-b border-p1-green/30 bg-p1-white/100 text-xs uppercase text-p1-darkgreen dark:bg-p1-deepdarkgreen dark:text-p1-green">
                           <tr>
                             <th scope="col" className="p-2 text-center">
                               choose
-                              <div className="flex items-center">
-                                <input
-                                  checked={check}
-                                  id="checkbox"
-                                  onChange={() => {
-                                    setCheck(!check);
-                                  }}
-                                  type="checkbox"
-                                  value=""
-                                  className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
-                                />
-                                <label
-                                  htmlFor="checkbox "
-                                  className="ms-2 font-medium text-p1-darkgreen dark:text-p1-green"
-                                ></label>
-                              </div>
+                          
                             </th>
                             <th scope="col" className="px-6 py-3">
                               <div className="flex items-center">
@@ -3845,7 +3911,8 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-                <div className="flex grid-flow-row gap-4">
+
+                <div className="flex grid-flow-row gap-4 pt-10">
                   <div className="pt-1 text-center text-p1-darkgreen dark:text-p1-green">
                     {/* ... карточка 1 ...15x10 */}
                     <div className="group relative h-[14.5rem] w-40 place-self-center overflow-hidden rounded-xl bg-white object-cover lining-nums shadow-lg transition-transform duration-100 hover:shadow-lg hover:shadow-p1-cyan group-hover:shadow-sm dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
