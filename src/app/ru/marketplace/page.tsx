@@ -181,7 +181,7 @@ export default function Home() {
               </svg>
               <input
                 type="email"
-                placeholder="Search Something..."
+                placeholder="Search"
                 className="w-full bg-transparent text-xl text-gray-600 outline-none"
               />
             </div>
@@ -701,7 +701,7 @@ export default function Home() {
               </svg>
               <input
                 type="email"
-                placeholder="Search Elementals..."
+                placeholder="Search"
                 className="w-full bg-transparent text-xl text-p1-deepdarkgreen outline-none dark:text-p1-cyan"
               />
             </div>
