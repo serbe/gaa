@@ -69,7 +69,7 @@ export default function Page() {
                               </svg>
                               <p className="mb-2 text-sm text-gray-500 dark:text-gray-400">
                                 <span className="font-semibold">
-                                  Изображение персоны в картинке
+                                Person image
                                 </span>
                               </p>
 
@@ -106,7 +106,7 @@ export default function Page() {
                                 />
                               </svg>
                               <p className="mb-2 text-sm text-gray-500 dark:text-gray-400">
-                                <span className="font-semibold">Фото Персоны</span>
+                                <span className="font-semibold">Person image</span>
                               </p>
 
                               <p className="mb-2 text-sm text-gray-500 dark:text-gray-400">
@@ -146,21 +146,17 @@ export default function Page() {
                     </div>
                     <div id="1" className="md:w-full">
                       <p className="p-2 pt-8 text-base text-p1-darkgreen md:text-xl dark:text-p1-green">
-                        Максимальное количество: 100 Collectors NFT за транзакцию
+                      Maximum quantity: 100 Collectors per transaction
                       </p>
 
                       <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green">
-                        Созданные вами NFT автоматически попадут в глобальную коллекцию GAA
+                      NFTs created will automatically go into the GAA global collection
                       </p>
                       <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green">
-                        это единый сборник мирового сообщества
-                      </p>
-                      <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green">
-                        Если вы планируете раздать или продать свои NFT, вы можете сделать несколько
-                        NFT одновременно
+                      If you plan to give away or sell your NFTs, you are able to create multiple NFTs at the same time
                       </p>
                       <p className="px-2 pt-2 text-base font-semibold text-p1-darkgreen md:pb-72 md:text-2xl dark:text-p1-green">
-                        Это Ваш способ привлечения инвестиций
+                      It is your way of attracting investment
                       </p>
                     </div>
                   </div>
@@ -173,7 +169,7 @@ export default function Page() {
             <div className="flex flex-col object-right p-2 md:w-full">
               <div id="2">
                 <p className="text-center text-xl text-p1-darkgreen md:text-left md:text-2xl dark:text-p1-green">
-                  Заполни все поля - эти метаданные будут храниться в блокчейне
+                Fill in all fields - this metadata will be stored in the blockchain
                 </p>
               </div>
               <div className="pb-5"></div>
@@ -182,13 +178,13 @@ export default function Page() {
                   htmlFor="full_name"
                   className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-green"
                 >
-                  Полное имя
+                  Full name
                 </label>
                 <input
                   type="text"
                   id="full_name"
                   className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-gray-400 dark:placeholder:text-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
-                  placeholder="Иванов Иван Иванович"
+                  placeholder="John Lawson"
                   required
                 />
               </div>
@@ -199,13 +195,13 @@ export default function Page() {
                   htmlFor="nic_name"
                   className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-green"
                 >
-                  Ник-Имя
+                  Nickname
                 </label>
                 <input
                   type="text"
                   id="nic_name"
                   className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-gray-400 dark:placeholder:text-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
-                  placeholder="Ник-Имя"
+                  placeholder="Nickname"
                   required
                 />
               </div>
@@ -216,13 +212,13 @@ export default function Page() {
                   htmlFor="birthday"
                   className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-green"
                 >
-                  Дата рождения
+                  Date of birth
                 </label>
                 <input
                   type="date"
                   id="birthday"
                   className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-gray-400 dark:placeholder:text-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
-                  placeholder="Дата рождения"
+                  placeholder="Date of birth"
                   required
                 />
               </div>
@@ -233,13 +229,13 @@ export default function Page() {
                   htmlFor="contry"
                   className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-green"
                 >
-                  Страна
+                  Country
                 </label>
                 <input
                   type="text"
                   id="contry"
                   className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-gray-400 dark:placeholder:text-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
-                  placeholder="Страна"
+                  placeholder="Country"
                   required
                 />
               </div>
@@ -250,13 +246,13 @@ export default function Page() {
                   htmlFor="city"
                   className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-green"
                 >
-                  Город
+                  City
                 </label>
                 <input
                   type="text"
                   id="city"
                   className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-gray-400 dark:placeholder:text-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
-                  placeholder="Город"
+                  placeholder="City"
                   required
                 />
               </div>
@@ -268,13 +264,13 @@ export default function Page() {
                   htmlFor="message"
                   className="mb-2 block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-green"
                 >
-                  Описание
+                  Description
                 </label>
                 <textarea
                   id="message"
                   rows={4}
                   className="block w-full rounded-lg border-2 border-gray-300 bg-p2-white2 p-2.5 text-sm text-p1-darkgreen focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 dark:text-gray-400 dark:placeholder:text-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
-                  placeholder="Описание"
+                  placeholder="Description"
                 ></textarea>
               </div>
               <div className="pb-5"></div>
@@ -293,13 +289,13 @@ export default function Page() {
                   htmlFor="checkbox"
                   className="ms-2 text-sm font-medium text-p1-darkgreen dark:text-gray-300"
                 >
-                  Я согласен на обработку персональных данных.
+                  I agree to the processing of personal data.
                 </label>
               </div>
               <div id="3" className="pb-8"></div>
 
               <button className="rounded-3xl border-2 border-p1-darkgreen bg-p2-white2 px-20 py-8 text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-stone-500 hover:text-p1-white dark:border-stone-700 dark:bg-stone-800 dark:text-stone-400 dark:hover:border-stone-700 dark:hover:bg-stone-900 dark:hover:text-stone-400">
-                Создать NFT Коллекционера
+              Create Collectors NFT
               </button>
               <div className="pb-8"></div>
             </div>
