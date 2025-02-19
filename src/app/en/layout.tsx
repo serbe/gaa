@@ -3,7 +3,7 @@ import { getMessages } from 'next-intl/server';
 import type { Metadata } from 'next';
 import { Roboto_Serif } from 'next/font/google';
 import '../globals.css';
-import Header from '@/components/header';
+// import Header from '@/components/header';
 import Nav from '@/components/nav';
 import Footer from '@/components/footer';
 import { GaaStoreProvider } from '@/context/gaa-store-provider';
@@ -39,7 +39,7 @@ export default async function EnLayout({
         <body>
           <NextIntlClientProvider messages={messages}>
             <div className="">
-              <Header />
+              {/* <Header /> */}
               <Nav />
               {/* <Sidebar /> */}
               <main className="mx-auto min-h-screen bg-p1-white dark:bg-p1-deepdarkgreen">
