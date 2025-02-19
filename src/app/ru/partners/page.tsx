@@ -88,7 +88,7 @@ export default function Page() {
                 <p className="p-2"> - маркетинг (вовлечение лидеров мнений и аудитории);</p>
                 <p className="p-2"> - распоространение лицензий;</p>
                 <p className="p-2"> - создание новых коллекций NFT;</p>
-                <p className="p-2"> - аренда хостинга и серверов</p>
+                <p className="p-2"> - аренда хостинга и серверов.</p>
                 <div className="text-center text-2xl font-bold text-p1-darkgreen md:pt-4 md:text-2xl dark:text-amber-600">
                   Первые 100 участников сбора получат NFT награды в количестве, зависящем от размера
                   пожертвования

@@ -91,7 +91,7 @@ export default function Page() {
               <p className="pb-5">DAO (Decentralized Autonomous Organizations):</p>
               <p className="pb-5">
                 Members of our community will be able to submit applications and take part in voting
-                on choice of event format, judges, participants and other issues
+                on choice of event format, judges, participants and other issues.
               </p>
             </div>
             <div className="md:pt-2" id="9"></div>

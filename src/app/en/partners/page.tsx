@@ -87,7 +87,7 @@ export default function Page() {
                 <p className="p-2"> - marketing (involving opinion leaders and audiences);</p>
                 <p className="p-2"> - distribution of licenses;</p>
                 <p className="p-2"> - creating new NFT collections;</p>
-                <p className="p-2"> - hosting and server rental</p>
+                <p className="p-2"> - hosting and server rental.</p>
                 <div className="text-center text-2xl font-bold text-p1-darkgreen md:pt-4 md:text-2xl dark:text-amber-600">
                   The first 100 participants in the collection will receive NFT rewards in an amount
                   depending on the size donations

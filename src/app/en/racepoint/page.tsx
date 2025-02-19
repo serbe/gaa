@@ -17,7 +17,7 @@ export default function Page() {
         <div className="md:basis-3/5">
           <div className="rounded-3xl border-p2-orange px-2 md:my-5 md:space-y-6 md:border-4 md:p-6 md:hover:shadow-2xl dark:border-amber-600 dark:text-amber-600">
             <div className="pt-2 text-center text-xl text-p1-darkgreen md:pb-5 md:text-2xl dark:text-amber-600">
-              Racepoints is our internal system for accumulating “points”; on the account.
+              Racepoints is our internal system for accumulating “points” on the account.
             </div>
             <div className="px-2 pt-4 text-center text-base text-p1-darkgreen md:pb-5 md:text-xl dark:text-amber-600">
               A rating system has been created by analogy with motorsport, information is displayed
