@@ -34,8 +34,8 @@ export default function Page() {
             <div className="mx-auto text-center md:text-xl lg:text-2xl">
               <div className="flex flex-row justify-center">
                 <div className="p-2 text-base text-p1-darkgreen md:text-2xl md:font-semibold dark:text-p1-green">
-                  <p>Присоединяйтесь к нам</p>
-                  <p>Получите своего героя CustomLad</p>
+                  <p>Присоединяйся к нам</p>
+                  <p>Получи своего героя CustomLad</p>
                 </div>
               </div>
               <div id="1" className="flex flex-wrap place-content-center md:flex-nowrap">

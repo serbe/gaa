@@ -28,7 +28,7 @@ export default function Page() {
                 <div className="flex flex-wrap px-2 pt-2 md:flex-nowrap">
                   <div className="">
                     <div className="text-center text-base font-semibold text-p1-darkgreen md:text-xl dark:text-p1-green">
-                      <p>Присоединяйтесь к нам</p>
+                      <p>Присоединяйся к нам</p>
                       <p>Создай NFT спортивного/раритетного автомобиля</p>
                     </div>
 
@@ -151,9 +151,6 @@ export default function Page() {
 
                       <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green">
                         Созданные Вами NFT автоматически попадут в глобальную коллекцию GAA
-                      </p>
-                      <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green">
-                        это единый сборник мирового сообщества
                       </p>
                       <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green">
                         Если вы планируете раздать или продать свои NFT, вы можете сделать несколько

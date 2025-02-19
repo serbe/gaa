@@ -22,10 +22,10 @@ export default function Page() {
         <div className="h-max rounded-3xl border-p2-orange md:w-3/5 md:border-4 md:hover:shadow-lg dark:border-amber-600">
           <div>
             <p className="px-2 text-center text-base text-p1-darkgreen md:text-2xl dark:text-p1-green">
-              Присоединяйтесь к нам
+              Присоединяйся к нам
             </p>
             <p className="px-2 pb-2 text-center text-base text-p1-darkgreen md:text-2xl dark:text-p1-green">
-              Получите своего героя RaceLad
+              Получи своего героя RaceLad!
             </p>
             <Image
               className="mb-4 flex w-4/5 place-self-center rounded-3xl border-2 border-p2-orange md:w-2/5 md:shadow-lg dark:border-amber-600"
