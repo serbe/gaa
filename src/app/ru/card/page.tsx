@@ -361,7 +361,7 @@ export default function Home() {
             </div>
             <div className="place-content-start px-2 py-1">
               <div className="w-full rounded-2xl border border-p1-green bg-p1-white text-xl text-p1-darkgreen shadow-lg dark:bg-p1-deepdarkgreen">
-                <details className="m-2">
+                <details className="m-2" open>
                   <summary className="relative flex cursor-pointer justify-start py-2">
                     <div className="px-2">
                       <Image
@@ -650,67 +650,6 @@ export default function Home() {
                       </div>
                     </div>
                   </div>
-                  <div className="">
-                    <div className="group relative">
-                      <Link href="#" className="mx-auto justify-start">
-                        <Image
-                          className="size-7 rounded-sm p-1 transition-all delay-75 duration-300 ease-in-out"
-                          width={480}
-                          height={480}
-                          src="/icon/chek_bold_green.png"
-                          alt="bt2"
-                        />
-                      </Link>
-                      <div className="invisible absolute left-1/2 top-full z-10 mt-2 w-80 -translate-x-1/2 rounded-xl bg-p2-white2 bg-center p-4 text-gray-800 opacity-0 shadow-lg transition-all duration-300 group-hover:visible group-hover:opacity-100 dark:bg-p1-darkgreen">
-                        <div className="w-72 rounded-lg text-base">
-                          <details className="mb-2 border-b border-gray-600">
-                            <summary className="relative flex cursor-pointer justify-start py-1">
-                              <div className="px-2">
-                                <Image
-                                  className="size-6"
-                                  width={480}
-                                  height={480}
-                                  src="/icon/chek_green.png"
-                                  alt="bt2"
-                                />
-                              </div>
-                              <div className="text-p1-darkgreen dark:text-p1-cyan">
-                                Bedged Collectiob
-                              </div>
-                            </summary>
-                            <div className="pt-1 text-p1-darkgreen dark:text-p1-cyan">
-                              This collection belongs to a verified account and has significant
-                              interest or sales. Learn more This token was minted on the smart
-                              contract at the address below:
-                            </div>
-                          </details>
-                          <details>
-                            <summary className="relative flex cursor-pointer justify-start py-1">
-                              <div className="px-2">
-                                <Image
-                                  className="size-6"
-                                  width={480}
-                                  height={480}
-                                  src="/icon/Attention_orange.png"
-                                  alt="bt2"
-                                />
-                              </div>
-                              <div className="text-p1-darkgreen dark:text-p1-cyan">
-                                Mintable Collection
-                              </div>
-                            </summary>
-                            <div className="pt-1 text-p1-darkgreen dark:text-p1-cyan">
-                              Mintable collections allow users to create their own digital items,
-                              which could include duplicate or fake versions of items from other
-                              projects. You should always do your own research, proceed with
-                              caution, and be certain that the smart contract address of the project
-                              is exactly what you expect.
-                            </div>
-                          </details>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
                 </div>
 
                 <div className="flex justify-end md:px-10"></div>
@@ -974,7 +913,7 @@ export default function Home() {
             </div>
             <div className="pt-2">
               <div className="w-full rounded-2xl border border-p1-green bg-p1-white text-xl text-p1-darkgreen shadow-lg dark:bg-p1-deepdarkgreen">
-                <details className="m-2">
+                <details className="m-2" open>
                   <summary className="relative flex cursor-pointer justify-start py-2">
                     <div className="px-2">
                       <Image
@@ -999,7 +938,7 @@ export default function Home() {
             </div>
             <div className="pt-2">
               <div className="w-full rounded-2xl border border-p1-green bg-p1-white text-xl text-p1-darkgreen shadow-lg dark:bg-p1-deepdarkgreen">
-                <details className="m-2">
+                <details className="m-2" open>
                   <summary className="relative flex cursor-pointer justify-start py-2">
                     <div className="px-2">
                       <Image
@@ -1728,7 +1667,7 @@ export default function Home() {
             </div>
             <div className="pt-2">
               <div className="w-full rounded-2xl border border-p1-green bg-p1-white text-xl text-p1-darkgreen shadow-lg dark:bg-p1-deepdarkgreen">
-                <details className="m-2">
+                <details className="m-2" open>
                   <summary className="relative flex cursor-pointer justify-start py-2">
                     <div className="px-2">
                       <Image
@@ -3342,7 +3281,7 @@ export default function Home() {
 
         <div className="pt-2">
           <div className="w-full rounded-2xl border border-p1-green bg-p1-white text-xl text-p1-darkgreen shadow-lg dark:bg-p1-deepdarkgreen">
-            <details className="m-2">
+            <details className="m-2" open>
               <summary className="relative flex cursor-pointer justify-start py-2">
                 <div className="px-2">
                   <Image
@@ -4238,7 +4177,7 @@ export default function Home() {
       <div id="2"></div>
       <div className="mx-2">
         <div className="w-full rounded-2xl border border-p1-green bg-p1-white text-xl text-p1-darkgreen shadow-lg dark:bg-p1-deepdarkgreen">
-          <details className="m-2">
+          <details className="m-2" open>
             <summary className="relative flex cursor-pointer justify-start py-2">
               <div className="px-2">
                 <Image
