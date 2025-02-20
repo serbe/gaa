@@ -40,9 +40,9 @@ export default function Home() {
                   alt="Bordered avatar"
                 />
 
-                <div className="invisible absolute left-9 z-10 m-0.5 mt-2 w-72 -translate-x-1/2 rounded-xl bg-p1-white/30 bg-center p-4 text-gray-800 opacity-0 shadow-xl backdrop-blur-lg transition-all duration-100 group-hover:visible group-hover:border-opacity-70 group-hover:bg-opacity-30 group-hover:opacity-100 md:w-80">
-                  <div className="rounded-md border-2 border-p1-darkgreen/50 bg-p1-cyan/20">
-                    <div className="border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-100 ease-in-out hover:bg-p1-white/50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
+                <div className="invisible absolute left-9 z-10 m-0.5 mt-2 w-72 -translate-x-1/2 rounded-xl bg-p1-white/50 bg-center p-4 text-gray-800 opacity-0 shadow-xl backdrop-blur-lg transition-all duration-100 group-hover:visible group-hover:border-opacity-70 group-hover:bg-opacity-30 group-hover:opacity-100 md:w-80">
+                  <div className="rounded-md border-2 border-p1-darkgreen/50 bg-p1-cyan/30">
+                    <div className="border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-100 ease-in-out hover:bg-p1-white/50 hover:pl-6 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
                       <Link href="#" className="mx-auto flex flex-row justify-start">
                         <Image
                           className="size-6 self-center"
@@ -55,7 +55,7 @@ export default function Home() {
                         <div className="self-center px-2">Connect Wallet </div>
                       </Link>
                     </div>
-                    <div className="border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-100 ease-in-out hover:bg-p1-white/50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
+                    <div className="border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-100 ease-in-out hover:bg-p1-white/50 hover:pl-6 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
                       <Link href="#" className="mx-auto flex flex-row justify-start">
                         <Image
                           className="size-6 self-center"
@@ -82,8 +82,8 @@ export default function Home() {
                 />
 
                 <div className="invisible absolute left-9 z-10 m-0.5 mt-2 w-72 -translate-x-1/2 rounded-xl bg-p1-white/30 bg-center p-4 text-gray-800 opacity-0 shadow-xl backdrop-blur-lg transition-all duration-100 group-hover:visible group-hover:border-opacity-70 group-hover:bg-opacity-30 group-hover:opacity-100 md:w-80">
-                  <div className="rounded-md border-2 border-p1-darkgreen/50 bg-p1-cyan/20">
-                    <div className="border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-100 ease-in-out hover:bg-p1-white/50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
+                  <div className="rounded-md border-2 border-p1-darkgreen/50 bg-p1-cyan/30">
+                    <div className="border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-100 ease-in-out hover:bg-p1-white/50 hover:pl-6 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
                       <Link href="/profile" className="mx-auto flex flex-row justify-start">
                         <Image
                           className="size-6 self-center"
@@ -96,7 +96,7 @@ export default function Home() {
                         <div className="self-center px-2">Profile </div>
                       </Link>
                     </div>
-                    <div className="border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-100 ease-in-out hover:bg-p1-white/50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
+                    <div className="border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-100 ease-in-out hover:bg-p1-white/50 hover:pl-6 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
                       <Link href="/mynfts" className="mx-auto flex flex-row justify-start">
                         <Image
                           className="size-6 self-center"
@@ -108,7 +108,7 @@ export default function Home() {
                         <div className="self-center px-2"> My NFT </div>
                       </Link>
                     </div>
-                    <div className="border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-100 ease-in-out hover:bg-p1-white/50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
+                    <div className="border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-100 ease-in-out hover:bg-p1-white/50 hover:pl-6 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
                       <Link href="#" className="mx-auto flex flex-row justify-start">
                         <Image
                           className="size-6 self-center"
@@ -120,7 +120,7 @@ export default function Home() {
                         <div className="self-center px-2"> Watchlist</div>
                       </Link>
                     </div>
-                    <div className="border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-100 ease-in-out hover:bg-p1-white/50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
+                    <div className="border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-100 ease-in-out hover:bg-p1-white/50 hover:pl-6 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
                       <Link href="#" className="mx-auto flex flex-row justify-start">
                         <Image
                           className="size-6 self-center"
@@ -159,27 +159,6 @@ export default function Home() {
                   alt="Bordered avatar"
                 />
               </Link>
-            </div>
-          </div>
-        </div>
-
-        {/* Поиск 1 */}
-        <div className="flex justify-center space-x-2 pt-2 md:-mt-14">
-          <div>
-            <div className="mx-auto flex max-w-2xl overflow-hidden rounded-2xl border-2 border-p1-green bg-p2-white2 px-4 py-3 hover:border-p1-cyan focus:border-p1-cyan md:w-80 xl:w-96 dark:bg-p1-darkgreen dark:text-p1-cyan">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 192.904 192.904"
-                width="16px"
-                className="mr-3 rotate-90 fill-gray-800 dark:fill-p1-cyan"
-              >
-                <path d="m190.707 180.101-47.078-47.077c11.702-14.072 18.752-32.142 18.752-51.831C162.381 36.423 125.959 0 81.191 0 36.422 0 0 36.423 0 81.193c0 44.767 36.422 81.187 81.191 81.187 19.688 0 37.759-7.049 51.831-18.751l47.079 47.078a7.474 7.474 0 0 0 5.303 2.197 7.498 7.498 0 0 0 5.303-12.803zM15 81.193C15 44.694 44.693 15 81.191 15c36.497 0 66.189 29.694 66.189 66.193 0 36.496-29.692 66.187-66.189 66.187C44.693 147.38 15 117.689 15 81.193z"></path>
-              </svg>
-              <input
-                type="email"
-                placeholder="Search ..."
-                className="w-full bg-transparent text-xl text-p1-deepdarkgreen outline-none dark:text-p1-cyan"
-              />
             </div>
           </div>
         </div>

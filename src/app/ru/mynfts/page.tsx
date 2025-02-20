@@ -43,7 +43,7 @@ export default function Home() {
 
                   <div className="invisible absolute left-9 z-10 m-0.5 mt-2 w-72 -translate-x-1/2 rounded-xl bg-p1-white/30 bg-center p-4 text-gray-800 opacity-0 shadow-xl backdrop-blur-lg transition-all duration-100 group-hover:visible group-hover:border-opacity-70 group-hover:bg-opacity-30 group-hover:opacity-100 md:w-80">
                     <div className="rounded-md border-2 border-p1-darkgreen/50 bg-p1-cyan/100">
-                      <div className="border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-100 ease-in-out hover:bg-p1-white/50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
+                      <div className="border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-100 ease-in-out hover:bg-p1-white/50 hover:pl-6 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
                         <Link href="#" className="mx-auto flex flex-row justify-start">
                           <Image
                             className="size-6 self-center"
@@ -56,7 +56,7 @@ export default function Home() {
                           <div className="self-center px-2">Connect Wallet </div>
                         </Link>
                       </div>
-                      <div className="border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-100 ease-in-out hover:bg-p1-white/50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
+                      <div className="border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-100 ease-in-out hover:bg-p1-white/50 hover:pl-6 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
                         <Link href="#" className="mx-auto flex flex-row justify-start">
                           <Image
                             className="size-6 self-center"
@@ -84,7 +84,7 @@ export default function Home() {
 
                   <div className="invisible absolute left-9 z-10 m-0.5 mt-2 w-72 -translate-x-1/2 rounded-xl bg-p1-white/30 bg-center p-4 text-gray-800 opacity-0 shadow-xl backdrop-blur-lg transition-all duration-100 group-hover:visible group-hover:border-opacity-70 group-hover:bg-opacity-30 group-hover:opacity-100 md:w-80">
                     <div className="rounded-md border-2 border-p1-darkgreen/50 bg-p1-cyan/100">
-                      <div className="border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-100 ease-in-out hover:bg-p1-white/50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
+                      <div className="border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-100 ease-in-out hover:bg-p1-white/50 hover:pl-6 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
                         <Link href="/profile" className="mx-auto flex flex-row justify-start">
                           <Image
                             className="size-6 self-center"
@@ -97,7 +97,7 @@ export default function Home() {
                           <div className="self-center px-2">Profile </div>
                         </Link>
                       </div>
-                      <div className="border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-100 ease-in-out hover:bg-p1-white/50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
+                      <div className="border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-100 ease-in-out hover:bg-p1-white/50 hover:pl-6 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
                         <Link href="/mynfts" className="mx-auto flex flex-row justify-start">
                           <Image
                             className="size-6 self-center"
@@ -109,7 +109,7 @@ export default function Home() {
                           <div className="self-center px-2"> My NFT </div>
                         </Link>
                       </div>
-                      <div className="border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-100 ease-in-out hover:bg-p1-white/50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
+                      <div className="border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-100 ease-in-out hover:bg-p1-white/50 hover:pl-6 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
                         <Link href="#" className="mx-auto flex flex-row justify-start">
                           <Image
                             className="size-6 self-center"
@@ -121,7 +121,7 @@ export default function Home() {
                           <div className="self-center px-2"> Watchlist</div>
                         </Link>
                       </div>
-                      <div className="border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-100 ease-in-out hover:bg-p1-white/50 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
+                      <div className="border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-100 ease-in-out hover:bg-p1-white/50 hover:pl-6 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
                         <Link href="#" className="mx-auto flex flex-row justify-start">
                           <Image
                             className="size-6 self-center"
