@@ -68,9 +68,7 @@ export default function Page() {
                                 />
                               </svg>
                               <p className="mb-2 text-sm text-gray-500 dark:text-gray-400">
-                                <span className="font-semibold">
-                                Person image
-                                </span>
+                                <span className="font-semibold">Person image</span>
                               </p>
 
                               <p className="mb-2 text-sm text-gray-500 dark:text-gray-400">
@@ -146,17 +144,18 @@ export default function Page() {
                     </div>
                     <div id="1" className="md:w-full">
                       <p className="p-2 pt-8 text-base text-p1-darkgreen md:text-xl dark:text-p1-green">
-                      Maximum quantity: 100 Collectors per transaction
+                        Maximum quantity: 100 Collectors per transaction
                       </p>
 
                       <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green">
-                      NFTs created will automatically go into the GAA global collection
+                        NFTs created will automatically go into the GAA global collection
                       </p>
                       <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green">
-                      If you plan to give away or sell your NFTs, you are able to create multiple NFTs at the same time
+                        If you plan to give away or sell your NFTs, you are able to create multiple
+                        NFTs at the same time
                       </p>
                       <p className="px-2 pt-2 text-base font-semibold text-p1-darkgreen md:pb-72 md:text-2xl dark:text-p1-green">
-                      It is your way of attracting investment
+                        It is your way of attracting investment
                       </p>
                     </div>
                   </div>
@@ -169,7 +168,7 @@ export default function Page() {
             <div className="flex flex-col object-right p-2 md:w-full">
               <div id="2">
                 <p className="text-center text-xl text-p1-darkgreen md:text-left md:text-2xl dark:text-p1-green">
-                Fill in all fields - this metadata will be stored in the blockchain
+                  Fill in all fields - this metadata will be stored in the blockchain
                 </p>
               </div>
               <div className="pb-5"></div>
@@ -295,7 +294,7 @@ export default function Page() {
               <div id="3" className="pb-8"></div>
 
               <button className="rounded-3xl border-2 border-p1-darkgreen bg-p2-white2 px-20 py-8 text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-stone-500 hover:text-p1-white dark:border-stone-700 dark:bg-stone-800 dark:text-stone-400 dark:hover:border-stone-700 dark:hover:bg-stone-900 dark:hover:text-stone-400">
-              Create Collectors NFT
+                Create Collectors NFT
               </button>
               <div className="pb-8"></div>
             </div>

@@ -26,7 +26,7 @@ export default function Home() {
     <div className="mx-auto w-full font-serif">
       <JumpButton points={jumpPoints} />
 
-      <div className="">
+      <div>
         <div id="1"></div>
         <div className="h-1/6 bg-[url('/background/bgsky.png')] bg-cover bg-center p-2 dark:brightness-75">
           <div className="flex justify-center space-x-2"></div>
@@ -169,7 +169,7 @@ export default function Home() {
           </div>
 
           {/* Поиск 1 */}
-          <div className="">
+          <div>
             <div className="mx-auto flex w-72 overflow-hidden rounded-xl border-p1-green bg-p2-white2/50 px-4 py-3 backdrop-blur-lg md:-my-10 lg:w-80 xl:w-96">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -782,7 +782,7 @@ export default function Home() {
           </div>
 
           <div className="flex flex-auto grid-flow-row auto-rows-max justify-center space-x-8 lg:justify-end xl:-my-16">
-            <div className="">
+            <div>
               <div
                 className="inline-flex w-full flex-auto justify-center rounded-md pt-1 shadow-sm"
                 role="group"
@@ -995,7 +995,7 @@ export default function Home() {
                     </select>
                   </form>
                   <div className="inline-flex space-x-1 pb-2 md:space-x-2 xl:space-x-4 2xl:space-x-10">
-                    <div className="">
+                    <div>
                       <div>
                         <input
                           type="text"
@@ -1007,7 +1007,7 @@ export default function Home() {
                       </div>
                     </div>
                     <div className="place-content-center px-2">to</div>
-                    <div className="">
+                    <div>
                       <div>
                         <input
                           type="text"
@@ -1032,7 +1032,7 @@ export default function Home() {
             </div>
 
             <div className="w-full snap-start border-b border-p1-green/30 bg-p1-white text-xl text-p1-darkgreen transition-all delay-75 duration-300 ease-in-out hover:border-p1-green hover:bg-p1-green/5 dark:bg-p1-deepdarkgreen">
-              <details className="">
+              <details>
                 <summary className="relative flex cursor-pointer justify-start py-2 text-p1-darkgreen delay-75 duration-300 ease-in-out hover:pl-2 dark:text-p1-green dark:hover:text-p1-cyan">
                   <div className="place-content-center px-4">Rarity rank</div>
                 </summary>
@@ -1078,10 +1078,10 @@ export default function Home() {
             <div className="w-full place-content-center px-6 py-4 text-xl font-bold text-p1-darkgreen dark:text-p1-green">
               Traits
             </div>
-            <div className="">
+            <div>
               <div className="h-96 w-full resize-y snap-y scroll-mt-4 place-self-start overflow-auto scroll-smooth">
                 <div className="w-full snap-start border-b border-p1-green/30 bg-p1-white text-xl text-p1-darkgreen hover:border-p1-green hover:bg-p1-green/5 dark:bg-p1-deepdarkgreen">
-                  <details className="">
+                  <details>
                     <summary className="relative flex cursor-pointer justify-between py-2 text-p1-darkgreen delay-75 duration-300 ease-in-out hover:pl-2 dark:text-p1-green dark:hover:text-p1-cyan">
                       <div className="place-content-center px-4">Slogan</div>
                       <div className="place-content-center px-4">8</div>
@@ -1152,7 +1152,7 @@ export default function Home() {
                 </div>
 
                 <div className="w-full snap-start border-b border-p1-green/30 bg-p1-white text-xl text-p1-darkgreen hover:border-p1-green hover:bg-p1-green/5 dark:bg-p1-deepdarkgreen">
-                  <details className="">
+                  <details>
                     <summary className="relative flex cursor-pointer justify-between py-2 text-p1-darkgreen delay-75 duration-300 ease-in-out hover:pl-2 dark:text-p1-green dark:hover:text-p1-cyan">
                       <div className="place-content-center px-4">Background</div>
                       <div className="place-content-center px-4">46</div>
@@ -1222,7 +1222,7 @@ export default function Home() {
                 </div>
 
                 <div className="w-full snap-start border-b border-p1-green/30 bg-p1-white text-xl text-p1-darkgreen hover:border-p1-green hover:bg-p1-green/5 dark:bg-p1-deepdarkgreen">
-                  <details className="">
+                  <details>
                     <summary className="relative flex cursor-pointer justify-between py-2 text-p1-darkgreen delay-75 duration-300 ease-in-out hover:pl-2 dark:text-p1-green dark:hover:text-p1-cyan">
                       <div className="place-content-center px-4">Skin</div>
                       <div className="place-content-center px-4">8</div>
@@ -1292,7 +1292,7 @@ export default function Home() {
                 </div>
 
                 <div className="w-full snap-start border-b border-p1-green/30 bg-p1-white text-xl text-p1-darkgreen hover:border-p1-green hover:bg-p1-green/5 dark:bg-p1-deepdarkgreen">
-                  <details className="">
+                  <details>
                     <summary className="relative flex cursor-pointer justify-between py-2 text-p1-darkgreen delay-75 duration-300 ease-in-out hover:pl-2 dark:text-p1-green dark:hover:text-p1-cyan">
                       <div className="place-content-center px-4">Eyes</div>
                       <div className="place-content-center px-4">8</div>
@@ -1362,7 +1362,7 @@ export default function Home() {
                 </div>
 
                 <div className="w-full snap-start border-b border-p1-green/30 bg-p1-white text-xl text-p1-darkgreen hover:border-p1-green hover:bg-p1-green/5 dark:bg-p1-deepdarkgreen">
-                  <details className="">
+                  <details>
                     <summary className="relative flex cursor-pointer justify-between py-2 text-p1-darkgreen delay-75 duration-300 ease-in-out hover:pl-2 dark:text-p1-green dark:hover:text-p1-cyan">
                       <div className="place-content-center px-4">Mouth</div>
                       <div className="place-content-center px-4">16</div>
@@ -1432,7 +1432,7 @@ export default function Home() {
                 </div>
 
                 <div className="w-full snap-start border-b border-p1-green/30 bg-p1-white text-xl text-p1-darkgreen hover:border-p1-green hover:bg-p1-green/5 dark:bg-p1-deepdarkgreen">
-                  <details className="">
+                  <details>
                     <summary className="relative flex cursor-pointer justify-between py-2 text-p1-darkgreen delay-75 duration-300 ease-in-out hover:pl-2 dark:text-p1-green dark:hover:text-p1-cyan">
                       <div className="place-content-center px-4">Nose</div>
                       <div className="place-content-center px-4">4</div>
@@ -1502,7 +1502,7 @@ export default function Home() {
                 </div>
 
                 <div className="w-full snap-start border-b border-p1-green/30 bg-p1-white text-xl text-p1-darkgreen hover:border-p1-green hover:bg-p1-green/5 dark:bg-p1-deepdarkgreen">
-                  <details className="">
+                  <details>
                     <summary className="relative flex cursor-pointer justify-between py-2 text-p1-darkgreen delay-75 duration-300 ease-in-out hover:pl-2 dark:text-p1-green dark:hover:text-p1-cyan">
                       <div className="place-content-center px-4">Earring</div>
                       <div className="place-content-center px-4">7</div>
@@ -1572,7 +1572,7 @@ export default function Home() {
                 </div>
 
                 <div className="w-full snap-start border-b border-p1-green/30 bg-p1-white text-xl text-p1-darkgreen hover:border-p1-green hover:bg-p1-green/5 dark:bg-p1-deepdarkgreen">
-                  <details className="">
+                  <details>
                     <summary className="relative flex cursor-pointer justify-between py-2 text-p1-darkgreen delay-75 duration-300 ease-in-out hover:pl-2 dark:text-p1-green dark:hover:text-p1-cyan">
                       <div className="place-content-center px-4">Eye pads</div>
                       <div className="place-content-center px-4">3</div>
@@ -1642,7 +1642,7 @@ export default function Home() {
                 </div>
 
                 <div className="w-full snap-start border-b border-p1-green/30 bg-p1-white text-xl text-p1-darkgreen hover:border-p1-green hover:bg-p1-green/5 dark:bg-p1-deepdarkgreen">
-                  <details className="">
+                  <details>
                     <summary className="relative flex cursor-pointer justify-between py-2 text-p1-darkgreen delay-75 duration-300 ease-in-out hover:pl-2 dark:text-p1-green dark:hover:text-p1-cyan">
                       <div className="place-content-center px-4">Shaving</div>
                       <div className="place-content-center px-4">5</div>
@@ -1712,7 +1712,7 @@ export default function Home() {
                 </div>
 
                 <div className="w-full snap-start border-b border-p1-green/30 bg-p1-white text-xl text-p1-darkgreen hover:border-p1-green hover:bg-p1-green/5 dark:bg-p1-deepdarkgreen">
-                  <details className="">
+                  <details>
                     <summary className="relative flex cursor-pointer justify-between py-2 text-p1-darkgreen delay-75 duration-300 ease-in-out hover:pl-2 dark:text-p1-green dark:hover:text-p1-cyan">
                       <div className="place-content-center px-4">Face accessory</div>
                       <div className="place-content-center px-4">23</div>
@@ -1782,7 +1782,7 @@ export default function Home() {
                 </div>
 
                 <div className="w-full snap-start border-b border-p1-green/30 bg-p1-white text-xl text-p1-darkgreen hover:border-p1-green hover:bg-p1-green/5 dark:bg-p1-deepdarkgreen">
-                  <details className="">
+                  <details>
                     <summary className="relative flex cursor-pointer justify-between py-2 text-p1-darkgreen delay-75 duration-300 ease-in-out hover:pl-2 dark:text-p1-green dark:hover:text-p1-cyan">
                       <div className="place-content-center px-4">Clothes</div>
                       <div className="place-content-center px-4">179</div>
@@ -1852,7 +1852,7 @@ export default function Home() {
                 </div>
 
                 <div className="w-full snap-start border-b border-p1-green/30 bg-p1-white text-xl text-p1-darkgreen hover:border-p1-green hover:bg-p1-green/5 dark:bg-p1-deepdarkgreen">
-                  <details className="">
+                  <details>
                     <summary className="relative flex cursor-pointer justify-between py-2 text-p1-darkgreen delay-75 duration-300 ease-in-out hover:pl-2 dark:text-p1-green dark:hover:text-p1-cyan">
                       <div className="place-content-center px-4">Head</div>
                       <div className="place-content-center px-4">215</div>
@@ -1922,7 +1922,7 @@ export default function Home() {
                 </div>
 
                 <div className="w-full snap-start border-b border-p1-green/30 bg-p1-white text-xl text-p1-darkgreen hover:border-p1-green hover:bg-p1-green/5 dark:bg-p1-deepdarkgreen">
-                  <details className="">
+                  <details>
                     <summary className="relative flex cursor-pointer justify-between py-2 text-p1-darkgreen delay-75 duration-300 ease-in-out hover:pl-2 dark:text-p1-green dark:hover:text-p1-cyan">
                       <div className="place-content-center px-4">Extra</div>
                       <div className="place-content-center px-4">5</div>
@@ -1992,7 +1992,7 @@ export default function Home() {
                 </div>
 
                 <div className="w-full snap-start border-b border-p1-green/30 bg-p1-white text-xl text-p1-darkgreen hover:border-p1-green hover:bg-p1-green/5 dark:bg-p1-deepdarkgreen">
-                  <details className="">
+                  <details>
                     <summary className="relative flex cursor-pointer justify-between py-2 text-p1-darkgreen delay-75 duration-300 ease-in-out hover:pl-2 dark:text-p1-green dark:hover:text-p1-cyan">
                       <div className="place-content-center px-4">Parrot</div>
                       <div className="place-content-center px-4">3</div>
@@ -2062,7 +2062,7 @@ export default function Home() {
                 </div>
 
                 <div className="w-full snap-start border-b border-p1-green/30 bg-p1-white text-xl text-p1-darkgreen hover:border-p1-green hover:bg-p1-green/5 dark:bg-p1-deepdarkgreen">
-                  <details className="">
+                  <details>
                     <summary className="relative flex cursor-pointer justify-between py-2 text-p1-darkgreen delay-75 duration-300 ease-in-out hover:pl-2 dark:text-p1-green dark:hover:text-p1-cyan">
                       <div className="place-content-center px-4">Cupid&apos;s arrow</div>
                       <div className="place-content-center px-4">2</div>
@@ -2132,7 +2132,7 @@ export default function Home() {
                 </div>
 
                 <div className="w-full snap-start border-b border-p1-green/30 bg-p1-white text-xl text-p1-darkgreen hover:border-p1-green hover:bg-p1-green/5 dark:bg-p1-deepdarkgreen">
-                  <details className="">
+                  <details>
                     <summary className="relative flex cursor-pointer justify-between py-2 text-p1-darkgreen delay-75 duration-300 ease-in-out hover:pl-2 dark:text-p1-green dark:hover:text-p1-cyan">
                       <div className="place-content-center px-4">Tatoo</div>
                       <div className="place-content-center px-4">2</div>
@@ -2430,7 +2430,7 @@ export default function Home() {
                       <td className="p-2">Jon </td>
                       <td className="p-2">2h ago</td>
                       <td className="p-2">
-                        <div className="">
+                        <div>
                           <Link
                             href="#"
                             className="inline-block w-max place-content-start rounded-xl border bg-p1-white py-2 text-center text-base text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen/15 hover:bg-p1-cyan/25 hover:text-p1-darkgreen focus:border-p1-darkgreen/20 focus:bg-p1-cyan focus:text-p1-white lg:px-1 xl:px-1 2xl:px-2 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
@@ -2482,7 +2482,7 @@ export default function Home() {
                       <td className="p-2">Jon </td>
                       <td className="p-2">2h ago</td>
                       <td className="p-2">
-                        <div className="">
+                        <div>
                           <Link
                             href="#"
                             className="inline-block w-max place-content-start rounded-xl border bg-p1-white py-2 text-center text-base text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen/15 hover:bg-p1-cyan/25 hover:text-p1-darkgreen focus:border-p1-darkgreen/20 focus:bg-p1-cyan focus:text-p1-white lg:px-1 xl:px-1 2xl:px-2 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
@@ -2534,7 +2534,7 @@ export default function Home() {
                       <td className="p-2">Jon </td>
                       <td className="p-2">2h ago</td>
                       <td className="p-2">
-                        <div className="">
+                        <div>
                           <Link
                             href="#"
                             className="inline-block w-max place-content-start rounded-xl border bg-p1-white py-2 text-center text-base text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen/15 hover:bg-p1-cyan/25 hover:text-p1-darkgreen focus:border-p1-darkgreen/20 focus:bg-p1-cyan focus:text-p1-white lg:px-1 xl:px-1 2xl:px-2 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
@@ -2586,7 +2586,7 @@ export default function Home() {
                       <td className="p-2">Jon </td>
                       <td className="p-2">2h ago</td>
                       <td className="p-2">
-                        <div className="">
+                        <div>
                           <Link
                             href="#"
                             className="inline-block w-max place-content-start rounded-xl border bg-p1-white py-2 text-center text-base text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen/15 hover:bg-p1-cyan/25 hover:text-p1-darkgreen focus:border-p1-darkgreen/20 focus:bg-p1-cyan focus:text-p1-white lg:px-1 xl:px-1 2xl:px-2 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
@@ -2638,7 +2638,7 @@ export default function Home() {
                       <td className="p-2">Jon </td>
                       <td className="p-2">2h ago</td>
                       <td className="p-2">
-                        <div className="">
+                        <div>
                           <Link
                             href="#"
                             className="inline-block w-max place-content-start rounded-xl border bg-p1-white py-2 text-center text-base text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen/15 hover:bg-p1-cyan/25 hover:text-p1-darkgreen focus:border-p1-darkgreen/20 focus:bg-p1-cyan focus:text-p1-white lg:px-1 xl:px-1 2xl:px-2 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
@@ -2690,7 +2690,7 @@ export default function Home() {
                       <td className="p-2">Jon </td>
                       <td className="p-2">2h ago</td>
                       <td className="p-2">
-                        <div className="">
+                        <div>
                           <Link
                             href="#"
                             className="inline-block w-max place-content-start rounded-xl border bg-p1-white py-2 text-center text-base text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen/15 hover:bg-p1-cyan/25 hover:text-p1-darkgreen focus:border-p1-darkgreen/20 focus:bg-p1-cyan focus:text-p1-white lg:px-1 xl:px-1 2xl:px-2 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
@@ -2742,7 +2742,7 @@ export default function Home() {
                       <td className="p-2">Jon </td>
                       <td className="p-2">2h ago</td>
                       <td className="p-2">
-                        <div className="">
+                        <div>
                           <Link
                             href="#"
                             className="inline-block w-max place-content-start rounded-xl border bg-p1-white py-2 text-center text-base text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen/15 hover:bg-p1-cyan/25 hover:text-p1-darkgreen focus:border-p1-darkgreen/20 focus:bg-p1-cyan focus:text-p1-white lg:px-1 xl:px-1 2xl:px-2 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
@@ -2794,7 +2794,7 @@ export default function Home() {
                       <td className="p-2">Jon </td>
                       <td className="p-2">2h ago</td>
                       <td className="p-2">
-                        <div className="">
+                        <div>
                           <Link
                             href="#"
                             className="inline-block w-max place-content-start rounded-xl border bg-p1-white py-2 text-center text-base text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen/15 hover:bg-p1-cyan/25 hover:text-p1-darkgreen focus:border-p1-darkgreen/20 focus:bg-p1-cyan focus:text-p1-white lg:px-1 xl:px-1 2xl:px-2 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
@@ -2846,7 +2846,7 @@ export default function Home() {
                       <td className="p-2">Jon </td>
                       <td className="p-2">2h ago</td>
                       <td className="p-2">
-                        <div className="">
+                        <div>
                           <Link
                             href="#"
                             className="inline-block w-max place-content-start rounded-xl border bg-p1-white py-2 text-center text-base text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen/15 hover:bg-p1-cyan/25 hover:text-p1-darkgreen focus:border-p1-darkgreen/20 focus:bg-p1-cyan focus:text-p1-white lg:px-1 xl:px-1 2xl:px-2 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
@@ -3695,7 +3695,7 @@ export default function Home() {
                   </div>
 
                   <div className="flex flex-auto grid-flow-row auto-rows-max justify-center space-x-8 lg:justify-end">
-                    <div className="">
+                    <div>
                       <div
                         className="inline-flex w-full flex-auto justify-center rounded-md shadow-sm"
                         role="group"
@@ -3767,13 +3767,13 @@ export default function Home() {
                             <div></div>
                             <div></div>
                             <div></div>
-                            <div className="">Total</div>
+                            <div>Total</div>
                             <div>Owners</div>
                           </div>
 
                           <div className="m-2 aspect-video w-full rounded-3xl border border-p1-darkgreen">
                             <div className="grid h-48 grid-cols-2 place-content-center gap-4">
-                              <div className="">RaceLads</div>
+                              <div>RaceLads</div>
                               <div>RARITY</div>
                               <div></div>
                               <div></div>
@@ -3784,13 +3784,13 @@ export default function Home() {
                               <div></div>
 
                               <div></div>
-                              <div className="">FLOOR PRICE:</div>
+                              <div>FLOOR PRICE:</div>
                               <div>TOTAL RaceLads</div>
                             </div>
                           </div>
                           <div className="m-2 aspect-video w-full rounded-3xl border border-p1-darkgreen">
                             <div className="grid h-48 grid-cols-2 place-content-center gap-4">
-                              <div className="">RaceLads</div>
+                              <div>RaceLads</div>
                               <div>RARITY</div>
                               <div></div>
                               <div></div>
@@ -3801,7 +3801,7 @@ export default function Home() {
                               <div></div>
 
                               <div></div>
-                              <div className="">FLOOR PRICE:</div>
+                              <div>FLOOR PRICE:</div>
                               <div>TOTAL RaceLads</div>
                             </div>
                           </div>

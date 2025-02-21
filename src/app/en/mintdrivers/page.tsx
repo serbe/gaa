@@ -68,9 +68,7 @@ export default function Page() {
                                 />
                               </svg>
                               <p className="mb-2 text-sm text-gray-500 dark:text-gray-400">
-                                <span className="font-semibold">
-                                  Person image
-                                </span>
+                                <span className="font-semibold">Person image</span>
                               </p>
 
                               <p className="mb-2 text-sm text-gray-500 dark:text-gray-400">
@@ -146,14 +144,15 @@ export default function Page() {
                     </div>
                     <div id="1" className="text-p1-darkgreen dark:text-p1-green">
                       <p className="p-2 pt-8 text-base font-normal md:text-xl">
-                      Maximum quantity: 100 Drivers per transaction
+                        Maximum quantity: 100 Drivers per transaction
                       </p>
 
                       <p className="p-2 text-base md:text-xl">
                         NFTs created will automatically go into the GAA global collection
                       </p>
                       <p className="p-2 text-base md:text-xl">
-                        If you plan to give away or sell your NFTs, you are able to create multiple NFTs at the same time
+                        If you plan to give away or sell your NFTs, you are able to create multiple
+                        NFTs at the same time
                       </p>
                       <p className="px-2 pt-2 text-base font-semibold md:pb-5 md:text-2xl">
                         It is your way of attracting investment

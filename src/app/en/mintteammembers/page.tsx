@@ -42,7 +42,7 @@ export default function Page() {
                             alt="TeamMember1"
                           />
                           <button className="w-full rounded-3xl border-2 border-p3-blue bg-p2-white2 p-8 text-center text-base font-normal text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p3-blue hover:text-p1-white md:px-1 md:py-2 md:text-xs dark:border-p3-blue dark:bg-p3-black dark:text-p3-blue dark:hover:border-p2-blue dark:hover:bg-p3-violet dark:hover:text-p3-blue">
-                          Generate image
+                            Generate image
                           </button>
                         </div>
                         <div className="m-1 place-items-center p-2">
@@ -67,9 +67,7 @@ export default function Page() {
                                 />
                               </svg>
                               <p className="mb-2 text-sm text-gray-500 dark:text-gray-400">
-                                <span className="font-semibold">
-                                Person image
-                                </span>
+                                <span className="font-semibold">Person image</span>
                               </p>
 
                               <p className="mb-2 text-sm text-gray-500 dark:text-gray-400">
@@ -145,17 +143,18 @@ export default function Page() {
                     </div>
                     <div id="1" className="md:w-full">
                       <p className="p-2 pt-8 text-base font-normal text-p1-darkgreen md:text-2xl dark:text-p1-green">
-                      Maximum quantity: 100 Team&apos;s members per transaction
+                        Maximum quantity: 100 Team&apos;s members per transaction
                       </p>
 
                       <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green">
-                      NFTs created will automatically go into the GAA global collection
+                        NFTs created will automatically go into the GAA global collection
                       </p>
                       <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green">
-                      If you plan to give away or sell your NFTs, you are able to create multiple NFTs at the same time
+                        If you plan to give away or sell your NFTs, you are able to create multiple
+                        NFTs at the same time
                       </p>
                       <p className="px-2 pt-2 text-base font-semibold text-p1-darkgreen md:pb-72 md:text-2xl dark:text-p1-green">
-                      It is your way of attracting investment
+                        It is your way of attracting investment
                       </p>
                     </div>
                   </div>
@@ -168,7 +167,7 @@ export default function Page() {
             <div className="flex flex-col object-right p-2 md:w-full">
               <div id="2">
                 <p className="text-center text-xl text-p1-darkgreen md:text-left md:text-2xl dark:text-p1-green">
-                Fill in all fields - this metadata will be stored in the blockchain
+                  Fill in all fields - this metadata will be stored in the blockchain
                 </p>
               </div>
               <div className="pb-5"></div>
@@ -327,7 +326,7 @@ export default function Page() {
               <div id="3" className="pb-8"></div>
 
               <button className="rounded-3xl border-2 border-p1-darkgreen bg-p2-white2 px-10 py-8 text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:border-p3-blue hover:bg-p3-blue hover:text-p1-white dark:border-p3-blue dark:bg-p3-black dark:text-p3-blue dark:hover:border-p2-blue dark:hover:bg-p3-violet dark:hover:text-p3-blue">
-              Create Team's members NFT 
+                Create Team's members NFT
               </button>
             </div>
           </div>

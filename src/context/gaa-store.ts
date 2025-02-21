@@ -6,6 +6,8 @@ export interface GaaState {
   lider: number;
   lad: number;
   theme: string;
+  token: string | null;
+  username: string | null;
 }
 
 export interface GaaActions {
@@ -14,6 +16,10 @@ export interface GaaActions {
   setLad: (ladNumber: number) => void;
   setTheme: (theme: string) => void;
   switchTheme: () => void;
+  setToken: (token: string) => void;
+  setUsername: (username: string) => void;
+  login: (username: string, token: string) => void;
+  logout: () => void;
 }
 
 export interface GaaStore extends GaaState, GaaActions {}
@@ -23,6 +29,8 @@ export const defaultInitState: GaaState = {
   lider: 0,
   lad: 0,
   theme: 'light',
+  token: null,
+  username: null,
 };
 
 export const createGaaStore = (initState: GaaState = defaultInitState) => {
@@ -58,6 +66,32 @@ export const createGaaStore = (initState: GaaState = defaultInitState) => {
           set((state) => ({
             ...state,
             theme: get().theme === 'dark' ? 'light' : 'dark',
+          }));
+        },
+        setToken: (token: string) => {
+          set((state) => ({
+            ...state,
+            token: token,
+          }));
+        },
+        setUsername: (username: string) => {
+          set((state) => ({
+            ...state,
+            username: username,
+          }));
+        },
+        login: (username, token) => {
+          set((state) => ({
+            ...state,
+            username: username,
+            token: token,
+          }));
+        },
+        logout: () => {
+          set((state) => ({
+            ...state,
+            username: null,
+            token: null,
           }));
         },
       }),
