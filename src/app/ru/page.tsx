@@ -79,7 +79,7 @@ export default function RussianPage() {
               <div className="mt-5 grid grid-cols-3 place-items-center gap-2 p-4">
                 <Image width={1000} height={1200} src="/Licenses/Promoter.png" alt="Promoter" />
 
-                <Image width={1000} height={1200} src="/Licenses/National.png" alt="National" />
+                <Image width={1000} height={1200} src="/Licenses/Local.png" alt="Local" />
 
                 <Image width={1000} height={1200} src="/Licenses/Global.png" alt="Global" />
 

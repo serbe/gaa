@@ -40,16 +40,28 @@ function Nav() {
 
   return (
     <nav className="sticky top-0 z-10 border-gray-200 bg-white dark:bg-gray-900">
-      <div className="mx-auto flex max-w-screen-xl flex-wrap items-center justify-between p-4">
-        <div className="flex items-center space-x-3 ">
+      <div className="max-w-screen mx-auto flex flex-wrap items-center justify-between p-4">
+        <div className="flex items-center space-x-3">
           {/* <!-- Dropdown menu --> */}
+          <div>
+            <Link href="/">
+              <Image
+                className="size-8 transition-all delay-75 duration-100 ease-in-out hover:scale-110"
+                src="/Logo/Logo_green.png"
+                alt="logo"
+                width={320}
+                height={320}
+              />
+            </Link>
+          </div>
+
           <div
             className={`z-50 my-4 ${accDrop ? 'absolute right-2 top-11' : 'hidden'} list-none divide-y divide-gray-100 rounded-lg bg-white text-base shadow-sm dark:divide-gray-600 dark:bg-gray-700`}
             id="user-dropdown"
           >
             <div className="px-4 py-3">
               <span className="block text-sm text-gray-900 dark:text-white">Bonnie Green</span>
-              <span className="block truncate  text-sm text-gray-500 dark:text-gray-400">
+              <span className="block truncate text-sm text-gray-500 dark:text-gray-400">
                 name@flowbite.com
               </span>
             </div>
@@ -108,7 +120,7 @@ function Nav() {
           <button
             data-collapse-toggle="navbar-user"
             type="button"
-            className="inline-flex size-10 items-center justify-center rounded-lg p-2 text-sm text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 md:hidden dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+            className="inline-flex size-8 items-center justify-center rounded-lg p-2 text-sm text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 md:hidden dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
             aria-controls="navbar-user"
             aria-expanded="false"
             onClick={() => setMenuDrop(!menuDrop)}
@@ -131,6 +143,7 @@ function Nav() {
             </svg>
           </button>
         </div>
+
         <div
           className={`${menuDrop ? 'block' : 'hidden'} w-full items-center justify-between md:flex md:w-auto`}
           id="navbar-user"
@@ -149,24 +162,159 @@ function Nav() {
             ))}
           </ul>
         </div>
-        <button
-          type="button"
-          className="flex rounded-full bg-gray-800 text-sm focus:ring-4 focus:ring-gray-300 md:me-0 dark:focus:ring-gray-600"
-          id="user-menu-button"
-          aria-expanded="false"
-          data-dropdown-toggle="user-dropdown"
-          data-dropdown-placement="bottom"
-          onClick={() => setAccDrop(!accDrop)}
-        >
-          <span className="sr-only">Open user menu</span>
-          <Image
-            className="size-8 rounded-full"
-            src="/HeroNFT/CustomLads/CustomLads1.png"
-            alt="user photo"
-            width={32}
-            height={32}
-          />
-        </button>
+
+        <div className="grid grid-cols-5 place-items-start gap-4">
+          <div className="group relative inline-block">
+            <div className="mx-auto justify-center">
+              <Image
+                className="size-8 rounded-lg p-1 ring-p1-green transition-all delay-75 duration-100 ease-in-out hover:bg-p1-white/50 hover:ring-2 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:hover:bg-p1-deepdarkgreen"
+                width={480}
+                height={480}
+                src="/Logo/wallet-nft.png"
+                alt="Bordered avatar"
+              />
+
+              <div className="invisible absolute left-9 z-10 m-0.5 mt-2 w-72 -translate-x-1/2 rounded-xl bg-p1-white/30 bg-center p-4 text-gray-800 opacity-0 shadow-xl backdrop-blur-lg transition-all duration-100 group-hover:visible group-hover:border-opacity-70 group-hover:bg-opacity-30 group-hover:opacity-100 md:w-80">
+                <div className="rounded-md border-2 border-p1-darkgreen/50 bg-p1-cyan/100">
+                  <div className="border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-100 ease-in-out hover:bg-p1-white/50 hover:pl-6 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
+                    <Link href="#" className="mx-auto flex flex-row justify-start">
+                      <Image
+                        className="size-6 self-center"
+                        width={480}
+                        height={480}
+                        src="/icon/wallet_connect.png"
+                        alt="Bordered avatar"
+                      />
+
+                      <div className="self-center px-2">Connect Wallet </div>
+                    </Link>
+                  </div>
+                  <div className="border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-100 ease-in-out hover:bg-p1-white/50 hover:pl-6 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
+                    <Link href="#" className="mx-auto flex flex-row justify-start">
+                      <Image
+                        className="size-6 self-center"
+                        width={480}
+                        height={480}
+                        src="/icon/wallet_disconnect_red.png"
+                        alt="Bordered avatar"
+                      />
+                      <div className="self-center px-2"> Disconnect Wallet </div>
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="group relative inline-block">
+            <div className="mx-auto justify-center">
+              <Image
+                className="size-8 rounded-full p-1 ring-p1-green transition-all delay-75 duration-100 ease-in-out hover:bg-p1-white/50 hover:ring-2 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:hover:bg-p1-deepdarkgreen"
+                width={480}
+                height={480}
+                src="/Logo/user.png"
+                alt="Bordered avatar"
+              />
+
+              <div className="invisible absolute left-9 z-10 m-0.5 mt-2 w-72 -translate-x-1/2 rounded-xl bg-p1-white/30 bg-center p-4 text-gray-800 opacity-0 shadow-xl backdrop-blur-lg transition-all duration-100 group-hover:visible group-hover:border-opacity-70 group-hover:bg-opacity-30 group-hover:opacity-100 md:w-80">
+                <div className="rounded-md border-2 border-p1-darkgreen/50 bg-p1-cyan/100">
+                  <div className="border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-100 ease-in-out hover:bg-p1-white/50 hover:pl-6 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
+                    <Link href="/profile" className="mx-auto flex flex-row justify-start">
+                      <Image
+                        className="size-6 self-center"
+                        width={480}
+                        height={480}
+                        src="/icon/NFT_user_green.png"
+                        alt="Bordered avatar"
+                      />
+
+                      <div className="self-center px-2">Profile </div>
+                    </Link>
+                  </div>
+                  <div className="border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-100 ease-in-out hover:bg-p1-white/50 hover:pl-6 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
+                    <Link href="/mynfts" className="mx-auto flex flex-row justify-start">
+                      <Image
+                        className="size-6 self-center"
+                        width={480}
+                        height={480}
+                        src="/icon/NFT-col.png"
+                        alt="Bordered avatar"
+                      />
+                      <div className="self-center px-2"> My NFT </div>
+                    </Link>
+                  </div>
+                  <div className="border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-100 ease-in-out hover:bg-p1-white/50 hover:pl-6 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
+                    <Link href="#" className="mx-auto flex flex-row justify-start">
+                      <Image
+                        className="size-6 self-center"
+                        width={480}
+                        height={480}
+                        src="/icon/heart_green.png"
+                        alt="heart"
+                      />
+                      <div className="self-center px-2"> Watchlist</div>
+                    </Link>
+                  </div>
+                  <div className="border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-100 ease-in-out hover:bg-p1-white/50 hover:pl-6 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
+                    <Link href="#" className="mx-auto flex flex-row justify-start">
+                      <Image
+                        className="size-6 self-center"
+                        width={480}
+                        height={480}
+                        src="/icon/hand_shake_green.png"
+                        alt="Bordered avatar"
+                      />
+                      <div className="self-center px-2"> Deals</div>
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <button
+            type="button"
+            className="flex rounded-full bg-gray-800 text-sm focus:ring-4 focus:ring-gray-300 md:me-0 dark:focus:ring-gray-600"
+            id="user-menu-button"
+            aria-expanded="false"
+            data-dropdown-toggle="user-dropdown"
+            data-dropdown-placement="bottom"
+            onClick={() => setAccDrop(!accDrop)}
+          >
+            <span className="sr-only">Open user menu</span>
+            <Image
+              className="size-8 rounded-full"
+              src="/HeroNFT/CustomLads/CustomLads1.png"
+              alt="user photo"
+              width={32}
+              height={32}
+            />
+          </button>
+
+          <div className="w-10">
+            <div className="group relative inline-block">
+              <Link href="#" className="mx-auto">
+                <Image
+                  className="size-8 rounded-lg p-1 ring-p1-green transition-all delay-75 duration-100 ease-in-out hover:bg-p1-white/50 hover:ring-2 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:hover:bg-p1-deepdarkgreen"
+                  width={480}
+                  height={480}
+                  src="/icon/share_green.png"
+                  alt="bt16"
+                />
+              </Link>
+            </div>
+          </div>
+          <div>
+            <Link href="#" className="mx-auto justify-center">
+              <Image
+                className="size-8 rounded-lg p-1 ring-p1-green transition-all delay-75 duration-100 ease-in-out hover:bg-p1-white/50 hover:ring-2 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:hover:bg-p1-deepdarkgreen"
+                width={480}
+                height={480}
+                src="/Logo/shopping-cart.png"
+                alt="Bordered avatar"
+              />
+            </Link>
+          </div>
+        </div>
       </div>
     </nav>
   );
