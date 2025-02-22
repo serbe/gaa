@@ -811,31 +811,32 @@ export default function Home() {
                         <div className="flex justify-start">
                           <div className="relative">
                             <div className="mx-auto justify-start text-4xl text-p1-darkgreen dark:text-p1-green">
-                              2,72
+                              <form className="">
+                                <label htmlFor="price" className="block w-full"></label>
+                                <select
+                                  id="price"
+                                  className="mx-auto flex w-full overflow-hidden border-p1-green bg-p1-white/50 pr-4 text-center hover:border-p1-green hover:bg-p1-cyan/10 dark:bg-p1-deepdarkgreen dark:text-p1-green dark:accent-p1-darkgreen dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan"
+                                  defaultValue={'DEFAULT'}
+                                >
+                                  <option value="DEFAULT" disabled>
+                                    USD
+                                  </option>
+                                  <option value="USD">USD</option>
+                                  <option value="USD">USDT</option>
+                                  <option value="ETH">ETH</option>
+                                  <option value="SOL">SOL</option>
+                                  <option value="POL">POL</option>
+                                  <option value="POL">WETH</option>
+                                </select>
+                              </form>
                             </div>
                           </div>
                           <div className="">
-                            <div className="mx-auto justify-start text-4xl text-p1-darkgreen dark:text-p1-green">
-                              WETH
+                            <div className="mx-auto justify-start px-2 text-4xl text-p1-darkgreen dark:text-p1-green">
+                              2,72
                             </div>
                           </div>
                           <div className="px-4"> </div>
-                        </div>
-                        <div className="flex justify-start">
-                          <div className="self-end">
-                            <div className="">
-                              <Image
-                                className="size-6 px-1"
-                                width={480}
-                                height={480}
-                                src="/logo/usd-green.png"
-                                alt="heart"
-                              />
-                            </div>
-                          </div>
-                          <div className="self-end text-xl text-p1-darkgreen dark:text-p1-green">
-                            <div className="">10.000</div>
-                          </div>
                         </div>
                       </div>
                     </div>
