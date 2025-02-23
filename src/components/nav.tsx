@@ -106,7 +106,7 @@ function Nav() {
             </div>
             <div className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
               <div className="">
-                <div className="border-b border-p1-darkgreen p-1 text-base text-p1-darkgreen transition-all duration-100 ease-in-out hover:bg-p1-white/20 hover:pl-6 md:px-3 dark:border-p1-deepdarkgreen dark:text-p1-green dark:hover:text-p1-cyan">
+                <div className="border-b border-p1-darkgreen p-1 text-base text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white/20 hover:pl-3 dark:border-p1-deepdarkgreen dark:text-p1-green dark:hover:text-p1-cyan">
                   <Link href="/profile" className="mx-auto flex flex-row justify-start">
                     <Image
                       className="size-6 self-center"
@@ -119,7 +119,7 @@ function Nav() {
                     <div className="self-center px-2">Profile </div>
                   </Link>
                 </div>
-                <div className="border-b border-p1-darkgreen p-1 text-base text-p1-darkgreen transition-all duration-100 ease-in-out hover:bg-p1-white/20 hover:pl-6 md:px-3 dark:border-p1-deepdarkgreen dark:text-p1-green dark:hover:text-p1-cyan">
+                <div className="border-b border-p1-darkgreen p-1 text-base text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white/20 hover:pl-3 dark:border-p1-deepdarkgreen dark:text-p1-green dark:hover:text-p1-cyan">
                   <Link href="/mynfts" className="mx-auto flex flex-row justify-start">
                     <Image
                       className="size-6 self-center"
@@ -131,7 +131,7 @@ function Nav() {
                     <div className="self-center px-2"> My NFT </div>
                   </Link>
                 </div>
-                <div className="border-b border-p1-darkgreen p-1 text-base text-p1-darkgreen transition-all duration-100 ease-in-out hover:bg-p1-white/20 hover:pl-6 md:px-3 dark:border-p1-deepdarkgreen dark:text-p1-green dark:hover:text-p1-cyan">
+                <div className="border-b border-p1-darkgreen p-1 text-base text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white/20 hover:pl-3 dark:border-p1-deepdarkgreen dark:text-p1-green dark:hover:text-p1-cyan">
                   <Link href="#" className="mx-auto flex flex-row justify-start">
                     <Image
                       className="size-6 self-center"
@@ -143,7 +143,7 @@ function Nav() {
                     <div className="self-center px-2"> Watchlist</div>
                   </Link>
                 </div>
-                <div className="border-b border-p1-darkgreen p-1 text-base text-p1-darkgreen transition-all duration-100 ease-in-out hover:bg-p1-white/20 hover:pl-6 md:px-3 dark:border-p1-deepdarkgreen dark:text-p1-green dark:hover:text-p1-cyan">
+                <div className="border-b border-p1-darkgreen p-1 text-base text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white/20 hover:pl-3 dark:border-p1-deepdarkgreen dark:text-p1-green dark:hover:text-p1-cyan">
                   <Link href="#" className="mx-auto flex flex-row justify-start">
                     <Image
                       className="size-6 self-center"
@@ -259,7 +259,6 @@ function Nav() {
               </div>
             </div>
           </div>
-       
 
           <button
             type="button"
