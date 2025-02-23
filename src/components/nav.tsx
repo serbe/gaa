@@ -56,7 +56,7 @@ function Nav() {
           </div>
 
           <div
-            className={`z-50 my-4 ${accDrop ? 'absolute right-2 top-11' : 'hidden'} list-none divide-y divide-gray-100 rounded-lg bg-white text-base shadow-sm dark:divide-gray-600 dark:bg-gray-700`}
+            className={`z-50 my-4 ${accDrop ? 'absolute right-2 top-11' : 'hidden'} list-none divide-y divide-gray-100 rounded-lg bg-white text-base shadow-sm dark:divide-gray-600 dark:bg-p1-deepdarkgreen`}
             id="user-dropdown"
           >
             <div className="px-4 py-3">
@@ -66,12 +66,12 @@ function Nav() {
               </span>
             </div>
             <div className="flex flex-wrap px-4 py-3">
-              <div className="mx-2 dark:hover:text-p1-cyan">
+              <div className="mx-2 text-p1-green dark:hover:text-p1-cyan">
                 <Link href={pathname} locale="en">
                   En
                 </Link>
               </div>
-              <div className="mx-2 dark:hover:text-p1-cyan">
+              <div className="mx-2 text-p1-green dark:hover:text-p1-cyan">
                 <Link href={pathname} locale="ru">
                   Ru
                 </Link>
@@ -104,6 +104,60 @@ function Nav() {
                 </button>
               </div>
             </div>
+            <div className="text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
+              <div className="">
+                <div className="border-b border-p1-darkgreen p-1 text-base text-p1-darkgreen transition-all duration-100 ease-in-out hover:bg-p1-white/20 hover:pl-6 md:px-3 dark:border-p1-deepdarkgreen dark:text-p1-green dark:hover:text-p1-cyan">
+                  <Link href="/profile" className="mx-auto flex flex-row justify-start">
+                    <Image
+                      className="size-6 self-center"
+                      width={480}
+                      height={480}
+                      src="/icon/NFT_user_green.png"
+                      alt="Bordered avatar"
+                    />
+
+                    <div className="self-center px-2">Profile </div>
+                  </Link>
+                </div>
+                <div className="border-b border-p1-darkgreen p-1 text-base text-p1-darkgreen transition-all duration-100 ease-in-out hover:bg-p1-white/20 hover:pl-6 md:px-3 dark:border-p1-deepdarkgreen dark:text-p1-green dark:hover:text-p1-cyan">
+                  <Link href="/mynfts" className="mx-auto flex flex-row justify-start">
+                    <Image
+                      className="size-6 self-center"
+                      width={480}
+                      height={480}
+                      src="/icon/NFT-col.png"
+                      alt="Bordered avatar"
+                    />
+                    <div className="self-center px-2"> My NFT </div>
+                  </Link>
+                </div>
+                <div className="border-b border-p1-darkgreen p-1 text-base text-p1-darkgreen transition-all duration-100 ease-in-out hover:bg-p1-white/20 hover:pl-6 md:px-3 dark:border-p1-deepdarkgreen dark:text-p1-green dark:hover:text-p1-cyan">
+                  <Link href="#" className="mx-auto flex flex-row justify-start">
+                    <Image
+                      className="size-6 self-center"
+                      width={480}
+                      height={480}
+                      src="/icon/heart_green.png"
+                      alt="heart"
+                    />
+                    <div className="self-center px-2"> Watchlist</div>
+                  </Link>
+                </div>
+                <div className="border-b border-p1-darkgreen p-1 text-base text-p1-darkgreen transition-all duration-100 ease-in-out hover:bg-p1-white/20 hover:pl-6 md:px-3 dark:border-p1-deepdarkgreen dark:text-p1-green dark:hover:text-p1-cyan">
+                  <Link href="#" className="mx-auto flex flex-row justify-start">
+                    <Image
+                      className="size-6 self-center"
+                      width={480}
+                      height={480}
+                      src="/icon/hand_shake_green.png"
+                      alt="Bordered avatar"
+                    />
+                    <div className="self-center px-2"> Deals</div>
+                  </Link>
+                </div>
+              </div>
+            </div>
+
             <ul className="py-2" aria-labelledby="user-menu-button">
               {menuItems.map(({ name, url }) => (
                 <li key={name}>
@@ -163,7 +217,7 @@ function Nav() {
           </ul>
         </div>
 
-        <div className="grid grid-cols-5 place-items-start gap-4">
+        <div className="grid grid-cols-4 place-items-start gap-4">
           <div className="group relative inline-block">
             <div className="mx-auto justify-center">
               <Image
@@ -205,75 +259,11 @@ function Nav() {
               </div>
             </div>
           </div>
-          <div className="group relative inline-block">
-            <div className="mx-auto justify-center">
-              <Image
-                className="size-8 rounded-full p-1 ring-p1-green transition-all delay-75 duration-100 ease-in-out hover:bg-p1-white/50 hover:ring-2 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:hover:bg-p1-deepdarkgreen"
-                width={480}
-                height={480}
-                src="/Logo/user.png"
-                alt="Bordered avatar"
-              />
-
-              <div className="invisible absolute left-9 z-10 m-0.5 mt-2 w-72 -translate-x-1/2 rounded-xl bg-p1-white/30 bg-center p-4 text-gray-800 opacity-0 shadow-xl backdrop-blur-lg transition-all duration-100 group-hover:visible group-hover:border-opacity-70 group-hover:bg-opacity-30 group-hover:opacity-100 md:w-80">
-                <div className="rounded-md border-2 border-p1-darkgreen/50 bg-p1-cyan/100">
-                  <div className="border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-100 ease-in-out hover:bg-p1-white/50 hover:pl-6 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
-                    <Link href="/profile" className="mx-auto flex flex-row justify-start">
-                      <Image
-                        className="size-6 self-center"
-                        width={480}
-                        height={480}
-                        src="/icon/NFT_user_green.png"
-                        alt="Bordered avatar"
-                      />
-
-                      <div className="self-center px-2">Profile </div>
-                    </Link>
-                  </div>
-                  <div className="border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-100 ease-in-out hover:bg-p1-white/50 hover:pl-6 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
-                    <Link href="/mynfts" className="mx-auto flex flex-row justify-start">
-                      <Image
-                        className="size-6 self-center"
-                        width={480}
-                        height={480}
-                        src="/icon/NFT-col.png"
-                        alt="Bordered avatar"
-                      />
-                      <div className="self-center px-2"> My NFT </div>
-                    </Link>
-                  </div>
-                  <div className="border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-100 ease-in-out hover:bg-p1-white/50 hover:pl-6 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
-                    <Link href="#" className="mx-auto flex flex-row justify-start">
-                      <Image
-                        className="size-6 self-center"
-                        width={480}
-                        height={480}
-                        src="/icon/heart_green.png"
-                        alt="heart"
-                      />
-                      <div className="self-center px-2"> Watchlist</div>
-                    </Link>
-                  </div>
-                  <div className="border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-100 ease-in-out hover:bg-p1-white/50 hover:pl-6 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
-                    <Link href="#" className="mx-auto flex flex-row justify-start">
-                      <Image
-                        className="size-6 self-center"
-                        width={480}
-                        height={480}
-                        src="/icon/hand_shake_green.png"
-                        alt="Bordered avatar"
-                      />
-                      <div className="self-center px-2"> Deals</div>
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+       
 
           <button
             type="button"
-            className="flex rounded-full bg-gray-800 text-sm focus:ring-4 focus:ring-gray-300 md:me-0 dark:focus:ring-gray-600"
+            className="rounded-full hover:bg-p1-white/50 focus:ring-2 focus:ring-p1-cyan"
             id="user-menu-button"
             aria-expanded="false"
             data-dropdown-toggle="user-dropdown"
@@ -282,8 +272,8 @@ function Nav() {
           >
             <span className="sr-only">Open user menu</span>
             <Image
-              className="size-8 rounded-full"
-              src="/HeroNFT/CustomLads/CustomLads1.png"
+              className="size-8 rounded-full p-1 ring-p1-green transition-all delay-75 duration-100 ease-in-out hover:bg-p1-white/50 hover:ring-2 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:hover:bg-p1-deepdarkgreen"
+              src="/Logo/user.png"
               alt="user photo"
               width={32}
               height={32}
