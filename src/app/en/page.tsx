@@ -67,13 +67,13 @@ export default function EnglishPage() {
         >
           <div className="flex flex-row text-center">
             <div className="place-content-center p-2 text-center text-p1-darkgreen md:text-xl lg:text-2xl dark:text-p1-green">
-              <div className="pt-2">Service</div>
-              <div className="pb-5">for creating NFT rewards on the website</div>
+              <div className="pt-2">NFT Rewards</div>
+              <div className="pb-5">creating service</div>
               <Link
                 href="/applicationform"
                 className="inline-block place-content-center rounded-xl border-2 border-p1-green bg-p1-white px-10 py-8 text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:border-p1-darkgreen hover:bg-p1-darkgreen hover:text-p1-white dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan"
               >
-                Application form
+                License Application
               </Link>
               <div className="mt-5 grid grid-cols-3 place-items-center gap-2 p-4">
                 <Image width={1000} height={1200} src="/Licenses/Promoter.png" alt="Promoter" />

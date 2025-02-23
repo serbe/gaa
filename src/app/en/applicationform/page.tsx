@@ -8,8 +8,7 @@ export default function Page() {
   return (
     <div className="mx-auto max-w-7xl font-serif">
       <div className="px-2 text-center text-xl font-semibold text-p1-darkgreen md:pt-2 md:text-4xl dark:text-p1-green dark:hover:text-p1-cyan">
-        Application form
-        <p>by Global Automotive Association</p>
+      License Application
       </div>
       <div className="flex flex-wrap place-content-center px-2 pt-5 md:flex-nowrap">
         <div className="w-4/5 min-w-96 rounded-3xl border-p1-gray bg-p1-white md:border-4 md:shadow-lg dark:border-p1-darkgreen dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
@@ -38,7 +37,7 @@ export default function Page() {
               />
             </div>
             <p className="px-2 text-center text-xl font-semibold text-p1-darkgreen md:pt-2 md:text-4xl dark:text-p1-green dark:hover:text-p1-cyan">
-              Select the licenses you want to obtain{' '}
+              Select the licenses you wish to obtain{' '}
             </p>
 
             <div className="pb-3"></div>
@@ -115,7 +114,7 @@ export default function Page() {
                 type="text"
                 id="country"
                 className="mx-5 block w-11/12 rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-cyan dark:placeholder:text-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
-                placeholder="Country"
+                placeholder=""
                 required
               />
             </div>
@@ -132,7 +131,7 @@ export default function Page() {
                 type="text"
                 id="city"
                 className="mx-5 block w-11/12 rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-cyan dark:placeholder:text-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
-                placeholder="City"
+                placeholder=""
                 required
               />
             </div>
@@ -149,7 +148,7 @@ export default function Page() {
                 type="text"
                 id="organization"
                 className="mx-5 block w-11/12 rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-cyan dark:placeholder:text-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
-                placeholder="Organization"
+                placeholder=""
                 required
               />
             </div>
@@ -337,7 +336,7 @@ export default function Page() {
                 htmlFor="checkbox"
                 className="ms-2 text-base font-medium text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan"
               >
-                Rarity cars
+                Rare cars
               </label>
             </div>
             <div className="pb-3"></div>
@@ -407,14 +406,14 @@ export default function Page() {
                 htmlFor="answerCategoryPromote"
                 className="block px-5 text-left text-sm font-medium text-p1-darkgreen dark:text-p1-cyan"
               >
-                Your Answer{' '}
+                Another option{' '}
               </label>
               <input
                 type="text"
                 id="organization"
                 className="mx-5 block w-11/12 rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-cyan dark:placeholder:text-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
                 placeholder="
-Your Answer"
+"
                 required
               />
             </div>
@@ -422,7 +421,7 @@ Your Answer"
             <div className="pb-3"></div>
 
             <p className="px-5 text-left text-xl font-semibold text-p1-darkgreen">
-              What do you do?
+              Your attitude towards autosport:
             </p>
             <div className="pb-3"></div>
 
@@ -441,7 +440,7 @@ Your Answer"
                 htmlFor="checkbox"
                 className="ms-2 text-base font-medium text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan"
               >
-                I watch races on TV, on the Internet{' '}
+                I'm spectator{' '}
               </label>
             </div>
 
@@ -483,7 +482,7 @@ Your Answer"
                 htmlFor="checkbox"
                 className="ms-2 text-base font-medium text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan"
               >
-                I'm a driver, pilot{' '}
+                I'm a driver{' '}
               </label>
             </div>
 
@@ -566,7 +565,7 @@ Your Answer"
                 htmlFor="checkbox"
                 className="ms-2 text-base font-medium text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan"
               >
-                My kids are on a motorsports team
+                My kid's into motorsport
               </label>
             </div>
             <div className="pb-3"></div>
@@ -606,7 +605,7 @@ Your Answer"
                 htmlFor="checkbox"
                 className="ms-2 text-base font-medium text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan"
               >
-                I have a car rental business
+                I have an automobile-related business
               </label>
             </div>
 
@@ -618,13 +617,13 @@ Your Answer"
                 htmlFor="answerwhattodo"
                 className="block px-5 text-left text-sm font-medium text-p1-darkgreen dark:text-p1-cyan"
               >
-                Your Answer{' '}
+                Another option{' '}
               </label>
               <input
                 type="text"
                 id="answerwhattodo"
                 className="mx-5 block w-11/12 rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-cyan dark:placeholder:text-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
-                placeholder="Your Answer"
+                placeholder=""
                 required
               />
             </div>
@@ -641,7 +640,7 @@ Your Answer"
                 type="text"
                 id="organization"
                 className="mx-5 block w-11/12 rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-cyan dark:placeholder:text-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
-                placeholder="Full Name"
+                placeholder=""
                 required
               />
             </div>
@@ -652,13 +651,13 @@ Your Answer"
                 htmlFor="Nic-Name"
                 className="block px-5 text-left text-sm font-medium text-p1-darkgreen dark:text-p1-cyan"
               >
-                Nic-Name
+                Nickname
               </label>
               <input
                 type="text"
                 id="nicname"
                 className="mx-5 block w-11/12 rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-cyan dark:placeholder:text-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
-                placeholder="Nic-Name"
+                placeholder=""
                 required
               />
             </div>
@@ -675,24 +674,7 @@ Your Answer"
                 type="date"
                 id="birthday"
                 className="mx-5 block w-11/12 rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-cyan dark:placeholder:text-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
-                placeholder="Birthday"
-                required
-              />
-            </div>
-
-            <div className="pb-3"></div>
-            <div>
-              <label
-                htmlFor="tag"
-                className="block px-5 text-left text-sm font-medium text-p1-darkgreen dark:text-p1-cyan"
-              >
-                Hash Tag
-              </label>
-              <input
-                type="text"
-                id="tag"
-                className="mx-5 block w-11/12 rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-cyan dark:placeholder:text-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
-                placeholder="Hash Tag"
+                placeholder=""
                 required
               />
             </div>
@@ -703,13 +685,13 @@ Your Answer"
                 htmlFor="skils"
                 className="block px-5 text-left text-sm font-medium text-p1-darkgreen dark:text-p1-cyan"
               >
-                Skils
+                Skills
               </label>
               <input
                 type="text"
                 id="skils"
                 className="mx-5 block w-11/12 rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-cyan dark:placeholder:text-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
-                placeholder="Skils"
+                placeholder=""
                 required
               />
             </div>
@@ -726,7 +708,7 @@ Your Answer"
                 type="text"
                 id="phone"
                 className="mx-5 block w-11/12 rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-cyan dark:placeholder:text-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
-                placeholder="Phone number"
+                placeholder=""
                 required
               />
             </div>
@@ -743,7 +725,7 @@ Your Answer"
                 type="text"
                 id="email"
                 className="mx-5 block w-11/12 rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-cyan dark:placeholder:text-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
-                placeholder="e-mail"
+                placeholder=""
                 required
               />
             </div>
@@ -753,13 +735,13 @@ Your Answer"
                 htmlFor="message"
                 className="mx-5 mb-2 block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-cyan"
               >
-                Description of the reasons why you want to join the GAA{' '}
+                Why do you want to join GAA?{' '}
               </label>
               <textarea
                 id="message"
                 rows={4}
                 className="mx-5 block w-11/12 rounded-lg border-2 border-gray-300 bg-p2-white2 p-2.5 text-sm text-p1-darkgreen focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder:text-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
-                placeholder="Description of the reasons why you want to join the GAA"
+                placeholder=""
               ></textarea>
             </div>
             <div className="pb-5"></div>
@@ -770,13 +752,13 @@ Your Answer"
                 htmlFor="site"
                 className="block px-5 text-left text-sm font-medium text-p1-darkgreen dark:text-p1-cyan"
               >
-                Internet site
+                Website
               </label>
               <input
                 type="text"
                 id="site"
                 className="mx-5 block w-11/12 rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-cyan dark:placeholder:text-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
-                placeholder="Internet site www://"
+                placeholder=""
                 required
               />
             </div>
@@ -793,7 +775,7 @@ Your Answer"
                 type="text"
                 id="Telegram"
                 className="mx-5 block w-11/12 rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-cyan dark:placeholder:text-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
-                placeholder="Telegram"
+                placeholder=""
                 required
               />
             </div>
@@ -810,7 +792,7 @@ Your Answer"
                 type="text"
                 id="YouTube"
                 className="mx-5 block w-11/12 rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-cyan dark:placeholder:text-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
-                placeholder="YouTube"
+                placeholder=""
                 required
               />
               <div className="pb-2"></div>
@@ -860,7 +842,7 @@ Your Answer"
 
               <div className="grid md:px-5">
                 <button className="mx-auto inline-block w-full place-content-center rounded-xl border-2 border-p1-green bg-p1-white px-10 py-8 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:border-p1-darkgreen hover:bg-p1-darkgreen hover:text-p1-white dark:border-p1-cyan dark:bg-p1-green dark:text-p1-deepdarkgreen dark:hover:border-p1-green dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan">
-                  Send to GAA
+                  Send request
                 </button>
               </div>
             </div>
