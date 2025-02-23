@@ -127,7 +127,7 @@ export default function Page() {
           </div>
 
           <div className="text-center text-xl text-p1-darkgreen md:pt-4 md:text-2xl dark:text-p1-green">
-            <p>Partners are holders of NFT Promoter, National, Global licenses</p>
+            <p>Partners are holders of NFT Promoter, Local, Global licenses</p>
           </div>
         </div>
       </div>
@@ -158,8 +158,8 @@ export default function Page() {
           <div className="text-center text-xl text-p1-darkgreen md:pt-4 md:text-2xl dark:text-p1-green">
             <p>
               Since our organization is decentralized, this status is determined by the holders NFT
-              Promoter, National, Global and limited time period to cover all expenses for
-              organizing and holding a specific event
+              Promoter, Local, Global and limited time period to cover all expenses for organizing
+              and holding a specific event
             </p>
             <p>
               The title sponsor covers one hundred percent of the cost with his monetary
@@ -178,7 +178,7 @@ export default function Page() {
           </div>
           <div className="text-center text-xl text-p1-darkgreen md:pt-4 md:text-2xl dark:text-p1-green">
             <p>
-              This status is determined by NFT Promoter, National, Global holders and is limited
+              This status is determined by NFT Promoter, Local, Global holders and is limited
               temporary period to cover 50% of the costs of organizing and conducting a specific
               events
             </p>
@@ -195,7 +195,7 @@ export default function Page() {
           </div>
           <div className="text-center text-xl text-p1-darkgreen md:pt-4 md:text-2xl dark:text-p1-green">
             <p>
-              This status is determined by NFT Promoter, National, Global holders and is limited
+              This status is determined by NFT Promoter, Local, Global holders and is limited
               temporary period to cover 25% of the costs of organizing and conducting a specific
               events
             </p>
@@ -212,7 +212,7 @@ export default function Page() {
           </div>
           <div className="text-center text-xl text-p1-darkgreen md:pt-4 md:text-2xl dark:text-p1-green">
             <p>
-              This status is determined by NFT Promoter, National, Global holders and is limited
+              This status is determined by NFT Promoter, Local, Global holders and is limited
               temporary period to cover no more than 10% of the costs of organizing and conducting
               specific event
             </p>
@@ -229,7 +229,7 @@ export default function Page() {
           </div>
           <div className="text-center text-xl text-p1-darkgreen md:pt-4 md:text-2xl dark:text-p1-green">
             <p>
-              This status is determined by NFT Promoter, National, Global holders and is limited
+              This status is determined by NFT Promoter, Local, Global holders and is limited
               temporary period for organizing and holding a specific event
             </p>
             <p>Media: TV channels, radio stations, magazines, newspapers, Internet resources</p>
@@ -245,7 +245,7 @@ export default function Page() {
           </div>
           <div className="text-center text-xl text-p1-darkgreen md:pt-4 md:text-2xl dark:text-p1-green">
             <p>
-              This status is determined by NFT Promoter, National, Global holders and is limited
+              This status is determined by NFT Promoter, Local, Global holders and is limited
               temporary period of cooperation
             </p>
             <p>not the deposit of funds, but the provision of products and services</p>

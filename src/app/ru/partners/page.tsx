@@ -128,7 +128,7 @@ export default function Page() {
           </div>
 
           <div className="text-center text-xl text-p1-darkgreen md:pt-4 md:text-2xl dark:text-p1-green">
-            <p>Партнерами являются обладатели лицензий NFT Promoter, National, Global</p>
+            <p>Партнерами являются обладатели лицензий NFT Promoter, Local, Global</p>
           </div>
         </div>
       </div>
@@ -159,8 +159,8 @@ export default function Page() {
           <div className="text-center text-xl text-p1-darkgreen md:pt-4 md:text-2xl dark:text-p1-green">
             <p>
               Так как наша организация децентрализованная, данный статус определяется держателями
-              NFT Promoter, National, Global и ограничен временным периодом на покрытие всех
-              расходов на организацию и проведение конкретного мероприятия
+              NFT Promoter, Local, Global и ограничен временным периодом на покрытие всех расходов
+              на организацию и проведение конкретного мероприятия
             </p>
             <p>
               Титульный спонсор покрывает своим денежным взносом сто процентов стоимости
@@ -179,7 +179,7 @@ export default function Page() {
           </div>
           <div className="text-center text-xl text-p1-darkgreen md:pt-4 md:text-2xl dark:text-p1-green">
             <p>
-              Данный статус определяется держателями NFT Promoter, National, Global и ограничен
+              Данный статус определяется держателями NFT Promoter, Local, Global и ограничен
               временным периодом на покрытие 50% расходов на организацию и проведение конкретного
               мероприятия
             </p>
@@ -196,7 +196,7 @@ export default function Page() {
           </div>
           <div className="text-center text-xl text-p1-darkgreen md:pt-4 md:text-2xl dark:text-p1-green">
             <p>
-              Данный статус определяется держателями NFT Promoter, National, Global и ограничен
+              Данный статус определяется держателями NFT Promoter, Local, Global и ограничен
               временным периодом на покрытие 25% расходов на организацию и проведение конкретного
               мероприятия
             </p>
@@ -213,7 +213,7 @@ export default function Page() {
           </div>
           <div className="text-center text-xl text-p1-darkgreen md:pt-4 md:text-2xl dark:text-p1-green">
             <p>
-              Данный статус определяется держателями NFT Promoter, National, Global и ограничен
+              Данный статус определяется держателями NFT Promoter, Local, Global и ограничен
               временным периодом на покрытие не более 10% расходов на организацию и проведение
               конкретного мероприятия
             </p>
@@ -228,7 +228,7 @@ export default function Page() {
           </div>
           <div className="text-center text-xl text-p1-darkgreen md:pt-4 md:text-2xl dark:text-p1-green">
             <p>
-              Данный статус определяется держателями NFT Promoter, National, Global и ограничен
+              Данный статус определяется держателями NFT Promoter, Local, Global и ограничен
               временным периодом на организацию и проведение конкретного мероприятия
             </p>
             <p>СМИ: телеканалы, радиостанции, журналы, газеты, интернет-ресурсы</p>
@@ -244,7 +244,7 @@ export default function Page() {
           </div>
           <div className="text-center text-xl text-p1-darkgreen md:pt-4 md:text-2xl dark:text-p1-green">
             <p>
-              Данный статус определяется держателями NFT Promoter, National, Global и ограничен
+              Данный статус определяется держателями NFT Promoter, Local, Global и ограничен
               временным периодом сотрудничества
             </p>
             <p>внесение не денежных средств а предоставление продукции, услуг</p>
