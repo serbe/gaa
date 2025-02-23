@@ -27,140 +27,6 @@ export default function Home() {
         <div className="flex justify-center space-x-2"></div>
         <div className="grid grid-cols-2 justify-center p-1 md:justify-between">
           <div className="flex justify-start space-x-6"></div>
-
-          {/* кошелек, профиль, корзина */}
-          <div className="flex justify-end space-x-6 px-2 md:px-10">
-            <div className="group relative inline-block">
-              <div className="mx-auto justify-center">
-                <Image
-                  className="size-10 rounded-lg p-1 ring-p1-green transition-all delay-75 duration-100 ease-in-out hover:bg-p1-white/50 hover:ring-2 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:hover:bg-p1-deepdarkgreen"
-                  width={480}
-                  height={480}
-                  src="/Logo/wallet-nft.png"
-                  alt="Bordered avatar"
-                />
-
-                <div className="invisible absolute left-9 z-10 m-0.5 mt-2 w-72 -translate-x-1/2 rounded-xl bg-p1-white/50 bg-center p-4 text-gray-800 opacity-0 shadow-xl backdrop-blur-lg transition-all duration-100 group-hover:visible group-hover:border-opacity-70 group-hover:bg-opacity-30 group-hover:opacity-100 md:w-80">
-                  <div className="rounded-md border-2 border-p1-darkgreen/50 bg-p1-cyan/30">
-                    <div className="border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-100 ease-in-out hover:bg-p1-white/50 hover:pl-6 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
-                      <Link href="#" className="mx-auto flex flex-row justify-start">
-                        <Image
-                          className="size-6 self-center"
-                          width={480}
-                          height={480}
-                          src="/icon/wallet_connect.png"
-                          alt="Bordered avatar"
-                        />
-
-                        <div className="self-center px-2">Connect Wallet </div>
-                      </Link>
-                    </div>
-                    <div className="border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-100 ease-in-out hover:bg-p1-white/50 hover:pl-6 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
-                      <Link href="#" className="mx-auto flex flex-row justify-start">
-                        <Image
-                          className="size-6 self-center"
-                          width={480}
-                          height={480}
-                          src="/icon/wallet_disconnect_red.png"
-                          alt="Bordered avatar"
-                        />
-                        <div className="self-center px-2"> Disconnect Wallet </div>
-                      </Link>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="group relative inline-block">
-              <div className="mx-auto justify-center">
-                <Image
-                  className="size-10 rounded-full p-1 ring-p1-green transition-all delay-75 duration-100 ease-in-out hover:bg-p1-white/50 hover:ring-2 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:hover:bg-p1-deepdarkgreen"
-                  width={480}
-                  height={480}
-                  src="/Logo/user.png"
-                  alt="Bordered avatar"
-                />
-
-                <div className="invisible absolute left-9 z-10 m-0.5 mt-2 w-72 -translate-x-1/2 rounded-xl bg-p1-white/30 bg-center p-4 text-gray-800 opacity-0 shadow-xl backdrop-blur-lg transition-all duration-100 group-hover:visible group-hover:border-opacity-70 group-hover:bg-opacity-30 group-hover:opacity-100 md:w-80">
-                  <div className="rounded-md border-2 border-p1-darkgreen/50 bg-p1-cyan/30">
-                    <div className="border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-100 ease-in-out hover:bg-p1-white/50 hover:pl-6 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
-                      <Link href="/profile" className="mx-auto flex flex-row justify-start">
-                        <Image
-                          className="size-6 self-center"
-                          width={480}
-                          height={480}
-                          src="/icon/NFT_user_green.png"
-                          alt="Bordered avatar"
-                        />
-
-                        <div className="self-center px-2">Profile </div>
-                      </Link>
-                    </div>
-                    <div className="border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-100 ease-in-out hover:bg-p1-white/50 hover:pl-6 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
-                      <Link href="/mynfts" className="mx-auto flex flex-row justify-start">
-                        <Image
-                          className="size-6 self-center"
-                          width={480}
-                          height={480}
-                          src="/icon/NFT-col.png"
-                          alt="Bordered avatar"
-                        />
-                        <div className="self-center px-2"> My NFT </div>
-                      </Link>
-                    </div>
-                    <div className="border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-100 ease-in-out hover:bg-p1-white/50 hover:pl-6 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
-                      <Link href="#" className="mx-auto flex flex-row justify-start">
-                        <Image
-                          className="size-6 self-center"
-                          width={480}
-                          height={480}
-                          src="/icon/heart_green.png"
-                          alt="heart"
-                        />
-                        <div className="self-center px-2"> Watchlist</div>
-                      </Link>
-                    </div>
-                    <div className="border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-100 ease-in-out hover:bg-p1-white/50 hover:pl-6 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
-                      <Link href="#" className="mx-auto flex flex-row justify-start">
-                        <Image
-                          className="size-6 self-center"
-                          width={480}
-                          height={480}
-                          src="/icon/hand_shake_green.png"
-                          alt="Bordered avatar"
-                        />
-                        <div className="self-center px-2"> Deals</div>
-                      </Link>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="w-10">
-              <div className="group relative inline-block">
-                <Link href="#" className="mx-auto">
-                  <Image
-                    className="size-10 rounded-lg p-1 ring-p1-green transition-all delay-75 duration-100 ease-in-out hover:bg-p1-white/50 hover:ring-2 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:hover:bg-p1-deepdarkgreen"
-                    width={480}
-                    height={480}
-                    src="/icon/share_green.png"
-                    alt="bt16"
-                  />
-                </Link>
-              </div>
-            </div>
-            <div>
-              <Link href="#" className="mx-auto justify-center">
-                <Image
-                  className="size-10 rounded-lg p-1 ring-p1-green transition-all delay-75 duration-100 ease-in-out hover:bg-p1-white/50 hover:ring-2 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:hover:bg-p1-deepdarkgreen"
-                  width={480}
-                  height={480}
-                  src="/Logo/shopping-cart.png"
-                  alt="Bordered avatar"
-                />
-              </Link>
-            </div>
-          </div>
         </div>
 
         {/* Карточка */}
@@ -809,13 +675,18 @@ export default function Home() {
                     <div className="">
                       <div className="grid grid-cols-1 justify-between lg:grid-cols-2">
                         <div className="flex justify-start">
-                          <div className="relative">
-                            <div className="mx-auto justify-start text-4xl text-p1-darkgreen dark:text-p1-green">
+                          <div className="">
+                            <div className="mx-auto justify-start px-2 text-4xl text-p1-darkgreen dark:text-p1-green">
+                              2,72
+                            </div>
+                          </div>
+                          <div className="relative place-self-center">
+                            <div className="mx-auto text-2xl text-p1-darkgreen dark:text-p1-green">
                               <form className="">
                                 <label htmlFor="price" className="block w-full"></label>
                                 <select
                                   id="price"
-                                  className="mx-auto flex w-full overflow-hidden border-p1-green bg-p1-white/50 pr-4 text-center hover:border-p1-green hover:bg-p1-cyan/10 dark:bg-p1-deepdarkgreen dark:text-p1-green dark:accent-p1-darkgreen dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan"
+                                  className="mx-auto flex w-full overflow-hidden border-p1-green bg-p1-white/50 text-center hover:border-p1-green hover:bg-p1-cyan/10 dark:bg-p1-deepdarkgreen dark:text-p1-green dark:accent-p1-darkgreen dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan"
                                   defaultValue={'DEFAULT'}
                                 >
                                   <option value="DEFAULT" disabled>
@@ -831,11 +702,7 @@ export default function Home() {
                               </form>
                             </div>
                           </div>
-                          <div className="">
-                            <div className="mx-auto justify-start px-2 text-4xl text-p1-darkgreen dark:text-p1-green">
-                              2,72
-                            </div>
-                          </div>
+
                           <div className="px-4"> </div>
                         </div>
                       </div>

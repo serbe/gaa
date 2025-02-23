@@ -43,7 +43,8 @@ function Nav() {
       <div className="max-w-screen mx-auto flex flex-wrap items-center justify-between p-4">
         <div className="flex items-center space-x-3">
           {/* <!-- Dropdown menu --> */}
-          <div>
+          <div className="grid grid-cols-4 place-items-start gap-2">
+
             <Link href="/">
               <Image
                 className="size-8 transition-all delay-75 duration-100 ease-in-out hover:scale-110"
@@ -163,7 +164,7 @@ function Nav() {
                 <li key={name}>
                   <Link
                     href={url}
-                    className="block p-2 text-sm text-gray-700 hover:bg-gray-100 dark:text-gray-200 dark:hover:bg-gray-600 dark:hover:text-white"
+                    className="block p-2 text-sm text-gray-700 transition-all duration-300 ease-in-out hover:bg-gray-100 hover:pl-3 dark:text-gray-200 dark:hover:bg-gray-600 dark:hover:text-white"
                   >
                     {name}
                   </Link>
@@ -217,7 +218,7 @@ function Nav() {
           </ul>
         </div>
 
-        <div className="grid grid-cols-4 place-items-start gap-4">
+        <div className="grid grid-cols-4 place-items-start gap-2">
           <div className="group relative inline-block">
             <div className="mx-auto justify-center">
               <Image
@@ -228,9 +229,9 @@ function Nav() {
                 alt="Bordered avatar"
               />
 
-              <div className="invisible absolute left-9 z-10 m-0.5 mt-2 w-72 -translate-x-1/2 rounded-xl bg-p1-white/30 bg-center p-4 text-gray-800 opacity-0 shadow-xl backdrop-blur-lg transition-all duration-100 group-hover:visible group-hover:border-opacity-70 group-hover:bg-opacity-30 group-hover:opacity-100 md:w-80">
-                <div className="rounded-md border-2 border-p1-darkgreen/50 bg-p1-cyan/100">
-                  <div className="border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-100 ease-in-out hover:bg-p1-white/50 hover:pl-6 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
+              <div className="invisible absolute left-9 z-10 m-0.5 mt-2 -translate-x-1/2 text-nowrap rounded-xl bg-p1-white/30 text-gray-800 opacity-0 backdrop-blur-lg transition-all duration-100 group-hover:visible group-hover:border-opacity-70 group-hover:bg-opacity-30 group-hover:opacity-100">
+                <div className="rounded-md">
+                  <div className="w-56 border-b border-p1-darkgreen p-1 text-base text-p1-darkgreen transition-all delay-100 duration-300 ease-in-out hover:bg-p1-white/20 hover:pl-3 dark:border-p1-deepdarkgreen dark:text-p1-green dark:hover:text-p1-cyan">
                     <Link href="#" className="mx-auto flex flex-row justify-start">
                       <Image
                         className="size-6 self-center"
@@ -243,7 +244,7 @@ function Nav() {
                       <div className="self-center px-2">Connect Wallet </div>
                     </Link>
                   </div>
-                  <div className="border-b border-p1-darkgreen p-1 text-xl font-semibold text-p1-darkgreen transition-all duration-100 ease-in-out hover:bg-p1-white/50 hover:pl-6 hover:text-p1-deepdarkgreen md:px-3 dark:border-p1-deepdarkgreen">
+                  <div className="border-b border-p1-darkgreen p-1 text-base text-p1-darkgreen transition-all delay-100 duration-300 ease-in-out hover:bg-p1-white/20 hover:pl-3 dark:border-p1-deepdarkgreen dark:text-p1-green dark:hover:text-p1-cyan">
                     <Link href="#" className="mx-auto flex flex-row justify-start">
                       <Image
                         className="size-6 self-center"
