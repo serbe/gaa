@@ -8,7 +8,7 @@ export default function Page() {
   return (
     <div className="mx-auto max-w-7xl font-serif">
       <div className="px-2 text-center text-xl font-semibold text-p1-darkgreen md:pt-2 md:text-4xl dark:text-p1-green dark:hover:text-p1-cyan">
-      License Application
+        License Application
       </div>
       <div className="flex flex-wrap place-content-center px-2 pt-5 md:flex-nowrap">
         <div className="w-4/5 min-w-96 rounded-3xl border-p1-gray bg-p1-white md:border-4 md:shadow-lg dark:border-p1-darkgreen dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">

@@ -12,6 +12,10 @@
     "racepoint": "Racepoint",
     "partners": "Partners",
     "socials": "Socials",
-    "marketplace": "Marketplace"
+    "marketplace": "Marketplace",
+    "profile": "Profile",
+    "mynft": "My NFT",
+    "watchlist": "Watchlist",
+    "deals": "Deals"
   }
 }

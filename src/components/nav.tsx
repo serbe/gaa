@@ -116,7 +116,7 @@ function Nav() {
                       alt="Bordered avatar"
                     />
 
-                    <div className="self-center px-2">Profile </div>
+                    <div className="self-center px-2">{t('profile')}</div>
                   </Link>
                 </div>
                 <div className="border-b border-p1-darkgreen p-1 text-base text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white/20 hover:pl-3 dark:border-p1-deepdarkgreen dark:text-p1-green dark:hover:text-p1-cyan">
@@ -128,7 +128,7 @@ function Nav() {
                       src="/icon/NFT-col.png"
                       alt="Bordered avatar"
                     />
-                    <div className="self-center px-2"> My NFT </div>
+                    <div className="self-center px-2">{t('mynft')}</div>
                   </Link>
                 </div>
                 <div className="border-b border-p1-darkgreen p-1 text-base text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white/20 hover:pl-3 dark:border-p1-deepdarkgreen dark:text-p1-green dark:hover:text-p1-cyan">
@@ -140,7 +140,7 @@ function Nav() {
                       src="/icon/heart_green.png"
                       alt="heart"
                     />
-                    <div className="self-center px-2"> Watchlist</div>
+                    <div className="self-center px-2">{t('watchlist')}</div>
                   </Link>
                 </div>
                 <div className="border-b border-p1-darkgreen p-1 text-base text-p1-darkgreen transition-all duration-300 ease-in-out hover:bg-p1-white/20 hover:pl-3 dark:border-p1-deepdarkgreen dark:text-p1-green dark:hover:text-p1-cyan">
@@ -152,13 +152,13 @@ function Nav() {
                       src="/icon/hand_shake_green.png"
                       alt="Bordered avatar"
                     />
-                    <div className="self-center px-2"> Deals</div>
+                    <div className="self-center px-2">{t('deals')}</div>
                   </Link>
                 </div>
               </div>
             </div>
 
-            <ul className="py-2" aria-labelledby="user-menu-button">
+            {/* <ul className="py-2" aria-labelledby="user-menu-button">
               {menuItems.map(({ name, url }) => (
                 <li key={name}>
                   <Link
@@ -169,7 +169,7 @@ function Nav() {
                   </Link>
                 </li>
               ))}
-            </ul>
+            </ul> */}
           </div>
           <button
             data-collapse-toggle="navbar-user"
