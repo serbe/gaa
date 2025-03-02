@@ -268,7 +268,6 @@ export default function Home() {
         </div>
 
         {/* иконки ... */}
-
         <div className="grid grid-cols-2 justify-between p-1 md:grid-cols-2 2xl:grid-cols-2">
           <div className="flex justify-start space-x-1 md:px-10">
             <div>
@@ -421,6 +420,7 @@ export default function Home() {
 
         <div className="flex max-w-full place-content-center gap-2 px-6">
           {/* ... левый блок */}
+          
           <div id="area1" className={`w-3/12  gap-2 pt-2 ${visibleArea1 == true ? '' : 'hidden'}`}>
             <div className="w-full snap-start border-b border-p1-green/30 bg-p1-white text-xl text-p1-darkgreen hover:border-p1-green hover:bg-p1-green/5 dark:bg-p1-deepdarkgreen">
               <details className="transition-all delay-75 duration-300 ease-in-out">
@@ -773,7 +773,7 @@ export default function Home() {
             <div className="w-full place-content-center p-2 text-xl font-bold text-p1-darkgreen dark:text-p1-green">
               For Promoter/Local/Global licenses
             </div>
-            <div className="">
+            
               <div className="w-full resize-y snap-y scroll-mt-4 place-self-start overflow-auto scroll-smooth">
                 <div className="w-full snap-start border-b border-p1-green/30 bg-p1-white text-xl text-p1-darkgreen hover:border-p1-green hover:bg-p1-green/5 dark:bg-p1-deepdarkgreen">
                   <details className="">
@@ -807,6 +807,83 @@ export default function Home() {
                             />
                           </div>
                         </div>
+
+
+
+                      </div>
+                      <div className="justify-center">
+                          <form className="mx-auto max-w-2xl">
+                            <label
+                              htmlFor="license"
+                              className="block w-full text-left text-sm font-medium text-p1-darkgreen dark:text-p1-green"
+                            >
+                              Категория спонсора
+                            </label>
+                            <select
+                              id="license"
+                              className="block w-full rounded-lg border-2 border-gray-300 bg-p2-white2 p-2.5 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder:text-gray-400 dark:focus:border-p1-green dark:focus:ring-p1-green"
+                              defaultValue={'DEFAULT'}
+                            >
+                              <option value="DEFAULT" disabled>
+                                Категория спонсора
+                              </option>
+                              <option value="Title_Sponsor">Титульный спонсор</option>
+                              <option value="General_Sponsor">Генеральный спонсор</option>
+                              <option value="Official_Sponsor">Официальный спонсор</option>
+                              <option value="Sponsor_participant">Спонсор участник</option>
+                              <option value="Information_Sponsor">Информационный спонсор</option>
+                              <option value="Barter_sponsor ">Бартерный спонсор</option>
+                            </select>
+                          </form>
+                          <label
+                            htmlFor="dropzone-file"
+                            className="mt-5 flex h-56 w-full cursor-pointer flex-col items-center justify-center rounded-3xl border-2 border-dashed border-gray-300 bg-gray-50 shadow-lg hover:bg-gray-100 dark:border-gray-600 dark:bg-gray-700 dark:hover:border-gray-500 dark:hover:bg-gray-800"
+                          >
+                            <div className="flex flex-col items-center justify-center pb-6 pt-5">
+                              <svg
+                                className="mb-4 size-8 text-gray-500 dark:text-gray-400"
+                                aria-hidden="true"
+                                xmlns="http://www.w3.org/2000/svg"
+                                fill="none"
+                                viewBox="0 0 20 16"
+                              >
+                                <path
+                                  stroke="currentColor"
+                                  strokeLinecap="round"
+                                  strokeLinejoin="round"
+                                  strokeWidth="2"
+                                  d="M13 13h3a3 3 0 0 0 0-6h-.025A5.56 5.56 0 0 0 16 6.5 5.5 5.5 0 0 0 5.207 5.021C5.137 5.017 5.071 5 5 5a4 4 0 0 0 0 8h2.167M10 15V6m0 0L8 8m2-2 2 2"
+                                />
+                              </svg>
+
+                              <p className="mb-2 text-center text-sm text-gray-500 dark:text-gray-400">
+                                <span className="font-bold">&quot;Логотип спонсора&quot;</span>
+                              </p>
+
+                              <p className="mb-2 text-center text-sm text-gray-500 dark:text-gray-400">
+                                <span className="font-semibold">Click to upload</span> or drag and
+                                drop
+                              </p>
+                              <p className="text-center text-xs text-gray-500 dark:text-gray-400">
+                                SVG, PNG, JPG or GIF (MAX. 800x400px)
+                              </p>
+                            </div>
+                            <input id="dropzone-file" type="file" className="hidden" />
+                          </label>
+                          <div
+                            className="inline-flex w-full justify-center rounded-md pt-1 shadow-sm"
+                            role="group"
+                          >
+                            <Link
+                              href="#"
+                              className="my-4 inline-block w-40 w-max place-content-center rounded-lg border bg-p1-white px-1 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen/15 hover:bg-p1-cyan/25 hover:text-p1-darkgreen focus:border-p1-darkgreen/20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                            >
+                              Добавить спонсора +
+                            </Link>
+                          </div>
+                        </div>
+                      <div className="flex items-center text-p1-white">
+                        
                       </div>
                       <div className="flex place-content-between p-4">
                         <input
@@ -930,7 +1007,7 @@ export default function Home() {
                   </details>
                 </div>
               </div>
-            </div>
+         
           </div>
 
           {/* ... правый блок */}
@@ -2529,163 +2606,7 @@ export default function Home() {
 
                 <div className="inline-block pb-5">
                   <div className="place-items-start md:basis-5">
-                    <div className="pt-2 text-left">
-                      Эмблемы и категории спонсоров
-                      <div className="">
-                        <div className="mt-5 grid grid-cols-1 gap-2 p-4 md:grid-cols-4 md:place-items-end xl:grid-cols-6">
-                          <div className="col-span-2 md:row-span-2">
-                            <div>
-                              <label
-                                htmlFor="year"
-                                className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-green"
-                              >
-                                Год
-                              </label>
-                              <input
-                                type="text"
-                                id="year"
-                                className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder:text-gray-400 dark:focus:border-p1-green dark:focus:ring-p1-green"
-                                placeholder="Год"
-                                required
-                              />
-                            </div>
-                            <div>
-                              <label
-                                htmlFor="contry"
-                                className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-green"
-                              >
-                                Страна
-                              </label>
-                              <input
-                                type="text"
-                                id="contry"
-                                className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder:text-gray-400 dark:focus:border-p1-green dark:focus:ring-p1-green"
-                                placeholder="Страна"
-                                required
-                              />
-                            </div>
-                            <div className="pb-2"></div>
-
-                            <div>
-                              <label
-                                htmlFor="city"
-                                className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-green"
-                              >
-                                Город
-                              </label>
-                              <input
-                                type="text"
-                                id="city"
-                                className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder:text-gray-400 dark:focus:border-p1-green dark:focus:ring-p1-green"
-                                placeholder="Город"
-                                required
-                              />
-                            </div>
-
-                            <div className="pb-2"></div>
-                            <div>
-                              <label
-                                htmlFor="event"
-                                className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-green"
-                              >
-                                Официальное название мероприятия
-                              </label>
-                              <input
-                                type="text"
-                                id="event"
-                                className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder:text-gray-400 dark:focus:border-p1-green dark:focus:ring-p1-green"
-                                placeholder="Официальное название мероприятия"
-                                required
-                              />
-                            </div>
-                            <div className="pb-2"></div>
-                            <div>
-                              <label
-                                htmlFor="event_category"
-                                className="block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-green"
-                              >
-                                Официальное название соревнования/конкурса
-                              </label>
-                              <input
-                                type="text"
-                                id="competition"
-                                className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder:text-gray-400 dark:focus:border-p1-green dark:focus:ring-p1-green"
-                                placeholder="Официальное название соревнования/конкурса"
-                                required
-                              />
-                            </div>
-                          </div>
-                          <div className="text-base">
-                            <form className="mx-auto max-w-2xl">
-                              <label
-                                htmlFor="license"
-                                className="block w-full text-left text-sm font-medium text-p1-darkgreen dark:text-p1-green"
-                              >
-                                Категория спонсора
-                              </label>
-                              <select
-                                id="license"
-                                className="block w-full rounded-lg border-2 border-gray-300 bg-p2-white2 p-2.5 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder:text-gray-400 dark:focus:border-p1-green dark:focus:ring-p1-green"
-                                defaultValue={'DEFAULT'}
-                              >
-                                <option value="DEFAULT" disabled>
-                                  Категория спонсора
-                                </option>
-                                <option value="Title_Sponsor">Титульный спонсор</option>
-                                <option value="General_Sponsor">Генеральный спонсор</option>
-                                <option value="Official_Sponsor">Официальный спонсор</option>
-                                <option value="Sponsor_participant">Спонсор участник</option>
-                                <option value="Information_Sponsor">Информационный спонсор</option>
-                                <option value="Barter_sponsor ">Бартерный спонсор</option>
-                              </select>
-                            </form>
-                            <div className="place-items-center p-2">
-                              <label
-                                htmlFor="dropzone-file"
-                                className="flex h-56 w-full cursor-pointer flex-col items-center justify-center rounded-3xl border-2 border-dashed border-gray-300 bg-gray-50 shadow-lg hover:bg-gray-100 dark:border-gray-600 dark:bg-gray-700 dark:hover:border-gray-500 dark:hover:bg-gray-800"
-                              >
-                                <div className="flex flex-col items-center justify-center pb-6 pt-5">
-                                  <svg
-                                    className="mb-4 size-8 text-gray-500 dark:text-gray-400"
-                                    aria-hidden="true"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    fill="none"
-                                    viewBox="0 0 20 16"
-                                  >
-                                    <path
-                                      stroke="currentColor"
-                                      strokeLinecap="round"
-                                      strokeLinejoin="round"
-                                      strokeWidth="2"
-                                      d="M13 13h3a3 3 0 0 0 0-6h-.025A5.56 5.56 0 0 0 16 6.5 5.5 5.5 0 0 0 5.207 5.021C5.137 5.017 5.071 5 5 5a4 4 0 0 0 0 8h2.167M10 15V6m0 0L8 8m2-2 2 2"
-                                    />
-                                  </svg>
-
-                                  <p className="mb-2 text-sm text-gray-500 dark:text-gray-400">
-                                    <span className="font-bold">&quot;Логотип спонсора&quot;</span>
-                                  </p>
-
-                                  <p className="mb-2 text-sm text-gray-500 dark:text-gray-400">
-                                    <span className="font-semibold">Click to upload</span> or drag
-                                    and drop
-                                  </p>
-                                  <p className="text-xs text-gray-500 dark:text-gray-400">
-                                    SVG, PNG, JPG or GIF (MAX. 800x400px)
-                                  </p>
-                                </div>
-                                <input id="dropzone-file" type="file" className="hidden" />
-                              </label>
-                            </div>
-                            <Link
-                              href="#"
-                              className="inline-block w-full place-content-center rounded-xl border bg-p1-white px-1 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen/15 hover:bg-p1-cyan/25 hover:text-p1-darkgreen focus:border-p1-darkgreen/20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
-                            >
-                              Добавить
-                            </Link>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
+                    <div className="pt-2 text-left">Эмблемы и категории спонсоров</div>
                   </div>
                 </div>
                 <div className="flex grid-flow-row gap-4">
@@ -2880,18 +2801,8 @@ export default function Home() {
                         href="#"
                         className="inline-block w-max place-content-center border bg-p1-white px-1 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen/15 hover:bg-p1-cyan/25 hover:text-p1-darkgreen focus:border-p1-darkgreen/20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
                       >
-                        Отправить
+                        Отправить/Наградить
                       </Link>
-                      <button
-                        data-target="area12"
-                        className="inline-block w-max place-content-center border bg-p1-white px-1 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen/15 hover:bg-p1-cyan/25 hover:text-p1-darkgreen focus:border-p1-darkgreen/20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
-                        id="toggleButton22"
-                        onClick={() => {
-                          setCurrentVisibleArea(12);
-                        }}
-                      >
-                        Редактировать
-                      </button>
 
                       <button
                         data-target="area12"
@@ -2914,23 +2825,10 @@ export default function Home() {
                       role="group"
                     >
                       <Link
-                        href="#"
-                        className="inline-block w-max place-content-center rounded-l-xl border bg-p1-white px-1 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen/15 hover:bg-p1-cyan/25 hover:text-p1-darkgreen focus:border-p1-darkgreen/20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
-                      >
-                        NFT
-                      </Link>
-                      <Link
-                        href="#"
-                        className="inline-block w-max place-content-center border bg-p1-white px-1 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen/15 hover:bg-p1-cyan/25 hover:text-p1-darkgreen focus:border-p1-darkgreen/20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                        href="/mintrewards"
+                        className="inline-block w-max place-content-center rounded-xl border bg-p1-white px-1 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen/15 hover:bg-p1-cyan/25 hover:text-p1-darkgreen focus:border-p1-darkgreen/20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
                       >
                         Ready to be NFT
-                      </Link>
-
-                      <Link
-                        href="#"
-                        className="inline-block w-max place-content-center rounded-r-xl border bg-p1-white px-1 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen/15 hover:bg-p1-cyan/25 hover:text-p1-darkgreen focus:border-p1-darkgreen/20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
-                      >
-                        Not All data
                       </Link>
                     </div>
                   </div>
@@ -3721,166 +3619,8 @@ export default function Home() {
                 </div>
 
                 <div className="flex grid-flow-row gap-4 pt-10">
-                  <div className="pt-1 text-center text-p1-darkgreen dark:text-p1-green">
-                    {/* ... карточка 1 ...15x10 */}
-                    <div className="group relative h-[14.5rem] w-40 place-self-center overflow-hidden rounded-xl bg-white object-cover lining-nums shadow-lg transition-transform duration-100 hover:shadow-lg hover:shadow-p1-cyan group-hover:shadow-sm dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
-                      <div>
-                        <path
-                          d="M18.527 12.2062L12 16.1938L5.46875 12.2062L12 1L18.527 12.2062ZM12 17.4742L5.46875 13.4867L12 23L18.5312 13.4867L12 17.4742V17.4742Z"
-                          fill="white"
-                        ></path>
-
-                        <div className="group invisible absolute right-1 top-1 z-10 inline-block duration-100 ease-in-out group-hover:visible group-hover:opacity-100">
-                          <Link
-                            href="#"
-                            className="z-50 grid w-6 place-content-center transition-all delay-75 duration-100 ease-in-out hover:scale-125"
-                          >
-                            <Image
-                              className="p-1"
-                              width={480}
-                              height={480}
-                              src="/Logo/heart-red.png"
-                              alt="Bordered avatar"
-                            />
-                          </Link>
-                        </div>
-                      </div>
-
-                      <div className="relative">
-                        <Link href="/card" className="mx-auto justify-center">
-                          <Image
-                            width={500}
-                            height={500}
-                            src="/Hero/Rewards.png"
-                            alt="Cup1"
-                            className="size-40 object-cover transition-transform duration-500 ease-in-out group-hover:scale-150"
-                          />
-                        </Link>
-                      </div>
-
-                      <div className="w-full bg-p2-white2/100 text-p1-darkgreen transition-transform duration-500 ease-in-out group-hover:translate-y-28 group-hover:shadow-xl group-hover:shadow-p2-red dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:group-hover:text-p1-cyan dark:group-hover:shadow-p1-green">
-                        <div className="flex items-center justify-between">
-                          <div className="px-1 pt-1 text-left text-sm font-bold">Award</div>
-                          <div className="px-1 pt-1 text-left text-sm font-bold"># 12345</div>
-                        </div>
-
-                        <div className="px-1 pb-12 pt-1">
-                          <div className="flex items-center justify-between">
-                            <div className="text-center">
-                              <p className="text-center text-xs">Дрифт</p>
-                            </div>
-                          </div>
-                          <div className="space-x-4 text-left text-xs font-thin">
-                            Дата: 21.01.2025
-                          </div>
-                        </div>
-                      </div>
-
-                      <div className="flex items-center justify-between">
-                        <div className="absolute bottom-0 left-0 h-8 w-40 translate-y-full bg-p2-red text-center text-p2-white2 opacity-100 shadow-lg shadow-p2-red transition-transform duration-500 ease-in-out hover:bg-p1-darkgreen group-hover:translate-y-0 dark:bg-p2-red">
-                          <div className="inline-flex h-8 w-40 justify-center text-sm" role="group">
-                            <Link
-                              href="#"
-                              className="grid w-full place-content-center rounded-bl-xl border border-p1-darkgreen bg-p2-orange text-center text-sm shadow-lg shadow-p2-red transition-all duration-100 ease-in-out hover:border-p1-cyan hover:bg-p2-red hover:text-p1-white hover:shadow-2xl hover:shadow-p2-red md:text-3xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:border-p1-cyan dark:hover:bg-p2-red dark:hover:text-p1-cyan dark:focus:border-p2-red dark:focus:bg-p2-red dark:focus:text-p1-cyan"
-                            >
-                              <div className="grid grid-cols-2 items-center justify-between gap-2">
-                                <div className="text-base leading-3">Delite</div>
-                                <div className="text-center text-xs leading-3">
-                                  <Image
-                                    className="relative inline-block w-5 px-0.5"
-                                    width={50}
-                                    height={50}
-                                    src="/icon/del.png"
-                                    alt="del"
-                                  />
-                                </div>
-                              </div>
-                            </Link>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="pt-1 text-center text-p1-darkgreen dark:text-p1-green">
-                    {/* ... карточка 1 ...15x10 */}
-                    <div className="group relative h-[14.5rem] w-40 place-self-center overflow-hidden rounded-xl bg-white object-cover lining-nums shadow-lg transition-transform duration-100 hover:shadow-lg hover:shadow-p1-cyan group-hover:shadow-sm dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
-                      <div>
-                        <path
-                          d="M18.527 12.2062L12 16.1938L5.46875 12.2062L12 1L18.527 12.2062ZM12 17.4742L5.46875 13.4867L12 23L18.5312 13.4867L12 17.4742V17.4742Z"
-                          fill="white"
-                        ></path>
-
-                        <div className="group invisible absolute right-1 top-1 z-10 inline-block duration-100 ease-in-out group-hover:visible group-hover:opacity-100">
-                          <Link
-                            href="#"
-                            className="z-50 grid w-6 place-content-center transition-all delay-75 duration-100 ease-in-out hover:scale-125"
-                          >
-                            <Image
-                              className="p-1"
-                              width={480}
-                              height={480}
-                              src="/Logo/heart-red.png"
-                              alt="Bordered avatar"
-                            />
-                          </Link>
-                        </div>
-                      </div>
-
-                      <div className="relative">
-                        <Link href="/card" className="mx-auto justify-center">
-                          <Image
-                            width={500}
-                            height={500}
-                            src="/Hero/Rewards.png"
-                            alt="Cup1"
-                            className="size-40 object-cover transition-transform duration-500 ease-in-out group-hover:scale-150"
-                          />
-                        </Link>
-                      </div>
-
-                      <div className="w-full bg-p2-white2/100 text-p1-darkgreen transition-transform duration-500 ease-in-out group-hover:translate-y-28 group-hover:shadow-xl group-hover:shadow-p2-red dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:group-hover:text-p1-cyan dark:group-hover:shadow-p1-green">
-                        <div className="flex items-center justify-between">
-                          <div className="px-1 pt-1 text-left text-sm font-bold">Award</div>
-                          <div className="px-1 pt-1 text-left text-sm font-bold"># 12345</div>
-                        </div>
-
-                        <div className="px-1 pb-12 pt-1">
-                          <div className="flex items-center justify-between">
-                            <div className="text-center">
-                              <p className="text-center text-xs">Дрифт</p>
-                            </div>
-                          </div>
-                          <div className="space-x-4 text-left text-xs font-thin">
-                            Дата: 21.01.2025
-                          </div>
-                        </div>
-                      </div>
-
-                      <div className="flex items-center justify-between">
-                        <div className="absolute bottom-0 left-0 h-8 w-40 translate-y-full bg-p2-red text-center text-p2-white2 opacity-100 shadow-lg shadow-p2-red transition-transform duration-500 ease-in-out hover:bg-p1-darkgreen group-hover:translate-y-0 dark:bg-p2-red">
-                          <div className="inline-flex h-8 w-40 justify-center text-sm" role="group">
-                            <Link
-                              href="#"
-                              className="grid w-full place-content-center rounded-bl-xl border border-p1-darkgreen bg-p2-orange text-center text-sm shadow-lg shadow-p2-red transition-all duration-100 ease-in-out hover:border-p1-cyan hover:bg-p2-red hover:text-p1-white hover:shadow-2xl hover:shadow-p2-red md:text-3xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:border-p1-cyan dark:hover:bg-p2-red dark:hover:text-p1-cyan dark:focus:border-p2-red dark:focus:bg-p2-red dark:focus:text-p1-cyan"
-                            >
-                              <div className="grid grid-cols-2 items-center justify-between gap-2">
-                                <div className="text-base leading-3">Delite</div>
-                                <div className="text-center text-xs leading-3">
-                                  <Image
-                                    className="relative inline-block w-5 px-0.5"
-                                    width={50}
-                                    height={50}
-                                    src="/icon/del.png"
-                                    alt="del"
-                                  />
-                                </div>
-                              </div>
-                            </Link>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+               
+               
                 </div>
               </div>
             </div>

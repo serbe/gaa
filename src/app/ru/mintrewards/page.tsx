@@ -418,21 +418,12 @@ export default function Page() {
                               className="inline-flex w-full justify-center rounded-md pt-1 shadow-sm"
                               role="group"
                             >
-                              <button
-                                data-target="#"
-                                className="mt-5 inline-block w-max place-content-center rounded-l-xl border bg-p1-white px-1 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen/15 hover:bg-p1-cyan/25 hover:text-p1-darkgreen focus:border-p1-darkgreen/20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
-                                id="toggleButton12"
-                                onClick={() => {
-                                  setCurrentVisibleArea(12);
-                                }}
-                              >
-                                Лого спонсора
-                              </button>
+                             
                               <Link
                                 href="#"
-                                className="mt-5 inline-block w-max place-content-center border bg-p1-white px-1 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen/15 hover:bg-p1-cyan/25 hover:text-p1-darkgreen focus:border-p1-darkgreen/20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                                className="mb-4 mt-4 inline-block w-40 w-max place-content-center rounded-lg border bg-p1-white px-1 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen/15 hover:bg-p1-cyan/25 hover:text-p1-darkgreen focus:border-p1-darkgreen/20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
                               >
-                                +
+                                Добавить спонсора +
                               </Link>
                             </div>
                           </div>
@@ -1691,16 +1682,7 @@ export default function Page() {
 
         <div id="area92" className={`${currentVisibleArea == 92 ? '' : 'hidden'}`}>
           <div>
-            <button
-              data-target="area91"
-              className="mt-4 rounded-3xl border-2 border-p2-orange bg-p2-white2 px-10 py-8 text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p2-orange hover:text-p1-white dark:border-amber-800 dark:bg-amber-950 dark:text-amber-300 dark:hover:border-amber-700 dark:hover:bg-amber-900 dark:hover:text-amber-300"
-              id="toggleButton91"
-              onClick={() => {
-                setCurrentVisibleArea(91);
-              }}
-            >
-              Назад к форме создания наград
-            </button>
+           
           </div>
         </div>
       </section>
@@ -1763,10 +1745,10 @@ export default function Page() {
               role="group"
             >
               <Link
-                href="#"
+                href="/mynfts"
                 className="inline-block w-max place-content-center rounded-l-xl border bg-p1-white px-1 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen/15 hover:bg-p1-cyan/25 hover:text-p1-darkgreen focus:border-p1-darkgreen/20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
               >
-                NFT
+                My NFTs
               </Link>
               <Link
                 href="#"
@@ -2079,7 +2061,7 @@ export default function Page() {
           </div>
         </div>
 
-       <div className='pb-40'> </div>
+        <div className="pb-40"> </div>
       </div>
     </div>
   );
