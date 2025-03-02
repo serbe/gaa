@@ -860,38 +860,41 @@ export default function Home() {
                       <option value="Best_offer">POL</option>
                     </select>
                   </form>
-                  <div className="inline-flex space-x-1 pb-2 md:space-x-2 xl:space-x-4 2xl:space-x-10">
-                    <div className="">
+                  <div className="pt-1 text-center text-p1-darkgreen dark:text-p1-green">
+                    <div className="inline-flex space-x-1">
                       <div>
-                        <input
-                          type="text"
-                          id="price_min"
-                          className="block w-full border-b border-p1-green bg-p1-white p-1 text-center text-sm lining-nums text-p1-darkgreen hover:bg-p2-white2 focus:border-p1-darkgreen focus:ring-p1-darkgreen md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:placeholder:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan dark:focus:border-p1-green dark:focus:ring-p1-cyan"
-                          placeholder="Min"
-                          required
-                        />
+                        <div>
+                          <input
+                            type="text"
+                            id="price_min"
+                            className="block w-full border-b border-p1-green bg-p1-white p-1 text-center text-sm lining-nums text-p1-darkgreen hover:bg-p2-white2 focus:border-p1-darkgreen focus:ring-p1-darkgreen md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:placeholder:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan dark:focus:border-p1-green dark:focus:ring-p1-cyan"
+                            placeholder="Min"
+                            required
+                          />
+                        </div>
+                      </div>
+                      <div className="place-content-center">to</div>
+                      <div>
+                        <div>
+                          <input
+                            type="text"
+                            id="price_max"
+                            className="block w-full border-b border-p1-green bg-p1-white p-1 text-center text-sm lining-nums text-p1-darkgreen hover:bg-p2-white2 focus:border-p1-darkgreen focus:ring-p1-darkgreen md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:placeholder:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan dark:focus:border-p1-green dark:focus:ring-p1-cyan"
+                            placeholder="Max"
+                            required
+                          />
+                        </div>
                       </div>
                     </div>
-                    <div className="place-content-center px-2">to</div>
-                    <div className="">
-                      <div>
-                        <input
-                          type="text"
-                          id="price_max"
-                          className="block w-full border-b border-p1-green bg-p1-white p-1 text-center text-sm lining-nums text-p1-darkgreen hover:bg-p2-white2 focus:border-p1-darkgreen focus:ring-p1-darkgreen md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:placeholder:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan dark:focus:border-p1-green dark:focus:ring-p1-cyan"
-                          placeholder="Max"
-                          required
-                        />
-                      </div>
+
+                    <div>
+                      <Link
+                        href="#"
+                        className="relative flex place-content-center rounded-b-xl border border-p1-green bg-p1-white p-2 text-p1-darkgreen transition-all duration-100 ease-in-out hover:border-p1-darkgreen hover:bg-p1-cyan/10 hover:text-p1-darkgreen hover:shadow-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan"
+                      >
+                        <div className="px-4">Apply</div>
+                      </Link>
                     </div>
-                  </div>
-                  <div>
-                    <Link
-                      href="#"
-                      className="relative flex place-content-center rounded-b-xl border border-p1-green bg-p1-white p-2 text-p1-darkgreen transition-all duration-300 ease-in-out hover:border-p1-darkgreen hover:bg-p1-cyan/10 hover:text-p1-darkgreen hover:shadow-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan"
-                    >
-                      <div className="px-4">Apply</div>
-                    </Link>
                   </div>
                 </div>
               </details>
@@ -903,7 +906,7 @@ export default function Home() {
                   <div className="place-content-center px-4">Rarity rank</div>
                 </summary>
                 <div className="pt-1 text-center text-p1-darkgreen lg:p-2 dark:text-p1-green">
-                  <div className="inline-flex space-x-1 pb-2 md:space-x-2 xl:space-x-4 2xl:space-x-10">
+                  <div className="inline-flex space-x-1">
                     <div>
                       <div>
                         <input
@@ -915,7 +918,7 @@ export default function Home() {
                         />
                       </div>
                     </div>
-                    <div className="place-content-center px-2">-</div>
+                    <div className="place-content-center">to</div>
                     <div>
                       <div>
                         <input
@@ -928,10 +931,11 @@ export default function Home() {
                       </div>
                     </div>
                   </div>
+
                   <div>
                     <Link
                       href="#"
-                      className="relative flex place-content-center rounded-b-xl border border-p1-green bg-p1-white p-2 text-p1-darkgreen transition-all duration-300 ease-in-out hover:border-p1-darkgreen hover:bg-p1-cyan/10 hover:text-p1-darkgreen hover:shadow-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan"
+                      className="relative flex place-content-center rounded-b-xl border border-p1-green bg-p1-white p-2 text-p1-darkgreen transition-all duration-100 ease-in-out hover:border-p1-darkgreen hover:bg-p1-cyan/10 hover:text-p1-darkgreen hover:shadow-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan"
                     >
                       <div className="px-4">Apply</div>
                     </Link>

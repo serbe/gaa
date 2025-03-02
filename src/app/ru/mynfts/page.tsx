@@ -423,26 +423,71 @@ export default function Home() {
           {/* ... левый блок */}
           <div id="area1" className={`w-3/12  gap-2 pt-2 ${visibleArea1 == true ? '' : 'hidden'}`}>
             <div className="w-full snap-start border-b border-p1-green/30 bg-p1-white text-xl text-p1-darkgreen hover:border-p1-green hover:bg-p1-green/5 dark:bg-p1-deepdarkgreen">
-              <details className="">
-                <summary className="group relative flex cursor-pointer justify-start py-2 text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
+              <details className="transition-all delay-75 duration-300 ease-in-out">
+                <summary className="relative flex cursor-pointer justify-start py-2 text-p1-darkgreen transition-all delay-75 duration-300 ease-in-out hover:pl-2 dark:text-p1-green dark:hover:text-p1-cyan">
                   <div className="place-content-center px-4">Price</div>
-
-                  <form className="inline-block w-20 place-content-center text-center text-p1-darkgreen hover:text-p1-darkgreen focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan">
+                </summary>
+                <div className="pt-1 text-center text-p1-darkgreen lg:p-2 dark:text-p1-green">
+                  <form className="inline-block w-full place-content-center pb-2 text-center text-p1-darkgreen hover:text-p1-darkgreen focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan">
                     <label htmlFor="price" className="block w-full"></label>
                     <select
                       id="price"
-                      className="mx-auto flex w-full overflow-hidden border-p1-green bg-p1-white/50 text-center hover:border-p1-green hover:bg-p1-cyan/10 dark:bg-p1-deepdarkgreen dark:text-p1-green dark:accent-p1-darkgreen dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan"
+                      className="mx-auto flex w-full overflow-hidden border-t border-p1-green bg-p1-white/50 p-1 text-center hover:border-p1-green hover:bg-p1-cyan/10 dark:bg-p1-deepdarkgreen dark:text-p1-green dark:accent-p1-darkgreen dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan"
                       defaultValue={'DEFAULT'}
                     >
                       <option value="DEFAULT" disabled>
                         USD
                       </option>
-                      <option value="USD">USD</option>
-                      <option value="ETH">ETH</option>
-                      <option value="SOL">SOL</option>
-                      <option value="POL">POL</option>
+                      <option value="Price_low_to_high">USD</option>
+                      <option value="Price_high_to_low">ETH</option>
+                      <option value="Recently_listedr">SOL</option>
+                      <option value="Best_offer">POL</option>
                     </select>
                   </form>
+                  <div className="pt-1 text-center text-p1-darkgreen dark:text-p1-green">
+                    <div className="inline-flex space-x-1">
+                      <div>
+                        <div>
+                          <input
+                            type="text"
+                            id="price_min"
+                            className="block w-full border-b border-p1-green bg-p1-white p-1 text-center text-sm lining-nums text-p1-darkgreen hover:bg-p2-white2 focus:border-p1-darkgreen focus:ring-p1-darkgreen md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:placeholder:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan dark:focus:border-p1-green dark:focus:ring-p1-cyan"
+                            placeholder="Min"
+                            required
+                          />
+                        </div>
+                      </div>
+                      <div className="place-content-center">to</div>
+                      <div>
+                        <div>
+                          <input
+                            type="text"
+                            id="price_max"
+                            className="block w-full border-b border-p1-green bg-p1-white p-1 text-center text-sm lining-nums text-p1-darkgreen hover:bg-p2-white2 focus:border-p1-darkgreen focus:ring-p1-darkgreen md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:placeholder:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan dark:focus:border-p1-green dark:focus:ring-p1-cyan"
+                            placeholder="Max"
+                            required
+                          />
+                        </div>
+                      </div>
+                    </div>
+
+                    <div>
+                      <Link
+                        href="#"
+                        className="relative flex place-content-center rounded-b-xl border border-p1-green bg-p1-white p-2 text-p1-darkgreen transition-all duration-100 ease-in-out hover:border-p1-darkgreen hover:bg-p1-cyan/10 hover:text-p1-darkgreen hover:shadow-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan"
+                      >
+                        <div className="px-4">Apply</div>
+                      </Link>
+                    </div>
+                  </div>
+                </div>
+              </details>
+            </div>
+
+            <div className="w-full snap-start border-b border-p1-green/30 bg-p1-white text-xl text-p1-darkgreen transition-all delay-75 duration-300 ease-in-out hover:border-p1-green hover:bg-p1-green/5 dark:bg-p1-deepdarkgreen">
+              <details className="">
+                <summary className="relative flex cursor-pointer justify-start py-2 text-p1-darkgreen delay-75 duration-300 ease-in-out hover:pl-2 dark:text-p1-green dark:hover:text-p1-cyan">
+                  <div className="place-content-center px-4">Rarity rank</div>
                 </summary>
                 <div className="pt-1 text-center text-p1-darkgreen lg:p-2 dark:text-p1-green">
                   <div className="inline-flex space-x-1">
@@ -483,49 +528,6 @@ export default function Home() {
               </details>
             </div>
 
-            <div className="w-full snap-start border-b border-p1-green/30 bg-p1-white text-xl text-p1-darkgreen hover:border-p1-green hover:bg-p1-green/5 dark:bg-p1-deepdarkgreen">
-              <details className="">
-                <summary className="relative flex cursor-pointer justify-start py-2 text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan">
-                  <div className="place-content-center text-nowrap px-4">Rarity rank</div>
-                </summary>
-                <div className="pt-1 text-center text-p1-darkgreen lg:p-2 dark:text-p1-green">
-                  <div className="inline-flex space-x-1">
-                    <div>
-                      <div>
-                        <input
-                          type="text"
-                          id="price_min"
-                          className="block w-full border-b border-p1-green bg-p1-white p-1 text-center text-sm lining-nums text-p1-darkgreen hover:bg-p2-white2 focus:border-p1-darkgreen focus:ring-p1-darkgreen md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:placeholder:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan dark:focus:border-p1-green dark:focus:ring-p1-cyan"
-                          placeholder="Min"
-                          required
-                        />
-                      </div>
-                    </div>
-                    <div className="place-content-center">-</div>
-                    <div>
-                      <div>
-                        <input
-                          type="text"
-                          id="price_max"
-                          className="block w-full border-b border-p1-green bg-p1-white p-1 text-center text-sm lining-nums text-p1-darkgreen hover:bg-p2-white2 focus:border-p1-darkgreen focus:ring-p1-darkgreen md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:placeholder:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan dark:focus:border-p1-green dark:focus:ring-p1-cyan"
-                          placeholder="Max"
-                          required
-                        />
-                      </div>
-                    </div>
-                  </div>
-                  <div>
-                    <Link
-                      href="#"
-                      className="relative flex place-content-center rounded-b-xl border border-p1-green bg-p1-white p-2 text-p1-darkgreen transition-all duration-100 ease-in-out hover:border-p1-darkgreen hover:bg-p1-cyan/10 hover:text-p1-darkgreen hover:shadow-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan"
-                    >
-                      <div className="px-4">Apply</div>
-                    </Link>
-                  </div>
-                </div>
-              </details>
-            </div>
-
             {/* Тraits*/}
             <div className="w-full place-content-center p-2 text-xl font-bold text-p1-darkgreen dark:text-p1-green">
               Traits
@@ -540,7 +542,7 @@ export default function Home() {
                       onClick={() => {
                         setCurrentVisibleArea(4);
                       }}
-                      className="relative flex cursor-pointer justify-between py-2 text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan"
+                      className="relative flex cursor-pointer justify-between py-2 text-p1-darkgreen delay-75 duration-300 ease-in-out hover:pl-2 dark:text-p1-green dark:hover:text-p1-cyan"
                     >
                       <div className="place-content-center px-4">Витрина Showcase</div>
                       <div className="place-content-center px-4">46</div>
@@ -618,7 +620,7 @@ export default function Home() {
                       onClick={() => {
                         setCurrentVisibleArea(4);
                       }}
-                      className="relative flex cursor-pointer justify-between py-2 text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan"
+                      className="relative flex cursor-pointer justify-between py-2 text-p1-darkgreen delay-75 duration-300 ease-in-out hover:pl-2 dark:text-p1-green dark:hover:text-p1-cyan"
                     >
                       {' '}
                       <div className="place-content-center px-4">Для продажи For sale</div>
@@ -696,7 +698,7 @@ export default function Home() {
                       onClick={() => {
                         setCurrentVisibleArea(4);
                       }}
-                      className="relative flex cursor-pointer justify-between py-2 text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan"
+                      className="relative flex cursor-pointer justify-between py-2 text-p1-darkgreen delay-75 duration-300 ease-in-out hover:pl-2 dark:text-p1-green dark:hover:text-p1-cyan"
                     >
                       {' '}
                       <div className="place-content-center px-4">Awards</div>
@@ -781,7 +783,7 @@ export default function Home() {
                       onClick={() => {
                         setCurrentVisibleArea(11);
                       }}
-                      className="relative flex cursor-pointer justify-between py-2 text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan"
+                      className="relative flex cursor-pointer justify-between py-2 text-p1-darkgreen delay-75 duration-300 ease-in-out hover:pl-2 dark:text-p1-green dark:hover:text-p1-cyan"
                     >
                       <div className="place-content-center px-4">Logo спонсоров</div>
                       <div className="place-content-center px-4">46</div>
@@ -859,7 +861,7 @@ export default function Home() {
                       onClick={() => {
                         setCurrentVisibleArea(12);
                       }}
-                      className="relative flex cursor-pointer justify-between py-2 text-p1-darkgreen dark:text-p1-green dark:hover:text-p1-cyan"
+                      className="relative flex cursor-pointer justify-between py-2 text-p1-darkgreen delay-75 duration-300 ease-in-out hover:pl-2 dark:text-p1-green dark:hover:text-p1-cyan"
                     >
                       <div className="place-content-center px-4">Страница награждения</div>
                       <div className="place-content-center px-4">46</div>
