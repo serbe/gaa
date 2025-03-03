@@ -6,6 +6,7 @@ import { Link } from '@/i18n/routing';
 
 export default function Page() {
   const [check, setCheck] = useState(false);
+  const [blockHidden, setBlockHidden] = useState(false);
   const [visibleArea1, setVisibleArea1] = useState(true);
 
   const [currentVisibleArea, setCurrentVisibleArea] = useState(2);
@@ -22,8 +23,10 @@ export default function Page() {
         </div>
       </div>
       <section className="flex flex-wrap rounded-3xl border-p2-orange bg-p1-white p-2 md:flex-nowrap md:border-4 md:shadow-lg dark:border-amber-700 dark:bg-p1-deepdarkgreen">
-        <div className="grid grid-cols-1 md:w-max md:grid-cols-2 md:gap-4">
-          <div className="">
+        <div
+          className={`grid grid-cols-1 md:w-max ${blockHidden ? '' : 'md:grid-cols-2 md:gap-4'}`}
+        >
+          <div className={`${blockHidden ? 'hidden' : ''}`}>
             <div className="text-center md:text-2xl lg:text-2xl">
               <div className="">
                 <div className="flex flex-wrap px-2 md:flex-nowrap">
@@ -193,7 +196,7 @@ export default function Page() {
 
           <div id="2">
             <div className="flex flex-col object-right md:w-full">
-              <div className="place-content-start py-1">
+              <div className="place-content-start py-1" onClick={() => setBlockHidden(true)}>
                 <div className="w-full rounded-2xl border border-p1-green bg-p1-white text-xl text-p1-darkgreen shadow-lg dark:bg-p1-deepdarkgreen">
                   <details className="m-2" open>
                     <summary className="relative flex cursor-pointer justify-start py-2 text-p1-darkgreen transition-all duration-300 ease-in-out hover:pl-3 dark:text-p1-green dark:hover:border-p1-cyan dark:hover:text-p1-cyan">
@@ -620,10 +623,18 @@ export default function Page() {
                           <div className="flex gap-4">
                             <div className="group relative h-[14.5rem] w-40 place-self-center overflow-hidden rounded-xl bg-white object-cover lining-nums shadow-lg transition-transform duration-100 hover:shadow-lg hover:shadow-p1-cyan group-hover:shadow-sm dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
                               <div>
-                                <path
-                                  d="M18.527 12.2062L12 16.1938L5.46875 12.2062L12 1L18.527 12.2062ZM12 17.4742L5.46875 13.4867L12 23L18.5312 13.4867L12 17.4742V17.4742Z"
-                                  fill="white"
-                                ></path>
+                                <svg
+                                  className="ms-1.5 size-3"
+                                  aria-hidden="true"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  fill="currentColor"
+                                  viewBox="0 0 24 24"
+                                >
+                                  <path
+                                    d="M18.527 12.2062L12 16.1938L5.46875 12.2062L12 1L18.527 12.2062ZM12 17.4742L5.46875 13.4867L12 23L18.5312 13.4867L12 17.4742V17.4742Z"
+                                    fill="white"
+                                  ></path>
+                                </svg>
 
                                 <div className="group invisible absolute right-1 top-1 z-10 inline-block duration-100 ease-in-out group-hover:visible group-hover:opacity-100">
                                   <Link
@@ -1272,7 +1283,7 @@ export default function Page() {
                 </div>
               </div>
 
-              <div className="place-content-start py-1">
+              <div className="place-content-start py-1" onClick={() => setBlockHidden(false)}>
                 <div className="w-full rounded-2xl border border-p1-green bg-p1-white text-xl text-p1-darkgreen shadow-lg dark:bg-p1-deepdarkgreen">
                   {/* Метаданные о мероприятии  */}
 
@@ -1500,7 +1511,7 @@ export default function Page() {
                 </div>
               </div>
 
-              <div className="place-content-start py-1">
+              <div className="place-content-start py-1" onClick={() => setBlockHidden(true)}>
                 <div className="w-full rounded-2xl border border-p1-green bg-p1-white text-xl text-p1-darkgreen shadow-lg dark:bg-p1-deepdarkgreen">
                   {/* Метаданные о победителе  */}
 
