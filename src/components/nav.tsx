@@ -38,7 +38,7 @@ function Nav() {
   }, [gaaStore.persist, theme]);
 
   return (
-    <nav className="sticky top-0 z-10 border-gray-200 bg-white dark:bg-gray-900">
+    <nav className="sticky top-0 z-50 border-gray-200 bg-white dark:bg-gray-900">
       <div className="max-w-screen mx-auto flex flex-wrap items-center justify-between p-4">
         <div className="flex items-center space-x-3">
           {/* <!-- Dropdown menu --> */}
