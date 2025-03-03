@@ -418,10 +418,9 @@ export default function Page() {
                               className="inline-flex w-full justify-center rounded-md pt-1 shadow-sm"
                               role="group"
                             >
-                             
                               <Link
                                 href="#"
-                                className="mb-4 mt-4 inline-block w-40 w-max place-content-center rounded-lg border bg-p1-white px-1 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen/15 hover:bg-p1-cyan/25 hover:text-p1-darkgreen focus:border-p1-darkgreen/20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                                className="my-4 inline-block w-max place-content-center rounded-lg border bg-p1-white px-1 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen/15 hover:bg-p1-cyan/25 hover:text-p1-darkgreen focus:border-p1-darkgreen/20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
                               >
                                 Добавить спонсора +
                               </Link>
@@ -1681,9 +1680,7 @@ export default function Page() {
         </div>
 
         <div id="area92" className={`${currentVisibleArea == 92 ? '' : 'hidden'}`}>
-          <div>
-           
-          </div>
+          <div></div>
         </div>
       </section>
 

@@ -420,7 +420,6 @@ export default function Home() {
 
         <div className="flex max-w-full place-content-center gap-2 px-6">
           {/* ... левый блок */}
-          
           <div id="area1" className={`w-3/12  gap-2 pt-2 ${visibleArea1 == true ? '' : 'hidden'}`}>
             <div className="w-full snap-start border-b border-p1-green/30 bg-p1-white text-xl text-p1-darkgreen hover:border-p1-green hover:bg-p1-green/5 dark:bg-p1-deepdarkgreen">
               <details className="transition-all delay-75 duration-300 ease-in-out">
@@ -773,241 +772,234 @@ export default function Home() {
             <div className="w-full place-content-center p-2 text-xl font-bold text-p1-darkgreen dark:text-p1-green">
               For Promoter/Local/Global licenses
             </div>
-            
-              <div className="w-full resize-y snap-y scroll-mt-4 place-self-start overflow-auto scroll-smooth">
-                <div className="w-full snap-start border-b border-p1-green/30 bg-p1-white text-xl text-p1-darkgreen hover:border-p1-green hover:bg-p1-green/5 dark:bg-p1-deepdarkgreen">
-                  <details className="">
-                    <summary
-                      data-target="area11"
-                      id="toggleButton11"
-                      onClick={() => {
-                        setCurrentVisibleArea(11);
-                      }}
-                      className="relative flex cursor-pointer justify-between py-2 text-p1-darkgreen delay-75 duration-300 ease-in-out hover:pl-2 dark:text-p1-green dark:hover:text-p1-cyan"
-                    >
-                      <div className="place-content-center px-4">Logo спонсоров</div>
-                      <div className="place-content-center px-4">46</div>
-                    </summary>
-                    <div className="pt-1 text-center text-p1-darkgreen dark:text-p1-green">
-                      <div className="flex justify-center pb-2">
-                        <div>
-                          <div className="flex overflow-hidden rounded-2xl border border-p1-green bg-p2-white2 px-4 py-3 hover:border-p1-cyan focus:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan">
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              viewBox="0 0 192.904 192.904"
-                              width="16px"
-                              className="mr-3 rotate-90 fill-gray-800 dark:fill-p1-cyan"
-                            >
-                              <path d="m190.707 180.101-47.078-47.077c11.702-14.072 18.752-32.142 18.752-51.831C162.381 36.423 125.959 0 81.191 0 36.422 0 0 36.423 0 81.193c0 44.767 36.422 81.187 81.191 81.187 19.688 0 37.759-7.049 51.831-18.751l47.079 47.078a7.474 7.474 0 0 0 5.303 2.197 7.498 7.498 0 0 0 5.303-12.803zM15 81.193C15 44.694 44.693 15 81.191 15c36.497 0 66.189 29.694 66.189 66.193 0 36.496-29.692 66.187-66.189 66.187C44.693 147.38 15 117.689 15 81.193z"></path>
-                            </svg>
-                            <input
-                              type="email"
-                              placeholder="Search ..."
-                              className="w-full bg-transparent text-xl text-p1-deepdarkgreen outline-none dark:text-p1-cyan"
-                            />
-                          </div>
-                        </div>
 
-
-
-                      </div>
-                      <div className="justify-center">
-                          <form className="mx-auto max-w-2xl">
-                            <label
-                              htmlFor="license"
-                              className="block w-full text-left text-sm font-medium text-p1-darkgreen dark:text-p1-green"
-                            >
-                              Категория спонсора
-                            </label>
-                            <select
-                              id="license"
-                              className="block w-full rounded-lg border-2 border-gray-300 bg-p2-white2 p-2.5 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder:text-gray-400 dark:focus:border-p1-green dark:focus:ring-p1-green"
-                              defaultValue={'DEFAULT'}
-                            >
-                              <option value="DEFAULT" disabled>
-                                Категория спонсора
-                              </option>
-                              <option value="Title_Sponsor">Титульный спонсор</option>
-                              <option value="General_Sponsor">Генеральный спонсор</option>
-                              <option value="Official_Sponsor">Официальный спонсор</option>
-                              <option value="Sponsor_participant">Спонсор участник</option>
-                              <option value="Information_Sponsor">Информационный спонсор</option>
-                              <option value="Barter_sponsor ">Бартерный спонсор</option>
-                            </select>
-                          </form>
-                          <label
-                            htmlFor="dropzone-file"
-                            className="mt-5 flex h-56 w-full cursor-pointer flex-col items-center justify-center rounded-3xl border-2 border-dashed border-gray-300 bg-gray-50 shadow-lg hover:bg-gray-100 dark:border-gray-600 dark:bg-gray-700 dark:hover:border-gray-500 dark:hover:bg-gray-800"
+            <div className="w-full resize-y snap-y scroll-mt-4 place-self-start overflow-auto scroll-smooth">
+              <div className="w-full snap-start border-b border-p1-green/30 bg-p1-white text-xl text-p1-darkgreen hover:border-p1-green hover:bg-p1-green/5 dark:bg-p1-deepdarkgreen">
+                <details className="">
+                  <summary
+                    data-target="area11"
+                    id="toggleButton11"
+                    onClick={() => {
+                      setCurrentVisibleArea(11);
+                    }}
+                    className="relative flex cursor-pointer justify-between py-2 text-p1-darkgreen delay-75 duration-300 ease-in-out hover:pl-2 dark:text-p1-green dark:hover:text-p1-cyan"
+                  >
+                    <div className="place-content-center px-4">Logo спонсоров</div>
+                    <div className="place-content-center px-4">46</div>
+                  </summary>
+                  <div className="pt-1 text-center text-p1-darkgreen dark:text-p1-green">
+                    <div className="flex justify-center pb-2">
+                      <div>
+                        <div className="flex overflow-hidden rounded-2xl border border-p1-green bg-p2-white2 px-4 py-3 hover:border-p1-cyan focus:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 192.904 192.904"
+                            width="16px"
+                            className="mr-3 rotate-90 fill-gray-800 dark:fill-p1-cyan"
                           >
-                            <div className="flex flex-col items-center justify-center pb-6 pt-5">
-                              <svg
-                                className="mb-4 size-8 text-gray-500 dark:text-gray-400"
-                                aria-hidden="true"
-                                xmlns="http://www.w3.org/2000/svg"
-                                fill="none"
-                                viewBox="0 0 20 16"
-                              >
-                                <path
-                                  stroke="currentColor"
-                                  strokeLinecap="round"
-                                  strokeLinejoin="round"
-                                  strokeWidth="2"
-                                  d="M13 13h3a3 3 0 0 0 0-6h-.025A5.56 5.56 0 0 0 16 6.5 5.5 5.5 0 0 0 5.207 5.021C5.137 5.017 5.071 5 5 5a4 4 0 0 0 0 8h2.167M10 15V6m0 0L8 8m2-2 2 2"
-                                />
-                              </svg>
-
-                              <p className="mb-2 text-center text-sm text-gray-500 dark:text-gray-400">
-                                <span className="font-bold">&quot;Логотип спонсора&quot;</span>
-                              </p>
-
-                              <p className="mb-2 text-center text-sm text-gray-500 dark:text-gray-400">
-                                <span className="font-semibold">Click to upload</span> or drag and
-                                drop
-                              </p>
-                              <p className="text-center text-xs text-gray-500 dark:text-gray-400">
-                                SVG, PNG, JPG or GIF (MAX. 800x400px)
-                              </p>
-                            </div>
-                            <input id="dropzone-file" type="file" className="hidden" />
-                          </label>
-                          <div
-                            className="inline-flex w-full justify-center rounded-md pt-1 shadow-sm"
-                            role="group"
-                          >
-                            <Link
-                              href="#"
-                              className="my-4 inline-block w-40 w-max place-content-center rounded-lg border bg-p1-white px-1 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen/15 hover:bg-p1-cyan/25 hover:text-p1-darkgreen focus:border-p1-darkgreen/20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
-                            >
-                              Добавить спонсора +
-                            </Link>
-                          </div>
+                            <path d="m190.707 180.101-47.078-47.077c11.702-14.072 18.752-32.142 18.752-51.831C162.381 36.423 125.959 0 81.191 0 36.422 0 0 36.423 0 81.193c0 44.767 36.422 81.187 81.191 81.187 19.688 0 37.759-7.049 51.831-18.751l47.079 47.078a7.474 7.474 0 0 0 5.303 2.197 7.498 7.498 0 0 0 5.303-12.803zM15 81.193C15 44.694 44.693 15 81.191 15c36.497 0 66.189 29.694 66.189 66.193 0 36.496-29.692 66.187-66.189 66.187C44.693 147.38 15 117.689 15 81.193z"></path>
+                          </svg>
+                          <input
+                            type="email"
+                            placeholder="Search ..."
+                            className="w-full bg-transparent text-xl text-p1-deepdarkgreen outline-none dark:text-p1-cyan"
+                          />
                         </div>
-                      <div className="flex items-center text-p1-white">
-                        
-                      </div>
-                      <div className="flex place-content-between p-4">
-                        <input
-                          checked={check}
-                          id="checkbox"
-                          onChange={() => {
-                            setCheck(!check);
-                          }}
-                          type="checkbox"
-                          value=""
-                          className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
-                        />
-                        <label
-                          id="3"
-                          htmlFor="checkbox_ETH"
-                          className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-p1-cyan"
-                        >
-                          ВТБ
-                        </label>
-                        <div className="px-4 text-p1-darkgreen dark:text-p1-green">26</div>
-                      </div>
-
-                      <div className="flex place-content-between p-4">
-                        <input
-                          checked={check}
-                          id="checkbox"
-                          onChange={() => {
-                            setCheck(!check);
-                          }}
-                          type="checkbox"
-                          value=""
-                          className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
-                        />
-                        <label
-                          id="3"
-                          htmlFor="checkbox_POL"
-                          className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-p1-cyan"
-                        >
-                          Сбер
-                        </label>
-                        <div className="px-4 text-p1-darkgreen dark:text-p1-green">98</div>
                       </div>
                     </div>
-                  </details>
-                </div>
-
-                <div className="w-full snap-start border-b border-p1-green/30 bg-p1-white text-xl text-p1-darkgreen hover:border-p1-green hover:bg-p1-green/5 dark:bg-p1-deepdarkgreen">
-                  <details className="">
-                    <summary
-                      data-target="area12"
-                      id="toggleButton12"
-                      onClick={() => {
-                        setCurrentVisibleArea(12);
-                      }}
-                      className="relative flex cursor-pointer justify-between py-2 text-p1-darkgreen delay-75 duration-300 ease-in-out hover:pl-2 dark:text-p1-green dark:hover:text-p1-cyan"
-                    >
-                      <div className="place-content-center px-4">Страница награждения</div>
-                      <div className="place-content-center px-4">46</div>
-                    </summary>
-                    <div className="pt-1 text-center text-p1-darkgreen dark:text-p1-green">
-                      <div className="flex justify-center pb-2">
-                        <div>
-                          <div className="flex overflow-hidden rounded-2xl border border-p1-green bg-p2-white2 px-4 py-3 hover:border-p1-cyan focus:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan">
-                            <svg
-                              xmlns="http://www.w3.org/2000/svg"
-                              viewBox="0 0 192.904 192.904"
-                              width="16px"
-                              className="mr-3 rotate-90 fill-gray-800 dark:fill-p1-cyan"
-                            >
-                              <path d="m190.707 180.101-47.078-47.077c11.702-14.072 18.752-32.142 18.752-51.831C162.381 36.423 125.959 0 81.191 0 36.422 0 0 36.423 0 81.193c0 44.767 36.422 81.187 81.191 81.187 19.688 0 37.759-7.049 51.831-18.751l47.079 47.078a7.474 7.474 0 0 0 5.303 2.197 7.498 7.498 0 0 0 5.303-12.803zM15 81.193C15 44.694 44.693 15 81.191 15c36.497 0 66.189 29.694 66.189 66.193 0 36.496-29.692 66.187-66.189 66.187C44.693 147.38 15 117.689 15 81.193z"></path>
-                            </svg>
-                            <input
-                              type="email"
-                              placeholder="Search ..."
-                              className="w-full bg-transparent text-xl text-p1-deepdarkgreen outline-none dark:text-p1-cyan"
+                    <div className="justify-center">
+                      <form className="mx-auto max-w-2xl">
+                        <label
+                          htmlFor="license"
+                          className="block w-full text-left text-sm font-medium text-p1-darkgreen dark:text-p1-green"
+                        >
+                          Категория спонсора
+                        </label>
+                        <select
+                          id="license"
+                          className="block w-full rounded-lg border-2 border-gray-300 bg-p2-white2 p-2.5 text-sm text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-gray-300 dark:placeholder:text-gray-400 dark:focus:border-p1-green dark:focus:ring-p1-green"
+                          defaultValue={'DEFAULT'}
+                        >
+                          <option value="DEFAULT" disabled>
+                            Категория спонсора
+                          </option>
+                          <option value="Title_Sponsor">Титульный спонсор</option>
+                          <option value="General_Sponsor">Генеральный спонсор</option>
+                          <option value="Official_Sponsor">Официальный спонсор</option>
+                          <option value="Sponsor_participant">Спонсор участник</option>
+                          <option value="Information_Sponsor">Информационный спонсор</option>
+                          <option value="Barter_sponsor ">Бартерный спонсор</option>
+                        </select>
+                      </form>
+                      <label
+                        htmlFor="dropzone-file"
+                        className="mt-5 flex h-56 w-full cursor-pointer flex-col items-center justify-center rounded-3xl border-2 border-dashed border-gray-300 bg-gray-50 shadow-lg hover:bg-gray-100 dark:border-gray-600 dark:bg-gray-700 dark:hover:border-gray-500 dark:hover:bg-gray-800"
+                      >
+                        <div className="flex flex-col items-center justify-center pb-6 pt-5">
+                          <svg
+                            className="mb-4 size-8 text-gray-500 dark:text-gray-400"
+                            aria-hidden="true"
+                            xmlns="http://www.w3.org/2000/svg"
+                            fill="none"
+                            viewBox="0 0 20 16"
+                          >
+                            <path
+                              stroke="currentColor"
+                              strokeLinecap="round"
+                              strokeLinejoin="round"
+                              strokeWidth="2"
+                              d="M13 13h3a3 3 0 0 0 0-6h-.025A5.56 5.56 0 0 0 16 6.5 5.5 5.5 0 0 0 5.207 5.021C5.137 5.017 5.071 5 5 5a4 4 0 0 0 0 8h2.167M10 15V6m0 0L8 8m2-2 2 2"
                             />
-                          </div>
+                          </svg>
+
+                          <p className="mb-2 text-center text-sm text-gray-500 dark:text-gray-400">
+                            <span className="font-bold">&quot;Логотип спонсора&quot;</span>
+                          </p>
+
+                          <p className="mb-2 text-center text-sm text-gray-500 dark:text-gray-400">
+                            <span className="font-semibold">Click to upload</span> or drag and drop
+                          </p>
+                          <p className="text-center text-xs text-gray-500 dark:text-gray-400">
+                            SVG, PNG, JPG or GIF (MAX. 800x400px)
+                          </p>
                         </div>
-                      </div>
-                      <div className="flex place-content-between p-4">
-                        <input
-                          checked={check}
-                          id="checkbox"
-                          onChange={() => {
-                            setCheck(!check);
-                          }}
-                          type="checkbox"
-                          value=""
-                          className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
-                        />
-                        <label
-                          id="3"
-                          htmlFor="checkbox_ETH"
-                          className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-p1-cyan"
+                        <input id="dropzone-file" type="file" className="hidden" />
+                      </label>
+                      <div
+                        className="inline-flex w-full justify-center rounded-md pt-1 shadow-sm"
+                        role="group"
+                      >
+                        <Link
+                          href="#"
+                          className="my-4 inline-block w-max place-content-center rounded-lg border bg-p1-white px-1 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen/15 hover:bg-p1-cyan/25 hover:text-p1-darkgreen focus:border-p1-darkgreen/20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
                         >
-                          RaceLads
-                        </label>
-                        <div className="px-4 text-p1-darkgreen dark:text-p1-green">44</div>
-                      </div>
-                      <div className="flex place-content-between p-4">
-                        <input
-                          checked={check}
-                          id="checkbox"
-                          onChange={() => {
-                            setCheck(!check);
-                          }}
-                          type="checkbox"
-                          value=""
-                          className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
-                        />
-                        <label
-                          id="3"
-                          htmlFor="checkbox_POL"
-                          className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-p1-cyan"
-                        >
-                          Awards
-                        </label>
-                        <div className="px-4 text-p1-darkgreen dark:text-p1-green">46</div>
+                          Добавить спонсора +
+                        </Link>
                       </div>
                     </div>
-                  </details>
-                </div>
+                    <div className="flex items-center text-p1-white"></div>
+                    <div className="flex place-content-between p-4">
+                      <input
+                        checked={check}
+                        id="checkbox"
+                        onChange={() => {
+                          setCheck(!check);
+                        }}
+                        type="checkbox"
+                        value=""
+                        className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                      />
+                      <label
+                        id="3"
+                        htmlFor="checkbox_ETH"
+                        className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-p1-cyan"
+                      >
+                        ВТБ
+                      </label>
+                      <div className="px-4 text-p1-darkgreen dark:text-p1-green">26</div>
+                    </div>
+
+                    <div className="flex place-content-between p-4">
+                      <input
+                        checked={check}
+                        id="checkbox"
+                        onChange={() => {
+                          setCheck(!check);
+                        }}
+                        type="checkbox"
+                        value=""
+                        className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                      />
+                      <label
+                        id="3"
+                        htmlFor="checkbox_POL"
+                        className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-p1-cyan"
+                      >
+                        Сбер
+                      </label>
+                      <div className="px-4 text-p1-darkgreen dark:text-p1-green">98</div>
+                    </div>
+                  </div>
+                </details>
               </div>
-         
+
+              <div className="w-full snap-start border-b border-p1-green/30 bg-p1-white text-xl text-p1-darkgreen hover:border-p1-green hover:bg-p1-green/5 dark:bg-p1-deepdarkgreen">
+                <details className="">
+                  <summary
+                    data-target="area12"
+                    id="toggleButton12"
+                    onClick={() => {
+                      setCurrentVisibleArea(12);
+                    }}
+                    className="relative flex cursor-pointer justify-between py-2 text-p1-darkgreen delay-75 duration-300 ease-in-out hover:pl-2 dark:text-p1-green dark:hover:text-p1-cyan"
+                  >
+                    <div className="place-content-center px-4">Страница награждения</div>
+                    <div className="place-content-center px-4">46</div>
+                  </summary>
+                  <div className="pt-1 text-center text-p1-darkgreen dark:text-p1-green">
+                    <div className="flex justify-center pb-2">
+                      <div>
+                        <div className="flex overflow-hidden rounded-2xl border border-p1-green bg-p2-white2 px-4 py-3 hover:border-p1-cyan focus:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan">
+                          <svg
+                            xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 192.904 192.904"
+                            width="16px"
+                            className="mr-3 rotate-90 fill-gray-800 dark:fill-p1-cyan"
+                          >
+                            <path d="m190.707 180.101-47.078-47.077c11.702-14.072 18.752-32.142 18.752-51.831C162.381 36.423 125.959 0 81.191 0 36.422 0 0 36.423 0 81.193c0 44.767 36.422 81.187 81.191 81.187 19.688 0 37.759-7.049 51.831-18.751l47.079 47.078a7.474 7.474 0 0 0 5.303 2.197 7.498 7.498 0 0 0 5.303-12.803zM15 81.193C15 44.694 44.693 15 81.191 15c36.497 0 66.189 29.694 66.189 66.193 0 36.496-29.692 66.187-66.189 66.187C44.693 147.38 15 117.689 15 81.193z"></path>
+                          </svg>
+                          <input
+                            type="email"
+                            placeholder="Search ..."
+                            className="w-full bg-transparent text-xl text-p1-deepdarkgreen outline-none dark:text-p1-cyan"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                    <div className="flex place-content-between p-4">
+                      <input
+                        checked={check}
+                        id="checkbox"
+                        onChange={() => {
+                          setCheck(!check);
+                        }}
+                        type="checkbox"
+                        value=""
+                        className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                      />
+                      <label
+                        id="3"
+                        htmlFor="checkbox_ETH"
+                        className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-p1-cyan"
+                      >
+                        RaceLads
+                      </label>
+                      <div className="px-4 text-p1-darkgreen dark:text-p1-green">44</div>
+                    </div>
+                    <div className="flex place-content-between p-4">
+                      <input
+                        checked={check}
+                        id="checkbox"
+                        onChange={() => {
+                          setCheck(!check);
+                        }}
+                        type="checkbox"
+                        value=""
+                        className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                      />
+                      <label
+                        id="3"
+                        htmlFor="checkbox_POL"
+                        className="ms-2 text-lg font-medium text-p1-darkgreen dark:text-p1-cyan"
+                      >
+                        Awards
+                      </label>
+                      <div className="px-4 text-p1-darkgreen dark:text-p1-green">46</div>
+                    </div>
+                  </div>
+                </details>
+              </div>
+            </div>
           </div>
 
           {/* ... правый блок */}
@@ -3618,10 +3610,7 @@ export default function Home() {
                   </div>
                 </div>
 
-                <div className="flex grid-flow-row gap-4 pt-10">
-               
-               
-                </div>
+                <div className="flex grid-flow-row gap-4 pt-10"></div>
               </div>
             </div>
           </div>
