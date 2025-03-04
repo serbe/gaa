@@ -198,7 +198,7 @@ export default function Page() {
             <div className="flex flex-col object-right md:w-full">
               <div className="place-content-start py-1" onClick={() => setBlockHidden(true)}>
                 <div className="w-full rounded-2xl border border-p1-green bg-p1-white text-xl text-p1-darkgreen shadow-lg dark:bg-p1-deepdarkgreen">
-                  <details className="m-2" >
+                  <details className="m-2">
                     <summary className="relative flex cursor-pointer justify-start py-2 text-p1-darkgreen transition-all duration-300 ease-in-out hover:pl-3 dark:text-p1-green dark:hover:border-p1-cyan dark:hover:text-p1-cyan">
                       <div className="px-2">
                         <Image

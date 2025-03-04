@@ -554,285 +554,285 @@ export default function Home() {
         </div>
 
         <div id="2"></div>
-        <div className="flex justify-center space-x-2 pt-2">
-          <div>
-            <div className="mx-auto flex max-w-2xl overflow-hidden rounded-2xl border-2 border-p1-green bg-p2-white2 px-4 py-3 backdrop-blur-sm hover:border-p1-cyan focus:border-p1-cyan md:w-96 dark:bg-p1-deepdarkgreen dark:text-p1-cyan">
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 192.904 192.904"
-                width="16px"
-                className="mr-3 rotate-90 fill-gray-800 dark:fill-p1-cyan"
-              >
-                <path d="m190.707 180.101-47.078-47.077c11.702-14.072 18.752-32.142 18.752-51.831C162.381 36.423 125.959 0 81.191 0 36.422 0 0 36.423 0 81.193c0 44.767 36.422 81.187 81.191 81.187 19.688 0 37.759-7.049 51.831-18.751l47.079 47.078a7.474 7.474 0 0 0 5.303 2.197 7.498 7.498 0 0 0 5.303-12.803zM15 81.193C15 44.694 44.693 15 81.191 15c36.497 0 66.189 29.694 66.189 66.193 0 36.496-29.692 66.187-66.189 66.187C44.693 147.38 15 117.689 15 81.193z"></path>
-              </svg>
-              <input
-                type="email"
-                placeholder="Search"
-                className="w-full bg-transparent text-xl text-p1-deepdarkgreen outline-none dark:text-p1-cyan"
-              />
-            </div>
-          </div>
-        </div>
-        {/* Items, Offers ... */}
-
-        <div className="grid h-1/5 grid-cols-1 place-content-center p-1 text-sm sm:px-2 md:px-4 lg:grid-cols-2 lg:px-6 lg:text-base xl:px-2 xl:text-lg 2xl:px-10 2xl:text-xl">
-          <div className="flex grid-flow-row auto-rows-max justify-center space-x-2 lg:justify-start xl:-my-16">
+        <div className="sticky top-16 z-30 bg-p1-white shadow-md">
+          <div className="flex justify-center space-x-2 pt-2">
             <div>
-              <div
-                className="inline-flex w-full justify-center rounded-md pt-1 shadow-sm"
-                role="group"
-              >
-                <button
-                  data-target="area4"
-                  className="inline-block w-max place-content-center rounded-l-xl border bg-p1-white px-1 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen/15 hover:bg-p1-cyan/25 hover:text-p1-darkgreen focus:border-p1-darkgreen/20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
-                  id="toggleButton4"
-                  onClick={() => {
-                    setCurrentVisibleArea(4);
-                  }}
+              <div className="mx-auto flex max-w-2xl overflow-hidden rounded-2xl border-2 border-p1-green bg-p2-white2 px-4 py-3 backdrop-blur-sm hover:border-p1-cyan focus:border-p1-cyan md:w-96 dark:bg-p1-deepdarkgreen dark:text-p1-cyan">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 192.904 192.904"
+                  width="16px"
+                  className="mr-3 rotate-90 fill-gray-800 dark:fill-p1-cyan"
                 >
-                  Items
-                </button>
-                <Link
-                  href="#"
-                  className="inline-block w-max place-content-center border bg-p1-white px-1 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen/15 hover:bg-p1-cyan/25 hover:text-p1-darkgreen focus:border-p1-darkgreen/20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
-                >
-                  Offers
-                </Link>
-                <button
-                  data-target="area7"
-                  className="inline-block w-max place-content-center border bg-p1-white px-1 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen/15 hover:bg-p1-cyan/25 hover:text-p1-darkgreen focus:border-p1-darkgreen/20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
-                  id="toggleButton7"
-                  onClick={() => {
-                    setCurrentVisibleArea(7);
-                  }}
-                >
-                  Analitics
-                </button>
-
-                <button
-                  data-target="area9"
-                  className="inline-block w-max place-content-center border bg-p1-white px-1 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen/15 hover:bg-p1-cyan/25 hover:text-p1-darkgreen focus:border-p1-darkgreen/20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
-                  id="toggleButton9"
-                  onClick={() => {
-                    setCurrentVisibleArea(9);
-                  }}
-                >
-                  Activity
-                </button>
-
-                <form className="inline-block w-max place-content-center rounded-r-xl border bg-p1-white px-1 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen/15 hover:bg-p1-cyan/25 hover:text-p1-darkgreen focus:border-p1-darkgreen/20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan">
-                  <label htmlFor="price" className="block"></label>
-                  <select
-                    id="price"
-                    className="mx-auto flex overflow-hidden rounded-r-xl bg-p1-white hover:border-opacity-15 hover:bg-p1-green/25 hover:text-p1-darkgreen dark:bg-p1-deepdarkgreen dark:text-p1-green dark:accent-p1-darkgreen dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan"
-                    defaultValue={'DEFAULT'}
-                  >
-                    <option value="DEFAULT" disabled>
-                      Price low to high
-                    </option>
-                    <option value="Price_low_to_high">Price low to high</option>
-                    <option value="Price_high_to_low">Price high to low</option>
-                    <option value="Recently_listedr">Recently listed</option>
-                    <option value="Best_offer">Best offer</option>
-                    <option value="Highest_last_sale">Highest last sale</option>
-                    <option value="Recently_sold">Recently sold</option>
-
-                    <option value="Most_viewed">Most viewed</option>
-
-                    <option value="Most_favorited">Most favorited</option>
-                    <option value="Ending_soon">Ending soon</option>
-                  </select>
-                </form>
-              </div>
-            </div>
-          </div>
-
-          <div className="flex flex-auto grid-flow-row auto-rows-max justify-center space-x-8 lg:justify-end xl:-my-16">
-            <div className="">
-              <div
-                className="inline-flex w-full flex-auto justify-center rounded-md pt-1 shadow-sm"
-                role="group"
-              >
-                <Link
-                  href="#"
-                  className="inline-block w-max place-content-center rounded-l-xl border bg-p1-white px-1 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen/15 hover:bg-p1-cyan/25 hover:text-p1-darkgreen focus:border-p1-darkgreen/20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
-                >
-                  All
-                </Link>
-                <Link
-                  href="#"
-                  className="inline-block w-max place-content-center border bg-p1-white px-1 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen/15 hover:bg-p1-cyan/25 hover:text-p1-darkgreen focus:border-p1-darkgreen/20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
-                >
-                  Listed
-                </Link>
-                <Link
-                  href="#"
-                  className="inline-block w-max place-content-center border bg-p1-white px-1 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen/15 hover:bg-p1-cyan/25 hover:text-p1-darkgreen focus:border-p1-darkgreen/20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
-                >
-                  On Auction
-                </Link>
-
-                <Link
-                  href="#"
-                  className="inline-block w-max place-content-center rounded-r-xl border bg-p1-white px-1 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen/15 hover:bg-p1-cyan/25 hover:text-p1-darkgreen focus:border-p1-darkgreen/20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
-                >
-                  Has Offers
-                </Link>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        {/* иконки ... */}
-
-        <div className="grid grid-cols-2 justify-between p-1 md:grid-cols-2 2xl:grid-cols-2">
-          <div className="flex justify-start space-x-1 md:px-10">
-            <div>
-              <button
-                data-target="area1"
-                className="mx-auto justify-start rounded transition-all delay-75 duration-100 ease-in-out hover:bg-p1-cyan/50 hover:shadow-lg focus:shadow-lg dark:shadow-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:brightness-90"
-                onClick={() => {
-                  setVisibleArea1(!visibleArea1);
-                }}
-              >
-                <Image
-                  className="size-10 p-1"
-                  width={480}
-                  height={480}
-                  src="/icon/2.png"
-                  alt="bt2"
+                  <path d="m190.707 180.101-47.078-47.077c11.702-14.072 18.752-32.142 18.752-51.831C162.381 36.423 125.959 0 81.191 0 36.422 0 0 36.423 0 81.193c0 44.767 36.422 81.187 81.191 81.187 19.688 0 37.759-7.049 51.831-18.751l47.079 47.078a7.474 7.474 0 0 0 5.303 2.197 7.498 7.498 0 0 0 5.303-12.803zM15 81.193C15 44.694 44.693 15 81.191 15c36.497 0 66.189 29.694 66.189 66.193 0 36.496-29.692 66.187-66.189 66.187C44.693 147.38 15 117.689 15 81.193z"></path>
+                </svg>
+                <input
+                  type="email"
+                  placeholder="Search"
+                  className="w-full bg-transparent text-xl text-p1-deepdarkgreen outline-none dark:text-p1-cyan"
                 />
-              </button>
+              </div>
             </div>
-            <span className="relative flex size-3 pt-4">
-              <span className="absolute inline-flex size-full animate-ping rounded-full bg-p1-green opacity-75"></span>
-              <span className="relative inline-flex size-3 rounded-full bg-p1-green"></span>
-            </span>
-            <div className="place-content-center text-sm text-p1-darkgreen md:text-xl dark:text-p1-green">
-              Live
+          </div>
+          {/* Items, Offers ... */}
+          <div className="grid h-1/5 grid-cols-1 place-content-center p-1 text-sm sm:px-2 md:px-4 lg:grid-cols-2 lg:px-6 lg:text-base xl:px-2 xl:text-lg 2xl:px-10 2xl:text-xl">
+            <div className="flex grid-flow-row auto-rows-max justify-center space-x-2 lg:justify-start xl:-my-16">
+              <div>
+                <div
+                  className="inline-flex w-full justify-center rounded-md pt-1 shadow-sm"
+                  role="group"
+                >
+                  <button
+                    data-target="area4"
+                    className="inline-block w-max place-content-center rounded-l-xl border bg-p1-white px-1 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen/15 hover:bg-p1-cyan/25 hover:text-p1-darkgreen focus:border-p1-darkgreen/20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                    id="toggleButton4"
+                    onClick={() => {
+                      setCurrentVisibleArea(4);
+                    }}
+                  >
+                    Items
+                  </button>
+                  <Link
+                    href="#"
+                    className="inline-block w-max place-content-center border bg-p1-white px-1 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen/15 hover:bg-p1-cyan/25 hover:text-p1-darkgreen focus:border-p1-darkgreen/20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                  >
+                    Offers
+                  </Link>
+                  <button
+                    data-target="area7"
+                    className="inline-block w-max place-content-center border bg-p1-white px-1 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen/15 hover:bg-p1-cyan/25 hover:text-p1-darkgreen focus:border-p1-darkgreen/20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                    id="toggleButton7"
+                    onClick={() => {
+                      setCurrentVisibleArea(7);
+                    }}
+                  >
+                    Analitics
+                  </button>
+
+                  <button
+                    data-target="area9"
+                    className="inline-block w-max place-content-center border bg-p1-white px-1 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen/15 hover:bg-p1-cyan/25 hover:text-p1-darkgreen focus:border-p1-darkgreen/20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                    id="toggleButton9"
+                    onClick={() => {
+                      setCurrentVisibleArea(9);
+                    }}
+                  >
+                    Activity
+                  </button>
+
+                  <form className="inline-block w-max place-content-center rounded-r-xl border bg-p1-white px-1 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen/15 hover:bg-p1-cyan/25 hover:text-p1-darkgreen focus:border-p1-darkgreen/20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan">
+                    <label htmlFor="price" className="block"></label>
+                    <select
+                      id="price"
+                      className="mx-auto flex overflow-hidden rounded-r-xl bg-p1-white hover:border-opacity-15 hover:bg-p1-green/25 hover:text-p1-darkgreen dark:bg-p1-deepdarkgreen dark:text-p1-green dark:accent-p1-darkgreen dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan"
+                      defaultValue={'DEFAULT'}
+                    >
+                      <option value="DEFAULT" disabled>
+                        Price low to high
+                      </option>
+                      <option value="Price_low_to_high">Price low to high</option>
+                      <option value="Price_high_to_low">Price high to low</option>
+                      <option value="Recently_listedr">Recently listed</option>
+                      <option value="Best_offer">Best offer</option>
+                      <option value="Highest_last_sale">Highest last sale</option>
+                      <option value="Recently_sold">Recently sold</option>
+
+                      <option value="Most_viewed">Most viewed</option>
+
+                      <option value="Most_favorited">Most favorited</option>
+                      <option value="Ending_soon">Ending soon</option>
+                    </select>
+                  </form>
+                </div>
+              </div>
             </div>
-            <div className="flex grid-flow-row auto-rows-max justify-start space-x-2"></div>
-            <div className="place-content-center">
-              <Link href="#" className="text-sm text-p1-darkgreen md:text-xl dark:text-p1-green">
-                100 results
-              </Link>
+
+            <div className="flex flex-auto grid-flow-row auto-rows-max justify-center space-x-8 lg:justify-end xl:-my-16">
+              <div className="">
+                <div
+                  className="inline-flex w-full flex-auto justify-center rounded-md pt-1 shadow-sm"
+                  role="group"
+                >
+                  <Link
+                    href="#"
+                    className="inline-block w-max place-content-center rounded-l-xl border bg-p1-white px-1 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen/15 hover:bg-p1-cyan/25 hover:text-p1-darkgreen focus:border-p1-darkgreen/20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                  >
+                    All
+                  </Link>
+                  <Link
+                    href="#"
+                    className="inline-block w-max place-content-center border bg-p1-white px-1 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen/15 hover:bg-p1-cyan/25 hover:text-p1-darkgreen focus:border-p1-darkgreen/20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                  >
+                    Listed
+                  </Link>
+                  <Link
+                    href="#"
+                    className="inline-block w-max place-content-center border bg-p1-white px-1 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen/15 hover:bg-p1-cyan/25 hover:text-p1-darkgreen focus:border-p1-darkgreen/20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                  >
+                    On Auction
+                  </Link>
+
+                  <Link
+                    href="#"
+                    className="inline-block w-max place-content-center rounded-r-xl border bg-p1-white px-1 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen/15 hover:bg-p1-cyan/25 hover:text-p1-darkgreen focus:border-p1-darkgreen/20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                  >
+                    Has Offers
+                  </Link>
+                </div>
+              </div>
             </div>
           </div>
 
-          <div className="flex justify-end md:px-10">
-            <div className="inline-flex w-full justify-end rounded-md" role="group">
-              <div className="w-10">
+          {/* иконки ... */}
+
+          <div className="grid grid-cols-2 justify-between p-1 md:grid-cols-2 2xl:grid-cols-2">
+            <div className="flex justify-start space-x-1 md:px-10">
+              <div>
                 <button
-                  data-target="area2"
-                  className="mx-auto justify-start rounded transition-all delay-75 duration-100 ease-in-out hover:bg-p1-cyan/50 hover:shadow-lg focus:bg-p1-cyan/50 focus:shadow-lg focus:hover:shadow-lg dark:shadow-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:brightness-90 dark:focus:brightness-90"
-                  id="toggleButton2"
+                  data-target="area1"
+                  className="mx-auto justify-start rounded transition-all delay-75 duration-100 ease-in-out hover:bg-p1-cyan/50 hover:shadow-lg focus:shadow-lg dark:shadow-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:brightness-90"
                   onClick={() => {
-                    setCurrentVisibleArea(2);
+                    setVisibleArea1(!visibleArea1);
                   }}
                 >
                   <Image
                     className="size-10 p-1"
                     width={480}
                     height={480}
-                    src="/icon/line.png"
-                    alt="line"
+                    src="/icon/2.png"
+                    alt="bt2"
                   />
                 </button>
               </div>
-              <div className="w-10">
-                <button
-                  data-target="area3"
-                  className="mx-auto justify-start rounded transition-all delay-75 duration-100 ease-in-out hover:bg-p1-cyan/50 hover:shadow-lg focus:bg-p1-cyan/50 focus:shadow-lg focus:hover:shadow-lg dark:shadow-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:brightness-90 dark:focus:brightness-90"
-                  id="toggleButton3"
-                  onClick={() => {
-                    setCurrentVisibleArea(3);
-                  }}
-                >
-                  <Image
-                    className="size-10 p-1"
-                    width={480}
-                    height={480}
-                    src="/icon/16.png"
-                    alt="bt16"
-                  />
-                </button>
+              <span className="relative flex size-3 pt-4">
+                <span className="absolute inline-flex size-full animate-ping rounded-full bg-p1-green opacity-75"></span>
+                <span className="relative inline-flex size-3 rounded-full bg-p1-green"></span>
+              </span>
+              <div className="place-content-center text-sm text-p1-darkgreen md:text-xl dark:text-p1-green">
+                Live
               </div>
-              <div className="w-10">
-                <button
-                  data-target="area4"
-                  className="mx-auto justify-start rounded transition-all delay-75 duration-100 ease-in-out hover:bg-p1-cyan/50 hover:shadow-lg focus:bg-p1-cyan/50 focus:shadow-lg focus:hover:shadow-lg dark:shadow-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:brightness-90 dark:focus:brightness-90"
-                  id="toggleButton4"
-                  onClick={() => {
-                    setCurrentVisibleArea(4);
-                  }}
-                >
-                  <Image
-                    className="size-10 p-1"
-                    width={480}
-                    height={480}
-                    src="/icon/9.png"
-                    alt="bt9"
-                  />
-                </button>
+              <div className="flex grid-flow-row auto-rows-max justify-start space-x-2"></div>
+              <div className="place-content-center">
+                <Link href="#" className="text-sm text-p1-darkgreen md:text-xl dark:text-p1-green">
+                  100 results
+                </Link>
               </div>
-              <div className="w-10">
-                <button
-                  data-target="area5"
-                  className="mx-auto justify-start rounded transition-all delay-75 duration-100 ease-in-out hover:bg-p1-cyan/50 hover:shadow-lg focus:bg-p1-cyan/50 focus:shadow-lg focus:hover:shadow-lg dark:shadow-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:brightness-90 dark:focus:brightness-90"
-                  id="toggleButton5"
-                  onClick={() => {
-                    setCurrentVisibleArea(5);
-                  }}
-                >
-                  <Image
-                    className="size-10 p-1"
-                    width={480}
-                    height={480}
-                    src="/icon/4.png"
-                    alt="bt4"
-                  />
-                </button>
-              </div>
-              <div className="w-10">
-                <button
-                  data-target="area6"
-                  className="mx-auto justify-start rounded transition-all delay-75 duration-100 ease-in-out hover:bg-p1-cyan/50 hover:shadow-lg focus:bg-p1-cyan/50 focus:shadow-lg focus:hover:shadow-lg dark:shadow-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:brightness-90 dark:focus:brightness-90"
-                  id="toggleButton6"
-                  onClick={() => {
-                    setCurrentVisibleArea(6);
-                  }}
-                >
-                  <Image
-                    className="size-10 p-1"
-                    width={480}
-                    height={480}
-                    src="/icon/3.png"
-                    alt="bt3"
-                  />
-                </button>
-              </div>
-              <div className="w-10">
-                <button
-                  data-target="area8"
-                  className="mx-auto justify-start rounded transition-all delay-75 duration-100 ease-in-out hover:bg-p1-cyan/50 hover:shadow-lg focus:bg-p1-cyan/50 focus:shadow-lg focus:hover:shadow-lg dark:shadow-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:brightness-90 dark:focus:brightness-90"
-                  id="toggleButton6"
-                  onClick={() => {
-                    setCurrentVisibleArea(8);
-                  }}
-                >
-                  <Image
-                    className="size-10 p-1"
-                    width={480}
-                    height={480}
-                    src="/icon/1.png"
-                    alt="bt1"
-                  />
-                </button>
+            </div>
+
+            <div className="flex justify-end md:px-10">
+              <div className="inline-flex w-full justify-end rounded-md" role="group">
+                <div className="w-10">
+                  <button
+                    data-target="area2"
+                    className="mx-auto justify-start rounded transition-all delay-75 duration-100 ease-in-out hover:bg-p1-cyan/50 hover:shadow-lg focus:bg-p1-cyan/50 focus:shadow-lg focus:hover:shadow-lg dark:shadow-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:brightness-90 dark:focus:brightness-90"
+                    id="toggleButton2"
+                    onClick={() => {
+                      setCurrentVisibleArea(2);
+                    }}
+                  >
+                    <Image
+                      className="size-10 p-1"
+                      width={480}
+                      height={480}
+                      src="/icon/line.png"
+                      alt="line"
+                    />
+                  </button>
+                </div>
+                <div className="w-10">
+                  <button
+                    data-target="area3"
+                    className="mx-auto justify-start rounded transition-all delay-75 duration-100 ease-in-out hover:bg-p1-cyan/50 hover:shadow-lg focus:bg-p1-cyan/50 focus:shadow-lg focus:hover:shadow-lg dark:shadow-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:brightness-90 dark:focus:brightness-90"
+                    id="toggleButton3"
+                    onClick={() => {
+                      setCurrentVisibleArea(3);
+                    }}
+                  >
+                    <Image
+                      className="size-10 p-1"
+                      width={480}
+                      height={480}
+                      src="/icon/16.png"
+                      alt="bt16"
+                    />
+                  </button>
+                </div>
+                <div className="w-10">
+                  <button
+                    data-target="area4"
+                    className="mx-auto justify-start rounded transition-all delay-75 duration-100 ease-in-out hover:bg-p1-cyan/50 hover:shadow-lg focus:bg-p1-cyan/50 focus:shadow-lg focus:hover:shadow-lg dark:shadow-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:brightness-90 dark:focus:brightness-90"
+                    id="toggleButton4"
+                    onClick={() => {
+                      setCurrentVisibleArea(4);
+                    }}
+                  >
+                    <Image
+                      className="size-10 p-1"
+                      width={480}
+                      height={480}
+                      src="/icon/9.png"
+                      alt="bt9"
+                    />
+                  </button>
+                </div>
+                <div className="w-10">
+                  <button
+                    data-target="area5"
+                    className="mx-auto justify-start rounded transition-all delay-75 duration-100 ease-in-out hover:bg-p1-cyan/50 hover:shadow-lg focus:bg-p1-cyan/50 focus:shadow-lg focus:hover:shadow-lg dark:shadow-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:brightness-90 dark:focus:brightness-90"
+                    id="toggleButton5"
+                    onClick={() => {
+                      setCurrentVisibleArea(5);
+                    }}
+                  >
+                    <Image
+                      className="size-10 p-1"
+                      width={480}
+                      height={480}
+                      src="/icon/4.png"
+                      alt="bt4"
+                    />
+                  </button>
+                </div>
+                <div className="w-10">
+                  <button
+                    data-target="area6"
+                    className="mx-auto justify-start rounded transition-all delay-75 duration-100 ease-in-out hover:bg-p1-cyan/50 hover:shadow-lg focus:bg-p1-cyan/50 focus:shadow-lg focus:hover:shadow-lg dark:shadow-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:brightness-90 dark:focus:brightness-90"
+                    id="toggleButton6"
+                    onClick={() => {
+                      setCurrentVisibleArea(6);
+                    }}
+                  >
+                    <Image
+                      className="size-10 p-1"
+                      width={480}
+                      height={480}
+                      src="/icon/3.png"
+                      alt="bt3"
+                    />
+                  </button>
+                </div>
+                <div className="w-10">
+                  <button
+                    data-target="area8"
+                    className="mx-auto justify-start rounded transition-all delay-75 duration-100 ease-in-out hover:bg-p1-cyan/50 hover:shadow-lg focus:bg-p1-cyan/50 focus:shadow-lg focus:hover:shadow-lg dark:shadow-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:brightness-90 dark:focus:brightness-90"
+                    id="toggleButton6"
+                    onClick={() => {
+                      setCurrentVisibleArea(8);
+                    }}
+                  >
+                    <Image
+                      className="size-10 p-1"
+                      width={480}
+                      height={480}
+                      src="/icon/1.png"
+                      alt="bt1"
+                    />
+                  </button>
+                </div>
               </div>
             </div>
           </div>
         </div>
-
         <div className="pb-4"> </div>
 
         <div className="flex max-w-full place-content-center gap-2 px-6">

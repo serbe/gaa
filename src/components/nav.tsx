@@ -155,7 +155,7 @@ function Nav() {
 
               <div className="invisible absolute left-9 z-10 m-0.5 mt-2 -translate-x-1/2 text-nowrap rounded-xl bg-p1-white/30 text-gray-800 opacity-0 backdrop-blur-lg transition-all duration-100 group-hover:visible group-hover:border-opacity-70 group-hover:bg-opacity-30 group-hover:opacity-100">
                 <div className="rounded-md">
-                  <div className="border-b border-p1-darkgreen p-1 text-base text-p1-darkgreen transition-all delay-100 duration-300 ease-in-out hover:bg-p1-white/20 hover:pl-3 hover:text-p1-darkgreen dark:border-p1-deepdarkgreen dark:text-p1-green dark:hover:text-p1-cyan">
+                  <div className="border-b border-p1-darkgreen p-1 text-base text-p1-darkgreen transition-all delay-100 duration-300 ease-in-out hover:bg-p1-white/20 hover:text-p1-darkgreen dark:border-p1-deepdarkgreen dark:text-p1-green dark:hover:text-p1-cyan">
                     <div className="px-4 py-3">
                       <span className="block text-sm text-gray-900 dark:text-white">
                         Bonnie Green
@@ -165,19 +165,19 @@ function Nav() {
                       </span>
                     </div>
                   </div>
-                  <div className="border-b border-p1-darkgreen p-1 text-base text-p1-darkgreen transition-all delay-100 duration-300 ease-in-out hover:bg-p1-white/20 hover:pl-3 hover:text-p1-darkgreen dark:border-p1-deepdarkgreen dark:text-p1-green dark:hover:text-p1-cyan">
+                  <div className="border-b border-p1-darkgreen p-1 text-base text-p1-darkgreen transition-all delay-100 duration-300 ease-in-out hover:bg-p1-white/20 hover:text-p1-darkgreen dark:border-p1-deepdarkgreen dark:text-p1-green dark:hover:text-p1-cyan">
                     <div className="flex flex-wrap px-4 py-3">
-                      <div className="mx-2 text-p1-green dark:hover:text-p1-cyan">
+                      <div className="mx-2 text-p1-green transition-all delay-100 duration-300 ease-in-out hover:scale-125 dark:hover:text-p1-cyan">
                         <Link href={pathname} locale="en">
                           En
                         </Link>
                       </div>
-                      <div className="mx-2 text-p1-green dark:hover:text-p1-cyan">
+                      <div className="mx-2 text-p1-green transition-all delay-100 duration-300 ease-in-out hover:scale-125 dark:hover:text-p1-cyan">
                         <Link href={pathname} locale="ru">
                           Ru
                         </Link>
                       </div>
-                      <div className="mx-2 dark:hover:text-p1-cyan">
+                      <div className="mx-2 transition-all delay-100 duration-300 ease-in-out hover:scale-125 dark:hover:text-p1-cyan">
                         <button
                           onClick={() => {
                             switchTheme();
