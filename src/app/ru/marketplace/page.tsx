@@ -2083,7 +2083,7 @@ export default function Home() {
             >
               <div className="relative snap-start scroll-smooth">
                 <table className="text-left text-xl text-p1-darkgreen dark:text-p1-green">
-                  <thead className="sticky top-0 z-20 border-b border-p1-green/30 bg-p1-white/100 text-xs uppercase text-p1-darkgreen dark:bg-p1-deepdarkgreen dark:text-p1-green">
+                  <thead className="sticky top-0 z-10 border-b border-p1-green/30 bg-p1-white/100 text-xs uppercase text-p1-darkgreen dark:bg-p1-deepdarkgreen dark:text-p1-green">
                     <tr>
                       <th scope="col" className="p-2 text-center">
                         Add to cart
@@ -2730,7 +2730,6 @@ export default function Home() {
                 </table>
               </div>
             </div>
-
             {/* ...Строки  Таблица Activity*/}
             <div
               id="area9"
