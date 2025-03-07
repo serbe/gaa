@@ -572,7 +572,6 @@ export default function Page() {
                                     <td className="p-1">Россия</td>
                                     <td className="p-1">RDS</td>
                                     <td className="p-1">
-                                      {' '}
                                       <form className="mx-auto max-w-2xl">
                                         <label
                                           htmlFor="license"

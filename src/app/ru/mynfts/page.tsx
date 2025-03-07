@@ -622,7 +622,6 @@ export default function Home() {
                       }}
                       className="relative flex cursor-pointer justify-between py-2 text-p1-darkgreen delay-75 duration-300 ease-in-out hover:pl-2 dark:text-p1-green dark:hover:text-p1-cyan"
                     >
-                      {' '}
                       <div className="place-content-center px-4">Для продажи For sale</div>
                       <div className="place-content-center px-4">46</div>
                     </summary>
@@ -700,7 +699,6 @@ export default function Home() {
                       }}
                       className="relative flex cursor-pointer justify-between py-2 text-p1-darkgreen delay-75 duration-300 ease-in-out hover:pl-2 dark:text-p1-green dark:hover:text-p1-cyan"
                     >
-                      {' '}
                       <div className="place-content-center px-4">Awards</div>
                       <div className="place-content-center px-4">8</div>
                     </summary>

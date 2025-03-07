@@ -1,18 +1,18 @@
 'use client';
 
-import Image from 'next/image';
+import { JumpButton } from '@/components/jumpButton';
 import { Link } from '@/i18n/routing';
+import { useWindowDimensions } from '@/utils/hooks';
+import Image from 'next/image';
+import { useState } from 'react';
 import { Autoplay, Mousewheel, Navigation } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { useState } from 'react';
-import { JumpButton } from '@/components/jumpButton';
-import { useWindowDimensions } from '@/utils/hooks';
 
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/navigation';
-import 'swiper/css/scrollbar';
 import 'swiper/css/pagination';
+import 'swiper/css/scrollbar';
 
 export default function Home() {
   const [check, setCheck] = useState(false);
@@ -2083,7 +2083,7 @@ export default function Home() {
             >
               <div className="relative snap-start scroll-smooth">
                 <table className="text-left text-xl text-p1-darkgreen dark:text-p1-green">
-                  <thead className="sticky top-0 z-10 border-b border-p1-green/30 bg-p1-white/100 text-xs uppercase text-p1-darkgreen dark:bg-p1-deepdarkgreen dark:text-p1-green">
+                  <thead className="sticky top-0 border-b border-p1-green/30 bg-p1-white/100 text-xs uppercase text-p1-darkgreen dark:bg-p1-deepdarkgreen dark:text-p1-green">
                     <tr>
                       <th scope="col" className="p-2 text-center">
                         Add to cart

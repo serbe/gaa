@@ -37,7 +37,7 @@ export default function Page() {
               />
             </div>
             <p className="px-2 text-center text-xl font-semibold text-p1-darkgreen md:pt-2 md:text-4xl dark:text-p1-green dark:hover:text-p1-cyan">
-              Select the licenses you wish to obtain{' '}
+              Select the licenses you wish to obtain
             </p>
 
             <div className="pb-3"></div>
@@ -175,7 +175,7 @@ export default function Page() {
                 htmlFor="checkbox"
                 className="ms-2 text-base font-medium text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan"
               >
-                Open wheels{' '}
+                Open wheels
               </label>
             </div>
 
@@ -316,7 +316,7 @@ export default function Page() {
                 htmlFor="checkbox"
                 className="ms-2 text-base font-medium text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan"
               >
-                Sport cars{' '}
+                Sport cars
               </label>
             </div>
             <div className="pb-3"></div>
@@ -406,7 +406,7 @@ export default function Page() {
                 htmlFor="answerCategoryPromote"
                 className="block px-5 text-left text-sm font-medium text-p1-darkgreen dark:text-p1-cyan"
               >
-                Another option{' '}
+                Another option
               </label>
               <input
                 type="text"
@@ -440,7 +440,7 @@ export default function Page() {
                 htmlFor="checkbox"
                 className="ms-2 text-base font-medium text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan"
               >
-                I'm spectator{' '}
+                I'm spectator
               </label>
             </div>
 
@@ -482,7 +482,7 @@ export default function Page() {
                 htmlFor="checkbox"
                 className="ms-2 text-base font-medium text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan"
               >
-                I'm a driver{' '}
+                I'm a driver
               </label>
             </div>
 
@@ -585,7 +585,7 @@ export default function Page() {
                 htmlFor="checkbox"
                 className="ms-2 text-base font-medium text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan"
               >
-                I'm a sponsor{' '}
+                I'm a sponsor
               </label>
             </div>
             <div className="pb-3"></div>
@@ -617,7 +617,7 @@ export default function Page() {
                 htmlFor="answerwhattodo"
                 className="block px-5 text-left text-sm font-medium text-p1-darkgreen dark:text-p1-cyan"
               >
-                Another option{' '}
+                Another option
               </label>
               <input
                 type="text"
@@ -735,7 +735,7 @@ export default function Page() {
                 htmlFor="message"
                 className="mx-5 mb-2 block text-left text-sm font-medium text-p1-darkgreen dark:text-p1-cyan"
               >
-                Why do you want to join GAA?{' '}
+                Why do you want to join GAA?
               </label>
               <textarea
                 id="message"

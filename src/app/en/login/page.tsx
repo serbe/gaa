@@ -1,27 +1,33 @@
 'use client';
 import { useState } from 'react';
 import { useRouter } from '@/i18n/routing';
-import { sendRegister } from '@/utils/api';
+import { sendLogin } from '@/utils/api';
+import { useGaaStore } from '@/context/gaa-store-provider';
+import useSWR from 'swr';
 
-export default function Register() {
+export default function Login() {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
   const [error, setError] = useState('');
+  const { mutate } = useSWR('/api/protected');
+  const [{ login: login }] = useGaaStore((state) => state);
   const router = useRouter();
 
-  const handleRegister = async (e: React.FormEvent) => {
+  const handleLogin = async (e: React.FormEvent) => {
     e.preventDefault();
     try {
-      await sendRegister(username, password);
-      router.push('/login');
+      const response = await sendLogin(username, password);
+      login(username, response.token);
+      await mutate();
+      router.push('/');
     } catch {
-      setError('Registration failed. Please try again.');
+      setError('Invalid credentials');
     }
   };
 
   return (
     <div>
-      <h1>Register</h1>
+      <h1>Login</h1>
       {error && <p style={{ color: 'red' }}>{error}</p>}
       <input
         type="text"
@@ -35,7 +41,8 @@ export default function Register() {
         value={password}
         onChange={(e) => setPassword(e.target.value)}
       />
-      <button onClick={handleRegister}>Register</button>
+      {error && <div className="">{error}</div>}
+      <button onClick={handleLogin}>Login</button>
     </div>
   );
 }
