@@ -554,7 +554,7 @@ export default function Home() {
         </div>
 
         <div id="2"></div>
-        <div className="sticky top-16 z-30 bg-p1-white shadow-md">
+        <div className="sticky top-16 z-10 bg-p1-white bg-opacity-60 shadow-md backdrop-blur-md dark:bg-p1-deepdarkgreen">
           <div className="flex justify-center space-x-2 pt-2">
             <div>
               <div className="mx-auto flex max-w-2xl overflow-hidden rounded-2xl border-2 border-p1-green bg-p2-white2 px-4 py-3 backdrop-blur-sm hover:border-p1-cyan focus:border-p1-cyan md:w-96 dark:bg-p1-deepdarkgreen dark:text-p1-cyan">
@@ -837,7 +837,10 @@ export default function Home() {
 
         <div className="flex max-w-full place-content-center gap-2 px-6">
           {/* ... левый блок */}
-          <div id="area1" className={`w-3/12  gap-2 pt-2 ${visibleArea1 == true ? '' : 'hidden'}`}>
+          <div
+            id="area1"
+            className={`min-h-screen w-3/12 gap-2 pt-2 ${visibleArea1 == true ? '' : 'hidden'}`}
+          >
             <div className="w-full snap-start border-b border-p1-green/30 bg-p1-white text-xl text-p1-darkgreen hover:border-p1-green hover:bg-p1-green/5 dark:bg-p1-deepdarkgreen">
               <details className="transition-all delay-75 duration-300 ease-in-out">
                 <summary className="relative flex cursor-pointer justify-start py-2 text-p1-darkgreen transition-all delay-75 duration-300 ease-in-out hover:pl-2 dark:text-p1-green dark:hover:text-p1-cyan">
@@ -949,7 +952,7 @@ export default function Home() {
               Traits
             </div>
             <div className="">
-              <div className="h-96 w-full resize-y snap-y scroll-mt-4 place-self-start overflow-auto scroll-smooth">
+              <div className="h-screen w-full snap-y scroll-mt-4 place-self-start overflow-auto scroll-smooth">
                 <div className="w-full snap-start border-b border-p1-green/30 bg-p1-white text-xl text-p1-darkgreen hover:border-p1-green hover:bg-p1-green/5 dark:bg-p1-deepdarkgreen">
                   <details className="">
                     <summary className="relative flex cursor-pointer justify-between py-2 text-p1-darkgreen delay-75 duration-300 ease-in-out hover:pl-2 dark:text-p1-green dark:hover:text-p1-cyan">
@@ -2075,7 +2078,7 @@ export default function Home() {
           </div>
 
           {/* ... правый блок */}
-          <div className="relative flex w-full max-w-full grid-flow-row flex-wrap justify-center gap-2 overflow-hidden pt-2">
+          <div className="relative flex min-h-screen w-full max-w-full grid-flow-row flex-wrap justify-center gap-2 overflow-hidden pt-2">
             {/* ...Строки  Items Таблица */}
             <div
               id="area2"

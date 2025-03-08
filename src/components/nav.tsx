@@ -84,7 +84,7 @@ function Nav() {
               alt="Bordered avatar"
             />
 
-            <div className="invisible absolute left-9 z-10 m-0.5 mt-2 -translate-x-1/2 text-nowrap rounded-xl bg-p1-white/30 text-gray-800 opacity-0 backdrop-blur-lg transition-all duration-100 group-hover:visible group-hover:border-opacity-70 group-hover:bg-opacity-30 group-hover:opacity-100">
+            <div className="invisible absolute left-9 z-10 m-0.5 mt-2 -translate-x-1/2 text-nowrap rounded-xl bg-p1-white/30 text-gray-800 opacity-0 backdrop-blur-lg transition-all duration-100 group-hover:visible group-hover:border-opacity-70 group-hover:bg-opacity-30 group-hover:opacity-100 dark:bg-p1-deepdarkgreen/80">
               <div className="rounded-md">
                 <div className="w-56 border-b border-p1-darkgreen p-1 text-base text-p1-darkgreen transition-all delay-100 duration-300 ease-in-out hover:bg-p1-white/20 hover:pl-3 hover:text-p1-darkgreen dark:border-p1-deepdarkgreen dark:text-p1-green dark:hover:text-p1-cyan">
                   <Link href="#" className="mx-auto flex flex-row justify-start">
@@ -126,7 +126,7 @@ function Nav() {
               height={32}
             />
 
-            <div className="invisible absolute left-9 z-10 m-0.5 mt-2 -translate-x-1/2 text-nowrap rounded-xl bg-p1-white/30 text-gray-800 opacity-0 backdrop-blur-lg transition-all duration-100 group-hover:visible group-hover:border-opacity-70 group-hover:bg-opacity-30 group-hover:opacity-100">
+            <div className="invisible absolute left-9 z-10 m-0.5 mt-2 -translate-x-1/2 text-nowrap rounded-xl bg-p1-white/30 text-gray-800 opacity-0 backdrop-blur-lg transition-all duration-100 group-hover:visible group-hover:border-opacity-70 group-hover:bg-opacity-30 group-hover:opacity-100 dark:bg-p1-deepdarkgreen/80">
               <div className="rounded-md">
                 <div className="border-b border-p1-darkgreen p-1 text-base text-p1-darkgreen transition-all delay-100 duration-300 ease-in-out hover:bg-p1-white/20 hover:text-p1-darkgreen dark:border-p1-deepdarkgreen dark:text-p1-green dark:hover:text-p1-cyan">
                   <div className="px-4 py-3">
