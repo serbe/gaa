@@ -511,8 +511,7 @@ export default function Home() {
               <div>
                 <div>
                   <p className="text-3xl font-semibold md:px-10">RaceLads</p>
-                  <p className="text-2xl font-thin md:px-10">Polygon zkEVM </p>
-                  <p className="text-2xl font-thin md:px-10">Designed by GAA </p>
+                  <p className="text-2xl font-thin md:px-10">Polygon</p>
                 </div>
               </div>
             </div>
@@ -523,9 +522,6 @@ export default function Home() {
                 <p className="pt-1 text-xl font-thin md:px-10 md:text-2xl">Items: 10.000 </p>
               </div>
               <p className="pt-1 text-xl font-thin md:px-2 md:text-2xl">Created: Feb 2025 </p>
-
-              <p className="pt-1 text-xl font-thin md:px-2 md:text-2xl">Creator earnings: 7.5%</p>
-              <p className="pt-1 text-xl font-thin md:px-2 md:text-2xl">Chain: Ethereum</p>
             </div>
 
             <div className="flex grid-flow-row auto-rows-max justify-end space-x-4 pb-4 pt-2 md:space-x-8">
@@ -546,8 +542,8 @@ export default function Home() {
                 <p>Listed</p>
               </div>
               <div>
-                <p className="text-xs font-semibold sm:text-sm md:text-2xl">3 690 (85%)</p>
-                <p>Owners (Unique)</p>
+                <p className="text-xs font-semibold sm:text-sm md:text-2xl">3 690</p>
+                <p>Owners</p>
               </div>
             </div>
           </div>
