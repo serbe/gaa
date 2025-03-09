@@ -1674,16 +1674,16 @@ export default function Page() {
               <button className="rounded-3xl border-2 border-p2-orange bg-p2-white2 px-10 py-8 text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p2-orange hover:text-p1-white dark:border-amber-800 dark:bg-amber-950 dark:text-amber-300/50 dark:hover:border-amber-700 dark:hover:bg-amber-900 dark:hover:text-amber-300">
                 Создать NFT Награду
               </button>
-              <button
-                data-target="area92"
-                className="mt-4 rounded-3xl border-2 border-p2-orange bg-p2-white2 px-10 py-8 text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p2-orange hover:text-p1-white dark:border-amber-800 dark:bg-amber-950 dark:text-amber-300/50 dark:hover:border-amber-700 dark:hover:bg-amber-900 dark:hover:text-amber-300"
-                id="toggleButton92"
-                onClick={() => {
-                  setCurrentVisibleArea(92);
-                }}
-              >
-                Добавить в комплексное создание NFT
+
+              <button className="mt-4 rounded-3xl border-2 border-p2-orange bg-p2-white2 px-10 py-8 text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p2-orange hover:text-p1-white dark:border-amber-800 dark:bg-amber-950 dark:text-amber-300/50 dark:hover:border-amber-700 dark:hover:bg-amber-900 dark:hover:text-amber-300">
+                Добавить в групповое создание NFT
               </button>
+              <Link
+                href="/mintrewardsgroupcreate"
+                className="mt-4 rounded-3xl border-2 border-p2-orange bg-p2-white2 px-10 py-8 text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p2-orange hover:text-p1-white dark:border-amber-800 dark:bg-amber-950 dark:text-amber-300/50 dark:hover:border-amber-700 dark:hover:bg-amber-900 dark:hover:text-amber-300"
+              >
+                Перейти в групповое создание NFT
+              </Link>
               <div className="pb-8"></div>
             </div>
           </div>
