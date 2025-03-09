@@ -29,46 +29,27 @@ export default function Login() {
   };
 
   return (
-    <div>
-      <section className="bg-gray-50 dark:bg-gray-900">
-        <div className="mx-auto grid max-w-screen-xl gap-8 px-4 py-8 lg:grid-cols-2 lg:gap-16 lg:py-16">
-          <div className="flex flex-col justify-center">
-            <h1 className="mb-4 text-4xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
-              Мощный заголовок
-            </h1>
-            <p className="mb-6 text-lg font-normal text-gray-500 lg:text-xl dark:text-gray-400">
-              Мотивирующий текст
-            </p>
-            <a
-              href="#"
-              className="inline-flex items-center text-lg font-medium text-blue-600 hover:underline dark:text-blue-500"
-            >
-              Ссылка для любителей почитать
-              <svg
-                className="ms-2 size-3.5 rtl:rotate-180"
-                aria-hidden="true"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 14 10"
-              >
-                <path
-                  stroke="currentColor"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="M1 5h12m0 0L9 1m4 4L9 9"
-                />
-              </svg>
-            </a>
-          </div>
-          <div>
-            <div className="w-full space-y-8 rounded-lg bg-white p-6 shadow-xl sm:p-8 lg:max-w-xl dark:bg-gray-800">
-              <h2 className="text-2xl font-bold text-gray-900 dark:text-white">Авторизация</h2>
+    <div className="h-screen bg-[url('/background/bgsky.png')] bg-cover bg-center p-2 dark:brightness-75">
+      <section className="">
+        <div className="mx-auto max-w-screen-sm px-4 py-8 lg:gap-16 lg:py-16">
+          <div className="my-8 w-full place-self-center rounded-2xl bg-p1-white/30">
+            <div className="flex flex-wrap justify-center md:flex-nowrap md:justify-between">
+              <div className="text-nowrap px-2 text-2xl font-semibold text-stone-400 md:pt-2 md:text-4xl dark:text-p1-darkgreen">
+                RaceLads
+              </div>
+              <div className="px-2 text-2xl font-semibold text-stone-400 md:pt-2 md:text-4xl dark:text-p1-darkgreen">
+                by GAA
+              </div>
+            </div>
+            <div className="m-4 rounded-3xl border-stone-400 bg-p1-white/75 p-4 md:border-4 md:shadow-lg dark:border-stone-900 dark:bg-p1-deepdarkgreen">
+              <h2 className="text-2xl font-bold text-p1-darkgreen dark:text-p1-cyan">
+                Авторизация
+              </h2>
               <form className="mt-8 space-y-6" action="#">
                 <div>
                   <label
                     htmlFor="email"
-                    className="mb-2 block text-sm font-medium text-gray-900 dark:text-white"
+                    className="mb-2 block text-sm font-medium text-p1-darkgreen dark:text-p1-cyan"
                   >
                     Логин
                   </label>
@@ -76,7 +57,7 @@ export default function Login() {
                     type="text"
                     name="text"
                     id="username"
-                    className="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder:text-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
+                    className="block w-full rounded-lg border border-stone-400 bg-p2-white2 p-2.5 text-sm text-p1-darkgreen focus:border-p1-green focus:ring-p1-green dark:border-gray-600 dark:bg-p1-darkgreen dark:text-p1-white dark:placeholder:text-p1-gray dark:focus:border-p1-cyan dark:focus:ring-p1-cyan"
                     placeholder="username"
                     required
                     value={username}
@@ -86,7 +67,7 @@ export default function Login() {
                 <div>
                   <label
                     htmlFor="password"
-                    className="mb-2 block text-sm font-medium text-gray-900 dark:text-white"
+                    className="mb-2 block text-sm font-medium text-p1-darkgreen dark:text-p1-cyan"
                   >
                     Пароль
                   </label>
@@ -95,7 +76,7 @@ export default function Login() {
                     name="password"
                     id="password"
                     placeholder="••••••••"
-                    className="block w-full rounded-lg border border-gray-300 bg-gray-50 p-2.5 text-sm text-gray-900 focus:border-blue-500 focus:ring-blue-500 dark:border-gray-600 dark:bg-gray-700 dark:text-white dark:placeholder:text-gray-400 dark:focus:border-blue-500 dark:focus:ring-blue-500"
+                    className="block w-full rounded-lg border border-stone-400 bg-p2-white2 p-2.5 text-sm text-p1-darkgreen focus:border-p1-green focus:ring-p1-green dark:border-gray-600 dark:bg-p1-darkgreen dark:text-p1-white dark:placeholder:text-p1-gray dark:focus:border-p1-cyan dark:focus:ring-p1-cyan"
                     required
                     value={password}
                     onChange={(e) => setPassword(e.target.value)}
@@ -129,22 +110,23 @@ export default function Login() {
                 </div> */}
                 <button
                   type="submit"
-                  className="w-full rounded-lg bg-blue-700 px-5 py-3 text-center text-base font-medium text-white hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 sm:w-auto dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800"
+                  className="rounded-xl border-2 border-stone-400 bg-p2-white2 px-4 py-2 text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:bg-stone-400 hover:text-p1-white md:mt-10 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan"
                   onClick={handleLogin}
                 >
                   Вход
                 </button>
-                <div className="text-sm font-medium text-gray-900 dark:text-white">
+                <div className="text-sm font-medium text-p1-darkgreen dark:text-p1-cyan">
                   Не зарегистрированы?
                   <Link
                     href="/register"
-                    className="px-4 text-blue-600 hover:underline dark:text-blue-500"
+                    className="px-4 text-blue-600 hover:underline dark:text-p1-cyan"
                   >
                     Регистрация
                   </Link>
                 </div>
               </form>
             </div>
+            <div className="pb-4"> </div>
           </div>
         </div>
       </section>
