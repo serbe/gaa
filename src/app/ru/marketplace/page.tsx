@@ -91,19 +91,19 @@ export default function Home() {
                         <p className="text-p1-darkgreen dark:text-p1-cyan"></p>
                         <p className="text-p1-darkgreen dark:text-p1-cyan"></p>
                         <button className="w-full place-content-end rounded-md border border-p1-cyan bg-p1-green py-2 text-white hover:bg-p1-darkgreen dark:bg-p1-deepdarkgreen dark:hover:shadow-lg dark:hover:shadow-p1-darkgreen">
-                          Explore Collection
+                          Исследовать
                         </button>
                       </div>
                     </div>
                     <div className="mt-2 grid w-full grid-cols-3 items-center justify-between space-x-1 text-center md:mt-4 md:grid-cols-3">
                       <div>
-                        <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Items</p>
+                        <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Элементы</p>
                         <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
                           10,000
                         </p>
                       </div>
                       <div>
-                        <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Floor Price</p>
+                        <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Нижняя цена</p>
                         <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
                           <Image
                             className="relative inline-block w-8 px-1"
@@ -116,7 +116,7 @@ export default function Home() {
                         </p>
                       </div>
                       <div>
-                        <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Total Volume</p>
+                        <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Объем</p>
                         <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
                           25K
                         </p>
@@ -143,19 +143,19 @@ export default function Home() {
                         </h2>
                         <p className="text-p1-darkgreen dark:text-p1-cyan"></p>
                         <button className="w-full place-content-end rounded-md border border-p1-cyan bg-p1-green py-2 text-white hover:bg-p1-darkgreen dark:bg-p1-deepdarkgreen dark:hover:shadow-lg dark:hover:shadow-p1-darkgreen">
-                          Explore Collection
+                          Исследовать
                         </button>
                       </div>
                     </div>
                     <div className="mt-2 grid w-full grid-cols-3 items-center justify-between space-x-1 text-center md:mt-4 md:grid-cols-3">
                       <div>
-                        <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Items</p>
+                        <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Элементы</p>
                         <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
                           10,000
                         </p>
                       </div>
                       <div>
-                        <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Floor Price</p>
+                        <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Нижняя цена</p>
                         <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
                           <Image
                             className="relative inline-block w-8 px-1"
@@ -168,7 +168,7 @@ export default function Home() {
                         </p>
                       </div>
                       <div>
-                        <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Total Volume</p>
+                        <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Объем</p>
                         <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
                           25K
                         </p>
@@ -195,19 +195,19 @@ export default function Home() {
 
                         <p className="text-p1-darkgreen dark:text-p1-cyan"></p>
                         <button className="w-full place-content-end rounded-md border border-p1-cyan bg-p1-green py-2 text-white hover:bg-p1-darkgreen dark:bg-p1-deepdarkgreen dark:hover:shadow-lg dark:hover:shadow-p1-darkgreen">
-                          Explore Collection
+                        Исследовать
                         </button>
                       </div>
                     </div>
                     <div className="mt-2 grid w-full grid-cols-3 items-center justify-between space-x-1 text-center md:mt-4 md:grid-cols-3">
                       <div>
-                        <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Items</p>
+                        <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Элементы</p>
                         <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
                           10,000
                         </p>
                       </div>
                       <div>
-                        <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Floor Price</p>
+                        <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Нижняя цена</p>
                         <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
                           <Image
                             className="relative inline-block w-8 px-1"
@@ -220,7 +220,7 @@ export default function Home() {
                         </p>
                       </div>
                       <div>
-                        <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Total Volume</p>
+                        <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Объем</p>
                         <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
                           25K
                         </p>
@@ -246,19 +246,19 @@ export default function Home() {
                         </h2>
                         <p className="text-p1-darkgreen dark:text-p1-cyan"></p>
                         <button className="w-full place-content-end rounded-md border border-p1-cyan bg-p1-green py-2 text-white hover:bg-p1-darkgreen dark:bg-p1-deepdarkgreen dark:hover:shadow-lg dark:hover:shadow-p1-darkgreen">
-                          Explore Collection
+                        Исследовать
                         </button>
                       </div>
                     </div>
                     <div className="mt-2 grid w-full grid-cols-3 items-center justify-between space-x-1 text-center md:mt-4 md:grid-cols-3">
                       <div>
-                        <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Items</p>
+                        <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Элементы</p>
                         <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
                           10,000
                         </p>
                       </div>
                       <div>
-                        <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Floor Price</p>
+                        <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Нижняя цена</p>
                         <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
                           <Image
                             className="relative inline-block w-8 px-1"
@@ -271,7 +271,7 @@ export default function Home() {
                         </p>
                       </div>
                       <div>
-                        <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Total Volume</p>
+                        <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Объем</p>
                         <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
                           25K
                         </p>
@@ -298,19 +298,19 @@ export default function Home() {
                         <p className="text-p1-darkgreen dark:text-p1-cyan"></p>
                         <p className="text-p1-darkgreen dark:text-p1-cyan"></p>
                         <button className="w-full place-content-end rounded-md border border-p1-cyan bg-p1-green py-2 text-white hover:bg-p1-darkgreen dark:bg-p1-deepdarkgreen dark:hover:shadow-lg dark:hover:shadow-p1-darkgreen">
-                          Explore Collection
+                        Исследовать
                         </button>
                       </div>
                     </div>
                     <div className="mt-2 grid w-full grid-cols-3 items-center justify-between space-x-1 text-center md:mt-4 md:grid-cols-3">
                       <div>
-                        <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Items</p>
+                        <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Элементы</p>
                         <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
                           10,000
                         </p>
                       </div>
                       <div>
-                        <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Floor Price</p>
+                        <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Нижняя цена</p>
                         <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
                           <Image
                             className="relative inline-block w-8 px-1"
@@ -323,7 +323,7 @@ export default function Home() {
                         </p>
                       </div>
                       <div>
-                        <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Total Volume</p>
+                        <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Объем</p>
                         <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
                           25K
                         </p>
@@ -350,19 +350,19 @@ export default function Home() {
                         <p className="text-p1-darkgreen dark:text-p1-cyan"></p>
                         <p className="text-p1-darkgreen dark:text-p1-cyan"></p>
                         <button className="w-full place-content-end rounded-md border border-p1-cyan bg-p1-green py-2 text-white hover:bg-p1-darkgreen dark:bg-p1-deepdarkgreen dark:hover:shadow-lg dark:hover:shadow-p1-darkgreen">
-                          Explore Collection
+                        Исследовать
                         </button>
                       </div>
                     </div>
                     <div className="mt-2 grid w-full grid-cols-3 items-center justify-between space-x-1 text-center md:mt-4 md:grid-cols-3">
                       <div>
-                        <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Items</p>
+                        <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Элементы</p>
                         <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
                           10,000
                         </p>
                       </div>
                       <div>
-                        <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Floor Price</p>
+                        <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Нижняя цена</p>
                         <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
                           <Image
                             className="relative inline-block w-8 px-1"
@@ -375,7 +375,7 @@ export default function Home() {
                         </p>
                       </div>
                       <div>
-                        <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Total Volume</p>
+                        <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Объем</p>
                         <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
                           25K
                         </p>
@@ -402,19 +402,19 @@ export default function Home() {
                         <p className="text-p1-darkgreen dark:text-p1-cyan"></p>
                         <p className="text-p1-darkgreen dark:text-p1-cyan"></p>
                         <button className="w-full place-content-end rounded-md border border-p1-cyan bg-p1-green py-2 text-white hover:bg-p1-darkgreen dark:bg-p1-deepdarkgreen dark:hover:shadow-lg dark:hover:shadow-p1-darkgreen">
-                          Explore Collection
+                        Исследовать
                         </button>
                       </div>
                     </div>
                     <div className="mt-2 grid w-full grid-cols-3 items-center justify-between space-x-1 text-center md:mt-4 md:grid-cols-3">
                       <div>
-                        <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Items</p>
+                        <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Элементы</p>
                         <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
                           10,000
                         </p>
                       </div>
                       <div>
-                        <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Floor Price</p>
+                        <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Нижняя цена</p>
                         <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
                           <Image
                             className="relative inline-block w-8 px-1"
@@ -427,7 +427,7 @@ export default function Home() {
                         </p>
                       </div>
                       <div>
-                        <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Total Volume</p>
+                        <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Объем</p>
                         <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
                           25K
                         </p>
@@ -449,24 +449,24 @@ export default function Home() {
                       />
                       <div>
                         <h2 className="text-xl font-bold text-p1-darkgreen xl:text-2xl dark:text-p1-cyan">
-                          Licenses
+                          Лицензии
                         </h2>
                         <p className="text-p1-darkgreen dark:text-p1-cyan"></p>
                         <p className="text-p1-darkgreen dark:text-p1-cyan"></p>
                         <button className="w-full place-content-end rounded-md border border-p1-cyan bg-p1-green py-2 text-white hover:bg-p1-darkgreen dark:bg-p1-deepdarkgreen dark:hover:shadow-lg dark:hover:shadow-p1-darkgreen">
-                          Explore Collection
+                        Исследовать
                         </button>
                       </div>
                     </div>
                     <div className="mt-2 grid w-full grid-cols-3 items-center justify-between space-x-1 text-center md:mt-4 md:grid-cols-3">
                       <div>
-                        <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Items</p>
+                        <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Элементы</p>
                         <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
                           10,000
                         </p>
                       </div>
                       <div>
-                        <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Floor Price</p>
+                        <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Нижняя цена</p>
                         <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
                           <Image
                             className="relative inline-block w-8 px-1"
@@ -479,7 +479,7 @@ export default function Home() {
                         </p>
                       </div>
                       <div>
-                        <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Total Volume</p>
+                        <p className="text-sm text-p1-darkgreen dark:text-p1-cyan">Объем</p>
                         <p className="text-lg font-semibold text-p1-deepdarkgreen dark:text-p1-cyan">
                           25K
                         </p>
@@ -511,7 +511,7 @@ export default function Home() {
               <div>
                 <div>
                   <p className="text-3xl font-semibold md:px-10">RaceLads</p>
-                  <p className="text-2xl font-thin md:px-10">Polygon</p>
+                  <p className="text-2xl font-thin md:px-10">Сеть: Polygon</p>
                 </div>
               </div>
             </div>
@@ -519,31 +519,31 @@ export default function Home() {
           <div className="grid h-1/5 grid-cols-1 p-1 2xl:grid-cols-2">
             <div className="flex grid-flow-row auto-rows-max justify-start space-x-2 pt-2 md:space-x-2">
               <div>
-                <p className="pt-1 text-xl font-thin md:px-10 md:text-2xl">Items: 10.000 </p>
+                <p className="pt-1 text-xl font-thin md:px-10 md:text-2xl">Количество NFT: 10.000 </p>
               </div>
-              <p className="pt-1 text-xl font-thin md:px-2 md:text-2xl">Created: Feb 2025 </p>
+              <p className="pt-1 text-xl font-thin md:px-2 md:text-2xl">Дата создания: Февраль 2025 </p>
             </div>
 
             <div className="flex grid-flow-row auto-rows-max justify-end space-x-4 pb-4 pt-2 md:space-x-8">
               <div>
                 <p className="text-xs font-semibold sm:text-sm md:text-2xl">9 ETH</p>
-                <p>Total volume</p>
+                <p>Общий объем</p>
               </div>
               <div>
                 <p className="text-xs font-semibold sm:text-sm md:text-2xl">0,013 ETH</p>
-                <p>Floor price</p>
+                <p>Нижняя стоимость</p>
               </div>
               <div>
                 <p className="text-xs font-semibold sm:text-sm md:text-2xl">0,009 WETH</p>
-                <p>Best offer</p>
+                <p>Лучшее предложение</p>
               </div>
               <div>
                 <p className="text-xs font-semibold sm:text-sm md:text-2xl">29%</p>
-                <p>Listed</p>
+                <p>В продаже</p>
               </div>
               <div>
                 <p className="text-xs font-semibold sm:text-sm md:text-2xl">3 690</p>
-                <p>Owners</p>
+                <p>Владельцы</p>
               </div>
             </div>
           </div>
@@ -586,13 +586,13 @@ export default function Home() {
                       setCurrentVisibleArea(4);
                     }}
                   >
-                    Items
+                    Элементы
                   </button>
                   <Link
                     href="#"
                     className="inline-block w-max place-content-center border bg-p1-white px-1 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen/15 hover:bg-p1-cyan/25 hover:text-p1-darkgreen focus:border-p1-darkgreen/20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
                   >
-                    Offers
+                    Предложения
                   </Link>
                   <button
                     data-target="area7"
@@ -602,7 +602,7 @@ export default function Home() {
                       setCurrentVisibleArea(7);
                     }}
                   >
-                    Analitics
+                    Аналитика
                   </button>
 
                   <button
@@ -613,7 +613,7 @@ export default function Home() {
                       setCurrentVisibleArea(9);
                     }}
                   >
-                    Activity
+                    Активность
                   </button>
 
                   <form className="inline-block w-max place-content-center rounded-r-xl border bg-p1-white px-1 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen/15 hover:bg-p1-cyan/25 hover:text-p1-darkgreen focus:border-p1-darkgreen/20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan">
@@ -624,19 +624,14 @@ export default function Home() {
                       defaultValue={'DEFAULT'}
                     >
                       <option value="DEFAULT" disabled>
-                        Price low to high
+                        По возрастанию цены
                       </option>
-                      <option value="Price_low_to_high">Price low to high</option>
-                      <option value="Price_high_to_low">Price high to low</option>
-                      <option value="Recently_listedr">Recently listed</option>
-                      <option value="Best_offer">Best offer</option>
-                      <option value="Highest_last_sale">Highest last sale</option>
-                      <option value="Recently_sold">Recently sold</option>
-
-                      <option value="Most_viewed">Most viewed</option>
-
-                      <option value="Most_favorited">Most favorited</option>
-                      <option value="Ending_soon">Ending soon</option>
+                      <option value="Price_low_to_high">По возрастанию цены</option>
+                      <option value="Price_high_to_low">По убыванию цены</option>
+                      <option value="Recently_listedr">Недавно выставленные на продажу</option>
+                      <option value="Best_offer">По лучшему предложению</option>
+                      <option value="Most_viewed">По количеству просмотров</option>
+                      <option value="Most_favorited">По количеству лайков</option>
                     </select>
                   </form>
                 </div>
@@ -653,26 +648,26 @@ export default function Home() {
                     href="#"
                     className="inline-block w-max place-content-center rounded-l-xl border bg-p1-white px-1 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen/15 hover:bg-p1-cyan/25 hover:text-p1-darkgreen focus:border-p1-darkgreen/20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
                   >
-                    All
+                    Все
                   </Link>
                   <Link
                     href="#"
                     className="inline-block w-max place-content-center border bg-p1-white px-1 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen/15 hover:bg-p1-cyan/25 hover:text-p1-darkgreen focus:border-p1-darkgreen/20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
                   >
-                    Listed
+                    В продаже
                   </Link>
                   <Link
                     href="#"
                     className="inline-block w-max place-content-center border bg-p1-white px-1 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen/15 hover:bg-p1-cyan/25 hover:text-p1-darkgreen focus:border-p1-darkgreen/20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
                   >
-                    On Auction
+                    На аукционе
                   </Link>
 
                   <Link
                     href="#"
                     className="inline-block w-max place-content-center rounded-r-xl border bg-p1-white px-1 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen/15 hover:bg-p1-cyan/25 hover:text-p1-darkgreen focus:border-p1-darkgreen/20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
                   >
-                    Has Offers
+                    Имеющие предложения
                   </Link>
                 </div>
               </div>
@@ -704,13 +699,10 @@ export default function Home() {
                 <span className="absolute inline-flex size-full animate-ping rounded-full bg-p1-green opacity-75"></span>
                 <span className="relative inline-flex size-3 rounded-full bg-p1-green"></span>
               </span>
-              <div className="place-content-center text-sm text-p1-darkgreen md:text-xl dark:text-p1-green">
-                Live
-              </div>
               <div className="flex grid-flow-row auto-rows-max justify-start space-x-2"></div>
               <div className="place-content-center">
                 <Link href="#" className="text-sm text-p1-darkgreen md:text-xl dark:text-p1-green">
-                  100 results
+                  Результат поиска: 100
                 </Link>
               </div>
             </div>
@@ -840,7 +832,7 @@ export default function Home() {
             <div className="w-full snap-start border-b border-p1-green/30 bg-p1-white text-xl text-p1-darkgreen hover:border-p1-green hover:bg-p1-green/5 dark:bg-p1-deepdarkgreen">
               <details className="transition-all delay-75 duration-300 ease-in-out">
                 <summary className="relative flex cursor-pointer justify-start py-2 text-p1-darkgreen transition-all delay-75 duration-300 ease-in-out hover:pl-2 dark:text-p1-green dark:hover:text-p1-cyan">
-                  <div className="place-content-center px-4">Price</div>
+                  <div className="place-content-center px-4">Цена</div>
                 </summary>
                 <div className="pt-1 text-center text-p1-darkgreen lg:p-2 dark:text-p1-green">
                   <form className="inline-block w-full place-content-center pb-2 text-center text-p1-darkgreen hover:text-p1-darkgreen focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan">
@@ -867,19 +859,19 @@ export default function Home() {
                             type="text"
                             id="price_min"
                             className="block w-full border-b border-p1-green bg-p1-white p-1 text-center text-sm lining-nums text-p1-darkgreen hover:bg-p2-white2 focus:border-p1-darkgreen focus:ring-p1-darkgreen md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:placeholder:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan dark:focus:border-p1-green dark:focus:ring-p1-cyan"
-                            placeholder="Min"
+                            placeholder="минимальная"
                             required
                           />
                         </div>
                       </div>
-                      <div className="place-content-center">to</div>
+                      <div className="place-content-center">-</div>
                       <div>
                         <div>
                           <input
                             type="text"
                             id="price_max"
                             className="block w-full border-b border-p1-green bg-p1-white p-1 text-center text-sm lining-nums text-p1-darkgreen hover:bg-p2-white2 focus:border-p1-darkgreen focus:ring-p1-darkgreen md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:placeholder:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan dark:focus:border-p1-green dark:focus:ring-p1-cyan"
-                            placeholder="Max"
+                            placeholder="максимальная"
                             required
                           />
                         </div>
@@ -891,7 +883,7 @@ export default function Home() {
                         href="#"
                         className="relative flex place-content-center rounded-b-xl border border-p1-green bg-p1-white p-2 text-p1-darkgreen transition-all duration-100 ease-in-out hover:border-p1-darkgreen hover:bg-p1-cyan/10 hover:text-p1-darkgreen hover:shadow-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan"
                       >
-                        <div className="px-4">Apply</div>
+                        <div className="px-4">Применить</div>
                       </Link>
                     </div>
                   </div>
@@ -902,7 +894,7 @@ export default function Home() {
             <div className="w-full snap-start border-b border-p1-green/30 bg-p1-white text-xl text-p1-darkgreen transition-all delay-75 duration-300 ease-in-out hover:border-p1-green hover:bg-p1-green/5 dark:bg-p1-deepdarkgreen">
               <details className="">
                 <summary className="relative flex cursor-pointer justify-start py-2 text-p1-darkgreen delay-75 duration-300 ease-in-out hover:pl-2 dark:text-p1-green dark:hover:text-p1-cyan">
-                  <div className="place-content-center px-4">Rarity rank</div>
+                  <div className="place-content-center px-4">Рейтинг редкости</div>
                 </summary>
                 <div className="pt-1 text-center text-p1-darkgreen lg:p-2 dark:text-p1-green">
                   <div className="inline-flex space-x-1">
@@ -912,19 +904,19 @@ export default function Home() {
                           type="text"
                           id="price_min"
                           className="block w-full border-b border-p1-green bg-p1-white p-1 text-center text-sm lining-nums text-p1-darkgreen hover:bg-p2-white2 focus:border-p1-darkgreen focus:ring-p1-darkgreen md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:placeholder:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan dark:focus:border-p1-green dark:focus:ring-p1-cyan"
-                          placeholder="Min"
+                          placeholder="минимальный"
                           required
                         />
                       </div>
                     </div>
-                    <div className="place-content-center">to</div>
+                    <div className="place-content-center">-</div>
                     <div>
                       <div>
                         <input
                           type="text"
                           id="price_max"
                           className="block w-full border-b border-p1-green bg-p1-white p-1 text-center text-sm lining-nums text-p1-darkgreen hover:bg-p2-white2 focus:border-p1-darkgreen focus:ring-p1-darkgreen md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:placeholder:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan dark:focus:border-p1-green dark:focus:ring-p1-cyan"
-                          placeholder="Max"
+                          placeholder="максимальный"
                           required
                         />
                       </div>
@@ -936,7 +928,7 @@ export default function Home() {
                       href="#"
                       className="relative flex place-content-center rounded-b-xl border border-p1-green bg-p1-white p-2 text-p1-darkgreen transition-all duration-100 ease-in-out hover:border-p1-darkgreen hover:bg-p1-cyan/10 hover:text-p1-darkgreen hover:shadow-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan"
                     >
-                      <div className="px-4">Apply</div>
+                      <div className="px-4">Применить</div>
                     </Link>
                   </div>
                 </div>
@@ -945,14 +937,14 @@ export default function Home() {
 
             {/* Тraits*/}
             <div className="w-full place-content-center px-6 py-4 text-xl font-bold text-p1-darkgreen dark:text-p1-green">
-              Traits
+              Характеристики
             </div>
             <div className="">
               <div className="h-screen w-full snap-y scroll-mt-4 place-self-start overflow-auto scroll-smooth">
                 <div className="w-full snap-start border-b border-p1-green/30 bg-p1-white text-xl text-p1-darkgreen hover:border-p1-green hover:bg-p1-green/5 dark:bg-p1-deepdarkgreen">
                   <details className="">
                     <summary className="relative flex cursor-pointer justify-between py-2 text-p1-darkgreen delay-75 duration-300 ease-in-out hover:pl-2 dark:text-p1-green dark:hover:text-p1-cyan">
-                      <div className="place-content-center px-4">Slogan</div>
+                      <div className="place-content-center px-4">Лозунг</div>
                       <div className="place-content-center px-4">8</div>
                     </summary>
                     <div className="pt-1 text-center text-p1-darkgreen dark:text-p1-green">
@@ -1023,7 +1015,7 @@ export default function Home() {
                 <div className="w-full snap-start border-b border-p1-green/30 bg-p1-white text-xl text-p1-darkgreen hover:border-p1-green hover:bg-p1-green/5 dark:bg-p1-deepdarkgreen">
                   <details className="">
                     <summary className="relative flex cursor-pointer justify-between py-2 text-p1-darkgreen delay-75 duration-300 ease-in-out hover:pl-2 dark:text-p1-green dark:hover:text-p1-cyan">
-                      <div className="place-content-center px-4">Background</div>
+                      <div className="place-content-center px-4">Фон</div>
                       <div className="place-content-center px-4">46</div>
                     </summary>
                     <div className="pt-1 text-center text-p1-darkgreen dark:text-p1-green">
@@ -1093,7 +1085,7 @@ export default function Home() {
                 <div className="w-full snap-start border-b border-p1-green/30 bg-p1-white text-xl text-p1-darkgreen hover:border-p1-green hover:bg-p1-green/5 dark:bg-p1-deepdarkgreen">
                   <details className="">
                     <summary className="relative flex cursor-pointer justify-between py-2 text-p1-darkgreen delay-75 duration-300 ease-in-out hover:pl-2 dark:text-p1-green dark:hover:text-p1-cyan">
-                      <div className="place-content-center px-4">Skin</div>
+                      <div className="place-content-center px-4">Цвет кожи</div>
                       <div className="place-content-center px-4">8</div>
                     </summary>
                     <div className="pt-1 text-center text-p1-darkgreen dark:text-p1-green">
@@ -1163,7 +1155,7 @@ export default function Home() {
                 <div className="w-full snap-start border-b border-p1-green/30 bg-p1-white text-xl text-p1-darkgreen hover:border-p1-green hover:bg-p1-green/5 dark:bg-p1-deepdarkgreen">
                   <details className="">
                     <summary className="relative flex cursor-pointer justify-between py-2 text-p1-darkgreen delay-75 duration-300 ease-in-out hover:pl-2 dark:text-p1-green dark:hover:text-p1-cyan">
-                      <div className="place-content-center px-4">Eyes</div>
+                      <div className="place-content-center px-4">Глаза</div>
                       <div className="place-content-center px-4">8</div>
                     </summary>
                     <div className="pt-1 text-center text-p1-darkgreen dark:text-p1-green">
@@ -1233,7 +1225,7 @@ export default function Home() {
                 <div className="w-full snap-start border-b border-p1-green/30 bg-p1-white text-xl text-p1-darkgreen hover:border-p1-green hover:bg-p1-green/5 dark:bg-p1-deepdarkgreen">
                   <details className="">
                     <summary className="relative flex cursor-pointer justify-between py-2 text-p1-darkgreen delay-75 duration-300 ease-in-out hover:pl-2 dark:text-p1-green dark:hover:text-p1-cyan">
-                      <div className="place-content-center px-4">Mouth</div>
+                      <div className="place-content-center px-4">Рот</div>
                       <div className="place-content-center px-4">16</div>
                     </summary>
                     <div className="pt-1 text-center text-p1-darkgreen dark:text-p1-green">
@@ -1303,7 +1295,7 @@ export default function Home() {
                 <div className="w-full snap-start border-b border-p1-green/30 bg-p1-white text-xl text-p1-darkgreen hover:border-p1-green hover:bg-p1-green/5 dark:bg-p1-deepdarkgreen">
                   <details className="">
                     <summary className="relative flex cursor-pointer justify-between py-2 text-p1-darkgreen delay-75 duration-300 ease-in-out hover:pl-2 dark:text-p1-green dark:hover:text-p1-cyan">
-                      <div className="place-content-center px-4">Nose</div>
+                      <div className="place-content-center px-4">Нос</div>
                       <div className="place-content-center px-4">4</div>
                     </summary>
                     <div className="pt-1 text-center text-p1-darkgreen dark:text-p1-green">
@@ -1373,7 +1365,7 @@ export default function Home() {
                 <div className="w-full snap-start border-b border-p1-green/30 bg-p1-white text-xl text-p1-darkgreen hover:border-p1-green hover:bg-p1-green/5 dark:bg-p1-deepdarkgreen">
                   <details className="">
                     <summary className="relative flex cursor-pointer justify-between py-2 text-p1-darkgreen delay-75 duration-300 ease-in-out hover:pl-2 dark:text-p1-green dark:hover:text-p1-cyan">
-                      <div className="place-content-center px-4">Earring</div>
+                      <div className="place-content-center px-4">Серьга</div>
                       <div className="place-content-center px-4">7</div>
                     </summary>
                     <div className="pt-1 text-center text-p1-darkgreen dark:text-p1-green">
@@ -1443,7 +1435,7 @@ export default function Home() {
                 <div className="w-full snap-start border-b border-p1-green/30 bg-p1-white text-xl text-p1-darkgreen hover:border-p1-green hover:bg-p1-green/5 dark:bg-p1-deepdarkgreen">
                   <details className="">
                     <summary className="relative flex cursor-pointer justify-between py-2 text-p1-darkgreen delay-75 duration-300 ease-in-out hover:pl-2 dark:text-p1-green dark:hover:text-p1-cyan">
-                      <div className="place-content-center px-4">Eye pads</div>
+                      <div className="place-content-center px-4">Накладка на глаза</div>
                       <div className="place-content-center px-4">3</div>
                     </summary>
                     <div className="pt-1 text-center text-p1-darkgreen dark:text-p1-green">
@@ -1513,7 +1505,7 @@ export default function Home() {
                 <div className="w-full snap-start border-b border-p1-green/30 bg-p1-white text-xl text-p1-darkgreen hover:border-p1-green hover:bg-p1-green/5 dark:bg-p1-deepdarkgreen">
                   <details className="">
                     <summary className="relative flex cursor-pointer justify-between py-2 text-p1-darkgreen delay-75 duration-300 ease-in-out hover:pl-2 dark:text-p1-green dark:hover:text-p1-cyan">
-                      <div className="place-content-center px-4">Shaving</div>
+                      <div className="place-content-center px-4">Растительность на лице</div>
                       <div className="place-content-center px-4">5</div>
                     </summary>
                     <div className="pt-1 text-center text-p1-darkgreen dark:text-p1-green">
@@ -1583,7 +1575,7 @@ export default function Home() {
                 <div className="w-full snap-start border-b border-p1-green/30 bg-p1-white text-xl text-p1-darkgreen hover:border-p1-green hover:bg-p1-green/5 dark:bg-p1-deepdarkgreen">
                   <details className="">
                     <summary className="relative flex cursor-pointer justify-between py-2 text-p1-darkgreen delay-75 duration-300 ease-in-out hover:pl-2 dark:text-p1-green dark:hover:text-p1-cyan">
-                      <div className="place-content-center px-4">Face accessory</div>
+                      <div className="place-content-center px-4">Аксессуар</div>
                       <div className="place-content-center px-4">23</div>
                     </summary>
                     <div className="pt-1 text-center text-p1-darkgreen dark:text-p1-green">
@@ -1653,7 +1645,7 @@ export default function Home() {
                 <div className="w-full snap-start border-b border-p1-green/30 bg-p1-white text-xl text-p1-darkgreen hover:border-p1-green hover:bg-p1-green/5 dark:bg-p1-deepdarkgreen">
                   <details className="">
                     <summary className="relative flex cursor-pointer justify-between py-2 text-p1-darkgreen delay-75 duration-300 ease-in-out hover:pl-2 dark:text-p1-green dark:hover:text-p1-cyan">
-                      <div className="place-content-center px-4">Clothes</div>
+                      <div className="place-content-center px-4">Верхняя одежда</div>
                       <div className="place-content-center px-4">179</div>
                     </summary>
                     <div className="pt-1 text-center text-p1-darkgreen dark:text-p1-green">
@@ -1723,7 +1715,7 @@ export default function Home() {
                 <div className="w-full snap-start border-b border-p1-green/30 bg-p1-white text-xl text-p1-darkgreen hover:border-p1-green hover:bg-p1-green/5 dark:bg-p1-deepdarkgreen">
                   <details className="">
                     <summary className="relative flex cursor-pointer justify-between py-2 text-p1-darkgreen delay-75 duration-300 ease-in-out hover:pl-2 dark:text-p1-green dark:hover:text-p1-cyan">
-                      <div className="place-content-center px-4">Head</div>
+                      <div className="place-content-center px-4">Голова</div>
                       <div className="place-content-center px-4">215</div>
                     </summary>
                     <div className="pt-1 text-center text-p1-darkgreen dark:text-p1-green">
@@ -1793,7 +1785,7 @@ export default function Home() {
                 <div className="w-full snap-start border-b border-p1-green/30 bg-p1-white text-xl text-p1-darkgreen hover:border-p1-green hover:bg-p1-green/5 dark:bg-p1-deepdarkgreen">
                   <details className="">
                     <summary className="relative flex cursor-pointer justify-between py-2 text-p1-darkgreen delay-75 duration-300 ease-in-out hover:pl-2 dark:text-p1-green dark:hover:text-p1-cyan">
-                      <div className="place-content-center px-4">Extra</div>
+                      <div className="place-content-center px-4">Дополнительно</div>
                       <div className="place-content-center px-4">5</div>
                     </summary>
                     <div className="pt-1 text-center text-p1-darkgreen dark:text-p1-green">
@@ -1863,7 +1855,7 @@ export default function Home() {
                 <div className="w-full snap-start border-b border-p1-green/30 bg-p1-white text-xl text-p1-darkgreen hover:border-p1-green hover:bg-p1-green/5 dark:bg-p1-deepdarkgreen">
                   <details className="">
                     <summary className="relative flex cursor-pointer justify-between py-2 text-p1-darkgreen delay-75 duration-300 ease-in-out hover:pl-2 dark:text-p1-green dark:hover:text-p1-cyan">
-                      <div className="place-content-center px-4">Parrot</div>
+                      <div className="place-content-center px-4">Попугай</div>
                       <div className="place-content-center px-4">3</div>
                     </summary>
                     <div className="pt-1 text-center text-p1-darkgreen dark:text-p1-green">
@@ -1933,7 +1925,7 @@ export default function Home() {
                 <div className="w-full snap-start border-b border-p1-green/30 bg-p1-white text-xl text-p1-darkgreen hover:border-p1-green hover:bg-p1-green/5 dark:bg-p1-deepdarkgreen">
                   <details className="">
                     <summary className="relative flex cursor-pointer justify-between py-2 text-p1-darkgreen delay-75 duration-300 ease-in-out hover:pl-2 dark:text-p1-green dark:hover:text-p1-cyan">
-                      <div className="place-content-center px-4">Cupid&apos;s arrow</div>
+                      <div className="place-content-center px-4">Стрела Купидона</div>
                       <div className="place-content-center px-4">2</div>
                     </summary>
                     <div className="pt-1 text-center text-p1-darkgreen dark:text-p1-green">
@@ -2003,7 +1995,7 @@ export default function Home() {
                 <div className="w-full snap-start border-b border-p1-green/30 bg-p1-white text-xl text-p1-darkgreen hover:border-p1-green hover:bg-p1-green/5 dark:bg-p1-deepdarkgreen">
                   <details className="">
                     <summary className="relative flex cursor-pointer justify-between py-2 text-p1-darkgreen delay-75 duration-300 ease-in-out hover:pl-2 dark:text-p1-green dark:hover:text-p1-cyan">
-                      <div className="place-content-center px-4">Tatoo</div>
+                      <div className="place-content-center px-4">Тату</div>
                       <div className="place-content-center px-4">2</div>
                     </summary>
                     <div className="pt-1 text-center text-p1-darkgreen dark:text-p1-green">
