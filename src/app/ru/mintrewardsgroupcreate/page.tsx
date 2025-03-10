@@ -6,10 +6,8 @@ import { Link } from '@/i18n/routing';
 
 export default function Page() {
   const [check, setCheck] = useState(false);
-  const [blockHidden, setBlockHidden] = useState(false);
-  const [visibleArea1, setVisibleArea1] = useState(true);
 
-  const [currentVisibleArea, setCurrentVisibleArea] = useState(2);
+  // const [currentVisibleArea, setCurrentVisibleArea] = useState(2);
   const jumpPoints = ['1', '2', '3'];
   return (
     <div className="mx-auto font-serif">
@@ -37,9 +35,9 @@ export default function Page() {
                     data-target="area12"
                     className="inline-block w-max place-content-center rounded-l-xl border bg-p1-white px-1 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen/15 hover:bg-p1-cyan/25 hover:text-p1-darkgreen focus:border-p1-darkgreen/20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
                     id="toggleButton21"
-                    onClick={() => {
-                      setCurrentVisibleArea(93);
-                    }}
+                    // onClick={() => {
+                    //   setCurrentVisibleArea(93);
+                    // }}
                   >
                     Выбрать все
                   </button>
@@ -53,9 +51,9 @@ export default function Page() {
                     data-target="area12"
                     className="inline-block w-max place-content-center border bg-p1-white px-1 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen/15 hover:bg-p1-cyan/25 hover:text-p1-darkgreen focus:border-p1-darkgreen/20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
                     id="toggleButton22"
-                    onClick={() => {
-                      setCurrentVisibleArea(12);
-                    }}
+                    // onClick={() => {
+                    //   setCurrentVisibleArea(12);
+                    // }}
                   >
                     Редактировать
                   </button>

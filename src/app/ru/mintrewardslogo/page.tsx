@@ -6,7 +6,7 @@ import { Link } from '@/i18n/routing';
 
 export default function Page() {
   const [check, setCheck] = useState(false);
-  const [blockHidden, setBlockHidden] = useState(false);
+  // const [blockHidden, setBlockHidden] = useState(false);
   const [visibleArea1, setVisibleArea1] = useState(true);
 
   const [currentVisibleArea, setCurrentVisibleArea] = useState(2);
