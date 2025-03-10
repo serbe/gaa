@@ -6,7 +6,7 @@
     "dev": "next dev -p 3050",
     "turbopack": "next dev --turbopack -p 3050",
     "build": "next build",
-    "start": "next start",
+    "start": "next start -p 3050",
     "lint": "next lint",
     "fix": "next lint --fix",
     "update": "npm update"
