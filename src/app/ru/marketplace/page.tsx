@@ -195,7 +195,7 @@ export default function Home() {
 
                         <p className="text-p1-darkgreen dark:text-p1-cyan"></p>
                         <button className="w-full place-content-end rounded-md border border-p1-cyan bg-p1-green py-2 text-white hover:bg-p1-darkgreen dark:bg-p1-deepdarkgreen dark:hover:shadow-lg dark:hover:shadow-p1-darkgreen">
-                        Исследовать
+                          Исследовать
                         </button>
                       </div>
                     </div>
@@ -246,7 +246,7 @@ export default function Home() {
                         </h2>
                         <p className="text-p1-darkgreen dark:text-p1-cyan"></p>
                         <button className="w-full place-content-end rounded-md border border-p1-cyan bg-p1-green py-2 text-white hover:bg-p1-darkgreen dark:bg-p1-deepdarkgreen dark:hover:shadow-lg dark:hover:shadow-p1-darkgreen">
-                        Исследовать
+                          Исследовать
                         </button>
                       </div>
                     </div>
@@ -298,7 +298,7 @@ export default function Home() {
                         <p className="text-p1-darkgreen dark:text-p1-cyan"></p>
                         <p className="text-p1-darkgreen dark:text-p1-cyan"></p>
                         <button className="w-full place-content-end rounded-md border border-p1-cyan bg-p1-green py-2 text-white hover:bg-p1-darkgreen dark:bg-p1-deepdarkgreen dark:hover:shadow-lg dark:hover:shadow-p1-darkgreen">
-                        Исследовать
+                          Исследовать
                         </button>
                       </div>
                     </div>
@@ -350,7 +350,7 @@ export default function Home() {
                         <p className="text-p1-darkgreen dark:text-p1-cyan"></p>
                         <p className="text-p1-darkgreen dark:text-p1-cyan"></p>
                         <button className="w-full place-content-end rounded-md border border-p1-cyan bg-p1-green py-2 text-white hover:bg-p1-darkgreen dark:bg-p1-deepdarkgreen dark:hover:shadow-lg dark:hover:shadow-p1-darkgreen">
-                        Исследовать
+                          Исследовать
                         </button>
                       </div>
                     </div>
@@ -402,7 +402,7 @@ export default function Home() {
                         <p className="text-p1-darkgreen dark:text-p1-cyan"></p>
                         <p className="text-p1-darkgreen dark:text-p1-cyan"></p>
                         <button className="w-full place-content-end rounded-md border border-p1-cyan bg-p1-green py-2 text-white hover:bg-p1-darkgreen dark:bg-p1-deepdarkgreen dark:hover:shadow-lg dark:hover:shadow-p1-darkgreen">
-                        Исследовать
+                          Исследовать
                         </button>
                       </div>
                     </div>
@@ -454,7 +454,7 @@ export default function Home() {
                         <p className="text-p1-darkgreen dark:text-p1-cyan"></p>
                         <p className="text-p1-darkgreen dark:text-p1-cyan"></p>
                         <button className="w-full place-content-end rounded-md border border-p1-cyan bg-p1-green py-2 text-white hover:bg-p1-darkgreen dark:bg-p1-deepdarkgreen dark:hover:shadow-lg dark:hover:shadow-p1-darkgreen">
-                        Исследовать
+                          Исследовать
                         </button>
                       </div>
                     </div>
@@ -519,9 +519,13 @@ export default function Home() {
           <div className="grid h-1/5 grid-cols-1 p-1 2xl:grid-cols-2">
             <div className="flex grid-flow-row auto-rows-max justify-start space-x-2 pt-2 md:space-x-2">
               <div>
-                <p className="pt-1 text-xl font-thin md:px-10 md:text-2xl">Количество NFT: 10.000 </p>
+                <p className="pt-1 text-xl font-thin md:px-10 md:text-2xl">
+                  Количество NFT: 10.000
+                </p>
               </div>
-              <p className="pt-1 text-xl font-thin md:px-2 md:text-2xl">Дата создания: Февраль 2025 </p>
+              <p className="pt-1 text-xl font-thin md:px-2 md:text-2xl">
+                Дата создания: Февраль 2025
+              </p>
             </div>
 
             <div className="flex grid-flow-row auto-rows-max justify-end space-x-4 pb-4 pt-2 md:space-x-8">
