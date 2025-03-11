@@ -14,7 +14,7 @@ export default function Page() {
   return (
     <div className="mx-auto max-w-7xl font-serif">
       <JumpButton points={jumpPoints} />
-      <div className="flex flex-wrap justify-center md:flex-nowrap md:justify-between">
+      <div id="1" className="flex flex-wrap justify-center md:flex-nowrap md:justify-between">
         <div className="px-2 text-2xl font-semibold text-p2-orange md:pt-2 md:text-4xl dark:text-amber-700">
           Awards NFT
         </div>
@@ -23,10 +23,8 @@ export default function Page() {
         </div>
       </div>
       <section className="flex flex-wrap rounded-3xl border-p2-orange bg-p1-white p-2 md:flex-nowrap md:border-4 md:shadow-lg dark:border-amber-700 dark:bg-p1-deepdarkgreen">
-        <div
-          className={`grid grid-cols-1 md:w-max ${blockHidden ? '' : 'md:grid-cols-2 md:gap-4'}`}
-        >
-          <div className={`${blockHidden ? 'hidden' : ''}`}>
+        <div className="grid grid-cols-1 md:w-max md:grid-cols-2 md:gap-4">
+          <div>
             <div className="text-center md:text-2xl lg:text-2xl">
               <div className="">
                 <div className="flex flex-wrap px-2 md:flex-nowrap">
@@ -35,7 +33,7 @@ export default function Page() {
                       <p>Присоединяйся к нам</p>
                       <p>Создавай NFT Награды</p>
                     </div>
-                    <div id="1"></div>
+
                     <div className="z-10 rounded-3xl border-2 bg-amber-500 md:sticky md:top-16 dark:border-amber-700 dark:bg-amber-950">
                       <div className="grid grid-cols-1 flex-wrap-reverse gap-2 md:w-full md:grid-cols-2">
                         <div className="place-items-center p-2">
@@ -199,7 +197,7 @@ export default function Page() {
               <div className="place-content-start py-1">
                 <div className="w-full rounded-2xl border border-p1-green bg-p1-white text-xl text-p1-darkgreen shadow-lg dark:bg-p1-deepdarkgreen">
                   <details className="m-2">
-                    <summary className="relative flex cursor-pointer justify-start py-2 text-p1-darkgreen transition-all duration-300 ease-in-out hover:pl-3 dark:text-p1-green dark:hover:border-p1-cyan dark:hover:text-p1-cyan">
+                    <summary className="relative flex cursor-pointer justify-between py-2 text-p1-darkgreen transition-all duration-300 ease-in-out hover:pl-3 dark:text-p1-green dark:hover:border-p1-cyan dark:hover:text-p1-cyan">
                       <div className="px-2">
                         <Image
                           className="size-10 transition-all duration-300 ease-in-out hover:scale-125"
@@ -212,8 +210,8 @@ export default function Page() {
                       <div className="place-content-center px-4">Логотипы спонсоров</div>
                       <div className="place-content-center px-4">Лого</div>
                       <Link
-                        href="#5"
-                        className="my-4 inline-block w-max place-content-center rounded-lg border bg-p1-white px-1 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen/15 hover:bg-p1-cyan/25 hover:text-p1-darkgreen focus:border-p1-darkgreen/20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                        href="#3"
+                        className="w-max justify-between rounded-lg border bg-p1-white px-1 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen/15 hover:bg-p1-cyan/25 hover:text-p1-darkgreen focus:border-p1-darkgreen/20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
                       >
                         +
                       </Link>
@@ -408,8 +406,8 @@ export default function Page() {
                 </div>
               </div>
 
-              <div className="place-content-start py-1" onClick={() => setBlockHidden(false)}>
-                <div id="3"> </div>
+              <div className="place-content-start py-1">
+                <div> </div>
                 <div className="w-full rounded-2xl border border-p1-green bg-p1-white text-xl text-p1-darkgreen shadow-lg dark:bg-p1-deepdarkgreen">
                   {/* Метаданные о мероприятии  */}
 
@@ -636,8 +634,8 @@ export default function Page() {
                   </details>
                 </div>
               </div>
-              <div id="4"> </div>
-              <div className="place-content-start py-1" onClick={() => setBlockHidden(false)}>
+              <div> </div>
+              <div className="place-content-start py-1">
                 <div className="w-full rounded-2xl border border-p1-green bg-p1-white text-xl text-p1-darkgreen shadow-lg dark:bg-p1-deepdarkgreen">
                   {/* Метаданные о победителе  */}
 
@@ -807,7 +805,7 @@ export default function Page() {
               </button>
               <Link
                 href="#4"
-                className="mt-4 rounded-3xl border-2 border-p2-orange bg-p2-white2 px-10 py-8 text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p2-orange hover:text-p1-white dark:border-amber-800 dark:bg-amber-950 dark:text-amber-300/50 dark:hover:border-amber-700 dark:hover:bg-amber-900 dark:hover:text-amber-300"
+                className="mt-4 rounded-3xl border-2 border-p2-orange bg-p2-white2 px-10 py-8 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p2-orange hover:text-p1-white dark:border-amber-800 dark:bg-amber-950 dark:text-amber-300/50 dark:hover:border-amber-700 dark:hover:bg-amber-900 dark:hover:text-amber-300"
               >
                 Перейти в групповое создание NFT
               </Link>
@@ -815,17 +813,14 @@ export default function Page() {
             </div>
           </div>
         </div>
-
-        <div id="area92" className={`${currentVisibleArea == 92 ? '' : 'hidden'}`}>
-          <div></div>
-        </div>
       </section>
-      <div className="pb-96"></div>
-      <div id="5" className="pb-5"></div>
+      <div id="3" className="pb-5"></div>
+
+      <div className="pb-20"></div>
       <div className="place-content-start py-1">
         <div className="w-full rounded-2xl border border-p1-green bg-p1-white text-xl text-p1-darkgreen shadow-lg dark:bg-p1-deepdarkgreen">
           <details className="m-2" open>
-            <summary className="relative flex cursor-pointer justify-start py-2 text-p1-darkgreen transition-all duration-300 ease-in-out hover:pl-3 dark:text-p1-green dark:hover:border-p1-cyan dark:hover:text-p1-cyan">
+            <summary className="relative flex cursor-pointer justify-between py-2 text-p1-darkgreen transition-all duration-300 ease-in-out hover:pl-3 dark:text-p1-green dark:hover:border-p1-cyan dark:hover:text-p1-cyan">
               <div className="px-2">
                 <Image
                   className="size-10 transition-all duration-300 ease-in-out hover:scale-125"
@@ -837,6 +832,12 @@ export default function Page() {
               </div>
               <div className="place-content-center px-4">Логотипы спонсоров</div>
               <div className="place-content-center px-4">Лого</div>
+              <Link
+                href="#1"
+                className="w-max justify-between rounded-lg border bg-p1-white px-1 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen/15 hover:bg-p1-cyan/25 hover:text-p1-darkgreen focus:border-p1-darkgreen/20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+              >
+                Назад
+              </Link>
             </summary>
             <div className="grid grid-cols-2 justify-between p-1 md:grid-cols-2 2xl:grid-cols-2">
               <div className="flex justify-start space-x-1">
@@ -1873,9 +1874,9 @@ export default function Page() {
         </div>
       </div>
 
-      {/* ...Страница награждения*/}
+      {/* ...Страница группового создания NFT*/}
       <div className="h-screen"></div>
-      <div id="6" className="sticky top-16 z-10 bg-p1-white">
+      <div id="4" className="sticky top-16 z-10 bg-p1-white">
         <div className="grid h-1/5 grid-cols-1 place-content-center p-1 text-sm sm:px-2 md:px-4 lg:grid-cols-2 lg:px-6 lg:text-base xl:px-2 xl:text-lg 2xl:px-10 2xl:text-xl">
           <div className="flex grid-flow-row auto-rows-max justify-center space-x-2 lg:justify-start">
             <div>
@@ -1911,7 +1912,7 @@ export default function Page() {
                 </button>
 
                 <Link
-                  href="#2"
+                  href="#1"
                   className="inline-block w-max place-content-center rounded-r-xl border bg-p1-white px-1 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen/15 hover:bg-p1-cyan/25 hover:text-p1-darkgreen focus:border-p1-darkgreen/20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
                 >
                   Назад к форме
@@ -1950,12 +1951,12 @@ export default function Page() {
           </div>
         </div>
       </div>
-      <div className="border-p1-green bg-p1-white pt-4 text-xl text-p1-darkgreen dark:bg-p1-deepdarkgreen">
+      <div className="sticky top-32 border-p1-green bg-p1-white pt-4 text-xl text-p1-darkgreen dark:bg-p1-deepdarkgreen">
         <div className="text-center text-p1-darkgreen dark:text-p1-green">
-          {/* Таблица награждения*/}
+          {/* Таблица группового создания NFT*/}
 
           <div className="dark:border-p1-green">
-            <div className="relative h-96 resize-y overflow-auto scroll-smooth">
+            <div className="relativeh-96 resize-y overflow-auto scroll-smooth">
               <table className="text-left text-xl text-p1-darkgreen dark:text-p1-green">
                 <thead className="sticky top-0 border-b border-p1-green/30 bg-p1-white/100 text-xs uppercase text-p1-darkgreen dark:bg-p1-deepdarkgreen dark:text-p1-green">
                   <tr>
