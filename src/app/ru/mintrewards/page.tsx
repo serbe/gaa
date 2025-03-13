@@ -9,7 +9,7 @@ export default function Page() {
   const [blockHidden, setBlockHidden] = useState(false);
   const [visibleArea1, setVisibleArea1] = useState(true);
   const [visibleArea2, setVisibleArea2] = useState(true);
-  const [visibleArea3, setVisibleArea3] = useState(false);
+  const [visibleArea3, setVisibleArea3] = useState(true);
   const [visibleArea4, setVisibleArea4] = useState(true);
 
   const [currentVisibleArea, setCurrentVisibleArea] = useState(2);
@@ -188,21 +188,15 @@ export default function Page() {
                       <div
                         id="area2"
                         className={` md:pb-96 ${visibleArea2 == false ? '' : 'hidden'}`}
-                      >
-                        222222
-                      </div>
+                      ></div>
                       <div
                         id="area3"
                         className={` md:pb-96 md:pt-56 ${visibleArea3 == false ? '' : 'hidden'}`}
-                      >
-                        3333333
-                      </div>
+                      ></div>
                       <div
                         id="area4"
                         className={` md:pb-96 md:pt-56  ${visibleArea4 == false ? '' : 'hidden'}`}
-                      >
-                        4444444
-                      </div>
+                      ></div>
                     </div>
                   </div>
                 </div>
@@ -435,7 +429,7 @@ export default function Page() {
                 <div className="w-full rounded-2xl border border-p1-green bg-p1-white text-xl text-p1-darkgreen shadow-lg dark:bg-p1-deepdarkgreen">
                   {/* Метаданные о мероприятии  */}
 
-                  <details className="m-2" open>
+                  <details className="m-2">
                     <summary
                       data-target="area3"
                       onClick={() => {
@@ -860,7 +854,7 @@ export default function Page() {
       <div className="place-content-start rounded-3xl border-4 border-p2-orange py-1 dark:border-amber-700 dark:bg-p1-deepdarkgreen">
         <div className="w-full rounded-2xl bg-p1-white text-xl text-p1-darkgreen dark:bg-p1-deepdarkgreen">
           <div className="m-2">
-            <div className="sticky top-16 z-10 bg-p1-white/90 dark:bg-p1-deepdarkgreen">
+            <div className="sticky top-16 z-10 bg-p1-white dark:bg-p1-deepdarkgreen">
               <div className="flex flex-wrap justify-center md:flex-nowrap md:justify-between">
                 <div className="px-2 text-2xl font-semibold text-p2-orange md:pt-2 md:text-4xl dark:text-amber-700">
                   Logo Sponsors
@@ -1927,7 +1921,7 @@ export default function Page() {
       <div className="h-screen"></div>
       <div
         id="4"
-        className="rounded-3xl border-4 border-p2-orange py-1 dark:border-amber-700 dark:bg-p1-deepdarkgreen"
+        className="rounded-3xl border-4 border-p2-orange py-1 pb-4 dark:border-amber-700 dark:bg-p1-deepdarkgreen"
       >
         <div className="sticky top-16 z-20 rounded-3xl bg-p1-white dark:bg-p1-deepdarkgreen">
           <div className="flex flex-wrap justify-center md:flex-nowrap md:justify-between">
@@ -2014,11 +2008,11 @@ export default function Page() {
           </div>
         </div>
         <div className="sticky top-32 border-p1-green bg-p1-white pt-4 text-xl text-p1-darkgreen dark:bg-p1-deepdarkgreen">
-          <div className="text-center text-p1-darkgreen dark:text-p1-green">
+          <div className="p-2 text-center text-p1-darkgreen dark:text-p1-green">
             {/* Таблица группового создания NFT*/}
 
             <div className="pt-16 dark:border-p1-green">
-              <div className="relative resize-y overflow-auto scroll-smooth">
+              <div className="relative resize-y overflow-auto scroll-smooth p-4">
                 <table className="text-left text-xl text-p1-darkgreen dark:text-p1-green">
                   <thead className="sticky top-0 border-b border-p1-green/30 bg-p1-white/100 text-xs uppercase text-p1-darkgreen dark:bg-p1-deepdarkgreen dark:text-p1-green">
                     <tr>
@@ -2301,13 +2295,13 @@ export default function Page() {
                         </Link>
                       </td>
                     </tr>
-                  </tbody>
+                  </tbody><div className="pb-8"></div>
                 </table>
               </div>
             </div>
           </div>
 
-          <div className=""></div>
+          
         </div>
       </div>
 
