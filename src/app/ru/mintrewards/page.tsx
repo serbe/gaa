@@ -8,6 +8,9 @@ export default function Page() {
   const [check, setCheck] = useState(false);
   const [blockHidden, setBlockHidden] = useState(false);
   const [visibleArea1, setVisibleArea1] = useState(true);
+  const [visibleArea2, setVisibleArea2] = useState(true);
+  const [visibleArea3, setVisibleArea3] = useState(false);
+  const [visibleArea4, setVisibleArea4] = useState(true);
 
   const [currentVisibleArea, setCurrentVisibleArea] = useState(2);
   const jumpPoints = ['1', '2', '3', '4', '5', '6', '7', '8'];
@@ -181,10 +184,25 @@ export default function Page() {
                       <p className="place-self-center text-base text-p1-darkgreen md:text-xl dark:text-p1-green">
                         Management GAA
                       </p>
-                      <p className="md:pb-96"></p>
-                      <p className="md:pb-96"></p>
-                      <p className="md:pb-96"></p>
-                      <p className="md:pb-96"></p>
+
+                      <div
+                        id="area2"
+                        className={` md:pb-96 ${visibleArea2 == false ? '' : 'hidden'}`}
+                      >
+                        222222
+                      </div>
+                      <div
+                        id="area3"
+                        className={` md:pb-96 md:pt-56 ${visibleArea3 == false ? '' : 'hidden'}`}
+                      >
+                        3333333
+                      </div>
+                      <div
+                        id="area4"
+                        className={` md:pb-96 md:pt-56  ${visibleArea4 == false ? '' : 'hidden'}`}
+                      >
+                        4444444
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -197,7 +215,13 @@ export default function Page() {
               <div className="place-content-start py-1">
                 <div className="w-full rounded-2xl border border-p1-green bg-p1-white text-xl text-p1-darkgreen shadow-lg dark:bg-p1-deepdarkgreen">
                   <details className="m-2">
-                    <summary className="relative flex cursor-pointer justify-between py-2 text-p1-darkgreen transition-all duration-300 ease-in-out hover:pl-3 dark:text-p1-green dark:hover:border-p1-cyan dark:hover:text-p1-cyan">
+                    <summary
+                      data-target="area2"
+                      onClick={() => {
+                        setVisibleArea2(!visibleArea2);
+                      }}
+                      className="relative flex cursor-pointer justify-between py-2 text-p1-darkgreen transition-all duration-300 ease-in-out hover:pl-3 dark:text-p1-green dark:hover:border-p1-cyan dark:hover:text-p1-cyan"
+                    >
                       <div className="px-2">
                         <Image
                           className="size-10 transition-all duration-300 ease-in-out hover:scale-125"
@@ -412,7 +436,13 @@ export default function Page() {
                   {/* Метаданные о мероприятии  */}
 
                   <details className="m-2" open>
-                    <summary className="relative flex cursor-pointer justify-start py-2 text-p1-darkgreen transition-all duration-300 ease-in-out hover:pl-3 dark:text-p1-green dark:hover:border-p1-cyan dark:hover:text-p1-cyan">
+                    <summary
+                      data-target="area3"
+                      onClick={() => {
+                        setVisibleArea3(!visibleArea3);
+                      }}
+                      className="relative flex cursor-pointer justify-start py-2 text-p1-darkgreen transition-all duration-300 ease-in-out hover:pl-3 dark:text-p1-green dark:hover:border-p1-cyan dark:hover:text-p1-cyan"
+                    >
                       <div className="px-2">
                         <Image
                           className="size-10 transition-all duration-300 ease-in-out hover:scale-125"
@@ -640,7 +670,13 @@ export default function Page() {
                   {/* Метаданные о победителе  */}
 
                   <details className="m-2">
-                    <summary className="relative flex cursor-pointer justify-start py-2 text-p1-darkgreen transition-all duration-300 ease-in-out hover:pl-3 dark:text-p1-green dark:hover:border-p1-cyan dark:hover:text-p1-cyan">
+                    <summary
+                      data-target="area4"
+                      onClick={() => {
+                        setVisibleArea4(!visibleArea4);
+                      }}
+                      className="relative flex cursor-pointer justify-start py-2 text-p1-darkgreen transition-all duration-300 ease-in-out hover:pl-3 dark:text-p1-green dark:hover:border-p1-cyan dark:hover:text-p1-cyan"
+                    >
                       <div className="px-2">
                         <Image
                           className="size-10 transition-all duration-300 ease-in-out hover:scale-125"
@@ -814,166 +850,179 @@ export default function Page() {
           </div>
         </div>
       </section>
+
+      <div className="h-screen"> </div>
       <div id="3" className="pb-5"></div>
 
       <div className="pb-20"></div>
-      <div className="place-content-start py-1">
-        <div className="w-full rounded-2xl border border-p1-green bg-p1-white text-xl text-p1-darkgreen shadow-lg dark:bg-p1-deepdarkgreen">
-          <details className="m-2" open>
-            <summary className="relative flex cursor-pointer justify-between py-2 text-p1-darkgreen transition-all duration-300 ease-in-out hover:pl-3 dark:text-p1-green dark:hover:border-p1-cyan dark:hover:text-p1-cyan">
-              <div className="px-2">
-                <Image
-                  className="size-10 transition-all duration-300 ease-in-out hover:scale-125"
-                  width={480}
-                  height={480}
-                  src="/icon/traits_green.png"
-                  alt="ph"
-                />
-              </div>
-              <div className="place-content-center px-4">Логотипы спонсоров</div>
-              <div className="place-content-center px-4">Лого</div>
-              <Link
-                href="#1"
-                className="w-max justify-between rounded-lg border bg-p1-white px-1 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen/15 hover:bg-p1-cyan/25 hover:text-p1-darkgreen focus:border-p1-darkgreen/20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
-              >
-                Назад
-              </Link>
-            </summary>
-            <div className="grid grid-cols-2 justify-between p-1 md:grid-cols-2 2xl:grid-cols-2">
-              <div className="flex justify-start space-x-1">
-                <div>
-                  <button
-                    data-target="area1"
-                    className="mx-auto justify-start rounded transition-all delay-75 duration-100 ease-in-out hover:bg-p1-cyan/50 hover:shadow-lg focus:shadow-lg dark:shadow-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:brightness-90"
-                    onClick={() => {
-                      setVisibleArea1(!visibleArea1);
-                    }}
-                  >
-                    <Image
-                      className="size-10 p-1"
-                      width={480}
-                      height={480}
-                      src="/icon/2.png"
-                      alt="bt2"
-                    />
-                  </button>
+      {/* ... Логотипы Спонсоров страница добавления */}
+
+      <div className="place-content-start rounded-3xl border-4 border-p2-orange py-1 dark:border-amber-700 dark:bg-p1-deepdarkgreen">
+        <div className="w-full rounded-2xl bg-p1-white text-xl text-p1-darkgreen dark:bg-p1-deepdarkgreen">
+          <div className="m-2">
+            <div className="sticky top-16 z-10 bg-p1-white/90 dark:bg-p1-deepdarkgreen">
+              <div className="flex flex-wrap justify-center md:flex-nowrap md:justify-between">
+                <div className="px-2 text-2xl font-semibold text-p2-orange md:pt-2 md:text-4xl dark:text-amber-700">
+                  Logo Sponsors
+                </div>
+                <div className="px-2 text-2xl font-semibold text-p2-orange md:pt-2 md:text-4xl dark:text-amber-700">
+                  Страница добавления Logo
                 </div>
               </div>
+              <div className="relative flex justify-between py-2 text-p1-darkgreen transition-all duration-300 ease-in-out dark:text-p1-green dark:hover:border-p1-cyan dark:hover:text-p1-cyan">
+                <div className="px-2">
+                  <Image
+                    className="size-10 transition-all duration-300 ease-in-out hover:scale-125"
+                    width={480}
+                    height={480}
+                    src="/icon/traits_green.png"
+                    alt="ph"
+                  />
+                </div>
+                <div className="place-content-center px-4"></div>
+                <div className="place-content-center px-4"></div>
+                <Link
+                  href="#1"
+                  className="w-max justify-between rounded-lg border bg-p1-white px-1 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen/15 hover:bg-p1-cyan/25 hover:text-p1-darkgreen focus:border-p1-darkgreen/20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                >
+                  Назад
+                </Link>
+              </div>
+              <div className="grid grid-cols-2 justify-between p-1 md:grid-cols-2 2xl:grid-cols-2">
+                <div className="flex justify-start space-x-1">
+                  <div>
+                    <button
+                      data-target="area1"
+                      className="mx-auto justify-start rounded transition-all delay-75 duration-100 ease-in-out hover:bg-p1-cyan/50 hover:shadow-lg focus:shadow-lg dark:shadow-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:brightness-90"
+                      onClick={() => {
+                        setVisibleArea1(!visibleArea1);
+                      }}
+                    >
+                      <Image
+                        className="size-10 p-1"
+                        width={480}
+                        height={480}
+                        src="/icon/2.png"
+                        alt="bt2"
+                      />
+                    </button>
+                  </div>
+                </div>
 
-              <div className="flex justify-end">
-                <div className="inline-flex w-full justify-end rounded-md" role="group">
-                  <div className="w-10">
-                    <button
-                      data-target="area2"
-                      className="mx-auto justify-start rounded transition-all delay-75 duration-100 ease-in-out hover:bg-p1-cyan/50 hover:shadow-lg focus:bg-p1-cyan/50 focus:shadow-lg focus:hover:shadow-lg dark:shadow-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:brightness-90 dark:focus:brightness-90"
-                      id="toggleButton2"
-                      onClick={() => {
-                        setCurrentVisibleArea(2);
-                      }}
-                    >
-                      <Image
-                        className="size-10 p-1"
-                        width={480}
-                        height={480}
-                        src="/icon/line.png"
-                        alt="line"
-                      />
-                    </button>
-                  </div>
-                  <div className="w-10">
-                    <button
-                      data-target="area3"
-                      className="mx-auto justify-start rounded transition-all delay-75 duration-100 ease-in-out hover:bg-p1-cyan/50 hover:shadow-lg focus:bg-p1-cyan/50 focus:shadow-lg focus:hover:shadow-lg dark:shadow-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:brightness-90 dark:focus:brightness-90"
-                      id="toggleButton3"
-                      onClick={() => {
-                        setCurrentVisibleArea(3);
-                      }}
-                    >
-                      <Image
-                        className="size-10 p-1"
-                        width={480}
-                        height={480}
-                        src="/icon/16.png"
-                        alt="bt16"
-                      />
-                    </button>
-                  </div>
-                  <div className="w-10">
-                    <button
-                      data-target="area4"
-                      className="mx-auto justify-start rounded transition-all delay-75 duration-100 ease-in-out hover:bg-p1-cyan/50 hover:shadow-lg focus:bg-p1-cyan/50 focus:shadow-lg focus:hover:shadow-lg dark:shadow-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:brightness-90 dark:focus:brightness-90"
-                      id="toggleButton4"
-                      onClick={() => {
-                        setCurrentVisibleArea(4);
-                      }}
-                    >
-                      <Image
-                        className="size-10 p-1"
-                        width={480}
-                        height={480}
-                        src="/icon/9.png"
-                        alt="bt9"
-                      />
-                    </button>
-                  </div>
-                  <div className="w-10">
-                    <button
-                      data-target="area5"
-                      className="mx-auto justify-start rounded transition-all delay-75 duration-100 ease-in-out hover:bg-p1-cyan/50 hover:shadow-lg focus:bg-p1-cyan/50 focus:shadow-lg focus:hover:shadow-lg dark:shadow-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:brightness-90 dark:focus:brightness-90"
-                      id="toggleButton5"
-                      onClick={() => {
-                        setCurrentVisibleArea(5);
-                      }}
-                    >
-                      <Image
-                        className="size-10 p-1"
-                        width={480}
-                        height={480}
-                        src="/icon/4.png"
-                        alt="bt4"
-                      />
-                    </button>
-                  </div>
-                  <div className="w-10">
-                    <button
-                      data-target="area6"
-                      className="mx-auto justify-start rounded transition-all delay-75 duration-100 ease-in-out hover:bg-p1-cyan/50 hover:shadow-lg focus:bg-p1-cyan/50 focus:shadow-lg focus:hover:shadow-lg dark:shadow-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:brightness-90 dark:focus:brightness-90"
-                      id="toggleButton6"
-                      onClick={() => {
-                        setCurrentVisibleArea(6);
-                      }}
-                    >
-                      <Image
-                        className="size-10 p-1"
-                        width={480}
-                        height={480}
-                        src="/icon/3.png"
-                        alt="bt3"
-                      />
-                    </button>
-                  </div>
-                  <div className="w-10">
-                    <button
-                      data-target="area8"
-                      className="mx-auto justify-start rounded transition-all delay-75 duration-100 ease-in-out hover:bg-p1-cyan/50 hover:shadow-lg focus:bg-p1-cyan/50 focus:shadow-lg focus:hover:shadow-lg dark:shadow-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:brightness-90 dark:focus:brightness-90"
-                      id="toggleButton6"
-                      onClick={() => {
-                        setCurrentVisibleArea(8);
-                      }}
-                    >
-                      <Image
-                        className="size-10 p-1"
-                        width={480}
-                        height={480}
-                        src="/icon/1.png"
-                        alt="bt1"
-                      />
-                    </button>
+                <div className="flex justify-end">
+                  <div className="inline-flex w-full justify-end rounded-md" role="group">
+                    <div className="w-10">
+                      <button
+                        data-target="area2"
+                        className="mx-auto justify-start rounded transition-all delay-75 duration-100 ease-in-out hover:bg-p1-cyan/50 hover:shadow-lg focus:bg-p1-cyan/50 focus:shadow-lg focus:hover:shadow-lg dark:shadow-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:brightness-90 dark:focus:brightness-90"
+                        id="toggleButton2"
+                        onClick={() => {
+                          setCurrentVisibleArea(2);
+                        }}
+                      >
+                        <Image
+                          className="size-10 p-1"
+                          width={480}
+                          height={480}
+                          src="/icon/line.png"
+                          alt="line"
+                        />
+                      </button>
+                    </div>
+                    <div className="w-10">
+                      <button
+                        data-target="area3"
+                        className="mx-auto justify-start rounded transition-all delay-75 duration-100 ease-in-out hover:bg-p1-cyan/50 hover:shadow-lg focus:bg-p1-cyan/50 focus:shadow-lg focus:hover:shadow-lg dark:shadow-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:brightness-90 dark:focus:brightness-90"
+                        id="toggleButton3"
+                        onClick={() => {
+                          setCurrentVisibleArea(3);
+                        }}
+                      >
+                        <Image
+                          className="size-10 p-1"
+                          width={480}
+                          height={480}
+                          src="/icon/16.png"
+                          alt="bt16"
+                        />
+                      </button>
+                    </div>
+                    <div className="w-10">
+                      <button
+                        data-target="area4"
+                        className="mx-auto justify-start rounded transition-all delay-75 duration-100 ease-in-out hover:bg-p1-cyan/50 hover:shadow-lg focus:bg-p1-cyan/50 focus:shadow-lg focus:hover:shadow-lg dark:shadow-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:brightness-90 dark:focus:brightness-90"
+                        id="toggleButton4"
+                        onClick={() => {
+                          setCurrentVisibleArea(4);
+                        }}
+                      >
+                        <Image
+                          className="size-10 p-1"
+                          width={480}
+                          height={480}
+                          src="/icon/9.png"
+                          alt="bt9"
+                        />
+                      </button>
+                    </div>
+                    <div className="w-10">
+                      <button
+                        data-target="area5"
+                        className="mx-auto justify-start rounded transition-all delay-75 duration-100 ease-in-out hover:bg-p1-cyan/50 hover:shadow-lg focus:bg-p1-cyan/50 focus:shadow-lg focus:hover:shadow-lg dark:shadow-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:brightness-90 dark:focus:brightness-90"
+                        id="toggleButton5"
+                        onClick={() => {
+                          setCurrentVisibleArea(5);
+                        }}
+                      >
+                        <Image
+                          className="size-10 p-1"
+                          width={480}
+                          height={480}
+                          src="/icon/4.png"
+                          alt="bt4"
+                        />
+                      </button>
+                    </div>
+                    <div className="w-10">
+                      <button
+                        data-target="area6"
+                        className="mx-auto justify-start rounded transition-all delay-75 duration-100 ease-in-out hover:bg-p1-cyan/50 hover:shadow-lg focus:bg-p1-cyan/50 focus:shadow-lg focus:hover:shadow-lg dark:shadow-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:brightness-90 dark:focus:brightness-90"
+                        id="toggleButton6"
+                        onClick={() => {
+                          setCurrentVisibleArea(6);
+                        }}
+                      >
+                        <Image
+                          className="size-10 p-1"
+                          width={480}
+                          height={480}
+                          src="/icon/3.png"
+                          alt="bt3"
+                        />
+                      </button>
+                    </div>
+                    <div className="w-10">
+                      <button
+                        data-target="area8"
+                        className="mx-auto justify-start rounded transition-all delay-75 duration-100 ease-in-out hover:bg-p1-cyan/50 hover:shadow-lg focus:bg-p1-cyan/50 focus:shadow-lg focus:hover:shadow-lg dark:shadow-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:brightness-90 dark:focus:brightness-90"
+                        id="toggleButton6"
+                        onClick={() => {
+                          setCurrentVisibleArea(8);
+                        }}
+                      >
+                        <Image
+                          className="size-10 p-1"
+                          width={480}
+                          height={480}
+                          src="/icon/1.png"
+                          alt="bt1"
+                        />
+                      </button>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-
             <div className="flex max-w-full place-content-center">
               {/* ... левый блок */}
               <div
@@ -984,7 +1033,7 @@ export default function Page() {
                   <div></div>
                 </div>
 
-                <div className="flex items-center text-p1-white">
+                <div className="sticky top-64 flex items-center text-p1-white">
                   <div className="place-items-center">
                     <form className="mx-auto max-w-2xl">
                       <label
@@ -1048,7 +1097,7 @@ export default function Page() {
                       role="group"
                     >
                       <Link
-                        href="#"
+                        href="#3"
                         className="my-4 inline-block w-max place-content-center rounded-lg border bg-p1-white px-1 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen/15 hover:bg-p1-cyan/25 hover:text-p1-darkgreen focus:border-p1-darkgreen/20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
                       >
                         Добавить спонсора +
@@ -1059,11 +1108,11 @@ export default function Page() {
               </div>
 
               {/* ... правый блок */}
-              <div className="relative flex w-full max-w-full grid-flow-row flex-wrap justify-center overflow-hidden">
+              <div className="relative sticky top-64 flex w-full max-w-full grid-flow-row flex-wrap justify-center overflow-hidden">
                 {/* ...Строки Таблица */}
                 <div
                   id="area2"
-                  className={`inline-block h-96 w-max resize-y snap-y  snap-start place-self-start overflow-auto rounded border ${currentVisibleArea == 2 ? '' : 'hidden'}`}
+                  className={`inline-block  h-96 w-max resize-y snap-y  snap-start place-self-start overflow-auto rounded border ${currentVisibleArea == 2 ? '' : 'hidden'}`}
                 >
                   <div className="">
                     <div className="relative snap-start scroll-smooth">
@@ -1624,7 +1673,7 @@ export default function Page() {
 
             <div className="pt-1 text-center lining-nums text-p1-darkgreen sm:px-2 dark:text-p1-green">
               <div className="">
-                <div className="grid grid-cols-2 place-content-center gap-1 text-sm sm:grid-cols-2 sm:gap-2 sm:text-xl 2xl:grid-cols-3">
+                <div className="grid grid-cols-2 place-content-center gap-1 text-sm sm:grid-cols-5 sm:gap-2 sm:text-xl 2xl:grid-cols-8">
                   <div id="area8" className={`${currentVisibleArea == 8 ? '' : 'hidden'}`}>
                     <div className="flex gap-4">
                       <div className="group relative w-full place-self-center overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-100 hover:shadow-lg hover:shadow-p1-cyan group-hover:shadow-sm dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
@@ -1870,383 +1919,399 @@ export default function Page() {
               </div>
             </div>
             <div></div>
-          </details>
+          </div>
         </div>
       </div>
 
       {/* ...Страница группового создания NFT*/}
       <div className="h-screen"></div>
-      <div id="4" className="sticky top-16 z-10 bg-p1-white">
-        <div className="grid h-1/5 grid-cols-1 place-content-center p-1 text-sm sm:px-2 md:px-4 lg:grid-cols-2 lg:px-6 lg:text-base xl:px-2 xl:text-lg 2xl:px-10 2xl:text-xl">
-          <div className="flex grid-flow-row auto-rows-max justify-center space-x-2 lg:justify-start">
-            <div>
-              <div
-                className="inline-flex w-full justify-center rounded-md pt-1 shadow-sm"
-                role="group"
-              >
-                <button
-                  data-target="area12"
-                  className="inline-block w-max place-content-center rounded-l-xl border bg-p1-white px-1 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen/15 hover:bg-p1-cyan/25 hover:text-p1-darkgreen focus:border-p1-darkgreen/20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
-                  id="toggleButton21"
-                  onClick={() => {
-                    setCurrentVisibleArea(93);
-                  }}
-                >
-                  Выбрать все
-                </button>
-                <Link
-                  href="#"
-                  className="inline-block w-max place-content-center border bg-p1-white px-1 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen/15 hover:bg-p1-cyan/25 hover:text-p1-darkgreen focus:border-p1-darkgreen/20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
-                >
-                  Создать NFT
-                </Link>
-                <button
-                  data-target="area12"
-                  className="inline-block w-max place-content-center border bg-p1-white px-1 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen/15 hover:bg-p1-cyan/25 hover:text-p1-darkgreen focus:border-p1-darkgreen/20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
-                  id="toggleButton22"
-                  onClick={() => {
-                    setCurrentVisibleArea(12);
-                  }}
-                >
-                  Редактировать
-                </button>
-
-                <Link
-                  href="#1"
-                  className="inline-block w-max place-content-center rounded-r-xl border bg-p1-white px-1 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen/15 hover:bg-p1-cyan/25 hover:text-p1-darkgreen focus:border-p1-darkgreen/20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
-                >
-                  Назад к форме
-                </Link>
-              </div>
+      <div
+        id="4"
+        className="rounded-3xl border-4 border-p2-orange py-1 dark:border-amber-700 dark:bg-p1-deepdarkgreen"
+      >
+        <div className="sticky top-16 z-20 rounded-3xl bg-p1-white dark:bg-p1-deepdarkgreen">
+          <div className="flex flex-wrap justify-center md:flex-nowrap md:justify-between">
+            <div className="px-2 text-2xl font-semibold text-p2-orange md:pt-2 md:text-4xl dark:text-amber-700">
+              Group Create NFT
+            </div>
+            <div className="px-2 text-2xl font-semibold text-p2-orange md:pt-2 md:text-4xl dark:text-amber-700">
+              Групповое создание NFT
             </div>
           </div>
 
-          <div className="flex flex-auto grid-flow-row auto-rows-max justify-center space-x-8 lg:justify-end">
-            <div className="">
-              <div
-                className="inline-flex w-full flex-auto justify-center rounded-md pt-1 shadow-sm"
-                role="group"
-              >
-                <Link
-                  href="/mynfts"
-                  className="inline-block w-max place-content-center rounded-l-xl border bg-p1-white px-1 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen/15 hover:bg-p1-cyan/25 hover:text-p1-darkgreen focus:border-p1-darkgreen/20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+          <div className="grid h-1/5 grid-cols-1 place-content-center p-1 text-sm sm:px-2 md:px-4 lg:grid-cols-2 lg:px-6 lg:text-base xl:px-2 xl:text-lg 2xl:px-10 2xl:text-xl">
+            <div className="flex grid-flow-row auto-rows-max justify-center space-x-2 lg:justify-start">
+              <div>
+                <div
+                  className="inline-flex w-full justify-center rounded-md pt-1 shadow-sm"
+                  role="group"
                 >
-                  My NFTs
-                </Link>
-                <Link
-                  href="#"
-                  className="inline-block w-max place-content-center border bg-p1-white px-1 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen/15 hover:bg-p1-cyan/25 hover:text-p1-darkgreen focus:border-p1-darkgreen/20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
-                >
-                  Ready to be NFT
-                </Link>
+                  <button
+                    data-target="area12"
+                    className="inline-block w-max place-content-center rounded-l-xl border bg-p1-white px-1 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen/15 hover:bg-p1-cyan/25 hover:text-p1-darkgreen focus:border-p1-darkgreen/20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                    id="toggleButton21"
+                    onClick={() => {
+                      setCurrentVisibleArea(93);
+                    }}
+                  >
+                    Выбрать все
+                  </button>
+                  <Link
+                    href="#"
+                    className="inline-block w-max place-content-center border bg-p1-white px-1 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen/15 hover:bg-p1-cyan/25 hover:text-p1-darkgreen focus:border-p1-darkgreen/20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                  >
+                    Создать NFT
+                  </Link>
+                  <button
+                    data-target="area12"
+                    className="inline-block w-max place-content-center border bg-p1-white px-1 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen/15 hover:bg-p1-cyan/25 hover:text-p1-darkgreen focus:border-p1-darkgreen/20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                    id="toggleButton22"
+                    onClick={() => {
+                      setCurrentVisibleArea(12);
+                    }}
+                  >
+                    Редактировать
+                  </button>
 
-                <Link
-                  href="#"
-                  className="inline-block w-max place-content-center rounded-r-xl border bg-p1-white px-1 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen/15 hover:bg-p1-cyan/25 hover:text-p1-darkgreen focus:border-p1-darkgreen/20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                  <Link
+                    href="#1"
+                    className="inline-block w-max place-content-center rounded-r-xl border bg-p1-white px-1 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen/15 hover:bg-p1-cyan/25 hover:text-p1-darkgreen focus:border-p1-darkgreen/20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                  >
+                    Назад к форме
+                  </Link>
+                </div>
+              </div>
+            </div>
+
+            <div className="flex flex-auto grid-flow-row auto-rows-max justify-center space-x-8 lg:justify-end">
+              <div className="">
+                <div
+                  className="inline-flex w-full flex-auto justify-center rounded-md pt-1 shadow-sm"
+                  role="group"
                 >
-                  Not All data
-                </Link>
+                  <Link
+                    href="/mynfts"
+                    className="inline-block w-max place-content-center rounded-l-xl border bg-p1-white px-1 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen/15 hover:bg-p1-cyan/25 hover:text-p1-darkgreen focus:border-p1-darkgreen/20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                  >
+                    My NFTs
+                  </Link>
+                  <Link
+                    href="#"
+                    className="inline-block w-max place-content-center border bg-p1-white px-1 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen/15 hover:bg-p1-cyan/25 hover:text-p1-darkgreen focus:border-p1-darkgreen/20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                  >
+                    Ready to be NFT
+                  </Link>
+
+                  <Link
+                    href="#"
+                    className="inline-block w-max place-content-center rounded-r-xl border bg-p1-white px-1 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen/15 hover:bg-p1-cyan/25 hover:text-p1-darkgreen focus:border-p1-darkgreen/20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                  >
+                    Not All data
+                  </Link>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-      <div className="sticky top-32 border-p1-green bg-p1-white pt-4 text-xl text-p1-darkgreen dark:bg-p1-deepdarkgreen">
-        <div className="text-center text-p1-darkgreen dark:text-p1-green">
-          {/* Таблица группового создания NFT*/}
+        <div className="sticky top-32 border-p1-green bg-p1-white pt-4 text-xl text-p1-darkgreen dark:bg-p1-deepdarkgreen">
+          <div className="text-center text-p1-darkgreen dark:text-p1-green">
+            {/* Таблица группового создания NFT*/}
 
-          <div className="dark:border-p1-green">
-            <div className="relativeh-96 resize-y overflow-auto scroll-smooth">
-              <table className="text-left text-xl text-p1-darkgreen dark:text-p1-green">
-                <thead className="sticky top-0 border-b border-p1-green/30 bg-p1-white/100 text-xs uppercase text-p1-darkgreen dark:bg-p1-deepdarkgreen dark:text-p1-green">
-                  <tr>
-                    <th scope="col" className="p-2 text-center">
-                      choose
-                    </th>
+            <div className="pt-16 dark:border-p1-green">
+              <div className="relative resize-y overflow-auto scroll-smooth">
+                <table className="text-left text-xl text-p1-darkgreen dark:text-p1-green">
+                  <thead className="sticky top-0 border-b border-p1-green/30 bg-p1-white/100 text-xs uppercase text-p1-darkgreen dark:bg-p1-deepdarkgreen dark:text-p1-green">
+                    <tr>
+                      <th scope="col" className="p-2 text-center">
+                        choose
+                      </th>
 
-                    <th scope="col" className="p-2 text-center">
-                      status
-                    </th>
-                    <th scope="col" className="px-6 py-3">
-                      <div className="flex items-center">
-                        Item
-                        <Link href="#">
-                          <svg
-                            className="ms-1.5 size-3"
-                            aria-hidden="true"
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="currentColor"
-                            viewBox="0 0 24 24"
-                          >
-                            <path d="M8.574 11.024h6.852a2.075 2.075 0 0 0 1.847-1.086 1.9 1.9 0 0 0-.11-1.986L13.736 2.9a2.122 2.122 0 0 0-3.472 0L6.837 7.952a1.9 1.9 0 0 0-.11 1.986 2.074 2.074 0 0 0 1.847 1.086Zm6.852 1.952H8.574a2.072 2.072 0 0 0-1.847 1.087 1.9 1.9 0 0 0 .11 1.985l3.426 5.05a2.123 2.123 0 0 0 3.472 0l3.427-5.05a1.9 1.9 0 0 0 .11-1.985 2.074 2.074 0 0 0-1.846-1.087Z" />
-                          </svg>
-                        </Link>
-                      </div>
-                    </th>
-                    <th scope="col" className="px-6 py-3">
-                      <div className="flex items-center">
-                        Collection
-                        <Link href="#">
-                          <svg
-                            className="ms-1.5 size-3"
-                            aria-hidden="true"
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="currentColor"
-                            viewBox="0 0 24 24"
-                          >
-                            <path d="M8.574 11.024h6.852a2.075 2.075 0 0 0 1.847-1.086 1.9 1.9 0 0 0-.11-1.986L13.736 2.9a2.122 2.122 0 0 0-3.472 0L6.837 7.952a1.9 1.9 0 0 0-.11 1.986 2.074 2.074 0 0 0 1.847 1.086Zm6.852 1.952H8.574a2.072 2.072 0 0 0-1.847 1.087 1.9 1.9 0 0 0 .11 1.985l3.426 5.05a2.123 2.123 0 0 0 3.472 0l3.427-5.05a1.9 1.9 0 0 0 .11-1.985 2.074 2.074 0 0 0-1.846-1.087Z" />
-                          </svg>
-                        </Link>
-                      </div>
-                    </th>
+                      <th scope="col" className="p-2 text-center">
+                        status
+                      </th>
+                      <th scope="col" className="px-6 py-3">
+                        <div className="flex items-center">
+                          Item
+                          <Link href="#">
+                            <svg
+                              className="ms-1.5 size-3"
+                              aria-hidden="true"
+                              xmlns="http://www.w3.org/2000/svg"
+                              fill="currentColor"
+                              viewBox="0 0 24 24"
+                            >
+                              <path d="M8.574 11.024h6.852a2.075 2.075 0 0 0 1.847-1.086 1.9 1.9 0 0 0-.11-1.986L13.736 2.9a2.122 2.122 0 0 0-3.472 0L6.837 7.952a1.9 1.9 0 0 0-.11 1.986 2.074 2.074 0 0 0 1.847 1.086Zm6.852 1.952H8.574a2.072 2.072 0 0 0-1.847 1.087 1.9 1.9 0 0 0 .11 1.985l3.426 5.05a2.123 2.123 0 0 0 3.472 0l3.427-5.05a1.9 1.9 0 0 0 .11-1.985 2.074 2.074 0 0 0-1.846-1.087Z" />
+                            </svg>
+                          </Link>
+                        </div>
+                      </th>
+                      <th scope="col" className="px-6 py-3">
+                        <div className="flex items-center">
+                          Collection
+                          <Link href="#">
+                            <svg
+                              className="ms-1.5 size-3"
+                              aria-hidden="true"
+                              xmlns="http://www.w3.org/2000/svg"
+                              fill="currentColor"
+                              viewBox="0 0 24 24"
+                            >
+                              <path d="M8.574 11.024h6.852a2.075 2.075 0 0 0 1.847-1.086 1.9 1.9 0 0 0-.11-1.986L13.736 2.9a2.122 2.122 0 0 0-3.472 0L6.837 7.952a1.9 1.9 0 0 0-.11 1.986 2.074 2.074 0 0 0 1.847 1.086Zm6.852 1.952H8.574a2.072 2.072 0 0 0-1.847 1.087 1.9 1.9 0 0 0 .11 1.985l3.426 5.05a2.123 2.123 0 0 0 3.472 0l3.427-5.05a1.9 1.9 0 0 0 .11-1.985 2.074 2.074 0 0 0-1.846-1.087Z" />
+                            </svg>
+                          </Link>
+                        </div>
+                      </th>
 
-                    <th scope="col" className="px-6 py-3">
-                      <div className="flex items-center">
-                        Number
-                        <Link href="#">
-                          <svg
-                            className="ms-1.5 size-3"
-                            aria-hidden="true"
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="currentColor"
-                            viewBox="0 0 24 24"
-                          >
-                            <path d="M8.574 11.024h6.852a2.075 2.075 0 0 0 1.847-1.086 1.9 1.9 0 0 0-.11-1.986L13.736 2.9a2.122 2.122 0 0 0-3.472 0L6.837 7.952a1.9 1.9 0 0 0-.11 1.986 2.074 2.074 0 0 0 1.847 1.086Zm6.852 1.952H8.574a2.072 2.072 0 0 0-1.847 1.087 1.9 1.9 0 0 0 .11 1.985l3.426 5.05a2.123 2.123 0 0 0 3.472 0l3.427-5.05a1.9 1.9 0 0 0 .11-1.985 2.074 2.074 0 0 0-1.846-1.087Z" />
-                          </svg>
-                        </Link>
-                      </div>
-                    </th>
-                    <th scope="col" className="px-6 py-3">
-                      <div className="flex items-center">
-                        Мероприятие
-                        <Link href="#">
-                          <svg
-                            className="ms-1.5 size-3"
-                            aria-hidden="true"
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="currentColor"
-                            viewBox="0 0 24 24"
-                          >
-                            <path d="M8.574 11.024h6.852a2.075 2.075 0 0 0 1.847-1.086 1.9 1.9 0 0 0-.11-1.986L13.736 2.9a2.122 2.122 0 0 0-3.472 0L6.837 7.952a1.9 1.9 0 0 0-.11 1.986 2.074 2.074 0 0 0 1.847 1.086Zm6.852 1.952H8.574a2.072 2.072 0 0 0-1.847 1.087 1.9 1.9 0 0 0 .11 1.985l3.426 5.05a2.123 2.123 0 0 0 3.472 0l3.427-5.05a1.9 1.9 0 0 0 .11-1.985 2.074 2.074 0 0 0-1.846-1.087Z" />
-                          </svg>
-                        </Link>
-                      </div>
-                    </th>
+                      <th scope="col" className="px-6 py-3">
+                        <div className="flex items-center">
+                          Number
+                          <Link href="#">
+                            <svg
+                              className="ms-1.5 size-3"
+                              aria-hidden="true"
+                              xmlns="http://www.w3.org/2000/svg"
+                              fill="currentColor"
+                              viewBox="0 0 24 24"
+                            >
+                              <path d="M8.574 11.024h6.852a2.075 2.075 0 0 0 1.847-1.086 1.9 1.9 0 0 0-.11-1.986L13.736 2.9a2.122 2.122 0 0 0-3.472 0L6.837 7.952a1.9 1.9 0 0 0-.11 1.986 2.074 2.074 0 0 0 1.847 1.086Zm6.852 1.952H8.574a2.072 2.072 0 0 0-1.847 1.087 1.9 1.9 0 0 0 .11 1.985l3.426 5.05a2.123 2.123 0 0 0 3.472 0l3.427-5.05a1.9 1.9 0 0 0 .11-1.985 2.074 2.074 0 0 0-1.846-1.087Z" />
+                            </svg>
+                          </Link>
+                        </div>
+                      </th>
+                      <th scope="col" className="px-6 py-3">
+                        <div className="flex items-center">
+                          Мероприятие
+                          <Link href="#">
+                            <svg
+                              className="ms-1.5 size-3"
+                              aria-hidden="true"
+                              xmlns="http://www.w3.org/2000/svg"
+                              fill="currentColor"
+                              viewBox="0 0 24 24"
+                            >
+                              <path d="M8.574 11.024h6.852a2.075 2.075 0 0 0 1.847-1.086 1.9 1.9 0 0 0-.11-1.986L13.736 2.9a2.122 2.122 0 0 0-3.472 0L6.837 7.952a1.9 1.9 0 0 0-.11 1.986 2.074 2.074 0 0 0 1.847 1.086Zm6.852 1.952H8.574a2.072 2.072 0 0 0-1.847 1.087 1.9 1.9 0 0 0 .11 1.985l3.426 5.05a2.123 2.123 0 0 0 3.472 0l3.427-5.05a1.9 1.9 0 0 0 .11-1.985 2.074 2.074 0 0 0-1.846-1.087Z" />
+                            </svg>
+                          </Link>
+                        </div>
+                      </th>
 
-                    <th scope="col" className="px-6 py-3">
-                      <div className="flex items-center">
-                        Номинация
-                        <Link href="#">
-                          <svg
-                            className="ms-1.5 size-3"
-                            aria-hidden="true"
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="currentColor"
-                            viewBox="0 0 24 24"
-                          >
-                            <path d="M8.574 11.024h6.852a2.075 2.075 0 0 0 1.847-1.086 1.9 1.9 0 0 0-.11-1.986L13.736 2.9a2.122 2.122 0 0 0-3.472 0L6.837 7.952a1.9 1.9 0 0 0-.11 1.986 2.074 2.074 0 0 0 1.847 1.086Zm6.852 1.952H8.574a2.072 2.072 0 0 0-1.847 1.087 1.9 1.9 0 0 0 .11 1.985l3.426 5.05a2.123 2.123 0 0 0 3.472 0l3.427-5.05a1.9 1.9 0 0 0 .11-1.985 2.074 2.074 0 0 0-1.846-1.087Z" />
-                          </svg>
-                        </Link>
-                      </div>
-                    </th>
-                    <th scope="col" className="px-6 py-3">
-                      <div className="flex items-center">
-                        Название команды
-                        <Link href="#">
-                          <svg
-                            className="ms-1.5 size-3"
-                            aria-hidden="true"
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="currentColor"
-                            viewBox="0 0 24 24"
-                          >
-                            <path d="M8.574 11.024h6.852a2.075 2.075 0 0 0 1.847-1.086 1.9 1.9 0 0 0-.11-1.986L13.736 2.9a2.122 2.122 0 0 0-3.472 0L6.837 7.952a1.9 1.9 0 0 0-.11 1.986 2.074 2.074 0 0 0 1.847 1.086Zm6.852 1.952H8.574a2.072 2.072 0 0 0-1.847 1.087 1.9 1.9 0 0 0 .11 1.985l3.426 5.05a2.123 2.123 0 0 0 3.472 0l3.427-5.05a1.9 1.9 0 0 0 .11-1.985 2.074 2.074 0 0 0-1.846-1.087Z" />
-                          </svg>
-                        </Link>
-                      </div>
-                    </th>
-                    <th scope="col" className="px-6 py-3">
-                      <div className="flex items-center">
-                        Item
-                        <Link href="#">
-                          <svg
-                            className="ms-1.5 size-3"
-                            aria-hidden="true"
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="currentColor"
-                            viewBox="0 0 24 24"
-                          >
-                            <path d="M8.574 11.024h6.852a2.075 2.075 0 0 0 1.847-1.086 1.9 1.9 0 0 0-.11-1.986L13.736 2.9a2.122 2.122 0 0 0-3.472 0L6.837 7.952a1.9 1.9 0 0 0-.11 1.986 2.074 2.074 0 0 0 1.847 1.086Zm6.852 1.952H8.574a2.072 2.072 0 0 0-1.847 1.087 1.9 1.9 0 0 0 .11 1.985l3.426 5.05a2.123 2.123 0 0 0 3.472 0l3.427-5.05a1.9 1.9 0 0 0 .11-1.985 2.074 2.074 0 0 0-1.846-1.087Z" />
-                          </svg>
-                        </Link>
-                      </div>
-                    </th>
-                    <th scope="col" className="px-6 py-3">
-                      <div className="flex items-center">
-                        Награждаемый ФИО/Ник-имя
-                        <Link href="#">
-                          <svg
-                            className="ms-1.5 size-3"
-                            aria-hidden="true"
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="currentColor"
-                            viewBox="0 0 24 24"
-                          >
-                            <path d="M8.574 11.024h6.852a2.075 2.075 0 0 0 1.847-1.086 1.9 1.9 0 0 0-.11-1.986L13.736 2.9a2.122 2.122 0 0 0-3.472 0L6.837 7.952a1.9 1.9 0 0 0-.11 1.986 2.074 2.074 0 0 0 1.847 1.086Zm6.852 1.952H8.574a2.072 2.072 0 0 0-1.847 1.087 1.9 1.9 0 0 0 .11 1.985l3.426 5.05a2.123 2.123 0 0 0 3.472 0l3.427-5.05a1.9 1.9 0 0 0 .11-1.985 2.074 2.074 0 0 0-1.846-1.087Z" />
-                          </svg>
-                        </Link>
-                      </div>
-                    </th>
-                    <th scope="col" className="px-6 py-3">
-                      <div className="flex items-center">
-                        e-mail
-                        <Link href="#">
-                          <svg
-                            className="ms-1.5 size-3"
-                            aria-hidden="true"
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="currentColor"
-                            viewBox="0 0 24 24"
-                          >
-                            <path d="M8.574 11.024h6.852a2.075 2.075 0 0 0 1.847-1.086 1.9 1.9 0 0 0-.11-1.986L13.736 2.9a2.122 2.122 0 0 0-3.472 0L6.837 7.952a1.9 1.9 0 0 0-.11 1.986 2.074 2.074 0 0 0 1.847 1.086Zm6.852 1.952H8.574a2.072 2.072 0 0 0-1.847 1.087 1.9 1.9 0 0 0 .11 1.985l3.426 5.05a2.123 2.123 0 0 0 3.472 0l3.427-5.05a1.9 1.9 0 0 0 .11-1.985 2.074 2.074 0 0 0-1.846-1.087Z" />
-                          </svg>
-                        </Link>
-                      </div>
-                    </th>
-                    <th scope="col" className="px-6 py-3">
-                      <div className="flex items-center">
-                        Кошелек
-                        <Link href="#">
-                          <svg
-                            className="ms-1.5 size-3"
-                            aria-hidden="true"
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="currentColor"
-                            viewBox="0 0 24 24"
-                          >
-                            <path d="M8.574 11.024h6.852a2.075 2.075 0 0 0 1.847-1.086 1.9 1.9 0 0 0-.11-1.986L13.736 2.9a2.122 2.122 0 0 0-3.472 0L6.837 7.952a1.9 1.9 0 0 0-.11 1.986 2.074 2.074 0 0 0 1.847 1.086Zm6.852 1.952H8.574a2.072 2.072 0 0 0-1.847 1.087 1.9 1.9 0 0 0 .11 1.985l3.426 5.05a2.123 2.123 0 0 0 3.472 0l3.427-5.05a1.9 1.9 0 0 0 .11-1.985 2.074 2.074 0 0 0-1.846-1.087Z" />
-                          </svg>
-                        </Link>
-                      </div>
-                    </th>
+                      <th scope="col" className="px-6 py-3">
+                        <div className="flex items-center">
+                          Номинация
+                          <Link href="#">
+                            <svg
+                              className="ms-1.5 size-3"
+                              aria-hidden="true"
+                              xmlns="http://www.w3.org/2000/svg"
+                              fill="currentColor"
+                              viewBox="0 0 24 24"
+                            >
+                              <path d="M8.574 11.024h6.852a2.075 2.075 0 0 0 1.847-1.086 1.9 1.9 0 0 0-.11-1.986L13.736 2.9a2.122 2.122 0 0 0-3.472 0L6.837 7.952a1.9 1.9 0 0 0-.11 1.986 2.074 2.074 0 0 0 1.847 1.086Zm6.852 1.952H8.574a2.072 2.072 0 0 0-1.847 1.087 1.9 1.9 0 0 0 .11 1.985l3.426 5.05a2.123 2.123 0 0 0 3.472 0l3.427-5.05a1.9 1.9 0 0 0 .11-1.985 2.074 2.074 0 0 0-1.846-1.087Z" />
+                            </svg>
+                          </Link>
+                        </div>
+                      </th>
+                      <th scope="col" className="px-6 py-3">
+                        <div className="flex items-center">
+                          Название команды
+                          <Link href="#">
+                            <svg
+                              className="ms-1.5 size-3"
+                              aria-hidden="true"
+                              xmlns="http://www.w3.org/2000/svg"
+                              fill="currentColor"
+                              viewBox="0 0 24 24"
+                            >
+                              <path d="M8.574 11.024h6.852a2.075 2.075 0 0 0 1.847-1.086 1.9 1.9 0 0 0-.11-1.986L13.736 2.9a2.122 2.122 0 0 0-3.472 0L6.837 7.952a1.9 1.9 0 0 0-.11 1.986 2.074 2.074 0 0 0 1.847 1.086Zm6.852 1.952H8.574a2.072 2.072 0 0 0-1.847 1.087 1.9 1.9 0 0 0 .11 1.985l3.426 5.05a2.123 2.123 0 0 0 3.472 0l3.427-5.05a1.9 1.9 0 0 0 .11-1.985 2.074 2.074 0 0 0-1.846-1.087Z" />
+                            </svg>
+                          </Link>
+                        </div>
+                      </th>
+                      <th scope="col" className="px-6 py-3">
+                        <div className="flex items-center">
+                          Item
+                          <Link href="#">
+                            <svg
+                              className="ms-1.5 size-3"
+                              aria-hidden="true"
+                              xmlns="http://www.w3.org/2000/svg"
+                              fill="currentColor"
+                              viewBox="0 0 24 24"
+                            >
+                              <path d="M8.574 11.024h6.852a2.075 2.075 0 0 0 1.847-1.086 1.9 1.9 0 0 0-.11-1.986L13.736 2.9a2.122 2.122 0 0 0-3.472 0L6.837 7.952a1.9 1.9 0 0 0-.11 1.986 2.074 2.074 0 0 0 1.847 1.086Zm6.852 1.952H8.574a2.072 2.072 0 0 0-1.847 1.087 1.9 1.9 0 0 0 .11 1.985l3.426 5.05a2.123 2.123 0 0 0 3.472 0l3.427-5.05a1.9 1.9 0 0 0 .11-1.985 2.074 2.074 0 0 0-1.846-1.087Z" />
+                            </svg>
+                          </Link>
+                        </div>
+                      </th>
+                      <th scope="col" className="px-6 py-3">
+                        <div className="flex items-center">
+                          Награждаемый ФИО/Ник-имя
+                          <Link href="#">
+                            <svg
+                              className="ms-1.5 size-3"
+                              aria-hidden="true"
+                              xmlns="http://www.w3.org/2000/svg"
+                              fill="currentColor"
+                              viewBox="0 0 24 24"
+                            >
+                              <path d="M8.574 11.024h6.852a2.075 2.075 0 0 0 1.847-1.086 1.9 1.9 0 0 0-.11-1.986L13.736 2.9a2.122 2.122 0 0 0-3.472 0L6.837 7.952a1.9 1.9 0 0 0-.11 1.986 2.074 2.074 0 0 0 1.847 1.086Zm6.852 1.952H8.574a2.072 2.072 0 0 0-1.847 1.087 1.9 1.9 0 0 0 .11 1.985l3.426 5.05a2.123 2.123 0 0 0 3.472 0l3.427-5.05a1.9 1.9 0 0 0 .11-1.985 2.074 2.074 0 0 0-1.846-1.087Z" />
+                            </svg>
+                          </Link>
+                        </div>
+                      </th>
+                      <th scope="col" className="px-6 py-3">
+                        <div className="flex items-center">
+                          e-mail
+                          <Link href="#">
+                            <svg
+                              className="ms-1.5 size-3"
+                              aria-hidden="true"
+                              xmlns="http://www.w3.org/2000/svg"
+                              fill="currentColor"
+                              viewBox="0 0 24 24"
+                            >
+                              <path d="M8.574 11.024h6.852a2.075 2.075 0 0 0 1.847-1.086 1.9 1.9 0 0 0-.11-1.986L13.736 2.9a2.122 2.122 0 0 0-3.472 0L6.837 7.952a1.9 1.9 0 0 0-.11 1.986 2.074 2.074 0 0 0 1.847 1.086Zm6.852 1.952H8.574a2.072 2.072 0 0 0-1.847 1.087 1.9 1.9 0 0 0 .11 1.985l3.426 5.05a2.123 2.123 0 0 0 3.472 0l3.427-5.05a1.9 1.9 0 0 0 .11-1.985 2.074 2.074 0 0 0-1.846-1.087Z" />
+                            </svg>
+                          </Link>
+                        </div>
+                      </th>
+                      <th scope="col" className="px-6 py-3">
+                        <div className="flex items-center">
+                          Кошелек
+                          <Link href="#">
+                            <svg
+                              className="ms-1.5 size-3"
+                              aria-hidden="true"
+                              xmlns="http://www.w3.org/2000/svg"
+                              fill="currentColor"
+                              viewBox="0 0 24 24"
+                            >
+                              <path d="M8.574 11.024h6.852a2.075 2.075 0 0 0 1.847-1.086 1.9 1.9 0 0 0-.11-1.986L13.736 2.9a2.122 2.122 0 0 0-3.472 0L6.837 7.952a1.9 1.9 0 0 0-.11 1.986 2.074 2.074 0 0 0 1.847 1.086Zm6.852 1.952H8.574a2.072 2.072 0 0 0-1.847 1.087 1.9 1.9 0 0 0 .11 1.985l3.426 5.05a2.123 2.123 0 0 0 3.472 0l3.427-5.05a1.9 1.9 0 0 0 .11-1.985 2.074 2.074 0 0 0-1.846-1.087Z" />
+                            </svg>
+                          </Link>
+                        </div>
+                      </th>
 
-                    <th scope="col" className="px-6 py-3">
-                      <div className="flex items-center">
-                        Отправить
-                        <Link href="#">
-                          <svg
-                            className="ms-1.5 size-3"
-                            aria-hidden="true"
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="currentColor"
-                            viewBox="0 0 24 24"
-                          >
-                            <path d="M8.574 11.024h6.852a2.075 2.075 0 0 0 1.847-1.086 1.9 1.9 0 0 0-.11-1.986L13.736 2.9a2.122 2.122 0 0 0-3.472 0L6.837 7.952a1.9 1.9 0 0 0-.11 1.986 2.074 2.074 0 0 0 1.847 1.086Zm6.852 1.952H8.574a2.072 2.072 0 0 0-1.847 1.087 1.9 1.9 0 0 0 .11 1.985l3.426 5.05a2.123 2.123 0 0 0 3.472 0l3.427-5.05a1.9 1.9 0 0 0 .11-1.985 2.074 2.074 0 0 0-1.846-1.087Z" />
-                          </svg>
-                        </Link>
-                      </div>
-                    </th>
-                    <th scope="col" className="px-6 py-3">
-                      <div className="flex items-center">
-                        Delete
-                        <Link href="#">
-                          <svg
-                            className="ms-1.5 size-3"
-                            aria-hidden="true"
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="currentColor"
-                            viewBox="0 0 24 24"
-                          >
-                            <path d="M8.574 11.024h6.852a2.075 2.075 0 0 0 1.847-1.086 1.9 1.9 0 0 0-.11-1.986L13.736 2.9a2.122 2.122 0 0 0-3.472 0L6.837 7.952a1.9 1.9 0 0 0-.11 1.986 2.074 2.074 0 0 0 1.847 1.086Zm6.852 1.952H8.574a2.072 2.072 0 0 0-1.847 1.087 1.9 1.9 0 0 0 .11 1.985l3.426 5.05a2.123 2.123 0 0 0 3.472 0l3.427-5.05a1.9 1.9 0 0 0 .11-1.985 2.074 2.074 0 0 0-1.846-1.087Z" />
-                          </svg>
-                        </Link>
-                      </div>
-                    </th>
-                  </tr>
-                </thead>
-                <tbody className="z-10 w-full snap-y scroll-mt-4 place-self-start overflow-auto scroll-smooth text-lg">
-                  <tr className="w-full snap-start border-b border-p1-green/30 bg-p1-white text-xl text-p1-darkgreen hover:border-p1-green hover:bg-p1-green/5 dark:bg-p1-deepdarkgreen">
-                    <th scope="row" className="whitespace-nowrap p-2 font-medium">
-                      <div className="flex items-center">
-                        <input
-                          checked={check}
-                          id="checkbox"
-                          onChange={() => {
-                            setCheck(!check);
-                          }}
-                          type="checkbox"
-                          value=""
-                          className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
-                        />
-                        <label
-                          htmlFor="checkbox "
-                          className="ms-2 font-medium text-p1-darkgreen dark:text-p1-green"
-                        ></label>
-                      </div>
-                    </th>
-
-                    <td className="p-2 text-center">Not all data</td>
-
-                    <td className="">
-                      <div className="relative">
-                        <Link href="/card" className="mx-auto justify-center">
-                          <Image
-                            width={500}
-                            height={500}
-                            src="/Hero/Rewards.png"
-                            alt="Award"
-                            className="size-32 object-cover transition-transform duration-500 ease-in-out hover:scale-105"
+                      <th scope="col" className="px-6 py-3">
+                        <div className="flex items-center">
+                          Отправить
+                          <Link href="#">
+                            <svg
+                              className="ms-1.5 size-3"
+                              aria-hidden="true"
+                              xmlns="http://www.w3.org/2000/svg"
+                              fill="currentColor"
+                              viewBox="0 0 24 24"
+                            >
+                              <path d="M8.574 11.024h6.852a2.075 2.075 0 0 0 1.847-1.086 1.9 1.9 0 0 0-.11-1.986L13.736 2.9a2.122 2.122 0 0 0-3.472 0L6.837 7.952a1.9 1.9 0 0 0-.11 1.986 2.074 2.074 0 0 0 1.847 1.086Zm6.852 1.952H8.574a2.072 2.072 0 0 0-1.847 1.087 1.9 1.9 0 0 0 .11 1.985l3.426 5.05a2.123 2.123 0 0 0 3.472 0l3.427-5.05a1.9 1.9 0 0 0 .11-1.985 2.074 2.074 0 0 0-1.846-1.087Z" />
+                            </svg>
+                          </Link>
+                        </div>
+                      </th>
+                      <th scope="col" className="px-6 py-3">
+                        <div className="flex items-center">
+                          Delete
+                          <Link href="#">
+                            <svg
+                              className="ms-1.5 size-3"
+                              aria-hidden="true"
+                              xmlns="http://www.w3.org/2000/svg"
+                              fill="currentColor"
+                              viewBox="0 0 24 24"
+                            >
+                              <path d="M8.574 11.024h6.852a2.075 2.075 0 0 0 1.847-1.086 1.9 1.9 0 0 0-.11-1.986L13.736 2.9a2.122 2.122 0 0 0-3.472 0L6.837 7.952a1.9 1.9 0 0 0-.11 1.986 2.074 2.074 0 0 0 1.847 1.086Zm6.852 1.952H8.574a2.072 2.072 0 0 0-1.847 1.087 1.9 1.9 0 0 0 .11 1.985l3.426 5.05a2.123 2.123 0 0 0 3.472 0l3.427-5.05a1.9 1.9 0 0 0 .11-1.985 2.074 2.074 0 0 0-1.846-1.087Z" />
+                            </svg>
+                          </Link>
+                        </div>
+                      </th>
+                    </tr>
+                  </thead>
+                  <tbody className="z-10 w-full snap-y scroll-mt-4 place-self-start overflow-auto scroll-smooth text-lg">
+                    <tr className="w-full snap-start border-b border-p1-green/30 bg-p1-white text-xl text-p1-darkgreen hover:border-p1-green hover:bg-p1-green/5 dark:bg-p1-deepdarkgreen">
+                      <th scope="row" className="whitespace-nowrap p-2 font-medium">
+                        <div className="flex items-center">
+                          <input
+                            checked={check}
+                            id="checkbox"
+                            onChange={() => {
+                              setCheck(!check);
+                            }}
+                            type="checkbox"
+                            value=""
+                            className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                           />
-                        </Link>
-                      </div>
-                    </td>
-                    <td className="p-2 text-center">Award</td>
-                    <td className="p-2 text-center">8888</td>
-                    <td className="p-2 text-center"> 1 этап РДС ГП 2025</td>
-                    <td className="p-2 text-center"> Абсолютный зачет</td>
-                    <td className="p-2 text-center"> Название команды</td>
-                    <td className="">
-                      <div className="relative">
-                        <Link href="/card" className="mx-auto justify-center">
-                          <Image
-                            width={500}
-                            height={500}
-                            src="/HeroNFT/RaceLads/RaceLads1.png"
-                            alt="RaceLads"
-                            className="size-32 object-cover transition-transform duration-500 ease-in-out hover:scale-105"
-                          />
-                        </Link>
-                      </div>
-                    </td>
-                    <td className="p-2 text-center"> Иванов Иван Иванович</td>
-                    <td className="p-2 text-center"> mail@mail.com</td>
+                          <label
+                            htmlFor="checkbox "
+                            className="ms-2 font-medium text-p1-darkgreen dark:text-p1-green"
+                          ></label>
+                        </div>
+                      </th>
 
-                    <td className="p-2 text-center"> 0х1234...5678</td>
-                    <td className="p-2 text-center">
-                      <Link
-                        href="#"
-                        className="inline-block w-max place-content-center rounded-xl border-2 bg-p1-white p-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen hover:bg-p1-green/70 hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
-                      >
-                        Создать NFT
-                      </Link>
-                    </td>
-                    <td className="p-2 text-center">
-                      <Link
-                        href="#"
-                        className="inline-block w-max place-content-center rounded-xl border-2 bg-p1-white p-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p2-red/50 hover:bg-p2-red/70 hover:text-p1-white focus:border-p1-darkgreen focus:bg-p2-red focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p2-red dark:hover:text-p1-white dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
-                      >
-                        Delete
-                      </Link>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
+                      <td className="p-2 text-center">Not all data</td>
+
+                      <td className="">
+                        <div className="relative">
+                          <Link href="/card" className="mx-auto justify-center">
+                            <Image
+                              width={500}
+                              height={500}
+                              src="/Hero/Rewards.png"
+                              alt="Award"
+                              className="size-32 object-cover transition-transform duration-500 ease-in-out hover:scale-105"
+                            />
+                          </Link>
+                        </div>
+                      </td>
+                      <td className="p-2 text-center">Award</td>
+                      <td className="p-2 text-center">8888</td>
+                      <td className="p-2 text-center"> 1 этап РДС ГП 2025</td>
+                      <td className="p-2 text-center"> Абсолютный зачет</td>
+                      <td className="p-2 text-center"> Название команды</td>
+                      <td className="">
+                        <div className="relative">
+                          <Link href="/card" className="mx-auto justify-center">
+                            <Image
+                              width={500}
+                              height={500}
+                              src="/HeroNFT/RaceLads/RaceLads1.png"
+                              alt="RaceLads"
+                              className="size-32 object-cover transition-transform duration-500 ease-in-out hover:scale-105"
+                            />
+                          </Link>
+                        </div>
+                      </td>
+                      <td className="p-2 text-center"> Иванов Иван Иванович</td>
+                      <td className="p-2 text-center"> mail@mail.com</td>
+
+                      <td className="p-2 text-center"> 0х1234...5678</td>
+                      <td className="p-2 text-center">
+                        <Link
+                          href="#"
+                          className="inline-block w-max place-content-center rounded-xl border-2 bg-p1-white p-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen hover:bg-p1-green/70 hover:text-p1-white focus:border-p1-darkgreen focus:bg-p1-green focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                        >
+                          Создать NFT
+                        </Link>
+                      </td>
+                      <td className="p-2 text-center">
+                        <Link
+                          href="#"
+                          className="inline-block w-max place-content-center rounded-xl border-2 bg-p1-white p-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p2-red/50 hover:bg-p2-red/70 hover:text-p1-white focus:border-p1-darkgreen focus:bg-p2-red focus:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p2-red dark:hover:text-p1-white dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                        >
+                          Delete
+                        </Link>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
             </div>
           </div>
-        </div>
 
-        <div className="h-screen"></div>
+          <div className=""></div>
+        </div>
       </div>
+
+      <div className="h-screen"></div>
     </div>
   );
 }
