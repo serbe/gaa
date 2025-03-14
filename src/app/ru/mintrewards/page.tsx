@@ -6,7 +6,6 @@ import { Link } from '@/i18n/routing';
 
 export default function Page() {
   const [check, setCheck] = useState(false);
-  const [blockHidden, setBlockHidden] = useState(false);
   const [visibleArea1, setVisibleArea1] = useState(true);
   const [visibleArea2, setVisibleArea2] = useState(true);
   const [visibleArea3, setVisibleArea3] = useState(true);
@@ -1102,7 +1101,7 @@ export default function Page() {
               </div>
 
               {/* ... правый блок */}
-              <div className="relative sticky top-64 flex w-full max-w-full grid-flow-row flex-wrap justify-center overflow-hidden">
+              <div className="sticky top-64 flex w-full max-w-full grid-flow-row flex-wrap justify-center overflow-hidden">
                 {/* ...Строки Таблица */}
                 <div
                   id="area2"
@@ -2295,13 +2294,12 @@ export default function Page() {
                         </Link>
                       </td>
                     </tr>
-                  </tbody><div className="pb-8"></div>
+                  </tbody>
+                  <div className="pb-8"></div>
                 </table>
               </div>
             </div>
           </div>
-
-          
         </div>
       </div>
 
