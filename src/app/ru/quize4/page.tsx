@@ -1,4 +1,15 @@
-export default function Page() {
+'use client';
+
+import { Link } from '@/i18n/routing';
+import Image from 'next/image';
+
+// Import Swiper styles
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/scrollbar';
+
+export default function Home() {
   return (
     <div className="mx-auto max-w-7xl font-serif">
       <div className="flex flex-wrap justify-center self-center md:flex-nowrap md:justify-between">
@@ -7,7 +18,34 @@ export default function Page() {
         </div>
         <div className="px-2 text-xl font-semibold text-p2-orange md:pt-2 md:text-3xl">QUIZ</div>
       </div>
-      <div className="px-2 text-center text-xl font-semibold text-p2-orange md:pt-2 md:text-3xl">
+      <div className="flex flex-wrap justify-between self-center md:flex-nowrap">
+        <div className="w-1/5 md:w-1/12">
+          <Link href="/quize3" className="mx-auto justify-center rounded-3xl">
+            <Image
+              className="relative mb-4 inline-block w-max rounded-3xl opacity-85 transition-all delay-75 duration-500 ease-in-out hover:scale-105 hover:opacity-100"
+              width={1000}
+              height={1000}
+              src="/Arrows/Prev.png"
+              alt="prev"
+            />
+          </Link>
+        </div>
+        <div className="px-2 text-xl font-semibold text-p2-orange md:pt-2 md:text-3xl"></div>
+        <div className="px-2 text-xl font-semibold text-p2-orange md:pt-2 md:text-3xl"></div>
+        <div className="w-1/5 md:w-1/12">
+          <Link href="/quize1" className="mx-auto justify-center rounded-3xl">
+            <Image
+              className="relative mb-4 inline-block w-max rounded-3xl opacity-85 transition-all delay-75 duration-500 ease-in-out hover:scale-105 hover:opacity-100"
+              width={1000}
+              height={1000}
+              src="/Arrows/Next.png"
+              alt="next"
+            />
+          </Link>
+        </div>
+      </div>
+
+      <div className="px-2 text-center text-xl font-semibold text-p2-orange md:-mt-32 md:pt-2 md:text-3xl">
         QUIZ NFT
       </div>
 
@@ -28,7 +66,7 @@ export default function Page() {
                     type="radio"
                     value=""
                     name="list-radio"
-                    className="size-5 border-gray-300 bg-gray-100 text-p1-green focus:ring-2 focus:ring-p1-green dark:border-gray-500 dark:bg-gray-600 dark:ring-offset-gray-700 dark:focus:ring-p2-orange dark:focus:ring-offset-gray-700"
+                    className="size-7"
                   />
                   <label
                     htmlFor="list-radio-eleven"
@@ -45,7 +83,7 @@ export default function Page() {
                     type="radio"
                     value=""
                     name="list-radio"
-                    className="size-5 border-gray-300 bg-gray-100 text-p1-green focus:ring-2 focus:ring-p1-green dark:border-gray-500 dark:bg-gray-600 dark:ring-offset-gray-700 dark:focus:ring-p2-orange dark:focus:ring-offset-gray-700"
+                    className="size-7"
                   />
                   <label
                     htmlFor="list-radio-twelve"
@@ -62,7 +100,7 @@ export default function Page() {
                     type="radio"
                     value=""
                     name="list-radio"
-                    className="size-5 border-gray-300 bg-gray-100 text-p1-green focus:ring-2 focus:ring-p1-green dark:border-gray-500 dark:bg-gray-600 dark:ring-offset-gray-700 dark:focus:ring-p2-orange dark:focus:ring-offset-gray-700"
+                    className="size-7"
                   />
                   <label
                     htmlFor="list-radio-thirteen"
@@ -79,7 +117,7 @@ export default function Page() {
                     type="radio"
                     value=""
                     name="list-radio"
-                    className="size-5 border-gray-300 bg-gray-100 text-p1-green focus:ring-2 focus:ring-p1-green dark:border-gray-500 dark:bg-gray-600 dark:ring-offset-gray-700 dark:focus:ring-p2-orange dark:focus:ring-offset-gray-700"
+                    className="size-7"
                   />
                   <label
                     htmlFor="list-radio-fourteen"
@@ -96,7 +134,7 @@ export default function Page() {
                     type="radio"
                     value=""
                     name="list-radio"
-                    className="size-5 border-gray-300 bg-gray-100 text-p1-green focus:ring-2 focus:ring-p1-green dark:border-gray-500 dark:bg-gray-600 dark:ring-offset-gray-700 dark:focus:ring-p2-orange dark:focus:ring-offset-gray-700"
+                    className="size-7"
                   />
                   <label
                     htmlFor="list-radio-fifteen"
@@ -109,7 +147,7 @@ export default function Page() {
             </ul>
             <div className="pb-5"></div>
 
-            <button className="inline-block rounded-xl border-2 border-p2-orange bg-p1-white px-10 py-8 text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p2-orange hover:text-p1-white dark:border-p1-cyan dark:bg-p1-darkgreen dark:text-p1-cyan dark:hover:border-p2-orange dark:hover:bg-amber-600 dark:hover:text-amber-100">
+            <button className="inline-block rounded-xl border-2 border-p2-orange bg-p1-white px-10 py-8 text-xl text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p2-orange hover:text-p1-white dark:border-p1-cyan dark:bg-p1-darkgreen dark:text-p1-cyan dark:hover:border-p2-orange dark:hover:bg-amber-600 dark:hover:text-amber-100">
               Проголосовать
             </button>
 
