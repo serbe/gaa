@@ -238,7 +238,7 @@ export default function Home() {
                   <input
                     type="text"
                     id="other"
-                    className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-lg text-xl text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder:text-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
+                    className="block w-full rounded-lg border border-gray-300 bg-p2-white2 p-3 text-lg text-p1-darkgreen focus:border-p2-orange focus:ring-p2-orange dark:border-gray-600 dark:bg-gray-700 dark:text-p1-white dark:placeholder:text-gray-400 dark:focus:border-p2-orange dark:focus:ring-p2-orange"
                     placeholder="Другое"
                     required
                   />
