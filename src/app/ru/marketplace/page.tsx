@@ -554,9 +554,10 @@ export default function Home() {
         </div>
 
         <div id="2"></div>
-        <div className="sticky top-16 z-10 bg-p1-white bg-opacity-60 shadow-md backdrop-blur-md dark:bg-p1-deepdarkgreen">
-          <div className="flex justify-center space-x-2 pt-2">
-            <div>
+
+        <div className="relative sticky top-16 z-10 bg-p1-white bg-opacity-60 shadow-md backdrop-blur-md dark:bg-p1-deepdarkgreen">
+          <div className="flex justify-center space-x-2 pt-2 2xl:absolute 2xl:bottom-0 2xl:left-1/2 2xl:top-1/2 2xl:-translate-x-1/2 2xl:-translate-y-1/2">
+            <div className="">
               <div className="mx-auto flex max-w-2xl overflow-hidden rounded-2xl border-2 border-p1-green bg-p2-white2 px-4 py-3 backdrop-blur-sm hover:border-p1-cyan focus:border-p1-cyan md:w-96 dark:bg-p1-deepdarkgreen dark:text-p1-cyan">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -575,8 +576,8 @@ export default function Home() {
             </div>
           </div>
           {/* Items, Offers ... */}
-          <div className="grid h-1/5 grid-cols-1 place-content-center p-1 text-sm sm:px-2 md:px-4 lg:grid-cols-2 lg:px-6 lg:text-base xl:px-2 xl:text-lg 2xl:px-10 2xl:text-xl">
-            <div className="flex grid-flow-row auto-rows-max justify-center space-x-2 lg:justify-start xl:-my-16">
+          <div className="grid h-1/5 grid-cols-1 place-content-center p-1 sm:px-2 md:px-4 lg:px-6 xl:px-2 2xl:grid-cols-2 2xl:px-10">
+            <div className="flex flex-auto grid-flow-row auto-rows-max justify-center space-x-8 2xl:justify-start">
               <div>
                 <div
                   className="inline-flex w-full justify-center rounded-md pt-1 shadow-sm"
@@ -642,7 +643,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="flex flex-auto grid-flow-row auto-rows-max justify-center space-x-8 lg:justify-end xl:-my-16">
+            <div className="flex flex-auto grid-flow-row auto-rows-max justify-center space-x-8 2xl:justify-end">
               <div className="">
                 <div
                   className="inline-flex w-full flex-auto justify-center rounded-md pt-1 shadow-sm"
@@ -680,7 +681,7 @@ export default function Home() {
 
           {/* иконки ... */}
 
-          <div className="grid grid-cols-2 justify-between p-1 md:grid-cols-2 2xl:grid-cols-2">
+          <div className="grid grid-cols-2 justify-between p-1">
             <div className="flex justify-start space-x-1 md:px-10">
               <div>
                 <button
@@ -2733,7 +2734,7 @@ export default function Home() {
               <div className="columns-1 gap-24 md:columns-2 dark:border-p1-green">
                 <div className="relative sm:rounded-lg">
                   <table className="text-left text-xl text-p1-darkgreen dark:text-p1-green">
-                    <thead className="sticky top-0 z-10 border-b-2 border-p1-green/20 bg-p1-white text-xs uppercase text-p1-darkgreen dark:bg-p1-deepdarkgreen dark:text-p1-green">
+                    <thead className="sticky top-0 border-b-2 border-p1-green/20 bg-p1-white text-xs uppercase text-p1-darkgreen dark:bg-p1-deepdarkgreen dark:text-p1-green">
                       <tr>
                         <th scope="col" className="p-2">
                           Rank
@@ -2892,7 +2893,7 @@ export default function Home() {
                 </div>
                 <div className="relative sm:rounded-lg">
                   <table className="text-left text-xl text-p1-darkgreen dark:text-p1-green">
-                    <thead className="sticky top-0 z-10 border-b-2 border-p1-green/20 bg-p1-white text-xs uppercase text-p1-darkgreen dark:bg-p1-deepdarkgreen dark:text-p1-green">
+                    <thead className="sticky top-0 border-b-2 border-p1-green/20 bg-p1-white text-xs uppercase text-p1-darkgreen dark:bg-p1-deepdarkgreen dark:text-p1-green">
                       <tr>
                         <th scope="col" className="p-2">
                           Rank
