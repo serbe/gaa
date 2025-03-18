@@ -461,8 +461,8 @@ export default function Page() {
       <div className="place-self-center">
         <Image width={700} height={600} src="/Cars/OpenWheels.png" alt="OpenWheels" />
       </div>
-      <div className="flex flex-row p-5">
-        <div className="basis-5">
+      <div className="h-screen/2 flex flex-row p-5">
+        <div className="">
           <Image width={1900} height={200} src="/Hero/Compose1.png" alt="Compose1" />
         </div>
       </div>
