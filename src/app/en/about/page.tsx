@@ -800,9 +800,9 @@ export default function Page() {
                   />
                 </div>
                 <div className="flex flex-row justify-end">
-                  <div className="basis-4/5">
+                  <div className="basis-5/5">
                     <Image
-                      className="relative inline-block w-max items-end"
+                      className="relative inline-block w-full items-end"
                       width={1000}
                       height={1000}
                       src="/Hero/hero1.png"
