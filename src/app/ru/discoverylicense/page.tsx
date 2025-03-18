@@ -343,7 +343,7 @@ export default function Page() {
         </div>
 
         <div className="grid grid-cols-7 gap-1">
-          <div className="col-span-1 col-start-1 row-span-4 place-self-center">
+          <div className="row-span-4 place-self-center">
             <Image
               className="relative inline-block w-max"
               width={1000}
@@ -355,7 +355,8 @@ export default function Page() {
           <div></div>
           <div></div>
           <div></div>
-          <div className="col-span-1 col-start-5 row-span-3 place-self-center">
+
+          <div className="start-5 row-span-3 place-self-end self-center">
             <Image
               className="relative inline-block w-max"
               width={1000}
@@ -366,7 +367,8 @@ export default function Page() {
           </div>
           <div></div>
           <div></div>
-          <div className="z-50 place-self-end">
+
+          <div className="z-10 place-self-end">
             <Image
               className="relative inline-block w-max"
               width={1000}
@@ -396,12 +398,12 @@ export default function Page() {
               alt="2"
             />
           </div>
-          <div></div>
-          <div></div>
 
-          <div className="col-span-3 col-start-13 row-span-1">
+          <div></div>
+          <div></div>
+          <div className="start-8 col-span-3">
             <Image
-              className="relative inline-block w-max"
+              className="relative col-span-3 -mt-0 inline-block w-max"
               width={1000}
               height={1000}
               src="/arrows/3.png"
@@ -411,7 +413,7 @@ export default function Page() {
           <div></div>
           <div></div>
 
-          <div>
+          <div className="place-self-start">
             <Image
               className="relative inline-block w-max"
               width={1000}
@@ -420,18 +422,18 @@ export default function Page() {
               alt="4"
             />
           </div>
-          <div>
+          <div className="place-self-center self-start">
             <button className="hover:drop-shadow-2xl">
               <Image
-                className="relative inline-block w-max"
+                className="relative inline-block w-20"
                 width={1000}
                 height={1000}
-                src="/Logo/MetaMask.png"
-                alt="Metamask"
+                src="/Logo/wallet-nft.png"
+                alt="wallet"
               />
             </button>
           </div>
-          <div>
+          <div className="">
             <Image
               className="relative inline-block w-max"
               width={1000}
@@ -440,7 +442,7 @@ export default function Page() {
               alt="5"
             />
           </div>
-          <div>
+          <div className="">
             <Image
               className="relative inline-block w-max"
               width={1000}
@@ -449,7 +451,7 @@ export default function Page() {
               alt="Promoter"
             />
           </div>
-          <div>
+          <div className="">
             <Image
               className="relative inline-block w-max"
               width={1000}
@@ -458,7 +460,7 @@ export default function Page() {
               alt="national"
             />
           </div>
-          <div>
+          <div className="">
             <Image
               className="relative inline-block w-max"
               width={1000}
