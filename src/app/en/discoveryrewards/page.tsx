@@ -41,8 +41,8 @@ export default function Page() {
               All data is stored in an IPFS network and is protected from unauthorized destruction.
             </p>
             <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
-              Promoter license, National license, token holders have access to token creation.
-              Global license and Management GAA.
+              Promoter license, Local license, token holders have access to token creation. Global
+              license and Management GAA.
             </p>
 
             <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
@@ -143,7 +143,7 @@ export default function Page() {
         <div className="pt-2 text-center text-base text-p1-darkgreen md:text-2xl dark:text-p1-green dark:hover:text-p1-cyan">
           Rewards can be created and awarded by NFT holders
           <p className="pb-2 text-center text-base md:text-2xl">
-            Promoter license, National license, Global license, Management GAA
+            Promoter license, Local license, Global license, Management GAA
           </p>
         </div>
 
@@ -169,11 +169,11 @@ export default function Page() {
           <div className="place-self-end">
             <button className="hover:drop-shadow-2xl">
               <Image
-                className="relative inline-block w-max"
+                className="relative inline-block w-max md:p-4"
                 width={1000}
                 height={1000}
-                src="/Logo/MetaMask.png"
-                alt="Metamask"
+                src="/Logo/wallet-nft.png"
+                alt="wallet"
               />
             </button>
           </div>
@@ -207,11 +207,11 @@ export default function Page() {
           <div className="place-self-end">
             <button className="hover:drop-shadow-2xl">
               <Image
-                className="relative inline-block w-max"
+                className="relative inline-block w-max md:p-4"
                 width={1000}
                 height={1000}
-                src="/Logo/MetaMask.png"
-                alt="Metamask"
+                src="/Logo/wallet-nft.png"
+                alt="wallet"
               />
             </button>
           </div>
@@ -270,8 +270,8 @@ export default function Page() {
               className="relative inline-block w-max"
               width={1000}
               height={1000}
-              src="/Licenses/National.png"
-              alt="National"
+              src="/Licenses/Local.png"
+              alt="Local"
             />
           </div>
           <div className="col-span-1 col-start-4 row-span-2 place-self-center">

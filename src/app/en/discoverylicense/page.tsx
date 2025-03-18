@@ -48,7 +48,7 @@ const Buttons = ({
           setter(1);
         }}
       >
-        National License
+        Local License
       </button>
       <button
         className={
@@ -155,11 +155,11 @@ export default function Page() {
         </div>
       </div>
 
-      {/* //National License */}
-      <div id="national" className={license == 1 ? '' : 'hidden'}>
+      {/* //Local License */}
+      <div id="local" className={license == 1 ? '' : 'hidden'}>
         <div className="flex flex-wrap justify-center self-center md:flex-nowrap md:justify-between">
           <div className="px-2 text-xl font-semibold text-p1-gray md:pt-2 md:text-3xl dark:text-stone-500">
-            National License NFT
+            Local License NFT
           </div>
           <div className="px-2 text-xl font-semibold text-p1-gray md:pt-2 md:text-3xl dark:text-stone-500">
             Страница исследователя
@@ -169,11 +169,10 @@ export default function Page() {
           <div className="flex flex-wrap justify-center px-2 pt-2 md:flex-nowrap">
             <div>
               <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
-                National License NFT - невзаимозаменяемый токен, предоставляемый лидерам
-                направлений.
+                Local License NFT - невзаимозаменяемый токен, предоставляемый лидерам направлений.
               </p>
               <div className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
-                National License NFT предоставляет доступ к:
+                Local License NFT предоставляет доступ к:
                 <ul className="list-disc px-5">
                   <li>странице создания наград (Awards NFT)</li>
                   <li>странице создания Promoter License NFT</li>
@@ -182,12 +181,12 @@ export default function Page() {
               </div>
 
               <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
-                National License NFT дает право принимать решения, связанные с организацией
-                мероприятий и проведением награждения спортсменов.
+                Local License NFT дает право принимать решения, связанные с организацией мероприятий
+                и проведением награждения спортсменов.
               </p>
 
               <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
-                Для получения National License NFT необходимо зарегистрироваться и заполнить заявку:
+                Для получения Local License NFT необходимо зарегистрироваться и заполнить заявку:
               </p>
 
               <div className="my-2 justify-self-center">
@@ -200,7 +199,7 @@ export default function Page() {
               </div>
               <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
                 При положительном решении лидеру направления предоставляется возможность создания
-                National License NFT.
+                Local License NFT.
               </p>
               <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
                 Данный токен имеет характеристику &quot;Burnable&quot; - собственник смарт-контракта
@@ -219,14 +218,14 @@ export default function Page() {
                   className="relative inline-block rounded-3xl border-2 border-p2-orange shadow-lg md:w-full dark:border-p1-green"
                   width={4000}
                   height={4000}
-                  src="/Licenses/National Lic.png"
-                  alt="NationalLic"
+                  src="/Licenses/Local Lic.png"
+                  alt="LocalLic"
                 />
                 <Buttons license={license} setter={setLicense} />
                 <div className="m-1 p-5">
                   <div className="justify-self-center">
                     <Link
-                      href="/license?license=national"
+                      href="/license?license=local"
                       className="inline-block rounded-xl border-2 border-p2-orange bg-p1-white px-10 py-8 text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p2-orange hover:text-p1-white dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:border-p2-orange dark:hover:bg-amber-600 dark:hover:text-amber-100"
                     >
                       Создай NFT
@@ -261,7 +260,7 @@ export default function Page() {
                 <ul className="list-disc px-5">
                   <li>странице создания наград (Awards NFT)</li>
                   <li>странице создания Promoter License NFT</li>
-                  <li>странице создания National License NFT</li>
+                  <li>странице создания Local License NFT</li>
                   <li>голосованию по вопросам развития сообщества на локальном уровне</li>
                   <li>голосованию по вопросам развития сообщества на международном уровне</li>
                 </ul>
@@ -333,13 +332,13 @@ export default function Page() {
       >
         Способы получения
         <p className="px-2 text-center text-xl font-semibold md:pt-2 md:text-3xl">
-          Promoter, National, Global License NFT
+          Promoter, Local, Global License NFT
         </p>
       </div>
       <div className="m-2 rounded-3xl border-p1-darkgreen p-2 md:border-4 md:shadow-lg dark:border-p1-green dark:hover:border-p1-darkgreen">
         <div className="pt-2 text-center text-base text-p1-darkgreen md:text-2xl dark:text-p1-green dark:hover:text-p1-cyan">
-          Management GAA проводит верификацию и удостоверяет статус National License, Promoter
-          License и Global License
+          Management GAA проводит верификацию и удостоверяет статус Local License, Promoter License
+          и Global License
         </div>
 
         <div className="grid grid-cols-7 gap-1">
@@ -425,7 +424,7 @@ export default function Page() {
           <div className="place-self-center self-start">
             <button className="hover:drop-shadow-2xl">
               <Image
-                className="relative inline-block w-20"
+                className="relative inline-block w-max md:p-4"
                 width={1000}
                 height={1000}
                 src="/Logo/wallet-nft.png"
@@ -456,8 +455,8 @@ export default function Page() {
               className="relative inline-block w-max"
               width={1000}
               height={1000}
-              src="/Licenses/National.png"
-              alt="national"
+              src="/Licenses/Local.png"
+              alt="local"
             />
           </div>
           <div className="">

@@ -85,34 +85,33 @@ export default function Page() {
             Drivers NFT
           </div>
           <div className="px-2 text-xl font-semibold text-red-400 md:pt-2 md:text-3xl dark:text-red-800">
-            Discoverer page
+            Страница исследователя
           </div>
         </div>
         <div className="rounded-3xl border-red-400 hover:border-p1-gray md:border-4 md:shadow-lg dark:border-red-900 dark:hover:border-p1-green">
           <div className="flex flex-wrap justify-center px-2 pt-2 md:flex-nowrap">
             <div>
               <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
-                A non-fungible token representing the driver of a sports car.
+                Невзаимозаменяемый токен, отражающий пилота спортивного автомобиля.
               </p>
               <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
-                Each NFT contains metadata that stores information about the racer.
+                Каждый NFT содержит метаданные, хранящие информацию о гонщике.
               </p>
               <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
-                By agreement, we can completely copy a person’s appearance.
+                По согласованию мы можем полностью скопировать внешность персоны.
               </p>
               <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
-                We really appreciate the contribution of pilots to the development of motorsport and
-                would like to capture everyone in a single collection, be it a representative of
-                circuit racing or the drift discipline.
+                Мы очень ценим вклад пилотов в развитие автоспорта и хотели бы запечатлеть каждого в
+                единой коллекции, будь то представитель кольцевых гонок или дисциплины дрифта.
               </p>
 
               <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
-                It is assumed that the initial owner of the NFT will be the pilot himself. Later
-                upon request owner, the token can be transferred/sold to any person.
+                Предполагается, что первоначальным владельцем NFT будет сам пилот. Позже по желанию
+                владельца токен может быть передан/продан любому человеку.
               </p>
               <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
-                This is your way of attracting investments, in one transaction you can create up to
-                100 NFT - this is how we plan to organize support for pilots and team members.
+                Это ваш способ привлечения инвестиций, за одну транзакцию вы сможете создать до 100
+                NFT - так мы планируем организовать поддержку пилотов и членов команд.
               </p>
             </div>
 
@@ -161,7 +160,7 @@ export default function Page() {
                   href="/mintdrivers"
                   className="inline-block w-full place-content-center rounded-3xl border-2 border-red-400 bg-p2-white2 px-10 py-8 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-red-400 hover:text-p1-white dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:bg-red-900 dark:hover:text-p1-white"
                 >
-                  Create NFT
+                  Создай NFT
                 </Link>
               </div>
             </div>
@@ -175,33 +174,33 @@ export default function Page() {
             Team&apos;s Members NFT
           </div>
           <div className="px-2 text-xl font-semibold text-p3-blue md:pt-2 md:text-3xl dark:text-blue-800">
-            Discoverer page
+            Страница исследователя
           </div>
         </div>
         <div className="rounded-3xl border-p3-blue hover:border-p1-gray md:border-4 md:shadow-lg dark:border-blue-800 dark:hover:border-p1-green">
           <div className="flex flex-wrap justify-center px-2 pt-2 md:flex-nowrap">
             <div>
               <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
-                A non-fungible token representing a member of a motorsports team.
+                Невзаимозаменяемый токен, отражающий члена автоспортивной команды.
               </p>
               <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
-                Each NFT contains metadata that stores information about a person.
+                Каждый NFT содержит метаданные, хранящие информацию о персоне.
               </p>
               <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
-                By agreement, we can completely copy a person’s appearance.
+                По согласованию мы можем полностью скопировать внешность персоны.
               </p>
               <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
-                Members of motorsport teams make a huge contribution to the development of
-                motorsport, therefore we would like to capture each of them in a single collection.
+                Участники автоспортивных команд вносят огромный вклад в развитие автоспорта, поэтому
+                мы бы хотели запечатлеть каждого из них в единой коллекции.
               </p>
 
               <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
-                It is assumed that the initial owner of the NFT will be the team member himself.
-                Later on If the owner wishes, the token can be transferred/sold to any person.
+                Предполагается, что первоначальным владельцем NFT будет сам член команды. Позже по
+                желанию владельца токен может быть передан/продан любому человеку.
               </p>
               <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
-                This is your way of attracting investments, in one transaction you can create up to
-                100 NFT - this is how we plan to organize support for pilots and team members.
+                Это ваш способ привлечения инвестиций, за одну транзакцию вы сможете создать до 100
+                NFT - так мы планируем организовать поддержку пилотов и членов команд.
               </p>
             </div>
 
@@ -251,7 +250,7 @@ export default function Page() {
                     href="/mintteammembers"
                     className="inline-block w-full place-content-center rounded-3xl border-2 border-p3-blue bg-p2-white2 px-10 py-8 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p3-blue hover:text-p1-white dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:bg-p3-violet dark:hover:text-p1-white"
                   >
-                    Create NFT
+                    Создай NFT
                   </Link>
                 </div>
               </div>
@@ -266,34 +265,34 @@ export default function Page() {
             Collectors NFT
           </div>
           <div className="px-2 text-xl font-semibold text-stone-500 md:pt-2 md:text-3xl">
-            Discoverer page
+            Страница исследователя
           </div>
         </div>
         <div className="rounded-3xl border-stone-500 hover:border-p1-gray md:border-4 md:shadow-lg dark:hover:border-p1-green">
           <div className="flex flex-wrap justify-center px-2 pt-2 md:flex-nowrap">
             <div>
               <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
-                A non-fungible token representing a collector of sports, vintage and rare cars.
+                Невзаимозаменяемый токен, отражающий коллекционера спортивных, раритетных и редких
+                автомобилей.
               </p>
               <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
-                Each NFT contains metadata that stores information about a person.
+                Каждый NFT содержит метаданные, хранящие информацию о персоне.
               </p>
               <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
-                By agreement, we can completely copy a person’s appearance.
+                По согласованию мы можем полностью скопировать внешность персоны.
               </p>
               <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
-                We really appreciate the contribution of collectors to the history of auto culture
-                and motorsport and would like capture everyone&apos;s story in a single collection.
+                Мы очень ценим вклад коллекционеров в историю автокультуры и автоспорта и хотели бы
+                запечатлеть историю каждого в единой коллекции.
               </p>
 
               <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
-                It is assumed that the original owner of the NFT will be the collector himself.
-                Later on If the owner wishes, the token can be transferred/sold to any person.
+                Предполагается, что первоначальным владельцем NFT будет сам коллекционер. Позже по
+                желанию владельца токен может быть передан/продан любому человеку.
               </p>
               <p className="p-2 text-base text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
-                This is your way of attracting investments, in one transaction you can create up to
-                100 NFT, this is how we plan to organize support for collectors and development of
-                the direction.
+                Это ваш способ привлечения инвестиций, за одну транзакцию вы сможете создать до 100
+                NFT, так мы планируем организовать поддержку коллекционеров и развитие направления.
               </p>
             </div>
 
@@ -343,7 +342,7 @@ export default function Page() {
                     href="/mintcollectors"
                     className="inline-block w-full place-content-center rounded-3xl border-2 border-stone-500 bg-p2-white2 px-10 py-8 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-stone-500 hover:text-p1-white dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:bg-stone-700 dark:hover:text-p1-white"
                   >
-                    Create NFT
+                    Создай NFT
                   </Link>
                 </div>
               </div>
@@ -357,7 +356,7 @@ export default function Page() {
       <div>
         <div className="flex flex-wrap justify-center self-center md:flex-nowrap md:justify-between">
           <div className="px-2 text-center text-xl font-semibold text-p1-darkgreen md:pt-2 md:text-3xl dark:text-p1-green dark:hover:text-p1-cyan">
-            Ways to get
+            Способы получения
           </div>
           <div className="px-2 text-center text-xl font-semibold text-p1-darkgreen md:pt-2 md:text-3xl dark:text-p1-green dark:hover:text-p1-cyan">
             Drivers, Team&apos;s Members, Collectors NFT
@@ -365,19 +364,19 @@ export default function Page() {
         </div>
         <div className="rounded-3xl border-p1-darkgreen p-2 md:border-4 md:shadow-lg dark:hover:border-p1-green">
           <div className="px-2 pt-2 text-center text-base md:text-2xl dark:text-p1-green dark:hover:text-p1-cyan">
-            Only verified users will be able to create NFTs in collections
+            Только верифицированные пользователи смогут создать NFT в коллекциях
           </div>
           <div className="text-center text-base md:text-2xl dark:text-p1-green dark:hover:text-p1-cyan">
             Drivers, Team&apos;s Members, Collectors
           </div>
 
           <div className="pb-5 text-center text-base md:text-2xl dark:text-p1-green dark:hover:text-p1-cyan">
-            The user&apos;s status can be verified by holders of a Promoter License, Local License,
-            Global License, or Management GAA.
+            Верифицировать статус пользователя могут держатели Promoter License, Local License,
+            Global License, Management GAA
           </div>
 
           <div className="grid grid-cols-8 gap-1">
-            <div className="col-span-1 col-start-1 row-span-4 place-self-center">
+            <div className="row-span-4 place-self-center">
               <Image
                 className="relative inline-block w-max"
                 width={1000}
@@ -390,7 +389,7 @@ export default function Page() {
             <div></div>
             <div></div>
 
-            <div className="col-span-1 col-start-5 row-span-3 place-self-center">
+            <div className="row-span-2 place-self-center">
               <Image
                 className="relative inline-block w-max"
                 width={1000}
@@ -399,16 +398,16 @@ export default function Page() {
                 alt="Promoter"
               />
             </div>
-            <div className="col-span-1 col-start-6 row-span-3 place-self-center">
+            <div className="row-span-2 place-self-center">
               <Image
                 className="relative inline-block w-max"
                 width={1000}
                 height={1000}
-                src="/Licenses/National.png"
-                alt="national"
+                src="/Licenses/Local.png"
+                alt="local"
               />
             </div>
-            <div className="col-span-1 col-start-7 row-span-3 place-self-center">
+            <div className="row-span-2 place-self-center">
               <Image
                 className="relative inline-block w-max"
                 width={1000}
@@ -417,7 +416,7 @@ export default function Page() {
                 alt="global"
               />
             </div>
-            <div className="col-span-1 col-start-8 row-span-3 place-self-center">
+            <div className="row-span-2 place-self-center">
               <Image
                 className="relative inline-block w-max"
                 width={1000}
@@ -441,7 +440,7 @@ export default function Page() {
                   href="/applicationform"
                   className="inline-block place-content-center rounded-xl border-2 border-p1-darkgreen bg-p1-white p-2 text-center text-base text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p1-green hover:text-p1-white md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:bg-p1-green dark:hover:text-p1-deepdarkgreen"
                 >
-                  Application form
+                  Форма заявки
                 </Link>
               </div>
             </div>
@@ -455,7 +454,7 @@ export default function Page() {
               />
             </div>
 
-            <div className="col-span-3 col-start-13 row-span-1">
+            <div className="col-span-3">
               <Image
                 className="relative inline-block w-max"
                 width={1000}
@@ -464,6 +463,11 @@ export default function Page() {
                 alt="3"
               />
             </div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+
             <div className="place-self-center">
               <Image
                 className="relative inline-block w-max"
@@ -476,11 +480,11 @@ export default function Page() {
             <div>
               <button className="hover:drop-shadow-2xl">
                 <Image
-                  className="relative inline-block w-max"
+                  className="relative inline-block w-max md:p-4"
                   width={1000}
                   height={1000}
-                  src="/Logo/MetaMask.png"
-                  alt="Metamask"
+                  src="/Logo/wallet-nft.png"
+                  alt="wallet"
                 />
               </button>
             </div>
@@ -523,12 +527,11 @@ export default function Page() {
           </div>
 
           <div className="p-2 text-center text-base md:text-2xl dark:text-p1-green dark:hover:text-p1-cyan">
-            Anyone can purchase NFTs from collections on the secondary market - that&apos;s how we
-            We support active participants in areas and their development
+            Любой желающий сможет приобрести NFT из коллекций на вторичном рынке - так мы
+            поддерживаем активных участников направлений и их развитие
           </div>
           <div className="p-2 text-center text-base md:text-2xl dark:text-p1-green dark:hover:text-p1-cyan">
-            This is your way of identifying and attracting additional investments for your
-            development
+            Это ваш способ идентификации и привлечения дополнительных инвестиций для вашего развития
           </div>
         </div>
       </div>

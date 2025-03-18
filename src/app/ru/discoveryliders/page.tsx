@@ -371,12 +371,12 @@ export default function Page() {
           </div>
 
           <div className="pb-5 text-center text-base md:text-2xl dark:text-p1-green dark:hover:text-p1-cyan">
-            Верифицировать статус пользователя могут держатели Promoter License, National License,
+            Верифицировать статус пользователя могут держатели Promoter License, Local License,
             Global License, Management GAA
           </div>
 
           <div className="grid grid-cols-8 gap-1">
-            <div className="col-span-1 col-start-1 row-span-4 place-self-center">
+            <div className="row-span-4 place-self-center">
               <Image
                 className="relative inline-block w-max"
                 width={1000}
@@ -389,7 +389,7 @@ export default function Page() {
             <div></div>
             <div></div>
 
-            <div className="col-span-1 col-start-5 row-span-3 place-self-center">
+            <div className="row-span-2 place-self-center">
               <Image
                 className="relative inline-block w-max"
                 width={1000}
@@ -398,16 +398,16 @@ export default function Page() {
                 alt="Promoter"
               />
             </div>
-            <div className="col-span-1 col-start-6 row-span-3 place-self-center">
+            <div className="row-span-2 place-self-center">
               <Image
                 className="relative inline-block w-max"
                 width={1000}
                 height={1000}
-                src="/Licenses/National.png"
-                alt="national"
+                src="/Licenses/Local.png"
+                alt="local"
               />
             </div>
-            <div className="col-span-1 col-start-7 row-span-3 place-self-center">
+            <div className="row-span-2 place-self-center">
               <Image
                 className="relative inline-block w-max"
                 width={1000}
@@ -416,7 +416,7 @@ export default function Page() {
                 alt="global"
               />
             </div>
-            <div className="col-span-1 col-start-8 row-span-3 place-self-center">
+            <div className="row-span-2 place-self-center">
               <Image
                 className="relative inline-block w-max"
                 width={1000}
@@ -454,7 +454,7 @@ export default function Page() {
               />
             </div>
 
-            <div className="col-span-3 col-start-13 row-span-1">
+            <div className="col-span-3">
               <Image
                 className="relative inline-block w-max"
                 width={1000}
@@ -463,6 +463,11 @@ export default function Page() {
                 alt="3"
               />
             </div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+
             <div className="place-self-center">
               <Image
                 className="relative inline-block w-max"
@@ -475,11 +480,11 @@ export default function Page() {
             <div>
               <button className="hover:drop-shadow-2xl">
                 <Image
-                  className="relative inline-block w-max"
+                  className="relative inline-block w-max md:p-4"
                   width={1000}
                   height={1000}
-                  src="/Logo/MetaMask.png"
-                  alt="Metamask"
+                  src="/Logo/wallet-nft.png"
+                  alt="wallet"
                 />
               </button>
             </div>
