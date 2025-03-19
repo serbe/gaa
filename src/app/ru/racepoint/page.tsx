@@ -1,10 +1,13 @@
 'use client';
-import Image from 'next/image';
-import { Link } from '@/i18n/routing';
 import { JumpButton } from '@/components/jumpButton';
+import { Link } from '@/i18n/routing';
+import { useFavicon } from '@/utils/hooks';
+import Image from 'next/image';
 
 export default function Page() {
   const jumpPoints = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14'];
+
+  useFavicon('/icon/chek_green.png');
 
   return (
     <div className="mx-auto max-w-7xl font-serif">

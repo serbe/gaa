@@ -5,12 +5,10 @@ import { routing } from './i18n/routing';
 export default async function middleware(request: NextRequest) {
   const [, locale, ...segments] = request.nextUrl.pathname.split('/');
   const handleI18nRouting = createMiddleware(routing);
-
   const token = request.cookies.get('token')?.value;
-  // const token = cookieStore.get('token')?.value;
 
   if (
-    process.env.USE_LOGIN &&
+    process.env.USE_LOGIN === 'yes' &&
     locale != null &&
     !token &&
     segments.join('/') !== 'login' &&

@@ -1,8 +1,8 @@
 'use client';
-import { useState } from 'react';
+import { useGaaStore } from '@/context/gaa-store-provider';
 import { useRouter } from '@/i18n/routing';
 import { sendLogin } from '@/utils/api';
-import { useGaaStore } from '@/context/gaa-store-provider';
+import { useState } from 'react';
 import useSWR from 'swr';
 
 export default function Login() {
