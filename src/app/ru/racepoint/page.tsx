@@ -7,7 +7,7 @@ import Image from 'next/image';
 export default function Page() {
   const jumpPoints = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '13', '14'];
 
-  useFavicon('/icon/chek_green.png');
+  useFavicon('/Racepoint/Racepoit.png ');
 
   return (
     <div className="mx-auto max-w-7xl font-serif">

@@ -7,6 +7,7 @@ import Image from 'next/image';
 import { useState } from 'react';
 import { Autoplay, Mousewheel, Navigation } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
+import { useFavicon } from '@/utils/hooks';
 
 // Import Swiper styles
 import 'swiper/css';
@@ -21,6 +22,7 @@ export default function Home() {
   const jumpPoints = ['1', '2', '3'];
   const { width } = useWindowDimensions();
   const cardWidth = 288;
+  useFavicon('/background/bgsky.png ');
 
   return (
     <div className="mx-auto w-full font-serif">
@@ -556,7 +558,7 @@ export default function Home() {
         <div id="2"></div>
 
         <div className="sticky top-16 z-10 bg-p1-white bg-opacity-60 shadow-md backdrop-blur-md dark:bg-p1-deepdarkgreen">
-          <div className="flex justify-center space-x-2 pt-2 2xl:absolute 2xl:bottom-0 2xl:left-1/2 2xl:-translate-x-1/2">
+          <div className="flex justify-center space-x-2 pt-2 2xl:absolute 2xl:bottom-0 2xl:left-1/2 2xl:-translate-x-1/2 4xl:-translate-y-1/2">
             <div className="">
               <div className="mx-auto flex max-w-2xl overflow-hidden rounded-2xl border-2 border-p1-green bg-p2-white2 px-4 py-3 backdrop-blur-sm hover:border-p1-cyan focus:border-p1-cyan md:w-96 dark:bg-p1-deepdarkgreen dark:text-p1-cyan">
                 <svg

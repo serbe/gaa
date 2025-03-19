@@ -2,10 +2,13 @@
 import { useState } from 'react';
 import { JumpButton } from '@/components/jumpButton';
 import { Link } from '@/i18n/routing';
+import { useFavicon } from '@/utils/hooks';
 
 export default function Page() {
   const [check, setCheck] = useState(false);
   const jumpPoints = ['1', '2', '3'];
+  useFavicon('/Logo/letter.png ');
+
   return (
     <div className="mx-auto max-w-7xl font-serif">
       <JumpButton points={jumpPoints} />

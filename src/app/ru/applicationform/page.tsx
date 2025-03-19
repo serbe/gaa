@@ -1,9 +1,11 @@
 'use client';
 import Image from 'next/image';
 import { useState } from 'react';
+import { useFavicon } from '@/utils/hooks';
 
 export default function Page() {
   const [check, setCheck] = useState(false);
+  useFavicon('/Logo/letter.png ');
 
   return (
     <div className="mx-auto max-w-7xl font-serif">
@@ -11,7 +13,7 @@ export default function Page() {
         Заявка на получение лицензии
       </div>
       <div className="flex flex-wrap place-content-center px-2 pt-5 md:flex-nowrap">
-        <div className="w-4/5 min-w-96  rounded-3xl border-p1-gray bg-p1-white md:border-4 md:shadow-lg dark:border-p1-darkgreen dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
+        <div className="w-4/5 min-w-96 rounded-3xl border-p1-gray bg-p1-white md:border-4 md:shadow-lg dark:border-p1-darkgreen dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
           <div className="max-w-3xl place-self-center pt-5">
             <div className="place-self-center">
               <Image

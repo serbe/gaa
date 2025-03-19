@@ -3,6 +3,7 @@ import Image from 'next/image';
 import { useState } from 'react';
 import { JumpButton } from '@/components/jumpButton';
 import { Link } from '@/i18n/routing';
+import { useFavicon } from '@/utils/hooks';
 
 export default function Page() {
   const [check, setCheck] = useState(false);
@@ -13,6 +14,8 @@ export default function Page() {
 
   const [currentVisibleArea, setCurrentVisibleArea] = useState(2);
   const jumpPoints = ['1', '2', '3', '4', '5', '6', '7', '8'];
+  useFavicon('/Hero/cup1.png ');
+
   return (
     <div className="mx-auto max-w-7xl font-serif">
       <JumpButton points={jumpPoints} />

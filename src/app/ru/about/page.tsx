@@ -2,10 +2,10 @@
 import Image from 'next/image';
 import { Link } from '@/i18n/routing';
 import { JumpButton } from '@/components/jumpButton';
-
 import { Autoplay, Mousewheel, Navigation, Pagination } from 'swiper/modules';
-
 import { Swiper, SwiperSlide } from 'swiper/react';
+import { useFavicon } from '@/utils/hooks';
+
 
 // Import Swiper styles
 import 'swiper/css';
@@ -31,6 +31,8 @@ export default function Page() {
     '14',
     '15',
   ];
+
+  useFavicon('/Hero/hero1.png');
 
   return (
     <div className="mx-auto max-w-7xl font-serif dark:bg-p1-deepdarkgreen">
