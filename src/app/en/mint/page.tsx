@@ -41,7 +41,7 @@ export default function Page() {
           />
           <p className="text-base md:text-2xl">10,000 unique heroes in the world of WEB3</p>
 
-          <div className="inline-flex rounded-md pt-5 shadow-sm md:place-self-center">
+          <div className="inline-flex rounded-md pt-5 shadow-xs md:place-self-center">
             <Link
               href="/discoveryracelads"
               className="rounded-l-xl border-2 border-p1-darkgreen bg-p2-white2 p-2 text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p1-darkgreen hover:text-p1-white focus:z-10 focus:bg-p1-darkgreen focus:text-p1-white focus:ring-2 focus:ring-p1-darkgreen md:p-5 dark:border-p1-green dark:bg-p1-darkgreen dark:text-p1-cyan dark:hover:border-p1-green dark:hover:bg-p1-green dark:hover:text-p1-deepdarkgreen"
@@ -218,7 +218,7 @@ export default function Page() {
           <p className="pb-2 text-base md:text-2xl">
             Who is your character - it&apos;s up to you to decide!
           </p>
-          <div className="inline-flex rounded-md shadow-sm md:place-self-center">
+          <div className="inline-flex rounded-md shadow-xs md:place-self-center">
             <Link
               href="/discoverycustomlads"
               className="rounded-l-xl border-2 border-p1-darkgreen bg-p2-white2 p-2 text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p1-darkgreen hover:text-p1-white focus:z-10 focus:bg-p1-darkgreen focus:text-p1-white focus:ring-2 focus:ring-p1-darkgreen md:p-5 dark:border-p1-green dark:bg-p1-darkgreen dark:text-p1-cyan dark:hover:border-p1-green dark:hover:bg-p1-green dark:hover:text-p1-deepdarkgreen"
@@ -258,7 +258,7 @@ export default function Page() {
           <p className="pt-2 text-base md:px-10 md:text-2xl">
             NFT rewards contain metadata about the event, athlete and media content
           </p>
-          <div className="inline-flex rounded-md pt-5 shadow-sm md:place-self-center">
+          <div className="inline-flex rounded-md pt-5 shadow-xs md:place-self-center">
             <Link
               href="/discoveryrewards"
               className="rounded-l-xl border-2 border-p1-darkgreen bg-p2-white2 p-2 text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p1-darkgreen hover:text-p1-white focus:z-10 focus:bg-p1-darkgreen focus:text-p1-white focus:ring-2 focus:ring-p1-darkgreen md:p-5 dark:border-p1-green dark:bg-p1-darkgreen dark:text-p1-cyan dark:hover:border-p1-green dark:hover:bg-p1-green dark:hover:text-p1-deepdarkgreen"

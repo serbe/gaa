@@ -5,7 +5,7 @@ import js from '@eslint/js';
 // import typescriptEslintEslintPlugin from '@typescript-eslint/eslint-plugin';
 // import tsParser from '@typescript-eslint/parser';
 import prettier from 'eslint-plugin-prettier';
-import tailwind from 'eslint-plugin-tailwindcss';
+// import tailwind from 'eslint-plugin-tailwindcss';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
@@ -64,16 +64,16 @@ const eslintConfig = [
   //     '@typescript-eslint/no-var-requires': 'off',
   //   },
   // },
-  ...tailwind.configs['flat/recommended'],
-  {
-    settings: {
-      tailwindcss: {
-        callees: ['mySwyper'],
-        removeDuplicates: true,
-        whitelist: ['mySwyper'],
-      },
-    },
-  },
+  // ...tailwind.configs['flat/recommended'],
+  // {
+  //   settings: {
+  //     tailwindcss: {
+  //       callees: ['mySwyper'],
+  //       removeDuplicates: true,
+  //       whitelist: ['mySwyper'],
+  //     },
+  //   },
+  // },
 ];
 
 export default eslintConfig;

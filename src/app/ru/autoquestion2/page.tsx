@@ -76,7 +76,7 @@ export default function Home() {
             </div>
             <div
               id="area1"
-              className={`max-w-4xl place-self-center rounded md:min-h-96  ${currentVisibleArea == 1 ? '' : 'hidden'}`}
+              className={`max-w-4xl place-self-center rounded-sm md:min-h-96 ${currentVisibleArea == 1 ? '' : 'hidden'}`}
             >
               <div className="p-4 text-center font-bold text-p1-green md:text-3xl">
                 {' '}
@@ -91,7 +91,7 @@ export default function Home() {
             </div>
             <div
               id="area2"
-              className={`max-w-4xl place-self-center rounded md:min-h-96  ${currentVisibleArea == 2 ? '' : 'hidden'}`}
+              className={`max-w-4xl place-self-center rounded-sm md:min-h-96 ${currentVisibleArea == 2 ? '' : 'hidden'}`}
             >
               <div className="p-4 text-center text-p2-red md:text-3xl">
                 {' '}
@@ -105,7 +105,7 @@ export default function Home() {
             </div>
             <div
               id="area3"
-              className={`max-w-4xl place-self-center rounded md:min-h-96  ${currentVisibleArea == 3 ? '' : 'hidden'}`}
+              className={`max-w-4xl place-self-center rounded-sm md:min-h-96 ${currentVisibleArea == 3 ? '' : 'hidden'}`}
             >
               <div className="p-4 text-center text-p2-red md:text-3xl">
                 {' '}
@@ -122,7 +122,7 @@ export default function Home() {
             </div>
             <div
               id="area3"
-              className={`max-w-4xl place-self-center rounded md:min-h-96  ${currentVisibleArea == 4 ? '' : 'hidden'}`}
+              className={`max-w-4xl place-self-center rounded-sm md:min-h-96 ${currentVisibleArea == 4 ? '' : 'hidden'}`}
             >
               <div className="p-4 text-center text-p2-red md:text-3xl">
                 {' '}

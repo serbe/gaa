@@ -29,7 +29,7 @@ export default function Page() {
 
               <div className="mx-auto flex max-w-full flex-row justify-center space-y-2 p-2">
                 <details className="rounded-3xl p-2 text-center open:ring-1 open:ring-black/5 dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:hover:border-p1-green dark:hover:text-p1-cyan">
-                  <summary className="select-none space-y-4 text-lg font-semibold leading-6 text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
+                  <summary className="space-y-4 text-lg leading-6 font-semibold text-p1-darkgreen select-none dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
                     Михаил Стародуб
                     <p>Founder & President</p>
                   </summary>
@@ -60,7 +60,7 @@ export default function Page() {
 
               <div className="mx-auto flex max-w-full flex-row justify-center space-y-2 p-2">
                 <details className="rounded-3xl p-2 text-center open:ring-1 open:ring-black/5 dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:hover:border-p1-green dark:hover:text-p1-cyan">
-                  <summary className="select-none space-y-4 text-lg font-semibold leading-6 text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
+                  <summary className="space-y-4 text-lg leading-6 font-semibold text-p1-darkgreen select-none dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
                     Андрей Лаус
                     <p>Founder & Vice President</p>
                   </summary>
@@ -89,7 +89,7 @@ export default function Page() {
 
               <div className="mx-auto flex max-w-full flex-row justify-center space-y-2 p-2">
                 <details className="rounded-3xl p-2 text-center open:ring-1 open:ring-black/5 dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:hover:border-p1-green dark:hover:text-p1-cyan">
-                  <summary className="select-none space-y-4 text-lg font-semibold leading-6 text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
+                  <summary className="space-y-4 text-lg leading-6 font-semibold text-p1-darkgreen select-none dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
                     Давид Агаджанян
                     <p>Founder & Director of public and international relations</p>
                   </summary>
@@ -119,7 +119,7 @@ export default function Page() {
               />
               <div className="mx-auto flex max-w-full flex-row justify-center space-y-2 p-2">
                 <details className="rounded-3xl p-2 text-center open:ring-1 open:ring-black/5 dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:hover:border-p1-green dark:hover:text-p1-cyan">
-                  <summary className="select-none space-y-4 text-lg font-semibold leading-6 text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
+                  <summary className="space-y-4 text-lg leading-6 font-semibold text-p1-darkgreen select-none dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
                     Валерий Костиков
                     <p>Founder & Software developer</p>
                   </summary>
@@ -146,7 +146,7 @@ export default function Page() {
 
               <div className="mx-auto flex max-w-full flex-row justify-center space-y-2 p-2">
                 <details className="rounded-3xl p-2 text-center open:ring-1 open:ring-black/5 dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:hover:border-p1-green dark:hover:text-p1-cyan">
-                  <summary className="select-none space-y-4 text-lg font-semibold leading-6 text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
+                  <summary className="space-y-4 text-lg leading-6 font-semibold text-p1-darkgreen select-none dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
                     Лада Леман
                     <p>Artist</p>
                   </summary>
@@ -176,7 +176,7 @@ export default function Page() {
 
               <div className="mx-auto flex max-w-full flex-row justify-center space-y-2 p-2">
                 <details className="rounded-3xl p-2 text-center open:ring-1 open:ring-black/5 dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:hover:border-p1-green dark:hover:text-p1-cyan">
-                  <summary className="select-none space-y-4 text-lg font-semibold leading-6 text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
+                  <summary className="space-y-4 text-lg leading-6 font-semibold text-p1-darkgreen select-none dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
                     Герман Беньковский
                     <p>Founder & Marketing Director</p>
                   </summary>

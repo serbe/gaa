@@ -57,7 +57,7 @@ function Nav() {
           <li key={name}>
             <Link
               href={url}
-              className="block rounded-sm bg-transparent px-3 py-2 text-slate-700 hover:text-p1-cyan focus:text-p1-cyan lg:p-0 dark:text-p1-gray lg:dark:text-p1-green"
+              className="block rounded-xs bg-transparent px-3 py-2 text-slate-700 hover:text-p1-cyan focus:text-p1-cyan lg:p-0 dark:text-p1-gray lg:dark:text-p1-green"
               aria-current="page"
             >
               {name}
@@ -80,7 +80,7 @@ function Nav() {
             alt="Bordered avatar"
           />
 
-          <div className="invisible absolute left-9 z-10 m-0.5 mt-2 -translate-x-1/2 text-nowrap rounded-xl bg-p1-white/30 text-gray-800 opacity-0 backdrop-blur-lg transition-all duration-100 group-hover:visible group-hover:border-opacity-70 group-hover:bg-opacity-30 group-hover:opacity-100 dark:bg-p1-deepdarkgreen/80">
+          <div className="group-hover:border-opacity-70 group-hover:bg-opacity-30 invisible absolute left-9 z-10 m-0.5 mt-2 -translate-x-1/2 rounded-xl bg-p1-white/30 text-nowrap text-gray-800 opacity-0 backdrop-blur-lg transition-all duration-100 group-hover:visible group-hover:opacity-100 dark:bg-p1-deepdarkgreen/80">
             <div className="rounded-md">
               <div className="w-56 border-b border-p1-darkgreen p-1 text-base text-p1-darkgreen transition-all delay-100 duration-300 ease-in-out hover:bg-p1-white/20 hover:pl-3 hover:text-p1-darkgreen dark:border-p1-deepdarkgreen dark:text-p1-green dark:hover:text-p1-cyan">
                 <Link href="#" className="mx-auto flex flex-row justify-start">
@@ -122,7 +122,7 @@ function Nav() {
             height={32}
           />
 
-          <div className="invisible absolute left-9 z-10 m-0.5 mt-2 -translate-x-1/2 text-nowrap rounded-xl bg-p1-white/30 text-gray-800 opacity-0 backdrop-blur-lg transition-all duration-100 group-hover:visible group-hover:border-opacity-70 group-hover:bg-opacity-30 group-hover:opacity-100 dark:bg-p1-deepdarkgreen/80">
+          <div className="group-hover:border-opacity-70 group-hover:bg-opacity-30 invisible absolute left-9 z-10 m-0.5 mt-2 -translate-x-1/2 rounded-xl bg-p1-white/30 text-nowrap text-gray-800 opacity-0 backdrop-blur-lg transition-all duration-100 group-hover:visible group-hover:opacity-100 dark:bg-p1-deepdarkgreen/80">
             <div className="rounded-md">
               <div className="border-b border-p1-darkgreen p-1 text-base text-p1-darkgreen transition-all delay-100 duration-300 ease-in-out hover:bg-p1-white/20 hover:text-p1-darkgreen dark:border-p1-deepdarkgreen dark:text-p1-green dark:hover:text-p1-cyan">
                 <div className="px-4 py-3">
@@ -273,7 +273,7 @@ function Nav() {
 
   return (
     <nav className="sticky top-0 z-50 border-gray-200 bg-white dark:bg-gray-900">
-      <div className="max-w-screen mx-auto flex flex-wrap items-center justify-between p-4">
+      <div className="mx-auto flex max-w-screen flex-wrap items-center justify-between p-4">
         <div className="flex items-center space-x-3">
           {/* <!-- Dropdown menu --> */}
           <div className="grid grid-cols-4 place-items-start gap-2">
@@ -291,7 +291,7 @@ function Nav() {
           <button
             data-collapse-toggle="navbar-user"
             type="button"
-            className="inline-flex size-8 items-center justify-center rounded-lg p-2 text-sm text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 md:hidden dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+            className="inline-flex size-8 items-center justify-center rounded-lg p-2 text-sm text-gray-500 hover:bg-gray-100 focus:ring-2 focus:ring-gray-200 focus:outline-hidden md:hidden dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
             aria-controls="navbar-user"
             aria-expanded="false"
             onClick={() => setMenuDrop(!menuDrop)}

@@ -45,7 +45,7 @@ export default function Home() {
               <input
                 type="email"
                 placeholder="Search Something..."
-                className="w-full bg-transparent text-xl text-gray-600 outline-none"
+                className="w-full bg-transparent text-xl text-gray-600 outline-hidden"
               />
             </div>
           </div>
@@ -81,7 +81,7 @@ export default function Home() {
           </div>
 
           <div className="grid h-1/5 grid-cols-1 p-1 2xl:grid-cols-2">
-            <div className="flex grid-flow-row auto-rows-max justify-start space-x-2 pb-4 pt-2 text-center md:space-x-4">
+            <div className="flex grid-flow-row auto-rows-max justify-start space-x-2 pt-2 pb-4 text-center md:space-x-4">
               <div className="rounded-2xl hover:bg-p1-green/20">
                 <Link href="#" className="">
                   <p className="pt-1 text-xl font-thin lining-nums md:px-2 md:text-2xl">
@@ -128,7 +128,7 @@ export default function Home() {
               </div>
             </div>
 
-            <div className="flex grid-flow-row auto-rows-max justify-end space-x-2 pb-4 pt-2 text-center md:space-x-4">
+            <div className="flex grid-flow-row auto-rows-max justify-end space-x-2 pt-2 pb-4 text-center md:space-x-4">
               <div className="rounded-2xl hover:bg-p1-green/20">
                 <Link href="#" className="">
                   <p className="pt-1 text-xl font-thin lining-nums md:px-2 md:text-2xl">
@@ -153,7 +153,7 @@ export default function Home() {
         <div className="sticky top-16 z-30 bg-p1-white shadow-md">
           <div className="flex justify-center space-x-2 pt-2">
             <div>
-              <div className="mx-auto flex max-w-2xl overflow-hidden rounded-2xl border-2 border-p1-green bg-p2-white2 px-4 py-3 backdrop-blur-sm hover:border-p1-cyan focus:border-p1-cyan md:w-96 dark:bg-p1-deepdarkgreen dark:text-p1-cyan">
+              <div className="mx-auto flex max-w-2xl overflow-hidden rounded-2xl border-2 border-p1-green bg-p2-white2 px-4 py-3 backdrop-blur-xs hover:border-p1-cyan focus:border-p1-cyan md:w-96 dark:bg-p1-deepdarkgreen dark:text-p1-cyan">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 192.904 192.904"
@@ -165,7 +165,7 @@ export default function Home() {
                 <input
                   type="email"
                   placeholder="Search"
-                  className="w-full bg-transparent text-xl text-p1-deepdarkgreen outline-none dark:text-p1-cyan"
+                  className="w-full bg-transparent text-xl text-p1-deepdarkgreen outline-hidden dark:text-p1-cyan"
                 />
               </div>
             </div>
@@ -176,7 +176,7 @@ export default function Home() {
             <div className="flex grid-flow-row auto-rows-max justify-center space-x-2 lg:justify-start xl:-my-16">
               <div>
                 <div
-                  className="inline-flex w-full justify-center rounded-md pt-1 shadow-sm"
+                  className="inline-flex w-full justify-center rounded-md pt-1 shadow-xs"
                   role="group"
                 >
                   <button
@@ -221,7 +221,7 @@ export default function Home() {
                     <label htmlFor="price" className="block"></label>
                     <select
                       id="price"
-                      className="mx-auto flex overflow-hidden rounded-r-xl bg-p1-white hover:border-opacity-15 hover:bg-p1-white/25 hover:text-p1-darkgreen dark:bg-p1-deepdarkgreen dark:text-p1-green dark:accent-p1-darkgreen dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan"
+                      className="hover:border-opacity-15 mx-auto flex overflow-hidden rounded-r-xl bg-p1-white hover:bg-p1-white/25 hover:text-p1-darkgreen dark:bg-p1-deepdarkgreen dark:text-p1-green dark:accent-p1-darkgreen dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan"
                       defaultValue={'DEFAULT'}
                     >
                       <option value="DEFAULT" disabled>
@@ -241,7 +241,7 @@ export default function Home() {
             <div className="flex flex-auto grid-flow-row auto-rows-max justify-center space-x-8 lg:justify-end xl:-my-16">
               <div className="">
                 <div
-                  className="inline-flex w-full flex-auto justify-center rounded-md pt-1 shadow-sm"
+                  className="inline-flex w-full flex-auto justify-center rounded-md pt-1 shadow-xs"
                   role="group"
                 >
                   <Link
@@ -274,7 +274,7 @@ export default function Home() {
               <div>
                 <button
                   data-target="area1"
-                  className="mx-auto justify-start rounded transition-all delay-75 duration-100 ease-in-out hover:bg-p1-cyan/50 hover:shadow-lg focus:shadow-lg dark:shadow-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:brightness-90"
+                  className="mx-auto justify-start rounded-sm transition-all delay-75 duration-100 ease-in-out hover:bg-p1-cyan/50 hover:shadow-lg focus:shadow-lg dark:shadow-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:brightness-90"
                   onClick={() => {
                     setVisibleArea1(!visibleArea1);
                   }}
@@ -308,7 +308,7 @@ export default function Home() {
                 <div className="w-10">
                   <button
                     data-target="area2"
-                    className="mx-auto justify-start rounded transition-all delay-75 duration-100 ease-in-out hover:bg-p1-cyan/50 hover:shadow-lg focus:bg-p1-cyan/50 focus:shadow-lg focus:hover:shadow-lg dark:shadow-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:brightness-90 dark:focus:brightness-90"
+                    className="mx-auto justify-start rounded-sm transition-all delay-75 duration-100 ease-in-out hover:bg-p1-cyan/50 hover:shadow-lg focus:bg-p1-cyan/50 focus:shadow-lg focus:hover:shadow-lg dark:shadow-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:brightness-90 dark:focus:brightness-90"
                     id="toggleButton2"
                     onClick={() => {
                       setCurrentVisibleArea(2);
@@ -326,7 +326,7 @@ export default function Home() {
                 <div className="w-10">
                   <button
                     data-target="area3"
-                    className="mx-auto justify-start rounded transition-all delay-75 duration-100 ease-in-out hover:bg-p1-cyan/50 hover:shadow-lg focus:bg-p1-cyan/50 focus:shadow-lg focus:hover:shadow-lg dark:shadow-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:brightness-90 dark:focus:brightness-90"
+                    className="mx-auto justify-start rounded-sm transition-all delay-75 duration-100 ease-in-out hover:bg-p1-cyan/50 hover:shadow-lg focus:bg-p1-cyan/50 focus:shadow-lg focus:hover:shadow-lg dark:shadow-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:brightness-90 dark:focus:brightness-90"
                     id="toggleButton3"
                     onClick={() => {
                       setCurrentVisibleArea(3);
@@ -344,7 +344,7 @@ export default function Home() {
                 <div className="w-10">
                   <button
                     data-target="area4"
-                    className="mx-auto justify-start rounded transition-all delay-75 duration-100 ease-in-out hover:bg-p1-cyan/50 hover:shadow-lg focus:bg-p1-cyan/50 focus:shadow-lg focus:hover:shadow-lg dark:shadow-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:brightness-90 dark:focus:brightness-90"
+                    className="mx-auto justify-start rounded-sm transition-all delay-75 duration-100 ease-in-out hover:bg-p1-cyan/50 hover:shadow-lg focus:bg-p1-cyan/50 focus:shadow-lg focus:hover:shadow-lg dark:shadow-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:brightness-90 dark:focus:brightness-90"
                     id="toggleButton4"
                     onClick={() => {
                       setCurrentVisibleArea(4);
@@ -362,7 +362,7 @@ export default function Home() {
                 <div className="w-10">
                   <button
                     data-target="area5"
-                    className="mx-auto justify-start rounded transition-all delay-75 duration-100 ease-in-out hover:bg-p1-cyan/50 hover:shadow-lg focus:bg-p1-cyan/50 focus:shadow-lg focus:hover:shadow-lg dark:shadow-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:brightness-90 dark:focus:brightness-90"
+                    className="mx-auto justify-start rounded-sm transition-all delay-75 duration-100 ease-in-out hover:bg-p1-cyan/50 hover:shadow-lg focus:bg-p1-cyan/50 focus:shadow-lg focus:hover:shadow-lg dark:shadow-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:brightness-90 dark:focus:brightness-90"
                     id="toggleButton5"
                     onClick={() => {
                       setCurrentVisibleArea(5);
@@ -380,7 +380,7 @@ export default function Home() {
                 <div className="w-10">
                   <button
                     data-target="area6"
-                    className="mx-auto justify-start rounded transition-all delay-75 duration-100 ease-in-out hover:bg-p1-cyan/50 hover:shadow-lg focus:bg-p1-cyan/50 focus:shadow-lg focus:hover:shadow-lg dark:shadow-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:brightness-90 dark:focus:brightness-90"
+                    className="mx-auto justify-start rounded-sm transition-all delay-75 duration-100 ease-in-out hover:bg-p1-cyan/50 hover:shadow-lg focus:bg-p1-cyan/50 focus:shadow-lg focus:hover:shadow-lg dark:shadow-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:brightness-90 dark:focus:brightness-90"
                     id="toggleButton6"
                     onClick={() => {
                       setCurrentVisibleArea(6);
@@ -398,7 +398,7 @@ export default function Home() {
                 <div className="w-10">
                   <button
                     data-target="area8"
-                    className="mx-auto justify-start rounded transition-all delay-75 duration-100 ease-in-out hover:bg-p1-cyan/50 hover:shadow-lg focus:bg-p1-cyan/50 focus:shadow-lg focus:hover:shadow-lg dark:shadow-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:brightness-90 dark:focus:brightness-90"
+                    className="mx-auto justify-start rounded-sm transition-all delay-75 duration-100 ease-in-out hover:bg-p1-cyan/50 hover:shadow-lg focus:bg-p1-cyan/50 focus:shadow-lg focus:hover:shadow-lg dark:shadow-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:brightness-90 dark:focus:brightness-90"
                     id="toggleButton6"
                     onClick={() => {
                       setCurrentVisibleArea(8);
@@ -421,7 +421,7 @@ export default function Home() {
 
         <div className="flex max-w-full place-content-center gap-2 px-6">
           {/* ... левый блок */}
-          <div id="area1" className={`w-3/12  gap-2 pt-2 ${visibleArea1 == true ? '' : 'hidden'}`}>
+          <div id="area1" className={`w-3/12 gap-2 pt-2 ${visibleArea1 == true ? '' : 'hidden'}`}>
             <div className="w-full snap-start border-b border-p1-green/30 bg-p1-white text-xl text-p1-darkgreen hover:border-p1-green hover:bg-p1-green/5 dark:bg-p1-deepdarkgreen">
               <details className="transition-all delay-75 duration-300 ease-in-out">
                 <summary className="relative flex cursor-pointer justify-start py-2 text-p1-darkgreen transition-all delay-75 duration-300 ease-in-out hover:pl-2 dark:text-p1-green dark:hover:text-p1-cyan">
@@ -451,7 +451,7 @@ export default function Home() {
                           <input
                             type="text"
                             id="price_min"
-                            className="block w-full border-b border-p1-green bg-p1-white p-1 text-center text-sm lining-nums text-p1-darkgreen hover:bg-p2-white2 focus:border-p1-darkgreen focus:ring-p1-darkgreen md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:placeholder:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan dark:focus:border-p1-green dark:focus:ring-p1-cyan"
+                            className="block w-full border-b border-p1-green bg-p1-white p-1 text-center text-sm text-p1-darkgreen lining-nums hover:bg-p2-white2 focus:border-p1-darkgreen focus:ring-p1-darkgreen md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:placeholder:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan dark:focus:border-p1-green dark:focus:ring-p1-cyan"
                             placeholder="Min"
                             required
                           />
@@ -463,7 +463,7 @@ export default function Home() {
                           <input
                             type="text"
                             id="price_max"
-                            className="block w-full border-b border-p1-green bg-p1-white p-1 text-center text-sm lining-nums text-p1-darkgreen hover:bg-p2-white2 focus:border-p1-darkgreen focus:ring-p1-darkgreen md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:placeholder:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan dark:focus:border-p1-green dark:focus:ring-p1-cyan"
+                            className="block w-full border-b border-p1-green bg-p1-white p-1 text-center text-sm text-p1-darkgreen lining-nums hover:bg-p2-white2 focus:border-p1-darkgreen focus:ring-p1-darkgreen md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:placeholder:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan dark:focus:border-p1-green dark:focus:ring-p1-cyan"
                             placeholder="Max"
                             required
                           />
@@ -496,7 +496,7 @@ export default function Home() {
                         <input
                           type="text"
                           id="price_min"
-                          className="block w-full border-b border-p1-green bg-p1-white p-1 text-center text-sm lining-nums text-p1-darkgreen hover:bg-p2-white2 focus:border-p1-darkgreen focus:ring-p1-darkgreen md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:placeholder:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan dark:focus:border-p1-green dark:focus:ring-p1-cyan"
+                          className="block w-full border-b border-p1-green bg-p1-white p-1 text-center text-sm text-p1-darkgreen lining-nums hover:bg-p2-white2 focus:border-p1-darkgreen focus:ring-p1-darkgreen md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:placeholder:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan dark:focus:border-p1-green dark:focus:ring-p1-cyan"
                           placeholder="Min"
                           required
                         />
@@ -508,7 +508,7 @@ export default function Home() {
                         <input
                           type="text"
                           id="price_max"
-                          className="block w-full border-b border-p1-green bg-p1-white p-1 text-center text-sm lining-nums text-p1-darkgreen hover:bg-p2-white2 focus:border-p1-darkgreen focus:ring-p1-darkgreen md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:placeholder:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan dark:focus:border-p1-green dark:focus:ring-p1-cyan"
+                          className="block w-full border-b border-p1-green bg-p1-white p-1 text-center text-sm text-p1-darkgreen lining-nums hover:bg-p2-white2 focus:border-p1-darkgreen focus:ring-p1-darkgreen md:text-xl dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:placeholder:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-darkgreen dark:hover:text-p1-cyan dark:focus:border-p1-green dark:focus:ring-p1-cyan"
                           placeholder="Max"
                           required
                         />
@@ -562,7 +562,7 @@ export default function Home() {
                             <input
                               type="email"
                               placeholder="Search ..."
-                              className="w-full bg-transparent text-xl text-p1-deepdarkgreen outline-none dark:text-p1-cyan"
+                              className="w-full bg-transparent text-xl text-p1-deepdarkgreen outline-hidden dark:text-p1-cyan"
                             />
                           </div>
                         </div>
@@ -576,7 +576,7 @@ export default function Home() {
                           }}
                           type="checkbox"
                           value=""
-                          className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                          className="size-6 rounded-sm border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                         />
                         <label
                           id="3"
@@ -597,7 +597,7 @@ export default function Home() {
                           }}
                           type="checkbox"
                           value=""
-                          className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                          className="size-6 rounded-sm border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                         />
                         <label
                           id="3"
@@ -640,7 +640,7 @@ export default function Home() {
                             <input
                               type="email"
                               placeholder="Search ..."
-                              className="w-full bg-transparent text-xl text-p1-deepdarkgreen outline-none dark:text-p1-cyan"
+                              className="w-full bg-transparent text-xl text-p1-deepdarkgreen outline-hidden dark:text-p1-cyan"
                             />
                           </div>
                         </div>
@@ -654,7 +654,7 @@ export default function Home() {
                           }}
                           type="checkbox"
                           value=""
-                          className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                          className="size-6 rounded-sm border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                         />
                         <label
                           id="3"
@@ -674,7 +674,7 @@ export default function Home() {
                           }}
                           type="checkbox"
                           value=""
-                          className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                          className="size-6 rounded-sm border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                         />
                         <label
                           id="3"
@@ -717,7 +717,7 @@ export default function Home() {
                             <input
                               type="email"
                               placeholder="Search ..."
-                              className="w-full bg-transparent text-xl text-p1-deepdarkgreen outline-none dark:text-p1-cyan"
+                              className="w-full bg-transparent text-xl text-p1-deepdarkgreen outline-hidden dark:text-p1-cyan"
                             />
                           </div>
                         </div>
@@ -731,7 +731,7 @@ export default function Home() {
                           }}
                           type="checkbox"
                           value=""
-                          className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                          className="size-6 rounded-sm border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                         />
                         <label
                           id="3"
@@ -751,7 +751,7 @@ export default function Home() {
                           }}
                           type="checkbox"
                           value=""
-                          className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                          className="size-6 rounded-sm border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                         />
                         <label
                           id="3"
@@ -801,7 +801,7 @@ export default function Home() {
                           <input
                             type="email"
                             placeholder="Search ..."
-                            className="w-full bg-transparent text-xl text-p1-deepdarkgreen outline-none dark:text-p1-cyan"
+                            className="w-full bg-transparent text-xl text-p1-deepdarkgreen outline-hidden dark:text-p1-cyan"
                           />
                         </div>
                       </div>
@@ -834,7 +834,7 @@ export default function Home() {
                         htmlFor="dropzone-file"
                         className="mt-5 flex h-56 w-full cursor-pointer flex-col items-center justify-center rounded-3xl border-2 border-dashed border-gray-300 bg-gray-50 shadow-lg hover:bg-gray-100 dark:border-gray-600 dark:bg-gray-700 dark:hover:border-gray-500 dark:hover:bg-gray-800"
                       >
-                        <div className="flex flex-col items-center justify-center pb-6 pt-5">
+                        <div className="flex flex-col items-center justify-center pt-5 pb-6">
                           <svg
                             className="mb-4 size-8 text-gray-500 dark:text-gray-400"
                             aria-hidden="true"
@@ -865,7 +865,7 @@ export default function Home() {
                         <input id="dropzone-file" type="file" className="hidden" />
                       </label>
                       <div
-                        className="inline-flex w-full justify-center rounded-md pt-1 shadow-sm"
+                        className="inline-flex w-full justify-center rounded-md pt-1 shadow-xs"
                         role="group"
                       >
                         <Link
@@ -886,7 +886,7 @@ export default function Home() {
                         }}
                         type="checkbox"
                         value=""
-                        className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                        className="size-6 rounded-sm border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                       />
                       <label
                         id="3"
@@ -907,7 +907,7 @@ export default function Home() {
                         }}
                         type="checkbox"
                         value=""
-                        className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                        className="size-6 rounded-sm border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                       />
                       <label
                         id="3"
@@ -950,7 +950,7 @@ export default function Home() {
                           <input
                             type="email"
                             placeholder="Search ..."
-                            className="w-full bg-transparent text-xl text-p1-deepdarkgreen outline-none dark:text-p1-cyan"
+                            className="w-full bg-transparent text-xl text-p1-deepdarkgreen outline-hidden dark:text-p1-cyan"
                           />
                         </div>
                       </div>
@@ -964,7 +964,7 @@ export default function Home() {
                         }}
                         type="checkbox"
                         value=""
-                        className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                        className="size-6 rounded-sm border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                       />
                       <label
                         id="3"
@@ -984,7 +984,7 @@ export default function Home() {
                         }}
                         type="checkbox"
                         value=""
-                        className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                        className="size-6 rounded-sm border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                       />
                       <label
                         id="3"
@@ -1006,11 +1006,11 @@ export default function Home() {
             {/* ...Строки  Items Таблица */}
             <div
               id="area2"
-              className={`inline-block h-96 w-max resize-y snap-y  snap-start place-self-start overflow-auto rounded border ${currentVisibleArea == 2 ? '' : 'hidden'}`}
+              className={`inline-block h-96 w-max resize-y snap-y snap-start place-self-start overflow-auto rounded-sm border ${currentVisibleArea == 2 ? '' : 'hidden'}`}
             >
               <div className="relative snap-start scroll-smooth">
                 <table className="text-left text-xl text-p1-darkgreen dark:text-p1-green">
-                  <thead className="sticky top-0 z-20 border-b border-p1-green/30 bg-p1-white/100 text-xs uppercase text-p1-darkgreen dark:bg-p1-deepdarkgreen dark:text-p1-green">
+                  <thead className="sticky top-0 z-20 border-b border-p1-green/30 bg-p1-white/100 text-xs text-p1-darkgreen uppercase dark:bg-p1-deepdarkgreen dark:text-p1-green">
                     <tr>
                       <th scope="col" className="p-2 text-center">
                         Add to cart
@@ -1186,7 +1186,7 @@ export default function Home() {
                   </thead>
                   <tbody className="z-10 w-full scroll-mt-4 place-self-start overflow-auto scroll-smooth text-lg">
                     <tr className="border-b border-p1-green/30 bg-p1-white lining-nums hover:bg-p1-cyan/5 dark:border-p1-green dark:bg-p1-deepdarkgreen">
-                      <th scope="row" className="whitespace-nowrap p-2 font-medium">
+                      <th scope="row" className="p-2 font-medium whitespace-nowrap">
                         <div className="flex items-center">
                           <input
                             checked={check}
@@ -1196,7 +1196,7 @@ export default function Home() {
                             }}
                             type="checkbox"
                             value=""
-                            className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                            className="size-6 rounded-sm border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                           />
                           <label
                             htmlFor="checkbox "
@@ -1238,7 +1238,7 @@ export default function Home() {
                       </td>
                     </tr>
                     <tr className="border-b border-p1-green/30 bg-p1-white lining-nums hover:bg-p1-cyan/5 dark:border-p1-green dark:bg-p1-deepdarkgreen">
-                      <th scope="row" className="whitespace-nowrap p-2 font-medium">
+                      <th scope="row" className="p-2 font-medium whitespace-nowrap">
                         <div className="flex items-center">
                           <input
                             checked={check}
@@ -1248,7 +1248,7 @@ export default function Home() {
                             }}
                             type="checkbox"
                             value=""
-                            className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                            className="size-6 rounded-sm border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                           />
                           <label
                             htmlFor="checkbox "
@@ -1290,7 +1290,7 @@ export default function Home() {
                       </td>
                     </tr>
                     <tr className="border-b border-p1-green/30 bg-p1-white lining-nums hover:bg-p1-cyan/5 dark:border-p1-green dark:bg-p1-deepdarkgreen">
-                      <th scope="row" className="whitespace-nowrap p-2 font-medium">
+                      <th scope="row" className="p-2 font-medium whitespace-nowrap">
                         <div className="flex items-center">
                           <input
                             checked={check}
@@ -1300,7 +1300,7 @@ export default function Home() {
                             }}
                             type="checkbox"
                             value=""
-                            className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                            className="size-6 rounded-sm border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                           />
                           <label
                             htmlFor="checkbox "
@@ -1342,7 +1342,7 @@ export default function Home() {
                       </td>
                     </tr>
                     <tr className="border-b border-p1-green/30 bg-p1-white lining-nums hover:bg-p1-cyan/5 dark:border-p1-green dark:bg-p1-deepdarkgreen">
-                      <th scope="row" className="whitespace-nowrap p-2 font-medium">
+                      <th scope="row" className="p-2 font-medium whitespace-nowrap">
                         <div className="flex items-center">
                           <input
                             checked={check}
@@ -1352,7 +1352,7 @@ export default function Home() {
                             }}
                             type="checkbox"
                             value=""
-                            className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                            className="size-6 rounded-sm border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                           />
                           <label
                             htmlFor="checkbox "
@@ -1394,7 +1394,7 @@ export default function Home() {
                       </td>
                     </tr>
                     <tr className="border-b border-p1-green/30 bg-p1-white lining-nums hover:bg-p1-cyan/5 dark:border-p1-green dark:bg-p1-deepdarkgreen">
-                      <th scope="row" className="whitespace-nowrap p-2 font-medium">
+                      <th scope="row" className="p-2 font-medium whitespace-nowrap">
                         <div className="flex items-center">
                           <input
                             checked={check}
@@ -1404,7 +1404,7 @@ export default function Home() {
                             }}
                             type="checkbox"
                             value=""
-                            className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                            className="size-6 rounded-sm border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                           />
                           <label
                             htmlFor="checkbox "
@@ -1446,7 +1446,7 @@ export default function Home() {
                       </td>
                     </tr>
                     <tr className="border-b border-p1-green/30 bg-p1-white lining-nums hover:bg-p1-cyan/5 dark:border-p1-green dark:bg-p1-deepdarkgreen">
-                      <th scope="row" className="whitespace-nowrap p-2 font-medium">
+                      <th scope="row" className="p-2 font-medium whitespace-nowrap">
                         <div className="flex items-center">
                           <input
                             checked={check}
@@ -1456,7 +1456,7 @@ export default function Home() {
                             }}
                             type="checkbox"
                             value=""
-                            className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                            className="size-6 rounded-sm border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                           />
                           <label
                             htmlFor="checkbox "
@@ -1498,7 +1498,7 @@ export default function Home() {
                       </td>
                     </tr>
                     <tr className="border-b border-p1-green/30 bg-p1-white lining-nums hover:bg-p1-cyan/5 dark:border-p1-green dark:bg-p1-deepdarkgreen">
-                      <th scope="row" className="whitespace-nowrap p-2 font-medium">
+                      <th scope="row" className="p-2 font-medium whitespace-nowrap">
                         <div className="flex items-center">
                           <input
                             checked={check}
@@ -1508,7 +1508,7 @@ export default function Home() {
                             }}
                             type="checkbox"
                             value=""
-                            className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                            className="size-6 rounded-sm border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                           />
                           <label
                             htmlFor="checkbox "
@@ -1550,7 +1550,7 @@ export default function Home() {
                       </td>
                     </tr>
                     <tr className="border-b border-p1-green/30 bg-p1-white lining-nums hover:bg-p1-cyan/5 dark:border-p1-green dark:bg-p1-deepdarkgreen">
-                      <th scope="row" className="whitespace-nowrap p-2 font-medium">
+                      <th scope="row" className="p-2 font-medium whitespace-nowrap">
                         <div className="flex items-center">
                           <input
                             checked={check}
@@ -1560,7 +1560,7 @@ export default function Home() {
                             }}
                             type="checkbox"
                             value=""
-                            className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                            className="size-6 rounded-sm border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                           />
                           <label
                             htmlFor="checkbox "
@@ -1602,7 +1602,7 @@ export default function Home() {
                       </td>
                     </tr>
                     <tr className="border-b border-p1-green/30 bg-p1-white lining-nums hover:bg-p1-cyan/5 dark:border-p1-green dark:bg-p1-deepdarkgreen">
-                      <th scope="row" className="whitespace-nowrap p-2 font-medium">
+                      <th scope="row" className="p-2 font-medium whitespace-nowrap">
                         <div className="flex items-center">
                           <input
                             checked={check}
@@ -1612,7 +1612,7 @@ export default function Home() {
                             }}
                             type="checkbox"
                             value=""
-                            className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                            className="size-6 rounded-sm border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                           />
                           <label
                             htmlFor="checkbox "
@@ -1661,12 +1661,12 @@ export default function Home() {
             {/* ...Строки  Таблица Activity*/}
             <div
               id="area9"
-              className={`inline-block  size-max  place-self-start overflow-auto rounded border ${currentVisibleArea == 9 ? '' : 'hidden'}`}
+              className={`inline-block size-max place-self-start overflow-auto rounded-sm border ${currentVisibleArea == 9 ? '' : 'hidden'}`}
             >
               <div className="columns-1 gap-24 md:columns-2 dark:border-p1-green">
                 <div className="relative sm:rounded-lg">
                   <table className="text-left text-xl text-p1-darkgreen dark:text-p1-green">
-                    <thead className="sticky top-0 z-10 border-b-2 border-p1-green/20 bg-p1-white text-xs uppercase text-p1-darkgreen dark:bg-p1-deepdarkgreen dark:text-p1-green">
+                    <thead className="sticky top-0 z-10 border-b-2 border-p1-green/20 bg-p1-white text-xs text-p1-darkgreen uppercase dark:bg-p1-deepdarkgreen dark:text-p1-green">
                       <tr>
                         <th scope="col" className="p-2">
                           Rank
@@ -1825,7 +1825,7 @@ export default function Home() {
                 </div>
                 <div className="relative sm:rounded-lg">
                   <table className="text-left text-xl text-p1-darkgreen dark:text-p1-green">
-                    <thead className="sticky top-0 z-10 border-b-2 border-p1-green/20 bg-p1-white text-xs uppercase text-p1-darkgreen dark:bg-p1-deepdarkgreen dark:text-p1-green">
+                    <thead className="sticky top-0 z-10 border-b-2 border-p1-green/20 bg-p1-white text-xs text-p1-darkgreen uppercase dark:bg-p1-deepdarkgreen dark:text-p1-green">
                       <tr>
                         <th scope="col" className="p-2">
                           Rank
@@ -1988,9 +1988,9 @@ export default function Home() {
             {/* ... маленькие карточки  ... */}
             <div id="area3" className={`${currentVisibleArea == 3 ? '' : 'hidden'}`}>
               <div className="flex gap-4">
-                <div className="group relative h-[14.5rem] w-40 place-self-center overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-100 hover:shadow-lg hover:shadow-p1-cyan group-hover:shadow-sm dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
+                <div className="group relative h-[14.5rem] w-40 place-self-center overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-100 group-hover:shadow-xs hover:shadow-lg hover:shadow-p1-cyan dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
                   <div>
-                    <div className="group invisible absolute right-1 top-1 z-10 inline-block duration-100 ease-in-out group-hover:visible group-hover:opacity-100">
+                    <div className="group invisible absolute top-1 right-1 z-10 inline-block duration-100 ease-in-out group-hover:visible group-hover:opacity-100">
                       <Link
                         href="#"
                         className="z-50 grid w-6 place-content-center transition-all delay-75 duration-100 ease-in-out hover:scale-125"
@@ -2024,7 +2024,7 @@ export default function Home() {
                       <div className="px-1 pt-1 text-left text-sm font-bold"># 8888</div>
                     </div>
 
-                    <div className="px-1 pb-12 pt-1">
+                    <div className="px-1 pt-1 pb-12">
                       <div className="flex items-center justify-between">
                         <div className="text-center">
                           <p className="text-center text-xs">
@@ -2047,7 +2047,7 @@ export default function Home() {
                   </div>
 
                   <div className="flex items-center justify-between">
-                    <div className="absolute bottom-0 left-0 h-8 w-40 translate-y-full bg-p1-darkgreen/100 text-center text-p2-white2 shadow-sm shadow-p1-green transition-transform duration-500 ease-in-out hover:bg-p1-darkgreen group-hover:translate-y-0 dark:bg-p1-deepdarkgreen">
+                    <div className="absolute bottom-0 left-0 h-8 w-40 translate-y-full bg-p1-darkgreen/100 text-center text-p2-white2 shadow-xs shadow-p1-green transition-transform duration-500 ease-in-out group-hover:translate-y-0 hover:bg-p1-darkgreen dark:bg-p1-deepdarkgreen">
                       <div className="inline-flex h-8 w-40 justify-center text-sm" role="group">
                         <Link
                           href="#"
@@ -2090,9 +2090,9 @@ export default function Home() {
             {/* ... средние карточки  ... */}
             <div id="area4" className={`${currentVisibleArea == 4 ? '' : 'hidden'}`}>
               <div className="flex gap-4">
-                <div className="group relative h-[21.5rem] w-60 place-self-center overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-100 hover:shadow-lg hover:shadow-p1-cyan group-hover:shadow-sm dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
+                <div className="group relative h-[21.5rem] w-60 place-self-center overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-100 group-hover:shadow-xs hover:shadow-lg hover:shadow-p1-cyan dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
                   <div>
-                    <div className="group invisible absolute right-1 top-1 z-10 inline-block duration-100 ease-in-out group-hover:visible group-hover:opacity-100">
+                    <div className="group invisible absolute top-1 right-1 z-10 inline-block duration-100 ease-in-out group-hover:visible group-hover:opacity-100">
                       <Link
                         href="#"
                         className="z-50 grid w-8 place-content-center transition-all delay-75 duration-100 ease-in-out hover:scale-125"
@@ -2126,7 +2126,7 @@ export default function Home() {
                       <div className="px-2 text-left text-base font-bold"># 2222</div>
                     </div>
 
-                    <div className="px-2 pb-12 pt-2">
+                    <div className="px-2 pt-2 pb-12">
                       <div className="flex items-center justify-between">
                         <div className="text-center">
                           <p className="text-center text-base">
@@ -2147,7 +2147,7 @@ export default function Home() {
                   </div>
 
                   <div className="flex items-center justify-between">
-                    <div className="absolute bottom-0 left-0 h-[2.8rem] w-60 translate-y-full bg-p1-darkgreen/100 text-center text-p2-white2 shadow-sm shadow-p1-green transition-transform duration-500 ease-in-out hover:bg-p1-darkgreen group-hover:translate-y-0 dark:bg-p1-deepdarkgreen">
+                    <div className="absolute bottom-0 left-0 h-[2.8rem] w-60 translate-y-full bg-p1-darkgreen/100 text-center text-p2-white2 shadow-xs shadow-p1-green transition-transform duration-500 ease-in-out group-hover:translate-y-0 hover:bg-p1-darkgreen dark:bg-p1-deepdarkgreen">
                       <div
                         className="inline-flex h-[2.8rem] w-60 justify-center text-sm"
                         role="group"
@@ -2193,9 +2193,9 @@ export default function Home() {
             {/* ... большие карточки  ... */}
             <div id="area5" className={`${currentVisibleArea == 5 ? '' : 'hidden'}`}>
               <div className="flex gap-4">
-                <div className="group relative h-[28rem] w-80 place-self-center overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-100 hover:shadow-lg hover:shadow-p1-cyan group-hover:shadow-sm dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
+                <div className="group relative h-[28rem] w-80 place-self-center overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-100 group-hover:shadow-xs hover:shadow-lg hover:shadow-p1-cyan dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
                   <div>
-                    <div className="group invisible absolute right-1 top-1 z-10 inline-block duration-100 ease-in-out group-hover:visible group-hover:opacity-100">
+                    <div className="group invisible absolute top-1 right-1 z-10 inline-block duration-100 ease-in-out group-hover:visible group-hover:opacity-100">
                       <Link
                         href="#"
                         className="z-50 grid w-10 place-content-center transition-all delay-75 duration-100 ease-in-out hover:scale-125"
@@ -2229,7 +2229,7 @@ export default function Home() {
                       <div className="px-4 text-left text-xl font-bold"># 3333</div>
                     </div>
 
-                    <div className="px-4 pb-12 pt-4">
+                    <div className="px-4 pt-4 pb-12">
                       <div className="flex items-center justify-between">
                         <div className="text-center">
                           <p className="text-center text-lg">
@@ -2250,7 +2250,7 @@ export default function Home() {
                   </div>
 
                   <div className="flex items-center justify-between">
-                    <div className="absolute bottom-0 left-0 w-full translate-y-full bg-p1-darkgreen/100 text-center text-p2-white2 shadow-sm shadow-p1-green transition-transform duration-500 ease-in-out hover:bg-p1-darkgreen group-hover:translate-y-0 dark:bg-p1-deepdarkgreen">
+                    <div className="absolute bottom-0 left-0 w-full translate-y-full bg-p1-darkgreen/100 text-center text-p2-white2 shadow-xs shadow-p1-green transition-transform duration-500 ease-in-out group-hover:translate-y-0 hover:bg-p1-darkgreen dark:bg-p1-deepdarkgreen">
                       <div className="inline-flex h-12 w-80 justify-center text-sm" role="group">
                         <Link
                           href="#"
@@ -2293,9 +2293,9 @@ export default function Home() {
             {/* ... самые большие карточки  ... */}
             <div id="area6" className={`${currentVisibleArea == 6 ? '' : 'hidden'}`}>
               <div className="flex gap-4">
-                <div className="group relative h-[39rem] w-[28rem] place-self-center overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-100 hover:shadow-lg hover:shadow-p1-cyan group-hover:shadow-sm dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
+                <div className="group relative h-[39rem] w-[28rem] place-self-center overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-100 group-hover:shadow-xs hover:shadow-lg hover:shadow-p1-cyan dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
                   <div>
-                    <div className="group invisible absolute right-1 top-1 z-10 inline-block duration-100 ease-in-out group-hover:visible group-hover:opacity-100">
+                    <div className="group invisible absolute top-1 right-1 z-10 inline-block duration-100 ease-in-out group-hover:visible group-hover:opacity-100">
                       <Link
                         href="#"
                         className="z-50 grid w-12 place-content-center transition-all delay-75 duration-100 ease-in-out hover:scale-125"
@@ -2329,7 +2329,7 @@ export default function Home() {
                       <div className="px-4 pt-2 text-left text-3xl font-bold"># 8888</div>
                     </div>
 
-                    <div className="px-4 pb-12 pt-6">
+                    <div className="px-4 pt-6 pb-12">
                       <div className="flex items-center justify-between">
                         <div className="text-center">
                           <p className="text-center text-3xl">
@@ -2350,7 +2350,7 @@ export default function Home() {
                   </div>
 
                   <div className="flex items-center justify-between">
-                    <div className="absolute bottom-0 left-0 w-full translate-y-full bg-p1-darkgreen/100 text-center text-p2-white2 shadow-sm shadow-p1-green transition-transform duration-500 ease-in-out hover:bg-p1-darkgreen group-hover:translate-y-0 dark:bg-p1-deepdarkgreen">
+                    <div className="absolute bottom-0 left-0 w-full translate-y-full bg-p1-darkgreen/100 text-center text-p2-white2 shadow-xs shadow-p1-green transition-transform duration-500 ease-in-out group-hover:translate-y-0 hover:bg-p1-darkgreen dark:bg-p1-deepdarkgreen">
                       <div
                         className="inline-flex h-16 w-[28rem] justify-center text-sm"
                         role="group"
@@ -2396,9 +2396,9 @@ export default function Home() {
             {/* ...  карточки ,без подписи  ... */}
             <div id="area8" className={`${currentVisibleArea == 8 ? '' : 'hidden'}`}>
               <div className="flex gap-4">
-                <div className="group relative w-80 place-self-center overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-100 hover:shadow-lg hover:shadow-p1-cyan group-hover:shadow-sm dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
+                <div className="group relative w-80 place-self-center overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-100 group-hover:shadow-xs hover:shadow-lg hover:shadow-p1-cyan dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
                   <div>
-                    <div className="group invisible absolute right-1 top-1 z-10 inline-block duration-100 ease-in-out group-hover:visible group-hover:opacity-100">
+                    <div className="group invisible absolute top-1 right-1 z-10 inline-block duration-100 ease-in-out group-hover:visible group-hover:opacity-100">
                       <Link
                         href="#"
                         className="z-50 grid w-10 place-content-center transition-all delay-75 duration-100 ease-in-out hover:scale-105"
@@ -2587,7 +2587,7 @@ export default function Home() {
             {/* ...Добавить Лого Спонсора*/}
             <div
               id="area11"
-              className={`inline-block h-96 w-max  place-self-start ${currentVisibleArea == 11 ? '' : 'hidden'}`}
+              className={`inline-block h-96 w-max place-self-start ${currentVisibleArea == 11 ? '' : 'hidden'}`}
             >
               <div className="pt-1 text-center text-p1-darkgreen dark:text-p1-green">
                 {/* Добавить лого спорсора 2*/}
@@ -2603,14 +2603,14 @@ export default function Home() {
                 <div className="flex grid-flow-row gap-4">
                   <div className="pt-1 text-center text-p1-darkgreen dark:text-p1-green">
                     {/* ... карточка 1 ...15x10 */}
-                    <div className="group relative h-[14.5rem] w-40 place-self-center overflow-hidden rounded-xl bg-white object-cover lining-nums shadow-lg transition-transform duration-100 hover:shadow-lg hover:shadow-p1-cyan group-hover:shadow-sm dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
+                    <div className="group relative h-[14.5rem] w-40 place-self-center overflow-hidden rounded-xl bg-white object-cover lining-nums shadow-lg transition-transform duration-100 group-hover:shadow-xs hover:shadow-lg hover:shadow-p1-cyan dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
                       <div>
                         <path
                           d="M18.527 12.2062L12 16.1938L5.46875 12.2062L12 1L18.527 12.2062ZM12 17.4742L5.46875 13.4867L12 23L18.5312 13.4867L12 17.4742V17.4742Z"
                           fill="white"
                         ></path>
 
-                        <div className="group invisible absolute right-1 top-1 z-10 inline-block duration-100 ease-in-out group-hover:visible group-hover:opacity-100">
+                        <div className="group invisible absolute top-1 right-1 z-10 inline-block duration-100 ease-in-out group-hover:visible group-hover:opacity-100">
                           <Link
                             href="#"
                             className="z-50 grid w-6 place-content-center transition-all delay-75 duration-100 ease-in-out hover:scale-125"
@@ -2644,7 +2644,7 @@ export default function Home() {
                           <div className="px-1 pt-1 text-left text-sm font-bold"># 12345</div>
                         </div>
 
-                        <div className="px-1 pb-12 pt-1">
+                        <div className="px-1 pt-1 pb-12">
                           <div className="flex items-center justify-between">
                             <div className="text-center">
                               <p className="text-center text-xs">Дрифт</p>
@@ -2657,7 +2657,7 @@ export default function Home() {
                       </div>
 
                       <div className="flex items-center justify-between">
-                        <div className="absolute bottom-0 left-0 h-8 w-40 translate-y-full bg-p2-red text-center text-p2-white2 opacity-100 shadow-lg shadow-p2-red transition-transform duration-500 ease-in-out hover:bg-p1-darkgreen group-hover:translate-y-0 dark:bg-p2-red">
+                        <div className="absolute bottom-0 left-0 h-8 w-40 translate-y-full bg-p2-red text-center text-p2-white2 opacity-100 shadow-lg shadow-p2-red transition-transform duration-500 ease-in-out group-hover:translate-y-0 hover:bg-p1-darkgreen dark:bg-p2-red">
                           <div className="inline-flex h-8 w-40 justify-center text-sm" role="group">
                             <Link
                               href="#"
@@ -2683,14 +2683,14 @@ export default function Home() {
                   </div>
                   <div className="pt-1 text-center text-p1-darkgreen dark:text-p1-green">
                     {/* ... карточка 1 ...15x10 */}
-                    <div className="group relative h-[14.5rem] w-40 place-self-center overflow-hidden rounded-xl bg-white object-cover lining-nums shadow-lg transition-transform duration-100 hover:shadow-lg hover:shadow-p1-cyan group-hover:shadow-sm dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
+                    <div className="group relative h-[14.5rem] w-40 place-self-center overflow-hidden rounded-xl bg-white object-cover lining-nums shadow-lg transition-transform duration-100 group-hover:shadow-xs hover:shadow-lg hover:shadow-p1-cyan dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
                       <div>
                         <path
                           d="M18.527 12.2062L12 16.1938L5.46875 12.2062L12 1L18.527 12.2062ZM12 17.4742L5.46875 13.4867L12 23L18.5312 13.4867L12 17.4742V17.4742Z"
                           fill="white"
                         ></path>
 
-                        <div className="group invisible absolute right-1 top-1 z-10 inline-block duration-100 ease-in-out group-hover:visible group-hover:opacity-100">
+                        <div className="group invisible absolute top-1 right-1 z-10 inline-block duration-100 ease-in-out group-hover:visible group-hover:opacity-100">
                           <Link
                             href="#"
                             className="z-50 grid w-6 place-content-center transition-all delay-75 duration-100 ease-in-out hover:scale-125"
@@ -2724,7 +2724,7 @@ export default function Home() {
                           <div className="px-1 pt-1 text-left text-sm font-bold"># 12345</div>
                         </div>
 
-                        <div className="px-1 pb-12 pt-1">
+                        <div className="px-1 pt-1 pb-12">
                           <div className="flex items-center justify-between">
                             <div className="text-center">
                               <p className="text-center text-xs">Дрифт</p>
@@ -2737,7 +2737,7 @@ export default function Home() {
                       </div>
 
                       <div className="flex items-center justify-between">
-                        <div className="absolute bottom-0 left-0 h-8 w-40 translate-y-full bg-p2-red text-center text-p2-white2 opacity-100 shadow-lg shadow-p2-red transition-transform duration-500 ease-in-out hover:bg-p1-darkgreen group-hover:translate-y-0 dark:bg-p2-red">
+                        <div className="absolute bottom-0 left-0 h-8 w-40 translate-y-full bg-p2-red text-center text-p2-white2 opacity-100 shadow-lg shadow-p2-red transition-transform duration-500 ease-in-out group-hover:translate-y-0 hover:bg-p1-darkgreen dark:bg-p2-red">
                           <div className="inline-flex h-8 w-40 justify-center text-sm" role="group">
                             <Link
                               href="#"
@@ -2769,13 +2769,13 @@ export default function Home() {
 
             <div
               id="area12"
-              className={`inline-block  size-max  place-self-start overflow-auto rounded border    ${currentVisibleArea == 12 ? '' : 'hidden'}`}
+              className={`inline-block size-max place-self-start overflow-auto rounded-sm border ${currentVisibleArea == 12 ? '' : 'hidden'}`}
             >
               <div className="sticky top-0 grid h-1/5 grid-cols-1 place-content-center p-1 text-sm sm:px-2 md:px-4 lg:grid-cols-2 lg:px-6 lg:text-base xl:px-2 xl:text-lg 2xl:px-10 2xl:text-xl">
                 <div className="flex grid-flow-row auto-rows-max justify-center space-x-2 lg:justify-start">
                   <div>
                     <div
-                      className="inline-flex w-full justify-center rounded-md pt-1 shadow-sm"
+                      className="inline-flex w-full justify-center rounded-md pt-1 shadow-xs"
                       role="group"
                     >
                       <button
@@ -2812,7 +2812,7 @@ export default function Home() {
                 <div className="flex flex-auto grid-flow-row auto-rows-max justify-center space-x-8 lg:justify-end">
                   <div className="">
                     <div
-                      className="inline-flex w-full flex-auto justify-center rounded-md pt-1 shadow-sm"
+                      className="inline-flex w-full flex-auto justify-center rounded-md pt-1 shadow-xs"
                       role="group"
                     >
                       <Link
@@ -2832,7 +2832,7 @@ export default function Home() {
                   <div className="dark:border-p1-green">
                     <div className="relative h-96 resize-y overflow-auto scroll-smooth">
                       <table className="text-left text-xl text-p1-darkgreen dark:text-p1-green">
-                        <thead className="sticky top-0 z-10 border-b border-p1-green/30 bg-p1-white/100 text-xs uppercase text-p1-darkgreen dark:bg-p1-deepdarkgreen dark:text-p1-green">
+                        <thead className="sticky top-0 z-10 border-b border-p1-green/30 bg-p1-white/100 text-xs text-p1-darkgreen uppercase dark:bg-p1-deepdarkgreen dark:text-p1-green">
                           <tr>
                             <th scope="col" className="p-2 text-center">
                               choose
@@ -3036,7 +3036,7 @@ export default function Home() {
                         </thead>
                         <tbody className="z-10 w-full snap-y scroll-mt-4 place-self-start overflow-auto scroll-smooth text-lg">
                           <tr className="w-full snap-start border-b border-p1-green/30 bg-p1-white text-xl text-p1-darkgreen hover:border-p1-green hover:bg-p1-green/5 dark:bg-p1-deepdarkgreen">
-                            <th scope="row" className="whitespace-nowrap p-2 font-medium">
+                            <th scope="row" className="p-2 font-medium whitespace-nowrap">
                               <div className="flex items-center">
                                 <input
                                   checked={check}
@@ -3046,7 +3046,7 @@ export default function Home() {
                                   }}
                                   type="checkbox"
                                   value=""
-                                  className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                                  className="size-6 rounded-sm border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                                 />
                                 <label
                                   htmlFor="checkbox "
@@ -3107,7 +3107,7 @@ export default function Home() {
                             </td>
                           </tr>
                           <tr className="w-full snap-start border-b border-p1-green/30 bg-p1-white text-xl text-p1-darkgreen hover:border-p1-green hover:bg-p1-green/5 dark:bg-p1-deepdarkgreen">
-                            <th scope="row" className="whitespace-nowrap p-2 font-medium">
+                            <th scope="row" className="p-2 font-medium whitespace-nowrap">
                               <div className="flex items-center">
                                 <input
                                   checked={check}
@@ -3117,7 +3117,7 @@ export default function Home() {
                                   }}
                                   type="checkbox"
                                   value=""
-                                  className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                                  className="size-6 rounded-sm border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                                 />
                                 <label
                                   htmlFor="checkbox "
@@ -3178,7 +3178,7 @@ export default function Home() {
                             </td>
                           </tr>
                           <tr className="w-full snap-start border-b border-p1-green/30 bg-p1-white text-xl text-p1-darkgreen hover:border-p1-green hover:bg-p1-green/5 dark:bg-p1-deepdarkgreen">
-                            <th scope="row" className="whitespace-nowrap p-2 font-medium">
+                            <th scope="row" className="p-2 font-medium whitespace-nowrap">
                               <div className="flex items-center">
                                 <input
                                   checked={check}
@@ -3188,7 +3188,7 @@ export default function Home() {
                                   }}
                                   type="checkbox"
                                   value=""
-                                  className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                                  className="size-6 rounded-sm border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                                 />
                                 <label
                                   htmlFor="checkbox "
@@ -3249,7 +3249,7 @@ export default function Home() {
                             </td>
                           </tr>
                           <tr className="w-full snap-start border-b border-p1-green/30 bg-p1-white text-xl text-p1-darkgreen hover:border-p1-green hover:bg-p1-green/5 dark:bg-p1-deepdarkgreen">
-                            <th scope="row" className="whitespace-nowrap p-2 font-medium">
+                            <th scope="row" className="p-2 font-medium whitespace-nowrap">
                               <div className="flex items-center">
                                 <input
                                   checked={check}
@@ -3259,7 +3259,7 @@ export default function Home() {
                                   }}
                                   type="checkbox"
                                   value=""
-                                  className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                                  className="size-6 rounded-sm border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                                 />
                                 <label
                                   htmlFor="checkbox "
@@ -3320,7 +3320,7 @@ export default function Home() {
                             </td>
                           </tr>
                           <tr className="w-full snap-start border-b border-p1-green/30 bg-p1-white text-xl text-p1-darkgreen hover:border-p1-green hover:bg-p1-green/5 dark:bg-p1-deepdarkgreen">
-                            <th scope="row" className="whitespace-nowrap p-2 font-medium">
+                            <th scope="row" className="p-2 font-medium whitespace-nowrap">
                               <div className="flex items-center">
                                 <input
                                   checked={check}
@@ -3330,7 +3330,7 @@ export default function Home() {
                                   }}
                                   type="checkbox"
                                   value=""
-                                  className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                                  className="size-6 rounded-sm border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                                 />
                                 <label
                                   htmlFor="checkbox "
@@ -3391,7 +3391,7 @@ export default function Home() {
                             </td>
                           </tr>
                           <tr className="w-full snap-start border-b border-p1-green/30 bg-p1-white text-xl text-p1-darkgreen hover:border-p1-green hover:bg-p1-green/5 dark:bg-p1-deepdarkgreen">
-                            <th scope="row" className="whitespace-nowrap p-2 font-medium">
+                            <th scope="row" className="p-2 font-medium whitespace-nowrap">
                               <div className="flex items-center">
                                 <input
                                   checked={check}
@@ -3401,7 +3401,7 @@ export default function Home() {
                                   }}
                                   type="checkbox"
                                   value=""
-                                  className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                                  className="size-6 rounded-sm border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                                 />
                                 <label
                                   htmlFor="checkbox "
@@ -3462,7 +3462,7 @@ export default function Home() {
                             </td>
                           </tr>
                           <tr className="w-full snap-start border-b border-p1-green/30 bg-p1-white text-xl text-p1-darkgreen hover:border-p1-green hover:bg-p1-green/5 dark:bg-p1-deepdarkgreen">
-                            <th scope="row" className="whitespace-nowrap p-2 font-medium">
+                            <th scope="row" className="p-2 font-medium whitespace-nowrap">
                               <div className="flex items-center">
                                 <input
                                   checked={check}
@@ -3472,7 +3472,7 @@ export default function Home() {
                                   }}
                                   type="checkbox"
                                   value=""
-                                  className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                                  className="size-6 rounded-sm border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                                 />
                                 <label
                                   htmlFor="checkbox "
@@ -3533,7 +3533,7 @@ export default function Home() {
                             </td>
                           </tr>
                           <tr className="w-full snap-start border-b border-p1-green/30 bg-p1-white text-xl text-p1-darkgreen hover:border-p1-green hover:bg-p1-green/5 dark:bg-p1-deepdarkgreen">
-                            <th scope="row" className="whitespace-nowrap p-2 font-medium">
+                            <th scope="row" className="p-2 font-medium whitespace-nowrap">
                               <div className="flex items-center">
                                 <input
                                   checked={check}
@@ -3543,7 +3543,7 @@ export default function Home() {
                                   }}
                                   type="checkbox"
                                   value=""
-                                  className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                                  className="size-6 rounded-sm border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                                 />
                                 <label
                                   htmlFor="checkbox "

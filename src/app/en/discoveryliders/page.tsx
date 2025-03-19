@@ -10,7 +10,7 @@ const Buttons = ({ lider, setter }: { lider: number; setter: (liderNumber: numbe
   const jumpPoints = ['1', '2'];
 
   return (
-    <div className="inline-flex w-full justify-self-center rounded-md pt-5 shadow-sm" role="group">
+    <div className="inline-flex w-full justify-self-center rounded-md pt-5 shadow-xs" role="group">
       <JumpButton points={jumpPoints} />
 
       <button

@@ -107,7 +107,7 @@ export default function Page() {
         <div className="flex flex-row">
           <button
             type="button"
-            className="mb-2 me-2 inline-flex items-center rounded-lg bg-[#3b5998] px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-[#3b5998]/90 focus:outline-none focus:ring-4 focus:ring-[#3b5998]/50 dark:focus:ring-[#3b5998]/55"
+            className="me-2 mb-2 inline-flex items-center rounded-lg bg-[#3b5998] px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-[#3b5998]/90 focus:ring-4 focus:ring-[#3b5998]/50 focus:outline-hidden dark:focus:ring-[#3b5998]/55"
           >
             <svg
               className="me-2 size-10"
@@ -128,7 +128,7 @@ export default function Page() {
         <div>
           <button
             type="button"
-            className="mb-2 me-2 inline-flex items-center rounded-lg bg-[#1da1f2] px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-[#1da1f2]/90 focus:outline-none focus:ring-4 focus:ring-[#1da1f2]/50 dark:focus:ring-[#1da1f2]/55"
+            className="me-2 mb-2 inline-flex items-center rounded-lg bg-[#1da1f2] px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-[#1da1f2]/90 focus:ring-4 focus:ring-[#1da1f2]/50 focus:outline-hidden dark:focus:ring-[#1da1f2]/55"
           >
             <svg
               className="me-2 size-10"
@@ -150,7 +150,7 @@ export default function Page() {
         <div>
           <button
             type="button"
-            className="mb-2 me-2 inline-flex items-center rounded-lg bg-[#24292F] px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-[#24292F]/90 focus:outline-none focus:ring-4 focus:ring-[#24292F]/50 dark:hover:bg-[#050708]/30 dark:focus:ring-gray-500"
+            className="me-2 mb-2 inline-flex items-center rounded-lg bg-[#24292F] px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-[#24292F]/90 focus:ring-4 focus:ring-[#24292F]/50 focus:outline-hidden dark:hover:bg-[#050708]/30 dark:focus:ring-gray-500"
           >
             <svg
               className="-ms-1 me-2 size-10"
@@ -172,7 +172,7 @@ export default function Page() {
         <div>
           <button
             type="button"
-            className="mb-2 me-2 inline-flex items-center rounded-lg bg-[#4285F4] px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-[#4285F4]/90 focus:outline-none focus:ring-4 focus:ring-[#4285F4]/50 dark:focus:ring-[#4285F4]/55"
+            className="me-2 mb-2 inline-flex items-center rounded-lg bg-[#4285F4] px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-[#4285F4]/90 focus:ring-4 focus:ring-[#4285F4]/50 focus:outline-hidden dark:focus:ring-[#4285F4]/55"
           >
             <svg
               className="-ms-1 me-2 size-10"
@@ -194,7 +194,7 @@ export default function Page() {
         <div>
           <button
             type="button"
-            className="mb-2 me-2 inline-flex items-center rounded-lg bg-[#050708] px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-[#050708]/90 focus:outline-none focus:ring-4 focus:ring-[#050708]/50 dark:hover:bg-[#050708]/30 dark:focus:ring-[#050708]/50"
+            className="me-2 mb-2 inline-flex items-center rounded-lg bg-[#050708] px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-[#050708]/90 focus:ring-4 focus:ring-[#050708]/50 focus:outline-hidden dark:hover:bg-[#050708]/30 dark:focus:ring-[#050708]/50"
           >
             <svg
               className="me-2 size-10"

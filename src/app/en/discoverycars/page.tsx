@@ -60,7 +60,7 @@ export default function Page() {
               alt="Car"
             />
             <div
-              className="inline-flex w-full justify-self-center rounded-md p-2 align-baseline shadow-sm"
+              className="inline-flex w-full justify-self-center rounded-md p-2 align-baseline shadow-xs"
               role="group"
             >
               <Link

@@ -48,8 +48,8 @@ export default function Page() {
         <div className="" id="1"></div>
 
         <div className="mx-auto flex max-w-full flex-row space-y-2 p-2">
-          <details className="rounded-3xl border-p1-darkgreen p-2 open:bg-p1-green open:ring-1 open:ring-p1-green hover:border-p1-green open:md:border-4 open:md:shadow-lg dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:open:ring-white/10 dark:hover:border-p1-green dark:hover:text-p1-cyan">
-            <summary className="select-none space-y-4 text-lg font-semibold leading-6 text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
+          <details className="rounded-3xl border-p1-darkgreen p-2 open:bg-p1-green open:ring-1 open:ring-p1-green hover:border-p1-green md:open:border-4 md:open:shadow-lg dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:open:ring-white/10 dark:hover:border-p1-green dark:hover:text-p1-cyan">
+            <summary className="space-y-4 text-lg leading-6 font-semibold text-p1-darkgreen select-none dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
               What is Web3?
             </summary>
             <div className="mt-3 text-base leading-6 text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:text-p1-cyan">
@@ -90,8 +90,8 @@ export default function Page() {
         <div className="" id="2"></div>
 
         <div className="mx-auto flex max-w-full flex-row space-y-2 p-2">
-          <details className="rounded-3xl border-p1-darkgreen p-2 open:bg-p1-green open:ring-1 open:ring-p1-green hover:border-p1-green open:md:border-4 open:md:shadow-lg dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:open:ring-white/10 dark:hover:border-p1-green dark:hover:text-p1-cyan">
-            <summary className="select-none space-y-4 text-lg font-semibold leading-6 text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
+          <details className="rounded-3xl border-p1-darkgreen p-2 open:bg-p1-green open:ring-1 open:ring-p1-green hover:border-p1-green md:open:border-4 md:open:shadow-lg dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:open:ring-white/10 dark:hover:border-p1-green dark:hover:text-p1-cyan">
+            <summary className="space-y-4 text-lg leading-6 font-semibold text-p1-darkgreen select-none dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
               In order to better understand what Web3 is, you need to know what Web 1 and Web 2 are.
             </summary>
             <div className="mt-3 text-base leading-6 text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
@@ -155,8 +155,8 @@ export default function Page() {
         <div className="" id="3"></div>
 
         <div className="mx-auto flex max-w-full flex-row space-y-2 p-2">
-          <details className="rounded-3xl border-p1-darkgreen p-2 open:bg-p1-green open:ring-1 open:ring-p1-green hover:border-p1-green open:md:border-4 open:md:shadow-lg dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:open:ring-white/10 dark:hover:border-p1-green dark:hover:text-p1-cyan">
-            <summary className="select-none space-y-4 text-lg font-semibold leading-6 text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
+          <details className="rounded-3xl border-p1-darkgreen p-2 open:bg-p1-green open:ring-1 open:ring-p1-green hover:border-p1-green md:open:border-4 md:open:shadow-lg dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:open:ring-white/10 dark:hover:border-p1-green dark:hover:text-p1-cyan">
+            <summary className="space-y-4 text-lg leading-6 font-semibold text-p1-darkgreen select-none dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
               Web 2
             </summary>
             <div className="mt-3 text-base leading-6 text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
@@ -224,8 +224,8 @@ export default function Page() {
         <div className="" id="4"></div>
 
         <div className="mx-auto flex max-w-full flex-row space-y-2 p-2">
-          <details className="rounded-3xl border-p1-darkgreen p-2 open:bg-p1-green open:ring-1 open:ring-p1-green hover:border-p1-green open:md:border-4 open:md:shadow-lg dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:open:ring-white/10 dark:hover:border-p1-green dark:hover:text-p1-cyan">
-            <summary className="select-none space-y-4 text-lg font-semibold leading-6 text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
+          <details className="rounded-3xl border-p1-darkgreen p-2 open:bg-p1-green open:ring-1 open:ring-p1-green hover:border-p1-green md:open:border-4 md:open:shadow-lg dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:open:ring-white/10 dark:hover:border-p1-green dark:hover:text-p1-cyan">
+            <summary className="space-y-4 text-lg leading-6 font-semibold text-p1-darkgreen select-none dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
               Decentralization
             </summary>
             <div className="mt-3 text-base leading-6 text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
@@ -280,8 +280,8 @@ export default function Page() {
         </div>
         <div className="" id="5"></div>
         <div className="mx-auto flex max-w-full flex-row space-y-2 p-2">
-          <details className="rounded-3xl border-p1-darkgreen p-2 open:bg-p1-green open:ring-1 open:ring-p1-green hover:border-p1-green open:md:border-4 open:md:shadow-lg dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:open:ring-white/10 dark:hover:border-p1-green dark:hover:text-p1-cyan">
-            <summary className="select-none space-y-4 text-lg font-semibold leading-6 text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
+          <details className="rounded-3xl border-p1-darkgreen p-2 open:bg-p1-green open:ring-1 open:ring-p1-green hover:border-p1-green md:open:border-4 md:open:shadow-lg dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:open:ring-white/10 dark:hover:border-p1-green dark:hover:text-p1-cyan">
+            <summary className="space-y-4 text-lg leading-6 font-semibold text-p1-darkgreen select-none dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
               What is blockchain?
             </summary>
             <div className="mt-3 text-base leading-6 text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
@@ -408,8 +408,8 @@ export default function Page() {
         </div>
         <div className="" id="6"></div>
         <div className="mx-auto flex max-w-full flex-row space-y-2 p-2">
-          <details className="rounded-3xl border-p1-darkgreen p-2 open:bg-p1-green open:ring-1 open:ring-p1-green hover:border-p1-green open:md:border-4 open:md:shadow-lg dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:open:ring-white/10 dark:hover:border-p1-green dark:hover:text-p1-cyan">
-            <summary className="select-none space-y-4 text-lg font-semibold leading-6 text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
+          <details className="rounded-3xl border-p1-darkgreen p-2 open:bg-p1-green open:ring-1 open:ring-p1-green hover:border-p1-green md:open:border-4 md:open:shadow-lg dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:open:ring-white/10 dark:hover:border-p1-green dark:hover:text-p1-cyan">
+            <summary className="space-y-4 text-lg leading-6 font-semibold text-p1-darkgreen select-none dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
               Smart contracts
             </summary>
             <div className="mt-3 text-base leading-6 text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
@@ -532,8 +532,8 @@ export default function Page() {
         </div>
         <div className="" id="7"></div>
         <div className="mx-auto flex max-w-full flex-row space-y-2 p-2">
-          <details className="rounded-3xl border-p1-darkgreen p-2 open:bg-p1-green open:ring-1 open:ring-p1-green hover:border-p1-green open:md:border-4 open:md:shadow-lg dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:open:ring-white/10 dark:hover:border-p1-green dark:hover:text-p1-cyan">
-            <summary className="select-none space-y-4 text-lg font-semibold leading-6 text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
+          <details className="rounded-3xl border-p1-darkgreen p-2 open:bg-p1-green open:ring-1 open:ring-p1-green hover:border-p1-green md:open:border-4 md:open:shadow-lg dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:open:ring-white/10 dark:hover:border-p1-green dark:hover:text-p1-cyan">
+            <summary className="space-y-4 text-lg leading-6 font-semibold text-p1-darkgreen select-none dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
               DAO Decentralized Autonomous Organization
             </summary>
             <div className="mt-3 text-base leading-6 text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
@@ -626,8 +626,8 @@ export default function Page() {
         </div>
         <div className="" id="8"></div>
         <div className="mx-auto flex max-w-full flex-row space-y-2 p-2">
-          <details className="rounded-3xl border-p1-darkgreen p-2 open:bg-p1-green open:ring-1 open:ring-p1-green hover:border-p1-green open:md:border-4 open:md:shadow-lg dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:open:ring-white/10 dark:hover:border-p1-green dark:hover:text-p1-cyan">
-            <summary className="select-none space-y-4 text-lg font-semibold leading-6 text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
+          <details className="rounded-3xl border-p1-darkgreen p-2 open:bg-p1-green open:ring-1 open:ring-p1-green hover:border-p1-green md:open:border-4 md:open:shadow-lg dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:open:ring-white/10 dark:hover:border-p1-green dark:hover:text-p1-cyan">
+            <summary className="space-y-4 text-lg leading-6 font-semibold text-p1-darkgreen select-none dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
               Organization of data storage in a decentralized network using IPFS technology
             </summary>
             <div className="mt-3 text-base leading-6 text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
@@ -725,8 +725,8 @@ export default function Page() {
         </div>
         <div className="" id="9"></div>
         <div className="mx-auto flex max-w-full flex-row space-y-2 p-2">
-          <details className="rounded-3xl border-p1-darkgreen p-2 open:bg-p1-green open:ring-1 open:ring-p1-green hover:border-p1-green open:md:border-4 open:md:shadow-lg dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:open:ring-white/10 dark:hover:border-p1-green dark:hover:text-p1-cyan">
-            <summary className="select-none space-y-4 text-lg font-semibold leading-6 text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
+          <details className="rounded-3xl border-p1-darkgreen p-2 open:bg-p1-green open:ring-1 open:ring-p1-green hover:border-p1-green md:open:border-4 md:open:shadow-lg dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:open:ring-white/10 dark:hover:border-p1-green dark:hover:text-p1-cyan">
+            <summary className="space-y-4 text-lg leading-6 font-semibold text-p1-darkgreen select-none dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
               Organization of data storage in a decentralized network using Blockweave technology
             </summary>
             <div className="mt-3 text-base leading-6 text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
@@ -743,8 +743,8 @@ export default function Page() {
         </div>
         <div className="" id="10"></div>
         <div className="mx-auto flex max-w-full flex-row space-y-2 p-2">
-          <details className="rounded-3xl border-p1-darkgreen p-2 open:bg-p1-green open:ring-1 open:ring-p1-green hover:border-p1-green open:md:border-4 open:md:shadow-lg dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:open:ring-white/10 dark:hover:border-p1-green dark:hover:text-p1-cyan">
-            <summary className="select-none space-y-4 text-lg font-semibold leading-6 text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
+          <details className="rounded-3xl border-p1-darkgreen p-2 open:bg-p1-green open:ring-1 open:ring-p1-green hover:border-p1-green md:open:border-4 md:open:shadow-lg dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:open:ring-white/10 dark:hover:border-p1-green dark:hover:text-p1-cyan">
+            <summary className="space-y-4 text-lg leading-6 font-semibold text-p1-darkgreen select-none dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
               What is a token?
             </summary>
             <div className="mt-3 text-base leading-6 text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
@@ -863,8 +863,8 @@ export default function Page() {
         </div>
         <div className="" id="11"></div>
         <div className="mx-auto flex max-w-full flex-row space-y-2 p-2">
-          <details className="rounded-3xl border-p1-darkgreen p-2 open:bg-p1-green open:ring-1 open:ring-p1-green hover:border-p1-green open:md:border-4 open:md:shadow-lg dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:open:ring-white/10 dark:hover:border-p1-green dark:hover:text-p1-cyan">
-            <summary className="select-none space-y-4 text-lg font-semibold leading-6 text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
+          <details className="rounded-3xl border-p1-darkgreen p-2 open:bg-p1-green open:ring-1 open:ring-p1-green hover:border-p1-green md:open:border-4 md:open:shadow-lg dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:open:ring-white/10 dark:hover:border-p1-green dark:hover:text-p1-cyan">
+            <summary className="space-y-4 text-lg leading-6 font-semibold text-p1-darkgreen select-none dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
               What is NFT?
             </summary>
             <div className="mt-3 text-base leading-6 md:text-xl">
@@ -973,8 +973,8 @@ export default function Page() {
         </div>
         <div className="" id="12"></div>
         <div className="mx-auto flex max-w-full flex-row space-y-2 p-2">
-          <details className="rounded-3xl border-p1-darkgreen p-2 open:bg-p1-green open:ring-1 open:ring-p1-green hover:border-p1-green open:md:border-4 open:md:shadow-lg dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:open:ring-white/10 dark:hover:border-p1-green dark:hover:text-p1-cyan">
-            <summary className="select-none space-y-4 text-lg font-semibold leading-6 text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
+          <details className="rounded-3xl border-p1-darkgreen p-2 open:bg-p1-green open:ring-1 open:ring-p1-green hover:border-p1-green md:open:border-4 md:open:shadow-lg dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:open:ring-white/10 dark:hover:border-p1-green dark:hover:text-p1-cyan">
+            <summary className="space-y-4 text-lg leading-6 font-semibold text-p1-darkgreen select-none dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
               How is the NFT and ownership information stored?
             </summary>
             <div className="mt-3 text-base leading-6 text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
@@ -1076,8 +1076,8 @@ export default function Page() {
         </div>
         <div className="" id="13"></div>
         <div className="mx-auto flex max-w-full flex-row space-y-2 p-2">
-          <details className="rounded-3xl border-p1-darkgreen p-2 open:bg-p1-green open:ring-1 open:ring-p1-green hover:border-p1-green open:md:border-4 open:md:shadow-lg dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:open:ring-white/10 dark:hover:border-p1-green dark:hover:text-p1-cyan">
-            <summary className="select-none space-y-4 text-lg font-semibold leading-6 text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
+          <details className="rounded-3xl border-p1-darkgreen p-2 open:bg-p1-green open:ring-1 open:ring-p1-green hover:border-p1-green md:open:border-4 md:open:shadow-lg dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:open:ring-white/10 dark:hover:border-p1-green dark:hover:text-p1-cyan">
+            <summary className="space-y-4 text-lg leading-6 font-semibold text-p1-darkgreen select-none dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
               What is metadata?
             </summary>
             <div className="mt-3 text-base leading-6 text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
@@ -1178,8 +1178,8 @@ export default function Page() {
         </div>
         <div className="" id="14"></div>
         <div className="mx-auto flex max-w-full flex-row space-y-2 p-2">
-          <details className="rounded-3xl border-p1-darkgreen p-2 open:bg-p1-green open:ring-1 open:ring-p1-green hover:border-p1-green open:md:border-4 open:md:shadow-lg dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:open:ring-white/10 dark:hover:border-p1-green dark:hover:text-p1-cyan">
-            <summary className="select-none space-y-4 text-lg font-semibold leading-6 text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
+          <details className="rounded-3xl border-p1-darkgreen p-2 open:bg-p1-green open:ring-1 open:ring-p1-green hover:border-p1-green md:open:border-4 md:open:shadow-lg dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:open:ring-white/10 dark:hover:border-p1-green dark:hover:text-p1-cyan">
+            <summary className="space-y-4 text-lg leading-6 font-semibold text-p1-darkgreen select-none dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
               What is MetaMask?
             </summary>
             <div className="mt-3 text-base leading-6 text-p1-darkgreen md:text-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">

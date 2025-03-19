@@ -66,7 +66,7 @@ export default function Page() {
                 alt="Rewards"
               />
               <div
-                className="inline-flex w-full justify-center rounded-md pt-5 shadow-sm"
+                className="inline-flex w-full justify-center rounded-md pt-5 shadow-xs"
                 role="group"
               >
                 <Link

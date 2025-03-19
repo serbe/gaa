@@ -13,7 +13,7 @@ const Buttons = ({
   setter: (licenseNumber: number) => void;
 }) => {
   return (
-    <div className="inline-flex space-x-1 rounded-md pt-5 font-serif shadow-sm" role="group">
+    <div className="inline-flex space-x-1 rounded-md pt-5 font-serif shadow-xs" role="group">
       <button
         className={
           'w-full rounded-l-lg border border-gray-200 ' +
