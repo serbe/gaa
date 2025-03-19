@@ -1,5 +1,4 @@
-const url = process.env.API_URL;
-//  === 'development' ? 'http://localhost:7070/api' : '/api';
+const api_url = process.env.NODE_ENV === 'development' ? 'http://localhost:4050/api' : '/api';
 
 export const fetcher = async (url: string) => {
   const res = await fetch(url, {
@@ -17,7 +16,7 @@ export const fetcher = async (url: string) => {
 };
 
 export const sendRegister = async (username: string, password: string) => {
-  const res = await fetch(`${url}/register`, {
+  const res = await fetch(`${api_url}/register`, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ username, password }),
@@ -27,7 +26,7 @@ export const sendRegister = async (username: string, password: string) => {
 };
 
 export const sendLogin = async (username: string, password: string) => {
-  const res = await fetch(`${url}/api/login`, {
+  const res = await fetch(`${api_url}/login`, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ username, password }),
@@ -37,7 +36,7 @@ export const sendLogin = async (username: string, password: string) => {
 };
 
 export const fetchProtectedData = async (token: string) => {
-  const res = await fetch(`${url}/api/protected`, {
+  const res = await fetch(`${api_url}/protected`, {
     headers: {
       Authorization: `Bearer ${token}`,
     },
