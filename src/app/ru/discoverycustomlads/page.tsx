@@ -2,9 +2,12 @@
 import Image from 'next/image';
 import { JumpButton } from '@/components/jumpButton';
 import { Link } from '@/i18n/routing';
+import { useFavicon } from '@/utils/hooks';
 
 export default function Page() {
   const jumpPoints = ['1', '2', '3', '4'];
+  useFavicon('/Arrows/question.png ');
+
   return (
     <div className="mx-auto max-w-7xl font-serif">
       <JumpButton points={jumpPoints} />

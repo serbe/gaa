@@ -1,8 +1,11 @@
 'use client';
 import Image from 'next/image';
 import { Link } from '@/i18n/routing';
+import { useFavicon } from '@/utils/hooks';
 
 export default function Page() {
+  useFavicon('/Logo/Socials.png ');
+
   return (
     <div className="mx-auto max-w-7xl font-serif">
       <div className="pb-2 text-center text-2xl font-bold text-p1-darkgreen md:pt-4 md:text-4xl dark:text-p1-green dark:hover:text-p1-cyan">

@@ -5,9 +5,11 @@ import { useGaaStore } from '@/context/gaa-store-provider';
 import Image from 'next/image';
 import { Link } from '@/i18n/routing';
 import { JumpButton } from '@/components/jumpButton';
+import { useFavicon } from '@/utils/hooks';
 
 const Buttons = ({ lider, setter }: { lider: number; setter: (liderNumber: number) => void }) => {
   const jumpPoints = ['1', '2'];
+  useFavicon('/icon/Drivers.png ');
 
   return (
     <div className="inline-flex w-full justify-self-center rounded-md pt-5 shadow-sm" role="group">

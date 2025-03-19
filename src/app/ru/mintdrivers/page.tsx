@@ -2,11 +2,13 @@
 import Image from 'next/image';
 import { useState } from 'react';
 import { JumpButton } from '@/components/jumpButton';
+import { useFavicon } from '@/utils/hooks';
 
 export default function Page() {
   const [value, setValue] = useState('0');
   const [check, setCheck] = useState(false);
   const jumpPoints = ['1', '2', '3'];
+  useFavicon('/icon/Drivers.png ');
 
   return (
     <div className="mx-auto max-w-7xl font-serif">

@@ -4,6 +4,7 @@ import { useGaaStore } from '@/context/gaa-store-provider';
 import Image from 'next/image';
 import { JumpButton } from '@/components/jumpButton';
 import { Link } from '@/i18n/routing';
+import { useFavicon } from '@/utils/hooks';
 
 const Buttons = ({
   license,
@@ -12,6 +13,8 @@ const Buttons = ({
   license: number;
   setter: (licenseNumber: number) => void;
 }) => {
+  useFavicon('/Licenses/Management.png');
+
   return (
     <div className="inline-flex space-x-1 rounded-md pt-5 font-serif shadow-sm" role="group">
       <button

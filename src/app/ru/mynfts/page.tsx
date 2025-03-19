@@ -12,12 +12,14 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/scrollbar';
 import 'swiper/css/pagination';
+import { useFavicon } from '@/utils/hooks';
 
 export default function Home() {
   const [check, setCheck] = useState(false);
   const [visibleArea1, setVisibleArea1] = useState(true);
   const [currentVisibleArea, setCurrentVisibleArea] = useState(2);
   const jumpPoints = ['1', '2', '3'];
+  useFavicon('/background/bgsky.png ');
 
   return (
     <div className="mx-auto w-full font-serif">

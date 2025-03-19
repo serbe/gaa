@@ -3,6 +3,7 @@
 import Image from 'next/image';
 import { useGaaStore } from '@/context/gaa-store-provider';
 import { Suspense, useState } from 'react';
+import { useFavicon } from '@/utils/hooks';
 
 const Buttons = ({
   license,
@@ -11,6 +12,8 @@ const Buttons = ({
   license: number;
   setter: (licenseNumber: number) => void;
 }) => {
+  useFavicon('/Licenses/Management.png');
+
   return (
     <div className="inline-flex space-x-1 rounded-md font-serif shadow-sm" role="group">
       <button
@@ -122,7 +125,7 @@ export default function Page() {
                         </div>
                         <div className="w-full pt-5 text-p1-darkgreen md:w-1/3 dark:text-p1-green dark:hover:text-p1-cyan">
                           <p>Доступно для:</p>
-                          <p>Nacional Licence NFT</p>
+                          <p>Local Licence NFT</p>
                           <p>Global Licence NFT</p>
                           <p>Management GAA</p>
                           <p className="pt-5">
@@ -171,7 +174,7 @@ export default function Page() {
         <div id="national" className={license == 1 ? '' : 'hidden'}>
           <div className="flex flex-wrap justify-center self-center md:flex-nowrap md:justify-between">
             <div className="px-2 text-xl font-semibold text-p1-gray md:pt-2 md:text-3xl">
-              National License NFT
+              Local License NFT
             </div>
             <div className="px-2 text-xl font-semibold text-p1-gray md:pt-2 md:text-3xl">
               Страница создания NFT
@@ -223,7 +226,7 @@ export default function Page() {
                   </div>
                   <div>
                     <p className="p-2 text-center text-base text-p1-darkgreen md:pb-8 md:text-2xl dark:text-p1-green dark:hover:text-p1-cyan">
-                      Максимум: 1 National License NFT за транзакцию
+                      Максимум: 1 Local License NFT за транзакцию
                     </p>
                     <div className="place-self-center">
                       <button className="inline-block rounded-xl border-2 border-p2-orange bg-p1-white px-10 py-8 text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p2-orange hover:text-p1-white dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p1-cyan dark:hover:border-p2-orange dark:hover:bg-amber-600 dark:hover:text-amber-100">

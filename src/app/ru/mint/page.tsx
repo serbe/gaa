@@ -5,6 +5,7 @@ import { useGaaStore } from '@/context/gaa-store-provider';
 import Image from 'next/image';
 import { Link } from '@/i18n/routing';
 import { JumpButton } from '@/components/jumpButton';
+import { useFavicon } from '@/utils/hooks';
 
 export default function Page() {
   const jumpPoints = ['racelads', 'movement-leaders', 'custom-lads', 'awards', 'licenses'];
@@ -13,6 +14,7 @@ export default function Page() {
   useLayoutEffect(() => {
     void gaaStore.persist.rehydrate();
   }, [gaaStore.persist]);
+  useFavicon('/icon/RaceLads.png');
 
   return !gaaStore.persist.hasHydrated() ? (
     'Loading...'

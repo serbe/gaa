@@ -2,10 +2,12 @@
 import Image from 'next/image';
 import { useState } from 'react';
 import { JumpButton } from '@/components/jumpButton';
+import { useFavicon } from '@/utils/hooks';
 
 export default function Page() {
   const [value, setValue] = useState('1');
   const jumpPoints = ['1', '2'];
+  useFavicon('/icon/RaceLads.png');
 
   return (
     <div className="mx-auto max-w-7xl font-serif">

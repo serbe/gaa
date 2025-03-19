@@ -6,7 +6,6 @@ import { Autoplay, Mousewheel, Navigation, Pagination } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { useFavicon } from '@/utils/hooks';
 
-
 // Import Swiper styles
 import 'swiper/css';
 import 'swiper/css/navigation';
@@ -32,7 +31,7 @@ export default function Page() {
     '15',
   ];
 
-  useFavicon('/Hero/hero1.png');
+  useFavicon('/Logo/GAA_Logo_1.png ');
 
   return (
     <div className="mx-auto max-w-7xl font-serif dark:bg-p1-deepdarkgreen">

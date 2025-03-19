@@ -6,6 +6,7 @@ import { Autoplay, Mousewheel, Navigation } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { JumpButton } from '@/components/jumpButton';
 import { useDeviceSize } from '@/utils/hooks';
+import { useFavicon } from '@/utils/hooks';
 
 // Import Swiper styles
 import 'swiper/css';
@@ -17,6 +18,7 @@ export default function Home() {
   const jumpPoints = ['1', '2', '3'];
   const { width } = useDeviceSize();
   const cardWidth = 288;
+  useFavicon('/background/bgsky.png ');
 
   return (
     <div className="mx-auto w-full font-serif md:px-6 lg:px-10 xl:px-14 2xl:px-16">
