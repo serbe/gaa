@@ -64,3 +64,16 @@ export const useDeviceSize = () => {
 
   return { width, height };
 };
+
+export const useFavicon = (iconUrl: string) => {
+  useEffect(() => {
+    const link: HTMLLinkElement =
+      document.querySelector("link[rel~='icon']") || document.createElement('link');
+
+    link.rel = 'icon';
+    link.href = iconUrl;
+    link.type = 'image/png';
+
+    document.head.appendChild(link);
+  }, [iconUrl]);
+};
