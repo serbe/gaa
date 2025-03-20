@@ -40,7 +40,7 @@ export default function Page() {
                             className="relative mb-4 inline-block w-max rounded-3xl border-2 border-p3-blue shadow-lg"
                             width={1000}
                             height={1000}
-                            src="/HeroNFT/Team's members/TeamMember1.png"
+                            src="/HeroNFT/TeamsMembers/TeamMember1.png"
                             alt="TeamMember1"
                           />
                           <button className="w-full rounded-3xl border-2 border-p3-blue bg-p2-white2 p-8 text-center text-base font-normal text-p1-darkgreen shadow-lg transition-all delay-75 duration-300 ease-in-out hover:bg-p3-blue hover:text-p1-white md:px-1 md:py-2 md:text-xs dark:border-p3-blue dark:bg-p3-black dark:text-p3-blue dark:hover:border-p2-blue dark:hover:bg-p3-violet dark:hover:text-p3-blue">

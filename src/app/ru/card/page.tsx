@@ -2461,7 +2461,7 @@ export default function Home() {
                             <Image
                               width={480}
                               height={480}
-                              src="/logo/shopping-cart.png"
+                              src="/Logo/shopping-cart.png"
                               alt="shopping-cart"
                               className="w-6 rounded-lg"
                             />
@@ -4201,7 +4201,7 @@ export default function Home() {
                           <Image
                             width={480}
                             height={480}
-                            src="/HeroNFT/Team's members/TeamMember1.png"
+                            src="/HeroNFT/TeamsMembers/TeamMember1.png"
                             alt="Team's member1"
                             className="w-full"
                           />

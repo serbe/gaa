@@ -107,7 +107,7 @@ export default function Page() {
             className="relative mb-4 inline-block w-3/5 rounded-3xl border-2 border-p3-blue shadow-lg md:w-full dark:border-p1-green"
             width={1000}
             height={1000}
-            src="/HeroNFT/Team's members/TeamMember1.png"
+            src="/HeroNFT/TeamsMembers/TeamMember1.png"
             alt="TeamMember1"
           />
 

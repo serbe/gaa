@@ -213,7 +213,7 @@ export default function Page() {
                     className="relative inline-block w-max rounded-3xl border-2 border-p2-orange shadow-lg"
                     width={130}
                     height={130}
-                    src="/HeroNFT/Team's members/TeamMember1.png"
+                    src="/HeroNFT/TeamsMembers/TeamMember1.png"
                     alt="TeamMember1"
                   />
                 </div>
@@ -222,7 +222,7 @@ export default function Page() {
                     className="relative inline-block w-max rounded-3xl border-2 border-p2-orange shadow-lg"
                     width={130}
                     height={130}
-                    src="/HeroNFT/Team's members/TeamMember2.png"
+                    src="/HeroNFT/TeamsMembers/TeamMember2.png"
                     alt="TeamMember2"
                   />
                 </div>
@@ -231,7 +231,7 @@ export default function Page() {
                     className="relative inline-block w-max rounded-3xl border-2 border-p2-orange shadow-lg"
                     width={130}
                     height={130}
-                    src="/HeroNFT/Team's members/TeamMember3.png"
+                    src="/HeroNFT/TeamsMembers/TeamMember3.png"
                     alt="TeamMember3"
                   />
                 </div>
@@ -240,7 +240,7 @@ export default function Page() {
                     className="relative inline-block w-max rounded-3xl border-2 border-p2-orange shadow-lg"
                     width={150}
                     height={150}
-                    src="/HeroNFT/Team's members/TeamMember4.png"
+                    src="/HeroNFT/TeamsMembers/TeamMember4.png"
                     alt="TeamMember4"
                   />
                 </div>
@@ -513,7 +513,7 @@ export default function Page() {
                 className="relative inline-block w-max rounded-3xl border-2 border-p2-orange shadow-lg dark:border-p1-green"
                 width={1000}
                 height={1000}
-                src="/HeroNFT/Team's members/TeamMember1.png"
+                src="/HeroNFT/TeamsMembers/TeamMember1.png"
                 alt="TeamMember1"
               />
             </div>

@@ -110,7 +110,7 @@ export default function Page() {
               <div className="text-center">
                 <button className="mx-auto justify-center rounded-3xl duration-500 hover:scale-105">
                   <Link href="https://discord.gg/gaa">
-                    <Image width={200} height={600} src="/logo/discordlogomini.png" alt="discord" />
+                    <Image width={200} height={600} src="/Logo/discordlogomini.png" alt="discord" />
                   </Link>
                 </button>
                 <p className="dark:hover:text-p1-cyan">Discord</p>
@@ -122,7 +122,7 @@ export default function Page() {
                     <Image
                       width={200}
                       height={600}
-                      src="/logo/telegramlogomini.png"
+                      src="/Logo/telegramlogomini.png"
                       alt="telegram_channel"
                     />
                   </Link>
@@ -133,7 +133,7 @@ export default function Page() {
               <div className="text-center">
                 <button className="mx-auto justify-center rounded-3xl duration-500 hover:scale-105">
                   <Link href="https://x.com/RaceLads">
-                    <Image width={200} height={600} src="/logo/twitterlogox.png" alt="twitter" />
+                    <Image width={200} height={600} src="/Logo/twitterlogox.png" alt="twitter" />
                   </Link>
                 </button>
                 <p>X.com / Twitter</p>
@@ -145,7 +145,7 @@ export default function Page() {
                     <Image
                       width={200}
                       height={600}
-                      src="/logo/telegramlogomini.png"
+                      src="/Logo/telegramlogomini.png"
                       alt="telegram_chat"
                     />
                   </Link>

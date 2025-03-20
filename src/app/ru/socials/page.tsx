@@ -17,7 +17,7 @@ export default function Page() {
           <div className="text-center">
             <div className="mx-auto justify-center rounded-3xl grayscale duration-500 hover:scale-105 hover:grayscale-0">
               <Link href="https://x.com/RaceLads">
-                <Image width={200} height={600} src="/logo/twitterlogox.png" alt="twitter" />
+                <Image width={200} height={600} src="/Logo/twitterlogox.png" alt="twitter" />
               </Link>
             </div>
             <p>X.com / Twitter</p>
@@ -27,7 +27,7 @@ export default function Page() {
           <div className="text-center">
             <button className="mx-auto justify-center rounded-3xl grayscale duration-500 hover:scale-105 hover:grayscale-0">
               <Link href="https://discord.gg/gaa">
-                <Image width={200} height={600} src="/logo/discordlogomini.png" alt="discord" />
+                <Image width={200} height={600} src="/Logo/discordlogomini.png" alt="discord" />
               </Link>
             </button>
             <p>Discord</p>
@@ -40,7 +40,7 @@ export default function Page() {
               <Image
                 width={200}
                 height={600}
-                src="/logo/telegramlogomini.png"
+                src="/Logo/telegramlogomini.png"
                 alt="telegram_channel"
               />
             </Link>
@@ -54,7 +54,7 @@ export default function Page() {
               <Image
                 width={200}
                 height={600}
-                src="/logo/telegramlogomini.png"
+                src="/Logo/telegramlogomini.png"
                 alt="telegram_chat"
               />
             </Link>
@@ -66,7 +66,7 @@ export default function Page() {
           <div className="text-center">
             <button className="mx-auto justify-center rounded-3xl grayscale duration-500 hover:scale-105 hover:grayscale-0">
               <Link href="">
-                <Image width={200} height={600} src="/logo/youtubelogomini.png" alt="youtube" />
+                <Image width={200} height={600} src="/Logo/youtubelogomini.png" alt="youtube" />
               </Link>
             </button>
             <p>YouTube</p>
@@ -76,7 +76,7 @@ export default function Page() {
           <div className="text-center">
             <button className="mx-auto justify-center rounded-3xl grayscale duration-500 hover:scale-105 hover:grayscale-0">
               <Link href="">
-                <Image width={200} height={600} src="/logo/instagramlogomini.png" alt="instagram" />
+                <Image width={200} height={600} src="/Logo/instagramlogomini.png" alt="instagram" />
               </Link>
             </button>
             <p>Instagram</p>
@@ -86,7 +86,7 @@ export default function Page() {
         <div className="text-center">
           <button className="mx-auto justify-center rounded-3xl grayscale duration-500 hover:scale-105 hover:grayscale-0">
             <Link href="">
-              <Image width={200} height={600} src="/logo/facebooklogomini.png" alt="facebook" />
+              <Image width={200} height={600} src="/Logo/facebooklogomini.png" alt="facebook" />
             </Link>
           </button>
           <p>Facebook</p>
@@ -95,7 +95,7 @@ export default function Page() {
         <div className="text-center">
           <button className="mx-auto justify-center rounded-3xl grayscale duration-500 hover:scale-105 hover:grayscale-0">
             <Link href="">
-              <Image width={200} height={600} src="/logo/tiktoklogomini.png" alt="tiktok" />
+              <Image width={200} height={600} src="/Logo/tiktoklogomini.png" alt="tiktok" />
             </Link>
           </button>
           <p>Tik-Tok</p>

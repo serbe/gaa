@@ -318,7 +318,7 @@ export default function Home() {
                       <Image
                         width={480}
                         height={480}
-                        src="/HeroNFT/Team's members/TeamMember1.png"
+                        src="/HeroNFT/TeamsMembers/TeamMember1.png"
                         alt="Team's member1"
                         className="w-full"
                       />
@@ -2970,7 +2970,7 @@ export default function Home() {
                               <Image
                                 width={500}
                                 height={500}
-                                src="/HeroNFT/Team's members/TeamMember1.png"
+                                src="/HeroNFT/TeamsMembers/TeamMember1.png"
                                 alt="RaceLads"
                                 className="size-16 object-cover transition-transform duration-500 ease-in-out hover:scale-105"
                               />

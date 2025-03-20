@@ -819,7 +819,7 @@ export default function Page() {
                       className="relative inline-block w-full items-end"
                       width={1000}
                       height={1000}
-                      src="/Hero/hero1.png"
+                      src="/Hero/Hero1.png"
                       alt="hero1"
                     />
                   </div>

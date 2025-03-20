@@ -298,7 +298,7 @@ export default function Page() {
               className="relative inline-block w-max rounded-3xl border-2 border-p2-orange shadow-lg dark:border-p1-green"
               width={1000}
               height={1000}
-              src="/HeroNFT/Team's members/TeamMember1.png"
+              src="/HeroNFT/TeamsMembers/TeamMember1.png"
               alt="TeamMember1"
             />
           </div>
