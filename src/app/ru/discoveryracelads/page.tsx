@@ -6,7 +6,7 @@ import { useFavicon } from '@/utils/hooks';
 
 export default function Page() {
   const jumpPoints = ['1', '2', '3', '4'];
-  useFavicon('/icon/RaceLads.png');
+  useFavicon('/Icon/RaceLads.png');
 
   return (
     <div className="mx-auto max-w-7xl font-serif">
@@ -127,7 +127,7 @@ export default function Page() {
               className="relative inline-block w-max"
               width={1000}
               height={1000}
-              src="/Hero/13.png"
+              src=/Hero/i13.png"
               alt="13"
             />
           </div>

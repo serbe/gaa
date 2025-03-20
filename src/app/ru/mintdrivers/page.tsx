@@ -8,7 +8,7 @@ export default function Page() {
   const [value, setValue] = useState('0');
   const [check, setCheck] = useState(false);
   const jumpPoints = ['1', '2', '3'];
-  useFavicon('/icon/Drivers.png ');
+  useFavicon('/Icon/Drivers.png ');
 
   return (
     <div className="mx-auto max-w-7xl font-serif">

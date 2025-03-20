@@ -14,7 +14,7 @@ export default function Page() {
   useLayoutEffect(() => {
     void gaaStore.persist.rehydrate();
   }, [gaaStore.persist]);
-  useFavicon('/icon/RaceLads.png');
+  useFavicon('/Icon/RaceLads.png');
 
   return !gaaStore.persist.hasHydrated() ? (
     'Loading...'

@@ -9,7 +9,7 @@ import { useFavicon } from '@/utils/hooks';
 
 const Buttons = ({ lider, setter }: { lider: number; setter: (liderNumber: number) => void }) => {
   const jumpPoints = ['1', '2'];
-  useFavicon('/icon/Drivers.png ');
+  useFavicon('/Icon/Drivers.png ');
 
   return (
     <div className="inline-flex w-full justify-self-center rounded-md pt-5 shadow-sm" role="group">
@@ -383,7 +383,7 @@ export default function Page() {
                 className="relative inline-block w-max"
                 width={1000}
                 height={1000}
-                src="/Hero/13.png"
+                src=/Hero/i13.png"
                 alt="13"
               />
             </div>

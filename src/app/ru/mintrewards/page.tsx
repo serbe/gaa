@@ -223,7 +223,7 @@ export default function Page() {
                           className="size-10 transition-all duration-300 ease-in-out hover:scale-125"
                           width={480}
                           height={480}
-                          src="/icon/traits_green.png"
+                          src="/Icon/traits_green.png"
                           alt="ph"
                         />
                       </div>
@@ -277,7 +277,7 @@ export default function Page() {
                                               className="relative inline-block w-5 px-0.5"
                                               width={50}
                                               height={50}
-                                              src="/icon/del.png"
+                                              src="/Icon/del.png"
                                               alt="del"
                                             />
                                           </div>
@@ -320,7 +320,7 @@ export default function Page() {
                                               className="relative inline-block w-5 px-0.5"
                                               width={50}
                                               height={50}
-                                              src="/icon/del.png"
+                                              src="/Icon/del.png"
                                               alt="del"
                                             />
                                           </div>
@@ -363,7 +363,7 @@ export default function Page() {
                                               className="relative inline-block w-5 px-0.5"
                                               width={50}
                                               height={50}
-                                              src="/icon/del.png"
+                                              src="/Icon/del.png"
                                               alt="del"
                                             />
                                           </div>
@@ -406,7 +406,7 @@ export default function Page() {
                                               className="relative inline-block w-5 px-0.5"
                                               width={50}
                                               height={50}
-                                              src="/icon/del.png"
+                                              src="/Icon/del.png"
                                               alt="del"
                                             />
                                           </div>
@@ -444,7 +444,7 @@ export default function Page() {
                           className="size-10 transition-all duration-300 ease-in-out hover:scale-125"
                           width={480}
                           height={480}
-                          src="/icon/traits_green.png"
+                          src="/Icon/traits_green.png"
                           alt="ph"
                         />
                       </div>
@@ -678,7 +678,7 @@ export default function Page() {
                           className="size-10 transition-all duration-300 ease-in-out hover:scale-125"
                           width={480}
                           height={480}
-                          src="/icon/traits_green.png"
+                          src="/Icon/traits_green.png"
                           alt="ph"
                         />
                       </div>
@@ -871,7 +871,7 @@ export default function Page() {
                     className="size-10 transition-all duration-300 ease-in-out hover:scale-125"
                     width={480}
                     height={480}
-                    src="/icon/traits_green.png"
+                    src="/Icon/traits_green.png"
                     alt="ph"
                   />
                 </div>
@@ -898,7 +898,7 @@ export default function Page() {
                         className="size-10 p-1"
                         width={480}
                         height={480}
-                        src="/icon/2.png"
+                        src=/Icon/i2.png"
                         alt="bt2"
                       />
                     </button>
@@ -920,7 +920,7 @@ export default function Page() {
                           className="size-10 p-1"
                           width={480}
                           height={480}
-                          src="/icon/line.png"
+                          src="/Icon/line.png"
                           alt="line"
                         />
                       </button>
@@ -938,7 +938,7 @@ export default function Page() {
                           className="size-10 p-1"
                           width={480}
                           height={480}
-                          src="/icon/16.png"
+                          src=/Icon/i16.png"
                           alt="bt16"
                         />
                       </button>
@@ -956,7 +956,7 @@ export default function Page() {
                           className="size-10 p-1"
                           width={480}
                           height={480}
-                          src="/icon/9.png"
+                          src=/Icon/i9.png"
                           alt="bt9"
                         />
                       </button>
@@ -974,7 +974,7 @@ export default function Page() {
                           className="size-10 p-1"
                           width={480}
                           height={480}
-                          src="/icon/4.png"
+                          src=/Icon/i4.png"
                           alt="bt4"
                         />
                       </button>
@@ -992,7 +992,7 @@ export default function Page() {
                           className="size-10 p-1"
                           width={480}
                           height={480}
-                          src="/icon/3.png"
+                          src=/Icon/i3.png"
                           alt="bt3"
                         />
                       </button>
@@ -1010,7 +1010,7 @@ export default function Page() {
                           className="size-10 p-1"
                           width={480}
                           height={480}
-                          src="/icon/1.png"
+                          src=/Icon/i1.png"
                           alt="bt1"
                         />
                       </button>
@@ -1347,7 +1347,7 @@ export default function Page() {
                                     className="relative inline-block w-5 px-0.5"
                                     width={50}
                                     height={50}
-                                    src="/icon/del.png"
+                                    src="/Icon/del.png"
                                     alt="del"
                                   />
                                 </div>
@@ -1428,7 +1428,7 @@ export default function Page() {
                                     className="relative inline-block w-5 px-0.5"
                                     width={50}
                                     height={50}
-                                    src="/icon/del.png"
+                                    src="/Icon/del.png"
                                     alt="del"
                                   />
                                 </div>
@@ -1509,7 +1509,7 @@ export default function Page() {
                                     className="relative inline-block w-5 px-0.5"
                                     width={50}
                                     height={50}
-                                    src="/icon/del.png"
+                                    src="/Icon/del.png"
                                     alt="del"
                                   />
                                 </div>
@@ -1590,7 +1590,7 @@ export default function Page() {
                                     className="relative inline-block w-5 px-0.5"
                                     width={50}
                                     height={50}
-                                    src="/icon/del.png"
+                                    src="/Icon/del.png"
                                     alt="del"
                                   />
                                 </div>
@@ -1652,7 +1652,7 @@ export default function Page() {
                                     className="relative inline-block w-5 px-0.5"
                                     width={50}
                                     height={50}
-                                    src="/icon/del.png"
+                                    src="/Icon/del.png"
                                     alt="del"
                                   />
                                 </div>
@@ -1718,7 +1718,7 @@ export default function Page() {
                                       className="relative inline-block w-5 px-0.5"
                                       width={50}
                                       height={50}
-                                      src="/icon/del.png"
+                                      src="/Icon/del.png"
                                       alt="del"
                                     />
                                   </div>
@@ -1779,7 +1779,7 @@ export default function Page() {
                                       className="relative inline-block w-5 px-0.5"
                                       width={50}
                                       height={50}
-                                      src="/icon/del.png"
+                                      src="/Icon/del.png"
                                       alt="del"
                                     />
                                   </div>
@@ -1839,7 +1839,7 @@ export default function Page() {
                                       className="relative inline-block w-5 px-0.5"
                                       width={50}
                                       height={50}
-                                      src="/icon/del.png"
+                                      src="/Icon/del.png"
                                       alt="del"
                                     />
                                   </div>
@@ -1899,7 +1899,7 @@ export default function Page() {
                                       className="relative inline-block w-5 px-0.5"
                                       width={50}
                                       height={50}
-                                      src="/icon/del.png"
+                                      src="/Icon/del.png"
                                       alt="del"
                                     />
                                   </div>

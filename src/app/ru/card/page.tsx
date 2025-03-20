@@ -65,7 +65,7 @@ export default function Home() {
                           className="size-8 p-0 transition-all delay-75 duration-300 ease-in-out hover:scale-125"
                           width={480}
                           height={480}
-                          src="/icon/view_green.png"
+                          src="/Icon/view_green.png"
                           alt="view"
                         />
                       </div>
@@ -86,7 +86,7 @@ export default function Home() {
                           className="p-1"
                           width={480}
                           height={480}
-                          src="/icon/heart_green.png"
+                          src="/Icon/heart_green.png"
                           alt="Bordered avatar"
                         />
                       </Link>
@@ -115,7 +115,7 @@ export default function Home() {
                         className="size-10 transition-all duration-300 ease-in-out hover:scale-125"
                         width={480}
                         height={480}
-                        src="/icon/description_green.png"
+                        src="/Icon/description_green.png"
                         alt="ph"
                       />
                     </div>
@@ -236,7 +236,7 @@ export default function Home() {
                         className="size-10 transition-all duration-300 ease-in-out hover:scale-125"
                         width={480}
                         height={480}
-                        src="/icon/traits_green.png"
+                        src="/Icon/traits_green.png"
                         alt="ph"
                       />
                     </div>
@@ -258,7 +258,7 @@ export default function Home() {
                                   className="size-7 transition-all duration-300 ease-in-out hover:scale-125"
                                   width={480}
                                   height={480}
-                                  src="/icon/offer_green.png"
+                                  src="/Icon/offer_green.png"
                                   alt="offer"
                                 />
                               </div>
@@ -280,7 +280,7 @@ export default function Home() {
                                   className="size-7 transition-all duration-300 ease-in-out hover:scale-125"
                                   width={480}
                                   height={480}
-                                  src="/icon/offer_green.png"
+                                  src="/Icon/offer_green.png"
                                   alt="offer"
                                 />
                               </div>
@@ -301,7 +301,7 @@ export default function Home() {
                                   className="size-7 transition-all duration-300 ease-in-out hover:scale-125"
                                   width={480}
                                   height={480}
-                                  src="/icon/offer_green.png"
+                                  src="/Icon/offer_green.png"
                                   alt="offer"
                                 />
                               </div>
@@ -322,7 +322,7 @@ export default function Home() {
                                   className="size-7 transition-all duration-300 ease-in-out hover:scale-125"
                                   width={480}
                                   height={480}
-                                  src="/icon/offer_green.png"
+                                  src="/Icon/offer_green.png"
                                   alt="offer"
                                 />
                               </div>
@@ -343,7 +343,7 @@ export default function Home() {
                                   className="size-7 transition-all duration-300 ease-in-out hover:scale-125"
                                   width={480}
                                   height={480}
-                                  src="/icon/offer_green.png"
+                                  src="/Icon/offer_green.png"
                                   alt="offer"
                                 />
                               </div>
@@ -364,7 +364,7 @@ export default function Home() {
                                   className="size-7 transition-all duration-300 ease-in-out hover:scale-125"
                                   width={480}
                                   height={480}
-                                  src="/icon/offer_green.png"
+                                  src="/Icon/offer_green.png"
                                   alt="offer"
                                 />
                               </div>
@@ -385,7 +385,7 @@ export default function Home() {
                                   className="size-7 transition-all duration-300 ease-in-out hover:scale-125"
                                   width={480}
                                   height={480}
-                                  src="/icon/offer_green.png"
+                                  src="/Icon/offer_green.png"
                                   alt="offer"
                                 />
                               </div>
@@ -412,7 +412,7 @@ export default function Home() {
                         className="size-10 transition-all duration-300 ease-in-out hover:scale-125"
                         width={480}
                         height={480}
-                        src="/icon/detail_green.png"
+                        src="/Icon/detail_green.png"
                         alt="ph"
                       />
                     </div>
@@ -751,7 +751,7 @@ export default function Home() {
                             className="size-7 place-self-center transition-all duration-300 ease-in-out hover:scale-125"
                             width={480}
                             height={480}
-                            src="/icon/offer_green.png"
+                            src="/Icon/offer_green.png"
                             alt="offer"
                           />
                         </div>
@@ -771,7 +771,7 @@ export default function Home() {
                           className="size-7 transition-all duration-300 ease-in-out hover:scale-125"
                           width={480}
                           height={480}
-                          src="/icon/offer_green.png"
+                          src="/Icon/offer_green.png"
                           alt="offer"
                         />
                       </div>
@@ -790,7 +790,7 @@ export default function Home() {
                         className="size-10 transition-all duration-300 ease-in-out hover:scale-125"
                         width={480}
                         height={480}
-                        src="/icon/price_history_green.png"
+                        src="/Icon/price_history_green.png"
                         alt="ph"
                       />
                     </div>
@@ -815,7 +815,7 @@ export default function Home() {
                         className="size-10 transition-all duration-300 ease-in-out hover:scale-125"
                         width={480}
                         height={480}
-                        src="/icon/listings_green.png"
+                        src="/Icon/listings_green.png"
                         alt="ph"
                       />
                     </div>
@@ -1544,7 +1544,7 @@ export default function Home() {
                         className="size-10 transition-all duration-300 ease-in-out hover:scale-125"
                         width={480}
                         height={480}
-                        src="/icon/offers_green.png"
+                        src="/Icon/offers_green.png"
                         alt="ph"
                       />
                     </div>
@@ -2134,7 +2134,7 @@ export default function Home() {
                     className="size-10 transition-all duration-300 ease-in-out hover:scale-125"
                     width={480}
                     height={480}
-                    src="/icon/top_down-arrow_green.png"
+                    src="/Icon/top_down-arrow_green.png"
                     alt="ph"
                   />
                 </div>
@@ -2232,7 +2232,7 @@ export default function Home() {
                             <Image
                               width={480}
                               height={480}
-                              src="/icon/Transfer_green.png"
+                              src="/Icon/Transfer_green.png"
                               alt="Transfer_green"
                               className="w-6 rounded-lg"
                             />
@@ -2690,7 +2690,7 @@ export default function Home() {
                             <Image
                               width={480}
                               height={480}
-                              src="/icon/mint_green.png"
+                              src="/Icon/mint_green.png"
                               alt="mint"
                               className="w-8 rounded-lg"
                             />
@@ -2919,7 +2919,7 @@ export default function Home() {
                             <Image
                               width={480}
                               height={480}
-                              src="/icon/airdrop.png"
+                              src="/Icon/airdrop.png"
                               alt="mint"
                               className="w-8 rounded-lg"
                             />
@@ -3158,7 +3158,7 @@ export default function Home() {
                     className="size-10 transition-all duration-300 ease-in-out hover:scale-125"
                     width={480}
                     height={480}
-                    src="/icon/more.png"
+                    src="/Icon/more.png"
                     alt="ph"
                   />
                 </div>
@@ -4054,7 +4054,7 @@ export default function Home() {
                   className="size-10 transition-all duration-300 ease-in-out hover:scale-125"
                   width={480}
                   height={480}
-                  src="/icon/more.png"
+                  src="/Icon/more.png"
                   alt="ph"
                 />
               </div>

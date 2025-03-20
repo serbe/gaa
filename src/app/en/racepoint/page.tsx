@@ -106,7 +106,7 @@ export default function Page() {
                     className="relative mb-4 inline-block w-max rounded-xl border-2 border-p2-orange md:rounded-3xl"
                     width={1000}
                     height={1000}
-                    src="/rpdaily/rp50.png"
+                    src="/Rpdaily/rp50.png"
                     alt="rp50"
                   />
                 </Link>
@@ -118,7 +118,7 @@ export default function Page() {
                     className="relative mb-4 inline-block w-max rounded-xl border-2 border-p2-orange md:rounded-3xl"
                     width={1000}
                     height={1000}
-                    src="/rpdaily/rp100.png"
+                    src="/Rpdaily/rp100.png"
                     alt="rp100"
                   />
                 </Link>
@@ -129,7 +129,7 @@ export default function Page() {
                     className="relative mb-4 inline-block w-max rounded-xl border-2 border-p2-orange md:rounded-3xl"
                     width={1000}
                     height={1000}
-                    src="/rpdaily/rp500.png"
+                    src="/Rpdaily/rp500.png"
                     alt="rp500"
                   />
                 </Link>
@@ -140,7 +140,7 @@ export default function Page() {
                     className="relative mb-4 inline-block w-max rounded-xl border-2 border-p2-orange md:rounded-3xl"
                     width={1000}
                     height={1000}
-                    src="/rpdaily/rp1000.png"
+                    src="/Rpdaily/rp1000.png"
                     alt="rp1000"
                   />
                 </Link>
@@ -449,7 +449,7 @@ export default function Page() {
       <div id="13" className="md:pt-2"></div>
 
       <div className="w-20 basis-1/5 place-self-center md:w-40">
-        <Image width={150} height={150} src="/Hero/12.png" alt="Hero12" />
+        <Image width={150} height={150} src=/Hero/i12.png" alt="Hero12" />
       </div>
     </div>
   );

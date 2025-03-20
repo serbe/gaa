@@ -27,7 +27,7 @@ export default function Page() {
 
               <div className="flex flex-row justify-center">
                 <div className="basis-1/5">
-                  <Image width={200} height={500} src="/Hero/77.png" alt="Hero77" />
+                  <Image width={200} height={500} src=/Hero/i77.png" alt="Hero77" />
                 </div>
                 <div className="basis-3/5">
                   <div className="rounded-3xl p-2 md:my-5">
@@ -48,7 +48,7 @@ export default function Page() {
                   </div>
                 </div>
                 <div className="basis-1/5">
-                  <Image width={200} height={600} src="/Hero/5.png" alt="Hero5" />
+                  <Image width={200} height={600} src=/Hero/i5.png" alt="Hero5" />
                 </div>
               </div>
               <div className="my-5">
@@ -134,7 +134,7 @@ export default function Page() {
 
       <div className="flex flex-row justify-center md:pb-5">
         <div className="basis-1/6 p-2">
-          <Image width={200} height={500} src="/Hero/9.png" alt="Hero9" />
+          <Image width={200} height={500} src=/Hero/i9.png" alt="Hero9" />
         </div>
       </div>
 
@@ -286,7 +286,7 @@ export default function Page() {
 
       <div className="flex flex-row justify-center md:pb-5">
         <div className="basis-1/6 p-2">
-          <Image width={200} height={600} src="/Hero/3.png" alt="Hero5" />
+          <Image width={200} height={600} src=/Hero/i3.png" alt="Hero5" />
         </div>
       </div>
       <div className="md:pb-96"></div>

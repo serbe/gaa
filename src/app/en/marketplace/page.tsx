@@ -53,7 +53,7 @@ export default function Home() {
                             className="size-6 self-center"
                             width={480}
                             height={480}
-                            src="/icon/wallet_connect.png"
+                            src="/Icon/wallet_connect.png"
                             alt="Bordered avatar"
                           />
 
@@ -66,7 +66,7 @@ export default function Home() {
                             className="size-6 self-center"
                             width={480}
                             height={480}
-                            src="/icon/wallet_disconnect_red.png"
+                            src="/Icon/wallet_disconnect_red.png"
                             alt="Bordered avatar"
                           />
                           <div className="self-center px-2"> Disconnect Wallet </div>
@@ -94,7 +94,7 @@ export default function Home() {
                             className="size-6 self-center"
                             width={480}
                             height={480}
-                            src="/icon/NFT_user_green.png"
+                            src="/Icon/NFT_user_green.png"
                             alt="Bordered avatar"
                           />
 
@@ -107,7 +107,7 @@ export default function Home() {
                             className="size-6 self-center"
                             width={480}
                             height={480}
-                            src="/icon/NFT-col.png"
+                            src="/Icon/NFT-col.png"
                             alt="Bordered avatar"
                           />
                           <div className="self-center px-2"> My NFT </div>
@@ -119,7 +119,7 @@ export default function Home() {
                             className="size-6 self-center"
                             width={480}
                             height={480}
-                            src="/icon/heart_green.png"
+                            src="/Icon/heart_green.png"
                             alt="heart"
                           />
                           <div className="self-center px-2"> Watchlist</div>
@@ -131,7 +131,7 @@ export default function Home() {
                             className="size-6 self-center"
                             width={480}
                             height={480}
-                            src="/icon/hand_shake_green.png"
+                            src="/Icon/hand_shake_green.png"
                             alt="Bordered avatar"
                           />
                           <div className="self-center px-2"> Deals</div>
@@ -148,7 +148,7 @@ export default function Home() {
                       className="size-10 rounded-lg p-1 ring-p1-green transition-all delay-75 duration-100 ease-in-out hover:bg-p1-white/50 hover:ring-2 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:hover:bg-p1-deepdarkgreen"
                       width={480}
                       height={480}
-                      src="/icon/share_green.png"
+                      src="/Icon/share_green.png"
                       alt="bt16"
                     />
                   </Link>
@@ -829,7 +829,7 @@ export default function Home() {
                   className="size-10 p-1"
                   width={480}
                   height={480}
-                  src="/icon/2.png"
+                  src=/Icon/i2.png"
                   alt="bt2"
                 />
               </button>
@@ -864,7 +864,7 @@ export default function Home() {
                     className="size-10 p-1"
                     width={480}
                     height={480}
-                    src="/icon/line.png"
+                    src="/Icon/line.png"
                     alt="line"
                   />
                 </button>
@@ -882,7 +882,7 @@ export default function Home() {
                     className="size-10 p-1"
                     width={480}
                     height={480}
-                    src="/icon/16.png"
+                    src=/Icon/i16.png"
                     alt="bt16"
                   />
                 </button>
@@ -900,7 +900,7 @@ export default function Home() {
                     className="size-10 p-1"
                     width={480}
                     height={480}
-                    src="/icon/9.png"
+                    src=/Icon/i9.png"
                     alt="bt9"
                   />
                 </button>
@@ -918,7 +918,7 @@ export default function Home() {
                     className="size-10 p-1"
                     width={480}
                     height={480}
-                    src="/icon/4.png"
+                    src=/Icon/i4.png"
                     alt="bt4"
                   />
                 </button>
@@ -936,7 +936,7 @@ export default function Home() {
                     className="size-10 p-1"
                     width={480}
                     height={480}
-                    src="/icon/3.png"
+                    src=/Icon/i3.png"
                     alt="bt3"
                   />
                 </button>
@@ -954,7 +954,7 @@ export default function Home() {
                     className="size-10 p-1"
                     width={480}
                     height={480}
-                    src="/icon/1.png"
+                    src=/Icon/i1.png"
                     alt="bt1"
                   />
                 </button>

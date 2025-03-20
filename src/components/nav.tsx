@@ -88,7 +88,7 @@ function Nav() {
                     className="size-6 self-center"
                     width={480}
                     height={480}
-                    src="/icon/wallet_connect.png"
+                    src="/Icon/wallet_connect.png"
                     alt="Bordered avatar"
                   />
 
@@ -101,7 +101,7 @@ function Nav() {
                     className="size-6 self-center"
                     width={480}
                     height={480}
-                    src="/icon/wallet_disconnect_red.png"
+                    src="/Icon/wallet_disconnect_red.png"
                     alt="Bordered avatar"
                   />
                   <div className="self-center px-2"> Disconnect Wallet </div>
@@ -181,7 +181,7 @@ function Nav() {
                     className="size-6 self-center"
                     width={480}
                     height={480}
-                    src="/icon/NFT_user_green.png"
+                    src="/Icon/NFT_user_green.png"
                     alt="Bordered avatar"
                   />
 
@@ -194,7 +194,7 @@ function Nav() {
                     className="size-6 self-center"
                     width={480}
                     height={480}
-                    src="/icon/NFT-col.png"
+                    src="/Icon/NFT-col.png"
                     alt="Bordered avatar"
                   />
                   <div className="self-center px-2">{t('mynft')}</div>
@@ -206,7 +206,7 @@ function Nav() {
                     className="size-6 self-center"
                     width={480}
                     height={480}
-                    src="/icon/heart_green.png"
+                    src="/Icon/heart_green.png"
                     alt="heart"
                   />
                   <div className="self-center px-2">{t('watchlist')}</div>
@@ -218,7 +218,7 @@ function Nav() {
                     className="size-6 self-center"
                     width={480}
                     height={480}
-                    src="/icon/hand_shake_green.png"
+                    src="/Icon/hand_shake_green.png"
                     alt="Bordered avatar"
                   />
                   <div className="self-center px-2">{t('deals')}</div>
@@ -233,7 +233,7 @@ function Nav() {
                     className="size-6 self-center"
                     width={480}
                     height={480}
-                    src="/icon/del1.png"
+                    src="/Icon/del1.png"
                     alt="Exit"
                   />
                   <div className="self-center px-2">{t('exit')}</div>
@@ -251,7 +251,7 @@ function Nav() {
               className="size-8 rounded-lg p-1 ring-p1-green transition-all delay-75 duration-100 ease-in-out hover:bg-p1-white/50 hover:ring-2 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:hover:bg-p1-deepdarkgreen"
               width={480}
               height={480}
-              src="/icon/share_green.png"
+              src="/Icon/share_green.png"
               alt="bt16"
             />
           </Link>
