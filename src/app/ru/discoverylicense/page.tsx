@@ -350,7 +350,7 @@ export default function Page() {
               className="relative inline-block w-max"
               width={1000}
               height={1000}
-              src=/Hero/i13.png"
+              src="/Hero/i13.png"
               alt="13"
             />
           </div>
