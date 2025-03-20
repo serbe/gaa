@@ -47,7 +47,7 @@ export default function Page() {
 
       <div className="flex flex-row justify-center pb-2">
         <div className="basis-1/5">
-          <Image width={150} height={600} src="/Hero/i6.png" alt="Hero6" />
+          <Image width={150} height={600} src="/Hero/h6.png" alt="Hero6" />
         </div>
         <div className="basis-4/5 md:basis-3/5">
           <div className="space-y-4 rounded-3xl border-p1-darkgreen p-2 text-left text-base text-p1-darkgreen hover:border-p2-orange md:border-4 md:p-5 md:text-xl md:hover:shadow-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
@@ -67,7 +67,7 @@ export default function Page() {
           </div>
         </div>
         <div className="basis-1/5">
-          <Image width={150} height={600} src="/Hero/i9.png" alt="Hero9" />
+          <Image width={150} height={600} src="/Hero/h9.png" alt="Hero9" />
         </div>
       </div>
 

@@ -451,7 +451,7 @@ export default function Page() {
       <div id="13" className="md:pt-2"></div>
 
       <div className="w-20 basis-1/5 place-self-center md:w-40">
-        <Image width={150} height={150} src="/Hero/i12.png" alt="Hero12" />
+        <Image width={150} height={150} src="/Hero/h12.png" alt="Hero12" />
       </div>
     </div>
   );
