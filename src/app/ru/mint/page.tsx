@@ -35,7 +35,7 @@ export default function Page() {
             <h2 className="text-base md:pb-2 md:text-2xl">RaceLads NFT</h2>
           </div>
           <Image
-            className="relative mb-2 inline-block w-2/5 rounded-3xl border-2 border-p2-orange shadow-lg md:w-2/5 dark:border-p1-green"
+            className="relative mb-2 inline-block w-3/5 rounded-3xl border-2 border-p2-orange shadow-lg md:w-2/5 dark:border-p1-green"
             width={1000}
             height={1000}
             src="/HeroNFT/RaceLads/RaceLads1.png"
@@ -70,11 +70,11 @@ export default function Page() {
       >
         Лидеры движений
       </div>
-      <div className="mx-5 grid grid-cols-1 gap-2 rounded-3xl border-p1-darkgreen text-center text-p1-darkgreen md:grid-cols-2 md:border-4 md:p-5 md:shadow-lg xl:grid-cols-4 dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
+      <div className="grid grid-cols-1 gap-2 rounded-3xl border-p1-darkgreen text-center text-p1-darkgreen md:mx-5 md:grid-cols-2 md:border-4 md:p-5 md:shadow-lg xl:grid-cols-4 dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
         <div>
           <p className="text-2xl">Drivers</p>
           <Image
-            className="relative mb-4 inline-block w-3/5 rounded-3xl border-2 border-red-400 shadow-lg md:w-full dark:border-p1-green"
+            className="relative mb-2 inline-block w-3/5 rounded-3xl border-2 border-red-400 shadow-lg md:w-full dark:border-p1-green"
             width={1000}
             height={1000}
             src="/HeroNFT/Drivers/Driver4.png"
@@ -211,7 +211,7 @@ export default function Page() {
           <h2 className="pb-2 text-2xl">RaceLads </h2>
 
           <Image
-            className="relative mb-2 inline-block w-2/5 rounded-3xl border-2 border-p2-orange shadow-lg md:w-2/5 dark:border-p1-green"
+            className="relative mb-2 inline-block w-3/5 rounded-3xl border-2 border-p2-orange shadow-lg md:w-2/5 dark:border-p1-green"
             width={1000}
             height={1000}
             src="/HeroNFT/CustomLads/CustomLads1.png"
@@ -252,7 +252,7 @@ export default function Page() {
         <p className="pt-2 text-base md:pt-2 md:text-2xl">Вручай награды победителям!</p>
         <div>
           <Image
-            className="relative mb-2 inline-block w-2/5 rounded-3xl border-2 border-p2-orange shadow-lg md:w-2/5"
+            className="relative mb-2 inline-block w-3/5 rounded-3xl border-2 border-p2-orange shadow-lg md:w-2/5 dark:border-p1-green"
             width={1000}
             height={1000}
             src="/Hero/Rewards.png"
@@ -291,7 +291,7 @@ export default function Page() {
           NFT, дающие преференции своим держателям
         </p>
       </div>
-      <div className="m-5 grid grid-cols-1 gap-2 place-self-center rounded-3xl border-p1-darkgreen p-5 text-center text-p1-darkgreen md:grid-cols-3 md:border-4 md:shadow-lg dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
+      <div className="grid grid-cols-1 gap-2 place-self-center rounded-3xl border-p1-darkgreen text-center text-p1-darkgreen md:grid-cols-3 md:border-4 md:shadow-lg dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
         <div className="my-4">
           <p className="pb-2 text-2xl">Лицензия Промоутера</p>
           <Image
@@ -323,7 +323,7 @@ export default function Page() {
           </Link>
         </div>
         <div className="my-5">
-          <p className="pb-2 text-2xl">Национальная лицензия</p>
+          <p className="pb-2 text-2xl">Локальная лицензия</p>
 
           <Image
             className="relative mb-4 inline-block w-3/5 rounded-3xl border-2 border-p1-gray shadow-lg md:w-4/5"
