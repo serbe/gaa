@@ -20,7 +20,7 @@ export const JumpButton = ({ points }: { points: string[] }) => {
       type="button"
       data-twe-ripple-init
       data-twe-ripple-color="light"
-      className={`fixed! end-6 top-24 z-20 animate-bounce overflow-hidden rounded-full bg-p2-orange p-3 text-xs font-medium uppercase leading-tight text-white shadow-md duration-1000 hover:bg-p2-red hover:shadow-lg focus:bg-p2-red focus:shadow-lg focus:outline-hidden focus:ring-0 active:bg-p2-red active:shadow-lg`}
+      className={`fixed! end-6 top-24 z-20 animate-bounce overflow-hidden rounded-full bg-p2-orange p-3 text-xs leading-tight font-medium text-white uppercase shadow-md duration-1000 hover:bg-p2-red hover:shadow-lg focus:bg-p2-red focus:shadow-lg focus:ring-0 focus:outline-hidden active:bg-p2-red active:shadow-lg`}
       id="btn-back-to-top"
       onClick={() => {
         jump();

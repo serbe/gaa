@@ -53,7 +53,7 @@ export default function Page() {
                             htmlFor="dropzone-file"
                             className="flex h-56 w-full cursor-pointer flex-col items-center justify-center rounded-3xl border-2 border-dashed border-gray-300 bg-gray-50 shadow-lg hover:bg-gray-100 dark:border-gray-600 dark:bg-gray-700 dark:hover:border-gray-500 dark:hover:bg-gray-800"
                           >
-                            <div className="flex flex-col items-center justify-center pb-6 pt-5">
+                            <div className="flex flex-col items-center justify-center pt-5 pb-6">
                               <svg
                                 className="mb-4 size-8 text-gray-500 dark:text-gray-400"
                                 aria-hidden="true"
@@ -91,7 +91,7 @@ export default function Page() {
                             htmlFor="dropzone-file"
                             className="flex h-56 w-full cursor-pointer flex-col items-center justify-center rounded-3xl border-2 border-dashed border-gray-300 bg-gray-50 shadow-lg hover:bg-gray-100 dark:border-gray-600 dark:bg-gray-700 dark:hover:border-gray-500 dark:hover:bg-gray-800"
                           >
-                            <div className="flex flex-col items-center justify-center pb-6 pt-5">
+                            <div className="flex flex-col items-center justify-center pt-5 pb-6">
                               <svg
                                 className="mb-4 size-8 text-gray-500 dark:text-gray-400"
                                 aria-hidden="true"
@@ -128,7 +128,7 @@ export default function Page() {
                         <div className="accent-red-700">
                           <label
                             htmlFor="default-range"
-                            className="mb-2 mt-5 block text-2xl font-medium text-gray-900 dark:text-red-300"
+                            className="mt-5 mb-2 block text-2xl font-medium text-gray-900 dark:text-red-300"
                           >
                             {value}
                           </label>

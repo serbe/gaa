@@ -56,7 +56,7 @@ export default function Page() {
                             htmlFor="dropzone-file"
                             className="flex h-56 w-full cursor-pointer flex-col items-center justify-center rounded-3xl border-2 border-dashed border-gray-300 bg-gray-50 shadow-lg hover:bg-gray-100 dark:border-gray-600 dark:bg-gray-700 dark:hover:border-gray-500 dark:hover:bg-gray-800"
                           >
-                            <div className="flex flex-col items-center justify-center pb-6 pt-5">
+                            <div className="flex flex-col items-center justify-center pt-5 pb-6">
                               <svg
                                 className="mb-4 size-8 text-gray-500 dark:text-gray-400"
                                 aria-hidden="true"
@@ -95,7 +95,7 @@ export default function Page() {
                             htmlFor="dropzone-file"
                             className="flex h-56 w-full cursor-pointer flex-col items-center justify-center rounded-3xl border-2 border-dashed border-gray-300 bg-gray-50 shadow-lg hover:bg-gray-100 dark:border-gray-600 dark:bg-gray-700 dark:hover:border-gray-500 dark:hover:bg-gray-800"
                           >
-                            <div className="flex flex-col items-center justify-center pb-6 pt-5">
+                            <div className="flex flex-col items-center justify-center pt-5 pb-6">
                               <svg
                                 className="mb-4 size-8 text-gray-500 dark:text-gray-400"
                                 aria-hidden="true"
@@ -133,7 +133,7 @@ export default function Page() {
                             htmlFor="dropzone-file"
                             className="flex h-56 w-full cursor-pointer flex-col items-center justify-center rounded-3xl border-2 border-dashed border-gray-300 bg-gray-50 shadow-lg hover:bg-gray-100 dark:border-gray-600 dark:bg-gray-700 dark:hover:border-gray-500 dark:hover:bg-gray-800"
                           >
-                            <div className="flex flex-col items-center justify-center pb-6 pt-5">
+                            <div className="flex flex-col items-center justify-center pt-5 pb-6">
                               <svg
                                 className="mb-4 size-8 text-gray-500 dark:text-gray-400"
                                 aria-hidden="true"
@@ -193,11 +193,11 @@ export default function Page() {
                       ></div>
                       <div
                         id="area3"
-                        className={` md:pb-96 md:pt-56 ${visibleArea3 == false ? '' : 'hidden'}`}
+                        className={` md:pt-56 md:pb-96 ${visibleArea3 == false ? '' : 'hidden'}`}
                       ></div>
                       <div
                         id="area4"
-                        className={` md:pb-96 md:pt-56  ${visibleArea4 == false ? '' : 'hidden'}`}
+                        className={` md:pt-56 md:pb-96  ${visibleArea4 == false ? '' : 'hidden'}`}
                       ></div>
                     </div>
                   </div>
@@ -243,12 +243,12 @@ export default function Page() {
                       </div>
                     </div>
 
-                    <div className="pt-1 text-center lining-nums text-p1-darkgreen sm:px-2 dark:text-p1-green">
+                    <div className="pt-1 text-center text-p1-darkgreen lining-nums sm:px-2 dark:text-p1-green">
                       <div className="">
                         <div className="grid grid-cols-5 place-content-center gap-1 text-sm sm:grid-cols-8 sm:gap-2 sm:text-xl 2xl:grid-cols-5">
                           <div>
                             <div className="flex gap-4">
-                              <div className="group relative w-full place-self-center overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-100 hover:shadow-lg hover:shadow-p1-cyan group-hover:shadow-xs dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
+                              <div className="group relative w-full place-self-center overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-100 group-hover:shadow-xs hover:shadow-lg hover:shadow-p1-cyan dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
                                 <div className="relative">
                                   <Link href="/card" className="mx-auto justify-center">
                                     <Image
@@ -261,7 +261,7 @@ export default function Page() {
                                   </Link>
                                 </div>
                                 <div className="flex items-center justify-between">
-                                  <div className="absolute bottom-0 left-0 h-10 w-full translate-y-full bg-p2-red text-center text-p2-white2 opacity-100 shadow-lg shadow-p2-red transition-transform duration-500 ease-in-out hover:bg-p1-darkgreen group-hover:translate-y-0 dark:bg-p2-red">
+                                  <div className="absolute bottom-0 left-0 h-10 w-full translate-y-full bg-p2-red text-center text-p2-white2 opacity-100 shadow-lg shadow-p2-red transition-transform duration-500 ease-in-out group-hover:translate-y-0 hover:bg-p1-darkgreen dark:bg-p2-red">
                                     <div
                                       className="inline-flex h-10 w-full justify-center text-sm"
                                       role="group"
@@ -291,7 +291,7 @@ export default function Page() {
                           </div>
                           <div>
                             <div className="flex gap-4">
-                              <div className="group relative w-full place-self-center overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-100 hover:shadow-lg hover:shadow-p1-cyan group-hover:shadow-xs dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
+                              <div className="group relative w-full place-self-center overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-100 group-hover:shadow-xs hover:shadow-lg hover:shadow-p1-cyan dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
                                 <div className="relative">
                                   <Link href="/card" className="mx-auto justify-center">
                                     <Image
@@ -304,7 +304,7 @@ export default function Page() {
                                   </Link>
                                 </div>
                                 <div className="flex items-center justify-between">
-                                  <div className="absolute bottom-0 left-0 h-10 w-full translate-y-full bg-p2-red text-center text-p2-white2 opacity-100 shadow-lg shadow-p2-red transition-transform duration-500 ease-in-out hover:bg-p1-darkgreen group-hover:translate-y-0 dark:bg-p2-red">
+                                  <div className="absolute bottom-0 left-0 h-10 w-full translate-y-full bg-p2-red text-center text-p2-white2 opacity-100 shadow-lg shadow-p2-red transition-transform duration-500 ease-in-out group-hover:translate-y-0 hover:bg-p1-darkgreen dark:bg-p2-red">
                                     <div
                                       className="inline-flex h-10 w-full justify-center text-sm"
                                       role="group"
@@ -334,7 +334,7 @@ export default function Page() {
                           </div>
                           <div>
                             <div className="flex gap-4">
-                              <div className="group relative w-full place-self-center overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-100 hover:shadow-lg hover:shadow-p1-cyan group-hover:shadow-xs dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
+                              <div className="group relative w-full place-self-center overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-100 group-hover:shadow-xs hover:shadow-lg hover:shadow-p1-cyan dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
                                 <div className="relative">
                                   <Link href="/card" className="mx-auto justify-center">
                                     <Image
@@ -347,7 +347,7 @@ export default function Page() {
                                   </Link>
                                 </div>
                                 <div className="flex items-center justify-between">
-                                  <div className="absolute bottom-0 left-0 h-10 w-full translate-y-full bg-p2-red text-center text-p2-white2 opacity-100 shadow-lg shadow-p2-red transition-transform duration-500 ease-in-out hover:bg-p1-darkgreen group-hover:translate-y-0 dark:bg-p2-red">
+                                  <div className="absolute bottom-0 left-0 h-10 w-full translate-y-full bg-p2-red text-center text-p2-white2 opacity-100 shadow-lg shadow-p2-red transition-transform duration-500 ease-in-out group-hover:translate-y-0 hover:bg-p1-darkgreen dark:bg-p2-red">
                                     <div
                                       className="inline-flex h-10 w-full justify-center text-sm"
                                       role="group"
@@ -377,7 +377,7 @@ export default function Page() {
                           </div>
                           <div>
                             <div className="flex gap-4">
-                              <div className="group relative w-full place-self-center overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-100 hover:shadow-lg hover:shadow-p1-cyan group-hover:shadow-xs dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
+                              <div className="group relative w-full place-self-center overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-100 group-hover:shadow-xs hover:shadow-lg hover:shadow-p1-cyan dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
                                 <div className="relative">
                                   <Link href="/card" className="mx-auto justify-center">
                                     <Image
@@ -390,7 +390,7 @@ export default function Page() {
                                   </Link>
                                 </div>
                                 <div className="flex items-center justify-between">
-                                  <div className="absolute bottom-0 left-0 h-10 w-full translate-y-full bg-p2-red text-center text-p2-white2 opacity-100 shadow-lg shadow-p2-red transition-transform duration-500 ease-in-out hover:bg-p1-darkgreen group-hover:translate-y-0 dark:bg-p2-red">
+                                  <div className="absolute bottom-0 left-0 h-10 w-full translate-y-full bg-p2-red text-center text-p2-white2 opacity-100 shadow-lg shadow-p2-red transition-transform duration-500 ease-in-out group-hover:translate-y-0 hover:bg-p1-darkgreen dark:bg-p2-red">
                                     <div
                                       className="inline-flex h-10 w-full justify-center text-sm"
                                       role="group"
@@ -451,7 +451,7 @@ export default function Page() {
                       <div className="place-content-center px-4">Метаданные о мероприятии</div>
                       <div className="place-content-center px-4"></div>
                     </summary>
-                    <div className="pt-1 text-center lining-nums text-p1-darkgreen sm:px-2 dark:text-p1-green">
+                    <div className="pt-1 text-center text-p1-darkgreen lining-nums sm:px-2 dark:text-p1-green">
                       <div className="group">
                         <p className="text-center text-xl text-p1-darkgreen md:text-left md:text-xl dark:text-p1-green">
                           Заполни все поля - эти метаданные будут храниться в блокчейне
@@ -684,7 +684,7 @@ export default function Page() {
                       </div>
                       <div className="place-content-center px-4">Метаданные о победителе</div>
                     </summary>
-                    <div className="pt-1 text-center lining-nums text-p1-darkgreen sm:px-2 dark:text-p1-green">
+                    <div className="pt-1 text-center text-p1-darkgreen lining-nums sm:px-2 dark:text-p1-green">
                       <div className="group">
                         <div className="pb-5"></div>
 
@@ -1058,7 +1058,7 @@ export default function Page() {
                       htmlFor="dropzone-file"
                       className="mt-5 flex h-56 w-full cursor-pointer flex-col items-center justify-center rounded-3xl border-2 border-dashed border-gray-300 bg-gray-50 shadow-lg hover:bg-gray-100 dark:border-gray-600 dark:bg-gray-700 dark:hover:border-gray-500 dark:hover:bg-gray-800"
                     >
-                      <div className="flex flex-col items-center justify-center pb-6 pt-5">
+                      <div className="flex flex-col items-center justify-center pt-5 pb-6">
                         <svg
                           className="mb-4 size-8 text-gray-500 dark:text-gray-400"
                           aria-hidden="true"
@@ -1113,7 +1113,7 @@ export default function Page() {
                   <div className="">
                     <div className="relative snap-start scroll-smooth">
                       <table className="text-left text-xl text-p1-darkgreen dark:text-p1-green">
-                        <thead className="sticky top-0 z-20 border-b border-p1-green/30 bg-p1-white/100 text-xs uppercase text-p1-darkgreen dark:bg-p1-deepdarkgreen dark:text-p1-green">
+                        <thead className="sticky top-0 z-20 border-b border-p1-green/30 bg-p1-white/100 text-xs text-p1-darkgreen uppercase dark:bg-p1-deepdarkgreen dark:text-p1-green">
                           <tr>
                             <th scope="col" className="p-2 text-center">
                               choose
@@ -1208,7 +1208,7 @@ export default function Page() {
                         </thead>
                         <tbody className="z-10 w-full scroll-mt-4 place-self-start overflow-auto scroll-smooth text-lg">
                           <tr className="border-b border-p1-green/30 bg-p1-white lining-nums hover:bg-p1-cyan/5 dark:border-p1-green dark:bg-p1-deepdarkgreen">
-                            <th scope="row" className="whitespace-nowrap p-2 font-medium">
+                            <th scope="row" className="p-2 font-medium whitespace-nowrap">
                               <div className="flex items-center">
                                 <input
                                   checked={check}
@@ -1285,9 +1285,9 @@ export default function Page() {
                 {/* ... маленькие карточки  ... */}
                 <div id="area3" className={`${currentVisibleArea == 3 ? '' : 'hidden'}`}>
                   <div className="flex gap-4">
-                    <div className="group relative h-[14.5rem] w-40 place-self-center overflow-hidden rounded-xl bg-white object-cover lining-nums shadow-lg transition-transform duration-100 hover:shadow-lg hover:shadow-p1-cyan group-hover:shadow-xs dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
+                    <div className="group relative h-[14.5rem] w-40 place-self-center overflow-hidden rounded-xl bg-white object-cover lining-nums shadow-lg transition-transform duration-100 group-hover:shadow-xs hover:shadow-lg hover:shadow-p1-cyan dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
                       <div>
-                        <div className="group invisible absolute right-1 top-1 z-10 inline-block duration-100 ease-in-out group-hover:visible group-hover:opacity-100">
+                        <div className="group invisible absolute top-1 right-1 z-10 inline-block duration-100 ease-in-out group-hover:visible group-hover:opacity-100">
                           <Link
                             href="#"
                             className="z-50 grid w-6 place-content-center transition-all delay-75 duration-100 ease-in-out hover:scale-125"
@@ -1321,7 +1321,7 @@ export default function Page() {
                           <div className="px-1 pt-1 text-left text-sm font-bold"># 12345</div>
                         </div>
 
-                        <div className="px-1 pb-12 pt-1">
+                        <div className="px-1 pt-1 pb-12">
                           <div className="flex items-center justify-between">
                             <div className="text-center">
                               <p className="text-center text-xs">Дрифт</p>
@@ -1334,7 +1334,7 @@ export default function Page() {
                       </div>
 
                       <div className="flex items-center justify-between">
-                        <div className="absolute bottom-0 left-0 h-8 w-40 translate-y-full bg-p2-red text-center text-p2-white2 opacity-100 shadow-lg shadow-p2-red transition-transform duration-500 ease-in-out hover:bg-p1-darkgreen group-hover:translate-y-0 dark:bg-p2-red">
+                        <div className="absolute bottom-0 left-0 h-8 w-40 translate-y-full bg-p2-red text-center text-p2-white2 opacity-100 shadow-lg shadow-p2-red transition-transform duration-500 ease-in-out group-hover:translate-y-0 hover:bg-p1-darkgreen dark:bg-p2-red">
                           <div className="inline-flex h-8 w-40 justify-center text-sm" role="group">
                             <Link
                               href="#"
@@ -1363,9 +1363,9 @@ export default function Page() {
                 {/* ... средние карточки  ... */}
                 <div id="area4" className={`${currentVisibleArea == 4 ? '' : 'hidden'}`}>
                   <div className="flex gap-4">
-                    <div className="group relative h-[21.5rem] w-60 place-self-center overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-100 hover:shadow-lg hover:shadow-p1-cyan group-hover:shadow-xs dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
+                    <div className="group relative h-[21.5rem] w-60 place-self-center overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-100 group-hover:shadow-xs hover:shadow-lg hover:shadow-p1-cyan dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
                       <div>
-                        <div className="group invisible absolute right-1 top-1 z-10 inline-block duration-100 ease-in-out group-hover:visible group-hover:opacity-100">
+                        <div className="group invisible absolute top-1 right-1 z-10 inline-block duration-100 ease-in-out group-hover:visible group-hover:opacity-100">
                           <Link
                             href="#"
                             className="z-50 grid w-8 place-content-center transition-all delay-75 duration-100 ease-in-out hover:scale-125"
@@ -1399,7 +1399,7 @@ export default function Page() {
                           <div className="px-1 pt-1 text-left text-base font-bold"># 12345</div>
                         </div>
 
-                        <div className="px-1 pb-12 pt-1">
+                        <div className="px-1 pt-1 pb-12">
                           <div className="flex items-center justify-between">
                             <div className="text-center">
                               <p className="text-center text-base">Дрифт</p>
@@ -1412,7 +1412,7 @@ export default function Page() {
                       </div>
 
                       <div className="flex items-center justify-between">
-                        <div className="absolute bottom-0 left-0 h-10 w-40 translate-y-full bg-p2-red text-center text-p2-white2 opacity-100 shadow-lg shadow-p2-red transition-transform duration-500 ease-in-out hover:bg-p1-darkgreen group-hover:translate-y-0 dark:bg-p2-red">
+                        <div className="absolute bottom-0 left-0 h-10 w-40 translate-y-full bg-p2-red text-center text-p2-white2 opacity-100 shadow-lg shadow-p2-red transition-transform duration-500 ease-in-out group-hover:translate-y-0 hover:bg-p1-darkgreen dark:bg-p2-red">
                           <div
                             className="inline-flex h-10 w-60 justify-center text-base"
                             role="group"
@@ -1444,9 +1444,9 @@ export default function Page() {
                 {/* ... большие карточки  ... */}
                 <div id="area5" className={`${currentVisibleArea == 5 ? '' : 'hidden'}`}>
                   <div className="flex gap-4">
-                    <div className="group relative h-[28rem] w-80 place-self-center overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-100 hover:shadow-lg hover:shadow-p1-cyan group-hover:shadow-xs dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
+                    <div className="group relative h-[28rem] w-80 place-self-center overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-100 group-hover:shadow-xs hover:shadow-lg hover:shadow-p1-cyan dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
                       <div>
-                        <div className="group invisible absolute right-1 top-1 z-10 inline-block duration-100 ease-in-out group-hover:visible group-hover:opacity-100">
+                        <div className="group invisible absolute top-1 right-1 z-10 inline-block duration-100 ease-in-out group-hover:visible group-hover:opacity-100">
                           <Link
                             href="#"
                             className="z-50 grid w-10 place-content-center transition-all delay-75 duration-100 ease-in-out hover:scale-125"
@@ -1480,7 +1480,7 @@ export default function Page() {
                           <div className="px-1 pt-1 text-left text-xl font-bold"># 12345</div>
                         </div>
 
-                        <div className="px-1 pb-12 pt-1">
+                        <div className="px-1 pt-1 pb-12">
                           <div className="flex items-center justify-between">
                             <div className="text-center">
                               <p className="text-center text-lg">Дрифт</p>
@@ -1493,7 +1493,7 @@ export default function Page() {
                       </div>
 
                       <div className="flex items-center justify-between">
-                        <div className="absolute bottom-0 left-0 h-12 w-40 translate-y-full bg-p2-red text-center text-p2-white2 opacity-100 shadow-lg shadow-p2-red transition-transform duration-500 ease-in-out hover:bg-p1-darkgreen group-hover:translate-y-0 dark:bg-p2-red">
+                        <div className="absolute bottom-0 left-0 h-12 w-40 translate-y-full bg-p2-red text-center text-p2-white2 opacity-100 shadow-lg shadow-p2-red transition-transform duration-500 ease-in-out group-hover:translate-y-0 hover:bg-p1-darkgreen dark:bg-p2-red">
                           <div
                             className="inline-flex h-12 w-80 justify-center text-sm"
                             role="group"
@@ -1525,9 +1525,9 @@ export default function Page() {
                 {/* ... самые большие карточки  ... */}
                 <div id="area6" className={`${currentVisibleArea == 6 ? '' : 'hidden'}`}>
                   <div className="flex gap-4">
-                    <div className="group relative h-[39rem] w-[28rem] place-self-center overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-100 hover:shadow-lg hover:shadow-p1-cyan group-hover:shadow-xs dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
+                    <div className="group relative h-[39rem] w-[28rem] place-self-center overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-100 group-hover:shadow-xs hover:shadow-lg hover:shadow-p1-cyan dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
                       <div>
-                        <div className="group invisible absolute right-1 top-1 z-10 inline-block duration-100 ease-in-out group-hover:visible group-hover:opacity-100">
+                        <div className="group invisible absolute top-1 right-1 z-10 inline-block duration-100 ease-in-out group-hover:visible group-hover:opacity-100">
                           <Link
                             href="#"
                             className="z-50 grid w-12 place-content-center transition-all delay-75 duration-100 ease-in-out hover:scale-125"
@@ -1561,7 +1561,7 @@ export default function Page() {
                           <div className="px-1 pt-1 text-left text-3xl font-bold"># 12345</div>
                         </div>
 
-                        <div className="px-1 pb-12 pt-1">
+                        <div className="px-1 pt-1 pb-12">
                           <div className="flex items-center justify-between">
                             <div className="text-center">
                               <p className="text-center text-3xl">Дрифт</p>
@@ -1574,7 +1574,7 @@ export default function Page() {
                       </div>
 
                       <div className="flex items-center justify-between">
-                        <div className="absolute bottom-0 left-0 h-14 w-40 translate-y-full bg-p2-red text-center text-p2-white2 opacity-100 shadow-lg shadow-p2-red transition-transform duration-500 ease-in-out hover:bg-p1-darkgreen group-hover:translate-y-0 dark:bg-p2-red">
+                        <div className="absolute bottom-0 left-0 h-14 w-40 translate-y-full bg-p2-red text-center text-p2-white2 opacity-100 shadow-lg shadow-p2-red transition-transform duration-500 ease-in-out group-hover:translate-y-0 hover:bg-p1-darkgreen dark:bg-p2-red">
                           <div
                             className="inline-flex h-14 w-[28rem] justify-center text-sm"
                             role="group"
@@ -1606,9 +1606,9 @@ export default function Page() {
                 {/* ...  карточки ,без подписи  ... */}
                 <div id="area8" className={`${currentVisibleArea == 8 ? '' : 'hidden'}`}>
                   <div className="flex gap-4">
-                    <div className="group relative w-80 place-self-center overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-100 hover:shadow-lg hover:shadow-p1-cyan group-hover:shadow-xs dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
+                    <div className="group relative w-80 place-self-center overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-100 group-hover:shadow-xs hover:shadow-lg hover:shadow-p1-cyan dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
                       <div>
-                        <div className="group invisible absolute right-1 top-1 z-10 inline-block duration-100 ease-in-out group-hover:visible group-hover:opacity-100">
+                        <div className="group invisible absolute top-1 right-1 z-10 inline-block duration-100 ease-in-out group-hover:visible group-hover:opacity-100">
                           <Link
                             href="#"
                             className="z-50 grid w-10 place-content-center transition-all delay-75 duration-100 ease-in-out hover:scale-105"
@@ -1636,7 +1636,7 @@ export default function Page() {
                         </Link>
                       </div>
                       <div className="flex items-center justify-between">
-                        <div className="absolute bottom-0 left-0 h-10 w-40 translate-y-full bg-p2-red text-center text-p2-white2 opacity-100 shadow-lg shadow-p2-red transition-transform duration-500 ease-in-out hover:bg-p1-darkgreen group-hover:translate-y-0 dark:bg-p2-red">
+                        <div className="absolute bottom-0 left-0 h-10 w-40 translate-y-full bg-p2-red text-center text-p2-white2 opacity-100 shadow-lg shadow-p2-red transition-transform duration-500 ease-in-out group-hover:translate-y-0 hover:bg-p1-darkgreen dark:bg-p2-red">
                           <div
                             className="inline-flex h-10 w-80 justify-center text-sm"
                             role="group"
@@ -1667,14 +1667,14 @@ export default function Page() {
               </div>
             </div>
 
-            <div className="pt-1 text-center lining-nums text-p1-darkgreen sm:px-2 dark:text-p1-green">
+            <div className="pt-1 text-center text-p1-darkgreen lining-nums sm:px-2 dark:text-p1-green">
               <div className="">
                 <div className="grid grid-cols-2 place-content-center gap-1 text-sm sm:grid-cols-5 sm:gap-2 sm:text-xl 2xl:grid-cols-8">
                   <div id="area8" className={`${currentVisibleArea == 8 ? '' : 'hidden'}`}>
                     <div className="flex gap-4">
-                      <div className="group relative w-full place-self-center overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-100 hover:shadow-lg hover:shadow-p1-cyan group-hover:shadow-xs dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
+                      <div className="group relative w-full place-self-center overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-100 group-hover:shadow-xs hover:shadow-lg hover:shadow-p1-cyan dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
                         <div>
-                          <div className="invisible absolute right-1 top-1 z-10 inline-block duration-100 ease-in-out group-hover:visible group-hover:opacity-100">
+                          <div className="invisible absolute top-1 right-1 z-10 inline-block duration-100 ease-in-out group-hover:visible group-hover:opacity-100">
                             <Link
                               href="#"
                               className="z-50 grid w-10 place-content-center transition-all delay-75 duration-100 ease-in-out hover:scale-105"
@@ -1702,7 +1702,7 @@ export default function Page() {
                           </Link>
                         </div>
                         <div className="flex items-center justify-between">
-                          <div className="absolute bottom-0 left-0 h-10 w-full translate-y-full bg-p2-red text-center text-p2-white2 opacity-100 shadow-lg shadow-p2-red transition-transform duration-500 ease-in-out hover:bg-p1-darkgreen group-hover:translate-y-0 dark:bg-p2-red">
+                          <div className="absolute bottom-0 left-0 h-10 w-full translate-y-full bg-p2-red text-center text-p2-white2 opacity-100 shadow-lg shadow-p2-red transition-transform duration-500 ease-in-out group-hover:translate-y-0 hover:bg-p1-darkgreen dark:bg-p2-red">
                             <div
                               className="inline-flex h-10 w-full justify-center text-sm"
                               role="group"
@@ -1733,9 +1733,9 @@ export default function Page() {
 
                   <div id="area8" className={`${currentVisibleArea == 8 ? '' : 'hidden'}`}>
                     <div className="flex gap-4">
-                      <div className="group relative w-full place-self-center overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-100 hover:shadow-lg hover:shadow-p1-cyan group-hover:shadow-xs dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
+                      <div className="group relative w-full place-self-center overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-100 group-hover:shadow-xs hover:shadow-lg hover:shadow-p1-cyan dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
                         <div>
-                          <div className="invisible absolute right-1 top-1 z-10 inline-block duration-100 ease-in-out group-hover:visible group-hover:opacity-100">
+                          <div className="invisible absolute top-1 right-1 z-10 inline-block duration-100 ease-in-out group-hover:visible group-hover:opacity-100">
                             <Link
                               href="#"
                               className="z-50 grid w-10 place-content-center transition-all delay-75 duration-100 ease-in-out hover:scale-105"
@@ -1763,7 +1763,7 @@ export default function Page() {
                           </Link>
                         </div>
                         <div className="flex items-center justify-between">
-                          <div className="absolute bottom-0 left-0 h-10 w-full translate-y-full bg-p2-red text-center text-p2-white2 opacity-100 shadow-lg shadow-p2-red transition-transform duration-500 ease-in-out hover:bg-p1-darkgreen group-hover:translate-y-0 dark:bg-p2-red">
+                          <div className="absolute bottom-0 left-0 h-10 w-full translate-y-full bg-p2-red text-center text-p2-white2 opacity-100 shadow-lg shadow-p2-red transition-transform duration-500 ease-in-out group-hover:translate-y-0 hover:bg-p1-darkgreen dark:bg-p2-red">
                             <div
                               className="inline-flex h-10 w-full justify-center text-sm"
                               role="group"
@@ -1793,9 +1793,9 @@ export default function Page() {
                   </div>
                   <div id="area8" className={`${currentVisibleArea == 8 ? '' : 'hidden'}`}>
                     <div className="flex gap-4">
-                      <div className="group relative w-full place-self-center overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-100 hover:shadow-lg hover:shadow-p1-cyan group-hover:shadow-xs dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
+                      <div className="group relative w-full place-self-center overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-100 group-hover:shadow-xs hover:shadow-lg hover:shadow-p1-cyan dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
                         <div>
-                          <div className="invisible absolute right-1 top-1 z-10 inline-block duration-100 ease-in-out group-hover:visible group-hover:opacity-100">
+                          <div className="invisible absolute top-1 right-1 z-10 inline-block duration-100 ease-in-out group-hover:visible group-hover:opacity-100">
                             <Link
                               href="#"
                               className="z-50 grid w-10 place-content-center transition-all delay-75 duration-100 ease-in-out hover:scale-105"
@@ -1823,7 +1823,7 @@ export default function Page() {
                           </Link>
                         </div>
                         <div className="flex items-center justify-between">
-                          <div className="absolute bottom-0 left-0 h-10 w-full translate-y-full bg-p2-red text-center text-p2-white2 opacity-100 shadow-lg shadow-p2-red transition-transform duration-500 ease-in-out hover:bg-p1-darkgreen group-hover:translate-y-0 dark:bg-p2-red">
+                          <div className="absolute bottom-0 left-0 h-10 w-full translate-y-full bg-p2-red text-center text-p2-white2 opacity-100 shadow-lg shadow-p2-red transition-transform duration-500 ease-in-out group-hover:translate-y-0 hover:bg-p1-darkgreen dark:bg-p2-red">
                             <div
                               className="inline-flex h-10 w-full justify-center text-sm"
                               role="group"
@@ -1853,9 +1853,9 @@ export default function Page() {
                   </div>
                   <div id="area8" className={`${currentVisibleArea == 8 ? '' : 'hidden'}`}>
                     <div className="flex gap-4">
-                      <div className="group relative w-full place-self-center overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-100 hover:shadow-lg hover:shadow-p1-cyan group-hover:shadow-xs dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
+                      <div className="group relative w-full place-self-center overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-100 group-hover:shadow-xs hover:shadow-lg hover:shadow-p1-cyan dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
                         <div>
-                          <div className="invisible absolute right-1 top-1 z-10 inline-block duration-100 ease-in-out group-hover:visible group-hover:opacity-100">
+                          <div className="invisible absolute top-1 right-1 z-10 inline-block duration-100 ease-in-out group-hover:visible group-hover:opacity-100">
                             <Link
                               href="#"
                               className="z-50 grid w-10 place-content-center transition-all delay-75 duration-100 ease-in-out hover:scale-105"
@@ -1883,7 +1883,7 @@ export default function Page() {
                           </Link>
                         </div>
                         <div className="flex items-center justify-between">
-                          <div className="absolute bottom-0 left-0 h-10 w-full translate-y-full bg-p2-red text-center text-p2-white2 opacity-100 shadow-lg shadow-p2-red transition-transform duration-500 ease-in-out hover:bg-p1-darkgreen group-hover:translate-y-0 dark:bg-p2-red">
+                          <div className="absolute bottom-0 left-0 h-10 w-full translate-y-full bg-p2-red text-center text-p2-white2 opacity-100 shadow-lg shadow-p2-red transition-transform duration-500 ease-in-out group-hover:translate-y-0 hover:bg-p1-darkgreen dark:bg-p2-red">
                             <div
                               className="inline-flex h-10 w-full justify-center text-sm"
                               role="group"
@@ -2016,7 +2016,7 @@ export default function Page() {
             <div className="pt-16 dark:border-p1-green">
               <div className="relative resize-y overflow-auto scroll-smooth p-4">
                 <table className="text-left text-xl text-p1-darkgreen dark:text-p1-green">
-                  <thead className="sticky top-0 border-b border-p1-green/30 bg-p1-white/100 text-xs uppercase text-p1-darkgreen dark:bg-p1-deepdarkgreen dark:text-p1-green">
+                  <thead className="sticky top-0 border-b border-p1-green/30 bg-p1-white/100 text-xs text-p1-darkgreen uppercase dark:bg-p1-deepdarkgreen dark:text-p1-green">
                     <tr>
                       <th scope="col" className="p-2 text-center">
                         choose
@@ -2224,7 +2224,7 @@ export default function Page() {
                   </thead>
                   <tbody className="z-10 w-full snap-y scroll-mt-4 place-self-start overflow-auto scroll-smooth text-lg">
                     <tr className="w-full snap-start border-b border-p1-green/30 bg-p1-white text-xl text-p1-darkgreen hover:border-p1-green hover:bg-p1-green/5 dark:bg-p1-deepdarkgreen">
-                      <th scope="row" className="whitespace-nowrap p-2 font-medium">
+                      <th scope="row" className="p-2 font-medium whitespace-nowrap">
                         <div className="flex items-center">
                           <input
                             checked={check}

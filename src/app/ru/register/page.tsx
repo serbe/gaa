@@ -25,7 +25,7 @@ export default function Register() {
         <div className="mx-auto max-w-(--breakpoint-sm) px-4 py-8 lg:gap-16 lg:py-16">
           <div className="my-8 w-full place-self-center rounded-2xl bg-p1-white/30">
             <div className="flex flex-wrap justify-center md:flex-nowrap md:justify-between">
-              <div className="text-nowrap px-2 text-2xl font-semibold text-stone-400 md:pt-2 md:text-4xl dark:text-p1-darkgreen">
+              <div className="px-2 text-2xl font-semibold text-nowrap text-stone-400 md:pt-2 md:text-4xl dark:text-p1-darkgreen">
                 RaceLads
               </div>
               <div className="px-2 text-2xl font-semibold text-stone-400 md:pt-2 md:text-4xl dark:text-p1-darkgreen">
