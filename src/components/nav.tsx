@@ -292,7 +292,100 @@ function Nav() {
               />
             </Link>
           </div>
+          <div className="place-items-start  group relative inline-block ">
+            <div className="mx-auto justify-center">
+              <Image
+                className="size-8 rounded-full p-1 ring-p1-green transition-all delay-75 duration-100 ease-in-out hover:bg-p1-white/50 hover:ring-2 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:hover:bg-p1-deepdarkgreen"
+                src="/icon/points_green.png"
+                alt="points"
+                width={32}
+                height={32}
+              />
 
+              <div className="group-click:border-opacity-70  group-hover:bg-opacity-30 invisible absolute left-9 z-10 m-0.5 mt-2 w-80 -translate-x-1/2 rounded-xl bg-p1-white/30 text-nowrap text-gray-800 opacity-0 backdrop-blur-lg transition-all duration-100 group-hover:visible group-hover:opacity-100 dark:bg-p1-deepdarkgreen/80">
+                <div className="rounded-md">
+                  <div className="border-b border-p1-darkgreen p-1 text-base text-p1-darkgreen transition-all delay-100 duration-300 ease-in-out hover:bg-p1-white/20 hover:pl-3 hover:text-p1-darkgreen dark:border-p1-deepdarkgreen dark:text-p1-green dark:hover:text-p1-cyan">
+                    <Link
+                      href="/aboutmemberbenefit"
+                      className="mx-auto flex flex-row justify-start"
+                    >
+                      <Image
+                        className="size-6 self-center"
+                        width={480}
+                        height={480}
+                        src="/Icon/NFT_user_green.png"
+                        alt="Bordered avatar"
+                      />
+
+                      <div className="self-center px-2">{t('benefit')}</div>
+                    </Link>
+                  </div>
+                  <div className="border-b border-p1-darkgreen p-1 text-base text-p1-darkgreen transition-all delay-100 duration-300 ease-in-out hover:bg-p1-white/20 hover:pl-3 hover:text-p1-darkgreen dark:border-p1-deepdarkgreen dark:text-p1-green dark:hover:text-p1-cyan">
+                    <Link href="/aboutterms" className="mx-auto flex flex-row justify-start">
+                      <Image
+                        className="size-6 self-center"
+                        width={480}
+                        height={480}
+                        src="/Icon/NFT-col.png"
+                        alt="Bordered avatar"
+                      />
+                      <div className="self-center px-2">{t('terms')}</div>
+                    </Link>
+                  </div>
+                  <div className="border-b border-p1-darkgreen p-1 text-base text-p1-darkgreen transition-all delay-100 duration-300 ease-in-out hover:bg-p1-white/20 hover:pl-3 hover:text-p1-darkgreen dark:border-p1-deepdarkgreen dark:text-p1-green dark:hover:text-p1-cyan">
+                    <Link href="/aboutpolicy" className="mx-auto flex flex-row justify-start">
+                      <Image
+                        className="size-6 self-center"
+                        width={480}
+                        height={480}
+                        src="/Icon/heart_green.png"
+                        alt="heart"
+                      />
+                      <div className="self-center px-2">{t('confidentiality')}</div>
+                    </Link>
+                  </div>
+                  <div className="border-b border-p1-darkgreen p-1 text-base text-p1-darkgreen transition-all delay-100 duration-300 ease-in-out hover:bg-p1-white/20 hover:pl-3 hover:text-p1-darkgreen dark:border-p1-deepdarkgreen dark:text-p1-green dark:hover:text-p1-cyan">
+                    <Link href="/aboutweb3" className="mx-auto flex flex-row justify-start">
+                      <Image
+                        className="size-6 self-center"
+                        width={480}
+                        height={480}
+                        src="/Icon/hand_shake_green.png"
+                        alt="Bordered avatar"
+                      />
+                      <div className="self-center px-2">{t('lernweb3')}</div>
+                    </Link>
+                  </div>
+                  <div className="border-b border-p1-darkgreen p-1 text-base text-p1-darkgreen transition-all delay-100 duration-300 ease-in-out hover:bg-p1-white/20 hover:pl-3 hover:text-p1-darkgreen dark:border-p1-deepdarkgreen dark:text-p1-green dark:hover:text-p1-cyan">
+                    <Link href="/team" className="mx-auto flex flex-row justify-start">
+                      <Image
+                        className="size-6 self-center"
+                        width={480}
+                        height={480}
+                        src="/Icon/hand_shake_green.png"
+                        alt="Bordered avatar"
+                      />
+                      <div className="self-center px-2">{t('team')}</div>
+                    </Link>
+                  </div>
+                  <div className="border-b border-p1-darkgreen p-1 text-base text-p1-darkgreen transition-all delay-100 duration-300 ease-in-out hover:bg-p1-white/20 hover:pl-3 hover:text-p1-darkgreen dark:border-p1-deepdarkgreen dark:text-p1-green dark:hover:text-p1-cyan">
+                    <Link href="/contacts" className="mx-auto flex flex-row justify-start">
+                      <Image
+                        className="size-6 self-center"
+                        width={480}
+                        height={480}
+                        src="/Icon/hand_shake_green.png"
+                        alt="Bordered avatar"
+                      />
+                      <div className="self-center px-2">{t('contact')}</div>
+                    </Link>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+        
           <button
             data-collapse-toggle="navbar-user"
             type="button"
