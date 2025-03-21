@@ -20,7 +20,6 @@ function Nav() {
   const [{ theme, switchTheme }, gaaStore] = useGaaStore((state) => state);
   const [menuDrop, setMenuDrop] = useState(false);
   const t = useTranslations('Navbar');
-  const pathname = usePathname();
   const [{ logout, username }] = useGaaStore((state) => state);
   const deleteCookie = useDeleteCookie();
   const router = useRouter();
@@ -35,6 +34,12 @@ function Nav() {
     { name: t('socials'), url: '/socials' },
     { name: t('marketplace'), url: '/marketplace' },
   ];
+
+  let pathname = usePathname();
+
+  if (['/en', '/ru'].includes(pathname)) {
+    pathname = '/';
+  }
 
   useLayoutEffect(() => {
     void gaaStore.persist.rehydrate();
