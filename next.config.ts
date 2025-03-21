@@ -5,7 +5,7 @@ const withNextIntl = createNextIntlPlugin();
 
 const nextConfig: NextConfig = {
   // distDir: 'build',
-  output: 'standalone',
+  // output: 'standalone',
   reactStrictMode: true,
   // i18n: {
   //   locales: ['en', 'ru'],
