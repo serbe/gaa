@@ -1,16 +1,16 @@
 'use client';
 
-import { useLayoutEffect } from 'react';
-import { useGaaStore } from '@/context/gaa-store-provider';
-import Image from 'next/image';
-import { Link } from '@/i18n/routing';
 import { JumpButton } from '@/components/jumpButton';
+import { useGaaStore } from '@/context/gaa-store-provider';
+import { Link } from '@/i18n/routing';
+import Image from 'next/image';
+import { useLayoutEffect } from 'react';
 
 const Buttons = ({ lider, setter }: { lider: number; setter: (liderNumber: number) => void }) => {
   const jumpPoints = ['1', '2'];
 
   return (
-    <div className="inline-flex w-full justify-self-center rounded-md pt-5 shadow-sm" role="group">
+    <div className="inline-flex w-full justify-self-center rounded-md pt-5 shadow-xs" role="group">
       <JumpButton points={jumpPoints} />
 
       <button

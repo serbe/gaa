@@ -1,24 +1,73 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss';
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --background-image-404: url('/404/404.png');
+  --background-image-gradient-radial: radial-gradient(var(--tw-gradient-stops));
+  --background-image-gradient-conic: conic-gradient(
+    from 180deg at 50% 50%,
+    var(--tw-gradient-stops)
+  );
+
+  --color-p1-deepdarkgreen: #001c1e;
+  --color-p1-darkgreen: #004146;
+  --color-p1-green: #018076;
+  --color-p1-cyan: #03bfb5;
+  --color-p1-gray: #949398;
+  --color-p1-white: #eff5f9;
+  --color-p2-orange: #ff9700;
+  --color-p2-red: #eb3800;
+  --color-p2-blue: #005fdb;
+  --color-p2-black: #050505;
+  --color-p2-white2: #fcfefe;
+  --color-p3-red: #ff0026;
+  --color-p3-yellow: #ffea00;
+  --color-p3-black: #12142d;
+  --color-p3-violet: #1b2b5a;
+  --color-p3-blue: #6674a3;
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+
+  --breakpoint-3xl: 1600px;
+  --breakpoint-4xl: 2560px;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+/*
+  The default border color has changed to `currentColor` in Tailwind CSS v4,
+  so we've added these compatibility styles to make sure everything still
+  looks the same as it did with Tailwind CSS v3.
+
+  If we ever want to remove these styles, we need to add an explicit border
+  color utility to any element that depends on these defaults.
+*/
+@layer base {
+  *,
+  ::after,
+  ::before,
+  ::backdrop,
+  ::file-selector-button {
+    border-color: var(--color-gray-200, currentColor);
   }
 }
 
+@utility text-balance {
+  text-wrap: balance;
+}
+
 @layer utilities {
-  .text-balance {
-    text-wrap: balance;
+  :root {
+    --foreground-rgb: 0, 0, 0;
+    --background-start-rgb: 214, 219, 220;
+    --background-end-rgb: 255, 255, 255;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --foreground-rgb: 255, 255, 255;
+      --background-start-rgb: 0, 0, 0;
+      --background-end-rgb: 0, 0, 0;
+    }
   }
 }
 

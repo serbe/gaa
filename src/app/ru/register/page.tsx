@@ -1,7 +1,7 @@
 'use client';
-import { useState } from 'react';
 import { useRouter } from '@/i18n/routing';
 import { sendRegister } from '@/utils/api';
+import { useState } from 'react';
 
 export default function Register() {
   const [username, setUsername] = useState('');
@@ -22,7 +22,7 @@ export default function Register() {
   return (
     <div className="h-screen bg-[url('/background/bgsky.png')] bg-cover bg-center p-2 dark:brightness-75">
       <section className="">
-        <div className="mx-auto max-w-screen-sm px-4 py-8 lg:gap-16 lg:py-16">
+        <div className="mx-auto max-w-(--breakpoint-sm) px-4 py-8 lg:gap-16 lg:py-16">
           <div className="my-8 w-full place-self-center rounded-2xl bg-p1-white/30">
             <div className="flex flex-wrap justify-center md:flex-nowrap md:justify-between">
               <div className="text-nowrap px-2 text-2xl font-semibold text-stone-400 md:pt-2 md:text-4xl dark:text-p1-darkgreen">

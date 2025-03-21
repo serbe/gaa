@@ -1,10 +1,9 @@
 'use client';
-
-import { useGaaStore } from '@/context/gaa-store-provider';
-import Image from 'next/image';
 import { JumpButton } from '@/components/jumpButton';
+import { useGaaStore } from '@/context/gaa-store-provider';
 import { Link } from '@/i18n/routing';
 import { useFavicon } from '@/utils/hooks';
+import Image from 'next/image';
 
 const Buttons = ({
   license,
@@ -16,7 +15,7 @@ const Buttons = ({
   useFavicon('/Licenses/Management.png');
 
   return (
-    <div className="inline-flex space-x-1 rounded-md pt-5 font-serif shadow-sm" role="group">
+    <div className="inline-flex space-x-1 rounded-md pt-5 font-serif shadow-xs" role="group">
       <button
         className={
           'w-full rounded-l-lg border border-gray-200 ' +

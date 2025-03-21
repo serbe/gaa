@@ -62,7 +62,7 @@ function Nav() {
           <li key={name}>
             <Link
               href={url}
-              className="block rounded-sm bg-transparent px-3 py-2 text-slate-700 hover:text-p1-cyan focus:text-p1-cyan lg:p-0 dark:text-p1-gray lg:dark:text-p1-green"
+              className="block rounded-xs bg-transparent px-3 py-2 text-slate-700 hover:text-p1-cyan focus:text-p1-cyan lg:p-0 dark:text-p1-gray lg:dark:text-p1-green"
               aria-current="page"
             >
               {name}
@@ -296,7 +296,7 @@ function Nav() {
           <button
             data-collapse-toggle="navbar-user"
             type="button"
-            className="inline-flex size-8 items-center justify-center rounded-lg p-2 text-sm text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 md:hidden dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+            className="inline-flex size-8 items-center justify-center rounded-lg p-2 text-sm text-gray-500 hover:bg-gray-100 focus:outline-hidden focus:ring-2 focus:ring-gray-200 md:hidden dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
             aria-controls="navbar-user"
             aria-expanded="false"
             onClick={() => setMenuDrop(!menuDrop)}

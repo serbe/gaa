@@ -1,8 +1,8 @@
 'use client';
-import Image from 'next/image';
-import { Link } from '@/i18n/routing';
 import { JumpButton } from '@/components/jumpButton';
+import { Link } from '@/i18n/routing';
 import { useFavicon } from '@/utils/hooks';
+import Image from 'next/image';
 
 export default function Page() {
   const jumpPoints = ['1', '2', '3', '4'];
@@ -68,7 +68,7 @@ export default function Page() {
                 alt="Rewards"
               />
               <div
-                className="inline-flex w-full justify-center rounded-md pt-5 shadow-sm"
+                className="inline-flex w-full justify-center rounded-md pt-5 shadow-xs"
                 role="group"
               >
                 <Link

@@ -1,13 +1,11 @@
 'use client';
-
 import { JumpButton } from '@/components/jumpButton';
 import { Link } from '@/i18n/routing';
-import { useWindowDimensions } from '@/utils/hooks';
+import { useFavicon, useWindowDimensions } from '@/utils/hooks';
 import Image from 'next/image';
 import { useState } from 'react';
 import { Autoplay, Mousewheel, Navigation } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import { useFavicon } from '@/utils/hooks';
 
 // Import Swiper styles
 import 'swiper/css';
@@ -50,7 +48,7 @@ export default function Home() {
               <input
                 type="email"
                 placeholder="Search"
-                className="w-full bg-transparent text-xl text-gray-600 outline-none"
+                className="w-full bg-transparent text-xl text-gray-600 outline-hidden"
               />
             </div>
           </div>
@@ -560,7 +558,7 @@ export default function Home() {
         <div className="sticky top-16 z-10 bg-p1-white bg-opacity-60 shadow-md backdrop-blur-md dark:bg-p1-deepdarkgreen">
           <div className="flex justify-center space-x-2 pt-2 2xl:absolute 2xl:bottom-0 2xl:left-1/2 2xl:-translate-x-1/2 4xl:-translate-y-1/2">
             <div className="">
-              <div className="mx-auto flex max-w-2xl overflow-hidden rounded-2xl border-2 border-p1-green bg-p2-white2 px-4 py-3 backdrop-blur-sm hover:border-p1-cyan focus:border-p1-cyan md:w-96 dark:bg-p1-deepdarkgreen dark:text-p1-cyan">
+              <div className="mx-auto flex max-w-2xl overflow-hidden rounded-2xl border-2 border-p1-green bg-p2-white2 px-4 py-3 backdrop-blur-xs hover:border-p1-cyan focus:border-p1-cyan md:w-96 dark:bg-p1-deepdarkgreen dark:text-p1-cyan">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 192.904 192.904"
@@ -572,7 +570,7 @@ export default function Home() {
                 <input
                   type="email"
                   placeholder="Search"
-                  className="w-full bg-transparent text-xl text-p1-deepdarkgreen outline-none dark:text-p1-cyan"
+                  className="w-full bg-transparent text-xl text-p1-deepdarkgreen outline-hidden dark:text-p1-cyan"
                 />
               </div>
             </div>
@@ -582,7 +580,7 @@ export default function Home() {
             <div className="flex flex-auto grid-flow-row auto-rows-max justify-center space-x-8 2xl:justify-start">
               <div>
                 <div
-                  className="inline-flex w-full justify-center rounded-md pt-1 shadow-sm"
+                  className="inline-flex w-full justify-center rounded-md pt-1 shadow-xs"
                   role="group"
                 >
                   <button
@@ -648,7 +646,7 @@ export default function Home() {
             <div className="flex flex-auto grid-flow-row auto-rows-max justify-center space-x-8 2xl:justify-end">
               <div className="">
                 <div
-                  className="inline-flex w-full flex-auto justify-center rounded-md pt-1 shadow-sm"
+                  className="inline-flex w-full flex-auto justify-center rounded-md pt-1 shadow-xs"
                   role="group"
                 >
                   <Link
@@ -688,7 +686,7 @@ export default function Home() {
               <div>
                 <button
                   data-target="area1"
-                  className="mx-auto justify-start rounded transition-all delay-75 duration-100 ease-in-out hover:bg-p1-cyan/50 hover:shadow-lg focus:shadow-lg dark:shadow-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:brightness-90"
+                  className="mx-auto justify-start rounded-sm transition-all delay-75 duration-100 ease-in-out hover:bg-p1-cyan/50 hover:shadow-lg focus:shadow-lg dark:shadow-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:brightness-90"
                   onClick={() => {
                     setVisibleArea1(!visibleArea1);
                   }}
@@ -719,7 +717,7 @@ export default function Home() {
                 <div className="w-10">
                   <button
                     data-target="area2"
-                    className="mx-auto justify-start rounded transition-all delay-75 duration-100 ease-in-out hover:bg-p1-cyan/50 hover:shadow-lg focus:bg-p1-cyan/50 focus:shadow-lg focus:hover:shadow-lg dark:shadow-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:brightness-90 dark:focus:brightness-90"
+                    className="mx-auto justify-start rounded-sm transition-all delay-75 duration-100 ease-in-out hover:bg-p1-cyan/50 hover:shadow-lg focus:bg-p1-cyan/50 focus:shadow-lg focus:hover:shadow-lg dark:shadow-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:brightness-90 dark:focus:brightness-90"
                     id="toggleButton2"
                     onClick={() => {
                       setCurrentVisibleArea(2);
@@ -737,7 +735,7 @@ export default function Home() {
                 <div className="w-10">
                   <button
                     data-target="area3"
-                    className="mx-auto justify-start rounded transition-all delay-75 duration-100 ease-in-out hover:bg-p1-cyan/50 hover:shadow-lg focus:bg-p1-cyan/50 focus:shadow-lg focus:hover:shadow-lg dark:shadow-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:brightness-90 dark:focus:brightness-90"
+                    className="mx-auto justify-start rounded-sm transition-all delay-75 duration-100 ease-in-out hover:bg-p1-cyan/50 hover:shadow-lg focus:bg-p1-cyan/50 focus:shadow-lg focus:hover:shadow-lg dark:shadow-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:brightness-90 dark:focus:brightness-90"
                     id="toggleButton3"
                     onClick={() => {
                       setCurrentVisibleArea(3);
@@ -755,7 +753,7 @@ export default function Home() {
                 <div className="w-10">
                   <button
                     data-target="area4"
-                    className="mx-auto justify-start rounded transition-all delay-75 duration-100 ease-in-out hover:bg-p1-cyan/50 hover:shadow-lg focus:bg-p1-cyan/50 focus:shadow-lg focus:hover:shadow-lg dark:shadow-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:brightness-90 dark:focus:brightness-90"
+                    className="mx-auto justify-start rounded-sm transition-all delay-75 duration-100 ease-in-out hover:bg-p1-cyan/50 hover:shadow-lg focus:bg-p1-cyan/50 focus:shadow-lg focus:hover:shadow-lg dark:shadow-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:brightness-90 dark:focus:brightness-90"
                     id="toggleButton4"
                     onClick={() => {
                       setCurrentVisibleArea(4);
@@ -773,7 +771,7 @@ export default function Home() {
                 <div className="w-10">
                   <button
                     data-target="area5"
-                    className="mx-auto justify-start rounded transition-all delay-75 duration-100 ease-in-out hover:bg-p1-cyan/50 hover:shadow-lg focus:bg-p1-cyan/50 focus:shadow-lg focus:hover:shadow-lg dark:shadow-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:brightness-90 dark:focus:brightness-90"
+                    className="mx-auto justify-start rounded-sm transition-all delay-75 duration-100 ease-in-out hover:bg-p1-cyan/50 hover:shadow-lg focus:bg-p1-cyan/50 focus:shadow-lg focus:hover:shadow-lg dark:shadow-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:brightness-90 dark:focus:brightness-90"
                     id="toggleButton5"
                     onClick={() => {
                       setCurrentVisibleArea(5);
@@ -791,7 +789,7 @@ export default function Home() {
                 <div className="w-10">
                   <button
                     data-target="area6"
-                    className="mx-auto justify-start rounded transition-all delay-75 duration-100 ease-in-out hover:bg-p1-cyan/50 hover:shadow-lg focus:bg-p1-cyan/50 focus:shadow-lg focus:hover:shadow-lg dark:shadow-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:brightness-90 dark:focus:brightness-90"
+                    className="mx-auto justify-start rounded-sm transition-all delay-75 duration-100 ease-in-out hover:bg-p1-cyan/50 hover:shadow-lg focus:bg-p1-cyan/50 focus:shadow-lg focus:hover:shadow-lg dark:shadow-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:brightness-90 dark:focus:brightness-90"
                     id="toggleButton6"
                     onClick={() => {
                       setCurrentVisibleArea(6);
@@ -809,7 +807,7 @@ export default function Home() {
                 <div className="w-10">
                   <button
                     data-target="area8"
-                    className="mx-auto justify-start rounded transition-all delay-75 duration-100 ease-in-out hover:bg-p1-cyan/50 hover:shadow-lg focus:bg-p1-cyan/50 focus:shadow-lg focus:hover:shadow-lg dark:shadow-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:brightness-90 dark:focus:brightness-90"
+                    className="mx-auto justify-start rounded-sm transition-all delay-75 duration-100 ease-in-out hover:bg-p1-cyan/50 hover:shadow-lg focus:bg-p1-cyan/50 focus:shadow-lg focus:hover:shadow-lg dark:shadow-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:brightness-90 dark:focus:brightness-90"
                     id="toggleButton6"
                     onClick={() => {
                       setCurrentVisibleArea(8);
@@ -969,7 +967,7 @@ export default function Home() {
                             <input
                               type="email"
                               placeholder="Search ..."
-                              className="w-full bg-transparent text-xl text-p1-deepdarkgreen outline-none dark:text-p1-cyan"
+                              className="w-full bg-transparent text-xl text-p1-deepdarkgreen outline-hidden dark:text-p1-cyan"
                             />
                           </div>
                         </div>
@@ -983,7 +981,7 @@ export default function Home() {
                           }}
                           type="checkbox"
                           value=""
-                          className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                          className="size-6 rounded-sm border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                         />
                         <label
                           id="3"
@@ -1004,7 +1002,7 @@ export default function Home() {
                           }}
                           type="checkbox"
                           value=""
-                          className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                          className="size-6 rounded-sm border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                         />
                         <label
                           id="3"
@@ -1040,7 +1038,7 @@ export default function Home() {
                             <input
                               type="email"
                               placeholder="Search ..."
-                              className="w-full bg-transparent text-xl text-p1-deepdarkgreen outline-none dark:text-p1-cyan"
+                              className="w-full bg-transparent text-xl text-p1-deepdarkgreen outline-hidden dark:text-p1-cyan"
                             />
                           </div>
                         </div>
@@ -1054,7 +1052,7 @@ export default function Home() {
                           }}
                           type="checkbox"
                           value=""
-                          className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                          className="size-6 rounded-sm border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                         />
                         <label
                           id="3"
@@ -1074,7 +1072,7 @@ export default function Home() {
                           }}
                           type="checkbox"
                           value=""
-                          className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                          className="size-6 rounded-sm border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                         />
                         <label
                           id="3"
@@ -1110,7 +1108,7 @@ export default function Home() {
                             <input
                               type="email"
                               placeholder="Search ..."
-                              className="w-full bg-transparent text-xl text-p1-deepdarkgreen outline-none dark:text-p1-cyan"
+                              className="w-full bg-transparent text-xl text-p1-deepdarkgreen outline-hidden dark:text-p1-cyan"
                             />
                           </div>
                         </div>
@@ -1124,7 +1122,7 @@ export default function Home() {
                           }}
                           type="checkbox"
                           value=""
-                          className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                          className="size-6 rounded-sm border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                         />
                         <label
                           id="3"
@@ -1144,7 +1142,7 @@ export default function Home() {
                           }}
                           type="checkbox"
                           value=""
-                          className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                          className="size-6 rounded-sm border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                         />
                         <label
                           id="3"
@@ -1180,7 +1178,7 @@ export default function Home() {
                             <input
                               type="email"
                               placeholder="Search ..."
-                              className="w-full bg-transparent text-xl text-p1-deepdarkgreen outline-none dark:text-p1-cyan"
+                              className="w-full bg-transparent text-xl text-p1-deepdarkgreen outline-hidden dark:text-p1-cyan"
                             />
                           </div>
                         </div>
@@ -1194,7 +1192,7 @@ export default function Home() {
                           }}
                           type="checkbox"
                           value=""
-                          className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                          className="size-6 rounded-sm border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                         />
                         <label
                           id="3"
@@ -1214,7 +1212,7 @@ export default function Home() {
                           }}
                           type="checkbox"
                           value=""
-                          className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                          className="size-6 rounded-sm border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                         />
                         <label
                           id="3"
@@ -1250,7 +1248,7 @@ export default function Home() {
                             <input
                               type="email"
                               placeholder="Search ..."
-                              className="w-full bg-transparent text-xl text-p1-deepdarkgreen outline-none dark:text-p1-cyan"
+                              className="w-full bg-transparent text-xl text-p1-deepdarkgreen outline-hidden dark:text-p1-cyan"
                             />
                           </div>
                         </div>
@@ -1264,7 +1262,7 @@ export default function Home() {
                           }}
                           type="checkbox"
                           value=""
-                          className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                          className="size-6 rounded-sm border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                         />
                         <label
                           id="3"
@@ -1284,7 +1282,7 @@ export default function Home() {
                           }}
                           type="checkbox"
                           value=""
-                          className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                          className="size-6 rounded-sm border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                         />
                         <label
                           id="3"
@@ -1320,7 +1318,7 @@ export default function Home() {
                             <input
                               type="email"
                               placeholder="Search ..."
-                              className="w-full bg-transparent text-xl text-p1-deepdarkgreen outline-none dark:text-p1-cyan"
+                              className="w-full bg-transparent text-xl text-p1-deepdarkgreen outline-hidden dark:text-p1-cyan"
                             />
                           </div>
                         </div>
@@ -1334,7 +1332,7 @@ export default function Home() {
                           }}
                           type="checkbox"
                           value=""
-                          className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                          className="size-6 rounded-sm border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                         />
                         <label
                           id="3"
@@ -1354,7 +1352,7 @@ export default function Home() {
                           }}
                           type="checkbox"
                           value=""
-                          className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                          className="size-6 rounded-sm border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                         />
                         <label
                           id="3"
@@ -1390,7 +1388,7 @@ export default function Home() {
                             <input
                               type="email"
                               placeholder="Search ..."
-                              className="w-full bg-transparent text-xl text-p1-deepdarkgreen outline-none dark:text-p1-cyan"
+                              className="w-full bg-transparent text-xl text-p1-deepdarkgreen outline-hidden dark:text-p1-cyan"
                             />
                           </div>
                         </div>
@@ -1404,7 +1402,7 @@ export default function Home() {
                           }}
                           type="checkbox"
                           value=""
-                          className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                          className="size-6 rounded-sm border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                         />
                         <label
                           id="3"
@@ -1424,7 +1422,7 @@ export default function Home() {
                           }}
                           type="checkbox"
                           value=""
-                          className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                          className="size-6 rounded-sm border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                         />
                         <label
                           id="3"
@@ -1460,7 +1458,7 @@ export default function Home() {
                             <input
                               type="email"
                               placeholder="Search ..."
-                              className="w-full bg-transparent text-xl text-p1-deepdarkgreen outline-none dark:text-p1-cyan"
+                              className="w-full bg-transparent text-xl text-p1-deepdarkgreen outline-hidden dark:text-p1-cyan"
                             />
                           </div>
                         </div>
@@ -1474,7 +1472,7 @@ export default function Home() {
                           }}
                           type="checkbox"
                           value=""
-                          className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                          className="size-6 rounded-sm border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                         />
                         <label
                           id="3"
@@ -1494,7 +1492,7 @@ export default function Home() {
                           }}
                           type="checkbox"
                           value=""
-                          className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                          className="size-6 rounded-sm border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                         />
                         <label
                           id="3"
@@ -1530,7 +1528,7 @@ export default function Home() {
                             <input
                               type="email"
                               placeholder="Search ..."
-                              className="w-full bg-transparent text-xl text-p1-deepdarkgreen outline-none dark:text-p1-cyan"
+                              className="w-full bg-transparent text-xl text-p1-deepdarkgreen outline-hidden dark:text-p1-cyan"
                             />
                           </div>
                         </div>
@@ -1544,7 +1542,7 @@ export default function Home() {
                           }}
                           type="checkbox"
                           value=""
-                          className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                          className="size-6 rounded-sm border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                         />
                         <label
                           id="3"
@@ -1564,7 +1562,7 @@ export default function Home() {
                           }}
                           type="checkbox"
                           value=""
-                          className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                          className="size-6 rounded-sm border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                         />
                         <label
                           id="3"
@@ -1600,7 +1598,7 @@ export default function Home() {
                             <input
                               type="email"
                               placeholder="Search ..."
-                              className="w-full bg-transparent text-xl text-p1-deepdarkgreen outline-none dark:text-p1-cyan"
+                              className="w-full bg-transparent text-xl text-p1-deepdarkgreen outline-hidden dark:text-p1-cyan"
                             />
                           </div>
                         </div>
@@ -1614,7 +1612,7 @@ export default function Home() {
                           }}
                           type="checkbox"
                           value=""
-                          className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                          className="size-6 rounded-sm border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                         />
                         <label
                           id="3"
@@ -1634,7 +1632,7 @@ export default function Home() {
                           }}
                           type="checkbox"
                           value=""
-                          className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                          className="size-6 rounded-sm border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                         />
                         <label
                           id="3"
@@ -1670,7 +1668,7 @@ export default function Home() {
                             <input
                               type="email"
                               placeholder="Search ..."
-                              className="w-full bg-transparent text-xl text-p1-deepdarkgreen outline-none dark:text-p1-cyan"
+                              className="w-full bg-transparent text-xl text-p1-deepdarkgreen outline-hidden dark:text-p1-cyan"
                             />
                           </div>
                         </div>
@@ -1684,7 +1682,7 @@ export default function Home() {
                           }}
                           type="checkbox"
                           value=""
-                          className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                          className="size-6 rounded-sm border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                         />
                         <label
                           id="3"
@@ -1704,7 +1702,7 @@ export default function Home() {
                           }}
                           type="checkbox"
                           value=""
-                          className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                          className="size-6 rounded-sm border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                         />
                         <label
                           id="3"
@@ -1740,7 +1738,7 @@ export default function Home() {
                             <input
                               type="email"
                               placeholder="Search ..."
-                              className="w-full bg-transparent text-xl text-p1-deepdarkgreen outline-none dark:text-p1-cyan"
+                              className="w-full bg-transparent text-xl text-p1-deepdarkgreen outline-hidden dark:text-p1-cyan"
                             />
                           </div>
                         </div>
@@ -1754,7 +1752,7 @@ export default function Home() {
                           }}
                           type="checkbox"
                           value=""
-                          className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                          className="size-6 rounded-sm border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                         />
                         <label
                           id="3"
@@ -1774,7 +1772,7 @@ export default function Home() {
                           }}
                           type="checkbox"
                           value=""
-                          className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                          className="size-6 rounded-sm border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                         />
                         <label
                           id="3"
@@ -1810,7 +1808,7 @@ export default function Home() {
                             <input
                               type="email"
                               placeholder="Search ..."
-                              className="w-full bg-transparent text-xl text-p1-deepdarkgreen outline-none dark:text-p1-cyan"
+                              className="w-full bg-transparent text-xl text-p1-deepdarkgreen outline-hidden dark:text-p1-cyan"
                             />
                           </div>
                         </div>
@@ -1824,7 +1822,7 @@ export default function Home() {
                           }}
                           type="checkbox"
                           value=""
-                          className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                          className="size-6 rounded-sm border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                         />
                         <label
                           id="3"
@@ -1844,7 +1842,7 @@ export default function Home() {
                           }}
                           type="checkbox"
                           value=""
-                          className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                          className="size-6 rounded-sm border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                         />
                         <label
                           id="3"
@@ -1880,7 +1878,7 @@ export default function Home() {
                             <input
                               type="email"
                               placeholder="Search ..."
-                              className="w-full bg-transparent text-xl text-p1-deepdarkgreen outline-none dark:text-p1-cyan"
+                              className="w-full bg-transparent text-xl text-p1-deepdarkgreen outline-hidden dark:text-p1-cyan"
                             />
                           </div>
                         </div>
@@ -1894,7 +1892,7 @@ export default function Home() {
                           }}
                           type="checkbox"
                           value=""
-                          className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                          className="size-6 rounded-sm border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                         />
                         <label
                           id="3"
@@ -1914,7 +1912,7 @@ export default function Home() {
                           }}
                           type="checkbox"
                           value=""
-                          className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                          className="size-6 rounded-sm border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                         />
                         <label
                           id="3"
@@ -1950,7 +1948,7 @@ export default function Home() {
                             <input
                               type="email"
                               placeholder="Search ..."
-                              className="w-full bg-transparent text-xl text-p1-deepdarkgreen outline-none dark:text-p1-cyan"
+                              className="w-full bg-transparent text-xl text-p1-deepdarkgreen outline-hidden dark:text-p1-cyan"
                             />
                           </div>
                         </div>
@@ -1964,7 +1962,7 @@ export default function Home() {
                           }}
                           type="checkbox"
                           value=""
-                          className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                          className="size-6 rounded-sm border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                         />
                         <label
                           id="3"
@@ -1984,7 +1982,7 @@ export default function Home() {
                           }}
                           type="checkbox"
                           value=""
-                          className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                          className="size-6 rounded-sm border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                         />
                         <label
                           id="3"
@@ -2020,7 +2018,7 @@ export default function Home() {
                             <input
                               type="email"
                               placeholder="Search ..."
-                              className="w-full bg-transparent text-xl text-p1-deepdarkgreen outline-none dark:text-p1-cyan"
+                              className="w-full bg-transparent text-xl text-p1-deepdarkgreen outline-hidden dark:text-p1-cyan"
                             />
                           </div>
                         </div>
@@ -2034,7 +2032,7 @@ export default function Home() {
                           }}
                           type="checkbox"
                           value=""
-                          className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                          className="size-6 rounded-sm border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                         />
                         <label
                           id="3"
@@ -2054,7 +2052,7 @@ export default function Home() {
                           }}
                           type="checkbox"
                           value=""
-                          className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                          className="size-6 rounded-sm border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                         />
                         <label
                           id="3"
@@ -2077,7 +2075,7 @@ export default function Home() {
             {/* ...Строки  Items Таблица */}
             <div
               id="area2"
-              className={`inline-block h-96 w-max resize-y snap-y  snap-start place-self-start overflow-auto rounded border ${currentVisibleArea == 2 ? '' : 'hidden'}`}
+              className={`inline-block h-96 w-max resize-y snap-y  snap-start place-self-start overflow-auto rounded-sm border ${currentVisibleArea == 2 ? '' : 'hidden'}`}
             >
               <div className="relative snap-start scroll-smooth">
                 <table className="text-left text-xl text-p1-darkgreen dark:text-p1-green">
@@ -2267,7 +2265,7 @@ export default function Home() {
                             }}
                             type="checkbox"
                             value=""
-                            className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                            className="size-6 rounded-sm border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                           />
                           <label
                             htmlFor="checkbox "
@@ -2319,7 +2317,7 @@ export default function Home() {
                             }}
                             type="checkbox"
                             value=""
-                            className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                            className="size-6 rounded-sm border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                           />
                           <label
                             htmlFor="checkbox "
@@ -2371,7 +2369,7 @@ export default function Home() {
                             }}
                             type="checkbox"
                             value=""
-                            className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                            className="size-6 rounded-sm border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                           />
                           <label
                             htmlFor="checkbox "
@@ -2423,7 +2421,7 @@ export default function Home() {
                             }}
                             type="checkbox"
                             value=""
-                            className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                            className="size-6 rounded-sm border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                           />
                           <label
                             htmlFor="checkbox "
@@ -2475,7 +2473,7 @@ export default function Home() {
                             }}
                             type="checkbox"
                             value=""
-                            className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                            className="size-6 rounded-sm border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                           />
                           <label
                             htmlFor="checkbox "
@@ -2527,7 +2525,7 @@ export default function Home() {
                             }}
                             type="checkbox"
                             value=""
-                            className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                            className="size-6 rounded-sm border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                           />
                           <label
                             htmlFor="checkbox "
@@ -2579,7 +2577,7 @@ export default function Home() {
                             }}
                             type="checkbox"
                             value=""
-                            className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                            className="size-6 rounded-sm border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                           />
                           <label
                             htmlFor="checkbox "
@@ -2631,7 +2629,7 @@ export default function Home() {
                             }}
                             type="checkbox"
                             value=""
-                            className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                            className="size-6 rounded-sm border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                           />
                           <label
                             htmlFor="checkbox "
@@ -2683,7 +2681,7 @@ export default function Home() {
                             }}
                             type="checkbox"
                             value=""
-                            className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                            className="size-6 rounded-sm border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                           />
                           <label
                             htmlFor="checkbox "
@@ -2731,7 +2729,7 @@ export default function Home() {
             {/* ...Строки  Таблица Activity*/}
             <div
               id="area9"
-              className={`inline-block  size-max  place-self-start overflow-auto rounded border ${currentVisibleArea == 9 ? '' : 'hidden'}`}
+              className={`inline-block  size-max  place-self-start overflow-auto rounded-sm border ${currentVisibleArea == 9 ? '' : 'hidden'}`}
             >
               <div className="columns-1 gap-24 md:columns-2 dark:border-p1-green">
                 <div className="relative sm:rounded-lg">
@@ -3058,7 +3056,7 @@ export default function Home() {
             {/* ... маленькие карточки  ... */}
             <div id="area3" className={`${currentVisibleArea == 3 ? '' : 'hidden'}`}>
               <div className="flex gap-4">
-                <div className="group relative h-[14.5rem] w-40 place-self-center overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-300 hover:shadow-lg hover:shadow-p1-cyan group-hover:shadow-sm dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
+                <div className="group relative h-[14.5rem] w-40 place-self-center overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-300 hover:shadow-lg hover:shadow-p1-cyan group-hover:shadow-xs dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
                   <div>
                     <div className="group invisible absolute right-1 top-1 z-10 inline-block duration-300 ease-in-out group-hover:visible group-hover:opacity-100">
                       <Link
@@ -3117,7 +3115,7 @@ export default function Home() {
                   </div>
 
                   <div className="flex items-center justify-between">
-                    <div className="absolute bottom-0 left-0 h-8 w-40 translate-y-full bg-p1-darkgreen/100 text-center text-p2-white2 shadow-sm shadow-p1-green transition-transform duration-500 ease-in-out hover:bg-p1-darkgreen group-hover:translate-y-0 dark:bg-p1-deepdarkgreen">
+                    <div className="absolute bottom-0 left-0 h-8 w-40 translate-y-full bg-p1-darkgreen/100 text-center text-p2-white2 shadow-xs shadow-p1-green transition-transform duration-500 ease-in-out hover:bg-p1-darkgreen group-hover:translate-y-0 dark:bg-p1-deepdarkgreen">
                       <div className="inline-flex h-8 w-40 justify-center text-sm" role="group">
                         <Link
                           href="#"
@@ -3160,7 +3158,7 @@ export default function Home() {
             {/* ... средние карточки  ... */}
             <div id="area4" className={`${currentVisibleArea == 4 ? '' : 'hidden'}`}>
               <div className="flex gap-4">
-                <div className="group relative h-[21.5rem] w-60 place-self-center overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-300 hover:shadow-lg hover:shadow-p1-cyan group-hover:shadow-sm dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
+                <div className="group relative h-[21.5rem] w-60 place-self-center overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-300 hover:shadow-lg hover:shadow-p1-cyan group-hover:shadow-xs dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
                   <div>
                     <div className="group invisible absolute right-1 top-1 z-10 inline-block duration-300 ease-in-out group-hover:visible group-hover:opacity-100">
                       <Link
@@ -3217,7 +3215,7 @@ export default function Home() {
                   </div>
 
                   <div className="flex items-center justify-between">
-                    <div className="absolute bottom-0 left-0 h-[2.8rem] w-60 translate-y-full bg-p1-darkgreen/100 text-center text-p2-white2 shadow-sm shadow-p1-green transition-transform duration-500 ease-in-out hover:bg-p1-darkgreen group-hover:translate-y-0 dark:bg-p1-deepdarkgreen">
+                    <div className="absolute bottom-0 left-0 h-[2.8rem] w-60 translate-y-full bg-p1-darkgreen/100 text-center text-p2-white2 shadow-xs shadow-p1-green transition-transform duration-500 ease-in-out hover:bg-p1-darkgreen group-hover:translate-y-0 dark:bg-p1-deepdarkgreen">
                       <div
                         className="inline-flex h-[2.8rem] w-60 justify-center text-sm"
                         role="group"
@@ -3263,7 +3261,7 @@ export default function Home() {
             {/* ... большие карточки  ... */}
             <div id="area5" className={`${currentVisibleArea == 5 ? '' : 'hidden'}`}>
               <div className="flex gap-4">
-                <div className="group relative h-[28rem] w-80 place-self-center overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-300 hover:shadow-lg hover:shadow-p1-cyan group-hover:shadow-sm dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
+                <div className="group relative h-[28rem] w-80 place-self-center overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-300 hover:shadow-lg hover:shadow-p1-cyan group-hover:shadow-xs dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
                   <div>
                     <div className="group invisible absolute right-1 top-1 z-10 inline-block duration-300 ease-in-out group-hover:visible group-hover:opacity-100">
                       <Link
@@ -3320,7 +3318,7 @@ export default function Home() {
                   </div>
 
                   <div className="flex items-center justify-between">
-                    <div className="absolute bottom-0 left-0 w-full translate-y-full bg-p1-darkgreen/100 text-center text-p2-white2 shadow-sm shadow-p1-green transition-transform duration-500 ease-in-out hover:bg-p1-darkgreen group-hover:translate-y-0 dark:bg-p1-deepdarkgreen">
+                    <div className="absolute bottom-0 left-0 w-full translate-y-full bg-p1-darkgreen/100 text-center text-p2-white2 shadow-xs shadow-p1-green transition-transform duration-500 ease-in-out hover:bg-p1-darkgreen group-hover:translate-y-0 dark:bg-p1-deepdarkgreen">
                       <div className="inline-flex h-12 w-80 justify-center text-sm" role="group">
                         <Link
                           href="#"
@@ -3363,7 +3361,7 @@ export default function Home() {
             {/* ... самые большие карточки  ... */}
             <div id="area6" className={`${currentVisibleArea == 6 ? '' : 'hidden'}`}>
               <div className="flex gap-4">
-                <div className="group relative h-[39rem] w-[28rem] place-self-center overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-300 hover:shadow-lg hover:shadow-p1-cyan group-hover:shadow-sm dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
+                <div className="group relative h-[39rem] w-[28rem] place-self-center overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-300 hover:shadow-lg hover:shadow-p1-cyan group-hover:shadow-xs dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
                   <div>
                     <div className="group invisible absolute right-1 top-1 z-10 inline-block duration-300 ease-in-out group-hover:visible group-hover:opacity-100">
                       <Link
@@ -3420,7 +3418,7 @@ export default function Home() {
                   </div>
 
                   <div className="flex items-center justify-between">
-                    <div className="absolute bottom-0 left-0 w-full translate-y-full bg-p1-darkgreen/100 text-center text-p2-white2 shadow-sm shadow-p1-green transition-transform duration-500 ease-in-out hover:bg-p1-darkgreen group-hover:translate-y-0 dark:bg-p1-deepdarkgreen">
+                    <div className="absolute bottom-0 left-0 w-full translate-y-full bg-p1-darkgreen/100 text-center text-p2-white2 shadow-xs shadow-p1-green transition-transform duration-500 ease-in-out hover:bg-p1-darkgreen group-hover:translate-y-0 dark:bg-p1-deepdarkgreen">
                       <div
                         className="inline-flex h-16 w-[28rem] justify-center text-sm"
                         role="group"
@@ -3466,7 +3464,7 @@ export default function Home() {
             {/* ...  карточки ,без подписи  ... */}
             <div id="area8" className={`${currentVisibleArea == 8 ? '' : 'hidden'}`}>
               <div className="flex gap-4">
-                <div className="group relative w-80 place-self-center overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-300 hover:shadow-lg hover:shadow-p1-cyan group-hover:shadow-sm dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
+                <div className="group relative w-80 place-self-center overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-300 hover:shadow-lg hover:shadow-p1-cyan group-hover:shadow-xs dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
                   <div>
                     <div className="group invisible absolute right-1 top-1 z-10 inline-block duration-300 ease-in-out group-hover:visible group-hover:opacity-100">
                       <Link
@@ -3506,7 +3504,7 @@ export default function Home() {
                   <div className="flex grid-flow-row auto-rows-max place-content-center space-x-2 lg:justify-start">
                     <div>
                       <div
-                        className="inline-flex w-full justify-center rounded-md shadow-sm"
+                        className="inline-flex w-full justify-center rounded-md shadow-xs"
                         role="group"
                       >
                         <Link
@@ -3564,7 +3562,7 @@ export default function Home() {
                   <div className="flex flex-auto grid-flow-row auto-rows-max justify-center space-x-8 lg:justify-end">
                     <div className="">
                       <div
-                        className="inline-flex w-full flex-auto justify-center rounded-md shadow-sm"
+                        className="inline-flex w-full flex-auto justify-center rounded-md shadow-xs"
                         role="group"
                       >
                         <Link

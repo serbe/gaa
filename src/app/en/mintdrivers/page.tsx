@@ -1,7 +1,7 @@
 'use client';
+import { JumpButton } from '@/components/jumpButton';
 import Image from 'next/image';
 import { useState } from 'react';
-import { JumpButton } from '@/components/jumpButton';
 
 export default function Page() {
   const [value, setValue] = useState('0');
@@ -315,7 +315,7 @@ export default function Page() {
                   }}
                   type="checkbox"
                   value=""
-                  className="size-4 rounded border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                  className="size-4 rounded-sm border-gray-300 bg-gray-100 text-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                 />
                 <label
                   htmlFor="checkbox "

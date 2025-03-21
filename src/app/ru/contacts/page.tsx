@@ -1,8 +1,8 @@
 'use client';
-import { useState } from 'react';
 import { JumpButton } from '@/components/jumpButton';
 import { Link } from '@/i18n/routing';
 import { useFavicon } from '@/utils/hooks';
+import { useState } from 'react';
 
 export default function Page() {
   const [check, setCheck] = useState(false);
@@ -129,7 +129,7 @@ export default function Page() {
                   }}
                   type="checkbox"
                   value=""
-                  className="size-4 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                  className="size-4 rounded-sm border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-darkgreen focus:ring-2 focus:ring-p1-cyan dark:border-gray-600 dark:bg-p1-green dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                 />
                 <label
                   id="3"

@@ -1,8 +1,8 @@
 'use client';
-import Image from 'next/image';
 import { JumpButton } from '@/components/jumpButton';
 import { Link } from '@/i18n/routing';
 import { useFavicon } from '@/utils/hooks';
+import Image from 'next/image';
 
 export default function Page() {
   const jumpPoints = ['1', '2', '3'];
@@ -42,7 +42,7 @@ export default function Page() {
         <div className="-my-4 place-items-start p-1">
           <div
             id="2"
-            className="my-8 max-w-screen-sm place-self-center rounded-2xl bg-p1-white/30 md:w-4/6 xl:-my-96 xl:w-2/6"
+            className="my-8 max-w-(--breakpoint-sm) place-self-center rounded-2xl bg-p1-white/30 md:w-4/6 xl:-my-96 xl:w-2/6"
           >
             <div className="flex flex-wrap justify-center md:flex-nowrap md:justify-between">
               <div className="px-2 text-2xl font-semibold text-stone-400 md:pt-2 md:text-4xl dark:text-p1-darkgreen">

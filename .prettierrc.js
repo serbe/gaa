@@ -4,5 +4,8 @@ module.exports = {
   singleQuote: true,
   printWidth: 100,
   tabWidth: 2,
-  // plugins: ['prettier-plugin-tailwindcss'],
+  plugins: ['prettier-plugin-tailwindcss'],
+  tailwindStylesheet: './src/app/globals.css',
+  tailwindPreserveWhitespace: true,
+  tailwindPreserveDuplicates: true,
 };

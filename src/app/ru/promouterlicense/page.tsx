@@ -1,6 +1,6 @@
 'use client';
-import Image from 'next/image';
 import { Link } from '@/i18n/routing';
+import Image from 'next/image';
 import { useState } from 'react';
 
 export default function Page() {
@@ -32,7 +32,7 @@ export default function Page() {
                   src="/Licenses/Promoter Lic.png"
                   alt="PromoterLic"
                 />
-                <div className="inline-flex rounded-md shadow-sm" role="group">
+                <div className="inline-flex rounded-md shadow-xs" role="group">
                   <Link
                     href={'/promouterlicense'}
                     className="w-full rounded-l-lg border border-gray-200 bg-white px-4 py-2 text-sm font-medium text-p1-darkgreen hover:bg-gray-100 hover:text-p1-darkgreen focus:z-10 focus:bg-p2-orange focus:text-p1-white focus:ring-2 focus:ring-p2-orange dark:border-gray-700 dark:bg-gray-800 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white dark:focus:text-white dark:focus:ring-p2-orange"

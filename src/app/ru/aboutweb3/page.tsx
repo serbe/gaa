@@ -48,7 +48,7 @@ export default function Page() {
         <div className="" id="1"></div>
 
         <div className="mx-auto flex max-w-full flex-row space-y-2 p-2">
-          <details className="rounded-3xl border-p1-darkgreen p-2 open:bg-p1-white open:ring-1 open:ring-p1-green hover:border-p1-green open:md:shadow-lg dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:open:ring-white/10 dark:hover:border-p1-green dark:hover:text-p1-cyan">
+          <details className="rounded-3xl border-p1-darkgreen p-2 open:bg-p1-white open:ring-1 open:ring-p1-green hover:border-p1-green md:open:shadow-lg dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:open:ring-white/10 dark:hover:border-p1-green dark:hover:text-p1-cyan">
             <summary className="select-none space-y-4 text-lg font-semibold leading-6 text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
               Что такое Web 3?
             </summary>
@@ -91,7 +91,7 @@ export default function Page() {
         <div className="" id="2"></div>
 
         <div className="mx-auto flex max-w-full flex-row space-y-2 p-2">
-          <details className="rounded-3xl border-p1-darkgreen p-2 open:bg-p1-white open:ring-1 open:ring-p1-green hover:border-p1-green open:md:shadow-lg dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:open:ring-white/10 dark:hover:border-p1-green dark:hover:text-p1-cyan">
+          <details className="rounded-3xl border-p1-darkgreen p-2 open:bg-p1-white open:ring-1 open:ring-p1-green hover:border-p1-green md:open:shadow-lg dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:open:ring-white/10 dark:hover:border-p1-green dark:hover:text-p1-cyan">
             <summary className="select-none space-y-4 text-lg font-semibold leading-6 text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
               Для того чтобы лучше понять, что такое Web3 надо знать, что такое Web 1 и Web 2
             </summary>
@@ -158,7 +158,7 @@ export default function Page() {
         <div className="" id="3"></div>
 
         <div className="mx-auto flex max-w-full flex-row space-y-2 p-2">
-          <details className="rounded-3xl border-p1-darkgreen p-2 open:bg-p1-white open:ring-1 open:ring-p1-green hover:border-p1-green open:md:shadow-lg dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:open:ring-white/10 dark:hover:border-p1-green dark:hover:text-p1-cyan">
+          <details className="rounded-3xl border-p1-darkgreen p-2 open:bg-p1-white open:ring-1 open:ring-p1-green hover:border-p1-green md:open:shadow-lg dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:open:ring-white/10 dark:hover:border-p1-green dark:hover:text-p1-cyan">
             <summary className="select-none space-y-4 text-lg font-semibold leading-6 text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
               Web 2
             </summary>
@@ -229,7 +229,7 @@ export default function Page() {
         <div className="" id="4"></div>
 
         <div className="mx-auto flex max-w-full flex-row space-y-2 p-2">
-          <details className="rounded-3xl border-p1-darkgreen p-2 open:bg-p1-white open:ring-1 open:ring-p1-green hover:border-p1-green open:md:shadow-lg dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:open:ring-white/10 dark:hover:border-p1-green dark:hover:text-p1-cyan">
+          <details className="rounded-3xl border-p1-darkgreen p-2 open:bg-p1-white open:ring-1 open:ring-p1-green hover:border-p1-green md:open:shadow-lg dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:open:ring-white/10 dark:hover:border-p1-green dark:hover:text-p1-cyan">
             <summary className="select-none space-y-4 text-lg font-semibold leading-6 text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
               Децентрализация
             </summary>
@@ -284,7 +284,7 @@ export default function Page() {
         </div>
         <div className="" id="5"></div>
         <div className="mx-auto flex max-w-full flex-row space-y-2 p-2">
-          <details className="rounded-3xl border-p1-darkgreen p-2 open:bg-p1-white open:ring-1 open:ring-p1-green hover:border-p1-green open:md:shadow-lg dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:open:ring-white/10 dark:hover:border-p1-green dark:hover:text-p1-cyan">
+          <details className="rounded-3xl border-p1-darkgreen p-2 open:bg-p1-white open:ring-1 open:ring-p1-green hover:border-p1-green md:open:shadow-lg dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:open:ring-white/10 dark:hover:border-p1-green dark:hover:text-p1-cyan">
             <summary className="select-none space-y-4 text-lg font-semibold leading-6 text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
               Что такое блокчейн?
             </summary>
@@ -414,7 +414,7 @@ export default function Page() {
         </div>
         <div className="" id="6"></div>
         <div className="mx-auto flex max-w-full flex-row space-y-2 p-2">
-          <details className="rounded-3xl border-p1-darkgreen p-2 open:bg-p1-white open:ring-1 open:ring-p1-green hover:border-p1-green open:md:shadow-lg dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:open:ring-white/10 dark:hover:border-p1-green dark:hover:text-p1-cyan">
+          <details className="rounded-3xl border-p1-darkgreen p-2 open:bg-p1-white open:ring-1 open:ring-p1-green hover:border-p1-green md:open:shadow-lg dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:open:ring-white/10 dark:hover:border-p1-green dark:hover:text-p1-cyan">
             <summary className="select-none space-y-4 text-lg font-semibold leading-6 text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
               Смарт-контракты
             </summary>
@@ -538,7 +538,7 @@ export default function Page() {
         </div>
         <div className="" id="7"></div>
         <div className="mx-auto flex max-w-full flex-row space-y-2 p-2">
-          <details className="rounded-3xl border-p1-darkgreen p-2 open:bg-p1-white open:ring-1 open:ring-p1-green hover:border-p1-green open:md:shadow-lg dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:open:ring-white/10 dark:hover:border-p1-green dark:hover:text-p1-cyan">
+          <details className="rounded-3xl border-p1-darkgreen p-2 open:bg-p1-white open:ring-1 open:ring-p1-green hover:border-p1-green md:open:shadow-lg dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:open:ring-white/10 dark:hover:border-p1-green dark:hover:text-p1-cyan">
             <summary className="select-none space-y-4 text-lg font-semibold leading-6 text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
               ДАО (Децентрализованная автономная организация)
             </summary>
@@ -634,7 +634,7 @@ export default function Page() {
         </div>
         <div className="" id="8"></div>
         <div className="mx-auto flex max-w-full flex-row space-y-2 p-2">
-          <details className="rounded-3xl border-p1-darkgreen p-2 open:bg-p1-white open:ring-1 open:ring-p1-green hover:border-p1-green open:md:shadow-lg dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:open:ring-white/10 dark:hover:border-p1-green dark:hover:text-p1-cyan">
+          <details className="rounded-3xl border-p1-darkgreen p-2 open:bg-p1-white open:ring-1 open:ring-p1-green hover:border-p1-green md:open:shadow-lg dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:open:ring-white/10 dark:hover:border-p1-green dark:hover:text-p1-cyan">
             <summary className="select-none space-y-4 text-lg font-semibold leading-6 text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
               Организация хранения данных в децентрализованной сети по техологии IPFS
             </summary>
@@ -737,7 +737,7 @@ export default function Page() {
         </div>
         <div className="" id="9"></div>
         <div className="mx-auto flex max-w-full flex-row space-y-2 p-2">
-          <details className="rounded-3xl border-p1-darkgreen p-2 open:bg-p1-white open:ring-1 open:ring-p1-green hover:border-p1-green open:md:shadow-lg dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:open:ring-white/10 dark:hover:border-p1-green dark:hover:text-p1-cyan">
+          <details className="rounded-3xl border-p1-darkgreen p-2 open:bg-p1-white open:ring-1 open:ring-p1-green hover:border-p1-green md:open:shadow-lg dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:open:ring-white/10 dark:hover:border-p1-green dark:hover:text-p1-cyan">
             <summary className="select-none space-y-4 text-lg font-semibold leading-6 text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
               Организация хранения данных в децентрализованной сети по техологии Blockweave
             </summary>
@@ -755,7 +755,7 @@ export default function Page() {
         </div>
         <div className="" id="10"></div>
         <div className="mx-auto flex max-w-full flex-row space-y-2 p-2">
-          <details className="rounded-3xl border-p1-darkgreen p-2 open:bg-p1-white open:ring-1 open:ring-p1-green hover:border-p1-green open:md:shadow-lg dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:open:ring-white/10 dark:hover:border-p1-green dark:hover:text-p1-cyan">
+          <details className="rounded-3xl border-p1-darkgreen p-2 open:bg-p1-white open:ring-1 open:ring-p1-green hover:border-p1-green md:open:shadow-lg dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:open:ring-white/10 dark:hover:border-p1-green dark:hover:text-p1-cyan">
             <summary className="select-none space-y-4 text-lg font-semibold leading-6 text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
               Что такое токен?
             </summary>
@@ -869,7 +869,7 @@ export default function Page() {
         </div>
         <div className="" id="11"></div>
         <div className="mx-auto flex max-w-full flex-row space-y-2 p-2">
-          <details className="rounded-3xl border-p1-darkgreen p-2 open:bg-p1-white open:ring-1 open:ring-p1-green hover:border-p1-green open:md:shadow-lg dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:open:ring-white/10 dark:hover:border-p1-green dark:hover:text-p1-cyan">
+          <details className="rounded-3xl border-p1-darkgreen p-2 open:bg-p1-white open:ring-1 open:ring-p1-green hover:border-p1-green md:open:shadow-lg dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:open:ring-white/10 dark:hover:border-p1-green dark:hover:text-p1-cyan">
             <summary className="select-none space-y-4 text-lg font-semibold leading-6 text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
               Что такое NFT?
             </summary>
@@ -987,7 +987,7 @@ export default function Page() {
         </div>
         <div className="" id="12"></div>
         <div className="mx-auto flex max-w-full flex-row space-y-2 p-2">
-          <details className="rounded-3xl border-p1-darkgreen p-2 open:bg-p1-white open:ring-1 open:ring-p1-green hover:border-p1-green open:md:shadow-lg dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:open:ring-white/10 dark:hover:border-p1-green dark:hover:text-p1-cyan">
+          <details className="rounded-3xl border-p1-darkgreen p-2 open:bg-p1-white open:ring-1 open:ring-p1-green hover:border-p1-green md:open:shadow-lg dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:open:ring-white/10 dark:hover:border-p1-green dark:hover:text-p1-cyan">
             <summary className="select-none space-y-4 text-lg font-semibold leading-6 text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
               Каким образом хранится NFT и сведения о том, что я собственник?
             </summary>
@@ -1093,7 +1093,7 @@ export default function Page() {
         </div>
         <div className="" id="13"></div>
         <div className="mx-auto flex max-w-full flex-row space-y-2 p-2">
-          <details className="rounded-3xl border-p1-darkgreen p-2 open:bg-p1-white open:ring-1 open:ring-p1-green hover:border-p1-green open:md:shadow-lg dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:open:ring-white/10 dark:hover:border-p1-green dark:hover:text-p1-cyan">
+          <details className="rounded-3xl border-p1-darkgreen p-2 open:bg-p1-white open:ring-1 open:ring-p1-green hover:border-p1-green md:open:shadow-lg dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:open:ring-white/10 dark:hover:border-p1-green dark:hover:text-p1-cyan">
             <summary className="select-none space-y-4 text-lg font-semibold leading-6 text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
               Что такое метаданные?
             </summary>
@@ -1197,7 +1197,7 @@ export default function Page() {
         </div>
         <div className="" id="14"></div>
         <div className="mx-auto flex max-w-full flex-row space-y-2 p-2">
-          <details className="rounded-3xl border-p1-darkgreen p-2 open:bg-p1-white open:ring-1 open:ring-p1-green hover:border-p1-green open:md:shadow-lg dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:open:ring-white/10 dark:hover:border-p1-green dark:hover:text-p1-cyan">
+          <details className="rounded-3xl border-p1-darkgreen p-2 open:bg-p1-white open:ring-1 open:ring-p1-green hover:border-p1-green md:open:shadow-lg dark:text-p1-green dark:open:bg-p1-deepdarkgreen dark:open:ring-white/10 dark:hover:border-p1-green dark:hover:text-p1-cyan">
             <summary className="select-none space-y-4 text-lg font-semibold leading-6 text-p1-darkgreen dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
               Что такое MetaMask?
             </summary>

@@ -1,9 +1,9 @@
 'use client';
-import Image from 'next/image';
-import { useState } from 'react';
 import { JumpButton } from '@/components/jumpButton';
 import { Link } from '@/i18n/routing';
 import { useFavicon } from '@/utils/hooks';
+import Image from 'next/image';
+import { useState } from 'react';
 
 export default function Page() {
   const [check, setCheck] = useState(false);
@@ -248,7 +248,7 @@ export default function Page() {
                         <div className="grid grid-cols-5 place-content-center gap-1 text-sm sm:grid-cols-8 sm:gap-2 sm:text-xl 2xl:grid-cols-5">
                           <div>
                             <div className="flex gap-4">
-                              <div className="group relative w-full place-self-center overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-100 hover:shadow-lg hover:shadow-p1-cyan group-hover:shadow-sm dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
+                              <div className="group relative w-full place-self-center overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-100 hover:shadow-lg hover:shadow-p1-cyan group-hover:shadow-xs dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
                                 <div className="relative">
                                   <Link href="/card" className="mx-auto justify-center">
                                     <Image
@@ -291,7 +291,7 @@ export default function Page() {
                           </div>
                           <div>
                             <div className="flex gap-4">
-                              <div className="group relative w-full place-self-center overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-100 hover:shadow-lg hover:shadow-p1-cyan group-hover:shadow-sm dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
+                              <div className="group relative w-full place-self-center overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-100 hover:shadow-lg hover:shadow-p1-cyan group-hover:shadow-xs dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
                                 <div className="relative">
                                   <Link href="/card" className="mx-auto justify-center">
                                     <Image
@@ -334,7 +334,7 @@ export default function Page() {
                           </div>
                           <div>
                             <div className="flex gap-4">
-                              <div className="group relative w-full place-self-center overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-100 hover:shadow-lg hover:shadow-p1-cyan group-hover:shadow-sm dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
+                              <div className="group relative w-full place-self-center overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-100 hover:shadow-lg hover:shadow-p1-cyan group-hover:shadow-xs dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
                                 <div className="relative">
                                   <Link href="/card" className="mx-auto justify-center">
                                     <Image
@@ -377,7 +377,7 @@ export default function Page() {
                           </div>
                           <div>
                             <div className="flex gap-4">
-                              <div className="group relative w-full place-self-center overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-100 hover:shadow-lg hover:shadow-p1-cyan group-hover:shadow-sm dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
+                              <div className="group relative w-full place-self-center overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-100 hover:shadow-lg hover:shadow-p1-cyan group-hover:shadow-xs dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
                                 <div className="relative">
                                   <Link href="/card" className="mx-auto justify-center">
                                     <Image
@@ -809,7 +809,7 @@ export default function Page() {
                             }}
                             type="checkbox"
                             value=""
-                            className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                            className="size-6 rounded-sm border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                           />
                           <label
                             htmlFor="checkbox "
@@ -889,7 +889,7 @@ export default function Page() {
                   <div>
                     <button
                       data-target="area1"
-                      className="mx-auto justify-start rounded transition-all delay-75 duration-100 ease-in-out hover:bg-p1-cyan/50 hover:shadow-lg focus:shadow-lg dark:shadow-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:brightness-90"
+                      className="mx-auto justify-start rounded-sm transition-all delay-75 duration-100 ease-in-out hover:bg-p1-cyan/50 hover:shadow-lg focus:shadow-lg dark:shadow-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:brightness-90"
                       onClick={() => {
                         setVisibleArea1(!visibleArea1);
                       }}
@@ -910,7 +910,7 @@ export default function Page() {
                     <div className="w-10">
                       <button
                         data-target="area2"
-                        className="mx-auto justify-start rounded transition-all delay-75 duration-100 ease-in-out hover:bg-p1-cyan/50 hover:shadow-lg focus:bg-p1-cyan/50 focus:shadow-lg focus:hover:shadow-lg dark:shadow-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:brightness-90 dark:focus:brightness-90"
+                        className="mx-auto justify-start rounded-sm transition-all delay-75 duration-100 ease-in-out hover:bg-p1-cyan/50 hover:shadow-lg focus:bg-p1-cyan/50 focus:shadow-lg focus:hover:shadow-lg dark:shadow-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:brightness-90 dark:focus:brightness-90"
                         id="toggleButton2"
                         onClick={() => {
                           setCurrentVisibleArea(2);
@@ -928,7 +928,7 @@ export default function Page() {
                     <div className="w-10">
                       <button
                         data-target="area3"
-                        className="mx-auto justify-start rounded transition-all delay-75 duration-100 ease-in-out hover:bg-p1-cyan/50 hover:shadow-lg focus:bg-p1-cyan/50 focus:shadow-lg focus:hover:shadow-lg dark:shadow-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:brightness-90 dark:focus:brightness-90"
+                        className="mx-auto justify-start rounded-sm transition-all delay-75 duration-100 ease-in-out hover:bg-p1-cyan/50 hover:shadow-lg focus:bg-p1-cyan/50 focus:shadow-lg focus:hover:shadow-lg dark:shadow-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:brightness-90 dark:focus:brightness-90"
                         id="toggleButton3"
                         onClick={() => {
                           setCurrentVisibleArea(3);
@@ -946,7 +946,7 @@ export default function Page() {
                     <div className="w-10">
                       <button
                         data-target="area4"
-                        className="mx-auto justify-start rounded transition-all delay-75 duration-100 ease-in-out hover:bg-p1-cyan/50 hover:shadow-lg focus:bg-p1-cyan/50 focus:shadow-lg focus:hover:shadow-lg dark:shadow-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:brightness-90 dark:focus:brightness-90"
+                        className="mx-auto justify-start rounded-sm transition-all delay-75 duration-100 ease-in-out hover:bg-p1-cyan/50 hover:shadow-lg focus:bg-p1-cyan/50 focus:shadow-lg focus:hover:shadow-lg dark:shadow-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:brightness-90 dark:focus:brightness-90"
                         id="toggleButton4"
                         onClick={() => {
                           setCurrentVisibleArea(4);
@@ -964,7 +964,7 @@ export default function Page() {
                     <div className="w-10">
                       <button
                         data-target="area5"
-                        className="mx-auto justify-start rounded transition-all delay-75 duration-100 ease-in-out hover:bg-p1-cyan/50 hover:shadow-lg focus:bg-p1-cyan/50 focus:shadow-lg focus:hover:shadow-lg dark:shadow-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:brightness-90 dark:focus:brightness-90"
+                        className="mx-auto justify-start rounded-sm transition-all delay-75 duration-100 ease-in-out hover:bg-p1-cyan/50 hover:shadow-lg focus:bg-p1-cyan/50 focus:shadow-lg focus:hover:shadow-lg dark:shadow-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:brightness-90 dark:focus:brightness-90"
                         id="toggleButton5"
                         onClick={() => {
                           setCurrentVisibleArea(5);
@@ -982,7 +982,7 @@ export default function Page() {
                     <div className="w-10">
                       <button
                         data-target="area6"
-                        className="mx-auto justify-start rounded transition-all delay-75 duration-100 ease-in-out hover:bg-p1-cyan/50 hover:shadow-lg focus:bg-p1-cyan/50 focus:shadow-lg focus:hover:shadow-lg dark:shadow-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:brightness-90 dark:focus:brightness-90"
+                        className="mx-auto justify-start rounded-sm transition-all delay-75 duration-100 ease-in-out hover:bg-p1-cyan/50 hover:shadow-lg focus:bg-p1-cyan/50 focus:shadow-lg focus:hover:shadow-lg dark:shadow-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:brightness-90 dark:focus:brightness-90"
                         id="toggleButton6"
                         onClick={() => {
                           setCurrentVisibleArea(6);
@@ -1000,7 +1000,7 @@ export default function Page() {
                     <div className="w-10">
                       <button
                         data-target="area8"
-                        className="mx-auto justify-start rounded transition-all delay-75 duration-100 ease-in-out hover:bg-p1-cyan/50 hover:shadow-lg focus:bg-p1-cyan/50 focus:shadow-lg focus:hover:shadow-lg dark:shadow-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:brightness-90 dark:focus:brightness-90"
+                        className="mx-auto justify-start rounded-sm transition-all delay-75 duration-100 ease-in-out hover:bg-p1-cyan/50 hover:shadow-lg focus:bg-p1-cyan/50 focus:shadow-lg focus:hover:shadow-lg dark:shadow-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:brightness-90 dark:focus:brightness-90"
                         id="toggleButton6"
                         onClick={() => {
                           setCurrentVisibleArea(8);
@@ -1089,7 +1089,7 @@ export default function Page() {
                       <input id="dropzone-file" type="file" className="hidden" />
                     </label>
                     <div
-                      className="inline-flex w-full justify-center rounded-md pt-1 shadow-sm"
+                      className="inline-flex w-full justify-center rounded-md pt-1 shadow-xs"
                       role="group"
                     >
                       <Link
@@ -1108,7 +1108,7 @@ export default function Page() {
                 {/* ...Строки Таблица */}
                 <div
                   id="area2"
-                  className={`inline-block  h-96 w-max resize-y snap-y  snap-start place-self-start overflow-auto rounded border ${currentVisibleArea == 2 ? '' : 'hidden'}`}
+                  className={`inline-block  h-96 w-max resize-y snap-y  snap-start place-self-start overflow-auto rounded-sm border ${currentVisibleArea == 2 ? '' : 'hidden'}`}
                 >
                   <div className="">
                     <div className="relative snap-start scroll-smooth">
@@ -1218,7 +1218,7 @@ export default function Page() {
                                   }}
                                   type="checkbox"
                                   value=""
-                                  className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                                  className="size-6 rounded-sm border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                                 />
                                 <label
                                   htmlFor="checkbox "
@@ -1285,7 +1285,7 @@ export default function Page() {
                 {/* ... маленькие карточки  ... */}
                 <div id="area3" className={`${currentVisibleArea == 3 ? '' : 'hidden'}`}>
                   <div className="flex gap-4">
-                    <div className="group relative h-[14.5rem] w-40 place-self-center overflow-hidden rounded-xl bg-white object-cover lining-nums shadow-lg transition-transform duration-100 hover:shadow-lg hover:shadow-p1-cyan group-hover:shadow-sm dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
+                    <div className="group relative h-[14.5rem] w-40 place-self-center overflow-hidden rounded-xl bg-white object-cover lining-nums shadow-lg transition-transform duration-100 hover:shadow-lg hover:shadow-p1-cyan group-hover:shadow-xs dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
                       <div>
                         <div className="group invisible absolute right-1 top-1 z-10 inline-block duration-100 ease-in-out group-hover:visible group-hover:opacity-100">
                           <Link
@@ -1363,7 +1363,7 @@ export default function Page() {
                 {/* ... средние карточки  ... */}
                 <div id="area4" className={`${currentVisibleArea == 4 ? '' : 'hidden'}`}>
                   <div className="flex gap-4">
-                    <div className="group relative h-[21.5rem] w-60 place-self-center overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-100 hover:shadow-lg hover:shadow-p1-cyan group-hover:shadow-sm dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
+                    <div className="group relative h-[21.5rem] w-60 place-self-center overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-100 hover:shadow-lg hover:shadow-p1-cyan group-hover:shadow-xs dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
                       <div>
                         <div className="group invisible absolute right-1 top-1 z-10 inline-block duration-100 ease-in-out group-hover:visible group-hover:opacity-100">
                           <Link
@@ -1444,7 +1444,7 @@ export default function Page() {
                 {/* ... большие карточки  ... */}
                 <div id="area5" className={`${currentVisibleArea == 5 ? '' : 'hidden'}`}>
                   <div className="flex gap-4">
-                    <div className="group relative h-[28rem] w-80 place-self-center overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-100 hover:shadow-lg hover:shadow-p1-cyan group-hover:shadow-sm dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
+                    <div className="group relative h-[28rem] w-80 place-self-center overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-100 hover:shadow-lg hover:shadow-p1-cyan group-hover:shadow-xs dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
                       <div>
                         <div className="group invisible absolute right-1 top-1 z-10 inline-block duration-100 ease-in-out group-hover:visible group-hover:opacity-100">
                           <Link
@@ -1525,7 +1525,7 @@ export default function Page() {
                 {/* ... самые большие карточки  ... */}
                 <div id="area6" className={`${currentVisibleArea == 6 ? '' : 'hidden'}`}>
                   <div className="flex gap-4">
-                    <div className="group relative h-[39rem] w-[28rem] place-self-center overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-100 hover:shadow-lg hover:shadow-p1-cyan group-hover:shadow-sm dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
+                    <div className="group relative h-[39rem] w-[28rem] place-self-center overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-100 hover:shadow-lg hover:shadow-p1-cyan group-hover:shadow-xs dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
                       <div>
                         <div className="group invisible absolute right-1 top-1 z-10 inline-block duration-100 ease-in-out group-hover:visible group-hover:opacity-100">
                           <Link
@@ -1606,7 +1606,7 @@ export default function Page() {
                 {/* ...  карточки ,без подписи  ... */}
                 <div id="area8" className={`${currentVisibleArea == 8 ? '' : 'hidden'}`}>
                   <div className="flex gap-4">
-                    <div className="group relative w-80 place-self-center overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-100 hover:shadow-lg hover:shadow-p1-cyan group-hover:shadow-sm dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
+                    <div className="group relative w-80 place-self-center overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-100 hover:shadow-lg hover:shadow-p1-cyan group-hover:shadow-xs dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
                       <div>
                         <div className="group invisible absolute right-1 top-1 z-10 inline-block duration-100 ease-in-out group-hover:visible group-hover:opacity-100">
                           <Link
@@ -1672,7 +1672,7 @@ export default function Page() {
                 <div className="grid grid-cols-2 place-content-center gap-1 text-sm sm:grid-cols-5 sm:gap-2 sm:text-xl 2xl:grid-cols-8">
                   <div id="area8" className={`${currentVisibleArea == 8 ? '' : 'hidden'}`}>
                     <div className="flex gap-4">
-                      <div className="group relative w-full place-self-center overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-100 hover:shadow-lg hover:shadow-p1-cyan group-hover:shadow-sm dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
+                      <div className="group relative w-full place-self-center overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-100 hover:shadow-lg hover:shadow-p1-cyan group-hover:shadow-xs dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
                         <div>
                           <div className="invisible absolute right-1 top-1 z-10 inline-block duration-100 ease-in-out group-hover:visible group-hover:opacity-100">
                             <Link
@@ -1733,7 +1733,7 @@ export default function Page() {
 
                   <div id="area8" className={`${currentVisibleArea == 8 ? '' : 'hidden'}`}>
                     <div className="flex gap-4">
-                      <div className="group relative w-full place-self-center overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-100 hover:shadow-lg hover:shadow-p1-cyan group-hover:shadow-sm dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
+                      <div className="group relative w-full place-self-center overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-100 hover:shadow-lg hover:shadow-p1-cyan group-hover:shadow-xs dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
                         <div>
                           <div className="invisible absolute right-1 top-1 z-10 inline-block duration-100 ease-in-out group-hover:visible group-hover:opacity-100">
                             <Link
@@ -1793,7 +1793,7 @@ export default function Page() {
                   </div>
                   <div id="area8" className={`${currentVisibleArea == 8 ? '' : 'hidden'}`}>
                     <div className="flex gap-4">
-                      <div className="group relative w-full place-self-center overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-100 hover:shadow-lg hover:shadow-p1-cyan group-hover:shadow-sm dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
+                      <div className="group relative w-full place-self-center overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-100 hover:shadow-lg hover:shadow-p1-cyan group-hover:shadow-xs dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
                         <div>
                           <div className="invisible absolute right-1 top-1 z-10 inline-block duration-100 ease-in-out group-hover:visible group-hover:opacity-100">
                             <Link
@@ -1853,7 +1853,7 @@ export default function Page() {
                   </div>
                   <div id="area8" className={`${currentVisibleArea == 8 ? '' : 'hidden'}`}>
                     <div className="flex gap-4">
-                      <div className="group relative w-full place-self-center overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-100 hover:shadow-lg hover:shadow-p1-cyan group-hover:shadow-sm dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
+                      <div className="group relative w-full place-self-center overflow-hidden rounded-xl bg-white object-cover shadow-lg transition-transform duration-100 hover:shadow-lg hover:shadow-p1-cyan group-hover:shadow-xs dark:bg-p1-deepdarkgreen dark:shadow-p1-darkgreen dark:hover:shadow-p1-darkgreen">
                         <div>
                           <div className="invisible absolute right-1 top-1 z-10 inline-block duration-100 ease-in-out group-hover:visible group-hover:opacity-100">
                             <Link
@@ -1939,7 +1939,7 @@ export default function Page() {
             <div className="flex grid-flow-row auto-rows-max justify-center space-x-2 lg:justify-start">
               <div>
                 <div
-                  className="inline-flex w-full justify-center rounded-md pt-1 shadow-sm"
+                  className="inline-flex w-full justify-center rounded-md pt-1 shadow-xs"
                   role="group"
                 >
                   <button
@@ -1982,7 +1982,7 @@ export default function Page() {
             <div className="flex flex-auto grid-flow-row auto-rows-max justify-center space-x-8 lg:justify-end">
               <div className="">
                 <div
-                  className="inline-flex w-full flex-auto justify-center rounded-md pt-1 shadow-sm"
+                  className="inline-flex w-full flex-auto justify-center rounded-md pt-1 shadow-xs"
                   role="group"
                 >
                   <Link
@@ -2234,7 +2234,7 @@ export default function Page() {
                             }}
                             type="checkbox"
                             value=""
-                            className="size-6 rounded border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
+                            className="size-6 rounded-sm border-gray-300 bg-gray-100 text-p1-darkgreen accent-p1-white focus:ring-2 focus:ring-p1-green dark:border-gray-600 dark:bg-gray-700 dark:accent-p1-deepdarkgreen dark:ring-offset-gray-800 dark:focus:ring-p1-green"
                           />
                           <label
                             htmlFor="checkbox "

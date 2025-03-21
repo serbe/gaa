@@ -1,5 +1,4 @@
 'use client';
-
 import { useEffect, useState } from 'react';
 
 export const ToTopButton = () => {
@@ -22,7 +21,7 @@ export const ToTopButton = () => {
       type="button"
       data-twe-ripple-init
       data-twe-ripple-color="light"
-      className={`!fixed bottom-16 ${visible ? 'end-6' : '-end-12'} z-20 overflow-hidden rounded-full bg-p2-orange p-3 text-xs font-medium uppercase leading-tight text-white shadow-md transition-all duration-1000 hover:bg-p2-red hover:shadow-lg focus:bg-p2-red focus:shadow-lg focus:outline-none focus:ring-0 active:bg-p2-red active:shadow-lg`}
+      className={`fixed! bottom-16 ${visible ? 'end-6' : '-end-12'} z-20 overflow-hidden rounded-full bg-p2-orange p-3 text-xs font-medium uppercase leading-tight text-white shadow-md transition-all duration-1000 hover:bg-p2-red hover:shadow-lg focus:bg-p2-red focus:shadow-lg focus:outline-hidden focus:ring-0 active:bg-p2-red active:shadow-lg`}
       id="btn-back-to-top"
       onClick={() => {
         window.scrollTo({
