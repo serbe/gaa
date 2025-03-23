@@ -132,41 +132,39 @@ export default function Page() {
         </div>
       </div>
 
-      <div className="flex flex-row justify-center p-2">
-        <div className="md:basis-5">
-          <div
-            id="1"
-            className="p-2 text-center text-xl font-bold text-p1-darkgreen drop-shadow-2xl md:text-3xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan"
-          >
-            Our ambitious goals:
+      <div className="text-p1-darkgreen drop-shadow-2xl md:text-3xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
+        <div className="flex flex-row justify-center  p-2">
+          <div className="md:basis-5">
+            <div id="1" className="p-2 text-center  text-4xl font-bold ">
+              Our ambitious goals:
+            </div>
+          </div>
+        </div>
+
+        <div className="flex flex-row justify-center">
+          <div className="my-5 text-p1-darkgreen md:basis-4/6">
+            <div
+              id="2"
+              className="space-y-4 rounded-3xl border-p1-darkgreen p-6 text-left text-base text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:border-4 md:text-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan"
+            >
+              <p className="pt-2 text-center text-xl font-bold md:text-2xl">
+                Creating an active community:
+              </p>
+              <p>
+                We unite fans of motorsport and automotive culture in social networks and messengers
+                for communication, new acquaintances and exchange of experience (Telegram, Discord,
+                X).
+              </p>
+              <p className="pt-2 text-center text-xl font-bold md:text-2xl">Partnerships:</p>
+              <p>
+                We establish connections with organizers and participants of the largest motorsport
+                events (drift, circuit racing, drag racing, sim racing, auto exhibitions) for joint
+                projects and promotions.
+              </p>
+            </div>
           </div>
         </div>
       </div>
-
-      <div className="flex flex-row justify-center">
-        <div className="my-5 text-p1-darkgreen md:basis-4/6">
-          <div
-            id="2"
-            className="space-y-4 rounded-3xl border-p1-darkgreen p-6 text-left text-base text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:border-4 md:text-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan"
-          >
-            <p className="pt-2 text-center text-xl font-bold md:text-2xl">
-              Creating an active community:
-            </p>
-            <p>
-              We unite fans of motorsport and automotive culture in social networks and messengers
-              for communication, new acquaintances and exchange of experience (Telegram, Discord,
-              X).
-            </p>
-            <p className="pt-2 text-center text-xl font-bold md:text-2xl">Partnerships:</p>
-            <p>
-              We establish connections with organizers and participants of the largest motorsport
-              events (drift, circuit racing, drag racing, sim racing, auto exhibitions) for joint
-              projects and promotions.
-            </p>
-          </div>
-        </div>
-      </div>
-
       <div className="flex flex-row justify-center p-2 md:justify-start">
         <div className="md:basis-1/6"></div>
         <div className="md:basis-2/6">

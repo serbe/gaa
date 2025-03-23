@@ -54,15 +54,15 @@ function Nav() {
 
   const MiddleMenu = () => (
     <div
-      className={`${menuDrop ? 'block' : 'hidden'} w-full items-center justify-between md:flex md:w-auto`}
+      className={`${menuDrop ? 'block' : 'hidden'} w-full items-center justify-between lg:flex lg:w-auto`}
       id="navbar-user"
     >
-      <ul className="mt-4 flex flex-col rounded-lg border border-gray-100 bg-gray-50 p-4 font-medium md:mt-0 md:flex-row md:space-x-8 md:border-0 md:bg-white md:p-0 dark:border-gray-700 dark:bg-gray-800 md:dark:bg-gray-900">
+      <ul className="mt-4 flex  flex-col rounded-lg border border-gray-100 bg-gray-50 p-4 font-medium text-nowrap md:mt-0 md:flex-row md:space-x-8 md:border-0 md:bg-white md:p-0 dark:border-gray-700 dark:bg-p1-deepdarkgreen md:dark:bg-gray-900">
         {menuItems.map(({ name, url }) => (
           <li key={name}>
             <Link
               href={url}
-              className="block rounded-xs bg-transparent px-3 py-2 text-slate-700 hover:text-p1-cyan focus:text-p1-cyan lg:p-0 dark:text-p1-gray lg:dark:text-p1-green"
+              className="block rounded-xs bg-transparent px-3 py-2 text-p1-darkgreen underline-offset-4 hover:text-p1-green hover:underline focus:text-p1-cyan lg:p-0 dark:text-p1-gray dark:hover:text-p1-cyan lg:dark:text-p1-green"
               aria-current="page"
             >
               {name}
@@ -292,7 +292,7 @@ function Nav() {
               />
             </Link>
           </div>
-          <div className="place-items-start  group relative inline-block ">
+          <div className="group  relative inline-block place-items-start ">
             <div className="mx-auto justify-center">
               <Image
                 className="size-8 rounded-full p-1 ring-p1-green transition-all delay-75 duration-100 ease-in-out hover:bg-p1-white/50 hover:ring-2 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:hover:bg-p1-deepdarkgreen"
@@ -380,16 +380,15 @@ function Nav() {
                       <div className="self-center px-2">{t('contact')}</div>
                     </Link>
                   </div>
-                  
                 </div>
               </div>
             </div>
           </div>
-        
+
           <button
             data-collapse-toggle="navbar-user"
             type="button"
-            className="inline-flex size-8 items-center justify-center rounded-lg p-2 text-sm text-gray-500 hover:bg-gray-100 focus:ring-2 focus:ring-gray-200 focus:outline-hidden md:hidden dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+            className="inline-flex  size-8 items-center justify-center rounded-lg p-2 text-sm text-gray-500 hover:bg-gray-100 focus:ring-2 focus:ring-gray-200 focus:outline-hidden md:hidden dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
             aria-controls="navbar-user"
             aria-expanded="false"
             onClick={() => setMenuDrop(!menuDrop)}

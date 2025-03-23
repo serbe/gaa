@@ -37,46 +37,7 @@ export default function Page() {
     <div className="mx-auto max-w-7xl font-serif dark:bg-p1-deepdarkgreen">
       <JumpButton points={jumpPoints} />
 
-      <div className="sticky top-16 z-10 flex flex-wrap place-content-center gap-2 rounded-md bg-p1-white py-4 pr-10 shadow-xl md:hidden">
-        <Link
-          href="/aboutmemberbenefit"
-          className="h-12 w-max place-content-center rounded-xl border bg-p1-white px-4 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen/15 hover:bg-p1-cyan/25 hover:text-p1-darkgreen focus:border-p1-darkgreen/20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
-        >
-          Преимущества членства
-        </Link>
-        <Link
-          href="/aboutterms"
-          className="h-12 w-max place-content-center rounded-xl border bg-p1-white px-4 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen/15 hover:bg-p1-cyan/25 hover:text-p1-darkgreen focus:border-p1-darkgreen/20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
-        >
-          Термины
-        </Link>
-        <Link
-          href="/aboutpolicy"
-          className="h-12 w-max place-content-center rounded-xl border bg-p1-white px-4 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen/15 hover:bg-p1-cyan/25 hover:text-p1-darkgreen focus:border-p1-darkgreen/20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
-        >
-          Конфиденциальность
-        </Link>
-        <Link
-          href="/aboutweb3"
-          className="h-12 w-max place-content-center rounded-xl border bg-p1-white px-4 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen/15 hover:bg-p1-cyan/25 hover:text-p1-darkgreen focus:border-p1-darkgreen/20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
-        >
-          Изучай Web3
-        </Link>
-        <Link
-          href="/team"
-          className="h-12 w-max place-content-center rounded-xl border bg-p1-white px-4 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen/15 hover:bg-p1-cyan/25 hover:text-p1-darkgreen focus:border-p1-darkgreen/20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
-        >
-          Команда
-        </Link>
-        <Link
-          href="/contacts"
-          className="h-12 w-max place-content-center rounded-xl border bg-p1-white px-4 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen/15 hover:bg-p1-cyan/25 hover:text-p1-darkgreen focus:border-p1-darkgreen/20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
-        >
-          Обратная связь
-        </Link>
-      </div>
-
-      <div className="hidden md:flex md:flex-row">
+      <div className="hidden lg:flex lg:flex-row">
         <div className="basis-1/6 text-center opacity-85 duration-500 ease-in-out hover:scale-105 hover:opacity-100">
           <Link
             href="/aboutmemberbenefit"
@@ -172,58 +133,58 @@ export default function Page() {
         </div>
       </div>
 
-      <div className="flex flex-row justify-center p-2">
-        <div className="md:basis-5">
-          <div
-            id="1"
-            className="p-2 text-center text-xl font-bold text-p1-darkgreen drop-shadow-2xl md:text-3xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan"
-          >
-            Наши амбициозные планы
-          </div>
-        </div>
-      </div>
-
-      <div className="flex flex-row justify-center">
-        <div className="my-5 text-p1-darkgreen md:basis-4/6">
-          <div
-            id="2"
-            className="space-y-4 rounded-3xl border-p1-darkgreen p-6 text-left text-base text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:border-4 md:text-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan"
-          >
-            <p className="pt-2 text-center text-xl font-bold md:text-2xl">
-              Создание активного сообщества
-            </p>
-            <p>
-              Объединяем фанатов автоспорта и автомобильной культуры в соцсетях и мессенджерах
-              (Telegram, Discord, X) для общения, новых знакомств и обмена опытом.
-            </p>
-            <p className="pt-2 text-center text-xl font-bold md:text-2xl">Партнерские отношения</p>
-            <p>
-              Устанавливаем связи с организаторами и участниками крупнейших автоспортивных событий
-              (дрифт, кольцевые гонки, драг рейсинг, симрейсинг, автовыставки) для реализации
-              совместных проектов.
-            </p>
-          </div>
-        </div>
-      </div>
-
-      <div className="flex flex-row justify-center p-2 md:justify-start">
-        <div className="md:basis-1/6"></div>
-        <div className="md:basis-2/6">
-          <div>
-            <div
-              id="3"
-              className="rounded-3xl border-p1-darkgreen p-6 text-center text-base text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:border-4 md:text-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan"
-            >
-              <p className="text-2xl font-bold">10,000</p>
-              <p>уникальных NFT</p>
-              <p>в коллекции</p>
-              <p className="text-2xl font-bold">RaceLads</p>
+      <div className="text-p1-darkgreen drop-shadow-2xl md:text-3xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
+        <div className="flex flex-row justify-center  p-2">
+          <div className="md:basis-5">
+            <div id="1" className="p-2 text-center  text-4xl font-bold ">
+              Наши амбициозные планы
             </div>
           </div>
         </div>
-        <div className="md:basis-1/6"></div>
-      </div>
 
+        <div className="flex flex-row justify-center">
+          <div className="my-5 text-p1-darkgreen md:basis-4/6">
+            <div
+              id="2"
+              className="space-y-4 rounded-3xl border-p1-darkgreen p-6 text-left text-base text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:border-4 md:text-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan"
+            >
+              <p className="pt-2 text-center text-xl font-bold md:text-2xl">
+                Создание активного сообщества
+              </p>
+              <p>
+                Объединяем фанатов автоспорта и автомобильной культуры в соцсетях и мессенджерах
+                (Telegram, Discord, X) для общения, новых знакомств и обмена опытом.
+              </p>
+              <p className="pt-2 text-center text-xl font-bold md:text-2xl">
+                Партнерские отношения
+              </p>
+              <p>
+                Устанавливаем связи с организаторами и участниками крупнейших автоспортивных событий
+                (дрифт, кольцевые гонки, драг рейсинг, симрейсинг, автовыставки) для реализации
+                совместных проектов.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div className="flex flex-row justify-center p-2 md:justify-start">
+          <div className="md:basis-1/6"></div>
+          <div className="md:basis-2/6">
+            <div>
+              <div
+                id="3"
+                className="rounded-3xl border-p1-darkgreen p-6 text-center text-base text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:border-4 md:text-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan"
+              >
+                <p className="text-2xl font-bold">10,000</p>
+                <p>уникальных NFT</p>
+                <p>в коллекции</p>
+                <p className="text-2xl font-bold">RaceLads</p>
+              </div>
+            </div>
+          </div>
+          <div className="md:basis-1/6"></div>
+        </div>
+      </div>
       <div className="flex flex-row justify-center p-2 md:justify-end">
         <div className="md:basis-1/6"></div>
         <div className="md:basis-2/6"></div>
@@ -237,6 +198,7 @@ export default function Page() {
         </div>
         <div className="md:basis-1/6"></div>
       </div>
+
 
       <div className="flex flex-row justify-center p-2">
         <div className="md:basis-1/5"></div>
