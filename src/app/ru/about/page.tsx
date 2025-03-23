@@ -37,7 +37,7 @@ export default function Page() {
     <div className="mx-auto max-w-7xl font-serif dark:bg-p1-deepdarkgreen">
       <JumpButton points={jumpPoints} />
 
-      <div className="hidden lg:flex lg:flex-row">
+      <div className="hidden 2xl:flex 2xl:flex-row">
         <div className="basis-1/6 text-center opacity-85 duration-500 ease-in-out hover:scale-105 hover:opacity-100">
           <Link
             href="/aboutmemberbenefit"
@@ -198,7 +198,6 @@ export default function Page() {
         </div>
         <div className="md:basis-1/6"></div>
       </div>
-
 
       <div className="flex flex-row justify-center p-2">
         <div className="md:basis-1/5"></div>

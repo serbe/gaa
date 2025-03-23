@@ -57,7 +57,7 @@ function Nav() {
       className={`${menuDrop ? 'block' : 'hidden'} w-full items-center justify-between lg:flex lg:w-auto`}
       id="navbar-user"
     >
-      <ul className="mt-4 flex  flex-col rounded-lg border border-gray-100 bg-gray-50 p-4 font-medium text-nowrap md:mt-0 md:flex-row md:space-x-8 md:border-0 md:bg-white md:p-0 dark:border-gray-700 dark:bg-p1-deepdarkgreen md:dark:bg-gray-900">
+      <ul className="mt-4 flex  flex-col rounded-lg border border-gray-100 bg-gray-50 p-4 font-medium text-nowrap md:mt-0 md:flex-row md:space-x-8 md:border-0 md:bg-white md:p-0 dark:border-gray-700 dark:bg-p1-deepdarkgreen md:dark:bg-p1-deepdarkgreen">
         {menuItems.map(({ name, url }) => (
           <li key={name}>
             <Link
@@ -87,7 +87,7 @@ function Nav() {
 
           <div className="group-hover:border-opacity-70 group-hover:bg-opacity-30 invisible absolute left-9 z-10 m-0.5 mt-2 -translate-x-1/2 rounded-xl bg-p1-white/30 text-nowrap text-gray-800 opacity-0 backdrop-blur-lg transition-all duration-100 group-hover:visible group-hover:opacity-100 dark:bg-p1-deepdarkgreen/80">
             <div className="rounded-md">
-              <div className="w-56 border-b border-p1-darkgreen p-1 text-base text-p1-darkgreen transition-all delay-100 duration-300 ease-in-out hover:bg-p1-white/20 hover:pl-3 hover:text-p1-darkgreen dark:border-p1-deepdarkgreen dark:text-p1-green dark:hover:text-p1-cyan">
+              <div className="w-56 border-b py-2 border-p1-darkgreen p-1 text-base text-p1-darkgreen transition-all delay-100 duration-300 ease-in-out hover:bg-p1-white/20 hover:pl-3 hover:text-p1-darkgreen dark:border-p1-deepdarkgreen dark:text-p1-green dark:hover:text-p1-cyan">
                 <Link href="#" className="mx-auto flex flex-row justify-start">
                   <Image
                     className="size-6 self-center"
@@ -100,7 +100,7 @@ function Nav() {
                   <div className="self-center px-2">Connect Wallet </div>
                 </Link>
               </div>
-              <div className="border-b border-p1-darkgreen p-1 text-base text-p1-darkgreen transition-all delay-100 duration-300 ease-in-out hover:bg-p1-white/20 hover:pl-3 hover:text-p1-darkgreen dark:border-p1-deepdarkgreen dark:text-p1-green dark:hover:text-p1-cyan">
+              <div className="border-b py-2 border-p1-darkgreen p-1 text-base text-p1-darkgreen transition-all delay-100 duration-300 ease-in-out hover:bg-p1-white/20 hover:pl-3 hover:text-p1-darkgreen dark:border-p1-deepdarkgreen dark:text-p1-green dark:hover:text-p1-cyan">
                 <Link href="#" className="mx-auto flex flex-row justify-start">
                   <Image
                     className="size-6 self-center"
@@ -180,7 +180,7 @@ function Nav() {
                   </div>
                 </div>
               </div>
-              <div className="border-b border-p1-darkgreen p-1 text-base text-p1-darkgreen transition-all delay-100 duration-300 ease-in-out hover:bg-p1-white/20 hover:pl-3 hover:text-p1-darkgreen dark:border-p1-deepdarkgreen dark:text-p1-green dark:hover:text-p1-cyan">
+              <div className="border-b py-2 border-p1-darkgreen p-1 text-base text-p1-darkgreen transition-all delay-100 duration-300 ease-in-out hover:bg-p1-white/20 hover:pl-3 hover:text-p1-darkgreen dark:border-p1-deepdarkgreen dark:text-p1-green dark:hover:text-p1-cyan">
                 <Link href="/profile" className="mx-auto flex flex-row justify-start">
                   <Image
                     className="size-6 self-center"
@@ -193,7 +193,7 @@ function Nav() {
                   <div className="self-center px-2">{t('profile')}</div>
                 </Link>
               </div>
-              <div className="border-b border-p1-darkgreen p-1 text-base text-p1-darkgreen transition-all delay-100 duration-300 ease-in-out hover:bg-p1-white/20 hover:pl-3 hover:text-p1-darkgreen dark:border-p1-deepdarkgreen dark:text-p1-green dark:hover:text-p1-cyan">
+              <div className="border-b py-2 border-p1-darkgreen p-1 text-base text-p1-darkgreen transition-all delay-100 duration-300 ease-in-out hover:bg-p1-white/20 hover:pl-3 hover:text-p1-darkgreen dark:border-p1-deepdarkgreen dark:text-p1-green dark:hover:text-p1-cyan">
                 <Link href="/mynfts" className="mx-auto flex flex-row justify-start">
                   <Image
                     className="size-6 self-center"
@@ -205,7 +205,7 @@ function Nav() {
                   <div className="self-center px-2">{t('mynft')}</div>
                 </Link>
               </div>
-              <div className="border-b border-p1-darkgreen p-1 text-base text-p1-darkgreen transition-all delay-100 duration-300 ease-in-out hover:bg-p1-white/20 hover:pl-3 hover:text-p1-darkgreen dark:border-p1-deepdarkgreen dark:text-p1-green dark:hover:text-p1-cyan">
+              <div className="border-b py-2 border-p1-darkgreen p-1 text-base text-p1-darkgreen transition-all delay-100 duration-300 ease-in-out hover:bg-p1-white/20 hover:pl-3 hover:text-p1-darkgreen dark:border-p1-deepdarkgreen dark:text-p1-green dark:hover:text-p1-cyan">
                 <Link href="#" className="mx-auto flex flex-row justify-start">
                   <Image
                     className="size-6 self-center"
@@ -217,7 +217,7 @@ function Nav() {
                   <div className="self-center px-2">{t('watchlist')}</div>
                 </Link>
               </div>
-              <div className="border-b border-p1-darkgreen p-1 text-base text-p1-darkgreen transition-all delay-100 duration-300 ease-in-out hover:bg-p1-white/20 hover:pl-3 hover:text-p1-darkgreen dark:border-p1-deepdarkgreen dark:text-p1-green dark:hover:text-p1-cyan">
+              <div className="border-b py-2 border-p1-darkgreen p-1 text-base text-p1-darkgreen transition-all delay-100 duration-300 ease-in-out hover:bg-p1-white/20 hover:pl-3 hover:text-p1-darkgreen dark:border-p1-deepdarkgreen dark:text-p1-green dark:hover:text-p1-cyan">
                 <Link href="#" className="mx-auto flex flex-row justify-start">
                   <Image
                     className="size-6 self-center"
@@ -229,7 +229,7 @@ function Nav() {
                   <div className="self-center px-2">{t('deals')}</div>
                 </Link>
               </div>
-              <div className="border-b border-p1-darkgreen p-1 text-base text-p1-darkgreen transition-all delay-100 duration-300 ease-in-out hover:bg-p1-white/20 hover:pl-3 hover:text-p1-darkgreen dark:border-p1-deepdarkgreen dark:text-p1-green dark:hover:text-p1-cyan">
+              <div className="border-b py-2 border-p1-darkgreen p-1 text-base text-p1-darkgreen transition-all delay-100 duration-300 ease-in-out hover:bg-p1-white/20 hover:pl-3 hover:text-p1-darkgreen dark:border-p1-deepdarkgreen dark:text-p1-green dark:hover:text-p1-cyan">
                 <div
                   className="mx-auto flex cursor-pointer flex-row justify-start"
                   onClick={() => exit()}
@@ -262,7 +262,7 @@ function Nav() {
           </Link>
         </div>
       </div>
-      <div>
+      <div >
         <Link href="#" className="mx-auto justify-center">
           <Image
             className="size-8 rounded-lg p-1 ring-p1-green transition-all delay-75 duration-100 ease-in-out hover:bg-p1-white/50 hover:ring-2 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:hover:bg-p1-deepdarkgreen"
@@ -277,11 +277,11 @@ function Nav() {
   );
 
   return (
-    <nav className="sticky top-0 z-50 border-gray-200 bg-white dark:bg-gray-900">
+    <nav className="sticky top-0 z-50 border-gray-200 bg-white dark:bg-p1-deepdarkgreen">
       <div className="mx-auto flex max-w-screen flex-wrap items-center justify-between p-4">
         <div className="flex items-center space-x-3">
           {/* <!-- Dropdown menu --> */}
-          <div className="grid grid-cols-4 place-items-start gap-2">
+          <div className="grid grid-cols-1 2xl:grid-cols-4  place-items-start gap-2">
             <Link href="/">
               <Image
                 className="size-8 transition-all delay-75 duration-100 ease-in-out hover:scale-110"
@@ -292,7 +292,7 @@ function Nav() {
               />
             </Link>
           </div>
-          <div className="group  relative inline-block place-items-start ">
+          <div className="group 2xl:hidden  relative inline-block place-items-start ">
             <div className="mx-auto justify-center">
               <Image
                 className="size-8 rounded-full p-1 ring-p1-green transition-all delay-75 duration-100 ease-in-out hover:bg-p1-white/50 hover:ring-2 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:hover:bg-p1-deepdarkgreen"
@@ -304,7 +304,7 @@ function Nav() {
 
               <div className="group-click:border-opacity-70  group-hover:bg-opacity-30 invisible absolute left-9 z-10 m-0.5 mt-2 w-80 -translate-x-1/2 rounded-xl bg-p1-white/30 text-nowrap text-gray-800 opacity-0 backdrop-blur-lg transition-all duration-100 group-hover:visible group-hover:opacity-100 dark:bg-p1-deepdarkgreen/80">
                 <div className="rounded-md">
-                  <div className="border-b border-p1-darkgreen p-1 text-base text-p1-darkgreen transition-all delay-100 duration-300 ease-in-out hover:bg-p1-white/20 hover:pl-3 hover:text-p1-darkgreen dark:border-p1-deepdarkgreen dark:text-p1-green dark:hover:text-p1-cyan">
+                  <div className="border-b py-2 border-p1-darkgreen p-1 text-base text-p1-darkgreen transition-all delay-100 duration-300 ease-in-out hover:bg-p1-white/20 hover:pl-3 hover:text-p1-darkgreen dark:border-p1-deepdarkgreen dark:text-p1-green dark:hover:text-p1-cyan">
                     <Link
                       href="/aboutmemberbenefit"
                       className="mx-auto flex flex-row justify-start"
@@ -313,69 +313,69 @@ function Nav() {
                         className="size-6 self-center"
                         width={480}
                         height={480}
-                        src="/Icon/NFT_user_green.png"
-                        alt="Bordered avatar"
+                        src="/icon/benefit.png"
+                        alt="benefit"
                       />
 
                       <div className="self-center px-2">{t('benefit')}</div>
                     </Link>
                   </div>
-                  <div className="border-b border-p1-darkgreen p-1 text-base text-p1-darkgreen transition-all delay-100 duration-300 ease-in-out hover:bg-p1-white/20 hover:pl-3 hover:text-p1-darkgreen dark:border-p1-deepdarkgreen dark:text-p1-green dark:hover:text-p1-cyan">
+                  <div className="border-b py-2 border-p1-darkgreen p-1 text-base text-p1-darkgreen transition-all delay-100 duration-300 ease-in-out hover:bg-p1-white/20 hover:pl-3 hover:text-p1-darkgreen dark:border-p1-deepdarkgreen dark:text-p1-green dark:hover:text-p1-cyan">
                     <Link href="/aboutterms" className="mx-auto flex flex-row justify-start">
                       <Image
                         className="size-6 self-center"
                         width={480}
                         height={480}
-                        src="/Icon/NFT-col.png"
-                        alt="Bordered avatar"
+                        src="/Icon/terms.png"
+                        alt="terms"
                       />
                       <div className="self-center px-2">{t('terms')}</div>
                     </Link>
                   </div>
-                  <div className="border-b border-p1-darkgreen p-1 text-base text-p1-darkgreen transition-all delay-100 duration-300 ease-in-out hover:bg-p1-white/20 hover:pl-3 hover:text-p1-darkgreen dark:border-p1-deepdarkgreen dark:text-p1-green dark:hover:text-p1-cyan">
+                  <div className="border-b py-2 border-p1-darkgreen p-1 text-base text-p1-darkgreen transition-all delay-100 duration-300 ease-in-out hover:bg-p1-white/20 hover:pl-3 hover:text-p1-darkgreen dark:border-p1-deepdarkgreen dark:text-p1-green dark:hover:text-p1-cyan">
                     <Link href="/aboutpolicy" className="mx-auto flex flex-row justify-start">
                       <Image
                         className="size-6 self-center"
                         width={480}
                         height={480}
-                        src="/Icon/heart_green.png"
-                        alt="heart"
+                        src="/icon/confidential1.png"
+                        alt="confidential"
                       />
                       <div className="self-center px-2">{t('confidentiality')}</div>
                     </Link>
                   </div>
-                  <div className="border-b border-p1-darkgreen p-1 text-base text-p1-darkgreen transition-all delay-100 duration-300 ease-in-out hover:bg-p1-white/20 hover:pl-3 hover:text-p1-darkgreen dark:border-p1-deepdarkgreen dark:text-p1-green dark:hover:text-p1-cyan">
+                  <div className="border-b py-2 border-p1-darkgreen p-1 text-base text-p1-darkgreen transition-all delay-100 duration-300 ease-in-out hover:bg-p1-white/20 hover:pl-3 hover:text-p1-darkgreen dark:border-p1-deepdarkgreen dark:text-p1-green dark:hover:text-p1-cyan">
                     <Link href="/aboutweb3" className="mx-auto flex flex-row justify-start">
                       <Image
                         className="size-6 self-center"
                         width={480}
                         height={480}
-                        src="/Icon/hand_shake_green.png"
-                        alt="Bordered avatar"
+                        src="/Icon/lernweb3.png"
+                        alt="lernweb3"
                       />
                       <div className="self-center px-2">{t('lernweb3')}</div>
                     </Link>
                   </div>
-                  <div className="border-b border-p1-darkgreen p-1 text-base text-p1-darkgreen transition-all delay-100 duration-300 ease-in-out hover:bg-p1-white/20 hover:pl-3 hover:text-p1-darkgreen dark:border-p1-deepdarkgreen dark:text-p1-green dark:hover:text-p1-cyan">
+                  <div className="border-b py-2 border-p1-darkgreen p-1 text-base text-p1-darkgreen transition-all delay-100 duration-300 ease-in-out hover:bg-p1-white/20 hover:pl-3 hover:text-p1-darkgreen dark:border-p1-deepdarkgreen dark:text-p1-green dark:hover:text-p1-cyan">
                     <Link href="/team" className="mx-auto flex flex-row justify-start">
                       <Image
                         className="size-6 self-center"
                         width={480}
                         height={480}
-                        src="/Icon/hand_shake_green.png"
-                        alt="Bordered avatar"
+                        src="/Icon/team.png"
+                        alt="team"
                       />
                       <div className="self-center px-2">{t('team')}</div>
                     </Link>
                   </div>
-                  <div className="border-b border-p1-darkgreen p-1 text-base text-p1-darkgreen transition-all delay-100 duration-300 ease-in-out hover:bg-p1-white/20 hover:pl-3 hover:text-p1-darkgreen dark:border-p1-deepdarkgreen dark:text-p1-green dark:hover:text-p1-cyan">
+                  <div className="border-b py-2 border-p1-darkgreen p-1 text-base text-p1-darkgreen transition-all delay-100 duration-300 ease-in-out hover:bg-p1-white/20 hover:pl-3 hover:text-p1-darkgreen dark:border-p1-deepdarkgreen dark:text-p1-green dark:hover:text-p1-cyan">
                     <Link href="/contacts" className="mx-auto flex flex-row justify-start">
                       <Image
                         className="size-6 self-center"
                         width={480}
                         height={480}
-                        src="/Icon/hand_shake_green.png"
-                        alt="Bordered avatar"
+                        src="/Icon/contactus1.png"
+                        alt="contactus"
                       />
                       <div className="self-center px-2">{t('contact')}</div>
                     </Link>
