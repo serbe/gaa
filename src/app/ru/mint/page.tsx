@@ -59,13 +59,12 @@ export default function Page() {
           <div className="pb-4 md:pt-4"></div>
         </div>
       </div>
-      <div className="md:h-96"> </div>
-      <div className="h-14"></div>
+      <div className="h-10"></div>
 
       {/* //Лидеры движений */}
       <div
         id="movement-leaders"
-        className="p-2 text-center text-4xl font-bold text-p1-darkgreen md:pt-20 md:text-6xl dark:text-p1-green dark:hover:text-p1-cyan"
+        className="p-2 text-center text-4xl font-bold text-p1-darkgreen md:pt-10 md:text-6xl dark:text-p1-green dark:hover:text-p1-cyan"
       >
         Лидеры движений
       </div>
@@ -190,14 +189,13 @@ export default function Page() {
           </div>
         </div>
       </div>
-      <div className="md:h-96"> </div>
-      <div className="h-14"></div>
+      <div className="h-10"></div>
 
       {/* // CustomLads */}
 
       <div
         id="custom-lads"
-        className="p-2 text-center text-4xl font-bold text-p1-darkgreen md:pt-20 md:text-6xl dark:text-p1-green dark:hover:text-p1-cyan"
+        className="p-2 text-center text-4xl font-bold text-p1-darkgreen md:pt-10 md:text-6xl dark:text-p1-green dark:hover:text-p1-cyan"
       >
         CustomLads
       </div>
@@ -237,13 +235,12 @@ export default function Page() {
           <div className="py-4"></div>
         </div>
       </div>
-      <div className="md:h-96"> </div>
-      <div className="h-14"></div>
+      <div className="h-10"></div>
       {/* //Награды */}
 
       <div
         id="awards"
-        className="pt-2 text-center text-4xl font-bold text-p1-darkgreen md:pt-20 md:text-6xl dark:text-p1-green dark:hover:text-p1-cyan"
+        className="pt-2 text-center text-4xl font-bold text-p1-darkgreen md:pt-10 md:text-6xl dark:text-p1-green dark:hover:text-p1-cyan"
       >
         Awards NFT
       </div>
@@ -277,13 +274,12 @@ export default function Page() {
           <div className="py-4"></div>
         </div>
       </div>
-      <div className="md:h-96"> </div>
-      <div className="h-14"></div>
+      <div className="h-10"></div>
 
       {/* //Лицензии */}
       <div
         id="licenses"
-        className="pt-2 text-center text-4xl font-bold text-p1-darkgreen md:pt-20 md:text-6xl dark:text-p1-green dark:hover:text-p1-cyan"
+        className="pt-2 text-center text-4xl font-bold text-p1-darkgreen md:pt-10 md:text-6xl dark:text-p1-green dark:hover:text-p1-cyan"
       >
         Лицензии
         <p className="pb-2 text-center text-xl font-bold md:pb-5 md:text-4xl">
@@ -389,8 +385,7 @@ export default function Page() {
           <div className="pb-4"></div>
         </div>
       </div>
-      <div className="md:pb-96"></div>
-      <div className="md:pb-14"></div>
+      <div className="md:pb-32"></div>
     </div>
   );
 }

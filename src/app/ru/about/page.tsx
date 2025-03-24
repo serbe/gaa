@@ -38,7 +38,7 @@ export default function Page() {
       <JumpButton points={jumpPoints} />
 
       <div>
-        <div className="sticky top-16 hidden bg-p1-white 2xl:flex  2xl:flex-row dark:bg-p1-deepdarkgreen">
+        <div className="hidden bg-p1-white 2xl:flex  2xl:flex-row dark:bg-p1-deepdarkgreen">
           <div className="basis-1/6 text-center opacity-85 duration-500 ease-in-out hover:scale-105 hover:opacity-100">
             <Link
               href="/aboutmemberbenefit"
@@ -134,7 +134,7 @@ export default function Page() {
           </div>
         </div>
       </div>
-      <div className="md:h-screen"></div>
+      <div className="md:h-16"></div>
       <div className="text-p1-darkgreen  md:text-3xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
         <div>
           <div className="sticky top-16 flex flex-row justify-center bg-p1-white  dark:bg-p1-deepdarkgreen">
@@ -166,7 +166,6 @@ export default function Page() {
               </div>
             </div>
           </div>
-          <div className="md:h-96"></div>
 
           <div id="2" className="flex flex-row justify-center p-2 md:justify-start md:pt-40">
             <div className="md:basis-1/6"></div>
@@ -199,7 +198,7 @@ export default function Page() {
         </div>
       </div>
 
-      <div className="md:h-96"></div>
+      <div className="md:h-20"></div>
       <div>
         <div className="sticky top-16 flex flex-row  justify-center bg-p1-white p-2 dark:bg-p1-deepdarkgreen">
           <div className="md:basis-1/5"></div>
@@ -406,7 +405,7 @@ export default function Page() {
         <div className="pb-2 md:pb-5"></div>
       </div>
 
-      <div className="md:h-screen"></div>
+      <div className="md:h-20"></div>
       <div>
         <div className="sticky top-16 flex flex-row  justify-center bg-p1-white p-2 dark:bg-p1-deepdarkgreen">
           <div className="md:basis-1/5"></div>
@@ -465,7 +464,7 @@ export default function Page() {
         </div>
       </div>
 
-      <div className="md:h-screen"></div>
+      <div className="md:h-20"></div>
       <div>
         <div className="sticky top-16 flex flex-row justify-center bg-p1-white py-4  dark:bg-p1-deepdarkgreen">
           <div className="md:basis-1/5"></div>
@@ -672,7 +671,7 @@ export default function Page() {
         <div className="pb-2 md:pb-5"></div>
       </div>
 
-      <div className="md:h-screen"></div>
+      <div className="md:h-20"></div>
 
       <div className="">
         <div className="sticky top-16 flex flex-row justify-center bg-p1-white py-4  dark:bg-p1-deepdarkgreen">
@@ -707,7 +706,6 @@ export default function Page() {
                   <li className="text-left text-base md:text-xl">многое другое</li>
                 </ul>
               </div>
-              <div className="md:h-screen"></div>
 
               <div id="8" className="md:pb-40">
                 {' '}
@@ -728,7 +726,6 @@ export default function Page() {
                   по выбору формата мероприятий, судей, участников и прочим вопросам.
                 </p>
               </div>
-              <div className="md:h-screen"></div>
 
               <div id="9" className="md:pb-40">
                 {' '}
@@ -759,8 +756,6 @@ export default function Page() {
                 </ul>
               </div>
 
-              <div className="md:h-screen"></div>
-
               <div id="10" className="md:pb-40">
                 {' '}
               </div>
@@ -780,7 +775,7 @@ export default function Page() {
           </div>
         </div>
       </div>
-      <div className="md:h-screen"></div>
+      <div className="md:h-16"></div>
       <div>
         <div className="px-2 text-xl">
           <div className="sticky top-16 flex flex-row  justify-center bg-p1-white dark:bg-p1-deepdarkgreen">
