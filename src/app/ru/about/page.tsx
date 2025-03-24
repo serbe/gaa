@@ -167,7 +167,7 @@ export default function Page() {
             </div>
           </div>
 
-          <div id="2" className="flex flex-row justify-center p-2 md:justify-start md:pt-40">
+          <div id="2" className="flex flex-row justify-center p-2 md:justify-start ">
             <div className="md:basis-1/6"></div>
             <div className="md:basis-2/6">
               <div>
@@ -689,8 +689,8 @@ export default function Page() {
         <div className="flex flex-row justify-center p-2">
           <div className="text-p1-darkgreen md:basis-4/6">
             <div>
-              <div className="my-5 mt-8 space-y-4 rounded-3xl border-p1-darkgreen p-6 text-left text-base text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:border-4 md:text-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
-                <p className="text-center text-xl font-bold drop-shadow-2xl md:text-2xl">
+              <div className=" my-5 mt-8 space-y-4 rounded-3xl border-p1-darkgreen p-6 text-left text-base text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:border-4 md:text-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
+                <p className=" text-center text-xl font-bold drop-shadow-2xl md:text-2xl">
                   Уникальные привилегии
                 </p>
                 <p className="text-left text-base md:text-xl">
@@ -707,10 +707,7 @@ export default function Page() {
                 </ul>
               </div>
 
-              <div id="8" className="md:pb-40">
-                {' '}
-              </div>
-              <div className="my-5  space-y-4 rounded-3xl border-p1-darkgreen p-6 text-left text-base text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:border-4 md:text-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
+              <div className="my-10  space-y-4 rounded-3xl border-p1-darkgreen p-6 text-left text-base text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:border-4 md:text-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
                 <p className="text-center text-xl font-bold drop-shadow-2xl md:text-2xl">
                   Собственные мероприятия
                 </p>
@@ -727,11 +724,7 @@ export default function Page() {
                 </p>
               </div>
 
-              <div id="9" className="md:pb-40">
-                {' '}
-              </div>
-
-              <div className="top-20 my-5  space-y-4 rounded-3xl border-p1-darkgreen p-6 text-left text-base text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:border-4 md:text-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
+              <div className=" my-10  space-y-4 rounded-3xl border-p1-darkgreen p-6 text-left text-base text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:border-4 md:text-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
                 <p className="text-center text-2xl font-bold">Децентрализованный портал</p>
                 <p className="text-left text-base md:text-xl">Запускаем сайт, где каждый сможет:</p>
                 <ul className="list-disc space-y-3 px-5">
@@ -756,11 +749,7 @@ export default function Page() {
                 </ul>
               </div>
 
-              <div id="10" className="md:pb-40">
-                {' '}
-              </div>
-
-              <div className="top-20 space-y-4 rounded-3xl border-p1-darkgreen p-6 text-left text-base text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:my-5 md:border-4 md:text-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
+              <div className="my-10 space-y-4 rounded-3xl border-p1-darkgreen p-6 text-left text-base text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:my-5 md:border-4 md:text-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
                 <p className="text-center text-2xl font-bold">Выход на международный уровень</p>
                 <p className="text-left text-base md:text-xl">
                   Мы также планируем расширять наше присутствие на международной арене для того,
@@ -781,7 +770,7 @@ export default function Page() {
           <div className="sticky top-16 flex flex-row  justify-center bg-p1-white dark:bg-p1-deepdarkgreen">
             <div className="md:basis-3/5">
               <div
-                id="11"
+                id="8"
                 className="p-2 text-center text-3xl font-bold text-p1-darkgreen drop-shadow-2xl dark:text-p1-green dark:hover:text-p1-cyan"
               >
                 Почему Web 3?
