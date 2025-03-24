@@ -525,9 +525,7 @@ export default function Page() {
               <div id="6" className="md:pb-32"></div>
 
               <div className=" space-y-4 rounded-3xl border-p1-darkgreen p-6 pt-4 text-left text-base text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:border-4 md:text-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
-                <p className="text-center text-xl font-bold drop-shadow-2xl md:text-2xl">
-                  NFT Награды
-                </p>
+                <p className="text-center  text-2xl font-bold">NFT Награды</p>
                 <p className="text-left text-base md:text-xl">
                   Через функционал сайта мы предоставим организаторам (промоутерам) возможность
                   выхода на новый уровень организации мероприятий путем создания уникальных NFT
@@ -690,9 +688,7 @@ export default function Page() {
           <div className="text-p1-darkgreen md:basis-4/6">
             <div>
               <div className=" my-5 mt-8 space-y-4 rounded-3xl border-p1-darkgreen p-6 text-left text-base text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:border-4 md:text-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
-                <p className=" text-center text-xl font-bold drop-shadow-2xl md:text-2xl">
-                  Уникальные привилегии
-                </p>
+                <p className=" text-center text-2xl font-bold ">Уникальные привилегии</p>
                 <p className="text-left text-base md:text-xl">
                   Предоставляем нашим членам эксклюзивные бонусы:
                 </p>
@@ -708,9 +704,7 @@ export default function Page() {
               </div>
 
               <div className="my-10  space-y-4 rounded-3xl border-p1-darkgreen p-6 text-left text-base text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:border-4 md:text-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
-                <p className="text-center text-xl font-bold drop-shadow-2xl md:text-2xl">
-                  Собственные мероприятия
-                </p>
+                <p className="text-center  text-2xl  font-bold">Собственные мероприятия</p>
                 <p className="text-left text-base md:text-xl">
                   Организуем награждения на таких мероприятиях, как дрифт, гонки, автовыставки.
                 </p>
@@ -724,7 +718,7 @@ export default function Page() {
                 </p>
               </div>
 
-              <div className=" my-10  space-y-4 rounded-3xl border-p1-darkgreen p-6 text-left text-base text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:border-4 md:text-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
+              <div className="my-10  space-y-4 rounded-3xl border-p1-darkgreen p-6 text-left text-base text-p1-darkgreen hover:border-p2-orange hover:shadow-xl md:border-4 md:text-xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
                 <p className="text-center text-2xl font-bold">Децентрализованный портал</p>
                 <p className="text-left text-base md:text-xl">Запускаем сайт, где каждый сможет:</p>
                 <ul className="list-disc space-y-3 px-5">
