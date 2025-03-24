@@ -235,7 +235,7 @@ export default function Home() {
                         className="size-10 transition-all duration-300 ease-in-out hover:scale-125"
                         width={480}
                         height={480}
-                        src="/Icon/traits_green.png"
+                        src="/Icon/Traits_green.png"
                         alt="ph"
                       />
                     </div>
@@ -1543,7 +1543,7 @@ export default function Home() {
                         className="size-10 transition-all duration-300 ease-in-out hover:scale-125"
                         width={480}
                         height={480}
-                        src="/Icon/offers_green.png"
+                        src="/Icon/Offers_green.png"
                         alt="ph"
                       />
                     </div>
