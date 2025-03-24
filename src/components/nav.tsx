@@ -313,7 +313,7 @@ function Nav() {
                         className="size-6 self-center"
                         width={480}
                         height={480}
-                        src="/icon/benefit.png"
+                        src="/Icon/benefit.png"
                         alt="benefit"
                       />
 
@@ -326,7 +326,7 @@ function Nav() {
                         className="size-6 self-center"
                         width={480}
                         height={480}
-                        src="/Icon/terms.png"
+                        src="/Icon/Terms.png"
                         alt="terms"
                       />
                       <div className="self-center px-2">{t('terms')}</div>
@@ -338,7 +338,7 @@ function Nav() {
                         className="size-6 self-center"
                         width={480}
                         height={480}
-                        src="/icon/confidential1.png"
+                        src="/Icon/confidential1.png"
                         alt="confidential"
                       />
                       <div className="self-center px-2">{t('confidentiality')}</div>
@@ -362,7 +362,7 @@ function Nav() {
                         className="size-6 self-center"
                         width={480}
                         height={480}
-                        src="/Icon/team.png"
+                        src="/Icon/Team.png"
                         alt="team"
                       />
                       <div className="self-center px-2">{t('team')}</div>
