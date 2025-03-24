@@ -135,7 +135,7 @@ export default function Page() {
       <div className="text-p1-darkgreen drop-shadow-2xl md:text-3xl dark:text-p1-green dark:hover:border-p1-green dark:hover:text-p1-cyan">
         <div className="flex flex-row justify-center  p-2">
           <div className="md:basis-5">
-            <div id="1" className="p-2 text-center  text-4xl font-bold ">
+            <div id="1" className="p-2 text-center  text-4xl font-bold">
               Our ambitious goals:
             </div>
           </div>

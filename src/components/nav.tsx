@@ -292,7 +292,7 @@ function Nav() {
               />
             </Link>
           </div>
-          <div className="group relative  inline-block place-items-start 2xl:hidden ">
+          <div className="group relative  inline-block place-items-start 2xl:hidden">
             <div className="mx-auto justify-center">
               <Image
                 className="size-8 rounded-full p-1 ring-p1-green transition-all delay-75 duration-100 ease-in-out hover:bg-p1-white/50 hover:ring-2 hover:ring-p1-cyan dark:ring-p1-darkgreen dark:hover:bg-p1-deepdarkgreen"

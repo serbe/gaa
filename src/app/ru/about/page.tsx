@@ -139,7 +139,7 @@ export default function Page() {
         <div>
           <div className="sticky top-16 flex flex-row justify-center bg-p1-white  dark:bg-p1-deepdarkgreen">
             <div className="md:basis-5">
-              <div id="1" className="py-4 text-center  text-4xl font-bold ">
+              <div id="1" className="py-4 text-center  text-4xl font-bold">
                 Наши амбициозные планы
               </div>
             </div>

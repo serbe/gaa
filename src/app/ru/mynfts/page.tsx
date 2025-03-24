@@ -824,7 +824,7 @@ export default function Home() {
                           <option value="Official_Sponsor">Официальный спонсор</option>
                           <option value="Sponsor_participant">Спонсор участник</option>
                           <option value="Information_Sponsor">Информационный спонсор</option>
-                          <option value="Barter_sponsor ">Бартерный спонсор</option>
+                          <option value="Barter_sponsor">Бартерный спонсор</option>
                         </select>
                       </form>
                       <label
