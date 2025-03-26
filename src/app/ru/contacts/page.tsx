@@ -7,7 +7,7 @@ import { useState } from 'react';
 export default function Page() {
   const [check, setCheck] = useState(false);
   const jumpPoints = ['1', '2', '3'];
-  useFavicon('/Logo/letter.png ');
+  useFavicon('/icon/letter_green.png ');
 
   return (
     <div className="mx-auto max-w-7xl font-serif">

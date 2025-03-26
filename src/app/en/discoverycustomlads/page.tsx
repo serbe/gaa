@@ -2,13 +2,15 @@
 import Image from 'next/image';
 import { JumpButton } from '@/components/jumpButton';
 import { Link } from '@/i18n/routing';
+import { useFavicon } from '@/utils/hooks';
 
 export default function Page() {
   const jumpPoints = ['1', '2', '3', '4'];
+  useFavicon('/Arrows/question.png ');
+
   return (
     <div className="mx-auto max-w-7xl font-serif">
       <JumpButton points={jumpPoints} />
-
       {/* //CustomLads discovery*/}
       <div className="flex flex-wrap justify-center self-center md:flex-nowrap md:justify-between">
         <div className="px-2 text-xl font-semibold text-p1-darkgreen md:pt-2 md:text-3xl dark:text-p1-green">

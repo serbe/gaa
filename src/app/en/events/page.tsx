@@ -1,8 +1,11 @@
 'use client';
 import Image from 'next/image';
 import { Link } from '@/i18n/routing';
+import { useFavicon } from '@/utils/hooks';
 
 export default function Page() {
+  useFavicon('/Logo/GAA_Logo_1.png ');
+
   return (
     <div className="mx-auto max-w-7xl">
       <div className="flex flex-row p-2">

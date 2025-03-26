@@ -3,6 +3,7 @@
 import Image from 'next/image';
 import { Link } from '@/i18n/routing';
 import { JumpButton } from '@/components/jumpButton';
+import { useFavicon } from '@/utils/hooks';
 
 export default function Page() {
   const jumpPoints = [
@@ -22,6 +23,7 @@ export default function Page() {
     '14',
     '15',
   ];
+  useFavicon('/Logo/GAA_Logo_1.png ');
 
   return (
     <div className="mx-auto max-w-7xl font-serif">

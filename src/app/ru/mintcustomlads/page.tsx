@@ -4,6 +4,7 @@ import Image from 'next/image';
 import { useState } from 'react';
 import { Mousewheel, Pagination } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
+import { useFavicon } from '@/utils/hooks';
 
 // Import Swiper styles
 import 'swiper/css';
@@ -14,6 +15,7 @@ import 'swiper/css/scrollbar';
 export default function Page() {
   const [value, setValue] = useState('1');
   const jumpPoints = ['1', '2'];
+  useFavicon('/Icon/Collectors.png ');
 
   return (
     <div className="mx-auto max-w-7xl font-serif">

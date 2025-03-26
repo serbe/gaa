@@ -1,6 +1,6 @@
 'use client';
-
 import { useGaaStore } from '@/context/gaa-store-provider';
+import { useFavicon } from '@/utils/hooks';
 import Image from 'next/image';
 import { Suspense, useState } from 'react';
 
@@ -11,6 +11,7 @@ const Buttons = ({
   license: number;
   setter: (licenseNumber: number) => void;
 }) => {
+  useFavicon('/Licenses/Management.png');
   return (
     <div className="inline-flex space-x-1 rounded-md font-serif shadow-xs" role="group">
       <button

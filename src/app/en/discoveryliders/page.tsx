@@ -1,13 +1,14 @@
 'use client';
-
 import { JumpButton } from '@/components/jumpButton';
 import { useGaaStore } from '@/context/gaa-store-provider';
 import { Link } from '@/i18n/routing';
+import { useFavicon } from '@/utils/hooks';
 import Image from 'next/image';
 import { useLayoutEffect } from 'react';
 
 const Buttons = ({ lider, setter }: { lider: number; setter: (liderNumber: number) => void }) => {
   const jumpPoints = ['1', '2'];
+  useFavicon('/Icon/Drivers.png ');
 
   return (
     <div className="inline-flex w-full justify-self-center rounded-md pt-5 shadow-xs" role="group">

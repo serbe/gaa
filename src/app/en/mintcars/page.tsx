@@ -1,5 +1,6 @@
 'use client';
 import { JumpButton } from '@/components/jumpButton';
+import { useFavicon } from '@/utils/hooks';
 import Image from 'next/image';
 import { useState } from 'react';
 
@@ -7,6 +8,7 @@ export default function Page() {
   const [value, setValue] = useState('0');
   const [check, setCheck] = useState(false);
   const jumpPoints = ['1', '2', '3'];
+  useFavicon('/Cars/Oldtimer2.png ');
 
   return (
     <div className="mx-auto max-w-7xl font-serif">

@@ -2,6 +2,7 @@
 import { Link } from '@/i18n/routing';
 import Image from 'next/image';
 import { useState } from 'react';
+import { useFavicon } from '@/utils/hooks';
 
 // Import Swiper styles
 import 'swiper/css';
@@ -11,6 +12,7 @@ import 'swiper/css/scrollbar';
 
 export default function Home() {
   const [currentVisibleArea, setCurrentVisibleArea] = useState(5);
+  useFavicon('/Arrows/question.png ');
 
   return (
     <div className="mx-auto max-w-7xl font-serif">

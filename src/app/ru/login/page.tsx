@@ -4,6 +4,8 @@ import { Link, useRouter } from '@/i18n/routing';
 import { sendLogin } from '@/utils/api';
 import { useSetCookie } from 'cookies-next/client';
 import { useState } from 'react';
+import { useFavicon } from '@/utils/hooks';
+
 // import useSWR from 'swr';
 
 export default function Login() {
@@ -27,6 +29,7 @@ export default function Login() {
       // setError('Invalid credentials');
     }
   };
+  useFavicon('/Logo/user.png ');
 
   return (
     <div className="h-screen bg-[url('/background/bgsky.png')] bg-cover bg-center p-2 dark:brightness-75">

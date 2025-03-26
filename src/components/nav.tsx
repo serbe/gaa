@@ -350,10 +350,10 @@ function Nav() {
                         className="size-6 self-center"
                         width={480}
                         height={480}
-                        src="/Icon/lernweb3.png"
-                        alt="lernweb3"
+                        src="/Icon/learnweb3.png"
+                        alt="learnweb3"
                       />
-                      <div className="self-center px-2">{t('lernweb3')}</div>
+                      <div className="self-center px-2">{t('learnweb3')}</div>
                     </Link>
                   </div>
                   <div className="border-b border-p1-darkgreen p-1 py-2 text-base text-p1-darkgreen transition-all delay-100 duration-300 ease-in-out hover:bg-p1-white/20 hover:pl-3 hover:text-p1-darkgreen dark:border-p1-deepdarkgreen dark:text-p1-green dark:hover:text-p1-cyan">

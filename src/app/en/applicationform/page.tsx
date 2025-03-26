@@ -1,9 +1,11 @@
 'use client';
 import Image from 'next/image';
 import { useState } from 'react';
+import { useFavicon } from '@/utils/hooks';
 
 export default function Page() {
   const [check, setCheck] = useState(false);
+  useFavicon('/icon/letter_green.png ');
 
   return (
     <div className="mx-auto max-w-7xl font-serif">

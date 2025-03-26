@@ -1,5 +1,5 @@
 'use client';
-
+import { useFavicon } from '@/utils/hooks';
 import { JumpButton } from '@/components/jumpButton';
 export default function Page() {
   const jumpPoints = [
@@ -19,6 +19,8 @@ export default function Page() {
     '14',
     '15',
   ];
+  useFavicon('/icon/terms.png ');
+
   return (
     <div className="mx-auto flex max-w-7xl font-serif">
       <JumpButton points={jumpPoints} />

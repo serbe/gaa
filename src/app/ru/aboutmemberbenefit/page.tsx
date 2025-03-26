@@ -1,9 +1,11 @@
 'use client';
-
+import { useFavicon } from '@/utils/hooks';
 import { JumpButton } from '@/components/jumpButton';
 
 export default function Page() {
   const jumpPoints = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10'];
+  useFavicon('/icon/benefit.png ');
+
   return (
     <div className="mx-auto max-w-7xl font-serif">
       <JumpButton points={jumpPoints} />

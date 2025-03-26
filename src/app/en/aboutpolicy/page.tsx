@@ -1,4 +1,5 @@
 'use client';
+import { useFavicon } from '@/utils/hooks';
 import { JumpButton } from '@/components/jumpButton';
 
 export default function Page() {
@@ -20,6 +21,7 @@ export default function Page() {
     '15',
     '16',
   ];
+  useFavicon('/icon/confidential.png ');
 
   return (
     <div className="mx-auto flex max-w-7xl font-serif">

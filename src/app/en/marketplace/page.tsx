@@ -2,7 +2,7 @@
 
 import { JumpButton } from '@/components/jumpButton';
 import { Link } from '@/i18n/routing';
-import { useWindowDimensions } from '@/utils/hooks';
+import { useFavicon, useWindowDimensions } from '@/utils/hooks';
 import Image from 'next/image';
 import { useState } from 'react';
 import { Autoplay, Mousewheel, Navigation } from 'swiper/modules';
@@ -21,6 +21,7 @@ export default function Home() {
   const jumpPoints = ['1', '2', '3'];
   const { width } = useWindowDimensions();
   const cardWidth = 288;
+  useFavicon('/background/bgsky.png ');
 
   return (
     <div className="mx-auto w-full font-serif">

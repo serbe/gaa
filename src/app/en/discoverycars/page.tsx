@@ -1,13 +1,14 @@
 'use client';
-
 import { JumpButton } from '@/components/jumpButton';
 import { useGaaStore } from '@/context/gaa-store-provider';
 import { Link } from '@/i18n/routing';
+import { useFavicon } from '@/utils/hooks';
 import Image from 'next/image';
 
 export default function Page() {
   const [{ setLider }] = useGaaStore((state) => state);
   const jumpPoints = ['1', '2'];
+  useFavicon('/Cars/Oldtimer2.png ');
 
   return (
     <div className="mx-auto max-w-7xl font-serif">
