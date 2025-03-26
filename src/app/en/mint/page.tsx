@@ -1,8 +1,8 @@
 'use client';
-
 import { JumpButton } from '@/components/jumpButton';
 import { useGaaStore } from '@/context/gaa-store-provider';
 import { Link } from '@/i18n/routing';
+import { useFavicon } from '@/utils/hooks';
 import Image from 'next/image';
 import { useLayoutEffect } from 'react';
 
@@ -13,6 +13,7 @@ export default function Page() {
   useLayoutEffect(() => {
     void gaaStore.persist.rehydrate();
   }, [gaaStore.persist]);
+  useFavicon('/Icon/RaceLads.png');
 
   return !gaaStore.persist.hasHydrated() ? (
     'Loading...'
@@ -58,8 +59,7 @@ export default function Page() {
           <div className="pb-4 md:pt-4"></div>
         </div>
       </div>
-      <div className="md:h-96"> </div>
-      <div className="h-14"></div>
+      <div className="h-10"></div>
 
       {/* //Лидеры движений */}
       <div
@@ -186,8 +186,7 @@ export default function Page() {
           </div>
         </div>
       </div>
-      <div className="md:h-96"> </div>
-      <div className="h-14"></div>
+      <div className="h-10"></div>
 
       {/* // CustomLads */}
 
@@ -235,8 +234,7 @@ export default function Page() {
           <div className="py-4"></div>
         </div>
       </div>
-      <div className="md:h-96"> </div>
-      <div className="h-14"></div>
+      <div className="h-10"></div>
       {/* //Награды */}
 
       <div
@@ -275,8 +273,7 @@ export default function Page() {
           <div className="py-4"></div>
         </div>
       </div>
-      <div className="md:h-96"> </div>
-      <div className="h-14"></div>
+      <div className="h-10"></div>
 
       {/* //Лицензии */}
       <div
@@ -387,8 +384,7 @@ export default function Page() {
           <div className="pb-4"></div>
         </div>
       </div>
-      <div className="md:pb-96"></div>
-      <div className="md:pb-14"></div>
+      <div className="md:pb-32"></div>
     </div>
   );
 }
