@@ -16,7 +16,7 @@ import 'swiper/css/scrollbar';
 export default function Home() {
   const [check, setCheck] = useState(false);
   const [visibleArea1, setVisibleArea1] = useState(true);
-  const [currentVisibleArea, setCurrentVisibleArea] = useState(2);
+  const [currentVisibleArea, setCurrentVisibleArea] = useState(8);
   const jumpPoints = ['1', '2', '3'];
   const { width } = useWindowDimensions();
   const cardWidth = 288;
@@ -585,7 +585,7 @@ export default function Home() {
                 >
                   <button
                     data-target="area4"
-                    className="inline-block w-max place-content-center rounded-l-xl border bg-p1-white px-1 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen/15 hover:bg-p1-cyan/25 hover:text-p1-darkgreen focus:border-p1-darkgreen/20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                    className="inline-block w-max place-content-center rounded-l-xl border bg-p1-white px-2 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen/15 hover:bg-p1-cyan/25 hover:text-p1-darkgreen focus:border-p1-darkgreen/20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
                     id="toggleButton4"
                     onClick={() => {
                       setCurrentVisibleArea(4);
@@ -595,13 +595,13 @@ export default function Home() {
                   </button>
                   <Link
                     href="#"
-                    className="inline-block w-max place-content-center border bg-p1-white px-1 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen/15 hover:bg-p1-cyan/25 hover:text-p1-darkgreen focus:border-p1-darkgreen/20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                    className="inline-block w-max place-content-center border bg-p1-white px-2 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen/15 hover:bg-p1-cyan/25 hover:text-p1-darkgreen focus:border-p1-darkgreen/20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
                   >
                     Предложения
                   </Link>
                   <button
                     data-target="area7"
-                    className="inline-block w-max place-content-center border bg-p1-white px-1 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen/15 hover:bg-p1-cyan/25 hover:text-p1-darkgreen focus:border-p1-darkgreen/20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                    className="inline-block w-max place-content-center border  bg-p1-white px-2 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen/15 hover:bg-p1-cyan/25 hover:text-p1-darkgreen focus:border-p1-darkgreen/20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
                     id="toggleButton7"
                     onClick={() => {
                       setCurrentVisibleArea(7);
@@ -612,7 +612,7 @@ export default function Home() {
 
                   <button
                     data-target="area9"
-                    className="inline-block w-max place-content-center border bg-p1-white px-1 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen/15 hover:bg-p1-cyan/25 hover:text-p1-darkgreen focus:border-p1-darkgreen/20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                    className="inline-block w-max place-content-center rounded-r-xl md:rounded-none border bg-p1-white px-2 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen/15 hover:bg-p1-cyan/25 hover:text-p1-darkgreen focus:border-p1-darkgreen/20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
                     id="toggleButton9"
                     onClick={() => {
                       setCurrentVisibleArea(9);
@@ -621,7 +621,7 @@ export default function Home() {
                     Активность
                   </button>
 
-                  <form className="inline-block w-max place-content-center rounded-r-xl border bg-p1-white px-1 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen/15 hover:bg-p1-cyan/25 hover:text-p1-darkgreen focus:border-p1-darkgreen/20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan">
+                  <form className="hidden xl:block  w-max place-content-center rounded-r-xl border bg-p1-white px-2 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen/15 hover:bg-p1-cyan/25 hover:text-p1-darkgreen focus:border-p1-darkgreen/20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan">
                     <label htmlFor="price" className="block"></label>
                     <select
                       id="price"
@@ -651,26 +651,26 @@ export default function Home() {
                 >
                   <Link
                     href="#"
-                    className="inline-block w-max place-content-center rounded-l-xl border bg-p1-white px-1 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen/15 hover:bg-p1-cyan/25 hover:text-p1-darkgreen focus:border-p1-darkgreen/20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                    className="inline-block w-max place-content-center rounded-l-xl border bg-p1-white px-2 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen/15 hover:bg-p1-cyan/25 hover:text-p1-darkgreen focus:border-p1-darkgreen/20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
                   >
                     Все
                   </Link>
                   <Link
                     href="#"
-                    className="inline-block w-max place-content-center border bg-p1-white px-1 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen/15 hover:bg-p1-cyan/25 hover:text-p1-darkgreen focus:border-p1-darkgreen/20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                    className="inline-block w-max place-content-center border bg-p1-white px-2 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen/15 hover:bg-p1-cyan/25 hover:text-p1-darkgreen focus:border-p1-darkgreen/20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
                   >
                     В продаже
                   </Link>
                   <Link
                     href="#"
-                    className="inline-block w-max place-content-center border bg-p1-white px-1 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen/15 hover:bg-p1-cyan/25 hover:text-p1-darkgreen focus:border-p1-darkgreen/20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                    className="inline-block w-max place-content-center rounded-r-xl xl:rounded-none border bg-p1-white px-2 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen/15 hover:bg-p1-cyan/25 hover:text-p1-darkgreen focus:border-p1-darkgreen/20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
                   >
                     На аукционе
                   </Link>
 
                   <Link
                     href="#"
-                    className="inline-block w-max place-content-center rounded-r-xl border bg-p1-white px-1 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen/15 hover:bg-p1-cyan/25 hover:text-p1-darkgreen focus:border-p1-darkgreen/20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
+                    className="hidden xl:inline-block w-max place-content-center rounded-r-xl border bg-p1-white px-2 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p1-darkgreen/15 hover:bg-p1-cyan/25 hover:text-p1-darkgreen focus:border-p1-darkgreen/20 focus:bg-p1-cyan focus:text-p1-white md:text-xl lg:px-2 xl:px-3 2xl:px-4 dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p1-cyan dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p1-cyan"
                   >
                     Имеющие предложения
                   </Link>
@@ -682,11 +682,11 @@ export default function Home() {
           {/* иконки ... */}
 
           <div className="grid grid-cols-2 justify-between p-1">
-            <div className="flex justify-start space-x-1 md:px-10">
+            <div className="  flex justify-start space-x-1 md:px-10">
               <div>
                 <button
                   data-target="area1"
-                  className="mx-auto justify-start rounded-sm transition-all delay-75 duration-100 ease-in-out hover:bg-p1-cyan/50 hover:shadow-lg focus:shadow-lg dark:shadow-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:brightness-90"
+                  className="mx-auto hidden md:block justify-start rounded-sm transition-all delay-75 duration-100 ease-in-out hover:bg-p1-cyan/50 hover:shadow-lg focus:shadow-lg dark:shadow-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:brightness-90"
                   onClick={() => {
                     setVisibleArea1(!visibleArea1);
                   }}
@@ -700,12 +700,12 @@ export default function Home() {
                   />
                 </button>
               </div>
-              <span className="relative flex size-3 pt-4">
+              <span className="relative hidden md:block flex size-3 pt-4">
                 <span className="absolute inline-flex size-full animate-ping rounded-full bg-p1-green opacity-75"></span>
                 <span className="relative inline-flex size-3 rounded-full bg-p1-green"></span>
               </span>
               <div className="flex grid-flow-row auto-rows-max justify-start space-x-2"></div>
-              <div className="place-content-center">
+              <div className="hidden md:block place-content-center">
                 <Link href="#" className="text-sm text-p1-darkgreen md:text-xl dark:text-p1-green">
                   Результат поиска: 100
                 </Link>
@@ -714,7 +714,7 @@ export default function Home() {
 
             <div className="flex justify-end md:px-10">
               <div className="inline-flex w-full justify-end rounded-md" role="group">
-                <div className="w-10">
+                <div className="w-10 invisible md:visible">
                   <button
                     data-target="area2"
                     className="mx-auto justify-start rounded-sm transition-all delay-75 duration-100 ease-in-out hover:bg-p1-cyan/50 hover:shadow-lg focus:bg-p1-cyan/50 focus:shadow-lg focus:hover:shadow-lg dark:shadow-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:brightness-90 dark:focus:brightness-90"
@@ -750,7 +750,7 @@ export default function Home() {
                     />
                   </button>
                 </div>
-                <div className="w-10">
+                <div className="md:w-10 hidden md:block">
                   <button
                     data-target="area4"
                     className="mx-auto justify-start rounded-sm transition-all delay-75 duration-100 ease-in-out hover:bg-p1-cyan/50 hover:shadow-lg focus:bg-p1-cyan/50 focus:shadow-lg focus:hover:shadow-lg dark:shadow-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:brightness-90 dark:focus:brightness-90"
@@ -768,7 +768,7 @@ export default function Home() {
                     />
                   </button>
                 </div>
-                <div className="w-10">
+                <div className="md:w-10 hidden md:block">
                   <button
                     data-target="area5"
                     className="mx-auto justify-start rounded-sm transition-all delay-75 duration-100 ease-in-out hover:bg-p1-cyan/50 hover:shadow-lg focus:bg-p1-cyan/50 focus:shadow-lg focus:hover:shadow-lg dark:shadow-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:brightness-90 dark:focus:brightness-90"
@@ -786,7 +786,7 @@ export default function Home() {
                     />
                   </button>
                 </div>
-                <div className="w-10">
+                <div className="md:w-10 hidden md:block ">
                   <button
                     data-target="area6"
                     className="mx-auto justify-start rounded-sm transition-all delay-75 duration-100 ease-in-out hover:bg-p1-cyan/50 hover:shadow-lg focus:bg-p1-cyan/50 focus:shadow-lg focus:hover:shadow-lg dark:shadow-p1-cyan dark:ring-p1-darkgreen dark:brightness-50 dark:hover:brightness-90 dark:focus:brightness-90"
@@ -832,7 +832,7 @@ export default function Home() {
           {/* ... левый блок */}
           <div
             id="area1"
-            className={`min-h-screen w-3/12 gap-2 pt-2 ${visibleArea1 == true ? '' : 'hidden'}`}
+            className={`hidden md:block min-h-screen w-3/12 gap-2 pt-2 ${visibleArea1 == true ? '' : 'hidden'}`}
           >
             <div className="w-full snap-start border-b border-p1-green/30 bg-p1-white text-xl text-p1-darkgreen hover:border-p1-green hover:bg-p1-green/5 dark:bg-p1-deepdarkgreen">
               <details className="transition-all delay-75 duration-300 ease-in-out">
@@ -3417,10 +3417,10 @@ export default function Home() {
 
             {/* ...Строки  Таблица Activity*/}
             <div id="area9" className={` ${currentVisibleArea == 9 ? '' : 'hidden'}`}>
-              <div className="columns-1 gap-24 md:columns-2 dark:border-p1-green">
+              <div className="columns-1 gap-24 xl:columns-2 dark:border-p1-green">
                 <div className="relative sm:rounded-lg">
                   <table className="text-left text-xl text-p1-darkgreen dark:text-p1-green">
-                    <thead className="sticky top-0 border-b-2 border-p1-green/20 bg-p1-white text-xs text-p1-darkgreen uppercase dark:bg-p1-deepdarkgreen dark:text-p1-green">
+                    <thead className=" sticky top-0 border-b-2 border-p1-green/20 bg-p1-white text-xs text-p1-darkgreen uppercase dark:bg-p1-deepdarkgreen dark:text-p1-green">
                       <tr>
                         <th scope="col" className="p-2">
                           Rank
