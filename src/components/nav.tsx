@@ -57,7 +57,7 @@ function Nav() {
       className={`${menuDrop ? 'block' : 'hidden'} w-full items-center justify-between 2xl:flex 2xl:w-auto`}
       id="navbar-user"
     >
-      <ul className="mt-4 flex  flex-col rounded-lg border border-gray-100 bg-gray-50 p-4 font-medium text-nowrap md:mt-0 md:flex-row md:space-x-8 md:border-0 md:bg-white md:p-0 dark:border-gray-700 dark:bg-p1-deepdarkgreen md:dark:bg-p1-deepdarkgreen">
+      <ul className="mt-4 flex flex-col  justify-center rounded-lg border border-gray-100 bg-gray-50 p-4 font-medium text-nowrap md:mt-0 md:flex-row md:space-x-8 md:border-0 md:bg-white md:p-0 dark:border-gray-700 dark:bg-p1-deepdarkgreen md:dark:bg-p1-deepdarkgreen">
         {menuItems.map(({ name, url }) => (
           <li key={name}>
             <Link
@@ -127,7 +127,7 @@ function Nav() {
             height={32}
           />
 
-          <div className="group-hover:border-opacity-70 group-hover:bg-opacity-30 invisible absolute left-9 z-10 m-0.5 mt-2 -translate-x-1/2 rounded-xl bg-p1-white/30 text-nowrap text-gray-800 opacity-0 backdrop-blur-lg transition-all duration-100 group-hover:visible group-hover:opacity-100 dark:bg-p1-deepdarkgreen/80">
+          <div className="group-hover:border-opacity-70 group-hover:bg-opacity-30 invisible absolute left-9 z-10 m-0.5 mt-2 -translate-x-1/2 rounded-xl bg-p1-white/70 text-nowrap text-gray-800 opacity-0 backdrop-blur-lg transition-all duration-100 group-hover:visible group-hover:opacity-100 dark:bg-p1-deepdarkgreen/80">
             <div className="rounded-md">
               <div className="border-b border-p1-darkgreen p-1 text-base text-p1-darkgreen transition-all delay-100 duration-300 ease-in-out hover:bg-p1-white/20 hover:text-p1-darkgreen dark:border-p1-deepdarkgreen dark:text-p1-green dark:hover:text-p1-cyan">
                 <div className="px-4 py-3">
@@ -302,7 +302,7 @@ function Nav() {
                 height={32}
               />
 
-              <div className="group-click:border-opacity-70  group-hover:bg-opacity-30 invisible absolute left-9 z-10 m-0.5 mt-2 w-80 -translate-x-1/2 rounded-xl bg-p1-white/30 text-nowrap text-gray-800 opacity-0 backdrop-blur-lg transition-all duration-100 group-hover:visible group-hover:opacity-100 dark:bg-p1-deepdarkgreen/80">
+              <div className="group-click:border-opacity-70  group-hover:bg-opacity-30 invisible absolute left-9 z-10 m-0.5 mt-2 w-80 -translate-x-1/5 rounded-xl bg-p1-white/70 text-nowrap text-gray-800 opacity-0 backdrop-blur-lg transition-all duration-100 group-hover:visible group-hover:opacity-100 dark:bg-p1-deepdarkgreen/80">
                 <div className="rounded-md">
                   <div className="border-b border-p1-darkgreen p-1 py-2 text-base text-p1-darkgreen transition-all delay-100 duration-300 ease-in-out hover:bg-p1-white/20 hover:pl-3 hover:text-p1-darkgreen dark:border-p1-deepdarkgreen dark:text-p1-green dark:hover:text-p1-cyan">
                     <Link
