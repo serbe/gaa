@@ -1,7 +1,6 @@
 'use client';
-
 import { Link } from '@/i18n/routing';
-import Image from 'next/image';
+import { useFavicon } from '@/utils/hooks';
 
 // Import Swiper styles
 import 'swiper/css';
@@ -10,218 +9,196 @@ import 'swiper/css/pagination';
 import 'swiper/css/scrollbar';
 
 export default function Home() {
+  useFavicon('/Arrows/question.png ');
+
   return (
     <div className="mx-auto max-w-7xl font-serif">
       <div className="flex flex-wrap justify-center self-center md:flex-nowrap md:justify-between">
         <div className="px-2 text-xl font-semibold text-p2-orange md:pt-2 md:text-3xl">
           Racepoint
         </div>
-        <div className="px-2 text-xl font-semibold text-p2-orange md:pt-2 md:text-3xl">QUIZ</div>
-      </div>
-      <div className="flex flex-wrap justify-between self-center md:flex-nowrap">
-        <div className="w-1/5 md:w-1/12">
-          <Link href="/quize1" className="mx-auto justify-center rounded-3xl">
-            <Image
-              className="relative mb-4 inline-block w-max rounded-3xl opacity-85 transition-all delay-75 duration-500 ease-in-out hover:scale-105 hover:opacity-100"
-              width={1000}
-              height={1000}
-              src="/Arrows/Prev.png"
-              alt="prev"
-            />
-          </Link>
-        </div>
-        <div className="px-2 text-xl font-semibold text-p2-orange md:pt-2 md:text-3xl"></div>
-        <div className="px-2 text-xl font-semibold text-p2-orange md:pt-2 md:text-3xl"></div>
-        <div className="w-1/5 md:w-1/12">
-          <Link href="/quize3" className="mx-auto justify-center rounded-3xl">
-            <Image
-              className="relative mb-4 inline-block w-max rounded-3xl opacity-85 transition-all delay-75 duration-500 ease-in-out hover:scale-105 hover:opacity-100"
-              width={1000}
-              height={1000}
-              src="/Arrows/Next.png"
-              alt="next"
-            />
-          </Link>
+        <div className="px-2 text-xl font-semibold text-p2-orange md:pt-2 md:text-3xl">
+          QUESTIONS
         </div>
       </div>
-
-      <div className="px-2 text-center text-xl font-semibold text-p2-orange md:-mt-32 md:pt-2 md:text-3xl">
+      <div className="flex flex-row justify-center"></div>
+      <div className="px-2 text-center text-xl font-semibold text-p2-orange md:-mt-8 md:pt-2 md:text-3xl">
         Автоспорт, автокультура
       </div>
-
       <div className="flex flex-row justify-center">
         <div className="md:w-3/5">
           <div className="place-items-center rounded-3xl border-p2-orange p-2 md:border-4">
             <div className="text-center font-serif text-base text-p1-darkgreen md:text-2xl dark:text-p2-orange">
-              Какое отношение Вы имеете к автоспорту, автокультуре?
+              Какое направлениt автоспорта, автокультуры
+              <p className="text-center font-serif">Вам больше всего нравится?</p>
             </div>
-
             <div className="pb-2 md:pb-5"></div>
-            <ul className="w-full rounded-lg border border-gray-200 bg-p1-white font-medium text-gray-900 accent-p2-orange dark:border-gray-600 dark:bg-p1-deepdarkgreen dark:text-white">
+            <ul className="w-full rounded-lg border border-gray-200 bg-p1-white font-medium text-gray-900 accent-p2-orange md:grid md:grid-cols-2 dark:border-gray-600 dark:bg-p1-deepdarkgreen dark:text-white">
               <li className="w-full rounded-t-lg border-b border-gray-200 dark:border-gray-600">
                 <div className="flex items-center ps-3">
                   <input
-                    id="list-radio-eleven"
+                    id="list-radio-one"
                     type="radio"
                     value=""
                     name="list-radio"
                     className="size-7"
                   />
                   <label
-                    htmlFor="list-radio-eleven"
+                    htmlFor="list-radio-one"
                     className="ms-4 w-full py-3 font-serif text-base text-p1-darkgreen md:text-lg dark:text-gray-300"
                   >
-                    Я зритель, автоспорт смотрю по телевизору, интернету
+                    Дрифт
                   </label>
                 </div>
               </li>
               <li className="w-full rounded-t-lg border-b border-gray-200 dark:border-gray-600">
                 <div className="flex items-center ps-3">
                   <input
-                    id="list-radio-twelve"
+                    id="list-radio-two"
                     type="radio"
                     value=""
                     name="list-radio"
                     className="size-7"
                   />
                   <label
-                    htmlFor="list-radio-twelve"
+                    htmlFor="list-radio-two"
                     className="ms-4 w-full py-3 font-serif text-base text-p1-darkgreen md:text-lg dark:text-gray-300"
                   >
-                    Я Пилот автоспортивной команды
+                    Кузовные гонки
                   </label>
                 </div>
               </li>
               <li className="w-full rounded-t-lg border-b border-gray-200 dark:border-gray-600">
                 <div className="flex items-center ps-3">
                   <input
-                    id="list-radio-thirteen"
+                    id="list-radio-three"
                     type="radio"
                     value=""
                     name="list-radio"
                     className="size-7"
                   />
                   <label
-                    htmlFor="list-radio-thirteen"
+                    htmlFor="list-radio-three"
                     className="ms-4 w-full py-3 font-serif text-base text-p1-darkgreen md:text-lg dark:text-gray-300"
                   >
-                    Я участник автоспортивной команды
+                    Открытые колеса
                   </label>
                 </div>
               </li>
               <li className="w-full rounded-t-lg border-b border-gray-200 dark:border-gray-600">
                 <div className="flex items-center ps-3">
                   <input
-                    id="list-radio-fourteen"
+                    id="list-radio-four"
                     type="radio"
                     value=""
                     name="list-radio"
                     className="size-7"
                   />
                   <label
-                    htmlFor="list-radio-fourteen"
+                    htmlFor="list-radio-four"
                     className="ms-4 w-full py-3 font-serif text-base text-p1-darkgreen md:text-lg dark:text-gray-300"
                   >
-                    Я организатор автоспортивных и автокультурных мероприятий
+                    Драгрэйсинг
                   </label>
                 </div>
               </li>
               <li className="w-full rounded-t-lg border-b border-gray-200 dark:border-gray-600">
                 <div className="flex items-center ps-3">
                   <input
-                    id="list-radio-fifteen"
+                    id="list-radio-five"
                     type="radio"
                     value=""
                     name="list-radio"
                     className="size-7"
                   />
                   <label
-                    htmlFor="list-radio-fifteen"
+                    htmlFor="list-radio-five"
                     className="ms-4 w-full py-3 font-serif text-base text-p1-darkgreen md:text-lg dark:text-gray-300"
                   >
-                    У меня арендный бизнес спортивных автомобилей
+                    Стэнс
                   </label>
                 </div>
               </li>
               <li className="w-full rounded-t-lg border-b border-gray-200 dark:border-gray-600">
                 <div className="flex items-center ps-3">
                   <input
-                    id="list-radio-sixteen"
+                    id="list-radio-six"
                     type="radio"
                     value=""
                     name="list-radio"
                     className="size-7"
                   />
                   <label
-                    htmlFor="list-radio-sixteen"
+                    htmlFor="list-radio-six"
                     className="ms-4 w-full py-3 font-serif text-base text-p1-darkgreen md:text-lg dark:text-gray-300"
                   >
-                    Я спонсор автоспортивных и автокультурных мероприятий
+                    Ралли
                   </label>
                 </div>
               </li>
               <li className="w-full rounded-t-lg border-b border-gray-200 dark:border-gray-600">
                 <div className="flex items-center ps-3">
                   <input
-                    id="list-radio-seventeen"
+                    id="list-radio-seven"
                     type="radio"
                     value=""
                     name="list-radio"
                     className="size-7"
                   />
                   <label
-                    htmlFor="list-radio-seventeen"
+                    htmlFor="list-radio-seven"
                     className="ms-4 w-full py-3 font-serif text-base text-p1-darkgreen md:text-lg dark:text-gray-300"
                   >
-                    Я коллекционирую автомобили, участник авто мероприятий
+                    Авто Звук
                   </label>
                 </div>
               </li>
               <li className="w-full rounded-t-lg border-b border-gray-200 dark:border-gray-600">
                 <div className="flex items-center ps-3">
                   <input
-                    id="list-radio-eighteen"
+                    id="list-radio-eight"
                     type="radio"
                     value=""
                     name="list-radio"
                     className="size-7"
                   />
                   <label
-                    htmlFor="list-radio-eighteen"
+                    htmlFor="list-radio-eight"
                     className="ms-4 w-full py-3 font-serif text-base text-p1-darkgreen md:text-lg dark:text-gray-300"
                   >
-                    Мои дети занимаются автоспортом
+                    Олдтаймер
                   </label>
                 </div>
               </li>
               <li className="w-full rounded-t-lg border-b border-gray-200 dark:border-gray-600">
                 <div className="flex items-center ps-3">
                   <input
-                    id="list-radio-nineteen"
+                    id="list-radio-nine"
                     type="radio"
                     value=""
                     name="list-radio"
                     className="size-7"
                   />
                   <label
-                    htmlFor="list-radio-nineteen"
+                    htmlFor="list-radio-nine"
                     className="ms-4 w-full py-3 font-serif text-base text-p1-darkgreen md:text-lg dark:text-gray-300"
                   >
-                    Я коллекционирую NFT
+                    Симрэйсинг
                   </label>
                 </div>
               </li>
+              <li className="w-full rounded-t-lg border-b border-gray-200 dark:border-gray-600"></li>
               <li className="w-full rounded-t-lg border-b border-gray-200 dark:border-gray-600">
                 <div className="flex items-center ps-3">
                   <input
-                    id="list-radio-twenty"
+                    id="list-radio-ten"
                     type="radio"
                     value=""
                     name="list-radio"
                     className="size-7"
                   />
                   <label
-                    htmlFor="list-radio-twenty"
+                    htmlFor="list-radio-ten"
                     className="ms-4 w-full py-3 font-serif text-base text-p1-darkgreen md:text-lg dark:text-gray-300"
                   >
                     Другое
@@ -255,6 +232,49 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <div className="place-self-center ">
+        {' '}
+        <div className="inline-flex w-max flex-auto rounded-md pt-1 shadow-xs" role="group">
+          <Link
+            href="/quiz4"
+            className="inline-block w-full place-content-center rounded-l-xl border bg-p1-white px-4 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p2-orange/15 hover:bg-p2-orange/25 hover:text-p1-darkgreen focus:border-p2-orange/20 focus:bg-p2-orange focus:text-p1-white md:text-xl  dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p2-orange "
+          >
+            ❮
+          </Link>
+          <Link
+            href="/quiz1"
+            className="inline-block w-full place-content-center border  bg-p2-orange px-4 py-2 text-center text-p1-darkgreen text-p1-white shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p2-orange/15 hover:bg-p2-orange/25 hover:text-p1-darkgreen focus:border-p2-orange/20 focus:bg-p2-orange focus:text-p1-white md:text-xl  dark:border-p1-cyan dark:bg-p1-deepdarkgreen dark:text-p2-orange dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p2-orange dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p2-orange"
+          >
+            1
+          </Link>
+          <Link
+            href="/quiz2"
+            className="inline-block w-full place-content-center  border bg-p1-white px-4 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p2-orange/15 hover:bg-p2-orange/25 hover:text-p1-darkgreen focus:border-p2-orange/20 focus:bg-p2-orange focus:text-p1-white md:text-xl  dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p2-orange dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p2-orange"
+          >
+            2
+          </Link>
+          <Link
+            href="/quiz3"
+            className="inline-block w-full place-content-center  border bg-p1-white px-4 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p2-orange/15 hover:bg-p2-orange/25 hover:text-p1-darkgreen focus:border-p2-orange/20 focus:bg-p2-orange focus:text-p1-white md:text-xl  dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p2-orange dark:focus:border-p1-cyan dark:focus:bg-p1-deepdarkgreen dark:focus:text-p2-orange"
+          >
+            3
+          </Link>
+          <Link
+            href="/quiz4"
+            className="inline-block w-full place-content-center  border bg-p1-white px-4 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p2-orange/15 hover:bg-p2-orange/25 hover:text-p1-darkgreen focus:border-p2-orange/20 focus:bg-p2-orange focus:text-p1-white md:text-xl  dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p2-orange"
+          >
+            4
+          </Link>
+
+          <Link
+            href="quiz2"
+            className="inline-block w-full place-content-center rounded-r-xl border bg-p1-white px-4 py-2 text-center text-p1-darkgreen shadow-lg transition-all delay-75 duration-100 ease-in-out hover:border-p2-orange/15 hover:bg-p2-orange/25 hover:text-p1-darkgreen focus:border-p2-orange/20 focus:bg-p2-orange focus:text-p1-white md:text-xl  dark:border-p1-green dark:bg-p1-deepdarkgreen dark:text-p1-green dark:hover:border-p1-cyan dark:hover:bg-p1-deepdarkgreen dark:hover:text-p2-orange "
+          >
+            ❯
+          </Link>
+        </div>
+      </div>{' '}
+      <div className="pb-20"> </div>
     </div>
   );
 }
